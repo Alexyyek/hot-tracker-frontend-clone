@@ -9,6 +9,7 @@ const sourceSampleLimit = Number(process.env.SOURCE_SAMPLE_LIMIT ?? 2);
 const sourceSampleConcurrency = Number(process.env.SOURCE_SAMPLE_CONCURRENCY ?? 6);
 const arxivSourceName = "arXiv：Agent Harness / Auto-Research";
 const arxivSourceHostname = "arxiv.org";
+const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "http://hot.aiscl.work/data/feed.json";
 
 async function readAiSourceCatalog() {
   const source = await readFile("src/aiTopics.ts", "utf8");
@@ -62,6 +63,21 @@ async function fetchText(url) {
   }
 
   return response.text();
+}
+
+async function fetchAbsoluteJson(url) {
+  const response = await fetch(url, {
+    headers: {
+      Accept: "application/json",
+      "User-Agent": "AI-Hot-Tracker-GitHub-Actions/1.0"
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`Request failed ${response.status}: ${url}`);
+  }
+
+  return response.json();
 }
 
 async function writeJson(relativePath, data) {
@@ -152,6 +168,113 @@ function isRelevantArxivSupplement(title, summary) {
     domainTerms.some((term) => text.includes(term)) &&
     mechanismTerms.some((term) => text.includes(term))
   );
+}
+
+function shortenText(value, maxLength) {
+  const normalized = value.replace(/\s+/g, " ").trim();
+  return normalized.length > maxLength ? `${normalized.slice(0, maxLength - 1)}…` : normalized;
+}
+
+function buildArxivRecommendation(title, summary) {
+  const text = `${title} ${summary}`.toLowerCase();
+  if (text.includes("multi-hypothesis failure attribution") || text.includes("self-correcting autonomous research")) {
+    return {
+      whyItMatters: "这篇把 Auto-Research 的失败诊断从单次 reflection 推进到多假设归因，更贴近复杂问题研究里“定位失败原因再迭代”的闭环。",
+      actionText: "重点看它如何记录失败轨迹、归因假设和修正步骤，评估能否迁移到团队 Auto-Research 的问题诊断与效果验证链路。"
+    };
+  }
+  if (text.includes("computer-use agents") || text.includes("inference-time self-improvement")) {
+    return {
+      whyItMatters: "这篇关注 Computer-Use Agent 在推理阶段从失败中自我改进，对跨市场自动走查、网页操作和异常复盘很有参考价值。",
+      actionText: "抽取它的失败样本组织方式和在线改进策略，对照现有 Agent Harness 是否能沉淀为可复用的回放与修正模块。"
+    };
+  }
+  if (text.includes("swe-router") || text.includes("multi-turn agentic software engineering")) {
+    return {
+      whyItMatters: "这篇讨论多轮 Agentic 软件工程任务的路由问题，直接对应 Agent Coding 从“单模型完成”走向“按任务分派最合适执行器”。",
+      actionText: "关注它的任务特征、路由决策和评测方式，评估是否可用于跨区域 Agent Coding 的模型/工具选择策略。"
+    };
+  }
+  if (text.includes("scaling the horizon") || text.includes("trillion-parameter performance")) {
+    return {
+      whyItMatters: "这篇强调扩展 agent 的 horizon 而不是单纯堆参数，和长程轨迹理解、复杂任务 rollout、持续推理上限提升高度相关。",
+      actionText: "重点拆解它如何定义 horizon、规划深度和执行预算，作为轨迹大模型长链路推理评测的候选参考。"
+    };
+  }
+  if (text.includes("clarus") || text.includes("web-scale scientific collaboration")) {
+    return {
+      whyItMatters: "这篇把 autonomous research 放到多智能体科研协作场景里，关注角色分工、证据汇总和大规模研究协同，而不是单 agent demo。",
+      actionText: "评估它的协作协议和证据聚合方式，是否能用于 Auto-Research 横向覆盖多市场时的任务拆分与结论校验。"
+    };
+  }
+  if (text.includes("experience graphs")) {
+    return {
+      whyItMatters: "这篇把 Experience Graphs 作为自改进 Agent 的数据底座，正好对应轨迹、操作记录和反馈信号如何长期沉淀为可学习经验。",
+      actionText: "重点看图结构如何组织任务状态、动作和结果，映射到团队的轨迹回放、问题定位和 Agent 自进化数据资产。"
+    };
+  }
+  if (text.includes("autonomous llm research loop") || text.includes("crystal graph")) {
+    return {
+      whyItMatters: "这篇用 autonomous LLM research loop 优化专家设计模型，价值在于展示“提出假设、实验验证、再优化”的闭环如何落到科研任务。",
+      actionText: "关注实验循环、评价指标和人机边界设计，判断能否复用到地址/轨迹模型的自动优化探索。"
+    };
+  }
+  if (text.includes("engineering the loops") || text.includes("stop hand-holding your coding agent")) {
+    return {
+      whyItMatters: "这篇把重点从一步步提示 agent 转向工程化 loop，本质是在讲如何把人工驱动开发升级为可重复执行的 Agent Harness。",
+      actionText: "提炼其中的 loop 设计原则，沉淀到需求迁移、代码开发、验证上线和问题诊断的自动化闭环里。"
+    };
+  }
+
+  return {
+    whyItMatters: `这篇聚焦「${shortenText(title, 42)}」，摘要里讨论的 agent 机制可作为 Auto-Research / Harness 能力建设的补充信号。`,
+    actionText: `结合摘要中的「${shortenText(summary, 54)}」做一次小样本复盘，判断是否值得进入团队技术雷达。`
+  };
+}
+
+function refreshArxivSupplementItem(item) {
+  const recommendation = buildArxivRecommendation(item.title ?? "", item.summary ?? "");
+  return {
+    ...item,
+    topicId: "ai",
+    sourceKind: "website",
+    sourceName: arxivSourceName,
+    sourceHostname: arxivSourceHostname,
+    sourceIconHostname: arxivSourceHostname,
+    whyItMatters: recommendation.whyItMatters,
+    actionText: recommendation.actionText,
+    tags: [...new Set([...(item.tags ?? []), "Agent", "Auto-Research", "Harness", "论文/研究", "评测/基准"])]
+  };
+}
+
+async function readCachedArxivItemsFromLocalFeed() {
+  try {
+    const localFeed = JSON.parse(await readFile(path.join(outputRoot, "feed.json"), "utf8"));
+    return (localFeed.items ?? []).filter((item) => item.sourceName === arxivSourceName);
+  } catch {
+    return [];
+  }
+}
+
+async function readCachedArxivItemsFromDeployedFeed() {
+  try {
+    const deployedFeed = await fetchAbsoluteJson(`${staticFeedFallbackUrl}?fallback=${Date.now()}`);
+    return (deployedFeed.items ?? []).filter((item) => item.sourceName === arxivSourceName);
+  } catch (error) {
+    console.warn(`arxiv deployed fallback skipped (${error instanceof Error ? error.message : String(error)})`);
+    return [];
+  }
+}
+
+async function collectCachedArxivSupplements(reason) {
+  const localItems = await readCachedArxivItemsFromLocalFeed();
+  const deployedItems = localItems.length > 0 ? [] : await readCachedArxivItemsFromDeployedFeed();
+  const items = (localItems.length > 0 ? localItems : deployedItems).map(refreshArxivSupplementItem);
+  if (items.length > 0) {
+    console.warn(`arxiv supplements: reused ${items.length} cached items (${reason})`);
+    return { items };
+  }
+  return { items: [] };
 }
 
 function dateInput(daysAgo = 0) {
@@ -287,6 +410,7 @@ async function collectArxivSupplements() {
       const publishedAt = firstXmlValue(entry, "published");
       const observedAt = new Date().toISOString();
       const authors = allXmlValues(entry, "name").slice(0, 6);
+      const recommendation = buildArxivRecommendation(title, summary);
 
       return {
         id: `arxiv_agent_harness_${arxivId.replace(/[^a-z0-9.]/gi, "_")}`,
@@ -297,8 +421,8 @@ async function collectArxivSupplements() {
         title,
         summary: summary.slice(0, 900),
         importanceScore: /harness|auto-research|autonomous research|trajectory rollout|self-improvement/i.test(`${title} ${summary}`) ? 86 : 78,
-        whyItMatters: "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-        actionText: "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+        whyItMatters: recommendation.whyItMatters,
+        actionText: recommendation.actionText,
         watchText: authors.length > 0 ? `作者：${authors.join(", ")}` : "关注论文版本、代码与后续复现实验。",
         tags: ["Agent", "Auto-Research", "Harness", "论文/研究", "评测/基准"],
         sourceName: arxivSourceName,
@@ -314,11 +438,11 @@ async function collectArxivSupplements() {
         }
       };
     }).filter((item) => item.title && item.sourceUrl && isRelevantArxivSupplement(item.title, item.summary));
+    if (items.length === 0) return collectCachedArxivSupplements("current query returned no relevant items");
     console.log(`arxiv supplements: ${items.length} items`);
     return { items };
   } catch (error) {
-    console.warn(`arxiv supplements skipped (${error instanceof Error ? error.message : String(error)})`);
-    return { items: [] };
+    return collectCachedArxivSupplements(error instanceof Error ? error.message : String(error));
   }
 }
 

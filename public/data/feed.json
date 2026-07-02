@@ -1164,8 +1164,8 @@
       "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
       "summary": "Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. Under the prevailing paradigm, failure recovery is usually delegated to a single free-form reflection: a rich trajectory of metrics, logs, and design choices is compressed into one verbal critique, which often leads either to localized trial-and-error or to hard pivots that discard useful context. We propose SAGE, a Self-correcting, Autonomous, Grounded Experimenter, to tackle this failure-recovery bottleneck. Its core mechanism, Multi-Hypothesis Failure Attribution (MHFA), treats recovery as a structured causal diagnosis. By analyzing dynamic trajectory features, MHFA systematically generates multiple evidence-grounded explanations for a failure, independently evaluates their severity, and deterministically routes the verified root cause to",
       "importanceScore": 86,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇把 Auto-Research 的失败诊断从单次 reflection 推进到多假设归因，更贴近复杂问题研究里“定位失败原因再迭代”的闭环。",
+      "actionText": "重点看它如何记录失败轨迹、归因假设和修正步骤，评估能否迁移到团队 Auto-Research 的问题诊断与效果验证链路。",
       "watchText": "作者：Jie Ma, Binfei Chu, Jie Gao, Jinlu Zhang, Yiwei Ma, Yi Tan",
       "tags": [
         "Agent",
@@ -1179,7 +1179,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T10:54:16Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.972Z",
       "raw": {
         "arxivId": "2606.31478",
         "authors": [
@@ -1239,8 +1239,8 @@
       "title": "Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents",
       "summary": "Computer-use agents, which leverage multimodal large language models (MLLMs) to operate computers and complete tasks, have attracted significant attention for their utility and versatility. A major challenge in developing these agents is collecting large-scale, high-quality trajectories. The standard approach generates synthetic data through a self-improving loop: an agent is placed in a verifiable environment and iteratively fine-tuned on its successful trajectories. Despite its effectiveness, this paradigm exploits only successful trajectories and discards the failed ones, even though failures carry rich information about a model's weaknesses. In this work, we explore a complementary failure-driven self-improvement loop, a data-centric paradigm that turns failed trajectories into agent improvements. Specifically, we employ an LLM to diagnose failure modes, propose inference-time soluti",
       "importanceScore": 86,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇关注 Computer-Use Agent 在推理阶段从失败中自我改进，对跨市场自动走查、网页操作和异常复盘很有参考价值。",
+      "actionText": "抽取它的失败样本组织方式和在线改进策略，对照现有 Agent Harness 是否能沉淀为可复用的回放与修正模块。",
       "watchText": "作者：Xueqiao Sun, Xiaohan Wang, Ludwig Schmidt, Serena Yeung-Levy, Yuhui Zhang",
       "tags": [
         "Agent",
@@ -1254,7 +1254,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T07:44:37Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.972Z",
       "raw": {
         "arxivId": "2606.31270",
         "authors": [
@@ -1426,8 +1426,8 @@
       "title": "SWE-Router: Routing in Multi-turn Agentic Software Engineering Tasks",
       "summary": "Large language models (LLMs) embedded in multi-turn agentic harnesses are reshaping software engineering (SWE), but routing every task to a frontier model is wasteful when many issues admit cheap fixes. Existing LLM routers operate on the task description alone, which inherits an information-theoretic Bayes-error floor in agentic settings: a similar issue can hide either a localized typo or a multi-module refactor, and the prompt does not separate the two. We introduce SWE-Router, a value-based temporal approach that lets a cheap model run for a few exploratory turns and reads the resulting partial trajectory before deciding whether to continue cheaply or to escalate to an expensive model. We provide a Bayes-optimality theorem showing that conditioning on the partial trajectory never harms routing and is strictly better whenever exploration is informative. Across the LLM pairs of weak an",
       "importanceScore": 86,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇讨论多轮 Agentic 软件工程任务的路由问题，直接对应 Agent Coding 从“单模型完成”走向“按任务分派最合适执行器”。",
+      "actionText": "关注它的任务特征、路由决策和评测方式，评估是否可用于跨区域 Agent Coding 的模型/工具选择策略。",
       "watchText": "作者：Seongho Son, Sangwoong Yoon, Jiahua Tang, Shuhan Wang, Lorenz Wolf, Ilija Bogunovic",
       "tags": [
         "Agent",
@@ -1441,7 +1441,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T01:46:26Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.972Z",
       "raw": {
         "arxivId": "2607.00053",
         "authors": [
@@ -1589,8 +1589,8 @@
       "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
       "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions, observations, and verifier outcomes, producing agentic trajectories with an average length of 45K tokens. Based on this, we train Agents-A1 with a three-stage recipe. First, we perform full-domain supervised fine-tuning to align the base model with broad agentic behaviors. Second, we train domain-level teacher models to capture specialized expertise in each domain. Third, we propose a multi-teacher domain-routed on-policy distillation with salient vocabulary alignment to improve knowledge trans",
       "importanceScore": 78,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇强调扩展 agent 的 horizon 而不是单纯堆参数，和长程轨迹理解、复杂任务 rollout、持续推理上限提升高度相关。",
+      "actionText": "重点拆解它如何定义 horizon、规划深度和执行预算，作为轨迹大模型长链路推理评测的候选参考。",
       "watchText": "作者：Lei Bai, Zongsheng Cao, Yang Chen, Zhiyao Cui, Shangheng Du, Yue Fan",
       "tags": [
         "Agent",
@@ -1604,7 +1604,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T17:50:54Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.972Z",
       "raw": {
         "arxivId": "2606.30616",
         "authors": [
@@ -1629,8 +1629,8 @@
       "title": "Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration",
       "summary": "Existing autonomous research agents can support parts of the research process, but most systems still treat research as either an isolated assistant task or a closed workflow. Therefore, autonomous science needs a collaboration infrastructure that coordinates projects, agents, and digital and physical resources. We identify this as a shift from code-centered execution loops to research-oriented collaboration processes, where questions, evidence, participants, and resources must be coordinated under uncertainty. In this framing, an agent may be an AI system, a human researcher, a team, a laboratory, or an organization-backed participant. To this end, we present Clarus, a collaboration infrastructure for coordinating autonomous research agents toward web-scale scientific collaboration. Clarus reformulates research as an open, auditable, attributable, and resource-aware multi-phase collabor",
       "importanceScore": 86,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇把 autonomous research 放到多智能体科研协作场景里，关注角色分工、证据汇总和大规模研究协同，而不是单 agent demo。",
+      "actionText": "评估它的协作协议和证据聚合方式，是否能用于 Auto-Research 横向覆盖多市场时的任务拆分与结论校验。",
       "watchText": "作者：Zihan Guo, Zeyi Chen, Zhiyu Chen, Zicai Cui, Shuai Shao, Bo Huang",
       "tags": [
         "Agent",
@@ -1644,7 +1644,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T12:56:08Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.972Z",
       "raw": {
         "arxivId": "2606.30246",
         "authors": [
@@ -1782,8 +1782,8 @@
       "title": "Experience Graphs: The Data Foundation for Self-Improving Agents",
       "summary": "The database community has repeatedly advanced the state of the art by recognizing that new workloads demand new system architectures. We argue that long-horizon agentic tasks -- code generation, scientific discovery, hardware design -- are such a workload. These agents explore: they generate artifacts, execute tools, observe failures, branch, and repair over hundreds of steps. This search produces a structured object we call an experience graph: executable artifacts, tool outputs, rewards, sibling comparisons, and causal lineage. Yet existing agent frameworks treat this experience as disposable state -- JSON checkpoints and session logs that cannot be recovered after a crash, queried across users, or materialized into training data. We propose Trellis: a data foundation that treats the experience graph as first-class, governed, queryable database state. The core insight is that search o",
       "importanceScore": 78,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇把 Experience Graphs 作为自改进 Agent 的数据底座，正好对应轨迹、操作记录和反馈信号如何长期沉淀为可学习经验。",
+      "actionText": "重点看图结构如何组织任务状态、动作和结果，映射到团队的轨迹回放、问题定位和 Agent 自进化数据资产。",
       "watchText": "作者：Gang Liao, Yujia He, Abdullah Ozturk, Zhouyang Li, Ying Wang, Zhitong Guo",
       "tags": [
         "Agent",
@@ -1797,7 +1797,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T06:02:20Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.972Z",
       "raw": {
         "arxivId": "2606.29823",
         "authors": [
@@ -1822,8 +1822,8 @@
       "title": "Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop",
       "summary": "Predicting a material's properties from its structure is a central, fast-advancing problem in computational materials science. A decade of work has produced standard public benchmarks and many published machine-learning models for the task (Dunn et al., 2020). The task's fixed metric and these baselines make it a natural setting for autonomous agent research (Karpathy, 2026). On the MatBench band-gap benchmark ($>$100k crystals), a general-purpose coding agent autonomously built the most accurate model trained without external pretraining, ahead of all seventeen expert-designed models reported for the task. A closer analysis shows it reached this by implementing known methods: either already standard in crystal neural-network models, or borrowed from other areas of machine learning. The contributing implementations include element-pair features on each message-passing edge and a crystal ",
       "importanceScore": 86,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇用 autonomous LLM research loop 优化专家设计模型，价值在于展示“提出假设、实验验证、再优化”的闭环如何落到科研任务。",
+      "actionText": "关注实验循环、评价指标和人机边界设计，判断能否复用到地址/轨迹模型的自动优化探索。",
       "watchText": "作者：Chenmu Zhang, Boris I. Yakobson",
       "tags": [
         "Agent",
@@ -1837,7 +1837,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T02:52:50Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.972Z",
       "raw": {
         "arxivId": "2606.29717",
         "authors": [
@@ -1893,8 +1893,8 @@
       "title": "Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting",
       "summary": "In mid-2026 a slogan reorganized how practitioners talk about coding agents: stop prompting your agent, start designing the loop that prompts it. We take this claim seriously and give it a careful treatment. We call the object of the new practice the loop specification: a bounded, reusable artifact, made of a trigger, a goal, a verification step, a stopping rule and a memory, that a human hands to an agent harness (such as Claude Code or Codex) so the agent pursues a goal on its own, in place of step-by-step prompting. We distinguish this external loop specification from two things it is often confused with: an ordinary programming loop, and the internal perceive-act-observe cycle that the harness already provides as plumbing. We position loop engineering as a new layer in the progression from prompt to context to harness to loop, and we argue, against the stronger headlines, that it doe",
       "importanceScore": 86,
-      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
-      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "whyItMatters": "这篇把重点从一步步提示 agent 转向工程化 loop，本质是在讲如何把人工驱动开发升级为可重复执行的 Agent Harness。",
+      "actionText": "提炼其中的 loop 设计原则，沉淀到需求迁移、代码开发、验证上线和问题诊断的自动化闭环里。",
       "watchText": "作者：Sandeco Macedo",
       "tags": [
         "Agent",
@@ -1908,7 +1908,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-28T18:30:46Z",
-      "observedAt": "2026-07-02T16:24:00.441Z",
+      "observedAt": "2026-07-02T06:52:04.973Z",
       "raw": {
         "arxivId": "2607.00038",
         "authors": [
@@ -8525,8 +8525,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_f7c27e17ad8bd19b368fc818%22%2C%22importanceScore%22%3A60%2C%22observedAt%22%3A%222026-07-01T15%3A57%3A10.140Z%22%2C%22publishedAt%22%3A%222026-07-01T15%3A54%3A08.000Z%22%7D",
+  "nextCursor": "%7B%22id%22%3A%22feed_42fb74c2ac07df4621f82130%22%2C%22importanceScore%22%3A68%2C%22observedAt%22%3A%222026-07-01T17%3A40%3A03.166Z%22%2C%22publishedAt%22%3A%222026-07-01T17%3A17%3A56.374Z%22%7D",
   "total": 226,
-  "generatedAt": "2026-07-02T16:24:00.452Z",
+  "generatedAt": "2026-07-02T17:40:47.800Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }
