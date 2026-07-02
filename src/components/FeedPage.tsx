@@ -92,7 +92,7 @@ export function FeedPage({
         item.sourceName.toLowerCase().includes(needle)
       );
     });
-  }, [items, keyword, query.topicId]);
+  }, [items, keyword, query.minImportance, query.sourceHostname, query.sourceKind, query.sourceName, query.topicId]);
 
   const refreshAggregate = useCallback(async (nextQuery: FeedQuery, options: { silent?: boolean } = {}) => {
     const id = ++requestId.current;

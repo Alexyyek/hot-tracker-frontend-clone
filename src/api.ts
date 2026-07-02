@@ -90,7 +90,8 @@ function matchesStaticFeedQuery(item: FeedItem, query: FeedQuery = {}) {
 }
 
 function paginateStaticItems(items: FeedItem[], query: FeedQuery = {}): FeedResponse {
-  const limit = Number(query.limit ?? 50);
+  const shouldReturnFullScope = Boolean(query.topicId || query.sourceName || query.sourceHostname || query.sourceKind);
+  const limit = shouldReturnFullScope ? items.length : Number(query.limit ?? 50);
   const offset = Number(query.cursor ?? 0);
   const pageItems = items.slice(offset, offset + limit);
   const nextOffset = offset + pageItems.length;
