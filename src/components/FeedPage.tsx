@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Filter, RefreshCw, X } from "lucide-react";
-import { cleanFeedQuery, getFeed, getSourceFacets, getTopicCounts } from "../api";
+import { cleanFeedQuery, forceRefreshStaticData, getFeed, getSourceFacets, getTopicCounts, isStaticDataMode } from "../api";
 import { getTopicTitle, sourceKindLabel } from "../data";
 import {
   filterAiFeedItems,
@@ -94,12 +94,13 @@ export function FeedPage({
     });
   }, [items, keyword, query.minImportance, query.sourceHostname, query.sourceKind, query.sourceName, query.topicId]);
 
-  const refreshAggregate = useCallback(async (nextQuery: FeedQuery, options: { silent?: boolean } = {}) => {
+  const refreshAggregate = useCallback(async (nextQuery: FeedQuery, options: { forceStaticRefresh?: boolean; silent?: boolean } = {}) => {
     const id = ++requestId.current;
     if (!options.silent) setLoading(true);
     setWarning("");
     setFatalError("");
     try {
+      if (options.forceStaticRefresh) forceRefreshStaticData();
       const cleanQuery = cleanFeedQuery(toBackendFeedQuery({ ...nextQuery, cursor: undefined }));
       const sourceQuery = cleanFeedQuery({ ...baseQuery, minImportance: nextQuery.minImportance });
       const [feed, facets, counts] = await Promise.all([
@@ -136,6 +137,18 @@ export function FeedPage({
 
   const refreshCatalogSources = useCallback(async (nextQuery: FeedQuery = queryRef.current) => {
     if (sourceRefresh.running) return;
+    if (isStaticDataMode()) {
+      setSourceRefresh({ running: true, checked: 0, total: 1, lastUpdated: sourceRefresh.lastUpdated });
+      await refreshAggregate(nextQuery, { forceStaticRefresh: true, silent: true });
+      setSourceRefresh({
+        running: false,
+        checked: 1,
+        total: 1,
+        lastUpdated: new Date().toISOString()
+      });
+      onToast("success", "已重新读取最新静态快照");
+      return;
+    }
     const runId = ++sourceRefreshId.current;
     const candidateSources = mergeAiCatalogSources(sourceFacetsRef.current, nextQuery.topicId).filter((source) => {
       if (nextQuery.sourceKind && source.sourceKind !== nextQuery.sourceKind) return false;
@@ -189,7 +202,7 @@ export function FeedPage({
       const newCount = collected.filter((item) => !itemsRef.current.find((old) => old.id === item.id)).length;
       onToast("success", `已刷新 ${totalSources} 个信息源${newCount > 0 ? `，新增 ${newCount} 条` : ""}`);
     }
-  }, [onToast, sourceRefresh.lastUpdated, sourceRefresh.running]);
+  }, [onToast, refreshAggregate, sourceRefresh.lastUpdated, sourceRefresh.running]);
 
   useEffect(() => {
     void refreshAggregate(query);
@@ -198,7 +211,7 @@ export function FeedPage({
   useEffect(() => {
     const timer = window.setInterval(() => {
       if (document.visibilityState === "visible") {
-        void refreshAggregate(queryRef.current, { silent: true });
+        void refreshAggregate(queryRef.current, { forceStaticRefresh: isStaticDataMode(), silent: true });
       }
     }, realtimeRefreshMs);
     return () => window.clearInterval(timer);
@@ -263,10 +276,10 @@ export function FeedPage({
               disabled={sourceRefresh.running}
               onClick={() => void refreshCatalogSources(query)}
               type="button"
-              title="逐个信息源抓取最新内容"
+              title={isStaticDataMode() ? "重新读取 GitHub Pages 最新静态快照" : "逐个信息源抓取最新内容"}
             >
               <RefreshCw size={15} className={sourceRefresh.running ? "is-spinning" : ""} />
-              {sourceRefresh.running ? `${sourceRefresh.checked}/${sourceRefresh.total}` : "刷新全部源"}
+              {sourceRefresh.running ? `${sourceRefresh.checked}/${sourceRefresh.total}` : isStaticDataMode() ? "刷新快照" : "刷新全部源"}
             </button>
             <button className="mobile-filter-toggle" onClick={() => setDrawerOpen(true)} type="button">
               <Filter size={16} />
@@ -353,12 +366,22 @@ function RealtimeStatus({
   };
 }) {
   if (!sourceRefresh.running && !sourceRefresh.lastUpdated) {
-    return <div className="realtime-status">实时更新已开启，每 5 分钟自动拉取最新动态。</div>;
+    return (
+      <div className="realtime-status">
+        {isStaticDataMode()
+          ? "静态站点由 GitHub Actions 定时采集，页面每 5 分钟自动读取最新快照。"
+          : "实时更新已开启，每 5 分钟自动拉取最新动态。"}
+      </div>
+    );
   }
 
   const label = sourceRefresh.running
-    ? `正在逐个刷新信息源：${sourceRefresh.checked}/${sourceRefresh.total}`
-    : `上次逐源刷新：${formatStatusTime(sourceRefresh.lastUpdated)}`;
+    ? isStaticDataMode()
+      ? "正在读取最新静态快照"
+      : `正在逐个刷新信息源：${sourceRefresh.checked}/${sourceRefresh.total}`
+    : isStaticDataMode()
+      ? `上次读取快照：${formatStatusTime(sourceRefresh.lastUpdated)}`
+      : `上次逐源刷新：${formatStatusTime(sourceRefresh.lastUpdated)}`;
 
   return <div className={sourceRefresh.running ? "realtime-status active" : "realtime-status"}>{label}</div>;
 }

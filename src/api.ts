@@ -29,6 +29,7 @@ const jsonHeaders = {
 const useStaticData = import.meta.env.VITE_DATA_MODE === "static" || import.meta.env.PROD;
 const staticDataBase = `${import.meta.env.BASE_URL}data`;
 let staticFeedCache: Promise<StaticDataFile<FeedItem>> | null = null;
+let staticDataVersion = "";
 
 async function fetchJson<T>(path: string): Promise<T> {
   const response = await fetch(path, { headers: jsonHeaders });
@@ -57,7 +58,8 @@ function toSearchParams(query: FeedQuery = {}) {
 }
 
 function staticDataPath(path: string) {
-  return `${staticDataBase}/${path.replace(/^\//, "")}`;
+  const version = staticDataVersion ? `${path.includes("?") ? "&" : "?"}v=${encodeURIComponent(staticDataVersion)}` : "";
+  return `${staticDataBase}/${path.replace(/^\//, "")}${version}`;
 }
 
 async function fetchStaticJson<T>(path: string): Promise<T> {
@@ -67,6 +69,15 @@ async function fetchStaticJson<T>(path: string): Promise<T> {
 async function getStaticFeedData() {
   staticFeedCache ??= fetchStaticJson<StaticDataFile<FeedItem>>("feed.json");
   return staticFeedCache;
+}
+
+export function isStaticDataMode() {
+  return useStaticData;
+}
+
+export function forceRefreshStaticData() {
+  staticDataVersion = String(Date.now());
+  staticFeedCache = null;
 }
 
 function itemTime(item: FeedItem) {
