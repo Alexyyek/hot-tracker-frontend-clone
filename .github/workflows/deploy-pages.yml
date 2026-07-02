@@ -62,12 +62,45 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deploy_primary.outputs.page_url || steps.deploy_retry_one.outputs.page_url || steps.deploy_retry_two.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
+        id: deploy_primary
+        continue-on-error: true
         uses: actions/deploy-pages@v4
         with:
-          timeout: 1800000
+          timeout: 600000
+
+      - name: Wait before Pages deploy retry
+        if: steps.deploy_primary.outcome == 'failure'
+        run: sleep 60
+
+      - name: Retry Pages deployment
+        id: deploy_retry_one
+        if: steps.deploy_primary.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+
+      - name: Wait before final Pages deploy retry
+        if: steps.deploy_primary.outcome == 'failure' && steps.deploy_retry_one.outcome == 'failure'
+        run: sleep 120
+
+      - name: Final Pages deployment retry
+        id: deploy_retry_two
+        if: steps.deploy_primary.outcome == 'failure' && steps.deploy_retry_one.outcome == 'failure'
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000
+
+      - name: Verify Pages deployment
+        if: always()
+        run: |
+          if [[ "${{ steps.deploy_primary.outcome }}" == "success" || "${{ steps.deploy_retry_one.outcome }}" == "success" || "${{ steps.deploy_retry_two.outcome }}" == "success" ]]; then
+            exit 0
+          fi
+          exit 1
