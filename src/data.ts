@@ -1,6 +1,23 @@
 import type { AppData, FeedItem, FeedQuery, SourceFacet, Topic, TopicCount } from "./types";
 
 const publicAssetOrigin = "https://hot.kyangc.net";
+const beijingTimeZone = "Asia/Shanghai";
+
+function beijingDateParts(value: Date | string) {
+  const date = typeof value === "string" ? new Date(value) : value;
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    day: "2-digit",
+    month: "2-digit",
+    timeZone: beijingTimeZone,
+    year: "numeric"
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return {
+    day: byType.day,
+    month: byType.month,
+    year: byType.year
+  };
+}
 
 export function sortTopics(topics: Topic[]) {
   return [...topics]
@@ -36,7 +53,7 @@ export function getTopicCount(topicCounts: TopicCount[], topicId: string) {
 export function groupFeedItemsByDay(items: FeedItem[]) {
   const groups = new Map<string, FeedItem[]>();
   for (const item of items) {
-    const key = item.publishedAt.slice(0, 10);
+    const key = formatDateInput(new Date(item.publishedAt));
     const existing = groups.get(key) ?? [];
     existing.push(item);
     groups.set(key, existing);
@@ -49,8 +66,9 @@ export function formatDateLabel(date: string) {
   return new Intl.DateTimeFormat("zh-CN", {
     month: "long",
     day: "numeric",
+    timeZone: beijingTimeZone,
     weekday: "short"
-  }).format(new Date(`${date}T00:00:00`));
+  }).format(new Date(`${date}T00:00:00+08:00`));
 }
 
 export function formatDayCountLabel(date: string, count: number) {
@@ -61,12 +79,14 @@ export function formatTime(value: string) {
   return new Intl.DateTimeFormat("zh-CN", {
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: beijingTimeZone,
     hour12: false
   }).format(new Date(value));
 }
 
 export function formatDateInput(value = new Date()) {
-  return value.toISOString().slice(0, 10);
+  const { day, month, year } = beijingDateParts(value);
+  return `${year}-${month}-${day}`;
 }
 
 export function sourceKindLabel(kind: string) {
