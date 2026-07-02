@@ -1,6 +1,83 @@
 {
   "items": [
     {
+      "id": "feed_18a43df9ddee05ad185b580f",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_ca95095d9e55b2f94e5933da"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "browser-use 发布开源 AI 视频剪辑 Skill「video-use」",
+      "summary": "browser-use 团队推出面向 Codex、Claude Code 等 AI 编码智能体的开源 Skill「video-use」，让 LLM 通过 ElevenLabs Scribe 将音频转写为约 12KB 文本（含逐词时间戳、说话人分离、事件标记），仅在决策点调用 timeline_view.py 生成 PNG 帧图。技术流水线包括转写、打包、生成 JSON 格式 EDL、ffmpeg 渲染及最多 3 轮自评估。渲染关键细节：分段提取 + `-c copy` 拼接、30ms 音频淡入淡出、PTS 时移、字幕最后叠加、HDR 自动映射、竖屏缩放、两-pass loudnorm。动画支持 HyperFrames、Remotion、Manim 等引擎。项目附带 12 条硬规则确保生产正确性。",
+      "importanceScore": 79,
+      "whyItMatters": "browser-use 团队把 AI 视频剪辑从「看视频帧」变成「读转写文本」，12KB 文本代替 4500 万 token 噪声的思路很聪明，一套可落地的 ffmpeg 脚本集，做 AI agent 视频处理的可以直接抄。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "开源/仓库",
+        "视频"
+      ],
+      "sourceName": "X：邵猛 (@shao__meng)",
+      "sourceUrl": "https://x.com/shao__meng/status/2072644710523691110",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
+      "publishedAt": "2026-07-02T11:33:01.000Z",
+      "observedAt": "2026-07-02T11:42:07.481Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr3fluhr00i3sllxli2a5uko",
+        "ingest_profile_id": "aihot_item_v1",
+        "image_url": "https://pbs.twimg.com/media/HMODWFlaUAAfodC.jpg",
+        "image_type": "photo",
+        "image_width": 3000,
+        "image_height": 4000,
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
+        "key_facts": [],
+        "entities": [
+          "X：邵猛 (@shao__meng)"
+        ],
+        "sampledSourceName": "X：邵猛 (@shao__meng)",
+        "originalSourceName": "X：邵猛 (@shao__meng)"
+      }
+    },
+    {
+      "id": "feed_9969dac1e51342af20fcb409",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_ef94a9237655c13f99f15ab7"
+      ],
+      "documentIds": [],
+      "sourceKind": "weixin_article",
+      "title": "千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
+      "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结“多快好省”方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出“情商”是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调“低功耗，够用就行”。",
+      "importanceScore": 62,
+      "whyItMatters": "千问C端团队分享的Agent工程实践很务实，从“多快好省”到AIWare Engineering的演进思路，对正在做复杂任务Agent的团队是一个有价值的参考系。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Agent",
+        "大佬观点",
+        "部署/工程"
+      ],
+      "sourceName": "公众号：千问APP（阿里）",
+      "sourceUrl": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
+      "publishedAt": "2026-07-02T10:22:07.000Z",
+      "observedAt": "2026-07-02T10:37:15.902Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr3d6uwj0074slq52bmqn20v",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "公众号：千问APP（阿里）"
+        ],
+        "sampledSourceName": "公众号：千问APP（阿里）",
+        "originalSourceName": "公众号：千问APP（阿里）"
+      }
+    },
+    {
       "id": "feed_5309521d05fa3b96b9851736",
       "topicId": "big-tech-daily",
       "sourceItemIds": [
@@ -532,47 +609,6 @@
         ],
         "sampledSourceName": "公众号：龙猫LongCat（美团）",
         "originalSourceName": "公众号：龙猫LongCat（美团）"
-      }
-    },
-    {
-      "id": "feed_71a0beeee56c3cda84d4b291",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_3b3c7104332cbd323277d233"
-      ],
-      "documentIds": [],
-      "sourceKind": "x",
-      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-      "summary": "mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。",
-      "importanceScore": 75,
-      "whyItMatters": "Matt Pocock 把写 Skill 从玄学变成了可拆解的工程，其中领先词和完成标准这两个概念，能立刻让你的自定义工具行为更稳定，搞 Agent 的都应该试一下。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "Agent",
-        "GitHub",
-        "教程/实践"
-      ],
-      "sourceName": "X：邵猛 (@shao__meng)",
-      "sourceUrl": "https://x.com/shao__meng/status/2072126769986220157",
-      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
-      "publishedAt": "2026-07-01T01:14:54.000Z",
-      "observedAt": "2026-07-01T01:38:37.517Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmr1eiq770260slnlxguii7jy",
-        "ingest_profile_id": "aihot_item_v1",
-        "image_url": "https://pbs.twimg.com/media/HMGsP86boAAl-yo.jpg",
-        "image_type": "photo",
-        "image_width": 2100,
-        "image_height": 2108,
-        "source_avatar_url": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
-        "key_facts": [],
-        "entities": [
-          "X：邵猛 (@shao__meng)"
-        ],
-        "sampledSourceName": "X：邵猛 (@shao__meng)",
-        "originalSourceName": "X：邵猛 (@shao__meng)"
       }
     },
     {
@@ -1116,6 +1152,46 @@
       "sourceHostname": "deepmind.google"
     },
     {
+      "id": "arxiv_agent_harness_2606.31478",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.31478"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+      "summary": "Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. Under the prevailing paradigm, failure recovery is usually delegated to a single free-form reflection: a rich trajectory of metrics, logs, and design choices is compressed into one verbal critique, which often leads either to localized trial-and-error or to hard pivots that discard useful context. We propose SAGE, a Self-correcting, Autonomous, Grounded Experimenter, to tackle this failure-recovery bottleneck. Its core mechanism, Multi-Hypothesis Failure Attribution (MHFA), treats recovery as a structured causal diagnosis. By analyzing dynamic trajectory features, MHFA systematically generates multiple evidence-grounded explanations for a failure, independently evaluates their severity, and deterministically routes the verified root cause to",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Jie Ma, Binfei Chu, Jie Gao, Jinlu Zhang, Yiwei Ma, Yi Tan",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.31478v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-30T10:54:16Z",
+      "observedAt": "2026-07-02T11:58:43.652Z",
+      "raw": {
+        "arxivId": "2606.31478",
+        "authors": [
+          "Jie Ma",
+          "Binfei Chu",
+          "Jie Gao",
+          "Jinlu Zhang",
+          "Yiwei Ma",
+          "Yi Tan"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
       "id": "feed_dd7922a38bf4407da38bd4d6",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1149,6 +1225,45 @@
         "originalSourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       },
       "sourceHostname": "openai.com"
+    },
+    {
+      "id": "arxiv_agent_harness_2606.31270",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.31270"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents",
+      "summary": "Computer-use agents, which leverage multimodal large language models (MLLMs) to operate computers and complete tasks, have attracted significant attention for their utility and versatility. A major challenge in developing these agents is collecting large-scale, high-quality trajectories. The standard approach generates synthetic data through a self-improving loop: an agent is placed in a verifiable environment and iteratively fine-tuned on its successful trajectories. Despite its effectiveness, this paradigm exploits only successful trajectories and discards the failed ones, even though failures carry rich information about a model's weaknesses. In this work, we explore a complementary failure-driven self-improvement loop, a data-centric paradigm that turns failed trajectories into agent improvements. Specifically, we employ an LLM to diagnose failure modes, propose inference-time soluti",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Xueqiao Sun, Xiaohan Wang, Ludwig Schmidt, Serena Yeung-Levy, Yuhui Zhang",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.31270v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-30T07:44:37Z",
+      "observedAt": "2026-07-02T11:58:43.652Z",
+      "raw": {
+        "arxivId": "2606.31270",
+        "authors": [
+          "Xueqiao Sun",
+          "Xiaohan Wang",
+          "Ludwig Schmidt",
+          "Serena Yeung-Levy",
+          "Yuhui Zhang"
+        ],
+        "source": "arxiv"
+      }
     },
     {
       "id": "feed_f650057ad1471d78dbc7ffc6",
@@ -1299,6 +1414,46 @@
       }
     },
     {
+      "id": "arxiv_agent_harness_2607.00053",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2607.00053"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "SWE-Router: Routing in Multi-turn Agentic Software Engineering Tasks",
+      "summary": "Large language models (LLMs) embedded in multi-turn agentic harnesses are reshaping software engineering (SWE), but routing every task to a frontier model is wasteful when many issues admit cheap fixes. Existing LLM routers operate on the task description alone, which inherits an information-theoretic Bayes-error floor in agentic settings: a similar issue can hide either a localized typo or a multi-module refactor, and the prompt does not separate the two. We introduce SWE-Router, a value-based temporal approach that lets a cheap model run for a few exploratory turns and reads the resulting partial trajectory before deciding whether to continue cheaply or to escalate to an expensive model. We provide a Bayes-optimality theorem showing that conditioning on the partial trajectory never harms routing and is strictly better whenever exploration is informative. Across the LLM pairs of weak an",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Seongho Son, Sangwoong Yoon, Jiahua Tang, Shuhan Wang, Lorenz Wolf, Ilija Bogunovic",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2607.00053v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-30T01:46:26Z",
+      "observedAt": "2026-07-02T11:58:43.653Z",
+      "raw": {
+        "arxivId": "2607.00053",
+        "authors": [
+          "Seongho Son",
+          "Sangwoong Yoon",
+          "Jiahua Tang",
+          "Shuhan Wang",
+          "Lorenz Wolf",
+          "Ilija Bogunovic"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
       "id": "feed_6ef496f5a02ce7eba20d8f89",
       "topicId": "big-tech-daily",
       "sourceItemIds": [
@@ -1422,6 +1577,86 @@
       }
     },
     {
+      "id": "arxiv_agent_harness_2606.30616",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.30616"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions, observations, and verifier outcomes, producing agentic trajectories with an average length of 45K tokens. Based on this, we train Agents-A1 with a three-stage recipe. First, we perform full-domain supervised fine-tuning to align the base model with broad agentic behaviors. Second, we train domain-level teacher models to capture specialized expertise in each domain. Third, we propose a multi-teacher domain-routed on-policy distillation with salient vocabulary alignment to improve knowledge trans",
+      "importanceScore": 78,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Lei Bai, Zongsheng Cao, Yang Chen, Zhiyao Cui, Shangheng Du, Yue Fan",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.30616v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T17:50:54Z",
+      "observedAt": "2026-07-02T11:58:43.653Z",
+      "raw": {
+        "arxivId": "2606.30616",
+        "authors": [
+          "Lei Bai",
+          "Zongsheng Cao",
+          "Yang Chen",
+          "Zhiyao Cui",
+          "Shangheng Du",
+          "Yue Fan"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2606.30246",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.30246"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration",
+      "summary": "Existing autonomous research agents can support parts of the research process, but most systems still treat research as either an isolated assistant task or a closed workflow. Therefore, autonomous science needs a collaboration infrastructure that coordinates projects, agents, and digital and physical resources. We identify this as a shift from code-centered execution loops to research-oriented collaboration processes, where questions, evidence, participants, and resources must be coordinated under uncertainty. In this framing, an agent may be an AI system, a human researcher, a team, a laboratory, or an organization-backed participant. To this end, we present Clarus, a collaboration infrastructure for coordinating autonomous research agents toward web-scale scientific collaboration. Clarus reformulates research as an open, auditable, attributable, and resource-aware multi-phase collabor",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Zihan Guo, Zeyi Chen, Zhiyu Chen, Zicai Cui, Shuai Shao, Bo Huang",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.30246v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T12:56:08Z",
+      "observedAt": "2026-07-02T11:58:43.653Z",
+      "raw": {
+        "arxivId": "2606.30246",
+        "authors": [
+          "Zihan Guo",
+          "Zeyi Chen",
+          "Zhiyu Chen",
+          "Zicai Cui",
+          "Shuai Shao",
+          "Bo Huang"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
       "id": "feed_a35756b622f524c00154c47b",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1535,6 +1770,82 @@
       }
     },
     {
+      "id": "arxiv_agent_harness_2606.29823",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.29823"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Experience Graphs: The Data Foundation for Self-Improving Agents",
+      "summary": "The database community has repeatedly advanced the state of the art by recognizing that new workloads demand new system architectures. We argue that long-horizon agentic tasks -- code generation, scientific discovery, hardware design -- are such a workload. These agents explore: they generate artifacts, execute tools, observe failures, branch, and repair over hundreds of steps. This search produces a structured object we call an experience graph: executable artifacts, tool outputs, rewards, sibling comparisons, and causal lineage. Yet existing agent frameworks treat this experience as disposable state -- JSON checkpoints and session logs that cannot be recovered after a crash, queried across users, or materialized into training data. We propose Trellis: a data foundation that treats the experience graph as first-class, governed, queryable database state. The core insight is that search o",
+      "importanceScore": 78,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Gang Liao, Yujia He, Abdullah Ozturk, Zhouyang Li, Ying Wang, Zhitong Guo",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.29823v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T06:02:20Z",
+      "observedAt": "2026-07-02T11:58:43.653Z",
+      "raw": {
+        "arxivId": "2606.29823",
+        "authors": [
+          "Gang Liao",
+          "Yujia He",
+          "Abdullah Ozturk",
+          "Zhouyang Li",
+          "Ying Wang",
+          "Zhitong Guo"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2606.29717",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.29717"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop",
+      "summary": "Predicting a material's properties from its structure is a central, fast-advancing problem in computational materials science. A decade of work has produced standard public benchmarks and many published machine-learning models for the task (Dunn et al., 2020). The task's fixed metric and these baselines make it a natural setting for autonomous agent research (Karpathy, 2026). On the MatBench band-gap benchmark ($>$100k crystals), a general-purpose coding agent autonomously built the most accurate model trained without external pretraining, ahead of all seventeen expert-designed models reported for the task. A closer analysis shows it reached this by implementing known methods: either already standard in crystal neural-network models, or borrowed from other areas of machine learning. The contributing implementations include element-pair features on each message-passing edge and a crystal ",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Chenmu Zhang, Boris I. Yakobson",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.29717v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T02:52:50Z",
+      "observedAt": "2026-07-02T11:58:43.653Z",
+      "raw": {
+        "arxivId": "2606.29717",
+        "authors": [
+          "Chenmu Zhang",
+          "Boris I. Yakobson"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
       "id": "feed_9b98397dfef4d361ef22e1e2",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1567,6 +1878,41 @@
         ],
         "sampledSourceName": "HuggingFace Daily Papers（社区热门论文）",
         "originalSourceName": "HuggingFace Daily Papers（社区热门论文）"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2607.00038",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2607.00038"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting",
+      "summary": "In mid-2026 a slogan reorganized how practitioners talk about coding agents: stop prompting your agent, start designing the loop that prompts it. We take this claim seriously and give it a careful treatment. We call the object of the new practice the loop specification: a bounded, reusable artifact, made of a trigger, a goal, a verification step, a stopping rule and a memory, that a human hands to an agent harness (such as Claude Code or Codex) so the agent pursues a goal on its own, in place of step-by-step prompting. We distinguish this external loop specification from two things it is often confused with: an ordinary programming loop, and the internal perceive-act-observe cycle that the harness already provides as plumbing. We position loop engineering as a new layer in the progression from prompt to context to harness to loop, and we argue, against the stronger headlines, that it doe",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Sandeco Macedo",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2607.00038v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-28T18:30:46Z",
+      "observedAt": "2026-07-02T11:58:43.653Z",
+      "raw": {
+        "arxivId": "2607.00038",
+        "authors": [
+          "Sandeco Macedo"
+        ],
+        "source": "arxiv"
       }
     },
     {
@@ -3741,40 +4087,6 @@
         ],
         "sampledSourceName": "X：Perplexity (@perplexity_ai)",
         "originalSourceName": "X：Perplexity (@perplexity_ai)"
-      }
-    },
-    {
-      "id": "feed_09db13d4b15c599dd718daea",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_99bbfce90712461a159a400b"
-      ],
-      "documentIds": [],
-      "sourceKind": "weixin_article",
-      "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
-      "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测“1:1平局”，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。",
-      "importanceScore": 72,
-      "whyItMatters": "千问把AI预测和世界杯热点捆绑，玩法不算新鲜，但捐球场的设计让这件事多了点人情味。如果你对预测模型感兴趣，可以看看它怎么处理天气和地貌数据，虽然实际准确率还得踢了才知道。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "产品更新",
-        "数据/训练"
-      ],
-      "sourceName": "公众号：千问APP（阿里）",
-      "sourceUrl": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
-      "publishedAt": "2026-06-11T08:40:14.000Z",
-      "observedAt": "2026-06-11T09:06:56.997Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmq99p86d09wisllduyfqf5mn",
-        "ingest_profile_id": "aihot_item_v1",
-        "key_facts": [],
-        "entities": [
-          "公众号：千问APP（阿里）"
-        ],
-        "sampledSourceName": "公众号：千问APP（阿里）",
-        "originalSourceName": "公众号：千问APP（阿里）"
       }
     },
     {
@@ -8211,8 +8523,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_a8a576b82fef8194dc86e508%22%2C%22importanceScore%22%3A85%2C%22observedAt%22%3A%222026-07-01T08%3A09%3A58.188Z%22%2C%22publishedAt%22%3A%222026-07-01T07%3A57%3A05.000Z%22%7D",
-  "total": 218,
-  "generatedAt": "2026-07-02T09:40:26.906Z",
+  "nextCursor": "%7B%22id%22%3A%22feed_55fd5bff27e7dd82e5fc76fc%22%2C%22importanceScore%22%3A78%2C%22observedAt%22%3A%222026-07-01T11%3A48%3A05.855Z%22%2C%22publishedAt%22%3A%222026-07-01T10%3A28%3A35.000Z%22%7D",
+  "total": 226,
+  "generatedAt": "2026-07-02T11:58:43.663Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }
