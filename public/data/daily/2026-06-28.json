@@ -1,0 +1,822 @@
+{
+  "items": [
+    {
+      "id": "daily_ai_2026-06-28",
+      "topicId": "ai",
+      "reportDate": "2026-06-28",
+      "title": "AI日报",
+      "mainLine": "今日 AI 动态优先看「DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60–85%」，脉络集中在「模型与基础设施」「行业与公司」；先分辨是能力变化、产品落地还是行业信号。",
+      "actionItems": [],
+      "watchItems": [
+        "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60–85%：DeepSeek 开源的这个投机解码框架让 V4 生成提速 60% 以上，关键在于不换模型就能加速，对用 API 做产品的人是立即可用的性能提升。",
+        "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板：前首相府数据科学家让 Claude、GPT 等打《文明 VI》，揪出了 AI 的「感知盲区」和「知行差距」——更聪明的大脑解决不了睁不开眼、伸不出手的问题，做智能体的必须直面这两个工程瓶颈。",
+        "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具：阿德拉菲尼尔对macOS唤醒工具做了一次有趣的重新思考，不是一直醒着，而是只在AI代理工作时醒着，合盖也能跑长任务，对用Claude Code或Cursor的开发者是实用的开源伴侣。",
+        "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus：Elon 亲自宣布 Grok 4.5 内部测试，性能可能超过 Opus，虽然还没公开可用，但每月从零训练新模型的节奏，意味着算力军备竞赛还在加速。",
+        "仅有三个AI模型在500天创业测试中盈利超过起始资本：普林斯顿的 CEO-Bench 测试了一个反直觉结果，一个不用 AI 的简单规则系统击败了绝大多数模型——在当前 agent 都在比窄任务时，这个测试直指长期战略决策的致命短板，做 agent 的必须看。",
+        "SpaceX 注册 SpaceXAI 商标，将合并 xAI：马斯克将 xAI 解散并入 SpaceX 的传闻如果属实，会是今年最重要的 AI 商业整合之一，但仅凭一条推文，证据不足，需要看后续。",
+        "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片：Paul Meade 从苹果 Vision Pro 跳槽 OpenAI，不是普通人事变动，而是 AI 硬件竞赛正式开打的信号，做硬件的可以开始紧张了。"
+      ],
+      "sections": [
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "DeepSeek 开源 DSpark 投机解码框架，加速 DeepSeek-V4 生成速度 60–85%",
+              "summary": "DeepSeek 开源的这个投机解码框架让 V4 生成提速 60% 以上，关键在于不换模型就能加速，对用 API 做产品的人是立即可用的性能提升。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_d4b88c22f1dbc5d04ba0524b"
+              ],
+              "confidence": 79
+            },
+            {
+              "title": "四大顶级AI对决《文明VI》：Claude核平法国仍输，暴露感知与执行短板",
+              "summary": "前首相府数据科学家让 Claude、GPT 等打《文明 VI》，揪出了 AI 的「感知盲区」和「知行差距」——更聪明的大脑解决不了睁不开眼、伸不出手的问题，做智能体的必须直面这两个工程瓶颈。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_480020e9633c0b1f4568da31"
+              ],
+              "confidence": 76
+            },
+            {
+              "title": "阿德拉菲尼尔：仅在AI agent工作时阻止Mac睡眠的菜单栏工具",
+              "summary": "阿德拉菲尼尔对macOS唤醒工具做了一次有趣的重新思考，不是一直醒着，而是只在AI代理工作时醒着，合盖也能跑长任务，对用Claude Code或Cursor的开发者是实用的开源伴侣。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_227ad0bdb5d691e85af582e7"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+              "summary": "Elon 亲自宣布 Grok 4.5 内部测试，性能可能超过 Opus，虽然还没公开可用，但每月从零训练新模型的节奏，意味着算力军备竞赛还在加速。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_3b92fbb0ac378fad1520da97"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+              "summary": "普林斯顿的 CEO-Bench 测试了一个反直觉结果，一个不用 AI 的简单规则系统击败了绝大多数模型——在当前 agent 都在比窄任务时，这个测试直指长期战略决策的致命短板，做 agent 的必须看。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_5152aa567c1d6baf99e5fedc"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "SpaceX 注册 SpaceXAI 商标，将合并 xAI",
+              "summary": "马斯克将 xAI 解散并入 SpaceX 的传闻如果属实，会是今年最重要的 AI 商业整合之一，但仅凭一条推文，证据不足，需要看后续。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_31e5132715b336d198380425"
+              ],
+              "confidence": 76
+            },
+            {
+              "title": "苹果Vision负责人跳槽OpenAI，触控OLED MacBook用M5芯片",
+              "summary": "Paul Meade 从苹果 Vision Pro 跳槽 OpenAI，不是普通人事变动，而是 AI 硬件竞赛正式开打的信号，做硬件的可以开始紧张了。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_b49e7b597dab79319a3700c1"
+              ],
+              "confidence": 76
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_d4b88c22f1dbc5d04ba0524b",
+        "feed_480020e9633c0b1f4568da31",
+        "feed_31e5132715b336d198380425",
+        "feed_b49e7b597dab79319a3700c1",
+        "feed_227ad0bdb5d691e85af582e7",
+        "feed_3b92fbb0ac378fad1520da97",
+        "feed_5152aa567c1d6baf99e5fedc",
+        "feed_05b3afc203ea80e4db8c5db0"
+      ],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "MarkTechPost（RSS）": 1,
+          "IT之家（RSS）": 1,
+          "X：cb_doge (@cb_doge)": 1,
+          "X：Berry Xia (@berryxia)": 1,
+          "Hacker News 热门（buzzing.cc 中文翻译）": 1,
+          "X：Elon Musk (@elonmusk, xAI)": 1,
+          "The Decoder：AI News（RSS）": 2
+        }
+      }
+    },
+    {
+      "id": "daily_flight-hotel-card_2026-06-28",
+      "topicId": "flight-hotel-card",
+      "reportDate": "2026-06-28",
+      "title": "机酒卡日报",
+      "mainLine": "今日机酒卡主题主要看「酒店与积分」、「航司与票价」，最清晰的单点更新是「首发！我们和松赞定制了条孤品，超划算但限时」；可先检查目标航线、规则口径和是否值得行动。",
+      "actionItems": [],
+      "watchItems": [
+        "首发！我们和松赞定制了条孤品，超划算但限时：嬉游与松赞合作推出梅里环线6天5晚定制闪促，价格比同线路全包团便宜近一半，限时一周售卖。 线索：产品：梅里环线秘境醇酿，塔城-茨中-梅里-香格里拉6天5晚双人自由行私家团，12999元/人起；有效期至2026年12月24日，暑期（7月10日-8月25日）补差1000元/人，圣诞（12月24日）补差1000元/人，国庆（9月28日-10月7日）补差2000元/人",
+        "金卡bug被打回原形了，这次安排钻石吧：希尔顿金卡bug已修复，文章盘点了稳定获取希尔顿金卡或钻卡的几种方法，包括一住升金、飞猪F4及以上支付宝钻石会员送金卡、官方匹配金卡、滴滴V8匹配钻石等，并附有滴滴V8抽奖活动。 线索：希尔顿金卡bug已于6月28日彻底修复，被升级的金卡账户已恢复原状。；飞猪希尔顿一住升金套餐在618/双11期间券后400多元住一晚，可获得18个月金卡并获Q2积分回血。",
+        "国庆也促！1K起往返东南亚，暑期免签飞欧洲！：九元航空国庆期间广州往返万象含税1K1起，暑期广州往返吉隆坡含税1K起； 线索：九元航空广州含税1K1往返万象，适用日期9.30-10.5；九元航空广州含税1K3往返万象，可10.7回程",
+        "暑期航线大爆发，200起直飞中西部！新疆、呼伦贝尔、长白山选哪个？：东航暑期复飞或新开多条中西部航线，包括北京至长白山、阿勒泰、北海，以及上海至满洲里等，单程含税200+起； 线索：东航7月6日起复飞北京大兴-长白山航线，7、8月多日期单程含税456起。；东航7月1日起复航北京-阿勒泰，7月2日-7月7日北京含税约1300元往返。"
+      ],
+      "sections": [
+        {
+          "title": "酒店与积分",
+          "items": [
+            {
+              "title": "首发！我们和松赞定制了条孤品，超划算但限时",
+              "summary": "嬉游与松赞合作推出梅里环线6天5晚定制闪促，价格比同线路全包团便宜近一半，限时一周售卖。",
+              "insightLabel": "线索",
+              "insightText": "产品：梅里环线秘境醇酿，塔城-茨中-梅里-香格里拉6天5晚双人自由行私家团，12999元/人起；有效期至2026年12月24日，暑期（7月10日-8月25日）补差1000元/人，圣诞（12月24日）补差1000元/人，国庆（9月28日-10月7日）补差2000元/人",
+              "sourceFeedItemIds": [
+                "feed_e3c349a267672e48f221abcd"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "金卡bug被打回原形了，这次安排钻石吧",
+              "summary": "希尔顿金卡bug已修复，文章盘点了稳定获取希尔顿金卡或钻卡的几种方法，包括一住升金、飞猪F4及以上支付宝钻石会员送金卡、官方匹配金卡、滴滴V8匹配钻石等，并附有滴滴V8抽奖活动。",
+              "insightLabel": "线索",
+              "insightText": "希尔顿金卡bug已于6月28日彻底修复，被升级的金卡账户已恢复原状。；飞猪希尔顿一住升金套餐在618/双11期间券后400多元住一晚，可获得18个月金卡并获Q2积分回血。",
+              "sourceFeedItemIds": [
+                "feed_5cc53951634cda9dfd75251b"
+              ],
+              "confidence": 72
+            }
+          ]
+        },
+        {
+          "title": "航司与票价",
+          "items": [
+            {
+              "title": "国庆也促！1K起往返东南亚，暑期免签飞欧洲！",
+              "summary": "九元航空国庆期间广州往返万象含税1K1起，暑期广州往返吉隆坡含税1K起；",
+              "insightLabel": "线索",
+              "insightText": "九元航空广州含税1K1往返万象，适用日期9.30-10.5；九元航空广州含税1K3往返万象，可10.7回程",
+              "sourceFeedItemIds": [
+                "feed_6036ceff8fdb24de35ab8bf2"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "暑期航线大爆发，200起直飞中西部！新疆、呼伦贝尔、长白山选哪个？",
+              "summary": "东航暑期复飞或新开多条中西部航线，包括北京至长白山、阿勒泰、北海，以及上海至满洲里等，单程含税200+起；",
+              "insightLabel": "线索",
+              "insightText": "东航7月6日起复飞北京大兴-长白山航线，7、8月多日期单程含税456起。；东航7月1日起复航北京-阿勒泰，7月2日-7月7日北京含税约1300元往返。",
+              "sourceFeedItemIds": [
+                "feed_4a8fde1819a20c313ec6bf03"
+              ],
+              "confidence": 72
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_e3c349a267672e48f221abcd",
+        "feed_5cc53951634cda9dfd75251b",
+        "feed_6036ceff8fdb24de35ab8bf2",
+        "feed_4a8fde1819a20c313ec6bf03"
+      ],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "嬉游": 1,
+          "聪明旅行": 1,
+          "旅行雷达": 2
+        }
+      }
+    },
+    {
+      "id": "daily_hk-ipo_2026-06-28",
+      "topicId": "hk-ipo",
+      "reportDate": "2026-06-28",
+      "title": "港股打新日报",
+      "mainLine": "港股打新在 2026-06-28 没有达到日报阈值的显著更新。",
+      "actionItems": [],
+      "watchItems": [],
+      "sections": [],
+      "referencedFeedItemIds": [],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {}
+      }
+    },
+    {
+      "id": "daily_investment_2026-06-28",
+      "topicId": "investment",
+      "reportDate": "2026-06-28",
+      "title": "投资观点日报",
+      "mainLine": "今日投资观点核心线索是「Inference ROI depends more on memory」，主要围绕「产业与公司」、「财报与数据」、「宏观与政策」；先看观点背后的证据、估值约束和风险分歧。",
+      "actionItems": [],
+      "watchItems": [
+        "Inference ROI depends more on memory：是的，美光不是英伟达。 但展望未来，它可能变得比英伟达更重要。 想想看。推理现在直接与赚钱挂钩。但推理并不是简单地通过增加更多英伟达GPU就能变得更好。事实上，GPU在推理中常常利用率不足，由于内存瓶颈而闲置。 对于推理来说，增加更多内存的价值要高得多。 最终，推理的ROI很大程... 证据：Inference performance is limited by memory bottlenecks, not just GPU compute.；Adding more Nvidia GPUs does not linearly improve inference due to underutilization.",
+        "合同价值约5000亿韩元（3.2亿美元）：三星电机寻求与美国大科技公司达成3.2亿美元AI MLCC供应协议，价值有望攀升 三星电机正着手向全球大科技公司供应价值数千亿韩元的人工智能（AI）服务器多层陶瓷电容器（MLCC）。 证据：三星电机正与一家美国CSP就AI服务器MLCC供应合同进行最后阶段谈判，合同估值约5000亿韩元（3.2亿美元）。；AI服务器单板搭载15000-25000颗MLCC，最新AI服务器约20块计算板，单台服务器需要数十万颗MLCC。",
+        "高纯度CO2供应因石化厂利用率下降而趋紧：High Purity CO2 Procurement Alarm for Semiconductor Supercritical Cleaning Processes Warning signs have emerged in the procurement of high p... 证据：三星电子每月使用约1,800至2,000吨高纯度CO2；SK海力士每月使用约600至700吨高纯度CO2",
+        "作者认为2026年下半年有吸引力的投资机会可能仍是国产半导体概念：2026年下半年潜在有吸引力的投资机会—— 我仍然认为它们很可能是中国半导体本地化概念股。 证据：CXMT IPO后市值可能至少达到5万亿人民币；CXMT IPO募资大部分将流向国产半导体设备股",
+        "作者以此论证DRAM非一般商品：听听 @GavinSBaker 在 All-In 1:04:06 说的内容： “DRAM 是最重要的瓶颈，Elon 将 Terafab 聚焦于内存，因为他相信内存是最重要的瓶颈。 证据：Gavin Baker在All-In播客1:04:06表示，DRAM是Terafab最重要的瓶颈，Elon Musk将内存作为Terafab重点；Elon Musk认为DRAM比激光、电容、功率半导体、NAND、HDD更重要",
+        "反驳 CSP 负现金流意味 CAPEX 不可持续的论点：许多人指出云服务提供商已经现金流为负，并问：资本开支到底怎么能继续增长？ 证据：Arvind Krishna (IBM CEO) 称企业 AI 第一年为净亏损，80% 公司看似失败；；大部分公司未失败，只是处于 ROI 压缩改善前的最差阶段。",
+        "连比亚迪都跌回去了：这一轮杀的不是跌幅，是利润兑现：文章分析当前市场杀跌逻辑，认为市场正从奖励故事转向奖励可兑现的利润，以汽车行业和比亚迪为例说明跌幅不意味便宜，并区分中概股中讲故事的公司与能兑现利润的公司。 证据：申万汽车指数从2026年5月中旬高点到6月中回撤超过19%，板块市值蒸发五千多亿。；比亚迪2026年内跌幅约两成。",
+        "网传智谱用灰色中转站数据训练，以及我的看法：文章讨论网传智谱AI通过灰色中转站获取Claude真实用户数据训练模型的猜测，作者认为虽然智谱可能蒸馏了，但中转站数据训练的说法缺乏证据，并对coding能力的长期价值提出质疑，认为大模型最终可能commodity化。 证据：博主“青龙圣者”猜测GLM5.2成功是因为智谱获取了Claude中转站真实用户数据，而非蒸馏。；Anthropic点名DeepSeek、Kimi、MiniMax、千问蒸馏其模型，但未点名智谱。"
+      ],
+      "sections": [
+        {
+          "title": "产业与公司",
+          "items": [
+            {
+              "title": "Inference ROI depends more on memory",
+              "summary": "是的，美光不是英伟达。 但展望未来，它可能变得比英伟达更重要。 想想看。推理现在直接与赚钱挂钩。但推理并不是简单地通过增加更多英伟达GPU就能变得更好。事实上，GPU在推理中常常利用率不足，由于内存瓶颈而闲置。 对于推理来说，增加更多内存的价值要高得多。 最终，推理的ROI很大程...",
+              "insightLabel": "证据",
+              "insightText": "Inference performance is limited by memory bottlenecks, not just GPU compute.；Adding more Nvidia GPUs does not linearly improve inference due to underutilization.",
+              "sourceFeedItemIds": [
+                "feed_b65b6048bd59d5b1b656f49a"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "合同价值约5000亿韩元（3.2亿美元）",
+              "summary": "三星电机寻求与美国大科技公司达成3.2亿美元AI MLCC供应协议，价值有望攀升 三星电机正着手向全球大科技公司供应价值数千亿韩元的人工智能（AI）服务器多层陶瓷电容器（MLCC）。",
+              "insightLabel": "证据",
+              "insightText": "三星电机正与一家美国CSP就AI服务器MLCC供应合同进行最后阶段谈判，合同估值约5000亿韩元（3.2亿美元）。；AI服务器单板搭载15000-25000颗MLCC，最新AI服务器约20块计算板，单台服务器需要数十万颗MLCC。",
+              "sourceFeedItemIds": [
+                "feed_18e6d4638455c6818a2e1309"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "高纯度CO2供应因石化厂利用率下降而趋紧",
+              "summary": "High Purity CO2 Procurement Alarm for Semiconductor Supercritical Cleaning Processes Warning signs have emerged in the procurement of high p...",
+              "insightLabel": "证据",
+              "insightText": "三星电子每月使用约1,800至2,000吨高纯度CO2；SK海力士每月使用约600至700吨高纯度CO2",
+              "sourceFeedItemIds": [
+                "feed_866fff53d9fc72a2fa158c41"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "作者认为2026年下半年有吸引力的投资机会可能仍是国产半导体概念",
+              "summary": "2026年下半年潜在有吸引力的投资机会—— 我仍然认为它们很可能是中国半导体本地化概念股。",
+              "insightLabel": "证据",
+              "insightText": "CXMT IPO后市值可能至少达到5万亿人民币；CXMT IPO募资大部分将流向国产半导体设备股",
+              "sourceFeedItemIds": [
+                "feed_4bd09de937fdffb08dc849ac"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "作者以此论证DRAM非一般商品",
+              "summary": "听听 @GavinSBaker 在 All-In 1:04:06 说的内容： “DRAM 是最重要的瓶颈，Elon 将 Terafab 聚焦于内存，因为他相信内存是最重要的瓶颈。",
+              "insightLabel": "证据",
+              "insightText": "Gavin Baker在All-In播客1:04:06表示，DRAM是Terafab最重要的瓶颈，Elon Musk将内存作为Terafab重点；Elon Musk认为DRAM比激光、电容、功率半导体、NAND、HDD更重要",
+              "sourceFeedItemIds": [
+                "feed_9b8ee84dcbc0da1e59cadc8c"
+              ],
+              "confidence": 75
+            }
+          ]
+        },
+        {
+          "title": "财报与数据",
+          "items": [
+            {
+              "title": "反驳 CSP 负现金流意味 CAPEX 不可持续的论点",
+              "summary": "许多人指出云服务提供商已经现金流为负，并问：资本开支到底怎么能继续增长？",
+              "insightLabel": "证据",
+              "insightText": "Arvind Krishna (IBM CEO) 称企业 AI 第一年为净亏损，80% 公司看似失败；；大部分公司未失败，只是处于 ROI 压缩改善前的最差阶段。",
+              "sourceFeedItemIds": [
+                "feed_7141f3ac6c38d5b5fde19b75"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "连比亚迪都跌回去了：这一轮杀的不是跌幅，是利润兑现",
+              "summary": "文章分析当前市场杀跌逻辑，认为市场正从奖励故事转向奖励可兑现的利润，以汽车行业和比亚迪为例说明跌幅不意味便宜，并区分中概股中讲故事的公司与能兑现利润的公司。",
+              "insightLabel": "证据",
+              "insightText": "申万汽车指数从2026年5月中旬高点到6月中回撤超过19%，板块市值蒸发五千多亿。；比亚迪2026年内跌幅约两成。",
+              "sourceFeedItemIds": [
+                "feed_b7fb68460dbc09600c479b2c"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "网传智谱用灰色中转站数据训练，以及我的看法",
+              "summary": "文章讨论网传智谱AI通过灰色中转站获取Claude真实用户数据训练模型的猜测，作者认为虽然智谱可能蒸馏了，但中转站数据训练的说法缺乏证据，并对coding能力的长期价值提出质疑，认为大模型最终可能commodity化。",
+              "insightLabel": "证据",
+              "insightText": "博主“青龙圣者”猜测GLM5.2成功是因为智谱获取了Claude中转站真实用户数据，而非蒸馏。；Anthropic点名DeepSeek、Kimi、MiniMax、千问蒸馏其模型，但未点名智谱。",
+              "sourceFeedItemIds": [
+                "feed_310479d5fb111fefae8e6412"
+              ],
+              "confidence": 72
+            }
+          ]
+        },
+        {
+          "title": "宏观与政策",
+          "items": [
+            {
+              "title": "美联储的集权式改革以及沃什的阳谋",
+              "summary": "文章分析美联储主席沃什将货币政策框架从充裕准备金转为稀缺准备金，以此集权并废除点阵图，最终使美债定价从依赖加息预期转向依赖美联储实际投放动作。",
+              "insightLabel": "证据",
+              "insightText": "2026年6月17日沃什首秀，删除前瞻指引、不交点阵图、构建五大工作组。；短端期限利差已转正并攀升至46bp。",
+              "sourceFeedItemIds": [
+                "feed_9ac3dd464167cab19a7e9741"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "伊朗6月通胀年率升至88.9%",
+              "summary": "#数据 据伊朗统计中心数据，伊朗6月通胀年率为88.9%（作为对比，2月年率为68%）；",
+              "insightLabel": "证据",
+              "insightText": "伊朗6月通胀年率为88.9%；2月通胀年率为68%",
+              "sourceFeedItemIds": [
+                "feed_f903c8c8324b162c1081c4d2"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "吃药问题",
+              "summary": "上海自2025年5月起执行医保新政，针对第十一批集采药品改为定额报销，原研药报销金额固定为集采药水平，个人自付增加，但社区医院能开出更多原研药。",
+              "insightLabel": "证据",
+              "insightText": "上海2025年5月执行医保新政，针对第十一批集采药品（49种，主要为慢病常用药）。；医保报销从比例报销改为定额报销，定额为集采药的报销金额。",
+              "sourceFeedItemIds": [
+                "feed_f9caf5ae4ca6ae37019eb05f"
+              ],
+              "confidence": 55
+            }
+          ]
+        },
+        {
+          "title": "核心观点",
+          "items": [
+            {
+              "title": "英国海事贸易行动办公室报告",
+              "summary": "英国海事贸易行动办公室报告称，一艘油轮周六在霍尔木兹海峡遭到攻击，驾驶室受损，所有船员均安全。",
+              "insightLabel": "证据",
+              "insightText": "英国海事贸易行动办公室报告一艘油轮在霍尔木兹海峡遭攻击；攻击发生于周六（2026年6月27日）",
+              "sourceFeedItemIds": [
+                "feed_3e27199339f8845053fa4ac0"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_b65b6048bd59d5b1b656f49a",
+        "feed_7141f3ac6c38d5b5fde19b75",
+        "feed_9ac3dd464167cab19a7e9741",
+        "feed_18e6d4638455c6818a2e1309",
+        "feed_b7fb68460dbc09600c479b2c",
+        "feed_866fff53d9fc72a2fa158c41",
+        "feed_4bd09de937fdffb08dc849ac",
+        "feed_9b8ee84dcbc0da1e59cadc8c",
+        "feed_9285172bfac75b5ee262e3d0",
+        "feed_effaff248d23fbcc470ca9fa",
+        "feed_bf9f75adc80a33d554bb8d2e",
+        "feed_3e27199339f8845053fa4ac0"
+      ],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "Jukan": 8,
+          "沧海一土狗": 1,
+          "Link01": 1,
+          "Serenity": 3,
+          "外汇交易员": 2,
+          "猫笔刀": 1,
+          "卓哥投研笔记": 1,
+          "硬核姬老板": 1,
+          "信仰守望者": 1,
+          "老钱日日谈": 1,
+          "记忆承载": 1
+        }
+      }
+    },
+    {
+      "id": "daily_whale-portfolio_2026-06-28",
+      "topicId": "whale-portfolio",
+      "reportDate": "2026-06-28",
+      "title": "大佬持仓日报",
+      "mainLine": "大佬持仓在 2026-06-28 没有达到日报阈值的显著更新。",
+      "actionItems": [],
+      "watchItems": [],
+      "sections": [],
+      "referencedFeedItemIds": [],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {}
+      }
+    },
+    {
+      "id": "daily_x-signal_2026-06-28",
+      "topicId": "x-signal",
+      "reportDate": "2026-06-28",
+      "title": "X Radar日报",
+      "mainLine": "今日X Radar最值得先看「ChatGPT」，主要落在「可行动线索」、「重点变化」、「后续观察」。",
+      "actionItems": [],
+      "watchItems": [
+        "ChatGPT：这个好，一个开源内存层，让 Claude、ChatGPT、Cursor 和 Codex 共享一个大脑。 补充：Memory layer is open-source and supports Claude, ChatGPT, Cursor, and Codex.；Deployed on Cloudflare Workers; data stored in user's Cloudflare account using D1, Vectori...",
+        "一位网友通过串联11个不同职能的智能体：看到一位网友的 Gentle-AI 配置：串联 11 个不同职能的智能体，用低成本 Flash 模型处理大部分上下文，只在设计（Qwen）、编码（Kimi Code）等关键环节调用高性能模型。 补充：串联11个不同职能的智能体；使用低成本Flash模型处理大部分上下文",
+        "推出OMK代理调度台：OMK 一个代理调度台，它不自己写代码，而是帮你协调和管理各种 AI编程助手（Codex、Claude Code、OpenCode 等），让它们像流水线工人一样并行干活，并且每一步都有据可查。 补充：OMK是一个代理调度台，不直接编写代码。；它协调和管理Codex、Claude Code、OpenCode等AI编程助手。",
+        "一个使用树莓派：这是一个开源扫地机器人项目，用树莓派、3D 打印、2D LiDAR 和 ROS2 就能自己造。 补充：使用树莓派、3D 打印、2D LiDAR 和 ROS2 构建；支持地图导航和 Home Assistant 集成",
+        "taresky 指出：更简单的是直接在控制中心里面添加 CodeX，这点 ChatGPT APP 本身支持。 补充：CodeX 可直接在 iOS 控制中心添加。；添加后可从桌面直接启动 CodeX。",
+        "OpenAI Codex 迎来多项体验改进：Codex 迎来了大量改进。 - 处理超长线程更流畅。 - 可悬停的导航栏，预览和跳转对话轮次，感觉恰到好处。 - 设置搜索覆盖更多控制项，外观和主机过滤选项更清晰，自定义提供者设置更易找到。 - 缩放级别更改不再导致工具提示、对话框、菜单、选择气泡、拖放预览或自动完成错位。 -... 补充：Codex 更新带来了流畅的长线程滚动支持。；新增悬停导航栏，可预览和跳转不同轮次。",
+        "介绍 lazyslurm 这个终端工具：Slurm 命令行能干很多事，但盯作业、看节点、翻历史很费劲。lazyslurm 在终端里给你 lazygit 那种体验，专门管 HPC 集群。 https://t.co/pWdfOYMrk8 https://t.co/zShCLLLbul 补充：lazyslurm 是一个终端工具，用于管理 HPC 集群的 Slurm 调度系统。；它提供类似 lazygit 的用户界面，用于监控作业、查看节点和历史。",
+        "推荐一款macOS上原生：在 macOS 上提供原生、轻量、默认离线的 Markdown 所见即所得编辑体验，作为 Typora 一类商业编辑器的开源平替。 补充：面向 macOS 平台；原生、轻量、默认离线"
+      ],
+      "sections": [
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "ChatGPT",
+              "summary": "这个好，一个开源内存层，让 Claude、ChatGPT、Cursor 和 Codex 共享一个大脑。",
+              "insightLabel": "补充",
+              "insightText": "Memory layer is open-source and supports Claude, ChatGPT, Cursor, and Codex.；Deployed on Cloudflare Workers; data stored in user's Cloudflare account using D1, Vectori...",
+              "sourceFeedItemIds": [
+                "feed_6d937253fb1e8b55dafefbe4"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "一位网友通过串联11个不同职能的智能体",
+              "summary": "看到一位网友的 Gentle-AI 配置：串联 11 个不同职能的智能体，用低成本 Flash 模型处理大部分上下文，只在设计（Qwen）、编码（Kimi Code）等关键环节调用高性能模型。",
+              "insightLabel": "补充",
+              "insightText": "串联11个不同职能的智能体；使用低成本Flash模型处理大部分上下文",
+              "sourceFeedItemIds": [
+                "feed_c8c0ffc69fb8a896cde12b3f"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "推出OMK代理调度台",
+              "summary": "OMK 一个代理调度台，它不自己写代码，而是帮你协调和管理各种 AI编程助手（Codex、Claude Code、OpenCode 等），让它们像流水线工人一样并行干活，并且每一步都有据可查。",
+              "insightLabel": "补充",
+              "insightText": "OMK是一个代理调度台，不直接编写代码。；它协调和管理Codex、Claude Code、OpenCode等AI编程助手。",
+              "sourceFeedItemIds": [
+                "feed_e515a3083481847e385b8c6f"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "一个使用树莓派",
+              "summary": "这是一个开源扫地机器人项目，用树莓派、3D 打印、2D LiDAR 和 ROS2 就能自己造。",
+              "insightLabel": "补充",
+              "insightText": "使用树莓派、3D 打印、2D LiDAR 和 ROS2 构建；支持地图导航和 Home Assistant 集成",
+              "sourceFeedItemIds": [
+                "feed_061542089ca33180bb2b379a"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "taresky 指出",
+              "summary": "更简单的是直接在控制中心里面添加 CodeX，这点 ChatGPT APP 本身支持。",
+              "insightLabel": "补充",
+              "insightText": "CodeX 可直接在 iOS 控制中心添加。；添加后可从桌面直接启动 CodeX。",
+              "sourceFeedItemIds": [
+                "feed_6b366be9a221c4b7ca2151fb"
+              ],
+              "confidence": 72
+            }
+          ]
+        },
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "OpenAI Codex 迎来多项体验改进",
+              "summary": "Codex 迎来了大量改进。 - 处理超长线程更流畅。 - 可悬停的导航栏，预览和跳转对话轮次，感觉恰到好处。 - 设置搜索覆盖更多控制项，外观和主机过滤选项更清晰，自定义提供者设置更易找到。 - 缩放级别更改不再导致工具提示、对话框、菜单、选择气泡、拖放预览或自动完成错位。 -...",
+              "insightLabel": "补充",
+              "insightText": "Codex 更新带来了流畅的长线程滚动支持。；新增悬停导航栏，可预览和跳转不同轮次。",
+              "sourceFeedItemIds": [
+                "feed_c7fd1a7148dec312155c96c1"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "介绍 lazyslurm 这个终端工具",
+              "summary": "Slurm 命令行能干很多事，但盯作业、看节点、翻历史很费劲。lazyslurm 在终端里给你 lazygit 那种体验，专门管 HPC 集群。 https://t.co/pWdfOYMrk8 https://t.co/zShCLLLbul",
+              "insightLabel": "补充",
+              "insightText": "lazyslurm 是一个终端工具，用于管理 HPC 集群的 Slurm 调度系统。；它提供类似 lazygit 的用户界面，用于监控作业、查看节点和历史。",
+              "sourceFeedItemIds": [
+                "feed_c86ebd48461f4ef99b315fcf"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "推荐一款macOS上原生",
+              "summary": "在 macOS 上提供原生、轻量、默认离线的 Markdown 所见即所得编辑体验，作为 Typora 一类商业编辑器的开源平替。",
+              "insightLabel": "补充",
+              "insightText": "面向 macOS 平台；原生、轻量、默认离线",
+              "sourceFeedItemIds": [
+                "feed_b925034d159740b51214a81a"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "效率反而不如手动",
+              "summary": "我觉得目前最好的方式就是用 https://t.co/GnoOguhbYf 这种产品，内置了非常多设计品味很好的模版，也有 AI 功能。",
+              "insightLabel": "补充",
+              "insightText": "推荐使用Gamma等内置优秀设计模板且有AI功能的产品制作PPT。；指出张咋啦的skills生成后细节需大量调整，效率不如传统PPT工具手动操作。",
+              "sourceFeedItemIds": [
+                "feed_322505331140fb5c5251ed81"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "Grok 4.5 即将发布",
+              "summary": "Grok 4.5 要来了，加了 Cursor 数据，看这次能不能夯起来。",
+              "insightLabel": "补充",
+              "insightText": "Grok 4.5 即将发布；新增 Cursor 数据用于训练",
+              "sourceFeedItemIds": [
+                "feed_0179d49d457981fef1990c0c"
+              ],
+              "confidence": 60
+            }
+          ]
+        },
+        {
+          "title": "后续观察",
+          "items": [
+            {
+              "title": "博主观察到",
+              "summary": "所有番茄时钟类产品，好像都可以被 agent 的 5 小时额度限制取代了。",
+              "insightLabel": "补充",
+              "insightText": "博主认为AI agent的5小时额度限制可以替代所有番茄时钟类产品。",
+              "sourceFeedItemIds": [
+                "feed_7f1138d05986abb93525ea02"
+              ],
+              "confidence": 55
+            },
+            {
+              "title": "博主分享了一张AI回复“谢谢我”的截图",
+              "summary": "#AI AI 说，谢谢我。 https://t.co/VgtPdFCxtt Quoted post: Author: @taresky #AI 你没有回答我的问题，怎么就开始写代码了？🥲 https://t.co/ow9KofpMKi",
+              "insightLabel": "补充",
+              "insightText": "博主发布帖子，内容为‘AI说，谢谢我。’，并附有截图和链接。；引用帖子中，博主对AI说：‘你没有回答我的问题，怎么就开始写代码了？",
+              "sourceFeedItemIds": [
+                "feed_57912e40940af31d145f068d"
+              ],
+              "confidence": 50
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_6d937253fb1e8b55dafefbe4",
+        "feed_c8c0ffc69fb8a896cde12b3f",
+        "feed_c7fd1a7148dec312155c96c1",
+        "feed_e515a3083481847e385b8c6f",
+        "feed_c86ebd48461f4ef99b315fcf",
+        "feed_061542089ca33180bb2b379a",
+        "feed_b925034d159740b51214a81a",
+        "feed_322505331140fb5c5251ed81",
+        "feed_6b366be9a221c4b7ca2151fb",
+        "feed_0179d49d457981fef1990c0c",
+        "feed_7300d96f70ca225ab7c2af27",
+        "feed_53de095a7473dfc40ea1b41b"
+      ],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "Geek": 9,
+          "Tibo": 1,
+          "Ding": 2,
+          "𝘁𝗮𝗿𝗲𝘀𝗸𝘆": 2
+        }
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-06-28",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-06-28",
+      "title": "大厂日报",
+      "mainLine": "大厂日报在 2026-06-28 没有达到日报阈值的显著更新。",
+      "actionItems": [],
+      "watchItems": [],
+      "sections": [],
+      "referencedFeedItemIds": [],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {}
+      }
+    },
+    {
+      "id": "daily_lifestyle-fun_2026-06-28",
+      "topicId": "lifestyle-fun",
+      "reportDate": "2026-06-28",
+      "title": "吃喝玩乐日报",
+      "mainLine": "今日吃喝玩乐最值得先看「长沙的咖啡水平，还是远远被低估了……」，主要落在「可行动线索」。",
+      "actionItems": [],
+      "watchItems": [
+        "长沙的咖啡水平，还是远远被低估了……：企鹅吃喝指南推出长沙主题挂耳咖啡包，集合10家本地精品咖啡馆的10支独家豆子，售价99元/套，附淘宝购买链接。 补充：价格：99元一套，共10包，每包约10元。；包含10家长沙咖啡馆：咖啡设计师、Not bad 须时、无同咖啡、友时咖啡、PERHAPS、复十咖啡、TANSO探索咖啡、大马哈鱼、手术室咖啡、Cloudy coffee。",
+        "速度！8买3升东方树叶/三得利/一堆泡面！全店通用可买刚需喜欢的：松鼠便利新用户可领20-12券，配合整点抢券实现8元买20元商品，实测东方树叶3瓶超大瓶8.5元、三得利好价、泡面均价1元起、雪花啤酒不到2元。 补充：新用户可领20-12券，领过的换号可再领。；每天18-19-20点整点可抢12-12或25-15券。",
+        "速度！0.4买海王星辰牙膏花露水安心裤卫生巾！2.4六神花露水大瓶装！：通过领取松阳券和淘宝闪购优惠，叠加免运费券和单品兑换券，可在海王星辰店铺以0.4元低价购买花露水、卫生巾等商品，同时提供其他优惠活动链接。 补充：需先领取松阳券，左上角改地址为松阳县第一中学，再领1.5叠加券。；通过淘宝或闪购搜索950900，复制口令1(SpU8gjaAkp8)/ CZ00，领免运费券和单品兑换券。"
+      ],
+      "sections": [
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "长沙的咖啡水平，还是远远被低估了……",
+              "summary": "企鹅吃喝指南推出长沙主题挂耳咖啡包，集合10家本地精品咖啡馆的10支独家豆子，售价99元/套，附淘宝购买链接。",
+              "insightLabel": "补充",
+              "insightText": "价格：99元一套，共10包，每包约10元。；包含10家长沙咖啡馆：咖啡设计师、Not bad 须时、无同咖啡、友时咖啡、PERHAPS、复十咖啡、TANSO探索咖啡、大马哈鱼、手术室咖啡、Cloudy coffee。",
+              "sourceFeedItemIds": [
+                "feed_2f303200351ccc2f6e7a12ae"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "速度！8买3升东方树叶/三得利/一堆泡面！全店通用可买刚需喜欢的",
+              "summary": "松鼠便利新用户可领20-12券，配合整点抢券实现8元买20元商品，实测东方树叶3瓶超大瓶8.5元、三得利好价、泡面均价1元起、雪花啤酒不到2元。",
+              "insightLabel": "补充",
+              "insightText": "新用户可领20-12券，领过的换号可再领。；每天18-19-20点整点可抢12-12或25-15券。",
+              "sourceFeedItemIds": [
+                "feed_51803493af0cbb85d94892f5"
+              ],
+              "confidence": 68
+            },
+            {
+              "title": "速度！0.4买海王星辰牙膏花露水安心裤卫生巾！2.4六神花露水大瓶装！",
+              "summary": "通过领取松阳券和淘宝闪购优惠，叠加免运费券和单品兑换券，可在海王星辰店铺以0.4元低价购买花露水、卫生巾等商品，同时提供其他优惠活动链接。",
+              "insightLabel": "补充",
+              "insightText": "需先领取松阳券，左上角改地址为松阳县第一中学，再领1.5叠加券。；通过淘宝或闪购搜索950900，复制口令1(SpU8gjaAkp8)/ CZ00，领免运费券和单品兑换券。",
+              "sourceFeedItemIds": [
+                "feed_f321918008ab6e8dded04564"
+              ],
+              "confidence": 60
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_2f303200351ccc2f6e7a12ae",
+        "feed_51803493af0cbb85d94892f5",
+        "feed_f321918008ab6e8dded04564"
+      ],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "企鹅吃喝指南": 1,
+          "buy宝箱": 2
+        }
+      }
+    },
+    {
+      "id": "daily_github-trending_2026-06-28",
+      "topicId": "github-trending",
+      "reportDate": "2026-06-28",
+      "title": "GitHub 趋势日报",
+      "mainLine": "今日GitHub 趋势最值得先看「hugohe3/ppt-master」，主要落在「可行动线索」、「重点变化」、「其他值得看」。",
+      "actionItems": [],
+      "watchItems": [
+        "hugohe3/ppt-master：PPT-Master 是一个由 AI 驱动的开源工具，能够从任意文档生成原生可编辑的 PowerPoint 文件，支持原生形状、动画、演讲者笔记音频旁白及自定义模板，适用于需要快速生成可编辑演示文稿的场景。 补充：语言：Python；Stars：32,977",
+        "anomalyco/opencode：OpenCode 是一个开源 AI 编程助手，可作为桌面应用或命令行工具使用，提供代码生成、修改和探索功能。 补充：语言: TypeScript；Stars: 179,640",
+        "Fission-AI/OpenSpec：OpenSpec 是一个面向 AI 编码助手的规范驱动开发（SDD）工具，帮助开发者通过规范引导 AI 生成更准确的代码。 补充：语言：TypeScript；Stars: 57,061",
+        "dbt-labs/dbt-core：dbt-core 是一个开源数据转换工具，帮助数据分析师和工程师像软件工程师一样管理数据转换流程。 补充：Language: Rust；Stars: 13,182",
+        "HKUDS/Vibe-Trading：Vibe-Trading 是一个开源的个性化交易代理项目，旨在通过自然语言指令，为个人投资者提供全面的交易能力支持，涵盖回测、策略生成与执行。 补充：语言: Python；Stars: 13,642",
+        "NVlabs/Eagle：Eagle 是一系列基于数据驱动策略的前沿视觉-语言模型，旨在提升多模态理解能力。 补充：语言: Python；Stars: 2,796",
+        "keycloak/keycloak：Keycloak 是一个开源的身份和访问管理解决方案，为现代应用和服务提供认证、授权、用户联合等功能，支持 SAML、OIDC 等协议。 补充：语言: Java；Stars: 35,229",
+        "Anil-matcha/Open-Generative-AI：Open-Generative-AI is an open-source, self-hosted alternative to AI video platforms, offering a free studio with 200+ models for uncensored... 补充：Language: JavaScript；Stars: 21,321"
+      ],
+      "sections": [
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "hugohe3/ppt-master",
+              "summary": "PPT-Master 是一个由 AI 驱动的开源工具，能够从任意文档生成原生可编辑的 PowerPoint 文件，支持原生形状、动画、演讲者笔记音频旁白及自定义模板，适用于需要快速生成可编辑演示文稿的场景。",
+              "insightLabel": "补充",
+              "insightText": "语言：Python；Stars：32,977",
+              "sourceFeedItemIds": [
+                "feed_be22974514c68b04a2f6f2ca"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "anomalyco/opencode",
+              "summary": "OpenCode 是一个开源 AI 编程助手，可作为桌面应用或命令行工具使用，提供代码生成、修改和探索功能。",
+              "insightLabel": "补充",
+              "insightText": "语言: TypeScript；Stars: 179,640",
+              "sourceFeedItemIds": [
+                "feed_3827fc9aabaad7866d8c5b19"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "Fission-AI/OpenSpec",
+              "summary": "OpenSpec 是一个面向 AI 编码助手的规范驱动开发（SDD）工具，帮助开发者通过规范引导 AI 生成更准确的代码。",
+              "insightLabel": "补充",
+              "insightText": "语言：TypeScript；Stars: 57,061",
+              "sourceFeedItemIds": [
+                "feed_39e015dbf82f8bb7a08a6c30"
+              ],
+              "confidence": 80
+            }
+          ]
+        },
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "dbt-labs/dbt-core",
+              "summary": "dbt-core 是一个开源数据转换工具，帮助数据分析师和工程师像软件工程师一样管理数据转换流程。",
+              "insightLabel": "补充",
+              "insightText": "Language: Rust；Stars: 13,182",
+              "sourceFeedItemIds": [
+                "feed_6a17ea79ba3d8fe799daa797"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "HKUDS/Vibe-Trading",
+              "summary": "Vibe-Trading 是一个开源的个性化交易代理项目，旨在通过自然语言指令，为个人投资者提供全面的交易能力支持，涵盖回测、策略生成与执行。",
+              "insightLabel": "补充",
+              "insightText": "语言: Python；Stars: 13,642",
+              "sourceFeedItemIds": [
+                "feed_753f05affe252ff8ee01d7a2"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "NVlabs/Eagle",
+              "summary": "Eagle 是一系列基于数据驱动策略的前沿视觉-语言模型，旨在提升多模态理解能力。",
+              "insightLabel": "补充",
+              "insightText": "语言: Python；Stars: 2,796",
+              "sourceFeedItemIds": [
+                "feed_1a62e6c1f184a0f88729cb1a"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "keycloak/keycloak",
+              "summary": "Keycloak 是一个开源的身份和访问管理解决方案，为现代应用和服务提供认证、授权、用户联合等功能，支持 SAML、OIDC 等协议。",
+              "insightLabel": "补充",
+              "insightText": "语言: Java；Stars: 35,229",
+              "sourceFeedItemIds": [
+                "feed_bf1074656198aab261997e2b"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "其他值得看",
+          "items": [
+            {
+              "title": "Anil-matcha/Open-Generative-AI",
+              "summary": "Open-Generative-AI is an open-source, self-hosted alternative to AI video platforms, offering a free studio with 200+ models for uncensored...",
+              "insightLabel": "补充",
+              "insightText": "Language: JavaScript；Stars: 21,321",
+              "sourceFeedItemIds": [
+                "feed_207c0859d5779073b46670ca"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_be22974514c68b04a2f6f2ca",
+        "feed_3827fc9aabaad7866d8c5b19",
+        "feed_6a17ea79ba3d8fe799daa797",
+        "feed_39e015dbf82f8bb7a08a6c30",
+        "feed_753f05affe252ff8ee01d7a2",
+        "feed_207c0859d5779073b46670ca",
+        "feed_1a62e6c1f184a0f88729cb1a",
+        "feed_bf1074656198aab261997e2b"
+      ],
+      "generatedAt": "2026-06-28T16:29:36.447Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "GitHub Trending": 8
+        }
+      }
+    }
+  ],
+  "generatedAt": "2026-07-02T04:14:52.254Z",
+  "sourceBaseUrl": "https://hot.kyangc.net"
+}

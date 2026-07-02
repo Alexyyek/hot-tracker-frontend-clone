@@ -1,0 +1,1149 @@
+{
+  "items": [
+    {
+      "id": "daily_ai_2026-07-01",
+      "topicId": "ai",
+      "reportDate": "2026-07-01",
+      "title": "AI日报",
+      "mainLine": "今日 AI 动态优先看「Claude Code负责人承认留有后门，明日回滚」，脉络集中在「产品与工具」「模型与基础设施」「行业与公司」；先分辨是能力变化、产品落地还是行业信号。",
+      "actionItems": [],
+      "watchItems": [
+        "Anthropic 相关动态集中出现：Anthropic官方承认在Claude Code中植入后门代码，这一信任危机远超一次技术故障，所有使用其产品的团队都需要重新评估供应链安全。 关注：同组还包括「Anthropic在Claude Code中植入隐写术代码识别中国用户」、「Claude Code 被曝内置隐蔽检测中国用户代码，Anthropic...」、「Claude Code被指在系统提示词中隐蔽上传代理和时区信息」等 7 条。",
+        "xAI 发布 Voice Agent Builder 测试版：xAI 用 Grok Voice 原生的语音到语音路径，把生产级语音代理的搭建门槛降到了无代码、两分钟，计费也简单，做语音业务的人值得试试。",
+        "xAI 推出 Voice Agent Builder 语音智能体平台：xAI 的 Voice Agent Builder 是无代码建语音 agent 的工具，今天就能用，每分钟 0.05 美元，做语音产品的团队可以试试看。",
+        "用 shot-scraper video 让 AI 智能体录制工作演示视频：Simon 把 agent 的产出从文字推到了视频，这个 shot-scraper video 让 agent 自己生成 storyboard 并录屏，等于给自动化流程加了一双眼睛，开发者可以立刻用上这套 demo 生成方案。",
+        "Google 相关动态集中出现：Acti 想用 AI 代理重塑手机键盘，把 Gemini 塞进输入法，离不离开 App 都能用 AI 的思路很讨巧，但换键盘的阻力不小，目前更像一个有趣的试验品。 关注：同组还包括「NotebookLM Short Video Overviews 全量上...」、「ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引...」。",
+        "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型：国产算力上首个全流程自训的万亿开源模型，1M上下文和动态专家架构直指Agentic Coding场景，OpenRouter调用量已经冲到前三，不是Demo是生产力。",
+        "Anthropic 相关动态集中出现：Claude Sonnet 5 把代理能力从 Opus 下放到了 Sonnet，性能接近 Opus 4.8 但价格只有三分之一，这对开发者来说性价比飞跃。 关注：同组还包括「Claude Code v2.1.197 发布：默认模型升级为 Clau...」、「Claude Sonnet 5 发布，性能接近 Opus 4.8」、「Claude Sonnet 5 发布：1M上下文窗口，编码工具性能顶级」等 11 条。",
+        "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题：如果属实，这将是 AI 首次批量解决实质性开放数学问题，但消息仅来自推文声明，未见论文或代码，现在兴奋还太早。"
+      ],
+      "sections": [
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "Anthropic 相关动态集中出现",
+              "summary": "Anthropic官方承认在Claude Code中植入后门代码，这一信任危机远超一次技术故障，所有使用其产品的团队都需要重新评估供应链安全。",
+              "insightLabel": "关注",
+              "insightText": "同组还包括「Anthropic在Claude Code中植入隐写术代码识别中国用户」、「Claude Code 被曝内置隐蔽检测中国用户代码，Anthropic...」、「Claude Code被指在系统提示词中隐蔽上传代理和时区信息」等 7 条。",
+              "sourceFeedItemIds": [
+                "feed_d0ea798499aaa7e0c0352d9a",
+                "feed_17b74f0575abf419a7a1345d",
+                "feed_2c80ed252db4138c0c450e56",
+                "feed_78e442569776e519e5367dbf",
+                "feed_410e08c4692b3ffb43f0f857",
+                "feed_dbee3bf3e09233a991872897",
+                "feed_07b058a7b746d5b16d602ce0",
+                "feed_9712f6563616694390d40464"
+              ],
+              "confidence": 84
+            },
+            {
+              "title": "xAI 发布 Voice Agent Builder 测试版",
+              "summary": "xAI 用 Grok Voice 原生的语音到语音路径，把生产级语音代理的搭建门槛降到了无代码、两分钟，计费也简单，做语音业务的人值得试试。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_4a8d06192313a23ec9baf260"
+              ],
+              "confidence": 77
+            },
+            {
+              "title": "xAI 推出 Voice Agent Builder 语音智能体平台",
+              "summary": "xAI 的 Voice Agent Builder 是无代码建语音 agent 的工具，今天就能用，每分钟 0.05 美元，做语音产品的团队可以试试看。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_c5e59ee1607882e2f8c94802"
+              ],
+              "confidence": 73
+            },
+            {
+              "title": "用 shot-scraper video 让 AI 智能体录制工作演示视频",
+              "summary": "Simon 把 agent 的产出从文字推到了视频，这个 shot-scraper video 让 agent 自己生成 storyboard 并录屏，等于给自动化流程加了一双眼睛，开发者可以立刻用上这套 demo 生成方案。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_41e6c9c8cde99f6a99668e19"
+              ],
+              "confidence": 73
+            },
+            {
+              "title": "Google 相关动态集中出现",
+              "summary": "Acti 想用 AI 代理重塑手机键盘，把 Gemini 塞进输入法，离不离开 App 都能用 AI 的思路很讨巧，但换键盘的阻力不小，目前更像一个有趣的试验品。",
+              "insightLabel": "关注",
+              "insightText": "同组还包括「NotebookLM Short Video Overviews 全量上...」、「ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引...」。",
+              "sourceFeedItemIds": [
+                "feed_bd2b5801e65b8a0547d517fc",
+                "feed_5c027dc6fb14695c6770c60e",
+                "feed_ec689cd44b2e63903f3c42c8"
+              ],
+              "confidence": 72
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+              "summary": "国产算力上首个全流程自训的万亿开源模型，1M上下文和动态专家架构直指Agentic Coding场景，OpenRouter调用量已经冲到前三，不是Demo是生产力。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_b058cc789bef59dfea72ad5e"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Anthropic 相关动态集中出现",
+              "summary": "Claude Sonnet 5 把代理能力从 Opus 下放到了 Sonnet，性能接近 Opus 4.8 但价格只有三分之一，这对开发者来说性价比飞跃。",
+              "insightLabel": "关注",
+              "insightText": "同组还包括「Claude Code v2.1.197 发布：默认模型升级为 Clau...」、「Claude Sonnet 5 发布，性能接近 Opus 4.8」、「Claude Sonnet 5 发布：1M上下文窗口，编码工具性能顶级」等 11 条。",
+              "sourceFeedItemIds": [
+                "feed_33168354a9a5144216978bcf",
+                "feed_a24703720a6c4eba4af9fe07",
+                "feed_c67d9dcdf508af8fa2ca53ff",
+                "feed_b1bec95c7c49cf542682532e",
+                "feed_1eb8ee9c85a5a96d518e029c",
+                "feed_1d7168acac8dc588dd90faff",
+                "feed_ab4bbdededcfb2ccec5f8ca4",
+                "feed_8cfc6733f34e2c42aa543d0a",
+                "feed_d6510d58a4e663e593fa8fa0",
+                "feed_f7d52f676fb4dd0d11c095da",
+                "feed_30ec8a36054eee74cde8c0a0",
+                "feed_f319480165ebae7142b95661"
+              ],
+              "confidence": 81
+            },
+            {
+              "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+              "summary": "如果属实，这将是 AI 首次批量解决实质性开放数学问题，但消息仅来自推文声明，未见论文或代码，现在兴奋还太早。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_db657761d5aadbcaaa39e6f3"
+              ],
+              "confidence": 76
+            },
+            {
+              "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+              "summary": "NVIDIA这个TwoTower把扩散解码接在已有的AR骨干上，几乎无损质量却让吞吐翻倍，并且开源可商用，对批量文本生成的团队是实在的加速工具。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_bfbb00c8767c00dc3ac6ce33"
+              ],
+              "confidence": 73
+            },
+            {
+              "title": "Meta效仿SpaceX，将过剩AI算力变现",
+              "summary": "Meta 进入云市场不只是大厂的新业务，而是算力资产化的信号，未来 AI 竞争可能从模型军备赛转向数据中心所有权，开发者能拿到更便宜的 GPU 但绑定生态的风险也得权衡。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_46197a9e13900295ee503e35"
+              ],
+              "confidence": 72
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Claude Fable 5 与 Mythos 5 即将回归",
+              "summary": "我觉得这是今年AI监管方面最积极的松绑信号，解除出口管制直接利好Claude的海外用户和依赖Anthropic的国际开发者，后续执行细节值得紧盯。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_04a7e9a635206fccb5e87e8c"
+              ],
+              "confidence": 76
+            },
+            {
+              "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
+              "summary": "苹果与欧盟围绕Siri AI的监管博弈，表面是互操作义务之争，实则关乎AI巨头在数据隐私和市场准入间的平衡，对全球科技政策都有风向标意义。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_27f5ace8df1b5e96642dc5a7"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+              "summary": "AWS 砸 10 亿美元建驻场工程师团队，帮客户 45 天落地 AI 智能体。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_100368d75c78814d4d941347"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "技巧与观点",
+          "items": [
+            {
+              "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+              "summary": "Matt Pocock 把写 Skill 从玄学变成了可拆解的工程，其中领先词和完成标准这两个概念，能立刻让你的自定义工具行为更稳定，搞 Agent 的都应该试一下。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_71a0beeee56c3cda84d4b291"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_d0ea798499aaa7e0c0352d9a",
+        "feed_17b74f0575abf419a7a1345d",
+        "feed_b058cc789bef59dfea72ad5e",
+        "feed_2c80ed252db4138c0c450e56",
+        "feed_33168354a9a5144216978bcf",
+        "feed_a24703720a6c4eba4af9fe07",
+        "feed_c67d9dcdf508af8fa2ca53ff",
+        "feed_78e442569776e519e5367dbf",
+        "feed_b1bec95c7c49cf542682532e",
+        "feed_4a8d06192313a23ec9baf260",
+        "feed_04a7e9a635206fccb5e87e8c",
+        "feed_db657761d5aadbcaaa39e6f3"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "X：小互 (@xiaohu)": 1,
+          "公众号：数字生命卡兹克": 1,
+          "公众号：龙猫LongCat（美团）": 1,
+          "The Decoder：AI News（RSS）": 2,
+          "Anthropic：Newsroom（网页）": 3,
+          "Claude Code：GitHub Releases（RSS）": 1,
+          "X：Testing Catalog (@testingcatalog)": 2,
+          "X：邵猛 (@shao__meng)": 2,
+          "X：Claude Devs (@ClaudeDevs)": 2,
+          "xAI：News（网页）": 1,
+          "X：Rohan Paul (@rohanpaul_ai)": 1,
+          "X：AI Safety Memes (@AISafetyMemes)": 1,
+          "X：Claude (@claudeai)": 2,
+          "X：xAI (@xai)": 1,
+          "MarkTechPost（RSS）": 2,
+          "X：Anthropic (@AnthropicAI)": 1,
+          "X：OpenRouter (@OpenRouter)": 1,
+          "TechCrunch：AI（RSS）": 3,
+          "Simon Willison 博客": 1,
+          "IT之家（RSS）": 2,
+          "Hacker News 热门（buzzing.cc 中文翻译）": 1,
+          "Claude：Blog（网页）": 1,
+          "公众号：卡尔的AI沃茨": 1,
+          "Google DeepMind：Blog（RSS）": 1,
+          "X：NotebookLM (@NotebookLM)": 1,
+          "X：智谱 Z.ai (@Zai_org)": 1,
+          "Google Developers Blog（RSS）": 1,
+          "Apple：Newsroom（RSS）": 1,
+          "Cloudflare Blog": 1
+        }
+      }
+    },
+    {
+      "id": "daily_flight-hotel-card_2026-07-01",
+      "topicId": "flight-hotel-card",
+      "reportDate": "2026-07-01",
+      "title": "机酒卡日报",
+      "mainLine": "今日机酒卡主题主要看「航司与票价」、「酒店与积分」、「卡券与权益」，最清晰的单点更新是「喜大普奔 燃油费要降了」；可先检查目标航线、规则口径和是否值得行动。",
+      "actionItems": [],
+      "watchItems": [
+        "喜大普奔 燃油费要降了：自2026年7月5日起，国内航线燃油附加费将下调，800公里以内短途降至50元，800公里以上长途降至100元。 线索：2026年7月5日调整窗口，国内航线燃油附加费短途（800公里以内）下调30元至50元，长途（800公里以上）下调50元至100元。；此前6月5日调整后短途为80元、长途为150元。",
+        "官宣！7月国内线燃油费大降！：九元航空公告自2026年7月5日起，国内航线燃油附加费大幅下调：800公里（含）以下航线降至50元，800公里以上降至100元。 线索：执行航司：九元航空；生效日期：2026年7月5日零时起",
+        "【救命啊】澳洲签证费，大涨25%！暑假3k+/国庆4k+，往返悉尼/墨尔本！日元汇率又创新低…：澳洲旅游签证费从200澳币涨至250澳币，涨幅25%；8月中下旬暑假赴澳机票含税3k+起，国庆期间4k+起；日元汇率跌破4.2，日本签证费和外国游客税也将于7月上涨。 线索：澳洲旅游签证费从200澳币涨至250澳币，涨幅25%；暑假8月中下旬北京=墨尔本含税3k4起，北京=悉尼含税3k9起",
+        "快快快！泰航bug再来！1K出头，往返曼谷！五星航司，有餐有行李！：泰国航空出现7-8月部分日期往返曼谷的bug价，成都、昆明、广州、北京、上海等城市出发，价格仅1k出头，含餐食和行李。 线索：bug价主要出现在7月及8月部分时间。；出发城市包括成都、昆明、广州、北京、上海。",
+        "【速度！疑似BUG？】吊打廉航！泰航再来北上广蓉低价！几乎正国庆，东航上海超经\"直飞往返欧洲\"：泰国航空再现低价BUG，北上广蓉昆直飞曼谷含税1K1-1K6往返； 线索：泰国航空7月1日再现疑似BUG价，北上广蓉昆直飞曼谷含税1K1-1K6往返，7月/8月多日期包括跨周末，低于廉航；泰航航线可经曼谷中转至东南亚、南亚多地，如槟城含税1K4往返、斯里兰卡含税2K2往返",
+        "突发！行政酒廊天花板，700一晚：苏州东太湖皇冠假日推出限时套餐，券后约724元/晚含早餐及双人行政酒廊，暑假周末不加价，有效期至12月31日。 线索：套餐为苏州东太湖皇冠假日酒店，券后724元/晚，含早餐和双人行政酒廊（下午茶、欢乐时光）。；行政酒廊提供鲍鱼、鱼翅、鱼子酱、鹅肝等畅吃。",
+        "攻略｜万事达卡隐藏利好！携程会籍匹配&消费大挑战新玩法：万事达卡2026年下半年推出携程会籍匹配与消费大挑战两项新活动，世界卡及世界之极卡持卡人可通过消费匹配携程钻石或金钻会籍，消费大挑战新增境内消费统计并首次支持金卡及白金卡。 线索：万事达卡携程会籍匹配活动时间：2026.7.1-2027.6.30。；持卡人在携程APP绑定万事达卡，预订指定产品且实付满500元并完成出行，可匹配携程会员等级。",
+        "万豪白挑放水！希尔顿闪促！IHG1号任务！：万豪推出88VIP白金挑战活动，消费满2000元可获120天白金体验并开启8晚挑战； 线索：万豪白金挑战活动期间，88VIP用户在飞猪万豪旗舰店预订并入住酒店，消费满2000元（日历房、含SNP套餐均可），可获得万豪旅享家白金卡120天体验，并同步开启8晚白金挑战，120...；入住时间：2026年7月1日至8月31日。"
+      ],
+      "sections": [
+        {
+          "title": "航司与票价",
+          "items": [
+            {
+              "title": "喜大普奔 燃油费要降了",
+              "summary": "自2026年7月5日起，国内航线燃油附加费将下调，800公里以内短途降至50元，800公里以上长途降至100元。",
+              "insightLabel": "线索",
+              "insightText": "2026年7月5日调整窗口，国内航线燃油附加费短途（800公里以内）下调30元至50元，长途（800公里以上）下调50元至100元。；此前6月5日调整后短途为80元、长途为150元。",
+              "sourceFeedItemIds": [
+                "feed_a6369f646a5a52490d9fd560"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "官宣！7月国内线燃油费大降！",
+              "summary": "九元航空公告自2026年7月5日起，国内航线燃油附加费大幅下调：800公里（含）以下航线降至50元，800公里以上降至100元。",
+              "insightLabel": "线索",
+              "insightText": "执行航司：九元航空；生效日期：2026年7月5日零时起",
+              "sourceFeedItemIds": [
+                "feed_59929ba50a935e1ef89ac3f2"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "【救命啊】澳洲签证费，大涨25%！暑假3k+/国庆4k+，往返悉尼/墨尔本！日元汇率又创新低…",
+              "summary": "澳洲旅游签证费从200澳币涨至250澳币，涨幅25%；8月中下旬暑假赴澳机票含税3k+起，国庆期间4k+起；日元汇率跌破4.2，日本签证费和外国游客税也将于7月上涨。",
+              "insightLabel": "线索",
+              "insightText": "澳洲旅游签证费从200澳币涨至250澳币，涨幅25%；暑假8月中下旬北京=墨尔本含税3k4起，北京=悉尼含税3k9起",
+              "sourceFeedItemIds": [
+                "feed_04ba5e128e78d89576382aef"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "快快快！泰航bug再来！1K出头，往返曼谷！五星航司，有餐有行李！",
+              "summary": "泰国航空出现7-8月部分日期往返曼谷的bug价，成都、昆明、广州、北京、上海等城市出发，价格仅1k出头，含餐食和行李。",
+              "insightLabel": "线索",
+              "insightText": "bug价主要出现在7月及8月部分时间。；出发城市包括成都、昆明、广州、北京、上海。",
+              "sourceFeedItemIds": [
+                "feed_e163df9e3ace4b45a72857da"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "【速度！疑似BUG？】吊打廉航！泰航再来北上广蓉低价！几乎正国庆，东航上海超经\"直飞往返欧洲\"",
+              "summary": "泰国航空再现低价BUG，北上广蓉昆直飞曼谷含税1K1-1K6往返；",
+              "insightLabel": "线索",
+              "insightText": "泰国航空7月1日再现疑似BUG价，北上广蓉昆直飞曼谷含税1K1-1K6往返，7月/8月多日期包括跨周末，低于廉航；泰航航线可经曼谷中转至东南亚、南亚多地，如槟城含税1K4往返、斯里兰卡含税2K2往返",
+              "sourceFeedItemIds": [
+                "feed_32682889562f27aedeafe78c"
+              ],
+              "confidence": 85
+            }
+          ]
+        },
+        {
+          "title": "酒店与积分",
+          "items": [
+            {
+              "title": "突发！行政酒廊天花板，700一晚",
+              "summary": "苏州东太湖皇冠假日推出限时套餐，券后约724元/晚含早餐及双人行政酒廊，暑假周末不加价，有效期至12月31日。",
+              "insightLabel": "线索",
+              "insightText": "套餐为苏州东太湖皇冠假日酒店，券后724元/晚，含早餐和双人行政酒廊（下午茶、欢乐时光）。；行政酒廊提供鲍鱼、鱼翅、鱼子酱、鹅肝等畅吃。",
+              "sourceFeedItemIds": [
+                "feed_b5ce4c1cbf2fd28a2b320eb6"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "攻略｜万事达卡隐藏利好！携程会籍匹配&消费大挑战新玩法",
+              "summary": "万事达卡2026年下半年推出携程会籍匹配与消费大挑战两项新活动，世界卡及世界之极卡持卡人可通过消费匹配携程钻石或金钻会籍，消费大挑战新增境内消费统计并首次支持金卡及白金卡。",
+              "insightLabel": "线索",
+              "insightText": "万事达卡携程会籍匹配活动时间：2026.7.1-2027.6.30。；持卡人在携程APP绑定万事达卡，预订指定产品且实付满500元并完成出行，可匹配携程会员等级。",
+              "sourceFeedItemIds": [
+                "feed_50d10c81e3f8577385c4024d"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "万豪白挑放水！希尔顿闪促！IHG1号任务！",
+              "summary": "万豪推出88VIP白金挑战活动，消费满2000元可获120天白金体验并开启8晚挑战；",
+              "insightLabel": "线索",
+              "insightText": "万豪白金挑战活动期间，88VIP用户在飞猪万豪旗舰店预订并入住酒店，消费满2000元（日历房、含SNP套餐均可），可获得万豪旅享家白金卡120天体验，并同步开启8晚白金挑战，120...；入住时间：2026年7月1日至8月31日。",
+              "sourceFeedItemIds": [
+                "feed_fd7023608a31095cfbf2f398"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "离谱，万豪直通白金！",
+              "summary": "万豪联合飞猪推出88VIP会员专属白金卡挑战活动，消费满2000元即可获得120天白金体验，期间入住8晚可升级至正式白金卡，有效期至2028年2月。",
+              "insightLabel": "线索",
+              "insightText": "符合条件的88VIP用户在飞猪万豪旗舰店消费满2000元，可获120天白金卡体验。；参与资格：2026年1月1日前注册的万豪会员、当前为88VIP、7月1日卡级为白金以下、历史未领取过白金挑战资格。",
+              "sourceFeedItemIds": [
+                "feed_cd55fa46dd7d734b17a9da1d"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "上海全新金普顿酒店来了，颜值高、配置顶",
+              "summary": "携程Boss直播推出多款新开业酒店及热门目的地酒店套餐，涵盖上海金普顿、溧阳傲途格、千岛湖洲至奢选等，主打暑期周末不加价，价格低至5折。",
+              "insightLabel": "线索",
+              "insightText": "上海九棵树艺术中心金普顿酒店：酷享房2晚含早1999元起，有效期至2026年9月27日，周末暑假不加价，日历房暑期周末1600+/晚。；溧阳曲禅里酒店·傲途格精选：方庭豪华房2晚含早+冷泉1299元起，有效期至2026年12月1日，周末暑假不加价，中秋1天不加价。",
+              "sourceFeedItemIds": [
+                "feed_a5e618835c2b6fd46ce0049c"
+              ],
+              "confidence": 85
+            }
+          ]
+        },
+        {
+          "title": "卡券与权益",
+          "items": [
+            {
+              "title": "【很多人没赶上】这个大促返场了！暑假/国庆/元旦/春节要出行的，先下手为强...",
+              "summary": "京东安联旅行保险限时7折活动返场，覆盖暑期至7月31日，通过E旅行购买再返10%相当于6折，提供东南亚、亚洲、申根、全球四款保险。",
+              "insightLabel": "线索",
+              "insightText": "活动时间延长至2026年7月31日；京东安联保险7折，通过E旅行购买再返10%，相当于6折",
+              "sourceFeedItemIds": [
+                "feed_06a48fde6650490603215258"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_a6369f646a5a52490d9fd560",
+        "feed_59929ba50a935e1ef89ac3f2",
+        "feed_b5ce4c1cbf2fd28a2b320eb6",
+        "feed_50d10c81e3f8577385c4024d",
+        "feed_fd7023608a31095cfbf2f398",
+        "feed_cd55fa46dd7d734b17a9da1d",
+        "feed_04ba5e128e78d89576382aef",
+        "feed_e163df9e3ace4b45a72857da",
+        "feed_a5e618835c2b6fd46ce0049c",
+        "feed_32682889562f27aedeafe78c",
+        "feed_d7bf64ecf22a8ca3e7d0dcb3",
+        "feed_cd8616123d5046583a0ca07c"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "里程宝典": 1,
+          "E旅行网": 5,
+          "木木说卡": 2,
+          "落落说卡": 1,
+          "早早的快乐旅程": 1,
+          "聪明旅行": 1,
+          "HotelShare": 1,
+          "旅行雷达": 3,
+          "嬉游": 2,
+          "飞飞玩票": 1,
+          "精明常旅客": 1
+        }
+      }
+    },
+    {
+      "id": "daily_hk-ipo_2026-07-01",
+      "topicId": "hk-ipo",
+      "reportDate": "2026-07-01",
+      "title": "港股打新日报",
+      "mainLine": "今日港股打新先看「【港股IPO】鼎泰高科、三环集团、滨化股份、珞石机器人、晶合集成打新分析」，重点落在「新股与申购」；适合把估值、资金占用和破发风险放在一起判断。",
+      "actionItems": [],
+      "watchItems": [
+        "【港股IPO】鼎泰高科、三环集团、滨化股份、珞石机器人、晶合集成打新分析：本文分析了五只港股新股：鼎泰高科、三环集团、滨化股份、珞石机器人和晶合集成，涵盖招股信息、估值、基本面及参与建议。 看点：鼎泰高科：中信、汇丰保荐，无绿鞋，公配1.2万手，基石41.45%（高瓴、CPE、易方达、胜宏、建滔），发行价380港元，A股折价38.5%，2025年营收增35.7%、净利润增9...；三环集团：银河国际保荐，绿鞋，公配7.1万手，基石49.8%（淡马锡、CPE、阿里、腾讯、小摩），招股价100.3港元，A股折价46.47%，2023-25年营收年化增25.3%，...",
+        "港股打新：瑞为技术丨视觉具身智能第一股丨民航视觉市占率第一：瑞为技术（07656.HK）正在招股，发行价21.66港元，每手200股，入场费4375.69港元，无基石投资者，无绿鞋，采用18C机制。 看点：股票代码：07656.HK；招股日期：2026年6月29日至7月3日"
+      ],
+      "sections": [
+        {
+          "title": "新股与申购",
+          "items": [
+            {
+              "title": "【港股IPO】鼎泰高科、三环集团、滨化股份、珞石机器人、晶合集成打新分析",
+              "summary": "本文分析了五只港股新股：鼎泰高科、三环集团、滨化股份、珞石机器人和晶合集成，涵盖招股信息、估值、基本面及参与建议。",
+              "insightLabel": "看点",
+              "insightText": "鼎泰高科：中信、汇丰保荐，无绿鞋，公配1.2万手，基石41.45%（高瓴、CPE、易方达、胜宏、建滔），发行价380港元，A股折价38.5%，2025年营收增35.7%、净利润增9...；三环集团：银河国际保荐，绿鞋，公配7.1万手，基石49.8%（淡马锡、CPE、阿里、腾讯、小摩），招股价100.3港元，A股折价46.47%，2023-25年营收年化增25.3%，...",
+              "sourceFeedItemIds": [
+                "feed_6740de684ad58a4555342605"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "港股打新：瑞为技术丨视觉具身智能第一股丨民航视觉市占率第一",
+              "summary": "瑞为技术（07656.HK）正在招股，发行价21.66港元，每手200股，入场费4375.69港元，无基石投资者，无绿鞋，采用18C机制。",
+              "insightLabel": "看点",
+              "insightText": "股票代码：07656.HK；招股日期：2026年6月29日至7月3日",
+              "sourceFeedItemIds": [
+                "feed_fd1ef22433f26d3f88c7ef3a"
+              ],
+              "confidence": 70
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_6740de684ad58a4555342605",
+        "feed_fd1ef22433f26d3f88c7ef3a"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "每天打个新": 1,
+          "低风险理财投资": 1
+        }
+      }
+    },
+    {
+      "id": "daily_investment_2026-07-01",
+      "topicId": "investment",
+      "reportDate": "2026-07-01",
+      "title": "投资观点日报",
+      "mainLine": "今日投资观点核心线索是「Anthropic宣布Claude Fable 5出口管制已解除」，主要围绕「产业与公司」、「风险与分歧」、「财报与数据」；先看观点背后的证据、估值约束和风险分歧。",
+      "actionItems": [],
+      "watchItems": [
+        "Anthropic宣布Claude Fable 5出口管制已解除：Anthropic声明称Claude Fable 5出口管制已解除，将于明天全球重新上线。 证据：Anthropic声明称Claude Fable 5出口管制已解除，将于明天全球重新上线。；声明中称“一些常规任务如编码和调试将回退至Opus 4.8”，即编码任务可能受限无法使用该模型。",
+        "用于防止滥用和蒸馏：Anthropic Claude Code 负责人承认其公司在3月的更新中在其软件中留下了针对用户（特别是中国用户）检测的后门和间谍代码，旨在防止滥用和蒸馏。 证据：Anthropic Claude Code 在3月更新中加入了针对用户的检测后门和间谍代码，特别是中国用户。；该实验旨在防止未经授权的经销商滥用和保护模型免于蒸馏。",
+        "Sivers Photonics完成了7亿瑞典克朗的机构增发：恭喜$SIVE，他们刚刚完成了一轮机构投资者向上增发的7亿瑞典克朗融资。 证据：Sivers完成7亿瑞典克朗（约7300万美元）的增发，最初计划为6亿瑞典克朗，因机构需求强劲而超募。；增发价格57瑞典克朗，当前股价63瑞典克朗。",
+        "此前该模型因被指存在越狱安全风险而被限制访问：Politico援引两名知情人士向透露，特朗普政府计划最早于周二晚间解除对Anthropic旗下Fable 5人工智能模型的出口限制，此举将结束围绕该模型长达数周的访问争议。 证据：Politico援引两名知情人士称，特朗普政府最早于2026年6月30日（周二）晚间解除对Anthropic Fable 5模型的出口限制。；此前美国商务部长卢特尼克致函Anthropic，将Fable 5和Mythos 5纳入出口管制，限制境外及境内外籍人士访问，理由是存在越狱安全风险。",
+        "effective July 1：• 台湾领先的被动元件公司国巨已对其全系列电容器解决方案实施涨价，包括MLCC、铝电解电容、钽电容、聚合物电容、薄膜电容和超级电容器。 证据：Yageo raised prices across its full capacitor solutions portfolio including MLCCs, aluminu...；Price increase effective from July 1.",
+        "Yageo：>> 领先MLCC制造商国巨涨价…经销商证实是\"真的\" • 市场传言被动元件巨头国巨向客户发送调价通知。 证据：Yageo raised prices across full capacitor product range (tantalum, MLCC, aluminum electrol...；Price increase applies to both distributors and direct customers (EMS, OEM) for the first...",
+        "加剧地缘风险：伊朗国家媒体：一艘外国集装箱船在霍尔木兹海峡搁浅，原因是未按伊朗指定航线行驶。 证据：伊朗国家媒体称一艘外国集装箱船在霍尔木兹海峡搁浅。；搁浅原因是未按伊朗指定航线行驶。",
+        "作者用Costco卖5美元烤鸡：基本上现在盘前，像$NBIS这样的Neoclouds，用更简单的话来说就是：好市多卖5美元的鸡。 证据：截至2026-07-01，Neoclouds代表如$NBIS在盘前交易中被抛售；比喻中Costco代表原始创新者（如$NBIS），沃尔玛代表模仿者，市场抛售创新者"
+      ],
+      "sections": [
+        {
+          "title": "产业与公司",
+          "items": [
+            {
+              "title": "Anthropic宣布Claude Fable 5出口管制已解除",
+              "summary": "Anthropic声明称Claude Fable 5出口管制已解除，将于明天全球重新上线。",
+              "insightLabel": "证据",
+              "insightText": "Anthropic声明称Claude Fable 5出口管制已解除，将于明天全球重新上线。；声明中称“一些常规任务如编码和调试将回退至Opus 4.8”，即编码任务可能受限无法使用该模型。",
+              "sourceFeedItemIds": [
+                "feed_a8a576b82fef8194dc86e508"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "用于防止滥用和蒸馏",
+              "summary": "Anthropic Claude Code 负责人承认其公司在3月的更新中在其软件中留下了针对用户（特别是中国用户）检测的后门和间谍代码，旨在防止滥用和蒸馏。",
+              "insightLabel": "证据",
+              "insightText": "Anthropic Claude Code 在3月更新中加入了针对用户的检测后门和间谍代码，特别是中国用户。；该实验旨在防止未经授权的经销商滥用和保护模型免于蒸馏。",
+              "sourceFeedItemIds": [
+                "feed_7458b6fc53345a0a4a62dfcb"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "Sivers Photonics完成了7亿瑞典克朗的机构增发",
+              "summary": "恭喜$SIVE，他们刚刚完成了一轮机构投资者向上增发的7亿瑞典克朗融资。",
+              "insightLabel": "证据",
+              "insightText": "Sivers完成7亿瑞典克朗（约7300万美元）的增发，最初计划为6亿瑞典克朗，因机构需求强劲而超募。；增发价格57瑞典克朗，当前股价63瑞典克朗。",
+              "sourceFeedItemIds": [
+                "feed_56119c4adf01d390338dbe38"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "此前该模型因被指存在越狱安全风险而被限制访问",
+              "summary": "Politico援引两名知情人士向透露，特朗普政府计划最早于周二晚间解除对Anthropic旗下Fable 5人工智能模型的出口限制，此举将结束围绕该模型长达数周的访问争议。",
+              "insightLabel": "证据",
+              "insightText": "Politico援引两名知情人士称，特朗普政府最早于2026年6月30日（周二）晚间解除对Anthropic Fable 5模型的出口限制。；此前美国商务部长卢特尼克致函Anthropic，将Fable 5和Mythos 5纳入出口管制，限制境外及境内外籍人士访问，理由是存在越狱安全风险。",
+              "sourceFeedItemIds": [
+                "feed_85eb645b97d803ecb70bab13"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "effective July 1",
+              "summary": "• 台湾领先的被动元件公司国巨已对其全系列电容器解决方案实施涨价，包括MLCC、铝电解电容、钽电容、聚合物电容、薄膜电容和超级电容器。",
+              "insightLabel": "证据",
+              "insightText": "Yageo raised prices across its full capacitor solutions portfolio including MLCCs, aluminu...；Price increase effective from July 1.",
+              "sourceFeedItemIds": [
+                "feed_01ad1fb5614da2ce34194fb0"
+              ],
+              "confidence": 85
+            }
+          ]
+        },
+        {
+          "title": "风险与分歧",
+          "items": [
+            {
+              "title": "Yageo",
+              "summary": ">> 领先MLCC制造商国巨涨价…经销商证实是\"真的\" • 市场传言被动元件巨头国巨向客户发送调价通知。",
+              "insightLabel": "证据",
+              "insightText": "Yageo raised prices across full capacitor product range (tantalum, MLCC, aluminum electrol...；Price increase applies to both distributors and direct customers (EMS, OEM) for the first...",
+              "sourceFeedItemIds": [
+                "feed_5c1f06a5454a466bbd45bd63"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "加剧地缘风险",
+              "summary": "伊朗国家媒体：一艘外国集装箱船在霍尔木兹海峡搁浅，原因是未按伊朗指定航线行驶。",
+              "insightLabel": "证据",
+              "insightText": "伊朗国家媒体称一艘外国集装箱船在霍尔木兹海峡搁浅。；搁浅原因是未按伊朗指定航线行驶。",
+              "sourceFeedItemIds": [
+                "feed_aa3c0da5c1ebf3dd31783a0c"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "作者用Costco卖5美元烤鸡",
+              "summary": "基本上现在盘前，像$NBIS这样的Neoclouds，用更简单的话来说就是：好市多卖5美元的鸡。",
+              "insightLabel": "证据",
+              "insightText": "截至2026-07-01，Neoclouds代表如$NBIS在盘前交易中被抛售；比喻中Costco代表原始创新者（如$NBIS），沃尔玛代表模仿者，市场抛售创新者",
+              "sourceFeedItemIds": [
+                "feed_abc3d25de86c16755d31a41f"
+              ],
+              "confidence": 50
+            }
+          ]
+        },
+        {
+          "title": "财报与数据",
+          "items": [
+            {
+              "title": "2026年6月韩国半导体出口数据显示DRAM",
+              "summary": "韩国半导体出口 | 2026年6月 [出口额] - DRAM（含模组）：出口额218.46亿美元，同比+385%，环比+17% - DRAM（不含模组）：出口额111.76亿美元，同比+388%，环比-2% - 闪存（NAND）：出口额24.86亿美元，同比+301%，环比+44...",
+              "insightLabel": "证据",
+              "insightText": "DRAM（含模组）出口额218.46亿美元，同比+385%，环比+17%；DRAM（不含模组）出口额111.76亿美元，同比+388%，环比-2%",
+              "sourceFeedItemIds": [
+                "feed_71e1f24e7d9cf82c9c58ba56"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "恒生科技下跌的驱动力发生了变化",
+              "summary": "作者通过跟踪恒生科技的卖空数据发现，尽管指数创出新低，但未平仓卖空金额占比和每日卖空金额占比并未继续上升，表明新增做空力量减弱，下跌驱动力从空头加码转向存量博弈。",
+              "insightLabel": "证据",
+              "insightText": "截至2026-06-24，恒生科技指数下跌并创出阶段性新低。；未平仓卖空金额占比进入相对平稳的平台区域，不再快速上升。",
+              "sourceFeedItemIds": [
+                "feed_908d8adb6a50d37c297a2539"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "核心观点",
+          "items": [
+            {
+              "title": "Fab-lite 模式下可能指向代工厂扩产",
+              "summary": "$SIVE 正在筹集约 6100 万美元（6 亿瑞典克朗）以扩大 InP 激光器和光放大器的制造产能。",
+              "insightLabel": "证据",
+              "insightText": "Sivers 正筹集约 6100 万美元（6 亿瑞典克朗）以扩大 InP 激光器和光放大器制造产能。；Sivers 采用 Fab-lite 模式，此次融资可能用于在 Jabil 及其他合作伙伴处扩大 CW DFB 激光器的代工分配/产能。",
+              "sourceFeedItemIds": [
+                "feed_1438f30a0171c9f54b4c20be"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "特朗普财务报告显示其加密货币投资收益至少14亿美元",
+              "summary": "特朗普报告称其加密货币收益至少为14亿美元 https://t.co/0TJkIe1ZLb",
+              "insightLabel": "证据",
+              "insightText": "特朗普报告称其加密货币收益至少为14亿美元。",
+              "sourceFeedItemIds": [
+                "feed_1bbafdc5b93c4dd97c607720"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "宏观与政策",
+          "items": [
+            {
+              "title": "从评估阶段正式进入时间表确认阶段",
+              "summary": "$SIVE：“打算在未来几个季度内完成[纳斯达克]上市流程” 这条声明被许多筛选工具忽略了。",
+              "insightLabel": "证据",
+              "insightText": "Sivers Semiconductor 表示有意在未来几个季度完成纳斯达克上市流程。；此前公司处于评估阶段，现正式确认时间表。",
+              "sourceFeedItemIds": [
+                "feed_832407b6f90a7d5ed42fb654"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "两个怪异现象的传导：于是有了35岁失业",
+              "summary": "文章从宏观债务收入比过高和居民收入压制出发，解释35岁失业现象背后的经济传导机制：债务型经济下居民部门收入被挤压、债务高企，导致实体活跃度下降、就业市场趋冷，进而出现工资收入34岁见顶、35岁后下滑的微观现象。",
+              "insightLabel": "证据",
+              "insightText": "中央和地方宏观部门债务收入比在700%附近。；居民部门债务收入比处于日本、美国房地产泡沫破裂时的高位水平。",
+              "sourceFeedItemIds": [
+                "feed_7241ebf1ac2bb59f7832984a"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "并在咨询结束前暂停该功能推出",
+              "summary": "印度政府要求Meta公司在3天内提供关于WhatsApp“用户名”功能的详细说明，要求在相关咨询结束之前，不要推出WhatsApp的“用户名”功能 。",
+              "insightLabel": "证据",
+              "insightText": "印度政府要求Meta公司在3天内提供关于WhatsApp“用户名”功能的详细说明；要求Meta在相关咨询结束之前，不要推出WhatsApp的“用户名”功能",
+              "sourceFeedItemIds": [
+                "feed_f7c27e17ad8bd19b368fc818"
+              ],
+              "confidence": 60
+            },
+            {
+              "title": "日本共同社报道",
+              "summary": "日本共同社：为应对过度旅游，日本将出境税提高3倍，签证费用上涨了5倍。",
+              "insightLabel": "证据",
+              "insightText": "日本将出境税提高3倍；签证费用上涨了5倍",
+              "sourceFeedItemIds": [
+                "feed_8908c3b1a35d78002492e8cc"
+              ],
+              "confidence": 60
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_a8a576b82fef8194dc86e508",
+        "feed_5c1f06a5454a466bbd45bd63",
+        "feed_7458b6fc53345a0a4a62dfcb",
+        "feed_56119c4adf01d390338dbe38",
+        "feed_71e1f24e7d9cf82c9c58ba56",
+        "feed_85eb645b97d803ecb70bab13",
+        "feed_01ad1fb5614da2ce34194fb0",
+        "feed_bd9eb06b5507d88b0577c525",
+        "feed_7f2089a45dc5791d57c8f6cc",
+        "feed_3b8be3f5029ecb98197910e5",
+        "feed_908d8adb6a50d37c297a2539",
+        "feed_9065775cdfeb092c8d53521b"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "外汇交易员": 8,
+          "Jukan": 9,
+          "Serenity": 10,
+          "微积分量化价投": 1,
+          "卓哥投研笔记": 1,
+          "硬核姬老板": 1,
+          "蒙蒙已Fire": 1,
+          "猫笔刀": 1,
+          "分百岛主": 1,
+          "不跪的世界": 1,
+          "记忆承载": 1
+        }
+      }
+    },
+    {
+      "id": "daily_whale-portfolio_2026-07-01",
+      "topicId": "whale-portfolio",
+      "reportDate": "2026-07-01",
+      "title": "大佬持仓日报",
+      "mainLine": "大佬持仓在 2026-07-01 没有达到日报阈值的显著更新。",
+      "actionItems": [],
+      "watchItems": [],
+      "sections": [],
+      "referencedFeedItemIds": [],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {}
+      }
+    },
+    {
+      "id": "daily_x-signal_2026-07-01",
+      "topicId": "x-signal",
+      "reportDate": "2026-07-01",
+      "title": "X Radar日报",
+      "mainLine": "今日X Radar最值得先看「Anthropic宣布Fable 5将于7月2日恢复上线」，主要落在「重点变化」、「可行动线索」、「其他值得看」。",
+      "actionItems": [],
+      "watchItems": [
+        "Anthropic 相关动态集中出现：Anthropic宣布Fable 5 从明天起恢复上线。 他们正在使用一套新的分类器以针对并阻止更多的网络安全相关任务。 在短期内，一些例行任务如编码和调试将回退到 Opus 4.8。 他们将在接下来的几周内继续优化这些分类器，以减少误报并更好地区分真正的滥用与合法请求。 Pro... 补充：同组还包括「Anthropic逐步恢复模型访问」、「Anthropic 发布 Claude Sonnet 5」、「部分任务甚至超过Fable 5」。",
+        "作者同意关于内存效率将迎来重大突破的观点：我同意Andrew的观点，内存效率方面即将迎来重大突破，这个事情其实是Infra这边努力了很久的方向。 补充：DeepSeek在硬盘KV Cache落地后，将缓存命中的输入价格降至未命中价格的1/10到1/50。；The Information报道，OpenAI工程师发现新技术可将模型推理成本削减一半以上。",
+        "MaxForAI 拆解了 Claude 识别中国用户的三层机制：Claude是如何识别你是中国用户的？ 整个逻辑的触发条件是：你有没有设置ANTHROPIC_BASE_URL 如果用的是官方https://t.co/GiCRVY5NDN就跳过所有检测 一旦你挂了转发代理或中转 就开始走下面这套三层流程👇 第一层：对照一份147个域名的黑名单... 补充：触发条件是用户是否设置 ANTHROPIC_BASE_URL，使用官方 URL 则跳过所有检测。；第一层：对照一份 147 个域名的黑名单，名单用 base64 加 XOR 混淆加密藏在二进制中，覆盖百度、阿里、字节等大厂内网域名及国内 Claude 中转服务域名。",
+        "号称 NB 系列中最快：刚刚，Google发布了 Nano banana 2 Lite图片模型 这是NB 系列中迄今为止最快、性价比最高的图像模型。 补充：模型名称：Nano Banana 2 Lite（gemini-3.1-flash-lite-image）。；生成速度：官方称 4 秒内从文字到图像输出。",
+        "一款面向视频生成和对话式编辑的高性价比多模态模型：cool Quoted post: Author: @GoogleAIStudio gemini omni flash is here: our high-quality, cost-efficient model for video generation and convers... 补充：Gemini Omni Flash 是 Google 推出的高性价比视频生成与对话式编辑模型。；模型支持多模态工作流，可通过自然语言和简单提示词对视频进行精修。",
+        "利用109个仓库级任务和LLM用户模拟器评估代理的实际协作能力：这个有意思，SWE-Together 将真实的编码工作转化为可重现、可验证的基准：从 11,260 次记录的会话中策划出 109 个仓库级任务，并通过一个反应式 LLM 用户模拟器重放，这个模拟器保留了原始用户的意图。 补充：SWE-Together 从11,260次记录的编码会话中策划出109个仓库级任务。；使用反应式LLM用户模拟器重放任务，保留原始用户意图。",
+        "用户可重新使用：Anthropic 的用户今天起可以重新用上 Fable 5 和 Mythos 5 了。 补充：2026年7月1日，美国商务部长Howard Lutnick致信Anthropic联合创始人Tom Brown，确认撤销对Fable 5和Mythos 5的出口管制。；作为交换条件，Anthropic需主动排查模型安全风险，配合政府制定发布协议和标准，并及时上报恶意使用行为。",
+        "一款面向工作场景的开源AI代理工具：专为工作设计的 OpenClaw 平替，出发点是把安全性放在首位。 补充：AI代理运行在独立容器中，通过代理机制向宿主机请求API调用，自身代码不接触凭证。；即使容器被攻破，也不会泄露API密钥。"
+      ],
+      "sections": [
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "Anthropic 相关动态集中出现",
+              "summary": "Anthropic宣布Fable 5 从明天起恢复上线。 他们正在使用一套新的分类器以针对并阻止更多的网络安全相关任务。 在短期内，一些例行任务如编码和调试将回退到 Opus 4.8。 他们将在接下来的几周内继续优化这些分类器，以减少误报并更好地区分真正的滥用与合法请求。 Pro...",
+              "insightLabel": "补充",
+              "insightText": "同组还包括「Anthropic逐步恢复模型访问」、「Anthropic 发布 Claude Sonnet 5」、「部分任务甚至超过Fable 5」。",
+              "sourceFeedItemIds": [
+                "feed_3fa67464bffeeed1b0fb5cec",
+                "feed_569ae8e0cadef8d53d9ef8f2",
+                "feed_21ef82297f382b7a51163162",
+                "feed_b3498e08f0339dc0fc211a29"
+              ],
+              "confidence": 88
+            },
+            {
+              "title": "作者同意关于内存效率将迎来重大突破的观点",
+              "summary": "我同意Andrew的观点，内存效率方面即将迎来重大突破，这个事情其实是Infra这边努力了很久的方向。",
+              "insightLabel": "补充",
+              "insightText": "DeepSeek在硬盘KV Cache落地后，将缓存命中的输入价格降至未命中价格的1/10到1/50。；The Information报道，OpenAI工程师发现新技术可将模型推理成本削减一半以上。",
+              "sourceFeedItemIds": [
+                "feed_f70fa06b4cd40c0c4f97cdf1"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "MaxForAI 拆解了 Claude 识别中国用户的三层机制",
+              "summary": "Claude是如何识别你是中国用户的？ 整个逻辑的触发条件是：你有没有设置ANTHROPIC_BASE_URL 如果用的是官方https://t.co/GiCRVY5NDN就跳过所有检测 一旦你挂了转发代理或中转 就开始走下面这套三层流程👇 第一层：对照一份147个域名的黑名单...",
+              "insightLabel": "补充",
+              "insightText": "触发条件是用户是否设置 ANTHROPIC_BASE_URL，使用官方 URL 则跳过所有检测。；第一层：对照一份 147 个域名的黑名单，名单用 base64 加 XOR 混淆加密藏在二进制中，覆盖百度、阿里、字节等大厂内网域名及国内 Claude 中转服务域名。",
+              "sourceFeedItemIds": [
+                "feed_42a78b93fff3f1964939be94"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "号称 NB 系列中最快",
+              "summary": "刚刚，Google发布了 Nano banana 2 Lite图片模型 这是NB 系列中迄今为止最快、性价比最高的图像模型。",
+              "insightLabel": "补充",
+              "insightText": "模型名称：Nano Banana 2 Lite（gemini-3.1-flash-lite-image）。；生成速度：官方称 4 秒内从文字到图像输出。",
+              "sourceFeedItemIds": [
+                "feed_17f4f2b65d19d35f21929e07"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "一款面向视频生成和对话式编辑的高性价比多模态模型",
+              "summary": "cool Quoted post: Author: @GoogleAIStudio gemini omni flash is here: our high-quality, cost-efficient model for video generation and convers...",
+              "insightLabel": "补充",
+              "insightText": "Gemini Omni Flash 是 Google 推出的高性价比视频生成与对话式编辑模型。；模型支持多模态工作流，可通过自然语言和简单提示词对视频进行精修。",
+              "sourceFeedItemIds": [
+                "feed_14706a0353dae1f0743b6d3b"
+              ],
+              "confidence": 75
+            }
+          ]
+        },
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "利用109个仓库级任务和LLM用户模拟器评估代理的实际协作能力",
+              "summary": "这个有意思，SWE-Together 将真实的编码工作转化为可重现、可验证的基准：从 11,260 次记录的会话中策划出 109 个仓库级任务，并通过一个反应式 LLM 用户模拟器重放，这个模拟器保留了原始用户的意图。",
+              "insightLabel": "补充",
+              "insightText": "SWE-Together 从11,260次记录的编码会话中策划出109个仓库级任务。；使用反应式LLM用户模拟器重放任务，保留原始用户意图。",
+              "sourceFeedItemIds": [
+                "feed_ca55ec750beec7c1b05cbd0e"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "用户可重新使用",
+              "summary": "Anthropic 的用户今天起可以重新用上 Fable 5 和 Mythos 5 了。",
+              "insightLabel": "补充",
+              "insightText": "2026年7月1日，美国商务部长Howard Lutnick致信Anthropic联合创始人Tom Brown，确认撤销对Fable 5和Mythos 5的出口管制。；作为交换条件，Anthropic需主动排查模型安全风险，配合政府制定发布协议和标准，并及时上报恶意使用行为。",
+              "sourceFeedItemIds": [
+                "feed_ed34c516c9f87847d761fc6f"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "一款面向工作场景的开源AI代理工具",
+              "summary": "专为工作设计的 OpenClaw 平替，出发点是把安全性放在首位。",
+              "insightLabel": "补充",
+              "insightText": "AI代理运行在独立容器中，通过代理机制向宿主机请求API调用，自身代码不接触凭证。；即使容器被攻破，也不会泄露API密钥。",
+              "sourceFeedItemIds": [
+                "feed_b984e95f6898afbb09d257c8"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "无需管理镜像仓库",
+              "summary": "Vercel 宣布现在可以直接在项目中放一个 Dockerfile.vercel，无需自己管理镜像仓库、集群或守护进程，就能把容器化服务部署到 Vercel 上，按实际 CPU 使用付费。",
+              "insightLabel": "补充",
+              "insightText": "Vercel 支持在项目根目录放置 Dockerfile.vercel 来部署容器化服务。；用户无需自行管理镜像仓库、集群或守护进程。",
+              "sourceFeedItemIds": [
+                "feed_8cdf765908bbdcd50304c157"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "使用简体中文可显著降低Sonnet 5的Token消耗",
+              "summary": "一个小技巧：如何降低你的Sonnet 5的Token消耗 你只需要切换到简体中文就可以在享受Sonnet 5的同时获得和Sonnet 4.6一样的Token消耗（AKA你的账单） 这可能是因为中文是世界上压缩率最高的语言🐐 https://t.co/5hVBUudl9M",
+              "insightLabel": "补充",
+              "insightText": "切换到简体中文可让Sonnet 5的Token消耗降低到与Sonnet 4.6相同。；原因是中文被认为是世界上压缩率最高的语言。",
+              "sourceFeedItemIds": [
+                "feed_7cffe7957db1eda4a19cfa7a"
+              ],
+              "confidence": 75
+            }
+          ]
+        },
+        {
+          "title": "其他值得看",
+          "items": [
+            {
+              "title": "博主嘲讽跟随网红投资的结果",
+              "summary": "#投资 跟着网红投资，一定很开心吧。 Quoted post: Author: @daidaibtc crcl一战 老师带人集体要饭 130的时候老师发推觉得我们只是路边嘤嘤狂吠的野犬罢了 其实踏空存储也没事 大牛市本金亏一半是很有趣的",
+              "insightLabel": "补充",
+              "insightText": "引用了一个案例：crcl一战，老师带人集体要饭；在价格130时，老师发推嘲讽质疑者",
+              "sourceFeedItemIds": [
+                "feed_2821ae82fb485ccab82ea42b"
+              ],
+              "confidence": 55
+            },
+            {
+              "title": "博主引用1865年英国《红旗法》历史案例",
+              "summary": "突发，英国议会通过了《红旗法》。 这部法案规定，蒸汽车时速不得超过4英里，经过城镇与村庄时，时速不得超过2英里，车辆至少由3人驾驶，1人添煤，1人开车，1人必须手持红旗，步行在车辆前方约55米（60码）处引导车辆，提醒路人和骑士，并在必要时要求车辆停止。 法案还严厉限制了机动车的...",
+              "insightLabel": "补充",
+              "insightText": "英国议会通过《红旗法》，规定蒸汽车时速：乡村不超过4英里（约6.4公里），城镇不超过2英里（约3.2公里）；车辆至少由3人驾驶：1人添煤、1人开车、1人手持红旗在车辆前方约55米步行引导",
+              "sourceFeedItemIds": [
+                "feed_2007d3352e476def365cd34a"
+              ],
+              "confidence": 55
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_3fa67464bffeeed1b0fb5cec",
+        "feed_ca55ec750beec7c1b05cbd0e",
+        "feed_569ae8e0cadef8d53d9ef8f2",
+        "feed_ed34c516c9f87847d761fc6f",
+        "feed_f70fa06b4cd40c0c4f97cdf1",
+        "feed_42a78b93fff3f1964939be94",
+        "feed_b984e95f6898afbb09d257c8",
+        "feed_8cdf765908bbdcd50304c157",
+        "feed_17f4f2b65d19d35f21929e07",
+        "feed_21ef82297f382b7a51163162",
+        "feed_14706a0353dae1f0743b6d3b",
+        "feed_7cffe7957db1eda4a19cfa7a"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "Max For AI": 15,
+          "Geek": 5,
+          "𝘁𝗮𝗿𝗲𝘀𝗸𝘆": 3,
+          "Frad": 1,
+          "图拉鼎": 2,
+          "Ding": 1
+        }
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-07-01",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-07-01",
+      "title": "大厂日报",
+      "mainLine": "今日大厂日报先看「晚点独家丨97 年的孙天祥加入百度，任基础模型研发部负责人」，主要涉及「组织与人事」；后续重点观察它对产品节奏和商业化的影响。",
+      "actionItems": [],
+      "watchItems": [
+        "晚点独家丨97 年的孙天祥加入百度，任基础模型研发部负责人：近日，1997年出生的大模型技术专家孙天祥加入百度，担任基础模型研发部（BMU）负责人，并进入百度模型委员会（BMC）。 影响：孙天祥，1997年出生，正式加入百度，任基础模型研发部（BMU）负责人。；孙天祥同时进入百度模型委员会（BMC）。"
+      ],
+      "sections": [
+        {
+          "title": "组织与人事",
+          "items": [
+            {
+              "title": "晚点独家丨97 年的孙天祥加入百度，任基础模型研发部负责人",
+              "summary": "近日，1997年出生的大模型技术专家孙天祥加入百度，担任基础模型研发部（BMU）负责人，并进入百度模型委员会（BMC）。",
+              "insightLabel": "影响",
+              "insightText": "孙天祥，1997年出生，正式加入百度，任基础模型研发部（BMU）负责人。；孙天祥同时进入百度模型委员会（BMC）。",
+              "sourceFeedItemIds": [
+                "feed_37bbe7d161e7b7d7202f7a2d"
+              ],
+              "confidence": 82
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_37bbe7d161e7b7d7202f7a2d"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "晚点LatePost": 1
+        }
+      }
+    },
+    {
+      "id": "daily_lifestyle-fun_2026-07-01",
+      "topicId": "lifestyle-fun",
+      "reportDate": "2026-07-01",
+      "title": "吃喝玩乐日报",
+      "mainLine": "今日吃喝玩乐最值得先看「顶级降噪，vivo TWS 5 Pro蓝牙真无线主动降噪耳机测评报告」，主要落在「可行动线索」。",
+      "actionItems": [],
+      "watchItems": [
+        "顶级降噪，vivo TWS 5 Pro蓝牙真无线主动降噪耳机测评报告：vivo TWS 5 Pro蓝牙真无线主动降噪耳机测评，音质好于TWS 5 Hi-Fi版，降噪顶级，支持Wi-Fi直连和LDAC，获SOOMAL推荐评级。 补充：TWS 5 Pro音质明显好于TWS 5 Hi-Fi版。；主动降噪20-2000Hz综合表现略优于AirPods Pro2。",
+        "速度！0元费大厨鸡爪！0元享哆味鸡腿！0元麦当劳北非蛋汉堡！美团外卖15-15/16-16/18-18！：汇总了费大厨0元鸡爪、享哆味凭奖状换鸡腿、麦当劳0元北非蛋汉堡、美团外卖15-15/16-16/18-18优惠券等多项限时餐饮优惠，并提供操作步骤。 补充：费大厨0元口味鸡爪：长按扫码领券，9-11点、15-17点限时领券不限量，总价满100可用，0元菜品原价49元。；享哆味：7月5日前，学生携带2026年度学校颁发奖状到店核验，可获脆皮鸡腿一个，每人每天一次，每张奖状只能用一次。",
+        "水蜜桃季的重头戏，开始了！：企鹅吃喝指南推荐两款中熟水蜜桃：阳山白凤（清甜多汁，糖度约11）和山东金奖三号（浓甜芳香，糖度14+），提供淘宝购买链接，赏味期短需抓紧。 补充：阳山白凤来自无锡阳山核心果园，使用Y字型栽培技术，疏果率30%，平均糖度11左右。；山东金奖三号为芽变品种，亲本Masahime，平均糖度14+，最高可达17+。",
+        "索菲特落子安吉第一高楼！在法式云端之境，邂逅安吉Staycation的另一种可能：安吉索菲特酒店开业，位于安吉第一高楼“两山”未来科技城科技人才中心，拥有217间客房，融合法式优雅与安吉竹文化，提供云端观景、餐饮、泳池等设施。 补充：安吉索菲特酒店距离安吉站约40分钟车程，距安吉主城区很近。；酒店踞于安吉第一高楼“两山”未来科技城科技人才中心，建筑外形灵感源自春笋。",
+        "居然能在一枚葡萄里，吃到奶油玫瑰荔枝香……：企鹅吃喝指南推荐新品种葡萄“彤玫瑰”，描述其具有奶油、玫瑰、荔枝复合香气和脆爽口感，糖度超过20度，3斤串果装售价258元（原价288元），限量250份，通过淘宝购买。 补充：品种名称：彤玫瑰，由浙江省农科院联合金华育种团队选育，母本为阳光玫瑰，父本为黑巴拉多。；香气特征：具有荔枝甜香、玫瑰气息和奶油香，香气持久度约十几秒。"
+      ],
+      "sections": [
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "顶级降噪，vivo TWS 5 Pro蓝牙真无线主动降噪耳机测评报告",
+              "summary": "vivo TWS 5 Pro蓝牙真无线主动降噪耳机测评，音质好于TWS 5 Hi-Fi版，降噪顶级，支持Wi-Fi直连和LDAC，获SOOMAL推荐评级。",
+              "insightLabel": "补充",
+              "insightText": "TWS 5 Pro音质明显好于TWS 5 Hi-Fi版。；主动降噪20-2000Hz综合表现略优于AirPods Pro2。",
+              "sourceFeedItemIds": [
+                "feed_13a246b33089e1db3b10dd37"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "速度！0元费大厨鸡爪！0元享哆味鸡腿！0元麦当劳北非蛋汉堡！美团外卖15-15/16-16/18-18！",
+              "summary": "汇总了费大厨0元鸡爪、享哆味凭奖状换鸡腿、麦当劳0元北非蛋汉堡、美团外卖15-15/16-16/18-18优惠券等多项限时餐饮优惠，并提供操作步骤。",
+              "insightLabel": "补充",
+              "insightText": "费大厨0元口味鸡爪：长按扫码领券，9-11点、15-17点限时领券不限量，总价满100可用，0元菜品原价49元。；享哆味：7月5日前，学生携带2026年度学校颁发奖状到店核验，可获脆皮鸡腿一个，每人每天一次，每张奖状只能用一次。",
+              "sourceFeedItemIds": [
+                "feed_f58fdfedd9c5c55de091a57e"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "水蜜桃季的重头戏，开始了！",
+              "summary": "企鹅吃喝指南推荐两款中熟水蜜桃：阳山白凤（清甜多汁，糖度约11）和山东金奖三号（浓甜芳香，糖度14+），提供淘宝购买链接，赏味期短需抓紧。",
+              "insightLabel": "补充",
+              "insightText": "阳山白凤来自无锡阳山核心果园，使用Y字型栽培技术，疏果率30%，平均糖度11左右。；山东金奖三号为芽变品种，亲本Masahime，平均糖度14+，最高可达17+。",
+              "sourceFeedItemIds": [
+                "feed_d5d2c5e2f9a0d7922b5e385b"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "索菲特落子安吉第一高楼！在法式云端之境，邂逅安吉Staycation的另一种可能",
+              "summary": "安吉索菲特酒店开业，位于安吉第一高楼“两山”未来科技城科技人才中心，拥有217间客房，融合法式优雅与安吉竹文化，提供云端观景、餐饮、泳池等设施。",
+              "insightLabel": "补充",
+              "insightText": "安吉索菲特酒店距离安吉站约40分钟车程，距安吉主城区很近。；酒店踞于安吉第一高楼“两山”未来科技城科技人才中心，建筑外形灵感源自春笋。",
+              "sourceFeedItemIds": [
+                "feed_edb9cf845effa24546a9a6e6"
+              ],
+              "confidence": 65
+            },
+            {
+              "title": "居然能在一枚葡萄里，吃到奶油玫瑰荔枝香……",
+              "summary": "企鹅吃喝指南推荐新品种葡萄“彤玫瑰”，描述其具有奶油、玫瑰、荔枝复合香气和脆爽口感，糖度超过20度，3斤串果装售价258元（原价288元），限量250份，通过淘宝购买。",
+              "insightLabel": "补充",
+              "insightText": "品种名称：彤玫瑰，由浙江省农科院联合金华育种团队选育，母本为阳光玫瑰，父本为黑巴拉多。；香气特征：具有荔枝甜香、玫瑰气息和奶油香，香气持久度约十几秒。",
+              "sourceFeedItemIds": [
+                "feed_a674977616e24f43cdca98d0"
+              ],
+              "confidence": 60
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_13a246b33089e1db3b10dd37",
+        "feed_f58fdfedd9c5c55de091a57e",
+        "feed_d5d2c5e2f9a0d7922b5e385b",
+        "feed_edb9cf845effa24546a9a6e6",
+        "feed_a674977616e24f43cdca98d0"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "SOOMAL音频影像": 1,
+          "buy宝箱": 1,
+          "企鹅吃喝指南": 2,
+          "GOGOShanghai": 1
+        }
+      }
+    },
+    {
+      "id": "daily_github-trending_2026-07-01",
+      "topicId": "github-trending",
+      "reportDate": "2026-07-01",
+      "title": "GitHub 趋势日报",
+      "mainLine": "今日GitHub 趋势最值得先看「google/agents-cli」，主要落在「可行动线索」、「重点变化」。",
+      "actionItems": [],
+      "watchItems": [
+        "google/agents-cli：agents-cli 是一个 CLI 工具和技能集，能将任意编码助手变成 Google Cloud 上创建、评估和部署 AI 智能体的专家。 补充：语言：Python；Stars：4,099",
+        "facebook/astryx：Astryx 是 Meta 开源的设计系统，提供 150+ 可访问组件和品牌主题，支持 AI 辅助构建，基于 React 和 StyleX，已在 Meta 内部驱动 13000+ 应用。 补充：Language: TypeScript；Stars: 1,691",
+        "diegosouzapw/OmniRoute：OmniRoute 是一个免费 AI 网关，聚合 231 个以上的 AI 提供商（其中 50 多个免费），通过单一端点将 Claude Code、Codex、Cursor 等工具连接到免费大模型，并采用 RTK+Caveman 堆叠压缩节省 15-95% 的 token。 补充：语言：TypeScript；主题：mcp, gemini, openai, cursor, copilot, codex, cline, ai-agents, claude, a2a, anthropic,...",
+        "Mebus/cupp：CUPP 是一个用 Python 编写的用户密码配置文件生成器，用于根据用户个人信息生成可能的密码字典，常用于渗透测试和取证调查。 补充：语言: Python；Stars: 6,076",
+        "CoreBunch/Instatic：Instatic 是一个自托管的可视化 CMS，将可视化编辑器、内容引擎和发布功能整合在一个 Bun 服务器中，输出干净的语义化 HTML 和紧凑 CSS，1 分钟即可运行。 补充：语言: TypeScript；Stars: 1,452",
+        "microsoft/AI-For-Beginners：微软推出的为期12周、24课时的AI入门课程，涵盖神经网络、计算机视觉、NLP等核心主题，适合初学者。 补充：语言：Jupyter Notebook；Stars：49,244"
+      ],
+      "sections": [
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "google/agents-cli",
+              "summary": "agents-cli 是一个 CLI 工具和技能集，能将任意编码助手变成 Google Cloud 上创建、评估和部署 AI 智能体的专家。",
+              "insightLabel": "补充",
+              "insightText": "语言：Python；Stars：4,099",
+              "sourceFeedItemIds": [
+                "feed_a1e53d8ad64fcb31c1af1d9d"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "facebook/astryx",
+              "summary": "Astryx 是 Meta 开源的设计系统，提供 150+ 可访问组件和品牌主题，支持 AI 辅助构建，基于 React 和 StyleX，已在 Meta 内部驱动 13000+ 应用。",
+              "insightLabel": "补充",
+              "insightText": "Language: TypeScript；Stars: 1,691",
+              "sourceFeedItemIds": [
+                "feed_9beda7ed5372403a83533447"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "summary": "OmniRoute 是一个免费 AI 网关，聚合 231 个以上的 AI 提供商（其中 50 多个免费），通过单一端点将 Claude Code、Codex、Cursor 等工具连接到免费大模型，并采用 RTK+Caveman 堆叠压缩节省 15-95% 的 token。",
+              "insightLabel": "补充",
+              "insightText": "语言：TypeScript；主题：mcp, gemini, openai, cursor, copilot, codex, cline, ai-agents, claude, a2a, anthropic,...",
+              "sourceFeedItemIds": [
+                "feed_ee41ca6c9bc06ea993b01c35"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "Mebus/cupp",
+              "summary": "CUPP 是一个用 Python 编写的用户密码配置文件生成器，用于根据用户个人信息生成可能的密码字典，常用于渗透测试和取证调查。",
+              "insightLabel": "补充",
+              "insightText": "语言: Python；Stars: 6,076",
+              "sourceFeedItemIds": [
+                "feed_09f7076b86163a11a05f0057"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "CoreBunch/Instatic",
+              "summary": "Instatic 是一个自托管的可视化 CMS，将可视化编辑器、内容引擎和发布功能整合在一个 Bun 服务器中，输出干净的语义化 HTML 和紧凑 CSS，1 分钟即可运行。",
+              "insightLabel": "补充",
+              "insightText": "语言: TypeScript；Stars: 1,452",
+              "sourceFeedItemIds": [
+                "feed_9cd723af44ac8934917e5ebe"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "microsoft/AI-For-Beginners",
+              "summary": "微软推出的为期12周、24课时的AI入门课程，涵盖神经网络、计算机视觉、NLP等核心主题，适合初学者。",
+              "insightLabel": "补充",
+              "insightText": "语言：Jupyter Notebook；Stars：49,244",
+              "sourceFeedItemIds": [
+                "feed_6982204d34a34e569058b5a5"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_a1e53d8ad64fcb31c1af1d9d",
+        "feed_9beda7ed5372403a83533447",
+        "feed_ee41ca6c9bc06ea993b01c35",
+        "feed_6982204d34a34e569058b5a5",
+        "feed_09f7076b86163a11a05f0057",
+        "feed_9cd723af44ac8934917e5ebe",
+        "feed_4ab62f86c81e6f976ed5b2af"
+      ],
+      "generatedAt": "2026-07-01T16:33:56.763Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "GitHub Trending": 7
+        }
+      }
+    }
+  ],
+  "generatedAt": "2026-07-02T04:14:51.223Z",
+  "sourceBaseUrl": "https://hot.kyangc.net"
+}
