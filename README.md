@@ -37,7 +37,7 @@ Local `npm run dev` still depends on the original Hot Tracker API through Vite p
 This repository is configured for the custom GitHub Pages domain:
 
 ```text
-https://hot.aiscl.com/
+https://hot.aiscl.work/
 ```
 
 The `public/CNAME` file is included so GitHub Pages publishes the site on that domain.
@@ -52,7 +52,7 @@ Before the first deployment:
 1. Push the repository to GitHub.
 2. Open repository `Settings -> Pages`.
 3. Set `Build and deployment -> Source` to `GitHub Actions`.
-4. Add the DNS record for `hot.aiscl.com` at your DNS provider.
+4. Add the DNS record for `hot.aiscl.work` at your DNS provider.
 5. Run `Deploy GitHub Pages` manually once from the Actions tab.
 
 The deployed app is a static site. It refreshes by reading the latest committed JSON files, so content updates after the scheduled `Update Static Data` workflow completes. GitHub cron jobs can be delayed, so the 15-minute schedule is best-effort rather than exact real time.
