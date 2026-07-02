@@ -1,6 +1,57 @@
 {
   "items": [
     {
+      "id": "feed_5309521d05fa3b96b9851736",
+      "topicId": "big-tech-daily",
+      "sourceItemIds": [
+        "src_f4484ae5ccfbe66bec25fb5a"
+      ],
+      "documentIds": [],
+      "sourceKind": "weixin_article",
+      "title": "今日大厂员工事：美团限用豆包大模型；鹅厂token机制更新；百度朱广翔晋升；字节外包偷零食；蚂蚁网商组织架构大调整；QClaw张舒昱离职",
+      "summary": "美团限制内部使用豆包大模型，蚂蚁网商技术线组织架构调整，百度BMU部门换帅，字节通报员工违规案例。",
+      "importanceScore": 78,
+      "whyItMatters": "美团限用豆包大模型、蚂蚁网商技术线分拆，显示大厂从产品竞争转向内部AI工具和架构的深层调整。",
+      "actionText": "监控美团后续模型迁移进展及对供应商影响；关注蚂蚁网商组织调整后业务协同效果",
+      "watchText": "其他大厂是否会跟风限制内部使用外部AI模型；百度BMU新负责人孙天祥的后续举措",
+      "tags": [
+        "组织调整",
+        "人事变动",
+        "业务调整",
+        "AI转型"
+      ],
+      "sourceName": "大厂日爆",
+      "sourceUrl": "https://mp.weixin.qq.com/s/JAjsdXcokoEGFxSJWYIMGw",
+      "sourceAvatarUrl": "/source-avatars/weixin/dachang-ribao-95c3f5067255ce73.png",
+      "sourceProfileId": "weixin_account:dachang-ribao",
+      "publishedAt": "2026-07-02T03:40:02.000Z",
+      "observedAt": "2026-07-02T06:20:28.936Z",
+      "raw": {
+        "analysis_version": 12,
+        "document_id": "weixin:b22c7d6ce49864e99481a8131a2fdd436af77bd662d9856dd6eaac4ae28cdaa1",
+        "ingest_profile_id": "weixin_article_v1",
+        "source_avatar_url": "/source-avatars/weixin/dachang-ribao-95c3f5067255ce73.png",
+        "key_facts": [
+          "美团发布通知，要求所有涉及豆包大模型的业务部门自查并规划迁移至longcat、deepseek等模型。",
+          "蚂蚁网商技术线CTO下的测试、前端、算法等团队全部分拆，打散到理财、融资、个人贷等业务板块。",
+          "百度BMU原负责人吴甜卸任，97年创业者孙天祥接棒。",
+          "字节通报Data外包员工在2024年7月至2025年12月间多次将茶水间零食（约1万元）带离转卖。",
+          "百度内部发布中层晋升通知，ACG管培生朱广翔晋升。"
+        ],
+        "entities": [
+          "美团",
+          "蚂蚁网商",
+          "百度BMU",
+          "字节跳动",
+          "朱广翔",
+          "吴甜",
+          "孙天祥"
+        ],
+        "sampledSourceName": "大厂日爆",
+        "originalSourceName": "大厂日爆"
+      }
+    },
+    {
       "id": "feed_cc4a7b928f890f67d9c804b0",
       "topicId": "ai",
       "sourceItemIds": [
@@ -33,6 +84,48 @@
         ],
         "sampledSourceName": "公众号：昆仑万维（天工）",
         "originalSourceName": "公众号：昆仑万维（天工）"
+      }
+    },
+    {
+      "id": "feed_aef67ba6c9fe6f09bb4abc6b",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_81e332ee22e6340b66b25d68"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "Emil Kowalski 发布设计工程师 Skills，让 AI 编码工具具备 UI 动画审美",
+      "summary": "Emil Kowalski 将多年 UI/动画原则沉淀为三个 Skill，使 Codex、Claude Code、Cursor 等 Coding Agents 具备资深设计工程师的审美判断。核心规则：动画必须有理由；每天 100+ 次的高频操作禁用动画；UI 动画控制在 300ms 内；只动画 transform 和 opacity；入口从 scale(0.95)+opacity:0 开始；尊重 prefers-reduced-motion（仅移除位移动画）。review-animations 以严格标准审查动画代码，输出 Before/After/Why 表格。animation-vocabulary 将模糊描述（如“弹一下的效果”）转为专业动效术语。",
+      "importanceScore": 77,
+      "whyItMatters": "Emil 把设计工程直觉变成了 AI 编码代理能理解的规则，clone 下来就能让 Claude Code 和 Cursor 产出有品味的动效，做前端的值得立刻试试。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践",
+        "编码"
+      ],
+      "sourceName": "X：邵猛 (@shao__meng)",
+      "sourceUrl": "https://x.com/shao__meng/status/2072484635955900792",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
+      "publishedAt": "2026-07-02T00:56:56.000Z",
+      "observedAt": "2026-07-02T01:19:22.316Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr2t1n9h0b18sl8zqxn9r5nu",
+        "ingest_profile_id": "aihot_item_v1",
+        "image_url": "https://pbs.twimg.com/media/HMLxxjObIAEs4rp.jpg",
+        "image_type": "photo",
+        "image_width": 2392,
+        "image_height": 2178,
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
+        "key_facts": [],
+        "entities": [
+          "X：邵猛 (@shao__meng)"
+        ],
+        "sampledSourceName": "X：邵猛 (@shao__meng)",
+        "originalSourceName": "X：邵猛 (@shao__meng)"
       }
     },
     {
@@ -294,6 +387,43 @@
       }
     },
     {
+      "id": "feed_d0ea798499aaa7e0c0352d9a",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_618932fb8ce1cf324231cb53"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "Claude Code负责人承认留有后门，明日回滚",
+      "summary": "Claude Code 负责人Thariq：承认确实在3月的更新中在Claude Code中留下了针对用户（特别是中国用户）的检测的后门和间谍代码，旨在防止滥用和蒸馏。\n\n并称将明天回滚代码解决该问题...",
+      "importanceScore": 84,
+      "whyItMatters": "Anthropic官方承认在Claude Code中植入后门代码，这一信任危机远超一次技术故障，所有使用其产品的团队都需要重新评估供应链安全。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Anthropic",
+        "安全/对齐",
+        "编码"
+      ],
+      "sourceName": "X：小互 (@xiaohu)",
+      "sourceUrl": "https://x.com/xiaohu/status/2072195339944386896",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/1765404718959095808/BX7VN1hS_normal.jpg",
+      "publishedAt": "2026-07-01T05:47:23.000Z",
+      "observedAt": "2026-07-01T06:14:33.306Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr1obetw00kssl8z8vbfk8q0",
+        "ingest_profile_id": "aihot_item_v1",
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/1765404718959095808/BX7VN1hS_normal.jpg",
+        "key_facts": [],
+        "entities": [
+          "X：小互 (@xiaohu)"
+        ],
+        "sampledSourceName": "X：小互 (@xiaohu)",
+        "originalSourceName": "X：小互 (@xiaohu)"
+      }
+    },
+    {
       "id": "feed_ab4bbdededcfb2ccec5f8ca4",
       "topicId": "ai",
       "sourceItemIds": [
@@ -402,6 +532,47 @@
         ],
         "sampledSourceName": "公众号：龙猫LongCat（美团）",
         "originalSourceName": "公众号：龙猫LongCat（美团）"
+      }
+    },
+    {
+      "id": "feed_71a0beeee56c3cda84d4b291",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_3b3c7104332cbd323277d233"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
+      "summary": "mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。",
+      "importanceScore": 75,
+      "whyItMatters": "Matt Pocock 把写 Skill 从玄学变成了可拆解的工程，其中领先词和完成标准这两个概念，能立刻让你的自定义工具行为更稳定，搞 Agent 的都应该试一下。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Agent",
+        "GitHub",
+        "教程/实践"
+      ],
+      "sourceName": "X：邵猛 (@shao__meng)",
+      "sourceUrl": "https://x.com/shao__meng/status/2072126769986220157",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
+      "publishedAt": "2026-07-01T01:14:54.000Z",
+      "observedAt": "2026-07-01T01:38:37.517Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr1eiq770260slnlxguii7jy",
+        "ingest_profile_id": "aihot_item_v1",
+        "image_url": "https://pbs.twimg.com/media/HMGsP86boAAl-yo.jpg",
+        "image_type": "photo",
+        "image_width": 2100,
+        "image_height": 2108,
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_normal.jpg",
+        "key_facts": [],
+        "entities": [
+          "X：邵猛 (@shao__meng)"
+        ],
+        "sampledSourceName": "X：邵猛 (@shao__meng)",
+        "originalSourceName": "X：邵猛 (@shao__meng)"
       }
     },
     {
@@ -945,6 +1116,46 @@
       "sourceHostname": "deepmind.google"
     },
     {
+      "id": "arxiv_agent_harness_2606.31478",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.31478"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "One Reflection Is Not Enough: Self-Correcting Autonomous Research via Multi-Hypothesis Failure Attribution",
+      "summary": "Autonomous research agents can now draft hypotheses, write code, run experiments, and produce papers, but they remain brittle when experiments fail. Under the prevailing paradigm, failure recovery is usually delegated to a single free-form reflection: a rich trajectory of metrics, logs, and design choices is compressed into one verbal critique, which often leads either to localized trial-and-error or to hard pivots that discard useful context. We propose SAGE, a Self-correcting, Autonomous, Grounded Experimenter, to tackle this failure-recovery bottleneck. Its core mechanism, Multi-Hypothesis Failure Attribution (MHFA), treats recovery as a structured causal diagnosis. By analyzing dynamic trajectory features, MHFA systematically generates multiple evidence-grounded explanations for a failure, independently evaluates their severity, and deterministically routes the verified root cause to",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Jie Ma, Binfei Chu, Jie Gao, Jinlu Zhang, Yiwei Ma, Yi Tan",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.31478v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-30T10:54:16Z",
+      "observedAt": "2026-07-02T06:47:33.883Z",
+      "raw": {
+        "arxivId": "2606.31478",
+        "authors": [
+          "Jie Ma",
+          "Binfei Chu",
+          "Jie Gao",
+          "Jinlu Zhang",
+          "Yiwei Ma",
+          "Yi Tan"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
       "id": "feed_dd7922a38bf4407da38bd4d6",
       "topicId": "ai",
       "sourceItemIds": [
@@ -978,6 +1189,45 @@
         "originalSourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
       },
       "sourceHostname": "openai.com"
+    },
+    {
+      "id": "arxiv_agent_harness_2606.31270",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.31270"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents",
+      "summary": "Computer-use agents, which leverage multimodal large language models (MLLMs) to operate computers and complete tasks, have attracted significant attention for their utility and versatility. A major challenge in developing these agents is collecting large-scale, high-quality trajectories. The standard approach generates synthetic data through a self-improving loop: an agent is placed in a verifiable environment and iteratively fine-tuned on its successful trajectories. Despite its effectiveness, this paradigm exploits only successful trajectories and discards the failed ones, even though failures carry rich information about a model's weaknesses. In this work, we explore a complementary failure-driven self-improvement loop, a data-centric paradigm that turns failed trajectories into agent improvements. Specifically, we employ an LLM to diagnose failure modes, propose inference-time soluti",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Xueqiao Sun, Xiaohan Wang, Ludwig Schmidt, Serena Yeung-Levy, Yuhui Zhang",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.31270v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-30T07:44:37Z",
+      "observedAt": "2026-07-02T06:47:33.884Z",
+      "raw": {
+        "arxivId": "2606.31270",
+        "authors": [
+          "Xueqiao Sun",
+          "Xiaohan Wang",
+          "Ludwig Schmidt",
+          "Serena Yeung-Levy",
+          "Yuhui Zhang"
+        ],
+        "source": "arxiv"
+      }
     },
     {
       "id": "feed_f650057ad1471d78dbc7ffc6",
@@ -1018,6 +1268,44 @@
         ],
         "sampledSourceName": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
         "originalSourceName": "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
+      }
+    },
+    {
+      "id": "feed_6663c81f94ec21753aacdafa",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_7932932acc7ac6e5724a5ee1"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows:review一次并发14个agent审查代码，/workflows:plan在ultrathink模式下可并发40多个研究agent。",
+      "importanceScore": 81,
+      "whyItMatters": "Every把内部单人维护5款产品的方法论和插件开源了，14个AI同时审代码、40多个研究agent做计划，是目前公开的多agent并行工程里数字最具体的参考之一，做AI辅助开发的可以直接上手抄。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Agent",
+        "教程/实践",
+        "编码",
+        "部署/工程"
+      ],
+      "sourceName": "X：小互 (@xiaohu)",
+      "sourceUrl": "https://x.com/xiaohu/status/2071796715162857477",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/1765404718959095808/BX7VN1hS_normal.jpg",
+      "publishedAt": "2026-06-30T03:23:23.000Z",
+      "observedAt": "2026-06-30T03:42:27.774Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr03h5tq03jjslki3a281zet",
+        "ingest_profile_id": "aihot_item_v1",
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/1765404718959095808/BX7VN1hS_normal.jpg",
+        "key_facts": [],
+        "entities": [
+          "X：小互 (@xiaohu)"
+        ],
+        "sampledSourceName": "X：小互 (@xiaohu)",
+        "originalSourceName": "X：小互 (@xiaohu)"
       }
     },
     {
@@ -1087,6 +1375,46 @@
         ],
         "sampledSourceName": "公众号：卡尔的AI沃茨",
         "originalSourceName": "公众号：卡尔的AI沃茨"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2607.00053",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2607.00053"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "SWE-Router: Routing in Multi-turn Agentic Software Engineering Tasks",
+      "summary": "Large language models (LLMs) embedded in multi-turn agentic harnesses are reshaping software engineering (SWE), but routing every task to a frontier model is wasteful when many issues admit cheap fixes. Existing LLM routers operate on the task description alone, which inherits an information-theoretic Bayes-error floor in agentic settings: a similar issue can hide either a localized typo or a multi-module refactor, and the prompt does not separate the two. We introduce SWE-Router, a value-based temporal approach that lets a cheap model run for a few exploratory turns and reads the resulting partial trajectory before deciding whether to continue cheaply or to escalate to an expensive model. We provide a Bayes-optimality theorem showing that conditioning on the partial trajectory never harms routing and is strictly better whenever exploration is informative. Across the LLM pairs of weak an",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Seongho Son, Sangwoong Yoon, Jiahua Tang, Shuhan Wang, Lorenz Wolf, Ilija Bogunovic",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2607.00053v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-30T01:46:26Z",
+      "observedAt": "2026-07-02T06:47:33.884Z",
+      "raw": {
+        "arxivId": "2607.00053",
+        "authors": [
+          "Seongho Son",
+          "Sangwoong Yoon",
+          "Jiahua Tang",
+          "Shuhan Wang",
+          "Lorenz Wolf",
+          "Ilija Bogunovic"
+        ],
+        "source": "arxiv"
       }
     },
     {
@@ -1213,6 +1541,86 @@
       }
     },
     {
+      "id": "arxiv_agent_harness_2606.30616",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.30616"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
+      "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions, observations, and verifier outcomes, producing agentic trajectories with an average length of 45K tokens. Based on this, we train Agents-A1 with a three-stage recipe. First, we perform full-domain supervised fine-tuning to align the base model with broad agentic behaviors. Second, we train domain-level teacher models to capture specialized expertise in each domain. Third, we propose a multi-teacher domain-routed on-policy distillation with salient vocabulary alignment to improve knowledge trans",
+      "importanceScore": 78,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Lei Bai, Zongsheng Cao, Yang Chen, Zhiyao Cui, Shangheng Du, Yue Fan",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.30616v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T17:50:54Z",
+      "observedAt": "2026-07-02T06:47:33.884Z",
+      "raw": {
+        "arxivId": "2606.30616",
+        "authors": [
+          "Lei Bai",
+          "Zongsheng Cao",
+          "Yang Chen",
+          "Zhiyao Cui",
+          "Shangheng Du",
+          "Yue Fan"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2606.30246",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.30246"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration",
+      "summary": "Existing autonomous research agents can support parts of the research process, but most systems still treat research as either an isolated assistant task or a closed workflow. Therefore, autonomous science needs a collaboration infrastructure that coordinates projects, agents, and digital and physical resources. We identify this as a shift from code-centered execution loops to research-oriented collaboration processes, where questions, evidence, participants, and resources must be coordinated under uncertainty. In this framing, an agent may be an AI system, a human researcher, a team, a laboratory, or an organization-backed participant. To this end, we present Clarus, a collaboration infrastructure for coordinating autonomous research agents toward web-scale scientific collaboration. Clarus reformulates research as an open, auditable, attributable, and resource-aware multi-phase collabor",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Zihan Guo, Zeyi Chen, Zhiyu Chen, Zicai Cui, Shuai Shao, Bo Huang",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.30246v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T12:56:08Z",
+      "observedAt": "2026-07-02T06:47:33.884Z",
+      "raw": {
+        "arxivId": "2606.30246",
+        "authors": [
+          "Zihan Guo",
+          "Zeyi Chen",
+          "Zhiyu Chen",
+          "Zicai Cui",
+          "Shuai Shao",
+          "Bo Huang"
+        ],
+        "source": "arxiv"
+      }
+    },
+    {
       "id": "feed_a35756b622f524c00154c47b",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1326,58 +1734,79 @@
       }
     },
     {
-      "id": "feed_a996e6f0d64f603568c1414e",
-      "topicId": "big-tech-daily",
+      "id": "arxiv_agent_harness_2606.29823",
+      "topicId": "ai",
       "sourceItemIds": [
-        "src_e57e2985408a2528d1993a2a"
+        "2606.29823"
       ],
       "documentIds": [],
-      "sourceKind": "weixin_article",
-      "title": "今日大厂员工事：抖音林安亚离职；蚂蚁P10击金离职；美团金服前后端合并；快手洪立印加盟可灵；阿里西班牙电商合并速卖通；得物james卸任",
-      "summary": "多家大厂同日出现人事变动和组织调整：抖音电商负责人林安亚离职、蚂蚁灵光与阿福合并、美团金服前后端合并并成立AI部门、快手社科线高管调入可灵、阿里西班牙电商并入速卖通、得物算法负责人卸任。",
-      "importanceScore": 85,
-      "whyItMatters": "一天之内六家大厂同步调整组织与人事，透出AI导向的部门整合和资源向上市业务集中，行业竞争正从产品层转向组织层。",
-      "actionText": "跟踪字节抖音电商新负责人彭艳鋆的策略变化；关注美团金服AI-BUIlder部门后续产品动作；观察快手可灵上市前的高管补强效果",
-      "watchText": "字节其他业务线是否跟进电商人事调整；蚂蚁灵光与阿福合并后产品走向；阿里西班牙电商与速卖通整合后欧洲市场表现",
+      "sourceKind": "website",
+      "title": "Experience Graphs: The Data Foundation for Self-Improving Agents",
+      "summary": "The database community has repeatedly advanced the state of the art by recognizing that new workloads demand new system architectures. We argue that long-horizon agentic tasks -- code generation, scientific discovery, hardware design -- are such a workload. These agents explore: they generate artifacts, execute tools, observe failures, branch, and repair over hundreds of steps. This search produces a structured object we call an experience graph: executable artifacts, tool outputs, rewards, sibling comparisons, and causal lineage. Yet existing agent frameworks treat this experience as disposable state -- JSON checkpoints and session logs that cannot be recovered after a crash, queried across users, or materialized into training data. We propose Trellis: a data foundation that treats the experience graph as first-class, governed, queryable database state. The core insight is that search o",
+      "importanceScore": 78,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Gang Liao, Yujia He, Abdullah Ozturk, Zhouyang Li, Ying Wang, Zhitong Guo",
       "tags": [
-        "组织调整",
-        "人事变动",
-        "业务调整",
-        "AI转型"
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
       ],
-      "sourceName": "大厂日爆",
-      "sourceUrl": "https://mp.weixin.qq.com/s/8ojyA2eNU0v3ueXEBoLE4A",
-      "sourceAvatarUrl": "/source-avatars/weixin/dachang-ribao-95c3f5067255ce73.png",
-      "sourceProfileId": "weixin_account:dachang-ribao",
-      "publishedAt": "2026-06-29T03:40:00.000Z",
-      "observedAt": "2026-06-29T06:13:55.087Z",
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.29823v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T06:02:20Z",
+      "observedAt": "2026-07-02T06:47:33.884Z",
       "raw": {
-        "analysis_version": 12,
-        "document_id": "weixin:41ca895a8a1465aea88a1ec98355788c45b9827adab134e7e629fae7488492b9",
-        "ingest_profile_id": "weixin_article_v1",
-        "source_avatar_url": "/source-avatars/weixin/dachang-ribao-95c3f5067255ce73.png",
-        "key_facts": [
-          "抖音电商内容生态负责人林安亚将于7月离职，前懂车帝VP彭艳鋆接任。",
-          "蚂蚁灵光与阿福调整，灵光一号位寒洛将负责阿福部分工作。",
-          "蚂蚁消金技术部CTO击金（P10）离职，消金技术整体合并至大安全。",
-          "美团金服前技术负责人张散集近期离职。",
-          "美团金服大前端合并至后端，推进全栈化。",
-          "美团金服新成立AI-BUIlder部门。",
-          "快手社科线李晗、洪立印离开社科线，跟随盖坤加入可灵。",
-          "快手大模型罗诚接手模型组团队。",
-          "阿里西班牙本地电商项目整体合并进速卖通Ali Express。",
-          "得物算法工程负责人James卸任，由sean接管。"
+        "arxivId": "2606.29823",
+        "authors": [
+          "Gang Liao",
+          "Yujia He",
+          "Abdullah Ozturk",
+          "Zhouyang Li",
+          "Ying Wang",
+          "Zhitong Guo"
         ],
-        "entities": [
-          "字节跳动",
-          "蚂蚁集团",
-          "美团",
-          "快手",
-          "阿里巴巴",
-          "得物"
+        "source": "arxiv"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2606.29717",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2606.29717"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Optimizing Expert-Designed Crystal Graph Networks for Band-Gap Prediction with an Autonomous LLM Research Loop",
+      "summary": "Predicting a material's properties from its structure is a central, fast-advancing problem in computational materials science. A decade of work has produced standard public benchmarks and many published machine-learning models for the task (Dunn et al., 2020). The task's fixed metric and these baselines make it a natural setting for autonomous agent research (Karpathy, 2026). On the MatBench band-gap benchmark ($>$100k crystals), a general-purpose coding agent autonomously built the most accurate model trained without external pretraining, ahead of all seventeen expert-designed models reported for the task. A closer analysis shows it reached this by implementing known methods: either already standard in crystal neural-network models, or borrowed from other areas of machine learning. The contributing implementations include element-pair features on each message-passing edge and a crystal ",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Chenmu Zhang, Boris I. Yakobson",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2606.29717v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-29T02:52:50Z",
+      "observedAt": "2026-07-02T06:47:33.884Z",
+      "raw": {
+        "arxivId": "2606.29717",
+        "authors": [
+          "Chenmu Zhang",
+          "Boris I. Yakobson"
         ],
-        "sampledSourceName": "大厂日爆",
-        "originalSourceName": "大厂日爆"
+        "source": "arxiv"
       }
     },
     {
@@ -1413,6 +1842,41 @@
         ],
         "sampledSourceName": "HuggingFace Daily Papers（社区热门论文）",
         "originalSourceName": "HuggingFace Daily Papers（社区热门论文）"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2607.00038",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2607.00038"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting",
+      "summary": "In mid-2026 a slogan reorganized how practitioners talk about coding agents: stop prompting your agent, start designing the loop that prompts it. We take this claim seriously and give it a careful treatment. We call the object of the new practice the loop specification: a bounded, reusable artifact, made of a trigger, a goal, a verification step, a stopping rule and a memory, that a human hands to an agent harness (such as Claude Code or Codex) so the agent pursues a goal on its own, in place of step-by-step prompting. We distinguish this external loop specification from two things it is often confused with: an ordinary programming loop, and the internal perceive-act-observe cycle that the harness already provides as plumbing. We position loop engineering as a new layer in the progression from prompt to context to harness to loop, and we argue, against the stronger headlines, that it doe",
+      "importanceScore": 86,
+      "whyItMatters": "这类论文直接对应 Agent Harness、Auto-Research、长程轨迹、验证闭环和自我改进机制，适合跟进团队 AI Native 与自动研究能力建设。",
+      "actionText": "评估其中的 harness 设计、轨迹回放、验证闭环和技能沉淀方式，是否能迁移到团队 Auto-Research / Agent 自进化链路。",
+      "watchText": "作者：Sandeco Macedo",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2607.00038v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-06-28T18:30:46Z",
+      "observedAt": "2026-07-02T06:47:33.884Z",
+      "raw": {
+        "arxivId": "2607.00038",
+        "authors": [
+          "Sandeco Macedo"
+        ],
+        "source": "arxiv"
       }
     },
     {
@@ -1789,6 +2253,44 @@
       }
     },
     {
+      "id": "feed_3ae6b080ab4b5f03d23619d5",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_271d9dba6e8629ebbd241c86"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "冻结多token预测加速Pixel上的Gemini Nano模型",
+      "summary": "Google Research提出一种新架构，在已冻结的Gemini Nano v3模型上改造Multi-Token Prediction（MTP），以加速Pixel 9和10系列上的设备端推理。该方法基于EAGLE框架和CALM，无需单独训练占用内存的草稿模型，通过“晚期退出”策略实现加速。AI通知摘要和校对功能因此生成文本速度显著提升、能耗降低，开发者无需为每个新任务微调独立模型。",
+      "importanceScore": 55,
+      "whyItMatters": "谷歌这篇技术博客值得端侧开发者细读，他们把多令牌预测硬是装进了已部署的 Nano 模型，Pixel 上生成加速五成，还省了 130MB 内存，零拷贝架构的想法挺巧，但没法直接复现，主要是开脑洞用的。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Google",
+        "推理",
+        "端侧",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "sourceName": "Google Research：Blog（网页）",
+      "sourceUrl": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction",
+      "publishedAt": "2026-06-25T16:00:00.000Z",
+      "observedAt": "2026-06-27T21:00:21.133Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmqwtvowe0035slp023899gx2",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "Google Research：Blog（网页）"
+        ],
+        "sampledSourceName": "Google Research：Blog（网页）",
+        "originalSourceName": "Google Research：Blog（网页）"
+      },
+      "sourceIconHostname": "research.google"
+    },
+    {
       "id": "feed_2077bc1ebed31a546241d5f8",
       "topicId": "ai",
       "sourceItemIds": [
@@ -2006,6 +2508,42 @@
         "sampledSourceName": "X：OpenAI (@OpenAI)",
         "originalSourceName": "X：OpenAI (@OpenAI)"
       }
+    },
+    {
+      "id": "feed_58164355e4de070cbe9794e0",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_523e853eccce28ed217116cc"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
+      "summary": "Google Research研究发现，推理（chain-of-thought）能帮助大语言模型（LLM）回忆简单事实，即使这些事实无需复杂推导。在Gemini-2.5 Flash和Pro以及Qwen3-32B上，启用推理后模型能够回答原本无法直接回答的简单问题，pass@k显示正确事实存在于输出分布中。该现象由两个机制驱动：一是生成的推理token充当计算缓冲，允许模型进行隐藏计算以提取参数化知识；二是推理过程中产生的相关事实起到启动效应（factual priming），帮助模型激活正确答案。",
+      "importanceScore": 69,
+      "whyItMatters": "发现一个反直觉现象，让模型推理能提升简单事实回忆，不是靠分步解题而是计算缓冲和事实预热，对理解模型知识召回机制很有启发，但中间步骤幻觉也带来风险。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Google",
+        "推理",
+        "论文/研究"
+      ],
+      "sourceName": "Google Research：Blog（网页）",
+      "sourceUrl": "https://research.google/blog/thinking-to-recall-how-reasoning-unlocks-parametric-knowledge-in-llms",
+      "publishedAt": "2026-06-24T17:05:40.380Z",
+      "observedAt": "2026-06-24T17:23:29.290Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmqsbr8l701ndslfubzp0hnmi",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "Google Research：Blog（网页）"
+        ],
+        "sampledSourceName": "Google Research：Blog（网页）",
+        "originalSourceName": "Google Research：Blog（网页）"
+      },
+      "sourceIconHostname": "research.google"
     },
     {
       "id": "feed_008e3801607711063ba6e009",
@@ -4093,6 +4631,47 @@
       }
     },
     {
+      "id": "feed_cc7024fc32b5102b4eabc1f4",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_7fd6b5e94645618e419623cb"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
+      "summary": "在《Nature Methods》上发表的最新研究来自Project Ex Vivo，表明AI模型从多样化的细胞状态中学到的知识，比仅从规模化数据集中学到的更多，这一发现可能重塑疗法与患者的匹配方式。https://msft.it/6013vgE8l",
+      "importanceScore": 63,
+      "whyItMatters": "微软这篇Nature Methods论文给大力出奇迹的缩放路线泼了点冷水，在细胞状态建模上，数据多样性比规模更重要，做AI+生物的人该认真看一眼。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Microsoft",
+        "数据/训练",
+        "论文/研究"
+      ],
+      "sourceName": "X：Microsoft Research (@MSFTResearch)",
+      "sourceUrl": "https://x.com/MSFTResearch/status/2064384745195118817",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/1603123064140890112/bSq-JVnp_normal.png",
+      "publishedAt": "2026-06-09T16:30:52.000Z",
+      "observedAt": "2026-06-09T16:46:34.269Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmq6v2unp0c37sl5i7x4os7e1",
+        "ingest_profile_id": "aihot_item_v1",
+        "image_url": "https://pbs.twimg.com/media/HKYq_F0XwAAJEzs.jpg",
+        "image_type": "photo",
+        "image_width": 1120,
+        "image_height": 748,
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/1603123064140890112/bSq-JVnp_normal.png",
+        "key_facts": [],
+        "entities": [
+          "X：Microsoft Research (@MSFTResearch)"
+        ],
+        "sampledSourceName": "X：Microsoft Research (@MSFTResearch)",
+        "originalSourceName": "X：Microsoft Research (@MSFTResearch)"
+      }
+    },
+    {
       "id": "feed_e79481bc7593da2d10f0d2c1",
       "topicId": "ai",
       "sourceItemIds": [
@@ -4655,6 +5234,43 @@
         ],
         "sampledSourceName": "X：NVIDIA AI (@NVIDIAAI)",
         "originalSourceName": "X：NVIDIA AI (@NVIDIAAI)"
+      }
+    },
+    {
+      "id": "feed_ba31f834e8e8a0695981126b",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_5856fadcd5d24db3b5251bf9"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "微软Project Mosaic：micro-LED光学互连技术",
+      "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。",
+      "importanceScore": 60,
+      "whyItMatters": "微软研究院展示了个用 micro-LED 做光互联的实验项目，短期对 AI 训练没直接帮助，但低功耗高速传输要是落地，可能会改变数据中心的组网方式。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Microsoft",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "sourceName": "X：Microsoft Research (@MSFTResearch)",
+      "sourceUrl": "https://x.com/MSFTResearch/status/2062983588606320714",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/1603123064140890112/bSq-JVnp_normal.png",
+      "publishedAt": "2026-06-05T19:43:10.000Z",
+      "observedAt": "2026-06-05T20:29:22.658Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmq1d2vyt0epssltrsz0gvbky",
+        "ingest_profile_id": "aihot_item_v1",
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/1603123064140890112/bSq-JVnp_normal.png",
+        "key_facts": [],
+        "entities": [
+          "X：Microsoft Research (@MSFTResearch)"
+        ],
+        "sampledSourceName": "X：Microsoft Research (@MSFTResearch)",
+        "originalSourceName": "X：Microsoft Research (@MSFTResearch)"
       }
     },
     {
@@ -7905,8 +8521,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_71a0beeee56c3cda84d4b291%22%2C%22importanceScore%22%3A75%2C%22observedAt%22%3A%222026-07-01T01%3A38%3A37.517Z%22%2C%22publishedAt%22%3A%222026-07-01T01%3A14%3A54.000Z%22%7D",
-  "total": 210,
-  "generatedAt": "2026-07-02T06:11:11.425Z",
+  "nextCursor": "%7B%22id%22%3A%22feed_8c80bef6aa7cb7bbe5ac18fd%22%2C%22importanceScore%22%3A78%2C%22observedAt%22%3A%222026-07-01T03%3A43%3A01.368Z%22%2C%22publishedAt%22%3A%222026-07-01T02%3A58%3A29.000Z%22%7D",
+  "total": 226,
+  "generatedAt": "2026-07-02T06:47:33.905Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }

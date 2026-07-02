@@ -11,7 +11,7 @@ import { aiTopics } from "./aiTopics";
 import type { ActiveTab, AppData, FeedQuery, ThemeMode, ToastMessage } from "./types";
 
 const initialQuery: FeedQuery = {
-  limit: 50,
+  limit: 500,
   raw: "compact",
   total: "none"
 };

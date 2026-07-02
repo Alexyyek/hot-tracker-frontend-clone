@@ -27,7 +27,7 @@ interface FeedPageProps {
 }
 
 const baseQuery: FeedQuery = {
-  limit: 50,
+  limit: 500,
   raw: "compact",
   total: "none"
 };
