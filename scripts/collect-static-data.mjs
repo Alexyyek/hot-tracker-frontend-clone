@@ -1,4 +1,4 @@
-import { mkdir, rename, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const sourceBaseUrl = process.env.HOT_TRACKER_API_BASE ?? "https://hot.kyangc.net";
@@ -7,6 +7,19 @@ const feedLimit = Number(process.env.FEED_LIMIT ?? 300);
 const dailyHistoryDays = Number(process.env.DAILY_HISTORY_DAYS ?? 14);
 const sourceSampleLimit = Number(process.env.SOURCE_SAMPLE_LIMIT ?? 2);
 const sourceSampleConcurrency = Number(process.env.SOURCE_SAMPLE_CONCURRENCY ?? 6);
+
+async function readAiSourceCatalog() {
+  const source = await readFile("src/aiTopics.ts", "utf8");
+  const catalogMatch = source.match(/export const aiTopicSourceCatalog = \{([\s\S]*?)\n\} as const/s);
+  if (!catalogMatch) throw new Error("Unable to locate aiTopicSourceCatalog in src/aiTopics.ts");
+  const sourceNames = new Set();
+  for (const match of catalogMatch[1].matchAll(/"([^"]+)"/g)) {
+    const value = match[1];
+    if (!value.startsWith("ai-")) sourceNames.add(value);
+  }
+  sourceNames.delete("GitHub AI 热榜");
+  return sourceNames;
+}
 
 async function fetchJson(endpoint) {
   const url = new URL(endpoint, sourceBaseUrl);
@@ -95,6 +108,13 @@ function mergeFeedItems(...groups) {
   });
 }
 
+function filterCatalogFeedItems(items, catalogSourceNames, catalogHostnames) {
+  return (items ?? []).filter((item) => {
+    if (item.sourceKind === "github" || item.sourceName?.toLowerCase().includes("github")) return false;
+    return catalogSourceNames.has(item.sourceName) || Boolean(item.sourceHostname && catalogHostnames.has(item.sourceHostname));
+  });
+}
+
 async function collectSourceSamples(sources) {
   const collected = [];
   let checked = 0;
@@ -141,12 +161,18 @@ async function collectSourceSamples(sources) {
 
 async function main() {
   await mkdir(outputRoot, { recursive: true });
+  const catalogSourceNames = await readAiSourceCatalog();
 
   await collectRequired("topics", "/api/topics", "topics.json");
   const feed = await fetchJson(`/api/feed?limit=${feedLimit}&raw=full&total=count`);
   const sources = await collectRequired("sources", "/api/feed/sources", "sources.json");
-  const sourceSamples = await collectSourceSamples(sources.items ?? []);
-  const mergedFeedItems = mergeFeedItems(feed, sourceSamples);
+  const catalogSources = (sources.items ?? []).filter((source) => catalogSourceNames.has(source.sourceName));
+  const catalogHostnames = new Set(catalogSources.map((source) => source.sourceHostname).filter(Boolean));
+  const sourceSamples = await collectSourceSamples(catalogSources);
+  const mergedFeedItems = mergeFeedItems(
+    { items: filterCatalogFeedItems(feed.items, catalogSourceNames, catalogHostnames) },
+    sourceSamples
+  );
   await writeJson("feed.json", withMeta({ ...feed, items: mergedFeedItems, total: mergedFeedItems.length }));
   console.log(`feed: ${mergedFeedItems.length} merged items -> feed.json`);
   await collectRequired("topic-counts", "/api/feed/topic-counts", "topic-counts.json");
