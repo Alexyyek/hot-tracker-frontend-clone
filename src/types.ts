@@ -34,6 +34,10 @@ export interface FeedItem {
   sourceAvatarUrl?: string;
   sourceHostname?: string;
   sourceIconHostname?: string;
+  imageUrl?: string;
+  imageUrls?: string[];
+  mediaUrls?: string[];
+  thumbnailUrl?: string;
   publishedAt: string;
   observedAt: string;
   raw?: Record<string, unknown>;

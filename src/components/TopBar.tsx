@@ -45,7 +45,7 @@ export function TopBar({ activeTab, onBrandRefresh, onTabChange, onThemeChange, 
           <Target size={19} strokeWidth={1.9} />
         </span>
         <span>
-          <h1>Hot Tracker</h1>
+          <h1>AI Hot Tracker</h1>
         </span>
       </a>
       <div className="topbar-actions">

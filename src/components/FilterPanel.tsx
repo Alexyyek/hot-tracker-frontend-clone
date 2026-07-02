@@ -1,5 +1,6 @@
 import { ChevronDown, Info, Search, SlidersHorizontal } from "lucide-react";
-import { getTopicCount, sourceKindLabel, visibleSourceFacets } from "../data";
+import { getTopicCount, sourceKindLabel } from "../data";
+import { AI_ALL_TOPIC_ID, getAiSourceCatalogTotal, getAiTopicTooltip, mergeAiCatalogSources } from "../aiTopics";
 import type { FeedQuery, SourceFacet, Topic, TopicCount } from "../types";
 import { useState } from "react";
 import { SourceIcon } from "./SourceIcon";
@@ -15,7 +16,7 @@ interface FilterPanelProps {
   onReset: () => void;
 }
 
-const sourceKinds = ["github", "weixin_article", "website", "x", "public_disclosure", "sec_filing"];
+const sourceKinds = ["website", "x", "weixin_article"];
 const scoreOptions = [0, 80, 60];
 
 export function FilterPanel({
@@ -29,11 +30,18 @@ export function FilterPanel({
   onReset
 }: FilterPanelProps) {
   const [showAllTopics, setShowAllTopics] = useState(false);
+  const [showAllSources, setShowAllSources] = useState(false);
   const update = (patch: FeedQuery) => {
     onQueryChange({ ...query, cursor: undefined, ...patch });
   };
-  const visibleTopics = showAllTopics ? topics : topics.slice(0, 4);
+  const visibleTopics = showAllTopics ? topics : topics.slice(0, 5);
   const hiddenTopicCount = Math.max(0, topics.length - visibleTopics.length);
+  const mergedSources = mergeAiCatalogSources(sourceFacets, query.topicId).filter(
+    (facet) => facet.count > 0 && (!query.sourceKind || facet.sourceKind === query.sourceKind)
+  );
+  const visibleSources = showAllSources ? mergedSources : mergedSources.slice(0, 18);
+  const catalogTotal = mergedSources.length || getAiSourceCatalogTotal(query.topicId);
+  const activeSourceCount = mergedSources.filter((facet) => facet.count > 0).length;
 
   return (
     <aside className="topic-filter" aria-label="热点筛选">
@@ -49,12 +57,12 @@ export function FilterPanel({
           type="button"
         >
           <span className="topic-row-main">
-            <span className="topic-source-info" data-tooltip="聚合所有已启用主题的实时热点。">
+            <span className="topic-source-info" data-tooltip="聚合 AI 行业、论文、应用和大厂日报。">
               <Info size={13} />
             </span>
-            <span className="topic-title">全部主题</span>
+            <span className="topic-title">全部 AI</span>
           </span>
-          <span className="topic-row-count">{topicCounts.reduce((sum, item) => sum + item.count, 0)}</span>
+          <span className="topic-row-count">{getTopicCount(topicCounts, AI_ALL_TOPIC_ID)}</span>
         </button>
         {visibleTopics.map((topic) => (
           <button
@@ -67,7 +75,7 @@ export function FilterPanel({
             <span className="topic-row-main">
               <span
                 className="topic-source-info"
-                data-tooltip={`${topic.title} / ${topic.sourceKind}`}
+                data-tooltip={getAiTopicTooltip(topic)}
                 onClick={(event) => event.stopPropagation()}
               >
                 <Info size={13} />
@@ -147,11 +155,20 @@ export function FilterPanel({
         </div>
 
         <div className="filter-group">
-          <span className="filter-label">来源</span>
+          <div className="source-filter-heading">
+            <span className="filter-label">来源</span>
+            <em>
+              {visibleSources.length}/{catalogTotal}
+              <small>{activeSourceCount} 有更新</small>
+            </em>
+          </div>
           <div className="source-filter-list">
-            {visibleSourceFacets(sourceFacets, query).map((facet) => (
+            {visibleSources.map((facet) => (
               <button
-                className={query.sourceName === facet.sourceName ? "source-filter-row active" : "source-filter-row"}
+                className={[
+                  "source-filter-row",
+                  query.sourceName === facet.sourceName ? "active" : "",
+                ].filter(Boolean).join(" ")}
                 key={`${facet.sourceKind}-${facet.sourceName}-${facet.sourceHostname ?? ""}`}
                 onClick={() =>
                   update({
@@ -181,6 +198,13 @@ export function FilterPanel({
               </button>
             ))}
           </div>
+          {mergedSources.length > 18 ? (
+            <button className="source-list-footer" onClick={() => setShowAllSources((value) => !value)} type="button">
+              <span>{showAllSources ? "收起来源" : "展开全部来源"}</span>
+              <small>{showAllSources ? "显示前 18 个" : `还有 ${mergedSources.length - visibleSources.length} 个来源`}</small>
+              <ChevronDown size={16} className={showAllSources ? "is-open" : ""} />
+            </button>
+          ) : null}
         </div>
       </section>
     </aside>

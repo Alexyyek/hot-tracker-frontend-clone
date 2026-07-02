@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "collect:data": "node scripts/collect-static-data.mjs",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "acceptance": "node scripts/acceptance-audit.mjs"

@@ -1,6 +1,8 @@
 import { ChevronDown, Share2 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { getFeedItem } from "../api";
 import {
+  extractFeedImageUrls,
   formatDayCountLabel,
   formatTime,
   getTopicAccent,
@@ -80,6 +82,8 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
 
       <p className="feed-summary">{item.summary}</p>
 
+      <FeedMedia item={item} />
+
       {watchText ? (
         <div className="timeline-reason">
           <span>推荐理由：</span>
@@ -119,5 +123,52 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
         </button>
       </footer>
     </article>
+  );
+}
+
+export function FeedMedia({ item }: { item: FeedItem }) {
+  const initialUrls = extractFeedImageUrls(item);
+  const [urls, setUrls] = useState(initialUrls);
+  const [hiddenUrls, setHiddenUrls] = useState<string[]>([]);
+
+  useEffect(() => {
+    setUrls(initialUrls);
+    setHiddenUrls([]);
+
+    if (initialUrls.length > 0) return;
+
+    let cancelled = false;
+    async function loadDetailMedia() {
+      try {
+        const detail = await getFeedItem(item.id);
+        const detailUrls = extractFeedImageUrls(detail);
+        if (!cancelled) setUrls(detailUrls);
+      } catch {
+        if (!cancelled) setUrls([]);
+      }
+    }
+
+    void loadDetailMedia();
+    return () => {
+      cancelled = true;
+    };
+  }, [item.id]);
+
+  const visibleUrls = urls.filter((url) => !hiddenUrls.includes(url));
+  if (visibleUrls.length === 0) return null;
+
+  return (
+    <div className={visibleUrls.length === 1 ? "feed-media-grid single" : "feed-media-grid"} aria-label="动态图片">
+      {visibleUrls.map((url, index) => (
+        <a className="feed-media-tile" href={url} key={url} rel="noreferrer" target="_blank">
+          <img
+            alt={`${item.title} 图片 ${index + 1}`}
+            loading="lazy"
+            src={url}
+            onError={() => setHiddenUrls((current) => (current.includes(url) ? current : [...current, url]))}
+          />
+        </a>
+      ))}
+    </div>
   );
 }

@@ -1,0 +1,838 @@
+{
+  "items": [
+    {
+      "id": "daily_ai_2026-06-27",
+      "topicId": "ai",
+      "reportDate": "2026-06-27",
+      "title": "AI日报",
+      "mainLine": "今日 AI 动态优先看「纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机」，脉络集中在「行业与公司」「产品与工具」「模型与基础设施」；先分辨是能力变化、产品落地还是行业信号。",
+      "actionItems": [],
+      "watchItems": [
+        "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机：NYT将矛头指向微软定制的超级计算机，指控其蓄意协助侵权，这一升级可能让公平使用抗辩失效，我觉得任何建立在全网爬取上的模型都该紧张了。",
+        "Anthropic Mythos 5 获美国政府部分解禁，Fable 5 仍下线：Anthropic最强模型因太危险被封，又因太有用被请回，投资人Amazon却亲手引爆危机。",
+        "“Raise Us”启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击：这是美国首次有规模的劳动力AI应对策略，四家AI巨头终于自掏腰包搞再培训，虽然出资方身份令人警醒，但跨党派运作至少说明问题已经大到必须正视了。",
+        "OpenAI Codex 2026年上半年活跃用户增长超5倍，非开发者增速最快：非开发者半年增长137倍，Codex从工程师帮手变成全组织的自动化引擎，这是AI工具走出专业圈的第一个规模化证据，企业决策者该认真评估了。",
+        "Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数：Cursor 的审计把 SWE-bench Pro 的信任基础动摇了，63% 的高分轨迹是通过检索现成修复而非独立推理，以后选型不看 harness 严格度等于开盲盒。",
+        "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色：阿里千问把AI语音能力做成了独立输入法，300字/分+9种方言让语音转文字实用性大增，对不习惯打字的普通用户可能比单纯聊天工具更有粘性。",
+        "Runway API 推出广告本地化 Recipe：Runway 把广告本地化做成了一键 API，对出海团队是实打实的效率提升，但放在整个 AI 行业里这只是个功能补齐。",
+        "一次失败的（民族国家？）攻击的剖析：这是一次近乎完美的开发者定向攻击复盘，虚假面试加上精心构造的补丁注入 RAT，手法隐蔽到连作者都差点中招，所有靠开源吃饭的人都该认真看看 Ioc 并重新审视自己的代码审查盲区。"
+      ],
+      "sections": [
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
+              "summary": "NYT将矛头指向微软定制的超级计算机，指控其蓄意协助侵权，这一升级可能让公平使用抗辩失效，我觉得任何建立在全网爬取上的模型都该紧张了。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_a90feac8a36d6f35ca4e33ae"
+              ],
+              "confidence": 84
+            },
+            {
+              "title": "Anthropic Mythos 5 获美国政府部分解禁，Fable 5 仍下线",
+              "summary": "Anthropic最强模型因太危险被封，又因太有用被请回，投资人Amazon却亲手引爆危机。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_722f60e0a8ecd88ef06b2aec"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "“Raise Us”启动：前美商务部长与四州合作筹集10亿美元应对AI就业冲击",
+              "summary": "这是美国首次有规模的劳动力AI应对策略，四家AI巨头终于自掏腰包搞再培训，虽然出资方身份令人警醒，但跨党派运作至少说明问题已经大到必须正视了。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_67e1df629181691b001c62ab"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "OpenAI Codex 2026年上半年活跃用户增长超5倍，非开发者增速最快",
+              "summary": "非开发者半年增长137倍，Codex从工程师帮手变成全组织的自动化引擎，这是AI工具走出专业圈的第一个规模化证据，企业决策者该认真评估了。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_06504271ced397db8bcc7c1a"
+              ],
+              "confidence": 83
+            },
+            {
+              "title": "Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数",
+              "summary": "Cursor 的审计把 SWE-bench Pro 的信任基础动摇了，63% 的高分轨迹是通过检索现成修复而非独立推理，以后选型不看 harness 严格度等于开盲盒。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_4eb0c57065dd5a114842229c"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "阿里千问输入法上线 macOS 版：最快 300 字/分，AI 自动润色",
+              "summary": "阿里千问把AI语音能力做成了独立输入法，300字/分+9种方言让语音转文字实用性大增，对不习惯打字的普通用户可能比单纯聊天工具更有粘性。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_3973e41e761a5d9ea1a10a90"
+              ],
+              "confidence": 73
+            },
+            {
+              "title": "Runway API 推出广告本地化 Recipe",
+              "summary": "Runway 把广告本地化做成了一键 API，对出海团队是实打实的效率提升，但放在整个 AI 行业里这只是个功能补齐。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_45b3ddd70f8a4fb98920e662"
+              ],
+              "confidence": 66
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "一次失败的（民族国家？）攻击的剖析",
+              "summary": "这是一次近乎完美的开发者定向攻击复盘，虚假面试加上精心构造的补丁注入 RAT，手法隐蔽到连作者都差点中招，所有靠开源吃饭的人都该认真看看 Ioc 并重新审视自己的代码审查盲区。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_ad7e1e1959b3420bdf1be21a"
+              ],
+              "confidence": 81
+            },
+            {
+              "title": "OpenAI 相关动态集中出现",
+              "summary": "虽然还是有限预览，GPT‑5.6 三个型号的定价和缓存机制已经公开，Sol/Terra/Luna 的梯度很清晰，这波降本可能就像 GPT‑5.5 那次一样，重新定义一批应用的性价比上限。",
+              "insightLabel": "关注",
+              "insightText": "同组还包括「华盛顿邮报报告：AI聊天机器人存在左翼偏见」、「OpenAI 最强 AI 模型：GPT-5.6 系列登场，编程跑分超 C...」、「OpenAI 应美国政府要求限制 GPT-5.6 发布，称限制不应成为常...」。",
+              "sourceFeedItemIds": [
+                "feed_8fbe203fcc104a3dec101b83",
+                "feed_2299eb8bec347370083fa163",
+                "feed_0e599b76c6bdb58d17efb994",
+                "feed_cfc81cc37182e4bbd3cbbc6a"
+              ],
+              "confidence": 79
+            },
+            {
+              "title": "特朗普政府允许Anthropic将网络安全模型Mythos 5提供给超100家美国机构",
+              "summary": "特朗普政府两周禁令后为 Mythos 5 开了扇窗，首次把‘可信伙伴’纳入国家级模型许可，对安全型 AI 的管控逻辑从此不一样了。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_b7b18a53000eddf914eebc10"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+              "summary": "国家统计局这组数据让AI不再是融资故事，电子行业利润增长103.9%，AI需求是实实在在的引擎，硬件供应链的价值该被重估了。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_8892fed22f2dcce83add4d11"
+              ],
+              "confidence": 71
+            },
+            {
+              "title": "AI 账单失控后 DeepSeek 成“香饽饽”，部分美国企业已 100% 切换",
+              "summary": "一家初创把AI调用从Claude全切到DeepSeek，省下的钱超过工资总额，企业客户开始用模型路由压成本，这个趋势比任何benchmark都更能说明价格战的影响。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_a666948572478fd0805b91b0"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "论文与研究",
+          "items": [
+            {
+              "title": "赫库兰尼姆卷轴两千年来首次被读",
+              "summary": "AI 首次从两千年前的火山灰中读出完整段落，而且内容恰恰是关于「研究与智慧」的，这种巧合本身就值得你点开看一眼。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_dbb38f683181501d212a562a"
+              ],
+              "confidence": 81
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_a90feac8a36d6f35ca4e33ae",
+        "feed_06504271ced397db8bcc7c1a",
+        "feed_ad7e1e1959b3420bdf1be21a",
+        "feed_dbb38f683181501d212a562a",
+        "feed_8fbe203fcc104a3dec101b83",
+        "feed_722f60e0a8ecd88ef06b2aec",
+        "feed_b7b18a53000eddf914eebc10",
+        "feed_4eb0c57065dd5a114842229c",
+        "feed_2299eb8bec347370083fa163",
+        "feed_0e599b76c6bdb58d17efb994",
+        "feed_3973e41e761a5d9ea1a10a90",
+        "feed_cfc81cc37182e4bbd3cbbc6a"
+      ],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "Ars Technica：AI（RSS）": 1,
+          "X：Rohan Paul (@rohanpaul_ai)": 2,
+          "Hacker News 热门（buzzing.cc 中文翻译）": 1,
+          "X：Ethan Mollick (@emollick)": 1,
+          "Simon Willison 博客": 1,
+          "X：宝玉 (@dotey)": 1,
+          "TechCrunch：AI（RSS）": 2,
+          "MarkTechPost（RSS）": 1,
+          "IT之家（RSS）": 4,
+          "The Decoder：AI News（RSS）": 1,
+          "X：Runway (@runwayml)": 1
+        }
+      }
+    },
+    {
+      "id": "daily_flight-hotel-card_2026-06-27",
+      "topicId": "flight-hotel-card",
+      "reportDate": "2026-06-27",
+      "title": "机酒卡日报",
+      "mainLine": "今日机酒卡主题主要看「航司与票价」，最清晰的单点更新是「历史级低价！大溪地邮轮9天8晚仅需7587元/人！」；可先检查目标航线、规则口径和是否值得行动。",
+      "actionItems": [],
+      "watchItems": [
+        "历史级低价！大溪地邮轮9天8晚仅需7587元/人！：诺唯真之勇号大溪地+汤加9天8晚邮轮推出历史低价，4人内舱人均低至7587元，通过携程预订可享95折优惠，提前90天可免费取消。 线索：诺唯真之勇号，大溪地+汤加9天8晚行程，2027年6月9日出发起价8359元/人，9月22日出发起价8585元/人；通过携程下单可享95折，实际4人内舱总价30350元（人均7587元，6月航次）和31514元（人均7878元，9月航次）",
+        "燃油费降了！东南亚又一国免签？最后24小时！10比1兑里程+境内外贵宾厅+延误险+新老户300-500红包！：燃油附加费下调，印尼提议对中国游客免签，兴业银行推出限时金卡升白金卡活动，老户新户可获300-500元红包，活动截至6月28日14时。 线索：九元航空等航司因国际油价回落下调燃油附加费。；印尼旅游部提议对中国、印度、韩国、日本、澳大利亚、新西兰短期旅游免签。",
+        "暑期燃油机票齐降？800+直飞往返东南亚，这条线中转住宿送万豪！：九元航空下调燃油附加费，广州至万象往返含税813元；暑期欧洲多地机票降价，含土耳其航空北京直飞伊斯坦布尔3K7起；阿联酋航空中转迪拜送JW万豪侯爵住宿。 线索：九元航空下调国际航线燃油附加费，广州-万象往返税费降低400+元。；九元航空广州-万象次卡99元一口价，加税费共813元，含10kg托运，暑期大量日期可兑换。",
+        "【这国再传对中国免签】网友：别光说不做！有春节五一票；速度！东航太给力了吧，暑期直飞新疆昭苏：印尼旅游部再次提议对中国等六国免签，同时鹰航推出上海往返巴厘岛含税2K3起促销，东航将于7月16日开通上海直飞昭苏季节性航线，单程含税1170元起。 线索：印尼旅游部提议新增对中国、印度、韩国、日本、澳大利亚、新西兰六国短期旅游免签。；提案依据客源规模、消费力、增长可持续性三项指标评估。"
+      ],
+      "sections": [
+        {
+          "title": "航司与票价",
+          "items": [
+            {
+              "title": "历史级低价！大溪地邮轮9天8晚仅需7587元/人！",
+              "summary": "诺唯真之勇号大溪地+汤加9天8晚邮轮推出历史低价，4人内舱人均低至7587元，通过携程预订可享95折优惠，提前90天可免费取消。",
+              "insightLabel": "线索",
+              "insightText": "诺唯真之勇号，大溪地+汤加9天8晚行程，2027年6月9日出发起价8359元/人，9月22日出发起价8585元/人；通过携程下单可享95折，实际4人内舱总价30350元（人均7587元，6月航次）和31514元（人均7878元，9月航次）",
+              "sourceFeedItemIds": [
+                "feed_2090a8d8038e4a606abb93f4"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "燃油费降了！东南亚又一国免签？最后24小时！10比1兑里程+境内外贵宾厅+延误险+新老户300-500红包！",
+              "summary": "燃油附加费下调，印尼提议对中国游客免签，兴业银行推出限时金卡升白金卡活动，老户新户可获300-500元红包，活动截至6月28日14时。",
+              "insightLabel": "线索",
+              "insightText": "九元航空等航司因国际油价回落下调燃油附加费。；印尼旅游部提议对中国、印度、韩国、日本、澳大利亚、新西兰短期旅游免签。",
+              "sourceFeedItemIds": [
+                "feed_a1b636ed2bdfd15752882e09"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "暑期燃油机票齐降？800+直飞往返东南亚，这条线中转住宿送万豪！",
+              "summary": "九元航空下调燃油附加费，广州至万象往返含税813元；暑期欧洲多地机票降价，含土耳其航空北京直飞伊斯坦布尔3K7起；阿联酋航空中转迪拜送JW万豪侯爵住宿。",
+              "insightLabel": "线索",
+              "insightText": "九元航空下调国际航线燃油附加费，广州-万象往返税费降低400+元。；九元航空广州-万象次卡99元一口价，加税费共813元，含10kg托运，暑期大量日期可兑换。",
+              "sourceFeedItemIds": [
+                "feed_3d01d5445f5b3d9eca1f6940"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "【这国再传对中国免签】网友：别光说不做！有春节五一票；速度！东航太给力了吧，暑期直飞新疆昭苏",
+              "summary": "印尼旅游部再次提议对中国等六国免签，同时鹰航推出上海往返巴厘岛含税2K3起促销，东航将于7月16日开通上海直飞昭苏季节性航线，单程含税1170元起。",
+              "insightLabel": "线索",
+              "insightText": "印尼旅游部提议新增对中国、印度、韩国、日本、澳大利亚、新西兰六国短期旅游免签。；提案依据客源规模、消费力、增长可持续性三项指标评估。",
+              "sourceFeedItemIds": [
+                "feed_f6d984837b04568b15b740a7"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_2090a8d8038e4a606abb93f4",
+        "feed_a1b636ed2bdfd15752882e09",
+        "feed_3d01d5445f5b3d9eca1f6940",
+        "feed_f6d984837b04568b15b740a7"
+      ],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "精明常旅客": 1,
+          "E旅行网": 1,
+          "旅行雷达": 2
+        }
+      }
+    },
+    {
+      "id": "daily_hk-ipo_2026-06-27",
+      "topicId": "hk-ipo",
+      "reportDate": "2026-06-27",
+      "title": "港股打新日报",
+      "mainLine": "今日港股打新先看「港股打新：同仁堂医养丨卷土重来的中医龙头，350年历史传承老字号光环是否依旧？」，重点落在「新股与申购」；适合把估值、资金占用和破发风险放在一起判断。",
+      "actionItems": [],
+      "watchItems": [
+        "港股打新：同仁堂医养丨卷土重来的中医龙头，350年历史传承老字号光环是否依旧？：同仁堂医养（02667.HK）二次招股，发行价6.21港元/股，入场费3136.31港元，预计7月7日上市，保荐人中金，有绿鞋。 看点：股票代码：02667.HK；招股日期：2026年6月26日至7月2日"
+      ],
+      "sections": [
+        {
+          "title": "新股与申购",
+          "items": [
+            {
+              "title": "港股打新：同仁堂医养丨卷土重来的中医龙头，350年历史传承老字号光环是否依旧？",
+              "summary": "同仁堂医养（02667.HK）二次招股，发行价6.21港元/股，入场费3136.31港元，预计7月7日上市，保荐人中金，有绿鞋。",
+              "insightLabel": "看点",
+              "insightText": "股票代码：02667.HK；招股日期：2026年6月26日至7月2日",
+              "sourceFeedItemIds": [
+                "feed_0d86980c082a79d82d3f9361"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_0d86980c082a79d82d3f9361"
+      ],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "低风险理财投资": 1
+        }
+      }
+    },
+    {
+      "id": "daily_investment_2026-06-27",
+      "topicId": "investment",
+      "reportDate": "2026-06-27",
+      "title": "投资观点日报",
+      "mainLine": "今日投资观点核心线索是「周末大事件」，主要围绕「产业与公司」、「宏观与政策」、「其他投资线索」；先看观点背后的证据、估值约束和风险分歧。",
+      "actionItems": [],
+      "watchItems": [
+        "周末大事件：美光公布对苹果的涨价明细，揭示苹果在存储芯片领域失去制衡能力，AI需求重塑供应链权力结构。 证据：美光公开涨价明细：卖给苹果9美元的芯片，苹果以99美元转售；美光涨至45美元，苹果售价升至250美元。；美光所处的存储芯片赛道全球仅有三家供应商：三星、SK海力士、美光。",
+        "惊呆：OpenAI因营收增长低于预期及估值分歧，将IPO时间从2026年推迟至2027年中，引发AI板块回调，但作者认为AI行情尚未终结。 证据：OpenAI原计划2026年四季度上市，新目标推迟至2027年中旬。；创始人奥特曼坚持1万亿美元估值，但机构只愿给7500-8500亿。",
+        "美团跌回64块，我用一把最笨的尺子量了量：作者在美团股价跌至64港元、创一年新低时，通过拆分到店酒旅、外卖闪购、新业务及投资资产四块业务进行分部估值，得出每股价值约82-124港元，认为市场过度悲观。 证据：美团2026年6月26日收盘价64.25港元，市值约4900亿港元；；2026年一季度营收910亿元，同比增长5.6%；净亏损68亿元，去年同期盈利100亿元。",
+        "机器人领域投融资激增：机器人是下一个方向。 根据Pitchbook 3月数据（来源：a16z），交易数量和投资金额都在飙升。 好的一面是，相同的AI数据中心敞口往往也交叉暴露于人形机器人的爬坡。 比如DRAM/NAND用于内存（人形机器人推理/存储），或者DFB激光器用于光子学（FMCW LiDAR视... 证据：Pitchbook 3月数据显示，机器人交易数量和投资金额均大幅上升（来源：a16z）。；AI数据中心相关公司往往也涉及人形机器人业务，例如DRAM/NAND用于人形机器人推理/存储。",
+        "据FT报道：据FT报道，苹果正在游说特朗普政府允许其从长鑫存储（CXMT）购买内存。 证据：苹果正在游说特朗普政府允许采购长鑫存储（CXMT）的内存。；消息来源为英国《金融时报》（FT）。",
+        "作者认为6480亿美元的投入规模虽大：6480亿美元……但由于它将在10年内支出，我认为这是一个合理的规模。 证据：总金额为6480亿美元；计划在10年内支出",
+        "如果热门专业真热门，你看35岁那堆没事做的前辈们怎么说？：本文以热门专业为例，批判线性因果思维，指出热门专业并非成功保证，需分兵策略（步骑协同）来提升成功概率。 证据：2000年，通信设备厂商加钱挖人，信电系应届本科生月薪4000，而正教授在学校只能赚到3500。；热门专业教师常因不会做事而留在校园，教材数十年不变。"
+      ],
+      "sections": [
+        {
+          "title": "产业与公司",
+          "items": [
+            {
+              "title": "周末大事件",
+              "summary": "美光公布对苹果的涨价明细，揭示苹果在存储芯片领域失去制衡能力，AI需求重塑供应链权力结构。",
+              "insightLabel": "证据",
+              "insightText": "美光公开涨价明细：卖给苹果9美元的芯片，苹果以99美元转售；美光涨至45美元，苹果售价升至250美元。；美光所处的存储芯片赛道全球仅有三家供应商：三星、SK海力士、美光。",
+              "sourceFeedItemIds": [
+                "feed_3d2606d922674f9deff5a8d2"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "惊呆",
+              "summary": "OpenAI因营收增长低于预期及估值分歧，将IPO时间从2026年推迟至2027年中，引发AI板块回调，但作者认为AI行情尚未终结。",
+              "insightLabel": "证据",
+              "insightText": "OpenAI原计划2026年四季度上市，新目标推迟至2027年中旬。；创始人奥特曼坚持1万亿美元估值，但机构只愿给7500-8500亿。",
+              "sourceFeedItemIds": [
+                "feed_773ba26decea35fe7c87cef4"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "美团跌回64块，我用一把最笨的尺子量了量",
+              "summary": "作者在美团股价跌至64港元、创一年新低时，通过拆分到店酒旅、外卖闪购、新业务及投资资产四块业务进行分部估值，得出每股价值约82-124港元，认为市场过度悲观。",
+              "insightLabel": "证据",
+              "insightText": "美团2026年6月26日收盘价64.25港元，市值约4900亿港元；；2026年一季度营收910亿元，同比增长5.6%；净亏损68亿元，去年同期盈利100亿元。",
+              "sourceFeedItemIds": [
+                "feed_4dd01d9d0e85201186695e68"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "机器人领域投融资激增",
+              "summary": "机器人是下一个方向。 根据Pitchbook 3月数据（来源：a16z），交易数量和投资金额都在飙升。 好的一面是，相同的AI数据中心敞口往往也交叉暴露于人形机器人的爬坡。 比如DRAM/NAND用于内存（人形机器人推理/存储），或者DFB激光器用于光子学（FMCW LiDAR视...",
+              "insightLabel": "证据",
+              "insightText": "Pitchbook 3月数据显示，机器人交易数量和投资金额均大幅上升（来源：a16z）。；AI数据中心相关公司往往也涉及人形机器人业务，例如DRAM/NAND用于人形机器人推理/存储。",
+              "sourceFeedItemIds": [
+                "feed_9b53b84efd36a6d9b4530e8b"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "据FT报道",
+              "summary": "据FT报道，苹果正在游说特朗普政府允许其从长鑫存储（CXMT）购买内存。",
+              "insightLabel": "证据",
+              "insightText": "苹果正在游说特朗普政府允许采购长鑫存储（CXMT）的内存。；消息来源为英国《金融时报》（FT）。",
+              "sourceFeedItemIds": [
+                "feed_6ea573573a5793cfea261696"
+              ],
+              "confidence": 80
+            }
+          ]
+        },
+        {
+          "title": "宏观与政策",
+          "items": [
+            {
+              "title": "作者认为6480亿美元的投入规模虽大",
+              "summary": "6480亿美元……但由于它将在10年内支出，我认为这是一个合理的规模。",
+              "insightLabel": "证据",
+              "insightText": "总金额为6480亿美元；计划在10年内支出",
+              "sourceFeedItemIds": [
+                "feed_938f98841a9596d580e77f3b"
+              ],
+              "confidence": 65
+            }
+          ]
+        },
+        {
+          "title": "其他投资线索",
+          "items": [
+            {
+              "title": "如果热门专业真热门，你看35岁那堆没事做的前辈们怎么说？",
+              "summary": "本文以热门专业为例，批判线性因果思维，指出热门专业并非成功保证，需分兵策略（步骑协同）来提升成功概率。",
+              "insightLabel": "证据",
+              "insightText": "2000年，通信设备厂商加钱挖人，信电系应届本科生月薪4000，而正教授在学校只能赚到3500。；热门专业教师常因不会做事而留在校园，教材数十年不变。",
+              "sourceFeedItemIds": [
+                "feed_7cea4414e1cc89fa52ebaf2b"
+              ],
+              "confidence": 51
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_3d2606d922674f9deff5a8d2",
+        "feed_773ba26decea35fe7c87cef4",
+        "feed_4dd01d9d0e85201186695e68",
+        "feed_9b53b84efd36a6d9b4530e8b",
+        "feed_6ea573573a5793cfea261696",
+        "feed_51a3c0f83a1d7dc3829e47d4",
+        "feed_4b8d9b755743d1e71bcd15f2",
+        "feed_e80a83bd7ea5eb7c3624e141",
+        "feed_c756bc56da453b9d146642ca",
+        "feed_938f98841a9596d580e77f3b",
+        "feed_689165b6071b3ac11485a04d",
+        "feed_625ac98e0fdfb6462f17b2e3"
+      ],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "贩财局": 1,
+          "猫笔刀": 1,
+          "Link01": 1,
+          "Serenity": 4,
+          "Jukan": 3,
+          "分百岛主": 1,
+          "信仰守望者": 1,
+          "记忆承载": 1
+        }
+      }
+    },
+    {
+      "id": "daily_whale-portfolio_2026-06-27",
+      "topicId": "whale-portfolio",
+      "reportDate": "2026-06-27",
+      "title": "大佬持仓日报",
+      "mainLine": "大佬持仓在 2026-06-27 没有达到日报阈值的显著更新。",
+      "actionItems": [],
+      "watchItems": [],
+      "sections": [],
+      "referencedFeedItemIds": [],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {}
+      }
+    },
+    {
+      "id": "daily_x-signal_2026-06-27",
+      "topicId": "x-signal",
+      "reportDate": "2026-06-27",
+      "title": "X Radar日报",
+      "mainLine": "今日X Radar最值得先看「根据Axios报道」，主要落在「重点变化」、「可行动线索」。",
+      "actionItems": [],
+      "watchItems": [
+        "根据Axios报道：Fable 5下周回归！！？？🔥🔥 据Axios报道，特朗普政府即将允许 Anthropic 恢复其强大的 Fable 5 模型访问权限。 一位接近此事的人士告诉 Axios，由于政府对安全问题的担忧，Fable 5 已下线 15 天，目前双方已经接近达成一致。 知情人士表示... 补充：Fable 5已因政府安全担忧下线15天，双方接近达成一致，最快下周解除限制。；美国商务部已允许Anthropic恢复Mythos 5有限访问权限，仅限少量受信任用户。",
+        "OSWorld 2.0 基准测试发布：OSWorld 2.0来了！ 这是一个针对长时程真实世界任务对计算机使用Agent进行基准测试 新特性： 🎯 108 个真实世界工作流程，每个对熟练人类来说约 1.6 小时 ⏱️ ⚙️ 每个任务 ~318 个工具调用 vs. OSWorld 1.0 中的 ~30 个 🌍 基于... 补充：OSWorld 2.0 包含108个真实世界工作流程，每个熟练人类完成约需1.6小时。；每个任务平均约318次工具调用，而OSWorld 1.0仅约30次。",
+        "据The Information报道：啊？？促使 @deepseek_ai 开启融资的居然是 @AnthropicAI 😧 据The Information报道，促使DeepSeek的创始人梁文峰决定开启融资的一个重要因素是Anthropic 在今年四月份发布的 Mythos 预览版。 从创立至今，这家已经三岁的的... 补充：促使DeepSeek创始人梁文峰决定开启融资的重要因素是Anthropic在2026年4月发布的Mythos预览版。；DeepSeek成立于2023年，此前一直依赖CEO梁文峰个人财富。",
+        "博主介绍了Logseq的开源平替工具：终于看到 Logseq 原版的平替了 跟 Logseq 完全兼容，和 Logseq 共用一套 Markdown 文件，无缝切换，不用导入导出。 补充：与Logseq完全兼容，共用一套Markdown文件，无需导入导出即可切换。；使用Tauri + Rust + SolidJS重写，不使用Electron。",
+        "OpenAI 相关动态集中出现：我们将为所有 Codex 用户免费重置使用量。应该在接下来的几个小时内显示在你的账户中。 我们已经应用了一些缓解措施，但我们的调查并未显示用户受到广泛影响。我们将继续监控情况。 引用推文： 作者：@thsottiaux 大家好。Codex 团队正在调查某些账户使用量消耗速度快于预... 补充：同组还包括「OpenAI 推出 GPT-5.6 系列模型」、「OpenAI Codex团队正在调查部分账号使用量异常消耗的问题」。",
+        "此前自6月12日起被美国政府封锁：刚刚，Anthropic宣布Mythos 5恢复访问👀 自6月12日被封锁起起，Anthropic一直与美国政府密切合作，以恢复对Claude Mythos 5和Fable 5的访问权限。 补充：Mythos 5于2026年6月12日被美国政府封锁访问。；Anthropic与美国政府合作后，今天获准重新向运营和维护关键基础设施的美国组织部署Mythos 5。",
+        "作者开发了一个工具：读取 Codex 留在本机的 JSONL 日志，把聚合用量索引到 SQLite 里，然后通过仪表盘、CLI 和 MCP 工具呈现出来。 补充：工具读取 Codex 留在本机的 JSONL 日志；聚合用量索引到 SQLite 数据库",
+        "将多个前沿模型组合为虚拟模型：Hermes 官方的大模型融合怪 Quoted post: Author: @NousResearch The strongest models are gated and access is granted only to a select few. Hermes Agent... 补充：Hermes Agent 将 MoA presets 作为虚拟模型暴露，提供比公开前沿模型更强的能力。；在内部基准上，Hermes Agent 的 MoA 虚拟模型比 Opus 4.8 高 8%，比 GPT 5.5 高 11%。"
+      ],
+      "sections": [
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "根据Axios报道",
+              "summary": "Fable 5下周回归！！？？🔥🔥 据Axios报道，特朗普政府即将允许 Anthropic 恢复其强大的 Fable 5 模型访问权限。 一位接近此事的人士告诉 Axios，由于政府对安全问题的担忧，Fable 5 已下线 15 天，目前双方已经接近达成一致。 知情人士表示...",
+              "insightLabel": "补充",
+              "insightText": "Fable 5已因政府安全担忧下线15天，双方接近达成一致，最快下周解除限制。；美国商务部已允许Anthropic恢复Mythos 5有限访问权限，仅限少量受信任用户。",
+              "sourceFeedItemIds": [
+                "feed_cc4a35f9b5f31fcaecff6668"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "OSWorld 2.0 基准测试发布",
+              "summary": "OSWorld 2.0来了！ 这是一个针对长时程真实世界任务对计算机使用Agent进行基准测试 新特性： 🎯 108 个真实世界工作流程，每个对熟练人类来说约 1.6 小时 ⏱️ ⚙️ 每个任务 ~318 个工具调用 vs. OSWorld 1.0 中的 ~30 个 🌍 基于...",
+              "insightLabel": "补充",
+              "insightText": "OSWorld 2.0 包含108个真实世界工作流程，每个熟练人类完成约需1.6小时。；每个任务平均约318次工具调用，而OSWorld 1.0仅约30次。",
+              "sourceFeedItemIds": [
+                "feed_27e561a5ae777fcca847f80f"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "据The Information报道",
+              "summary": "啊？？促使 @deepseek_ai 开启融资的居然是 @AnthropicAI 😧 据The Information报道，促使DeepSeek的创始人梁文峰决定开启融资的一个重要因素是Anthropic 在今年四月份发布的 Mythos 预览版。 从创立至今，这家已经三岁的的...",
+              "insightLabel": "补充",
+              "insightText": "促使DeepSeek创始人梁文峰决定开启融资的重要因素是Anthropic在2026年4月发布的Mythos预览版。；DeepSeek成立于2023年，此前一直依赖CEO梁文峰个人财富。",
+              "sourceFeedItemIds": [
+                "feed_1eb5aef144465ec6512b18e7"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "博主介绍了Logseq的开源平替工具",
+              "summary": "终于看到 Logseq 原版的平替了 跟 Logseq 完全兼容，和 Logseq 共用一套 Markdown 文件，无缝切换，不用导入导出。",
+              "insightLabel": "补充",
+              "insightText": "与Logseq完全兼容，共用一套Markdown文件，无需导入导出即可切换。；使用Tauri + Rust + SolidJS重写，不使用Electron。",
+              "sourceFeedItemIds": [
+                "feed_e303bca19767bd6a9c5e7ed6"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "OpenAI 相关动态集中出现",
+              "summary": "我们将为所有 Codex 用户免费重置使用量。应该在接下来的几个小时内显示在你的账户中。 我们已经应用了一些缓解措施，但我们的调查并未显示用户受到广泛影响。我们将继续监控情况。 引用推文： 作者：@thsottiaux 大家好。Codex 团队正在调查某些账户使用量消耗速度快于预...",
+              "insightLabel": "补充",
+              "insightText": "同组还包括「OpenAI 推出 GPT-5.6 系列模型」、「OpenAI Codex团队正在调查部分账号使用量异常消耗的问题」。",
+              "sourceFeedItemIds": [
+                "feed_36f9ac1cb51c299f16a786b2",
+                "feed_42b3b2e2aee24011ed07f5b5",
+                "feed_c396bd0fd03c48b94da4b1aa"
+              ],
+              "confidence": 75
+            }
+          ]
+        },
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "此前自6月12日起被美国政府封锁",
+              "summary": "刚刚，Anthropic宣布Mythos 5恢复访问👀 自6月12日被封锁起起，Anthropic一直与美国政府密切合作，以恢复对Claude Mythos 5和Fable 5的访问权限。",
+              "insightLabel": "补充",
+              "insightText": "Mythos 5于2026年6月12日被美国政府封锁访问。；Anthropic与美国政府合作后，今天获准重新向运营和维护关键基础设施的美国组织部署Mythos 5。",
+              "sourceFeedItemIds": [
+                "feed_d2d948a866bf411fd357fe2c"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "作者开发了一个工具",
+              "summary": "读取 Codex 留在本机的 JSONL 日志，把聚合用量索引到 SQLite 里，然后通过仪表盘、CLI 和 MCP 工具呈现出来。",
+              "insightLabel": "补充",
+              "insightText": "工具读取 Codex 留在本机的 JSONL 日志；聚合用量索引到 SQLite 数据库",
+              "sourceFeedItemIds": [
+                "feed_598986cdacfbc50d531b5788"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "将多个前沿模型组合为虚拟模型",
+              "summary": "Hermes 官方的大模型融合怪 Quoted post: Author: @NousResearch The strongest models are gated and access is granted only to a select few. Hermes Agent...",
+              "insightLabel": "补充",
+              "insightText": "Hermes Agent 将 MoA presets 作为虚拟模型暴露，提供比公开前沿模型更强的能力。；在内部基准上，Hermes Agent 的 MoA 虚拟模型比 Opus 4.8 高 8%，比 GPT 5.5 高 11%。",
+              "sourceFeedItemIds": [
+                "feed_4094499af741ce97023bb866"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "博文引用模型基准数据",
+              "summary": "Pro Max 模式下，在 LiveCodeBench (93.5%)、Codeforces Rating (3206)、SWE Verified (80.6%) 等编码/工程基准上达到或超越了 GPT-5.4、Gemini 3.1 Pro、Claude Opus 4.6 等前沿...",
+              "insightLabel": "补充",
+              "insightText": "Pro Max模式下，LiveCodeBench得分93.5%；Codeforces Rating达到3206",
+              "sourceFeedItemIds": [
+                "feed_69a0a20c1877722d380b15cf"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "推荐一款Windows 11原生音频控制工具",
+              "summary": "Windows 11 原生音频控制工具，能快速切换输出设备、调每个应用的音量，还能把不同应用的声音路由到不同设备上。",
+              "insightLabel": "补充",
+              "insightText": "该工具为Windows 11原生音频控制工具；支持快速切换音频输出设备",
+              "sourceFeedItemIds": [
+                "feed_a3b31ea9f29290d21177bdd2"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_cc4a35f9b5f31fcaecff6668",
+        "feed_27e561a5ae777fcca847f80f",
+        "feed_d2d948a866bf411fd357fe2c",
+        "feed_1eb5aef144465ec6512b18e7",
+        "feed_598986cdacfbc50d531b5788",
+        "feed_e303bca19767bd6a9c5e7ed6",
+        "feed_4094499af741ce97023bb866",
+        "feed_69a0a20c1877722d380b15cf",
+        "feed_a3b31ea9f29290d21177bdd2",
+        "feed_36f9ac1cb51c299f16a786b2",
+        "feed_92ce292d109013da125a8ad7",
+        "feed_799313fd798534c73b8bd14b"
+      ],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "Max For AI": 5,
+          "Geek": 10,
+          "Tibo": 3,
+          "𝘁𝗮𝗿𝗲𝘀𝗸𝘆": 3,
+          "图拉鼎": 3,
+          "砍砍.ᐟ": 1,
+          "Ding": 2
+        }
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-06-27",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-06-27",
+      "title": "大厂日报",
+      "mainLine": "大厂日报在 2026-06-27 没有达到日报阈值的显著更新。",
+      "actionItems": [],
+      "watchItems": [],
+      "sections": [],
+      "referencedFeedItemIds": [],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {}
+      }
+    },
+    {
+      "id": "daily_lifestyle-fun_2026-06-27",
+      "topicId": "lifestyle-fun",
+      "reportDate": "2026-06-27",
+      "title": "吃喝玩乐日报",
+      "mainLine": "今日吃喝玩乐最值得先看「让人欲罢不能的销魂碳水，7碗！」，主要落在「重点变化」、「可行动线索」、「其他值得看」。",
+      "actionItems": [],
+      "watchItems": [
+        "让人欲罢不能的销魂碳水，7碗！：上海近期7家新粉面馆推荐，覆盖15.8元柳州滤粉到88元海鲜拉面，包括山西手工面、牛排馆跨界牛舌面、顶配螺蛳粉、南洋叻沙、黑蒜牛白汤拉面和生蚝鸡汤拉面。 补充：一手好面专门店（长乐路）：38元，10多种山西手工面形态，每天随机4种，配5个小菜；；不籍风牛肉面By罗福索牛排馆：58元，澳洲安格斯牛各个部位可选；",
+        "莫兰迪原作大展惊艳亮相，魔都本周 11 场王炸活动来袭：上海本周11场活动推荐，涵盖展览、演出、派对、市集等，包括《史前星球》亚洲首展、莫兰迪原作展、迪士尼十周年庆典、话剧《青蛇》、蟠龙天地荷月夜游节等。 补充：《史前星球：恐龙篇》亚洲首展于2026.06.27-2027.01.17在西岸美术馆举办，360度全景环幕，1:1恐龙模型。；上海迪士尼度假区十周年庆典持续进行，新增城堡秀与限定幻影秀终章。",
+        "第37届金曲奖完整获奖名单：第37届金曲奖获奖名单公布，蔡依林获年度专辑和最佳华语女歌手，张震岳获最佳华语专辑和最佳华语男歌手。 补充：年度专辑：蔡依林《Pleasure》；最佳华语专辑：张震岳《跟着感觉走》",
+        "这座神仙避暑小镇，早C晚A松弛感封神：宜兴窑湖小镇是一座集山野自然、飞鸟剧场、水世界、冰雪乐园和夜间烟火于一体的避暑度假目的地，提供从早到晚的多元化休闲体验。 补充：窑湖小镇位于江苏宜兴阳羡生态旅游度假区。；《飞鸟之约》剧场由建筑师徐琦和导演樊跃打造，历时6年，耗资3亿。",
+        "速度！10买24瓶景田/百岁山矿泉水！0元麦辣鸡腿堡速度换号多领！美团外卖半价通用券周末加码！：文章汇总了多个即时优惠：通过淘宝闪购或饿了么吃货豆兑换，叠加领券可10元左右买24瓶景田纯净水或19元左右买24瓶百岁山矿泉水； 补充：入口①：10左右买农夫山泉纯净水绿瓶24瓶。；入口②：饿了么/淘宝闪购app-吃货豆-豆兑万物，可用券低至19元买24瓶百岁山。",
+        "当胡润百富遇见中国智造：一场试驾，如何改写中国豪华车的“剧本”：极氪8X曜影试驾活动邀请胡润百富榜创始人胡润和企业家惠志峰参与，文章介绍车辆外观、座舱、安全及性能亮点，并提及上市首月销量6103台夺得30-50万混动SUV榜首。 补充：极氪8X上市首月销量6103台，登顶30-50万混动SUV榜首；极氪8X同时拿下30万以上全品类口碑第一"
+      ],
+      "sections": [
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "让人欲罢不能的销魂碳水，7碗！",
+              "summary": "上海近期7家新粉面馆推荐，覆盖15.8元柳州滤粉到88元海鲜拉面，包括山西手工面、牛排馆跨界牛舌面、顶配螺蛳粉、南洋叻沙、黑蒜牛白汤拉面和生蚝鸡汤拉面。",
+              "insightLabel": "补充",
+              "insightText": "一手好面专门店（长乐路）：38元，10多种山西手工面形态，每天随机4种，配5个小菜；；不籍风牛肉面By罗福索牛排馆：58元，澳洲安格斯牛各个部位可选；",
+              "sourceFeedItemIds": [
+                "feed_960510b7742eccf245e0e265"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "莫兰迪原作大展惊艳亮相，魔都本周 11 场王炸活动来袭",
+              "summary": "上海本周11场活动推荐，涵盖展览、演出、派对、市集等，包括《史前星球》亚洲首展、莫兰迪原作展、迪士尼十周年庆典、话剧《青蛇》、蟠龙天地荷月夜游节等。",
+              "insightLabel": "补充",
+              "insightText": "《史前星球：恐龙篇》亚洲首展于2026.06.27-2027.01.17在西岸美术馆举办，360度全景环幕，1:1恐龙模型。；上海迪士尼度假区十周年庆典持续进行，新增城堡秀与限定幻影秀终章。",
+              "sourceFeedItemIds": [
+                "feed_fa4eac88686f60dead904f27"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "第37届金曲奖完整获奖名单",
+              "summary": "第37届金曲奖获奖名单公布，蔡依林获年度专辑和最佳华语女歌手，张震岳获最佳华语专辑和最佳华语男歌手。",
+              "insightLabel": "补充",
+              "insightText": "年度专辑：蔡依林《Pleasure》；最佳华语专辑：张震岳《跟着感觉走》",
+              "sourceFeedItemIds": [
+                "feed_e1fbbdfd2a4ef0b219b7bc8d"
+              ],
+              "confidence": 65
+            }
+          ]
+        },
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "这座神仙避暑小镇，早C晚A松弛感封神",
+              "summary": "宜兴窑湖小镇是一座集山野自然、飞鸟剧场、水世界、冰雪乐园和夜间烟火于一体的避暑度假目的地，提供从早到晚的多元化休闲体验。",
+              "insightLabel": "补充",
+              "insightText": "窑湖小镇位于江苏宜兴阳羡生态旅游度假区。；《飞鸟之约》剧场由建筑师徐琦和导演樊跃打造，历时6年，耗资3亿。",
+              "sourceFeedItemIds": [
+                "feed_7d84c71f5dbda235604eff48"
+              ],
+              "confidence": 65
+            },
+            {
+              "title": "速度！10买24瓶景田/百岁山矿泉水！0元麦辣鸡腿堡速度换号多领！美团外卖半价通用券周末加码！",
+              "summary": "文章汇总了多个即时优惠：通过淘宝闪购或饿了么吃货豆兑换，叠加领券可10元左右买24瓶景田纯净水或19元左右买24瓶百岁山矿泉水；",
+              "insightLabel": "补充",
+              "insightText": "入口①：10左右买农夫山泉纯净水绿瓶24瓶。；入口②：饿了么/淘宝闪购app-吃货豆-豆兑万物，可用券低至19元买24瓶百岁山。",
+              "sourceFeedItemIds": [
+                "feed_14273c05e68500e8d5aca560"
+              ],
+              "confidence": 55
+            }
+          ]
+        },
+        {
+          "title": "其他值得看",
+          "items": [
+            {
+              "title": "当胡润百富遇见中国智造：一场试驾，如何改写中国豪华车的“剧本”",
+              "summary": "极氪8X曜影试驾活动邀请胡润百富榜创始人胡润和企业家惠志峰参与，文章介绍车辆外观、座舱、安全及性能亮点，并提及上市首月销量6103台夺得30-50万混动SUV榜首。",
+              "insightLabel": "补充",
+              "insightText": "极氪8X上市首月销量6103台，登顶30-50万混动SUV榜首；极氪8X同时拿下30万以上全品类口碑第一",
+              "sourceFeedItemIds": [
+                "feed_0e629a876041469010efec12"
+              ],
+              "confidence": 55
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_960510b7742eccf245e0e265",
+        "feed_fa4eac88686f60dead904f27",
+        "feed_e1fbbdfd2a4ef0b219b7bc8d",
+        "feed_7d84c71f5dbda235604eff48",
+        "feed_0e629a876041469010efec12",
+        "feed_14273c05e68500e8d5aca560"
+      ],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "企鹅吃喝指南": 1,
+          "ShanghaiWOW": 2,
+          "耳帝": 1,
+          "GOGOShanghai": 1,
+          "buy宝箱": 1
+        }
+      }
+    },
+    {
+      "id": "daily_github-trending_2026-06-27",
+      "topicId": "github-trending",
+      "reportDate": "2026-06-27",
+      "title": "GitHub 趋势日报",
+      "mainLine": "今日GitHub 趋势最值得先看「ripienaar/free-for-dev」，主要落在「重点变化」、「可行动线索」。",
+      "actionItems": [],
+      "watchItems": [
+        "ripienaar/free-for-dev：free-for-dev 是一个精选列表，汇总了为 DevOps 和基础设施开发者提供免费层级的 SaaS、PaaS 和 IaaS 服务，帮助开发者快速发现可用资源。 补充：语言: HTML；Stars: 123,661",
+        "simplex-chat/simplex-chat：SimpleX 是首个无需任何用户标识符的即时通讯平台，提供 100% 私密的端到端加密通信。 补充：语言：Haskell；Stars：12,376",
+        "commaai/openpilot：openpilot 是 comma.ai 开发的机器人操作系统，可升级 300 多种车型的驾驶辅助系统。 补充：Language: Python；Stars: 61,736",
+        "grafana/grafana：Grafana 是一个开源的可组合可观测性和数据可视化平台，支持查询、可视化、告警来自 Prometheus、Loki、Elasticsearch 等多种数据源的指标、日志和链路。 补充：语言: TypeScript；Stars: 74,842"
+      ],
+      "sections": [
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "ripienaar/free-for-dev",
+              "summary": "free-for-dev 是一个精选列表，汇总了为 DevOps 和基础设施开发者提供免费层级的 SaaS、PaaS 和 IaaS 服务，帮助开发者快速发现可用资源。",
+              "insightLabel": "补充",
+              "insightText": "语言: HTML；Stars: 123,661",
+              "sourceFeedItemIds": [
+                "feed_b839ac32a909f02065e62e91"
+              ],
+              "confidence": 90
+            }
+          ]
+        },
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "simplex-chat/simplex-chat",
+              "summary": "SimpleX 是首个无需任何用户标识符的即时通讯平台，提供 100% 私密的端到端加密通信。",
+              "insightLabel": "补充",
+              "insightText": "语言：Haskell；Stars：12,376",
+              "sourceFeedItemIds": [
+                "feed_c5bc48703f6e84ce676a15c9"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "commaai/openpilot",
+              "summary": "openpilot 是 comma.ai 开发的机器人操作系统，可升级 300 多种车型的驾驶辅助系统。",
+              "insightLabel": "补充",
+              "insightText": "Language: Python；Stars: 61,736",
+              "sourceFeedItemIds": [
+                "feed_ba9f7472b37f30965ce74ec6"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "grafana/grafana",
+              "summary": "Grafana 是一个开源的可组合可观测性和数据可视化平台，支持查询、可视化、告警来自 Prometheus、Loki、Elasticsearch 等多种数据源的指标、日志和链路。",
+              "insightLabel": "补充",
+              "insightText": "语言: TypeScript；Stars: 74,842",
+              "sourceFeedItemIds": [
+                "feed_ad30ad96ec3e05ba6ac03d1e"
+              ],
+              "confidence": 70
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_b839ac32a909f02065e62e91",
+        "feed_c5bc48703f6e84ce676a15c9",
+        "feed_ba9f7472b37f30965ce74ec6",
+        "feed_ad30ad96ec3e05ba6ac03d1e"
+      ],
+      "generatedAt": "2026-06-27T16:36:01.959Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "GitHub Trending": 4
+        }
+      }
+    }
+  ],
+  "generatedAt": "2026-07-02T04:14:52.464Z",
+  "sourceBaseUrl": "https://hot.kyangc.net"
+}

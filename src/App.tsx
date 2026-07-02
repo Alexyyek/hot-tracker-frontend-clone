@@ -7,13 +7,22 @@ import { FeedPage } from "./components/FeedPage";
 import { DailyPage } from "./components/DailyPage";
 import { SharePage } from "./components/SharePage";
 import { Toast } from "./components/Toast";
+import { aiTopics } from "./aiTopics";
 import type { ActiveTab, AppData, FeedQuery, ThemeMode, ToastMessage } from "./types";
 
 const initialQuery: FeedQuery = {
-  limit: 11,
+  limit: 50,
   raw: "compact",
   total: "none"
 };
+
+function getAppPath() {
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+  if (!base || base === ".") return window.location.pathname;
+  return window.location.pathname.startsWith(base)
+    ? window.location.pathname.slice(base.length) || "/"
+    : window.location.pathname;
+}
 
 function getInitialTheme(): ThemeMode {
   const stored = localStorage.getItem("hot-tracker-theme");
@@ -21,10 +30,13 @@ function getInitialTheme(): ThemeMode {
 }
 
 export function App() {
-  const shareMatch = /^\/share\/([^/]+)$/u.exec(window.location.pathname);
+  const shareMatch = /^\/share\/([^/]+)$/u.exec(getAppPath());
   const [activeTab, setActiveTab] = useState<ActiveTab>("feed");
   const [theme, setTheme] = useState<ThemeMode>(getInitialTheme);
-  const [data, setData] = useState<AppData | null>(() => readAppCache());
+  const [data, setData] = useState<AppData | null>(() => {
+    const cached = readAppCache();
+    return cached ? { ...cached, topics: sortTopics(aiTopics) } : null;
+  });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [toast, setToast] = useState<ToastMessage | null>(null);
@@ -44,7 +56,7 @@ export function App() {
 
   useEffect(() => {
     if ("serviceWorker" in navigator && window.location.hostname !== "localhost") {
-      navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+      navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`).catch(() => undefined);
     }
     const viewport = document.querySelector<HTMLMetaElement>('meta[name="viewport"]');
     viewport?.setAttribute("content", "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no");
@@ -57,7 +69,7 @@ export function App() {
       setLoading(true);
       setError("");
       try {
-        const [topics, feed, sourceFacets, topicCounts, dailyReports] = await Promise.all([
+        const [, feed, sourceFacets, topicCounts, dailyReports] = await Promise.all([
           getTopics(),
           getFeed(initialQuery),
           getSourceFacets(initialQuery),
@@ -65,7 +77,7 @@ export function App() {
           getDailyLatest()
         ]);
         if (!cancelled) {
-          const nextData = { topics: sortTopics(topics), feed, sourceFacets, topicCounts, dailyReports };
+          const nextData = { topics: sortTopics(aiTopics), feed, sourceFacets, topicCounts, dailyReports };
           setData(nextData);
           writeAppCache(nextData);
           if (data?.feed.items.length && feed.items.some((item) => !data.feed.items.find((old) => old.id === item.id))) {
@@ -107,7 +119,7 @@ export function App() {
   }
 
   return (
-    <div className="app-root">
+    <div className={activeTab === "daily" ? "app-root daily-mode" : "app-root"}>
       <Toast toast={toast} />
       <TopBar
         activeTab={activeTab}

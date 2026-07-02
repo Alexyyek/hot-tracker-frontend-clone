@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { getFeedItem } from "../api";
 import { formatTime, sourceKindLabel } from "../data";
 import type { FeedItem } from "../types";
+import { FeedMedia } from "./FeedTimeline";
 import { ErrorView, LoadingView } from "./StatusViews";
 
 export function SharePage({ id }: { id: string }) {
@@ -35,12 +36,13 @@ export function SharePage({ id }: { id: string }) {
         返回动态
       </a>
       <article className="share-page-card">
-        <p className="section-kicker">Hot Tracker</p>
+        <p className="section-kicker">AI Hot Tracker</p>
         <h1>{item.title}</h1>
         <p className="share-page-meta">
           {item.sourceName} · {sourceKindLabel(item.sourceKind)} · {formatTime(item.publishedAt)} · 热度 {item.importanceScore}
         </p>
         <p className="share-page-summary">{item.summary}</p>
+        <FeedMedia item={item} />
         {item.whyItMatters ? (
           <blockquote>
             <strong>推荐理由：</strong>

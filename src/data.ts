@@ -1,5 +1,7 @@
 import type { AppData, FeedItem, FeedQuery, SourceFacet, Topic, TopicCount } from "./types";
 
+const publicAssetOrigin = "https://hot.kyangc.net";
+
 export function sortTopics(topics: Topic[]) {
   return [...topics]
     .filter((topic) => topic.enabled)
@@ -7,12 +9,24 @@ export function sortTopics(topics: Topic[]) {
 }
 
 export function getTopicTitle(topics: Topic[], topicId: string) {
-  return topics.find((topic) => topic.id === topicId)?.title ?? topicId;
+  const fallbackTitles: Record<string, string> = {
+    ai: "AI 行业进展",
+    "big-tech-daily": "大厂 AI 日报",
+    "github-trending": "GitHub AI 热榜",
+    "x-signal": "X AI 雷达"
+  };
+  return topics.find((topic) => topic.id === topicId || topic.sourceTopicId === topicId)?.title ?? fallbackTitles[topicId] ?? topicId;
 }
 
 export function getTopicAccent(topics: Topic[], topicId?: string) {
   if (!topicId) return "var(--topic-all)";
-  return topics.find((topic) => topic.id === topicId)?.ui?.accent ?? "var(--topic-fallback)";
+  const fallbackAccents: Record<string, string> = {
+    ai: "#8b5cf6",
+    "big-tech-daily": "#2563eb",
+    "github-trending": "#38bdf8",
+    "x-signal": "#0891b2"
+  };
+  return topics.find((topic) => topic.id === topicId || topic.sourceTopicId === topicId)?.ui?.accent ?? fallbackAccents[topicId] ?? "var(--topic-fallback)";
 }
 
 export function getTopicCount(topicCounts: TopicCount[], topicId: string) {
@@ -87,7 +101,7 @@ export function sourceIconUrl(
   sourceHostname?: string,
   sourceIconHostname?: string
 ) {
-  if (sourceAvatarUrl) return sourceAvatarUrl;
+  if (sourceAvatarUrl) return normalizePublicAssetUrl(sourceAvatarUrl);
   const hostname = sourceIconHostname ?? sourceHostname;
   if (hostname) {
     return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(hostname)}&sz=64`;
@@ -114,6 +128,81 @@ export function extractPortfolioName(item: FeedItem) {
     return String(candidate.managerName ?? candidate.managerId ?? item.title);
   }
   return item.title;
+}
+
+export function extractFeedImageUrls(item: FeedItem) {
+  const urls = new Set<string>();
+  const directValues = [item.imageUrl, item.thumbnailUrl, ...(item.imageUrls ?? []), ...(item.mediaUrls ?? [])];
+
+  for (const value of directValues) addImageCandidate(urls, value);
+  collectImageCandidates(item.raw, urls);
+
+  return [...urls].slice(0, 4);
+}
+
+function collectImageCandidates(value: unknown, urls: Set<string>, key = "", depth = 0) {
+  if (depth > 6 || value == null) return;
+
+  if (typeof value === "string") {
+    if (isImageLikeKey(key) || isImageUrl(value)) addImageCandidate(urls, value);
+    return;
+  }
+
+  if (Array.isArray(value)) {
+    for (const item of value) collectImageCandidates(item, urls, key, depth + 1);
+    return;
+  }
+
+  if (typeof value !== "object") return;
+
+  const record = value as Record<string, unknown>;
+  for (const [childKey, childValue] of Object.entries(record)) {
+    if (isIgnoredMediaKey(childKey)) continue;
+    if (typeof childValue === "string" && (isImageLikeKey(childKey) || isImageUrl(childValue))) {
+      addImageCandidate(urls, childValue);
+      continue;
+    }
+    collectImageCandidates(childValue, urls, childKey, depth + 1);
+  }
+}
+
+function addImageCandidate(urls: Set<string>, value?: string) {
+  if (!value) return;
+  const url = normalizeFeedImageUrl(value);
+  if (url) urls.add(url);
+}
+
+function normalizeFeedImageUrl(value: string) {
+  const trimmed = value.trim();
+  if (!trimmed || trimmed.startsWith("data:")) return "";
+  if (trimmed.startsWith("/feed-images/") || trimmed.startsWith("/source-images/")) return normalizePublicAssetUrl(trimmed);
+  if (trimmed.startsWith("//")) return `https:${trimmed}`;
+  if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) return trimmed;
+  return "";
+}
+
+function normalizePublicAssetUrl(value: string) {
+  if (value.startsWith("/")) return `${publicAssetOrigin}${value}`;
+  return value;
+}
+
+function isImageLikeKey(key: string) {
+  const normalized = key.toLowerCase();
+  if (!normalized) return false;
+  if (isIgnoredMediaKey(normalized)) return false;
+  return /(image|images|img|photo|photos|picture|pictures|media|thumbnail|thumb|cover|pic|poster)/.test(normalized);
+}
+
+function isIgnoredMediaKey(key: string) {
+  return /(avatar|icon|favicon|profile|logo|emoji)/.test(key.toLowerCase());
+}
+
+function isImageUrl(value: string) {
+  return (
+    /^\/feed-images\//.test(value) ||
+    /^https?:\/\/.+\.(png|jpe?g|webp|gif|avif)(\?.*)?$/i.test(value) ||
+    /^https?:\/\/(pbs\.twimg\.com|scontent-|static\.)/i.test(value)
+  );
 }
 
 export function readAppCache(): AppData | null {

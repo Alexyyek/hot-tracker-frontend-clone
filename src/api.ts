@@ -11,9 +11,24 @@ import type {
   TopicCount
 } from "./types";
 
+interface StaticDataMeta {
+  generatedAt?: string;
+  sourceBaseUrl?: string;
+}
+
+interface StaticDataFile<T> extends StaticDataMeta {
+  items: T[];
+  nextCursor?: string;
+  total?: number;
+}
+
 const jsonHeaders = {
   Accept: "application/json"
 };
+
+const useStaticData = import.meta.env.VITE_DATA_MODE === "static" || import.meta.env.PROD;
+const staticDataBase = `${import.meta.env.BASE_URL}data`;
+let staticFeedCache: Promise<StaticDataFile<FeedItem>> | null = null;
 
 async function fetchJson<T>(path: string): Promise<T> {
   const response = await fetch(path, { headers: jsonHeaders });
@@ -41,6 +56,51 @@ function toSearchParams(query: FeedQuery = {}) {
   return params;
 }
 
+function staticDataPath(path: string) {
+  return `${staticDataBase}/${path.replace(/^\//, "")}`;
+}
+
+async function fetchStaticJson<T>(path: string): Promise<T> {
+  return fetchJson<T>(staticDataPath(path));
+}
+
+async function getStaticFeedData() {
+  staticFeedCache ??= fetchStaticJson<StaticDataFile<FeedItem>>("feed.json");
+  return staticFeedCache;
+}
+
+function itemTime(item: FeedItem) {
+  return item.publishedAt || item.observedAt || "";
+}
+
+function matchesStaticFeedQuery(item: FeedItem, query: FeedQuery = {}) {
+  if (query.topicId && item.topicId !== query.topicId) return false;
+  if (query.sourceKind && item.sourceKind !== query.sourceKind) return false;
+  if (query.sourceName || query.sourceHostname) {
+    const matchesSourceName = query.sourceName ? item.sourceName === query.sourceName : false;
+    const matchesSourceHostname = query.sourceHostname ? item.sourceHostname === query.sourceHostname : false;
+    if (!matchesSourceName && !matchesSourceHostname) return false;
+  }
+  if (query.minImportance && item.importanceScore < query.minImportance) return false;
+  if (query.publishedSince && itemTime(item) < query.publishedSince) return false;
+  if (query.publishedUntil && itemTime(item) > query.publishedUntil) return false;
+  if (query.since && item.observedAt < query.since) return false;
+  if (query.until && item.observedAt > query.until) return false;
+  return true;
+}
+
+function paginateStaticItems(items: FeedItem[], query: FeedQuery = {}): FeedResponse {
+  const limit = Number(query.limit ?? 50);
+  const offset = Number(query.cursor ?? 0);
+  const pageItems = items.slice(offset, offset + limit);
+  const nextOffset = offset + pageItems.length;
+  return {
+    items: pageItems,
+    nextCursor: nextOffset < items.length ? String(nextOffset) : undefined,
+    total: query.total === "count" ? items.length : undefined
+  };
+}
+
 export function cleanFeedQuery(query: FeedQuery): FeedQuery {
   return Object.fromEntries(
     Object.entries(query).filter(([, value]) => value !== undefined && value !== "")
@@ -48,21 +108,45 @@ export function cleanFeedQuery(query: FeedQuery): FeedQuery {
 }
 
 export async function getTopics(): Promise<Topic[]> {
+  if (useStaticData) {
+    const data = await fetchStaticJson<StaticDataFile<Topic>>("topics.json");
+    return data.items;
+  }
   const data = await fetchJson<{ items: Topic[] }>("/api/topics");
   return data.items;
 }
 
 export async function getFeed(query: FeedQuery = {}): Promise<FeedResponse> {
+  if (useStaticData) {
+    const data = await getStaticFeedData();
+    const items = data.items
+      .filter((item) => matchesStaticFeedQuery(item, query))
+      .sort((a, b) => itemTime(b).localeCompare(itemTime(a)));
+    return paginateStaticItems(items, query);
+  }
   const params = toSearchParams(query);
   return fetchJson<FeedResponse>(`/api/feed?${params.toString()}`);
 }
 
 export async function getFeedItem(id: string): Promise<FeedItem> {
-  const data = await fetchJson<FeedItemDetailResponse>(`/api/feed/${encodeURIComponent(id)}?raw=compact`);
+  if (useStaticData) {
+    const data = await getStaticFeedData();
+    const item = data.items.find((candidate) => candidate.id === id);
+    if (!item) throw new Error(`Static feed item not found: ${id}`);
+    return item;
+  }
+  const data = await fetchJson<FeedItemDetailResponse>(`/api/feed/${encodeURIComponent(id)}?raw=full`);
   return data.item;
 }
 
 export async function getSourceFacets(query: FeedQuery = {}): Promise<SourceFacet[]> {
+  if (useStaticData) {
+    const data = await fetchStaticJson<StaticDataFile<SourceFacet>>("sources.json");
+    return data.items.filter((facet) => {
+      if (query.sourceKind && facet.sourceKind !== query.sourceKind) return false;
+      return true;
+    });
+  }
   const params = toSearchParams({
     topicId: query.topicId,
     since: query.since,
@@ -74,6 +158,10 @@ export async function getSourceFacets(query: FeedQuery = {}): Promise<SourceFace
 }
 
 export async function getTopicCounts(query: FeedQuery = {}): Promise<TopicCount[]> {
+  if (useStaticData) {
+    const data = await fetchStaticJson<StaticDataFile<TopicCount>>("topic-counts.json");
+    return data.items;
+  }
   const params = toSearchParams({
     since: query.since,
     until: query.until,
@@ -84,11 +172,23 @@ export async function getTopicCounts(query: FeedQuery = {}): Promise<TopicCount[
 }
 
 export async function getDailyLatest(): Promise<DailyReport[]> {
+  if (useStaticData) {
+    const data = await fetchStaticJson<DailyReportsResponse>("daily/latest.json");
+    return data.items;
+  }
   const data = await fetchJson<DailyReportsResponse>("/api/daily/latest?raw=compact&topItems=none");
   return data.items;
 }
 
 export async function getDailyReports(date: string): Promise<DailyReport[]> {
+  if (useStaticData) {
+    try {
+      const data = await fetchStaticJson<DailyReportsResponse>(`daily/${date}.json`);
+      return data.items;
+    } catch {
+      return [];
+    }
+  }
   const params = new URLSearchParams({
     date,
     raw: "compact",
@@ -99,5 +199,6 @@ export async function getDailyReports(date: string): Promise<DailyReport[]> {
 }
 
 export async function getGitHubTrending(): Promise<GitHubTrendingResponse> {
+  if (useStaticData) return { snapshots: [] };
   return fetchJson<GitHubTrendingResponse>("/api/github/trending");
 }

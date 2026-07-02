@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
-import { CalendarDays } from "lucide-react";
-import { getDailyReports } from "../api";
-import { formatDateInput, getTopicAccent, getTopicTitle } from "../data";
-import type { DailyReport, Topic } from "../types";
+import { KeyboardEvent, useEffect, useMemo, useRef, useState } from "react";
+import { CalendarDays, ExternalLink } from "lucide-react";
+import { getDailyReports, getFeedItem } from "../api";
+import { filterAiDailyReports } from "../aiTopics";
+import { formatDateInput, getTopicTitle } from "../data";
+import type { DailyReport, DailyReportItem, FeedItem, Topic } from "../types";
 import { EmptyView, ErrorView, InlineWarning, LoadingView } from "./StatusViews";
 
 interface DailyPageProps {
@@ -12,9 +13,11 @@ interface DailyPageProps {
 }
 
 export function DailyPage({ initialDate, initialReports, topics }: DailyPageProps) {
+  const initialAiReports = filterAiDailyReports(initialReports);
+  const dateInputRef = useRef<HTMLInputElement>(null);
   const [date, setDate] = useState(initialDate || formatDateInput());
-  const [reports, setReports] = useState(initialReports);
-  const [activeReportId, setActiveReportId] = useState(initialReports[0]?.id ?? "");
+  const [reports, setReports] = useState(initialAiReports);
+  const [activeReportId, setActiveReportId] = useState(initialAiReports[0]?.id ?? "");
   const [loading, setLoading] = useState(false);
   const [warning, setWarning] = useState("");
   const [error, setError] = useState("");
@@ -35,14 +38,16 @@ export function DailyPage({ initialDate, initialReports, topics }: DailyPageProp
   }, [activeReportId, sortedReports]);
 
   const loadDate = async (nextDate: string) => {
+    if (!nextDate || nextDate === date) return;
     setDate(nextDate);
     setLoading(true);
     setWarning("");
     setError("");
     try {
       const nextReports = await getDailyReports(nextDate);
-      setReports(nextReports);
-      setActiveReportId(nextReports[0]?.id ?? "");
+      const nextAiReports = filterAiDailyReports(nextReports);
+      setReports(nextAiReports);
+      setActiveReportId(nextAiReports[0]?.id ?? "");
     } catch (loadError) {
       const message = loadError instanceof Error ? loadError.message : "日报加载失败，请稍后重试。";
       if (reports.length > 0) {
@@ -55,6 +60,24 @@ export function DailyPage({ initialDate, initialReports, topics }: DailyPageProp
     }
   };
 
+  const openDatePicker = () => {
+    const input = dateInputRef.current;
+    if (!input) return;
+    if (typeof input.showPicker === "function") {
+      input.showPicker();
+    } else {
+      input.focus();
+      input.click();
+    }
+  };
+
+  const handleDateKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      openDatePicker();
+    }
+  };
+
   if (error) {
     return <ErrorView message={error} onRetry={() => void loadDate(date)} />;
   }
@@ -64,18 +87,28 @@ export function DailyPage({ initialDate, initialReports, topics }: DailyPageProp
       <aside className="daily-sidebar content-panel" aria-label="日报列表">
         <div className="daily-sidebar-header">
           <h2>日报</h2>
-          <label className="date-picker">
-            <span>日期</span>
-            <CalendarDays size={16} />
-            <strong>{formatChineseDate(date)}</strong>
+          <div
+            className="date-picker"
+            role="button"
+            tabIndex={0}
+            onClick={openDatePicker}
+            onKeyDown={handleDateKeyDown}
+            aria-label={`选择日报日期，当前为 ${formatChineseDate(date)}`}
+          >
+            <span className="date-picker-label">日期</span>
+            <div className="date-picker-control">
+              <CalendarDays size={16} />
+              <strong>{formatChineseDate(date)}</strong>
+            </div>
             <input
+              ref={dateInputRef}
               aria-label="选择日报日期"
               max={formatDateInput()}
               onChange={(event) => void loadDate(event.target.value)}
               type="date"
               value={date}
             />
-          </label>
+          </div>
         </div>
 
         <InlineWarning message={warning} />
@@ -113,11 +146,10 @@ function formatChineseDate(date: string) {
 }
 
 function DailyReportArticle({ report, topics }: { report: DailyReport; topics: Topic[] }) {
-  const accent = getTopicAccent(topics, report.topicId);
   const topicTitle = getTopicTitle(topics, report.topicId);
 
   return (
-    <article className="daily-article" style={{ "--score-accent": accent } as React.CSSProperties}>
+    <article className="daily-article" style={{ "--score-accent": "var(--brand)" } as React.CSSProperties}>
       <header className="daily-article-header">
         <p className="daily-breadcrumb">
           {topicTitle}
@@ -136,6 +168,7 @@ function DailyReportArticle({ report, topics }: { report: DailyReport; topics: T
       </section>
 
       <div className="daily-section-stack">
+        {report.sections.length === 0 ? <EmptyView /> : null}
         {report.sections.map((section) => (
           <section className="daily-section-block" key={section.title}>
             <div className="daily-section-heading">
@@ -148,15 +181,9 @@ function DailyReportArticle({ report, topics }: { report: DailyReport; topics: T
                   <h3>
                     <span>›</span>
                     {item.title}
-                    {item.confidence ? <em>{item.confidence}</em> : null}
+                    <DailySourceBadge item={item} />
                   </h3>
                   <p>{item.summary}</p>
-                  {item.insightText ? (
-                    <blockquote>
-                      <strong>{item.insightLabel || "关注"}</strong>
-                      {item.insightText}
-                    </blockquote>
-                  ) : null}
                 </article>
               ))}
             </div>
@@ -171,5 +198,58 @@ function DailyReportArticle({ report, topics }: { report: DailyReport; topics: T
         <strong>Codex</strong>
       </footer>
     </article>
+  );
+}
+
+function DailySourceBadge({ item }: { item: DailyReportItem }) {
+  const ids = item.sourceFeedItemIds ?? [];
+  const [sources, setSources] = useState<FeedItem[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [loaded, setLoaded] = useState(false);
+
+  const loadSources = () => {
+    if (loaded || loading || ids.length === 0) return;
+    setLoading(true);
+    let cancelled = false;
+
+    Promise.all(ids.slice(0, 8).map((id) => getFeedItem(id).catch(() => null)))
+      .then((items) => {
+        if (!cancelled) {
+          setSources(items.filter(Boolean) as FeedItem[]);
+          setLoaded(true);
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  };
+
+  if (ids.length === 0) return null;
+
+  return (
+    <span className="daily-source-ref" onFocus={loadSources} onMouseEnter={loadSources} tabIndex={0}>
+      <em>{ids.length}</em>
+      <span className="daily-source-popover" role="tooltip">
+        <strong>信息来源</strong>
+        {loading && sources.length === 0 ? <small>加载中...</small> : null}
+        {(sources.length > 0 ? sources : ids.slice(0, 4).map((id) => ({ id, title: "来源加载中...", sourceUrl: "" } as FeedItem))).map((source) => (
+          source.sourceUrl ? (
+            <a href={source.sourceUrl} key={source.id} rel="noreferrer" target="_blank">
+              <span>{source.title}</span>
+              <ExternalLink size={15} />
+            </a>
+          ) : (
+            <span className="daily-source-placeholder" key={source.id}>
+              <span>{source.title}</span>
+              <ExternalLink size={15} />
+            </span>
+          )
+        ))}
+      </span>
+    </span>
   );
 }

@@ -10,7 +10,7 @@ interface ShareDialogProps {
 
 export function ShareDialog({ item, onClose, onCopied }: ShareDialogProps) {
   if (!item) return null;
-  const sharePath = `/share/${encodeURIComponent(item.id)}`;
+  const sharePath = `${import.meta.env.BASE_URL}share/${encodeURIComponent(item.id)}`;
   const shareUrl = `${window.location.origin}${sharePath}`;
 
   const copy = async () => {
@@ -35,7 +35,7 @@ export function ShareDialog({ item, onClose, onCopied }: ShareDialogProps) {
         <article className="share-poster-card">
           <div className="share-poster-mark">
             <Share2 size={19} />
-            <span>Hot Tracker</span>
+            <span>AI Hot Tracker</span>
           </div>
           <p className="share-poster-meta">
             {sourceKindLabel(item.sourceKind)} · {formatTime(item.publishedAt)} · 热度 {item.importanceScore}

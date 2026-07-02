@@ -1,0 +1,1101 @@
+{
+  "items": [
+    {
+      "id": "daily_ai_2026-06-25",
+      "topicId": "ai",
+      "reportDate": "2026-06-25",
+      "title": "AI日报",
+      "mainLine": "今日 AI 动态优先看「豆包Seed-2.1实测：编程可用，识鱼封神！」，脉络集中在「论文与研究」「模型与基础设施」「产品与工具」；先分辨是能力变化、产品落地还是行业信号。",
+      "actionItems": [],
+      "watchItems": [
+        "豆包Seed-2.1实测：编程可用，识鱼封神！：乔木的实测很有说服力，Seed 2.1 Pro 在编程和 Agent 任务上已能用，多模态识鱼甚至反超 Gemini，对正在选模型的开发者是及时且扎实的参考。",
+        "Qwen-AgentWorld：原生语言世界模型，模拟7种Agent环境并超越Claude Opus 4.8和GPT-5.4：这是我最近看到最有想法的Agent方向探索，直接从环境建模入手，而不是让模型死记硬背操作，且零样本迁移能力很惊艳，做Agent的开发者必读。",
+        "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模：Ornith-1.0 不是又刷 benchmark，而是第一次把‘任务脚手架’的生成也纳入 RL 优化，这个思路可能改变 agent coding 的训练范式。",
+        "Anthropic称阿里巴巴非法获取了Claude AI模型的功能：Anthropic正式指控阿里巴巴非法提取Claude能力，这不是普通知识产权纠纷，而是头部AI公司对模型能力窃取的首次公开控诉，可能重塑API和开源生态的游戏规则。",
+        "Gemini 3.5 Flash 中的计算机使用：Computer Use 从独立模型变成了 Flash 的内置工具，这对做跨平台 agent 的开发者来说是个分水岭，意味着自动化能力会更快渗透到更多产品里。",
+        "思考即回忆：推理如何解锁LLM中的参数化知识：发现一个反直觉现象，让模型推理能提升简单事实回忆，不是靠分步解题而是计算缓冲和事实预热，对理解模型知识召回机制很有启发，但中间步骤幻觉也带来风险。",
+        "Figma在Config 2026押注人类判断，画布AI能力却来自第三方：我认为Figma这波更新很务实，它没有硬扛AI生成界面的对手，而是把代码、动效、3D拉进画布，用人的判断驾驭AI。",
+        "OpenRouter MCP 服务器发布：OpenRouter 这个 MCP 服务器让编码 agent 直接从编辑器里选模型、查价格、跑测试，省掉了切浏览器查资料的15分钟，做 AI 开发的值得立刻装上。"
+      ],
+      "sections": [
+        {
+          "title": "论文与研究",
+          "items": [
+            {
+              "title": "豆包Seed-2.1实测：编程可用，识鱼封神！",
+              "summary": "乔木的实测很有说服力，Seed 2.1 Pro 在编程和 Agent 任务上已能用，多模态识鱼甚至反超 Gemini，对正在选模型的开发者是及时且扎实的参考。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_b5f9a760fcb6bdc2afe77b29"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Qwen-AgentWorld：原生语言世界模型，模拟7种Agent环境并超越Claude Opus 4.8和GPT-5.4",
+              "summary": "这是我最近看到最有想法的Agent方向探索，直接从环境建模入手，而不是让模型死记硬背操作，且零样本迁移能力很惊艳，做Agent的开发者必读。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_f7dae9f27472c2b37c296817"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
+              "summary": "Ornith-1.0 不是又刷 benchmark，而是第一次把‘任务脚手架’的生成也纳入 RL 优化，这个思路可能改变 agent coding 的训练范式。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_069f8ad0f58d05c0c199c8db"
+              ],
+              "confidence": 76
+            },
+            {
+              "title": "Anthropic称阿里巴巴非法获取了Claude AI模型的功能",
+              "summary": "Anthropic正式指控阿里巴巴非法提取Claude能力，这不是普通知识产权纠纷，而是头部AI公司对模型能力窃取的首次公开控诉，可能重塑API和开源生态的游戏规则。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_337d04033c8e9a6504f528d0"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "Gemini 3.5 Flash 中的计算机使用",
+              "summary": "Computer Use 从独立模型变成了 Flash 的内置工具，这对做跨平台 agent 的开发者来说是个分水岭，意味着自动化能力会更快渗透到更多产品里。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_945ddc2b0bc9dada33bb0890"
+              ],
+              "confidence": 71
+            },
+            {
+              "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
+              "summary": "发现一个反直觉现象，让模型推理能提升简单事实回忆，不是靠分步解题而是计算缓冲和事实预热，对理解模型知识召回机制很有启发，但中间步骤幻觉也带来风险。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_58164355e4de070cbe9794e0"
+              ],
+              "confidence": 69
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "Figma在Config 2026押注人类判断，画布AI能力却来自第三方",
+              "summary": "我认为Figma这波更新很务实，它没有硬扛AI生成界面的对手，而是把代码、动效、3D拉进画布，用人的判断驾驭AI。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_291ea4b986cf375a907818cb"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "OpenRouter MCP 服务器发布",
+              "summary": "OpenRouter 这个 MCP 服务器让编码 agent 直接从编辑器里选模型、查价格、跑测试，省掉了切浏览器查资料的15分钟，做 AI 开发的值得立刻装上。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_dbde172fecd6d731f92dab1a"
+              ],
+              "confidence": 71
+            },
+            {
+              "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+              "summary": "我对“嵌入代理”的概念有点怀疑，但Notion用两周集成Cursor SDK，说明其抽象做得不错。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_32c8407d77606da07a28956a"
+              ],
+              "confidence": 65
+            },
+            {
+              "title": "Perplexity推出Computer for Counsel",
+              "summary": "Perplexity 发布了面向法律行业的 Computer for Counsel，将研究数据库、文档工具和事务管理系统集成进 AI 搜索，律师可以一试。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_5e8dfcbe2bcf30a1bf6171b3"
+              ],
+              "confidence": 65
+            },
+            {
+              "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
+              "summary": "xAI 把 Grok 接进了盈透证券的交易终端，是个实用的生态扩展，对 IB 用户来说从分析到下单可以一条龙处理，但本质上还是个功能集成，算不上行业大事件。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_7326664c2d084440b4c47870"
+              ],
+              "confidence": 55
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Meta员工警告AI内容审核部署过快",
+              "summary": "Meta用LLM替换人类审核已过半，年底目标90%以上，员工警告误删和裁员同步发生。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_1ab5e0b894db0db4afbe165c"
+              ],
+              "confidence": 73
+            },
+            {
+              "title": "在与Anthropic的纠纷中，NSA失去了对Mythos的访问权限",
+              "summary": "NSA失去对Mythos的访问权，表面是商业纠纷，实则触及AI公司与情报机构合作的敏感边界，这件事很可能成为未来AI治理的一个关键参照点。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_ccdb32eefd75fda37374a8eb"
+              ],
+              "confidence": 71
+            },
+            {
+              "title": "AI被认为会取代工程岗位，但新数据显示工程是2025年最具韧性的岗位",
+              "summary": "SignalFire 的报告用招聘数据讲了一个反直觉的故事：工程师不仅没被 AI 取代，反而成为科技公司招聘的主力，这比“AI 夺走一切”的恐慌论有说服力得多。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_fefea7e3b22049c8f191830b"
+              ],
+              "confidence": 70
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_b5f9a760fcb6bdc2afe77b29",
+        "feed_f7dae9f27472c2b37c296817",
+        "feed_069f8ad0f58d05c0c199c8db",
+        "feed_337d04033c8e9a6504f528d0",
+        "feed_291ea4b986cf375a907818cb",
+        "feed_1ab5e0b894db0db4afbe165c",
+        "feed_dbde172fecd6d731f92dab1a",
+        "feed_945ddc2b0bc9dada33bb0890",
+        "feed_ccdb32eefd75fda37374a8eb",
+        "feed_fefea7e3b22049c8f191830b",
+        "feed_58164355e4de070cbe9794e0",
+        "feed_5115972dd1ac459e7ca22404"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "X：Vista (@vista8)": 1,
+          "X：Berry Xia (@berryxia)": 2,
+          "Hacker News 热门（buzzing.cc 中文翻译）": 3,
+          "The Decoder：AI News（RSS）": 2,
+          "OpenRouter：Announcements（RSS）": 2,
+          "TechCrunch：AI（RSS）": 1,
+          "Google Research：Blog（网页）": 1,
+          "X：OpenAI (@OpenAI)": 1,
+          "Hugging Face：Blog（RSS）": 1,
+          "Cursor Blog": 1,
+          "X：Perplexity (@perplexity_ai)": 1,
+          "X：ChatGPT (@ChatGPTapp)": 1,
+          "xAI：News（网页）": 1
+        }
+      }
+    },
+    {
+      "id": "daily_flight-hotel-card_2026-06-25",
+      "topicId": "flight-hotel-card",
+      "reportDate": "2026-06-25",
+      "title": "机酒卡日报",
+      "mainLine": "今日机酒卡主题主要看「酒店与积分」、「航司与票价」，最清晰的单点更新是「卧槽！这白金卡把万豪的天花板掀了」；可先检查目标航线、规则口径和是否值得行动。",
+      "actionItems": [],
+      "watchItems": [
+        "卧槽！这白金卡把万豪的天花板掀了：华夏Safari超白金信用卡新增1100元档酒店权益，可预订南京丽思卡尔顿等高端酒店，叠加不限里程接送机、贵宾厅/餐厅、积分抵年费等权益，成为当前高性价比白金卡选项。 线索：华夏Safari超白金卡新增1100元/晚酒店预订档位，可预订南京丽思卡尔顿、广州文华东方、杭州武林洲际等。；180元档可预订欢朋、希尔顿花园、诺富特、假日、花间堂、凯悦嘉轩/嘉寓等。",
+        "美团境外放大招！东南亚400住双卧套：美团618返场推出东南亚及澳门酒店套餐，覆盖普吉岛、吉隆坡、亚庇、曼谷、澳门等目的地，价格从298元/2晚起，部分套餐低至原价3折，有效期多至10月底，国庆/暑假不加价。 线索：美团境外酒店专场：东南亚度假酒店300元起；吉隆坡伊顿公寓双卧套房439元/晚，双子塔景观",
+        "越南洲际旗舰或将换牌丽思？IHG会员再不去就晚了！：越南岘港洲际酒店（IHG 旗下）或因合同到期，明年换牌为万豪旗下丽思卡尔顿，IHG 会员应抓紧最后机会入住。 线索：岘港洲际酒店与 IHG 的合同明年满 15 年。；酒店预计换牌为丽思卡尔顿，小概率升级为丽思卡尔顿隐世。",
+        "【速抢！无门槛立减500】美团火拼境外酒店！暑假/国庆100+起，住热门目的地…：美团推出境外酒店专场直播活动，提供无门槛立减200/500元指定酒店补贴及满减通用券，覆盖东南亚、中国港澳等亚洲目的地，暑期/国庆可用，多家酒店全程不加价，有效期至年底。 线索：美团境外酒店专场直播，与马来西亚旅游局合作，6月24日开播。；指定酒店补贴：无门槛立减200元、无门槛立减500元。",
+        "【万豪放大招】新品牌正式进入中国！以后刷房/升级，更容易了...：万豪新品牌“万豪博选（Series by Marriott）”进入中国，首批合作阿若康巴和万信，最快年底上线，同时飞猪万豪第四期闪促已开始，500+家酒店参与，6月26日前预订、7月29日前入住可获额外积分。 线索：万豪博选（Series by Marriott）正式宣布进入中国，首批合作阿若康巴（藏式精品度假）和首旅万信（经济型）品牌。；首批上线城市覆盖长三角及成渝。",
+        "【重磅】韩亚宣布：将退出星盟！这家狂降，8月多地欧洲线才3K4起！前往或转机还送豪华酒店：韩亚航空将于2026年12月16日退出星空联盟，并计划于12月17日与大韩航空合并； 线索：星空联盟确认韩亚航空于2026年12月16日退出星盟。；韩亚与 大韩航空计划于2026年12月17日完成合并，统一使用大韩航空品牌。",
+        "【冲！限时优惠+立减】五星新加坡航空，中国内地12城出发！免签东南亚，马尔代夫：新加坡航空推出年中限时促销，中国内地12城出发往返东南亚、马尔代夫，叠加微信小程序150元立减后含税1490元起，部分指定航班可再减100元。 线索：订票日期：6月22日-7月12日；出行时间：8月20日-11月20日（9.24-10.3除外）",
+        "猛涨！有日本签证代理狮子大开口？印度人40元即可，原因在哪？：日本签证费大幅上涨，单次715元、多次1430元，而印度人仅需40元，引发广泛关注。 线索：日本单次签证费涨至715元，三年/五年多次涨至1430元，涨幅5倍。；印度人单次或多次入境签证费仅500卢比（约40元人民币）。"
+      ],
+      "sections": [
+        {
+          "title": "酒店与积分",
+          "items": [
+            {
+              "title": "卧槽！这白金卡把万豪的天花板掀了",
+              "summary": "华夏Safari超白金信用卡新增1100元档酒店权益，可预订南京丽思卡尔顿等高端酒店，叠加不限里程接送机、贵宾厅/餐厅、积分抵年费等权益，成为当前高性价比白金卡选项。",
+              "insightLabel": "线索",
+              "insightText": "华夏Safari超白金卡新增1100元/晚酒店预订档位，可预订南京丽思卡尔顿、广州文华东方、杭州武林洲际等。；180元档可预订欢朋、希尔顿花园、诺富特、假日、花间堂、凯悦嘉轩/嘉寓等。",
+              "sourceFeedItemIds": [
+                "feed_8f3f73dd354e0fe19c7fc62c"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "美团境外放大招！东南亚400住双卧套",
+              "summary": "美团618返场推出东南亚及澳门酒店套餐，覆盖普吉岛、吉隆坡、亚庇、曼谷、澳门等目的地，价格从298元/2晚起，部分套餐低至原价3折，有效期多至10月底，国庆/暑假不加价。",
+              "insightLabel": "线索",
+              "insightText": "美团境外酒店专场：东南亚度假酒店300元起；吉隆坡伊顿公寓双卧套房439元/晚，双子塔景观",
+              "sourceFeedItemIds": [
+                "feed_d0b0348baf219883c6a1f0d5"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "越南洲际旗舰或将换牌丽思？IHG会员再不去就晚了！",
+              "summary": "越南岘港洲际酒店（IHG 旗下）或因合同到期，明年换牌为万豪旗下丽思卡尔顿，IHG 会员应抓紧最后机会入住。",
+              "insightLabel": "线索",
+              "insightText": "岘港洲际酒店与 IHG 的合同明年满 15 年。；酒店预计换牌为丽思卡尔顿，小概率升级为丽思卡尔顿隐世。",
+              "sourceFeedItemIds": [
+                "feed_7233f57d06d25c521ecd2c9a"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "【速抢！无门槛立减500】美团火拼境外酒店！暑假/国庆100+起，住热门目的地…",
+              "summary": "美团推出境外酒店专场直播活动，提供无门槛立减200/500元指定酒店补贴及满减通用券，覆盖东南亚、中国港澳等亚洲目的地，暑期/国庆可用，多家酒店全程不加价，有效期至年底。",
+              "insightLabel": "线索",
+              "insightText": "美团境外酒店专场直播，与马来西亚旅游局合作，6月24日开播。；指定酒店补贴：无门槛立减200元、无门槛立减500元。",
+              "sourceFeedItemIds": [
+                "feed_ca2960a1d6be0dc1e13124c6"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "【万豪放大招】新品牌正式进入中国！以后刷房/升级，更容易了...",
+              "summary": "万豪新品牌“万豪博选（Series by Marriott）”进入中国，首批合作阿若康巴和万信，最快年底上线，同时飞猪万豪第四期闪促已开始，500+家酒店参与，6月26日前预订、7月29日前入住可获额外积分。",
+              "insightLabel": "线索",
+              "insightText": "万豪博选（Series by Marriott）正式宣布进入中国，首批合作阿若康巴（藏式精品度假）和首旅万信（经济型）品牌。；首批上线城市覆盖长三角及成渝。",
+              "sourceFeedItemIds": [
+                "feed_c2d664a52cd5ecf4bfbe2f2f"
+              ],
+              "confidence": 80
+            }
+          ]
+        },
+        {
+          "title": "航司与票价",
+          "items": [
+            {
+              "title": "【重磅】韩亚宣布：将退出星盟！这家狂降，8月多地欧洲线才3K4起！前往或转机还送豪华酒店",
+              "summary": "韩亚航空将于2026年12月16日退出星空联盟，并计划于12月17日与大韩航空合并；",
+              "insightLabel": "线索",
+              "insightText": "星空联盟确认韩亚航空于2026年12月16日退出星盟。；韩亚与 大韩航空计划于2026年12月17日完成合并，统一使用大韩航空品牌。",
+              "sourceFeedItemIds": [
+                "feed_cc23e50f51ebbd696ade2492"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "【冲！限时优惠+立减】五星新加坡航空，中国内地12城出发！免签东南亚，马尔代夫",
+              "summary": "新加坡航空推出年中限时促销，中国内地12城出发往返东南亚、马尔代夫，叠加微信小程序150元立减后含税1490元起，部分指定航班可再减100元。",
+              "insightLabel": "线索",
+              "insightText": "订票日期：6月22日-7月12日；出行时间：8月20日-11月20日（9.24-10.3除外）",
+              "sourceFeedItemIds": [
+                "feed_f3c1a4d8fb713968f03807c5"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "猛涨！有日本签证代理狮子大开口？印度人40元即可，原因在哪？",
+              "summary": "日本签证费大幅上涨，单次715元、多次1430元，而印度人仅需40元，引发广泛关注。",
+              "insightLabel": "线索",
+              "insightText": "日本单次签证费涨至715元，三年/五年多次涨至1430元，涨幅5倍。；印度人单次或多次入境签证费仅500卢比（约40元人民币）。",
+              "sourceFeedItemIds": [
+                "feed_a25a07d6f99d8d02e93c37e8"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "羡慕死了，3折，只要3折！",
+              "summary": "同程旅行推出多项暑期出行优惠，包括3折机建燃油卡（限深圳宝安机场）、川航专属燃油卡、5-6折燃油卡、老户补贴卡赠快速安检、租车盲盒17元2天、机票盲盒258元含税及火车票盲盒9元等。",
+              "insightLabel": "线索",
+              "insightText": "同程3折机建燃油卡：9元购30元（省21元）、29元购80元（省51元），限深圳宝安机场进出，可一单用完。；川航机建燃油卡：78元购180元（60元×3次），省102元，限川航双流/天府进出港航线。",
+              "sourceFeedItemIds": [
+                "feed_d591d10390317a63e697354f"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "攻略｜农行新福利，首张高端附属卡年费减免活动",
+              "summary": "农行将于2026年7月1日至9月30日推出首张高端附属卡年费减免活动，主卡消费满2万元可减免附属卡首年年费，限6000张，先到先得。",
+              "insightLabel": "线索",
+              "insightText": "活动时间：2026年7月1日至2026年9月30日。；活动对象：农行信用卡主卡且名下可办理高端系列信用卡附属卡的持卡人。",
+              "sourceFeedItemIds": [
+                "feed_f16ba2ac68e995615d511e58"
+              ],
+              "confidence": 78
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_8f3f73dd354e0fe19c7fc62c",
+        "feed_d0b0348baf219883c6a1f0d5",
+        "feed_cc23e50f51ebbd696ade2492",
+        "feed_f3c1a4d8fb713968f03807c5",
+        "feed_a25a07d6f99d8d02e93c37e8",
+        "feed_7233f57d06d25c521ecd2c9a",
+        "feed_ca2960a1d6be0dc1e13124c6",
+        "feed_c2d664a52cd5ecf4bfbe2f2f",
+        "feed_d591d10390317a63e697354f",
+        "feed_f16ba2ac68e995615d511e58",
+        "feed_410e63d283f13eaecb201ac2",
+        "feed_1129a04b2b135b3b63b7f0c5"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "聪明旅行": 1,
+          "木木说卡": 1,
+          "E旅行网": 3,
+          "旅行雷达": 3,
+          "精明常旅客": 1,
+          "早早的快乐旅程": 1,
+          "落落说卡": 1,
+          "飞飞玩票": 1,
+          "嬉游": 1,
+          "城市旅行指北": 1,
+          "Aires行记": 1
+        }
+      }
+    },
+    {
+      "id": "daily_hk-ipo_2026-06-25",
+      "topicId": "hk-ipo",
+      "reportDate": "2026-06-25",
+      "title": "港股打新日报",
+      "mainLine": "今日港股打新先看「2026年6月香港券商、美国券商指南」，重点落在「新股与申购」；适合把估值、资金占用和破发风险放在一起判断。",
+      "actionItems": [],
+      "watchItems": [
+        "2026年6月香港券商、美国券商指南：2026年6月香港券商指南，分析5家券商现状及打新适用性，其中2号券商（近期最值得冲）免打新融资手续费1200元，但APP难用； 看点：1号券商已处于半关门状态，需人在香港才能办理。；2号券商近期最值得冲，免打新融资手续费1200元，有效期内30天内无上限，但APP难用（尤其是ZF通）。",
+        "【港股IPO】今日暗盘六票策略复盘：复盘今日六只新股暗盘表现：圣邦股份、领益智造、科拓股份、中科闻歌、芯碁微装上涨，印尼金矿破发； 看点：六只新股于6月25日同日暗盘：圣邦股份、领益智造、科拓股份、中科闻歌、芯碁微装、印尼金矿。；作者因预算限制仅申购圣邦股份、海光芯正、科拓股份。"
+      ],
+      "sections": [
+        {
+          "title": "新股与申购",
+          "items": [
+            {
+              "title": "2026年6月香港券商、美国券商指南",
+              "summary": "2026年6月香港券商指南，分析5家券商现状及打新适用性，其中2号券商（近期最值得冲）免打新融资手续费1200元，但APP难用；",
+              "insightLabel": "看点",
+              "insightText": "1号券商已处于半关门状态，需人在香港才能办理。；2号券商近期最值得冲，免打新融资手续费1200元，有效期内30天内无上限，但APP难用（尤其是ZF通）。",
+              "sourceFeedItemIds": [
+                "feed_f24b37855dbd06a646ce2b74"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "【港股IPO】今日暗盘六票策略复盘",
+              "summary": "复盘今日六只新股暗盘表现：圣邦股份、领益智造、科拓股份、中科闻歌、芯碁微装上涨，印尼金矿破发；",
+              "insightLabel": "看点",
+              "insightText": "六只新股于6月25日同日暗盘：圣邦股份、领益智造、科拓股份、中科闻歌、芯碁微装、印尼金矿。；作者因预算限制仅申购圣邦股份、海光芯正、科拓股份。",
+              "sourceFeedItemIds": [
+                "feed_d904f35b47a636a6c8dcad6e"
+              ],
+              "confidence": 60
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_f24b37855dbd06a646ce2b74",
+        "feed_d904f35b47a636a6c8dcad6e"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "低风险理财投资": 1,
+          "每天打个新": 1
+        }
+      }
+    },
+    {
+      "id": "daily_investment_2026-06-25",
+      "topicId": "investment",
+      "reportDate": "2026-06-25",
+      "title": "投资观点日报",
+      "mainLine": "今日投资观点核心线索是「本文通过框架分析HBM」，主要围绕「核心观点」、「产业与公司」、「风险与分歧」；先看观点背后的证据、估值约束和风险分歧。",
+      "actionItems": [],
+      "watchItems": [
+        "本文通过框架分析HBM：What I’m trying to say is exactly in line with this. Let’s assume DDR supply increases and DDR prices come under downward pressure. That can... 证据：HBM满足摆脱传统周期性的三条条件中的两条半：定制化（半条）、结构性指数增长、技术快速迭代。；HBM3E约需3倍DRAM wafer，HBM4约需4倍，单位wafer制造的HBM bit持续通缩。",
+        "认为LTA签署意味着未锁定供应减少：我很难理解为什么有些人将美光最新的长期协议（LTA）签署解读为内存涨价周期的结束。 证据：美光签署最新长期协议（LTA）被部分市场人士解读为内存涨价周期结束。；作者认为LTA签署意味着市场中未锁定的供应量在减少。",
+        "分析师指出：•ODM-Direct风险：SpaceX和CoreWeave正在评估与广达/鸿海/和硕的直接交易。 证据：SpaceX与CoreWeave正在评估与广达/鸿海/和硕的直接交易。；分析师Jeff Pu将Dell评级从买入下调至持有，原因是估值偏高（自财报以来上涨200%，FY28E PE>20倍）且PC需求趋弱。",
+        "TrendForce报告称：>>NVIDIA的800V电源机柜将作为Vera Rubin的可选配置首次亮相，预计在Rubin Ultra世代更广泛采用，TrendForce称 - 根据TrendForce最新研究，NVIDIA一直在开发自己的800V HVDC电源机柜。 证据：NVIDIA 800V HVDC电源机柜预计2026年三季度（3Q26）可向客户出货，作为Vera Rubin平台的可选配置。；TrendForce认为800V电源机柜将在2027年下半年Rubin Ultra量产后开始显著采用，大规模部署预计在2028年。",
+        "从老登切到科技的基金经理，是真爽到了：美光业绩超预期带动A股存储芯片和AI硬件板块大涨，多只半导体主题基金净值飙升，部分基金经理从“老登”资产切换至科技板块获得显著收益，而港股科网股持续下跌。 证据：美光毛利率84.9%创历史新高，下季度指引86%。；A股存储龙头兆易创新、江波龙、德明利等涨停。",
+        "三星电子首次发布量化研究结果：三星量化证明“混合键合优势”... HBM4E热管理更优 三星电子客观地证明了其为下一代高带宽内存（HBM4E）封装所追求的高堆叠策略的技术优势。 证据：三星研究团队通过多尺度建模和真实服务器级环境下的测试芯片实验，验证了HCB相比TCB的热管理优势。；HCB可有效缓解16层及以上堆叠时的热问题，支持HBM4E大规模生产竞争力。",
+        "上个时代亏的钱，靠着下个时代赚了回来：文章论证指数编制的动量属性使其如实反映时代产业主线变迁，指出过去A股受制造业周期影响呈反转效应，但近年信贷低迷下指数依然上涨，背后是行业结构已悄然变化，并以沪深300、创业板等指数行业构成与历史对比为例，说明指数像忒修斯之船不断更新成分，投资者需动态认知指数实质。 证据：全球主流指数规则均为动量属性，涨多的纳入、表现差的剔除。；上一轮科网泡沫后标普纳指花了十年完成修复。",
+        "中证红利13年收益全拆解：贡献最大的居然不是复利：微积分量化价投拆解中证红利13年收益，发现价格上涨贡献42%、现金分红贡献35%、复投增强贡献23%，红利指数本质是高现金流资产而非高成长复利机器。 证据：分析时段为2013年至2026年6月25日。；价格上涨贡献42%收益（绝对值119%）。"
+      ],
+      "sections": [
+        {
+          "title": "核心观点",
+          "items": [
+            {
+              "title": "本文通过框架分析HBM",
+              "summary": "What I’m trying to say is exactly in line with this. Let’s assume DDR supply increases and DDR prices come under downward pressure. That can...",
+              "insightLabel": "证据",
+              "insightText": "HBM满足摆脱传统周期性的三条条件中的两条半：定制化（半条）、结构性指数增长、技术快速迭代。；HBM3E约需3倍DRAM wafer，HBM4约需4倍，单位wafer制造的HBM bit持续通缩。",
+              "sourceFeedItemIds": [
+                "feed_bc8cbe1bfd3a69e6adfb7317"
+              ],
+              "confidence": 88
+            },
+            {
+              "title": "认为LTA签署意味着未锁定供应减少",
+              "summary": "我很难理解为什么有些人将美光最新的长期协议（LTA）签署解读为内存涨价周期的结束。",
+              "insightLabel": "证据",
+              "insightText": "美光签署最新长期协议（LTA）被部分市场人士解读为内存涨价周期结束。；作者认为LTA签署意味着市场中未锁定的供应量在减少。",
+              "sourceFeedItemIds": [
+                "feed_04c3b0ca53dfd5a7e21b53d2"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "产业与公司",
+          "items": [
+            {
+              "title": "分析师指出",
+              "summary": "•ODM-Direct风险：SpaceX和CoreWeave正在评估与广达/鸿海/和硕的直接交易。",
+              "insightLabel": "证据",
+              "insightText": "SpaceX与CoreWeave正在评估与广达/鸿海/和硕的直接交易。；分析师Jeff Pu将Dell评级从买入下调至持有，原因是估值偏高（自财报以来上涨200%，FY28E PE>20倍）且PC需求趋弱。",
+              "sourceFeedItemIds": [
+                "feed_ba19500106297426e3b79f35"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "TrendForce报告称",
+              "summary": ">>NVIDIA的800V电源机柜将作为Vera Rubin的可选配置首次亮相，预计在Rubin Ultra世代更广泛采用，TrendForce称 - 根据TrendForce最新研究，NVIDIA一直在开发自己的800V HVDC电源机柜。",
+              "insightLabel": "证据",
+              "insightText": "NVIDIA 800V HVDC电源机柜预计2026年三季度（3Q26）可向客户出货，作为Vera Rubin平台的可选配置。；TrendForce认为800V电源机柜将在2027年下半年Rubin Ultra量产后开始显著采用，大规模部署预计在2028年。",
+              "sourceFeedItemIds": [
+                "feed_43ac75fef3df8a6f045c67a5"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "从老登切到科技的基金经理，是真爽到了",
+              "summary": "美光业绩超预期带动A股存储芯片和AI硬件板块大涨，多只半导体主题基金净值飙升，部分基金经理从“老登”资产切换至科技板块获得显著收益，而港股科网股持续下跌。",
+              "insightLabel": "证据",
+              "insightText": "美光毛利率84.9%创历史新高，下季度指引86%。；A股存储龙头兆易创新、江波龙、德明利等涨停。",
+              "sourceFeedItemIds": [
+                "feed_4f231a18419559d06bdc13ec"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "三星电子首次发布量化研究结果",
+              "summary": "三星量化证明“混合键合优势”... HBM4E热管理更优 三星电子客观地证明了其为下一代高带宽内存（HBM4E）封装所追求的高堆叠策略的技术优势。",
+              "insightLabel": "证据",
+              "insightText": "三星研究团队通过多尺度建模和真实服务器级环境下的测试芯片实验，验证了HCB相比TCB的热管理优势。；HCB可有效缓解16层及以上堆叠时的热问题，支持HBM4E大规模生产竞争力。",
+              "sourceFeedItemIds": [
+                "feed_eabb5f519234fac20cb228e7"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "上个时代亏的钱，靠着下个时代赚了回来",
+              "summary": "文章论证指数编制的动量属性使其如实反映时代产业主线变迁，指出过去A股受制造业周期影响呈反转效应，但近年信贷低迷下指数依然上涨，背后是行业结构已悄然变化，并以沪深300、创业板等指数行业构成与历史对比为例，说明指数像忒修斯之船不断更新成分，投资者需动态认知指数实质。",
+              "insightLabel": "证据",
+              "insightText": "全球主流指数规则均为动量属性，涨多的纳入、表现差的剔除。；上一轮科网泡沫后标普纳指花了十年完成修复。",
+              "sourceFeedItemIds": [
+                "feed_d930e3507b5a203fd76bb782"
+              ],
+              "confidence": 85
+            }
+          ]
+        },
+        {
+          "title": "风险与分歧",
+          "items": [
+            {
+              "title": "中证红利13年收益全拆解：贡献最大的居然不是复利",
+              "summary": "微积分量化价投拆解中证红利13年收益，发现价格上涨贡献42%、现金分红贡献35%、复投增强贡献23%，红利指数本质是高现金流资产而非高成长复利机器。",
+              "insightLabel": "证据",
+              "insightText": "分析时段为2013年至2026年6月25日。；价格上涨贡献42%收益（绝对值119%）。",
+              "sourceFeedItemIds": [
+                "feed_8984979180c5e8529fb2b20e"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "作者反思近期在光通信（尤其是CPO）持仓上的大幅回撤",
+              "summary": "我想是的。但与此同时，我称我的策略为：多元化亏损。 涉及 $AXTI、$SOI、$AAOI 以及许多其他标的。 最近经历了大幅回撤， CPO 敞口受冲击最大（Foci、Msscorp 等）以及邻近标的，感觉不好。 个人教训可能是，我在光子学方面的配置相对于内存/其他板块过于集中，...",
+              "insightLabel": "证据",
+              "insightText": "持仓组合包括$AXTI、$SOI、$AAOI、Foci、Msscorp等光通信相关标的，近期出现大幅回撤。；CPO（共封装光学）仓位受冲击最严重。",
+              "sourceFeedItemIds": [
+                "feed_884b1a27bbb04b1cf0be6ee3"
+              ],
+              "confidence": 75
+            }
+          ]
+        },
+        {
+          "title": "财报与数据",
+          "items": [
+            {
+              "title": "美光财报超预期",
+              "summary": "看 $MU 的财报总是令人惊叹： 营收：414.6亿美元 vs 预期358亿美元 每股收益：25.11美元 vs 预期20.78美元 预测： 营收：490亿至510亿美元，vs 预期432.4亿美元 每股收益：30.00至32.00美元，vs 预期25.31美元 “美光周三表示，...",
+              "insightLabel": "证据",
+              "insightText": "营收41.46B美元，高于预期的35.8B美元；EPS 25.11美元，高于预期的20.78美元",
+              "sourceFeedItemIds": [
+                "feed_f15366fe68715c0e72571727"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "宏观与政策",
+          "items": [
+            {
+              "title": "要不民间审计组去支援",
+              "summary": "文章基于年度审计报告，指出地方财政存在挪用民生资金偿债、预算安排过大、招投标问题、公共资源商业化等非自然原因导致的赤字，并批评相关管理部门。",
+              "insightLabel": "证据",
+              "insightText": "去年国内财政赤字创历史新高，且与其他主要经济体对比大幅领先。；审计报告内容涉及2、4、5点非自然原因：不该花的没控制、该收的没收、不该收的收了导致负和博弈。",
+              "sourceFeedItemIds": [
+                "feed_3117430f4a4a7df7c76da66e"
+              ],
+              "confidence": 60
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_bc8cbe1bfd3a69e6adfb7317",
+        "feed_ba19500106297426e3b79f35",
+        "feed_43ac75fef3df8a6f045c67a5",
+        "feed_8984979180c5e8529fb2b20e",
+        "feed_4f231a18419559d06bdc13ec",
+        "feed_eabb5f519234fac20cb228e7",
+        "feed_d930e3507b5a203fd76bb782",
+        "feed_9e9e88f2221fef74bfed09ee",
+        "feed_ab39c1a332870a9839dee92c",
+        "feed_da8ac05f757b101a8d45f696",
+        "feed_8140d240bb58730122eea69d",
+        "feed_04c3b0ca53dfd5a7e21b53d2"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "Jukan": 9,
+          "微积分量化价投": 1,
+          "硬核姬老板": 1,
+          "老钱日日谈": 1,
+          "卓哥投研笔记": 1,
+          "Serenity": 6,
+          "外汇交易员": 1,
+          "曹山石": 1,
+          "信仰守望者": 1,
+          "不跪的世界": 1,
+          "分百岛主": 1,
+          "记忆承载": 1
+        }
+      }
+    },
+    {
+      "id": "daily_whale-portfolio_2026-06-25",
+      "topicId": "whale-portfolio",
+      "reportDate": "2026-06-25",
+      "title": "大佬持仓日报",
+      "mainLine": "大佬持仓在 2026-06-25 没有达到日报阈值的显著更新。",
+      "actionItems": [],
+      "watchItems": [],
+      "sections": [],
+      "referencedFeedItemIds": [],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {}
+      }
+    },
+    {
+      "id": "daily_x-signal_2026-06-25",
+      "topicId": "x-signal",
+      "reportDate": "2026-06-25",
+      "title": "X Radar日报",
+      "mainLine": "今日X Radar最值得先看「后者专注于跨硬件AI计算栈」，主要落在「可行动线索」、「重点变化」、「其他值得看」。",
+      "actionItems": [],
+      "watchItems": [
+        "后者专注于跨硬件AI计算栈：刚刚，高通宣布收购AI计算创业公司Modular 此次交易是全股票交易，路透按高通收盘价算约 39.2 亿美元，高通最多发行 1920 万股给 Modular 股东，预计 2026 年下半年完成。 补充：高通收购Modular为全股票交易，按高通收盘价计约39.2亿美元，最多发行1920万股，预计2026年下半年完成。；Modular产品包括MAX（AI推理和serving框架）和Mojo（高性能编程语言，语法接近Python，目标性能接近C/CUDA）。",
+        "macOS在内存耗尽时会自动暂停程序：马可奥斯狗蹬给他 在内存耗尽的情况下会暂停程序 在内存恢复以后不会继续 你需要手动给所有暂停的程序发送 SIGCONT 😅 补充：macOS在内存耗尽时会暂停程序；内存恢复后，被暂停的程序不会自动继续运行",
+        "可在本地Mac Studio上运行：Unsloth 团队太恐怖了🔥🔥🔥 他们居然用一种叫 1-bit 压缩的极端技术，把来自中国的顶级开源模型GLM 5.2 用一种叫 1-bit 压缩的极端技术进行了优化，并转换成轻量级的 GGUF 格式。 补充：Unsloth 使用1-bit压缩技术优化了GLM 5.2模型，并转换为GGUF格式。；本地运行需256GB RAM的Mac Studio，速度约21 toks/s。",
+        "并认为这种技术选型体现了对代码和工程品味的追求：看到 Linear 等公司渐渐从 Tailwind 迁移到 StyleX 了，如果你不知道这个项目可以了解一下。 补充：Linear 等公司正在从 Tailwind 迁移到 StyleX。；Ding 认为技术选型是品味的一部分，不仅限于视觉层面。",
+        "博主以反问形式强调GLM 5.2的训练过程：看着干嘛 愣着啊 Quoted post: Author: @PatrickToulme There’s a big misconception about how GLM 5.2 was trained. Yes, they distilled Claude and GPT 5... 补充：GLM 5.2 训练中使用了蒸馏 Claude 和 GPT 5.5，但蒸馏仅用于解决强化学习的冷启动问题。；强化学习需要模型在环境中完成任务的正向轨迹，无成功轨迹则无法进行强化学习。",
+        "从而大幅降低成本：Google的TPU/XLA工程师Patrick C Toulme @PatrickToulme 分享了他关于OpenAI刚刚发布的自研芯片的分析。 补充：OpenAI发布了自研芯片Jalapeño。；Jalapeño芯片很可能是第一款几乎完全由Codex/GPT开发的芯片。",
+        "三星电子官方公众号于6月23日自主注销：中国大陆运营多年的“三星电子”官方公众号已于前一日（6月23日）16点22分完成自主注销，该账号主页已无法正常访问，历史推送内容全部下线。 补充：三星电子官方公众号于2026年6月23日16点22分自主注销。；公众号曾用于新品首发、促销推广、用户答疑等核心传播职能。",
+        "解释了原因并提供了对比数据：做 Agent 有个不成文的默认假设：tool result 很重要，模型要看完原文才能继续推理。 补充：在maka中，对tool result进行激进裁剪后，推理质量几乎无损。；Tool result信息已被蒸馏进Assistant Message，后续模型更多与自身理解对话。"
+      ],
+      "sections": [
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "后者专注于跨硬件AI计算栈",
+              "summary": "刚刚，高通宣布收购AI计算创业公司Modular 此次交易是全股票交易，路透按高通收盘价算约 39.2 亿美元，高通最多发行 1920 万股给 Modular 股东，预计 2026 年下半年完成。",
+              "insightLabel": "补充",
+              "insightText": "高通收购Modular为全股票交易，按高通收盘价计约39.2亿美元，最多发行1920万股，预计2026年下半年完成。；Modular产品包括MAX（AI推理和serving框架）和Mojo（高性能编程语言，语法接近Python，目标性能接近C/CUDA）。",
+              "sourceFeedItemIds": [
+                "feed_830a9b937932b37dc1efb3ff"
+              ],
+              "confidence": 88
+            },
+            {
+              "title": "macOS在内存耗尽时会自动暂停程序",
+              "summary": "马可奥斯狗蹬给他 在内存耗尽的情况下会暂停程序 在内存恢复以后不会继续 你需要手动给所有暂停的程序发送 SIGCONT 😅",
+              "insightLabel": "补充",
+              "insightText": "macOS在内存耗尽时会暂停程序；内存恢复后，被暂停的程序不会自动继续运行",
+              "sourceFeedItemIds": [
+                "feed_d13b766e7c3c1e0c16e6aa36"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "可在本地Mac Studio上运行",
+              "summary": "Unsloth 团队太恐怖了🔥🔥🔥 他们居然用一种叫 1-bit 压缩的极端技术，把来自中国的顶级开源模型GLM 5.2 用一种叫 1-bit 压缩的极端技术进行了优化，并转换成轻量级的 GGUF 格式。",
+              "insightLabel": "补充",
+              "insightText": "Unsloth 使用1-bit压缩技术优化了GLM 5.2模型，并转换为GGUF格式。；本地运行需256GB RAM的Mac Studio，速度约21 toks/s。",
+              "sourceFeedItemIds": [
+                "feed_e6e3bd91353a1cdf7bca0ed1"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "并认为这种技术选型体现了对代码和工程品味的追求",
+              "summary": "看到 Linear 等公司渐渐从 Tailwind 迁移到 StyleX 了，如果你不知道这个项目可以了解一下。",
+              "insightLabel": "补充",
+              "insightText": "Linear 等公司正在从 Tailwind 迁移到 StyleX。；Ding 认为技术选型是品味的一部分，不仅限于视觉层面。",
+              "sourceFeedItemIds": [
+                "feed_815efb270041109d8e28617f"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "博主以反问形式强调GLM 5.2的训练过程",
+              "summary": "看着干嘛 愣着啊 Quoted post: Author: @PatrickToulme There’s a big misconception about how GLM 5.2 was trained. Yes, they distilled Claude and GPT 5...",
+              "insightLabel": "补充",
+              "insightText": "GLM 5.2 训练中使用了蒸馏 Claude 和 GPT 5.5，但蒸馏仅用于解决强化学习的冷启动问题。；强化学习需要模型在环境中完成任务的正向轨迹，无成功轨迹则无法进行强化学习。",
+              "sourceFeedItemIds": [
+                "feed_84f72bd8786896888472f21b"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "从而大幅降低成本",
+              "summary": "Google的TPU/XLA工程师Patrick C Toulme @PatrickToulme 分享了他关于OpenAI刚刚发布的自研芯片的分析。",
+              "insightLabel": "补充",
+              "insightText": "OpenAI发布了自研芯片Jalapeño。；Jalapeño芯片很可能是第一款几乎完全由Codex/GPT开发的芯片。",
+              "sourceFeedItemIds": [
+                "feed_f359a295501b1bc5880b949d"
+              ],
+              "confidence": 88
+            },
+            {
+              "title": "三星电子官方公众号于6月23日自主注销",
+              "summary": "中国大陆运营多年的“三星电子”官方公众号已于前一日（6月23日）16点22分完成自主注销，该账号主页已无法正常访问，历史推送内容全部下线。",
+              "insightLabel": "补充",
+              "insightText": "三星电子官方公众号于2026年6月23日16点22分自主注销。；公众号曾用于新品首发、促销推广、用户答疑等核心传播职能。",
+              "sourceFeedItemIds": [
+                "feed_2b09b54f75fac2aacdc44d18"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "解释了原因并提供了对比数据",
+              "summary": "做 Agent 有个不成文的默认假设：tool result 很重要，模型要看完原文才能继续推理。",
+              "insightLabel": "补充",
+              "insightText": "在maka中，对tool result进行激进裁剪后，推理质量几乎无损。；Tool result信息已被蒸馏进Assistant Message，后续模型更多与自身理解对话。",
+              "sourceFeedItemIds": [
+                "feed_eac38547b5bec88550364f3a"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "Anthropic 相关动态集中出现",
+              "summary": "Anthropic 今天正式致信美国参议院银行委员会和白宫，指控阿里巴巴 $BABA 旗下的通义千问 Qwen AI 实验室，对 Claude 发动了迄今为止规模最大的蒸馏攻击。",
+              "insightLabel": "补充",
+              "insightText": "同组还包括「已确认Anthropic的Fable 5模型回归」、「将永久包含在订阅中并提供每周使用额度」。",
+              "sourceFeedItemIds": [
+                "feed_163599323da8d72b75be0b86",
+                "feed_50d262ec9781a2573d57d4de",
+                "feed_7ac6dfc64a10445b758d186a"
+              ],
+              "confidence": 85
+            },
+            {
+              "title": "一款基于 Tauri/React/Rust 的现代远程终端工作台",
+              "summary": "基于 Tauri/React/Rust 的现代远程终端工作台，整合 SSH、本地终端、Telnet、串口、SFTP、隧道、OTP、AI 辅助和加密同步于一体。",
+              "insightLabel": "补充",
+              "insightText": "技术栈为 Tauri/React/Rust。；集成的功能包括 SSH、本地终端、Telnet、串口、SFTP、隧道、OTP、AI 辅助和加密同步。",
+              "sourceFeedItemIds": [
+                "feed_ab828e9006e5caab7c65a968"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "其他值得看",
+          "items": [
+            {
+              "title": "博主推荐了一个由@xdotli整理的AI评估（eval）资源库",
+              "summary": "你很难找到比这个更好的eval资源库了 如果你对eval感兴趣，这些是你应该读的。",
+              "insightLabel": "补充",
+              "insightText": "资源库由@xdotli分享，包含博客、播客、论文和项目。；博主表示这是很难找到的更好评估资源库。",
+              "sourceFeedItemIds": [
+                "feed_2e8b0df9b7c0b2a70a352270"
+              ],
+              "confidence": 60
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_830a9b937932b37dc1efb3ff",
+        "feed_f359a295501b1bc5880b949d",
+        "feed_2b09b54f75fac2aacdc44d18",
+        "feed_d13b766e7c3c1e0c16e6aa36",
+        "feed_eac38547b5bec88550364f3a",
+        "feed_163599323da8d72b75be0b86",
+        "feed_e6e3bd91353a1cdf7bca0ed1",
+        "feed_ab828e9006e5caab7c65a968",
+        "feed_006b32527b87b1ec01ece118",
+        "feed_239d3a3e5a4e1d9d303825bf",
+        "feed_815efb270041109d8e28617f",
+        "feed_50d262ec9781a2573d57d4de"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "Max For AI": 15,
+          "砍砍.ᐟ": 3,
+          "kabikabi": 1,
+          "Geek": 11,
+          "Ding": 3,
+          "Frad": 3
+        }
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-06-25",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-06-25",
+      "title": "大厂日报",
+      "mainLine": "今日大厂日报先看「三波人接力，六个月捧出一万亿」，主要涉及「组织与人事」、「业务与产品」；后续重点观察它对产品节奏和商业化的影响。",
+      "actionItems": [],
+      "watchItems": [
+        "三波人接力，六个月捧出一万亿：智谱凭借技术叙事、对标故事和流通盘稀缺三套逻辑，在不到半年内市值从528亿涨至超1.1万亿港币，随后回落至9675亿，主要驱动力来自市场情绪和结构性资金流入，而非基本面支撑。 影响：2026年6月22日，智谱盘中市值突破1.1万亿港币，收盘回落至9675亿港币。；智谱2025年营收7.24亿元，亏损47亿元，73.7%收入来自本地化部署，毛利率从69.6%降至47%。",
+        "新能源车的困倦时代：看不到战争结束，就先迎来乏味：中国新能源车行业陷入同质化困局：价格战持续三年，智驾未能形成差异化，消费者不愿为额外功能付费，行业利润下滑，多家车企亏损或利润大幅下跌，从业者转向AI或具身智能。 影响：2025年头5个月中国汽车消费同比下滑11.8%；比亚迪、小米最新一季利润跌超50%，理想开始亏损"
+      ],
+      "sections": [
+        {
+          "title": "组织与人事",
+          "items": [
+            {
+              "title": "三波人接力，六个月捧出一万亿",
+              "summary": "智谱凭借技术叙事、对标故事和流通盘稀缺三套逻辑，在不到半年内市值从528亿涨至超1.1万亿港币，随后回落至9675亿，主要驱动力来自市场情绪和结构性资金流入，而非基本面支撑。",
+              "insightLabel": "影响",
+              "insightText": "2026年6月22日，智谱盘中市值突破1.1万亿港币，收盘回落至9675亿港币。；智谱2025年营收7.24亿元，亏损47亿元，73.7%收入来自本地化部署，毛利率从69.6%降至47%。",
+              "sourceFeedItemIds": [
+                "feed_27459a5c5741f461d39c5c3c"
+              ],
+              "confidence": 80
+            }
+          ]
+        },
+        {
+          "title": "业务与产品",
+          "items": [
+            {
+              "title": "新能源车的困倦时代：看不到战争结束，就先迎来乏味",
+              "summary": "中国新能源车行业陷入同质化困局：价格战持续三年，智驾未能形成差异化，消费者不愿为额外功能付费，行业利润下滑，多家车企亏损或利润大幅下跌，从业者转向AI或具身智能。",
+              "insightLabel": "影响",
+              "insightText": "2025年头5个月中国汽车消费同比下滑11.8%；比亚迪、小米最新一季利润跌超50%，理想开始亏损",
+              "sourceFeedItemIds": [
+                "feed_c3bff27979ac27434cdb76c2"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_27459a5c5741f461d39c5c3c",
+        "feed_c3bff27979ac27434cdb76c2"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "晚点LatePost": 2
+        }
+      }
+    },
+    {
+      "id": "daily_lifestyle-fun_2026-06-25",
+      "topicId": "lifestyle-fun",
+      "reportDate": "2026-06-25",
+      "title": "吃喝玩乐日报",
+      "mainLine": "今日吃喝玩乐最值得先看「2026大众点评必吃榜必玩榜双榜齐发，限时市集登陆魔都」，主要落在「重点变化」、「可行动线索」。",
+      "actionItems": [],
+      "watchItems": [
+        "2026大众点评必吃榜必玩榜双榜齐发，限时市集登陆魔都：2026大众点评必吃榜和必玩榜双榜发布，必吃榜覆盖全球264座城市，上海上榜商户数全国前三，并推出限时线下市集。 补充：2026大众点评必吃榜覆盖全球264座城市及地区，新增120座城市，新西兰、意大利、西班牙首次被纳入。；必吃榜关键词为“本地人推荐”与“地道风味”。",
+        "魔都本周值得体验的10个餐饮活动：上海本周10个餐饮活动汇总，包括高端酒店下午茶、主题美食节、限定套餐及团购优惠，涉及嘉佩乐、金茂君悦、艾迪逊等多家酒店及餐厅。 补充：上海建业里嘉佩乐酒店露台双人下午茶528元/份，时间周一至周日14:30-16:30，地址徐汇区建国西路480号，电话021-54666688。；上海金茂君悦大酒店寻味福州主题美食节398元起/位，时间即日起至6月30日17:30-21:30，地址浦东新区世纪大道88号56楼。",
+        "有三大音质突破，vivo TWS 5 Pro 蓝牙真无线主动降噪耳机产品图集：vivo TWS 5 Pro耳机产品图集发布，介绍其三大音质突破：Wi-Fi直连、独立Hi-Fi DAC芯片、圈铁双单元架构，以及主动降噪和续航等升级，SOOMAL即将发布详细测评。 补充：三大音质突破：Wi-Fi协议直连、独立Hi-Fi DAC芯片（CIRRUS LOGIC）、圈铁双单元（楼氏定制动铁）。；Wi-Fi直连理论最大带宽4.6Mbps，支持24bit/96kHz PCM，需手机未连Wi-Fi或连接2.4G/5.8G时双耳生效。",
+        "速度！10吃肯德基特大翅根桶8个！疯狂星期四新菜单作业来啦！低至15买40肯德基麦当劳必胜客还有各种大牌奶茶：肯德基特大翅根桶回归，结合美团外卖券可低至10元吃，另有疯狂星期四凑单作业，麦当劳、必胜客等品牌通用。 补充：特大翅根桶限时回归，配合券可不到10元拿下。；示例凑单：15元得8特大翅根桶+2土豆泥+1酸梅汤；20元得2烤堡辣堡+土豆泥+凑单；20元得9鸡块+3酸梅汤+8特大翅根桶；24元得疯狂炸鸡(2原味鸡+10鸡块+6香骨鸡+饮料)...",
+        "最近有什么香甜好喝的快乐水可以买？：企鹅吃喝指南推荐三款德国酒庄生产的无酒精葡萄果汁，分别来自海德、星环和C&G酒庄，强调酿酒葡萄风味浓郁、工艺讲究，限时折扣促销。 补充：三款果汁均为德国酒庄生产的无酒精葡萄汁，使用酿酒葡萄。；海德酒庄佩利诺起泡果汁：红白葡萄拼配，80%托林格、15%葡萄牙人、5%白皮诺，托林格分两次采摘，官方店售价148元，企鹅价118元。",
+        "2026佳能雪山影像节创作者大会·桂林站报名开启！：2026佳能雪山影像节创作者大会将于2026年7月18-19日在桂林举行，即日起开放报名，活动包括作品评审会、创作分享和颁奖典礼。 补充：活动名称：2026佳能雪山影像节创作者大会·桂林站；主办方：佳能"
+      ],
+      "sections": [
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "2026大众点评必吃榜必玩榜双榜齐发，限时市集登陆魔都",
+              "summary": "2026大众点评必吃榜和必玩榜双榜发布，必吃榜覆盖全球264座城市，上海上榜商户数全国前三，并推出限时线下市集。",
+              "insightLabel": "补充",
+              "insightText": "2026大众点评必吃榜覆盖全球264座城市及地区，新增120座城市，新西兰、意大利、西班牙首次被纳入。；必吃榜关键词为“本地人推荐”与“地道风味”。",
+              "sourceFeedItemIds": [
+                "feed_cb49a0851326c36e20b435e5"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "魔都本周值得体验的10个餐饮活动",
+              "summary": "上海本周10个餐饮活动汇总，包括高端酒店下午茶、主题美食节、限定套餐及团购优惠，涉及嘉佩乐、金茂君悦、艾迪逊等多家酒店及餐厅。",
+              "insightLabel": "补充",
+              "insightText": "上海建业里嘉佩乐酒店露台双人下午茶528元/份，时间周一至周日14:30-16:30，地址徐汇区建国西路480号，电话021-54666688。；上海金茂君悦大酒店寻味福州主题美食节398元起/位，时间即日起至6月30日17:30-21:30，地址浦东新区世纪大道88号56楼。",
+              "sourceFeedItemIds": [
+                "feed_778a422d06d9df17589f8e5b"
+              ],
+              "confidence": 68
+            },
+            {
+              "title": "有三大音质突破，vivo TWS 5 Pro 蓝牙真无线主动降噪耳机产品图集",
+              "summary": "vivo TWS 5 Pro耳机产品图集发布，介绍其三大音质突破：Wi-Fi直连、独立Hi-Fi DAC芯片、圈铁双单元架构，以及主动降噪和续航等升级，SOOMAL即将发布详细测评。",
+              "insightLabel": "补充",
+              "insightText": "三大音质突破：Wi-Fi协议直连、独立Hi-Fi DAC芯片（CIRRUS LOGIC）、圈铁双单元（楼氏定制动铁）。；Wi-Fi直连理论最大带宽4.6Mbps，支持24bit/96kHz PCM，需手机未连Wi-Fi或连接2.4G/5.8G时双耳生效。",
+              "sourceFeedItemIds": [
+                "feed_47406e33798c308a0102d388"
+              ],
+              "confidence": 55
+            }
+          ]
+        },
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "速度！10吃肯德基特大翅根桶8个！疯狂星期四新菜单作业来啦！低至15买40肯德基麦当劳必胜客还有各种大牌奶茶",
+              "summary": "肯德基特大翅根桶回归，结合美团外卖券可低至10元吃，另有疯狂星期四凑单作业，麦当劳、必胜客等品牌通用。",
+              "insightLabel": "补充",
+              "insightText": "特大翅根桶限时回归，配合券可不到10元拿下。；示例凑单：15元得8特大翅根桶+2土豆泥+1酸梅汤；20元得2烤堡辣堡+土豆泥+凑单；20元得9鸡块+3酸梅汤+8特大翅根桶；24元得疯狂炸鸡(2原味鸡+10鸡块+6香骨鸡+饮料)...",
+              "sourceFeedItemIds": [
+                "feed_c4155c1a822151cdd46e903f"
+              ],
+              "confidence": 65
+            },
+            {
+              "title": "最近有什么香甜好喝的快乐水可以买？",
+              "summary": "企鹅吃喝指南推荐三款德国酒庄生产的无酒精葡萄果汁，分别来自海德、星环和C&G酒庄，强调酿酒葡萄风味浓郁、工艺讲究，限时折扣促销。",
+              "insightLabel": "补充",
+              "insightText": "三款果汁均为德国酒庄生产的无酒精葡萄汁，使用酿酒葡萄。；海德酒庄佩利诺起泡果汁：红白葡萄拼配，80%托林格、15%葡萄牙人、5%白皮诺，托林格分两次采摘，官方店售价148元，企鹅价118元。",
+              "sourceFeedItemIds": [
+                "feed_09209b3a67018021da27c859"
+              ],
+              "confidence": 55
+            },
+            {
+              "title": "2026佳能雪山影像节创作者大会·桂林站报名开启！",
+              "summary": "2026佳能雪山影像节创作者大会将于2026年7月18-19日在桂林举行，即日起开放报名，活动包括作品评审会、创作分享和颁奖典礼。",
+              "insightLabel": "补充",
+              "insightText": "活动名称：2026佳能雪山影像节创作者大会·桂林站；主办方：佳能",
+              "sourceFeedItemIds": [
+                "feed_98965ace68df1dddf2271838"
+              ],
+              "confidence": 55
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_cb49a0851326c36e20b435e5",
+        "feed_778a422d06d9df17589f8e5b",
+        "feed_c4155c1a822151cdd46e903f",
+        "feed_09209b3a67018021da27c859",
+        "feed_98965ace68df1dddf2271838",
+        "feed_47406e33798c308a0102d388"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "ShanghaiWOW": 2,
+          "buy宝箱": 1,
+          "企鹅吃喝指南": 1,
+          "8KRAW": 1,
+          "SOOMAL音频影像": 1
+        }
+      }
+    },
+    {
+      "id": "daily_github-trending_2026-06-25",
+      "topicId": "github-trending",
+      "reportDate": "2026-06-25",
+      "title": "GitHub 趋势日报",
+      "mainLine": "今日GitHub 趋势最值得先看「microsoft/Webwright」，主要落在「可行动线索」、「重点变化」、「其他值得看」。",
+      "actionItems": [],
+      "watchItems": [
+        "microsoft/Webwright：Webwright 是微软开源的浏览器智能体框架，通过终端让 LLM 操控浏览器完成长时网页任务，达到 SOTA 性能。 补充：Language: Python；Stars: 5,584",
+        "google-labs-code/design.md：DESIGN.md 是一个规范格式，用于向编码代理描述视觉身份，使代理能够持续、结构化地理解设计系统。 补充：语言：TypeScript；Stars：17,149",
+        "flutter/flutter：Flutter 是 Google 的跨平台 UI 框架，支持从单一代码库构建移动、网页和桌面应用。 补充：语言：Dart；Stars：177,249",
+        "kunchenguid/no-mistakes：No-mistakes 是一个用 Go 编写的本地 Git 代理工具，在推送前自动运行 AI 驱动的验证流水线，确保代码无误后自动创建 PR。 补充：语言: Go；Stars: 1,926",
+        "interviewstreet/hiring-agent：一个 AI 驱动的简历评分开源项目，通过解析 PDF 简历并整合 GitHub 信号生成客观、可解释的评估。 补充：语言：Python；Stars: 2,054",
+        "microsoft/presidio：Presidio 是一个微软开源的敏感数据检测与去标识化框架，支持文本、图像和结构化数据中的 PII 识别、脱敏和匿名化，提供 NLP 和模式匹配能力。 补充：语言：Python；Stars：9,573",
+        "andreknieriem/headunit-revived：Headunit Revived 是一个 Kotlin 编写的开源 Android 应用，能将安卓平板或手机变成 Android Auto 接收器，支持有线和无线连接。 补充：语言: Kotlin；Stars: 1,391",
+        "Flowseal/zapret-discord-youtube：Flowseal/zapret-discord-youtube 是一个用于绕过对 Discord 和 YouTube 等服务的网络封锁的工具，基于 Batchfile 编写。 补充：语言: Batchfile；Stars: 30,012"
+      ],
+      "sections": [
+        {
+          "title": "可行动线索",
+          "items": [
+            {
+              "title": "microsoft/Webwright",
+              "summary": "Webwright 是微软开源的浏览器智能体框架，通过终端让 LLM 操控浏览器完成长时网页任务，达到 SOTA 性能。",
+              "insightLabel": "补充",
+              "insightText": "Language: Python；Stars: 5,584",
+              "sourceFeedItemIds": [
+                "feed_3d8e639ac372f931fb5b3148"
+              ],
+              "confidence": 80
+            },
+            {
+              "title": "google-labs-code/design.md",
+              "summary": "DESIGN.md 是一个规范格式，用于向编码代理描述视觉身份，使代理能够持续、结构化地理解设计系统。",
+              "insightLabel": "补充",
+              "insightText": "语言：TypeScript；Stars：17,149",
+              "sourceFeedItemIds": [
+                "feed_97f7e44fd3435f0ffc85c78b"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "flutter/flutter",
+              "summary": "Flutter 是 Google 的跨平台 UI 框架，支持从单一代码库构建移动、网页和桌面应用。",
+              "insightLabel": "补充",
+              "insightText": "语言：Dart；Stars：177,249",
+              "sourceFeedItemIds": [
+                "feed_371c3caf6190e1471d20d58b"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "kunchenguid/no-mistakes",
+              "summary": "No-mistakes 是一个用 Go 编写的本地 Git 代理工具，在推送前自动运行 AI 驱动的验证流水线，确保代码无误后自动创建 PR。",
+              "insightLabel": "补充",
+              "insightText": "语言: Go；Stars: 1,926",
+              "sourceFeedItemIds": [
+                "feed_698a892268adbb20494f8a9e"
+              ],
+              "confidence": 72
+            },
+            {
+              "title": "interviewstreet/hiring-agent",
+              "summary": "一个 AI 驱动的简历评分开源项目，通过解析 PDF 简历并整合 GitHub 信号生成客观、可解释的评估。",
+              "insightLabel": "补充",
+              "insightText": "语言：Python；Stars: 2,054",
+              "sourceFeedItemIds": [
+                "feed_9cc774418dada5d9984bf8ec"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "重点变化",
+          "items": [
+            {
+              "title": "microsoft/presidio",
+              "summary": "Presidio 是一个微软开源的敏感数据检测与去标识化框架，支持文本、图像和结构化数据中的 PII 识别、脱敏和匿名化，提供 NLP 和模式匹配能力。",
+              "insightLabel": "补充",
+              "insightText": "语言：Python；Stars：9,573",
+              "sourceFeedItemIds": [
+                "feed_6d14ba62d5b303969888595a"
+              ],
+              "confidence": 75
+            },
+            {
+              "title": "andreknieriem/headunit-revived",
+              "summary": "Headunit Revived 是一个 Kotlin 编写的开源 Android 应用，能将安卓平板或手机变成 Android Auto 接收器，支持有线和无线连接。",
+              "insightLabel": "补充",
+              "insightText": "语言: Kotlin；Stars: 1,391",
+              "sourceFeedItemIds": [
+                "feed_4e0ac8c678b3f167d87e00b8"
+              ],
+              "confidence": 60
+            }
+          ]
+        },
+        {
+          "title": "其他值得看",
+          "items": [
+            {
+              "title": "Flowseal/zapret-discord-youtube",
+              "summary": "Flowseal/zapret-discord-youtube 是一个用于绕过对 Discord 和 YouTube 等服务的网络封锁的工具，基于 Batchfile 编写。",
+              "insightLabel": "补充",
+              "insightText": "语言: Batchfile；Stars: 30,012",
+              "sourceFeedItemIds": [
+                "feed_deed3c50de60b051e24ff214"
+              ],
+              "confidence": 75
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_3d8e639ac372f931fb5b3148",
+        "feed_deed3c50de60b051e24ff214",
+        "feed_97f7e44fd3435f0ffc85c78b",
+        "feed_6d14ba62d5b303969888595a",
+        "feed_371c3caf6190e1471d20d58b",
+        "feed_698a892268adbb20494f8a9e",
+        "feed_9cc774418dada5d9984bf8ec",
+        "feed_4e0ac8c678b3f167d87e00b8"
+      ],
+      "generatedAt": "2026-06-25T16:29:46.324Z",
+      "model": "deterministic-v4",
+      "raw": {
+        "sourceCoverage": {
+          "GitHub Trending": 8
+        }
+      }
+    }
+  ],
+  "generatedAt": "2026-07-02T04:14:52.909Z",
+  "sourceBaseUrl": "https://hot.kyangc.net"
+}
