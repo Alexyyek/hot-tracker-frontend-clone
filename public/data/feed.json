@@ -1,6 +1,119 @@
 {
   "items": [
     {
+      "id": "feed_5ac15158d3badcbad80a570c",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_cc353cbeb9e8d2cf0fa76212"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Microsoft 成立“Frontier Company”，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
+      "summary": "Microsoft 新设业务部门“Frontier Company”，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，“共同设计、共同创新、部署并持续改进 AI 系统”。该部门由 Rodrigo Kede Lima 领导，旨在超越“前部署工程”模式，成为“最大、以结果为导向的工程组织”。Microsoft 将自己定位为 OpenAI 和 Anthropic 的“平台中立”替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
+      "importanceScore": 78,
+      "whyItMatters": "微软砸 25 亿美元成立 Frontier Company，把 6000 名工程师直接塞进企业客户现场，正面应战 OpenAI 和 Anthropic 的部署子公司。这一手既是补齐落地能力也是巩固生态，对 CIO 来说是选择多了，但对 AI 行业意味着部署军备竞赛正式开打。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Anthropic",
+        "Microsoft",
+        "OpenAI",
+        "行业动态",
+        "部署/工程"
+      ],
+      "sourceName": "The Decoder：AI News（RSS）",
+      "sourceUrl": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
+      "publishedAt": "2026-07-02T19:18:29.000Z",
+      "observedAt": "2026-07-02T19:48:59.386Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr3wzycy008tslnxrw3opnfn",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "The Decoder：AI News（RSS）"
+        ],
+        "sampledSourceName": "The Decoder：AI News（RSS）",
+        "originalSourceName": "The Decoder：AI News（RSS）"
+      },
+      "sourceIconHostname": "the-decoder.com"
+    },
+    {
+      "id": "feed_327046faaedc4c4b321b6669",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_5f1825b81698dfa2180fd9bd"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Claude Enterprise 新增用量与成本分析及支出管控功能",
+      "summary": "Claude Enterprise 推出更丰富的管理分析工具和成本控制功能。仪表板现可按群组和用户分析用量与成本，支持按 SCIM 群组筛选，展示制品创建、文件编辑、技能和连接器对应的成本。Claude Code 管理控制台新增“使用量”和“价值”选项卡，分别显示活跃开发者、会话次数、常用命令，以及生产力提升估算、每次提交成本和年度价值估算。分析聊天支持自然语言查询并返回可导出图表。Analytics API 可将数据接入 Datadog Cloud Cost Management 和 CloudZero。管理员可设置模型默认和权限控制，并配置组织级支出限额的 75%、90% 告警通知；用户在 75% 和 95% 时收到应用内提醒。Admin API 支持自动审批额度增加、标记接近限额用户及快速变化的用量。",
+      "importanceScore": 61,
+      "whyItMatters": "企业版管理员终于有了按群组和用户的成本明细、模型权限和花费警告。我觉得规模化部署 Claude 的团队会很看重这些，尤其能把 Claude Code 的价值量化成 ROI，财务团队可以直接拉进现有系统，不是一次性噱头。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Anthropic",
+        "产品更新",
+        "部署/工程"
+      ],
+      "sourceName": "Claude",
+      "sourceUrl": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
+      "publishedAt": "2026-07-02T18:03:22.345Z",
+      "observedAt": "2026-07-02T18:10:04.394Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr3tce0201rwsl7lm25hjxbo",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "Claude：Blog（网页）"
+        ],
+        "sampledSourceName": "Claude",
+        "originalSourceName": "Claude：Blog（网页）"
+      },
+      "sourceHostname": "claude.com"
+    },
+    {
+      "id": "feed_fb5a7c4053231b43ffea11c6",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_eee08548dc0eb51f282795b9"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
+      "summary": "用 Fable 5 构建的鲁布·戈德堡机械，仅需 4.44 美元 👀\n提示词在此：https://www.reddit.com/r/openrouter/comments/1ulkilz/i_asked_claude_fable_5_to_build_a_rube_goldberg/",
+      "importanceScore": 68,
+      "whyItMatters": "一个好玩又有技术含量的玩法示范，Fable 5 配上精心调教的 prompt 把复杂机械动画成本压到几美元，做创意内容的可以直接抄作业。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "教程/实践"
+      ],
+      "sourceName": "X：OpenRouter (@OpenRouter)",
+      "sourceUrl": "https://x.com/OpenRouter/status/2072738704922439689",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/1682268668321726464/NEb6_n7n_normal.jpg",
+      "publishedAt": "2026-07-02T17:46:31.000Z",
+      "observedAt": "2026-07-02T18:10:04.394Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr3tdz1t01t0sl7lztwzlcaj",
+        "ingest_profile_id": "aihot_item_v1",
+        "image_url": "https://pbs.twimg.com/amplify_video_thumb/2072738047255568384/img/H_p4iDasXGVm82V6.jpg",
+        "image_type": "video",
+        "image_width": 550,
+        "image_height": 400,
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/1682268668321726464/NEb6_n7n_normal.jpg",
+        "key_facts": [],
+        "entities": [
+          "X：OpenRouter (@OpenRouter)"
+        ],
+        "sampledSourceName": "X：OpenRouter (@OpenRouter)",
+        "originalSourceName": "X：OpenRouter (@OpenRouter)"
+      }
+    },
+    {
       "id": "feed_819c0394318e5bb94fe9d140",
       "topicId": "ai",
       "sourceItemIds": [
@@ -393,41 +506,6 @@
         "sampledSourceName": "X：xAI (@xai)",
         "originalSourceName": "X：xAI (@xai)"
       }
-    },
-    {
-      "id": "feed_2c80ed252db4138c0c450e56",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_63c73b326bca747252158ffc"
-      ],
-      "documentIds": [],
-      "sourceKind": "website",
-      "title": "Claude Code 被曝内置隐蔽检测中国用户代码，Anthropic 已回滚",
-      "summary": "网友发现，Claude Code 从 2.1.91 版本起，通过系统提示词中的隐写术（比对时区、代理 URL 及中国 AI 实验室域名）秘密判别用户是否位于中国，结果通过不易察觉的格式差异传输。代码使用 XOR 加密（密钥 91）隐藏，未出现在发布说明中。发现者称此举“根本性违反用户信任”。Anthropic 员工解释这是 3 月启动的实验，旨在防止账户滥用和知识蒸馏，团队已合并回滚请求，次日版本完全移除。Anthropic 因国家安全原因未在中国提供模型，此前曾指控 DeepSeek、月之暗面、MiniMax 和阿里巴巴未经授权使用 Claude 输出训练模型。",
-      "importanceScore": 81,
-      "whyItMatters": "这不是技术漏洞，而是主动设计。如果你用 Claude Code 且在中国或通过代理，你的系统提示可能已被动了手脚。信任一旦被这样使用，修复比代码回滚难得多。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "Anthropic",
-        "行业动态"
-      ],
-      "sourceName": "The Decoder：AI News（RSS）",
-      "sourceUrl": "https://the-decoder.com/hidden-code-in-claude-code-secretly-flagged-chinese-users",
-      "publishedAt": "2026-07-01T11:27:06.000Z",
-      "observedAt": "2026-07-01T11:45:26.067Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmr207rcg03odsl8zgiwdnv4y",
-        "ingest_profile_id": "aihot_item_v1",
-        "key_facts": [],
-        "entities": [
-          "The Decoder：AI News（RSS）"
-        ],
-        "sampledSourceName": "The Decoder：AI News（RSS）",
-        "originalSourceName": "The Decoder：AI News（RSS）"
-      },
-      "sourceIconHostname": "the-decoder.com"
     },
     {
       "id": "feed_3400d2beca4c1443d691622f",
@@ -923,44 +1001,6 @@
       }
     },
     {
-      "id": "feed_dbee3bf3e09233a991872897",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_f905a418bcac489043a6087e"
-      ],
-      "documentIds": [],
-      "sourceKind": "website",
-      "title": "Claude Code 入门：智能体循环",
-      "summary": "Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 `/goal` 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 `/loop` 按时间间隔重复执行，可用 `/schedule` 移至云端）、以及 proactive 循环（基于事件或计划自动运行，无人实时参与）。文章还介绍了如何编写 SKILL.md 文件将人工验证步骤编码，让 Claude 进行端到端自检，减少 turn-based 循环中的手动操作。",
-      "importanceScore": 72,
-      "whyItMatters": "Anthropic把agentic loops从模糊概念变成四种可复制的模式，附带SKILL.md和命令示例，Claude Code用户读完就能设计更自主的编码流程。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "Agent",
-        "Anthropic",
-        "MCP/工具调用",
-        "教程/实践",
-        "编码"
-      ],
-      "sourceName": "Claude",
-      "sourceUrl": "https://claude.com/blog/getting-started-with-loops",
-      "publishedAt": "2026-06-30T17:28:28.530Z",
-      "observedAt": "2026-06-30T17:30:47.523Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmr0x7y97001yslb3tyb8w4ce",
-        "ingest_profile_id": "aihot_item_v1",
-        "key_facts": [],
-        "entities": [
-          "Claude：Blog（网页）"
-        ],
-        "sampledSourceName": "Claude",
-        "originalSourceName": "Claude：Blog（网页）"
-      },
-      "sourceHostname": "claude.com"
-    },
-    {
       "id": "feed_ec689cd44b2e63903f3c42c8",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1179,7 +1219,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T10:54:16Z",
-      "observedAt": "2026-07-02T06:52:04.972Z",
+      "observedAt": "2026-07-02T19:51:28.458Z",
       "raw": {
         "arxivId": "2606.31478",
         "authors": [
@@ -1254,7 +1294,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T07:44:37Z",
-      "observedAt": "2026-07-02T06:52:04.972Z",
+      "observedAt": "2026-07-02T19:51:28.459Z",
       "raw": {
         "arxivId": "2606.31270",
         "authors": [
@@ -1441,7 +1481,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T01:46:26Z",
-      "observedAt": "2026-07-02T06:52:04.972Z",
+      "observedAt": "2026-07-02T19:51:28.459Z",
       "raw": {
         "arxivId": "2607.00053",
         "authors": [
@@ -1604,7 +1644,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T17:50:54Z",
-      "observedAt": "2026-07-02T06:52:04.972Z",
+      "observedAt": "2026-07-02T19:51:28.459Z",
       "raw": {
         "arxivId": "2606.30616",
         "authors": [
@@ -1644,7 +1684,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T12:56:08Z",
-      "observedAt": "2026-07-02T06:52:04.972Z",
+      "observedAt": "2026-07-02T19:51:28.459Z",
       "raw": {
         "arxivId": "2606.30246",
         "authors": [
@@ -1797,7 +1837,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T06:02:20Z",
-      "observedAt": "2026-07-02T06:52:04.972Z",
+      "observedAt": "2026-07-02T19:51:28.459Z",
       "raw": {
         "arxivId": "2606.29823",
         "authors": [
@@ -1837,7 +1877,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T02:52:50Z",
-      "observedAt": "2026-07-02T06:52:04.972Z",
+      "observedAt": "2026-07-02T19:51:28.459Z",
       "raw": {
         "arxivId": "2606.29717",
         "authors": [
@@ -1908,7 +1948,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-28T18:30:46Z",
-      "observedAt": "2026-07-02T06:52:04.973Z",
+      "observedAt": "2026-07-02T19:51:28.459Z",
       "raw": {
         "arxivId": "2607.00038",
         "authors": [
@@ -3623,46 +3663,6 @@
         "originalSourceName": "Qwen：Blog Retrieval（API）"
       },
       "sourceIconHostname": "qwen.ai"
-    },
-    {
-      "id": "feed_ed17a3dc33403dfc3c158176",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_c5b6d4ad6c0201b6653fd891"
-      ],
-      "documentIds": [],
-      "sourceKind": "x",
-      "title": "OpenRouter新增免费模型gpt-oss-20b和Gemma4 26B",
-      "summary": "OpenRouter 上新增免费容量，由 @eigenlabs 的 Darkbloom 提供：gpt-oss-20b 和 Gemma 4 26B。\n今天就开始使用这些模型吧 ↓",
-      "importanceScore": 65,
-      "whyItMatters": "OpenRouter 免费层加了两个模型，其中一个名字暗示 Gemma 4，如果属实值得一看，否则就是一次普通的容量扩充，但对经常薅免费 API 的开发者来说多了选择。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "产品更新",
-        "部署/工程"
-      ],
-      "sourceName": "X：OpenRouter (@OpenRouter)",
-      "sourceUrl": "https://x.com/OpenRouter/status/2066585705581797616",
-      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/1682268668321726464/NEb6_n7n_normal.jpg",
-      "publishedAt": "2026-06-15T18:16:42.000Z",
-      "observedAt": "2026-06-15T18:49:20.103Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmqfjwkcg00nsslq8hl0hy4hc",
-        "ingest_profile_id": "aihot_item_v1",
-        "image_url": "https://pbs.twimg.com/media/HK38v30aAAAgtwV.png",
-        "image_type": "photo",
-        "image_width": 760,
-        "image_height": 826,
-        "source_avatar_url": "https://pbs.twimg.com/profile_images/1682268668321726464/NEb6_n7n_normal.jpg",
-        "key_facts": [],
-        "entities": [
-          "X：OpenRouter (@OpenRouter)"
-        ],
-        "sampledSourceName": "X：OpenRouter (@OpenRouter)",
-        "originalSourceName": "X：OpenRouter (@OpenRouter)"
-      }
     },
     {
       "id": "feed_40ea942784b46270c274f51c",
@@ -8525,8 +8525,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_42fb74c2ac07df4621f82130%22%2C%22importanceScore%22%3A68%2C%22observedAt%22%3A%222026-07-01T17%3A40%3A03.166Z%22%2C%22publishedAt%22%3A%222026-07-01T17%3A17%3A56.374Z%22%7D",
+  "nextCursor": "%7B%22id%22%3A%22feed_90f6317db64fd0dd33ae8bbb%22%2C%22importanceScore%22%3A85%2C%22observedAt%22%3A%222026-07-01T22%3A36%3A06.671Z%22%2C%22publishedAt%22%3A%222026-07-01T22%3A23%3A25.000Z%22%7D",
   "total": 226,
-  "generatedAt": "2026-07-02T17:40:47.800Z",
+  "generatedAt": "2026-07-02T19:51:28.469Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }
