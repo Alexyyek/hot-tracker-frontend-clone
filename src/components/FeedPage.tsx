@@ -32,7 +32,7 @@ const baseQuery: FeedQuery = {
   total: "none"
 };
 
-const realtimeRefreshMs = 5 * 60_000;
+const realtimeRefreshMs = 30 * 60_000;
 
 export function FeedPage({
   initialItems,
@@ -369,8 +369,8 @@ function RealtimeStatus({
     return (
       <div className="realtime-status">
         {isStaticDataMode()
-          ? "静态站点由 GitHub Actions 定时采集，页面每 5 分钟自动读取最新快照。"
-          : "实时更新已开启，每 5 分钟自动拉取最新动态。"}
+          ? "静态站点由 GitHub Actions 定时采集，页面每 30 分钟自动读取最新快照。"
+          : "实时更新已开启，每 30 分钟自动拉取最新动态。"}
       </div>
     );
   }
