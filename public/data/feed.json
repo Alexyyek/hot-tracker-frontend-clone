@@ -1,6 +1,47 @@
 {
   "items": [
     {
+      "id": "feed_70999f42eefdb3d5873a17a6",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_fbec0a191853e04a81699f80"
+      ],
+      "documentIds": [],
+      "sourceKind": "x",
+      "title": "Wan Video 推出“音乐伴舞”新功能",
+      "summary": "Wan Video 新功能：**音乐伴舞** 💃  \n上传一个角色，添加一首歌曲，让 Wan Video 生成与节奏同步的舞蹈视频。  \n可用舞种：  \n• 街舞  \n• 踢踏舞  \n• 拉丁舞  \n• K-Pop  \n• 中国古典舞  \n从节拍至动作，你的角色随音乐起舞。  \n\n前往 wan.video 体验音乐伴舞 👉 https://int.alibabacloud.com/m/1000412428/",
+      "importanceScore": 77,
+      "whyItMatters": "阿里云给 Wan Video 加了个音乐到舞蹈的功能，上传角色和歌曲就能直接生成一段节奏同步的舞蹈视频，对做短视频的人算是个新玩具，可以拿来玩玩看效果。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "产品更新",
+        "多模态",
+        "视频"
+      ],
+      "sourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+      "sourceUrl": "https://x.com/alibaba_cloud/status/2072967570441834771",
+      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/2049406152564461568/0-ZrbCS9_normal.jpg",
+      "publishedAt": "2026-07-03T08:55:57.000Z",
+      "observedAt": "2026-07-03T09:23:27.018Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr4psupf03zwsll57yggswsf",
+        "ingest_profile_id": "aihot_item_v1",
+        "image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2072967548056834048/pu/img/vcYEgVnJcFjKy0GA.jpg",
+        "image_type": "video",
+        "image_width": 1280,
+        "image_height": 720,
+        "source_avatar_url": "https://pbs.twimg.com/profile_images/2049406152564461568/0-ZrbCS9_normal.jpg",
+        "key_facts": [],
+        "entities": [
+          "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
+        ],
+        "sampledSourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+        "originalSourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
+      }
+    },
+    {
       "id": "feed_ad463b46824fbae8c971fb34",
       "topicId": "ai",
       "sourceItemIds": [
@@ -146,6 +187,41 @@
         ],
         "sampledSourceName": "X：OpenRouter (@OpenRouter)",
         "originalSourceName": "X：OpenRouter (@OpenRouter)"
+      }
+    },
+    {
+      "id": "arxiv_agent_harness_2607.02329",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "2607.02329"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics",
+      "summary": "Autonomous-research agents have demonstrated end-to-end LLM automation in machine-learning sandboxes where execution provides calibration. Frontier physical science differs categorically: physical reasoning underlies every methodology choice, toolchains are often underdocumented, and calibration must come from external literature anchors - which unscaffolded agents cite but do not confront, hallucinating plausible, unverifiable results from internal priors. We present a pipeline that runs end-to-end from a corpus of 11,083 recent condensed-matter physics arXiv papers to a publication-grade manuscript with three substantive physics findings (here on altermagnetic piezomagnetism): the agent autonomously conceives a research direction by mapping the corpus, calibrates methodology by reproducing published references, conducts novel first-principles computations, and writes the manuscript - g",
+      "importanceScore": 86,
+      "whyItMatters": "这篇聚焦「Grounded autonomous research: a fault-tol…」，摘要里讨论的 agent 机制可作为 Auto-Research / Harness 能力建设的补充信号。",
+      "actionText": "结合摘要中的「Autonomous-research agents have demonstrated end-to-e…」做一次小样本复盘，判断是否值得进入团队技术雷达。",
+      "watchText": "作者：Haonan Huang",
+      "tags": [
+        "Agent",
+        "Auto-Research",
+        "Harness",
+        "论文/研究",
+        "评测/基准"
+      ],
+      "sourceName": "arXiv：Agent Harness / Auto-Research",
+      "sourceUrl": "http://arxiv.org/abs/2607.02329v1",
+      "sourceHostname": "arxiv.org",
+      "sourceIconHostname": "arxiv.org",
+      "publishedAt": "2026-07-02T15:35:41Z",
+      "observedAt": "2026-07-03T09:44:28.506Z",
+      "raw": {
+        "arxivId": "2607.02329",
+        "authors": [
+          "Haonan Huang"
+        ],
+        "source": "arxiv"
       }
     },
     {
@@ -1324,7 +1400,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T10:54:16Z",
-      "observedAt": "2026-07-03T01:20:29.623Z",
+      "observedAt": "2026-07-03T09:44:28.507Z",
       "raw": {
         "arxivId": "2606.31478",
         "authors": [
@@ -1399,7 +1475,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T07:44:37Z",
-      "observedAt": "2026-07-03T01:20:29.623Z",
+      "observedAt": "2026-07-03T09:44:28.507Z",
       "raw": {
         "arxivId": "2606.31270",
         "authors": [
@@ -1552,7 +1628,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T01:46:26Z",
-      "observedAt": "2026-07-03T01:20:29.623Z",
+      "observedAt": "2026-07-03T09:44:28.507Z",
       "raw": {
         "arxivId": "2607.00053",
         "authors": [
@@ -1715,7 +1791,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T17:50:54Z",
-      "observedAt": "2026-07-03T01:20:29.623Z",
+      "observedAt": "2026-07-03T09:44:28.507Z",
       "raw": {
         "arxivId": "2606.30616",
         "authors": [
@@ -1755,7 +1831,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T12:56:08Z",
-      "observedAt": "2026-07-03T01:20:29.624Z",
+      "observedAt": "2026-07-03T09:44:28.507Z",
       "raw": {
         "arxivId": "2606.30246",
         "authors": [
@@ -1908,7 +1984,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T06:02:20Z",
-      "observedAt": "2026-07-03T01:20:29.624Z",
+      "observedAt": "2026-07-03T09:44:28.507Z",
       "raw": {
         "arxivId": "2606.29823",
         "authors": [
@@ -1948,47 +2024,12 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T02:52:50Z",
-      "observedAt": "2026-07-03T01:20:29.624Z",
+      "observedAt": "2026-07-03T09:44:28.507Z",
       "raw": {
         "arxivId": "2606.29717",
         "authors": [
           "Chenmu Zhang",
           "Boris I. Yakobson"
-        ],
-        "source": "arxiv"
-      }
-    },
-    {
-      "id": "arxiv_agent_harness_2607.00038",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "2607.00038"
-      ],
-      "documentIds": [],
-      "sourceKind": "website",
-      "title": "Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting",
-      "summary": "In mid-2026 a slogan reorganized how practitioners talk about coding agents: stop prompting your agent, start designing the loop that prompts it. We take this claim seriously and give it a careful treatment. We call the object of the new practice the loop specification: a bounded, reusable artifact, made of a trigger, a goal, a verification step, a stopping rule and a memory, that a human hands to an agent harness (such as Claude Code or Codex) so the agent pursues a goal on its own, in place of step-by-step prompting. We distinguish this external loop specification from two things it is often confused with: an ordinary programming loop, and the internal perceive-act-observe cycle that the harness already provides as plumbing. We position loop engineering as a new layer in the progression from prompt to context to harness to loop, and we argue, against the stronger headlines, that it doe",
-      "importanceScore": 86,
-      "whyItMatters": "这篇把重点从一步步提示 agent 转向工程化 loop，本质是在讲如何把人工驱动开发升级为可重复执行的 Agent Harness。",
-      "actionText": "提炼其中的 loop 设计原则，沉淀到需求迁移、代码开发、验证上线和问题诊断的自动化闭环里。",
-      "watchText": "作者：Sandeco Macedo",
-      "tags": [
-        "Agent",
-        "Auto-Research",
-        "Harness",
-        "论文/研究",
-        "评测/基准"
-      ],
-      "sourceName": "arXiv：Agent Harness / Auto-Research",
-      "sourceUrl": "http://arxiv.org/abs/2607.00038v1",
-      "sourceHostname": "arxiv.org",
-      "sourceIconHostname": "arxiv.org",
-      "publishedAt": "2026-06-28T18:30:46Z",
-      "observedAt": "2026-07-03T01:20:29.624Z",
-      "raw": {
-        "arxivId": "2607.00038",
-        "authors": [
-          "Sandeco Macedo"
         ],
         "source": "arxiv"
       }
@@ -4907,47 +4948,6 @@
         ],
         "sampledSourceName": "公众号：可灵AI（快手·视频）",
         "originalSourceName": "公众号：可灵AI（快手·视频）"
-      }
-    },
-    {
-      "id": "feed_7fa80e75304d464ac0d16b2a",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_00a52469002532243f871a65"
-      ],
-      "documentIds": [],
-      "sourceKind": "x",
-      "title": "阿里云在马来西亚柔佛推新区域",
-      "summary": "阿里云在马来西亚柔佛州推出了一个新的公有云区域，包含两个新数据中心，以满足今年下半年马来西亚对云和AI服务日益增长的需求，包括AgentRun、STAROps、ACS Agent Sandbox、Agent Security Center、AI Security Guardrails 2.0和Agentic SOC。https://int.alibabacloud.com/m/1000414242/",
-      "importanceScore": 67,
-      "whyItMatters": "阿里云在马来西亚的新区域是常规扩张，但随区带来的 AgentRun 和 Agent Sandbox 等服务列表，对东南亚做 AI 代理的团队是个可跟的信号。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "Agent",
-        "行业动态",
-        "部署/工程"
-      ],
-      "sourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-      "sourceUrl": "https://x.com/alibaba_cloud/status/2064288633188708411",
-      "sourceAvatarUrl": "https://pbs.twimg.com/profile_images/2049406152564461568/0-ZrbCS9_normal.jpg",
-      "publishedAt": "2026-06-09T10:08:57.000Z",
-      "observedAt": "2026-06-09T10:37:58.877Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmq6hl0ya08ixsl5ik0w4p6zg",
-        "ingest_profile_id": "aihot_item_v1",
-        "image_url": "https://pbs.twimg.com/media/HKXTkmXWIAAfFg3.jpg",
-        "image_type": "photo",
-        "image_width": 2560,
-        "image_height": 1705,
-        "source_avatar_url": "https://pbs.twimg.com/profile_images/2049406152564461568/0-ZrbCS9_normal.jpg",
-        "key_facts": [],
-        "entities": [
-          "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
-        ],
-        "sampledSourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-        "originalSourceName": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
       }
     },
     {
@@ -8526,8 +8526,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_624f1406eefff94380d96d55%22%2C%22importanceScore%22%3A70%2C%22observedAt%22%3A%222026-07-02T10%3A19%3A51.869Z%22%2C%22publishedAt%22%3A%222026-07-02T09%3A10%3A36.000Z%22%7D",
+  "nextCursor": "%7B%22id%22%3A%22feed_ec5389f320ae3566da0ad71e%22%2C%22importanceScore%22%3A80%2C%22observedAt%22%3A%222026-07-02T12%3A35%3A53.065Z%22%2C%22publishedAt%22%3A%222026-07-02T12%3A00%3A58.000Z%22%7D",
   "total": 226,
-  "generatedAt": "2026-07-03T05:03:01.070Z",
+  "generatedAt": "2026-07-03T09:44:28.519Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }
