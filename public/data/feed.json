@@ -392,6 +392,76 @@
       }
     },
     {
+      "id": "feed_e07918fe1ea81e881e92a486",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_6e9f703fcdeae4b79b9a75ae"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "表示分布匹配（RDM）用于一步视觉生成",
+      "summary": "表示分布匹配（RDM）通过匹配冻结预训练编码器下的生成与参考特征分布来训练一步图像生成器。三个发现：经典MMD正确估计后成为可扩展目标；生成批次大小最优超过2048；单一表示可被欺骗，需匹配平衡编码器组合并采用独立于训练损失的SW_r14评估。改进的iRDM在ImageNet上以SW_r14 1.30达一步生成SOTA，PickScore在71.2%样本上偏好iRDM。该方法将四步FLUX.2后训练为一步生成器，在GenEval（0.826对0.794）和PickScore（22.76对22.58）上超越原版，仅需90 H200 GPU小时。",
+      "importanceScore": 74,
+      "whyItMatters": "这篇论文把MMD重新变成了一流的一步生成目标，用多编码器匹配防止作弊，并把FLUX.2四步模型浓缩成一步，性能不降反升，90 GPU小时就能复现，做视觉生成的人应该仔细看。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "图像生成",
+        "论文/研究"
+      ],
+      "sourceName": "HuggingFace Daily Papers（社区热门论文）",
+      "sourceUrl": "https://arxiv.org/abs/2607.02375",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "observedAt": "2026-07-03T03:47:22.237Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr4dqzbq00uksll5xkxyo3nw",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "HuggingFace Daily Papers（社区热门论文）"
+        ],
+        "sampledSourceName": "HuggingFace Daily Papers（社区热门论文）",
+        "originalSourceName": "HuggingFace Daily Papers（社区热门论文）"
+      }
+    },
+    {
+      "id": "feed_1915bcf07c3fe9b51caa1a20",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_68036b96755b49aa1c5b8077"
+      ],
+      "documentIds": [],
+      "sourceKind": "website",
+      "title": "Program-as-Weights：一种面向模糊函数的编程范式",
+      "summary": "Program-as-Weights (PAW) 提出模糊函数编程范式，将自然语言描述的函数编译为紧凑、可本地执行的神经制品。PAW 使用在 10M 示例数据集 FuzzyBench 上训练的 4B 编译器，为冻结的轻量级解释器输出参数高效适配器。0.6B 的 Qwen3 解释器执行 PAW 程序性能匹敌直接提示 Qwen3-32B，推理内存仅约五十分之一，在 MacBook M3 上达 30 tokens/s。该方法将基础模型从每次输入的求解器重新定义为工具构建器，一次函数定义后生成的制品可离线廉价复用。",
+      "importanceScore": 74,
+      "whyItMatters": "这篇论文把模糊任务从调用大模型API变成了本地轻量函数，0.6B就能跑赢32B，省掉几十倍成本。对需要处理日志、JSON修复等经常性模糊任务的开发者是个真信号。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "推理",
+        "数据/训练",
+        "论文/研究",
+        "部署/工程"
+      ],
+      "sourceName": "HuggingFace Daily Papers（社区热门论文）",
+      "sourceUrl": "https://arxiv.org/abs/2607.02512",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "observedAt": "2026-07-03T02:41:46.997Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr4blm3e00amsll5l19jk6ce",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "HuggingFace Daily Papers（社区热门论文）"
+        ],
+        "sampledSourceName": "HuggingFace Daily Papers（社区热门论文）",
+        "originalSourceName": "HuggingFace Daily Papers（社区热门论文）"
+      }
+    },
+    {
       "id": "feed_42fb74c2ac07df4621f82130",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1889,41 +1959,6 @@
       }
     },
     {
-      "id": "feed_9b98397dfef4d361ef22e1e2",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_a8161c39a0c5e4bf98969fe6"
-      ],
-      "documentIds": [],
-      "sourceKind": "website",
-      "title": "Agents-A1：35B MoE 智能体模型通过扩展 horizon 达到万亿参数级性能",
-      "summary": "研究人员提出 Agents-A1，一个 35B 参数的 Mixture-of-Experts 智能体模型，通过扩展智能体 horizon（长轨迹与异构能力两个视角）达到万亿参数模型性能。团队构建了长 horizon 知识-行动基础设施，生成平均 45K token 的智能体轨迹，并采用三阶段训练：全领域监督微调、领域级教师模型训练、多教师领域路由在线蒸馏（含显著词汇对齐）。对比万亿参数模型 Kimi-K2.6 和 DeepSeek-V4-pro，Agents-A1 在 SEAL-0（56.4）、IFBench（80.6）、HiPhO（46.4）、FrontierScience-Olympiad（79.0）和 MolBench-Bind（56.8）上领先，并在 SciCode（44.3）、HLE（47.6）和 BrowseComp（75.5）上保持强竞争力。",
-      "importanceScore": 77,
-      "whyItMatters": "用35B模型追平1T参数模型，这条“扩展智能体视野”的路比无脑堆参数务实得多，做Agent和长程推理的团队必须认真读。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "Agent",
-        "推理",
-        "论文/研究"
-      ],
-      "sourceName": "HuggingFace Daily Papers（社区热门论文）",
-      "sourceUrl": "https://arxiv.org/abs/2606.30616",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "observedAt": "2026-06-30T03:42:27.774Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmr034hsc03fdslki184emljf",
-        "ingest_profile_id": "aihot_item_v1",
-        "key_facts": [],
-        "entities": [
-          "HuggingFace Daily Papers（社区热门论文）"
-        ],
-        "sampledSourceName": "HuggingFace Daily Papers（社区热门论文）",
-        "originalSourceName": "HuggingFace Daily Papers（社区热门论文）"
-      }
-    },
-    {
       "id": "arxiv_agent_harness_2607.00038",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1993,41 +2028,6 @@
         "originalSourceName": "Nathan Lambert：Interconnects（RSS）"
       },
       "sourceIconHostname": "interconnects.ai"
-    },
-    {
-      "id": "feed_08717bef60bfbd661a96607d",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_4c85cb26c745146403cf7066"
-      ],
-      "documentIds": [],
-      "sourceKind": "website",
-      "title": "OSWorld2.0：长时域真实世界计算机使用工作流基准",
-      "summary": "OSWorld2.0 发布，包含108个长时域计算机使用工作流，覆盖日常与专业任务。每项任务用户中位数约1.6小时完成，Claude Opus 4.7（最大思考）平均需318次工具调用（OSWorld 1.0约30次）。基准聚焦流交互、动态环境、跨源推理、隐式状态推断、视觉空间精度等真实挑战。任务基于真实输入工件和状态化用户档案，附安全报告。500步二元完成指标下，Claude Opus 4.8（最大思考+批量调用）得分最高仅20.6%（部分54.8%）；GPT-5.5更省token但约13%。结果表明当前智能体远未达专业级：瓶颈不在基本GUI控制或编码，而是丢失约束、错过中途信息、猜测而非询问、跳过验证，尤其依赖隐藏状态时最差。",
-      "importanceScore": 82,
-      "whyItMatters": "第一个真正长周期、真实工作流的计算机使用基准，结果显示当前最先进的 agent 仍不及格，关键短板不在 GUI 操作而在状态跟踪和验证，做 agent 的人必须读。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "Agent",
-        "论文/研究",
-        "评测/基准"
-      ],
-      "sourceName": "HuggingFace Daily Papers（社区热门论文）",
-      "sourceUrl": "https://arxiv.org/abs/2606.29537",
-      "publishedAt": "2026-06-28T00:00:00.000Z",
-      "observedAt": "2026-06-30T04:36:33.647Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmr059nvo0402slkikkryczay",
-        "ingest_profile_id": "aihot_item_v1",
-        "key_facts": [],
-        "entities": [
-          "HuggingFace Daily Papers（社区热门论文）"
-        ],
-        "sampledSourceName": "HuggingFace Daily Papers（社区热门论文）",
-        "originalSourceName": "HuggingFace Daily Papers（社区热门论文）"
-      }
     },
     {
       "id": "feed_8fbe203fcc104a3dec101b83",
@@ -8526,8 +8526,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_c41eb407e8d5555223a2e426%22%2C%22importanceScore%22%3A65%2C%22observedAt%22%3A%222026-07-02T06%3A20%3A28.936Z%22%2C%22publishedAt%22%3A%222026-07-02T03%3A51%3A58.000Z%22%7D",
+  "nextCursor": "%7B%22id%22%3A%22feed_624f1406eefff94380d96d55%22%2C%22importanceScore%22%3A70%2C%22observedAt%22%3A%222026-07-02T10%3A19%3A51.869Z%22%2C%22publishedAt%22%3A%222026-07-02T09%3A10%3A36.000Z%22%7D",
   "total": 226,
-  "generatedAt": "2026-07-03T01:20:29.634Z",
+  "generatedAt": "2026-07-03T05:03:01.070Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }
