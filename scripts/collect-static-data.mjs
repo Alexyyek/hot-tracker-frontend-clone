@@ -1,4 +1,5 @@
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 
 const sourceBaseUrl = process.env.HOT_TRACKER_API_BASE ?? "https://hot.kyangc.net";
@@ -7,9 +8,65 @@ const feedLimit = Number(process.env.FEED_LIMIT ?? 300);
 const dailyHistoryDays = Number(process.env.DAILY_HISTORY_DAYS ?? 14);
 const sourceSampleLimit = Number(process.env.SOURCE_SAMPLE_LIMIT ?? 2);
 const sourceSampleConcurrency = Number(process.env.SOURCE_SAMPLE_CONCURRENCY ?? 6);
+const weixinFallbackEnabled = process.env.WEIXIN_FALLBACK_ENABLED !== "0";
+const weixinFallbackLimitPerSource = Number(process.env.WEIXIN_FALLBACK_LIMIT_PER_SOURCE ?? 3);
+const weixinFallbackDelayMs = Number(process.env.WEIXIN_FALLBACK_DELAY_MS ?? 1200);
 const arxivSourceName = "arXiv：Agent Harness / Auto-Research";
 const arxivSourceHostname = "arxiv.org";
 const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "http://hot.aiscl.work/data/feed.json";
+
+const weixinFallbackSources = [
+  "公众号：PaperWeekly",
+  "公众号：机器学习实验室",
+  "公众号：智能涌现",
+  "公众号：高德技术",
+  "公众号：阿里技术",
+  "公众号：阿里云开发者",
+  "公众号：DataFunTalk",
+  "公众号：AI科技大本营",
+  "公众号：微软亚洲研究院"
+];
+
+const weixinFallbackQueryTerms = ["AI", "大模型", "Agent"];
+
+const weixinFallbackRelevanceTerms = [
+  "ai",
+  "agent",
+  "openai",
+  "claude",
+  "大模型",
+  "智能体",
+  "机器学习",
+  "深度学习",
+  "预训练",
+  "后训练",
+  "微调",
+  "推理",
+  "rag",
+  "评测",
+  "agent",
+  "auto-research",
+  "harness",
+  "ai native",
+  "研发",
+  "开发",
+  "工程",
+  "架构",
+  "推荐",
+  "排序",
+  "地址",
+  "轨迹",
+  "物流"
+];
+
+const weixinFallbackLowValueTerms = [
+  "招聘",
+  "内推",
+  "课程",
+  "训练营",
+  "报名",
+  "广告"
+];
 
 async function readAiSourceCatalog() {
   const source = await readFile("src/aiTopics.ts", "utf8");
@@ -65,6 +122,21 @@ async function fetchText(url) {
   return response.text();
 }
 
+async function fetchHtml(url) {
+  const response = await fetch(url, {
+    headers: {
+      Accept: "text/html,application/xhtml+xml",
+      "User-Agent": "Mozilla/5.0 (compatible; AI-Hot-Tracker-WeChat-Fallback/1.0)"
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`Request failed ${response.status}: ${url}`);
+  }
+
+  return response.text();
+}
+
 async function fetchAbsoluteJson(url) {
   const response = await fetch(url, {
     headers: {
@@ -106,6 +178,34 @@ function decodeXml(value = "") {
     .replace(/&#39;/g, "'")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function decodeHtml(value = "") {
+  return value
+    .replace(/<!--red_beg-->|<!--red_end-->/g, "")
+    .replace(/<script[\s\S]*?<\/script>/gi, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;|&ldquo;|&rdquo;/g, "\"")
+    .replace(/&middot;/g, "·")
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/<[^>]+>/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function stableHash(value) {
+  return createHash("sha1").update(value).digest("hex").slice(0, 24);
+}
+
+function absoluteSogouUrl(value = "") {
+  const decoded = decodeHtml(value);
+  if (!decoded) return "";
+  if (decoded.startsWith("//")) return `https:${decoded}`;
+  if (decoded.startsWith("/")) return `https://weixin.sogou.com${decoded}`;
+  return decoded;
 }
 
 function firstXmlValue(xml, tag) {
@@ -232,6 +332,132 @@ function buildArxivRecommendation(title, summary) {
   };
 }
 
+function sourceAccountName(sourceName) {
+  return sourceName.replace(/^公众号：/, "");
+}
+
+function includesAnyLower(value, terms) {
+  const normalized = value.toLowerCase();
+  return terms.some((term) => normalized.includes(term.toLowerCase()));
+}
+
+function parseSogouWeixinResults(html, sourceName, query) {
+  if (/验证码|请输入验证码|antispider|用户您好/.test(html)) {
+    throw new Error("Sogou anti-spider challenge");
+  }
+
+  const accountName = sourceAccountName(sourceName);
+  const blocks = html.split(/<li id="sogou_vr_11002601_box_\d+"/).slice(1);
+  const rows = [];
+
+  for (const block of blocks) {
+    const titleMatch = block.match(/<h3[^>]*>[\s\S]*?<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/h3>/i);
+    const title = decodeHtml(titleMatch?.[2] ?? "");
+    const sourceUrl = absoluteSogouUrl(titleMatch?.[1] ?? "");
+    const summary = decodeHtml(block.match(/<p class="txt-info"[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? "");
+    const resultAccountName = decodeHtml(block.match(/<span class="all-time-y2">([\s\S]*?)<\/span>/i)?.[1] ?? "");
+    const publishedUnix = Number(block.match(/timeConvert\('([^']+)'\)/)?.[1] ?? 0);
+    const imageUrl = absoluteSogouUrl(block.match(/<img[^>]*src="([^"]+)"/i)?.[1] ?? "");
+
+    if (!title || !sourceUrl || resultAccountName !== accountName || !publishedUnix) continue;
+
+    rows.push({
+      title,
+      summary,
+      sourceUrl,
+      imageUrl,
+      accountName: resultAccountName,
+      publishedAt: new Date(publishedUnix * 1000).toISOString(),
+      query
+    });
+  }
+
+  return rows;
+}
+
+function isRelevantWeixinFallback(row) {
+  const text = `${row.title} ${row.summary}`;
+  if (includesAnyLower(text, weixinFallbackLowValueTerms) && !includesAnyLower(text, ["大模型", "agent", "ai", "研发", "工程"])) {
+    return false;
+  }
+  return includesAnyLower(text, weixinFallbackRelevanceTerms);
+}
+
+function buildWeixinFallbackTags(row) {
+  const text = `${row.title} ${row.summary}`.toLowerCase();
+  const tags = ["微信", "AI"];
+  if (/大模型|llm|预训练|后训练|微调|推理/.test(text)) tags.push("大模型");
+  if (/agent|智能体|auto-research|harness|skill|工具调用/.test(text)) tags.push("Agent");
+  if (/研发|开发|工程|架构|框架|平台/.test(text)) tags.push("工程实践");
+  if (/论文|paper|研究/.test(text)) tags.push("论文/研究");
+  return [...new Set(tags)];
+}
+
+function buildWeixinFallbackRecommendation(row, sourceName) {
+  const text = `${row.title} ${row.summary}`.toLowerCase();
+  if (/agent|智能体|auto-research|harness|skill|工具调用/.test(text)) {
+    return {
+      whyItMatters: `来自${sourceName}的这篇文章命中 Agent/工具调用方向，可补充团队在 Agent Skill、Harness 和自动化研发闭环上的外部实践信号。`,
+      actionText: "重点看其中的任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。"
+    };
+  }
+  if (/大模型|llm|预训练|后训练|微调|推理|rag|评测/.test(text)) {
+    return {
+      whyItMatters: `来自${sourceName}的这篇文章命中大模型训练/推理/评测方向，可作为 CPT/SFT/RAG/RL 等能力持续优化的补充材料。`,
+      actionText: "关注其数据、训练、推理或评测设计，评估是否能沉淀到轨迹/地址大模型的训练推理架构。"
+    };
+  }
+  return {
+    whyItMatters: `来自${sourceName}的这篇文章命中 AI 技术关键词，可作为当前 OKR 技术雷达的补充信号。`,
+    actionText: "先快速判断它是否包含可复用的方法、架构或工程经验，再决定是否进入日报深读。"
+  };
+}
+
+function toWeixinFallbackItem(row, sourceName) {
+  const recommendation = buildWeixinFallbackRecommendation(row, sourceName);
+  return {
+    id: `weixin_fallback_${stableHash(`${sourceName}|${row.title}|${row.publishedAt}`)}`,
+    topicId: "ai",
+    sourceItemIds: [stableHash(row.sourceUrl)],
+    documentIds: [],
+    sourceKind: "weixin_article",
+    title: row.title,
+    summary: row.summary || `来自${sourceName}的搜狗微信搜索结果，查询词：${row.query}`,
+    importanceScore: /agent|auto-research|harness|大模型|预训练|后训练|推理|rag|评测/i.test(`${row.title} ${row.summary}`) ? 68 : 58,
+    whyItMatters: recommendation.whyItMatters,
+    actionText: recommendation.actionText,
+    watchText: "该条目来自独立微信 fallback 采集通道；如链接失效或结果不稳定，以公众号原文为准。",
+    tags: buildWeixinFallbackTags(row),
+    sourceName,
+    sourceUrl: row.sourceUrl,
+    sourceHostname: "weixin.sogou.com",
+    sourceIconHostname: "mp.weixin.qq.com",
+    thumbnailUrl: row.imageUrl || undefined,
+    imageUrl: row.imageUrl || undefined,
+    publishedAt: row.publishedAt,
+    observedAt: new Date().toISOString(),
+    raw: {
+      source: "sogou_weixin_fallback",
+      accountName: row.accountName,
+      query: row.query
+    }
+  };
+}
+
+function refreshCachedWeixinFallbackItem(item) {
+  return {
+    ...item,
+    topicId: "ai",
+    sourceKind: "weixin_article",
+    sourceIconHostname: item.sourceIconHostname ?? "mp.weixin.qq.com",
+    observedAt: new Date().toISOString(),
+    raw: {
+      ...(item.raw ?? {}),
+      reusedFromCache: true
+    }
+  };
+}
+
 function refreshArxivSupplementItem(item) {
   const recommendation = buildArxivRecommendation(item.title ?? "", item.summary ?? "");
   return {
@@ -264,6 +490,39 @@ async function readCachedArxivItemsFromDeployedFeed() {
     console.warn(`arxiv deployed fallback skipped (${error instanceof Error ? error.message : String(error)})`);
     return [];
   }
+}
+
+let cachedWeixinFallbackItemsPromise;
+
+async function readCachedWeixinFallbackItems() {
+  if (cachedWeixinFallbackItemsPromise) return cachedWeixinFallbackItemsPromise;
+
+  cachedWeixinFallbackItemsPromise = (async () => {
+    try {
+      const localFeed = JSON.parse(await readFile(path.join(outputRoot, "feed.json"), "utf8"));
+      const localItems = (localFeed.items ?? []).filter((item) => item.raw?.source === "sogou_weixin_fallback");
+      if (localItems.length > 0) return localItems;
+    } catch {
+      // Fall through to deployed fallback.
+    }
+
+    try {
+      const deployedFeed = await fetchAbsoluteJson(`${staticFeedFallbackUrl}?weixinFallback=${Date.now()}`);
+      return (deployedFeed.items ?? []).filter((item) => item.raw?.source === "sogou_weixin_fallback");
+    } catch (error) {
+      console.warn(`weixin fallback cache skipped (${error instanceof Error ? error.message : String(error)})`);
+      return [];
+    }
+  })();
+
+  return cachedWeixinFallbackItemsPromise;
+}
+
+async function cachedWeixinFallbackItemsForSource(sourceName) {
+  const cachedItems = await readCachedWeixinFallbackItems();
+  return cachedItems
+    .filter((item) => item.sourceName === sourceName)
+    .map(refreshCachedWeixinFallbackItem);
 }
 
 async function collectCachedArxivSupplements(reason) {
@@ -446,6 +705,82 @@ async function collectArxivSupplements() {
   }
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function collectWeixinFallbackForSource(sourceName) {
+  const byId = new Map();
+  const accountName = sourceAccountName(sourceName);
+  let freshCount = 0;
+
+  for (const term of weixinFallbackQueryTerms) {
+    const query = `${accountName} ${term}`;
+    const url = `https://weixin.sogou.com/weixin?type=2&ie=utf8&query=${encodeURIComponent(query)}`;
+    try {
+      const html = await fetchHtml(url);
+      const rows = parseSogouWeixinResults(html, sourceName, query)
+        .filter(isRelevantWeixinFallback)
+        .map((row) => toWeixinFallbackItem(row, sourceName));
+
+      for (const item of rows) {
+        byId.set(item.id, item);
+      }
+      freshCount += rows.length;
+    } catch (error) {
+      console.warn(`weixin fallback skipped query: ${query} (${error instanceof Error ? error.message : String(error)})`);
+      break;
+    }
+
+    await sleep(weixinFallbackDelayMs);
+  }
+
+  const cachedItems = await cachedWeixinFallbackItemsForSource(sourceName);
+  for (const item of cachedItems) {
+    if (!byId.has(item.id)) byId.set(item.id, item);
+  }
+
+  if (freshCount === 0 && cachedItems.length > 0) {
+    console.warn(`weixin fallback: reused ${Math.min(cachedItems.length, weixinFallbackLimitPerSource)} cached items for ${sourceName}`);
+  }
+
+  return [...byId.values()]
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, weixinFallbackLimitPerSource);
+}
+
+async function collectWeixinFallbackItems(catalogSourceNames, sourceFacets) {
+  if (!weixinFallbackEnabled) {
+    console.log("weixin fallback: disabled");
+    return { items: [], sourceFacets: [] };
+  }
+
+  const existingSourceCounts = new Map((sourceFacets ?? []).map((source) => [source.sourceName, source.count ?? 0]));
+  const targets = weixinFallbackSources.filter((sourceName) => (
+    catalogSourceNames.has(sourceName) && (existingSourceCounts.get(sourceName) ?? 0) === 0
+  ));
+
+  const items = [];
+  const facets = [];
+
+  for (const sourceName of targets) {
+    const sourceItems = await collectWeixinFallbackForSource(sourceName);
+    if (sourceItems.length > 0) {
+      items.push(...sourceItems);
+      facets.push({
+        sourceKind: "weixin_article",
+        sourceName,
+        sourceIconHostname: "mp.weixin.qq.com",
+        count: sourceItems.length,
+        updatedAt: sourceItems[0].publishedAt
+      });
+    }
+    console.log(`weixin fallback: ${sourceName} -> ${sourceItems.length} items`);
+  }
+
+  return { items, sourceFacets: facets };
+}
+
 async function collectSourceSamples(sources) {
   const collected = [];
   let checked = 0;
@@ -502,6 +837,7 @@ async function main() {
   const catalogHostnames = new Set(catalogSources.map((source) => source.sourceHostname).filter(Boolean));
   const sourceSamples = await collectSourceSamples(catalogSources);
   const arxivSupplements = await collectArxivSupplements();
+  const weixinFallback = await collectWeixinFallbackItems(catalogSourceNames, sources.items ?? []);
   if (arxivSupplements.items.length > 0) {
     catalogSourceNames.add(arxivSourceName);
     sources.items = [
@@ -516,10 +852,17 @@ async function main() {
       }
     ];
   }
+  if (weixinFallback.sourceFacets.length > 0) {
+    sources.items = [
+      ...sources.items,
+      ...weixinFallback.sourceFacets
+    ];
+  }
   const mergedFeedItems = mergeFeedItems(
     { items: filterCatalogFeedItems(feed.items, catalogSourceNames, catalogHostnames) },
     sourceSamples,
-    arxivSupplements
+    arxivSupplements,
+    weixinFallback
   );
   const rebuiltSources = rebuildSourceFacets(sources, mergedFeedItems, catalogSourceNames);
   await writeJson("sources.json", withMeta(rebuiltSources));
