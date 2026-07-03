@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "id": "feed_0497f08ac8c2e5f9009aff55",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_5aef8e4764525ccd3bdcd40c"
+      ],
+      "documentIds": [],
+      "sourceKind": "weixin_article",
+      "title": "面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+      "summary": "面壁智能发布全球首个完全由AI编写、无人类干预的生产级大模型预训练框架ForgeTrain。该框架针对特定模型和硬件从零自动“锻造”专用训练代码。基准测试显示，ForgeTrain在8小时内追平Megatron-LM，1.5至2天内实现稳定反超，模型FLOPS利用率提升约8%～10%，且可迁移至不同模型（MiniCPM4-0.5B/8B）和硬件（H100及昇腾NPU）。其采用四阶段Harness优化流程，全程自动判定。面壁智能将其工程思想概括为Forge Engineering。",
+      "importanceScore": 65,
+      "whyItMatters": "这是AI编写生产级训练框架的首个实证，8小时追平Megatron-LM并反超，证明AI打穿Infra的范式已到临界点，做训练框架和Infra的都该看看。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "产品更新",
+        "开源生态",
+        "部署/工程"
+      ],
+      "sourceName": "公众号：面壁智能（MiniCPM）",
+      "sourceUrl": "https://mp.weixin.qq.com/s/JVBbqU1O967ktzfEPuDERQ",
+      "publishedAt": "2026-07-03T09:12:17.000Z",
+      "observedAt": "2026-07-03T10:11:35.563Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr4righa04d8sll54465w8z3",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "公众号：面壁智能（MiniCPM）"
+        ],
+        "sampledSourceName": "公众号：面壁智能（MiniCPM）",
+        "originalSourceName": "公众号：面壁智能（MiniCPM）"
+      }
+    },
+    {
       "id": "feed_70999f42eefdb3d5873a17a6",
       "topicId": "ai",
       "sourceItemIds": [
@@ -6372,42 +6407,6 @@
       "sourceIconHostname": "minimax.io"
     },
     {
-      "id": "feed_d744a1a073e945d9d65001b0",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_062f4d97e5b199c6277ee8ad"
-      ],
-      "documentIds": [],
-      "sourceKind": "weixin_article",
-      "title": "面壁智能联合清华、OpenBMB开源最大中文预训练合成数据集及千万级SFT数据集，公开MiniCPM5‑1B核心数据",
-      "summary": "面壁智能联合清华大学、OpenBMB发布并开源两大数据集：Ultra-FineWeb-L3（超600B Tokens，中文200B+，为当前最大中文预训练合成数据集）和UltraData-SFT-2605（国内首个千万级同时含深思考与非思考标注的SFT数据集）。两者基于UltraData数据分级治理体系构建，在MiniCPM5-1B训练流程中得到完全验证，覆盖预训练退火到后训练SFT全链路。已上线UltraData网站与HuggingFace，免费开放。",
-      "importanceScore": 61,
-      "whyItMatters": "填补了中文大规模合成数据空白，三年前还在用英文数据做中文模型的日子可以翻篇了，做端侧模型的可以直接拿这份数据跑一版 MiniCPM5-1B 级别的效果。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "Hugging Face",
-        "开源/仓库",
-        "数据/训练",
-        "端侧"
-      ],
-      "sourceName": "公众号：面壁智能（MiniCPM）",
-      "sourceUrl": "https://mp.weixin.qq.com/s/c3NoR-BieTAF5GbcDSFSvg",
-      "publishedAt": "2026-05-29T03:35:00.000Z",
-      "observedAt": "2026-06-16T21:11:42.147Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmq2o64uw01fbsl6ns33miceg",
-        "ingest_profile_id": "aihot_item_v1",
-        "key_facts": [],
-        "entities": [
-          "公众号：面壁智能（MiniCPM）"
-        ],
-        "sampledSourceName": "公众号：面壁智能（MiniCPM）",
-        "originalSourceName": "公众号：面壁智能（MiniCPM）"
-      }
-    },
-    {
       "id": "feed_91dda062b9cac179b300c1ee",
       "topicId": "ai",
       "sourceItemIds": [
@@ -8526,8 +8525,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_ec5389f320ae3566da0ad71e%22%2C%22importanceScore%22%3A80%2C%22observedAt%22%3A%222026-07-02T12%3A35%3A53.065Z%22%2C%22publishedAt%22%3A%222026-07-02T12%3A00%3A58.000Z%22%7D",
+  "nextCursor": "%7B%22id%22%3A%22feed_3942fa2f15b484d094892b10%22%2C%22importanceScore%22%3A75%2C%22observedAt%22%3A%222026-07-02T16%3A49%3A40.051Z%22%2C%22publishedAt%22%3A%222026-07-02T16%3A24%3A50.000Z%22%7D",
   "total": 226,
-  "generatedAt": "2026-07-03T09:44:28.519Z",
+  "generatedAt": "2026-07-03T12:20:06.768Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }
