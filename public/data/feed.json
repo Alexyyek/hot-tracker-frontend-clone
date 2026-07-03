@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "id": "feed_ad463b46824fbae8c971fb34",
+      "topicId": "ai",
+      "sourceItemIds": [
+        "src_3c7231a906920c235b701e44"
+      ],
+      "documentIds": [],
+      "sourceKind": "weixin_article",
+      "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+      "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23:30 切换域名解析，10 分钟后 616 个海外请求走新线路。最终生成运维文档，提醒边缘证书 10 月 2 日到期并附续期步骤。",
+      "importanceScore": 62,
+      "whyItMatters": "Claude Fable 5 展示的自主性远超预期，从调研到工单交互一气呵成，这种执行力让我重新思考 AI 同事的定义。",
+      "actionText": "",
+      "watchText": "",
+      "tags": [
+        "Agent",
+        "Anthropic",
+        "大佬观点"
+      ],
+      "sourceName": "公众号：数字生命卡兹克",
+      "sourceUrl": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
+      "publishedAt": "2026-07-03T00:16:00.000Z",
+      "observedAt": "2026-07-03T00:42:29.767Z",
+      "raw": {
+        "analysis_version": 1,
+        "document_id": "aihot:cmr4768yq013qsl3g29wasjnp",
+        "ingest_profile_id": "aihot_item_v1",
+        "key_facts": [],
+        "entities": [
+          "公众号：数字生命卡兹克"
+        ],
+        "sampledSourceName": "公众号：数字生命卡兹克",
+        "originalSourceName": "公众号：数字生命卡兹克"
+      }
+    },
+    {
       "id": "feed_5ac15158d3badcbad80a570c",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1219,7 +1254,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T10:54:16Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.623Z",
       "raw": {
         "arxivId": "2606.31478",
         "authors": [
@@ -1294,7 +1329,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T07:44:37Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.623Z",
       "raw": {
         "arxivId": "2606.31270",
         "authors": [
@@ -1387,40 +1422,6 @@
       }
     },
     {
-      "id": "feed_105d0eb6fe903e3fa183bc24",
-      "topicId": "ai",
-      "sourceItemIds": [
-        "src_c48a1401ddf63b172cec2d3b"
-      ],
-      "documentIds": [],
-      "sourceKind": "weixin_article",
-      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集——穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集——徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
-      "importanceScore": 67,
-      "whyItMatters": "具身智能的数据采集正在催生一种日结兼职，这篇文章把镜头对准了那些教会机器人叠纸杯的普通人，给我一种强烈的割裂感——最前沿的技术和最传统的用工方式在这里合体了。",
-      "actionText": "",
-      "watchText": "",
-      "tags": [
-        "具身智能",
-        "现象/趋势"
-      ],
-      "sourceName": "公众号：数字生命卡兹克",
-      "sourceUrl": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "publishedAt": "2026-06-30T01:58:00.000Z",
-      "observedAt": "2026-06-30T02:20:45.615Z",
-      "raw": {
-        "analysis_version": 1,
-        "document_id": "aihot:cmr00f9t902pgslkiofzqdgx2",
-        "ingest_profile_id": "aihot_item_v1",
-        "key_facts": [],
-        "entities": [
-          "公众号：数字生命卡兹克"
-        ],
-        "sampledSourceName": "公众号：数字生命卡兹克",
-        "originalSourceName": "公众号：数字生命卡兹克"
-      }
-    },
-    {
       "id": "feed_2f60283ca2e5e554de5df34e",
       "topicId": "ai",
       "sourceItemIds": [
@@ -1481,7 +1482,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-30T01:46:26Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.623Z",
       "raw": {
         "arxivId": "2607.00053",
         "authors": [
@@ -1644,7 +1645,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T17:50:54Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.623Z",
       "raw": {
         "arxivId": "2606.30616",
         "authors": [
@@ -1684,7 +1685,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T12:56:08Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.624Z",
       "raw": {
         "arxivId": "2606.30246",
         "authors": [
@@ -1837,7 +1838,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T06:02:20Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.624Z",
       "raw": {
         "arxivId": "2606.29823",
         "authors": [
@@ -1877,7 +1878,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-29T02:52:50Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.624Z",
       "raw": {
         "arxivId": "2606.29717",
         "authors": [
@@ -1948,7 +1949,7 @@
       "sourceHostname": "arxiv.org",
       "sourceIconHostname": "arxiv.org",
       "publishedAt": "2026-06-28T18:30:46Z",
-      "observedAt": "2026-07-02T23:41:01.539Z",
+      "observedAt": "2026-07-03T01:20:29.624Z",
       "raw": {
         "arxivId": "2607.00038",
         "authors": [
@@ -8525,8 +8526,8 @@
       "sourceIconHostname": "lilianweng.github.io"
     }
   ],
-  "nextCursor": "%7B%22id%22%3A%22feed_1866c06b8e12c2a257dc807e%22%2C%22importanceScore%22%3A78%2C%22observedAt%22%3A%222026-07-02T03%3A35%3A25.201Z%22%2C%22publishedAt%22%3A%222026-07-02T02%3A15%3A07.000Z%22%7D",
+  "nextCursor": "%7B%22id%22%3A%22feed_c41eb407e8d5555223a2e426%22%2C%22importanceScore%22%3A65%2C%22observedAt%22%3A%222026-07-02T06%3A20%3A28.936Z%22%2C%22publishedAt%22%3A%222026-07-02T03%3A51%3A58.000Z%22%7D",
   "total": 226,
-  "generatedAt": "2026-07-02T23:41:01.549Z",
+  "generatedAt": "2026-07-03T01:20:29.634Z",
   "sourceBaseUrl": "https://hot.kyangc.net"
 }
