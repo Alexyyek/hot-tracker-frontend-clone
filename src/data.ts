@@ -1,6 +1,6 @@
 import type { AppData, FeedItem, FeedQuery, SourceFacet, Topic, TopicCount } from "./types";
 
-const publicAssetOrigin = "https://hot.kyangc.net";
+const publicAssetBase = import.meta.env.BASE_URL.replace(/\/$/, "");
 const beijingTimeZone = "Asia/Shanghai";
 
 function beijingDateParts(value: Date | string) {
@@ -202,7 +202,7 @@ function normalizeFeedImageUrl(value: string) {
 }
 
 function normalizePublicAssetUrl(value: string) {
-  if (value.startsWith("/")) return `${publicAssetOrigin}${value}`;
+  if (value.startsWith("/")) return `${publicAssetBase}${value}`;
   return value;
 }
 

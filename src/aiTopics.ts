@@ -58,7 +58,7 @@ const topicSourceNotes: Record<string, string> = {
   "ai-big-tech": "聚焦国内外大厂的大模型、Agent、AI Native、物流轨迹、地址理解、召排与多市场工程实践。"
 };
 
-// Copied from https://hot.kyangc.net/api/feed/sources on 2026-07-01.
+// Curated local source catalog for the static collector.
 // Add future sources here first; matching and source filters read from this catalog.
 export const aiTopicSourceCatalog = {
   "ai-industry": [

@@ -1,6 +1,6 @@
-# Hot Tracker Frontend Clone
+# AI Hot Tracker
 
-High-fidelity frontend clone of `https://hot.kyangc.net/`, built with React, TypeScript, and Vite.
+AI-focused hot tracker built with React, TypeScript, Vite, and a local static data collector.
 
 ## Quick Start
 
@@ -30,7 +30,7 @@ VITE_DATA_MODE=static npm run build
 npm run preview -- --host 127.0.0.1 --port 4174
 ```
 
-Local `npm run dev` still depends on the original Hot Tracker API through Vite proxy routes.
+Local `npm run dev` also reads `public/data`, so development and production use the same static snapshot path.
 
 ## GitHub Pages Deployment
 
@@ -44,7 +44,7 @@ The `public/CNAME` file is included so GitHub Pages publishes the site on that d
 
 This repository includes two GitHub Actions workflows:
 
-- `.github/workflows/update-data.yml` runs every 15 minutes and writes the latest API snapshot into `public/data`.
+- `.github/workflows/update-data.yml` runs every 30 minutes and writes the latest local collector snapshot into `public/data`.
 - `.github/workflows/deploy-pages.yml` builds the app and deploys `dist` to GitHub Pages.
 
 Before the first deployment:
@@ -55,14 +55,17 @@ Before the first deployment:
 4. Add the DNS record for `hot.aiscl.work` at your DNS provider.
 5. Run `Deploy GitHub Pages` manually once from the Actions tab.
 
-The deployed app is a static site. It refreshes by reading the latest committed JSON files, so content updates after the scheduled `Update Static Data` workflow completes. GitHub cron jobs can be delayed, so the 15-minute schedule is best-effort rather than exact real time.
+The deployed app is a static site. It refreshes by reading the latest committed JSON files, so content updates after the scheduled `Update Static Data` workflow completes. GitHub cron jobs can be delayed, so the 30-minute schedule is best-effort rather than exact real time.
 
 Useful environment variables:
 
 ```text
-HOT_TRACKER_API_BASE=https://hot.kyangc.net
-FEED_LIMIT=300
 DAILY_HISTORY_DAYS=14
+LOCAL_SOURCE_LIMIT_PER_SOURCE=4
+WEIXIN_FALLBACK_LIMIT_PER_SOURCE=3
+WEIXIN_QUERY_TERMS=AI
+STATIC_FEED_FALLBACK_URL=https://hot.aiscl.work/data/feed.json
+X_BEARER_TOKEN=
 BASE_PATH=/
 VITE_DATA_MODE=static
 ```
@@ -75,7 +78,7 @@ Run the screenshot and interaction audit against a local URL:
 LOCAL_URL=http://127.0.0.1:4174 npm run acceptance
 ```
 
-The audit captures original and local screenshots, checks key interactions, and writes results to:
+The audit captures reference and local screenshots, checks key interactions, and writes results to:
 
 ```text
 docs/audits/hot-tracker-final-acceptance-2026-07-01/
@@ -89,17 +92,11 @@ Covered states:
 - Mobile daily reader
 - Share page
 
-## API And Asset Proxy
+## Data Collection
 
-`vite.config.ts` proxies these original-site paths:
+`scripts/collect-static-data.mjs` reads the curated source catalog in `src/aiTopics.ts` and collects directly from RSS feeds, official webpages, arXiv, Sogou WeChat search, and optional X API credentials. It does not call the original Hot Tracker APIs.
 
-```text
-/api
-/source-avatars
-/feed-images
-```
-
-This keeps local development visually close to the live site by loading the same data, avatars, favicons, and feed images when available.
+When a direct source is temporarily unavailable, the collector may reuse the previous snapshot from `public/data/feed.json` or the deployed `hot.aiscl.work` static JSON as a same-project cache fallback.
 
 ## Notes
 

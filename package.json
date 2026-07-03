@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "VITE_DATA_MODE=static vite",
     "collect:data": "node scripts/collect-static-data.mjs",
+    "test:collector": "node --test scripts/test/local-collector.test.mjs",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "acceptance": "node scripts/acceptance-audit.mjs"

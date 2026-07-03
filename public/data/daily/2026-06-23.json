@@ -5,124 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-06-23",
       "title": "AI日报",
-      "mainLine": "今日 AI 动态优先看「GLM-5.2 开源模型发布：744B 参数，1M 上下文，可本地运行」，脉络集中在「模型与基础设施」「行业与公司」「产品与工具」；先分辨是能力变化、产品落地还是行业信号。",
-      "actionItems": [],
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师」、「\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
+      ],
       "watchItems": [
-        "GLM-5.2 开源模型发布：744B 参数，1M 上下文，可本地运行：Unsloth 这篇操作指南把 GLM-5.2 从「只能仰望」变成了「可以在自家 256GB Mac 上跑」，动态量化让 744B 参数模型降到了 239GB 磁盘占用，对想上手本地最强开源模型的人，这一步正好踩在从 curiosity 到可用的临界点上。",
-        "2026火山引擎FORCE大会发布Doubao-Seed-2.1系列，强化Coding与Agent能力：Seed 2.1 Pro 一口气把 Agent 和 Coding 拉到可战水平，加上长期领跑的多模态，成了罕见的「水桶型」模型。",
-        "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能：豆包 Seed 2.1 补齐了 Coding 和 Agent 两个最大短板，水桶级多模态能力让它终于能上桌竞争，虽然离 Claude 还差半个身位，但所有用豆包产品的开发者都值得重新评估。",
-        "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu：Sakana 把多智能体编排变成开箱即用的 API，性能宣称对标 Fable/Mythos，更关键的卖点是靠集体智能自然规避单一供应商出口管制。",
-        "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用：CUGA 把 agent 的规划、状态、策略等繁琐工程压缩成配置，开发者只写工具列表和 prompt 就能跑起 agent，配套的二十多个单文件应用是现成的模板库，对自建 agent 的团队来说省去了八成重复工作。",
-        "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认“最常见滥用”：调查揭露了多位警察局长滥用Flock车牌识别系统跟踪前伴侣，这种「合法工具变成私器」的模式，比技术缺陷更动摇信任。",
-        "五眼联盟警告：AI网络威胁数月内将影响普通用户：五眼联盟罕见联合预警，未来几个月 AI 将让网络犯罪自动化且更难识别，普通用户是直接目标而非旁观者，开启双重认证不能再拖了。",
-        "Show HN：Oak——专为代理设计的 Git 替代方案：专为 AI 代理打造的全新版本控制工具，分支作为会话单元、内容寻址懒加载，设计直接摆脱了 git 的包袱，用 agent 的开发者值得一试。"
+        "跟进：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+        "跟进：京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
+        "跟进：Qwen-AgentWorld：面向通用智能体的语言世界模型"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "GLM-5.2 开源模型发布：744B 参数，1M 上下文，可本地运行",
-              "summary": "Unsloth 这篇操作指南把 GLM-5.2 从「只能仰望」变成了「可以在自家 256GB Mac 上跑」，动态量化让 744B 参数模型降到了 239GB 磁盘占用，对想上手本地最强开源模型的人，这一步正好踩在从 curiosity 到可用的临界点上。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_aa8774b6aedf0c729ace7f0d"
-              ],
-              "confidence": 84
-            },
-            {
-              "title": "2026火山引擎FORCE大会发布Doubao-Seed-2.1系列，强化Coding与Agent能力",
-              "summary": "Seed 2.1 Pro 一口气把 Agent 和 Coding 拉到可战水平，加上长期领跑的多模态，成了罕见的「水桶型」模型。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_6e7a70ab75d52379d0f51449"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "火山引擎FORCE大会发布Doubao-Seed-2.1系列及新功能",
-              "summary": "豆包 Seed 2.1 补齐了 Coding 和 Agent 两个最大短板，水桶级多模态能力让它终于能上桌竞争，虽然离 Claude 还差半个身位，但所有用豆包产品的开发者都值得重新评估。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_cb6e9543a182527e3c2df900"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "东京 AI 公司 Sakana AI 推出多智能体编排系统 Sakana Fugu",
-              "summary": "Sakana 把多智能体编排变成开箱即用的 API，性能宣称对标 Fable/Mythos，更关键的卖点是靠集体智能自然规避单一供应商出口管制。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_ae94993cd5d7fe79bfb9554c"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "IBM 开源 CUGA：轻量级智能体框架，提供二十余个单文件示例应用",
-              "summary": "CUGA 把 agent 的规划、状态、策略等繁琐工程压缩成配置，开发者只写工具列表和 prompt 就能跑起 agent，配套的二十多个单文件应用是现成的模板库，对自建 agent 的团队来说省去了八成重复工作。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_b967509d8b9b76048fd56623"
-              ],
-              "confidence": 73
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "美国警长利用Flock车牌系统跟踪前女友案频发，Flock法务官承认“最常见滥用”",
-              "summary": "调查揭露了多位警察局长滥用Flock车牌识别系统跟踪前伴侣，这种「合法工具变成私器」的模式，比技术缺陷更动摇信任。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_c754c0fb9e6edd307db9ad72"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
-              "summary": "五眼联盟罕见联合预警，未来几个月 AI 将让网络犯罪自动化且更难识别，普通用户是直接目标而非旁观者，开启双重认证不能再拖了。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_7563b5a84f3590a8b9514863"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Show HN：Oak——专为代理设计的 Git 替代方案",
-              "summary": "专为 AI 代理打造的全新版本控制工具，分支作为会话单元、内容寻址懒加载，设计直接摆脱了 git 的包袱，用 agent 的开发者值得一试。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_77229c7fba76c492c9bcc642"
-              ],
-              "confidence": 72
-            },
-            {
-              "title": "Google 相关动态集中出现",
-              "summary": "Google DeepMind 首次在影视内容创作上投入 7500 万美元，与 A24 合作开发 AI 工具，这标志着顶尖 AI 实验室开始直接渗透好莱坞核心创意流程，做文娱 AI 工具的人和关注产业交叉点的人应该留意。",
-              "insightLabel": "关注",
-              "insightText": "同组还包括「Google ADK 与 A2A 协议：跨语言多智能体团队构建实战」、「在 AWS、Google Cloud 和 Microsoft Found...」。",
-              "sourceFeedItemIds": [
-                "feed_a927272167c7944849266f9d",
-                "feed_86344e172c784f425cd51e88",
-                "feed_6ebe071ddb771c6e9fa90af9"
-              ],
-              "confidence": 70
-            },
             {
               "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
               "summary": "千问高考志愿Agent的测评报告，数据看着漂亮，但全是阿里自家实验室出品，参考意义不大，真填志愿还是得找独立第三方。",
@@ -134,927 +33,150 @@
               "confidence": 60
             },
             {
-              "title": "Aleph 2.0 现已集成到 Figma Weave",
-              "summary": "Runway 把旗舰视频编辑模型直接接入了 Figma 的创意画布，对设计师和视频团队来说，这意味着帧级编辑不用切换工具，协作流程可能大幅简化。",
+              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+              "summary": "来自公众号：AI科技大本营的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "feed_62d415f28e560561c56784f9"
+                "local_cf7a62d4caaaa96013834efe"
               ],
-              "confidence": 59
-            }
-          ]
-        },
-        {
-          "title": "论文与研究",
-          "items": [
+              "confidence": 58
+            },
             {
-              "title": "Google Labs 提出用“洞察策略”评估 AI 编码智能体的主动性",
-              "summary": "AI 编码代理的评估从任务修复转向目标洞察，Google 这个思路让评估更接近真实开发场景，但实验还是内部数据，等公开 GitHub 版本再看落地效果。",
+              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+              "summary": "来自公众号：AI科技大本营的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_512492231e92adf4e2a763d8"
+              ],
+              "confidence": 58
+            },
+            {
+              "title": "京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
+              "summary": "京东这个实时交互模型不是又一个刷榜模型，它把「什么时候该说话」变成了模型自己的判断。全栈开源且对比豆包、Gemini 胜率惊人，做安防、看护、直播的开发者可以直接试了。",
               "insightLabel": "关注",
               "insightText": "",
               "sourceFeedItemIds": [
-                "feed_d06563cdb47a6b4fca1f0f24"
+                "feed_99cdff0303ee2c28effb2dfb"
               ],
-              "confidence": 61
+              "confidence": 73
+            },
+            {
+              "title": "Qwen-AgentWorld：面向通用智能体的语言世界模型",
+              "summary": "Qwen把世界模型做成了一个可开源的通用产品，覆盖七域，做agent RL的可以直接拿它仿真训练，可控性甚至超过真实环境，做agent的团队应该认真看看。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_a178d9873b517482dd6d5bf3"
+              ],
+              "confidence": 81
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "feed_aa8774b6aedf0c729ace7f0d",
-        "feed_c754c0fb9e6edd307db9ad72",
-        "feed_6e7a70ab75d52379d0f51449",
-        "feed_cb6e9543a182527e3c2df900",
-        "feed_ae94993cd5d7fe79bfb9554c",
-        "feed_7563b5a84f3590a8b9514863",
-        "feed_b967509d8b9b76048fd56623",
+        "feed_ab742b7e45856a72c307ceb0",
+        "local_cf7a62d4caaaa96013834efe",
+        "local_512492231e92adf4e2a763d8",
         "feed_99cdff0303ee2c28effb2dfb",
-        "feed_c43702f4177034feee589dda",
-        "feed_cd6dfec57248a99e5657c074",
-        "feed_77229c7fba76c492c9bcc642",
-        "feed_5dc1f2b00343774f8b6378ba"
+        "feed_a178d9873b517482dd6d5bf3"
       ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
+      "generatedAt": "2026-07-03T19:23:24.359Z",
+      "model": "local-source-collector",
       "raw": {
-        "sourceCoverage": {
-          "Hacker News 热门（buzzing.cc 中文翻译）": 4,
-          "X：卡兹克 (@Khazix0918)": 1,
-          "公众号：数字生命卡兹克": 1,
-          "X：Berry Xia (@berryxia)": 1,
-          "Artificial Intelligence News（RSS）": 1,
-          "Hugging Face：Blog（RSS）": 2,
-          "公众号：京东JoyAI": 1,
-          "IT之家（RSS）": 2,
-          "公众号：火山引擎": 1,
-          "TechCrunch：AI（RSS）": 1,
-          "Mistral AI：News（网页）": 1,
-          "字节 Seed：Research Feed（网页内嵌数据）": 1,
-          "OpenRouter：Announcements（RSS）": 1,
-          "Google Developers Blog（RSS）": 2,
-          "公众号：千问APP（阿里）": 1,
-          "Runway：News（网页）": 1,
-          "Claude：Blog（网页）": 1
-        }
-      }
-    },
-    {
-      "id": "daily_flight-hotel-card_2026-06-23",
-      "topicId": "flight-hotel-card",
-      "reportDate": "2026-06-23",
-      "title": "机酒卡日报",
-      "mainLine": "今日机酒卡主题主要看「酒店与积分」、「执行口径与风险」、「航司与票价」，最清晰的单点更新是「全新Q2上线，万豪超级闪促天团来了」；可先检查目标航线、规则口径和是否值得行动。",
-      "actionItems": [],
-      "watchItems": [
-        "全新Q2上线，万豪超级闪促天团来了：万豪推出新一轮闪促，共527家酒店参与，最高送30000积分，预订截止至2026年6月26日，入住有效期至7月29日，并可叠加飞猪日历房红包和文旅补贴。 线索：万豪闪促预订截止日：2026年6月26日；入住有效期：至2026年7月29日",
-        "Q3突然上线，旺季刷房也有回血：凯悦突然上线Q3促销，覆盖整个暑假，每2个认可房晚获2,000奖励积分，叠加会员日活动可额外获得积分，积分兑换仍有利好。 线索：注册时间：即日起至9月2日12:59（北京时间）；活动时间：即日起至9月7日",
-        "【就一个字：囤】低过历史底价，还全程不加价！开元起猛了，200多一晚还含三餐...：E旅行网推荐多款适合暑假出行的酒店套餐，包括洲际、开元、金陵等品牌，价格低于历史底价且全程不加价，有效期最晚至年底。 线索：南通绿洲国际假日酒店：2晚598元含早，有效期至9月30日，全程不加价。；苏州金陵雅都大酒店：2晚499元含早，有效期至12月31日，除国庆部分日期外全程不加价。",
-        "王牌上场！刷新一波底价：美团暑期补贴上线，多款酒店套餐低至三四折，覆盖江浙沪、北戴河、成都、南京、三亚等热门目的地，有效期至8月底或10月底，部分暑假不加价。 线索：湖州长兴雷迪森庄园366元1晚，含早餐+双人正餐+下午茶，有效期至9月30日，暑假除周六外不加价。；秦皇岛阿尔卡迪亚692元2晚，含早餐+赶海礼包+汤泉/高尔夫体验，有效期至8月31日，暑期平日+300元。",
-        "万豪可能真的要起飞了！附一堆小BUG券！：万豪与首旅如家旗下万信品牌及CG Hospitality Global签署战略合作协议，预计酒店数量将大幅增长； 线索：万豪与首旅万信签署战略合作协议，首旅如家旗下万信品牌开店速度较快，已有希尔顿欢朋500+家、希尔顿惠庭130+家先例。；万信品牌部分酒店价格低于200元，甚至不足150元。",
-        "可能是近期力度最狠的迪士尼探险号游轮大促，300美金轻松拿，限时的速度抢！：Klook推出迪士尼探险号618促销：6月30日前预订所有航次可获100美金新加坡活动优惠； 线索：促销截止日期：2026年6月30日。；100美金新加坡活动优惠适用于所有3晚/4晚航次。",
-        "【这几天，传炸了】日签暴涨5倍，这国开始抢人：暑假杀疯，机票跌成白菜！7月大旺季，3K5含税去看动物大迁徙：日本签证费用暴涨5倍，韩国航司大力促销吸引游客，中韩航线机票跌至低价，暑期往返韩国仅需800-1000余元； 线索：日本签证费用涨至此前的5倍；中韩新开多条航线，包括东航上海=清州、长安航空西安=大邱/清州、南航乌鲁木齐/济南=首尔、中联航多城飞济州、易斯达郑州=首尔",
-        "冲刺！3张热门白金卡，全部刷免：兴业银行针对3张白金信用卡（青年白、商旅白、健康白）推出限时办卡活动，新老客户通过指定渠道办理可获300-500元现金红包，三张卡均为消费5万免2年年费。 线索：兴业青年白金、商旅白金、健康白金三张卡年费均为：首年核卡月起12个自然月内线上消费满5万元免首年年费，次年同样条件免次年年费，以此类推。；新户（含2025年前销户）办卡送500元现金红包（商旅白/健康白）或400元红包（青年白），另含270元新户券包。"
-      ],
-      "sections": [
-        {
-          "title": "酒店与积分",
-          "items": [
-            {
-              "title": "全新Q2上线，万豪超级闪促天团来了",
-              "summary": "万豪推出新一轮闪促，共527家酒店参与，最高送30000积分，预订截止至2026年6月26日，入住有效期至7月29日，并可叠加飞猪日历房红包和文旅补贴。",
-              "insightLabel": "线索",
-              "insightText": "万豪闪促预订截止日：2026年6月26日；入住有效期：至2026年7月29日",
-              "sourceFeedItemIds": [
-                "feed_1f3d8ed610c5181074332343"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "Q3突然上线，旺季刷房也有回血",
-              "summary": "凯悦突然上线Q3促销，覆盖整个暑假，每2个认可房晚获2,000奖励积分，叠加会员日活动可额外获得积分，积分兑换仍有利好。",
-              "insightLabel": "线索",
-              "insightText": "注册时间：即日起至9月2日12:59（北京时间）；活动时间：即日起至9月7日",
-              "sourceFeedItemIds": [
-                "feed_9715e94f39f311bb5afdd3f5"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "【就一个字：囤】低过历史底价，还全程不加价！开元起猛了，200多一晚还含三餐...",
-              "summary": "E旅行网推荐多款适合暑假出行的酒店套餐，包括洲际、开元、金陵等品牌，价格低于历史底价且全程不加价，有效期最晚至年底。",
-              "insightLabel": "线索",
-              "insightText": "南通绿洲国际假日酒店：2晚598元含早，有效期至9月30日，全程不加价。；苏州金陵雅都大酒店：2晚499元含早，有效期至12月31日，除国庆部分日期外全程不加价。",
-              "sourceFeedItemIds": [
-                "feed_fe611688e1e370136687c79b"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "王牌上场！刷新一波底价",
-              "summary": "美团暑期补贴上线，多款酒店套餐低至三四折，覆盖江浙沪、北戴河、成都、南京、三亚等热门目的地，有效期至8月底或10月底，部分暑假不加价。",
-              "insightLabel": "线索",
-              "insightText": "湖州长兴雷迪森庄园366元1晚，含早餐+双人正餐+下午茶，有效期至9月30日，暑假除周六外不加价。；秦皇岛阿尔卡迪亚692元2晚，含早餐+赶海礼包+汤泉/高尔夫体验，有效期至8月31日，暑期平日+300元。",
-              "sourceFeedItemIds": [
-                "feed_dbfb2d445cf271f8edd641a9"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "万豪可能真的要起飞了！附一堆小BUG券！",
-              "summary": "万豪与首旅如家旗下万信品牌及CG Hospitality Global签署战略合作协议，预计酒店数量将大幅增长；",
-              "insightLabel": "线索",
-              "insightText": "万豪与首旅万信签署战略合作协议，首旅如家旗下万信品牌开店速度较快，已有希尔顿欢朋500+家、希尔顿惠庭130+家先例。；万信品牌部分酒店价格低于200元，甚至不足150元。",
-              "sourceFeedItemIds": [
-                "feed_81dcf3c1d1a4a2c7f6f18a8a"
-              ],
-              "confidence": 75
-            }
-          ]
-        },
-        {
-          "title": "执行口径与风险",
-          "items": [
-            {
-              "title": "可能是近期力度最狠的迪士尼探险号游轮大促，300美金轻松拿，限时的速度抢！",
-              "summary": "Klook推出迪士尼探险号618促销：6月30日前预订所有航次可获100美金新加坡活动优惠；",
-              "insightLabel": "线索",
-              "insightText": "促销截止日期：2026年6月30日。；100美金新加坡活动优惠适用于所有3晚/4晚航次。",
-              "sourceFeedItemIds": [
-                "feed_e208fcdd7c558758f615c32a"
-              ],
-              "confidence": 85
-            }
-          ]
-        },
-        {
-          "title": "航司与票价",
-          "items": [
-            {
-              "title": "【这几天，传炸了】日签暴涨5倍，这国开始抢人：暑假杀疯，机票跌成白菜！7月大旺季，3K5含税去看动物大迁徙",
-              "summary": "日本签证费用暴涨5倍，韩国航司大力促销吸引游客，中韩航线机票跌至低价，暑期往返韩国仅需800-1000余元；",
-              "insightLabel": "线索",
-              "insightText": "日本签证费用涨至此前的5倍；中韩新开多条航线，包括东航上海=清州、长安航空西安=大邱/清州、南航乌鲁木齐/济南=首尔、中联航多城飞济州、易斯达郑州=首尔",
-              "sourceFeedItemIds": [
-                "feed_1ca39eb9836fdf3302491127"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "冲刺！3张热门白金卡，全部刷免",
-              "summary": "兴业银行针对3张白金信用卡（青年白、商旅白、健康白）推出限时办卡活动，新老客户通过指定渠道办理可获300-500元现金红包，三张卡均为消费5万免2年年费。",
-              "insightLabel": "线索",
-              "insightText": "兴业青年白金、商旅白金、健康白金三张卡年费均为：首年核卡月起12个自然月内线上消费满5万元免首年年费，次年同样条件免次年年费，以此类推。；新户（含2025年前销户）办卡送500元现金红包（商旅白/健康白）或400元红包（青年白），另含270元新户券包。",
-              "sourceFeedItemIds": [
-                "feed_10c2444f9a2f5e98ea816db5"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "邪修焚诀买票就是好！不仅剩省一半，还有免费住宿、免费内半日游？",
-              "summary": "介绍粤港澳大湾区经香港中转至新疆及北京的省钱方案，涉及香港离境税退税、济南机场免费中转住宿和半日游，并对比直飞价格。",
-              "insightLabel": "线索",
-              "insightText": "广深直飞新疆往返含税约3.8k，经香港-济南中转含税约2k，退200港币离境税后成本约1.8k。；济南机场对国际（地区）中转超6小时提供免费半日游，跨天航班提供免费中转住宿（一人一床，可能拼房）。",
-              "sourceFeedItemIds": [
-                "feed_07207e3f88f16ecba4684ff1"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "【利好旅游？有人亏麻】纽币创N年新低！\"留学一年省出一辆车\"！日元或刷新40年记录....",
-              "summary": "人民币对日元和新西兰元大幅升值，日元可能刷新40年低点，纽币创多年新低，利好暑期出境游；",
-              "insightLabel": "线索",
-              "insightText": "人民币兑日元已接近24，两年前曾在18。；日媒报道称日元可能刷新40年低点。",
-              "sourceFeedItemIds": [
-                "feed_3fc35b6b1bce8daca62f415a"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "【欧洲猛开航线，吸引中国游客】北京直飞里斯本，也开航了！暑假大旺季：4K+起，往返葡萄牙/西班牙，还可以开口…",
-              "summary": "首都航空开通北京大兴直飞里斯本航线，暑假旺季多城市往返西班牙/葡萄牙含税4k2-6k3，可开口程，需注意签证walk-in方式。",
-              "insightLabel": "线索",
-              "insightText": "首都航空北京大兴直飞里斯本于2026年6月22日启航，空客A330双通道宽体机执飞，每周一班。；暑假北京=里斯本直飞含税约6k3，转机约4k7。",
-              "sourceFeedItemIds": [
-                "feed_d8f0ea14d40c9ac5f28a5749"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
-        {
-          "title": "卡券与权益",
-          "items": [
-            {
-              "title": "日本签证涨价，代理旅行社爆仓狂欢？",
-              "summary": "日本签证涨价，代理旅行社爆仓，6月25日前价格不变，支付宝签证优惠券活动即将结束。",
-              "insightLabel": "线索",
-              "insightText": "日本签证代理旅行社爆仓涨价，6月25日前截止价格不变。；支付宝推出签证优惠券：188-12、388-25、1288-50。",
-              "sourceFeedItemIds": [
-                "feed_0e74ce4b382f61de95db3bd5"
-              ],
-              "confidence": 72
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_1f3d8ed610c5181074332343",
-        "feed_9715e94f39f311bb5afdd3f5",
-        "feed_e208fcdd7c558758f615c32a",
-        "feed_fe611688e1e370136687c79b",
-        "feed_1ca39eb9836fdf3302491127",
-        "feed_10c2444f9a2f5e98ea816db5",
-        "feed_07207e3f88f16ecba4684ff1",
-        "feed_dbfb2d445cf271f8edd641a9",
-        "feed_3fc35b6b1bce8daca62f415a",
-        "feed_d8f0ea14d40c9ac5f28a5749",
-        "feed_81dcf3c1d1a4a2c7f6f18a8a",
-        "feed_c7639f82c8c10a91240e15c9"
-      ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "聪明旅行": 1,
-          "Aires行记": 1,
-          "旅行雷达": 3,
-          "E旅行网": 4,
-          "木木说卡": 3,
-          "飞飞玩票": 1,
-          "早早的快乐旅程": 2,
-          "城市旅行指北": 1,
-          "落落说卡": 1,
-          "HotelShare": 2,
-          "嬉游": 1
-        }
-      }
-    },
-    {
-      "id": "daily_hk-ipo_2026-06-23",
-      "topicId": "hk-ipo",
-      "reportDate": "2026-06-23",
-      "title": "港股打新日报",
-      "mainLine": "今日港股打新先看「华建未来上市首日股价腰斩丨IFBH上市一年腰斩再腰斩丨港股打新必须跑得快？」，重点落在「新股与申购」；适合把估值、资金占用和破发风险放在一起判断。",
-      "actionItems": [],
-      "watchItems": [
-        "华建未来上市首日股价腰斩丨IFBH上市一年腰斩再腰斩丨港股打新必须跑得快？：华建未来-B上市首日股价腰斩，IFBH上市一年跌超75%，作者总结打新需执行'跑得快'策略，并提出四条应对规则。 看点：华建未来-B（06132.HK）6月23日登陆港交所，发行价81.8港元，首日收盘腰斩，中签一手亏损约4700港元。；IFBH（06603.HK）2025年6月30日以27.8港元发行，首日涨57%，后持续下跌，2026年6月23日最低6.43港元，较发行价跌超75%。",
-        "【港股IPO】来福谐波、鲟龙科技、真健康医疗、江西生物打新分析：文章分析了四只新股：来福谐波（谐波减速器，18C上市，预计涨幅30%左右，参与）、鲟龙科技（鱼子酱龙头，稀缺性强，估值合理，参与）、真健康医疗（穿刺机器人，早期亏损，无基石，可博厨力）、江西生物（破伤风抗毒素，估值合理但空间有限）。 看点：来福谐波：招银保荐，18C发行，公配2.7万手，基石39.4%（Oaktree、君宜、嘉实、易方达等）。；来福谐波：2025年营收同比增141.7%，经调整亏损从2373万降至890万。",
-        "港股打新：鲟龙科技丨鱼子酱第一股丨每卖出三罐鱼子酱，就有一罐是它家的：鲟龙科技（06715.HK）于2026年6月22日至25日招股，发行价75.5港元，每手100股，入场费7626.14港元，预计6月30日上市，市值82.21亿港元。 看点：招股价75.5港元，每手100股，入场费7626.14港元；预计2026年6月30日上市，市值82.21亿港元",
-        "港股打新：江西生物丨破伤风针第一股丨抗血清全产业链一体化全球领军者：江西生物招股，全球破伤风抗毒素龙头，营收增速放缓且产品单一，作者明确放弃申购。 看点：股票代码：06715.HK；招股日期：2026年6月22日至6月25日"
-      ],
-      "sections": [
-        {
-          "title": "新股与申购",
-          "items": [
-            {
-              "title": "华建未来上市首日股价腰斩丨IFBH上市一年腰斩再腰斩丨港股打新必须跑得快？",
-              "summary": "华建未来-B上市首日股价腰斩，IFBH上市一年跌超75%，作者总结打新需执行'跑得快'策略，并提出四条应对规则。",
-              "insightLabel": "看点",
-              "insightText": "华建未来-B（06132.HK）6月23日登陆港交所，发行价81.8港元，首日收盘腰斩，中签一手亏损约4700港元。；IFBH（06603.HK）2025年6月30日以27.8港元发行，首日涨57%，后持续下跌，2026年6月23日最低6.43港元，较发行价跌超75%。",
-              "sourceFeedItemIds": [
-                "feed_1ee0cf2440e79f825a95cde2"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "【港股IPO】来福谐波、鲟龙科技、真健康医疗、江西生物打新分析",
-              "summary": "文章分析了四只新股：来福谐波（谐波减速器，18C上市，预计涨幅30%左右，参与）、鲟龙科技（鱼子酱龙头，稀缺性强，估值合理，参与）、真健康医疗（穿刺机器人，早期亏损，无基石，可博厨力）、江西生物（破伤风抗毒素，估值合理但空间有限）。",
-              "insightLabel": "看点",
-              "insightText": "来福谐波：招银保荐，18C发行，公配2.7万手，基石39.4%（Oaktree、君宜、嘉实、易方达等）。；来福谐波：2025年营收同比增141.7%，经调整亏损从2373万降至890万。",
-              "sourceFeedItemIds": [
-                "feed_a04a4292d9c0c24a5b401619"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "港股打新：鲟龙科技丨鱼子酱第一股丨每卖出三罐鱼子酱，就有一罐是它家的",
-              "summary": "鲟龙科技（06715.HK）于2026年6月22日至25日招股，发行价75.5港元，每手100股，入场费7626.14港元，预计6月30日上市，市值82.21亿港元。",
-              "insightLabel": "看点",
-              "insightText": "招股价75.5港元，每手100股，入场费7626.14港元；预计2026年6月30日上市，市值82.21亿港元",
-              "sourceFeedItemIds": [
-                "feed_98207768707b977426a3d2e6"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "港股打新：江西生物丨破伤风针第一股丨抗血清全产业链一体化全球领军者",
-              "summary": "江西生物招股，全球破伤风抗毒素龙头，营收增速放缓且产品单一，作者明确放弃申购。",
-              "insightLabel": "看点",
-              "insightText": "股票代码：06715.HK；招股日期：2026年6月22日至6月25日",
-              "sourceFeedItemIds": [
-                "feed_9896a375975aec4e790c323f"
-              ],
-              "confidence": 65
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_1ee0cf2440e79f825a95cde2",
-        "feed_a04a4292d9c0c24a5b401619",
-        "feed_98207768707b977426a3d2e6",
-        "feed_9896a375975aec4e790c323f"
-      ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "低风险理财投资": 3,
-          "每天打个新": 1
-        }
-      }
-    },
-    {
-      "id": "daily_investment_2026-06-23",
-      "topicId": "investment",
-      "reportDate": "2026-06-23",
-      "title": "投资观点日报",
-      "mainLine": "今日投资观点核心线索是「所有人都说腾讯 AI 输了，但它得的不是这个病」，主要围绕「产业与公司」、「核心观点」、「风险与分歧」；先看观点背后的证据、估值约束和风险分歧。",
-      "actionItems": [],
-      "watchItems": [
-        "所有人都说腾讯 AI 输了，但它得的不是这个病：本文提出反共识观点：腾讯在AI时代落后真实存在，但市场误将增长问题视为控制权问题； 证据：2026年5月股东大会上，马化腾承认一年前以为上了AI船，后来发现船漏水，现在站上去了但坐不下去。；截至2026年3月，国内AI原生App月活：豆包3.45亿、千问1.66亿、DeepSeek1.27亿，腾讯元宝仅5735万排第四。",
-        "作者回顾认为：做多CXL内存池的最佳时机是4个月前。 $ALAB 从117美元涨至440美元，涨幅276% $MRVL 从79美元涨至309美元，涨幅291% https://t.co/7XmXHyXgb1 引用推文： 作者：@aleabitoreddit 如果你看好采用Engram (v4)... 证据：$ALAB股价从117美元涨至440美元，涨幅276%。；$MRVL股价从79美元涨至309美元，涨幅291%。",
-        "如何应对高拥挤资产？：中金研究指出，高拥挤本身不是看空理由，也不改变回报特征，仅放大尾部风险； 证据：当前费城半导体与台湾加权的做多交易拥挤度处于历史90分位数以上，韩国综指、科创50、创业板50处于80分位数以上。；6月美银美林全球基金经理调查显示，最拥挤的交易为“做多全球半导体股”（80%），其次为“做多M7”（12%）和“做多石油”（4%）。",
-        "恒科的严父是字节，慈父是腾讯，都是爹：文章分析恒生科技板块估值承压，指出腾讯12倍PE压制其他公司估值，美团外卖今年夏战可能不打、Q2已盈利，快手受可灵估值和字节竞争影响持续下跌，字节依靠算力优势维持AI领先，阿里开始回购并出售非核心资产。 证据：美团外卖4月和5月均盈利。；6月17日《外卖平台补贴行为规范十条》发布前两家已开始减少补贴。",
-        "主动 ETF：一个缝合怪产品？：文章系统分析主动ETF的结构性矛盾，认为其试图融合主动管理与ETF标准化交易，但可能同时继承双方缺点，成为低流动性的“金融缝合怪”。 证据：主动ETF面临标准化vs非标化、流动性vs主动性、基金经理依赖三大核心矛盾。；美国主动ETF成功主要依赖ETF壳优势（税务效率、投顾体系等），而非主动管理证明。",
-        "光通信主题和CW激光器瓶颈是当前关键投资机会：我认为光电子主题+CW激光器瓶颈是极好的。市场就像得了短期记忆丧失症，忘记了$LITE从2024年到现在的市值从30亿美元涨到650亿美元以上。因为$NVDA曾引发EML瓶颈，并迫使架构改变。今天我们正看到同样的情况，随着CW激光器+1.6T/CPO转变，Nvidia到处签署长期... 证据：Lumentum ($LITE) 市值从2024年的约30亿美元增长至650亿美元以上。；Nvidia曾因EML瓶颈被迫改变架构，如今类似情况发生在CW激光器和1.6T/CPO转变上。",
-        "作者批评彭博社复制美银3月对KOSPI的看空逻辑：没有什么比彭博社复制美银3月的KOSPI看空逻辑更愚蠢的了。 然后他们将台湾的$TSM约23.6倍远期市盈率和$NVDA上游供应链称为“泡沫”。 接着使用“走向债务”而不是“保证金”这个词，并将台湾市场与互联网泡沫相提并论。 这种垃圾正是过去几年零售投资者对媒体信任度断崖式下跌的... 证据：台积电远期市盈率约为23.6倍；彭博社使用了\"going into debt\"而非\"margin\"的表述",
-        "作者指控美银向散户发布误导性观点：美国银行对散户来说，看起来就像伯恩斯坦/吉姆·克莱默的恶意翻版。 证据：美银曾称KOSPI/EWY为极度泡沫，并类比3月白银崩盘，导致散户抛售。；该指数此后接近翻倍并创历史新高。"
-      ],
-      "sections": [
-        {
-          "title": "产业与公司",
-          "items": [
-            {
-              "title": "所有人都说腾讯 AI 输了，但它得的不是这个病",
-              "summary": "本文提出反共识观点：腾讯在AI时代落后真实存在，但市场误将增长问题视为控制权问题；",
-              "insightLabel": "证据",
-              "insightText": "2026年5月股东大会上，马化腾承认一年前以为上了AI船，后来发现船漏水，现在站上去了但坐不下去。；截至2026年3月，国内AI原生App月活：豆包3.45亿、千问1.66亿、DeepSeek1.27亿，腾讯元宝仅5735万排第四。",
-              "sourceFeedItemIds": [
-                "feed_c6ebdf0c6b5964ed578a0a9b"
-              ],
-              "confidence": 88
-            },
-            {
-              "title": "作者回顾认为",
-              "summary": "做多CXL内存池的最佳时机是4个月前。 $ALAB 从117美元涨至440美元，涨幅276% $MRVL 从79美元涨至309美元，涨幅291% https://t.co/7XmXHyXgb1 引用推文： 作者：@aleabitoreddit 如果你看好采用Engram (v4)...",
-              "insightLabel": "证据",
-              "insightText": "$ALAB股价从117美元涨至440美元，涨幅276%。；$MRVL股价从79美元涨至309美元，涨幅291%。",
-              "sourceFeedItemIds": [
-                "feed_c63bdde07149b10e458048c1"
-              ],
-              "confidence": 88
-            },
-            {
-              "title": "如何应对高拥挤资产？",
-              "summary": "中金研究指出，高拥挤本身不是看空理由，也不改变回报特征，仅放大尾部风险；",
-              "insightLabel": "证据",
-              "insightText": "当前费城半导体与台湾加权的做多交易拥挤度处于历史90分位数以上，韩国综指、科创50、创业板50处于80分位数以上。；6月美银美林全球基金经理调查显示，最拥挤的交易为“做多全球半导体股”（80%），其次为“做多M7”（12%）和“做多石油”（4%）。",
-              "sourceFeedItemIds": [
-                "feed_9b562841130a12f08e0415cb"
-              ],
-              "confidence": 88
-            },
-            {
-              "title": "恒科的严父是字节，慈父是腾讯，都是爹",
-              "summary": "文章分析恒生科技板块估值承压，指出腾讯12倍PE压制其他公司估值，美团外卖今年夏战可能不打、Q2已盈利，快手受可灵估值和字节竞争影响持续下跌，字节依靠算力优势维持AI领先，阿里开始回购并出售非核心资产。",
-              "insightLabel": "证据",
-              "insightText": "美团外卖4月和5月均盈利。；6月17日《外卖平台补贴行为规范十条》发布前两家已开始减少补贴。",
-              "sourceFeedItemIds": [
-                "feed_9b60a571302f2dd75fb2a619"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "主动 ETF：一个缝合怪产品？",
-              "summary": "文章系统分析主动ETF的结构性矛盾，认为其试图融合主动管理与ETF标准化交易，但可能同时继承双方缺点，成为低流动性的“金融缝合怪”。",
-              "insightLabel": "证据",
-              "insightText": "主动ETF面临标准化vs非标化、流动性vs主动性、基金经理依赖三大核心矛盾。；美国主动ETF成功主要依赖ETF壳优势（税务效率、投顾体系等），而非主动管理证明。",
-              "sourceFeedItemIds": [
-                "feed_35497c6f1480017e66909ea2"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "核心观点",
-          "items": [
-            {
-              "title": "光通信主题和CW激光器瓶颈是当前关键投资机会",
-              "summary": "我认为光电子主题+CW激光器瓶颈是极好的。市场就像得了短期记忆丧失症，忘记了$LITE从2024年到现在的市值从30亿美元涨到650亿美元以上。因为$NVDA曾引发EML瓶颈，并迫使架构改变。今天我们正看到同样的情况，随着CW激光器+1.6T/CPO转变，Nvidia到处签署长期...",
-              "insightLabel": "证据",
-              "insightText": "Lumentum ($LITE) 市值从2024年的约30亿美元增长至650亿美元以上。；Nvidia曾因EML瓶颈被迫改变架构，如今类似情况发生在CW激光器和1.6T/CPO转变上。",
-              "sourceFeedItemIds": [
-                "feed_18740d45245c80e726db6bfa"
-              ],
-              "confidence": 88
-            },
-            {
-              "title": "作者批评彭博社复制美银3月对KOSPI的看空逻辑",
-              "summary": "没有什么比彭博社复制美银3月的KOSPI看空逻辑更愚蠢的了。 然后他们将台湾的$TSM约23.6倍远期市盈率和$NVDA上游供应链称为“泡沫”。 接着使用“走向债务”而不是“保证金”这个词，并将台湾市场与互联网泡沫相提并论。 这种垃圾正是过去几年零售投资者对媒体信任度断崖式下跌的...",
-              "insightLabel": "证据",
-              "insightText": "台积电远期市盈率约为23.6倍；彭博社使用了\"going into debt\"而非\"margin\"的表述",
-              "sourceFeedItemIds": [
-                "feed_cadd348f80cebf36ec4655c8"
-              ],
-              "confidence": 65
-            },
-            {
-              "title": "作者指控美银向散户发布误导性观点",
-              "summary": "美国银行对散户来说，看起来就像伯恩斯坦/吉姆·克莱默的恶意翻版。",
-              "insightLabel": "证据",
-              "insightText": "美银曾称KOSPI/EWY为极度泡沫，并类比3月白银崩盘，导致散户抛售。；该指数此后接近翻倍并创历史新高。",
-              "sourceFeedItemIds": [
-                "feed_7f87c5dcdd949e5a31961b0a"
-              ],
-              "confidence": 65
-            }
-          ]
-        },
-        {
-          "title": "风险与分歧",
-          "items": [
-            {
-              "title": "叠加英伟达GTC大会催化剂",
-              "summary": "Wow, $TSEM up 10%+ today. Good times, should have made this one of my largest positions in hindsight back in March. Foundries like $GFS and...",
-              "insightLabel": "证据",
-              "insightText": "$TSEM当日涨幅超10%。；2028年前瞻PE约16.8x至18.1x。",
-              "sourceFeedItemIds": [
-                "feed_ae87d3ee1b8bee5effa3d378"
-              ],
-              "confidence": 85
-            }
-          ]
-        },
-        {
-          "title": "宏观与政策",
-          "items": [
-            {
-              "title": "作者批评美银（BoFA）发布极端看空预测",
-              "summary": "没有什么比美银（BoFA）发布荒谬的极端看空预测更糟糕的了。 旨在今年第二次清空韩国杠杆交易者。 当韩国市场建立在Aespa、三文鱼护肤品以及SK海力士/三星存储芯片这些题材上时，它的韧性就没那么强了。 https://t.co/84FpyHX0kC 引用帖子： 作者：@alea...",
-              "insightLabel": "证据",
-              "insightText": "美银此前预测$KOSPI/$EWY为极端泡沫，将其比作3月白银崩盘，引发散户抛售。；此后KOSPI指数接近翻倍并创历史新高。",
-              "sourceFeedItemIds": [
-                "feed_c69c8c6d03db12c3c4d69a4d"
-              ],
-              "confidence": 65
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_c6ebdf0c6b5964ed578a0a9b",
-        "feed_18740d45245c80e726db6bfa",
-        "feed_c63bdde07149b10e458048c1",
-        "feed_9b562841130a12f08e0415cb",
-        "feed_ae87d3ee1b8bee5effa3d378",
-        "feed_9b60a571302f2dd75fb2a619",
-        "feed_35497c6f1480017e66909ea2",
-        "feed_ba773e55e14a30ddb549c119",
-        "feed_9432d7b59968a6591df49113",
-        "feed_903f9e361bcc5a003653d6e7",
-        "feed_dddefb7acc1c753281aa96dd",
-        "feed_9283d393e140c3348b1f8eab"
-      ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "Link01": 1,
-          "Serenity": 11,
-          "Kevin策略研究": 1,
-          "卓哥投研笔记": 1,
-          "微积分量化价投": 1,
-          "贩财局": 1,
-          "硬核姬老板": 1,
-          "猫笔刀": 1,
-          "不跪的世界": 1
-        }
-      }
-    },
-    {
-      "id": "daily_whale-portfolio_2026-06-23",
-      "topicId": "whale-portfolio",
-      "reportDate": "2026-06-23",
-      "title": "大佬持仓日报",
-      "mainLine": "大佬持仓在 2026-06-23 没有达到日报阈值的显著更新。",
-      "actionItems": [],
-      "watchItems": [],
-      "sections": [],
-      "referencedFeedItemIds": [],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {}
-      }
-    },
-    {
-      "id": "daily_x-signal_2026-06-23",
-      "topicId": "x-signal",
-      "reportDate": "2026-06-23",
-      "title": "X Radar日报",
-      "mainLine": "今日X Radar最值得先看「推荐一款免费开源的本地优先桌面 API 客户端」，主要落在「可行动线索」、「重点变化」。",
-      "actionItems": [],
-      "watchItems": [
-        "推荐一款免费开源的本地优先桌面 API 客户端：免费开源的本地优先桌面 API 客户端，一个窗口搞定 HTTP、gRPC、WebSocket 和 GraphQL 四种协议。 补充：免费开源；本地优先",
-        "博主分享了月底前用U卡返现额度的小技巧：#U卡 如果月底了，返现额度还没用完，怎么办？—— 当然是储值，先存起来。 以下是我自己常用的 “储值不亏，有返现” 商户，欢迎大集思广益。 ✅ 充手机话费、宽带费，实测联通有返现。 ✅ 超市储值卡，我家附近的 TRIAL 超市支持。国内未测试，推荐试试山姆、盒马。 ✅ Suic... 补充：实测联通手机话费和宽带费充值可获得返现。；TRIAL超市储值卡支持且可获得返现。",
-        "作者提出判断Crypto行为是否违法的简单标准：#Crypto 咋越说越乱了，符合常识、非常简单的判断标准： —— 该行为是否伤害了不知情的第三方。 补充：标准：行为是否伤害不知情的第三方。；进赌场买大小，应知情可能输。",
-        "讨论为何大老板请的基金经理常亏钱：#投资 看到群友讨论，大老板请的基金经理总是亏钱。 看起来这个事情是一个无解的矛盾：没能力的人管不了钱，有能力的人自己赚就好，干嘛要替你管钱？ 如果把这个事情当成一个动态平衡的结果去看。就更符合逻辑了： 1. 那些不愿意付出更高价格，追求性价比的老板。最终请不起厉害的人，从而亏钱... 补充：帖子认为大老板请的基金经理亏钱是无解矛盾：没能力的人管不了钱，有能力的人自己赚钱不愿替人管钱。；观点将此视为动态平衡：追求性价比的老板请不起厉害的人而亏钱。",
-        "用户报告在 iOS 27 Beta 2 上：我的 iOS 27 Beta 2 遇到了一个上个 Beta 都没遇到过的严重 Bug：Claude App 的 Code 里面，点击任意一个 Session，直接闪退。 补充：iOS 27 Beta 2 中，Claude App 的 Code 功能内点击任意 Session 直接闪退。；该 Bug 在之前的 Beta 版本中未出现。",
-        "推荐一款支持 SSH/Mosh/SFTP 的移动端远程管理工具：让用户在 Android 和 iOS 设备上直接通过 SSH、Mosh 或 SFTP 连接并管理远程服务器，无需账户登录或云端同步，且支持硬件安全密钥认证以保证安全性。 补充：支持 Android 和 iOS 设备通过 SSH、Mosh、SFTP 连接远程服务器；无需账户登录或云端同步",
-        "线下刷卡或Apple Pay不受此限制：#U卡 很多人还是没明白，外卡超过 200 块收 3% 的手续费是啥。 补充：外卡超过200元收3%手续费是微信和支付宝对境外卡在线支付额外收取的。；线下刷实体卡或Apple Pay没有3%手续费。",
-        "Matrix是一个旨在让任何人启动0人公司的平台：网站做得真好啊。https://t.co/wDvJwu0fpM Quoted post: Author: @DerekNee We've been quiet for 8 months. Because we've been busy building the infrastru... 补充：Matrix项目由@DerekNee发布，经过8个月开发，目前处于beta阶段。；Matrix旨在实现100% agent驱动的公司，允许任何人启动0人公司并实际盈利。"
-      ],
-      "sections": [
-        {
-          "title": "可行动线索",
-          "items": [
-            {
-              "title": "推荐一款免费开源的本地优先桌面 API 客户端",
-              "summary": "免费开源的本地优先桌面 API 客户端，一个窗口搞定 HTTP、gRPC、WebSocket 和 GraphQL 四种协议。",
-              "insightLabel": "补充",
-              "insightText": "免费开源；本地优先",
-              "sourceFeedItemIds": [
-                "feed_6f8e75e4fbfb1c74804a89eb"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "博主分享了月底前用U卡返现额度的小技巧",
-              "summary": "#U卡 如果月底了，返现额度还没用完，怎么办？—— 当然是储值，先存起来。 以下是我自己常用的 “储值不亏，有返现” 商户，欢迎大集思广益。 ✅ 充手机话费、宽带费，实测联通有返现。 ✅ 超市储值卡，我家附近的 TRIAL 超市支持。国内未测试，推荐试试山姆、盒马。 ✅ Suic...",
-              "insightLabel": "补充",
-              "insightText": "实测联通手机话费和宽带费充值可获得返现。；TRIAL超市储值卡支持且可获得返现。",
-              "sourceFeedItemIds": [
-                "feed_4a8574ce5b18c0fa4aa584b6"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "作者提出判断Crypto行为是否违法的简单标准",
-              "summary": "#Crypto 咋越说越乱了，符合常识、非常简单的判断标准： —— 该行为是否伤害了不知情的第三方。",
-              "insightLabel": "补充",
-              "insightText": "标准：行为是否伤害不知情的第三方。；进赌场买大小，应知情可能输。",
-              "sourceFeedItemIds": [
-                "feed_6d29ca736d6c2dd4e8cd3260"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "讨论为何大老板请的基金经理常亏钱",
-              "summary": "#投资 看到群友讨论，大老板请的基金经理总是亏钱。 看起来这个事情是一个无解的矛盾：没能力的人管不了钱，有能力的人自己赚就好，干嘛要替你管钱？ 如果把这个事情当成一个动态平衡的结果去看。就更符合逻辑了： 1. 那些不愿意付出更高价格，追求性价比的老板。最终请不起厉害的人，从而亏钱...",
-              "insightLabel": "补充",
-              "insightText": "帖子认为大老板请的基金经理亏钱是无解矛盾：没能力的人管不了钱，有能力的人自己赚钱不愿替人管钱。；观点将此视为动态平衡：追求性价比的老板请不起厉害的人而亏钱。",
-              "sourceFeedItemIds": [
-                "feed_e6641c7cb9f905e47d14065e"
-              ],
-              "confidence": 72
-            },
-            {
-              "title": "用户报告在 iOS 27 Beta 2 上",
-              "summary": "我的 iOS 27 Beta 2 遇到了一个上个 Beta 都没遇到过的严重 Bug：Claude App 的 Code 里面，点击任意一个 Session，直接闪退。",
-              "insightLabel": "补充",
-              "insightText": "iOS 27 Beta 2 中，Claude App 的 Code 功能内点击任意 Session 直接闪退。；该 Bug 在之前的 Beta 版本中未出现。",
-              "sourceFeedItemIds": [
-                "feed_6108e90e073ec7454b2ff86e"
-              ],
-              "confidence": 55
-            }
-          ]
-        },
-        {
-          "title": "重点变化",
-          "items": [
-            {
-              "title": "推荐一款支持 SSH/Mosh/SFTP 的移动端远程管理工具",
-              "summary": "让用户在 Android 和 iOS 设备上直接通过 SSH、Mosh 或 SFTP 连接并管理远程服务器，无需账户登录或云端同步，且支持硬件安全密钥认证以保证安全性。",
-              "insightLabel": "补充",
-              "insightText": "支持 Android 和 iOS 设备通过 SSH、Mosh、SFTP 连接远程服务器；无需账户登录或云端同步",
-              "sourceFeedItemIds": [
-                "feed_1097b2fb7ca8aab5a297c97a"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "线下刷卡或Apple Pay不受此限制",
-              "summary": "#U卡 很多人还是没明白，外卡超过 200 块收 3% 的手续费是啥。",
-              "insightLabel": "补充",
-              "insightText": "外卡超过200元收3%手续费是微信和支付宝对境外卡在线支付额外收取的。；线下刷实体卡或Apple Pay没有3%手续费。",
-              "sourceFeedItemIds": [
-                "feed_8945bf5fdd096e6d99e0a6a1"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "Matrix是一个旨在让任何人启动0人公司的平台",
-              "summary": "网站做得真好啊。https://t.co/wDvJwu0fpM Quoted post: Author: @DerekNee We've been quiet for 8 months. Because we've been busy building the infrastru...",
-              "insightLabel": "补充",
-              "insightText": "Matrix项目由@DerekNee发布，经过8个月开发，目前处于beta阶段。；Matrix旨在实现100% agent驱动的公司，允许任何人启动0人公司并实际盈利。",
-              "sourceFeedItemIds": [
-                "feed_94b60cfc3dc6f393bdbe20fa"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "并分享了 Swift 在服务器端应用的实际经验",
-              "summary": "最近又趟入了一个大坑：部署了我的第一个 Swift Server Side 的网站。",
-              "insightLabel": "补充",
-              "insightText": "图拉鼎部署了他的第一个 Swift Server Side 网站；该项目使用 Swift 语言进行服务器端开发",
-              "sourceFeedItemIds": [
-                "feed_e3296b720655b88a0123ec32"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "支持一次性解析超长文档",
-              "summary": "百度开源的视觉语言模型 OCR 项目，在 DeepSeek-OCR 基础上做了升级，主打一次性解析超长文档。",
-              "insightLabel": "补充",
-              "insightText": "百度开源了视觉语言模型OCR项目；基于DeepSeek-OCR升级",
-              "sourceFeedItemIds": [
-                "feed_5caac23130685a5fc4ab7ffd"
-              ],
-              "confidence": 75
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_6f8e75e4fbfb1c74804a89eb",
-        "feed_4a8574ce5b18c0fa4aa584b6",
-        "feed_1097b2fb7ca8aab5a297c97a",
-        "feed_6d29ca736d6c2dd4e8cd3260",
-        "feed_8945bf5fdd096e6d99e0a6a1",
-        "feed_94b60cfc3dc6f393bdbe20fa",
-        "feed_e3296b720655b88a0123ec32",
-        "feed_5caac23130685a5fc4ab7ffd",
-        "feed_53cc79bf0a0f952d2a890ae2",
-        "feed_7910232920a0a7794e76ce3b",
-        "feed_e6641c7cb9f905e47d14065e",
-        "feed_c7e3319d26cae6ff575618f6"
-      ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "Geek": 5,
-          "𝘁𝗮𝗿𝗲𝘀𝗸𝘆": 5,
-          "Ding": 2,
-          "图拉鼎": 5,
-          "Frad": 1,
-          "Tibo": 1,
-          "砍砍.ᐟ": 1
-        }
+        "generatedBy": "local-source-collector"
       }
     },
     {
       "id": "daily_big-tech-daily_2026-06-23",
       "topicId": "big-tech-daily",
       "reportDate": "2026-06-23",
-      "title": "大厂日报",
-      "mainLine": "今日大厂日报先看「刚刚，MiniMax给员工增发股票」，主要涉及「组织与人事」；后续重点观察它对产品节奏和商业化的影响。",
-      "actionItems": [],
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师」、「\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
+      ],
       "watchItems": [
-        "刚刚，MiniMax给员工增发股票：MiniMax向员工增发116.9万股ESOP股票奖励，购买价为零且无绩效目标限制，按授出日收市价计算价值超6亿港元，延续公司对人才长期激励的加码策略。 影响：MiniMax此次授出116.9万股ESOP奖励；归属期最低13个月，最高72个月",
-        "从 Cerebras IPO 聊起：AI 算力变化、Scaling law 的萌芽和百度美研往事：通过与Cerebras早期投资人周楠的对话，回顾了Cerebras从2017年投资到2026年上市的过程，揭示了AI算力从训练转向推理的趋势，以及百度美研在Scaling law萌芽期的历史角色。 影响：Cerebras于2026年5月中旬在纳斯达克上市，市值一度逼近千亿美元，后回落至约500亿美元。；Cerebras的核心创新是Wafer-Scale架构，将整片晶圆做成一个超大AI计算引擎。",
-        "对话卓正医疗王志远：用 Costco 的方式在全球开私立诊所：卓正医疗创始人王志远接受专访，详细阐述了公司借鉴Costco模式、向5000㎡大诊所扩张、以用户为中心的战略转型，以及通过赋能式管理和循证医学文化持续吸引优秀医生的组织能力。 影响：卓正医疗2026年初在香港主板上市。；公司现有超过400名医生，每年主动流失率趋近于零。",
-        "对话 9 个消费品牌：我们从哪里找增长？丨晚点线上圆桌：晚点LatePost邀请9个消费品牌高管讨论增长策略，涵盖渠道、新品、供应链、AI应用等话题，揭示品牌增长已从投流驱动转向新品创造购买理由和老客复购驱动。 影响：2026年5月社会消费品零售总额增速降至-0.6%，消费者信心指数长期低于荣枯线，4月末全国住户存款171.65万亿元，比2025年全年GDP多22%。；之禾ICICLE（均价5000+元高端女装）核心用户为高收入高教育女性，消费降级影响有限，中间品牌竞争力下降形成挤出效应。"
+        "跟进：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+        "跟进：京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
+        "跟进：Qwen-AgentWorld：面向通用智能体的语言世界模型"
       ],
       "sections": [
         {
-          "title": "组织与人事",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "刚刚，MiniMax给员工增发股票",
-              "summary": "MiniMax向员工增发116.9万股ESOP股票奖励，购买价为零且无绩效目标限制，按授出日收市价计算价值超6亿港元，延续公司对人才长期激励的加码策略。",
-              "insightLabel": "影响",
-              "insightText": "MiniMax此次授出116.9万股ESOP奖励；归属期最低13个月，最高72个月",
+              "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
+              "summary": "千问高考志愿Agent的测评报告，数据看着漂亮，但全是阿里自家实验室出品，参考意义不大，真填志愿还是得找独立第三方。",
+              "insightLabel": "关注",
+              "insightText": "",
               "sourceFeedItemIds": [
-                "feed_98824910068bc9e01bdceb5f"
+                "feed_ab742b7e45856a72c307ceb0"
               ],
-              "confidence": 78
+              "confidence": 60
             },
             {
-              "title": "从 Cerebras IPO 聊起：AI 算力变化、Scaling law 的萌芽和百度美研往事",
-              "summary": "通过与Cerebras早期投资人周楠的对话，回顾了Cerebras从2017年投资到2026年上市的过程，揭示了AI算力从训练转向推理的趋势，以及百度美研在Scaling law萌芽期的历史角色。",
-              "insightLabel": "影响",
-              "insightText": "Cerebras于2026年5月中旬在纳斯达克上市，市值一度逼近千亿美元，后回落至约500亿美元。；Cerebras的核心创新是Wafer-Scale架构，将整片晶圆做成一个超大AI计算引擎。",
+              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+              "summary": "来自公众号：AI科技大本营的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "feed_3b8f362a3d766fb559e8d446"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "对话卓正医疗王志远：用 Costco 的方式在全球开私立诊所",
-              "summary": "卓正医疗创始人王志远接受专访，详细阐述了公司借鉴Costco模式、向5000㎡大诊所扩张、以用户为中心的战略转型，以及通过赋能式管理和循证医学文化持续吸引优秀医生的组织能力。",
-              "insightLabel": "影响",
-              "insightText": "卓正医疗2026年初在香港主板上市。；公司现有超过400名医生，每年主动流失率趋近于零。",
-              "sourceFeedItemIds": [
-                "feed_92da0bbb71c6ce4cb4dd7293"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "对话 9 个消费品牌：我们从哪里找增长？丨晚点线上圆桌",
-              "summary": "晚点LatePost邀请9个消费品牌高管讨论增长策略，涵盖渠道、新品、供应链、AI应用等话题，揭示品牌增长已从投流驱动转向新品创造购买理由和老客复购驱动。",
-              "insightLabel": "影响",
-              "insightText": "2026年5月社会消费品零售总额增速降至-0.6%，消费者信心指数长期低于荣枯线，4月末全国住户存款171.65万亿元，比2025年全年GDP多22%。；之禾ICICLE（均价5000+元高端女装）核心用户为高收入高教育女性，消费降级影响有限，中间品牌竞争力下降形成挤出效应。",
-              "sourceFeedItemIds": [
-                "feed_e28051ba979b34b3ec772ec2"
-              ],
-              "confidence": 55
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_98824910068bc9e01bdceb5f",
-        "feed_3b8f362a3d766fb559e8d446",
-        "feed_92da0bbb71c6ce4cb4dd7293",
-        "feed_e28051ba979b34b3ec772ec2"
-      ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "大厂日爆": 1,
-          "晚点LatePost": 3
-        }
-      }
-    },
-    {
-      "id": "daily_lifestyle-fun_2026-06-23",
-      "topicId": "lifestyle-fun",
-      "reportDate": "2026-06-23",
-      "title": "吃喝玩乐日报",
-      "mainLine": "今日吃喝玩乐最值得先看「等了6年！上海大歌剧院内景首曝来了」，主要落在「可行动线索」、「重点变化」。",
-      "actionItems": [],
-      "watchItems": [
-        "等了6年！上海大歌剧院内景首曝来了：上海大歌剧院于2026年6月23日首次公开内景，正式进入开幕倒计时。 补充：上海大歌剧院2019年动工，2026年6月23日内景首次亮相。；剧院占地5.3公顷，总建筑面积14.6万平方米。",
-        "荔枝季最后的华丽巅峰，来了！：本文推荐荔枝季末的顶级晚熟品种仙进奉（来自增城仙村镇基岗村）和观音绿（来自东莞樟木头观音山），产地直发，可单买或组合，最低89.5元/斤，赏味期不足10天。 补充：仙进奉产自广州增城仙村镇基岗村，为品种发源地，果园有30年+老树和半山地块。；观音绿产自东莞樟木头观音山，老树树龄80多年，有农科院专家合作育种。",
-        "值3999吗？乐彼W4 ACG&W4 小尾巴测评报告：SOOMAL发布乐彼W4与W4 ACG小尾巴测评，两款产品售价分别为2999元和3999元，均采用SiP封装芯片，基础素质优秀，但存在轻微爆音问题，且推大耳机乏力。 补充：W4官方指导价2999元，W4 ACG为3999元；W4重量约24克，W4 ACG约53克",
-        "每年夏天最馋的鲜啤酒，开始酿了：企鹅吃喝指南宣布其年度限定比利时小麦鲜啤已开始酿造，今年新增柚子小麦鲜啤口味，产量为去年的两倍，预计不久后上架。 补充：文章发布时啤酒已在发酵罐中，尚未正式上架。；今年新增柚子小麦鲜啤口味（加入日本柚果汁）。"
-      ],
-      "sections": [
-        {
-          "title": "可行动线索",
-          "items": [
-            {
-              "title": "等了6年！上海大歌剧院内景首曝来了",
-              "summary": "上海大歌剧院于2026年6月23日首次公开内景，正式进入开幕倒计时。",
-              "insightLabel": "补充",
-              "insightText": "上海大歌剧院2019年动工，2026年6月23日内景首次亮相。；剧院占地5.3公顷，总建筑面积14.6万平方米。",
-              "sourceFeedItemIds": [
-                "feed_8b95de5328312d58c2b53ea7"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "荔枝季最后的华丽巅峰，来了！",
-              "summary": "本文推荐荔枝季末的顶级晚熟品种仙进奉（来自增城仙村镇基岗村）和观音绿（来自东莞樟木头观音山），产地直发，可单买或组合，最低89.5元/斤，赏味期不足10天。",
-              "insightLabel": "补充",
-              "insightText": "仙进奉产自广州增城仙村镇基岗村，为品种发源地，果园有30年+老树和半山地块。；观音绿产自东莞樟木头观音山，老树树龄80多年，有农科院专家合作育种。",
-              "sourceFeedItemIds": [
-                "feed_cc0f01d0ea075df3ec5f7351"
-              ],
-              "confidence": 65
-            }
-          ]
-        },
-        {
-          "title": "重点变化",
-          "items": [
-            {
-              "title": "值3999吗？乐彼W4 ACG&W4 小尾巴测评报告",
-              "summary": "SOOMAL发布乐彼W4与W4 ACG小尾巴测评，两款产品售价分别为2999元和3999元，均采用SiP封装芯片，基础素质优秀，但存在轻微爆音问题，且推大耳机乏力。",
-              "insightLabel": "补充",
-              "insightText": "W4官方指导价2999元，W4 ACG为3999元；W4重量约24克，W4 ACG约53克",
-              "sourceFeedItemIds": [
-                "feed_3983d67702c4df14bca6aa3d"
-              ],
-              "confidence": 65
-            },
-            {
-              "title": "每年夏天最馋的鲜啤酒，开始酿了",
-              "summary": "企鹅吃喝指南宣布其年度限定比利时小麦鲜啤已开始酿造，今年新增柚子小麦鲜啤口味，产量为去年的两倍，预计不久后上架。",
-              "insightLabel": "补充",
-              "insightText": "文章发布时啤酒已在发酵罐中，尚未正式上架。；今年新增柚子小麦鲜啤口味（加入日本柚果汁）。",
-              "sourceFeedItemIds": [
-                "feed_7ec71c0bad2af359a0b9b84d"
+                "local_cf7a62d4caaaa96013834efe"
               ],
               "confidence": 58
+            },
+            {
+              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
+              "summary": "来自公众号：AI科技大本营的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_512492231e92adf4e2a763d8"
+              ],
+              "confidence": 58
+            },
+            {
+              "title": "京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
+              "summary": "京东这个实时交互模型不是又一个刷榜模型，它把「什么时候该说话」变成了模型自己的判断。全栈开源且对比豆包、Gemini 胜率惊人，做安防、看护、直播的开发者可以直接试了。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_99cdff0303ee2c28effb2dfb"
+              ],
+              "confidence": 73
+            },
+            {
+              "title": "Qwen-AgentWorld：面向通用智能体的语言世界模型",
+              "summary": "Qwen把世界模型做成了一个可开源的通用产品，覆盖七域，做agent RL的可以直接拿它仿真训练，可控性甚至超过真实环境，做agent的团队应该认真看看。",
+              "insightLabel": "关注",
+              "insightText": "",
+              "sourceFeedItemIds": [
+                "feed_a178d9873b517482dd6d5bf3"
+              ],
+              "confidence": 81
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "feed_8b95de5328312d58c2b53ea7",
-        "feed_cc0f01d0ea075df3ec5f7351",
-        "feed_3983d67702c4df14bca6aa3d",
-        "feed_7ec71c0bad2af359a0b9b84d"
+        "feed_ab742b7e45856a72c307ceb0",
+        "local_cf7a62d4caaaa96013834efe",
+        "local_512492231e92adf4e2a763d8",
+        "feed_99cdff0303ee2c28effb2dfb",
+        "feed_a178d9873b517482dd6d5bf3"
       ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
+      "generatedAt": "2026-07-03T19:23:24.359Z",
+      "model": "local-source-collector",
       "raw": {
-        "sourceCoverage": {
-          "ShanghaiWOW": 1,
-          "企鹅吃喝指南": 2,
-          "SOOMAL音频影像": 1
-        }
-      }
-    },
-    {
-      "id": "daily_github-trending_2026-06-23",
-      "topicId": "github-trending",
-      "reportDate": "2026-06-23",
-      "title": "GitHub 趋势日报",
-      "mainLine": "今日GitHub 趋势最值得先看「Stirling-Tools/Stirling-PDF」，主要落在「重点变化」、「可行动线索」。",
-      "actionItems": [],
-      "watchItems": [
-        "Stirling-Tools/Stirling-PDF：Stirling-PDF 是一款开源 PDF 编辑平台，支持桌面、浏览器和服务器部署，提供 50 多种 PDF 处理工具。 补充：语言: TypeScript；Stars: 82,724",
-        "JCodesMore/ai-website-cloner-template：一个使用 AI 编码代理一键克隆任意网站的 Next.js 模板项目，支持反编译网站结构并重建为现代代码库。 补充：语言: TypeScript；Stars: 17,607",
-        "lyogavin/airllm：AirLLM 是一个开源项目，通过优化推理内存使用，允许在单张 4GB GPU 上运行 70B 参数的大语言模型，无需量化、蒸馏或剪枝。 补充：Language: Jupyter Notebook；Stars: 20,977",
-        "heygen-com/hyperframes：HyperFrames 是一个开源框架，允许用户通过 HTML、CSS 和动画生成确定性 MP4 视频，并可配合 AI 编码代理通过自然语言指令创建视频。 补充：语言: TypeScript；Stars: 29,858",
-        "firecrawl/firecrawl：Firecrawl 是一个开源 API 服务，用于大规模搜索、抓取网页并提取为 Markdown 或结构化数据，专为 AI 代理设计。 补充：语言: TypeScript；Stars: 137,030"
-      ],
-      "sections": [
-        {
-          "title": "重点变化",
-          "items": [
-            {
-              "title": "Stirling-Tools/Stirling-PDF",
-              "summary": "Stirling-PDF 是一款开源 PDF 编辑平台，支持桌面、浏览器和服务器部署，提供 50 多种 PDF 处理工具。",
-              "insightLabel": "补充",
-              "insightText": "语言: TypeScript；Stars: 82,724",
-              "sourceFeedItemIds": [
-                "feed_857c73753fb585da5dd68951"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "JCodesMore/ai-website-cloner-template",
-              "summary": "一个使用 AI 编码代理一键克隆任意网站的 Next.js 模板项目，支持反编译网站结构并重建为现代代码库。",
-              "insightLabel": "补充",
-              "insightText": "语言: TypeScript；Stars: 17,607",
-              "sourceFeedItemIds": [
-                "feed_b43d847e63ac6495a6ae0675"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "lyogavin/airllm",
-              "summary": "AirLLM 是一个开源项目，通过优化推理内存使用，允许在单张 4GB GPU 上运行 70B 参数的大语言模型，无需量化、蒸馏或剪枝。",
-              "insightLabel": "补充",
-              "insightText": "Language: Jupyter Notebook；Stars: 20,977",
-              "sourceFeedItemIds": [
-                "feed_534a1323fb8bd461e3940c67"
-              ],
-              "confidence": 75
-            }
-          ]
-        },
-        {
-          "title": "可行动线索",
-          "items": [
-            {
-              "title": "heygen-com/hyperframes",
-              "summary": "HyperFrames 是一个开源框架，允许用户通过 HTML、CSS 和动画生成确定性 MP4 视频，并可配合 AI 编码代理通过自然语言指令创建视频。",
-              "insightLabel": "补充",
-              "insightText": "语言: TypeScript；Stars: 29,858",
-              "sourceFeedItemIds": [
-                "feed_19a4f33d59d5fb424fdca772"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "firecrawl/firecrawl",
-              "summary": "Firecrawl 是一个开源 API 服务，用于大规模搜索、抓取网页并提取为 Markdown 或结构化数据，专为 AI 代理设计。",
-              "insightLabel": "补充",
-              "insightText": "语言: TypeScript；Stars: 137,030",
-              "sourceFeedItemIds": [
-                "feed_c8f554d666c89a871403e723"
-              ],
-              "confidence": 75
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_857c73753fb585da5dd68951",
-        "feed_19a4f33d59d5fb424fdca772",
-        "feed_c8f554d666c89a871403e723",
-        "feed_b43d847e63ac6495a6ae0675",
-        "feed_534a1323fb8bd461e3940c67"
-      ],
-      "generatedAt": "2026-06-23T16:28:15.344Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "GitHub Trending": 5
-        }
+        "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-03T18:56:10.343Z",
-  "sourceBaseUrl": "https://hot.kyangc.net"
+  "generatedAt": "2026-07-03T19:23:24.359Z",
+  "collectorName": "local-source-collector"
 }

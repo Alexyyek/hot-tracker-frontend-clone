@@ -5,62 +5,78 @@
       "topicId": "ai",
       "reportDate": "2026-07-03",
       "title": "AI日报",
-      "mainLine": "今日 AI 动态优先看「claude-real-video ─ 让任何大语言模型（LLM）都能观看视频」，脉络集中在「模型与基础设施」「行业与公司」「产品与工具」；先分辨是能力变化、产品落地还是行业信号。",
-      "actionItems": [],
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「June 2026 newsletter」、「Google DeepMind and A24 announce first-of-its-kind research partnership」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：June 2026 newsletter",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：生数科技发布 Vidu S1，推动视频生成迈向“实时交互”新时代"
+      ],
       "watchItems": [
-        "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频：这个工具把视频喂给 LLM 的过程从「固定采样 + 上传云」变成了「场景感知 + 本地去重」，大幅节省 token 且避免隐私泄露，用 Whisper 转录也更完整。",
-        "阿里达摩院发布超导材料发现AI智能体Elements Claw：我认为这是 AI for Science 的标志性突破，AI 智能体第一次从头设计并实验证实了全新的超导材料，把 AI 角色从辅助推到「独立发现」，对做材料模拟和科学发现的团队是个转折点。",
-        "关于Mythos和网络安全的讨论并非炒作：AI在安全漏洞发现上第一次展现出规模化能力，6月CVE数直接翻了3.5倍，所有做安全的人今天起都得重新评估自己的攻击面。",
-        "全球首例 AI Agent 勒索攻击曝光，从漏洞利用到数据库加密全程自主完成：全球首例AI Agent自主完成勒索攻击，证明攻击自动化已从理论走进现实，所有云服务暴露面都需要重新审视。",
-        "生数科技发布 Vidu S1，推动视频生成迈向“实时交互”新时代：Vidu S1 把视频生成从离线拉到了实时通话级交互，语音控制无限时长是质变，但只有540P，内测阶段实际延迟和稳定性待看，做虚拟陪伴和直播的可以跟。",
-        "国家网信办就《互联网信息服务管理办法》再次征求意见，首设“智能信息服务”专章规范AI服务：国家网信办首次为AI信息服务设专章，要求公示算法原理、标识生成内容，国内所有做AI产品的团队都得认真看这份征求意见稿，影响可能比模型发布更大。",
-        "Microsoft 成立“Frontier Company”，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场：微软砸 25 亿美元成立 Frontier Company，把 6000 名工程师直接塞进企业客户现场，正面应战 OpenAI 和 Anthropic 的部署子公司。",
-        "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧：这起诉讼暴露了前沿AI公司面对军事化应用的深层挣扎，法庭文件里的邮件往来比最终判决更值得看，直接拷问每一家模型公司的底线该划在哪里。"
+        "跟进：June 2026 newsletter",
+        "跟进：Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "跟进：生数科技发布 Vidu S1，推动视频生成迈向“实时交互”新时代",
+        "跟进：GPT and Claude failed Bridgewater&#039;s finance tests because the right answers were never public",
+        "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "行业与公司",
           "items": [
             {
-              "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
-              "summary": "这个工具把视频喂给 LLM 的过程从「固定采样 + 上传云」变成了「场景感知 + 本地去重」，大幅节省 token 且避免隐私泄露，用 Whisper 转录也更完整。",
+              "title": "June 2026 newsletter",
+              "summary": "来自Simon Willison 博客的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "feed_c1c518ee371de9e96f34d666"
+                "local_e16f97844757b619df505846"
               ],
-              "confidence": 81
+              "confidence": 58
             },
             {
-              "title": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
-              "summary": "我认为这是 AI for Science 的标志性突破，AI 智能体第一次从头设计并实验证实了全新的超导材料，把 AI 角色从辅助推到「独立发现」，对做材料模拟和科学发现的团队是个转折点。",
+              "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+              "summary": "来自Google DeepMind的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "feed_1e4b3c24361bda725cab7321"
+                "local_39542112464d0024e64b2800"
               ],
-              "confidence": 80
+              "confidence": 58
             },
             {
-              "title": "关于Mythos和网络安全的讨论并非炒作",
-              "summary": "AI在安全漏洞发现上第一次展现出规模化能力，6月CVE数直接翻了3.5倍，所有做安全的人今天起都得重新评估自己的攻击面。",
+              "title": "GPT and Claude failed Bridgewater&#039;s finance tests because the right answers were never public",
+              "summary": "来自The Decoder：AI News（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "feed_eebdc3cfe24c23d95b173d92"
+                "local_cc4fc94393dc13c2dd0e5cae"
               ],
-              "confidence": 77
+              "confidence": 58
             },
             {
-              "title": "全球首例 AI Agent 勒索攻击曝光，从漏洞利用到数据库加密全程自主完成",
-              "summary": "全球首例AI Agent自主完成勒索攻击，证明攻击自动化已从理论走进现实，所有云服务暴露面都需要重新审视。",
+              "title": "Takeda signs US$600M AI drug discovery deal with Insilico",
+              "summary": "来自Artificial Intelligence News（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "feed_edc231e675ccb5d8f7f9b9a7"
+                "local_dfcac65fd286a18724f63610"
               ],
-              "confidence": 76
+              "confidence": 58
             },
+            {
+              "title": "Hardware-Rooted AI Security That Won’t Slow You Down",
+              "summary": "来自NVIDIA Technical Blog（开发者技术博客 · RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_70a80a95189072fe65a17204"
+              ],
+              "confidence": 58
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
             {
               "title": "生数科技发布 Vidu S1，推动视频生成迈向“实时交互”新时代",
               "summary": "Vidu S1 把视频生成从离线拉到了实时通话级交互，语音控制无限时长是质变，但只有540P，内测阶段实际延迟和稳定性待看，做虚拟陪伴和直播的可以跟。",
@@ -74,83 +90,8 @@
           ]
         },
         {
-          "title": "行业与公司",
+          "title": "模型与基础设施",
           "items": [
-            {
-              "title": "国家网信办就《互联网信息服务管理办法》再次征求意见，首设“智能信息服务”专章规范AI服务",
-              "summary": "国家网信办首次为AI信息服务设专章，要求公示算法原理、标识生成内容，国内所有做AI产品的团队都得认真看这份征求意见稿，影响可能比模型发布更大。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_11e8c089fca705257138996c"
-              ],
-              "confidence": 79
-            },
-            {
-              "title": "Microsoft 成立“Frontier Company”，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
-              "summary": "微软砸 25 亿美元成立 Frontier Company，把 6000 名工程师直接塞进企业客户现场，正面应战 OpenAI 和 Anthropic 的部署子公司。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_5ac15158d3badcbad80a570c"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
-              "summary": "这起诉讼暴露了前沿AI公司面对军事化应用的深层挣扎，法庭文件里的邮件往来比最终判决更值得看，直接拷问每一家模型公司的底线该划在哪里。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_3942fa2f15b484d094892b10"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "得州特斯拉致命车祸：司机嫌FSD太保守，加速踏板踩死致76岁居民死亡",
-              "summary": "这起特斯拉FSD致命事故的司法进展中，司机被控过失杀人，黑匣子数据指向人为操作。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_49ba6e6189cb95095c0b3bb8"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "扎克伯格称AI智能体开发速度未如预期",
-              "summary": "扎克伯格对员工承认 AI 智能体进展不如预期，裁员重组的收益也还没兑现，巨头的挫败感比任何 PR 都真实，做 Agent 的团队该重新校准时间线。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_090bc8fc329e59e63e8c8222"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Wan Video 推出“音乐伴舞”新功能",
-              "summary": "阿里云给 Wan Video 加了个音乐到舞蹈的功能，上传角色和歌曲就能直接生成一段节奏同步的舞蹈视频，对做短视频的人算是个新玩具，可以拿来玩玩看效果。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_70999f42eefdb3d5873a17a6"
-              ],
-              "confidence": 77
-            },
-            {
-              "title": "面向 Web 开发者的 Safari MCP 服务器",
-              "summary": "Safari 首次以官方身份推出 MCP 服务器，让 AI 编程助手能直接调试浏览器渲染，对前端开发者做兼容性测试和性能检查很实用，不过局限在 Safari 生态。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_e938dbe86782b2ce987733e9"
-              ],
-              "confidence": 72
-            },
             {
               "title": "JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
               "summary": "京东把数字人技术做成了「传一张照片就能捏」的大众玩具，虽然看不出硬核突破，但对普通用户来说，这是第一次零门槛体验有形象有语音的 AI 玩伴，上手即用。",
@@ -160,41 +101,59 @@
                 "feed_629b5173f921c94f16fb0b39"
               ],
               "confidence": 68
-            },
-            {
-              "title": "Claude Enterprise 新增用量与成本分析及支出管控功能",
-              "summary": "企业版管理员终于有了按群组和用户的成本明细、模型权限和花费警告。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_327046faaedc4c4b321b6669"
-              ],
-              "confidence": 61
             }
           ]
         },
         {
-          "title": "技巧与观点",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "藏师傅PPT与Pencil结合使用技巧",
-              "summary": "藏师傅的 PPT Skill 结合 Pencil，提供了一个比 PPT 软件本身更灵活的编辑路径，对于频繁出提案的人算是一个值得试的小技巧，但 AI 排版仍需手动微调。",
+              "title": "面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+              "summary": "这是AI编写生产级训练框架的首个实证，8小时追平Megatron-LM并反超，证明AI打穿Infra的范式已到临界点，做训练框架和Infra的都该看看。",
               "insightLabel": "关注",
               "insightText": "",
               "sourceFeedItemIds": [
-                "feed_ce4070945449477cac648dae"
+                "feed_0497f08ac8c2e5f9009aff55"
               ],
-              "confidence": 75
+              "confidence": 65
             },
             {
-              "title": "Fable 相关动态集中出现",
-              "summary": "这篇是资深安全开发者一年的实战总结，提出的「短绳法」把AI代理栓紧，不是让开发者当甩手掌柜，而是逼你逐行审查，对代码质量死磕到底，比那些鼓吹全自动的大路货更有实操价值。",
+              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+              "summary": "Claude Fable 5 展示的自主性远超预期，从调研到工单交互一气呵成，这种执行力让我重新思考 AI 同事的定义。",
               "insightLabel": "关注",
-              "insightText": "同组还包括「Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器」、「Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO...」。",
+              "insightText": "",
               "sourceFeedItemIds": [
-                "feed_c9b459a3973f6570ff4f5317",
-                "feed_fb5a7c4053231b43ffea11c6",
                 "feed_ad463b46824fbae8c971fb34"
+              ],
+              "confidence": 62
+            },
+            {
+              "title": "llm-coding-agent 0.1a0",
+              "summary": "来自Simon Willison 博客的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_64a8536a9629aafbad62598d"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
+              "summary": "来自Simon Willison 博客的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_de8fb9889176af53b54249cb"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Distributed Attacks in Persistent-State AI Control",
+              "summary": "来自arXiv：Agent Harness / Auto-Research的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a29fedf7f7e00d816a9a754d"
               ],
               "confidence": 70
             }
@@ -202,1003 +161,127 @@
         }
       ],
       "referencedFeedItemIds": [
-        "feed_c1c518ee371de9e96f34d666",
-        "feed_1e4b3c24361bda725cab7321",
-        "feed_11e8c089fca705257138996c",
-        "feed_5ac15158d3badcbad80a570c",
-        "feed_70999f42eefdb3d5873a17a6",
-        "feed_eebdc3cfe24c23d95b173d92",
-        "feed_edc231e675ccb5d8f7f9b9a7",
-        "feed_ce4070945449477cac648dae",
-        "feed_3942fa2f15b484d094892b10",
-        "feed_e938dbe86782b2ce987733e9",
+        "local_e16f97844757b619df505846",
+        "local_39542112464d0024e64b2800",
         "feed_9c4060c41bdbee4ff1a98969",
-        "feed_c9b459a3973f6570ff4f5317"
+        "local_cc4fc94393dc13c2dd0e5cae",
+        "feed_629b5173f921c94f16fb0b39",
+        "local_dfcac65fd286a18724f63610",
+        "feed_0497f08ac8c2e5f9009aff55",
+        "feed_ad463b46824fbae8c971fb34",
+        "local_70a80a95189072fe65a17204",
+        "local_64a8536a9629aafbad62598d",
+        "local_de8fb9889176af53b54249cb",
+        "local_a29fedf7f7e00d816a9a754d",
+        "local_81547186a644cf172bb3fb50",
+        "local_bd13c5d4a8cb092c838c5349",
+        "local_b2e28bff35ec83aa4ccc8592"
       ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
+      "generatedAt": "2026-07-03T19:23:23.800Z",
+      "model": "local-source-collector",
       "raw": {
-        "sourceCoverage": {
-          "Hacker News 热门（buzzing.cc 中文翻译）": 3,
-          "IT之家（RSS）": 4,
-          "The Decoder：AI News（RSS）": 1,
-          "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
-          "X：Ethan Mollick (@emollick)": 1,
-          "X：歸藏 (@op7418)": 1,
-          "X：Kim (@kimmonismus)": 1,
-          "公众号：生数科技（Vidu·视频）": 1,
-          "TechCrunch：AI（RSS）": 1,
-          "MarkTechPost（RSS）": 1,
-          "公众号：京东JoyAI": 1,
-          "X：OpenRouter (@OpenRouter)": 1,
-          "Mistral AI：News（网页）": 1,
-          "公众号：面壁智能（MiniCPM）": 1,
-          "公众号：数字生命卡兹克": 1,
-          "Claude：Blog（网页）": 1,
-          "LMSYS：Blog（Chatbot Arena 团队）": 1
-        }
-      }
-    },
-    {
-      "id": "daily_flight-hotel-card_2026-07-03",
-      "topicId": "flight-hotel-card",
-      "reportDate": "2026-07-03",
-      "title": "机酒卡日报",
-      "mainLine": "今日机酒卡主题主要看「卡券与权益」、「航司与票价」、「酒店与积分」，最清晰的单点更新是「说卡｜0年费，农行神卡再添一枚！」；可先检查目标航线、规则口径和是否值得行动。",
-      "actionItems": [],
-      "watchItems": [
-        "说卡｜0年费，农行神卡再添一枚！：农行新上线Visa全球支付尊享白金卡，有效期内免年费，提供无限次境外机场贵宾厅权益（龙腾出行，覆盖超1000家休息室），叠加消费达标好礼及乐游天下六重返现活动，成为低成本境外出行和消费的神卡。 线索：卡片名称：农行Visa全球支付尊享白金卡（Visa尊享白），有效期内免年费。；无限次境外机场贵宾厅，服务商为龙腾出行，覆盖港澳台及美国、英国、法国、意大利、德国、澳大利亚、新西兰等超1000家休息室。",
-        "【飞海南注意！台风来袭】多地停课！机场紧急提醒：今年第10号台风“美莎克”将于7月3日白天在海南三亚到琼海一带沿海登陆，海口、三亚机场已启动应急响应，环岛高铁、进出岛列车全线停运，多地中小学和幼儿园停课。 线索：台风“美莎克”于7月3日凌晨加强，中心附近最大风力8级（18米/秒），预计3日白天在海南三亚到琼海一带登陆（9-10级）。；海口美兰国际机场7月1日19:00启动防台蓝色预警IV级响应，进出港航班可能出现延误、调整或取消。",
-        "白金卡冲！南航多送25000里程：中信信用卡南航里程加赠活动再次开启，白金卡用户满额兑换可额外获得25000里程，叠加折扣券后兑换比例最低可达0.95:1。 线索：活动时间：7月1日-7月31日，无需报名。；加赠上限：50000里程。",
-        "夸张！暑期这么多200元票吗？！：文章指出2026年暑期国内机票价格异常低，众多航线出现200元左右票价，甚至热门目的地如阿勒泰票价也大幅下降，建议读者利用低价机会出行。 线索：相对往年同期，2026年暑期整体票价明显下浮，出现大量200元左右的机票。；北京出发至武汉、哈尔滨等中长距离航线票价不贵。",
-        "【美国线猛降】正国庆3K4往返美西！这价也还不错，4K3就能往返巴黎！这家再降，多城联运2K7往返斯里兰卡：加拿大航空、大韩航空、沙特航空、Scat航空和国泰航空在正国庆期间降价，香港往返美西低至3K4，广州往返巴黎4K3，多城联运往返斯里兰卡2K7起。 线索：加拿大航空：10.1-10.7香港=西雅图3K5，退税后3K4，此前3K8；；加拿大航空：10.1-10.7香港=旧金山4K1，退税后4K，较此前降300元。",
-        "暑期还有这好事？200+飞国内外，含税含机建！：同程推出国内（258元）和国际（288元）机票盲盒，均含机建燃油； 线索：同程国内机票盲盒售价258元，每日10:00-22:00购买，需3位好友助力，乘机人需满12周岁。；同程国际机票盲盒售价288元，每周五10:00-22:00购买，需3位好友助力，乘机人需满18岁。",
-        "新店首促！投资60亿的度假综合体，水乐园夯爆了：杭州平行世界度假综合体新店开业，酒店+水乐园套餐在携程超级上新日首发，价格618元起，有效期至9月30日，部分日期不加价，水乐园门票可多次入园。 线索：杭州平行世界度假综合体总投资约60亿元，由酒店、水乐园、乐园三部分构成。；酒店客房1,255间，观景豪华双床房基础套餐618元/晚（含双早）。",
-        "乐园界的新晋顶流终于开了！一手实拍+开业套餐今天全搞定！：杭州平行世界乐园（酒店及水乐园）于7月4日开业，推出观景豪华房、科幻豪华房、双卧套房等多款含水乐园门票的套餐，价格788元起，有效期至8月31日，暑期限时加价，飞猪领券后到手价更低。 线索：杭州平行世界项目由乐园、酒店、水乐园三部分构成，7月4日开放酒店及水乐园，预计秋季开放主题乐园。；水乐园室内外总面积超30,000平方米，近20个项目，包括裸眼3D造浪池、浙江首个水磁弹射过山车、天空之眼滑道等。"
-      ],
-      "sections": [
-        {
-          "title": "卡券与权益",
-          "items": [
-            {
-              "title": "说卡｜0年费，农行神卡再添一枚！",
-              "summary": "农行新上线Visa全球支付尊享白金卡，有效期内免年费，提供无限次境外机场贵宾厅权益（龙腾出行，覆盖超1000家休息室），叠加消费达标好礼及乐游天下六重返现活动，成为低成本境外出行和消费的神卡。",
-              "insightLabel": "线索",
-              "insightText": "卡片名称：农行Visa全球支付尊享白金卡（Visa尊享白），有效期内免年费。；无限次境外机场贵宾厅，服务商为龙腾出行，覆盖港澳台及美国、英国、法国、意大利、德国、澳大利亚、新西兰等超1000家休息室。",
-              "sourceFeedItemIds": [
-                "feed_662f70b67a6a0d89cd80a001"
-              ],
-              "confidence": 85
-            }
-          ]
-        },
-        {
-          "title": "航司与票价",
-          "items": [
-            {
-              "title": "【飞海南注意！台风来袭】多地停课！机场紧急提醒",
-              "summary": "今年第10号台风“美莎克”将于7月3日白天在海南三亚到琼海一带沿海登陆，海口、三亚机场已启动应急响应，环岛高铁、进出岛列车全线停运，多地中小学和幼儿园停课。",
-              "insightLabel": "线索",
-              "insightText": "台风“美莎克”于7月3日凌晨加强，中心附近最大风力8级（18米/秒），预计3日白天在海南三亚到琼海一带登陆（9-10级）。；海口美兰国际机场7月1日19:00启动防台蓝色预警IV级响应，进出港航班可能出现延误、调整或取消。",
-              "sourceFeedItemIds": [
-                "feed_aef594478f2874c34bd6c637"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "白金卡冲！南航多送25000里程",
-              "summary": "中信信用卡南航里程加赠活动再次开启，白金卡用户满额兑换可额外获得25000里程，叠加折扣券后兑换比例最低可达0.95:1。",
-              "insightLabel": "线索",
-              "insightText": "活动时间：7月1日-7月31日，无需报名。；加赠上限：50000里程。",
-              "sourceFeedItemIds": [
-                "feed_4cd1460a94271cfa76cca6c3"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "夸张！暑期这么多200元票吗？！",
-              "summary": "文章指出2026年暑期国内机票价格异常低，众多航线出现200元左右票价，甚至热门目的地如阿勒泰票价也大幅下降，建议读者利用低价机会出行。",
-              "insightLabel": "线索",
-              "insightText": "相对往年同期，2026年暑期整体票价明显下浮，出现大量200元左右的机票。；北京出发至武汉、哈尔滨等中长距离航线票价不贵。",
-              "sourceFeedItemIds": [
-                "feed_45c3cab3852e56535875f04a"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "【美国线猛降】正国庆3K4往返美西！这价也还不错，4K3就能往返巴黎！这家再降，多城联运2K7往返斯里兰卡",
-              "summary": "加拿大航空、大韩航空、沙特航空、Scat航空和国泰航空在正国庆期间降价，香港往返美西低至3K4，广州往返巴黎4K3，多城联运往返斯里兰卡2K7起。",
-              "insightLabel": "线索",
-              "insightText": "加拿大航空：10.1-10.7香港=西雅图3K5，退税后3K4，此前3K8；；加拿大航空：10.1-10.7香港=旧金山4K1，退税后4K，较此前降300元。",
-              "sourceFeedItemIds": [
-                "feed_c4233ecbb300e8b2e500157f"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "暑期还有这好事？200+飞国内外，含税含机建！",
-              "summary": "同程推出国内（258元）和国际（288元）机票盲盒，均含机建燃油；",
-              "insightLabel": "线索",
-              "insightText": "同程国内机票盲盒售价258元，每日10:00-22:00购买，需3位好友助力，乘机人需满12周岁。；同程国际机票盲盒售价288元，每周五10:00-22:00购买，需3位好友助力，乘机人需满18岁。",
-              "sourceFeedItemIds": [
-                "feed_e5b0abd982032700b3311649"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "酒店与积分",
-          "items": [
-            {
-              "title": "新店首促！投资60亿的度假综合体，水乐园夯爆了",
-              "summary": "杭州平行世界度假综合体新店开业，酒店+水乐园套餐在携程超级上新日首发，价格618元起，有效期至9月30日，部分日期不加价，水乐园门票可多次入园。",
-              "insightLabel": "线索",
-              "insightText": "杭州平行世界度假综合体总投资约60亿元，由酒店、水乐园、乐园三部分构成。；酒店客房1,255间，观景豪华双床房基础套餐618元/晚（含双早）。",
-              "sourceFeedItemIds": [
-                "feed_d209dbcd2453e3aac1e9152a"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "乐园界的新晋顶流终于开了！一手实拍+开业套餐今天全搞定！",
-              "summary": "杭州平行世界乐园（酒店及水乐园）于7月4日开业，推出观景豪华房、科幻豪华房、双卧套房等多款含水乐园门票的套餐，价格788元起，有效期至8月31日，暑期限时加价，飞猪领券后到手价更低。",
-              "insightLabel": "线索",
-              "insightText": "杭州平行世界项目由乐园、酒店、水乐园三部分构成，7月4日开放酒店及水乐园，预计秋季开放主题乐园。；水乐园室内外总面积超30,000平方米，近20个项目，包括裸眼3D造浪池、浙江首个水磁弹射过山车、天空之眼滑道等。",
-              "sourceFeedItemIds": [
-                "feed_09c935730629c1b9e838acc3"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "杭州，夏天的命是玩水给的！开业直接5折起",
-              "summary": "杭州平行世界酒店新开业促销，套餐价格低至618元起，含早和水乐园门票，有效期至8月31日，7月23日前不加价。",
-              "insightLabel": "线索",
-              "insightText": "酒店位于杭州超山风景区旁，靠近塘栖古镇；套餐有效期至2026年8月31日",
-              "sourceFeedItemIds": [
-                "feed_5ed52dc700b318981c2a5053"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "又一顶流开业！万豪白金再放水",
-              "summary": "杭州平行世界水上乐园7月4日开业，推出含住宿和水乐园门票的开业套餐，最低788元起；",
-              "insightLabel": "线索",
-              "insightText": "杭州平行世界水上乐园将于7月4日开业；开业套餐：788元1晚观景豪华房+早餐+2张水乐园门票",
-              "sourceFeedItemIds": [
-                "feed_63ca395ac03e19ee1d13fc08"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "杭州文华东方上线官网；洲际酒店集团公布2026下半年新开业计划；阿丽拉签约新酒店",
-              "summary": "本周酒旅资讯包括：洲际酒店集团公布2026下半年大中华区新开业计划，涉及深圳国际交流中心洲际酒店、台北洲際酒店等多品牌项目；",
-              "insightLabel": "线索",
-              "insightText": "洲际酒店集团2026下半年大中华区新开业项目包括深圳国际交流中心洲际酒店、台北洲際酒店、上海虹桥枢纽国展中心假日酒店、深圳湾智选假日酒店、上海北外滩滨江智选假日酒店、北京大兴西红门...；首家焕新版万豪万枫酒店——昆明西山万豪万枫酒店于6月26日开业，位于昆明西山区大商汇商圈，拥有186间客房及套房。",
-              "sourceFeedItemIds": [
-                "feed_d7045d661d0e12758c45a01c"
-              ],
-              "confidence": 75
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_662f70b67a6a0d89cd80a001",
-        "feed_aef594478f2874c34bd6c637",
-        "feed_4cd1460a94271cfa76cca6c3",
-        "feed_45c3cab3852e56535875f04a",
-        "feed_c4233ecbb300e8b2e500157f",
-        "feed_e5b0abd982032700b3311649",
-        "feed_6b1ed7d12f1c412d5b183db0",
-        "feed_d209dbcd2453e3aac1e9152a",
-        "feed_09c935730629c1b9e838acc3",
-        "feed_61b78a8a34c927867db48d87",
-        "feed_5ed52dc700b318981c2a5053",
-        "feed_63ca395ac03e19ee1d13fc08"
-      ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "落落说卡": 1,
-          "旅行雷达": 5,
-          "聪明旅行": 1,
-          "飞飞玩票": 1,
-          "E旅行网": 4,
-          "城市旅行指北": 1,
-          "Aires行记": 1,
-          "嬉游": 1,
-          "木木说卡": 1,
-          "HotelShare": 1,
-          "精明常旅客": 1,
-          "早早的快乐旅程": 1
-        }
-      }
-    },
-    {
-      "id": "daily_hk-ipo_2026-07-03",
-      "topicId": "hk-ipo",
-      "reportDate": "2026-07-03",
-      "title": "港股打新日报",
-      "mainLine": "今日港股打新先看「港股打新：三环集团（A+H）丨中国内地最大的先进电子陶瓷材料和零部件供应商丨腾讯阿里淡马锡站台」，重点落在「新股与申购」、「暗盘与上市表现」；适合把估值、资金占用和破发风险放在一起判断。",
-      "actionItems": [],
-      "watchItems": [
-        "港股打新：三环集团（A+H）丨中国内地最大的先进电子陶瓷材料和零部件供应商丨腾讯阿里淡马锡站台：三环集团（06951.HK）作为中国内地最大的先进电子陶瓷材料和零部件供应商，以A+H方式在港交所招股，发行价100.3港元，入场费10131.16港元，基石包括腾讯、阿里、淡马锡等。 看点：三环集团（06951.HK）为A+H股，A股代码300408.SZ，H/A溢价约-48%；招股日期：2026年6月30日至7月6日，上市日预计7月9日",
-        "瑞为技术18c，h股59亿！还敢赌卡通吗？港股稀缺的民航细分视觉智能龙头 ——(07656.HK)2026年6月新股分析：瑞为技术（07656.HK）以18C章程在港交所上市，H股市值约59亿港元，是国内民航视觉AI细分龙头，但IPO前估值达60亿，且公配热度未达15倍回拨，一手中签率约10%。 看点：瑞为技术（07656.HK）2026年6月启动招股，H股市值约59亿港元，发行价对应2024年PE约31倍。；公配认购倍数未达15倍，不回拨；一手中签率约10%，乙头获配约5-6手。",
-        "易控智驾，比希迪好些！发120亿基石50%！国内矿区无人驾驶商业化落地先行者与绝对龙头 ——（07687.HK）2026年6月新股分析：易控智驾（07687.HK）启动招股，募资约120亿港元，基石投资者认购50%，公司为国内矿区无人驾驶龙头，但发行规模巨大，需关注中签率和暗盘风险。 看点：发行股份：6亿股，其中90%为国际配售，10%为公开发售；招股价范围：20.0-24.0港元",
-        "齐云山食品，募资1亿多的小票难得！国内头部南酸枣果类零食企业 ——（02797.HK）2026年6月新股分析：齐云山食品（02797.HK）启动招股，募资约1亿多港元，是国内头部南酸枣果类零食企业，发行规模小，预计中签率低，作者倾向参与。 看点：齐云山食品（02797.HK）于2026年7月招股，募资约1亿多港元。；公司是国内南酸枣果类零食细分龙头企业。",
-        "鼎泰高科ah，折价36.55%，港股打新史上最贵入场费38383.24！全球领先的PCB精密制造一体化综合服务商 ——(01377.HK)2026年6月新股分析：鼎泰高科（01377.HK）港股招股，折价36.55%，入场费38383.24港元为港股打新史上最贵。 看点：鼎泰高科港股发行价较A股折价36.55%。；入场费38383.24港元，为港股打新史上最贵。",
-        "来福谐波、海力士暴涨猛如虎，接着奏乐接着舞。：作者复盘来福谐波暗盘首日操作及海力士抄底逻辑，认为来福受益于绿鞋和活锚抛压减弱及A股对标股强势，股价暴涨44.95%； 看点：来福谐波上市首日破发14.62%，次日再跌11.16%，最低跌至58港元。；来福谐波今日暴涨44.95%，股价最高触及100港元。"
-      ],
-      "sections": [
-        {
-          "title": "新股与申购",
-          "items": [
-            {
-              "title": "港股打新：三环集团（A+H）丨中国内地最大的先进电子陶瓷材料和零部件供应商丨腾讯阿里淡马锡站台",
-              "summary": "三环集团（06951.HK）作为中国内地最大的先进电子陶瓷材料和零部件供应商，以A+H方式在港交所招股，发行价100.3港元，入场费10131.16港元，基石包括腾讯、阿里、淡马锡等。",
-              "insightLabel": "看点",
-              "insightText": "三环集团（06951.HK）为A+H股，A股代码300408.SZ，H/A溢价约-48%；招股日期：2026年6月30日至7月6日，上市日预计7月9日",
-              "sourceFeedItemIds": [
-                "feed_affd40ff779bebe0b1f48a30"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "瑞为技术18c，h股59亿！还敢赌卡通吗？港股稀缺的民航细分视觉智能龙头 ——(07656.HK)2026年6月新股分析",
-              "summary": "瑞为技术（07656.HK）以18C章程在港交所上市，H股市值约59亿港元，是国内民航视觉AI细分龙头，但IPO前估值达60亿，且公配热度未达15倍回拨，一手中签率约10%。",
-              "insightLabel": "看点",
-              "insightText": "瑞为技术（07656.HK）2026年6月启动招股，H股市值约59亿港元，发行价对应2024年PE约31倍。；公配认购倍数未达15倍，不回拨；一手中签率约10%，乙头获配约5-6手。",
-              "sourceFeedItemIds": [
-                "feed_b766b9fa1f82c678fbd7ca51"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "易控智驾，比希迪好些！发120亿基石50%！国内矿区无人驾驶商业化落地先行者与绝对龙头 ——（07687.HK）2026年6月新股分析",
-              "summary": "易控智驾（07687.HK）启动招股，募资约120亿港元，基石投资者认购50%，公司为国内矿区无人驾驶龙头，但发行规模巨大，需关注中签率和暗盘风险。",
-              "insightLabel": "看点",
-              "insightText": "发行股份：6亿股，其中90%为国际配售，10%为公开发售；招股价范围：20.0-24.0港元",
-              "sourceFeedItemIds": [
-                "feed_dd606c6ab716231e0a02af94"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "齐云山食品，募资1亿多的小票难得！国内头部南酸枣果类零食企业 ——（02797.HK）2026年6月新股分析",
-              "summary": "齐云山食品（02797.HK）启动招股，募资约1亿多港元，是国内头部南酸枣果类零食企业，发行规模小，预计中签率低，作者倾向参与。",
-              "insightLabel": "看点",
-              "insightText": "齐云山食品（02797.HK）于2026年7月招股，募资约1亿多港元。；公司是国内南酸枣果类零食细分龙头企业。",
-              "sourceFeedItemIds": [
-                "feed_3f4d53a5bff9152b045544a3"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "鼎泰高科ah，折价36.55%，港股打新史上最贵入场费38383.24！全球领先的PCB精密制造一体化综合服务商 ——(01377.HK)2026年6月新股分析",
-              "summary": "鼎泰高科（01377.HK）港股招股，折价36.55%，入场费38383.24港元为港股打新史上最贵。",
-              "insightLabel": "看点",
-              "insightText": "鼎泰高科港股发行价较A股折价36.55%。；入场费38383.24港元，为港股打新史上最贵。",
-              "sourceFeedItemIds": [
-                "feed_b0e2892056e248fe03b788b0"
-              ],
-              "confidence": 60
-            }
-          ]
-        },
-        {
-          "title": "暗盘与上市表现",
-          "items": [
-            {
-              "title": "来福谐波、海力士暴涨猛如虎，接着奏乐接着舞。",
-              "summary": "作者复盘来福谐波暗盘首日操作及海力士抄底逻辑，认为来福受益于绿鞋和活锚抛压减弱及A股对标股强势，股价暴涨44.95%；",
-              "insightLabel": "看点",
-              "insightText": "来福谐波上市首日破发14.62%，次日再跌11.16%，最低跌至58港元。；来福谐波今日暴涨44.95%，股价最高触及100港元。",
-              "sourceFeedItemIds": [
-                "feed_8ae51f9035b7365431d77eb9"
-              ],
-              "confidence": 72
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_affd40ff779bebe0b1f48a30",
-        "feed_b766b9fa1f82c678fbd7ca51",
-        "feed_dd606c6ab716231e0a02af94",
-        "feed_3f4d53a5bff9152b045544a3",
-        "feed_8ae51f9035b7365431d77eb9",
-        "feed_b0e2892056e248fe03b788b0"
-      ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "低风险理财投资": 1,
-          "爱投资的小熊猫": 4,
-          "每天打个新": 1
-        }
-      }
-    },
-    {
-      "id": "daily_investment_2026-07-03",
-      "topicId": "investment",
-      "reportDate": "2026-07-03",
-      "title": "投资观点日报",
-      "mainLine": "今日投资观点核心线索是「阿里跌破100：AI每赚1块，外卖烧掉36块」，主要围绕「产业与公司」、「宏观与政策」、「财报与数据」；先看观点背后的证据、估值约束和风险分歧。",
-      "actionItems": [],
-      "watchItems": [
-        "阿里跌破100：AI每赚1块，外卖烧掉36块：阿里股价跌破100美元，核心原因并非AI模型落后，而是自由现金流大幅转负； 证据：阿里云占中国AI云市场约36%份额，排名第一，MaaS平台百炼客户数同比增长8倍。；阿里云最新一季收入增速38%，外部商业化收入增速40%，AI相关产品年化经常性收入358亿元。",
-        "UBS大幅上调DRAM和NAND价格预测：瑞银上调DRAM和NAND价格预测 DRAM价格预计在第三季度环比上涨32%，第四季度环比上涨18%。 证据：UBS预计DRAM价格2026年Q3环比上涨32%，Q4环比上涨18%；UBS预计NAND价格2026年Q3环比上涨30%，Q4环比上涨12%",
-        "Bernstein estimates SK hynix's DRAM：Bernstein估计SK hynix第二季度DRAM毛利率将达到90.9%… https://t.co/bC25hqTv5a 证据：Bernstein estimates SK hynix's DRAM gross margin in Q2 2026 will reach 90.9%.",
-        "住友化学与三星电机年内成立玻璃基板合资企业：对上游玻璃基板供应链的非常正面的解读： - 住友化学与三星电机年内将在韩国正式成立合资公司，负责玻璃核心基板业务（GlaSSEM）。 证据：住友化学与三星电机年内将在韩国正式成立玻璃核心基板合资公司GlaSSEM。；Samsung/Dongwoo JV计划资本4821亿韩元，全面商业化目标为2027年下半年。",
-        "Samsung Foundry is in talks with Met：三星代工正与Meta洽谈量产第三代MTIA芯片，采用2nm工艺； 证据：Meta is pursuing next-generation ASIC worth over 10 trillion won with Samsung Foundry.；Third-gen MTIA will use Samsung Foundry's 2nm process, with mass production of several hun...",
-        "国家金融监督管理总局对出现严重信用风险的武汉众邦银行实施接管：国家金融监督管理总局、湖北省人民政府：鉴于武汉众邦银行股份有限公司（以下简称众邦银行）出现严重信用风险，为保护存款人和其他客户的合法权益，依照《中华人民共和国银行业监督管理法》和《中华人民共和国商业银行法》有关规定，国家金融监督管理总局决定对众邦银行实施接管。 证据：武汉众邦银行出现严重信用风险。；接管决定由国家金融监督管理总局和湖北省人民政府共同作出。",
-        "数据反常，股市见顶前的征兆：文章通过分析创业板和沪深300 ETF份额变化，揭示本轮牛市启动前底部持仓的机构（含某队）已减仓70%以上，指出机构行为反映当前点位缺乏性价比，并警示散户避免成为财富转移的“血包”。 证据：2024年9月24日牛市启动前，易某达创业板ETF份额为412亿份；；2024年年报显示，某队持有该ETF 150亿份，占比34%。",
-        "LLM对Meta广告帮助极其有限，但Meta不是算力主逻辑，OA的ARR才是：文章通过分析Meta广告增长来源，指出其核心并非依赖大语言模型（LLM），而是广告加载量提升和GEM/Lattice模型（非LLM）带来的转化率优化。 证据：Meta 2026年Q1广告业务增长33%，其中广告曝光量增长19%，eCPM增长12%。；广告均价增长主因：1）GEM+Lattice模型提升落地页广告转化率6%；"
-      ],
-      "sections": [
-        {
-          "title": "产业与公司",
-          "items": [
-            {
-              "title": "阿里跌破100：AI每赚1块，外卖烧掉36块",
-              "summary": "阿里股价跌破100美元，核心原因并非AI模型落后，而是自由现金流大幅转负；",
-              "insightLabel": "证据",
-              "insightText": "阿里云占中国AI云市场约36%份额，排名第一，MaaS平台百炼客户数同比增长8倍。；阿里云最新一季收入增速38%，外部商业化收入增速40%，AI相关产品年化经常性收入358亿元。",
-              "sourceFeedItemIds": [
-                "feed_93c31d7f27d1bede17120b05"
-              ],
-              "confidence": 88
-            },
-            {
-              "title": "UBS大幅上调DRAM和NAND价格预测",
-              "summary": "瑞银上调DRAM和NAND价格预测 DRAM价格预计在第三季度环比上涨32%，第四季度环比上涨18%。",
-              "insightLabel": "证据",
-              "insightText": "UBS预计DRAM价格2026年Q3环比上涨32%，Q4环比上涨18%；UBS预计NAND价格2026年Q3环比上涨30%，Q4环比上涨12%",
-              "sourceFeedItemIds": [
-                "feed_62fd601d3ea870e7d2f85619"
-              ],
-              "confidence": 88
-            },
-            {
-              "title": "Bernstein estimates SK hynix's DRAM",
-              "summary": "Bernstein估计SK hynix第二季度DRAM毛利率将达到90.9%… https://t.co/bC25hqTv5a",
-              "insightLabel": "证据",
-              "insightText": "Bernstein estimates SK hynix's DRAM gross margin in Q2 2026 will reach 90.9%.",
-              "sourceFeedItemIds": [
-                "feed_460b24935b7f0863a9eb7e65"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "住友化学与三星电机年内成立玻璃基板合资企业",
-              "summary": "对上游玻璃基板供应链的非常正面的解读： - 住友化学与三星电机年内将在韩国正式成立合资公司，负责玻璃核心基板业务（GlaSSEM）。",
-              "insightLabel": "证据",
-              "insightText": "住友化学与三星电机年内将在韩国正式成立玻璃核心基板合资公司GlaSSEM。；Samsung/Dongwoo JV计划资本4821亿韩元，全面商业化目标为2027年下半年。",
-              "sourceFeedItemIds": [
-                "feed_c1adcc6868b8ce5936a71a7d"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "Samsung Foundry is in talks with Met",
-              "summary": "三星代工正与Meta洽谈量产第三代MTIA芯片，采用2nm工艺；",
-              "insightLabel": "证据",
-              "insightText": "Meta is pursuing next-generation ASIC worth over 10 trillion won with Samsung Foundry.；Third-gen MTIA will use Samsung Foundry's 2nm process, with mass production of several hun...",
-              "sourceFeedItemIds": [
-                "feed_bf548cb0a2a6cd5f58b85856"
-              ],
-              "confidence": 85
-            }
-          ]
-        },
-        {
-          "title": "宏观与政策",
-          "items": [
-            {
-              "title": "国家金融监督管理总局对出现严重信用风险的武汉众邦银行实施接管",
-              "summary": "国家金融监督管理总局、湖北省人民政府：鉴于武汉众邦银行股份有限公司（以下简称众邦银行）出现严重信用风险，为保护存款人和其他客户的合法权益，依照《中华人民共和国银行业监督管理法》和《中华人民共和国商业银行法》有关规定，国家金融监督管理总局决定对众邦银行实施接管。",
-              "insightLabel": "证据",
-              "insightText": "武汉众邦银行出现严重信用风险。；接管决定由国家金融监督管理总局和湖北省人民政府共同作出。",
-              "sourceFeedItemIds": [
-                "feed_dd6acd907e5f5cdb50c6dcab"
-              ],
-              "confidence": 85
-            }
-          ]
-        },
-        {
-          "title": "财报与数据",
-          "items": [
-            {
-              "title": "数据反常，股市见顶前的征兆",
-              "summary": "文章通过分析创业板和沪深300 ETF份额变化，揭示本轮牛市启动前底部持仓的机构（含某队）已减仓70%以上，指出机构行为反映当前点位缺乏性价比，并警示散户避免成为财富转移的“血包”。",
-              "insightLabel": "证据",
-              "insightText": "2024年9月24日牛市启动前，易某达创业板ETF份额为412亿份；；2024年年报显示，某队持有该ETF 150亿份，占比34%。",
-              "sourceFeedItemIds": [
-                "feed_3fcbc8da376ef8a99d9a3b5a"
-              ],
-              "confidence": 85
-            }
-          ]
-        },
-        {
-          "title": "核心观点",
-          "items": [
-            {
-              "title": "LLM对Meta广告帮助极其有限，但Meta不是算力主逻辑，OA的ARR才是",
-              "summary": "文章通过分析Meta广告增长来源，指出其核心并非依赖大语言模型（LLM），而是广告加载量提升和GEM/Lattice模型（非LLM）带来的转化率优化。",
-              "insightLabel": "证据",
-              "insightText": "Meta 2026年Q1广告业务增长33%，其中广告曝光量增长19%，eCPM增长12%。；广告均价增长主因：1）GEM+Lattice模型提升落地页广告转化率6%；",
-              "sourceFeedItemIds": [
-                "feed_a509d4e943ef8d4e65195700"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "反映了内存市场的持续强势",
-              "summary": "三星寻求在Q3将DRAM ASP环比提高20%（ZDNET KOREA）",
-              "insightLabel": "证据",
-              "insightText": "三星寻求在Q3将DRAM ASP环比提高20%。；信息来源：ZDNET KOREA。",
-              "sourceFeedItemIds": [
-                "feed_823bdda4bc79b73f64fd977c"
-              ],
-              "confidence": 75
-            }
-          ]
-        },
-        {
-          "title": "风险与分歧",
-          "items": [
-            {
-              "title": "AXTI与Coherent签署三年晶圆供应协议",
-              "summary": "$AXTI 与 $COHR 签署三年晶圆协议。 \"Coherent 将向 AXT-Tongmei 支付 22,288,500 美元预付款，以换取承诺的供应产能。\" https://t.co/nTkyJSMo96",
-              "insightLabel": "证据",
-              "insightText": "供应商为AXTI（AXT Inc.），客户为COHR（Coherent Corp.）。；协议为期三年，涉及晶圆供应。",
-              "sourceFeedItemIds": [
-                "feed_20f815b6a30b50f9a7bff9db"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "随后在被英伟达",
-              "summary": "Be SemiAnalysis： - 发布一篇关于 CPO 延迟和光通信公司估值的尖锐文章，导致股价暴跌。",
-              "insightLabel": "证据",
-              "insightText": "SemiAnalysis 发布了一篇关于 CPO 延迟和光通信公司估值的尖锐文章，引发了股价暴跌。；英伟达、分析师和研究台以及主要光通信公司反驳了该文章的观点。",
-              "sourceFeedItemIds": [
-                "feed_edfe003826eef84ee4614ecc"
-              ],
-              "confidence": 65
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_93c31d7f27d1bede17120b05",
-        "feed_62fd601d3ea870e7d2f85619",
-        "feed_460b24935b7f0863a9eb7e65",
-        "feed_c1adcc6868b8ce5936a71a7d",
-        "feed_dd6acd907e5f5cdb50c6dcab",
-        "feed_3fcbc8da376ef8a99d9a3b5a",
-        "feed_bf548cb0a2a6cd5f58b85856",
-        "feed_a509d4e943ef8d4e65195700",
-        "feed_a08d0f79131b2c53d45e40cc",
-        "feed_ab9733f35bc44dc3be321a9a",
-        "feed_28ca777c3e83ac3a6630ae54",
-        "feed_75f2f48508f6e64fd9dc52d5"
-      ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "Link01": 1,
-          "Jukan": 11,
-          "Serenity": 12,
-          "外汇交易员": 3,
-          "重远投资观": 1,
-          "卓哥投研笔记": 1,
-          "分百岛主": 1,
-          "Kevin策略研究": 1,
-          "硬核姬老板": 1,
-          "不跪的世界": 1
-        }
-      }
-    },
-    {
-      "id": "daily_whale-portfolio_2026-07-03",
-      "topicId": "whale-portfolio",
-      "reportDate": "2026-07-03",
-      "title": "大佬持仓日报",
-      "mainLine": "大佬持仓在 2026-07-03 没有达到日报阈值的显著更新。",
-      "actionItems": [],
-      "watchItems": [],
-      "sections": [],
-      "referencedFeedItemIds": [],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {}
-      }
-    },
-    {
-      "id": "daily_x-signal_2026-07-03",
-      "topicId": "x-signal",
-      "reportDate": "2026-07-03",
-      "title": "X Radar日报",
-      "mainLine": "今日X Radar最值得先看「聚合 237 个 AI 提供商（其中 90+ 提供免费额度）」，主要落在「重点变化」、「可行动线索」。",
-      "actionItems": [],
-      "watchItems": [
-        "聚合 237 个 AI 提供商（其中 90+ 提供免费额度）：这看起来比 FreeLLMAPI 还有屌，我得部署一下试试。 OmniRoute 一个免费 AI 网关，用 TypeScript 编写，提供单个本地端点（/v1）聚合 237 个 AI 提供商，其中 90+ 提供免费额度。 核心 4 层自动回退，订阅— API Key —便宜—免... 补充：OmniRoute 聚合 237 个 AI 提供商，其中 90+ 提供免费额度。；核心 4 层自动回退：订阅 → API Key → 便宜 → 免费，毫秒切换。",
-        "认为这是赌AI不会进步：刷到这条AI也代替不了科班出身的帖子，给我看乐了😅 一堆人揪着大V卡兹克居然不懂CDN这种细节较劲。 补充：大V卡兹克因不懂CDN细节被科班出身者嘲笑；胡彦斌用Vibe coding开发的App被发现漏洞后也有人弹冠相庆",
-        "Meta 即将推出 Muse Spark 模型更新：Meta 的新模型Muse Spark即将推出。 新模型根据Alex Wang的说法在编码和代理能力方面有重大改进，以更具竞争力地与其他领先模型竞争。 新模型会是一个非常大的模型🤔 https://t.co/OG47msEdMp Quoted post: Author: @al... 补充：Meta 即将推出 Muse Spark 模型更新。；Alex Wang 表示 Muse Spark 在编码和代理能力上有大幅改进。",
-        "旨在让 raft(slock)：https://t.co/OUVvBt3eiu 在做一个 Agent Team 的导入导出的标准格式，希望能定义一个格式。 补充：正在定义 Agent Team 的导入导出标准格式；目标兼容 raft(slock)、bloome、curoma 等多种 Agent Team",
-        "shadcn/ui 宣布改用 Base UI 作为默认组件库：哈，前不久我还说过这事，现在 shadcn/ui 终于宣布改用 Base UI 作为默认的组件库，抛弃 Radix 了。 补充：shadcn/ui 于 2026-07-03 宣布改用 Base UI 作为默认组件库。；shadcn/ui 自 2023 年发布以来一直基于 Radix。",
-        "阿里巴巴因Claude Code被曝存在植入后门风险：突发，因存在植入后门风险，阿里巴巴内部宣布禁用Claude。 阿里全员被要求卸载Anthropic相关产品，包括Sonnet、Opus、Fable等多个系列模型，以及Claude Code在内的Agent产品。 禁令于7月10日正式生效。 据阿里内部人士透露，背后原因系近期Cla... 补充：禁令于2026年7月10日正式生效。；禁用范围覆盖Anthropic旗下Sonnet、Opus、Fable等多个系列模型及Claude Code等Agent产品。",
-        "且 10 道题仅花费约 4 元：Maka 的 Harness 工程让 DeepSeek Flash 的测试集效果接近了 GLM-5.2 的水平 ----------------------------------- maka + DeepSeek Flash V4，terminal-bench sample 打... 补充：Maka 的 Harness 工程让 DeepSeek Flash V4 在 terminal-bench sample 中打出 0.8 分，接近 0.9。；实际得分接近 0.9，有一道题因产物污染未被评分系统计入。",
-        "发现其具备多层多语言安全检测机制：黑客Vitto Rivabella公开宣布Fable 5又被攻破了😧 他表示大部分的越狱尝试都失败了，防护显然是分层的。 补充：Fable 5 存在至少3层审核：输入层（含对话历史和系统提示）、实时审核器（中断检测到问题的回答）、以及链式思维（CoT）防护。；审核机制基于意图和语义检测，且支持多语言，在桑塔利语和阿姆哈拉语等冷门语言上表现稍差。"
-      ],
-      "sections": [
-        {
-          "title": "重点变化",
-          "items": [
-            {
-              "title": "聚合 237 个 AI 提供商（其中 90+ 提供免费额度）",
-              "summary": "这看起来比 FreeLLMAPI 还有屌，我得部署一下试试。 OmniRoute 一个免费 AI 网关，用 TypeScript 编写，提供单个本地端点（/v1）聚合 237 个 AI 提供商，其中 90+ 提供免费额度。 核心 4 层自动回退，订阅— API Key —便宜—免...",
-              "insightLabel": "补充",
-              "insightText": "OmniRoute 聚合 237 个 AI 提供商，其中 90+ 提供免费额度。；核心 4 层自动回退：订阅 → API Key → 便宜 → 免费，毫秒切换。",
-              "sourceFeedItemIds": [
-                "feed_eb812e234d0ff1f7710597d0"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "认为这是赌AI不会进步",
-              "summary": "刷到这条AI也代替不了科班出身的帖子，给我看乐了😅 一堆人揪着大V卡兹克居然不懂CDN这种细节较劲。",
-              "insightLabel": "补充",
-              "insightText": "大V卡兹克因不懂CDN细节被科班出身者嘲笑；胡彦斌用Vibe coding开发的App被发现漏洞后也有人弹冠相庆",
-              "sourceFeedItemIds": [
-                "feed_daf762f6a9225548f1f9e3a8"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Meta 即将推出 Muse Spark 模型更新",
-              "summary": "Meta 的新模型Muse Spark即将推出。 新模型根据Alex Wang的说法在编码和代理能力方面有重大改进，以更具竞争力地与其他领先模型竞争。 新模型会是一个非常大的模型🤔 https://t.co/OG47msEdMp Quoted post: Author: @al...",
-              "insightLabel": "补充",
-              "insightText": "Meta 即将推出 Muse Spark 模型更新。；Alex Wang 表示 Muse Spark 在编码和代理能力上有大幅改进。",
-              "sourceFeedItemIds": [
-                "feed_582d7daef77c6b1cfb8fbe61"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "旨在让 raft(slock)",
-              "summary": "https://t.co/OUVvBt3eiu 在做一个 Agent Team 的导入导出的标准格式，希望能定义一个格式。",
-              "insightLabel": "补充",
-              "insightText": "正在定义 Agent Team 的导入导出标准格式；目标兼容 raft(slock)、bloome、curoma 等多种 Agent Team",
-              "sourceFeedItemIds": [
-                "feed_ce697688ca589005ff2d4916"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "shadcn/ui 宣布改用 Base UI 作为默认组件库",
-              "summary": "哈，前不久我还说过这事，现在 shadcn/ui 终于宣布改用 Base UI 作为默认的组件库，抛弃 Radix 了。",
-              "insightLabel": "补充",
-              "insightText": "shadcn/ui 于 2026-07-03 宣布改用 Base UI 作为默认组件库。；shadcn/ui 自 2023 年发布以来一直基于 Radix。",
-              "sourceFeedItemIds": [
-                "feed_ca645a92274355e0f5c66f35"
-              ],
-              "confidence": 75
-            }
-          ]
-        },
-        {
-          "title": "可行动线索",
-          "items": [
-            {
-              "title": "阿里巴巴因Claude Code被曝存在植入后门风险",
-              "summary": "突发，因存在植入后门风险，阿里巴巴内部宣布禁用Claude。 阿里全员被要求卸载Anthropic相关产品，包括Sonnet、Opus、Fable等多个系列模型，以及Claude Code在内的Agent产品。 禁令于7月10日正式生效。 据阿里内部人士透露，背后原因系近期Cla...",
-              "insightLabel": "补充",
-              "insightText": "禁令于2026年7月10日正式生效。；禁用范围覆盖Anthropic旗下Sonnet、Opus、Fable等多个系列模型及Claude Code等Agent产品。",
-              "sourceFeedItemIds": [
-                "feed_4b2817b12ac804a53c669363"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "且 10 道题仅花费约 4 元",
-              "summary": "Maka 的 Harness 工程让 DeepSeek Flash 的测试集效果接近了 GLM-5.2 的水平 ----------------------------------- maka + DeepSeek Flash V4，terminal-bench sample 打...",
-              "insightLabel": "补充",
-              "insightText": "Maka 的 Harness 工程让 DeepSeek Flash V4 在 terminal-bench sample 中打出 0.8 分，接近 0.9。；实际得分接近 0.9，有一道题因产物污染未被评分系统计入。",
-              "sourceFeedItemIds": [
-                "feed_4c279c06b78d2f15d27cb9d5"
-              ],
-              "confidence": 85
-            },
-            {
-              "title": "发现其具备多层多语言安全检测机制",
-              "summary": "黑客Vitto Rivabella公开宣布Fable 5又被攻破了😧 他表示大部分的越狱尝试都失败了，防护显然是分层的。",
-              "insightLabel": "补充",
-              "insightText": "Fable 5 存在至少3层审核：输入层（含对话历史和系统提示）、实时审核器（中断检测到问题的回答）、以及链式思维（CoT）防护。；审核机制基于意图和语义检测，且支持多语言，在桑塔利语和阿姆哈拉语等冷门语言上表现稍差。",
-              "sourceFeedItemIds": [
-                "feed_1bf4e965065ddcdd0ac0028f"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "博主指出远程控制的唯一核心是网络",
-              "summary": "#工具 在 UU 远程免费的时候，大家会争论硬件 KVM、RDP、VNC 等等工具哪个好。",
-              "insightLabel": "补充",
-              "insightText": "UU远程目前免费，未来将开始收费。；博主测试发现，在中国网络环境下，自建中转服务器跑远控效果不佳。",
-              "sourceFeedItemIds": [
-                "feed_e383c91a9ab5cfa3e7dbf551"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "介绍从国内通过日本家庭宽带顺畅访问外网的低成本方案",
-              "summary": "#机场 效果过得去，成本最低的方法： 1. 买一个主流机场（千元左右的）。",
-              "insightLabel": "补充",
-              "insightText": "需要购买一个千元左右的主流机场；在日本家庭的设备上搭建Snell Server或其他代理服务器",
-              "sourceFeedItemIds": [
-                "feed_d00750ccee5c529fcf9cbada"
-              ],
-              "confidence": 78
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_eb812e234d0ff1f7710597d0",
-        "feed_4b2817b12ac804a53c669363",
-        "feed_4c279c06b78d2f15d27cb9d5",
-        "feed_1bf4e965065ddcdd0ac0028f",
-        "feed_daf762f6a9225548f1f9e3a8",
-        "feed_e383c91a9ab5cfa3e7dbf551",
-        "feed_582d7daef77c6b1cfb8fbe61",
-        "feed_ce697688ca589005ff2d4916",
-        "feed_d00750ccee5c529fcf9cbada",
-        "feed_ca645a92274355e0f5c66f35",
-        "feed_86ba215b9c2d92e38574c105",
-        "feed_4bbe99ad26c59388ba252702"
-      ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "Geek": 3,
-          "Max For AI": 11,
-          "kabikabi": 2,
-          "𝘁𝗮𝗿𝗲𝘀𝗸𝘆": 3,
-          "Ding": 2,
-          "砍砍.ᐟ": 1
-        }
+        "generatedBy": "local-source-collector"
       }
     },
     {
       "id": "daily_big-tech-daily_2026-07-03",
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-03",
-      "title": "大厂日报",
-      "mainLine": "今日大厂日报先看「亿纬锂能 25 年：一家 “不跟风” 公司的逆周期生长」，主要涉及「组织与人事」；后续重点观察它对产品节奏和商业化的影响。",
-      "actionItems": [],
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Google DeepMind and A24 announce first-of-its-kind research partnership」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM"
+      ],
       "watchItems": [
-        "亿纬锂能 25 年：一家 “不跟风” 公司的逆周期生长：亿纬锂能通过叠片工艺、大圆柱电池、CLS合作经营模式等差异化战略，在电池行业激烈竞争中逆周期增长，2026年上半年净利润预计超31亿元，同比增长最高达110%。 影响：2026年上半年净利润预计超31亿元，同比增长最高达110%，营收增长60%。；2025年储能电池出货71.05GWh，全球第二；2026年一季度出货20.38GWh，同比增长60.82%，满产满销。",
-        "对谈长安智驾陶吉：一段式端到端没有捷径，只有 “边开车边换轮子”：长安汽车首席智驾官陶吉详解自研一段式端到端智驾的路径选择、组织磨合与商业化思考，团队从500人扩至1500人，下半年将量产城区NOA。 影响：长安将端到端列为智能化未来战略方向，计划投入百亿元研发，这是长安历史上规模最大的战略投资项目之一。；2024年10月端到端立项通过，2025年一季度末决定全力押注一段式端到端。",
-        "成立三年，营收超 256 亿元，阿维塔计划赴港 IPO：阿维塔科技于2026年6月30日更新港交所IPO申请材料，2025年营收256.3亿元，毛利率9.4%，年销量超12万辆，轻资产模式运营，由长安汽车、华为、宁德时代深度参与。 影响：2026年6月30日，阿维塔完成港交所主板挂牌上市申请资料的更新与递交。；2025年全年营收达256.3亿元，毛利率为9.4%。"
+        "跟进：Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
+        "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+        "跟进：Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+        "跟进：Hardware-Rooted AI Security That Won’t Slow You Down"
       ],
       "sections": [
         {
-          "title": "组织与人事",
+          "title": "行业与公司",
           "items": [
             {
-              "title": "亿纬锂能 25 年：一家 “不跟风” 公司的逆周期生长",
-              "summary": "亿纬锂能通过叠片工艺、大圆柱电池、CLS合作经营模式等差异化战略，在电池行业激烈竞争中逆周期增长，2026年上半年净利润预计超31亿元，同比增长最高达110%。",
-              "insightLabel": "影响",
-              "insightText": "2026年上半年净利润预计超31亿元，同比增长最高达110%，营收增长60%。；2025年储能电池出货71.05GWh，全球第二；2026年一季度出货20.38GWh，同比增长60.82%，满产满销。",
+              "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+              "summary": "来自Google DeepMind的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "feed_327cb1dd9b4abe5d19fbfd45"
+                "local_39542112464d0024e64b2800"
               ],
-              "confidence": 85
+              "confidence": 58
             },
             {
-              "title": "对谈长安智驾陶吉：一段式端到端没有捷径，只有 “边开车边换轮子”",
-              "summary": "长安汽车首席智驾官陶吉详解自研一段式端到端智驾的路径选择、组织磨合与商业化思考，团队从500人扩至1500人，下半年将量产城区NOA。",
-              "insightLabel": "影响",
-              "insightText": "长安将端到端列为智能化未来战略方向，计划投入百亿元研发，这是长安历史上规模最大的战略投资项目之一。；2024年10月端到端立项通过，2025年一季度末决定全力押注一段式端到端。",
+              "title": "Hardware-Rooted AI Security That Won’t Slow You Down",
+              "summary": "来自NVIDIA Technical Blog（开发者技术博客 · RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "feed_d8f81cbbd7af8d829a2f6971"
+                "local_70a80a95189072fe65a17204"
               ],
-              "confidence": 80
-            },
-            {
-              "title": "成立三年，营收超 256 亿元，阿维塔计划赴港 IPO",
-              "summary": "阿维塔科技于2026年6月30日更新港交所IPO申请材料，2025年营收256.3亿元，毛利率9.4%，年销量超12万辆，轻资产模式运营，由长安汽车、华为、宁德时代深度参与。",
-              "insightLabel": "影响",
-              "insightText": "2026年6月30日，阿维塔完成港交所主板挂牌上市申请资料的更新与递交。；2025年全年营收达256.3亿元，毛利率为9.4%。",
-              "sourceFeedItemIds": [
-                "feed_2dd1f57c7b747c7c47b1287b"
-              ],
-              "confidence": 78
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_327cb1dd9b4abe5d19fbfd45",
-        "feed_d8f81cbbd7af8d829a2f6971",
-        "feed_2dd1f57c7b747c7c47b1287b"
-      ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "晚点LatePost": 3
-        }
-      }
-    },
-    {
-      "id": "daily_lifestyle-fun_2026-07-03",
-      "topicId": "lifestyle-fun",
-      "reportDate": "2026-07-03",
-      "title": "吃喝玩乐日报",
-      "mainLine": "今日吃喝玩乐最值得先看「爱了4年的完美口粮，100元出头，居然比很多香槟都好喝！」，主要落在「可行动线索」、「重点变化」、「其他值得看」。",
-      "actionItems": [],
-      "watchItems": [
-        "爱了4年的完美口粮，100元出头，居然比很多香槟都好喝！：企鹅吃喝指南自营的吉乐礼炮Cava起泡酒2021年份到港，酒泥陈酿60个月，百元价位，强调是香槟平替，提供多种购买规格及限时优惠至7月10日。 补充：酒泥陈酿60个月，是Cava最高级别Gran Reserva法规要求（30个月）的两倍；手工采摘，只选用初榨葡萄汁，全程低温发酵",
-        "马王堆重磅大展登陆，魔都7月首周10件必赴之约：上海7月首周十大文娱活动推荐，涵盖马王堆大展、文艺复兴特展、话剧《惊梦》、夏季音乐节、水岸电影节等，均附时间地点，为城市生活消费指南。 补充：马王堆汉墓大展：7月3日-10月7日，上海美术馆（中华艺术宫），195件文物含31件一级珍品。；书房中的文艺复兴特展：6月27日-10月11日，上海图书馆东馆，119件典籍含43部摇篮本。",
-        "速度！美团20-20！0元申领优衣库衬衫！约0元京东洗车体脂秤！0元吃肯德基玩具总动员套餐！0元女生关怀礼！周五六日囤低价农夫怡宝美宜佳：本文汇总了美团20-20奶茶券、优衣库衬衫免单抽奖、京东0元洗车体脂秤、肯德基玩具总动员套餐低价、农夫/怡宝水低价、美宜佳折扣等十余条限时优惠信息，均为当日或近期有效的消费类福利。 补充：美团app搜索'小耳朵'，每天10/12/14/16/18/20点可领20-20奶茶券，截止7月12日。；优衣库会员俱乐部申领衬衫抽1000件免单，7月13日开奖。",
-        "仅2天！Converse 限时体验空间登陆上海东湖路：Converse 于7月3日至4日在上海东湖路开设限时2天的体验空间，展示CHUCK百年历史、全新CHUCK 70 X升级款，并提供打卡拍照与DIY互动体验。 补充：活动时间为7月3日17:00-22:00、7月4日10:00-20:00。；地点为徐汇区东湖路30号FUFU洋房。",
-        "铭匠 𝗻𝗲𝗼 𝟱𝟬𝗺𝗺𝟭.𝟴｜松下 S9 系列 ，终于有新的挂机头啦！｜：铭匠发布neo系列50mm F1.8自动对焦镜头L卡口版本，重量约156g，日常价499元，首发价399元，支持DIY外甲，并提供了15张样片展示画质。 补充：铭匠neo系列50mm F1.8自动对焦镜头L卡口版本发布；镜头重量约156g",
-        "《歌手2026》第七期观感：耳帝对《歌手2026》第七期八组帮唱合作进行逐一点评，指出胡彦斌&李玖哲音色相近效果打折、张远&萨顶顶选歌失败、万妮达&旅行团未发挥摇滚优势、尤长靖&李泉表演痕迹重，而齐豫&刘明湘、刘惜君&陈奂仁、Elliot James Reay&茜拉则因互补或主题意义突出表现最佳。 补充：胡彦斌&李玖哲合唱《偏爱》，耳帝评价为‘平淡无奇且瑕疵明显’，两人中低音音色相似导致频段打架，效果‘打了六折’。；张远&萨顶顶演唱《时候》，耳帝认为选歌失败，萨顶顶开口不佳，副歌男声笨拙，整体不飘渺不妖娆。",
-        "4000多块一晚的豪华酒店没有空调！：作者入住英国德文郡Lympstone庄园豪华酒店，恰逢英国有气象记录以来最热的一天，却发现房间没有空调，酒店员工用工业风扇等方式缓解闷热，最终花费约5800元人民币度过难忘一晚。 补充：酒店为Lympstone庄园，位于英国德文郡，由名厨Michael Caines经营，拥有米其林星匙和罗莱夏朵评级。；庄园占地28英亩，2018年新种17500株葡萄藤。"
-      ],
-      "sections": [
-        {
-          "title": "可行动线索",
-          "items": [
-            {
-              "title": "爱了4年的完美口粮，100元出头，居然比很多香槟都好喝！",
-              "summary": "企鹅吃喝指南自营的吉乐礼炮Cava起泡酒2021年份到港，酒泥陈酿60个月，百元价位，强调是香槟平替，提供多种购买规格及限时优惠至7月10日。",
-              "insightLabel": "补充",
-              "insightText": "酒泥陈酿60个月，是Cava最高级别Gran Reserva法规要求（30个月）的两倍；手工采摘，只选用初榨葡萄汁，全程低温发酵",
-              "sourceFeedItemIds": [
-                "feed_5afe15c43991d5791adc358b"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "马王堆重磅大展登陆，魔都7月首周10件必赴之约",
-              "summary": "上海7月首周十大文娱活动推荐，涵盖马王堆大展、文艺复兴特展、话剧《惊梦》、夏季音乐节、水岸电影节等，均附时间地点，为城市生活消费指南。",
-              "insightLabel": "补充",
-              "insightText": "马王堆汉墓大展：7月3日-10月7日，上海美术馆（中华艺术宫），195件文物含31件一级珍品。；书房中的文艺复兴特展：6月27日-10月11日，上海图书馆东馆，119件典籍含43部摇篮本。",
-              "sourceFeedItemIds": [
-                "feed_63f69146b86af909717c8c35"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "速度！美团20-20！0元申领优衣库衬衫！约0元京东洗车体脂秤！0元吃肯德基玩具总动员套餐！0元女生关怀礼！周五六日囤低价农夫怡宝美宜佳",
-              "summary": "本文汇总了美团20-20奶茶券、优衣库衬衫免单抽奖、京东0元洗车体脂秤、肯德基玩具总动员套餐低价、农夫/怡宝水低价、美宜佳折扣等十余条限时优惠信息，均为当日或近期有效的消费类福利。",
-              "insightLabel": "补充",
-              "insightText": "美团app搜索'小耳朵'，每天10/12/14/16/18/20点可领20-20奶茶券，截止7月12日。；优衣库会员俱乐部申领衬衫抽1000件免单，7月13日开奖。",
-              "sourceFeedItemIds": [
-                "feed_f35c91a2677b109d25a0879d"
-              ],
-              "confidence": 62
-            },
-            {
-              "title": "仅2天！Converse 限时体验空间登陆上海东湖路",
-              "summary": "Converse 于7月3日至4日在上海东湖路开设限时2天的体验空间，展示CHUCK百年历史、全新CHUCK 70 X升级款，并提供打卡拍照与DIY互动体验。",
-              "insightLabel": "补充",
-              "insightText": "活动时间为7月3日17:00-22:00、7月4日10:00-20:00。；地点为徐汇区东湖路30号FUFU洋房。",
-              "sourceFeedItemIds": [
-                "feed_c58705de2277a027ccff698b"
-              ],
-              "confidence": 55
+              "confidence": 58
             }
           ]
         },
         {
-          "title": "重点变化",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "铭匠 𝗻𝗲𝗼 𝟱𝟬𝗺𝗺𝟭.𝟴｜松下 S9 系列 ，终于有新的挂机头啦！｜",
-              "summary": "铭匠发布neo系列50mm F1.8自动对焦镜头L卡口版本，重量约156g，日常价499元，首发价399元，支持DIY外甲，并提供了15张样片展示画质。",
-              "insightLabel": "补充",
-              "insightText": "铭匠neo系列50mm F1.8自动对焦镜头L卡口版本发布；镜头重量约156g",
+              "title": "JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
+              "summary": "京东把数字人技术做成了「传一张照片就能捏」的大众玩具，虽然看不出硬核突破，但对普通用户来说，这是第一次零门槛体验有形象有语音的 AI 玩伴，上手即用。",
+              "insightLabel": "关注",
+              "insightText": "",
               "sourceFeedItemIds": [
-                "feed_38a6b4fd66c8e927260ef673"
+                "feed_629b5173f921c94f16fb0b39"
               ],
-              "confidence": 72
+              "confidence": 68
             }
           ]
         },
         {
-          "title": "其他值得看",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "《歌手2026》第七期观感",
-              "summary": "耳帝对《歌手2026》第七期八组帮唱合作进行逐一点评，指出胡彦斌&李玖哲音色相近效果打折、张远&萨顶顶选歌失败、万妮达&旅行团未发挥摇滚优势、尤长靖&李泉表演痕迹重，而齐豫&刘明湘、刘惜君&陈奂仁、Elliot James Reay&茜拉则因互补或主题意义突出表现最佳。",
-              "insightLabel": "补充",
-              "insightText": "胡彦斌&李玖哲合唱《偏爱》，耳帝评价为‘平淡无奇且瑕疵明显’，两人中低音音色相似导致频段打架，效果‘打了六折’。；张远&萨顶顶演唱《时候》，耳帝认为选歌失败，萨顶顶开口不佳，副歌男声笨拙，整体不飘渺不妖娆。",
+              "title": "面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+              "summary": "这是AI编写生产级训练框架的首个实证，8小时追平Megatron-LM并反超，证明AI打穿Infra的范式已到临界点，做训练框架和Infra的都该看看。",
+              "insightLabel": "关注",
+              "insightText": "",
               "sourceFeedItemIds": [
-                "feed_2072cabe3f2683b89e9105c9"
+                "feed_0497f08ac8c2e5f9009aff55"
               ],
               "confidence": 65
             },
             {
-              "title": "4000多块一晚的豪华酒店没有空调！",
-              "summary": "作者入住英国德文郡Lympstone庄园豪华酒店，恰逢英国有气象记录以来最热的一天，却发现房间没有空调，酒店员工用工业风扇等方式缓解闷热，最终花费约5800元人民币度过难忘一晚。",
-              "insightLabel": "补充",
-              "insightText": "酒店为Lympstone庄园，位于英国德文郡，由名厨Michael Caines经营，拥有米其林星匙和罗莱夏朵评级。；庄园占地28英亩，2018年新种17500株葡萄藤。",
+              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+              "summary": "Claude Fable 5 展示的自主性远超预期，从调研到工单交互一气呵成，这种执行力让我重新思考 AI 同事的定义。",
+              "insightLabel": "关注",
+              "insightText": "",
               "sourceFeedItemIds": [
-                "feed_3c8702981de00513b08ca3cd"
+                "feed_ad463b46824fbae8c971fb34"
               ],
-              "confidence": 60
+              "confidence": 62
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "feed_5afe15c43991d5791adc358b",
-        "feed_63f69146b86af909717c8c35",
-        "feed_38a6b4fd66c8e927260ef673",
-        "feed_2072cabe3f2683b89e9105c9",
-        "feed_f35c91a2677b109d25a0879d",
-        "feed_3c8702981de00513b08ca3cd",
-        "feed_c58705de2277a027ccff698b"
+        "local_39542112464d0024e64b2800",
+        "feed_629b5173f921c94f16fb0b39",
+        "feed_0497f08ac8c2e5f9009aff55",
+        "feed_ad463b46824fbae8c971fb34",
+        "local_70a80a95189072fe65a17204"
       ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
+      "generatedAt": "2026-07-03T19:23:23.800Z",
+      "model": "local-source-collector",
       "raw": {
-        "sourceCoverage": {
-          "企鹅吃喝指南": 1,
-          "ShanghaiWOW": 2,
-          "森山风屿": 1,
-          "耳帝": 1,
-          "buy宝箱": 1,
-          "一片吃心": 1
-        }
-      }
-    },
-    {
-      "id": "daily_github-trending_2026-07-03",
-      "topicId": "github-trending",
-      "reportDate": "2026-07-03",
-      "title": "GitHub 趋势日报",
-      "mainLine": "今日GitHub 趋势最值得先看「agentskills/agentskills」，主要落在「可行动线索」、「重点变化」、「其他值得看」。",
-      "actionItems": [],
-      "watchItems": [
-        "agentskills/agentskills：Agent Skills 是一个轻量级、开放格式的规范，用于为 AI 代理封装可复用的专业知识和流程，使其能够按需加载技能文件夹以执行特定任务。 补充：语言：Python；Stars：21,555",
-        "harvard-edge/cs249r_book：《Machine Learning Systems》是一本由哈佛大学推出的开源教科书，系统讲授AI工程原则与实践，涵盖从算法到边缘部署的全栈课程内容。 补充：语言：Python；Stars：25,494",
-        "ryanmcdermott/clean-code-javascript：Clean Code concepts adapted for JavaScript, providing guidelines for producing readable, reusable, and refactorable JavaScript code. 补充：Language: JavaScript；Stars: 94,536",
-        "langflow-ai/langflow：Langflow 是一个用于构建和部署 AI 智能体及工作流的低代码平台，提供可视化编辑器和 API/MCP 服务器，支持所有主流大语言模型。 补充：语言: Python；Stars: 150,655",
-        "JuliusBrussee/caveman：JuliusBrussee/caveman 是一个 Claude Code 技能，通过让 AI 助手像穴居人一样说话（精简表达），可减少约 65% 的 token 使用量，同时保持技术准确性。 补充：Stars: 80,625；Forks: 4,516",
-        "craft-ai-agents/craft-agents-oss：Craft Agents 是一个开源工具，提供基于文档的直观多任务处理界面，用于连接各种 API 或服务，并与 AI 代理协作。 补充：语言：TypeScript；Stars：6,635",
-        "actions/checkout：actions/checkout 是一个 GitHub Action，用于在 workflow 中检出仓库代码。 补充：语言: TypeScript；Stars: 8,142",
-        "pytorch/pytorch：PyTorch 是一个提供张量计算和动态神经网络的开源框架，支持 GPU 加速，用于机器学习和深度学习。 补充：Language: Python；Stars: 101,194"
-      ],
-      "sections": [
-        {
-          "title": "可行动线索",
-          "items": [
-            {
-              "title": "agentskills/agentskills",
-              "summary": "Agent Skills 是一个轻量级、开放格式的规范，用于为 AI 代理封装可复用的专业知识和流程，使其能够按需加载技能文件夹以执行特定任务。",
-              "insightLabel": "补充",
-              "insightText": "语言：Python；Stars：21,555",
-              "sourceFeedItemIds": [
-                "feed_e76c311a86971c534b8dcbb9"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "harvard-edge/cs249r_book",
-              "summary": "《Machine Learning Systems》是一本由哈佛大学推出的开源教科书，系统讲授AI工程原则与实践，涵盖从算法到边缘部署的全栈课程内容。",
-              "insightLabel": "补充",
-              "insightText": "语言：Python；Stars：25,494",
-              "sourceFeedItemIds": [
-                "feed_6f5faa8e754654a7a66524a9"
-              ],
-              "confidence": 80
-            },
-            {
-              "title": "ryanmcdermott/clean-code-javascript",
-              "summary": "Clean Code concepts adapted for JavaScript, providing guidelines for producing readable, reusable, and refactorable JavaScript code.",
-              "insightLabel": "补充",
-              "insightText": "Language: JavaScript；Stars: 94,536",
-              "sourceFeedItemIds": [
-                "feed_cf0bbe6a9ba4d5d04cd84766"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "langflow-ai/langflow",
-              "summary": "Langflow 是一个用于构建和部署 AI 智能体及工作流的低代码平台，提供可视化编辑器和 API/MCP 服务器，支持所有主流大语言模型。",
-              "insightLabel": "补充",
-              "insightText": "语言: Python；Stars: 150,655",
-              "sourceFeedItemIds": [
-                "feed_b43112be7a3184c25e7a5022"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "JuliusBrussee/caveman",
-              "summary": "JuliusBrussee/caveman 是一个 Claude Code 技能，通过让 AI 助手像穴居人一样说话（精简表达），可减少约 65% 的 token 使用量，同时保持技术准确性。",
-              "insightLabel": "补充",
-              "insightText": "Stars: 80,625；Forks: 4,516",
-              "sourceFeedItemIds": [
-                "feed_6e123b89d5e5514eb3ad69a1"
-              ],
-              "confidence": 75
-            }
-          ]
-        },
-        {
-          "title": "重点变化",
-          "items": [
-            {
-              "title": "craft-ai-agents/craft-agents-oss",
-              "summary": "Craft Agents 是一个开源工具，提供基于文档的直观多任务处理界面，用于连接各种 API 或服务，并与 AI 代理协作。",
-              "insightLabel": "补充",
-              "insightText": "语言：TypeScript；Stars：6,635",
-              "sourceFeedItemIds": [
-                "feed_b35bb4ffc1c792ccdec3f4b7"
-              ],
-              "confidence": 75
-            },
-            {
-              "title": "actions/checkout",
-              "summary": "actions/checkout 是一个 GitHub Action，用于在 workflow 中检出仓库代码。",
-              "insightLabel": "补充",
-              "insightText": "语言: TypeScript；Stars: 8,142",
-              "sourceFeedItemIds": [
-                "feed_b898541ad5ffc31b13592bb4"
-              ],
-              "confidence": 60
-            }
-          ]
-        },
-        {
-          "title": "其他值得看",
-          "items": [
-            {
-              "title": "pytorch/pytorch",
-              "summary": "PyTorch 是一个提供张量计算和动态神经网络的开源框架，支持 GPU 加速，用于机器学习和深度学习。",
-              "insightLabel": "补充",
-              "insightText": "Language: Python；Stars: 101,194",
-              "sourceFeedItemIds": [
-                "feed_a8c37546f70a613b4d93b3d2"
-              ],
-              "confidence": 75
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "feed_e76c311a86971c534b8dcbb9",
-        "feed_6f5faa8e754654a7a66524a9",
-        "feed_cf0bbe6a9ba4d5d04cd84766",
-        "feed_b43112be7a3184c25e7a5022",
-        "feed_b35bb4ffc1c792ccdec3f4b7",
-        "feed_a8c37546f70a613b4d93b3d2",
-        "feed_6e123b89d5e5514eb3ad69a1",
-        "feed_0169336d87ac5fd7f1095bbc",
-        "feed_b898541ad5ffc31b13592bb4"
-      ],
-      "generatedAt": "2026-07-03T16:42:47.584Z",
-      "model": "deterministic-v4",
-      "raw": {
-        "sourceCoverage": {
-          "GitHub Trending": 9
-        }
+        "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-03T18:56:07.699Z",
-  "sourceBaseUrl": "https://hot.kyangc.net"
+  "generatedAt": "2026-07-03T19:23:23.801Z",
+  "collectorName": "local-source-collector"
 }

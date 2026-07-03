@@ -1,115 +1,66 @@
 {
   "items": [
     {
-      "id": "ai",
-      "title": "AI",
+      "id": "ai-industry",
+      "title": "AI 行业进展",
       "sourceKind": "topic_watcher",
       "sourceTopicId": "ai",
       "enabled": true,
-      "displayOrder": 5,
+      "displayOrder": 1,
       "ui": {
-        "icon": "BrainCircuit",
+        "icon": "Newspaper",
         "accent": "#8b5cf6"
       }
     },
     {
-      "id": "flight-hotel-card",
-      "title": "机酒卡",
+      "id": "ai-papers",
+      "title": "AI 论文前沿",
       "sourceKind": "topic_watcher",
-      "sourceTopicId": "flight-hotel-card",
+      "sourceTopicId": "ai-papers",
       "enabled": true,
-      "displayOrder": 10,
+      "displayOrder": 2,
       "ui": {
-        "icon": "PlaneTakeoff",
-        "accent": "#f97316"
-      }
-    },
-    {
-      "id": "hk-ipo",
-      "title": "港股打新",
-      "sourceKind": "topic_watcher",
-      "sourceTopicId": "hk-ipo",
-      "enabled": true,
-      "displayOrder": 20,
-      "ui": {
-        "icon": "TrendingUp",
+        "icon": "FileText",
         "accent": "#0f9f7f"
       }
     },
     {
-      "id": "investment",
-      "title": "投资观点",
+      "id": "ai-applications",
+      "title": "AI 应用案例",
       "sourceKind": "topic_watcher",
-      "sourceTopicId": "investment",
+      "sourceTopicId": "ai-applications",
       "enabled": true,
-      "displayOrder": 25,
+      "displayOrder": 3,
       "ui": {
-        "icon": "BadgeDollarSign",
-        "accent": "#dc2626"
+        "icon": "Sparkles",
+        "accent": "#f97316"
       }
     },
     {
-      "id": "whale-portfolio",
-      "title": "大佬持仓",
+      "id": "ai-github",
+      "title": "GitHub AI 热榜",
       "sourceKind": "topic_watcher",
-      "sourceTopicId": "whale-portfolio",
-      "enabled": true,
-      "displayOrder": 26,
-      "ui": {
-        "icon": "BriefcaseBusiness",
-        "accent": "#7c3aed"
-      }
-    },
-    {
-      "id": "x-signal",
-      "title": "X Radar",
-      "sourceKind": "topic_watcher",
-      "sourceTopicId": "x-signal",
-      "enabled": true,
-      "displayOrder": 28,
-      "ui": {
-        "icon": "Radar",
-        "accent": "#0891b2",
-        "hideFromAllTimeline": true
-      }
-    },
-    {
-      "id": "big-tech-daily",
-      "title": "大厂日报",
-      "sourceKind": "topic_watcher",
-      "sourceTopicId": "big-tech-daily",
-      "enabled": true,
-      "displayOrder": 30,
-      "ui": {
-        "icon": "Newspaper",
-        "accent": "#2563eb"
-      }
-    },
-    {
-      "id": "lifestyle-fun",
-      "title": "吃喝玩乐",
-      "sourceKind": "topic_watcher",
-      "sourceTopicId": "lifestyle-fun",
-      "enabled": true,
-      "displayOrder": 40,
-      "ui": {
-        "icon": "Compass",
-        "accent": "#ec4899"
-      }
-    },
-    {
-      "id": "github-trending",
-      "title": "GitHub 趋势",
-      "sourceKind": "topic_watcher",
-      "sourceTopicId": "github-trending",
-      "enabled": true,
-      "displayOrder": 45,
+      "sourceTopicId": "ai-github-disabled",
+      "enabled": false,
+      "displayOrder": 4,
       "ui": {
         "icon": "Github",
         "accent": "#38bdf8"
       }
+    },
+    {
+      "id": "ai-big-tech",
+      "title": "大厂 AI 日报",
+      "sourceKind": "topic_watcher",
+      "sourceTopicId": "big-tech-daily",
+      "enabled": true,
+      "displayOrder": 5,
+      "ui": {
+        "icon": "Building2",
+        "accent": "#2563eb"
+      }
     }
   ],
-  "generatedAt": "2026-07-03T18:55:31.120Z",
-  "sourceBaseUrl": "https://hot.kyangc.net"
+  "generatedAt": "2026-07-03T19:23:23.577Z",
+  "collectorName": "local-source-collector"
 }

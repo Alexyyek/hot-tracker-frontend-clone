@@ -1,39 +1,88 @@
-import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, rename, rm, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import path from "node:path";
 
-const sourceBaseUrl = process.env.HOT_TRACKER_API_BASE ?? "https://hot.kyangc.net";
+const collectorName = "local-source-collector";
 const outputRoot = process.env.STATIC_DATA_DIR ?? "public/data";
-const feedLimit = Number(process.env.FEED_LIMIT ?? 300);
 const dailyHistoryDays = Number(process.env.DAILY_HISTORY_DAYS ?? 14);
-const sourceSampleLimit = Number(process.env.SOURCE_SAMPLE_LIMIT ?? 2);
-const sourceSampleConcurrency = Number(process.env.SOURCE_SAMPLE_CONCURRENCY ?? 6);
-const weixinFallbackEnabled = process.env.WEIXIN_FALLBACK_ENABLED !== "0";
-const weixinFallbackLimitPerSource = Number(process.env.WEIXIN_FALLBACK_LIMIT_PER_SOURCE ?? 3);
-const weixinFallbackDelayMs = Number(process.env.WEIXIN_FALLBACK_DELAY_MS ?? 1200);
+const localSourceLimitPerSource = Number(process.env.LOCAL_SOURCE_LIMIT_PER_SOURCE ?? 4);
+const weixinLimitPerSource = Number(process.env.WEIXIN_FALLBACK_LIMIT_PER_SOURCE ?? 3);
+const weixinDelayMs = Number(process.env.WEIXIN_FALLBACK_DELAY_MS ?? 900);
+const weixinQueryTerms = (process.env.WEIXIN_QUERY_TERMS ?? "AI").split(",").map((term) => term.trim()).filter(Boolean);
+const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "https://hot.aiscl.work/data/feed.json";
+const xBearerToken = process.env.X_BEARER_TOKEN ?? "";
+const beijingTimeZone = "Asia/Shanghai";
+
 const arxivSourceName = "arXiv：Agent Harness / Auto-Research";
 const arxivSourceHostname = "arxiv.org";
-const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "http://hot.aiscl.work/data/feed.json";
 
-const weixinFallbackSources = [
-  "公众号：PaperWeekly",
-  "公众号：机器学习实验室",
-  "公众号：智能涌现",
-  "公众号：高德技术",
-  "公众号：阿里技术",
-  "公众号：阿里云开发者",
-  "公众号：DataFunTalk",
-  "公众号：AI科技大本营",
-  "公众号：微软亚洲研究院"
-];
+const rssSourceUrls = {
+  "Hugging Face": ["https://huggingface.co/blog/feed.xml"],
+  "OpenAI": ["https://openai.com/news/rss.xml"],
+  "Anthropic": ["https://www.anthropic.com/news/rss.xml"],
+  "Google DeepMind": ["https://deepmind.google/discover/blog/rss.xml", "https://deepmind.google/blog/rss.xml"],
+  "xAI": ["https://x.ai/news/rss.xml"],
+  "NVIDIA AI Blog": ["https://blogs.nvidia.com/blog/category/deep-learning/feed/"],
+  "NVIDIA Technical Blog（开发者技术博客 · RSS）": ["https://developer.nvidia.com/blog/feed/"],
+  "The Decoder：AI News（RSS）": ["https://the-decoder.com/feed/"],
+  "Nathan Lambert：Interconnects（RSS）": ["https://www.interconnects.ai/feed"],
+  "Google Research：Blog（网页）": ["https://research.google/blog/rss/"],
+  "X：Microsoft Research (@MSFTResearch)": ["https://www.microsoft.com/en-us/research/feed/"],
+  "Artificial Intelligence News（RSS）": ["https://www.artificialintelligence-news.com/feed/"],
+  "Thinking Machines Lab：官方博客（RSS）": ["https://thinkingmachines.ai/blog/rss.xml"],
+  "HuggingFace Daily Papers（社区热门论文）": ["https://huggingface.co/papers/rss"],
+  "Anthropic：Transformer Circuits（可解释性研究）": ["https://transformer-circuits.pub/feed.xml"],
+  "Lilian Weng：Lil'Log（RSS）": ["https://lilianweng.github.io/index.xml"],
+  "Andrej Karpathy：Blog（网页）": ["https://karpathy.github.io/feed.xml"],
+  "CMU：Machine Learning Blog": ["https://blog.ml.cmu.edu/feed/"],
+  "BAIR：Berkeley AI Research Blog": ["https://bair.berkeley.edu/blog/feed.xml"],
+  "Simon Willison 博客": ["https://simonwillison.net/atom/everything/"],
+  "Steve Yegge：Medium（RSS）": ["https://steve-yegge.medium.com/feed"],
+  "Google Developers": ["https://developers.googleblog.com/en/search/label/AI/rss.xml"],
+  "Google Blog：AI（RSS）": ["https://blog.google/technology/ai/rss/"],
+  "Meta Engineering Blog（RSS）": ["https://engineering.fb.com/feed/"],
+  "Qwen：Blog Retrieval（API）": ["https://qwenlm.github.io/blog/index.xml"],
+  "Qwen：Research（API）": ["https://qwenlm.github.io/blog/index.xml"],
+  "Moonshot AI：Kimi Blog（VitePress）": ["https://platform.moonshot.cn/blog/rss.xml"],
+  "MiniMax：Blog（网页）": ["https://www.minimax.io/news/rss.xml"],
+  "MiniMax：News（网页）": ["https://www.minimax.io/news/rss.xml"],
+  "Meta": ["https://ai.meta.com/blog/rss/"]
+};
 
-const weixinFallbackQueryTerms = ["AI", "大模型", "Agent"];
+const webpageSourceUrls = {
+  "字节 Seed：Research Feed（网页内嵌数据）": ["https://seed.bytedance.com/en/research"],
+  "智谱：研究（网页内嵌数据）": ["https://www.z.ai/research"],
+  "蚂蚁百灵：Developer Blog（网页）": ["https://bailian.console.aliyun.com/"],
+  "NVIDIA Blog：Agentic AI（网页）": ["https://blogs.nvidia.com/blog/tag/agentic-ai/"],
+  "NVIDIA Blog：Generative AI（网页）": ["https://blogs.nvidia.com/blog/category/generative-ai/"],
+  "OpenRouter": ["https://openrouter.ai/announcements"],
+  "Cursor": ["https://cursor.com/changelog"],
+  "Claude": ["https://www.anthropic.com/news"],
+  "大厂日爆": ["https://www.bilibili.com/", "https://www.infoq.cn/"]
+};
 
-const weixinFallbackRelevanceTerms = [
+const relevanceTerms = [
   "ai",
   "agent",
+  "agentic",
+  "auto-research",
+  "harness",
+  "skill",
   "openai",
+  "anthropic",
   "claude",
+  "deepmind",
+  "gemini",
+  "qwen",
+  "llm",
+  "rag",
+  "sft",
+  "cpt",
+  "rl",
+  "grpo",
+  "benchmark",
+  "eval",
+  "research",
   "大模型",
   "智能体",
   "机器学习",
@@ -42,14 +91,9 @@ const weixinFallbackRelevanceTerms = [
   "后训练",
   "微调",
   "推理",
-  "rag",
   "评测",
-  "agent",
-  "auto-research",
-  "harness",
-  "ai native",
+  "工具调用",
   "研发",
-  "开发",
   "工程",
   "架构",
   "推荐",
@@ -59,19 +103,15 @@ const weixinFallbackRelevanceTerms = [
   "物流"
 ];
 
-const weixinFallbackLowValueTerms = [
-  "招聘",
-  "内推",
-  "课程",
-  "训练营",
-  "报名",
-  "广告"
-];
+const lowValueTerms = ["招聘", "内推", "课程", "训练营", "报名", "广告"];
 
-async function readAiSourceCatalog() {
+async function readAiConfig() {
   const source = await readFile("src/aiTopics.ts", "utf8");
+  const topicsMatch = source.match(/export const aiTopics: Topic\[] = \[([\s\S]*?)\n\];/s);
   const catalogMatch = source.match(/export const aiTopicSourceCatalog = \{([\s\S]*?)\n\} as const/s);
-  if (!catalogMatch) throw new Error("Unable to locate aiTopicSourceCatalog in src/aiTopics.ts");
+  if (!topicsMatch || !catalogMatch) throw new Error("Unable to locate AI topics or source catalog");
+
+  const topics = Function(`return [${topicsMatch[1]}]`)();
   const byTopic = new Map();
   const sourceNames = new Set();
 
@@ -88,100 +128,46 @@ async function readAiSourceCatalog() {
   }
 
   sourceNames.delete("GitHub AI 热榜");
-  return { byTopic, sourceNames };
-}
-
-async function fetchJson(endpoint) {
-  const url = new URL(endpoint, sourceBaseUrl);
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      "User-Agent": "AI-Hot-Tracker-GitHub-Actions/1.0"
-    }
-  });
-
-  if (!response.ok) {
-    throw new Error(`Request failed ${response.status}: ${url.toString()}`);
-  }
-
-  return response.json();
-}
-
-async function fetchText(url) {
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/atom+xml,text/xml,text/plain",
-      "User-Agent": "AI-Hot-Tracker-GitHub-Actions/1.0"
-    }
-  });
-
-  if (!response.ok) {
-    throw new Error(`Request failed ${response.status}: ${url}`);
-  }
-
-  return response.text();
-}
-
-async function fetchHtml(url) {
-  const response = await fetch(url, {
-    headers: {
-      Accept: "text/html,application/xhtml+xml",
-      "User-Agent": "Mozilla/5.0 (compatible; AI-Hot-Tracker-WeChat-Fallback/1.0)"
-    }
-  });
-
-  if (!response.ok) {
-    throw new Error(`Request failed ${response.status}: ${url}`);
-  }
-
-  return response.text();
-}
-
-async function fetchAbsoluteJson(url) {
-  const response = await fetch(url, {
-    headers: {
-      Accept: "application/json",
-      "User-Agent": "AI-Hot-Tracker-GitHub-Actions/1.0"
-    }
-  });
-
-  if (!response.ok) {
-    throw new Error(`Request failed ${response.status}: ${url}`);
-  }
-
-  return response.json();
+  return { topics, byTopic, sourceNames };
 }
 
 async function writeJson(relativePath, data) {
   const filePath = path.join(outputRoot, relativePath);
   const tempPath = `${filePath}.tmp`;
   await mkdir(path.dirname(filePath), { recursive: true });
-  await writeFile(tempPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
+  await writeFile(tempPath, `${JSON.stringify(withMeta(data), null, 2)}\n`, "utf8");
   await rename(tempPath, filePath);
+}
+
+async function cleanDailyDirectory() {
+  const dailyDir = path.join(outputRoot, "daily");
+  try {
+    const entries = await readdir(dailyDir);
+    await Promise.all(entries.filter((entry) => entry.endsWith(".json")).map((entry) => rm(path.join(dailyDir, entry))));
+  } catch {
+    // The directory may not exist on a fresh checkout.
+  }
 }
 
 function withMeta(data) {
   return {
     ...data,
     generatedAt: new Date().toISOString(),
-    sourceBaseUrl
+    collectorName
   };
 }
 
-function decodeXml(value = "") {
-  return value
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
-    .replace(/&amp;/g, "&")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, "\"")
-    .replace(/&#39;/g, "'")
-    .replace(/\s+/g, " ")
-    .trim();
+function stableHash(value) {
+  return createHash("sha1").update(value).digest("hex").slice(0, 24);
+}
+
+function stripHtml(value = "") {
+  return decodeHtml(value).replace(/\s+/g, " ").trim();
 }
 
 function decodeHtml(value = "") {
   return value
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
     .replace(/<!--red_beg-->|<!--red_end-->/g, "")
     .replace(/<script[\s\S]*?<\/script>/gi, "")
     .replace(/&nbsp;/g, " ")
@@ -196,8 +182,294 @@ function decodeHtml(value = "") {
     .trim();
 }
 
-function stableHash(value) {
-  return createHash("sha1").update(value).digest("hex").slice(0, 24);
+function firstXmlValue(xml, tag) {
+  const match = xml.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
+  return decodeHtml(match?.[1] ?? "");
+}
+
+function allXmlValues(xml, tag) {
+  return [...xml.matchAll(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "gi"))].map((match) => decodeHtml(match[1]));
+}
+
+function hostnameFromUrl(url = "") {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
+function inferSourceKind(sourceName) {
+  if (sourceName.startsWith("X：")) return "x";
+  if (sourceName.startsWith("公众号：")) return "weixin_article";
+  if (sourceName.includes("RSS")) return "rss";
+  return "website";
+}
+
+function includesAny(value, terms) {
+  const normalized = value.toLowerCase();
+  return terms.some((term) => normalized.includes(term.toLowerCase()));
+}
+
+function isRelevantText(title, summary) {
+  const text = `${title} ${summary}`;
+  if (includesAny(text, lowValueTerms) && !includesAny(text, ["大模型", "agent", "ai", "研发", "工程"])) return false;
+  return includesAny(text, relevanceTerms);
+}
+
+function shortenText(value, maxLength) {
+  const normalized = String(value ?? "").replace(/\s+/g, " ").trim();
+  return normalized.length > maxLength ? `${normalized.slice(0, maxLength - 1)}…` : normalized;
+}
+
+function buildTags(title, summary, sourceKind) {
+  const text = `${title} ${summary}`.toLowerCase();
+  const tags = ["AI"];
+  if (sourceKind === "weixin_article") tags.push("微信");
+  if (/paper|论文|research|研究|arxiv/.test(text)) tags.push("论文/研究");
+  if (/agent|智能体|auto-research|harness|skill|工具调用/.test(text)) tags.push("Agent");
+  if (/大模型|llm|预训练|后训练|微调|推理|rag|grpo|sft|cpt/.test(text)) tags.push("大模型");
+  if (/研发|开发|工程|架构|框架|平台|infrastructure/.test(text)) tags.push("工程实践");
+  if (/地址|地理|地图|轨迹|物流|排序|推荐/.test(text)) tags.push("物流/地址");
+  return [...new Set(tags)];
+}
+
+function buildRecommendation(title, summary, sourceName) {
+  const text = `${title} ${summary}`.toLowerCase();
+  if (/agent|智能体|auto-research|harness|skill|工具调用/.test(text)) {
+    return {
+      whyItMatters: `来自${sourceName}的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。`,
+      actionText: "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。"
+    };
+  }
+  if (/大模型|llm|预训练|后训练|微调|推理|rag|grpo|sft|cpt|评测/.test(text)) {
+    return {
+      whyItMatters: `来自${sourceName}的这条内容命中大模型训练、推理或评测方向，可作为持续提升推理上限的技术雷达信号。`,
+      actionText: "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。"
+    };
+  }
+  return {
+    whyItMatters: `来自${sourceName}的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。`,
+    actionText: "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。"
+  };
+}
+
+function makeFeedItem({ sourceName, sourceKind, title, summary, sourceUrl, publishedAt, imageUrl, raw }) {
+  const recommendation = buildRecommendation(title, summary, sourceName);
+  const sourceHostname = hostnameFromUrl(sourceUrl);
+  return {
+    id: `local_${stableHash(`${sourceName}|${sourceUrl || title}|${publishedAt || ""}`)}`,
+    topicId: "ai",
+    sourceItemIds: [stableHash(sourceUrl || title)],
+    documentIds: [],
+    sourceKind,
+    title: stripHtml(title),
+    summary: stripHtml(summary || `来自${sourceName}的本地采集条目。`).slice(0, 900),
+    importanceScore: /agent|auto-research|harness|大模型|预训练|后训练|推理|rag|评测/i.test(`${title} ${summary}`) ? 70 : 58,
+    whyItMatters: recommendation.whyItMatters,
+    actionText: recommendation.actionText,
+    watchText: "该条目由 AI Hot Tracker 本地采集器生成；链接不可访问时请以原站搜索结果为准。",
+    tags: buildTags(title, summary, sourceKind),
+    sourceName,
+    sourceUrl,
+    sourceHostname,
+    sourceIconHostname: sourceKind === "weixin_article" ? "mp.weixin.qq.com" : sourceHostname,
+    thumbnailUrl: imageUrl || undefined,
+    imageUrl: imageUrl || undefined,
+    publishedAt: normalizeDate(publishedAt),
+    observedAt: new Date().toISOString(),
+    raw: {
+      source: collectorName,
+      ...(raw ?? {})
+    }
+  };
+}
+
+function normalizeDate(value) {
+  if (!value) return new Date().toISOString();
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return new Date().toISOString();
+  return date.toISOString();
+}
+
+async function fetchText(url, accept = "application/atom+xml,text/xml,text/html,text/plain") {
+  const response = await fetch(url, {
+    headers: {
+      Accept: accept,
+      "User-Agent": "AI-Hot-Tracker-Local-Collector/1.0"
+    }
+  });
+
+  if (!response.ok) throw new Error(`Request failed ${response.status}: ${url}`);
+  return response.text();
+}
+
+async function fetchJsonUrl(url, headers = {}) {
+  const response = await fetch(url, {
+    headers: {
+      Accept: "application/json",
+      "User-Agent": "AI-Hot-Tracker-Local-Collector/1.0",
+      ...headers
+    }
+  });
+
+  if (!response.ok) throw new Error(`Request failed ${response.status}: ${url}`);
+  return response.json();
+}
+
+function parseFeedXml(xml, sourceName, sourceKind) {
+  const rssItems = [...xml.matchAll(/<item\b[^>]*>([\s\S]*?)<\/item>/gi)].map((match) => {
+    const item = match[1];
+    const title = firstXmlValue(item, "title");
+    const link = firstXmlValue(item, "link") || firstXmlValue(item, "guid");
+    const summary = firstXmlValue(item, "description") || firstXmlValue(item, "content:encoded");
+    const publishedAt = firstXmlValue(item, "pubDate") || firstXmlValue(item, "dc:date");
+    return { title, link, summary, publishedAt };
+  });
+
+  const atomItems = [...xml.matchAll(/<entry\b[^>]*>([\s\S]*?)<\/entry>/gi)].map((match) => {
+    const item = match[1];
+    const title = firstXmlValue(item, "title");
+    const linkMatch = item.match(/<link\b[^>]*href="([^"]+)"/i);
+    const link = decodeHtml(linkMatch?.[1] ?? firstXmlValue(item, "id"));
+    const summary = firstXmlValue(item, "summary") || firstXmlValue(item, "content");
+    const publishedAt = firstXmlValue(item, "published") || firstXmlValue(item, "updated");
+    return { title, link, summary, publishedAt };
+  });
+
+  return [...rssItems, ...atomItems]
+    .filter((row) => row.title && row.link && isRelevantText(row.title, row.summary))
+    .slice(0, localSourceLimitPerSource)
+    .map((row) => makeFeedItem({
+      sourceName,
+      sourceKind,
+      title: row.title,
+      summary: row.summary,
+      sourceUrl: row.link,
+      publishedAt: row.publishedAt,
+      raw: { parser: "rss_atom" }
+    }));
+}
+
+async function collectRssSource(sourceName, urls) {
+  const sourceKind = inferSourceKind(sourceName);
+  const items = [];
+  for (const url of urls) {
+    try {
+      const xml = await fetchText(url);
+      items.push(...parseFeedXml(xml, sourceName, sourceKind));
+    } catch (error) {
+      console.warn(`rss source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
+    }
+    if (items.length >= localSourceLimitPerSource) break;
+  }
+  return items.slice(0, localSourceLimitPerSource);
+}
+
+function parseAnchorsFromHtml(html, baseUrl, sourceName) {
+  const rows = [];
+  for (const match of html.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)) {
+    const href = match[1];
+    const title = stripHtml(match[2]);
+    if (!title || title.length < 8) continue;
+    let sourceUrl = href;
+    try {
+      sourceUrl = new URL(href, baseUrl).toString();
+    } catch {
+      continue;
+    }
+    if (!isRelevantText(title, "")) continue;
+    rows.push(makeFeedItem({
+      sourceName,
+      sourceKind: inferSourceKind(sourceName),
+      title,
+      summary: `从${sourceName}官网页面发现的相关链接。`,
+      sourceUrl,
+      publishedAt: new Date().toISOString(),
+      raw: { parser: "html_anchor", baseUrl }
+    }));
+  }
+  return rows;
+}
+
+async function collectWebpageSource(sourceName, urls) {
+  const items = [];
+  for (const url of urls) {
+    try {
+      const html = await fetchText(url, "text/html,application/xhtml+xml");
+      items.push(...parseAnchorsFromHtml(html, url, sourceName));
+    } catch (error) {
+      console.warn(`webpage source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
+    }
+    if (items.length >= localSourceLimitPerSource) break;
+  }
+  return dedupeItems(items).slice(0, localSourceLimitPerSource);
+}
+
+function arxivIdFromUrl(url) {
+  return url.split("/").pop()?.replace(/v\d+$/i, "") ?? url;
+}
+
+function isRelevantArxiv(title, summary) {
+  const text = `${title} ${summary}`.toLowerCase();
+  return [
+    "agent harness",
+    "research harness",
+    "auto-research",
+    "autonomous research",
+    "coding agent",
+    "agentic software engineering",
+    "long-horizon agent",
+    "trajectory",
+    "self-improvement",
+    "evaluation"
+  ].some((term) => text.includes(term));
+}
+
+async function collectArxivSource() {
+  const terms = [
+    "\"agent harness\"",
+    "\"research harness\"",
+    "\"auto-research\"",
+    "\"autonomous research\"",
+    "\"coding agent\"",
+    "\"long-horizon agent\""
+  ];
+  const searchQuery = terms.map((term) => `all:${term}`).join("+OR+");
+  const url = `https://export.arxiv.org/api/query?search_query=${searchQuery}&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending`;
+  try {
+    const xml = await fetchText(url, "application/atom+xml,text/xml");
+    return [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)]
+      .map((match) => {
+        const entry = match[1];
+        const idUrl = firstXmlValue(entry, "id");
+        const title = firstXmlValue(entry, "title");
+        const summary = firstXmlValue(entry, "summary");
+        const authors = allXmlValues(entry, "name").slice(0, 6);
+        return makeFeedItem({
+          sourceName: arxivSourceName,
+          sourceKind: "website",
+          title,
+          summary,
+          sourceUrl: idUrl,
+          publishedAt: firstXmlValue(entry, "published"),
+          raw: {
+            parser: "arxiv",
+            arxivId: arxivIdFromUrl(idUrl),
+            authors
+          }
+        });
+      })
+      .filter((item) => item.title && item.sourceUrl && isRelevantArxiv(item.title, item.summary))
+      .slice(0, localSourceLimitPerSource);
+  } catch (error) {
+    console.warn(`arxiv source skipped (${error instanceof Error ? error.message : String(error)})`);
+    return [];
+  }
+}
+
+function sourceAccountName(sourceName) {
+  return sourceName.replace(/^公众号：/, "");
 }
 
 function absoluteSogouUrl(value = "") {
@@ -208,677 +480,310 @@ function absoluteSogouUrl(value = "") {
   return decoded;
 }
 
-function firstXmlValue(xml, tag) {
-  const match = xml.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
-  return decodeXml(match?.[1] ?? "");
-}
-
-function allXmlValues(xml, tag) {
-  return [...xml.matchAll(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "gi"))].map((match) => decodeXml(match[1]));
-}
-
-function arxivIdFromUrl(url) {
-  return url.split("/").pop()?.replace(/v\d+$/i, "") ?? url;
-}
-
-function isRelevantArxivSupplement(title, summary) {
-  const titleText = title.toLowerCase();
-  const text = `${title} ${summary}`.toLowerCase();
-  const strongTitleTerms = [
-    "autonomous research",
-    "self-improvement",
-    "self-correcting",
-    "coding agent",
-    "computer-use agents",
-    "agentic software engineering",
-    "multi-turn agentic",
-    "research agents",
-    "research loop",
-    "engineering the loops",
-    "experience graphs",
-    "scaling the horizon"
-  ];
-  const domainTerms = [
-    "agent",
-    "agentic",
-    "autonomous research",
-    "coding",
-    "computer-use",
-    "software engineering",
-    "research agent"
-  ];
-  const mechanismTerms = [
-    "harness",
-    "research loop",
-    "autonomous research",
-    "self-improvement",
-    "self-correcting",
-    "failure attribution",
-    "trajectory",
-    "rollout",
-    "long-horizon",
-    "multi-turn",
-    "experience graph",
-    "verification",
-    "evaluation",
-    "workflow"
-  ];
-  return (
-    strongTitleTerms.some((term) => titleText.includes(term)) &&
-    domainTerms.some((term) => text.includes(term)) &&
-    mechanismTerms.some((term) => text.includes(term))
-  );
-}
-
-function shortenText(value, maxLength) {
-  const normalized = value.replace(/\s+/g, " ").trim();
-  return normalized.length > maxLength ? `${normalized.slice(0, maxLength - 1)}…` : normalized;
-}
-
-function buildArxivRecommendation(title, summary) {
-  const text = `${title} ${summary}`.toLowerCase();
-  if (text.includes("multi-hypothesis failure attribution") || text.includes("self-correcting autonomous research")) {
-    return {
-      whyItMatters: "这篇把 Auto-Research 的失败诊断从单次 reflection 推进到多假设归因，更贴近复杂问题研究里“定位失败原因再迭代”的闭环。",
-      actionText: "重点看它如何记录失败轨迹、归因假设和修正步骤，评估能否迁移到团队 Auto-Research 的问题诊断与效果验证链路。"
-    };
-  }
-  if (text.includes("computer-use agents") || text.includes("inference-time self-improvement")) {
-    return {
-      whyItMatters: "这篇关注 Computer-Use Agent 在推理阶段从失败中自我改进，对跨市场自动走查、网页操作和异常复盘很有参考价值。",
-      actionText: "抽取它的失败样本组织方式和在线改进策略，对照现有 Agent Harness 是否能沉淀为可复用的回放与修正模块。"
-    };
-  }
-  if (text.includes("swe-router") || text.includes("multi-turn agentic software engineering")) {
-    return {
-      whyItMatters: "这篇讨论多轮 Agentic 软件工程任务的路由问题，直接对应 Agent Coding 从“单模型完成”走向“按任务分派最合适执行器”。",
-      actionText: "关注它的任务特征、路由决策和评测方式，评估是否可用于跨区域 Agent Coding 的模型/工具选择策略。"
-    };
-  }
-  if (text.includes("scaling the horizon") || text.includes("trillion-parameter performance")) {
-    return {
-      whyItMatters: "这篇强调扩展 agent 的 horizon 而不是单纯堆参数，和长程轨迹理解、复杂任务 rollout、持续推理上限提升高度相关。",
-      actionText: "重点拆解它如何定义 horizon、规划深度和执行预算，作为轨迹大模型长链路推理评测的候选参考。"
-    };
-  }
-  if (text.includes("clarus") || text.includes("web-scale scientific collaboration")) {
-    return {
-      whyItMatters: "这篇把 autonomous research 放到多智能体科研协作场景里，关注角色分工、证据汇总和大规模研究协同，而不是单 agent demo。",
-      actionText: "评估它的协作协议和证据聚合方式，是否能用于 Auto-Research 横向覆盖多市场时的任务拆分与结论校验。"
-    };
-  }
-  if (text.includes("experience graphs")) {
-    return {
-      whyItMatters: "这篇把 Experience Graphs 作为自改进 Agent 的数据底座，正好对应轨迹、操作记录和反馈信号如何长期沉淀为可学习经验。",
-      actionText: "重点看图结构如何组织任务状态、动作和结果，映射到团队的轨迹回放、问题定位和 Agent 自进化数据资产。"
-    };
-  }
-  if (text.includes("autonomous llm research loop") || text.includes("crystal graph")) {
-    return {
-      whyItMatters: "这篇用 autonomous LLM research loop 优化专家设计模型，价值在于展示“提出假设、实验验证、再优化”的闭环如何落到科研任务。",
-      actionText: "关注实验循环、评价指标和人机边界设计，判断能否复用到地址/轨迹模型的自动优化探索。"
-    };
-  }
-  if (text.includes("engineering the loops") || text.includes("stop hand-holding your coding agent")) {
-    return {
-      whyItMatters: "这篇把重点从一步步提示 agent 转向工程化 loop，本质是在讲如何把人工驱动开发升级为可重复执行的 Agent Harness。",
-      actionText: "提炼其中的 loop 设计原则，沉淀到需求迁移、代码开发、验证上线和问题诊断的自动化闭环里。"
-    };
-  }
-
-  return {
-    whyItMatters: `这篇聚焦「${shortenText(title, 42)}」，摘要里讨论的 agent 机制可作为 Auto-Research / Harness 能力建设的补充信号。`,
-    actionText: `结合摘要中的「${shortenText(summary, 54)}」做一次小样本复盘，判断是否值得进入团队技术雷达。`
-  };
-}
-
-function sourceAccountName(sourceName) {
-  return sourceName.replace(/^公众号：/, "");
-}
-
-function includesAnyLower(value, terms) {
-  const normalized = value.toLowerCase();
-  return terms.some((term) => normalized.includes(term.toLowerCase()));
-}
-
 function parseSogouWeixinResults(html, sourceName, query) {
-  if (/验证码|请输入验证码|antispider|用户您好/.test(html)) {
-    throw new Error("Sogou anti-spider challenge");
-  }
+  if (/验证码|请输入验证码|antispider|用户您好/.test(html)) throw new Error("Sogou anti-spider challenge");
 
   const accountName = sourceAccountName(sourceName);
-  const blocks = html.split(/<li id="sogou_vr_11002601_box_\d+"/).slice(1);
-  const rows = [];
+  return html.split(/<li id="sogou_vr_11002601_box_\d+"/).slice(1)
+    .map((block) => {
+      const titleMatch = block.match(/<h3[^>]*>[\s\S]*?<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/h3>/i);
+      const title = stripHtml(titleMatch?.[2] ?? "");
+      const sourceUrl = absoluteSogouUrl(titleMatch?.[1] ?? "");
+      const summary = stripHtml(block.match(/<p class="txt-info"[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? "");
+      const resultAccountName = stripHtml(block.match(/<span class="all-time-y2">([\s\S]*?)<\/span>/i)?.[1] ?? "");
+      const publishedUnix = Number(block.match(/timeConvert\('([^']+)'\)/)?.[1] ?? 0);
+      const imageUrl = absoluteSogouUrl(block.match(/<img[^>]*src="([^"]+)"/i)?.[1] ?? "");
+      if (!title || !sourceUrl || resultAccountName !== accountName || !publishedUnix) return null;
+      return { title, summary, sourceUrl, imageUrl, accountName: resultAccountName, publishedAt: new Date(publishedUnix * 1000).toISOString(), query };
+    })
+    .filter(Boolean);
+}
 
-  for (const block of blocks) {
-    const titleMatch = block.match(/<h3[^>]*>[\s\S]*?<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>[\s\S]*?<\/h3>/i);
-    const title = decodeHtml(titleMatch?.[2] ?? "");
-    const sourceUrl = absoluteSogouUrl(titleMatch?.[1] ?? "");
-    const summary = decodeHtml(block.match(/<p class="txt-info"[^>]*>([\s\S]*?)<\/p>/i)?.[1] ?? "");
-    const resultAccountName = decodeHtml(block.match(/<span class="all-time-y2">([\s\S]*?)<\/span>/i)?.[1] ?? "");
-    const publishedUnix = Number(block.match(/timeConvert\('([^']+)'\)/)?.[1] ?? 0);
-    const imageUrl = absoluteSogouUrl(block.match(/<img[^>]*src="([^"]+)"/i)?.[1] ?? "");
+async function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
-    if (!title || !sourceUrl || resultAccountName !== accountName || !publishedUnix) continue;
+async function collectWeixinSource(sourceName) {
+  const byId = new Map();
+  const accountName = sourceAccountName(sourceName);
 
-    rows.push({
-      title,
-      summary,
-      sourceUrl,
-      imageUrl,
-      accountName: resultAccountName,
-      publishedAt: new Date(publishedUnix * 1000).toISOString(),
-      query
+  for (const term of weixinQueryTerms) {
+    const query = `${accountName} ${term}`;
+    const url = `https://weixin.sogou.com/weixin?type=2&ie=utf8&query=${encodeURIComponent(query)}`;
+    try {
+      const html = await fetchText(url, "text/html,application/xhtml+xml");
+      const rows = parseSogouWeixinResults(html, sourceName, query)
+        .filter((row) => isRelevantText(row.title, row.summary))
+        .map((row) => makeFeedItem({
+          sourceName,
+          sourceKind: "weixin_article",
+          title: row.title,
+          summary: row.summary || `来自${sourceName}的搜狗微信搜索结果，查询词：${query}`,
+          sourceUrl: row.sourceUrl,
+          publishedAt: row.publishedAt,
+          imageUrl: row.imageUrl,
+          raw: { parser: "sogou_weixin", accountName: row.accountName, query }
+        }));
+      for (const item of rows) byId.set(item.id, item);
+    } catch (error) {
+      console.warn(`weixin source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
+      break;
+    }
+    await sleep(weixinDelayMs);
+  }
+
+  return [...byId.values()].sort(compareItems).slice(0, weixinLimitPerSource);
+}
+
+function xHandleFromSource(sourceName) {
+  return sourceName.match(/@([A-Za-z0-9_]+)/)?.[1] ?? "";
+}
+
+async function collectXSource(sourceName) {
+  if (!xBearerToken) return [];
+  const handle = xHandleFromSource(sourceName);
+  if (!handle) return [];
+  try {
+    const user = await fetchJsonUrl(`https://api.twitter.com/2/users/by/username/${handle}`, {
+      Authorization: `Bearer ${xBearerToken}`
     });
-  }
-
-  return rows;
-}
-
-function isRelevantWeixinFallback(row) {
-  const text = `${row.title} ${row.summary}`;
-  if (includesAnyLower(text, weixinFallbackLowValueTerms) && !includesAnyLower(text, ["大模型", "agent", "ai", "研发", "工程"])) {
-    return false;
-  }
-  return includesAnyLower(text, weixinFallbackRelevanceTerms);
-}
-
-function buildWeixinFallbackTags(row) {
-  const text = `${row.title} ${row.summary}`.toLowerCase();
-  const tags = ["微信", "AI"];
-  if (/大模型|llm|预训练|后训练|微调|推理/.test(text)) tags.push("大模型");
-  if (/agent|智能体|auto-research|harness|skill|工具调用/.test(text)) tags.push("Agent");
-  if (/研发|开发|工程|架构|框架|平台/.test(text)) tags.push("工程实践");
-  if (/论文|paper|研究/.test(text)) tags.push("论文/研究");
-  return [...new Set(tags)];
-}
-
-function buildWeixinFallbackRecommendation(row, sourceName) {
-  const text = `${row.title} ${row.summary}`.toLowerCase();
-  if (/agent|智能体|auto-research|harness|skill|工具调用/.test(text)) {
-    return {
-      whyItMatters: `来自${sourceName}的这篇文章命中 Agent/工具调用方向，可补充团队在 Agent Skill、Harness 和自动化研发闭环上的外部实践信号。`,
-      actionText: "重点看其中的任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。"
-    };
-  }
-  if (/大模型|llm|预训练|后训练|微调|推理|rag|评测/.test(text)) {
-    return {
-      whyItMatters: `来自${sourceName}的这篇文章命中大模型训练/推理/评测方向，可作为 CPT/SFT/RAG/RL 等能力持续优化的补充材料。`,
-      actionText: "关注其数据、训练、推理或评测设计，评估是否能沉淀到轨迹/地址大模型的训练推理架构。"
-    };
-  }
-  return {
-    whyItMatters: `来自${sourceName}的这篇文章命中 AI 技术关键词，可作为当前 OKR 技术雷达的补充信号。`,
-    actionText: "先快速判断它是否包含可复用的方法、架构或工程经验，再决定是否进入日报深读。"
-  };
-}
-
-function toWeixinFallbackItem(row, sourceName) {
-  const recommendation = buildWeixinFallbackRecommendation(row, sourceName);
-  return {
-    id: `weixin_fallback_${stableHash(`${sourceName}|${row.title}|${row.publishedAt}`)}`,
-    topicId: "ai",
-    sourceItemIds: [stableHash(row.sourceUrl)],
-    documentIds: [],
-    sourceKind: "weixin_article",
-    title: row.title,
-    summary: row.summary || `来自${sourceName}的搜狗微信搜索结果，查询词：${row.query}`,
-    importanceScore: /agent|auto-research|harness|大模型|预训练|后训练|推理|rag|评测/i.test(`${row.title} ${row.summary}`) ? 68 : 58,
-    whyItMatters: recommendation.whyItMatters,
-    actionText: recommendation.actionText,
-    watchText: "该条目来自独立微信 fallback 采集通道；如链接失效或结果不稳定，以公众号原文为准。",
-    tags: buildWeixinFallbackTags(row),
-    sourceName,
-    sourceUrl: row.sourceUrl,
-    sourceHostname: "weixin.sogou.com",
-    sourceIconHostname: "mp.weixin.qq.com",
-    thumbnailUrl: row.imageUrl || undefined,
-    imageUrl: row.imageUrl || undefined,
-    publishedAt: row.publishedAt,
-    observedAt: new Date().toISOString(),
-    raw: {
-      source: "sogou_weixin_fallback",
-      accountName: row.accountName,
-      query: row.query
-    }
-  };
-}
-
-function refreshCachedWeixinFallbackItem(item) {
-  return {
-    ...item,
-    topicId: "ai",
-    sourceKind: "weixin_article",
-    sourceIconHostname: item.sourceIconHostname ?? "mp.weixin.qq.com",
-    observedAt: new Date().toISOString(),
-    raw: {
-      ...(item.raw ?? {}),
-      reusedFromCache: true
-    }
-  };
-}
-
-function refreshArxivSupplementItem(item) {
-  const recommendation = buildArxivRecommendation(item.title ?? "", item.summary ?? "");
-  return {
-    ...item,
-    topicId: "ai",
-    sourceKind: "website",
-    sourceName: arxivSourceName,
-    sourceHostname: arxivSourceHostname,
-    sourceIconHostname: arxivSourceHostname,
-    whyItMatters: recommendation.whyItMatters,
-    actionText: recommendation.actionText,
-    tags: [...new Set([...(item.tags ?? []), "Agent", "Auto-Research", "Harness", "论文/研究", "评测/基准"])]
-  };
-}
-
-async function readCachedArxivItemsFromLocalFeed() {
-  try {
-    const localFeed = JSON.parse(await readFile(path.join(outputRoot, "feed.json"), "utf8"));
-    return (localFeed.items ?? []).filter((item) => item.sourceName === arxivSourceName);
-  } catch {
-    return [];
-  }
-}
-
-async function readCachedArxivItemsFromDeployedFeed() {
-  try {
-    const deployedFeed = await fetchAbsoluteJson(`${staticFeedFallbackUrl}?fallback=${Date.now()}`);
-    return (deployedFeed.items ?? []).filter((item) => item.sourceName === arxivSourceName);
+    const userId = user.data?.id;
+    if (!userId) return [];
+    const params = new URLSearchParams({
+      max_results: "5",
+      "tweet.fields": "created_at,entities",
+      exclude: "retweets,replies"
+    });
+    const timeline = await fetchJsonUrl(`https://api.twitter.com/2/users/${userId}/tweets?${params.toString()}`, {
+      Authorization: `Bearer ${xBearerToken}`
+    });
+    return (timeline.data ?? [])
+      .filter((tweet) => isRelevantText(tweet.text, ""))
+      .slice(0, localSourceLimitPerSource)
+      .map((tweet) => makeFeedItem({
+        sourceName,
+        sourceKind: "x",
+        title: shortenText(tweet.text, 120),
+        summary: tweet.text,
+        sourceUrl: `https://x.com/${handle}/status/${tweet.id}`,
+        publishedAt: tweet.created_at,
+        raw: { parser: "x_api", handle }
+      }));
   } catch (error) {
-    console.warn(`arxiv deployed fallback skipped (${error instanceof Error ? error.message : String(error)})`);
+    console.warn(`x source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
     return [];
   }
 }
 
-let cachedWeixinFallbackItemsPromise;
+let cachedFeedPromise;
 
-async function readCachedWeixinFallbackItems() {
-  if (cachedWeixinFallbackItemsPromise) return cachedWeixinFallbackItemsPromise;
-
-  cachedWeixinFallbackItemsPromise = (async () => {
+async function readCachedFeedItems() {
+  if (cachedFeedPromise) return cachedFeedPromise;
+  cachedFeedPromise = (async () => {
     try {
       const localFeed = JSON.parse(await readFile(path.join(outputRoot, "feed.json"), "utf8"));
-      const localItems = (localFeed.items ?? []).filter((item) => item.raw?.source === "sogou_weixin_fallback");
-      if (localItems.length > 0) return localItems;
+      if ((localFeed.items ?? []).length > 0) return localFeed.items;
     } catch {
-      // Fall through to deployed fallback.
+      // Fall through to deployed cache.
     }
-
     try {
-      const deployedFeed = await fetchAbsoluteJson(`${staticFeedFallbackUrl}?weixinFallback=${Date.now()}`);
-      return (deployedFeed.items ?? []).filter((item) => item.raw?.source === "sogou_weixin_fallback");
+      const deployedFeed = await fetchJsonUrl(`${staticFeedFallbackUrl}?cache=${Date.now()}`);
+      return deployedFeed.items ?? [];
     } catch (error) {
-      console.warn(`weixin fallback cache skipped (${error instanceof Error ? error.message : String(error)})`);
+      console.warn(`cache feed skipped (${error instanceof Error ? error.message : String(error)})`);
       return [];
     }
   })();
-
-  return cachedWeixinFallbackItemsPromise;
+  return cachedFeedPromise;
 }
 
-async function cachedWeixinFallbackItemsForSource(sourceName) {
-  const cachedItems = await readCachedWeixinFallbackItems();
+async function cachedItemsForSource(sourceName) {
+  if (sourceName.startsWith("X：") && !xBearerToken) return [];
+  const cachedItems = await readCachedFeedItems();
   return cachedItems
     .filter((item) => item.sourceName === sourceName)
-    .map(refreshCachedWeixinFallbackItem);
+    .map((item) => ({
+      ...item,
+      observedAt: new Date().toISOString(),
+      raw: { ...(item.raw ?? {}), reusedFromLocalCache: true }
+    }));
 }
 
-async function collectCachedArxivSupplements(reason) {
-  const localItems = await readCachedArxivItemsFromLocalFeed();
-  const deployedItems = localItems.length > 0 ? [] : await readCachedArxivItemsFromDeployedFeed();
-  const items = (localItems.length > 0 ? localItems : deployedItems).map(refreshArxivSupplementItem);
-  if (items.length > 0) {
-    console.warn(`arxiv supplements: reused ${items.length} cached items (${reason})`);
-    return { items };
-  }
-  return { items: [] };
-}
+async function collectSource(sourceName) {
+  let fresh = [];
+  if (sourceName === arxivSourceName) fresh = await collectArxivSource();
+  else if (sourceName.startsWith("公众号：")) fresh = await collectWeixinSource(sourceName);
+  else if (sourceName.startsWith("X：")) fresh = await collectXSource(sourceName);
+  else if (rssSourceUrls[sourceName]) fresh = await collectRssSource(sourceName, rssSourceUrls[sourceName]);
+  else if (webpageSourceUrls[sourceName]) fresh = await collectWebpageSource(sourceName, webpageSourceUrls[sourceName]);
 
-function dateInput(daysAgo = 0) {
-  const date = new Date();
-  date.setUTCDate(date.getUTCDate() - daysAgo);
-  return date.toISOString().slice(0, 10);
-}
-
-async function collectRequired(name, endpoint, outputPath) {
-  const data = await fetchJson(endpoint);
-  await writeJson(outputPath, withMeta(data));
-  const count = Array.isArray(data.items) ? data.items.length : 0;
-  console.log(`${name}: ${count} items -> ${outputPath}`);
-  return data;
-}
-
-async function collectOptional(name, endpoint, outputPath) {
-  try {
-    return await collectRequired(name, endpoint, outputPath);
-  } catch (error) {
-    console.warn(`${name}: skipped (${error instanceof Error ? error.message : String(error)})`);
-    return { items: [] };
-  }
-}
-
-function sourceQuery(facet) {
-  const params = new URLSearchParams({
-    limit: String(sourceSampleLimit),
-    raw: "full",
-    total: "none",
-    sourceKind: facet.sourceKind
-  });
-
-  if (facet.sourceHostname) {
-    params.set("sourceHostname", facet.sourceHostname);
-  } else {
-    params.set("sourceName", facet.sourceName);
+  const byId = new Map(fresh.map((item) => [item.id, item]));
+  for (const item of await cachedItemsForSource(sourceName)) {
+    if (!byId.has(item.id)) byId.set(item.id, item);
   }
 
-  return `/api/feed?${params.toString()}`;
+  const items = [...byId.values()].sort(compareItems).slice(0, sourceName.startsWith("公众号：") ? weixinLimitPerSource : localSourceLimitPerSource);
+  console.log(`source: ${sourceName} -> ${items.length} items${fresh.length > 0 ? ` (${fresh.length} fresh)` : ""}`);
+  return items;
 }
 
-function mergeFeedItems(...groups) {
+function compareItems(a, b) {
+  return (b.publishedAt ?? b.observedAt ?? "").localeCompare(a.publishedAt ?? a.observedAt ?? "");
+}
+
+function dedupeItems(items) {
   const byId = new Map();
-  for (const group of groups) {
-    for (const item of group.items ?? []) {
-      byId.set(item.id, { ...byId.get(item.id), ...item });
-    }
-  }
-
-  return [...byId.values()].sort((a, b) => {
-    const bTime = b.publishedAt ?? b.observedAt ?? "";
-    const aTime = a.publishedAt ?? a.observedAt ?? "";
-    return bTime.localeCompare(aTime);
-  });
-}
-
-function filterCatalogFeedItems(items, catalogSourceNames, catalogHostnames) {
-  return (items ?? []).filter((item) => {
-    if (item.sourceKind === "github" || item.sourceName?.toLowerCase().includes("github")) return false;
-    return catalogSourceNames.has(item.sourceName) || Boolean(item.sourceHostname && catalogHostnames.has(item.sourceHostname));
-  });
+  for (const item of items) byId.set(item.id, { ...byId.get(item.id), ...item });
+  return [...byId.values()].sort(compareItems);
 }
 
 function countItemsBySource(items) {
   const counts = new Map();
-  for (const item of items) {
-    counts.set(item.sourceName, (counts.get(item.sourceName) ?? 0) + 1);
-  }
+  for (const item of items) counts.set(item.sourceName, (counts.get(item.sourceName) ?? 0) + 1);
   return counts;
 }
 
-function countItemsForTopic(items, topicSources) {
-  if (!topicSources) return 0;
-  return items.filter((item) => topicSources.has(item.sourceName)).length;
-}
-
-function rebuildSourceFacets(sources, items, catalogSourceNames) {
-  const itemCounts = countItemsBySource(items);
-  return {
-    ...sources,
-    items: (sources.items ?? []).map((source) => {
-      if (!catalogSourceNames.has(source.sourceName)) return source;
-      return {
-        ...source,
-        count: itemCounts.get(source.sourceName) ?? 0
-      };
-    })
-  };
+function buildSourceFacets(sourceNames, items) {
+  const counts = countItemsBySource(items);
+  return [...sourceNames].map((sourceName) => ({
+    sourceKind: inferSourceKind(sourceName),
+    sourceName,
+    sourceIconHostname: sourceName.startsWith("公众号：") ? "mp.weixin.qq.com" : undefined,
+    count: counts.get(sourceName) ?? 0
+  }));
 }
 
 function buildTopicCounts(items, catalogByTopic) {
-  const count = (topicId) => countItemsForTopic(items, catalogByTopic.get(topicId));
-  const aiIndustryCount = count("ai-industry");
-  const aiPapersCount = count("ai-papers");
-  const aiApplicationsCount = count("ai-applications");
-  const aiBigTechCount = count("ai-big-tech");
-
+  const count = (topicId) => items.filter((item) => catalogByTopic.get(topicId)?.has(item.sourceName)).length;
   return {
     items: [
       { topicId: "ai-all", count: items.length },
       { topicId: "ai", count: items.length },
-      { topicId: "ai-industry", count: aiIndustryCount },
-      { topicId: "ai-papers", count: aiPapersCount },
-      { topicId: "ai-applications", count: aiApplicationsCount },
-      { topicId: "big-tech-daily", count: aiBigTechCount }
+      { topicId: "ai-industry", count: count("ai-industry") },
+      { topicId: "ai-papers", count: count("ai-papers") },
+      { topicId: "ai-applications", count: count("ai-applications") },
+      { topicId: "big-tech-daily", count: count("ai-big-tech") }
     ]
   };
 }
 
-async function collectArxivSupplements() {
-  const terms = [
-    "\"agent harness\"",
-    "\"research harness\"",
-    "\"auto-research\"",
-    "\"autonomous research\"",
-    "\"trajectory rollout\"",
-    "\"harness optimization\"",
-    "\"self-improvement loop\"",
-    "\"long-horizon agent\""
-  ];
-  const searchQuery = terms.map((term) => `all:${term}`).join("+OR+");
-  const url = `https://export.arxiv.org/api/query?search_query=${searchQuery}&start=0&max_results=12&sortBy=submittedDate&sortOrder=descending`;
-
-  try {
-    const xml = await fetchText(url);
-    const entries = [...xml.matchAll(/<entry>([\s\S]*?)<\/entry>/gi)].map((match) => match[1]);
-    const items = entries.map((entry) => {
-      const idUrl = firstXmlValue(entry, "id");
-      const arxivId = arxivIdFromUrl(idUrl);
-      const title = firstXmlValue(entry, "title");
-      const summary = firstXmlValue(entry, "summary");
-      const publishedAt = firstXmlValue(entry, "published");
-      const observedAt = new Date().toISOString();
-      const authors = allXmlValues(entry, "name").slice(0, 6);
-      const recommendation = buildArxivRecommendation(title, summary);
-
-      return {
-        id: `arxiv_agent_harness_${arxivId.replace(/[^a-z0-9.]/gi, "_")}`,
-        topicId: "ai",
-        sourceItemIds: [arxivId],
-        documentIds: [],
-        sourceKind: "website",
-        title,
-        summary: summary.slice(0, 900),
-        importanceScore: /harness|auto-research|autonomous research|trajectory rollout|self-improvement/i.test(`${title} ${summary}`) ? 86 : 78,
-        whyItMatters: recommendation.whyItMatters,
-        actionText: recommendation.actionText,
-        watchText: authors.length > 0 ? `作者：${authors.join(", ")}` : "关注论文版本、代码与后续复现实验。",
-        tags: ["Agent", "Auto-Research", "Harness", "论文/研究", "评测/基准"],
-        sourceName: arxivSourceName,
-        sourceUrl: idUrl,
-        sourceHostname: arxivSourceHostname,
-        sourceIconHostname: arxivSourceHostname,
-        publishedAt,
-        observedAt,
-        raw: {
-          arxivId,
-          authors,
-          source: "arxiv"
-        }
-      };
-    }).filter((item) => item.title && item.sourceUrl && isRelevantArxivSupplement(item.title, item.summary));
-    if (items.length === 0) return collectCachedArxivSupplements("current query returned no relevant items");
-    console.log(`arxiv supplements: ${items.length} items`);
-    return { items };
-  } catch (error) {
-    return collectCachedArxivSupplements(error instanceof Error ? error.message : String(error));
-  }
+function dateInput(daysAgo = 0) {
+  const date = new Date(Date.now() - daysAgo * 24 * 60 * 60 * 1000);
+  return new Intl.DateTimeFormat("en-CA", {
+    day: "2-digit",
+    month: "2-digit",
+    timeZone: beijingTimeZone,
+    year: "numeric"
+  }).format(date);
 }
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+function itemDate(item) {
+  const value = item.publishedAt || item.observedAt || "";
+  if (!value) return "";
+  return dateInputFromTimestamp(value);
 }
 
-async function collectWeixinFallbackForSource(sourceName) {
-  const byId = new Map();
-  const accountName = sourceAccountName(sourceName);
-  let freshCount = 0;
-
-  for (const term of weixinFallbackQueryTerms) {
-    const query = `${accountName} ${term}`;
-    const url = `https://weixin.sogou.com/weixin?type=2&ie=utf8&query=${encodeURIComponent(query)}`;
-    try {
-      const html = await fetchHtml(url);
-      const rows = parseSogouWeixinResults(html, sourceName, query)
-        .filter(isRelevantWeixinFallback)
-        .map((row) => toWeixinFallbackItem(row, sourceName));
-
-      for (const item of rows) {
-        byId.set(item.id, item);
-      }
-      freshCount += rows.length;
-    } catch (error) {
-      console.warn(`weixin fallback skipped query: ${query} (${error instanceof Error ? error.message : String(error)})`);
-      break;
-    }
-
-    await sleep(weixinFallbackDelayMs);
-  }
-
-  const cachedItems = await cachedWeixinFallbackItemsForSource(sourceName);
-  for (const item of cachedItems) {
-    if (!byId.has(item.id)) byId.set(item.id, item);
-  }
-
-  if (freshCount === 0 && cachedItems.length > 0) {
-    console.warn(`weixin fallback: reused ${Math.min(cachedItems.length, weixinFallbackLimitPerSource)} cached items for ${sourceName}`);
-  }
-
-  return [...byId.values()]
-    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt))
-    .slice(0, weixinFallbackLimitPerSource);
+function dateInputFromTimestamp(value) {
+  return new Intl.DateTimeFormat("en-CA", {
+    day: "2-digit",
+    month: "2-digit",
+    timeZone: beijingTimeZone,
+    year: "numeric"
+  }).format(new Date(value));
 }
 
-async function collectWeixinFallbackItems(catalogSourceNames, sourceFacets) {
-  if (!weixinFallbackEnabled) {
-    console.log("weixin fallback: disabled");
-    return { items: [], sourceFacets: [] };
-  }
-
-  const existingSourceCounts = new Map((sourceFacets ?? []).map((source) => [source.sourceName, source.count ?? 0]));
-  const targets = weixinFallbackSources.filter((sourceName) => (
-    catalogSourceNames.has(sourceName) && (existingSourceCounts.get(sourceName) ?? 0) === 0
-  ));
-
-  const items = [];
-  const facets = [];
-
-  for (const sourceName of targets) {
-    const sourceItems = await collectWeixinFallbackForSource(sourceName);
-    if (sourceItems.length > 0) {
-      items.push(...sourceItems);
-      facets.push({
-        sourceKind: "weixin_article",
-        sourceName,
-        sourceIconHostname: "mp.weixin.qq.com",
-        count: sourceItems.length,
-        updatedAt: sourceItems[0].publishedAt
-      });
-    }
-    console.log(`weixin fallback: ${sourceName} -> ${sourceItems.length} items`);
-  }
-
-  return { items, sourceFacets: facets };
+function sectionForItem(item) {
+  const text = `${item.title} ${item.summary}`.toLowerCase();
+  if (/agent|智能体|auto-research|harness|skill|工具调用|coding/.test(text)) return "Agent 与研发提效";
+  if (/大模型|llm|预训练|后训练|微调|推理|rag|grpo|sft|cpt|评测|benchmark/.test(text)) return "模型与基础设施";
+  if (/地址|地理|地图|轨迹|物流|排序|推荐/.test(text)) return "物流、地址与召排";
+  if (/产品|发布|应用|工具|平台|developer|开发者/.test(text)) return "产品与工具";
+  return "行业与公司";
 }
 
-async function collectSourceSamples(sources) {
-  const collected = [];
-  let checked = 0;
-
-  async function worker(offset) {
-    for (let index = offset; index < sources.length; index += sourceSampleConcurrency) {
-      const source = sources[index];
-      try {
-        const data = await fetchJson(sourceQuery(source));
-        collected.push(
-          ...(data.items ?? []).map((item) => ({
-            ...item,
-            raw: {
-              ...(item.raw ?? {}),
-              sampledSourceName: source.sourceName,
-              originalSourceName: item.sourceName
-            },
-            sourceName: source.sourceName,
-            sourceHostname: source.sourceHostname ?? item.sourceHostname,
-            sourceIconHostname: source.sourceIconHostname ?? item.sourceIconHostname,
-            sourceAvatarUrl: source.sourceAvatarUrl ?? item.sourceAvatarUrl
-          }))
-        );
-      } catch (error) {
-        console.warn(`source skipped: ${source.sourceName} (${error instanceof Error ? error.message : String(error)})`);
-      } finally {
-        checked += 1;
-        if (checked % 25 === 0 || checked === sources.length) {
-          console.log(`source samples: ${checked}/${sources.length}`);
-        }
-      }
-    }
+function buildDailyReport(topicId, reportDate, title, items) {
+  const selected = items.slice(0, 24);
+  const grouped = new Map();
+  for (const item of selected) {
+    const section = sectionForItem(item);
+    if (!grouped.has(section)) grouped.set(section, []);
+    grouped.get(section).push(item);
   }
 
-  await Promise.all(
-    Array.from(
-      { length: Math.min(sourceSampleConcurrency, Math.max(1, sources.length)) },
-      (_, index) => worker(index)
-    )
-  );
+  const sections = [...grouped.entries()].slice(0, 4).map(([sectionTitle, sectionItems]) => ({
+    title: sectionTitle,
+    items: sectionItems.slice(0, 5).map((item) => ({
+      title: item.title,
+      summary: item.whyItMatters ?? item.summary,
+      insightLabel: "关注",
+      insightText: item.actionText ?? "",
+      sourceFeedItemIds: [item.id],
+      confidence: item.importanceScore
+    }))
+  }));
 
-  return { items: collected };
+  const topTitles = selected.slice(0, 2).map((item) => `「${item.title}」`).join("、");
+  const mainLine = selected.length > 0
+    ? `今日筛出 ${selected.length} 条 AI 技术信号，优先看 ${topTitles}。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。`
+    : "今日本地采集器没有筛出足够高相关的 AI 技术信号。";
+
+  return {
+    id: `daily_${topicId}_${reportDate}`,
+    topicId,
+    reportDate,
+    title,
+    mainLine,
+    actionItems: selected.slice(0, 3).map((item) => `评估是否可沉淀到团队 AI Native / Agent 自进化链路：${item.title}`),
+    watchItems: selected.slice(0, 5).map((item) => `跟进：${item.title}`),
+    sections,
+    referencedFeedItemIds: selected.map((item) => item.id),
+    generatedAt: new Date().toISOString(),
+    model: collectorName,
+    raw: { generatedBy: collectorName }
+  };
+}
+
+function buildDailyReportsForDate(date, items, catalogByTopic) {
+  const sameDay = items.filter((item) => itemDate(item) === date);
+  const base = sameDay.length > 0 ? sameDay : items.slice(0, 30);
+  const bigTechSources = catalogByTopic.get("ai-big-tech") ?? new Set();
+  const bigTechItems = base.filter((item) => bigTechSources.has(item.sourceName));
+  return {
+    items: [
+      buildDailyReport("ai", date, "AI日报", base),
+      buildDailyReport("big-tech-daily", date, "大厂 AI 日报", bigTechItems.length > 0 ? bigTechItems : base)
+    ]
+  };
 }
 
 async function main() {
   await mkdir(outputRoot, { recursive: true });
-  const catalog = await readAiSourceCatalog();
-  const { byTopic: catalogByTopic, sourceNames: catalogSourceNames } = catalog;
+  const { topics, byTopic, sourceNames } = await readAiConfig();
+  const allItems = [];
 
-  await collectRequired("topics", "/api/topics", "topics.json");
-  const feed = await fetchJson(`/api/feed?limit=${feedLimit}&raw=full&total=count`);
-  const sources = await collectRequired("sources", "/api/feed/sources", "sources.json");
-  const catalogSources = (sources.items ?? []).filter((source) => catalogSourceNames.has(source.sourceName));
-  const catalogHostnames = new Set(catalogSources.map((source) => source.sourceHostname).filter(Boolean));
-  const sourceSamples = await collectSourceSamples(catalogSources);
-  const arxivSupplements = await collectArxivSupplements();
-  const weixinFallback = await collectWeixinFallbackItems(catalogSourceNames, sources.items ?? []);
-  if (arxivSupplements.items.length > 0) {
-    catalogSourceNames.add(arxivSourceName);
-    sources.items = [
-      ...sources.items,
-      {
-        sourceKind: "website",
-        sourceName: arxivSourceName,
-        sourceHostname: arxivSourceHostname,
-        sourceIconHostname: arxivSourceHostname,
-        count: arxivSupplements.items.length,
-        updatedAt: new Date().toISOString()
-      }
-    ];
+  for (const sourceName of sourceNames) {
+    const items = await collectSource(sourceName);
+    allItems.push(...items);
   }
-  if (weixinFallback.sourceFacets.length > 0) {
-    sources.items = [
-      ...sources.items,
-      ...weixinFallback.sourceFacets
-    ];
-  }
-  const mergedFeedItems = mergeFeedItems(
-    { items: filterCatalogFeedItems(feed.items, catalogSourceNames, catalogHostnames) },
-    sourceSamples,
-    arxivSupplements,
-    weixinFallback
-  );
-  const rebuiltSources = rebuildSourceFacets(sources, mergedFeedItems, catalogSourceNames);
-  await writeJson("sources.json", withMeta(rebuiltSources));
-  await writeJson("feed.json", withMeta({ ...feed, items: mergedFeedItems, total: mergedFeedItems.length }));
-  console.log(`feed: ${mergedFeedItems.length} merged items -> feed.json`);
-  await writeJson("topic-counts.json", withMeta(buildTopicCounts(mergedFeedItems, catalogByTopic)));
-  console.log("topic-counts: rebuilt from filtered feed -> topic-counts.json");
 
-  const latest = await collectOptional("daily-latest", "/api/daily/latest?raw=compact&topItems=none", "daily/latest.json");
-  const dates = new Set((latest.items ?? []).map((report) => report.reportDate).filter(Boolean));
+  const feedItems = dedupeItems(allItems)
+    .filter((item) => item.sourceKind !== "github" && item.importanceScore > 0)
+    .sort(compareItems);
+  const sourceFacets = buildSourceFacets(sourceNames, feedItems);
+
+  await writeJson("topics.json", { items: topics });
+  await writeJson("sources.json", { items: sourceFacets });
+  await writeJson("feed.json", { items: feedItems, total: feedItems.length });
+  await writeJson("topic-counts.json", buildTopicCounts(feedItems, byTopic));
+  console.log(`feed: ${feedItems.length} local items -> feed.json`);
+
+  await cleanDailyDirectory();
+  const today = dateInput(0);
+  const latest = buildDailyReportsForDate(today, feedItems, byTopic);
+  await writeJson("daily/latest.json", latest);
   for (let index = 0; index < dailyHistoryDays; index += 1) {
-    dates.add(dateInput(index));
-  }
-
-  for (const date of dates) {
-    await collectOptional(`daily-${date}`, `/api/daily?date=${date}&raw=compact&topItems=none`, `daily/${date}.json`);
+    const date = dateInput(index);
+    await writeJson(`daily/${date}.json`, buildDailyReportsForDate(date, feedItems, byTopic));
   }
 }
 

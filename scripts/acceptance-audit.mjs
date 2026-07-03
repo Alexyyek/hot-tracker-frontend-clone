@@ -7,6 +7,7 @@ const { chromium } = require("/Users/bytedance/.cache/codex-runtimes/codex-prima
 
 const outDir = path.resolve("docs/audits/hot-tracker-final-acceptance-2026-07-01");
 const localUrl = process.env.LOCAL_URL ?? "http://127.0.0.1:5173";
+const referenceUrl = process.env.REFERENCE_URL ?? localUrl;
 const desktop = { width: 1440, height: 1000 };
 const mobile = { width: 390, height: 844 };
 
@@ -57,7 +58,7 @@ async function capture(name, url, viewport, actions = async () => ({}), fullPage
 const results = [];
 
 results.push(
-  await capture("01-original-feed-desktop.png", "https://hot.kyangc.net/", desktop, async (page) => ({
+  await capture("01-reference-feed-desktop.png", referenceUrl, desktop, async (page) => ({
     tabs: await page.locator(".tab-button").allTextContents().catch(() => [])
   }))
 );
@@ -87,7 +88,7 @@ results.push(
 );
 
 results.push(
-  await capture("04-original-daily-desktop.png", "https://hot.kyangc.net/", desktop, async (page) => {
+  await capture("04-reference-daily-desktop.png", referenceUrl, desktop, async (page) => {
     await page.getByText("日报").first().click();
     await page.waitForTimeout(1200);
     return {
@@ -117,7 +118,7 @@ results.push(
 );
 
 results.push(
-  await capture("06-original-feed-mobile.png", "https://hot.kyangc.net/", mobile, async (page) => ({
+  await capture("06-reference-feed-mobile.png", referenceUrl, mobile, async (page) => ({
     text: (await page.locator("body").innerText()).slice(0, 500)
   }))
 );

@@ -13,7 +13,7 @@ import type {
 
 interface StaticDataMeta {
   generatedAt?: string;
-  sourceBaseUrl?: string;
+  collectorName?: string;
 }
 
 interface StaticDataFile<T> extends StaticDataMeta {
