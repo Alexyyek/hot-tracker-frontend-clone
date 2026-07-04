@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「NVIDIA BioNeMo accelerates Anthropic Claude Science」、「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「NVIDIA BioNeMo accelerates Anthropic Claude Science」、「AI Native 驱动的门店前端系统重构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA BioNeMo accelerates Anthropic Claude Science",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 驱动的门店前端系统重构",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索"
       ],
       "watchItems": [
         "跟进：NVIDIA BioNeMo accelerates Anthropic Claude Science",
+        "跟进：AI Native 驱动的门店前端系统重构",
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "跟进：表示分布匹配（RDM）用于一步视觉生成",
-        "跟进：Program-as-Weights：一种面向模糊函数的编程范式"
+        "跟进：进化与退化一线之隔:从多智能体风控到OSI语义标准,拆解Agent业务落地的真实技术架构",
+        "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊"
       ],
       "sections": [
         {
@@ -33,6 +33,16 @@
               "confidence": 92
             },
             {
+              "title": "AI Native 驱动的门店前端系统重构",
+              "summary": "AI Native 重构高德门店前端系统是商业化链路中的重要入口,核心... #门店前端系统 #Agent #高德 #高德技术END",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5465cd9c14ad510bbe5bf21d"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
               "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结“多快好省”方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出“情商”是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调“低功耗…",
               "insightLabel": "关注",
@@ -43,22 +53,22 @@
               "confidence": 92
             },
             {
+              "title": "进化与退化一线之隔:从多智能体风控到OSI语义标准,拆解Agent业务落地的真实技术架构",
+              "summary": "从金融风控到数据语义,再到自进化工程,谈谈智能体的\"进化与防退化\"扫码加入直播交流群,更有精华资料免费领!Agent智能体...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e3837db4ac58ba338d8191c3"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
               "summary": "昆仑万维天工3.2发布Skywork Tags，将AI智能体以团队成员身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具。团队可在原有工作群中@Skywork参与讨论，无需切换窗口或迁移数据。共享版Agent持续吸收多样上下文后表现反超精心调教的个人版，团队最终完全改用共享版。Skywork Tags不要求改变工作方式，让AI积累团队上下文并越用越强。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_cc4a7b928f890f67d9c804b0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_57d6854add38887c31b2b1c8"
               ],
               "confidence": 92
             }
@@ -102,14 +112,16 @@
       ],
       "referencedFeedItemIds": [
         "local_b3ac2e1666f02f48e31a13b8",
+        "local_5465cd9c14ad510bbe5bf21d",
         "feed_9969dac1e51342af20fcb409",
+        "local_e3837db4ac58ba338d8191c3",
         "feed_cc4a7b928f890f67d9c804b0",
         "feed_e07918fe1ea81e881e92a486",
         "feed_1915bcf07c3fe9b51caa1a20",
         "local_57d6854add38887c31b2b1c8",
         "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-04T02:14:27.559Z",
+      "generatedAt": "2026-07-04T04:31:29.572Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -120,22 +132,33 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-02",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」、「昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI Native 驱动的门店前端系统重构」、「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 驱动的门店前端系统重构",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Mastering Agentic Techniques: AI Agent Reinforcement Learning"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：进化与退化一线之隔:从多智能体风控到OSI语义标准,拆解Agent业务落地的真实技术架构"
       ],
       "watchItems": [
+        "跟进：AI Native 驱动的门店前端系统重构",
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
+        "跟进：进化与退化一线之隔:从多智能体风控到OSI语义标准,拆解Agent业务落地的真实技术架构",
         "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "跟进：Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-        "跟进：Meta&#8217;s AI Storage Blueprint at Scale"
+        "跟进：Mastering Agentic Techniques: AI Agent Reinforcement Learning"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "AI Native 驱动的门店前端系统重构",
+              "summary": "AI Native 重构高德门店前端系统是商业化链路中的重要入口,核心... #门店前端系统 #Agent #高德 #高德技术END",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5465cd9c14ad510bbe5bf21d"
+              ],
+              "confidence": 92
+            },
             {
               "title": "千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
               "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结“多快好省”方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出“情商”是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调“低功耗…",
@@ -143,6 +166,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_9969dac1e51342af20fcb409"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "进化与退化一线之隔:从多智能体风控到OSI语义标准,拆解Agent业务落地的真实技术架构",
+              "summary": "从金融风控到数据语义,再到自进化工程,谈谈智能体的\"进化与防退化\"扫码加入直播交流群,更有精华资料免费领!Agent智能体...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e3837db4ac58ba338d8191c3"
               ],
               "confidence": 92
             },
@@ -185,18 +218,20 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_5465cd9c14ad510bbe5bf21d",
         "feed_9969dac1e51342af20fcb409",
+        "local_e3837db4ac58ba338d8191c3",
         "feed_cc4a7b928f890f67d9c804b0",
         "local_57d6854add38887c31b2b1c8",
         "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-04T02:14:27.559Z",
+      "generatedAt": "2026-07-04T04:31:29.572Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T02:14:27.559Z",
+  "generatedAt": "2026-07-04T04:31:29.578Z",
   "collectorName": "local-source-collector"
 }

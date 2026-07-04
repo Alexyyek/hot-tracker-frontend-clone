@@ -5,23 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-07-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Bank of England reviews AI rules for agentic AI in finance」、「2026 BAIR Graduate Showcase」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「一文了解|SkillScan 智能体技能安全扫描最佳实践」、「AI UITester:AI Native 的 UI 自动化测试新范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bank of England reviews AI rules for agentic AI in finance",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：2026 BAIR Graduate Showcase",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：实测美团LongCat-2.0，国产芯片长出来的万亿大模型"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一文了解|SkillScan 智能体技能安全扫描最佳实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI UITester:AI Native 的 UI 自动化测试新范式|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：协作的逆向演进:从 Agent 逻辑重构团队管理"
       ],
       "watchItems": [
+        "跟进：一文了解|SkillScan 智能体技能安全扫描最佳实践",
+        "跟进：AI UITester:AI Native 的 UI 自动化测试新范式|得物技术",
+        "跟进：协作的逆向演进:从 Agent 逻辑重构团队管理",
         "跟进：Bank of England reviews AI rules for agentic AI in finance",
-        "跟进：2026 BAIR Graduate Showcase",
-        "跟进：实测美团LongCat-2.0，国产芯片长出来的万亿大模型",
-        "跟进：美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-        "跟进：Anthropic在Claude Code中植入隐写术代码识别中国用户"
+        "跟进：从\"被 AI 取代\"到\"用 AI 重构组织\",奇点智能产品大会聚焦产品、组织与商业重塑这些真问题"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "一文了解|SkillScan 智能体技能安全扫描最佳实践",
+              "summary": "火山云平台安全保障团队也持续向监管部门报送恶意技能情报并获得认可,为智能体技能安全生态建设提供了支撑.四、技能安全开发...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2a9ec971c92b7794c3e82201"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "协作的逆向演进:从 Agent 逻辑重构团队管理",
+              "summary": "GEEK TALK04动态路由与角色解耦:从「人岗匹配」到「能力调用」4.1 Agent 的启示:Expert Agent 的按需唤醒在 Multi-Agent 系统...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_94827a8fe74bdb57b7273501"
+              ],
+              "confidence": 90
+            },
             {
               "title": "Bank of England reviews AI rules for agentic AI in finance",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Bank of England is reviewing whether existing rules can cover the use of agentic AI in finance, including payments, trading, cybersecurity, and operations. Deputy Governor Sarah Breeden said existing regulatory fram…",
@@ -29,6 +49,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_1d756245eddd2f37e6d8b5cb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从\"被 AI 取代\"到\"用 AI 重构组织\",奇点智能产品大会聚焦产品、组织与商业重塑这些真问题",
+              "summary": "Agent 智能体产品与创新、企业级 AI 产品、AI 原生组织与战略、AI+行业应用落地、具身智能与硬件产品、AI 驱动的软件生产力革命、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4987e92b1526e2014e9447d6"
               ],
               "confidence": 92
             },
@@ -41,36 +71,31 @@
                 "feed_3400d2beca4c1443d691622f"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "AI UITester:AI Native 的 UI 自动化测试新范式|得物技术",
+              "summary": "目录一、为什么需要 AI Native 的 UI 测试 1.传统方案的三大痛点 2.AI Native 的解法二、能力一:用例平台数据自动转化 1.问题场...",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_977c17914e251dcde781c2ff"
+              ],
+              "confidence": 86
             },
             {
-              "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-              "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
+              "title": "Optimizing a Neural Reconstruction Pipeline Using NVIDIA Nsight Developer Tools",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "feed_b058cc789bef59dfea72ad5e"
+                "local_fb05d5344701c4dd73b72e27"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "xAI 发布 Voice Agent Builder 测试版",
-              "summary": "xAI 推出 Voice Agent Builder 测试版，这是一个基于 Grok Voice 的无代码平台，可在两分钟内创建生产级语音智能体。它集成电话、知识检索、工具、MCP、Guardrails 及可观测性，支持连接现有 SIP 号码、API 和 WebSocket，采用语音到语音路径。在 τ-voice Bench 上，Grok Voice Think Fast 1.0 得分 67.3%，领先 Gemini 3.1 Flash Live（43.8%）和 GPT Realtime 1.5（35.3%）。定价为每分钟音频 0.05 美元、电话费 …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "feed_4a8d06192313a23ec9baf260"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-              "summary": "来自Hugging Face的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a71373ab8fe6487673d854a0"
-              ],
-              "confidence": 82
+              "confidence": 70
             }
           ]
         },
@@ -110,25 +135,30 @@
           ]
         },
         {
-          "title": "产品与工具",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Optimizing a Neural Reconstruction Pipeline Using NVIDIA Nsight Developer Tools",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
+              "title": "B站技术团队邀您共赴 ACL 2026|携 FATE系列新作&B-UP岗位亮相圣地亚哥",
+              "summary": "月美国圣地亚哥哔哩哔哩技术团队在展台等候各位同仁与青年技术人才,共探大模型技术未来!",
               "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fb05d5344701c4dd73b72e27"
+                "local_8bb183da536c4c311620809f"
               ],
-              "confidence": 70
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_2a9ec971c92b7794c3e82201",
+        "local_977c17914e251dcde781c2ff",
+        "local_94827a8fe74bdb57b7273501",
         "local_1d756245eddd2f37e6d8b5cb",
+        "local_4987e92b1526e2014e9447d6",
         "local_ec245183448135c8f045e724",
         "feed_3400d2beca4c1443d691622f",
+        "local_8bb183da536c4c311620809f",
         "feed_b058cc789bef59dfea72ad5e",
         "feed_17b74f0575abf419a7a1345d",
         "feed_4a8d06192313a23ec9baf260",
@@ -140,7 +170,7 @@
         "local_ee7e05e5186330fa321da591",
         "local_fb05d5344701c4dd73b72e27"
       ],
-      "generatedAt": "2026-07-04T02:14:27.584Z",
+      "generatedAt": "2026-07-04T04:31:29.599Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -151,23 +181,53 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-01",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型」、「Anthropic在Claude Code中植入隐写术代码识别中国用户」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「一文了解|SkillScan 智能体技能安全扫描最佳实践」、「AI UITester:AI Native 的 UI 自动化测试新范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic在Claude Code中植入隐写术代码识别中国用户",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：xAI 发布 Voice Agent Builder 测试版"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一文了解|SkillScan 智能体技能安全扫描最佳实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI UITester:AI Native 的 UI 自动化测试新范式|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：协作的逆向演进:从 Agent 逻辑重构团队管理"
       ],
       "watchItems": [
-        "跟进：美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-        "跟进：Anthropic在Claude Code中植入隐写术代码识别中国用户",
-        "跟进：xAI 发布 Voice Agent Builder 测试版",
-        "跟进：Claude Sonnet 5 发布",
-        "跟进：ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排"
+        "跟进：一文了解|SkillScan 智能体技能安全扫描最佳实践",
+        "跟进：AI UITester:AI Native 的 UI 自动化测试新范式|得物技术",
+        "跟进：协作的逆向演进:从 Agent 逻辑重构团队管理",
+        "跟进：从\"被 AI 取代\"到\"用 AI 重构组织\",奇点智能产品大会聚焦产品、组织与商业重塑这些真问题",
+        "跟进：B站技术团队邀您共赴 ACL 2026|携 FATE系列新作&B-UP岗位亮相圣地亚哥"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "一文了解|SkillScan 智能体技能安全扫描最佳实践",
+              "summary": "火山云平台安全保障团队也持续向监管部门报送恶意技能情报并获得认可,为智能体技能安全生态建设提供了支撑.四、技能安全开发...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2a9ec971c92b7794c3e82201"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "协作的逆向演进:从 Agent 逻辑重构团队管理",
+              "summary": "GEEK TALK04动态路由与角色解耦:从「人岗匹配」到「能力调用」4.1 Agent 的启示:Expert Agent 的按需唤醒在 Multi-Agent 系统...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_94827a8fe74bdb57b7273501"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "从\"被 AI 取代\"到\"用 AI 重构组织\",奇点智能产品大会聚焦产品、组织与商业重塑这些真问题",
+              "summary": "Agent 智能体产品与创新、企业级 AI 产品、AI 原生组织与战略、AI+行业应用落地、具身智能与硬件产品、AI 驱动的软件生产力革命、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4987e92b1526e2014e9447d6"
+              ],
+              "confidence": 92
+            },
             {
               "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
               "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
@@ -187,36 +247,46 @@
                 "feed_4a8d06192313a23ec9baf260"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "AI UITester:AI Native 的 UI 自动化测试新范式|得物技术",
+              "summary": "目录一、为什么需要 AI Native 的 UI 测试 1.传统方案的三大痛点 2.AI Native 的解法二、能力一:用例平台数据自动转化 1.问题场...",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_977c17914e251dcde781c2ff"
+              ],
+              "confidence": 86
             },
             {
-              "title": "Claude Sonnet 5 发布",
-              "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力…",
+              "title": "Optimizing a Neural Reconstruction Pipeline Using NVIDIA Nsight Developer Tools",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "feed_33168354a9a5144216978bcf"
+                "local_fb05d5344701c4dd73b72e27"
               ],
-              "confidence": 92
-            },
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
-              "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
-              "summary": "Agent Development Kit (ADK) for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。",
+              "title": "B站技术团队邀您共赴 ACL 2026|携 FATE系列新作&B-UP岗位亮相圣地亚哥",
+              "summary": "月美国圣地亚哥哔哩哔哩技术团队在展台等候各位同仁与青年技术人才,共探大模型技术未来!",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "feed_ec689cd44b2e63903f3c42c8"
+                "local_8bb183da536c4c311620809f"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_896c3354fd2c30f963762e4d"
-              ],
-              "confidence": 92
+              "confidence": 82
             }
           ]
         },
@@ -244,24 +314,14 @@
               "confidence": 74
             }
           ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Optimizing a Neural Reconstruction Pipeline Using NVIDIA Nsight Developer Tools",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_fb05d5344701c4dd73b72e27"
-              ],
-              "confidence": 70
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_2a9ec971c92b7794c3e82201",
+        "local_977c17914e251dcde781c2ff",
+        "local_94827a8fe74bdb57b7273501",
+        "local_4987e92b1526e2014e9447d6",
+        "local_8bb183da536c4c311620809f",
         "feed_b058cc789bef59dfea72ad5e",
         "feed_17b74f0575abf419a7a1345d",
         "feed_4a8d06192313a23ec9baf260",
@@ -272,13 +332,13 @@
         "local_ee7e05e5186330fa321da591",
         "local_fb05d5344701c4dd73b72e27"
       ],
-      "generatedAt": "2026-07-04T02:14:27.584Z",
+      "generatedAt": "2026-07-04T04:31:29.599Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T02:14:27.585Z",
+  "generatedAt": "2026-07-04T04:31:29.599Z",
   "collectorName": "local-source-collector"
 }
