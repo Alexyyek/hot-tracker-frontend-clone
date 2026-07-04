@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-06-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「How Businesses Are Building Specialized AI They Can Trust」、「How Businesses Are Building Specialized AI They Can Trust」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「How Businesses Are Building Specialized AI They Can Trust」、「How Businesses Are Building Specialized AI They Can Trust」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
@@ -16,7 +16,7 @@
         "跟进：How Businesses Are Building Specialized AI They Can Trust",
         "跟进：Helping build shared standards for advanced AI",
         "跟进：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
+        "跟进：京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”"
       ],
       "sections": [
         {
@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
-              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-              "summary": "他用 Rust 重写了 Python 的半壁江山,却在智能体时代感到窒息.编译 | 王启隆出品丨AI 科技大本营(ID:rgznai100)刚被 OpenAI 用数...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_57aa765df79fa42a92fc0c86"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
               "summary": "京东近日开源全球首个全栈交互模型JoyAI-VL-Interaction，获vLLM-Omni原生支持。该模型能持续观察视频流、主动判断关键事件并实时响应，支持将复杂任务委托后台Agent处理。在58个真人盲评中，对比豆包视频通话助手胜率77.6%，对比Gemini视频通话助手胜率87.9%，监控预警场景达100%胜率。开源内容包括模型权重、交互数据集、训练方案及完整可部署系统，支持摄像头、直播流等视频输入及语音交互、长期记忆、vLLM部署，适用于安防监控、老人看护、直播讲解等实时场景。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_99cdff0303ee2c28effb2dfb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Qwen-AgentWorld：面向通用智能体的语言世界模型",
+              "summary": "Qwen 团队发布 Qwen-AgentWorld，一个以环境建模为训练目标的原生语言世界模型，在单个模型中模拟 MCP、Search、Terminal、SWE 及 GUI 域（Web、OS、Android）共七个域。模型使用超 1000 万条真实交互轨迹训练，在 AgentWorldBench 上以 Qwen-AgentWorld-397B-A17B 版本达最高模拟质量，超越 GPT-5.4、Claude Opus 4.8 和 Gemini 3.1 Pro。同时发布评测基准 AgentWorldBench。该模型可作为解耦环境模拟器用于智能体 RL …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_a178d9873b517482dd6d5bf3"
               ],
               "confidence": 92
             }
@@ -115,13 +115,12 @@
         "local_06a303c445892d842a6fcbf4",
         "local_43111bb46576d332c022d077",
         "feed_ab742b7e45856a72c307ceb0",
-        "local_57aa765df79fa42a92fc0c86",
         "feed_99cdff0303ee2c28effb2dfb",
         "feed_a178d9873b517482dd6d5bf3",
         "local_31964963d5726d3e04d9379b",
         "local_a1e47689c9531e341ab932e8"
       ],
-      "generatedAt": "2026-07-04T05:56:06.172Z",
+      "generatedAt": "2026-07-04T07:35:57.187Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -132,7 +131,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-06-23",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「How Businesses Are Building Specialized AI They Can Trust」、「How Businesses Are Building Specialized AI They Can Trust」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「How Businesses Are Building Specialized AI They Can Trust」、「How Businesses Are Building Specialized AI They Can Trust」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
@@ -143,7 +142,7 @@
         "跟进：How Businesses Are Building Specialized AI They Can Trust",
         "跟进：Helping build shared standards for advanced AI",
         "跟进：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
+        "跟进：京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”"
       ],
       "sections": [
         {
@@ -180,22 +179,22 @@
               "confidence": 92
             },
             {
-              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-              "summary": "他用 Rust 重写了 Python 的半壁江山,却在智能体时代感到窒息.编译 | 王启隆出品丨AI 科技大本营(ID:rgznai100)刚被 OpenAI 用数...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_57aa765df79fa42a92fc0c86"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
               "summary": "京东近日开源全球首个全栈交互模型JoyAI-VL-Interaction，获vLLM-Omni原生支持。该模型能持续观察视频流、主动判断关键事件并实时响应，支持将复杂任务委托后台Agent处理。在58个真人盲评中，对比豆包视频通话助手胜率77.6%，对比Gemini视频通话助手胜率87.9%，监控预警场景达100%胜率。开源内容包括模型权重、交互数据集、训练方案及完整可部署系统，支持摄像头、直播流等视频输入及语音交互、长期记忆、vLLM部署，适用于安防监控、老人看护、直播讲解等实时场景。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_99cdff0303ee2c28effb2dfb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Qwen-AgentWorld：面向通用智能体的语言世界模型",
+              "summary": "Qwen 团队发布 Qwen-AgentWorld，一个以环境建模为训练目标的原生语言世界模型，在单个模型中模拟 MCP、Search、Terminal、SWE 及 GUI 域（Web、OS、Android）共七个域。模型使用超 1000 万条真实交互轨迹训练，在 AgentWorldBench 上以 Qwen-AgentWorld-397B-A17B 版本达最高模拟质量，超越 GPT-5.4、Claude Opus 4.8 和 Gemini 3.1 Pro。同时发布评测基准 AgentWorldBench。该模型可作为解耦环境模拟器用于智能体 RL …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_a178d9873b517482dd6d5bf3"
               ],
               "confidence": 92
             }
@@ -232,18 +231,17 @@
         "local_06a303c445892d842a6fcbf4",
         "local_43111bb46576d332c022d077",
         "feed_ab742b7e45856a72c307ceb0",
-        "local_57aa765df79fa42a92fc0c86",
         "feed_99cdff0303ee2c28effb2dfb",
         "feed_a178d9873b517482dd6d5bf3",
         "local_a1e47689c9531e341ab932e8"
       ],
-      "generatedAt": "2026-07-04T05:56:06.172Z",
+      "generatedAt": "2026-07-04T07:35:57.187Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T05:56:06.173Z",
+  "generatedAt": "2026-07-04T07:35:57.188Z",
   "collectorName": "local-source-collector"
 }
