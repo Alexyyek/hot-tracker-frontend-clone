@@ -5,196 +5,169 @@
       "topicId": "ai",
       "reportDate": "2026-07-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「QCon_全球软件开发大会_InfoQ技术大会」、「AICon_全球人工智能开发与应用大会_InfoQ技术大会」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？」、「从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：QCon_全球软件开发大会_InfoQ技术大会",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AICon_全球人工智能开发与应用大会_InfoQ技术大会",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：模力工场 - 每天发现好用的 AI 应用"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频"
       ],
       "watchItems": [
-        "跟进：QCon_全球软件开发大会_InfoQ技术大会",
-        "跟进：AICon_全球人工智能开发与应用大会_InfoQ技术大会",
-        "跟进：模力工场 - 每天发现好用的 AI 应用",
-        "跟进：InfoQ大会频道_专家分享_创新技术_实践案例_产品思维_管理心得",
+        "跟进：Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
+        "跟进：从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章",
+        "跟进：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
+        "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：Cloud Agents"
       ],
       "sections": [
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "QCon_全球软件开发大会_InfoQ技术大会",
-              "summary": "QCon是由InfoQ主办的综合性技术盛会，每年在伦敦、北京、纽约、圣保罗、上海、旧金山召开。自2007年3月份首次举办以来，已经有超万名高级技术人员参加过QCon大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和典型实践。",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_e795fb57aac05d4161a2eae2"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Triage failed GitHub Actions - Cursor Automation",
-              "summary": "Investigate failed or cancelled workflow runs and report findings in Slack",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_05ad8ec8a82bc65a0a713217"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Claude Science, an AI workbench for scientists",
-              "summary": "Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides flexible access to computing resources.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_54f20ab72d29c078ca0e9ac4"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Redeploying Claude Fable 5",
-              "summary": "Anthropic is redeploying Claude Fable 5 starting July 1 following the lifting of export controls, with updated cybersecurity safeguards and a new industry jailbreak framework.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_52c37f1d07919ea3acb86888"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Research",
-              "summary": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_97dd8427cdfdf1b34e2efec0"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "AICon_全球人工智能开发与应用大会_InfoQ技术大会",
-              "summary": "全球人工智能开发与应用大会暨通用人工智能开发与应用生态展是由极客邦科技和InfoQ中国主办的技术盛会，主要面向各行业对AI技术感兴趣的中高端技术人员。大会将重点关注人工智能的落地实践，与企业一起探寻AI的边界。",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_077ebc637080d3deb39b47d7"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "InfoQ大会频道_专家分享_创新技术_实践案例_产品思维_管理心得",
-              "summary": "InfoQ 技术大会，由一系列面向 IT 从业者，特别是开发者的全球性技术盛会组成 —— QCon 全球软件开发大会、ArchSummit 全球架构师峰会、GMTC 全球大前端技术大会、AICon 全球人工智能与机器学习技术大会、GTLC 全球技术领导力峰会和 PCon 全球产品创新大会等等。",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_089ed8adc2b728185cd06ecb"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "模力工场 - 每天发现好用的 AI 应用",
-              "summary": "一个聚焦「好用」的 AI 应用榜单社区。这儿只推荐真正解决问题、值得使用的 AI 工具，由社区共同选出。 别再被噱头忽悠，这里只看实际效果。",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_280a1783eecb576606eade19"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
+              "summary": "活跃 Agent 的爆发式增长，也在加速暴露底层的断裂，尤其当企业真正走向规模化落地时，会发现现有的基础设施完全接不住 Agent 这个新物种。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_443a85e1e17f4a1f5967fbd1"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章",
+              "summary": "从 Coding 到 Anything，Agent 正在重写工作流",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e533593e77a2e6823c3a53d2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
+              "summary": "深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b45d09d13931480cbc77a7f5"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "Agent 能用，为什么还是不好用？当模型不再是瓶颈，Agent工程化该怎么做？王搂×郝栩彬，一场关于运行时底座与上下文治理的深度对谈。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_61d4c53a8eabea23f59f2f04"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Cloud Agents",
-              "summary": "Run Agent in the cloud for continuous coding assistance.",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Run Agent in the cloud for continuous coding assistance.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3456afa0ab207a93cfbcc4d8"
+                "local_9232fdc944f8f8ac3b9c6efc"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_aa704f858d956d544657a2c3"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Bytedance Seed-AI for Science",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_45d24bcab1f235c6d8677c9f"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "DXC integrates Claude into systems regulated industries rely on",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Anthropic is announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_2c52a9b3033350bf64c32ef0"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Bytedance Seed-Multimodal",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_9d82bd1c8785f993a586913b"
               ],
               "confidence": 70
             },
             {
-              "title": "Cloud Environment Setup and Cloud Subagents in Agents Window · Cursor",
-              "summary": "Cursor is the best AI coding agent.",
+              "title": "Open Source AI Gap Map",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Open Source AI Gap Map Current AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committ…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b7f95d9f3d6fed70dd72310f"
+                "local_108f5e8086e5d1e247db01a1"
               ],
-              "confidence": 70
+              "confidence": 92
             },
             {
-              "title": "Agents Window",
-              "summary": "Use Cursor&#x27;s agent-first workspace to manage agents across repos, worktrees, cloud, and remote environments.",
+              "title": "Fable's judgement",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgemen…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1f16e48ae9984d5c87592f3c"
+                "local_732d32f28d2b62d3ff2c8871"
               ],
-              "confidence": 70
-            },
-            {
-              "title": "Introducing Claude Sonnet 5",
-              "summary": "Our most agentic Sonnet yet, with top-tier intelligence for coding and everyday professional work.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_13a035c9052275695bdd2067"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Quoting Josh W. Comeau",
-              "summary": "I just launched my third course, Whimsical Animations, and so far, it’s on track to sell roughly ⅓ as many copies as a typical course launch. It’s a similar story with my two existing courses. Sales are down significantly from last year. There are likely a lot of reasons for thi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_132596e1378b3007ef86e6e6"
-              ],
-              "confidence": 58
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_e795fb57aac05d4161a2eae2",
-        "local_077ebc637080d3deb39b47d7",
-        "local_280a1783eecb576606eade19",
-        "local_089ed8adc2b728185cd06ecb",
-        "local_3456afa0ab207a93cfbcc4d8",
-        "local_b7f95d9f3d6fed70dd72310f",
-        "local_05ad8ec8a82bc65a0a713217",
-        "local_1f16e48ae9984d5c87592f3c",
-        "local_54f20ab72d29c078ca0e9ac4",
-        "local_13a035c9052275695bdd2067",
-        "local_52c37f1d07919ea3acb86888",
-        "local_97dd8427cdfdf1b34e2efec0",
-        "local_e160f2cb3cf7eff67a2b6ccc",
-        "local_0495f639e0e73a640fcb5221",
-        "local_0dd63a53141b1cb1cf85cefe",
+        "local_443a85e1e17f4a1f5967fbd1",
+        "local_e533593e77a2e6823c3a53d2",
+        "local_b45d09d13931480cbc77a7f5",
+        "local_61d4c53a8eabea23f59f2f04",
+        "local_9232fdc944f8f8ac3b9c6efc",
+        "local_64992162fafd3106b15974e3",
+        "local_5cf05c3a43d87aa52e00772e",
+        "local_5c9635160fcde9d9fc9085d7",
+        "local_aa704f858d956d544657a2c3",
+        "local_200904eb93653efb52965e8f",
+        "local_5911b7bf4c3f40dd85a8590a",
+        "local_2c52a9b3033350bf64c32ef0",
+        "local_b277d62b3c93c30376b1233f",
+        "local_45d24bcab1f235c6d8677c9f",
+        "local_9d82bd1c8785f993a586913b",
         "local_108f5e8086e5d1e247db01a1",
         "local_132596e1378b3007ef86e6e6",
         "local_aa7a417f7a705c3e5c0e3245",
         "local_732d32f28d2b62d3ff2c8871",
-        "local_45b6b8909b02980e9950030b",
-        "local_6701862c10a6100eb4698c9b",
         "local_f5d9f83309e462c79c20833a"
       ],
-      "generatedAt": "2026-07-04T00:39:34.352Z",
+      "generatedAt": "2026-07-04T02:14:27.500Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -205,122 +178,111 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-04",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「QCon_全球软件开发大会_InfoQ技术大会」、「AICon_全球人工智能开发与应用大会_InfoQ技术大会」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？」、「从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：QCon_全球软件开发大会_InfoQ技术大会",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AICon_全球人工智能开发与应用大会_InfoQ技术大会",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：模力工场 - 每天发现好用的 AI 应用"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频"
       ],
       "watchItems": [
-        "跟进：QCon_全球软件开发大会_InfoQ技术大会",
-        "跟进：AICon_全球人工智能开发与应用大会_InfoQ技术大会",
-        "跟进：模力工场 - 每天发现好用的 AI 应用",
-        "跟进：InfoQ大会频道_专家分享_创新技术_实践案例_产品思维_管理心得",
-        "跟进：Bytedance Seed-Responsible AI"
+        "跟进：Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
+        "跟进：从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章",
+        "跟进：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
+        "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+        "跟进：Bytedance Seed-AI for Science"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
+              "summary": "活跃 Agent 的爆发式增长，也在加速暴露底层的断裂，尤其当企业真正走向规模化落地时，会发现现有的基础设施完全接不住 Agent 这个新物种。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_443a85e1e17f4a1f5967fbd1"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "从 Coding 到 Anything，Agent 正在重写工作流_AI&大模型_王玮_InfoQ精选文章",
+              "summary": "从 Coding 到 Anything，Agent 正在重写工作流",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e533593e77a2e6823c3a53d2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
+              "summary": "深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b45d09d13931480cbc77a7f5"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "Agent 能用，为什么还是不好用？当模型不再是瓶颈，Agent工程化该怎么做？王搂×郝栩彬，一场关于运行时底座与上下文治理的深度对谈。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_61d4c53a8eabea23f59f2f04"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Bytedance Seed-AI for Science",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_45d24bcab1f235c6d8677c9f"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
         {
           "title": "行业与公司",
           "items": [
             {
-              "title": "QCon_全球软件开发大会_InfoQ技术大会",
-              "summary": "QCon是由InfoQ主办的综合性技术盛会，每年在伦敦、北京、纽约、圣保罗、上海、旧金山召开。自2007年3月份首次举办以来，已经有超万名高级技术人员参加过QCon大会。QCon内容源于实践并面向社区，演讲嘉宾依据热点话题，面向5年以上工作经验的技术团队负责人、架构师、工程总监、高级开发人员分享技术创新和典型实践。",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_e795fb57aac05d4161a2eae2"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Bytedance Seed-Responsible AI",
-              "summary": "The Seed-Responsible AI team promotes safe and sustainable AI by researching its core mechanisms to provide insights and practical guidance.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e160f2cb3cf7eff67a2b6ccc"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0495f639e0e73a640fcb5221"
-              ],
-              "confidence": 58
-            },
-            {
               "title": "Bytedance Seed-Multimodal",
-              "summary": "The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and development of multimodal assistant products.",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0dd63a53141b1cb1cf85cefe"
+                "local_9d82bd1c8785f993a586913b"
               ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "AICon_全球人工智能开发与应用大会_InfoQ技术大会",
-              "summary": "全球人工智能开发与应用大会暨通用人工智能开发与应用生态展是由极客邦科技和InfoQ中国主办的技术盛会，主要面向各行业对AI技术感兴趣的中高端技术人员。大会将重点关注人工智能的落地实践，与企业一起探寻AI的边界。",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_077ebc637080d3deb39b47d7"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "InfoQ大会频道_专家分享_创新技术_实践案例_产品思维_管理心得",
-              "summary": "InfoQ 技术大会，由一系列面向 IT 从业者，特别是开发者的全球性技术盛会组成 —— QCon 全球软件开发大会、ArchSummit 全球架构师峰会、GMTC 全球大前端技术大会、AICon 全球人工智能与机器学习技术大会、GTLC 全球技术领导力峰会和 PCon 全球产品创新大会等等。",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_089ed8adc2b728185cd06ecb"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "模力工场 - 每天发现好用的 AI 应用",
-              "summary": "一个聚焦「好用」的 AI 应用榜单社区。这儿只推荐真正解决问题、值得使用的 AI 工具，由社区共同选出。 别再被噱头忽悠，这里只看实际效果。",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_280a1783eecb576606eade19"
-              ],
-              "confidence": 58
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_e795fb57aac05d4161a2eae2",
-        "local_077ebc637080d3deb39b47d7",
-        "local_280a1783eecb576606eade19",
-        "local_089ed8adc2b728185cd06ecb",
-        "local_e160f2cb3cf7eff67a2b6ccc",
-        "local_0495f639e0e73a640fcb5221",
-        "local_0dd63a53141b1cb1cf85cefe"
+        "local_443a85e1e17f4a1f5967fbd1",
+        "local_e533593e77a2e6823c3a53d2",
+        "local_b45d09d13931480cbc77a7f5",
+        "local_61d4c53a8eabea23f59f2f04",
+        "local_45d24bcab1f235c6d8677c9f",
+        "local_9d82bd1c8785f993a586913b"
       ],
-      "generatedAt": "2026-07-04T00:39:34.352Z",
+      "generatedAt": "2026-07-04T02:14:27.500Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:39:34.353Z",
+  "generatedAt": "2026-07-04T02:14:27.500Z",
   "collectorName": "local-source-collector"
 }

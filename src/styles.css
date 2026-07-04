@@ -810,7 +810,7 @@ body:has(.daily-mode) {
 
 .source-filter-row strong {
   display: grid;
-  grid-template-columns: 22px minmax(0, 1fr);
+  grid-template-columns: 24px minmax(0, 1fr);
   align-items: center;
   gap: 6px;
   font-size: 13px;
@@ -823,16 +823,20 @@ body:has(.daily-mode) {
 
 .source-row-icon {
   display: inline-flex;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   min-width: 0;
   align-items: center;
   justify-content: center;
-  border-radius: 7px;
+  border: 1px solid color-mix(in srgb, var(--brand) 14%, var(--border));
+  border-radius: 999px;
   color: var(--brand-strong);
-  background: var(--brand-soft);
+  background:
+    radial-gradient(circle at 35% 28%, rgb(255 255 255 / 82%), transparent 44%),
+    color-mix(in srgb, var(--brand) 10%, var(--surface));
   font-size: 10px;
   font-weight: 750;
+  line-height: 1;
   overflow: hidden;
 }
 
@@ -851,7 +855,7 @@ body:has(.daily-mode) {
 
 .source-row-icon.has-source-image {
   padding: 0;
-  border-radius: 7px;
+  border-radius: 999px;
   background: var(--surface);
 }
 
@@ -1082,12 +1086,24 @@ body:has(.daily-mode) {
   flex: 0 0 24px;
   align-items: center;
   justify-content: center;
-  border-radius: 7px;
+  border: 1px solid color-mix(in srgb, var(--score-accent) 18%, var(--border));
+  border-radius: 999px;
   color: var(--score-accent);
-  background: color-mix(in srgb, var(--score-accent) 13%, var(--surface));
+  background:
+    radial-gradient(circle at 35% 28%, rgb(255 255 255 / 82%), transparent 44%),
+    color-mix(in srgb, var(--score-accent) 11%, var(--surface));
   font-size: 10px;
   font-weight: 700;
+  line-height: 1;
   overflow: hidden;
+}
+
+.source-kind-weixin-article,
+.source-kind-weixin {
+  color: #0f8b63;
+  background:
+    radial-gradient(circle at 35% 28%, rgb(255 255 255 / 86%), transparent 44%),
+    color-mix(in srgb, #10b981 16%, var(--surface));
 }
 
 .source-kind-github {

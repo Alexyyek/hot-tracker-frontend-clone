@@ -8,7 +8,7 @@ const dailyHistoryDays = Number(process.env.DAILY_HISTORY_DAYS ?? 14);
 const localSourceLimitPerSource = Number(process.env.LOCAL_SOURCE_LIMIT_PER_SOURCE ?? 4);
 const weixinLimitPerSource = Number(process.env.WEIXIN_FALLBACK_LIMIT_PER_SOURCE ?? 3);
 const weixinDelayMs = Number(process.env.WEIXIN_FALLBACK_DELAY_MS ?? 900);
-const weixinQueryTerms = (process.env.WEIXIN_QUERY_TERMS ?? "AI").split(",").map((term) => term.trim()).filter(Boolean);
+const weixinQueryTerms = (process.env.WEIXIN_QUERY_TERMS ?? "Agent,大模型,RAG,AI Native,智能体").split(",").map((term) => term.trim()).filter(Boolean);
 const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "https://hot.aiscl.work/data/feed.json";
 const xBearerToken = process.env.X_BEARER_TOKEN ?? "";
 const beijingTimeZone = "Asia/Shanghai";
@@ -62,7 +62,6 @@ const webpageSourceUrls = {
 };
 
 const relevanceTerms = [
-  "ai",
   "agent",
   "agentic",
   "auto-research",
@@ -93,17 +92,159 @@ const relevanceTerms = [
   "推理",
   "评测",
   "工具调用",
-  "研发",
-  "工程",
-  "架构",
-  "推荐",
+  "研发提效",
+  "工程实践",
+  "系统架构",
+  "推荐系统",
   "排序",
+  "召回排序",
+  "召回模型",
+  "召回链路",
   "地址",
   "轨迹",
   "物流"
 ];
 
-const lowValueTerms = ["招聘", "内推", "课程", "训练营", "报名", "广告"];
+const aiContextTerms = [
+  "ai",
+  "人工智能",
+  "大模型",
+  "llm",
+  "foundation model",
+  "openai",
+  "anthropic",
+  "claude",
+  "deepmind",
+  "gemini",
+  "qwen",
+  "千问",
+  "kimi",
+  "deepseek",
+  "智能体",
+  "agent",
+  "机器学习",
+  "深度学习",
+  "多模态",
+  "生成式"
+];
+
+const highIntentTerms = [
+  "agent",
+  "agentic",
+  "智能体",
+  "agent skill",
+  "skill",
+  "harness",
+  "auto-research",
+  "autonomous research",
+  "agent coding",
+  "coding agent",
+  "tool calling",
+  "tool use",
+  "工具调用",
+  "mcp",
+  "workflow automation",
+  "自动化研发",
+  "ai native",
+  "大模型",
+  "llm",
+  "foundation model",
+  "预训练",
+  "后训练",
+  "post-training",
+  "pretraining",
+  "sft",
+  "cpt",
+  "rag",
+  "rl",
+  "grpo",
+  "reinforcement learning",
+  "inference",
+  "推理",
+  "推理上限",
+  "eval",
+  "evaluation",
+  "benchmark",
+  "评测",
+  "地址",
+  "地址纠错",
+  "地址理解",
+  "轨迹",
+  "物流",
+  "召回排序",
+  "召回模型",
+  "召回链路",
+  "排序",
+  "推荐系统",
+  "geocode",
+  "geocoding",
+  "ranking",
+  "retrieval"
+];
+
+const weakGenericTerms = [
+  "大会",
+  "峰会",
+  "conference",
+  "summit",
+  "报名",
+  "课程",
+  "训练营",
+  "榜单",
+  "社区",
+  "招聘",
+  "内推",
+  "广告",
+  "发布会"
+];
+
+const lowValueTerms = ["招聘", "内推", "课程", "训练营", "报名", "广告", "投资", "股票", "基金", "打新", "美食", "旅游", "酒店"];
+
+const promotionalTerms = ["有奖", "热门活动", "主题征文", "征文", "提pr", "报bug", "写体验", "抽奖", "福利", "门票"];
+
+const sourceIconHostnames = {
+  "大厂日爆": "infoq.cn",
+  "Qwen：Blog Retrieval（API）": "qwenlm.github.io",
+  "Qwen：Research（API）": "qwenlm.github.io",
+  "Claude": "claude.com",
+  "Anthropic：Transformer Circuits（可解释性研究）": "transformer-circuits.pub",
+  "Andrej Karpathy：Blog（网页）": "karpathy.github.io",
+  "智谱：研究（网页内嵌数据）": "z.ai",
+  "MiniMax：Blog（网页）": "minimax.io",
+  "MiniMax：News（网页）": "minimax.io",
+  "Moonshot AI：Kimi Blog（VitePress）": "kimi.com",
+  "蚂蚁百灵：Developer Blog（网页）": "developer.ant-ling.com"
+};
+
+const weixinManualSeeds = {
+  "公众号：阿里云开发者": [
+    ["阿里云开发者：大模型应用与 RAG 工程实践入口", "关注阿里云大模型服务、RAG 检索增强、Agent 工具调用和企业级 AI 应用落地，适合作为模型推理、工程架构和多市场复制实践的补充信号。"]
+  ],
+  "公众号：阿里技术": [
+    ["阿里技术：大模型工程与智能体研发实践入口", "关注阿里体系在大模型训练推理、Agent 工程、工具调用、搜索推荐和云原生基础设施上的技术实践，优先筛选可复用架构与评测方法。"]
+  ],
+  "公众号：美团技术团队": [
+    ["美团技术团队：LongCat 与大模型工程实践入口", "关注美团 LongCat、大模型推理效率、Agent 应用和搜索推荐工程实践，适合观察本地生活场景下 AI 技术落地与复杂系统演进。"]
+  ],
+  "公众号：百度智能云技术": [
+    ["百度智能云技术：文心大模型与企业 AI 工程入口", "关注文心大模型、RAG、智能体平台、模型服务化和企业级 AI Native 开发实践，适合补充模型推理和应用架构观察。"]
+  ],
+  "公众号：快手技术": [
+    ["快手技术：多模态大模型与推荐系统工程入口", "关注快手在多模态理解、内容推荐、AIGC、模型推理和大规模在线系统中的工程实践，适合观察推荐排序与 AI 基础设施。"]
+  ],
+  "公众号：小红书技术": [
+    ["小红书技术：搜索推荐与 LLM 应用工程入口", "关注小红书在搜索推荐、内容理解、LLM 应用、Agent 工具链和工程提效上的实践，适合补充推荐排序与 AI Native 开发信号。"]
+  ],
+  "公众号：携程技术": [
+    ["携程技术：AI Agent 与搜索推荐工程入口", "关注携程在旅行场景下的智能客服、搜索推荐、行程规划 Agent 和大模型应用工程，适合观察复杂业务流程的自动化与验证闭环。"]
+  ],
+  "公众号：vivo互联网技术": [
+    ["vivo互联网技术：端侧大模型与 AI 应用工程入口", "关注端侧模型、智能助手、多模态交互、模型推理优化和移动端 AI 应用落地，适合补充推理效率与产品化实践观察。"]
+  ],
+  "公众号：OPPO数智技术": [
+    ["OPPO数智技术：端侧 AI 与智能体应用工程入口", "关注端侧大模型、智能体能力、移动端推理优化、AI 应用平台和工程提效实践，适合作为 AI Native 产品落地参考。"]
+  ]
+};
 
 async function readAiConfig() {
   const source = await readFile("src/aiTopics.ts", "utf8");
@@ -206,20 +347,114 @@ function inferSourceKind(sourceName) {
   return "website";
 }
 
+function sourceIconHostnameForSource(sourceName, sourceKind, sourceHostname = "") {
+  if (sourceKind === "weixin_article" || sourceName.startsWith("公众号：")) return "";
+  if (sourceName.startsWith("X：")) return "x.com";
+  return sourceIconHostnames[sourceName] ?? sourceHostname;
+}
+
 function includesAny(value, terms) {
   const normalized = value.toLowerCase();
   return terms.some((term) => normalized.includes(term.toLowerCase()));
 }
 
-function isRelevantText(title, summary) {
-  const text = `${title} ${summary}`;
-  if (includesAny(text, lowValueTerms) && !includesAny(text, ["大模型", "agent", "ai", "研发", "工程"])) return false;
-  return includesAny(text, relevanceTerms);
+function termHitCount(value, terms) {
+  const normalized = value.toLowerCase();
+  return terms.reduce((count, term) => count + (normalized.includes(term.toLowerCase()) ? 1 : 0), 0);
+}
+
+function isPaperItem(sourceName, title = "") {
+  return sourceName === arxivSourceName ||
+    /paper|papers|论文|arxiv/i.test(sourceName) ||
+    /\barxiv\b|论文|paper/i.test(title);
+}
+
+function relevanceScore(title, summary, sourceName = "") {
+  const titleText = stripHtml(title);
+  const summaryText = stripHtml(summary);
+  const text = `${titleText} ${summaryText}`;
+  const titleIntentHits = termHitCount(titleText, highIntentTerms);
+  const bodyIntentHits = termHitCount(summaryText, highIntentTerms);
+  const aiHits = termHitCount(text, aiContextTerms);
+  const broadHits = termHitCount(text, relevanceTerms);
+  const weakHits = termHitCount(text, weakGenericTerms);
+  const lowHits = termHitCount(text, lowValueTerms);
+  const promotionalHits = termHitCount(text, promotionalTerms);
+  const hasPaperSignal = isPaperItem(sourceName, titleText);
+  let score = titleIntentHits * 2 + bodyIntentHits * 4 + aiHits + broadHits;
+
+  if (!summaryText && titleIntentHits === 0 && !hasPaperSignal) score -= 4;
+  if (weakHits > 0 && bodyIntentHits === 0) score -= 6;
+  if (lowHits > 0 && titleIntentHits + bodyIntentHits < 2) score -= 8;
+  if (promotionalHits > 0) score -= bodyIntentHits >= 2 ? 4 : 10;
+  if (/qcon|aicon|infoq|大会|峰会|conference/i.test(text) && bodyIntentHits === 0) score -= 5;
+  if (/榜单|社区|好用|工具导航/i.test(text) && bodyIntentHits === 0) score -= 4;
+  if (sourceName.startsWith("公众号：") && titleIntentHits + bodyIntentHits > 0) score += 2;
+  if (hasPaperSignal && (bodyIntentHits > 0 || aiHits > 0)) score += 3;
+
+  return score;
+}
+
+function isRelevantText(title, summary, sourceName = "") {
+  const score = relevanceScore(title, summary, sourceName);
+  const hasIntent = termHitCount(`${title} ${summary}`, highIntentTerms) > 0;
+  return score >= 5 && (hasIntent || isPaperItem(sourceName, title));
+}
+
+function isCandidateTitleRelevant(title, sourceName = "") {
+  const text = stripHtml(title);
+  if (termHitCount(text, lowValueTerms) > 0) return false;
+  if (termHitCount(text, promotionalTerms) > 0) return false;
+  if (termHitCount(text, weakGenericTerms) > 0 && termHitCount(text, highIntentTerms) === 0) return false;
+  return termHitCount(text, [...aiContextTerms, ...highIntentTerms]) > 0 || isPaperItem(sourceName, text);
 }
 
 function shortenText(value, maxLength) {
   const normalized = String(value ?? "").replace(/\s+/g, " ").trim();
   return normalized.length > maxLength ? `${normalized.slice(0, maxLength - 1)}…` : normalized;
+}
+
+function isMostlyEnglish(value) {
+  const text = stripHtml(value);
+  const chinese = (text.match(/[\u4e00-\u9fff]/g) ?? []).length;
+  const letters = (text.match(/[A-Za-z]/g) ?? []).length;
+  return letters > 24 && chinese < Math.max(8, letters * 0.12);
+}
+
+function focusLabelForText(value) {
+  const text = value.toLowerCase();
+  if (/agent|agentic|智能体|harness|auto-research|coding agent|tool calling|tool use|工具调用|mcp|skill/.test(text)) {
+    return "Agent Skill、Harness、工具调用和自动化研发";
+  }
+  if (/大模型|llm|foundation model|预训练|后训练|sft|cpt|rag|grpo|reinforcement learning|推理|eval|benchmark|评测/.test(text)) {
+    return "大模型训练、推理、RAG、后训练或评测";
+  }
+  if (/地址|地理|地图|轨迹|物流|召回|排序|推荐系统|geocod|ranking|retrieval/.test(text)) {
+    return "物流轨迹、地址理解、召回排序或地理智能";
+  }
+  if (/workflow|developer|开发者|平台|应用|工具|workbench/.test(text)) {
+    return "AI 工具、开发者平台和工程提效";
+  }
+  return "AI 技术演进和可复用工程实践";
+}
+
+function localizeSummaryForDisplay(sourceName, title, summary) {
+  const cleanSummary = stripHtml(summary || `来自${sourceName}的本地采集条目。`).slice(0, 900);
+  if (isPaperItem(sourceName, title) || !isMostlyEnglish(cleanSummary)) return cleanSummary;
+  const focus = focusLabelForText(`${title} ${cleanSummary}`);
+  const detail = shortenText(cleanSummary, 220);
+  return `这篇内容聚焦「${focus}」。原文摘要显示：${detail}`;
+}
+
+function isGeneratedDisplaySummary(value = "") {
+  return /发布了「.{0,120}」相关内容，重点可按|这篇内容聚焦「|本地采集条目|搜狗微信搜索结果|建议打开原文查看方法/.test(value);
+}
+
+function relevanceSummaryFromItem(item) {
+  const rawSummary = item.raw?.originalSummary ?? item.raw?.relevanceSummary;
+  if (typeof rawSummary === "string" && rawSummary.trim()) return stripHtml(rawSummary);
+  const summary = stripHtml(item.summary ?? "");
+  return isGeneratedDisplaySummary(summary) ? "" : summary;
 }
 
 function buildTags(title, summary, sourceKind) {
@@ -276,31 +511,37 @@ function buildRecommendation(title, summary, sourceName) {
 }
 
 function makeFeedItem({ sourceName, sourceKind, title, summary, sourceUrl, publishedAt, imageUrl, raw }) {
-  const recommendation = buildRecommendation(title, summary, sourceName);
+  const cleanTitle = stripHtml(title);
+  const originalSummary = stripHtml(summary);
+  const displaySummary = localizeSummaryForDisplay(sourceName, cleanTitle, summary);
+  const recommendationSummary = originalSummary || displaySummary;
+  const recommendation = buildRecommendation(cleanTitle, recommendationSummary, sourceName);
   const sourceHostname = hostnameFromUrl(sourceUrl);
+  const score = relevanceScore(cleanTitle, originalSummary, sourceName);
   return {
     id: `local_${stableHash(`${sourceName}|${sourceUrl || title}|${publishedAt || ""}`)}`,
     topicId: "ai",
     sourceItemIds: [stableHash(sourceUrl || title)],
     documentIds: [],
     sourceKind,
-    title: stripHtml(title),
-    summary: stripHtml(summary || `来自${sourceName}的本地采集条目。`).slice(0, 900),
-    importanceScore: /agent|auto-research|harness|大模型|预训练|后训练|推理|rag|评测/i.test(`${title} ${summary}`) ? 70 : 58,
+    title: cleanTitle,
+    summary: displaySummary,
+    importanceScore: Math.max(58, Math.min(92, 50 + score * 4)),
     whyItMatters: recommendation.whyItMatters,
     actionText: recommendation.actionText,
     watchText: "该条目由 AI Hot Tracker 本地采集器生成；链接不可访问时请以原站搜索结果为准。",
-    tags: buildTags(title, summary, sourceKind),
+    tags: buildTags(cleanTitle, `${originalSummary} ${displaySummary}`, sourceKind),
     sourceName,
     sourceUrl,
     sourceHostname,
-    sourceIconHostname: sourceKind === "weixin_article" ? "mp.weixin.qq.com" : sourceHostname,
+    sourceIconHostname: sourceIconHostnameForSource(sourceName, sourceKind, sourceHostname),
     thumbnailUrl: imageUrl || undefined,
     imageUrl: imageUrl || undefined,
     publishedAt: normalizeDate(publishedAt),
     observedAt: new Date().toISOString(),
     raw: {
       source: collectorName,
+      originalSummary,
       ...(raw ?? {})
     }
   };
@@ -359,7 +600,7 @@ function parseFeedXml(xml, sourceName, sourceKind) {
   });
 
   return [...rssItems, ...atomItems]
-    .filter((row) => row.title && row.link && isRelevantText(row.title, row.summary))
+    .filter((row) => row.title && row.link && isRelevantText(row.title, row.summary, sourceName))
     .slice(0, localSourceLimitPerSource)
     .map((row) => makeFeedItem({
       sourceName,
@@ -400,7 +641,7 @@ function parseAnchorsFromHtml(html, baseUrl, sourceName) {
       continue;
     }
     if (!isLikelyArticleUrl(sourceUrl, baseUrl)) continue;
-    if (!isRelevantText(title, "")) continue;
+    if (!isCandidateTitleRelevant(title, sourceName)) continue;
     rows.push({
       title,
       sourceUrl,
@@ -477,10 +718,12 @@ async function buildWebpageItemFromCandidate(sourceName, candidate) {
     const html = await fetchText(candidate.sourceUrl, "text/html,application/xhtml+xml");
     const details = extractWebpageDetails(html, candidate.title);
     if (!details.summary || details.summary.length < 24) return null;
+    const title = details.title || candidate.title;
+    if (!isRelevantText(title, details.summary, sourceName)) return null;
     return makeFeedItem({
       sourceName,
       sourceKind: inferSourceKind(sourceName),
-      title: details.title || candidate.title,
+      title,
       summary: details.summary,
       sourceUrl: candidate.sourceUrl,
       publishedAt: details.publishedAt || new Date().toISOString(),
@@ -502,7 +745,7 @@ async function collectWebpageSource(sourceName, urls) {
       for (const candidate of candidates.slice(0, localSourceLimitPerSource * 6)) {
         const item = await buildWebpageItemFromCandidate(sourceName, candidate);
         if (!item) continue;
-        if (!item.title || !item.sourceUrl || !isRelevantText(item.title, item.summary)) continue;
+        if (!item.title || !item.sourceUrl) continue;
         items.push(item);
         if (items.length >= localSourceLimitPerSource) break;
       }
@@ -624,13 +867,17 @@ async function collectWeixinSource(sourceName) {
   const byId = new Map();
   const accountName = sourceAccountName(sourceName);
 
+  for (const item of buildManualWeixinSeeds(sourceName)) {
+    byId.set(itemIdentityKey(item), item);
+  }
+
   for (const term of weixinQueryTerms) {
     const query = `${accountName} ${term}`;
     const url = `https://weixin.sogou.com/weixin?type=2&ie=utf8&query=${encodeURIComponent(query)}`;
     try {
       const html = await fetchText(url, "text/html,application/xhtml+xml");
       const rows = parseSogouWeixinResults(html, sourceName, query)
-        .filter((row) => isRelevantText(row.title, row.summary))
+        .filter((row) => isRelevantText(row.title, row.summary, sourceName))
         .map((row) => makeFeedItem({
           sourceName,
           sourceKind: "weixin_article",
@@ -650,6 +897,26 @@ async function collectWeixinSource(sourceName) {
   }
 
   return [...byId.values()].sort(compareItems).slice(0, weixinLimitPerSource);
+}
+
+function buildManualWeixinSeeds(sourceName) {
+  const accountName = sourceAccountName(sourceName);
+  const seeds = weixinManualSeeds[sourceName] ?? [[
+    `${accountName}：AI 技术文章检索入口`,
+    `关注 ${accountName} 中与大模型训练推理、RAG、Agent Skill、Harness、Auto-Research、工具调用、搜索推荐、地址/物流智能或 AI Native 工程实践强相关的技术文章。`
+  ]];
+  const seedPublishedAt = new Date(Date.now() - 90 * 24 * 60 * 60 * 1000).toISOString();
+  return seeds
+    .filter(([title, summary]) => isRelevantText(title, summary, sourceName))
+    .map(([title, summary], index) => makeFeedItem({
+      sourceName,
+      sourceKind: "weixin_article",
+      title,
+      summary,
+      sourceUrl: `https://weixin.sogou.com/weixin?type=2&ie=utf8&query=${encodeURIComponent(`${sourceAccountName(sourceName)} ${weixinQueryTerms.join(" ")}`)}`,
+      publishedAt: new Date(new Date(seedPublishedAt).getTime() - index * 60_000).toISOString(),
+      raw: { parser: "manual_weixin_seed", accountName: sourceAccountName(sourceName), maintainedBy: "AI Hot Tracker" }
+    }));
 }
 
 function xHandleFromSource(sourceName) {
@@ -675,7 +942,7 @@ async function collectXSource(sourceName) {
       Authorization: `Bearer ${xBearerToken}`
     });
     return (timeline.data ?? [])
-      .filter((tweet) => isRelevantText(tweet.text, ""))
+      .filter((tweet) => isRelevantText(tweet.text, "", sourceName))
       .slice(0, localSourceLimitPerSource)
       .map((tweet) => makeFeedItem({
         sourceName,
@@ -720,15 +987,37 @@ async function cachedItemsForSource(sourceName) {
   return cachedItems
     .filter((item) => item.sourceName === sourceName)
     .filter((item) => !isLowDetailWebpageItem(item))
-    .map((item) => ({
-      ...item,
-      observedAt: new Date().toISOString(),
-      raw: { ...(item.raw ?? {}), reusedFromLocalCache: true }
-    }));
+    .filter((item) => isRelevantText(item.title, relevanceSummaryFromItem(item), item.sourceName))
+    .map((item) => normalizeCachedItem(item))
+    .filter((item) => isRelevantText(item.title, relevanceSummaryFromItem(item), item.sourceName));
 }
 
 function isLowDetailWebpageItem(item) {
   return item.raw?.parser === "html_anchor" || /相关链接/.test(item.summary ?? "") || /详情页.{0,8}(摘要|访问|线索)/.test(item.summary ?? "");
+}
+
+function normalizeCachedItem(item) {
+  const title = stripHtml(item.title);
+  const sourceKind = item.sourceKind || inferSourceKind(item.sourceName);
+  const sourceHostname = item.sourceHostname || hostnameFromUrl(item.sourceUrl);
+  const originalSummary = relevanceSummaryFromItem(item);
+  const summary = localizeSummaryForDisplay(item.sourceName, title, originalSummary || item.summary);
+  const recommendation = buildRecommendation(title, originalSummary || summary, item.sourceName);
+  const score = relevanceScore(title, originalSummary, item.sourceName);
+  return {
+    ...item,
+    sourceKind,
+    title,
+    summary,
+    importanceScore: Math.max(58, Math.min(92, 50 + score * 4)),
+    whyItMatters: recommendation.whyItMatters,
+    actionText: recommendation.actionText,
+    tags: buildTags(title, `${originalSummary} ${summary}`, sourceKind),
+    sourceHostname,
+    sourceIconHostname: sourceIconHostnameForSource(item.sourceName, sourceKind, sourceHostname),
+    observedAt: new Date().toISOString(),
+    raw: { ...(item.raw ?? {}), originalSummary, reusedFromLocalCache: true }
+  };
 }
 
 function itemIdentityKey(item) {
@@ -761,7 +1050,15 @@ function compareItems(a, b) {
 function dedupeItems(items) {
   const byId = new Map();
   for (const item of items) byId.set(item.id, { ...byId.get(item.id), ...item });
-  return [...byId.values()].sort(compareItems);
+  const bySourceTitle = new Map();
+  for (const item of byId.values()) {
+    const key = `${item.sourceName}|${stripHtml(item.title).toLowerCase()}`;
+    const existing = bySourceTitle.get(key);
+    if (!existing || compareItems(item, existing) < 0 || item.importanceScore > existing.importanceScore) {
+      bySourceTitle.set(key, item);
+    }
+  }
+  return [...bySourceTitle.values()].sort(compareItems);
 }
 
 function countItemsBySource(items) {
@@ -775,7 +1072,7 @@ function buildSourceFacets(sourceNames, items) {
   return [...sourceNames].map((sourceName) => ({
     sourceKind: inferSourceKind(sourceName),
     sourceName,
-    sourceIconHostname: sourceName.startsWith("公众号：") ? "mp.weixin.qq.com" : undefined,
+    sourceIconHostname: sourceIconHostnameForSource(sourceName, inferSourceKind(sourceName)),
     count: counts.get(sourceName) ?? 0
   }));
 }
@@ -823,7 +1120,7 @@ function sectionForItem(item) {
   const text = `${item.title} ${item.summary}`.toLowerCase();
   if (/agent|智能体|auto-research|harness|skill|工具调用|coding/.test(text)) return "Agent 与研发提效";
   if (/大模型|llm|预训练|后训练|微调|推理|rag|grpo|sft|cpt|评测|benchmark/.test(text)) return "模型与基础设施";
-  if (/地址|地理|地图|轨迹|物流|排序|推荐/.test(text)) return "物流、地址与召排";
+  if (/地址|地理|地图|轨迹|物流|排序|推荐系统|召回|ranking|retrieval|geocod/.test(text)) return "物流、地址与召排";
   if (/产品|发布|应用|工具|平台|developer|开发者/.test(text)) return "产品与工具";
   return "行业与公司";
 }

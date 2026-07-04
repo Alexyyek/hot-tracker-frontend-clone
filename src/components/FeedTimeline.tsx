@@ -130,10 +130,12 @@ export function FeedMedia({ item }: { item: FeedItem }) {
   const initialUrls = extractFeedImageUrls(item);
   const [urls, setUrls] = useState(initialUrls);
   const [hiddenUrls, setHiddenUrls] = useState<string[]>([]);
+  const [loadedUrls, setLoadedUrls] = useState<string[]>([]);
 
   useEffect(() => {
     setUrls(initialUrls);
     setHiddenUrls([]);
+    setLoadedUrls([]);
 
     if (initialUrls.length > 0) return;
 
@@ -154,7 +156,37 @@ export function FeedMedia({ item }: { item: FeedItem }) {
     };
   }, [item.id]);
 
-  const visibleUrls = urls.filter((url) => !hiddenUrls.includes(url));
+  useEffect(() => {
+    setLoadedUrls([]);
+    if (urls.length === 0) return;
+
+    let cancelled = false;
+    const loaded = new Set<string>();
+    const cleanups = urls.map((url) => {
+      const image = new Image();
+      image.onload = () => {
+        if (cancelled) return;
+        loaded.add(url);
+        setLoadedUrls([...loaded]);
+      };
+      image.onerror = () => {
+        if (cancelled) return;
+        setHiddenUrls((current) => (current.includes(url) ? current : [...current, url]));
+      };
+      image.src = url;
+      return () => {
+        image.onload = null;
+        image.onerror = null;
+      };
+    });
+
+    return () => {
+      cancelled = true;
+      cleanups.forEach((cleanup) => cleanup());
+    };
+  }, [urls]);
+
+  const visibleUrls = urls.filter((url) => loadedUrls.includes(url) && !hiddenUrls.includes(url));
   if (visibleUrls.length === 0) return null;
 
   return (

@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-06-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态」、「京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态」、「美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索"
       ],
       "watchItems": [
         "跟进：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "跟进：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "跟进：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
         "跟进：美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
-        "跟进：ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索"
+        "跟进：ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索",
+        "跟进：How agents are transforming work",
+        "跟进：The OpenRouter MCP Server — OpenRouter Blog"
       ],
       "sections": [
         {
@@ -30,47 +30,37 @@
               "sourceFeedItemIds": [
                 "local_4282817c19d54b589afa83ec"
               ],
-              "confidence": 70
-            },
-            {
-              "title": "京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-              "summary": "AI 基础设施下一阶段的判断.张科指出,AI 工程基建的未来是工... \"它需要芯片厂商、框架开发者、模型团队、云服务商以及广大开...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9b55df31936de7bbecb53414"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-              "summary": "AI 基础设施下一阶段的判断.张科指出,AI 工程基建的未来是工... \"它需要芯片厂商、框架开发者、模型团队、云服务商以及广大开...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_628740e149b3939d5d9f1b64"
-              ],
-              "confidence": 70
+              "confidence": 92
             },
             {
               "title": "ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索",
               "summary": "智能物流定位的时代,或许已不再遥远.#ReaGeo #地理编码 #大模型 #高德 #高德技术END",
               "insightLabel": "关注",
-              "insightText": "关注其数据、训练、推理或评测设计，评估是否能沉淀到轨迹/地址大模型的训练推理架构。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "weixin_fallback_86940d88c4a6bf945e500e4e"
               ],
-              "confidence": 68
+              "confidence": 92
             },
             {
               "title": "思考即回忆：推理如何解锁LLM中的参数化知识",
               "summary": "Google Research研究发现，推理（chain-of-thought）能帮助大语言模型（LLM）回忆简单事实，即使这些事实无需复杂推导。在Gemini-2.5 Flash和Pro以及Qwen3-32B上，启用推理后模型能够回答原本无法直接回答的简单问题，pass@k显示正确事实存在于输出分布中。该现象由两个机制驱动：一是生成的推理token充当计算缓冲，允许模型进行隐藏计算以提取参数化知识；二是推理过程中产生的相关事实起到启动效应（factual priming），帮助模型激活正确答案。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "feed_58164355e4de070cbe9794e0"
               ],
-              "confidence": 69
+              "confidence": 92
+            },
+            {
+              "title": "Thinking to recall: How reasoning unlocks parametric knowledge in LLMs",
+              "summary": "Generative AI",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_9dbd5ff05e90549e6960d7ea"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -81,89 +71,45 @@
               "title": "美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
               "summary": "美团 LongCat 团队推出 VitaBench 2.0，首个真实生活场景下针对长期动态用户建模的智能体评测基准。包含56名拟真用户、819个复杂任务、超2000个动态偏好及66个可执行工具，每位用户平均2093个交互事件，时间跨度平均1580天。同时支持长文本上下文学习和智能体记忆策略评测。测试显示，最强模型 Claude-Opus-4.6 在“开卷”模式下平均分刚过0.5；开启思考模式并不总能提升个性化任务表现；所有模型在需要主动提问的任务上得分断崖式下跌。VitaBench 2.0 已开源。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_2077bc1ebed31a546241d5f8"
               ],
-              "confidence": 69
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "8本醍醐灌顶的AI好书!",
-              "summary": "腾讯云开发者联合机械工业出版社制定了本期 AI 好书清单,并将为参与互动的读者送出 10 本作为粉丝福利!01超级提示词程序员写代...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_02fe036136ca5a48888e919a"
-              ],
-              "confidence": 58
+              "confidence": 92
             },
             {
-              "title": "8本醍醐灌顶的AI好书!",
-              "summary": "腾讯云开发者联合机械工业出版社制定了本期 AI 好书清单,并将为参与互动的读者送出 10 本作为粉丝福利!01超级提示词程序员写代...",
+              "title": "How agents are transforming work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4b4cf760efd683da3453d0dc"
+                "local_ddb1a0643c0c960e01c1712c"
               ],
-              "confidence": 58
+              "confidence": 92
             },
             {
-              "title": "8本醍醐灌顶的AI好书!",
-              "summary": "腾讯云开发者联合机械工业出版社制定了本期 AI 好书清单,并将为参与互动的读者送出 10 本作为粉丝福利!01超级提示词程序员写代...",
+              "title": "The OpenRouter MCP Server — OpenRouter Blog",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Connect your coding agent to OpenRouter's live model catalog, benchmarks, docs, and test inference, all without leaving your editor.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f584cffae85482930af1f0c"
+                "local_23834d7122a2734b69b7a34c"
               ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
-              "summary": "盈透证券（Interactive Brokers）近日与 Grok 集成，用户可在几分钟内免费关联现有账户，无需注册新账户。通过自然语言与 Grok 对话，可完成组合收益分析（如股息与利息预测）、行业/地区/经济事件的风险敞口情景建模、市场趋势研究，并直接生成对冲订单等实时交易指令，实现从数据洞察到执行决策的一体化。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_7326664c2d084440b4c47870"
-              ],
-              "confidence": 55
-            },
-            {
-              "title": "Introducing computer use in Gemini 3.5 Flash",
-              "summary": "来自Google DeepMind的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_a01129ebb18e782ccda5fc7a"
-              ],
-              "confidence": 58
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_4282817c19d54b589afa83ec",
-        "local_9b55df31936de7bbecb53414",
-        "local_628740e149b3939d5d9f1b64",
         "feed_2077bc1ebed31a546241d5f8",
         "weixin_fallback_86940d88c4a6bf945e500e4e",
-        "local_02fe036136ca5a48888e919a",
-        "local_4b4cf760efd683da3453d0dc",
-        "local_0f584cffae85482930af1f0c",
-        "feed_7326664c2d084440b4c47870",
+        "local_ddb1a0643c0c960e01c1712c",
+        "local_23834d7122a2734b69b7a34c",
         "feed_58164355e4de070cbe9794e0",
-        "local_a01129ebb18e782ccda5fc7a"
+        "local_9dbd5ff05e90549e6960d7ea"
       ],
-      "generatedAt": "2026-07-04T00:39:34.783Z",
+      "generatedAt": "2026-07-04T02:14:27.741Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -174,18 +120,17 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-06-25",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态」、「京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态」、「美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索"
       ],
       "watchItems": [
         "跟进：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "跟进：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-        "跟进：京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
         "跟进：美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
-        "跟进：ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索"
+        "跟进：ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索",
+        "跟进：How agents are transforming work"
       ],
       "sections": [
         {
@@ -199,37 +144,17 @@
               "sourceFeedItemIds": [
                 "local_4282817c19d54b589afa83ec"
               ],
-              "confidence": 70
-            },
-            {
-              "title": "京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-              "summary": "AI 基础设施下一阶段的判断.张科指出,AI 工程基建的未来是工... \"它需要芯片厂商、框架开发者、模型团队、云服务商以及广大开...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9b55df31936de7bbecb53414"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "京东 Oxygen xLLM 大模型推理引擎正式捐赠开放原子开源基金会,共建国产 AI Infra 生态",
-              "summary": "AI 基础设施下一阶段的判断.张科指出,AI 工程基建的未来是工... \"它需要芯片厂商、框架开发者、模型团队、云服务商以及广大开...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_628740e149b3939d5d9f1b64"
-              ],
-              "confidence": 70
+              "confidence": 92
             },
             {
               "title": "ReaGeo:从地理编码到空间相关性&mdash;&mdash;大模型如何理解地图地址及地图搜索",
               "summary": "智能物流定位的时代,或许已不再遥远.#ReaGeo #地理编码 #大模型 #高德 #高德技术END",
               "insightLabel": "关注",
-              "insightText": "关注其数据、训练、推理或评测设计，评估是否能沉淀到轨迹/地址大模型的训练推理架构。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "weixin_fallback_86940d88c4a6bf945e500e4e"
               ],
-              "confidence": 68
+              "confidence": 92
             }
           ]
         },
@@ -240,94 +165,38 @@
               "title": "美团 LongCat 开源 VitaBench 2.0：长期动态智能体基准新标杆",
               "summary": "美团 LongCat 团队推出 VitaBench 2.0，首个真实生活场景下针对长期动态用户建模的智能体评测基准。包含56名拟真用户、819个复杂任务、超2000个动态偏好及66个可执行工具，每位用户平均2093个交互事件，时间跨度平均1580天。同时支持长文本上下文学习和智能体记忆策略评测。测试显示，最强模型 Claude-Opus-4.6 在“开卷”模式下平均分刚过0.5；开启思考模式并不总能提升个性化任务表现；所有模型在需要主动提问的任务上得分断崖式下跌。VitaBench 2.0 已开源。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_2077bc1ebed31a546241d5f8"
               ],
-              "confidence": 69
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "8本醍醐灌顶的AI好书!",
-              "summary": "腾讯云开发者联合机械工业出版社制定了本期 AI 好书清单,并将为参与互动的读者送出 10 本作为粉丝福利!01超级提示词程序员写代...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_02fe036136ca5a48888e919a"
-              ],
-              "confidence": 58
+              "confidence": 92
             },
             {
-              "title": "8本醍醐灌顶的AI好书!",
-              "summary": "腾讯云开发者联合机械工业出版社制定了本期 AI 好书清单,并将为参与互动的读者送出 10 本作为粉丝福利!01超级提示词程序员写代...",
+              "title": "How agents are transforming work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4b4cf760efd683da3453d0dc"
+                "local_ddb1a0643c0c960e01c1712c"
               ],
-              "confidence": 58
-            },
-            {
-              "title": "8本醍醐灌顶的AI好书!",
-              "summary": "腾讯云开发者联合机械工业出版社制定了本期 AI 好书清单,并将为参与互动的读者送出 10 本作为粉丝福利!01超级提示词程序员写代...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0f584cffae85482930af1f0c"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "盈透证券（Interactive Brokers）与 Grok 集成：组合分析、情景建模与实时交易指令生成",
-              "summary": "盈透证券（Interactive Brokers）近日与 Grok 集成，用户可在几分钟内免费关联现有账户，无需注册新账户。通过自然语言与 Grok 对话，可完成组合收益分析（如股息与利息预测）、行业/地区/经济事件的风险敞口情景建模、市场趋势研究，并直接生成对冲订单等实时交易指令，实现从数据洞察到执行决策的一体化。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_7326664c2d084440b4c47870"
-              ],
-              "confidence": 55
-            },
-            {
-              "title": "Introducing computer use in Gemini 3.5 Flash",
-              "summary": "来自Google DeepMind的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_a01129ebb18e782ccda5fc7a"
-              ],
-              "confidence": 58
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_4282817c19d54b589afa83ec",
-        "local_9b55df31936de7bbecb53414",
-        "local_628740e149b3939d5d9f1b64",
         "feed_2077bc1ebed31a546241d5f8",
         "weixin_fallback_86940d88c4a6bf945e500e4e",
-        "local_02fe036136ca5a48888e919a",
-        "local_4b4cf760efd683da3453d0dc",
-        "local_0f584cffae85482930af1f0c",
-        "feed_7326664c2d084440b4c47870",
-        "local_a01129ebb18e782ccda5fc7a"
+        "local_ddb1a0643c0c960e01c1712c"
       ],
-      "generatedAt": "2026-07-04T00:39:34.783Z",
+      "generatedAt": "2026-07-04T02:14:27.741Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:39:34.783Z",
+  "generatedAt": "2026-07-04T02:14:27.742Z",
   "collectorName": "local-source-collector"
 }

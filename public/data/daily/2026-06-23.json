@@ -5,32 +5,52 @@
       "topicId": "ai",
       "reportDate": "2026-06-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师」、「\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「How Businesses Are Building Specialized AI They Can Trust」、「How Businesses Are Building Specialized AI They Can Trust」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping build shared standards for advanced AI"
       ],
       "watchItems": [
+        "跟进：How Businesses Are Building Specialized AI They Can Trust",
+        "跟进：How Businesses Are Building Specialized AI They Can Trust",
+        "跟进：Helping build shared standards for advanced AI",
         "跟进：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-        "跟进：京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
-        "跟进：Qwen-AgentWorld：面向通用智能体的语言世界模型"
+        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "How Businesses Are Building Specialized AI They Can Trust",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Agent Toolkit — comprising models, tools, skills and a secure runtime — provides an open, modular foundation for building safer, faster, lower-cost digital AI coworkers that enterprises and developers can customi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0d58434e3b2b1bc4d4a4a444"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "How Businesses Are Building Specialized AI They Can Trust",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Agent Toolkit — comprising models, tools, skills and a secure runtime — provides an open, modular foundation for building safer, faster, lower-cost digital AI coworkers that enterprises and developers can customi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_06a303c445892d842a6fcbf4"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
               "summary": "友松实验室发布国内首个高考志愿AI能力测评报告，测试千问高考志愿填报Agent四大模块。与53位平均从业4.6年的人类咨询师对照，千问表现更稳定精确：44道事实题全对；模拟10个志愿中6个可录取；100场匿名对比中专家58次倾向千问回答。使用千问辅助后，人类咨询师正确率提升，耗时减少约27%。该Agent基于千问高考志愿大模型和夸克8年高考数据，覆盖约3000所院校、2000多个专业。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_ab742b7e45856a72c307ceb0"
               ],
-              "confidence": 60
+              "confidence": 92
             },
             {
               "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
@@ -40,49 +60,68 @@
               "sourceFeedItemIds": [
                 "local_57aa765df79fa42a92fc0c86"
               ],
-              "confidence": 58
-            },
-            {
-              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-              "summary": "他用 Rust 重写了 Python 的半壁江山,却在智能体时代感到窒息.编译 | 王启隆出品丨AI 科技大本营(ID:rgznai100)刚被 OpenAI 用数...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4ae51aa21e0badb57a87f834"
-              ],
-              "confidence": 58
+              "confidence": 92
             },
             {
               "title": "京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
               "summary": "京东近日开源全球首个全栈交互模型JoyAI-VL-Interaction，获vLLM-Omni原生支持。该模型能持续观察视频流、主动判断关键事件并实时响应，支持将复杂任务委托后台Agent处理。在58个真人盲评中，对比豆包视频通话助手胜率77.6%，对比Gemini视频通话助手胜率87.9%，监控预警场景达100%胜率。开源内容包括模型权重、交互数据集、训练方案及完整可部署系统，支持摄像头、直播流等视频输入及语音交互、长期记忆、vLLM部署，适用于安防监控、老人看护、直播讲解等实时场景。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_99cdff0303ee2c28effb2dfb"
               ],
-              "confidence": 73
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Helping build shared standards for advanced AI",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_43111bb46576d332c022d077"
+              ],
+              "confidence": 92
             },
             {
-              "title": "Qwen-AgentWorld：面向通用智能体的语言世界模型",
-              "summary": "Qwen 团队发布 Qwen-AgentWorld，一个以环境建模为训练目标的原生语言世界模型，在单个模型中模拟 MCP、Search、Terminal、SWE 及 GUI 域（Web、OS、Android）共七个域。模型使用超 1000 万条真实交互轨迹训练，在 AgentWorldBench 上以 Qwen-AgentWorld-397B-A17B 版本达最高模拟质量，超越 GPT-5.4、Claude Opus 4.8 和 Gemini 3.1 Pro。同时发布评测基准 AgentWorldBench。该模型可作为解耦环境模拟器用于智能体 RL …",
+              "title": "The AI Governance Checklist That Maps to Your Stack — OpenRouter Blog",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：If you want LLM governance your stack can prove, start at the routing layer. This checklist maps spend, access, and audit controls to your architecture.",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "feed_a178d9873b517482dd6d5bf3"
+                "local_31964963d5726d3e04d9379b"
               ],
-              "confidence": 81
+              "confidence": 78
+            },
+            {
+              "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We’re sharing the technical and operational challenges whil…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a1e47689c9531e341ab932e8"
+              ],
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_0d58434e3b2b1bc4d4a4a444",
+        "local_06a303c445892d842a6fcbf4",
+        "local_43111bb46576d332c022d077",
         "feed_ab742b7e45856a72c307ceb0",
         "local_57aa765df79fa42a92fc0c86",
-        "local_4ae51aa21e0badb57a87f834",
         "feed_99cdff0303ee2c28effb2dfb",
-        "feed_a178d9873b517482dd6d5bf3"
+        "feed_a178d9873b517482dd6d5bf3",
+        "local_31964963d5726d3e04d9379b",
+        "local_a1e47689c9531e341ab932e8"
       ],
-      "generatedAt": "2026-07-04T00:39:34.874Z",
+      "generatedAt": "2026-07-04T02:14:27.795Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -93,32 +132,52 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-06-23",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师」、「\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「How Businesses Are Building Specialized AI They Can Trust」、「How Businesses Are Building Specialized AI They Can Trust」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Businesses Are Building Specialized AI They Can Trust",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping build shared standards for advanced AI"
       ],
       "watchItems": [
+        "跟进：How Businesses Are Building Specialized AI They Can Trust",
+        "跟进：How Businesses Are Building Specialized AI They Can Trust",
+        "跟进：Helping build shared standards for advanced AI",
         "跟进：国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
-        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-        "跟进：京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
-        "跟进：Qwen-AgentWorld：面向通用智能体的语言世界模型"
+        "跟进：\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "How Businesses Are Building Specialized AI They Can Trust",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Agent Toolkit — comprising models, tools, skills and a secure runtime — provides an open, modular foundation for building safer, faster, lower-cost digital AI coworkers that enterprises and developers can customi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0d58434e3b2b1bc4d4a4a444"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "How Businesses Are Building Specialized AI They Can Trust",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Agent Toolkit — comprising models, tools, skills and a secure runtime — provides an open, modular foundation for building safer, faster, lower-cost digital AI coworkers that enterprises and developers can customi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_06a303c445892d842a6fcbf4"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "国内首个高考志愿AI测评出炉，千问多项表现超过资深咨询师",
               "summary": "友松实验室发布国内首个高考志愿AI能力测评报告，测试千问高考志愿填报Agent四大模块。与53位平均从业4.6年的人类咨询师对照，千问表现更稳定精确：44道事实题全对；模拟10个志愿中6个可录取；100场匿名对比中专家58次倾向千问回答。使用千问辅助后，人类咨询师正确率提升，耗时减少约27%。该Agent基于千问高考志愿大模型和夸克8年高考数据，覆盖约3000所院校、2000多个专业。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_ab742b7e45856a72c307ceb0"
               ],
-              "confidence": 60
+              "confidence": 92
             },
             {
               "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
@@ -128,55 +187,63 @@
               "sourceFeedItemIds": [
                 "local_57aa765df79fa42a92fc0c86"
               ],
-              "confidence": 58
-            },
-            {
-              "title": "\"AI优化快10倍,但手写其实能快100倍!\"Python 顶流工具作者:AI垃圾PR正在摧毁开源社区",
-              "summary": "他用 Rust 重写了 Python 的半壁江山,却在智能体时代感到窒息.编译 | 王启隆出品丨AI 科技大本营(ID:rgznai100)刚被 OpenAI 用数...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4ae51aa21e0badb57a87f834"
-              ],
-              "confidence": 58
+              "confidence": 92
             },
             {
               "title": "京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
               "summary": "京东近日开源全球首个全栈交互模型JoyAI-VL-Interaction，获vLLM-Omni原生支持。该模型能持续观察视频流、主动判断关键事件并实时响应，支持将复杂任务委托后台Agent处理。在58个真人盲评中，对比豆包视频通话助手胜率77.6%，对比Gemini视频通话助手胜率87.9%，监控预警场景达100%胜率。开源内容包括模型权重、交互数据集、训练方案及完整可部署系统，支持摄像头、直播流等视频输入及语音交互、长期记忆、vLLM部署，适用于安防监控、老人看护、直播讲解等实时场景。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_99cdff0303ee2c28effb2dfb"
               ],
-              "confidence": 73
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Helping build shared standards for advanced AI",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_43111bb46576d332c022d077"
+              ],
+              "confidence": 92
             },
             {
-              "title": "Qwen-AgentWorld：面向通用智能体的语言世界模型",
-              "summary": "Qwen 团队发布 Qwen-AgentWorld，一个以环境建模为训练目标的原生语言世界模型，在单个模型中模拟 MCP、Search、Terminal、SWE 及 GUI 域（Web、OS、Android）共七个域。模型使用超 1000 万条真实交互轨迹训练，在 AgentWorldBench 上以 Qwen-AgentWorld-397B-A17B 版本达最高模拟质量，超越 GPT-5.4、Claude Opus 4.8 和 Gemini 3.1 Pro。同时发布评测基准 AgentWorldBench。该模型可作为解耦环境模拟器用于智能体 RL …",
+              "title": "Adopting AV1 for Real-Time Communication (RTC) at Scale",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Adopting AV1 for real-time communication at Meta has been a multi-year effort spanning codec selection, device eligibility, rate control, and error resilience. We’re sharing the technical and operational challenges whil…",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "feed_a178d9873b517482dd6d5bf3"
+                "local_a1e47689c9531e341ab932e8"
               ],
-              "confidence": 81
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_0d58434e3b2b1bc4d4a4a444",
+        "local_06a303c445892d842a6fcbf4",
+        "local_43111bb46576d332c022d077",
         "feed_ab742b7e45856a72c307ceb0",
         "local_57aa765df79fa42a92fc0c86",
-        "local_4ae51aa21e0badb57a87f834",
         "feed_99cdff0303ee2c28effb2dfb",
-        "feed_a178d9873b517482dd6d5bf3"
+        "feed_a178d9873b517482dd6d5bf3",
+        "local_a1e47689c9531e341ab932e8"
       ],
-      "generatedAt": "2026-07-04T00:39:34.874Z",
+      "generatedAt": "2026-07-04T02:14:27.795Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:39:34.876Z",
+  "generatedAt": "2026-07-04T02:14:27.796Z",
   "collectorName": "local-source-collector"
 }

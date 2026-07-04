@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { sourceIconUrl, sourceKindClass, sourceKindIconText } from "../data";
 
 interface SourceIconProps {
@@ -20,6 +20,10 @@ export function SourceIcon({
 }: SourceIconProps) {
   const iconUrl = sourceIconUrl(kind, sourceAvatarUrl, sourceHostname, sourceIconHostname);
   const [imageAvailable, setImageAvailable] = useState(Boolean(iconUrl));
+
+  useEffect(() => {
+    setImageAvailable(Boolean(iconUrl));
+  }, [iconUrl]);
 
   return (
     <span className={`${className} ${sourceKindClass(kind)} ${imageAvailable ? "has-source-image" : ""}`}>

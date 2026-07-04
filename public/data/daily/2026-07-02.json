@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「NVIDIA BioNeMo accelerates Anthropic Claude Science」、「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「NVIDIA BioNeMo accelerates Anthropic Claude Science」、「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA BioNeMo accelerates Anthropic Claude Science",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊"
       ],
       "watchItems": [
         "跟进：NVIDIA BioNeMo accelerates Anthropic Claude Science",
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "跟进：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
         "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "跟进：表示分布匹配（RDM）用于一步视觉生成"
+        "跟进：表示分布匹配（RDM）用于一步视觉生成",
+        "跟进：Program-as-Weights：一种面向模糊函数的编程范式"
       ],
       "sections": [
         {
@@ -24,78 +24,43 @@
           "items": [
             {
               "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science",
-              "summary": "Anthropic Claude Science now integrates the NVIDIA BioNeMo Agent Toolkit to accelerate computational life sciences research. Anthropic has launched the public beta of Claude Science, an AI workbench built for scientific research. The platform enables scientists to converse direc…",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic Claude Science now integrates the NVIDIA BioNeMo Agent Toolkit to accelerate computational life sciences research. Anthropic has launched the public beta of Claude Science, an AI workbench built for scientific…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_b3ac2e1666f02f48e31a13b8"
               ],
-              "confidence": 70
+              "confidence": 92
             },
             {
               "title": "千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
               "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结“多快好省”方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出“情商”是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调“低功耗…",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_9969dac1e51342af20fcb409"
               ],
-              "confidence": 62
+              "confidence": 92
             },
             {
               "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
               "summary": "昆仑万维天工3.2发布Skywork Tags，将AI智能体以团队成员身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具。团队可在原有工作群中@Skywork参与讨论，无需切换窗口或迁移数据。共享版Agent持续吸收多样上下文后表现反超精心调教的个人版，团队最终完全改用共享版。Skywork Tags不要求改变工作方式，让AI积累团队上下文并越用越强。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_cc4a7b928f890f67d9c804b0"
               ],
-              "confidence": 67
+              "confidence": 92
             },
             {
               "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-              "summary": "Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_57d6854add38887c31b2b1c8"
               ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
-              "summary": "NVIDIA is partnering with AI clouds to deploy large‑scale, multi‑tenant AI factories, aligning economics through a revenue-sharing and credit-support model.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_353f4b03d56a233b430c47e4"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "The latest AI news we announced in June 2026",
-              "summary": "Here are Google’s latest AI updates from June 2026.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_985100ab374cb790e6e9d499"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-              "summary": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_e2443234b30cee5dfb256fc3"
-              ],
-              "confidence": 58
+              "confidence": 92
             }
           ]
         },
@@ -106,46 +71,31 @@
               "title": "表示分布匹配（RDM）用于一步视觉生成",
               "summary": "表示分布匹配（RDM）通过匹配冻结预训练编码器下的生成与参考特征分布来训练一步图像生成器。三个发现：经典MMD正确估计后成为可扩展目标；生成批次大小最优超过2048；单一表示可被欺骗，需匹配平衡编码器组合并采用独立于训练损失的SW_r14评估。改进的iRDM在ImageNet上以SW_r14 1.30达一步生成SOTA，PickScore在71.2%样本上偏好iRDM。该方法将四步FLUX.2后训练为一步生成器，在GenEval（0.826对0.794）和PickScore（22.76对22.58）上超越原版，仅需90 H200 GPU小时。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "feed_e07918fe1ea81e881e92a486"
               ],
-              "confidence": 74
+              "confidence": 92
             },
             {
               "title": "Program-as-Weights：一种面向模糊函数的编程范式",
               "summary": "Program-as-Weights (PAW) 提出模糊函数编程范式，将自然语言描述的函数编译为紧凑、可本地执行的神经制品。PAW 使用在 10M 示例数据集 FuzzyBench 上训练的 4B 编译器，为冻结的轻量级解释器输出参数高效适配器。0.6B 的 Qwen3 解释器执行 PAW 程序性能匹敌直接提示 Qwen3-32B，推理内存仅约五十分之一，在 MacBook M3 上达 30 tokens/s。该方法将基础模型从每次输入的求解器重新定义为工具构建器，一次函数定义后生成的制品可离线廉价复用。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "feed_1915bcf07c3fe9b51caa1a20"
               ],
-              "confidence": 74
+              "confidence": 90
             },
             {
               "title": "Meta&#8217;s AI Storage Blueprint at Scale",
-              "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks. Reliable and fast access to storage is important to both t…",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_49ce46ed70c8c4403d00114e"
               ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
-              "summary": "Google Cloud Workbench Notebooks 扩展正式上线，开发者可在 VS Code 中直接连接可扩展的云端 Jupyter 环境，无需切换上下文即可利用高性能 Google Cloud 基础设施完成机器学习全流程。该扩展已完全开源，可在 GitHub 和 VS Code Marketplace 获取。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_42fb74c2ac07df4621f82130"
-              ],
-              "confidence": 68
+              "confidence": 82
             }
           ]
         }
@@ -153,18 +103,13 @@
       "referencedFeedItemIds": [
         "local_b3ac2e1666f02f48e31a13b8",
         "feed_9969dac1e51342af20fcb409",
-        "local_353f4b03d56a233b430c47e4",
         "feed_cc4a7b928f890f67d9c804b0",
         "feed_e07918fe1ea81e881e92a486",
         "feed_1915bcf07c3fe9b51caa1a20",
-        "local_985100ab374cb790e6e9d499",
-        "feed_42fb74c2ac07df4621f82130",
         "local_57d6854add38887c31b2b1c8",
-        "local_49ce46ed70c8c4403d00114e",
-        "feed_3673942a8c22d9ffb3a1ab01",
-        "local_e2443234b30cee5dfb256fc3"
+        "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-04T00:39:34.455Z",
+      "generatedAt": "2026-07-04T02:14:27.559Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -175,18 +120,17 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-02",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」、「NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」、「昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Mastering Agentic Techniques: AI Agent Reinforcement Learning"
       ],
       "watchItems": [
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "跟进：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
         "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "跟进：The latest AI news we announced in June 2026",
-        "跟进：Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境"
+        "跟进：Mastering Agentic Techniques: AI Agent Reinforcement Learning",
+        "跟进：Meta&#8217;s AI Storage Blueprint at Scale"
       ],
       "sections": [
         {
@@ -196,81 +140,31 @@
               "title": "千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
               "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结“多快好省”方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出“情商”是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调“低功耗…",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_9969dac1e51342af20fcb409"
               ],
-              "confidence": 62
+              "confidence": 92
             },
             {
               "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
               "summary": "昆仑万维天工3.2发布Skywork Tags，将AI智能体以团队成员身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具。团队可在原有工作群中@Skywork参与讨论，无需切换窗口或迁移数据。共享版Agent持续吸收多样上下文后表现反超精心调教的个人版，团队最终完全改用共享版。Skywork Tags不要求改变工作方式，让AI积累团队上下文并越用越强。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_cc4a7b928f890f67d9c804b0"
               ],
-              "confidence": 67
+              "confidence": 92
             },
             {
               "title": "Mastering Agentic Techniques: AI Agent Reinforcement Learning",
-              "summary": "Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Reinforcement learning (RL) is central to aligning language models, from reinforcement learning with human feedback (RLHF) within AI assistants to newer...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_57d6854add38887c31b2b1c8"
               ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
-              "summary": "NVIDIA is partnering with AI clouds to deploy large‑scale, multi‑tenant AI factories, aligning economics through a revenue-sharing and credit-support model.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_353f4b03d56a233b430c47e4"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "The latest AI news we announced in June 2026",
-              "summary": "Here are Google’s latest AI updates from June 2026.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_985100ab374cb790e6e9d499"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-              "summary": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_e2443234b30cee5dfb256fc3"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
-              "summary": "Google Cloud Workbench Notebooks 扩展正式上线，开发者可在 VS Code 中直接连接可扩展的云端 Jupyter 环境，无需切换上下文即可利用高性能 Google Cloud 基础设施完成机器学习全流程。该扩展已完全开源，可在 GitHub 和 VS Code Marketplace 获取。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_42fb74c2ac07df4621f82130"
-              ],
-              "confidence": 68
+              "confidence": 92
             }
           ]
         },
@@ -279,35 +173,30 @@
           "items": [
             {
               "title": "Meta&#8217;s AI Storage Blueprint at Scale",
-              "summary": "Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks. Reliable and fast access to storage is important to both t…",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_49ce46ed70c8c4403d00114e"
               ],
-              "confidence": 70
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "feed_9969dac1e51342af20fcb409",
-        "local_353f4b03d56a233b430c47e4",
         "feed_cc4a7b928f890f67d9c804b0",
-        "local_985100ab374cb790e6e9d499",
-        "feed_42fb74c2ac07df4621f82130",
         "local_57d6854add38887c31b2b1c8",
-        "local_49ce46ed70c8c4403d00114e",
-        "feed_3673942a8c22d9ffb3a1ab01",
-        "local_e2443234b30cee5dfb256fc3"
+        "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-04T00:39:34.455Z",
+      "generatedAt": "2026-07-04T02:14:27.559Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:39:34.455Z",
+  "generatedAt": "2026-07-04T02:14:27.559Z",
   "collectorName": "local-source-collector"
 }

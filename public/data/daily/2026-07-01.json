@@ -5,107 +5,62 @@
       "topicId": "ai",
       "reportDate": "2026-07-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Deploying retail AI to scale personalisation and customer insight」、「Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Bank of England reviews AI rules for agentic AI in finance」、「2026 BAIR Graduate Showcase」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deploying retail AI to scale personalisation and customer insight",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：2026 BAIR Graduate Showcase"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bank of England reviews AI rules for agentic AI in finance",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：2026 BAIR Graduate Showcase",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：实测美团LongCat-2.0，国产芯片长出来的万亿大模型"
       ],
       "watchItems": [
-        "跟进：Deploying retail AI to scale personalisation and customer insight",
-        "跟进：Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots",
+        "跟进：Bank of England reviews AI rules for agentic AI in finance",
         "跟进：2026 BAIR Graduate Showcase",
         "跟进：实测美团LongCat-2.0，国产芯片长出来的万亿大模型",
-        "跟进：重新部署 Claude Fable 5"
+        "跟进：美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+        "跟进：Anthropic在Claude Code中植入隐写术代码识别中国用户"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Deploying retail AI to scale personalisation and customer insight",
-              "summary": "Optimising retail AI infrastructure drives the successful deployment of personalisation systems and real-time customer insight. Leaders are replacing static customer interaction patterns with data pipelines capable of modifying the user environment during a live session. Static …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_5dbff0f11b4738d3c8e35156"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots",
-              "summary": "Japan&#8217;s AI robots plan just went from a talking point to a formal national strategy. This week, the government confirmed the numbers everyone&#8217;s been quoting: 10 million AI-powered robots deployed across 18 industries by 2040, backed by public funding of up to one tri…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_115f6e75ad28cf029e03785c"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "2026 BAIR Graduate Showcase",
-              "summary": "Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed the frontiers of artificial intelligence and machine learni…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ec245183448135c8f045e724"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-              "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_17b74f0575abf419a7a1345d"
-              ],
-              "confidence": 84
-            },
-            {
-              "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-              "summary": "来自Hugging Face的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_5fe301e3e4dc0f7be2b0bcd2"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Bank of England reviews AI rules for agentic AI in finance",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Bank of England is reviewing whether existing rules can cover the use of agentic AI in finance, including payments, trading, cybersecurity, and operations. Deputy Governor Sarah Breeden said existing regulatory fram…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1d756245eddd2f37e6d8b5cb"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "实测美团LongCat-2.0，国产芯片长出来的万亿大模型",
               "summary": "美团发布LongCat-2.0，总参数1.6万亿、每个token仅激活约480亿参数的MoE模型，从预训练到大规模部署全程运行在5万张国产算力芯片上，训练消耗超35万亿tokens，无回滚、无不可恢复loss突刺。Agent场景表现突出：在Terminal-Bench 2.1和SWE-bench Pro编程任务上追平Gemini 3.1 Pro，FORTE通用Agent任务与Claude Opus 4.6持平。最大输出128K，最高提供1M上下文，采用LSA稀疏注意力机制和N-gram Embedding优化长上下文与工具调用。已开放API接入，支持O…",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_3400d2beca4c1443d691622f"
               ],
-              "confidence": 71
+              "confidence": 92
             },
             {
               "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
               "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_b058cc789bef59dfea72ad5e"
               ],
-              "confidence": 82
+              "confidence": 92
             },
             {
               "title": "xAI 发布 Voice Agent Builder 测试版",
               "summary": "xAI 推出 Voice Agent Builder 测试版，这是一个基于 Grok Voice 的无代码平台，可在两分钟内创建生产级语音智能体。它集成电话、知识检索、工具、MCP、Guardrails 及可观测性，支持连接现有 SIP 号码、API 和 WebSocket，采用语音到语音路径。在 τ-voice Bench 上，Grok Voice Think Fast 1.0 得分 67.3%，领先 Gemini 3.1 Flash Live（43.8%）和 GPT Realtime 1.5（35.3%）。定价为每分钟音频 0.05 美元、电话费 …",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_4a8d06192313a23ec9baf260"
               ],
-              "confidence": 77
+              "confidence": 92
             },
             {
               "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -115,17 +70,42 @@
               "sourceFeedItemIds": [
                 "local_a71373ab8fe6487673d854a0"
               ],
-              "confidence": 70
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "2026 BAIR Graduate Showcase",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Congratulations to the Berkeley Artificial Intelligence Research (BAIR) Lab class of 2026! This year, BAIR celebrates another remarkable group of Ph.D. graduates whose curiosity, creativity, and perseverance have pushed…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ec245183448135c8f045e724"
+              ],
+              "confidence": 92
             },
             {
-              "title": "Claude Sonnet 5 发布",
-              "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力…",
+              "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+              "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "feed_33168354a9a5144216978bcf"
+                "feed_17b74f0575abf419a7a1345d"
               ],
-              "confidence": 81
+              "confidence": 92
+            },
+            {
+              "title": "10 Years of Meta’s Commitment to Python",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：This year marks Meta&#8217;s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_ee7e05e5186330fa321da591"
+              ],
+              "confidence": 74
             }
           ]
         },
@@ -133,61 +113,34 @@
           "title": "产品与工具",
           "items": [
             {
-              "title": "重新部署 Claude Fable 5",
-              "summary": "美国政府6月12日对Claude Fable 5和Mythos 5实施出口管制，Anthropic暂停其所有用户访问。6月30日管制解除。7月1日起Fable 5在全球平台重新上线，Pro、Max、Team及部分Enterprise计划用户在7月7日前可享每周50%额度，之后按点数计费。Mythos 5已恢复部分美国组织访问。此前Amazon研究人员发现绕过Fable 5安全措施的方法，Anthropic训练新分类器，将该技术阻挡率提升至99%以上，但可能增加良性请求误报。Anthropic正与Amazon、Microsoft、Google等合作开发行…",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_30ec8a36054eee74cde8c0a0"
-              ],
-              "confidence": 71
-            },
-            {
-              "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-              "summary": "Google DeepMind 推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），为 Nano Banana 系列速度最快、成本最低的图像模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本 $0.034，已上线 Google AI Studio、Gemini API 及消费者产品（AI Mode in Search、Gemini app 等）。同时推出 Gemini Omni Flash（gemini-omni-flash-preview），支持高画质视频生成与对话式编辑，视频输出定价 $0.…",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_0d83140344165c85f36e49a6"
-              ],
-              "confidence": 70
-            },
-            {
               "title": "Optimizing a Neural Reconstruction Pipeline Using NVIDIA Nsight Developer Tools",
-              "summary": "NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
                 "local_fb05d5344701c4dd73b72e27"
               ],
-              "confidence": 58
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_5dbff0f11b4738d3c8e35156",
-        "local_115f6e75ad28cf029e03785c",
+        "local_1d756245eddd2f37e6d8b5cb",
         "local_ec245183448135c8f045e724",
         "feed_3400d2beca4c1443d691622f",
-        "feed_30ec8a36054eee74cde8c0a0",
         "feed_b058cc789bef59dfea72ad5e",
         "feed_17b74f0575abf419a7a1345d",
-        "local_5fe301e3e4dc0f7be2b0bcd2",
         "feed_4a8d06192313a23ec9baf260",
         "local_a71373ab8fe6487673d854a0",
         "feed_33168354a9a5144216978bcf",
-        "local_d62299dba9f059df53925d1f",
         "feed_ec689cd44b2e63903f3c42c8",
-        "local_50ab60f69087f15f50495386",
         "local_896c3354fd2c30f963762e4d",
         "local_d6872582323b815bde7cdfdc",
-        "local_615d7337c2cf313af0854263",
-        "feed_0d83140344165c85f36e49a6",
         "local_ee7e05e5186330fa321da591",
         "local_fb05d5344701c4dd73b72e27"
       ],
-      "generatedAt": "2026-07-04T00:39:34.502Z",
+      "generatedAt": "2026-07-04T02:14:27.584Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -198,55 +151,20 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-01",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「重新部署 Claude Fable 5」、「美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型」、「Anthropic在Claude Code中植入隐写术代码识别中国用户」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：重新部署 Claude Fable 5",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic在Claude Code中植入隐写术代码识别中国用户"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic在Claude Code中植入隐写术代码识别中国用户",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：xAI 发布 Voice Agent Builder 测试版"
       ],
       "watchItems": [
-        "跟进：重新部署 Claude Fable 5",
         "跟进：美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
         "跟进：Anthropic在Claude Code中植入隐写术代码识别中国用户",
         "跟进：xAI 发布 Voice Agent Builder 测试版",
-        "跟进：Claude Sonnet 5 发布"
+        "跟进：Claude Sonnet 5 发布",
+        "跟进：ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排"
       ],
       "sections": [
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "重新部署 Claude Fable 5",
-              "summary": "美国政府6月12日对Claude Fable 5和Mythos 5实施出口管制，Anthropic暂停其所有用户访问。6月30日管制解除。7月1日起Fable 5在全球平台重新上线，Pro、Max、Team及部分Enterprise计划用户在7月7日前可享每周50%额度，之后按点数计费。Mythos 5已恢复部分美国组织访问。此前Amazon研究人员发现绕过Fable 5安全措施的方法，Anthropic训练新分类器，将该技术阻挡率提升至99%以上，但可能增加良性请求误报。Anthropic正与Amazon、Microsoft、Google等合作开发行…",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_30ec8a36054eee74cde8c0a0"
-              ],
-              "confidence": 71
-            },
-            {
-              "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-              "summary": "Google DeepMind 推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），为 Nano Banana 系列速度最快、成本最低的图像模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本 $0.034，已上线 Google AI Studio、Gemini API 及消费者产品（AI Mode in Search、Gemini app 等）。同时推出 Gemini Omni Flash（gemini-omni-flash-preview），支持高画质视频生成与对话式编辑，视频输出定价 $0.…",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_0d83140344165c85f36e49a6"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Optimizing a Neural Reconstruction Pipeline Using NVIDIA Nsight Developer Tools",
-              "summary": "NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_fb05d5344701c4dd73b72e27"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -254,51 +172,51 @@
               "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
               "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_b058cc789bef59dfea72ad5e"
               ],
-              "confidence": 82
+              "confidence": 92
             },
             {
               "title": "xAI 发布 Voice Agent Builder 测试版",
               "summary": "xAI 推出 Voice Agent Builder 测试版，这是一个基于 Grok Voice 的无代码平台，可在两分钟内创建生产级语音智能体。它集成电话、知识检索、工具、MCP、Guardrails 及可观测性，支持连接现有 SIP 号码、API 和 WebSocket，采用语音到语音路径。在 τ-voice Bench 上，Grok Voice Think Fast 1.0 得分 67.3%，领先 Gemini 3.1 Flash Live（43.8%）和 GPT Realtime 1.5（35.3%）。定价为每分钟音频 0.05 美元、电话费 …",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_4a8d06192313a23ec9baf260"
               ],
-              "confidence": 77
+              "confidence": 92
             },
             {
               "title": "Claude Sonnet 5 发布",
               "summary": "Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力…",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_33168354a9a5144216978bcf"
               ],
-              "confidence": 81
+              "confidence": 92
             },
             {
               "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
               "summary": "Agent Development Kit (ADK) for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_ec689cd44b2e63903f3c42c8"
               ],
-              "confidence": 67
+              "confidence": 92
             },
             {
               "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
-              "summary": "Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows.",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic’s Claude Science, an AI workbench for science research, lets scientists use agents to build workflows harnessing NVIDIA BioNeMo models, libraries and accelerated workflows.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_896c3354fd2c30f963762e4d"
               ],
-              "confidence": 70
+              "confidence": 92
             }
           ]
         },
@@ -309,67 +227,58 @@
               "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
               "summary": "Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "feed_17b74f0575abf419a7a1345d"
               ],
-              "confidence": 84
-            },
-            {
-              "title": "Designing GPU-Accelerated Query Engines with NVIDIA GQE",
-              "summary": "GPU-accelerated query engines are often constrained by memory and I/O bandwidth. NVIDIA hardware advances—including high bandwidth memory (HBM), NVIDIA...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d62299dba9f059df53925d1f"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-              "summary": "来自Google DeepMind的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_615d7337c2cf313af0854263"
-              ],
-              "confidence": 58
+              "confidence": 92
             },
             {
               "title": "10 Years of Meta’s Commitment to Python",
-              "summary": "This year marks Meta&#8217;s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming language and the community that sustains it. Python is one o…",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：This year marks Meta&#8217;s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming …",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_ee7e05e5186330fa321da591"
               ],
-              "confidence": 58
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "Optimizing a Neural Reconstruction Pipeline Using NVIDIA Nsight Developer Tools",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Omniverse NuRec is a neural reconstruction pipeline for building high-fidelity 3D representations of real-world environments from multisensor data such...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_fb05d5344701c4dd73b72e27"
+              ],
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "feed_30ec8a36054eee74cde8c0a0",
         "feed_b058cc789bef59dfea72ad5e",
         "feed_17b74f0575abf419a7a1345d",
         "feed_4a8d06192313a23ec9baf260",
         "feed_33168354a9a5144216978bcf",
-        "local_d62299dba9f059df53925d1f",
         "feed_ec689cd44b2e63903f3c42c8",
         "local_896c3354fd2c30f963762e4d",
         "local_d6872582323b815bde7cdfdc",
-        "local_615d7337c2cf313af0854263",
-        "feed_0d83140344165c85f36e49a6",
         "local_ee7e05e5186330fa321da591",
         "local_fb05d5344701c4dd73b72e27"
       ],
-      "generatedAt": "2026-07-04T00:39:34.502Z",
+      "generatedAt": "2026-07-04T02:14:27.584Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:39:34.503Z",
+  "generatedAt": "2026-07-04T02:14:27.585Z",
   "collectorName": "local-source-collector"
 }

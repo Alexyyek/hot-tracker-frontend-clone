@@ -5,63 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-06-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速」、「Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「How to Govern Autonomous Agents in Enterprise AI Factories」、「HP accelerates enterprise workflows with OpenAI Frontier」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Govern Autonomous Agents in Enterprise AI Factories",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HP accelerates enterprise workflows with OpenAI Frontier",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速"
       ],
       "watchItems": [
+        "跟进：How to Govern Autonomous Agents in Enterprise AI Factories",
+        "跟进：HP accelerates enterprise workflows with OpenAI Frontier",
         "跟进：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "跟进：Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
         "跟进：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-        "跟进：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-        "跟进：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理"
+        "跟进：Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_928deaa1de6913baa9cdcc9a"
-              ],
-              "confidence": 72
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-              "summary": "NVIDIA Nemotron open models help Palantir advance US technology leadership with mission-specific sovereign AI for government agencies and critical infrastructure operators.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0f770090e15b080f7390612c"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Mapping Europe’s AI Workforce Opportunity",
-              "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_4dee91bf49c25dc23928d6fb"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "How to Govern Autonomous Agents in Enterprise AI Factories",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents are quickly moving beyond chat. They inspect code, run tests, read documents, search knowledge bases, query internal systems, and operate for hours on...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_00b32ce442fb9cb3a4ccb12a"
+              ],
+              "confidence": 86
+            },
             {
               "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
               "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
@@ -70,51 +40,59 @@
               "sourceFeedItemIds": [
                 "local_6566e7649db1029b5407c6cb"
               ],
-              "confidence": 70
-            },
-            {
-              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_104da5012027c0cbc9d12ba6"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3265c6154546fe64a2bb6256"
-              ],
-              "confidence": 70
+              "confidence": 92
             },
             {
               "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
               "summary": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如 JetBrains、Zed、Krea、Photoroom 则训练高度专业的小模型。NVIDIA 发布 Nemotron-3-Ultra-550B-A55B-BF16，采用 LatentMoE 架构…",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_53cbcf30e6f2fe9dc67a6244"
               ],
-              "confidence": 60
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "HP accelerates enterprise workflows with OpenAI Frontier",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：HP has scaled its OpenAI Frontier integration across global operations to optimise enterprise workflows and accelerate output. The hardware manufacturer initiated testing of the platform in February 2026. Early pilot pr…",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_4a7c28a6696ef051fcdfbb9d"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "feed_928deaa1de6913baa9cdcc9a"
+              ],
+              "confidence": 74
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_00b32ce442fb9cb3a4ccb12a",
+        "local_4a7c28a6696ef051fcdfbb9d",
         "feed_928deaa1de6913baa9cdcc9a",
-        "local_0f770090e15b080f7390612c",
         "local_6566e7649db1029b5407c6cb",
-        "local_104da5012027c0cbc9d12ba6",
-        "local_3265c6154546fe64a2bb6256",
-        "local_4dee91bf49c25dc23928d6fb",
         "feed_53cbcf30e6f2fe9dc67a6244"
       ],
-      "generatedAt": "2026-07-04T00:39:34.596Z",
+      "generatedAt": "2026-07-04T02:14:27.635Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -125,63 +103,31 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-06-29",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速」、「Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「How to Govern Autonomous Agents in Enterprise AI Factories」、「小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Govern Autonomous Agents in Enterprise AI Factories",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理"
       ],
       "watchItems": [
+        "跟进：How to Govern Autonomous Agents in Enterprise AI Factories",
         "跟进：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "跟进：Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-        "跟进：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-        "跟进：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
         "跟进：从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_928deaa1de6913baa9cdcc9a"
-              ],
-              "confidence": 72
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-              "summary": "NVIDIA Nemotron open models help Palantir advance US technology leadership with mission-specific sovereign AI for government agencies and critical infrastructure operators.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0f770090e15b080f7390612c"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "Mapping Europe’s AI Workforce Opportunity",
-              "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_4dee91bf49c25dc23928d6fb"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "How to Govern Autonomous Agents in Enterprise AI Factories",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents are quickly moving beyond chat. They inspect code, run tests, read documents, search knowledge bases, query internal systems, and operate for hours on...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_00b32ce442fb9cb3a4ccb12a"
+              ],
+              "confidence": 86
+            },
             {
               "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
               "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
@@ -190,46 +136,38 @@
               "sourceFeedItemIds": [
                 "local_6566e7649db1029b5407c6cb"
               ],
-              "confidence": 70
-            },
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
-              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
+              "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_104da5012027c0cbc9d12ba6"
+                "feed_928deaa1de6913baa9cdcc9a"
               ],
-              "confidence": 70
-            },
-            {
-              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3265c6154546fe64a2bb6256"
-              ],
-              "confidence": 70
+              "confidence": 74
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_00b32ce442fb9cb3a4ccb12a",
         "feed_928deaa1de6913baa9cdcc9a",
-        "local_0f770090e15b080f7390612c",
-        "local_6566e7649db1029b5407c6cb",
-        "local_104da5012027c0cbc9d12ba6",
-        "local_3265c6154546fe64a2bb6256",
-        "local_4dee91bf49c25dc23928d6fb"
+        "local_6566e7649db1029b5407c6cb"
       ],
-      "generatedAt": "2026-07-04T00:39:34.596Z",
+      "generatedAt": "2026-07-04T02:14:27.635Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:39:34.596Z",
+  "generatedAt": "2026-07-04T02:14:27.635Z",
   "collectorName": "local-source-collector"
 }

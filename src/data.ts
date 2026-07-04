@@ -122,6 +122,7 @@ export function sourceIconUrl(
   sourceIconHostname?: string
 ) {
   if (sourceAvatarUrl) return normalizePublicAssetUrl(sourceAvatarUrl);
+  if (kind === "weixin" || kind === "weixin_article") return "";
   const hostname = sourceIconHostname ?? sourceHostname;
   if (hostname) {
     return `https://www.google.com/s2/favicons?domain=${encodeURIComponent(hostname)}&sz=64`;
@@ -189,7 +190,7 @@ function collectImageCandidates(value: unknown, urls: Set<string>, key = "", dep
 function addImageCandidate(urls: Set<string>, value?: string) {
   if (!value) return;
   const url = normalizeFeedImageUrl(value);
-  if (url) urls.add(url);
+  if (url && !isDecorativeImageUrl(url)) urls.add(url);
 }
 
 function normalizeFeedImageUrl(value: string) {
@@ -223,6 +224,10 @@ function isImageUrl(value: string) {
     /^https?:\/\/.+\.(png|jpe?g|webp|gif|avif)(\?.*)?$/i.test(value) ||
     /^https?:\/\/(pbs\.twimg\.com|scontent-|static\.)/i.test(value)
   );
+}
+
+function isDecorativeImageUrl(value: string) {
+  return /(?:avatar|brand|favicon|icon|logo|profile|sprite)/i.test(value);
 }
 
 export function readAppCache(): AppData | null {

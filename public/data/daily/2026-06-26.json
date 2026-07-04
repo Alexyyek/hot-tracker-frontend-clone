@@ -5,15 +5,11 @@
       "topicId": "ai",
       "reportDate": "2026-06-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Run a vLLM Server on HF Jobs in One Command」、「Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「冻结多token预测加速Pixel上的Gemini Nano模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Run a vLLM Server on HF Jobs in One Command",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：冻结多token预测加速Pixel上的Gemini Nano模型"
       ],
       "watchItems": [
-        "跟进：Run a vLLM Server on HF Jobs in One Command",
-        "跟进：Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
         "跟进：冻结多token预测加速Pixel上的Gemini Nano模型"
       ],
       "sections": [
@@ -21,49 +17,22 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Run a vLLM Server on HF Jobs in One Command",
-              "summary": "来自Hugging Face的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_932f5386468066673824fd3a"
-              ],
-              "confidence": 58
-            },
-            {
               "title": "冻结多token预测加速Pixel上的Gemini Nano模型",
               "summary": "Google Research提出一种新架构，在已冻结的Gemini Nano v3模型上改造Multi-Token Prediction（MTP），以加速Pixel 9和10系列上的设备端推理。该方法基于EAGLE框架和CALM，无需单独训练占用内存的草稿模型，通过“晚期退出”策略实现加速。AI通知摘要和校对功能因此生成文本速度显著提升、能耗降低，开发者无需为每个新任务微调独立模型。",
               "insightLabel": "关注",
-              "insightText": "",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "feed_3ae6b080ab4b5f03d23619d5"
               ],
-              "confidence": 55
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
-              "summary": "&#160; Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effectively, it must know exactly what it is looking at. Thi…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_bce8874366a111ff5d638203"
-              ],
-              "confidence": 58
+              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_932f5386468066673824fd3a",
-        "local_bce8874366a111ff5d638203",
         "feed_3ae6b080ab4b5f03d23619d5"
       ],
-      "generatedAt": "2026-07-04T00:39:34.733Z",
+      "generatedAt": "2026-07-04T02:14:27.713Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -74,40 +43,40 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-06-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「冻结多token预测加速Pixel上的Gemini Nano模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：冻结多token预测加速Pixel上的Gemini Nano模型"
       ],
       "watchItems": [
-        "跟进：Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study"
+        "跟进：冻结多token预测加速Pixel上的Gemini Nano模型"
       ],
       "sections": [
         {
-          "title": "行业与公司",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
-              "summary": "&#160; Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effectively, it must know exactly what it is looking at. Thi…",
+              "title": "冻结多token预测加速Pixel上的Gemini Nano模型",
+              "summary": "Google Research提出一种新架构，在已冻结的Gemini Nano v3模型上改造Multi-Token Prediction（MTP），以加速Pixel 9和10系列上的设备端推理。该方法基于EAGLE框架和CALM，无需单独训练占用内存的草稿模型，通过“晚期退出”策略实现加速。AI通知摘要和校对功能因此生成文本速度显著提升、能耗降低，开发者无需为每个新任务微调独立模型。",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_bce8874366a111ff5d638203"
+                "feed_3ae6b080ab4b5f03d23619d5"
               ],
-              "confidence": 58
+              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_bce8874366a111ff5d638203"
+        "feed_3ae6b080ab4b5f03d23619d5"
       ],
-      "generatedAt": "2026-07-04T00:39:34.734Z",
+      "generatedAt": "2026-07-04T02:14:27.713Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:39:34.734Z",
+  "generatedAt": "2026-07-04T02:14:27.714Z",
   "collectorName": "local-source-collector"
 }
