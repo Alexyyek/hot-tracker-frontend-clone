@@ -73,3 +73,25 @@ test("all WeChat sources have at least one strict relevant item", async () => {
 
   assert.deepEqual(emptyWeixinSources, []);
 });
+
+test("WeChat collector emits health rows for every WeChat source", async () => {
+  const sources = JSON.parse(await readFile(new URL("../../public/data/sources.json", import.meta.url), "utf8"));
+  const health = JSON.parse(await readFile(new URL("../../public/data/weixin-health.json", import.meta.url), "utf8"));
+  const weixinSources = sources.items
+    .filter((source) => source.sourceKind === "weixin_article")
+    .map((source) => source.sourceName)
+    .sort();
+  const healthSources = health.items.map((row) => row.sourceName).sort();
+
+  assert.deepEqual(healthSources, weixinSources);
+  for (const row of health.items) {
+    assert.match(row.status, /^(fresh|partial|cache_only|seed_only|empty)$/);
+    assert.equal(typeof row.latestPublishedAt, "string");
+    assert.equal(Array.isArray(row.channels), true);
+    assert.equal(typeof row.counts.sogou, "number");
+    assert.equal(typeof row.counts.search, "number");
+    assert.equal(typeof row.counts.feed, "number");
+    assert.equal(typeof row.counts.cache, "number");
+    assert.equal(typeof row.counts.seed, "number");
+  }
+});

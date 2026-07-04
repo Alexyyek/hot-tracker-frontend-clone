@@ -63,7 +63,10 @@ Useful environment variables:
 DAILY_HISTORY_DAYS=14
 LOCAL_SOURCE_LIMIT_PER_SOURCE=4
 WEIXIN_FALLBACK_LIMIT_PER_SOURCE=3
-WEIXIN_QUERY_TERMS=AI
+WEIXIN_QUERY_TERMS=Agent,大模型,RAG,AI Native,智能体
+WEIXIN_SEARCH_DISCOVERY=1
+WEIXIN_SEARCH_LIMIT_PER_SOURCE=1
+WEIXIN_FEED_SOURCES_JSON={"公众号：示例":[ "https://example.com/wechat-feed.xml" ]}
 STATIC_FEED_FALLBACK_URL=https://hot.aiscl.work/data/feed.json
 X_BEARER_TOKEN=
 BASE_PATH=/
@@ -94,9 +97,19 @@ Covered states:
 
 ## Data Collection
 
-`scripts/collect-static-data.mjs` reads the curated source catalog in `src/aiTopics.ts` and collects directly from RSS feeds, official webpages, arXiv, Sogou WeChat search, and optional X API credentials. It does not call the original Hot Tracker APIs.
+`scripts/collect-static-data.mjs` reads the curated source catalog in `src/aiTopics.ts` and collects directly from RSS feeds, official webpages, arXiv, WeChat discovery channels, and optional X API credentials. It does not call the original Hot Tracker APIs.
 
 When a direct source is temporarily unavailable, the collector may reuse the previous snapshot from `public/data/feed.json` or the deployed `hot.aiscl.work` static JSON as a same-project cache fallback.
+
+WeChat collection uses ordered fallbacks:
+
+1. `WEIXIN_FEED_SOURCES_JSON` configured RSS/RSSHub/authorized third-party feed URLs.
+2. Search discovery for `mp.weixin.qq.com` article pages.
+3. Sogou WeChat search.
+4. Same-project cache reuse.
+5. Manual source entry fallback.
+
+Each run writes `public/data/weixin-health.json`, which shows every WeChat source's latest item, active channels, parser counts, and whether it is `fresh`, `partial`, `cache_only`, `seed_only`, or `empty`.
 
 ## Notes
 

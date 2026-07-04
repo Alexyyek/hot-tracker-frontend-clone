@@ -41,6 +41,9 @@ jobs:
 
       - name: Collect data snapshot
         run: npm run collect:data
+        env:
+          WEIXIN_FEED_SOURCES_JSON: ${{ secrets.WEIXIN_FEED_SOURCES_JSON }}
+          WEIXIN_SEARCH_LIMIT_PER_SOURCE: "1"
 
       - name: Build
         run: npm run build

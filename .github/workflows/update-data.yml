@@ -30,6 +30,9 @@ jobs:
 
       - name: Collect latest data
         run: npm run collect:data
+        env:
+          WEIXIN_FEED_SOURCES_JSON: ${{ secrets.WEIXIN_FEED_SOURCES_JSON }}
+          WEIXIN_SEARCH_LIMIT_PER_SOURCE: "1"
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
