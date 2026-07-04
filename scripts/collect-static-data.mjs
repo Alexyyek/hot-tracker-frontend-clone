@@ -236,20 +236,41 @@ function buildTags(title, summary, sourceKind) {
 
 function buildRecommendation(title, summary, sourceName) {
   const text = `${title} ${summary}`.toLowerCase();
+  const titleText = shortenText(stripHtml(title), 52);
+  const evidence = shortenText(stripHtml(summary), 82);
+  const lead = evidence ? `「${titleText}」提到 ${evidence}` : `「${titleText}」来自 ${sourceName}`;
   if (/agent|智能体|auto-research|harness|skill|工具调用/.test(text)) {
     return {
-      whyItMatters: `来自${sourceName}的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。`,
+      whyItMatters: `${lead}，重点价值在 Agent / Harness / 工具调用方法，适合对照团队 AI Native 与自动化研发闭环。`,
       actionText: "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。"
     };
   }
   if (/大模型|llm|预训练|后训练|微调|推理|rag|grpo|sft|cpt|评测/.test(text)) {
     return {
-      whyItMatters: `来自${sourceName}的这条内容命中大模型训练、推理或评测方向，可作为持续提升推理上限的技术雷达信号。`,
+      whyItMatters: `${lead}，可作为大模型训练、推理、RAG 或评测体系的技术雷达信号。`,
       actionText: "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。"
     };
   }
+  if (/地址|地理|地图|轨迹|物流|排序|推荐系统|召回|rank|retrieval|geocod/.test(text)) {
+    return {
+      whyItMatters: `${lead}，与物流轨迹、地址理解或召回排序链路有交集，值得评估是否能进入多市场复制方案。`,
+      actionText: "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。"
+    };
+  }
+  if (/conference|summit|大会|qcon|aicon|infoq|实践|架构|工程|developer|开发者/.test(text)) {
+    return {
+      whyItMatters: `${lead}，更像工程实践/技术大会线索，适合筛选其中的 AI 架构、研发提效或落地案例。`,
+      actionText: "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。"
+    };
+  }
+  if (/产品|发布|应用|工具|平台|workflow|工作流/.test(text)) {
+    return {
+      whyItMatters: `${lead}，反映 AI 产品或工具形态变化，可作为 Agent Skill 和团队提效工具选型参考。`,
+      actionText: "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。"
+    };
+  }
   return {
-    whyItMatters: `来自${sourceName}的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。`,
+    whyItMatters: `${lead}，可作为当前 OKR 的补充观察点，但需要进一步判断技术含量和可迁移性。`,
     actionText: "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。"
   };
 }
@@ -820,7 +841,7 @@ function buildDailyReport(topicId, reportDate, title, items) {
     title: sectionTitle,
     items: sectionItems.slice(0, 5).map((item) => ({
       title: item.title,
-      summary: item.whyItMatters ?? item.summary,
+      summary: dailyItemSummary(item),
       insightLabel: "关注",
       insightText: item.actionText ?? "",
       sourceFeedItemIds: [item.id],
@@ -847,6 +868,14 @@ function buildDailyReport(topicId, reportDate, title, items) {
     model: collectorName,
     raw: { generatedBy: collectorName }
   };
+}
+
+function dailyItemSummary(item) {
+  const summary = stripHtml(item.summary ?? "").trim();
+  if (summary && !/^来自.+的这条内容命中 AI 技术关键词/u.test(summary)) return shortenText(summary, 280);
+  const reason = stripHtml(item.whyItMatters ?? "").trim();
+  if (reason && !/^来自.+的这条内容命中 AI 技术关键词/u.test(reason)) return shortenText(reason, 280);
+  return `这条信号来自 ${item.sourceName}，可继续打开原文判断是否与模型训练/推理、Agent 工程或多市场复制落地相关。`;
 }
 
 function buildDailyReportsForDate(date, items, catalogByTopic) {

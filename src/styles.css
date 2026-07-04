@@ -1782,7 +1782,7 @@ body:has(.daily-mode) {
   bottom: calc(100% + 14px);
   left: 50%;
   z-index: 60;
-  display: grid;
+  display: none;
   width: min(600px, calc(100vw - 64px));
   max-width: 600px;
   gap: 12px;
@@ -1801,6 +1801,7 @@ body:has(.daily-mode) {
 .daily-source-ref:hover .daily-source-popover,
 .daily-source-ref:focus-within .daily-source-popover,
 .daily-source-ref:focus .daily-source-popover {
+  display: grid;
   opacity: 1;
   pointer-events: auto;
   transform: translateX(-50%) translateY(0);
@@ -2124,6 +2125,21 @@ body:has(.daily-mode) {
 
   .daily-story-list {
     gap: 15px;
+  }
+
+  .daily-source-popover {
+    left: auto;
+    right: -12px;
+    width: min(326px, calc(100vw - 48px));
+    max-width: calc(100vw - 48px);
+    padding: 16px 18px;
+    transform: translateY(6px);
+  }
+
+  .daily-source-ref:hover .daily-source-popover,
+  .daily-source-ref:focus-within .daily-source-popover,
+  .daily-source-ref:focus .daily-source-popover {
+    transform: translateY(0);
   }
 
   .daily-made-by {

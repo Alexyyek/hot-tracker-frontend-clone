@@ -24,7 +24,7 @@
           "items": [
             {
               "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-              "summary": "小红书把 KV Cache 从 token 级拆成按头分家，这个思路让长文本推理的 TTFT 和并发都有数量级提升，开源出来对做推理引擎的同学是个福音。",
+              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
               "insightLabel": "关注",
               "insightText": "",
               "sourceFeedItemIds": [
@@ -39,7 +39,7 @@
           "items": [
             {
               "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-              "summary": "来自NVIDIA Blog：Generative AI（网页）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "summary": "NVIDIA Nemotron open models help Palantir advance US technology leadership with mission-specific sovereign AI for government agencies and critical infrastructure operators.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
@@ -49,9 +49,9 @@
             },
             {
               "title": "Mapping Europe’s AI Workforce Opportunity",
-              "summary": "来自OpenAI的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
                 "local_4dee91bf49c25dc23928d6fb"
               ],
@@ -64,7 +64,17 @@
           "items": [
             {
               "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "来自公众号：得物技术的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6566e7649db1029b5407c6cb"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
+              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
@@ -74,7 +84,7 @@
             },
             {
               "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "来自公众号：得物技术的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
@@ -83,18 +93,8 @@
               "confidence": 70
             },
             {
-              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "来自公众号：得物技术的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3cfbf1614c541ffccffa05ce"
-              ],
-              "confidence": 70
-            },
-            {
               "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
-              "summary": "这篇文章把开源模型玩家拆成三类，清晰解释了不同动机，Cohere 转向 Apache 2.0 和 NVIDIA 采用 OpenMDW 是许可层面的重要信号，关注开源的值得一读。",
+              "summary": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如 JetBrains、Zed、Krea、Photoroom 则训练高度专业的小模型。NVIDIA 发布 Nemotron-3-Ultra-550B-A55B-BF16，采用 LatentMoE 架构…",
               "insightLabel": "关注",
               "insightText": "",
               "sourceFeedItemIds": [
@@ -108,13 +108,13 @@
       "referencedFeedItemIds": [
         "feed_928deaa1de6913baa9cdcc9a",
         "local_0f770090e15b080f7390612c",
+        "local_6566e7649db1029b5407c6cb",
         "local_104da5012027c0cbc9d12ba6",
         "local_3265c6154546fe64a2bb6256",
-        "local_3cfbf1614c541ffccffa05ce",
         "local_4dee91bf49c25dc23928d6fb",
         "feed_53cbcf30e6f2fe9dc67a6244"
       ],
-      "generatedAt": "2026-07-04T00:17:42.926Z",
+      "generatedAt": "2026-07-04T00:39:34.596Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -144,7 +144,7 @@
           "items": [
             {
               "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-              "summary": "小红书把 KV Cache 从 token 级拆成按头分家，这个思路让长文本推理的 TTFT 和并发都有数量级提升，开源出来对做推理引擎的同学是个福音。",
+              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
               "insightLabel": "关注",
               "insightText": "",
               "sourceFeedItemIds": [
@@ -159,7 +159,7 @@
           "items": [
             {
               "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
-              "summary": "来自NVIDIA Blog：Generative AI（网页）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "summary": "NVIDIA Nemotron open models help Palantir advance US technology leadership with mission-specific sovereign AI for government agencies and critical infrastructure operators.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
@@ -169,9 +169,9 @@
             },
             {
               "title": "Mapping Europe’s AI Workforce Opportunity",
-              "summary": "来自OpenAI的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
                 "local_4dee91bf49c25dc23928d6fb"
               ],
@@ -184,7 +184,17 @@
           "items": [
             {
               "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "来自公众号：得物技术的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6566e7649db1029b5407c6cb"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
+              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
@@ -194,21 +204,11 @@
             },
             {
               "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "来自公众号：得物技术的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "summary": "得物技术在 AICon 关于大模型与 Agent 技术实践分享来袭!2.从表单到 Agent:得物社区活动搭建的 AI 实践之路 3.从埋点需求到规则...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_3265c6154546fe64a2bb6256"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理",
-              "summary": "来自公众号：得物技术的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3cfbf1614c541ffccffa05ce"
               ],
               "confidence": 70
             }
@@ -218,18 +218,18 @@
       "referencedFeedItemIds": [
         "feed_928deaa1de6913baa9cdcc9a",
         "local_0f770090e15b080f7390612c",
+        "local_6566e7649db1029b5407c6cb",
         "local_104da5012027c0cbc9d12ba6",
         "local_3265c6154546fe64a2bb6256",
-        "local_3cfbf1614c541ffccffa05ce",
         "local_4dee91bf49c25dc23928d6fb"
       ],
-      "generatedAt": "2026-07-04T00:17:42.926Z",
+      "generatedAt": "2026-07-04T00:39:34.596Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:17:42.926Z",
+  "generatedAt": "2026-07-04T00:39:34.596Z",
   "collectorName": "local-source-collector"
 }

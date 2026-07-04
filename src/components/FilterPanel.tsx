@@ -97,7 +97,6 @@ export function FilterPanel({
       <section className="filter-section filter-controls-section">
         <div className="filter-header">
           <div>
-            <p className="section-kicker">Filters</p>
             <h2>筛选</h2>
           </div>
           <button className="icon-button" onClick={onReset} type="button" title="重置筛选">

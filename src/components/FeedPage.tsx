@@ -279,7 +279,7 @@ export function FeedPage({
               title={isStaticDataMode() ? "重新读取 GitHub Pages 最新静态快照" : "逐个信息源抓取最新内容"}
             >
               <RefreshCw size={15} className={sourceRefresh.running ? "is-spinning" : ""} />
-              {sourceRefresh.running ? `${sourceRefresh.checked}/${sourceRefresh.total}` : isStaticDataMode() ? "刷新快照" : "刷新全部源"}
+              {sourceRefresh.running ? `${sourceRefresh.checked}/${sourceRefresh.total}` : "刷新全部源"}
             </button>
             <button className="mobile-filter-toggle" onClick={() => setDrawerOpen(true)} type="button">
               <Filter size={16} />
@@ -366,13 +366,7 @@ function RealtimeStatus({
   };
 }) {
   if (!sourceRefresh.running && !sourceRefresh.lastUpdated) {
-    return (
-      <div className="realtime-status">
-        {isStaticDataMode()
-          ? "静态站点由 GitHub Actions 定时采集，页面每 30 分钟自动读取最新快照。"
-          : "实时更新已开启，每 30 分钟自动拉取最新动态。"}
-      </div>
-    );
+    return null;
   }
 
   const label = sourceRefresh.running

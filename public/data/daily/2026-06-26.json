@@ -22,7 +22,7 @@
           "items": [
             {
               "title": "Run a vLLM Server on HF Jobs in One Command",
-              "summary": "来自Hugging Face的这条内容命中大模型训练、推理或评测方向，可作为持续提升推理上限的技术雷达信号。",
+              "summary": "来自Hugging Face的本地采集条目。",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
@@ -32,7 +32,7 @@
             },
             {
               "title": "冻结多token预测加速Pixel上的Gemini Nano模型",
-              "summary": "谷歌这篇技术博客值得端侧开发者细读，他们把多令牌预测硬是装进了已部署的 Nano 模型，Pixel 上生成加速五成，还省了 130MB 内存，零拷贝架构的想法挺巧，但没法直接复现，主要是开脑洞用的。",
+              "summary": "Google Research提出一种新架构，在已冻结的Gemini Nano v3模型上改造Multi-Token Prediction（MTP），以加速Pixel 9和10系列上的设备端推理。该方法基于EAGLE框架和CALM，无需单独训练占用内存的草稿模型，通过“晚期退出”策略实现加速。AI通知摘要和校对功能因此生成文本速度显著提升、能耗降低，开发者无需为每个新任务微调独立模型。",
               "insightLabel": "关注",
               "insightText": "",
               "sourceFeedItemIds": [
@@ -47,7 +47,7 @@
           "items": [
             {
               "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
-              "summary": "来自Meta Engineering Blog（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "summary": "&#160; Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effectively, it must know exactly what it is looking at. Thi…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
@@ -63,7 +63,7 @@
         "local_bce8874366a111ff5d638203",
         "feed_3ae6b080ab4b5f03d23619d5"
       ],
-      "generatedAt": "2026-07-04T00:17:42.981Z",
+      "generatedAt": "2026-07-04T00:39:34.733Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -87,7 +87,7 @@
           "items": [
             {
               "title": "Privacy-Aware Infrastructure in the AI-Native Era: An Asset Classification Case Study",
-              "summary": "来自Meta Engineering Blog（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "summary": "&#160; Privacy controls — systems that enforce retention, access, allowed-purpose, downstream-sharing, or anonymization policies — require a reliable understanding of data to function. Before such a control can operate effectively, it must know exactly what it is looking at. Thi…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
@@ -101,13 +101,13 @@
       "referencedFeedItemIds": [
         "local_bce8874366a111ff5d638203"
       ],
-      "generatedAt": "2026-07-04T00:17:42.981Z",
+      "generatedAt": "2026-07-04T00:39:34.734Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-04T00:17:42.982Z",
+  "generatedAt": "2026-07-04T00:39:34.734Z",
   "collectorName": "local-source-collector"
 }

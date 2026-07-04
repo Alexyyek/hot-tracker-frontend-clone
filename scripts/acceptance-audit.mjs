@@ -56,6 +56,7 @@ async function capture(name, url, viewport, actions = async () => ({}), fullPage
 }
 
 const results = [];
+const shareId = await resolveShareId(localUrl);
 
 results.push(
   await capture("01-reference-feed-desktop.png", referenceUrl, desktop, async (page) => ({
@@ -148,11 +149,13 @@ results.push(
   })
 );
 
-results.push(
-  await capture("09-local-share-page.png", `${localUrl}/share/feed_bc531bc4dfcee9eb9fe9258b`, desktop, async (page) => ({
-    h1: await page.locator("h1").first().textContent()
-  }))
-);
+if (shareId) {
+  results.push(
+    await capture("09-local-share-page.png", `${localUrl}/share/${encodeURIComponent(shareId)}`, desktop, async (page) => ({
+      h1: await page.locator("h1").first().textContent()
+    }))
+  );
+}
 
 await fs.writeFile(path.join(outDir, "acceptance-results.json"), JSON.stringify(results, null, 2));
 
@@ -171,3 +174,24 @@ console.log(
 );
 
 await browser.close();
+
+async function resolveShareId(baseUrl) {
+  try {
+    const response = await fetch(new URL("/data/feed.json", baseUrl));
+    if (response.ok) {
+      const data = await response.json();
+      const item = data.items?.find((entry) => entry.id);
+      if (item?.id) return item.id;
+    }
+  } catch {
+    // Fall back to the local build snapshot below.
+  }
+
+  try {
+    const data = JSON.parse(await fs.readFile(path.resolve("public/data/feed.json"), "utf8"));
+    const item = data.items?.find((entry) => entry.id);
+    return item?.id ?? "";
+  } catch {
+    return "";
+  }
+}

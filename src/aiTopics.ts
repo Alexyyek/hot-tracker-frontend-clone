@@ -1018,20 +1018,27 @@ function isOkrRelevantItem(item: FeedItem, topicId?: string) {
 }
 
 function optimizeAiDailyReport(report: DailyReport): DailyReport {
-  const relevantSections = report.sections
+  const highConfidenceSections = report.sections
     .map((section) => ({
       ...section,
       items: section.items.filter((item) => isOkrRelevantDailyItem(item, report.topicId)).slice(0, 6)
     }))
     .filter((section) => section.items.length > 0);
 
-  const relevantItems = relevantSections.flatMap((section) => section.items);
+  const fallbackSections = report.sections
+    .map((section) => ({
+      ...section,
+      items: section.items.filter((item) => isDailyFallbackCandidate(item)).slice(0, 5)
+    }))
+    .filter((section) => section.items.length > 0);
+  const sections = highConfidenceSections.length > 0 ? highConfidenceSections : fallbackSections;
+  const relevantItems = sections.flatMap((section) => section.items);
   const referencedFeedItemIds = [...new Set(relevantItems.flatMap((item) => item.sourceFeedItemIds ?? []))];
 
   return {
     ...report,
-    mainLine: buildDailyMainLine(report, relevantSections),
-    sections: relevantSections,
+    mainLine: buildDailyMainLine(report, sections),
+    sections,
     referencedFeedItemIds,
     watchItems: buildDailyWatchItems(relevantItems, report.watchItems),
     actionItems: buildDailyActionItems(relevantItems, report.actionItems)
@@ -1042,6 +1049,12 @@ function isOkrRelevantDailyItem(item: DailyReport["sections"][number]["items"][n
   if (dailyTextIncludes(item, lowRelevanceArticleTerms)) return false;
   if (dailyTextIncludes(item, dailyBusinessOnlyTerms) && !dailyTextIncludes(item, dailyTechnicalSignalTerms)) return false;
   return dailyTextIncludes(item, getDailyArticleTerms(topicId)) && dailyTextIncludes(item, dailyTechnicalSignalTerms);
+}
+
+function isDailyFallbackCandidate(item: DailyReport["sections"][number]["items"][number]) {
+  if (dailyTextIncludes(item, lowRelevanceArticleTerms)) return false;
+  if (dailyTextIncludes(item, dailyBusinessOnlyTerms) && !dailyTextIncludes(item, dailyTechnicalSignalTerms)) return false;
+  return true;
 }
 
 function getDailyArticleTerms(topicId: string) {
