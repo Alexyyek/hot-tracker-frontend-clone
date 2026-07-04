@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Deploying retail AI to scale personalisation and customer insight」、「Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Deploying retail AI to scale personalisation and customer insight」、「Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deploying retail AI to scale personalisation and customer insight",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Japan&#8217;s answer to its worker shortage: An AI model for 10 million robots",
@@ -180,12 +180,14 @@
         "local_d62299dba9f059df53925d1f",
         "feed_ec689cd44b2e63903f3c42c8",
         "local_50ab60f69087f15f50495386",
+        "local_896c3354fd2c30f963762e4d",
+        "local_d6872582323b815bde7cdfdc",
         "local_615d7337c2cf313af0854263",
         "feed_0d83140344165c85f36e49a6",
         "local_ee7e05e5186330fa321da591",
         "local_fb05d5344701c4dd73b72e27"
       ],
-      "generatedAt": "2026-07-03T22:41:18.038Z",
+      "generatedAt": "2026-07-04T00:12:02.098Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -196,7 +198,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-01",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「重新部署 Claude Fable 5」、「美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「重新部署 Claude Fable 5」、「美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：重新部署 Claude Fable 5",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
@@ -287,6 +289,16 @@
                 "feed_ec689cd44b2e63903f3c42c8"
               ],
               "confidence": 67
+            },
+            {
+              "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
+              "summary": "来自NVIDIA Blog：Agentic AI（网页）的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_896c3354fd2c30f963762e4d"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -344,18 +356,20 @@
         "feed_33168354a9a5144216978bcf",
         "local_d62299dba9f059df53925d1f",
         "feed_ec689cd44b2e63903f3c42c8",
+        "local_896c3354fd2c30f963762e4d",
+        "local_d6872582323b815bde7cdfdc",
         "local_615d7337c2cf313af0854263",
         "feed_0d83140344165c85f36e49a6",
         "local_ee7e05e5186330fa321da591",
         "local_fb05d5344701c4dd73b72e27"
       ],
-      "generatedAt": "2026-07-03T22:41:18.038Z",
+      "generatedAt": "2026-07-04T00:12:02.098Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-03T22:41:18.038Z",
+  "generatedAt": "2026-07-04T00:12:02.099Z",
   "collectorName": "local-source-collector"
 }

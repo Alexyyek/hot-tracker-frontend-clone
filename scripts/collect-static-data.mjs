@@ -378,18 +378,98 @@ function parseAnchorsFromHtml(html, baseUrl, sourceName) {
     } catch {
       continue;
     }
+    if (!isLikelyArticleUrl(sourceUrl, baseUrl)) continue;
     if (!isRelevantText(title, "")) continue;
-    rows.push(makeFeedItem({
-      sourceName,
-      sourceKind: inferSourceKind(sourceName),
+    rows.push({
       title,
-      summary: `从${sourceName}官网页面发现的相关链接。`,
       sourceUrl,
-      publishedAt: new Date().toISOString(),
-      raw: { parser: "html_anchor", baseUrl }
-    }));
+      baseUrl
+    });
   }
   return rows;
+}
+
+function isLikelyArticleUrl(sourceUrl, baseUrl) {
+  try {
+    const url = new URL(sourceUrl);
+    const base = new URL(baseUrl);
+    if (!/^https?:$/.test(url.protocol)) return false;
+    if (url.hash && url.pathname === base.pathname) return false;
+    if (/\.(?:jpg|jpeg|png|gif|webp|svg|pdf|zip)(?:$|\?)/i.test(url.pathname)) return false;
+    if (/\/(?:category|tag|author|search|events?|about|contact|careers?)(?:\/|$)/i.test(url.pathname)) return false;
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function getHtmlAttribute(tag, name) {
+  const match = tag.match(new RegExp(`\\b${name}\\s*=\\s*("([^"]*)"|'([^']*)'|([^\\s>]+))`, "i"));
+  return decodeHtml(match?.[2] ?? match?.[3] ?? match?.[4] ?? "");
+}
+
+function firstMetaContent(html, names) {
+  const wanted = new Set(names.map((name) => name.toLowerCase()));
+  for (const match of html.matchAll(/<meta\b[^>]*>/gi)) {
+    const tag = match[0];
+    const key = (getHtmlAttribute(tag, "name") || getHtmlAttribute(tag, "property")).toLowerCase();
+    if (!wanted.has(key)) continue;
+    const content = getHtmlAttribute(tag, "content");
+    if (content) return content;
+  }
+  return "";
+}
+
+function firstJsonLdValue(html, key) {
+  const match = html.match(new RegExp(`"${key}"\\s*:\\s*"([^"]+)"`, "i"));
+  return decodeHtml(match?.[1] ?? "");
+}
+
+function firstTitleValue(html) {
+  return firstMetaContent(html, ["og:title", "twitter:title"]) || stripHtml(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "");
+}
+
+function firstParagraphValue(html) {
+  const articleHtml = html.match(/<article\b[\s\S]*?<\/article>/i)?.[0] ?? html.match(/<main\b[\s\S]*?<\/main>/i)?.[0] ?? html;
+  for (const match of articleHtml.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)) {
+    const text = stripHtml(match[1]);
+    if (text.length >= 80 && !/cookie|privacy|subscribe|copyright/i.test(text)) return text;
+  }
+  return "";
+}
+
+function extractWebpageDetails(html, fallbackTitle) {
+  const title = shortenText(firstTitleValue(html).replace(/\s+\|.+$/, "") || fallbackTitle, 180);
+  const summary = firstMetaContent(html, ["description", "og:description", "twitter:description"]) || firstJsonLdValue(html, "description") || firstParagraphValue(html);
+  const publishedAt = firstMetaContent(html, ["article:published_time", "article:modified_time", "date", "pubdate"]) || firstJsonLdValue(html, "datePublished") || firstJsonLdValue(html, "dateModified");
+  const imageUrl = firstMetaContent(html, ["og:image", "twitter:image"]) || firstJsonLdValue(html, "thumbnailUrl");
+  return {
+    title,
+    summary: shortenText(summary, 900),
+    publishedAt,
+    imageUrl
+  };
+}
+
+async function buildWebpageItemFromCandidate(sourceName, candidate) {
+  try {
+    const html = await fetchText(candidate.sourceUrl, "text/html,application/xhtml+xml");
+    const details = extractWebpageDetails(html, candidate.title);
+    if (!details.summary || details.summary.length < 24) return null;
+    return makeFeedItem({
+      sourceName,
+      sourceKind: inferSourceKind(sourceName),
+      title: details.title || candidate.title,
+      summary: details.summary,
+      sourceUrl: candidate.sourceUrl,
+      publishedAt: details.publishedAt || new Date().toISOString(),
+      imageUrl: details.imageUrl,
+      raw: { parser: "html_detail", baseUrl: candidate.baseUrl, anchorTitle: candidate.title }
+    });
+  } catch (error) {
+    console.warn(`webpage detail skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
+    return null;
+  }
 }
 
 async function collectWebpageSource(sourceName, urls) {
@@ -397,13 +477,29 @@ async function collectWebpageSource(sourceName, urls) {
   for (const url of urls) {
     try {
       const html = await fetchText(url, "text/html,application/xhtml+xml");
-      items.push(...parseAnchorsFromHtml(html, url, sourceName));
+      const candidates = dedupeWebpageCandidates(parseAnchorsFromHtml(html, url, sourceName));
+      for (const candidate of candidates.slice(0, localSourceLimitPerSource * 6)) {
+        const item = await buildWebpageItemFromCandidate(sourceName, candidate);
+        if (!item) continue;
+        if (!item.title || !item.sourceUrl || !isRelevantText(item.title, item.summary)) continue;
+        items.push(item);
+        if (items.length >= localSourceLimitPerSource) break;
+      }
     } catch (error) {
       console.warn(`webpage source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
     }
     if (items.length >= localSourceLimitPerSource) break;
   }
   return dedupeItems(items).slice(0, localSourceLimitPerSource);
+}
+
+function dedupeWebpageCandidates(candidates) {
+  const byUrl = new Map();
+  for (const candidate of candidates) {
+    const key = candidate.sourceUrl.replace(/#.*$/, "");
+    if (!byUrl.has(key)) byUrl.set(key, { ...candidate, sourceUrl: key });
+  }
+  return [...byUrl.values()];
 }
 
 function arxivIdFromUrl(url) {
@@ -602,11 +698,20 @@ async function cachedItemsForSource(sourceName) {
   const cachedItems = await readCachedFeedItems();
   return cachedItems
     .filter((item) => item.sourceName === sourceName)
+    .filter((item) => !isLowDetailWebpageItem(item))
     .map((item) => ({
       ...item,
       observedAt: new Date().toISOString(),
       raw: { ...(item.raw ?? {}), reusedFromLocalCache: true }
     }));
+}
+
+function isLowDetailWebpageItem(item) {
+  return item.raw?.parser === "html_anchor" || /相关链接/.test(item.summary ?? "") || /详情页.{0,8}(摘要|访问|线索)/.test(item.summary ?? "");
+}
+
+function itemIdentityKey(item) {
+  return item.sourceUrl || item.id;
 }
 
 async function collectSource(sourceName) {
@@ -617,9 +722,10 @@ async function collectSource(sourceName) {
   else if (rssSourceUrls[sourceName]) fresh = await collectRssSource(sourceName, rssSourceUrls[sourceName]);
   else if (webpageSourceUrls[sourceName]) fresh = await collectWebpageSource(sourceName, webpageSourceUrls[sourceName]);
 
-  const byId = new Map(fresh.map((item) => [item.id, item]));
+  const byId = new Map(fresh.map((item) => [itemIdentityKey(item), item]));
   for (const item of await cachedItemsForSource(sourceName)) {
-    if (!byId.has(item.id)) byId.set(item.id, item);
+    const key = itemIdentityKey(item);
+    if (!byId.has(key)) byId.set(key, item);
   }
 
   const items = [...byId.values()].sort(compareItems).slice(0, sourceName.startsWith("公众号：") ? weixinLimitPerSource : localSourceLimitPerSource);

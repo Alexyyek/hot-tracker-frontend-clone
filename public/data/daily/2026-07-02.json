@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「NVIDIA BioNeMo accelerates Anthropic Claude Science」、「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「NVIDIA BioNeMo accelerates Anthropic Claude Science」、「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA BioNeMo accelerates Anthropic Claude Science",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout"
       ],
       "watchItems": [
         "跟进：NVIDIA BioNeMo accelerates Anthropic Claude Science",
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
+        "跟进：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
         "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "跟进：表示分布匹配（RDM）用于一步视觉生成",
-        "跟进：Program-as-Weights：一种面向模糊函数的编程范式"
+        "跟进：表示分布匹配（RDM）用于一步视觉生成"
       ],
       "sections": [
         {
@@ -65,6 +65,41 @@
           ]
         },
         {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
+              "summary": "来自NVIDIA Blog：Generative AI（网页）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_353f4b03d56a233b430c47e4"
+              ],
+              "confidence": 58
+            },
+            {
+              "title": "The latest AI news we announced in June 2026",
+              "summary": "来自Google Blog：AI（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_985100ab374cb790e6e9d499"
+              ],
+              "confidence": 58
+            },
+            {
+              "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+              "summary": "来自Google Blog：AI（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e2443234b30cee5dfb256fc3"
+              ],
+              "confidence": 58
+            }
+          ]
+        },
+        {
           "title": "模型与基础设施",
           "items": [
             {
@@ -100,31 +135,6 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "The latest AI news we announced in June 2026",
-              "summary": "来自Google Blog：AI（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_985100ab374cb790e6e9d499"
-              ],
-              "confidence": 58
-            },
-            {
-              "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
-              "summary": "来自Google Blog：AI（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e2443234b30cee5dfb256fc3"
-              ],
-              "confidence": 58
-            }
-          ]
-        },
-        {
           "title": "产品与工具",
           "items": [
             {
@@ -143,6 +153,7 @@
       "referencedFeedItemIds": [
         "local_b3ac2e1666f02f48e31a13b8",
         "feed_9969dac1e51342af20fcb409",
+        "local_353f4b03d56a233b430c47e4",
         "feed_cc4a7b928f890f67d9c804b0",
         "feed_e07918fe1ea81e881e92a486",
         "feed_1915bcf07c3fe9b51caa1a20",
@@ -153,7 +164,7 @@
         "feed_3673942a8c22d9ffb3a1ab01",
         "local_e2443234b30cee5dfb256fc3"
       ],
-      "generatedAt": "2026-07-03T22:41:18.019Z",
+      "generatedAt": "2026-07-04T00:12:02.069Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -164,18 +175,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-02",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」、「昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索」、「NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The latest AI news we announced in June 2026"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊"
       ],
       "watchItems": [
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
+        "跟进：NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
         "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
         "跟进：The latest AI news we announced in June 2026",
-        "跟进：Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境",
-        "跟进：Mastering Agentic Techniques: AI Agent Reinforcement Learning"
+        "跟进：Google Cloud Workbench Notebooks 扩展发布：在 VS Code 中连接云端 Jupyter 环境"
       ],
       "sections": [
         {
@@ -217,6 +228,16 @@
           "title": "行业与公司",
           "items": [
             {
+              "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
+              "summary": "来自NVIDIA Blog：Generative AI（网页）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_353f4b03d56a233b430c47e4"
+              ],
+              "confidence": 58
+            },
+            {
               "title": "The latest AI news we announced in June 2026",
               "summary": "来自Google Blog：AI（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
               "insightLabel": "关注",
@@ -271,6 +292,7 @@
       ],
       "referencedFeedItemIds": [
         "feed_9969dac1e51342af20fcb409",
+        "local_353f4b03d56a233b430c47e4",
         "feed_cc4a7b928f890f67d9c804b0",
         "local_985100ab374cb790e6e9d499",
         "feed_42fb74c2ac07df4621f82130",
@@ -279,13 +301,13 @@
         "feed_3673942a8c22d9ffb3a1ab01",
         "local_e2443234b30cee5dfb256fc3"
       ],
-      "generatedAt": "2026-07-03T22:41:18.019Z",
+      "generatedAt": "2026-07-04T00:12:02.069Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-03T22:41:18.019Z",
+  "generatedAt": "2026-07-04T00:12:02.069Z",
   "collectorName": "local-source-collector"
 }

@@ -5,16 +5,16 @@
       "topicId": "ai",
       "reportDate": "2026-06-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻」、「How ChatGPT adoption has expanded」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning」、「从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How ChatGPT adoption has expanded",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Signals 数据揭示 ChatGPT 全球采用趋势"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How ChatGPT adoption has expanded"
       ],
       "watchItems": [
+        "跟进：Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
         "跟进：从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻",
         "跟进：How ChatGPT adoption has expanded",
-        "跟进：OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
         "跟进：Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
         "跟进：AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号"
       ],
@@ -22,6 +22,16 @@
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
+              "summary": "来自NVIDIA Blog：Agentic AI（网页）的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1cd7200696dcdb92c95f1a5f"
+              ],
+              "confidence": 70
+            },
             {
               "title": "从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻",
               "summary": "来自公众号：AI科技大本营的这篇文章命中 Agent/工具调用方向，可补充团队在 Agent Skill、Harness 和自动化研发闭环上的外部实践信号。",
@@ -31,6 +41,36 @@
                 "weixin_fallback_27cbcab65e4778059f4a1ef1"
               ],
               "confidence": 68
+            },
+            {
+              "title": "DeepSeek V4 Is Earning Agentic Token Share — OpenRouter Blog",
+              "summary": "来自OpenRouter的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1c4befbd48a112ce76c313fe"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+              "summary": "来自NVIDIA Blog：Agentic AI（网页）的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_960a8b3ffc360bcb3a6833f2"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+              "summary": "来自NVIDIA Blog：Generative AI（网页）的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1f5ba995e42da2e343132988"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -46,16 +86,6 @@
                 "local_150cabe8a29db2db7bc4647b"
               ],
               "confidence": 58
-            },
-            {
-              "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-              "summary": "OpenAI 首次公开用户行为数据，显示使用深度和广度随时间增长、非洲与亚洲增速最快，对做全球化产品的同行是个重要信号。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_dd7922a38bf4407da38bd4d6"
-              ],
-              "confidence": 62
             },
             {
               "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
@@ -84,6 +114,16 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_674e81ac0320a83e6c8b753e"
+              ],
+              "confidence": 58
+            },
+            {
+              "title": "Ask an AI expert: What exactly is the full stack?",
+              "summary": "来自Google Blog：AI（RSS）的这条内容命中 AI 技术关键词，可作为当前 OKR 的补充观察点。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e6e6ba93ad1c0bf6284a960a"
               ],
               "confidence": 58
             }
@@ -131,18 +171,21 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_1cd7200696dcdb92c95f1a5f",
         "weixin_fallback_27cbcab65e4778059f4a1ef1",
         "local_150cabe8a29db2db7bc4647b",
-        "feed_dd7922a38bf4407da38bd4d6",
         "local_8cce6a5378146a779d8e1ecf",
         "feed_2f60283ca2e5e554de5df34e",
         "local_e15af6b6d2b1c91053a2ea53",
         "local_bfe6edcbc11f3b0b0fd1412b",
         "local_674e81ac0320a83e6c8b753e",
         "local_25821b00e358eebc67946755",
+        "local_1c4befbd48a112ce76c313fe",
+        "local_960a8b3ffc360bcb3a6833f2",
+        "local_1f5ba995e42da2e343132988",
         "local_e6e6ba93ad1c0bf6284a960a"
       ],
-      "generatedAt": "2026-07-03T22:41:18.057Z",
+      "generatedAt": "2026-07-04T00:12:02.126Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -153,16 +196,16 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-06-30",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻」、「How ChatGPT adoption has expanded」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning」、「从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How ChatGPT adoption has expanded",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Signals 数据揭示 ChatGPT 全球采用趋势"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How ChatGPT adoption has expanded"
       ],
       "watchItems": [
+        "跟进：Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
         "跟进：从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻",
         "跟进：How ChatGPT adoption has expanded",
-        "跟进：OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
         "跟进：Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
         "跟进：Introducing GeneBench-Pro"
       ],
@@ -170,6 +213,16 @@
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
+              "summary": "来自NVIDIA Blog：Agentic AI（网页）的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1cd7200696dcdb92c95f1a5f"
+              ],
+              "confidence": 70
+            },
             {
               "title": "从超级个体到超级团队:AI 如何重塑企业软件生产力?|2026 奇点智能产品大会专题前瞻",
               "summary": "来自公众号：AI科技大本营的这篇文章命中 Agent/工具调用方向，可补充团队在 Agent Skill、Harness 和自动化研发闭环上的外部实践信号。",
@@ -179,6 +232,26 @@
                 "weixin_fallback_27cbcab65e4778059f4a1ef1"
               ],
               "confidence": 68
+            },
+            {
+              "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+              "summary": "来自NVIDIA Blog：Agentic AI（网页）的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_960a8b3ffc360bcb3a6833f2"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+              "summary": "来自NVIDIA Blog：Generative AI（网页）的这条内容命中 Agent / Harness / 工具调用方向，可补充团队 AI Native 和自动化研发闭环的外部信号。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1f5ba995e42da2e343132988"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -194,16 +267,6 @@
                 "local_150cabe8a29db2db7bc4647b"
               ],
               "confidence": 58
-            },
-            {
-              "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-              "summary": "OpenAI 首次公开用户行为数据，显示使用深度和广度随时间增长、非洲与亚洲增速最快，对做全球化产品的同行是个重要信号。",
-              "insightLabel": "关注",
-              "insightText": "",
-              "sourceFeedItemIds": [
-                "feed_dd7922a38bf4407da38bd4d6"
-              ],
-              "confidence": 62
             },
             {
               "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
@@ -264,22 +327,24 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_1cd7200696dcdb92c95f1a5f",
         "weixin_fallback_27cbcab65e4778059f4a1ef1",
         "local_150cabe8a29db2db7bc4647b",
-        "feed_dd7922a38bf4407da38bd4d6",
         "local_8cce6a5378146a779d8e1ecf",
         "local_bfe6edcbc11f3b0b0fd1412b",
         "local_674e81ac0320a83e6c8b753e",
         "local_25821b00e358eebc67946755",
+        "local_960a8b3ffc360bcb3a6833f2",
+        "local_1f5ba995e42da2e343132988",
         "local_e6e6ba93ad1c0bf6284a960a"
       ],
-      "generatedAt": "2026-07-03T22:41:18.057Z",
+      "generatedAt": "2026-07-04T00:12:02.126Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-03T22:41:18.057Z",
+  "generatedAt": "2026-07-04T00:12:02.127Z",
   "collectorName": "local-source-collector"
 }
