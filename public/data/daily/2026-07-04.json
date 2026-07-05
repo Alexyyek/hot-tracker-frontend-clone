@@ -5,15 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-07-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore」、「Mistral&#039;s open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore」、「文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Mistral&#039;s open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：如何构建企业级的RAG 2.0系统"
       ],
       "watchItems": [
         "跟进：OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
-        "跟进：Mistral&#039;s open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
         "跟进：文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%",
         "跟进：如何构建企业级的RAG 2.0系统",
         "跟进：Open Source AI Gap Map"
@@ -38,7 +37,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b2bf9be52ab11de85e9cbfa2"
+                "local_92a1fb687bc23a15d26c89f0"
               ],
               "confidence": 90
             }
@@ -47,16 +46,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Mistral&#039;s open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Mistral AI released Leanstral 1.5, an open-source model for formal verification in Lean 4. Beyond math, the model found five previously unknown bugs while scanning 57 open-source repositories. The article Mistral&#039;s…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_674006b3b58465e3867bcbd9"
-              ],
-              "confidence": 82
-            },
             {
               "title": "如何构建企业级的RAG 2.0系统",
               "summary": "RAG 这一大模型前沿技术,分享其在办公领域的应用实践.今天的介绍会围绕下面五点展开:1. 背景介绍2. RAG 核心技术架构3. RAG...",
@@ -87,12 +76,11 @@
       ],
       "referencedFeedItemIds": [
         "local_7c20b9e4bb2ad964b8ef937b",
-        "local_674006b3b58465e3867bcbd9",
-        "local_b2bf9be52ab11de85e9cbfa2",
+        "local_92a1fb687bc23a15d26c89f0",
         "local_de560f0df87c62b68116a0c6",
         "local_108f5e8086e5d1e247db01a1"
       ],
-      "generatedAt": "2026-07-05T14:12:20.504Z",
+      "generatedAt": "2026-07-05T15:43:44.736Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -122,7 +110,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b2bf9be52ab11de85e9cbfa2"
+                "local_92a1fb687bc23a15d26c89f0"
               ],
               "confidence": 90
             }
@@ -145,16 +133,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b2bf9be52ab11de85e9cbfa2",
+        "local_92a1fb687bc23a15d26c89f0",
         "local_de560f0df87c62b68116a0c6"
       ],
-      "generatedAt": "2026-07-05T14:12:20.504Z",
+      "generatedAt": "2026-07-05T15:43:44.736Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-05T14:12:20.505Z",
+  "generatedAt": "2026-07-05T15:43:44.736Z",
   "collectorName": "local-source-collector"
 }
