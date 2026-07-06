@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Takeda signs US$600M AI drug discovery deal with Insilico"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Takeda signs $600M AI drug discovery deal with Insilico"
       ],
       "watchItems": [
         "跟进：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "跟进：Takeda signs US$600M AI drug discovery deal with Insilico",
-        "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
-        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级"
+        "跟进：Takeda signs $600M AI drug discovery deal with Insilico",
+        "跟进：从AI Coding到Harness Engineering的端到端工程开发实践",
+        "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM"
       ],
       "sections": [
         {
@@ -29,6 +29,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_cd6b9bbc703bc05f92874574"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从AI Coding到Harness Engineering的端到端工程开发实践",
+              "summary": "工程体系的基石&mdash;&mdash;它决定了 AI 在需求拆解、技术方案、代码生... RAG 检索.之所以这种方式比传统 RAG 更适合知识库的建设,是...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fd710812a07b8b9422dd3a6a"
               ],
               "confidence": 92
             },
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0e53bd87f0fcabf51c6d518a"
+                "local_a5d3f1910faffd4c59169f9a"
               ],
               "confidence": 92
             },
@@ -58,17 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_82194aef6c55580a10c5e19d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
-              "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23:30 切换域名解析，10 分…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "feed_ad463b46824fbae8c971fb34"
+                "local_342f8e620ce496a69668a354"
               ],
               "confidence": 92
             }
@@ -93,7 +93,7 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Takeda signs US$600M AI drug discovery deal with Insilico",
+              "title": "Takeda signs $600M AI drug discovery deal with Insilico",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Takeda has entered a strategic collaboration with Hong Kong-based Insilico Medicine to use AI in early-stage drug discovery across the Japanese pharmaceutical company’s therapeutic areas. The companies did not disclose …",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
@@ -109,16 +109,17 @@
         "local_cd6b9bbc703bc05f92874574",
         "feed_629b5173f921c94f16fb0b39",
         "local_dfcac65fd286a18724f63610",
+        "local_fd710812a07b8b9422dd3a6a",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_0e53bd87f0fcabf51c6d518a",
-        "local_82194aef6c55580a10c5e19d",
+        "local_a5d3f1910faffd4c59169f9a",
+        "local_342f8e620ce496a69668a354",
         "feed_ad463b46824fbae8c971fb34",
         "local_a29fedf7f7e00d816a9a754d",
         "local_81547186a644cf172bb3fb50",
         "local_bd13c5d4a8cb092c838c5349",
         "local_b2e28bff35ec83aa4ccc8592"
       ],
-      "generatedAt": "2026-07-06T16:37:15.214Z",
+      "generatedAt": "2026-07-06T18:37:56.477Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -129,18 +130,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从AI Coding到Harness Engineering的端到端工程开发实践"
       ],
       "watchItems": [
         "跟进：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
+        "跟进：从AI Coding到Harness Engineering的端到端工程开发实践",
         "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
-        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级",
-        "跟进：架构师深度测评WorkBuddy:办公Agent的新范式已来!"
+        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级"
       ],
       "sections": [
         {
@@ -153,6 +154,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_cd6b9bbc703bc05f92874574"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从AI Coding到Harness Engineering的端到端工程开发实践",
+              "summary": "工程体系的基石&mdash;&mdash;它决定了 AI 在需求拆解、技术方案、代码生... RAG 检索.之所以这种方式比传统 RAG 更适合知识库的建设,是...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fd710812a07b8b9422dd3a6a"
               ],
               "confidence": 92
             },
@@ -172,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0e53bd87f0fcabf51c6d518a"
+                "local_a5d3f1910faffd4c59169f9a"
               ],
               "confidence": 92
             },
@@ -182,17 +193,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_82194aef6c55580a10c5e19d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
-              "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23:30 切换域名解析，10 分…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "feed_ad463b46824fbae8c971fb34"
+                "local_342f8e620ce496a69668a354"
               ],
               "confidence": 92
             }
@@ -217,18 +218,19 @@
       "referencedFeedItemIds": [
         "local_cd6b9bbc703bc05f92874574",
         "feed_629b5173f921c94f16fb0b39",
+        "local_fd710812a07b8b9422dd3a6a",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_0e53bd87f0fcabf51c6d518a",
-        "local_82194aef6c55580a10c5e19d",
+        "local_a5d3f1910faffd4c59169f9a",
+        "local_342f8e620ce496a69668a354",
         "feed_ad463b46824fbae8c971fb34"
       ],
-      "generatedAt": "2026-07-06T16:37:15.214Z",
+      "generatedAt": "2026-07-06T18:37:56.477Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-06T16:37:15.214Z",
+  "generatedAt": "2026-07-06T18:37:56.477Z",
   "collectorName": "local-source-collector"
 }

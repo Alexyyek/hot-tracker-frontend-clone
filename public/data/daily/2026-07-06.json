@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「China&#8217;s AI companion rules: what Beijing is really going after」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#8217;s AI companion rules: what Beijing is really going after",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：为什么 Agent 时代,大家都在做 CLI ?"
       ],
       "watchItems": [
         "跟进：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
+        "跟进：China&#8217;s AI companion rules: what Beijing is really going after",
+        "跟进：为什么 Agent 时代,大家都在做 CLI ?",
         "跟进：JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
-        "跟进：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用",
-        "跟进：华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
-        "跟进：腾讯混元Hy3发布:Agent能力和产品体验跃升"
+        "跟进：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用"
       ],
       "sections": [
         {
@@ -28,9 +28,29 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d47514667c4c303ea6bb665a"
+                "local_86760735a2a026ade0db0ccf"
               ],
               "confidence": 92
+            },
+            {
+              "title": "China&#8217;s AI companion rules: what Beijing is really going after",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：An AI companion sounds dystopian, but it has become a common thread in the wider conversation about the perils of generative AI. What it refers to is essentially a conversational agent built to sustain an ongoing, perso…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8d5c0e0a1b5e7c3201312b07"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "为什么 Agent 时代,大家都在做 CLI ?",
+              "summary": "这不是一个技术问题,是信任问题.人需要在\"完全不放手\"和\"完全放手\"之间找到合适的位置. 完全不放手,Agent 每一步都要请...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_992530a767df28d5600096e5"
+              ],
+              "confidence": 90
             },
             {
               "title": "JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
@@ -48,27 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9f9c6f60989338ecbc6c8c8d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
-              "summary": "近日,华为云码道(CodeArts)代码智能体新版正式发布,围绕企业研发中的存量项目增量开发、企业级安全等高频场景实现多项能力...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9631cda3b147e02ee87f5d7d"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "腾讯混元Hy3发布:Agent能力和产品体验跃升",
-              "summary": "API已在腾讯云TokenHub上线,多个海外API平台也将陆续接入.模型智能再次全面跃升,智能体实用性实现质变Hy3 是一个快慢思考...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a160b68d08e615d304423e58"
+                "local_0f34cee9658ac1c0a8f7f65f"
               ],
               "confidence": 92
             }
@@ -76,15 +76,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d47514667c4c303ea6bb665a",
+        "local_86760735a2a026ade0db0ccf",
+        "local_8d5c0e0a1b5e7c3201312b07",
+        "local_992530a767df28d5600096e5",
         "local_640c12a6b50a8d9dba35ea87",
-        "local_9f9c6f60989338ecbc6c8c8d",
-        "local_9631cda3b147e02ee87f5d7d",
+        "local_0f34cee9658ac1c0a8f7f65f",
+        "local_ae85dc47dd07e386ade562a0",
         "local_a160b68d08e615d304423e58",
-        "local_6335d2453fd2534518e06e83",
+        "local_01a01279587c5424c6c68ea5",
         "local_254143dac743a41e1db5a854"
       ],
-      "generatedAt": "2026-07-06T16:37:15.171Z",
+      "generatedAt": "2026-07-06T18:37:56.430Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -95,18 +97,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「为什么 Agent 时代,大家都在做 CLI ?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：为什么 Agent 时代,大家都在做 CLI ?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用"
       ],
       "watchItems": [
         "跟进：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
+        "跟进：为什么 Agent 时代,大家都在做 CLI ?",
         "跟进：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用",
         "跟进：华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
-        "跟进：腾讯混元Hy3发布:Agent能力和产品体验跃升",
-        "跟进：Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环"
+        "跟进：腾讯混元Hy3发布:Agent能力和产品体验跃升"
       ],
       "sections": [
         {
@@ -118,9 +120,19 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d47514667c4c303ea6bb665a"
+                "local_86760735a2a026ade0db0ccf"
               ],
               "confidence": 92
+            },
+            {
+              "title": "为什么 Agent 时代,大家都在做 CLI ?",
+              "summary": "这不是一个技术问题,是信任问题.人需要在\"完全不放手\"和\"完全放手\"之间找到合适的位置. 完全不放手,Agent 每一步都要请...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_992530a767df28d5600096e5"
+              ],
+              "confidence": 90
             },
             {
               "title": "高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用",
@@ -128,7 +140,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9f9c6f60989338ecbc6c8c8d"
+                "local_0f34cee9658ac1c0a8f7f65f"
               ],
               "confidence": 92
             },
@@ -138,7 +150,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9631cda3b147e02ee87f5d7d"
+                "local_ae85dc47dd07e386ade562a0"
               ],
               "confidence": 86
             },
@@ -151,35 +163,26 @@
                 "local_a160b68d08e615d304423e58"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环",
-              "summary": "这就是具身智能和coding agent最大的差别.coding agent的loop里,反馈被写进测试、日志和人类review;机器人学习的很多human ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6335d2453fd2534518e06e83"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_d47514667c4c303ea6bb665a",
-        "local_9f9c6f60989338ecbc6c8c8d",
-        "local_9631cda3b147e02ee87f5d7d",
+        "local_86760735a2a026ade0db0ccf",
+        "local_992530a767df28d5600096e5",
+        "local_0f34cee9658ac1c0a8f7f65f",
+        "local_ae85dc47dd07e386ade562a0",
         "local_a160b68d08e615d304423e58",
-        "local_6335d2453fd2534518e06e83",
+        "local_01a01279587c5424c6c68ea5",
         "local_254143dac743a41e1db5a854"
       ],
-      "generatedAt": "2026-07-06T16:37:15.171Z",
+      "generatedAt": "2026-07-06T18:37:56.430Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-06T16:37:15.171Z",
+  "generatedAt": "2026-07-06T18:37:56.430Z",
   "collectorName": "local-source-collector"
 }
