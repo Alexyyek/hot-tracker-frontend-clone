@@ -5,14 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-07-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore」、「文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%」、「如何构建企业级的RAG 2.0系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：如何构建企业级的RAG 2.0系统"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：如何构建企业级的RAG 2.0系统",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Open Source AI Gap Map"
       ],
       "watchItems": [
-        "跟进：OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
         "跟进：文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%",
         "跟进：如何构建企业级的RAG 2.0系统",
         "跟进：Open Source AI Gap Map"
@@ -22,22 +21,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Greg Brockman admits ChatGPT's plugins, heavily marketed in 2023, failed \"because the models weren't ready.\" Instead of app extensions, he sees the future in an invisible, context-aware agent. But OpenAI's own Codex is …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7c20b9e4bb2ad964b8ef937b"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%",
               "summary": "新智元报道 【新智元导读】文件系统可以让Agent更高效地「找东西」,降低了认知负担,提高了任务执行效率,减少了45%的token...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8147a4f758dbc39c10bf9c8c"
+                "local_09c90e4cc2d9a63bac9d197a"
               ],
               "confidence": 90
             }
@@ -75,12 +64,11 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_7c20b9e4bb2ad964b8ef937b",
-        "local_8147a4f758dbc39c10bf9c8c",
+        "local_09c90e4cc2d9a63bac9d197a",
         "local_de560f0df87c62b68116a0c6",
         "local_108f5e8086e5d1e247db01a1"
       ],
-      "generatedAt": "2026-07-06T08:58:13.676Z",
+      "generatedAt": "2026-07-06T13:05:54.399Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -110,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8147a4f758dbc39c10bf9c8c"
+                "local_09c90e4cc2d9a63bac9d197a"
               ],
               "confidence": 90
             }
@@ -133,16 +121,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8147a4f758dbc39c10bf9c8c",
+        "local_09c90e4cc2d9a63bac9d197a",
         "local_de560f0df87c62b68116a0c6"
       ],
-      "generatedAt": "2026-07-06T08:58:13.676Z",
+      "generatedAt": "2026-07-06T13:05:54.399Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-06T08:58:13.676Z",
+  "generatedAt": "2026-07-06T13:05:54.399Z",
   "collectorName": "local-source-collector"
 }
