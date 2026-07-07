@@ -5,30 +5,40 @@
       "topicId": "ai",
       "reportDate": "2026-07-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「China&#8217;s AI companion rules: what Beijing is really going after」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Latent Programming Horizons in Coding Agents」、「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Latent Programming Horizons in Coding Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#8217;s AI companion rules: what Beijing is really going after",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：为什么 Agent 时代,大家都在做 CLI ?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#8217;s AI companion rules: what Beijing is really going after"
       ],
       "watchItems": [
+        "跟进：Latent Programming Horizons in Coding Agents",
         "跟进：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
         "跟进：China&#8217;s AI companion rules: what Beijing is really going after",
         "跟进：为什么 Agent 时代,大家都在做 CLI ?",
-        "跟进：JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
-        "跟进：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用"
+        "跟进：JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Latent Programming Horizons in Coding Agents",
+              "summary": "A coding agent solving a software-engineering task spends dozens of steps reasoning, editing code, and running tests, yet little is known about what the underlying language model internally represents about the program it is working on. We show that the residual streams of langu…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4fcd804a33a629ea97d73817"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
               "summary": "RAG,那就直接在 Decoding(解码)阶段动手! OpenDecoder 的核心逻辑非常优雅:直接利用检索到的文档外部质量指标(如检索...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_be62740f938419e1bc28bfc7"
+                "local_eee6ce66aa1b4e47af2147d4"
               ],
               "confidence": 92
             },
@@ -61,32 +71,25 @@
                 "local_640c12a6b50a8d9dba35ea87"
               ],
               "confidence": 92
-            },
-            {
-              "title": "高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用",
-              "summary": "物理智能体层的 ABot-ER 与 AgenticOS,实现模型、记忆、技能... 除了体验到高德技术的温度,这位观众也给予了我们宝贵的产品反...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0f34cee9658ac1c0a8f7f65f"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_be62740f938419e1bc28bfc7",
+        "local_4fcd804a33a629ea97d73817",
+        "local_eee6ce66aa1b4e47af2147d4",
         "local_8d5c0e0a1b5e7c3201312b07",
         "local_f1597b071e682535cadd5d7a",
         "local_640c12a6b50a8d9dba35ea87",
-        "local_0f34cee9658ac1c0a8f7f65f",
-        "local_dc9e7d5b1836393b2983fb8c",
-        "local_35c5b66480be098ab17b9b93",
-        "local_6779bf74006771d11deaf114",
-        "local_9a8aa0327a78a551c2a4d120"
+        "local_512da94c09ffcb73e399fdf7",
+        "local_0d55c5211addd1513bcf7b8a",
+        "local_eb594f14b66051116a76d9ce",
+        "local_8629b0a8c41d1948722bf192",
+        "local_b7143e5f88e8a5f14ac39dc1",
+        "local_9a8aa0327a78a551c2a4d120",
+        "local_cdf3acc4ae1aba5235189562"
       ],
-      "generatedAt": "2026-07-07T01:24:03.201Z",
+      "generatedAt": "2026-07-07T05:58:08.778Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -120,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_be62740f938419e1bc28bfc7"
+                "local_eee6ce66aa1b4e47af2147d4"
               ],
               "confidence": 92
             },
@@ -140,7 +143,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f34cee9658ac1c0a8f7f65f"
+                "local_512da94c09ffcb73e399fdf7"
               ],
               "confidence": 92
             },
@@ -150,7 +153,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dc9e7d5b1836393b2983fb8c"
+                "local_0d55c5211addd1513bcf7b8a"
               ],
               "confidence": 86
             },
@@ -160,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_35c5b66480be098ab17b9b93"
+                "local_eb594f14b66051116a76d9ce"
               ],
               "confidence": 92
             }
@@ -168,21 +171,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_be62740f938419e1bc28bfc7",
+        "local_eee6ce66aa1b4e47af2147d4",
         "local_f1597b071e682535cadd5d7a",
-        "local_0f34cee9658ac1c0a8f7f65f",
-        "local_dc9e7d5b1836393b2983fb8c",
-        "local_35c5b66480be098ab17b9b93",
-        "local_6779bf74006771d11deaf114",
+        "local_512da94c09ffcb73e399fdf7",
+        "local_0d55c5211addd1513bcf7b8a",
+        "local_eb594f14b66051116a76d9ce",
+        "local_8629b0a8c41d1948722bf192",
         "local_9a8aa0327a78a551c2a4d120"
       ],
-      "generatedAt": "2026-07-07T01:24:03.201Z",
+      "generatedAt": "2026-07-07T05:58:08.778Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-07T01:24:03.201Z",
+  "generatedAt": "2026-07-07T05:58:08.778Z",
   "collectorName": "local-source-collector"
 }

@@ -5,60 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-07-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Securing Multi-Tool AI Agent Chains With Dynamic, Real-Time Compositional Policies」、「AtomicCommitBench: Can Coding Agents Reconstruct Commit Histories from Squashed Patches?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Securing Multi-Tool AI Agent Chains With Dynamic, Real-Time Compositional Policies",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AtomicCommitBench: Can Coding Agents Reconstruct Commit Histories from Squashed Patches?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Takeda signs $600M AI drug discovery deal with Insilico"
       ],
       "watchItems": [
-        "跟进：Securing Multi-Tool AI Agent Chains With Dynamic, Real-Time Compositional Policies",
-        "跟进：AtomicCommitBench: Can Coding Agents Reconstruct Commit Histories from Squashed Patches?",
         "跟进：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "跟进：Takeda signs $600M AI drug discovery deal with Insilico"
+        "跟进：Takeda signs $600M AI drug discovery deal with Insilico",
+        "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Securing Multi-Tool AI Agent Chains With Dynamic, Real-Time Compositional Policies",
-              "summary": "Modern AI agent implementations such as frontier coding agents chain multiple tools at runtime that create a security surface that per-tool guardrails are unable to address, as individually permitted tools can violate organizational policies when composed. We propose the Dynamic…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_acdb8e1a6ae69523967fa13c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AtomicCommitBench: Can Coding Agents Reconstruct Commit Histories from Squashed Patches?",
-              "summary": "Coding agents often finish a session by returning one squashed patch that mixes feature implementation, bug fixes, refactorings, tests, and configuration edits. While the final code may be correct, collapsing unrelated edits into one patch removes the history structure needed fo…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_08b5132e19b4d3e99875df28"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
               "summary": "AI Infra 项目的尝试:先把经验写成流程,再让 Agent 按流程执行、记录和复跑,最后由人判断结果能不能进入主线.这件事的变化比...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2edfd55c94342aafb0529b52"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从AI Coding到Harness Engineering的端到端工程开发实践",
-              "summary": "工程体系的基石&mdash;&mdash;它决定了 AI 在需求拆解、技术方案、代码生... RAG 检索.之所以这种方式比传统 RAG 更适合知识库的建设,是...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_57e0b4dd5d2dc7c4efb94a16"
+                "local_f05f5f70d82ab5a9f2b69544"
               ],
               "confidence": 92
             },
@@ -69,6 +39,36 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "feed_0497f08ac8c2e5f9009aff55"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级",
+              "summary": "随着大模型智能体逐步进入真实生产环境,Agent 不再只是一次模型调用,而是包含规划、工具调用、沙箱执行、记忆检索、人类反馈...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c67e70f99fd72e062bc34d8d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "架构师深度测评WorkBuddy:办公Agent的新范式已来!",
+              "summary": "关注腾讯云开发者,一手技术干货提前解锁2025年底,一款叫 OpenClaw 的开源 AI Agent 工具横空出世.因为 Logo 像只龙虾,因此...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fbf7f0070b7ba8636a69b535"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+              "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23:30 切换域名解析，10 分…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_ad463b46824fbae8c971fb34"
               ],
               "confidence": 92
             }
@@ -106,18 +106,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_acdb8e1a6ae69523967fa13c",
-        "local_08b5132e19b4d3e99875df28",
-        "local_2edfd55c94342aafb0529b52",
+        "local_f05f5f70d82ab5a9f2b69544",
         "feed_629b5173f921c94f16fb0b39",
         "local_dfcac65fd286a18724f63610",
-        "local_57e0b4dd5d2dc7c4efb94a16",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_febe4c8df5e403f56f86c507",
-        "local_d1457ed0d3a2dbe4ca0535bb",
+        "local_c67e70f99fd72e062bc34d8d",
+        "local_fbf7f0070b7ba8636a69b535",
         "feed_ad463b46824fbae8c971fb34"
       ],
-      "generatedAt": "2026-07-07T01:24:03.248Z",
+      "generatedAt": "2026-07-07T05:58:08.830Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -128,18 +125,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从AI Coding到Harness Engineering的端到端工程开发实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM"
       ],
       "watchItems": [
         "跟进：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "跟进：从AI Coding到Harness Engineering的端到端工程开发实践",
         "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
-        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级"
+        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级",
+        "跟进：架构师深度测评WorkBuddy:办公Agent的新范式已来!"
       ],
       "sections": [
         {
@@ -151,17 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2edfd55c94342aafb0529b52"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从AI Coding到Harness Engineering的端到端工程开发实践",
-              "summary": "工程体系的基石&mdash;&mdash;它决定了 AI 在需求拆解、技术方案、代码生... RAG 检索.之所以这种方式比传统 RAG 更适合知识库的建设,是...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_57e0b4dd5d2dc7c4efb94a16"
+                "local_f05f5f70d82ab5a9f2b69544"
               ],
               "confidence": 92
             },
@@ -181,7 +168,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_febe4c8df5e403f56f86c507"
+                "local_c67e70f99fd72e062bc34d8d"
               ],
               "confidence": 92
             },
@@ -191,7 +178,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d1457ed0d3a2dbe4ca0535bb"
+                "local_fbf7f0070b7ba8636a69b535"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+              "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23:30 切换域名解析，10 分…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_ad463b46824fbae8c971fb34"
               ],
               "confidence": 92
             }
@@ -214,21 +211,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2edfd55c94342aafb0529b52",
+        "local_f05f5f70d82ab5a9f2b69544",
         "feed_629b5173f921c94f16fb0b39",
-        "local_57e0b4dd5d2dc7c4efb94a16",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_febe4c8df5e403f56f86c507",
-        "local_d1457ed0d3a2dbe4ca0535bb",
+        "local_c67e70f99fd72e062bc34d8d",
+        "local_fbf7f0070b7ba8636a69b535",
         "feed_ad463b46824fbae8c971fb34"
       ],
-      "generatedAt": "2026-07-07T01:24:03.248Z",
+      "generatedAt": "2026-07-07T05:58:08.830Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-07T01:24:03.248Z",
+  "generatedAt": "2026-07-07T05:58:08.830Z",
   "collectorName": "local-source-collector"
 }
