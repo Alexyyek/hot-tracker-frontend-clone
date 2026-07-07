@@ -5,14 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-06-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「How to Govern Autonomous Agents in Enterprise AI Factories」、「小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速」、「AI Coding 的底层框架:一切优化都是在对抗熵增」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Govern Autonomous Agents in Enterprise AI Factories",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 的底层框架:一切优化都是在对抗熵增"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 的底层框架:一切优化都是在对抗熵增",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蚂蚁集团联合Rokid、雷鸟启动智能体开发者大赛,寻找下一代交互创新者"
       ],
       "watchItems": [
-        "跟进：How to Govern Autonomous Agents in Enterprise AI Factories",
         "跟进：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
         "跟进：AI Coding 的底层框架:一切优化都是在对抗熵增",
         "跟进：蚂蚁集团联合Rokid、雷鸟启动智能体开发者大赛,寻找下一代交互创新者",
@@ -20,18 +19,23 @@
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "How to Govern Autonomous Agents in Enterprise AI Factories",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents are quickly moving beyond chat. They inspect code, run tests, read documents, search knowledge bases, query internal systems, and operate for hours on...",
+              "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_00b32ce442fb9cb3a4ccb12a"
+                "feed_928deaa1de6913baa9cdcc9a"
               ],
-              "confidence": 86
-            },
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "AI Coding 的底层框架:一切优化都是在对抗熵增",
               "summary": "分钟GEEK TALK01引言AI Coding 的概念更新速度很快.Context Engineering、RAG、Agent Memory、Harness Engineering、SDD...",
@@ -63,7 +67,37 @@
               "confidence": 92
             }
           ]
-        },
+        }
+      ],
+      "referencedFeedItemIds": [
+        "feed_928deaa1de6913baa9cdcc9a",
+        "local_a1e64a0c08dbdd3ec794fe44",
+        "local_a0f49659534ce6d0eda51285",
+        "feed_53cbcf30e6f2fe9dc67a6244"
+      ],
+      "generatedAt": "2026-07-07T15:53:21.242Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-06-29",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-06-29",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速」、「AI Coding 的底层框架:一切优化都是在对抗熵增」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 的底层框架:一切优化都是在对抗熵增",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蚂蚁集团联合Rokid、雷鸟启动智能体开发者大赛,寻找下一代交互创新者"
+      ],
+      "watchItems": [
+        "跟进：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
+        "跟进：AI Coding 的底层框架:一切优化都是在对抗熵增",
+        "跟进：蚂蚁集团联合Rokid、雷鸟启动智能体开发者大赛,寻找下一代交互创新者"
+      ],
+      "sections": [
         {
           "title": "模型与基础设施",
           "items": [
@@ -78,52 +112,10 @@
               "confidence": 74
             }
           ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_00b32ce442fb9cb3a4ccb12a",
-        "feed_928deaa1de6913baa9cdcc9a",
-        "local_a1e64a0c08dbdd3ec794fe44",
-        "local_a0f49659534ce6d0eda51285",
-        "feed_53cbcf30e6f2fe9dc67a6244"
-      ],
-      "generatedAt": "2026-07-07T12:42:40.619Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-06-29",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-06-29",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「How to Govern Autonomous Agents in Enterprise AI Factories」、「小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Govern Autonomous Agents in Enterprise AI Factories",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 的底层框架:一切优化都是在对抗熵增"
-      ],
-      "watchItems": [
-        "跟进：How to Govern Autonomous Agents in Enterprise AI Factories",
-        "跟进：小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-        "跟进：AI Coding 的底层框架:一切优化都是在对抗熵增",
-        "跟进：蚂蚁集团联合Rokid、雷鸟启动智能体开发者大赛,寻找下一代交互创新者"
-      ],
-      "sections": [
+        },
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "How to Govern Autonomous Agents in Enterprise AI Factories",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents are quickly moving beyond chat. They inspect code, run tests, read documents, search knowledge bases, query internal systems, and operate for hours on...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_00b32ce442fb9cb3a4ccb12a"
-              ],
-              "confidence": 86
-            },
             {
               "title": "AI Coding 的底层框架:一切优化都是在对抗熵增",
               "summary": "分钟GEEK TALK01引言AI Coding 的概念更新速度很快.Context Engineering、RAG、Agent Memory、Harness Engineering、SDD...",
@@ -145,36 +137,20 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-              "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%–96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6–3.54×，单卡并发提升 4.7–7.8×，预填充 FLOPs 削减 67%–79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "feed_928deaa1de6913baa9cdcc9a"
-              ],
-              "confidence": 74
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_00b32ce442fb9cb3a4ccb12a",
         "feed_928deaa1de6913baa9cdcc9a",
         "local_a1e64a0c08dbdd3ec794fe44",
         "local_a0f49659534ce6d0eda51285"
       ],
-      "generatedAt": "2026-07-07T12:42:40.619Z",
+      "generatedAt": "2026-07-07T15:53:21.242Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-07T12:42:40.620Z",
+  "generatedAt": "2026-07-07T15:53:21.242Z",
   "collectorName": "local-source-collector"
 }
