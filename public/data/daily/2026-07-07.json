@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads」、「Insilico Medicine advances AI drug for IPF to Phase III trials」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads」、「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Insilico Medicine advances AI drug for IPF to Phase III trials",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Insilico Medicine advances AI drug for IPF to Phase III trials"
       ],
       "watchItems": [
         "跟进：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
+        "跟进：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
         "跟进：Insilico Medicine advances AI drug for IPF to Phase III trials",
         "跟进：Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens",
-        "跟进：Intelligence is Free, Now What? Data Systems for, of, and by Agents",
-        "跟进：Expanding Managed Agents in Gemini API: background tasks, remote MCP and more"
+        "跟进：Intelligence is Free, Now What? Data Systems for, of, and by Agents"
       ],
       "sections": [
         {
@@ -31,6 +31,16 @@
                 "local_18ab956777fbb86bdf3ddf09"
               ],
               "confidence": 92
+            },
+            {
+              "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_05812c479251f1a6b0a0b82f"
+              ],
+              "confidence": 78
             },
             {
               "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
@@ -61,16 +71,6 @@
                 "local_6406d7805dcaa6a2b746855f"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cloudflare is giving all customers granular AI bot controls. Site owners can now manage Search, Training, and Agent bots separately instead of blocking them all at once. Starting September 15, 2026, Training and Agent b…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f248cb2b21dd1a4b8e63da96"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -137,6 +137,7 @@
       ],
       "referencedFeedItemIds": [
         "local_18ab956777fbb86bdf3ddf09",
+        "local_05812c479251f1a6b0a0b82f",
         "local_633eceafe36e6ad5c9fa369d",
         "local_171e83ad4b8d8ebfaf513a9d",
         "local_e9a6ec8025fa39252b26e1a3",
@@ -148,7 +149,7 @@
         "local_f248cb2b21dd1a4b8e63da96",
         "local_c01657a94bc7188d423674cb"
       ],
-      "generatedAt": "2026-07-07T18:18:41.190Z",
+      "generatedAt": "2026-07-07T20:33:32.489Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -159,14 +160,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads」、「Expanding Managed Agents in Gemini API: background tasks, remote MCP and more」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads」、「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Expanding Managed Agents in Gemini API: background tasks, remote MCP and more"
       ],
       "watchItems": [
         "跟进：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
+        "跟进：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
         "跟进：Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
         "跟进：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务",
         "跟进：Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism"
@@ -184,6 +186,16 @@
                 "local_18ab956777fbb86bdf3ddf09"
               ],
               "confidence": 92
+            },
+            {
+              "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Vera exemplifies a new class of CPU, architected for the era of agents and being adopted by AI innovators including Perplexity; NVIDIA CPU roadmap continues with the NVIDIA Rosa CPU and its Rigel core.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_05812c479251f1a6b0a0b82f"
+              ],
+              "confidence": 78
             },
             {
               "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
@@ -225,17 +237,18 @@
       ],
       "referencedFeedItemIds": [
         "local_18ab956777fbb86bdf3ddf09",
+        "local_05812c479251f1a6b0a0b82f",
         "local_e5ad14b9697b1a5706ad396e",
         "local_6406d7805dcaa6a2b746855f",
         "local_ec77479429c6c9be0f53fbd5"
       ],
-      "generatedAt": "2026-07-07T18:18:41.190Z",
+      "generatedAt": "2026-07-07T20:33:32.489Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-07T18:18:41.190Z",
+  "generatedAt": "2026-07-07T20:33:32.489Z",
   "collectorName": "local-source-collector"
 }

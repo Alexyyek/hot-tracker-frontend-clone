@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「别争了!香农老婆,才是世界上第一个大语言模型」、「sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「别争了!香农老婆,才是世界上第一个大语言模型」、「sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：别争了!香农老婆,才是世界上第一个大语言模型",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
@@ -14,8 +14,7 @@
       "watchItems": [
         "跟进：别争了!香农老婆,才是世界上第一个大语言模型",
         "跟进：sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-        "跟进：Building a World Map with only 500 bytes",
-        "跟进：Better Models: Worse Tools"
+        "跟进：Building a World Map with only 500 bytes"
       ],
       "sections": [
         {
@@ -55,16 +54,6 @@
                 "local_5756adf48558bca2535c530c"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Better Models: Worse Tools",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[] …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f8e464297804f1c01e0cd8c7"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -72,10 +61,9 @@
       "referencedFeedItemIds": [
         "local_0e509664c6f8e6577895ab58",
         "local_9ac4e92eded25fce1c3ff230",
-        "local_5756adf48558bca2535c530c",
-        "local_f8e464297804f1c01e0cd8c7"
+        "local_5756adf48558bca2535c530c"
       ],
-      "generatedAt": "2026-07-07T18:18:41.228Z",
+      "generatedAt": "2026-07-07T20:33:32.520Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -113,13 +101,13 @@
       "referencedFeedItemIds": [
         "local_0e509664c6f8e6577895ab58"
       ],
-      "generatedAt": "2026-07-07T18:18:41.228Z",
+      "generatedAt": "2026-07-07T20:33:32.520Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-07T18:18:41.228Z",
+  "generatedAt": "2026-07-07T20:33:32.520Z",
   "collectorName": "local-source-collector"
 }
