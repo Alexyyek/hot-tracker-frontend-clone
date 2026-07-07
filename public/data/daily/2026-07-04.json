@@ -5,16 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-07-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%」、「如何构建企业级的RAG 2.0系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%」、「如何构建企业级的RAG 2.0系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：如何构建企业级的RAG 2.0系统",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Open Source AI Gap Map"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GameEngineBench: Evaluating Coding Agents on Real C++ Runtime Environments"
       ],
       "watchItems": [
         "跟进：文件系统是Agent的省钱答案?token消耗降低45%,费用减少39%",
         "跟进：如何构建企业级的RAG 2.0系统",
-        "跟进：Open Source AI Gap Map"
+        "跟进：GameEngineBench: Evaluating Coding Agents on Real C++ Runtime Environments",
+        "跟进：SkillOpt-Lite: Better and Faster Agent Self-evolution via One Line of Vibe"
       ],
       "sections": [
         {
@@ -26,9 +27,29 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a21550d7c469ae50cfbbacf9"
+                "local_b6a4388c7f36721445287a06"
               ],
               "confidence": 90
+            },
+            {
+              "title": "GameEngineBench: Evaluating Coding Agents on Real C++ Runtime Environments",
+              "summary": "Game engines provide real-time simulation, rendering, physics, interaction, networking, and asset pipelines, making them valuable not only for games but also for 3D applications in healthcare, robotics, architecture, manufacturing, and related domains. Because game development i…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_27b1d0a26f9caae3a5e4ce43"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "SkillOpt-Lite: Better and Faster Agent Self-evolution via One Line of Vibe",
+              "summary": "While skill optimization for autonomous agents has gained traction, existing methods rely on complex pipelines. This leaves a fundamental question unaddressed: What constitutes a minimal viable pipeline for skill optimization, where every component is justified by theory or empi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bcbdc890cbfdf33088d5b8dc"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -46,29 +67,15 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Open Source AI Gap Map",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Open Source AI Gap Map Current AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committ…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_108f5e8086e5d1e247db01a1"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_a21550d7c469ae50cfbbacf9",
+        "local_b6a4388c7f36721445287a06",
         "local_de560f0df87c62b68116a0c6",
-        "local_108f5e8086e5d1e247db01a1"
+        "local_27b1d0a26f9caae3a5e4ce43",
+        "local_bcbdc890cbfdf33088d5b8dc"
       ],
-      "generatedAt": "2026-07-06T23:25:02.003Z",
+      "generatedAt": "2026-07-07T01:24:03.232Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -98,7 +105,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a21550d7c469ae50cfbbacf9"
+                "local_b6a4388c7f36721445287a06"
               ],
               "confidence": 90
             }
@@ -121,16 +128,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a21550d7c469ae50cfbbacf9",
+        "local_b6a4388c7f36721445287a06",
         "local_de560f0df87c62b68116a0c6"
       ],
-      "generatedAt": "2026-07-06T23:25:02.003Z",
+      "generatedAt": "2026-07-07T01:24:03.232Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-06T23:25:02.003Z",
+  "generatedAt": "2026-07-07T01:24:03.232Z",
   "collectorName": "local-source-collector"
 }
