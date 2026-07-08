@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程」、「360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论"
       ],
       "watchItems": [
-        "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
         "跟进：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "跟进：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "跟进：Cloud Agents"
+        "跟进：Cloud Agents",
+        "跟进：Cloud Environment Setup and Cloud Subagents in Agents Window · Cursor"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 能用，为什么还是不好用？当模型不再是瓶颈，Agent工程化该怎么做？王搂×郝栩彬，一场关于运行时底座与上下文治理的深度对谈。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5d0e9ceb272c2eb477cec260"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
               "summary": "我们倾向于招资深工程师，因为优秀的工程师用 AI 更猛。如果我是初期工程师，太容易掉进使用 Agent 时发生的那些坏事情里了。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c750c924e4ea75a41a6d28e4"
+                "local_97a7c28307f602a9be35d7e2"
               ],
               "confidence": 86
             },
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f070847093230bdbb7ad8f2"
+                "local_21209cb2b086efa794d683ce"
               ],
               "confidence": 70
             },
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_238c1b8931a589110ee4f48f"
+                "local_0b286f0cdeaadd2749dd389d"
               ],
               "confidence": 92
             },
@@ -68,9 +58,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a05a638efce8baa8c5012a60"
+                "local_9010df8df4f8ada758936fc4"
               ],
               "confidence": 82
+            },
+            {
+              "title": "Cloud Environment Setup and Cloud Subagents in Agents Window · Cursor",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cursor is the best AI coding agent.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e9fba08d8432b5ba607967fb"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6e85ea1b00d5fece025b65c1"
+                "local_7c8b44dc5e743a5980064d51"
               ],
               "confidence": 92
             },
@@ -93,7 +93,17 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fc13341d419e35012000345f"
+                "local_2f0e4d407d106ca4f9519207"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Quoting Kenton Varda",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to re…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_34b579ffad02e92c390b7302"
               ],
               "confidence": 78
             },
@@ -118,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a0cffafa44ec570dcfc37539"
+                "local_cde9c50524792894b1048667"
               ],
               "confidence": 70
             }
@@ -126,24 +136,26 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_97a7c28307f602a9be35d7e2",
+        "local_21209cb2b086efa794d683ce",
+        "local_0b286f0cdeaadd2749dd389d",
+        "local_9010df8df4f8ada758936fc4",
+        "local_e9fba08d8432b5ba607967fb",
+        "local_c1cc9199eec134466e08a8e0",
+        "local_4307206d5d2444d011429973",
+        "local_7c8b44dc5e743a5980064d51",
+        "local_e6e67c880de2c49f3ecd92e7",
+        "local_abdbf22bb93bd3cbcbc741a5",
+        "local_a0d78a66560c7b4bb33089d3",
+        "local_220de519792efd95a94bb18c",
+        "local_2f0e4d407d106ca4f9519207",
+        "local_cde9c50524792894b1048667",
+        "local_34b579ffad02e92c390b7302",
+        "local_73ad1967845dc3452b063a7a",
         "local_5d0e9ceb272c2eb477cec260",
-        "local_c750c924e4ea75a41a6d28e4",
-        "local_0f070847093230bdbb7ad8f2",
-        "local_238c1b8931a589110ee4f48f",
-        "local_a05a638efce8baa8c5012a60",
-        "local_ffefb01c7bc26ccb31d3b44a",
-        "local_6b30e1ba12e1e8de3068e789",
-        "local_42322c64515676383b7578a3",
-        "local_6e85ea1b00d5fece025b65c1",
-        "local_477f2ae007d806b738852692",
-        "local_6a38ab32e7e4a6cb86efa6db",
-        "local_50a7d18add291ed916bf0be3",
-        "local_1718ae44e5abcf3d51d5e917",
-        "local_fc13341d419e35012000345f",
-        "local_a0cffafa44ec570dcfc37539",
         "local_e2da60bd44b8e2ec1bb9e626"
       ],
-      "generatedAt": "2026-07-08T18:44:06.696Z",
+      "generatedAt": "2026-07-08T20:39:26.965Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -154,40 +166,30 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程」、「360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论"
       ],
       "watchItems": [
-        "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
         "跟进：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "跟进：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "跟进：Bytedance Seed-AI for Science"
+        "跟进：Bytedance Seed-AI for Science",
+        "跟进：Bytedance Seed-Multimodal"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 能用，为什么还是不好用？当模型不再是瓶颈，Agent工程化该怎么做？王搂×郝栩彬，一场关于运行时底座与上下文治理的深度对谈。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5d0e9ceb272c2eb477cec260"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
               "summary": "我们倾向于招资深工程师，因为优秀的工程师用 AI 更猛。如果我是初期工程师，太容易掉进使用 Agent 时发生的那些坏事情里了。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c750c924e4ea75a41a6d28e4"
+                "local_97a7c28307f602a9be35d7e2"
               ],
               "confidence": 86
             },
@@ -197,7 +199,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f070847093230bdbb7ad8f2"
+                "local_21209cb2b086efa794d683ce"
               ],
               "confidence": 70
             },
@@ -207,7 +209,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_238c1b8931a589110ee4f48f"
+                "local_0b286f0cdeaadd2749dd389d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "Agent 能用，为什么还是不好用？当模型不再是瓶颈，Agent工程化该怎么做？王搂×郝栩彬，一场关于运行时底座与上下文治理的深度对谈。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5d0e9ceb272c2eb477cec260"
               ],
               "confidence": 92
             }
@@ -222,7 +234,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fc13341d419e35012000345f"
+                "local_2f0e4d407d106ca4f9519207"
               ],
               "confidence": 78
             }
@@ -237,7 +249,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a0cffafa44ec570dcfc37539"
+                "local_cde9c50524792894b1048667"
               ],
               "confidence": 70
             }
@@ -245,20 +257,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5d0e9ceb272c2eb477cec260",
-        "local_c750c924e4ea75a41a6d28e4",
-        "local_0f070847093230bdbb7ad8f2",
-        "local_238c1b8931a589110ee4f48f",
-        "local_fc13341d419e35012000345f",
-        "local_a0cffafa44ec570dcfc37539"
+        "local_97a7c28307f602a9be35d7e2",
+        "local_21209cb2b086efa794d683ce",
+        "local_0b286f0cdeaadd2749dd389d",
+        "local_2f0e4d407d106ca4f9519207",
+        "local_cde9c50524792894b1048667",
+        "local_5d0e9ceb272c2eb477cec260"
       ],
-      "generatedAt": "2026-07-08T18:44:06.697Z",
+      "generatedAt": "2026-07-08T20:39:26.965Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-08T18:44:06.697Z",
+  "generatedAt": "2026-07-08T20:39:26.965Z",
   "collectorName": "local-source-collector"
 }
