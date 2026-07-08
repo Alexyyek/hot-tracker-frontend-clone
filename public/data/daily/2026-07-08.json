@@ -5,55 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-07-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制」、「深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频」、「Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程"
       ],
       "watchItems": [
-        "跟进：大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制",
         "跟进：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
         "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
+        "跟进：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "跟进：Cloud Agents"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制",
-              "summary": "生成式奖励模型（GRM）通过思维链（CoT）显著提升了奖励信号的质量，但其“一刀切”的推理策略让简单样本和复杂样本消耗同等计算资源，导致显著的算力浪费。腾讯混元与新南威尔士大学联合提出的 E-GRM（Efficient Generative Reward Modeling）框架，将模型自身的不确定性重新定义为计算资源的调度信号，仅对真正困难的样本投入完整 CoT 推理，对其余样本走短路径直接输出。本文从问题背景、动态路由机制、判别式评分器到训练与实验四个维度对该框架进行系统解读。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_bbadfd49ea8f3ae86efd311c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_fda31b36a34a0830aded6853"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_4ea3042e75d0ad8f2eaf44db"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -63,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0350987e6d26ce820f039b2d"
+                "local_bc631a28a62b16bdb2b3fd9a"
               ],
               "confidence": 82
             },
@@ -73,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e60653e11135a044de53436"
+                "local_9f78b80f29157b27261f9b3b"
               ],
               "confidence": 92
             },
@@ -83,9 +48,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6e89b9cf317fdc3068bf168a"
+                "local_b580e0bada02a53e8edfbb2b"
               ],
               "confidence": 86
+            },
+            {
+              "title": "360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
+              "summary": "过去几个月，Anthropic的Mythos模型持续成为全球网络安全行业关注的焦点。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3d1e90d71c3f3e5fd11653e4"
+              ],
+              "confidence": 70
             },
             {
               "title": "Cloud Agents",
@@ -93,19 +68,34 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e638addeb29deaba8b9f1625"
+                "local_486840ff66136b7b91f08812"
               ],
               "confidence": 82
-            },
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
-              "title": "Cloud Environment Setup and Cloud Subagents in Agents Window · Cursor",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cursor is the best AI coding agent.",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e07ad8fa4131ccd6be9ac6e5"
+                "local_46fc031d98c2491f5a9ff809"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Bytedance Seed-AI for Science",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_1c0b06d4fb8d2e622eac9a45"
+              ],
+              "confidence": 78
             }
           ]
         },
@@ -118,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d2b5365ec7ef92d8614a7223"
+                "local_f48b1c5fe87f3517debb6a31"
               ],
               "confidence": 70
             },
@@ -146,28 +136,28 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bbadfd49ea8f3ae86efd311c",
-        "local_0350987e6d26ce820f039b2d",
-        "local_9e60653e11135a044de53436",
-        "local_6e89b9cf317fdc3068bf168a",
-        "local_e638addeb29deaba8b9f1625",
-        "local_e07ad8fa4131ccd6be9ac6e5",
-        "local_3f4fdf05b126194906a1591f",
-        "local_1c98a0e7bcdb9231b0b972fe",
-        "local_fda31b36a34a0830aded6853",
-        "local_907acb56751cb6b35f4aa9d7",
-        "local_9881b44e5b71aa7cfe10a557",
-        "local_f7881553a66972d560090344",
-        "local_0d70210834074efd4099ea45",
-        "local_4ea3042e75d0ad8f2eaf44db",
-        "local_d2b5365ec7ef92d8614a7223",
+        "local_bc631a28a62b16bdb2b3fd9a",
+        "local_9f78b80f29157b27261f9b3b",
+        "local_b580e0bada02a53e8edfbb2b",
+        "local_3d1e90d71c3f3e5fd11653e4",
+        "local_486840ff66136b7b91f08812",
+        "local_30dda17a10940da6c07e8b33",
+        "local_06da28d39aa43d4149336112",
+        "local_31c7bf2b9c1232bf16bc759d",
+        "local_46fc031d98c2491f5a9ff809",
+        "local_d5377f9f29220acb2d087f0d",
+        "local_66eb40a15f5907987ab6cb8d",
+        "local_6764c43f4fd0156cc1490bad",
+        "local_067683391a89920ae3423fb5",
+        "local_1c0b06d4fb8d2e622eac9a45",
+        "local_f48b1c5fe87f3517debb6a31",
         "local_8e8e926be01a7cf103176c51",
         "local_93e67256df4a722d0bdac572",
         "local_a64b7349e6ff8b0bbc5ae76e",
         "local_a6a97f1d475585eec1f722a6",
         "local_ab6136c7441a746d5e30fdab"
       ],
-      "generatedAt": "2026-07-08T04:59:51.726Z",
+      "generatedAt": "2026-07-08T07:45:54.132Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -178,45 +168,20 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-08",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制」、「深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频」、「Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程"
       ],
       "watchItems": [
-        "跟进：大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制",
         "跟进：深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？_企业动态_李文朋_InfoQ精选视频",
         "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
+        "跟进：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "跟进：Bytedance Seed-AI for Science"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "大模型推理也能“智能调度”：让奖励模型按需分配算力的动态路由机制",
-              "summary": "生成式奖励模型（GRM）通过思维链（CoT）显著提升了奖励信号的质量，但其“一刀切”的推理策略让简单样本和复杂样本消耗同等计算资源，导致显著的算力浪费。腾讯混元与新南威尔士大学联合提出的 E-GRM（Efficient Generative Reward Modeling）框架，将模型自身的不确定性重新定义为计算资源的调度信号，仅对真正困难的样本投入完整 CoT 推理，对其余样本走短路径直接输出。本文从问题背景、动态路由机制、判别式评分器到训练与实验四个维度对该框架进行系统解读。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_bbadfd49ea8f3ae86efd311c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_4ea3042e75d0ad8f2eaf44db"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -226,7 +191,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0350987e6d26ce820f039b2d"
+                "local_bc631a28a62b16bdb2b3fd9a"
               ],
               "confidence": 82
             },
@@ -236,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e60653e11135a044de53436"
+                "local_9f78b80f29157b27261f9b3b"
               ],
               "confidence": 92
             },
@@ -246,9 +211,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6e89b9cf317fdc3068bf168a"
+                "local_b580e0bada02a53e8edfbb2b"
               ],
               "confidence": 86
+            },
+            {
+              "title": "360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
+              "summary": "过去几个月，Anthropic的Mythos模型持续成为全球网络安全行业关注的焦点。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3d1e90d71c3f3e5fd11653e4"
+              ],
+              "confidence": 70
             },
             {
               "title": "Develop Humanoid Robot Policies End-to-End with NVIDIA Isaac GR00T",
@@ -259,16 +234,21 @@
                 "local_93e67256df4a722d0bdac572"
               ],
               "confidence": 70
-            },
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
-              "title": "Building an Analysis AI Agent for Industrial Alarm Management with NVIDIA Nemotron",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Industrial machinery generates more alarms than technicians can triage. For each important alarm requiring follow-up, the technician pulls historical context,...",
+              "title": "Bytedance Seed-AI for Science",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a6a97f1d475585eec1f722a6"
+                "local_1c0b06d4fb8d2e622eac9a45"
               ],
-              "confidence": 70
+              "confidence": 78
             }
           ]
         },
@@ -281,7 +261,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d2b5365ec7ef92d8614a7223"
+                "local_f48b1c5fe87f3517debb6a31"
               ],
               "confidence": 70
             }
@@ -289,22 +269,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bbadfd49ea8f3ae86efd311c",
-        "local_0350987e6d26ce820f039b2d",
-        "local_9e60653e11135a044de53436",
-        "local_6e89b9cf317fdc3068bf168a",
-        "local_4ea3042e75d0ad8f2eaf44db",
-        "local_d2b5365ec7ef92d8614a7223",
+        "local_bc631a28a62b16bdb2b3fd9a",
+        "local_9f78b80f29157b27261f9b3b",
+        "local_b580e0bada02a53e8edfbb2b",
+        "local_3d1e90d71c3f3e5fd11653e4",
+        "local_1c0b06d4fb8d2e622eac9a45",
+        "local_f48b1c5fe87f3517debb6a31",
         "local_93e67256df4a722d0bdac572",
         "local_a6a97f1d475585eec1f722a6"
       ],
-      "generatedAt": "2026-07-08T04:59:51.726Z",
+      "generatedAt": "2026-07-08T07:45:54.132Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-08T04:59:51.727Z",
+  "generatedAt": "2026-07-08T07:45:54.132Z",
   "collectorName": "local-source-collector"
 }
