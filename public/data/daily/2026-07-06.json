@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-07-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Latent Programming Horizons in Coding Agents」、「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「China&#8217;s AI companion rules: what Beijing is really going after」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Latent Programming Horizons in Coding Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#8217;s AI companion rules: what Beijing is really going after"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#8217;s AI companion rules: what Beijing is really going after",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：为什么 Agent 时代,大家都在做 CLI ?"
       ],
       "watchItems": [
-        "跟进：Latent Programming Horizons in Coding Agents",
         "跟进：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
         "跟进：China&#8217;s AI companion rules: what Beijing is really going after",
         "跟进：为什么 Agent 时代,大家都在做 CLI ?",
-        "跟进：JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed"
+        "跟进：JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
+        "跟进：高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Latent Programming Horizons in Coding Agents",
-              "summary": "A coding agent solving a software-engineering task spends dozens of steps reasoning, editing code, and running tests, yet little is known about what the underlying language model internally represents about the program it is working on. We show that the residual streams of langu…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4fcd804a33a629ea97d73817"
-              ],
-              "confidence": 92
-            },
             {
               "title": "WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
               "summary": "RAG,那就直接在 Decoding(解码)阶段动手! OpenDecoder 的核心逻辑非常优雅:直接利用检索到的文档外部质量指标(如检索...",
@@ -71,12 +61,21 @@
                 "local_640c12a6b50a8d9dba35ea87"
               ],
               "confidence": 92
+            },
+            {
+              "title": "高德亮相2026全球数字经济大会:分享世界模型在物理交互与场景构建中的实践应用",
+              "summary": "物理智能体层的 ABot-ER 与 AgenticOS,实现模型、记忆、技能... 除了体验到高德技术的温度,这位观众也给予了我们宝贵的产品反...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_512da94c09ffcb73e399fdf7"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_4fcd804a33a629ea97d73817",
         "local_08fcd9ced602154e5f62378d",
         "local_8d5c0e0a1b5e7c3201312b07",
         "local_f1597b071e682535cadd5d7a",
@@ -85,11 +84,9 @@
         "local_1e8a0266f8f28bab30b358e0",
         "local_841e9a698abeb7cae56f0bcd",
         "local_f7e695ec0d5c6294dc9c5ea2",
-        "local_b7143e5f88e8a5f14ac39dc1",
-        "local_9a8aa0327a78a551c2a4d120",
-        "local_cdf3acc4ae1aba5235189562"
+        "local_9a8aa0327a78a551c2a4d120"
       ],
-      "generatedAt": "2026-07-07T23:15:25.596Z",
+      "generatedAt": "2026-07-08T01:10:57.908Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -179,13 +176,13 @@
         "local_f7e695ec0d5c6294dc9c5ea2",
         "local_9a8aa0327a78a551c2a4d120"
       ],
-      "generatedAt": "2026-07-07T23:15:25.596Z",
+      "generatedAt": "2026-07-08T01:10:57.908Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-07T23:15:25.597Z",
+  "generatedAt": "2026-07-08T01:10:57.908Z",
   "collectorName": "local-source-collector"
 }

@@ -5,23 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-07-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads」、「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery」、「RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Insilico Medicine advances AI drug for IPF to Phase III trials"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads"
       ],
       "watchItems": [
+        "跟进：An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
+        "跟进：RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications",
         "跟进：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
         "跟进：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-        "跟进：Insilico Medicine advances AI drug for IPF to Phase III trials",
-        "跟进：Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens",
-        "跟进：Intelligence is Free, Now What? Data Systems for, of, and by Agents"
+        "跟进：Insilico Medicine advances AI drug for IPF to Phase III trials"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
+              "summary": "Large language model coding agents increasingly perform open-ended data modeling and analysis. These agents are stochastic and adaptive, and therefore their autonomous model discovery behavior cannot be adequately characterized by a single benchmark run. In this work, we propose…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1ac07d251ebbda375fbb8639"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications",
+              "summary": "Developers increasingly delegate real maintenance work to product-grade coding agents, and many state tasks in their native language, in the style of a customer request rather than a curated English issue. Existing repository-level agentic benchmarks do not measure this setting:…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_81eec7d8d75a008dca205130"
+              ],
+              "confidence": 92
+            },
             {
               "title": "NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic systems turn model reasoning into action through multi-step workflows that combine inference, tool use, code execution, retrieval, orchestration, and...",
@@ -43,32 +63,12 @@
               "confidence": 78
             },
             {
-              "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：... government of the people, by the people, for the people ... &mdash; Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in earl…",
+              "title": "What Resolve Rate Hides: Trajectory Structure Diagnostics for Coding Agents",
+              "summary": "Coding agents are ranked almost entirely by resolve rate: whether their final patch passes the target tests. Yet two agents can reach the same outcome through very different processes, and a single pass/fail label says nothing about why a run failed or why an accepted run spent …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e9a6ec8025fa39252b26e1a3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e5ad14b9697b1a5706ad396e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务",
-              "summary": "MemGUI-Agent团队 投稿 量子位 | 公众号 QbitAI手机GUI Agent正在从「看懂屏幕、点击按钮」走向更复杂的跨App自动化任务:查商品...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6406d7805dcaa6a2b746855f"
+                "local_36269cf67c4a81e0df08c860"
               ],
               "confidence": 92
             }
@@ -136,20 +136,23 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_1ac07d251ebbda375fbb8639",
+        "local_81eec7d8d75a008dca205130",
         "local_18ab956777fbb86bdf3ddf09",
         "local_05812c479251f1a6b0a0b82f",
         "local_633eceafe36e6ad5c9fa369d",
+        "local_36269cf67c4a81e0df08c860",
         "local_171e83ad4b8d8ebfaf513a9d",
+        "local_6f2ff5a3995ac2196270540e",
         "local_e9a6ec8025fa39252b26e1a3",
         "local_e5ad14b9697b1a5706ad396e",
         "local_6406d7805dcaa6a2b746855f",
         "local_9b8739002785a1d92fac5d0a",
         "local_b19deeba835f93b2a7c49e1c",
         "local_ec77479429c6c9be0f53fbd5",
-        "local_f248cb2b21dd1a4b8e63da96",
-        "local_c01657a94bc7188d423674cb"
+        "local_f248cb2b21dd1a4b8e63da96"
       ],
-      "generatedAt": "2026-07-07T23:15:25.577Z",
+      "generatedAt": "2026-07-08T01:10:57.889Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -242,13 +245,13 @@
         "local_6406d7805dcaa6a2b746855f",
         "local_ec77479429c6c9be0f53fbd5"
       ],
-      "generatedAt": "2026-07-07T23:15:25.577Z",
+      "generatedAt": "2026-07-08T01:10:57.889Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-07T23:15:25.577Z",
+  "generatedAt": "2026-07-08T01:10:57.889Z",
   "collectorName": "local-source-collector"
 }
