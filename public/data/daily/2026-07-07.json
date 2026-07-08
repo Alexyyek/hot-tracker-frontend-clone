@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery」、「RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery」、「RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：An Experimental Design Approach to Evaluating Agentic AI's Autonomous Model Discovery",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RuBench: A Repository-Level Agentic Coding Benchmark with Natively Authored Russian Task Specifications",
@@ -106,31 +106,6 @@
                 "local_b19deeba835f93b2a7c49e1c"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended periods. The longer these...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_ec77479429c6c9be0f53fbd5"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Chinese AI models regularly pass 30 percent on OpenRouter as cost gap widens",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Chinese AI models are gaining ground with US companies because they cost far less than systems from OpenAI and Anthropic, CNBC reports. The article Chinese AI models regularly pass 30 percent on OpenRouter as cost gap w…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_171e83ad4b8d8ebfaf513a9d"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -142,16 +117,14 @@
         "local_05812c479251f1a6b0a0b82f",
         "local_633eceafe36e6ad5c9fa369d",
         "local_36269cf67c4a81e0df08c860",
-        "local_171e83ad4b8d8ebfaf513a9d",
         "local_6f2ff5a3995ac2196270540e",
         "local_e9a6ec8025fa39252b26e1a3",
         "local_e5ad14b9697b1a5706ad396e",
         "local_6406d7805dcaa6a2b746855f",
         "local_9b8739002785a1d92fac5d0a",
-        "local_b19deeba835f93b2a7c49e1c",
-        "local_ec77479429c6c9be0f53fbd5"
+        "local_b19deeba835f93b2a7c49e1c"
       ],
-      "generatedAt": "2026-07-08T14:43:52.032Z",
+      "generatedAt": "2026-07-08T16:50:13.209Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -162,7 +135,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads」、「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads」、「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
@@ -172,8 +145,7 @@
         "跟进：NVIDIA Vera CPU Boosts AI Factory Throughput to Accelerate Agentic Workloads",
         "跟进：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
         "跟进：Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-        "跟进：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务",
-        "跟进：Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism"
+        "跟进：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务"
       ],
       "sections": [
         {
@@ -220,37 +192,21 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Enhancing Goodput in Large-Scale LLM Training with Nonuniform Tensor Parallelism",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Training LLMs at massive scale brings unique infrastructure challenges, especially as jobs span thousands of GPUs and run for extended periods. The longer these...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_ec77479429c6c9be0f53fbd5"
-              ],
-              "confidence": 86
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_18ab956777fbb86bdf3ddf09",
         "local_05812c479251f1a6b0a0b82f",
         "local_e5ad14b9697b1a5706ad396e",
-        "local_6406d7805dcaa6a2b746855f",
-        "local_ec77479429c6c9be0f53fbd5"
+        "local_6406d7805dcaa6a2b746855f"
       ],
-      "generatedAt": "2026-07-08T14:43:52.032Z",
+      "generatedAt": "2026-07-08T16:50:13.209Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-08T14:43:52.033Z",
+  "generatedAt": "2026-07-08T16:50:13.209Z",
   "collectorName": "local-source-collector"
 }
