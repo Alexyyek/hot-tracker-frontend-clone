@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-07-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「NVIDIA BioNeMo accelerates Anthropic Claude Science」、「从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务」、「AI Native 驱动的门店前端系统重构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA BioNeMo accelerates Anthropic Claude Science",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 驱动的门店前端系统重构"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 驱动的门店前端系统重构",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索"
       ],
       "watchItems": [
-        "跟进：NVIDIA BioNeMo accelerates Anthropic Claude Science",
         "跟进：从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务",
         "跟进：AI Native 驱动的门店前端系统重构",
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
-        "跟进：进化与退化一线之隔:从多智能体风控到OSI语义标准,拆解Agent业务落地的真实技术架构"
+        "跟进：进化与退化一线之隔:从多智能体风控到OSI语义标准,拆解Agent业务落地的真实技术架构",
+        "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic Claude Science now integrates the NVIDIA BioNeMo Agent Toolkit to accelerate computational life sciences research. Anthropic has launched the public beta of Claude Science, an AI workbench built for scientific…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b3ac2e1666f02f48e31a13b8"
-              ],
-              "confidence": 92
-            },
             {
               "title": "从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务",
               "summary": "是技术核心要务.Agent 场景适配:火山 Milvus 新发布 Serverless 共享形态,无需关心底层资源,按使用量计费.Serverless 实例可以...",
@@ -69,6 +59,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_f7c594c87848789e1a8407e4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
+              "summary": "昆仑万维天工3.2发布Skywork Tags，将AI智能体以团队成员身份接入Slack、飞书、钉钉、Discord、Telegram等即时通讯工具。团队可在原有工作群中@Skywork参与讨论，无需切换窗口或迁移数据。共享版Agent持续吸收多样上下文后表现反超精心调教的个人版，团队最终完全改用共享版。Skywork Tags不要求改变工作方式，让AI积累团队上下文并越用越强。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_cc4a7b928f890f67d9c804b0"
               ],
               "confidence": 92
             }
@@ -111,7 +111,6 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b3ac2e1666f02f48e31a13b8",
         "local_af9c29a99bcd364217f81dd3",
         "local_49de87cce75e4daf744e46ec",
         "feed_9969dac1e51342af20fcb409",
@@ -121,7 +120,7 @@
         "feed_1915bcf07c3fe9b51caa1a20",
         "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-09T10:00:37.526Z",
+      "generatedAt": "2026-07-09T16:11:27.272Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -225,13 +224,13 @@
         "feed_cc4a7b928f890f67d9c804b0",
         "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-09T10:00:37.526Z",
+      "generatedAt": "2026-07-09T16:11:27.272Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-09T10:00:37.527Z",
+  "generatedAt": "2026-07-09T16:11:27.273Z",
   "collectorName": "local-source-collector"
 }
