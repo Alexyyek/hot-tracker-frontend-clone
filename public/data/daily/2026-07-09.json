@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI finds roughly 30 percent of popular AI coding test is broken",
@@ -15,8 +15,8 @@
         "跟进：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "跟进：OpenAI finds roughly 30 percent of popular AI coding test is broken",
         "跟进：Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost",
-        "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程"
+        "跟进：ChatGPT is now a partner for your most ambitious work",
+        "跟进：OpenAI&#039;s AI beats every human at AtCoder, a top competitive programming contest"
       ],
       "sections": [
         {
@@ -31,16 +31,6 @@
                 "local_1c3362c005d7206289938211"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Quoting Kenton Varda",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to re…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_34b579ffad02e92c390b7302"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -68,34 +58,34 @@
               "confidence": 92
             },
             {
-              "title": "Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 能用，为什么还是不好用？当模型不再是瓶颈，Agent工程化该怎么做？王搂×郝栩彬，一场关于运行时底座与上下文治理的深度对谈。",
+              "title": "ChatGPT is now a partner for your most ambitious work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_360ba42dee3f7111c7fe15c5"
+                "local_a4cd51dabb1a7ac2141014d0"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Flink 面向 Agent 的自我重构!",
+              "summary": "AI Native 时代的基础设施层. 我们梳理了大会上的五个关键判断,试图勾勒出这一技术转向的轮廓.01判断一:Data Gravity&mdash;&mdash;...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c8718434ff5a16aace2212c3"
               ],
               "confidence": 92
             },
             {
-              "title": "“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
-              "summary": "我们倾向于招资深工程师，因为优秀的工程师用 AI 更猛。如果我是初期工程师，太容易掉进使用 Agent 时发生的那些坏事情里了。",
+              "title": "可算找到一个能统一管理所有Agent还不用额外订阅的开源项目了!",
+              "summary": "Tutti想让我们直接管理一个完整的AI Workspace,我们常用的Agent就直接以App的形式摆在桌面上,Claude Code、Codex,点开就是...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ca5b58ae281f68067bf90da1"
+                "local_902b66c9bd64c9c290cdbe32"
               ],
-              "confidence": 86
-            },
-            {
-              "title": "360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
-              "summary": "过去几个月，Anthropic的Mythos模型持续成为全球网络安全行业关注的焦点。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b70f241d2b57fbd71832ddb4"
-              ],
-              "confidence": 70
+              "confidence": 92
             }
           ]
         },
@@ -111,16 +101,6 @@
                 "local_15a5a187a0ec91e7fc58d943"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Introducing GPT‑Live",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Introducing GPT‑Live OpenAI finally upgraded the model used by ChatGPT voice mode! I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off har…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2773bf676bbe029865127df7"
-              ],
-              "confidence": 86
             }
           ]
         }
@@ -129,21 +109,15 @@
         "local_1c3362c005d7206289938211",
         "local_b2ce08904dbbfa5cf1e1bcc9",
         "local_2b238dc839bdf62b7b82f9ae",
-        "local_360ba42dee3f7111c7fe15c5",
-        "local_ca5b58ae281f68067bf90da1",
-        "local_b70f241d2b57fbd71832ddb4",
-        "local_0727c50e7a8a3e981c8c4bb2",
+        "local_a4cd51dabb1a7ac2141014d0",
         "local_15a5a187a0ec91e7fc58d943",
-        "local_6748dcd1b62851dcc6410819",
         "local_c8718434ff5a16aace2212c3",
-        "local_652a5296c7666c5dbe8566d5",
+        "local_902b66c9bd64c9c290cdbe32",
         "local_8467d1ab938316de93526429",
-        "local_2773bf676bbe029865127df7",
-        "local_34b579ffad02e92c390b7302",
         "local_d3c3d6fee76e9265c437e058",
         "local_f79fb0415dfdf3caad6daacf"
       ],
-      "generatedAt": "2026-07-09T16:11:27.137Z",
+      "generatedAt": "2026-07-09T18:25:45.972Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -154,17 +128,13 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「ChatGPT is now a partner for your most ambitious work」、「Flink 面向 Agent 的自我重构!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT is now a partner for your most ambitious work",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Flink 面向 Agent 的自我重构!"
       ],
       "watchItems": [
-        "跟进：Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
-        "跟进：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
-        "跟进：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
+        "跟进：ChatGPT is now a partner for your most ambitious work",
         "跟进：Flink 面向 Agent 的自我重构!"
       ],
       "sections": [
@@ -172,44 +142,14 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Agent 能用，为什么还是不好用？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 能用，为什么还是不好用？当模型不再是瓶颈，Agent工程化该怎么做？王搂×郝栩彬，一场关于运行时底座与上下文治理的深度对谈。",
+              "title": "ChatGPT is now a partner for your most ambitious work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_360ba42dee3f7111c7fe15c5"
+                "local_a4cd51dabb1a7ac2141014d0"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程",
-              "summary": "我们倾向于招资深工程师，因为优秀的工程师用 AI 更猛。如果我是初期工程师，太容易掉进使用 Agent 时发生的那些坏事情里了。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ca5b58ae281f68067bf90da1"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
-              "summary": "过去几个月，Anthropic的Mythos模型持续成为全球网络安全行业关注的焦点。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b70f241d2b57fbd71832ddb4"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-              "summary": "你能不能只用 300 行代码就给我构建一个 Coding Agent？能不能在白板上画出来，讲清楚它的架构？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0727c50e7a8a3e981c8c4bb2"
-              ],
-              "confidence": 92
+              "confidence": 74
             },
             {
               "title": "Flink 面向 Agent 的自我重构!",
@@ -225,19 +165,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_360ba42dee3f7111c7fe15c5",
-        "local_ca5b58ae281f68067bf90da1",
-        "local_b70f241d2b57fbd71832ddb4",
-        "local_0727c50e7a8a3e981c8c4bb2",
+        "local_a4cd51dabb1a7ac2141014d0",
         "local_c8718434ff5a16aace2212c3"
       ],
-      "generatedAt": "2026-07-09T16:11:27.137Z",
+      "generatedAt": "2026-07-09T18:25:45.972Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-09T16:11:27.137Z",
+  "generatedAt": "2026-07-09T18:25:45.972Z",
   "collectorName": "local-source-collector"
 }
