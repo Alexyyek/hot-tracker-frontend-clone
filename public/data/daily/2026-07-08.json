@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5 dominates new industry benchmarks at a steep premium」、「NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5 dominates new industry benchmarks at a steep premium」、「Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Fable 5 dominates new industry benchmarks at a steep premium",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness"
       ],
       "watchItems": [
         "跟进：Anthropic&#039;s Claude Fable 5 dominates new industry benchmarks at a steep premium",
+        "跟进：Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
         "跟进：NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
         "跟进：Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-        "跟进：Google Deepmind adds background execution and MCP support to Gemini API managed agents",
-        "跟进：Separating signal from noise in coding evaluations"
+        "跟进：Google Deepmind adds background execution and MCP support to Gemini API managed agents"
       ],
       "sections": [
         {
@@ -37,6 +37,16 @@
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Single-Rollout Asynchronous Optimization for Agentic Reinforcement Learning",
+              "summary": "Reinforcement learning (RL) is becoming increasingly important for post-training large language models (LLMs). Previous RL pipelines for LLMs were mostly synchronous and batch-interleaved, which is inefficient for long-horizon agentic tasks. Recently, asynchronous RL has emerged…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1df366f540374b27068aaf78"
+              ],
+              "confidence": 92
+            },
             {
               "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Nemotron 3 Ultra is offering leading performance at lower cost than top closed models with the largest and most widely adopted AI agent orchestration platform. LangChain tuned its Deep Agents harness for NVIDIA N…",
@@ -76,16 +86,6 @@
                 "local_b55e4360f9444c1011096ce5"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Helping K–12 educators build practical AI skills",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_db6a8109b0c11741f7f0034a"
-              ],
-              "confidence": 90
             }
           ]
         },
@@ -101,33 +101,24 @@
                 "local_8e8e926be01a7cf103176c51"
               ],
               "confidence": 92
-            },
-            {
-              "title": "github-code Web Component",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt: let's build a Web Component for embedding code from GitHub It takes URLs like that, converts them to https://ra…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_ab6136c7441a746d5e30fdab"
-              ],
-              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_67f53e12da8d0bf2a7393bb4",
+        "local_1df366f540374b27068aaf78",
         "local_39dd85ab60341edb6dd695fc",
         "local_254523330d81932c81986991",
         "local_83d02d5a35f2d46a8d1bb05c",
         "local_b55e4360f9444c1011096ce5",
         "local_db6a8109b0c11741f7f0034a",
+        "local_7a09c8a4a1f560b204f7cfdc",
         "local_8e8e926be01a7cf103176c51",
         "local_93e67256df4a722d0bdac572",
-        "local_a6a97f1d475585eec1f722a6",
-        "local_ab6136c7441a746d5e30fdab"
+        "local_a6a97f1d475585eec1f722a6"
       ],
-      "generatedAt": "2026-07-08T23:24:33.836Z",
+      "generatedAt": "2026-07-09T01:16:06.025Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -216,13 +207,13 @@
         "local_93e67256df4a722d0bdac572",
         "local_a6a97f1d475585eec1f722a6"
       ],
-      "generatedAt": "2026-07-08T23:24:33.836Z",
+      "generatedAt": "2026-07-09T01:16:06.025Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-08T23:24:33.836Z",
+  "generatedAt": "2026-07-09T01:16:06.025Z",
   "collectorName": "local-source-collector"
 }
