@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI finds roughly 30 percent of popular AI coding test is broken",
@@ -15,8 +15,8 @@
         "跟进：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "跟进：OpenAI finds roughly 30 percent of popular AI coding test is broken",
         "跟进：Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
-        "跟进：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-        "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化"
+        "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
+        "跟进：Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost"
       ],
       "sections": [
         {
@@ -58,22 +58,12 @@
               "confidence": 92
             },
             {
-              "title": "交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-              "summary": "Agent(首席调度官):意图分 Agent#VOC #Agent架构 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b08408a897d5a82da687d9db"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
               "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_91ef80212e414fe62089c5f6"
+                "local_1c99d9327dd89cb8a5fb500a"
               ],
               "confidence": 92
             },
@@ -86,6 +76,16 @@
                 "local_2b238dc839bdf62b7b82f9ae"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Cloud Use:当 Agent 开始真正使用云",
+              "summary": "Agent 调一次云 API 并不难.难的是,让它每天调、半夜调、跨系... 技术上,给它足够权限就能做,但恰巧真正的风险也藏在这里....",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e85b53eb257d1ea365512a92"
+              ],
+              "confidence": 90
             }
           ]
         }
@@ -94,18 +94,17 @@
         "local_1c3362c005d7206289938211",
         "local_b2ce08904dbbfa5cf1e1bcc9",
         "local_36dc3bca4569132e18922a74",
-        "local_b08408a897d5a82da687d9db",
-        "local_91ef80212e414fe62089c5f6",
+        "local_1c99d9327dd89cb8a5fb500a",
         "local_2b238dc839bdf62b7b82f9ae",
-        "local_e9616f153284dd75f05e6da8",
+        "local_e85b53eb257d1ea365512a92",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_9442d874050fd7a353c95f8c",
-        "local_04ccaa5cefcb6ea04d3839fa",
+        "local_848c0b8e4a3531316361b862",
+        "local_f75b605812a8c05483f42193",
         "local_9c324d00996a89b8d3a14b30",
         "local_c45aa647f3f5c7c336f2d2fc",
         "local_74c6b8dd89ffff80e513940b"
       ],
-      "generatedAt": "2026-07-10T12:45:53.598Z",
+      "generatedAt": "2026-07-10T15:28:13.796Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -116,40 +115,30 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践」、「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」、「Cloud Use:当 Agent 开始真正使用云」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT is now a partner for your most ambitious work"
       ],
       "watchItems": [
-        "跟进：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
         "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
         "跟进：Cloud Use:当 Agent 开始真正使用云",
         "跟进：ChatGPT is now a partner for your most ambitious work",
-        "跟进：Flink 面向 Agent 的自我重构!"
+        "跟进：Flink 面向 Agent 的自我重构!",
+        "跟进：Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-              "summary": "Agent(首席调度官):意图分 Agent#VOC #Agent架构 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b08408a897d5a82da687d9db"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
               "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_91ef80212e414fe62089c5f6"
+                "local_1c99d9327dd89cb8a5fb500a"
               ],
               "confidence": 92
             },
@@ -159,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e9616f153284dd75f05e6da8"
+                "local_e85b53eb257d1ea365512a92"
               ],
               "confidence": 90
             },
@@ -179,7 +168,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9442d874050fd7a353c95f8c"
+                "local_848c0b8e4a3531316361b862"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_74c6b8dd89ffff80e513940b"
               ],
               "confidence": 92
             }
@@ -187,20 +186,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b08408a897d5a82da687d9db",
-        "local_91ef80212e414fe62089c5f6",
-        "local_e9616f153284dd75f05e6da8",
+        "local_1c99d9327dd89cb8a5fb500a",
+        "local_e85b53eb257d1ea365512a92",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_9442d874050fd7a353c95f8c",
+        "local_848c0b8e4a3531316361b862",
         "local_74c6b8dd89ffff80e513940b"
       ],
-      "generatedAt": "2026-07-10T12:45:53.598Z",
+      "generatedAt": "2026-07-10T15:28:13.796Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-10T12:45:53.598Z",
+  "generatedAt": "2026-07-10T15:28:13.796Z",
   "collectorName": "local-source-collector"
 }
