@@ -95,3 +95,42 @@ test("WeChat collector emits health rows for every WeChat source", async () => {
     assert.equal(typeof row.counts.seed, "number");
   }
 });
+
+test("collector emits health rows for every configured source", async () => {
+  const sources = JSON.parse(await readFile(new URL("../../public/data/sources.json", import.meta.url), "utf8"));
+  const health = JSON.parse(await readFile(new URL("../../public/data/source-health.json", import.meta.url), "utf8"));
+  const sourceNames = sources.items.map((source) => source.sourceName).sort();
+  const healthNames = health.items.map((row) => row.sourceName).sort();
+
+  assert.deepEqual(healthNames, sourceNames);
+  for (const row of health.items) {
+    assert.match(row.status, /^(fresh|partial|cache_only|seed_only|stale|empty)$/);
+    assert.equal(typeof row.sourceKind, "string");
+    assert.equal(typeof row.itemCount, "number");
+    assert.equal(typeof row.freshCount, "number");
+    assert.equal(typeof row.cacheCount, "number");
+    assert.equal(typeof row.seedCount, "number");
+    assert.equal(typeof row.latestAgeHours, "number");
+    assert.equal(Array.isArray(row.channels), true);
+    assert.equal(typeof row.recommendedAction, "string");
+  }
+});
+
+test("daily reports exclude manual WeChat seeds and stale cache fallbacks", async () => {
+  const feed = JSON.parse(await readFile(new URL("../../public/data/feed.json", import.meta.url), "utf8"));
+  const daily = JSON.parse(await readFile(new URL("../../public/data/daily/latest.json", import.meta.url), "utf8"));
+  const byId = new Map(feed.items.map((item) => [item.id, item]));
+  const referencedItems = daily.items
+    .flatMap((report) => report.referencedFeedItemIds)
+    .map((id) => byId.get(id))
+    .filter(Boolean);
+  const now = Date.now();
+  const disallowed = referencedItems.filter((item) => {
+    if (item.raw?.parser === "manual_weixin_seed") return true;
+    if (!item.raw?.reusedFromLocalCache) return false;
+    const timestamp = Date.parse(item.publishedAt || item.observedAt || "");
+    return Number.isFinite(timestamp) && now - timestamp > 14 * 24 * 60 * 60 * 1000;
+  });
+
+  assert.deepEqual(disallowed.map((item) => item.title), []);
+});

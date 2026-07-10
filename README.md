@@ -45,7 +45,7 @@ The `public/CNAME` file is included so GitHub Pages publishes the site on that d
 This repository includes two GitHub Actions workflows:
 
 - `.github/workflows/update-data.yml` runs every 30 minutes and writes the latest local collector snapshot into `public/data`.
-- `.github/workflows/deploy-pages.yml` builds the app and deploys `dist` to GitHub Pages.
+- `.github/workflows/deploy-pages.yml` builds the app from the committed static snapshot and deploys `dist` to GitHub Pages.
 
 Before the first deployment:
 
@@ -61,6 +61,8 @@ Useful environment variables:
 
 ```text
 DAILY_HISTORY_DAYS=14
+DAILY_CACHE_FRESHNESS_DAYS=14
+SOURCE_HEALTH_STALE_HOURS=336
 LOCAL_SOURCE_LIMIT_PER_SOURCE=4
 WEIXIN_FALLBACK_LIMIT_PER_SOURCE=3
 WEIXIN_QUERY_TERMS=Agent,大模型,RAG,AI Native,智能体
@@ -109,7 +111,12 @@ WeChat collection uses ordered fallbacks:
 4. Same-project cache reuse.
 5. Manual source entry fallback.
 
-Each run writes `public/data/weixin-health.json`, which shows every WeChat source's latest item, active channels, parser counts, and whether it is `fresh`, `partial`, `cache_only`, `seed_only`, or `empty`.
+Each run writes two health reports:
+
+- `public/data/source-health.json` covers every configured source, including latest item age, parser/channel counts, and recommended remediation.
+- `public/data/weixin-health.json` shows every WeChat source's latest item, active channels, parser counts, and whether it is `fresh`, `partial`, `cache_only`, `seed_only`, or `empty`.
+
+Daily reports exclude manual WeChat seed entries and cache-only entries older than `DAILY_CACHE_FRESHNESS_DAYS` so source placeholders do not become editorial recommendations.
 
 ## Notes
 

@@ -14,6 +14,8 @@ const weixinSearchEnabled = process.env.WEIXIN_SEARCH_DISCOVERY !== "0";
 const weixinFeedSourceUrls = parseWeixinFeedSourceUrls(process.env.WEIXIN_FEED_SOURCES_JSON ?? "{}");
 const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "https://hot.aiscl.work/data/feed.json";
 const xBearerToken = process.env.X_BEARER_TOKEN ?? "";
+const dailyCacheFreshnessDays = Number(process.env.DAILY_CACHE_FRESHNESS_DAYS ?? 14);
+const sourceHealthStaleHours = Number(process.env.SOURCE_HEALTH_STALE_HOURS ?? 14 * 24);
 const beijingTimeZone = "Asia/Shanghai";
 const weixinHealthRows = [];
 
@@ -1321,6 +1323,103 @@ function buildSourceFacets(sourceNames, items) {
   }));
 }
 
+function itemTimestamp(item) {
+  const timestamp = Date.parse(item.publishedAt || item.observedAt || "");
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
+function itemAgeHours(item) {
+  const timestamp = itemTimestamp(item);
+  if (!timestamp) return -1;
+  return Math.max(0, Math.round((Date.now() - timestamp) / 36_000) / 100);
+}
+
+function itemCollectionChannel(item) {
+  if (item.raw?.parser === "manual_weixin_seed") return "seed";
+  if (item.raw?.reusedFromLocalCache) return "cache";
+  return item.raw?.parser || "direct";
+}
+
+function isManualSeedItem(item) {
+  return item.raw?.parser === "manual_weixin_seed";
+}
+
+function isCacheFallbackItem(item) {
+  return Boolean(item.raw?.reusedFromLocalCache);
+}
+
+function isStaleCacheItem(item) {
+  if (!isCacheFallbackItem(item)) return false;
+  const timestamp = itemTimestamp(item);
+  return timestamp > 0 && Date.now() - timestamp > dailyCacheFreshnessDays * 24 * 60 * 60 * 1000;
+}
+
+function isDailyEligibleItem(item) {
+  return !isManualSeedItem(item) && !isStaleCacheItem(item);
+}
+
+function recommendedActionForSource(sourceName, status) {
+  if (status === "fresh") return "保持当前采集通道，持续监控最新时间。";
+  if (status === "partial") return "补强主通道或备用 feed，减少对缓存/种子兜底的依赖。";
+  if (status === "cache_only") return "补充稳定 RSS/RSSHub/API 或站点专用解析器，避免缓存过期。";
+  if (status === "seed_only") return "补充授权 feed/RSSHub/第三方订阅源；种子内容不进入日报。";
+  if (status === "stale") return "检查主通道是否失效，并补充 sitemap、RSS discovery 或备用 URL。";
+  if (sourceName.startsWith("X：")) return "配置 X_BEARER_TOKEN，或替换为博客、Newsletter、官网/RSS 镜像源。";
+  return "补充主通道 URL 或移出活跃信息源列表。";
+}
+
+function buildSourceHealthRows(sourceNames, items) {
+  const bySource = new Map();
+  for (const item of items) {
+    const rows = bySource.get(item.sourceName) ?? [];
+    rows.push(item);
+    bySource.set(item.sourceName, rows);
+  }
+
+  return [...sourceNames].map((sourceName) => {
+    const sourceItems = (bySource.get(sourceName) ?? []).sort(compareItems);
+    const counts = { fresh: 0, cache: 0, seed: 0 };
+    const parsers = {};
+    const channels = new Set();
+    for (const item of sourceItems) {
+      const channel = itemCollectionChannel(item);
+      channels.add(channel);
+      parsers[item.raw?.parser || "unknown"] = (parsers[item.raw?.parser || "unknown"] ?? 0) + 1;
+      if (channel === "seed") counts.seed += 1;
+      else if (channel === "cache") counts.cache += 1;
+      else counts.fresh += 1;
+    }
+
+    const latestItem = sourceItems.find((item) => !isManualSeedItem(item)) ?? sourceItems[0];
+    const latestAgeHours = latestItem ? itemAgeHours(latestItem) : -1;
+    let status = "empty";
+    if (sourceItems.length > 0 && counts.seed === sourceItems.length) status = "seed_only";
+    else if (sourceItems.length > 0 && counts.cache === sourceItems.length) status = "cache_only";
+    else if (counts.fresh > 0 && counts.cache + counts.seed > 0) status = "partial";
+    else if (counts.fresh > 0) status = "fresh";
+    if (latestAgeHours >= 0 && latestAgeHours > sourceHealthStaleHours && status !== "seed_only" && status !== "empty") {
+      status = "stale";
+    }
+
+    return {
+      sourceName,
+      sourceKind: inferSourceKind(sourceName),
+      status,
+      itemCount: sourceItems.length,
+      freshCount: counts.fresh,
+      cacheCount: counts.cache,
+      seedCount: counts.seed,
+      latestPublishedAt: latestItem?.publishedAt || latestItem?.observedAt || "",
+      latestTitle: latestItem?.title ?? "",
+      latestAgeHours,
+      channels: [...channels],
+      parsers,
+      recommendedAction: recommendedActionForSource(sourceName, status),
+      generatedAt: new Date().toISOString()
+    };
+  });
+}
+
 function buildTopicCounts(items, catalogByTopic) {
   const count = (topicId) => items.filter((item) => catalogByTopic.get(topicId)?.has(item.sourceName)).length;
   return {
@@ -1420,8 +1519,9 @@ function dailyItemSummary(item) {
 }
 
 function buildDailyReportsForDate(date, items, catalogByTopic) {
-  const sameDay = items.filter((item) => itemDate(item) === date);
-  const base = sameDay.length > 0 ? sameDay : items.slice(0, 30);
+  const dailyItems = items.filter(isDailyEligibleItem);
+  const sameDay = dailyItems.filter((item) => itemDate(item) === date);
+  const base = sameDay.length > 0 ? sameDay : dailyItems.slice(0, 30);
   const bigTechSources = catalogByTopic.get("ai-big-tech") ?? new Set();
   const bigTechItems = base.filter((item) => bigTechSources.has(item.sourceName));
   return {
@@ -1446,11 +1546,13 @@ async function main() {
     .filter((item) => item.sourceKind !== "github" && item.importanceScore > 0)
     .sort(compareItems);
   const sourceFacets = buildSourceFacets(sourceNames, feedItems);
+  const sourceHealthRows = buildSourceHealthRows(sourceNames, feedItems);
 
   await writeJson("topics.json", { items: topics });
   await writeJson("sources.json", { items: sourceFacets });
   await writeJson("feed.json", { items: feedItems, total: feedItems.length });
   await writeJson("weixin-health.json", { items: weixinHealthRows.sort((a, b) => a.sourceName.localeCompare(b.sourceName)) });
+  await writeJson("source-health.json", { items: sourceHealthRows });
   await writeJson("topic-counts.json", buildTopicCounts(feedItems, byTopic));
   console.log(`feed: ${feedItems.length} local items -> feed.json`);
 
