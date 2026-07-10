@@ -6,16 +6,11 @@ const collectorPath = new URL("../collect-static-data.mjs", import.meta.url);
 
 test("static collector does not depend on hot.kyangc.net upstream APIs", async () => {
   const source = await readFile(collectorPath, "utf8");
-  const forbidden = [
-    "hot.kyangc.net",
-    "/api/topics",
-    "/api/feed",
-    "/api/daily"
-  ];
+  const forbidden = [/hot\.kyangc\.net/, /hot\.kyangc\.net\/api\/(?:topics|feed|daily)/];
 
   for (const token of forbidden) {
     assert.equal(
-      source.includes(token),
+      token.test(source),
       false,
       `collector still references upstream dependency: ${token}`
     );
@@ -105,6 +100,7 @@ test("collector emits health rows for every configured source", async () => {
   assert.deepEqual(healthNames, sourceNames);
   for (const row of health.items) {
     assert.match(row.status, /^(fresh|partial|cache_only|seed_only|stale|empty)$/);
+    assert.equal(row.status === "empty" && row.itemCount > 0, false, `${row.sourceName} has items but is marked empty`);
     assert.equal(typeof row.sourceKind, "string");
     assert.equal(typeof row.itemCount, "number");
     assert.equal(typeof row.freshCount, "number");

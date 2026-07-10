@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务」、「AI Native 驱动的门店前端系统重构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务」、「AI Native 驱动的门店前端系统重构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从数据库到 Agent 原生数据底座,火山引擎发布 Agentic 全栈数据管理服务",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 驱动的门店前端系统重构",
@@ -16,7 +16,7 @@
         "跟进：AI Native 驱动的门店前端系统重构",
         "跟进：千问团队朱达：C端Agent Harness的“多快好省”工程哲学与主动服务探索",
         "跟进：昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
-        "跟进：表示分布匹配（RDM）用于一步视觉生成"
+        "跟进：Meta&#8217;s AI Storage Blueprint at Scale"
       ],
       "sections": [
         {
@@ -68,26 +68,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "表示分布匹配（RDM）用于一步视觉生成",
-              "summary": "表示分布匹配（RDM）通过匹配冻结预训练编码器下的生成与参考特征分布来训练一步图像生成器。三个发现：经典MMD正确估计后成为可扩展目标；生成批次大小最优超过2048；单一表示可被欺骗，需匹配平衡编码器组合并采用独立于训练损失的SW_r14评估。改进的iRDM在ImageNet上以SW_r14 1.30达一步生成SOTA，PickScore在71.2%样本上偏好iRDM。该方法将四步FLUX.2后训练为一步生成器，在GenEval（0.826对0.794）和PickScore（22.76对22.58）上超越原版，仅需90 H200 GPU小时。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "feed_e07918fe1ea81e881e92a486"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Program-as-Weights：一种面向模糊函数的编程范式",
-              "summary": "Program-as-Weights (PAW) 提出模糊函数编程范式，将自然语言描述的函数编译为紧凑、可本地执行的神经制品。PAW 使用在 10M 示例数据集 FuzzyBench 上训练的 4B 编译器，为冻结的轻量级解释器输出参数高效适配器。0.6B 的 Qwen3 解释器执行 PAW 程序性能匹敌直接提示 Qwen3-32B，推理内存仅约五十分之一，在 MacBook M3 上达 30 tokens/s。该方法将基础模型从每次输入的求解器重新定义为工具构建器，一次函数定义后生成的制品可离线廉价复用。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "feed_1915bcf07c3fe9b51caa1a20"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "Meta&#8217;s AI Storage Blueprint at Scale",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Over the past several years, model capabilities and training dataset sizes have experienced exponential growth. During the past year or so, the time between new-frontier-model releases has gone down from months to weeks…",
               "insightLabel": "关注",
@@ -105,11 +85,9 @@
         "local_49de87cce75e4daf744e46ec",
         "feed_9969dac1e51342af20fcb409",
         "feed_cc4a7b928f890f67d9c804b0",
-        "feed_e07918fe1ea81e881e92a486",
-        "feed_1915bcf07c3fe9b51caa1a20",
         "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-10T03:32:32.650Z",
+      "generatedAt": "2026-07-10T04:20:41.753Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -202,13 +180,13 @@
         "feed_cc4a7b928f890f67d9c804b0",
         "local_49ce46ed70c8c4403d00114e"
       ],
-      "generatedAt": "2026-07-10T03:32:32.650Z",
+      "generatedAt": "2026-07-10T04:20:41.753Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-10T03:32:32.651Z",
+  "generatedAt": "2026-07-10T04:20:41.754Z",
   "collectorName": "local-source-collector"
 }

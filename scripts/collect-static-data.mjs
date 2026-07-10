@@ -21,6 +21,7 @@ const weixinHealthRows = [];
 
 const arxivSourceName = "arXiv：Agent Harness / Auto-Research";
 const arxivSourceHostname = "arxiv.org";
+const huggingFaceDailyPapersSourceName = "HuggingFace Daily Papers（社区热门论文）";
 
 const rssSourceUrls = {
   "Hugging Face": ["https://huggingface.co/blog/feed.xml"],
@@ -36,7 +37,7 @@ const rssSourceUrls = {
   "X：Microsoft Research (@MSFTResearch)": ["https://www.microsoft.com/en-us/research/feed/"],
   "Artificial Intelligence News（RSS）": ["https://www.artificialintelligence-news.com/feed/"],
   "Thinking Machines Lab：官方博客（RSS）": ["https://thinkingmachines.ai/blog/rss.xml"],
-  "HuggingFace Daily Papers（社区热门论文）": ["https://huggingface.co/papers/rss"],
+  [huggingFaceDailyPapersSourceName]: ["https://huggingface.co/papers/rss"],
   "Anthropic：Transformer Circuits（可解释性研究）": ["https://transformer-circuits.pub/feed.xml"],
   "Lilian Weng：Lil'Log（RSS）": ["https://lilianweng.github.io/index.xml"],
   "Andrej Karpathy：Blog（网页）": ["https://karpathy.github.io/feed.xml"],
@@ -65,6 +66,18 @@ const webpageSourceUrls = {
   "Cursor": ["https://cursor.com/changelog"],
   "Claude": ["https://www.anthropic.com/news"],
   "大厂日爆": ["https://www.bilibili.com/", "https://www.infoq.cn/"]
+};
+
+const sourceHomeUrls = {
+  "Anthropic": ["https://www.anthropic.com/news"],
+  "Google DeepMind": ["https://deepmind.google/discover/blog/"],
+  "xAI": ["https://x.ai/news"],
+  "Thinking Machines Lab：官方博客（RSS）": ["https://thinkingmachines.ai/blog"],
+  "Google Developers": ["https://developers.googleblog.com/search/label/AI"],
+  "MiniMax：Blog（网页）": ["https://www.minimax.io/news"],
+  "MiniMax：News（网页）": ["https://www.minimax.io/news"],
+  "Moonshot AI：Kimi Blog（VitePress）": ["https://platform.moonshot.cn/blog"],
+  "Meta": ["https://ai.meta.com/blog/"]
 };
 
 const relevanceTerms = [
@@ -210,6 +223,7 @@ const promotionalTerms = ["有奖", "热门活动", "主题征文", "征文", "�
 const hardLowValueTerms = ["招聘", "内推", "校招", "实习", "社招"];
 
 const sourceIconHostnames = {
+  "Anthropic": "anthropic.com",
   "大厂日爆": "infoq.cn",
   "Qwen：Blog Retrieval（API）": "qwenlm.github.io",
   "Qwen：Research（API）": "qwenlm.github.io",
@@ -644,16 +658,78 @@ function parseFeedXml(xml, sourceName, sourceKind) {
 async function collectRssSource(sourceName, urls) {
   const sourceKind = inferSourceKind(sourceName);
   const items = [];
-  for (const url of urls) {
+  const triedUrls = new Set();
+  const collectFeedUrl = async (url, parser = "rss_atom") => {
+    if (triedUrls.has(url)) return;
+    triedUrls.add(url);
     try {
       const xml = await fetchText(url);
-      items.push(...parseFeedXml(xml, sourceName, sourceKind));
+      items.push(...parseFeedXml(xml, sourceName, sourceKind).map((item) => ({
+        ...item,
+        raw: { ...(item.raw ?? {}), parser, feedUrl: url }
+      })));
     } catch (error) {
       console.warn(`rss source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
     }
+  };
+
+  for (const url of urls) {
+    await collectFeedUrl(url);
     if (items.length >= localSourceLimitPerSource) break;
   }
+
+  if (items.length < localSourceLimitPerSource) {
+    for (const url of await discoverFeedUrls(sourceName, urls)) {
+      await collectFeedUrl(url, "rss_discovery");
+      if (items.length >= localSourceLimitPerSource) break;
+    }
+  }
+
+  if (items.length < localSourceLimitPerSource && sourceHomeUrls[sourceName]) {
+    items.push(...await collectWebpageSource(sourceName, sourceHomeUrls[sourceName]));
+  }
+
   return items.slice(0, localSourceLimitPerSource);
+}
+
+async function discoverFeedUrls(sourceName, urls) {
+  const homes = sourceHomeUrls[sourceName] ?? urls.map((url) => {
+    try {
+      const parsed = new URL(url);
+      return `${parsed.origin}/`;
+    } catch {
+      return "";
+    }
+  }).filter(Boolean);
+  const discovered = new Set();
+
+  for (const homeUrl of homes) {
+    try {
+      const html = await fetchText(homeUrl, "text/html,application/xhtml+xml");
+      for (const match of html.matchAll(/<link\b[^>]*>/gi)) {
+        const tag = match[0];
+        const rel = getHtmlAttribute(tag, "rel").toLowerCase();
+        const type = getHtmlAttribute(tag, "type").toLowerCase();
+        const href = getHtmlAttribute(tag, "href");
+        if (!href || !rel.includes("alternate")) continue;
+        if (!/rss|atom|xml/.test(type) && !/feed|rss|atom/i.test(href)) continue;
+        discovered.add(new URL(href, homeUrl).toString());
+      }
+    } catch {
+      // Discovery is opportunistic; fall through to common feed paths.
+    }
+
+    try {
+      const parsed = new URL(homeUrl);
+      for (const suffix of ["/feed.xml", "/rss.xml", "/atom.xml", "/feed", "/rss"]) {
+        discovered.add(`${parsed.origin}${suffix}`);
+      }
+    } catch {
+      // Ignore invalid configured home URLs.
+    }
+  }
+
+  return [...discovered];
 }
 
 function parseAnchorsFromHtml(html, baseUrl, sourceName) {
@@ -769,7 +845,10 @@ async function collectWebpageSource(sourceName, urls) {
   for (const url of urls) {
     try {
       const html = await fetchText(url, "text/html,application/xhtml+xml");
-      const candidates = dedupeWebpageCandidates(parseAnchorsFromHtml(html, url, sourceName));
+      const candidates = dedupeWebpageCandidates([
+        ...parseAnchorsFromHtml(html, url, sourceName),
+        ...await sitemapCandidatesForUrl(url)
+      ]);
       for (const candidate of candidates.slice(0, localSourceLimitPerSource * 6)) {
         const item = await buildWebpageItemFromCandidate(sourceName, candidate);
         if (!item) continue;
@@ -783,6 +862,59 @@ async function collectWebpageSource(sourceName, urls) {
     if (items.length >= localSourceLimitPerSource) break;
   }
   return dedupeItems(items).slice(0, localSourceLimitPerSource);
+}
+
+async function sitemapCandidatesForUrl(baseUrl) {
+  const candidates = [];
+  const sitemapUrls = sitemapUrlsForBase(baseUrl);
+  for (const sitemapUrl of sitemapUrls) {
+    try {
+      const xml = await fetchText(sitemapUrl, "application/xml,text/xml,text/plain");
+      const locs = [...xml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)].map((match) => decodeHtml(match[1].trim()));
+      const articleLocs = locs.filter((loc) => !/\.xml(?:$|\?)/i.test(loc));
+      for (const loc of articleLocs) {
+        if (!isLikelyArticleUrl(loc, baseUrl)) continue;
+        candidates.push({ title: titleFromUrl(loc), sourceUrl: loc, baseUrl });
+      }
+      if (candidates.length > 0) break;
+      for (const nested of locs.filter((loc) => /\.xml(?:$|\?)/i.test(loc)).slice(0, 3)) {
+        const nestedXml = await fetchText(nested, "application/xml,text/xml,text/plain");
+        for (const match of nestedXml.matchAll(/<loc>\s*([^<]+)\s*<\/loc>/gi)) {
+          const loc = decodeHtml(match[1].trim());
+          if (!isLikelyArticleUrl(loc, baseUrl)) continue;
+          candidates.push({ title: titleFromUrl(loc), sourceUrl: loc, baseUrl });
+        }
+        if (candidates.length > 0) break;
+      }
+    } catch {
+      // Sitemap fallback is best effort.
+    }
+    if (candidates.length > 0) break;
+  }
+  return candidates;
+}
+
+function sitemapUrlsForBase(baseUrl) {
+  try {
+    const url = new URL(baseUrl);
+    return [
+      `${url.origin}/sitemap.xml`,
+      `${url.origin}/sitemap_index.xml`,
+      `${url.origin}/sitemap-news.xml`
+    ];
+  } catch {
+    return [];
+  }
+}
+
+function titleFromUrl(url) {
+  try {
+    const parsed = new URL(url);
+    const segment = parsed.pathname.split("/").filter(Boolean).pop() ?? parsed.hostname;
+    return segment.replace(/[-_]+/g, " ").replace(/\.[a-z0-9]+$/i, "");
+  } catch {
+    return url;
+  }
 }
 
 function dedupeWebpageCandidates(candidates) {
@@ -852,6 +984,56 @@ async function collectArxivSource() {
       .slice(0, localSourceLimitPerSource);
   } catch (error) {
     console.warn(`arxiv source skipped (${error instanceof Error ? error.message : String(error)})`);
+    return [];
+  }
+}
+
+function huggingFacePaperUrl(id = "") {
+  return `https://huggingface.co/papers/${encodeURIComponent(id)}`;
+}
+
+function normalizeHuggingFacePaper(row) {
+  const paper = row?.paper ?? row;
+  const id = paper?.id ?? paper?.paperId ?? paper?.arxivId ?? "";
+  const title = paper?.title ?? "";
+  const summary = paper?.summary ?? paper?.abstract ?? "";
+  if (!id || !title || !summary) return null;
+  return {
+    id,
+    title,
+    summary,
+    publishedAt: paper?.submittedOnDailyAt ?? paper?.publishedAt ?? row?.publishedAt ?? "",
+    authors: (paper?.authors ?? row?.authors ?? [])
+      .map((author) => typeof author === "string" ? author : author?.name)
+      .filter(Boolean)
+      .slice(0, 8)
+  };
+}
+
+async function collectHuggingFaceDailyPapers() {
+  const sourceName = huggingFaceDailyPapersSourceName;
+  try {
+    const rows = await fetchJsonUrl("https://huggingface.co/api/daily_papers");
+    return (Array.isArray(rows) ? rows : [])
+      .map(normalizeHuggingFacePaper)
+      .filter(Boolean)
+      .filter((paper) => isRelevantText(paper.title, paper.summary, sourceName))
+      .slice(0, localSourceLimitPerSource)
+      .map((paper) => makeFeedItem({
+        sourceName,
+        sourceKind: "website",
+        title: paper.title,
+        summary: paper.summary,
+        sourceUrl: huggingFacePaperUrl(paper.id),
+        publishedAt: paper.publishedAt,
+        raw: {
+          parser: "huggingface_daily_papers",
+          paperId: paper.id,
+          authors: paper.authors
+        }
+      }));
+  } catch (error) {
+    console.warn(`huggingface papers skipped (${error instanceof Error ? error.message : String(error)})`);
     return [];
   }
 }
@@ -1226,6 +1408,7 @@ async function cachedItemsForSource(sourceName) {
   const cachedItems = await readCachedFeedItems();
   return cachedItems
     .filter((item) => item.sourceName === sourceName)
+    .filter((item) => sourceName !== huggingFaceDailyPapersSourceName || item.raw?.parser === "huggingface_daily_papers")
     .filter((item) => item.raw?.parser !== "manual_weixin_seed")
     .filter((item) => !isLowDetailWebpageItem(item))
     .filter((item) => isRelevantText(item.title, relevanceSummaryFromItem(item), item.sourceName))
@@ -1274,6 +1457,7 @@ async function collectSource(sourceName) {
 
   let fresh = [];
   if (sourceName === arxivSourceName) fresh = await collectArxivSource();
+  else if (sourceName === huggingFaceDailyPapersSourceName) fresh = await collectHuggingFaceDailyPapers();
   else if (sourceName.startsWith("X：")) fresh = await collectXSource(sourceName);
   else if (rssSourceUrls[sourceName]) fresh = await collectRssSource(sourceName, rssSourceUrls[sourceName]);
   else if (webpageSourceUrls[sourceName]) fresh = await collectWebpageSource(sourceName, webpageSourceUrls[sourceName]);
@@ -1394,7 +1578,7 @@ function buildSourceHealthRows(sourceNames, items) {
     const latestAgeHours = latestItem ? itemAgeHours(latestItem) : -1;
     let status = "empty";
     if (sourceItems.length > 0 && counts.seed === sourceItems.length) status = "seed_only";
-    else if (sourceItems.length > 0 && counts.cache === sourceItems.length) status = "cache_only";
+    else if (sourceItems.length > 0 && counts.fresh === 0 && counts.cache > 0) status = "cache_only";
     else if (counts.fresh > 0 && counts.cache + counts.seed > 0) status = "partial";
     else if (counts.fresh > 0) status = "fresh";
     if (latestAgeHours >= 0 && latestAgeHours > sourceHealthStaleHours && status !== "seed_only" && status !== "empty") {
