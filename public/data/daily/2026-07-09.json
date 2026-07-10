@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI finds roughly 30 percent of popular AI coding test is broken",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
       ],
       "watchItems": [
         "跟进：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "跟进：OpenAI finds roughly 30 percent of popular AI coding test is broken",
+        "跟进：Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
         "跟进：Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost",
-        "跟进：ChatGPT is now a partner for your most ambitious work",
-        "跟进：Flink 面向 Agent 的自我重构!"
+        "跟进：ChatGPT is now a partner for your most ambitious work"
       ],
       "sections": [
         {
@@ -44,6 +44,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_b2ce08904dbbfa5cf1e1bcc9"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+              "summary": "Language-conditioned manipulation requires both precise contact-rich control and robust reasoning over language, scenes, and long horizons. End-to-end Vision-Language-Action (VLA) models provide strong local visuomotor skills, but they are trained on in-distribution task traject…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_36dc3bca4569132e18922a74"
               ],
               "confidence": 92
             },
@@ -76,16 +86,6 @@
                 "local_07cb332c7ac0dd0f7015f845"
               ],
               "confidence": 92
-            },
-            {
-              "title": "可算找到一个能统一管理所有Agent还不用额外订阅的开源项目了!",
-              "summary": "Tutti想让我们直接管理一个完整的AI Workspace,我们常用的Agent就直接以App的形式摆在桌面上,Claude Code、Codex,点开就是...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_097458b99bdfa3afa69f291c"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -93,15 +93,16 @@
       "referencedFeedItemIds": [
         "local_1c3362c005d7206289938211",
         "local_b2ce08904dbbfa5cf1e1bcc9",
+        "local_36dc3bca4569132e18922a74",
         "local_2b238dc839bdf62b7b82f9ae",
         "local_a4cd51dabb1a7ac2141014d0",
         "local_07cb332c7ac0dd0f7015f845",
-        "local_097458b99bdfa3afa69f291c",
-        "local_74c6b8dd89ffff80e513940b",
-        "local_d3c3d6fee76e9265c437e058",
-        "local_f79fb0415dfdf3caad6daacf"
+        "local_d778d81e560623200fabc2bf",
+        "local_9c324d00996a89b8d3a14b30",
+        "local_c45aa647f3f5c7c336f2d2fc",
+        "local_74c6b8dd89ffff80e513940b"
       ],
-      "generatedAt": "2026-07-09T23:38:33.259Z",
+      "generatedAt": "2026-07-10T01:18:23.347Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -165,13 +166,13 @@
         "local_07cb332c7ac0dd0f7015f845",
         "local_74c6b8dd89ffff80e513940b"
       ],
-      "generatedAt": "2026-07-09T23:38:33.259Z",
+      "generatedAt": "2026-07-10T01:18:23.347Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-09T23:38:33.259Z",
+  "generatedAt": "2026-07-10T01:18:23.347Z",
   "collectorName": "local-source-collector"
 }
