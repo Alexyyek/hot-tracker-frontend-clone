@@ -17,6 +17,8 @@ const weixinRsshubSourceUrls = parseSourceUrlConfig(process.env.WEIXIN_RSSHUB_SO
 const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "https://hot.aiscl.work/data/feed.json";
 const xBearerToken = process.env.X_BEARER_TOKEN ?? "";
 const xRsshubFallbackEnabled = process.env.X_RSSHUB_FALLBACK !== "0";
+const configuredRequestTimeoutMs = Number(process.env.COLLECTOR_REQUEST_TIMEOUT_MS ?? 15_000);
+const requestTimeoutMs = Number.isFinite(configuredRequestTimeoutMs) && configuredRequestTimeoutMs > 0 ? configuredRequestTimeoutMs : 15_000;
 const dailyCacheFreshnessDays = Number(process.env.DAILY_CACHE_FRESHNESS_DAYS ?? 14);
 const sourceHealthStaleHours = Number(process.env.SOURCE_HEALTH_STALE_HOURS ?? 14 * 24);
 const beijingTimeZone = "Asia/Shanghai";
@@ -625,8 +627,26 @@ function normalizeDate(value) {
   return date.toISOString();
 }
 
+async function fetchWithTimeout(url, options = {}, timeoutMs = requestTimeoutMs) {
+  const controller = new AbortController();
+  let timedOut = false;
+  const timer = setTimeout(() => {
+    timedOut = true;
+    controller.abort();
+  }, timeoutMs);
+
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } catch (error) {
+    if (timedOut) throw new Error(`Request timed out after ${timeoutMs}ms: ${url}`);
+    throw error;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function fetchText(url, accept = "application/atom+xml,text/xml,text/html,text/plain") {
-  const response = await fetch(url, {
+  const response = await fetchWithTimeout(url, {
     headers: {
       Accept: accept,
       "User-Agent": "AI-Hot-Tracker-Local-Collector/1.0"
@@ -638,7 +658,7 @@ async function fetchText(url, accept = "application/atom+xml,text/xml,text/html,
 }
 
 async function fetchJsonUrl(url, headers = {}) {
-  const response = await fetch(url, {
+  const response = await fetchWithTimeout(url, {
     headers: {
       Accept: "application/json",
       "User-Agent": "AI-Hot-Tracker-Local-Collector/1.0",
@@ -1783,7 +1803,8 @@ async function main() {
   const { topics, byTopic, sourceNames } = await readAiConfig();
   const allItems = [];
 
-  for (const sourceName of sourceNames) {
+  for (const [index, sourceName] of sourceNames.entries()) {
+    console.log(`collecting source ${index + 1}/${sourceNames.length}: ${sourceName}`);
     const items = await collectSource(sourceName);
     allItems.push(...items);
   }
