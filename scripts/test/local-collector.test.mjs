@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const collectorPath = new URL("../collect-static-data.mjs", import.meta.url);
+const updateWorkflowPath = new URL("../../.github/workflows/update-data.yml", import.meta.url);
 
 test("static collector does not depend on hot.kyangc.net upstream APIs", async () => {
   const source = await readFile(collectorPath, "utf8");
@@ -22,6 +23,20 @@ test("static collector emits local-source metadata instead of upstream sourceBas
 
   assert.match(source, /collectorName\s*=\s*"local-source-collector"/);
   assert.doesNotMatch(source, /sourceBaseUrl/);
+});
+
+test("scheduled collector wires X and WeChat authorized source secrets", async () => {
+  const source = await readFile(collectorPath, "utf8");
+  const workflow = await readFile(updateWorkflowPath, "utf8");
+
+  assert.match(source, /X_BEARER_TOKEN/);
+  assert.match(source, /RSSHUB_BASE_URLS?/);
+  assert.match(source, /WEIXIN_RSSHUB_SOURCES_JSON/);
+  assert.match(source, /x_rsshub/);
+  assert.match(source, /weixin_rsshub/);
+  assert.match(workflow, /X_BEARER_TOKEN:\s*\$\{\{\s*secrets\.X_BEARER_TOKEN\s*\}\}/);
+  assert.match(workflow, /RSSHUB_BASE_URLS:\s*\$\{\{\s*secrets\.RSSHUB_BASE_URLS\s*\}\}/);
+  assert.match(workflow, /WEIXIN_RSSHUB_SOURCES_JSON:\s*\$\{\{\s*secrets\.WEIXIN_RSSHUB_SOURCES_JSON\s*\}\}/);
 });
 
 test("webpage collector does not publish generic link-placeholder summaries", async () => {
@@ -86,6 +101,7 @@ test("WeChat collector emits health rows for every WeChat source", async () => {
     assert.equal(typeof row.counts.sogou, "number");
     assert.equal(typeof row.counts.search, "number");
     assert.equal(typeof row.counts.feed, "number");
+    assert.equal(typeof row.counts.rsshub, "number");
     assert.equal(typeof row.counts.cache, "number");
     assert.equal(typeof row.counts.seed, "number");
   }

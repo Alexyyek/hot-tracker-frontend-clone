@@ -11,9 +11,12 @@ const weixinDelayMs = Number(process.env.WEIXIN_FALLBACK_DELAY_MS ?? 900);
 const weixinQueryTerms = (process.env.WEIXIN_QUERY_TERMS ?? "Agent,大模型,RAG,AI Native,智能体").split(",").map((term) => term.trim()).filter(Boolean);
 const weixinSearchLimitPerSource = Number(process.env.WEIXIN_SEARCH_LIMIT_PER_SOURCE ?? 2);
 const weixinSearchEnabled = process.env.WEIXIN_SEARCH_DISCOVERY !== "0";
-const weixinFeedSourceUrls = parseWeixinFeedSourceUrls(process.env.WEIXIN_FEED_SOURCES_JSON ?? "{}");
+const rsshubBaseUrls = parseBaseUrls(`${process.env.RSSHUB_BASE_URLS ?? ""}\n${process.env.RSSHUB_BASE_URL ?? ""}`);
+const weixinFeedSourceUrls = parseSourceUrlConfig(process.env.WEIXIN_FEED_SOURCES_JSON ?? "{}");
+const weixinRsshubSourceUrls = parseSourceUrlConfig(process.env.WEIXIN_RSSHUB_SOURCES_JSON ?? "{}", rsshubBaseUrls);
 const staticFeedFallbackUrl = process.env.STATIC_FEED_FALLBACK_URL ?? "https://hot.aiscl.work/data/feed.json";
 const xBearerToken = process.env.X_BEARER_TOKEN ?? "";
+const xRsshubFallbackEnabled = process.env.X_RSSHUB_FALLBACK !== "0";
 const dailyCacheFreshnessDays = Number(process.env.DAILY_CACHE_FRESHNESS_DAYS ?? 14);
 const sourceHealthStaleHours = Number(process.env.SOURCE_HEALTH_STALE_HOURS ?? 14 * 24);
 const beijingTimeZone = "Asia/Shanghai";
@@ -267,17 +270,43 @@ const weixinManualSeeds = {
   ]
 };
 
-function parseWeixinFeedSourceUrls(raw) {
+function parseBaseUrls(raw = "") {
+  return [...new Set(String(raw)
+    .split(/[\n,]+/)
+    .map((url) => url.trim().replace(/\/+$/, ""))
+    .filter((url) => /^https?:\/\//.test(url)))];
+}
+
+function expandConfiguredUrl(value, baseUrls = []) {
+  const raw = String(value ?? "").trim();
+  if (!raw) return [];
+  if (/^https?:\/\//.test(raw)) return [raw];
+  if (baseUrls.length === 0) return [];
+  const route = raw.startsWith("/") ? raw : `/${raw}`;
+  return baseUrls.map((baseUrl) => `${baseUrl}${route}`);
+}
+
+function parseSourceUrlConfig(raw, baseUrls = []) {
   try {
     const parsed = JSON.parse(raw);
     if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {};
     return Object.fromEntries(Object.entries(parsed)
       .map(([sourceName, value]) => {
-        if (Array.isArray(value)) return [sourceName, value.filter((url) => typeof url === "string" && /^https?:\/\//.test(url))];
-        if (value && typeof value === "object" && Array.isArray(value.urls)) {
-          return [sourceName, value.urls.filter((url) => typeof url === "string" && /^https?:\/\//.test(url))];
+        const urls = [];
+        if (Array.isArray(value)) {
+          for (const entry of value) urls.push(...expandConfiguredUrl(entry, baseUrls));
+        } else if (typeof value === "string") {
+          urls.push(...expandConfiguredUrl(value, baseUrls));
+        } else if (value && typeof value === "object") {
+          const entries = [
+            ...(Array.isArray(value.urls) ? value.urls : []),
+            ...(Array.isArray(value.routes) ? value.routes : []),
+            value.url,
+            value.route
+          ].filter(Boolean);
+          for (const entry of entries) urls.push(...expandConfiguredUrl(entry, baseUrls));
         }
-        return [sourceName, []];
+        return [sourceName, [...new Set(urls)]];
       })
       .filter(([, urls]) => urls.length > 0));
   } catch {
@@ -1137,24 +1166,31 @@ function extractWeixinArticleDetails(html, fallback) {
   };
 }
 
-async function collectWeixinFeedItems(sourceName, errors) {
-  const urls = weixinFeedSourceUrls[sourceName] ?? [];
+async function collectConfiguredFeedItems(sourceName, sourceKind, urls, parserName, errors, limit) {
   const items = [];
   for (const url of urls) {
     try {
       const xml = await fetchText(url, "application/atom+xml,text/xml,application/rss+xml");
-      const rows = parseFeedXml(xml, sourceName, "weixin_article")
+      const rows = parseFeedXml(xml, sourceName, sourceKind)
         .map((item) => ({
           ...item,
-          raw: { ...(item.raw ?? {}), parser: "weixin_feed", feedUrl: url }
+          raw: { ...(item.raw ?? {}), parser: parserName, feedUrl: url }
         }));
       items.push(...rows);
     } catch (error) {
-      errors.push(`feed: ${error instanceof Error ? error.message : String(error)}`);
+      errors.push(`${parserName}: ${error instanceof Error ? error.message : String(error)}`);
     }
-    if (items.length >= weixinLimitPerSource) break;
+    if (items.length >= limit) break;
   }
-  return dedupeItems(items).slice(0, weixinLimitPerSource);
+  return dedupeItems(items).slice(0, limit);
+}
+
+async function collectWeixinFeedItems(sourceName, errors) {
+  return collectConfiguredFeedItems(sourceName, "weixin_article", weixinFeedSourceUrls[sourceName] ?? [], "weixin_feed", errors, weixinLimitPerSource);
+}
+
+async function collectWeixinRsshubItems(sourceName, errors) {
+  return collectConfiguredFeedItems(sourceName, "weixin_article", weixinRsshubSourceUrls[sourceName] ?? [], "weixin_rsshub", errors, weixinLimitPerSource);
 }
 
 async function collectWeixinSearchItems(sourceName, errors) {
@@ -1227,6 +1263,7 @@ async function cachedPublishedAtForUrl(sourceName, sourceUrl) {
 
 function weixinItemChannel(item) {
   if (item.raw?.parser === "weixin_feed") return "feed";
+  if (item.raw?.parser === "weixin_rsshub") return "rsshub";
   if (item.raw?.parser === "search_weixin") return "search";
   if (item.raw?.parser === "sogou_weixin") return "sogou";
   if (item.raw?.parser === "manual_weixin_seed") return "seed";
@@ -1235,9 +1272,9 @@ function weixinItemChannel(item) {
 }
 
 function buildWeixinHealthRow(sourceName, items, errors) {
-  const counts = { feed: 0, search: 0, sogou: 0, cache: 0, seed: 0, unknown: 0 };
+  const counts = { feed: 0, rsshub: 0, search: 0, sogou: 0, cache: 0, seed: 0, unknown: 0 };
   for (const item of items) counts[weixinItemChannel(item)] += 1;
-  const realCount = counts.feed + counts.search + counts.sogou;
+  const realCount = counts.feed + counts.rsshub + counts.search + counts.sogou;
   const latestItem = items.find((item) => weixinItemChannel(item) !== "seed") ?? items[0];
   const latest = latestItem?.publishedAt || latestItem?.observedAt || "";
   let status = "empty";
@@ -1272,6 +1309,10 @@ async function collectWeixinSource(sourceName) {
   const errors = [];
 
   for (const item of await collectWeixinFeedItems(sourceName, errors)) {
+    byId.set(itemIdentityKey(item), item);
+  }
+
+  for (const item of await collectWeixinRsshubItems(sourceName, errors)) {
     byId.set(itemIdentityKey(item), item);
   }
 
@@ -1345,10 +1386,8 @@ function xHandleFromSource(sourceName) {
   return sourceName.match(/@([A-Za-z0-9_]+)/)?.[1] ?? "";
 }
 
-async function collectXSource(sourceName) {
-  if (!xBearerToken) return [];
-  const handle = xHandleFromSource(sourceName);
-  if (!handle) return [];
+async function collectXApiItems(sourceName, handle) {
+  if (!xBearerToken || !handle) return [];
   try {
     const user = await fetchJsonUrl(`https://api.twitter.com/2/users/by/username/${handle}`, {
       Authorization: `Bearer ${xBearerToken}`
@@ -1376,9 +1415,32 @@ async function collectXSource(sourceName) {
         raw: { parser: "x_api", handle }
       }));
   } catch (error) {
-    console.warn(`x source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
+    console.warn(`x api source skipped: ${sourceName} (${error instanceof Error ? error.message : String(error)})`);
     return [];
   }
+}
+
+async function collectXRsshubItems(sourceName, handle) {
+  if (!xRsshubFallbackEnabled || rsshubBaseUrls.length === 0 || !handle) return [];
+  const urls = rsshubBaseUrls.map((baseUrl) => `${baseUrl}/twitter/user/${encodeURIComponent(handle)}/count=20&includeRts=0`);
+  return collectConfiguredFeedItems(sourceName, "x", urls, "x_rsshub", [], localSourceLimitPerSource);
+}
+
+async function collectXSource(sourceName) {
+  const handle = xHandleFromSource(sourceName);
+  const byId = new Map();
+  for (const item of await collectXApiItems(sourceName, handle)) {
+    byId.set(itemIdentityKey(item), item);
+  }
+
+  if (byId.size < localSourceLimitPerSource) {
+    for (const item of await collectXRsshubItems(sourceName, handle)) {
+      const key = itemIdentityKey(item);
+      if (!byId.has(key)) byId.set(key, item);
+    }
+  }
+
+  return [...byId.values()].sort(compareItems).slice(0, localSourceLimitPerSource);
 }
 
 let cachedFeedPromise;
@@ -1404,7 +1466,7 @@ async function readCachedFeedItems() {
 }
 
 async function cachedItemsForSource(sourceName) {
-  if (sourceName.startsWith("X：") && !xBearerToken) return [];
+  if (sourceName.startsWith("X：") && !xBearerToken && (!xRsshubFallbackEnabled || rsshubBaseUrls.length === 0)) return [];
   const cachedItems = await readCachedFeedItems();
   return cachedItems
     .filter((item) => item.sourceName === sourceName)

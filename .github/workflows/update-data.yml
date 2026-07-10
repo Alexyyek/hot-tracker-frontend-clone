@@ -31,7 +31,11 @@ jobs:
       - name: Collect latest data
         run: npm run collect:data
         env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          RSSHUB_BASE_URL: ${{ secrets.RSSHUB_BASE_URL }}
+          RSSHUB_BASE_URLS: ${{ secrets.RSSHUB_BASE_URLS }}
           WEIXIN_FEED_SOURCES_JSON: ${{ secrets.WEIXIN_FEED_SOURCES_JSON }}
+          WEIXIN_RSSHUB_SOURCES_JSON: ${{ secrets.WEIXIN_RSSHUB_SOURCES_JSON }}
           WEIXIN_SEARCH_LIMIT_PER_SOURCE: "1"
 
       - name: Commit updated data
