@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI finds roughly 30 percent of popular AI coding test is broken",
@@ -16,7 +16,7 @@
         "跟进：OpenAI finds roughly 30 percent of popular AI coding test is broken",
         "跟进：Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
         "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-        "跟进：Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost"
+        "跟进：Cloud Use:当 Agent 开始真正使用云"
       ],
       "sections": [
         {
@@ -63,17 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1c99d9327dd89cb8a5fb500a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Databricks makes Chinese open-source model GLM 5.2 its default coding engine after it matched Opus at lower cost",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Databricks benchmarked coding agents on its own multi-million-line codebase and found that the Chinese open-source model GLM 5.2 matched Anthropic's Opus 4.8 at $1.28 per task versus $1.94. The company plans to roll it …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2b238dc839bdf62b7b82f9ae"
+                "local_c1ad17f102334a6354745893"
               ],
               "confidence": 92
             },
@@ -83,9 +73,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e85b53eb257d1ea365512a92"
+                "local_116421c9a8fab6b8fc3c1d35"
               ],
               "confidence": 90
+            },
+            {
+              "title": "ChatGPT is now a partner for your most ambitious work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a4cd51dabb1a7ac2141014d0"
+              ],
+              "confidence": 74
             }
           ]
         }
@@ -94,17 +94,16 @@
         "local_1c3362c005d7206289938211",
         "local_b2ce08904dbbfa5cf1e1bcc9",
         "local_36dc3bca4569132e18922a74",
-        "local_1c99d9327dd89cb8a5fb500a",
-        "local_2b238dc839bdf62b7b82f9ae",
-        "local_e85b53eb257d1ea365512a92",
+        "local_c1ad17f102334a6354745893",
+        "local_116421c9a8fab6b8fc3c1d35",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_848c0b8e4a3531316361b862",
-        "local_f75b605812a8c05483f42193",
+        "local_bf2aaa35feeeea7235f9cef9",
+        "local_8d472e989dbf81ad312b22cd",
         "local_9c324d00996a89b8d3a14b30",
         "local_c45aa647f3f5c7c336f2d2fc",
         "local_74c6b8dd89ffff80e513940b"
       ],
-      "generatedAt": "2026-07-10T15:28:13.796Z",
+      "generatedAt": "2026-07-10T17:34:06.615Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -138,7 +137,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1c99d9327dd89cb8a5fb500a"
+                "local_c1ad17f102334a6354745893"
               ],
               "confidence": 92
             },
@@ -148,7 +147,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e85b53eb257d1ea365512a92"
+                "local_116421c9a8fab6b8fc3c1d35"
               ],
               "confidence": 90
             },
@@ -168,7 +167,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_848c0b8e4a3531316361b862"
+                "local_bf2aaa35feeeea7235f9cef9"
               ],
               "confidence": 92
             },
@@ -186,19 +185,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_1c99d9327dd89cb8a5fb500a",
-        "local_e85b53eb257d1ea365512a92",
+        "local_c1ad17f102334a6354745893",
+        "local_116421c9a8fab6b8fc3c1d35",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_848c0b8e4a3531316361b862",
+        "local_bf2aaa35feeeea7235f9cef9",
         "local_74c6b8dd89ffff80e513940b"
       ],
-      "generatedAt": "2026-07-10T15:28:13.796Z",
+      "generatedAt": "2026-07-10T17:34:06.616Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-10T15:28:13.796Z",
+  "generatedAt": "2026-07-10T17:34:06.616Z",
   "collectorName": "local-source-collector"
 }
