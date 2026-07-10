@@ -38,7 +38,19 @@ jobs:
           WEIXIN_RSSHUB_SOURCES_JSON: ${{ secrets.WEIXIN_RSSHUB_SOURCES_JSON }}
           WEIXIN_SEARCH_LIMIT_PER_SOURCE: "1"
 
+      - name: Check whether main advanced during collection
+        id: remote_check
+        run: |
+          git fetch origin main
+          if [[ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]]; then
+            echo "Remote main advanced during collection; skipping stale data commit."
+            echo "skip_commit=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip_commit=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Commit updated data
+        if: steps.remote_check.outputs.skip_commit != 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update static hot tracker data"
