@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「OpenAI finds roughly 30 percent of popular AI coding test is broken」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS GraphRAG deployment cuts drug research cycles by 87%",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI finds roughly 30 percent of popular AI coding test is broken",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化"
       ],
       "watchItems": [
         "跟进：AWS GraphRAG deployment cuts drug research cycles by 87%",
-        "跟进：OpenAI finds roughly 30 percent of popular AI coding test is broken",
         "跟进：Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
         "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-        "跟进：Cloud Use:当 Agent 开始真正使用云"
+        "跟进：Cloud Use:当 Agent 开始真正使用云",
+        "跟进：ChatGPT is now a partner for your most ambitious work"
       ],
       "sections": [
         {
@@ -38,16 +38,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "OpenAI finds roughly 30 percent of popular AI coding test is broken",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI reviewed SWE-Bench Pro, a widely used test for measuring AI models' programming skills, and found roughly 30 percent of its tasks are broken. The company is pulling its earlier endorsement of the benchmark. The a…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b2ce08904dbbfa5cf1e1bcc9"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
               "summary": "Language-conditioned manipulation requires both precise contact-rich control and robust reasoning over language, scenes, and long horizons. End-to-end Vision-Language-Action (VLA) models provide strong local visuomotor skills, but they are trained on in-distribution task traject…",
               "insightLabel": "关注",
@@ -63,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c1ad17f102334a6354745893"
+                "local_b8404aa7cd35dd9a68223603"
               ],
               "confidence": 92
             },
@@ -73,81 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_116421c9a8fab6b8fc3c1d35"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "ChatGPT is now a partner for your most ambitious work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a4cd51dabb1a7ac2141014d0"
-              ],
-              "confidence": 74
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_1c3362c005d7206289938211",
-        "local_b2ce08904dbbfa5cf1e1bcc9",
-        "local_36dc3bca4569132e18922a74",
-        "local_c1ad17f102334a6354745893",
-        "local_116421c9a8fab6b8fc3c1d35",
-        "local_a4cd51dabb1a7ac2141014d0",
-        "local_bf2aaa35feeeea7235f9cef9",
-        "local_8d472e989dbf81ad312b22cd",
-        "local_9c324d00996a89b8d3a14b30",
-        "local_c45aa647f3f5c7c336f2d2fc",
-        "local_74c6b8dd89ffff80e513940b"
-      ],
-      "generatedAt": "2026-07-10T17:34:06.615Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-07-09",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-07-09",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」、「Cloud Use:当 Agent 开始真正使用云」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT is now a partner for your most ambitious work"
-      ],
-      "watchItems": [
-        "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-        "跟进：Cloud Use:当 Agent 开始真正使用云",
-        "跟进：ChatGPT is now a partner for your most ambitious work",
-        "跟进：Flink 面向 Agent 的自我重构!",
-        "跟进：Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance"
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-              "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c1ad17f102334a6354745893"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Cloud Use:当 Agent 开始真正使用云",
-              "summary": "Agent 调一次云 API 并不难.难的是,让它每天调、半夜调、跨系... 技术上,给它足够权限就能做,但恰巧真正的风险也藏在这里....",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_116421c9a8fab6b8fc3c1d35"
+                "local_87f5e475b7588c0ecdae0db2"
               ],
               "confidence": 90
             },
@@ -167,17 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bf2aaa35feeeea7235f9cef9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Create a LangChain Deep Agents Harness Profile for NVIDIA Nemotron 3 Ultra to Improve Performance",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic systems often face a trade-off between accuracy and cost. The highest-performing proprietary frontier models and harnesses provide top accuracy but are...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_74c6b8dd89ffff80e513940b"
+                "local_72797ab73dad92a3c2892fdd"
               ],
               "confidence": 92
             }
@@ -185,19 +91,99 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c1ad17f102334a6354745893",
-        "local_116421c9a8fab6b8fc3c1d35",
+        "local_1c3362c005d7206289938211",
+        "local_36dc3bca4569132e18922a74",
+        "local_b8404aa7cd35dd9a68223603",
+        "local_87f5e475b7588c0ecdae0db2",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_bf2aaa35feeeea7235f9cef9",
-        "local_74c6b8dd89ffff80e513940b"
+        "local_72797ab73dad92a3c2892fdd",
+        "local_06d10c6c238d832afd5ea54b",
+        "local_9c324d00996a89b8d3a14b30",
+        "local_c45aa647f3f5c7c336f2d2fc"
       ],
-      "generatedAt": "2026-07-10T17:34:06.616Z",
+      "generatedAt": "2026-07-10T18:59:10.010Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-07-09",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-07-09",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」、「Cloud Use:当 Agent 开始真正使用云」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT is now a partner for your most ambitious work"
+      ],
+      "watchItems": [
+        "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
+        "跟进：Cloud Use:当 Agent 开始真正使用云",
+        "跟进：ChatGPT is now a partner for your most ambitious work",
+        "跟进：Flink 面向 Agent 的自我重构!"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
+              "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b8404aa7cd35dd9a68223603"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Cloud Use:当 Agent 开始真正使用云",
+              "summary": "Agent 调一次云 API 并不难.难的是,让它每天调、半夜调、跨系... 技术上,给它足够权限就能做,但恰巧真正的风险也藏在这里....",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_87f5e475b7588c0ecdae0db2"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "ChatGPT is now a partner for your most ambitious work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a4cd51dabb1a7ac2141014d0"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Flink 面向 Agent 的自我重构!",
+              "summary": "AI Native 时代的基础设施层. 我们梳理了大会上的五个关键判断,试图勾勒出这一技术转向的轮廓.01判断一:Data Gravity&mdash;&mdash;...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_72797ab73dad92a3c2892fdd"
+              ],
+              "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_b8404aa7cd35dd9a68223603",
+        "local_87f5e475b7588c0ecdae0db2",
+        "local_a4cd51dabb1a7ac2141014d0",
+        "local_72797ab73dad92a3c2892fdd"
+      ],
+      "generatedAt": "2026-07-10T18:59:10.010Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-10T17:34:06.616Z",
+  "generatedAt": "2026-07-10T18:59:10.010Z",
   "collectorName": "local-source-collector"
 }
