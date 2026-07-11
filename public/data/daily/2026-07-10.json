@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
-              "title": "GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI's GPT-5.6 Sol scores 59 points on the Artificial Analysis Intelligence Index, just one point behind Claude Fable 5. At $1.04 per task, it costs a third of what Anthropic's top model charges. In agentic coding, So…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b17b74dabac7564703398ba8"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
               "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_45e131a494db0556485cc925"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing Muse Spark 1.1",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing Muse Spark 1.1 Following Muse Spark in April, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_77b3f065a10810a14eb7b9b9"
               ],
               "confidence": 92
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_18ccb135837a6a85539aef70"
+                "local_8e011b1a72ad87aa134b3686"
               ],
               "confidence": 82
             },
@@ -103,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_04e71a607d67d3df2772f2a1"
+                "local_992c8647a37daa015a024b93"
               ],
               "confidence": 92
             },
@@ -167,9 +167,9 @@
       ],
       "referencedFeedItemIds": [
         "local_c6afe13a43dfb5956ce588a2",
-        "local_18ccb135837a6a85539aef70",
+        "local_8e011b1a72ad87aa134b3686",
         "local_7614d30d2768b7c7f6b32f69",
-        "local_04e71a607d67d3df2772f2a1",
+        "local_992c8647a37daa015a024b93",
         "local_1c16669c44d1afae502de861",
         "local_765ae743a820b7c1c452aa63",
         "local_198dda9017f4a4d24e067eba",
@@ -177,12 +177,11 @@
         "local_184ce184323ee1f65648b98c",
         "local_3d4b6ae8693b2a33153ebe51",
         "local_b717d1acbc8b54fb57f90386",
-        "local_b17b74dabac7564703398ba8",
         "local_45e131a494db0556485cc925",
         "local_77b3f065a10810a14eb7b9b9",
         "local_d9cd811582cbd3d1ab2817c2"
       ],
-      "generatedAt": "2026-07-11T04:37:10.088Z",
+      "generatedAt": "2026-07-11T07:07:05.870Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -231,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_18ccb135837a6a85539aef70"
+                "local_8e011b1a72ad87aa134b3686"
               ],
               "confidence": 82
             },
@@ -251,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_04e71a607d67d3df2772f2a1"
+                "local_992c8647a37daa015a024b93"
               ],
               "confidence": 92
             },
@@ -270,18 +269,18 @@
       ],
       "referencedFeedItemIds": [
         "local_c6afe13a43dfb5956ce588a2",
-        "local_18ccb135837a6a85539aef70",
+        "local_8e011b1a72ad87aa134b3686",
         "local_7614d30d2768b7c7f6b32f69",
-        "local_04e71a607d67d3df2772f2a1",
+        "local_992c8647a37daa015a024b93",
         "local_b717d1acbc8b54fb57f90386"
       ],
-      "generatedAt": "2026-07-11T04:37:10.088Z",
+      "generatedAt": "2026-07-11T07:07:05.870Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-11T04:37:10.089Z",
+  "generatedAt": "2026-07-11T07:07:05.870Z",
   "collectorName": "local-source-collector"
 }
