@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施"
       ],
       "watchItems": [
         "跟进：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "跟进：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+        "跟进：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "跟进：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
-        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式",
-        "跟进：The Future Worth Building Is Human"
+        "跟进：华为云码道(CodeArts)重构图形编程项目实践"
       ],
       "sections": [
         {
@@ -31,6 +31,26 @@
                 "local_c6afe13a43dfb5956ce588a2"
               ],
               "confidence": 70
+            },
+            {
+              "title": "字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
+              "summary": "二、超越代码生成:用 Agent 框架破解 OpenBMC 平台移植难题分享人:郏春辉 | 字节跳动 STE 固件团队从管理接口到固件构建:标...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c9a67093c344ce22b0534e78"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "华为云码道(CodeArts)重构图形编程项目实践",
+              "summary": "智能体的上下文感知能力华为云码道 AI 智能体具备深度上下文感知,能够理解项目的技术栈和架构模式,生成的代码与项目风格高度...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b92625cd4671a50cbf276a5c"
+              ],
+              "confidence": 86
             },
             {
               "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
@@ -51,26 +71,6 @@
                 "local_3d4b6ae8693b2a33153ebe51"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
-              "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_45e131a494db0556485cc925"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Introducing Muse Spark 1.1",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing Muse Spark 1.1 Following Muse Spark in April, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot more…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_77b3f065a10810a14eb7b9b9"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_69a40c944c5e4a4ff3916fe0"
+                "local_700eb86a0cbb339f5340f83c"
               ],
               "confidence": 82
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7614d30d2768b7c7f6b32f69"
+                "local_9f4a3d69734badeab7235d90"
               ],
               "confidence": 74
             },
@@ -103,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_99f3a28eae02444ae6171587"
+                "local_956e3021cd2f3d4a20115487"
               ],
               "confidence": 92
             },
@@ -167,9 +167,11 @@
       ],
       "referencedFeedItemIds": [
         "local_c6afe13a43dfb5956ce588a2",
-        "local_69a40c944c5e4a4ff3916fe0",
-        "local_7614d30d2768b7c7f6b32f69",
-        "local_99f3a28eae02444ae6171587",
+        "local_700eb86a0cbb339f5340f83c",
+        "local_c9a67093c344ce22b0534e78",
+        "local_9f4a3d69734badeab7235d90",
+        "local_b92625cd4671a50cbf276a5c",
+        "local_956e3021cd2f3d4a20115487",
         "local_1c16669c44d1afae502de861",
         "local_765ae743a820b7c1c452aa63",
         "local_198dda9017f4a4d24e067eba",
@@ -180,7 +182,7 @@
         "local_77b3f065a10810a14eb7b9b9",
         "local_d9cd811582cbd3d1ab2817c2"
       ],
-      "generatedAt": "2026-07-12T01:22:52.769Z",
+      "generatedAt": "2026-07-12T05:08:30.616Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -191,17 +193,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-10",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施"
       ],
       "watchItems": [
         "跟进：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "跟进：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+        "跟进：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "跟进：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
-        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式"
+        "跟进：华为云码道(CodeArts)重构图形编程项目实践"
       ],
       "sections": [
         {
@@ -216,6 +219,26 @@
                 "local_c6afe13a43dfb5956ce588a2"
               ],
               "confidence": 70
+            },
+            {
+              "title": "字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
+              "summary": "二、超越代码生成:用 Agent 框架破解 OpenBMC 平台移植难题分享人:郏春辉 | 字节跳动 STE 固件团队从管理接口到固件构建:标...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c9a67093c344ce22b0534e78"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "华为云码道(CodeArts)重构图形编程项目实践",
+              "summary": "智能体的上下文感知能力华为云码道 AI 智能体具备深度上下文感知,能够理解项目的技术栈和架构模式,生成的代码与项目风格高度...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b92625cd4671a50cbf276a5c"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -228,7 +251,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_69a40c944c5e4a4ff3916fe0"
+                "local_700eb86a0cbb339f5340f83c"
               ],
               "confidence": 82
             },
@@ -238,7 +261,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7614d30d2768b7c7f6b32f69"
+                "local_9f4a3d69734badeab7235d90"
               ],
               "confidence": 74
             },
@@ -248,7 +271,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_99f3a28eae02444ae6171587"
+                "local_956e3021cd2f3d4a20115487"
               ],
               "confidence": 92
             }
@@ -257,17 +280,19 @@
       ],
       "referencedFeedItemIds": [
         "local_c6afe13a43dfb5956ce588a2",
-        "local_69a40c944c5e4a4ff3916fe0",
-        "local_7614d30d2768b7c7f6b32f69",
-        "local_99f3a28eae02444ae6171587"
+        "local_700eb86a0cbb339f5340f83c",
+        "local_c9a67093c344ce22b0534e78",
+        "local_9f4a3d69734badeab7235d90",
+        "local_b92625cd4671a50cbf276a5c",
+        "local_956e3021cd2f3d4a20115487"
       ],
-      "generatedAt": "2026-07-12T01:22:52.769Z",
+      "generatedAt": "2026-07-12T05:08:30.616Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-12T01:22:52.770Z",
+  "generatedAt": "2026-07-12T05:08:30.616Z",
   "collectorName": "local-source-collector"
 }
