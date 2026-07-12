@@ -5,55 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「China&#039;s Orca world model matches specialized robotics systems without ever seeing a single action label」、「Apple sues OpenAI for allegedly running a \"coordinated campaign\" to steal trade secrets through poached employees」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading」、「Quoting Nilay Patel」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#039;s Orca world model matches specialized robotics systems without ever seeing a single action label",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Apple sues OpenAI for allegedly running a \"coordinated campaign\" to steal trade secrets through poached employees",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Nilay Patel",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Model Co-Design: Hardware-Friendly LLM Design"
       ],
       "watchItems": [
-        "跟进：China&#039;s Orca world model matches specialized robotics systems without ever seeing a single action label",
-        "跟进：Apple sues OpenAI for allegedly running a \"coordinated campaign\" to steal trade secrets through poached employees",
         "跟进：Reducing High-Bandwidth Memory Bottlenecks in JAX-Based LLM Training with Host Offloading",
         "跟进：Quoting Nilay Patel",
         "跟进：AI Model Co-Design: Hardware-Friendly LLM Design"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "China&#039;s Orca world model matches specialized robotics systems without ever seeing a single action label",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Beijing Academy of Artificial Intelligence has released Orca, a world model that predicts abstract world states instead of tokens or pixels. Trained on 125,000 hours of video without a single action label, Orca matc…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_97c9110ba42be5efcb7015ee"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Apple sues OpenAI for allegedly running a \"coordinated campaign\" to steal trade secrets through poached employees",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Apple is suing OpenAI over systematic employee poaching and the alleged theft of trade secrets tied to unreleased products. According to the complaint, more than 400 ex-Apple employees now work at OpenAI, including form…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_2169bfc732a439e0d70ea75b"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Quoting Nilay Patel",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way aro…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cf5b1328329797cff73e5207"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -78,16 +41,29 @@
               "confidence": 70
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Quoting Nilay Patel",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way aro…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_cf5b1328329797cff73e5207"
+              ],
+              "confidence": 74
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_97c9110ba42be5efcb7015ee",
-        "local_2169bfc732a439e0d70ea75b",
         "local_e9d7f6ef06a8de17dc67e56d",
         "local_cf5b1328329797cff73e5207",
         "local_983d38d90376ad7d6c916b9a"
       ],
-      "generatedAt": "2026-07-12T07:46:44.593Z",
+      "generatedAt": "2026-07-12T09:40:22.815Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -138,13 +114,13 @@
         "local_e9d7f6ef06a8de17dc67e56d",
         "local_983d38d90376ad7d6c916b9a"
       ],
-      "generatedAt": "2026-07-12T07:46:44.593Z",
+      "generatedAt": "2026-07-12T09:40:22.815Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-12T07:46:44.594Z",
+  "generatedAt": "2026-07-12T09:40:22.815Z",
   "collectorName": "local-source-collector"
 }
