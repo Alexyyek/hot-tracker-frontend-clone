@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Takeda signs $600M AI drug discovery deal with Insilico"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从AI Coding到Harness Engineering的端到端工程开发实践"
       ],
       "watchItems": [
         "跟进：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "跟进：Takeda signs $600M AI drug discovery deal with Insilico",
         "跟进：从AI Coding到Harness Engineering的端到端工程开发实践",
-        "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM"
+        "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
+        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ffc064b5ed09f2f2c4757b5e"
+                "local_0fd78576203e6eea9190fe67"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f290db18a1cd551887d294fb"
+                "local_b9c9fe3155bc52b3282a99ed"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7a93741ecab4131e93d847db"
+                "local_288f5b068c342c897424616b"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ac4e420076be3a293d11b135"
+                "local_be9a6caf65d0388ab45ab8bf"
               ],
               "confidence": 92
             }
@@ -88,34 +88,18 @@
               "confidence": 86
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Takeda signs $600M AI drug discovery deal with Insilico",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Takeda has entered a strategic collaboration with Hong Kong-based Insilico Medicine to use AI in early-stage drug discovery across the Japanese pharmaceutical company’s therapeutic areas. The companies did not disclose …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_dfcac65fd286a18724f63610"
-              ],
-              "confidence": 74
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_ffc064b5ed09f2f2c4757b5e",
+        "local_0fd78576203e6eea9190fe67",
         "feed_629b5173f921c94f16fb0b39",
-        "local_dfcac65fd286a18724f63610",
-        "local_f290db18a1cd551887d294fb",
+        "local_b9c9fe3155bc52b3282a99ed",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_7a93741ecab4131e93d847db",
-        "local_ac4e420076be3a293d11b135",
+        "local_288f5b068c342c897424616b",
+        "local_be9a6caf65d0388ab45ab8bf",
         "feed_ad463b46824fbae8c971fb34"
       ],
-      "generatedAt": "2026-07-13T15:16:33.936Z",
+      "generatedAt": "2026-07-13T17:44:43.313Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -149,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ffc064b5ed09f2f2c4757b5e"
+                "local_0fd78576203e6eea9190fe67"
               ],
               "confidence": 92
             },
@@ -159,7 +143,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f290db18a1cd551887d294fb"
+                "local_b9c9fe3155bc52b3282a99ed"
               ],
               "confidence": 92
             },
@@ -179,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7a93741ecab4131e93d847db"
+                "local_288f5b068c342c897424616b"
               ],
               "confidence": 92
             },
@@ -189,7 +173,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ac4e420076be3a293d11b135"
+                "local_be9a6caf65d0388ab45ab8bf"
               ],
               "confidence": 92
             }
@@ -212,21 +196,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_ffc064b5ed09f2f2c4757b5e",
+        "local_0fd78576203e6eea9190fe67",
         "feed_629b5173f921c94f16fb0b39",
-        "local_f290db18a1cd551887d294fb",
+        "local_b9c9fe3155bc52b3282a99ed",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_7a93741ecab4131e93d847db",
-        "local_ac4e420076be3a293d11b135",
+        "local_288f5b068c342c897424616b",
+        "local_be9a6caf65d0388ab45ab8bf",
         "feed_ad463b46824fbae8c971fb34"
       ],
-      "generatedAt": "2026-07-13T15:16:33.936Z",
+      "generatedAt": "2026-07-13T17:44:43.313Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-13T15:16:33.936Z",
+  "generatedAt": "2026-07-13T17:44:43.313Z",
   "collectorName": "local-source-collector"
 }

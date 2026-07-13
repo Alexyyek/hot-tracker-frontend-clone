@@ -5,142 +5,117 @@
       "topicId": "ai",
       "reportDate": "2026-07-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论」、「AI推理成本首次算清：GPU利用率不到52%，千万别自建！」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从看见问题到解决问题，Agent 正重新定义可观测"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent crawlers now need permission. Here&#8217;s how to get it"
       ],
       "watchItems": [
-        "跟进：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "跟进：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
-        "跟进：从看见问题到解决问题，Agent 正重新定义可观测",
-        "跟进：Moonshot AI - 博客",
-        "跟进：MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent"
+        "跟进：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+        "跟进：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
+        "跟进：AI agent crawlers now need permission. Here&#8217;s how to get it",
+        "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+        "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-              "summary": "你能不能只用 300 行代码就给我构建一个 Coding Agent？能不能在白板上画出来，讲清楚它的架构？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_cb8badd5a37eed7973daca1d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从看见问题到解决问题，Agent 正重新定义可观测",
-              "summary": "为什么 Agent 爆发后，可观测更重要了？当可观测 Agent 开始自动诊断、修复问题，人类工程师的能力边界在哪里？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_92fd582b98d317cbbb0a4645"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d5763946b648e871475b7199"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0b65b75560740e01f16e4f4e"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Build agentic full-stack apps with Genkit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single inte…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ca374fa9475813b913f914e5"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
-              "summary": "API厂商定价的认知套利：“割”GPU利用率盲区用户，52%是AI推理成本分水岭",
+              "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：A German research consortium has released Soofi S 30B-A3B, an open language model trained entirely on Deutsche Telekom's cloud infrastructure in Munich. The model uses an efficient hybrid architecture that activates onl…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_62ce1e64ffc55919d930c7d3"
+                "local_2b02d67d4990f11fb82d23ca"
               ],
-              "confidence": 82
+              "confidence": 86
             },
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Research's SensorFM is a foundation model trained on more than a trillion minutes of wearable data from five million Fitbit and Pixel Watch users. It beats existing benchmarks on 34 of 35 health and behavioral ta…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a107c543e2fe0e412894d519"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX e…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7b5e67fecaf9ea8a30a436a4"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cdb861b6e32d78e867d8e328"
+                "local_1cdc945778d967eeef094c20"
               ],
               "confidence": 92
             },
             {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
+              "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
+              "summary": "Post-training quantization (PTQ) is a widely adopted technique for compressing large language models (LLMs) without retraining. Existing second-order PTQ methods, including GPTQ, construct quantization objectives exclusively from input activation statistics, effectively assuming…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_cfd0cf5edfc9a455dfaf75d5"
+                "local_9dc395bd6abab51c5c9b9f37"
               ],
-              "confidence": 78
+              "confidence": 92
+            },
+            {
+              "title": "sqlite-utils 4.1.1",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError i…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b5eb6649122dcf8d153ab90b"
+              ],
+              "confidence": 82
             }
           ]
         },
         {
-          "title": "产品与工具",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "LiteRT.js, Google's high performance Web AI Inference",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI run…",
+              "title": "人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
+              "summary": "角色、工作流、模型映射和奖励都可自定义,UnityMAS-O 让多智能体系统拥有统一的强化学习优化接口.PaperWeekly 原创 · 作者 ...",
               "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1c28abd38d627229ae1c8c96"
+                "local_bc98cbac30e8a8b4b5fb9923"
               ],
-              "confidence": 78
+              "confidence": 92
+            },
+            {
+              "title": "AI agent crawlers now need permission. Here&#8217;s how to get it",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agent crawlers, the bots that fetch pages in real time on behalf of a person waiting for an answer, will be blocked by default on a slice of the web from September 15 onwards. Cloudflare&#160;announced&#160;the chang…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_21fffa0e99f470035c1e0aa2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+              "summary": "自动化测试新范式|得物技术3.从表单到 Agent:得物社区活动搭建的 AI 实践之路4.从埋点需求到规则资产:Hermes Agent 重构得物数...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_10b3e6d8a834976b759db8c7"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "让 Agent 按工程标准交付:AI Coding 下的质量关卡实践",
+              "summary": "GEEK TALK03Browser Use:让 Agent 在真实浏览器里工作代码没报错不等于页面没问题.页面打不开、弹窗被裁切、控制台报错、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a32ea92c01728a4cc5386fb0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "可算有个内容创作Agent能解决我0人OPC的多平台同步烦恼了.",
+              "summary": "它会根据这个目标给你配备相应的Agent团队.然后Matrix 就会开始自动配置,几分钟之后,一个有很多小土豆的AI 公司出现了,是的...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8352883bdcd326d54378a6be"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -148,45 +123,67 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
+              "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
+              "summary": "Medicine is inherently multimodal, requiring clinicians to synthesize information across diverse data streams. Yet the development of multimodal foundation models is constrained by limited access to large-scale, high-quality clinical data. Although PubMed Central (PMC) offers a …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_3325d316b5384435d3243619"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "shot-scraper 1.11",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bd24e6a406a6e7196350afa4"
+                "local_bfd9a0a45b8875b9cb01e976"
               ],
-              "confidence": 70
+              "confidence": 74
+            },
+            {
+              "title": "Fable gets another bump",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：One of the consequences of GPT-5.6 Sol being clearly a Fable/Mythos class model is that Anthropic have, once again, bumped the date that Fable stops being available in their Claude Max plans: We're extending Claude Fabl…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_38ceb2910acc15d1e80bf543"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：One in four longer social media posts is entirely AI-generated, according to a Pangram analysis. LinkedIn leads with 41 percent of long-form posts flagged as AI-written. The platform made up only a third of all posts sc…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_00d89b2ad07594fb7d3ede05"
+              ],
+              "confidence": 74
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_cb8badd5a37eed7973daca1d",
-        "local_62ce1e64ffc55919d930c7d3",
-        "local_92fd582b98d317cbbb0a4645",
-        "local_a107c543e2fe0e412894d519",
-        "local_d5763946b648e871475b7199",
-        "local_0b65b75560740e01f16e4f4e",
-        "local_7b5e67fecaf9ea8a30a436a4",
-        "local_ca374fa9475813b913f914e5",
-        "local_1f631d5889250f8f59987ff1",
-        "local_1c28abd38d627229ae1c8c96",
-        "local_53f2046a3e76bcd34d4ccb1a",
-        "local_9da60f39aaac8f7a7d712e54",
-        "local_27d3a4bb3f6cf7f4a8642f5c",
-        "local_b36cb6211efd2630fad3fd1a",
-        "local_cdb861b6e32d78e867d8e328",
-        "local_8c7d431b6fd028ed12b704fe",
-        "local_531001204ba5340f2549bb8a",
-        "local_3d91306b3ab472ec4305dc26",
-        "local_e1c9168d9497a4f1251f009f",
-        "local_cfd0cf5edfc9a455dfaf75d5",
-        "local_dfe2da9720c56eb5a31c4fdc",
-        "local_812f62222fca19b00287b14a",
-        "local_bd24e6a406a6e7196350afa4",
-        "local_572b34ec3e3a97c3e6a51eed"
+        "local_2b02d67d4990f11fb82d23ca",
+        "local_bc98cbac30e8a8b4b5fb9923",
+        "local_21fffa0e99f470035c1e0aa2",
+        "local_10b3e6d8a834976b759db8c7",
+        "local_a32ea92c01728a4cc5386fb0",
+        "local_1cdc945778d967eeef094c20",
+        "local_8352883bdcd326d54378a6be",
+        "local_3325d316b5384435d3243619",
+        "local_67298e78f03949a8c7e844af",
+        "local_f90242ec32cbd9016b26f1cb",
+        "local_9dc395bd6abab51c5c9b9f37",
+        "local_e2079739a91cda8f5d06115b",
+        "local_bfd9a0a45b8875b9cb01e976",
+        "local_38ceb2910acc15d1e80bf543",
+        "local_b5eb6649122dcf8d153ab90b",
+        "local_00d89b2ad07594fb7d3ede05"
       ],
-      "generatedAt": "2026-07-13T15:16:33.804Z",
+      "generatedAt": "2026-07-13T17:44:43.223Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,192 +194,66 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-13",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论」、「AI推理成本首次算清：GPU利用率不到52%，千万别自建！」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」、「得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从看见问题到解决问题，Agent 正重新定义可观测"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
       ],
       "watchItems": [
-        "跟进：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "跟进：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
-        "跟进：从看见问题到解决问题，Agent 正重新定义可观测",
-        "跟进：Moonshot AI - 博客",
-        "跟进：MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent"
+        "跟进：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
+        "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+        "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-              "summary": "你能不能只用 300 行代码就给我构建一个 Coding Agent？能不能在白板上画出来，讲清楚它的架构？",
+              "title": "人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
+              "summary": "角色、工作流、模型映射和奖励都可自定义,UnityMAS-O 让多智能体系统拥有统一的强化学习优化接口.PaperWeekly 原创 · 作者 ...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb8badd5a37eed7973daca1d"
+                "local_bc98cbac30e8a8b4b5fb9923"
               ],
               "confidence": 92
             },
             {
-              "title": "从看见问题到解决问题，Agent 正重新定义可观测",
-              "summary": "为什么 Agent 爆发后，可观测更重要了？当可观测 Agent 开始自动诊断、修复问题，人类工程师的能力边界在哪里？",
+              "title": "得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+              "summary": "自动化测试新范式|得物技术3.从表单到 Agent:得物社区活动搭建的 AI 实践之路4.从埋点需求到规则资产:Hermes Agent 重构得物数...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_92fd582b98d317cbbb0a4645"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d5763946b648e871475b7199"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0b65b75560740e01f16e4f4e"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Build agentic full-stack apps with Genkit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single inte…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ca374fa9475813b913f914e5"
+                "local_10b3e6d8a834976b759db8c7"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
-              "summary": "API厂商定价的认知套利：“割”GPU利用率盲区用户，52%是AI推理成本分水岭",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_62ce1e64ffc55919d930c7d3"
-              ],
-              "confidence": 82
             },
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "让 Agent 按工程标准交付:AI Coding 下的质量关卡实践",
+              "summary": "GEEK TALK03Browser Use:让 Agent 在真实浏览器里工作代码没报错不等于页面没问题.页面打不开、弹窗被裁切、控制台报错、...",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a107c543e2fe0e412894d519"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX e…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7b5e67fecaf9ea8a30a436a4"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cfd0cf5edfc9a455dfaf75d5"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_dfe2da9720c56eb5a31c4fdc"
+                "local_a32ea92c01728a4cc5386fb0"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "LiteRT.js, Google's high performance Web AI Inference",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI run…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_1c28abd38d627229ae1c8c96"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_bd24e6a406a6e7196350afa4"
-              ],
-              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_cb8badd5a37eed7973daca1d",
-        "local_62ce1e64ffc55919d930c7d3",
-        "local_92fd582b98d317cbbb0a4645",
-        "local_a107c543e2fe0e412894d519",
-        "local_d5763946b648e871475b7199",
-        "local_0b65b75560740e01f16e4f4e",
-        "local_7b5e67fecaf9ea8a30a436a4",
-        "local_ca374fa9475813b913f914e5",
-        "local_1f631d5889250f8f59987ff1",
-        "local_1c28abd38d627229ae1c8c96",
-        "local_cfd0cf5edfc9a455dfaf75d5",
-        "local_dfe2da9720c56eb5a31c4fdc",
-        "local_812f62222fca19b00287b14a",
-        "local_bd24e6a406a6e7196350afa4",
-        "local_572b34ec3e3a97c3e6a51eed",
-        "local_dbd40db8c818bb31f7541d2a",
-        "local_c02dd29bba069f887b34635b",
-        "local_62fa915c52a2fc2b5807c7ac",
-        "local_b48eba9cafc5980e7caa3730",
-        "local_ac9d9053cccefccda77b0886",
-        "local_6987e1f1361ceaa0300f8885",
-        "local_54cf0efbe5201ddbea4ce9c6"
+        "local_bc98cbac30e8a8b4b5fb9923",
+        "local_10b3e6d8a834976b759db8c7",
+        "local_a32ea92c01728a4cc5386fb0"
       ],
-      "generatedAt": "2026-07-13T15:16:33.804Z",
+      "generatedAt": "2026-07-13T17:44:43.223Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-13T15:16:33.804Z",
+  "generatedAt": "2026-07-13T17:44:43.223Z",
   "collectorName": "local-source-collector"
 }
