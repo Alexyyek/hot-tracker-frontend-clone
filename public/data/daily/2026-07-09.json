@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云"
       ],
       "watchItems": [
         "跟进：AWS GraphRAG deployment cuts drug research cycles by 87%",
         "跟进：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-        "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
         "跟进：Cloud Use:当 Agent 开始真正使用云",
-        "跟进：ChatGPT is now a partner for your most ambitious work"
+        "跟进：ChatGPT is now a partner for your most ambitious work",
+        "跟进：Flink 面向 Agent 的自我重构!"
       ],
       "sections": [
         {
@@ -43,19 +43,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f19be92833d90af2eff9d9d6"
+                "local_df6648d7953ea2932bcfc51d"
               ],
               "confidence": 90
-            },
-            {
-              "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-              "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_75a3495906bc24e636ed6615"
-              ],
-              "confidence": 92
             },
             {
               "title": "Cloud Use:当 Agent 开始真正使用云",
@@ -63,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6ec425355774c8ae8dcc977a"
+                "local_92b26b458fae9985d7ab769e"
               ],
               "confidence": 90
             },
@@ -83,7 +73,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_289f6c09087987b6ca6e8295"
+                "local_4abd0b7b5ed352e2baa3f1da"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "可算找到一个能统一管理所有Agent还不用额外订阅的开源项目了!",
+              "summary": "Tutti想让我们直接管理一个完整的AI Workspace,我们常用的Agent就直接以App的形式摆在桌面上,Claude Code、Codex,点开就是...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_09e4d7f82fe1ddc05c6f015b"
               ],
               "confidence": 92
             }
@@ -92,14 +92,13 @@
       ],
       "referencedFeedItemIds": [
         "local_1c3362c005d7206289938211",
-        "local_f19be92833d90af2eff9d9d6",
-        "local_75a3495906bc24e636ed6615",
-        "local_6ec425355774c8ae8dcc977a",
+        "local_df6648d7953ea2932bcfc51d",
+        "local_92b26b458fae9985d7ab769e",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_289f6c09087987b6ca6e8295",
-        "local_c2e4d5a4eb15491615d8fe04"
+        "local_4abd0b7b5ed352e2baa3f1da",
+        "local_09e4d7f82fe1ddc05c6f015b"
       ],
-      "generatedAt": "2026-07-13T17:44:43.260Z",
+      "generatedAt": "2026-07-13T19:12:23.282Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -110,15 +109,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践」、「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践」、「Cloud Use:当 Agent 开始真正使用云」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT is now a partner for your most ambitious work"
       ],
       "watchItems": [
         "跟进：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-        "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
         "跟进：Cloud Use:当 Agent 开始真正使用云",
         "跟进：ChatGPT is now a partner for your most ambitious work",
         "跟进：Flink 面向 Agent 的自我重构!"
@@ -133,19 +131,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f19be92833d90af2eff9d9d6"
+                "local_df6648d7953ea2932bcfc51d"
               ],
               "confidence": 90
-            },
-            {
-              "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-              "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_75a3495906bc24e636ed6615"
-              ],
-              "confidence": 92
             },
             {
               "title": "Cloud Use:当 Agent 开始真正使用云",
@@ -153,7 +141,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6ec425355774c8ae8dcc977a"
+                "local_92b26b458fae9985d7ab769e"
               ],
               "confidence": 90
             },
@@ -173,7 +161,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_289f6c09087987b6ca6e8295"
+                "local_4abd0b7b5ed352e2baa3f1da"
               ],
               "confidence": 92
             }
@@ -181,19 +169,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f19be92833d90af2eff9d9d6",
-        "local_75a3495906bc24e636ed6615",
-        "local_6ec425355774c8ae8dcc977a",
+        "local_df6648d7953ea2932bcfc51d",
+        "local_92b26b458fae9985d7ab769e",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_289f6c09087987b6ca6e8295"
+        "local_4abd0b7b5ed352e2baa3f1da"
       ],
-      "generatedAt": "2026-07-13T17:44:43.260Z",
+      "generatedAt": "2026-07-13T19:12:23.282Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-13T17:44:43.260Z",
+  "generatedAt": "2026-07-13T19:12:23.282Z",
   "collectorName": "local-source-collector"
 }
