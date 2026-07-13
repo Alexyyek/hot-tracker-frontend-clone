@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「一文了解|SkillScan 智能体技能安全扫描最佳实践」、「AI UITester:AI Native 的 UI 自动化测试新范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「一文了解|SkillScan 智能体技能安全扫描最佳实践」、「AI UITester:AI Native 的 UI 自动化测试新范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一文了解|SkillScan 智能体技能安全扫描最佳实践",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI UITester:AI Native 的 UI 自动化测试新范式|得物技术",
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9cec6aee856e08daab177c38"
+                "local_d4bd7d96ac8d8aace7dc134d"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b8240b2cb3990985f1555434"
+                "local_3f6839104319832ec68e47a9"
               ],
               "confidence": 90
             },
@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
-              "title": "实测美团LongCat-2.0，国产芯片长出来的万亿大模型",
-              "summary": "美团发布LongCat-2.0，总参数1.6万亿、每个token仅激活约480亿参数的MoE模型，从预训练到大规模部署全程运行在5万张国产算力芯片上，训练消耗超35万亿tokens，无回滚、无不可恢复loss突刺。Agent场景表现突出：在Terminal-Bench 2.1和SWE-bench Pro编程任务上追平Gemini 3.1 Pro，FORTE通用Agent任务与Claude Opus 4.6持平。最大输出128K，最高提供1M上下文，采用LSA稀疏注意力机制和N-gram Embedding优化长上下文与工具调用。已开放API接入，支持O…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "feed_3400d2beca4c1443d691622f"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "AI科学家再聪明10倍,科学也快不起来:瓶颈是300年前发明的「论文」",
               "summary": "AI for Science 的下一步,轮到科研协议本身.PaperWeekly 原创 ... //github.com/ARA-Labs/Agent-Native-Research-Artifact博客原文(...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b57e740138068c3c411f533"
+                "local_9cdeafb9a13303050e234c3f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+              "summary": "美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_b058cc789bef59dfea72ad5e"
               ],
               "confidence": 92
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_3426d72617e013960be67fbe"
+                "local_1d2e0da8c04940294a15f544"
               ],
               "confidence": 86
             }
@@ -133,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_25f8fc2c62cdee057b5ceef0"
+                "local_fc1460f0bbb71cba3c06b2ea"
               ],
               "confidence": 82
             }
@@ -141,14 +141,13 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9cec6aee856e08daab177c38",
-        "local_3426d72617e013960be67fbe",
-        "local_b8240b2cb3990985f1555434",
+        "local_d4bd7d96ac8d8aace7dc134d",
+        "local_1d2e0da8c04940294a15f544",
+        "local_3f6839104319832ec68e47a9",
         "local_a7c0e62cec6c99d67d9e6bdf",
         "local_ec245183448135c8f045e724",
-        "feed_3400d2beca4c1443d691622f",
-        "local_7b57e740138068c3c411f533",
-        "local_25f8fc2c62cdee057b5ceef0",
+        "local_9cdeafb9a13303050e234c3f",
+        "local_fc1460f0bbb71cba3c06b2ea",
         "feed_b058cc789bef59dfea72ad5e",
         "feed_17b74f0575abf419a7a1345d",
         "local_c004d1a1048664016412f887",
@@ -157,7 +156,7 @@
         "local_d6872582323b815bde7cdfdc",
         "local_ee7e05e5186330fa321da591"
       ],
-      "generatedAt": "2026-07-13T01:22:07.457Z",
+      "generatedAt": "2026-07-13T05:16:04.912Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -191,7 +190,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9cec6aee856e08daab177c38"
+                "local_d4bd7d96ac8d8aace7dc134d"
               ],
               "confidence": 92
             },
@@ -201,7 +200,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b8240b2cb3990985f1555434"
+                "local_3f6839104319832ec68e47a9"
               ],
               "confidence": 90
             },
@@ -221,7 +220,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b57e740138068c3c411f533"
+                "local_9cdeafb9a13303050e234c3f"
               ],
               "confidence": 92
             },
@@ -246,7 +245,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_3426d72617e013960be67fbe"
+                "local_1d2e0da8c04940294a15f544"
               ],
               "confidence": 86
             }
@@ -261,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_25f8fc2c62cdee057b5ceef0"
+                "local_fc1460f0bbb71cba3c06b2ea"
               ],
               "confidence": 82
             }
@@ -294,12 +293,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9cec6aee856e08daab177c38",
-        "local_3426d72617e013960be67fbe",
-        "local_b8240b2cb3990985f1555434",
+        "local_d4bd7d96ac8d8aace7dc134d",
+        "local_1d2e0da8c04940294a15f544",
+        "local_3f6839104319832ec68e47a9",
         "local_a7c0e62cec6c99d67d9e6bdf",
-        "local_7b57e740138068c3c411f533",
-        "local_25f8fc2c62cdee057b5ceef0",
+        "local_9cdeafb9a13303050e234c3f",
+        "local_fc1460f0bbb71cba3c06b2ea",
         "feed_b058cc789bef59dfea72ad5e",
         "feed_17b74f0575abf419a7a1345d",
         "local_c004d1a1048664016412f887",
@@ -307,13 +306,13 @@
         "local_d6872582323b815bde7cdfdc",
         "local_ee7e05e5186330fa321da591"
       ],
-      "generatedAt": "2026-07-13T01:22:07.457Z",
+      "generatedAt": "2026-07-13T05:16:04.912Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-13T01:22:07.457Z",
+  "generatedAt": "2026-07-13T05:16:04.912Z",
   "collectorName": "local-source-collector"
 }
