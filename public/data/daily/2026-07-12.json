@@ -5,16 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-07-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating, which is quite the pivot from predicting mass layoffs」、「Grades dropped from 96 to 48 percent when a Brown professor made students take the exam without AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating, which is quite the pivot from predicting mass layoffs」、「How to Evaluate General-Purpose Robot Policies for Real-World Deployment」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating, which is quite the pivot from predicting mass layoffs",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Grades dropped from 96 to 48 percent when a Brown professor made students take the exam without AI",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Evaluate General-Purpose Robot Policies for Real-World Deployment"
       ],
       "watchItems": [
         "跟进：OpenAI CEO Altman is now \"pretty sure\" AI is net job-creating, which is quite the pivot from predicting mass layoffs",
-        "跟进：Grades dropped from 96 to 48 percent when a Brown professor made students take the exam without AI",
-        "跟进：AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
         "跟进：How to Evaluate General-Purpose Robot Policies for Real-World Deployment"
       ],
       "sections": [
@@ -37,16 +34,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Grades dropped from 96 to 48 percent when a Brown professor made students take the exam without AI",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：An economics professor at Brown University suspects most of his 86 students used AI to cheat on a take-home exam that averaged 96 percent. When he made the final an in-person test, 18 students dropped the course, nine d…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_09f578964152a7b5dbeb1f06"
-              ],
-              "confidence": 74
-            },
-            {
               "title": "How to Evaluate General-Purpose Robot Policies for Real-World Deployment",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Robotics foundation models have made remarkable progress. Today's best systems can follow natural language instructions to pick, place, sort, and manipulate a...",
               "insightLabel": "关注",
@@ -57,30 +44,13 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The AgenticSTS project replaces the ever-growing chat log of AI agents with five separate memory layers. Tested on the card game Slay the Spire 2, the prompt stays at around 5,000 tokens instead of ballooning past 500,0…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_afff6dde13942a9eee7c5b68"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_024b3841a36ef06f0d8dd15b",
-        "local_09f578964152a7b5dbeb1f06",
-        "local_afff6dde13942a9eee7c5b68",
         "local_13dfb65bbac868bd84c21536"
       ],
-      "generatedAt": "2026-07-13T08:37:20.225Z",
+      "generatedAt": "2026-07-13T11:51:44.591Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -118,13 +88,13 @@
       "referencedFeedItemIds": [
         "local_13dfb65bbac868bd84c21536"
       ],
-      "generatedAt": "2026-07-13T08:37:20.225Z",
+      "generatedAt": "2026-07-13T11:51:44.591Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-13T08:37:20.225Z",
+  "generatedAt": "2026-07-13T11:51:44.591Z",
   "collectorName": "local-source-collector"
 }
