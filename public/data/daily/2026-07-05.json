@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-07-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐」、「“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论」、「AI推理成本首次算清：GPU利用率不到52%，千万别自建！」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI推理成本首次算清：GPU利用率不到52%，千万别自建！"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从看见问题到解决问题，Agent 正重新定义可观测"
       ],
       "watchItems": [
-        "跟进：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "跟进：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
         "跟进：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
         "跟进：从看见问题到解决问题，Agent 正重新定义可观测",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Moonshot AI - 博客",
+        "跟进：MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
-              "summary": "过去几个月，Anthropic的Mythos模型持续成为全球网络安全行业关注的焦点。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_63bda07cc469e744033bea70"
-              ],
-              "confidence": 70
-            },
-            {
               "title": "“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
               "summary": "你能不能只用 300 行代码就给我构建一个 Coding Agent？能不能在白板上画出来，讲清楚它的架构？",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fe71e7e8c943593605a0c0da"
+                "local_0c6dc444e85ea647899e498b"
               ],
               "confidence": 92
             },
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c50c71249d53cc9d67fd904c"
+                "local_956d5c281716a8c0efca0d88"
               ],
               "confidence": 82
             },
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a759217ebf699318a686b871"
+                "local_35ad01204f8a39f63d2e4af1"
               ],
               "confidence": 70
             },
@@ -68,9 +58,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f53e79df96a8556f8e075a22"
+                "local_a5018b970e4f7291a9a20af4"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Build agentic full-stack apps with Genkit",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single inte…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ca374fa9475813b913f914e5"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_55dd8fa9719e340d439cc1be"
+                "local_708974abbb7f6f86a0d3a599"
               ],
               "confidence": 82
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_886b7c0fdd33897fe66510c1"
+                "local_211a46dffbf2fe3b5dabb0a3"
               ],
               "confidence": 78
             },
@@ -113,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7e9d7db3cd13cd876102eaf1"
+                "local_063f34fe8b5abfde43f4a081"
               ],
               "confidence": 92
             },
@@ -123,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d9e2ec69402e7099fbe7272b"
+                "local_b9ca3817c2d3b0962dd566f3"
               ],
               "confidence": 78
             }
@@ -153,7 +153,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0df886858ed465b03700f7c9"
+                "local_f20db4b17fa67046dd2596bc"
               ],
               "confidence": 70
             }
@@ -161,32 +161,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_63bda07cc469e744033bea70",
-        "local_fe71e7e8c943593605a0c0da",
-        "local_55dd8fa9719e340d439cc1be",
-        "local_c50c71249d53cc9d67fd904c",
-        "local_886b7c0fdd33897fe66510c1",
-        "local_a759217ebf699318a686b871",
-        "local_f53e79df96a8556f8e075a22",
-        "local_1c28abd38d627229ae1c8c96",
+        "local_0c6dc444e85ea647899e498b",
+        "local_708974abbb7f6f86a0d3a599",
+        "local_956d5c281716a8c0efca0d88",
+        "local_211a46dffbf2fe3b5dabb0a3",
+        "local_35ad01204f8a39f63d2e4af1",
+        "local_a5018b970e4f7291a9a20af4",
         "local_7b5e67fecaf9ea8a30a436a4",
         "local_ca374fa9475813b913f914e5",
         "local_1f631d5889250f8f59987ff1",
-        "local_9267bb3d85d774c923638f5d",
-        "local_c8b6c1ee5890eff23248ca52",
-        "local_4018d0142f3cbbe95e7a8098",
-        "local_fdaf5eec8dc332dc6928ef5b",
-        "local_7e9d7db3cd13cd876102eaf1",
-        "local_7dddc684a716b622400568b0",
-        "local_3ac5e6d3d48363ebfe75f9f0",
-        "local_3120d0f76b5113a326479146",
-        "local_f2b7927c25d79a5eb483cc07",
-        "local_d9e2ec69402e7099fbe7272b",
-        "local_47958ac55d92913624103f93",
-        "local_65e9d92ebcba344cc1a87f30",
-        "local_0df886858ed465b03700f7c9"
+        "local_1c28abd38d627229ae1c8c96",
+        "local_fb88a1c3dde6c8fbc5a071e2",
+        "local_ff59a98c65aca5895c2cfdfe",
+        "local_757839308db8e7dfe69da97b",
+        "local_03fe93646d98035d3d257b74",
+        "local_063f34fe8b5abfde43f4a081",
+        "local_874b8b4d4e2f24a5a8c45dc6",
+        "local_3146bc926f4baefd9c8e80b7",
+        "local_de06a56483f822d60c34ee11",
+        "local_d990e7f0d7b7d7a7981dcce7",
+        "local_b9ca3817c2d3b0962dd566f3",
+        "local_d2dd25b118e855a536797ade",
+        "local_aec31ae4448d9109dbbc3c96",
+        "local_f20db4b17fa67046dd2596bc",
+        "local_090bd6e449b68756ea597f0d"
       ],
-      "generatedAt": "2026-07-13T19:12:23.338Z",
+      "generatedAt": "2026-07-13T20:33:34.528Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,40 +197,30 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-05",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐」、「“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论」、「AI推理成本首次算清：GPU利用率不到52%，千万别自建！」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI推理成本首次算清：GPU利用率不到52%，千万别自建！"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从看见问题到解决问题，Agent 正重新定义可观测"
       ],
       "watchItems": [
-        "跟进：360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
         "跟进：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
         "跟进：AI推理成本首次算清：GPU利用率不到52%，千万别自建！",
         "跟进：从看见问题到解决问题，Agent 正重新定义可观测",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Moonshot AI - 博客",
+        "跟进：MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "360 周鸿祎：做中国版 Mythos 不能照搬美国路线，基模能力的差距可以通过Harness补齐",
-              "summary": "过去几个月，Anthropic的Mythos模型持续成为全球网络安全行业关注的焦点。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_63bda07cc469e744033bea70"
-              ],
-              "confidence": 70
-            },
-            {
               "title": "“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
               "summary": "你能不能只用 300 行代码就给我构建一个 Coding Agent？能不能在白板上画出来，讲清楚它的架构？",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fe71e7e8c943593605a0c0da"
+                "local_0c6dc444e85ea647899e498b"
               ],
               "confidence": 92
             },
@@ -240,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c50c71249d53cc9d67fd904c"
+                "local_956d5c281716a8c0efca0d88"
               ],
               "confidence": 82
             },
@@ -250,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a759217ebf699318a686b871"
+                "local_35ad01204f8a39f63d2e4af1"
               ],
               "confidence": 70
             },
@@ -260,9 +250,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f53e79df96a8556f8e075a22"
+                "local_a5018b970e4f7291a9a20af4"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Build agentic full-stack apps with Genkit",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The open-source Genkit framework has introduced the Agents API, a full-stack tool designed to simplify the complex plumbing of conversational AI by packaging message history, tool loops, and streaming into a single inte…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ca374fa9475813b913f914e5"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -275,7 +275,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_55dd8fa9719e340d439cc1be"
+                "local_708974abbb7f6f86a0d3a599"
               ],
               "confidence": 82
             },
@@ -285,7 +285,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_886b7c0fdd33897fe66510c1"
+                "local_211a46dffbf2fe3b5dabb0a3"
               ],
               "confidence": 78
             },
@@ -305,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d9e2ec69402e7099fbe7272b"
+                "local_b9ca3817c2d3b0962dd566f3"
               ],
               "confidence": 78
             },
@@ -315,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_47958ac55d92913624103f93"
+                "local_d2dd25b118e855a536797ade"
               ],
               "confidence": 92
             }
@@ -345,7 +345,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0df886858ed465b03700f7c9"
+                "local_f20db4b17fa67046dd2596bc"
               ],
               "confidence": 70
             }
@@ -353,33 +353,33 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_63bda07cc469e744033bea70",
-        "local_fe71e7e8c943593605a0c0da",
-        "local_55dd8fa9719e340d439cc1be",
-        "local_c50c71249d53cc9d67fd904c",
-        "local_886b7c0fdd33897fe66510c1",
-        "local_a759217ebf699318a686b871",
-        "local_f53e79df96a8556f8e075a22",
-        "local_1c28abd38d627229ae1c8c96",
+        "local_0c6dc444e85ea647899e498b",
+        "local_708974abbb7f6f86a0d3a599",
+        "local_956d5c281716a8c0efca0d88",
+        "local_211a46dffbf2fe3b5dabb0a3",
+        "local_35ad01204f8a39f63d2e4af1",
+        "local_a5018b970e4f7291a9a20af4",
         "local_7b5e67fecaf9ea8a30a436a4",
         "local_ca374fa9475813b913f914e5",
         "local_1f631d5889250f8f59987ff1",
-        "local_d9e2ec69402e7099fbe7272b",
-        "local_47958ac55d92913624103f93",
-        "local_65e9d92ebcba344cc1a87f30",
-        "local_0df886858ed465b03700f7c9",
-        "local_fe637ee736ad804f20d37bc4",
-        "local_09e79ab58f37b825edc10316",
-        "local_1d4796abcb677c75374c7201",
-        "local_16e82600913d0caca74302aa"
+        "local_1c28abd38d627229ae1c8c96",
+        "local_b9ca3817c2d3b0962dd566f3",
+        "local_d2dd25b118e855a536797ade",
+        "local_aec31ae4448d9109dbbc3c96",
+        "local_f20db4b17fa67046dd2596bc",
+        "local_090bd6e449b68756ea597f0d",
+        "local_cd36570071880eedf1cb48f3",
+        "local_d1c9754d114116ccb2686355",
+        "local_7a59f2e8c093db1c013efe57",
+        "local_63bda07cc469e744033bea70"
       ],
-      "generatedAt": "2026-07-13T19:12:23.338Z",
+      "generatedAt": "2026-07-13T20:33:34.528Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-13T19:12:23.338Z",
+  "generatedAt": "2026-07-13T20:33:34.528Z",
   "collectorName": "local-source-collector"
 }
