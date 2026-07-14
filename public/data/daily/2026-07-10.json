@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-07-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Failure as a Process: An Anatomy of CLI Coding Agent Trajectories」、「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Failure as a Process: An Anatomy of CLI Coding Agent Trajectories",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施"
       ],
       "watchItems": [
-        "跟进：Failure as a Process: An Anatomy of CLI Coding Agent Trajectories",
         "跟进：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "跟进：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
         "跟进：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
-        "跟进：Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents"
+        "跟进：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
+        "跟进：华为云码道(CodeArts)重构图形编程项目实践"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Failure as a Process: An Anatomy of CLI Coding Agent Trajectories",
-              "summary": "Large language model (LLM) coding agents are increasingly deployed to autonomously perform software engineering tasks in terminal-based environments, making their reliability a growing concern. Existing empirical studies investigate why coding agents fail, yet they largely treat…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3c7bd6afe2a7a6dc8bf8de96"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...",
@@ -53,24 +43,14 @@
               "confidence": 82
             },
             {
-              "title": "Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents",
-              "summary": "Large language model (LLM) agents are increasingly expected to play a central role in AI-driven scientific discovery. Equipped with broad knowledge, flexible reasoning, and tool use, they have the potential to autonomously explore and solve scientific problems by repeatedly prop…",
+              "title": "华为云码道(CodeArts)重构图形编程项目实践",
+              "summary": "智能体的上下文感知能力华为云码道 AI 智能体具备深度上下文感知,能够理解项目的技术栈和架构模式,生成的代码与项目风格高度...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_98edf15f2e20f85df994076e"
+                "local_b92625cd4671a50cbf276a5c"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift",
-              "summary": "Deployed LLM agents rely on agentic context, the model-external textual control content assembled by an operational harness. In this work, the mutable component of that context is a persistent system-level instruction that is updated from operational experience while the model, …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_88947500406fcd7e17a00ea0"
-              ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         },
@@ -83,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_40962f079837b944f1f909e3"
+                "local_4696ff03cd686a36a9904808"
               ],
               "confidence": 82
             },
@@ -126,19 +106,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_3c7bd6afe2a7a6dc8bf8de96",
         "local_c6afe13a43dfb5956ce588a2",
-        "local_40962f079837b944f1f909e3",
+        "local_4696ff03cd686a36a9904808",
         "local_c9a67093c344ce22b0534e78",
-        "local_98edf15f2e20f85df994076e",
-        "local_88947500406fcd7e17a00ea0",
         "local_a5445b6185c5dd961e8b4fc2",
         "local_b92625cd4671a50cbf276a5c",
         "local_0e05cb4f810ac903c98fce72",
-        "local_1c16669c44d1afae502de861",
-        "local_3dae5f84d84a76368158b851"
+        "local_1c16669c44d1afae502de861"
       ],
-      "generatedAt": "2026-07-14T01:10:00.206Z",
+      "generatedAt": "2026-07-14T04:24:13.042Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_40962f079837b944f1f909e3"
+                "local_4696ff03cd686a36a9904808"
               ],
               "confidence": 82
             },
@@ -236,19 +212,19 @@
       ],
       "referencedFeedItemIds": [
         "local_c6afe13a43dfb5956ce588a2",
-        "local_40962f079837b944f1f909e3",
+        "local_4696ff03cd686a36a9904808",
         "local_c9a67093c344ce22b0534e78",
         "local_a5445b6185c5dd961e8b4fc2",
         "local_b92625cd4671a50cbf276a5c",
         "local_0e05cb4f810ac903c98fce72"
       ],
-      "generatedAt": "2026-07-14T01:10:00.206Z",
+      "generatedAt": "2026-07-14T04:24:13.042Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-14T01:10:00.206Z",
+  "generatedAt": "2026-07-14T04:24:13.042Z",
   "collectorName": "local-source-collector"
 }

@@ -5,20 +5,75 @@
       "topicId": "ai",
       "reportDate": "2026-07-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming」、「Heuristic Learning for Active Flow Control Using Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent crawlers now need permission. Here&#8217;s how to get it"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Heuristic Learning for Active Flow Control Using Coding Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German"
       ],
       "watchItems": [
+        "跟进：Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
+        "跟进：Heuristic Learning for Active Flow Control Using Coding Agents",
         "跟进：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
-        "跟进：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
-        "跟进：AI agent crawlers now need permission. Here&#8217;s how to get it",
-        "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
-        "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
+        "跟进：ToFu: A White-Box, Token-Efficient Agent Harness for Researchers",
+        "跟进：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Agent Hacks Agent: Autoresearch for Production-Agent Red-Teaming",
+              "summary": "Production LLM agents such as Claude Code and Codex operate over untrusted content, files, commands, and workspace state, making safety failures directly actionable. Red-teaming must therefore keep pace with evolving models and tools. Existing approaches mainly optimize attack s…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_481c640b466ce20f2dec6a0d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Heuristic Learning for Active Flow Control Using Coding Agents",
+              "summary": "Active flow control involves nonlinear dynamics, partial observations, and computationally expensive simulations, making controller design particularly challenging. Deep reinforcement learning (DRL) has emerged as a powerful framework for such problems, but its success typically…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_54ec7372311ea56a570d1b78"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "ToFu: A White-Box, Token-Efficient Agent Harness for Researchers",
+              "summary": "Agentic coding tools present new opportunities to transform research workflows. The performance of agent systems built depends on both large language models (LLMs) and the harness around LLMs, which is the orchestration code that determines an agent's behavior. We present ToFu, …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7e3e8bb1373f4c6b0456261d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
+              "summary": "角色、工作流、模型映射和奖励都可自定义,UnityMAS-O 让多智能体系统拥有统一的强化学习优化接口.PaperWeekly 原创 · 作者 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bd0445a4aace82f750094f75"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI agent crawlers now need permission. Here&#8217;s how to get it",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agent crawlers, the bots that fetch pages in real time on behalf of a person waiting for an answer, will be blocked by default on a slice of the web from September 15 onwards. Cloudflare&#160;announced&#160;the chang…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_21fffa0e99f470035c1e0aa2"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -41,87 +96,12 @@
                 "local_1cdc945778d967eeef094c20"
               ],
               "confidence": 92
-            },
-            {
-              "title": "KronQ: LLM Quantization via Kronecker-Factored Hessian",
-              "summary": "Post-training quantization (PTQ) is a widely adopted technique for compressing large language models (LLMs) without retraining. Existing second-order PTQ methods, including GPTQ, construct quantization objectives exclusively from input activation statistics, effectively assuming…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9dc395bd6abab51c5c9b9f37"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
-              "summary": "角色、工作流、模型映射和奖励都可自定义,UnityMAS-O 让多智能体系统拥有统一的强化学习优化接口.PaperWeekly 原创 · 作者 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0af5b99991842d3e8b003a70"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agent crawlers now need permission. Here&#8217;s how to get it",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agent crawlers, the bots that fetch pages in real time on behalf of a person waiting for an answer, will be blocked by default on a slice of the web from September 15 onwards. Cloudflare&#160;announced&#160;the chang…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_21fffa0e99f470035c1e0aa2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
-              "summary": "自动化测试新范式|得物技术3.从表单到 Agent:得物社区活动搭建的 AI 实践之路4.从埋点需求到规则资产:Hermes Agent 重构得物数...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4e78fd560acb2017b1051afc"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "让 Agent 按工程标准交付:AI Coding 下的质量关卡实践",
-              "summary": "GEEK TALK03Browser Use:让 Agent 在真实浏览器里工作代码没报错不等于页面没问题.页面打不开、弹窗被裁切、控制台报错、...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_921cb6350b0d64de791426bb"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "可算有个内容创作Agent能解决我0人OPC的多平台同步烦恼了.",
-              "summary": "它会根据这个目标给你配备相应的Agent团队.然后Matrix 就会开始自动配置,几分钟之后,一个有很多小土豆的AI 公司出现了,是的...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3a90b962849b92d2c4f814e8"
-              ],
-              "confidence": 92
             }
           ]
         },
         {
           "title": "行业与公司",
           "items": [
-            {
-              "title": "MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models",
-              "summary": "Medicine is inherently multimodal, requiring clinicians to synthesize information across diverse data streams. Yet the development of multimodal foundation models is constrained by limited access to large-scale, high-quality clinical data. Although PubMed Central (PMC) offers a …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_3325d316b5384435d3243619"
-              ],
-              "confidence": 92
-            },
             {
               "title": "shot-scraper 1.11",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a…",
@@ -146,22 +126,22 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_481c640b466ce20f2dec6a0d",
+        "local_54ec7372311ea56a570d1b78",
         "local_2b02d67d4990f11fb82d23ca",
-        "local_0af5b99991842d3e8b003a70",
+        "local_7e3e8bb1373f4c6b0456261d",
+        "local_bd0445a4aace82f750094f75",
         "local_21fffa0e99f470035c1e0aa2",
-        "local_4e78fd560acb2017b1051afc",
-        "local_921cb6350b0d64de791426bb",
+        "local_22f008978364fdd16b44a1dc",
+        "local_573c7e332bcc5413e3e134aa",
+        "local_1880ac0af1673886e29e57ad",
         "local_1cdc945778d967eeef094c20",
-        "local_3a90b962849b92d2c4f814e8",
-        "local_3325d316b5384435d3243619",
-        "local_67298e78f03949a8c7e844af",
-        "local_f90242ec32cbd9016b26f1cb",
-        "local_9dc395bd6abab51c5c9b9f37",
+        "local_4ee8675a53ad3c44619aa577",
         "local_e2079739a91cda8f5d06115b",
         "local_bfd9a0a45b8875b9cb01e976",
         "local_00d89b2ad07594fb7d3ede05"
       ],
-      "generatedAt": "2026-07-14T01:10:00.166Z",
+      "generatedAt": "2026-07-14T04:24:13.001Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -193,7 +173,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0af5b99991842d3e8b003a70"
+                "local_bd0445a4aace82f750094f75"
               ],
               "confidence": 92
             },
@@ -203,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4e78fd560acb2017b1051afc"
+                "local_22f008978364fdd16b44a1dc"
               ],
               "confidence": 92
             },
@@ -213,7 +193,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_921cb6350b0d64de791426bb"
+                "local_573c7e332bcc5413e3e134aa"
               ],
               "confidence": 92
             }
@@ -221,17 +201,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0af5b99991842d3e8b003a70",
-        "local_4e78fd560acb2017b1051afc",
-        "local_921cb6350b0d64de791426bb"
+        "local_bd0445a4aace82f750094f75",
+        "local_22f008978364fdd16b44a1dc",
+        "local_573c7e332bcc5413e3e134aa"
       ],
-      "generatedAt": "2026-07-14T01:10:00.166Z",
+      "generatedAt": "2026-07-14T04:24:13.001Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-14T01:10:00.166Z",
+  "generatedAt": "2026-07-14T04:24:13.001Z",
   "collectorName": "local-source-collector"
 }
