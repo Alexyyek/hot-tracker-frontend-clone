@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_262119bf09e192635fb4daee"
+                "local_ba2dbec5340bcb7f5a289d99"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_224bc4d49f7654f0ba9b22ae"
+                "local_64ba63276d301fd94c8fffde"
               ],
               "confidence": 92
             },
@@ -98,6 +98,16 @@
               "confidence": 86
             },
             {
+              "title": "Evidence-Backed Video Question Answering",
+              "summary": "Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on textual rationales or sparse bounding boxes, which struggl…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a2e4d7ae46d48bd013bc0ce0"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning",
               "summary": "Language models are increasingly used for moral decision-making across diverse linguistic and cultural contexts, yet existing work overlooks multilinguality on three aspects: 1) multilingual evaluation benchmarks use direct translation, failing to adapt culture-specific items; 2…",
               "insightLabel": "关注",
@@ -133,16 +143,6 @@
               "confidence": 92
             },
             {
-              "title": "EgoSteer: A Full-Stack System Towards Steerable Dexterous Manipulation from Egocentric Videos",
-              "summary": "Steerability is a defining capability of generalist robot policies, yet remains largely absent in dexterous-hand systems for lack of large-scale, language-aligned, and action-accurate demonstration data. To address this bottleneck, we present a full-stack system that scales dext…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_8952c652b6b01d4d63ef8df1"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "DOOMQL",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：DOOMQL Peter Gostev built this using GPT-5.6 Sol. This is a lot of fun: DOOMQL started with a deliberately unreasonable question: what if SQLite were the game engine, not merely the place where a game stores data? The r…",
               "insightLabel": "关注",
@@ -157,21 +157,21 @@
       ],
       "referencedFeedItemIds": [
         "local_3d4768c920a9f6ba2405a75b",
-        "local_262119bf09e192635fb4daee",
+        "local_ba2dbec5340bcb7f5a289d99",
         "local_fbd1f63ec14e03eb4394fc5b",
         "local_34ddef3629703ed40950f35f",
-        "local_224bc4d49f7654f0ba9b22ae",
+        "local_64ba63276d301fd94c8fffde",
         "local_9c075e28d3c3810d8f8dbb9d",
         "local_8f3395c8924cd6d1b4a25350",
+        "local_a2e4d7ae46d48bd013bc0ce0",
         "local_44710aca73b84c7446a39a1b",
         "local_34fafea3dbceff5f272b8004",
         "local_6a2e14a510f107dcf793efd1",
-        "local_8952c652b6b01d4d63ef8df1",
         "local_7d0a0ab043fa0215be53d64a",
         "local_58e0155d8cb29376afa4a4b2",
         "local_7c405584f897bb605906804f"
       ],
-      "generatedAt": "2026-07-14T21:21:46.556Z",
+      "generatedAt": "2026-07-14T22:45:55.693Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -204,7 +204,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_262119bf09e192635fb4daee"
+                "local_ba2dbec5340bcb7f5a289d99"
               ],
               "confidence": 92
             },
@@ -247,18 +247,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_262119bf09e192635fb4daee",
+        "local_ba2dbec5340bcb7f5a289d99",
         "local_34ddef3629703ed40950f35f",
         "local_9c075e28d3c3810d8f8dbb9d",
         "local_8f3395c8924cd6d1b4a25350"
       ],
-      "generatedAt": "2026-07-14T21:21:46.556Z",
+      "generatedAt": "2026-07-14T22:45:55.693Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-14T21:21:46.556Z",
+  "generatedAt": "2026-07-14T22:45:55.693Z",
   "collectorName": "local-source-collector"
 }
