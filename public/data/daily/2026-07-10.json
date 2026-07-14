@@ -5,55 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-07-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」、「字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!"
       ],
       "watchItems": [
-        "跟进：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "跟进：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
         "跟进：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "跟进：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
-        "跟进：华为云码道(CodeArts)重构图形编程项目实践"
+        "跟进：华为云码道(CodeArts)重构图形编程项目实践",
+        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c6afe13a43dfb5956ce588a2"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
-              "summary": "二、超越代码生成:用 Agent 框架破解 OpenBMC 平台移植难题分享人:郏春辉 | 字节跳动 STE 固件团队从管理接口到固件构建:标...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c9a67093c344ce22b0534e78"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "华为云码道(CodeArts)重构图形编程项目实践",
-              "summary": "智能体的上下文感知能力华为云码道 AI 智能体具备深度上下文感知,能够理解项目的技术栈和架构模式,生成的代码与项目风格高度...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b92625cd4671a50cbf276a5c"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -63,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_508d7025396257b0c269909b"
+                "local_33ed1cc5e4f810d475add648"
               ],
               "confidence": 82
             },
@@ -83,9 +48,34 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_dc5515830b5174d603dbd824"
+                "local_9f2ef9f7b17b435f024610fc"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
+              "summary": "二、超越代码生成:用 Agent 框架破解 OpenBMC 平台移植难题分享人:郏春辉 | 字节跳动 STE 固件团队从管理接口到固件构建:标...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c9a67093c344ce22b0534e78"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "华为云码道(CodeArts)重构图形编程项目实践",
+              "summary": "智能体的上下文感知能力华为云码道 AI 智能体具备深度上下文感知,能够理解项目的技术栈和架构模式,生成的代码与项目风格高度...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b92625cd4671a50cbf276a5c"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -106,15 +96,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c6afe13a43dfb5956ce588a2",
-        "local_508d7025396257b0c269909b",
+        "local_33ed1cc5e4f810d475add648",
         "local_c9a67093c344ce22b0534e78",
         "local_a5445b6185c5dd961e8b4fc2",
         "local_b92625cd4671a50cbf276a5c",
-        "local_dc5515830b5174d603dbd824",
+        "local_9f2ef9f7b17b435f024610fc",
         "local_1c16669c44d1afae502de861"
       ],
-      "generatedAt": "2026-07-14T15:12:38.416Z",
+      "generatedAt": "2026-07-14T16:45:57.094Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -125,33 +114,58 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-10",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」、「字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!"
       ],
       "watchItems": [
-        "跟进：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "跟进：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
         "跟进：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "跟进：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
-        "跟进：华为云码道(CodeArts)重构图形编程项目实践"
+        "跟进：华为云码道(CodeArts)重构图形编程项目实践",
+        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...",
+              "title": "高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+              "summary": "Wan2.2视频大模型权重进行初始化,将其作为无动作条件的未来... #ABot #具身智能 #高德 #高德技术END",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c6afe13a43dfb5956ce588a2"
+                "local_33ed1cc5e4f810d475add648"
               ],
-              "confidence": 70
+              "confidence": 82
             },
+            {
+              "title": "全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
+              "summary": "凹非寺量子位 | 公众号 QbitAI终于,那句用来教育年轻人的经典嗑... 是模型对长时间跨度任务的状态维持能力;若是记性不好的话,机...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a5445b6185c5dd961e8b4fc2"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "当K8s遇见Ray:大模型时代AI Workload调度的通用范式",
+              "summary": "关注腾讯云开发者,一手技术干货提前解锁随着大模型时代的到来,AI 基础设施(AI Infra)正在经历深刻的变革.面对日益复杂的计算...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_9f2ef9f7b17b435f024610fc"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
               "summary": "二、超越代码生成:用 Agent 框架破解 OpenBMC 平台移植难题分享人:郏春辉 | 字节跳动 STE 固件团队从管理接口到固件构建:标...",
@@ -173,58 +187,22 @@
               "confidence": 86
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
-              "summary": "Wan2.2视频大模型权重进行初始化,将其作为无动作条件的未来... #ABot #具身智能 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_508d7025396257b0c269909b"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
-              "summary": "凹非寺量子位 | 公众号 QbitAI终于,那句用来教育年轻人的经典嗑... 是模型对长时间跨度任务的状态维持能力;若是记性不好的话,机...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a5445b6185c5dd961e8b4fc2"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "当K8s遇见Ray:大模型时代AI Workload调度的通用范式",
-              "summary": "关注腾讯云开发者,一手技术干货提前解锁随着大模型时代的到来,AI 基础设施(AI Infra)正在经历深刻的变革.面对日益复杂的计算...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_dc5515830b5174d603dbd824"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c6afe13a43dfb5956ce588a2",
-        "local_508d7025396257b0c269909b",
+        "local_33ed1cc5e4f810d475add648",
         "local_c9a67093c344ce22b0534e78",
         "local_a5445b6185c5dd961e8b4fc2",
         "local_b92625cd4671a50cbf276a5c",
-        "local_dc5515830b5174d603dbd824"
+        "local_9f2ef9f7b17b435f024610fc"
       ],
-      "generatedAt": "2026-07-14T15:12:38.416Z",
+      "generatedAt": "2026-07-14T16:45:57.095Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-14T15:12:38.416Z",
+  "generatedAt": "2026-07-14T16:45:57.095Z",
   "collectorName": "local-source-collector"
 }
