@@ -2022,7 +2022,7 @@ body:has(.daily-mode) {
   .tab-button {
     flex: 1 1 0;
     min-width: 0;
-    min-height: 38px;
+    min-height: 40px;
   }
 
   .tab-count {
@@ -2071,6 +2071,17 @@ body:has(.daily-mode) {
   .filter-chip,
   .timeline-expand-button {
     min-width: 40px;
+  }
+
+  .icon-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .feed-action-button {
+    min-width: 40px;
+    min-height: 40px;
+    justify-content: center;
   }
 
   .source-refresh-button {
@@ -2218,6 +2229,15 @@ body:has(.daily-mode) {
   .daily-mainline-panel p {
     font-size: 15px;
     line-height: 1.85;
+  }
+
+  .daily-source-ref {
+    position: static;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 40px;
+    justify-content: center;
+    margin: -8px -12px;
   }
 
   .daily-section-block {

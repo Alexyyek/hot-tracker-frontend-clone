@@ -74,6 +74,20 @@ async function elementsOverlap(first, second) {
   return a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
 }
 
+async function readTargetSizeSummary(locator) {
+  return locator.evaluateAll((elements) => {
+    const sizes = elements.map((element) => {
+      const rect = element.getBoundingClientRect();
+      return { height: rect.height, width: rect.width };
+    });
+    return {
+      count: sizes.length,
+      minHeight: sizes.length > 0 ? Math.min(...sizes.map((size) => size.height)) : 0,
+      minWidth: sizes.length > 0 ? Math.min(...sizes.map((size) => size.width)) : 0
+    };
+  });
+}
+
 function normalizeHostname(value) {
   if (!value) return "";
   try {
@@ -261,6 +275,9 @@ try {
           const rect = element.getBoundingClientRect();
           return { height: rect.height, width: rect.width };
         })),
+        feedTouchTargets: await readTargetSizeSummary(page.locator(
+          ".primary-tabs .tab-button:visible, .timeline-card .feed-action-button:visible, .icon-button:visible"
+        )),
         visibleRefreshButtons: await page.locator(".source-refresh-button:visible").count(),
         navOverlapsFirstFooter: await nav.count() && await firstFooter.count()
           ? await elementsOverlap(nav, firstFooter)
@@ -296,6 +313,7 @@ try {
         drawer: await drawer.count(),
         sourceRows: await page.locator(".filter-drawer .source-filter-row").count(),
         sourceNameEllipsis,
+        drawerIconTargets: await readTargetSizeSummary(page.locator(".filter-drawer .icon-button:visible")),
         targetSizes: await page.locator(
           ".filter-drawer .filter-chip, .filter-drawer .source-filter-row, .filter-drawer .topic-list-footer, .filter-drawer .source-list-footer"
         ).evaluateAll((elements) => elements.map((element) => {
@@ -316,7 +334,8 @@ try {
       const dateText = page.locator(".date-picker strong").first();
       return {
         reportButtons: await page.locator(".daily-report-button").count(),
-        dateText: await dateText.count() ? await dateText.textContent() : null
+        dateText: await dateText.count() ? await dateText.textContent() : null,
+        sourceRefTargets: await readTargetSizeSummary(page.locator(".daily-source-ref:visible"))
       };
     })
   );
@@ -528,12 +547,27 @@ function assertAcceptance(captures) {
   expect(mobileFeed?.meta.navOverlapsFirstFooter === false, "mobile feed: fixed navigation overlaps the first card footer");
   expect(mobileFeed?.meta.expandTargetSizes?.length > 0, "mobile feed: no expand targets to measure");
   expect(mobileFeed?.meta.expandTargetSizes?.every((size) => size.width >= 40 && size.height >= 40), "mobile feed: expand target is below 40x40px");
+  expect(mobileFeed?.meta.feedTouchTargets?.count > 0, "mobile feed: no tab/share/icon targets to measure");
+  expect(
+    mobileFeed?.meta.feedTouchTargets?.minWidth >= 40 && mobileFeed?.meta.feedTouchTargets?.minHeight >= 40,
+    "mobile feed: tab/share/icon target is below 40x40px"
+  );
   expect(drawer?.meta.drawer === 1, "mobile filter drawer did not open");
   expect(drawer?.meta.sourceRows > 0, "mobile filter drawer has no source rows");
   expect(drawer?.meta.sourceNameEllipsis === true, "mobile filter drawer: source names do not use ellipsis styling");
   expect(drawer?.meta.targetSizes?.length > 0, "mobile filter drawer: no targets to measure");
   expect(drawer?.meta.targetSizes?.every((size) => size.width >= 40 && size.height >= 40), "mobile filter drawer: target is below 40x40px");
+  expect(drawer?.meta.drawerIconTargets?.count > 0, "mobile filter drawer: no icon targets to measure");
+  expect(
+    drawer?.meta.drawerIconTargets?.minWidth >= 40 && drawer?.meta.drawerIconTargets?.minHeight >= 40,
+    "mobile filter drawer: icon target is below 40x40px"
+  );
   expect(mobileDaily?.meta.reportButtons > 0, "mobile daily has no report controls");
+  expect(mobileDaily?.meta.sourceRefTargets?.count > 0, "mobile daily: no source reference targets to measure");
+  expect(
+    mobileDaily?.meta.sourceRefTargets?.minWidth >= 40 && mobileDaily?.meta.sourceRefTargets?.minHeight >= 40,
+    "mobile daily: source reference target is below 40x40px"
+  );
   expect(filterStates?.meta.baseline > 0, "filter coverage started with no cards");
   expect(filterStates?.meta.topicCount > 0 && filterStates?.meta.topicMatches === true, "topic filtering failed");
   expect(filterStates?.meta.keywordCount > 0 && filterStates?.meta.keywordMatches === true, "keyword filtering failed");
