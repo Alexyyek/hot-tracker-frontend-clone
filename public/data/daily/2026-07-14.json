@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「AWS and Bluesight build AI for hospital 340B compliance」、「中科大等团队开源长视频Agent:剪辑翻车,只改出错片段」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「AWS and Bluesight build AI for hospital 340B compliance」、「中科大等团队开源长视频Agent:剪辑翻车,只改出错片段」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS and Bluesight build AI for hospital 340B compliance",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：中科大等团队开源长视频Agent:剪辑翻车,只改出错片段",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e71840bed91cf9880f682f30"
+                "local_aeea008294ac2da915e85afa"
               ],
               "confidence": 92
             },
@@ -58,19 +58,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6bf844e929689a50248da836"
+                "local_b78ddf1a5b3673d0a3f5ae08"
               ],
               "confidence": 92
             },
             {
-              "title": "蚂蚁阿福:从 0 到生产的医疗 Agent 工程化落地",
-              "summary": "Agent 落地中的实践心得与应用前景. 以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 蚂蚁阿福 Agent 的痛点与挑战医疗 ...",
+              "title": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
+              "summary": "Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes only in its forward direction. We observe that the action-observation-continuation loop of a coding agent is structurally isomorphic t…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9c075e28d3c3810d8f8dbb9d"
+                "local_861b2861badc7d2615b54bdd"
               ],
-              "confidence": 90
+              "confidence": 92
             }
           ]
         },
@@ -147,21 +147,25 @@
       ],
       "referencedFeedItemIds": [
         "local_3d4768c920a9f6ba2405a75b",
-        "local_e71840bed91cf9880f682f30",
+        "local_aeea008294ac2da915e85afa",
         "local_fbd1f63ec14e03eb4394fc5b",
         "local_34ddef3629703ed40950f35f",
-        "local_6bf844e929689a50248da836",
-        "local_9c075e28d3c3810d8f8dbb9d",
+        "local_b78ddf1a5b3673d0a3f5ae08",
+        "local_861b2861badc7d2615b54bdd",
+        "local_c1c0e52d0a0d2c9cece4870e",
+        "local_07d3b32ee3dedf99563fb0b1",
+        "local_b3aa9ce7f935ba2321ad55c1",
         "local_8f3395c8924cd6d1b4a25350",
         "local_77c1497ace8114bfe95f3199",
         "local_a2e4d7ae46d48bd013bc0ce0",
         "local_44710aca73b84c7446a39a1b",
         "local_34fafea3dbceff5f272b8004",
+        "local_7de6a7153efba75469277b94",
         "local_7d0a0ab043fa0215be53d64a",
         "local_58e0155d8cb29376afa4a4b2",
         "local_7c405584f897bb605906804f"
       ],
-      "generatedAt": "2026-07-14T23:43:09.122Z",
+      "generatedAt": "2026-07-15T01:07:32.716Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -194,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e71840bed91cf9880f682f30"
+                "local_aeea008294ac2da915e85afa"
               ],
               "confidence": 92
             },
@@ -214,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9c075e28d3c3810d8f8dbb9d"
+                "local_07d3b32ee3dedf99563fb0b1"
               ],
               "confidence": 90
             }
@@ -237,18 +241,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e71840bed91cf9880f682f30",
+        "local_aeea008294ac2da915e85afa",
         "local_34ddef3629703ed40950f35f",
-        "local_9c075e28d3c3810d8f8dbb9d",
+        "local_07d3b32ee3dedf99563fb0b1",
         "local_8f3395c8924cd6d1b4a25350"
       ],
-      "generatedAt": "2026-07-14T23:43:09.122Z",
+      "generatedAt": "2026-07-15T01:07:32.716Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-14T23:43:09.122Z",
+  "generatedAt": "2026-07-15T01:07:32.717Z",
   "collectorName": "local-source-collector"
 }
