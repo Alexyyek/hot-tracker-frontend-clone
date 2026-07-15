@@ -17,6 +17,12 @@
   --topic-all: #d97706;
   --topic-fallback: #64748b;
   --shadow: 0 8px 24px rgb(56 40 28 / 7%);
+  --daily-page-background:
+    radial-gradient(circle at 82% 12%, rgb(255 252 245 / 72%), transparent 34%),
+    linear-gradient(180deg, #fbfaf6 0%, #f5f2ec 100%);
+  --daily-article-background:
+    linear-gradient(115deg, #fff2de 0%, #fffdf8 32%, #fcfbf8 100%),
+    var(--surface);
   color: var(--text);
   background: var(--bg);
   font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -41,6 +47,8 @@
   --mint: #56b99f;
   --coral: #f08375;
   --shadow: 0 8px 24px rgb(0 0 0 / 28%);
+  --daily-page-background: var(--bg);
+  --daily-article-background: var(--surface);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,6 +69,8 @@
     --mint: #56b99f;
     --coral: #f08375;
     --shadow: 0 8px 24px rgb(0 0 0 / 28%);
+    --daily-page-background: var(--bg);
+    --daily-article-background: var(--surface);
   }
 }
 
@@ -94,18 +104,7 @@ button {
 }
 
 body:has(.daily-mode) {
-  background:
-    radial-gradient(circle at 82% 12%, rgb(255 252 245 / 72%), transparent 34%),
-    linear-gradient(180deg, #fbfaf6 0%, #f5f2ec 100%);
-}
-
-.daily-mode {
-  --bg: #f6f3ed;
-  --surface: #fffdf8;
-  --surface-raised: #fffaf2;
-  --surface-glass: rgb(255 253 248 / 94%);
-  --border: #e5ddd3;
-  --border-soft: #eee6dc;
+  background: var(--daily-page-background);
 }
 
 .topbar {
@@ -1645,9 +1644,7 @@ body:has(.daily-mode) {
 .daily-article {
   --score-accent: var(--brand);
   display: grid;
-  background:
-    linear-gradient(115deg, #fff2de 0%, #fffdf8 32%, #fcfbf8 100%),
-    var(--surface);
+  background: var(--daily-article-background);
 }
 
 .daily-article-header {
@@ -1944,6 +1941,11 @@ body:has(.daily-mode) {
 
 .filter-sheet-refresh {
   display: none;
+}
+
+.filter-sheet-refresh:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .filter-sheet .topic-filter {
