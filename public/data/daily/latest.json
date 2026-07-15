@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fe40ae217857f985203841f6"
+                "local_310319b3e81170ec3aaf3001"
               ],
               "confidence": 82
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_62b51b1839f2a9a5a382c604"
+                "local_47b0b508a2195f618365b838"
               ],
               "confidence": 70
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_70228600768f538eda5b5a3e"
+                "local_d7733db9bc23893e67aa8edb"
               ],
               "confidence": 82
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a637d339c51a3ba11e17b588"
+                "local_61854bc1be3aea520849eb76"
               ],
               "confidence": 82
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8026b5a8c64a737112c6a771"
+                "local_ce45357da1e4740378cf2436"
               ],
               "confidence": 70
             }
@@ -83,19 +83,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_34237c7bea05731ca204bed9"
+                "local_25317e224f56e31a17d6270e"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads.…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_325e5e2597e0f6ab2432d0d5"
-              ],
-              "confidence": 92
             },
             {
               "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
@@ -108,12 +98,22 @@
               "confidence": 74
             },
             {
+              "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads.…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_325e5e2597e0f6ab2432d0d5"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_280e08d5f5a2862f564bdee7"
+                "local_e1ab939625b88de0a89c631e"
               ],
               "confidence": 92
             },
@@ -123,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5531a317b52d046a6994691c"
+                "local_d9c0de625f3fe3e0664db5ef"
               ],
               "confidence": 78
             }
@@ -153,7 +153,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a4fe1a6995d3b5c7a289ede8"
+                "local_54a61aec9fe70bed23b08d84"
               ],
               "confidence": 70
             }
@@ -161,32 +161,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_fe40ae217857f985203841f6",
-        "local_62b51b1839f2a9a5a382c604",
-        "local_70228600768f538eda5b5a3e",
-        "local_a637d339c51a3ba11e17b588",
-        "local_34237c7bea05731ca204bed9",
-        "local_8026b5a8c64a737112c6a771",
-        "local_d76bcb9ef1dd086a3ebcf818",
-        "local_325e5e2597e0f6ab2432d0d5",
+        "local_310319b3e81170ec3aaf3001",
+        "local_47b0b508a2195f618365b838",
+        "local_d7733db9bc23893e67aa8edb",
+        "local_61854bc1be3aea520849eb76",
+        "local_25317e224f56e31a17d6270e",
+        "local_ce45357da1e4740378cf2436",
+        "local_b7d4f44f097d923768057129",
         "local_78dfc4f659956941a8c9b5c8",
         "local_1c28abd38d627229ae1c8c96",
         "local_7b5e67fecaf9ea8a30a436a4",
-        "local_86cc44fdc85cc83f2f9e04cf",
-        "local_d04cf3526dcbd7e9aa94113a",
-        "local_0e7ae01d47c27831349768d0",
-        "local_8c306719238c84df1fcef469",
-        "local_280e08d5f5a2862f564bdee7",
-        "local_e535ca7b5f420e073f24fe92",
-        "local_cf37812dad56b2b557e0aa24",
-        "local_690362b693daa9213b0d184f",
-        "local_0f62c49b8a7582b48cdb068f",
-        "local_5531a317b52d046a6994691c",
-        "local_de035fbb0b91530430442acc",
-        "local_4f0fd5fa4b2739b5cc44767f",
-        "local_a4fe1a6995d3b5c7a289ede8"
+        "local_325e5e2597e0f6ab2432d0d5",
+        "local_ec7e8aefdf0b9449d3d1a443",
+        "local_3a6aa4fe6ed14f98d9bb9c8a",
+        "local_26acec61a3dbf00e7dd9c29e",
+        "local_bdcaa858214b727fd9772eaa",
+        "local_e1ab939625b88de0a89c631e",
+        "local_c62a1b2ab3e54316eaf115d5",
+        "local_0546d4e81437c40f4119e569",
+        "local_7764700ae6549958ed4276d2",
+        "local_4df2454d8e5b59ea8288e0bb",
+        "local_d9c0de625f3fe3e0664db5ef",
+        "local_8ccb8bde47b71f9bdcbf2d0d",
+        "local_494e3dc693dc7353586b5984",
+        "local_54a61aec9fe70bed23b08d84"
       ],
-      "generatedAt": "2026-07-15T22:41:35.939Z",
+      "generatedAt": "2026-07-15T23:47:22.200Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -220,7 +220,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fe40ae217857f985203841f6"
+                "local_310319b3e81170ec3aaf3001"
               ],
               "confidence": 82
             },
@@ -230,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_62b51b1839f2a9a5a382c604"
+                "local_47b0b508a2195f618365b838"
               ],
               "confidence": 70
             },
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_70228600768f538eda5b5a3e"
+                "local_d7733db9bc23893e67aa8edb"
               ],
               "confidence": 82
             },
@@ -250,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a637d339c51a3ba11e17b588"
+                "local_61854bc1be3aea520849eb76"
               ],
               "confidence": 82
             },
@@ -260,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8026b5a8c64a737112c6a771"
+                "local_ce45357da1e4740378cf2436"
               ],
               "confidence": 70
             }
@@ -275,19 +275,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_34237c7bea05731ca204bed9"
+                "local_25317e224f56e31a17d6270e"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads.…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_325e5e2597e0f6ab2432d0d5"
-              ],
-              "confidence": 92
             },
             {
               "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
@@ -300,12 +290,22 @@
               "confidence": 74
             },
             {
+              "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads.…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_325e5e2597e0f6ab2432d0d5"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Seed Research",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5531a317b52d046a6994691c"
+                "local_d9c0de625f3fe3e0664db5ef"
               ],
               "confidence": 78
             },
@@ -315,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_de035fbb0b91530430442acc"
+                "local_8ccb8bde47b71f9bdcbf2d0d"
               ],
               "confidence": 92
             }
@@ -345,7 +345,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a4fe1a6995d3b5c7a289ede8"
+                "local_54a61aec9fe70bed23b08d84"
               ],
               "confidence": 70
             }
@@ -353,34 +353,34 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_fe40ae217857f985203841f6",
-        "local_62b51b1839f2a9a5a382c604",
-        "local_70228600768f538eda5b5a3e",
-        "local_a637d339c51a3ba11e17b588",
-        "local_34237c7bea05731ca204bed9",
-        "local_8026b5a8c64a737112c6a771",
-        "local_d76bcb9ef1dd086a3ebcf818",
-        "local_325e5e2597e0f6ab2432d0d5",
+        "local_310319b3e81170ec3aaf3001",
+        "local_47b0b508a2195f618365b838",
+        "local_d7733db9bc23893e67aa8edb",
+        "local_61854bc1be3aea520849eb76",
+        "local_25317e224f56e31a17d6270e",
+        "local_ce45357da1e4740378cf2436",
+        "local_b7d4f44f097d923768057129",
         "local_78dfc4f659956941a8c9b5c8",
         "local_1c28abd38d627229ae1c8c96",
         "local_7b5e67fecaf9ea8a30a436a4",
-        "local_5531a317b52d046a6994691c",
-        "local_de035fbb0b91530430442acc",
-        "local_4f0fd5fa4b2739b5cc44767f",
-        "local_a4fe1a6995d3b5c7a289ede8",
-        "local_25792b3ce785920400881740",
-        "local_e2225634614af882bec52376",
-        "local_593614b8b1a7b1e59d8a25fa",
-        "local_41bbda7bbf46857a57bdeeed",
+        "local_325e5e2597e0f6ab2432d0d5",
+        "local_d9c0de625f3fe3e0664db5ef",
+        "local_8ccb8bde47b71f9bdcbf2d0d",
+        "local_494e3dc693dc7353586b5984",
+        "local_54a61aec9fe70bed23b08d84",
+        "local_5e7c06a4d63c46a79d1afad9",
+        "local_cefb22d2696e4f0358fd6b1f",
+        "local_b5965861161a10c846fff292",
+        "local_63a553d5fd90d18b9d61665f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-15T22:41:35.939Z",
+      "generatedAt": "2026-07-15T23:47:22.200Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-15T22:41:35.939Z",
+  "generatedAt": "2026-07-15T23:47:22.200Z",
   "collectorName": "local-source-collector"
 }
