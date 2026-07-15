@@ -778,11 +778,6 @@ body:has(.daily-mode) {
   text-align: left;
 }
 
-.source-filter-row.is-empty {
-  color: var(--text-muted);
-  background: color-mix(in srgb, var(--surface-raised) 70%, var(--bg));
-}
-
 .source-filter-row:hover {
   border-color: color-mix(in srgb, var(--brand) 22%, var(--border));
   background: var(--surface);
@@ -852,10 +847,6 @@ body:has(.daily-mode) {
   font-style: normal;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
-}
-
-.source-filter-row.is-empty .source-row-count {
-  font-size: 11px;
 }
 
 .source-list-footer {

@@ -72,6 +72,16 @@ async function elementsOverlap(first, second) {
   return a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
 }
 
+function normalizeHostname(value) {
+  if (!value) return "";
+  try {
+    const url = new URL(value.includes("://") ? value : `https://${value}`);
+    return url.hostname.toLowerCase().replace(/^www\./, "");
+  } catch {
+    return value.trim().toLowerCase().replace(/^www\./, "");
+  }
+}
+
 const results = [];
 
 try {
@@ -86,9 +96,10 @@ try {
   results.push(
     await capture("02-local-feed-desktop.png", `${localUrl}/`, desktop, async (page) => {
       const firstExpand = page.locator(".timeline-expand-button").first();
-      const timelineCards = page.locator(".timeline-card");
+      const timelineCards = page.locator(".timeline-card:visible");
       const sourceRows = page.locator(".source-filter-row");
-      const firstSourceName = page.locator(".source-filter-row .source-row-name").first();
+      const firstSourceRow = sourceRows.first();
+      const firstSourceName = firstSourceRow.locator(".source-row-name");
       const sourceNameEllipsis = await firstSourceName.count()
         ? await firstSourceName.evaluate((element) => {
             const style = getComputedStyle(element);
@@ -98,10 +109,31 @@ try {
       const countBeforeSourceFilter = await timelineCards.count();
       const sourceRowCount = await sourceRows.count();
       const sourceSecondaryLabels = await page.locator(".source-filter-row small").count();
+      let clickedSourceName = "";
+      let clickedSourceHostname = "";
       if (sourceRowCount > 0) {
-        await sourceRows.first().click();
+        clickedSourceName = (await firstSourceRow.getAttribute("data-source-name"))?.trim() || "";
+        clickedSourceHostname = normalizeHostname(await firstSourceRow.getAttribute("data-source-hostname"));
+        await firstSourceRow.click();
         await page.waitForTimeout(400);
       }
+      const countAfterSourceFilter = await timelineCards.count();
+      const filteredCardsMatchSource = countAfterSourceFilter > 0 && Boolean(clickedSourceName)
+        ? await timelineCards.evaluateAll((cards, expected) => cards.every((card) => {
+            const cardSourceName = card.querySelector(".source-name")?.textContent?.trim() || "";
+            if (cardSourceName !== expected.sourceName) return false;
+            if (!expected.sourceHostname) return true;
+
+            const sourceLink = card.querySelector(".timeline-card-context a[href]");
+            if (!sourceLink) return false;
+            try {
+              const hostname = new URL(sourceLink.href).hostname.toLowerCase().replace(/^www\./, "");
+              return hostname === expected.sourceHostname;
+            } catch {
+              return false;
+            }
+          }), { sourceName: clickedSourceName, sourceHostname: clickedSourceHostname })
+        : false;
       return {
         cards: countBeforeSourceFilter,
         expandText: await firstExpand.count() ? await firstExpand.textContent() : null,
@@ -111,8 +143,9 @@ try {
         sourceSecondaryLabels,
         sourceNameEllipsis,
         countBeforeSourceFilter,
-        countAfterSourceFilter: await timelineCards.count(),
-        activeSourceRows: await page.locator(".source-filter-row.active").count()
+        countAfterSourceFilter,
+        activeSourceRows: await page.locator(".source-filter-row.active").count(),
+        filteredCardsMatchSource
       };
     })
   );
@@ -247,9 +280,17 @@ try {
           el.scrollTop = 500;
         });
       }
+      const firstSourceName = page.locator(".filter-drawer .source-row-name").first();
+      const sourceNameEllipsis = await firstSourceName.count()
+        ? await firstSourceName.evaluate((element) => {
+            const style = getComputedStyle(element);
+            return style.overflow === "hidden" && style.textOverflow === "ellipsis" && style.whiteSpace === "nowrap";
+          })
+        : null;
       return {
         drawer: await drawer.count(),
-        sourceRows: await page.locator(".filter-drawer .source-filter-row").count()
+        sourceRows: await page.locator(".filter-drawer .source-filter-row").count(),
+        sourceNameEllipsis
       };
     })
   );
@@ -334,6 +375,7 @@ function assertAcceptance(captures) {
     desktopFeed?.meta.countAfterSourceFilter <= desktopFeed?.meta.countBeforeSourceFilter,
     "desktop feed: source filtering increased the card count"
   );
+  expect(desktopFeed?.meta.filteredCardsMatchSource === true, "desktop feed: filtered cards do not match the selected source");
   expect(expandedFeed?.meta.expanded === 1, "feed expansion did not open exactly one card");
   expect(expandedFeed?.meta.expandState === "true", "feed expansion did not update aria-expanded");
   expect(expandedFeed?.meta.dialogText?.includes("分享"), "share dialog did not open");
@@ -349,6 +391,7 @@ function assertAcceptance(captures) {
   expect(mobileFeed?.meta.navOverlapsFirstFooter === false, "mobile feed: fixed navigation overlaps the first card footer");
   expect(drawer?.meta.drawer === 1, "mobile filter drawer did not open");
   expect(drawer?.meta.sourceRows > 0, "mobile filter drawer has no source rows");
+  expect(drawer?.meta.sourceNameEllipsis === true, "mobile filter drawer: source names do not use ellipsis styling");
   expect(mobileDaily?.meta.reportButtons > 0, "mobile daily has no report controls");
 
   if (failures.length > 0) {

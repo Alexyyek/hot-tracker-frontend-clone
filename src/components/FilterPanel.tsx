@@ -88,7 +88,12 @@ export function FilterPanel({
           </button>
         ))}
         {hiddenTopicCount > 0 || showAllTopics ? (
-          <button className="topic-list-footer" onClick={() => setShowAllTopics((value) => !value)} type="button">
+          <button
+            aria-expanded={showAllTopics}
+            className="topic-list-footer"
+            onClick={() => setShowAllTopics((value) => !value)}
+            type="button"
+          >
             <span>{showAllTopics ? "收起主题" : "更多主题"}</span>
             <small>{showAllTopics ? "显示精简列表" : `还有 ${hiddenTopicCount} 个主题`}</small>
             <ChevronDown size={16} className={showAllTopics ? "is-open" : ""} />
@@ -120,6 +125,7 @@ export function FilterPanel({
           <span className="filter-label">来源类型</span>
           <div className="filter-chip-row">
             <button
+              aria-pressed={!query.sourceKind}
               className={!query.sourceKind ? "filter-chip active" : "filter-chip"}
               onClick={() => update({ sourceKind: undefined, sourceName: undefined, sourceHostname: undefined })}
               type="button"
@@ -128,6 +134,7 @@ export function FilterPanel({
             </button>
             {sourceKinds.map((kind) => (
               <button
+                aria-pressed={query.sourceKind === kind}
                 className={query.sourceKind === kind ? "filter-chip active" : "filter-chip"}
                 key={kind}
                 onClick={() => update({ sourceKind: kind, sourceName: undefined, sourceHostname: undefined })}
@@ -144,6 +151,7 @@ export function FilterPanel({
           <div className="filter-chip-row">
             {scoreOptions.map((score) => (
               <button
+                aria-pressed={(query.minImportance ?? 0) === score}
                 className={(query.minImportance ?? 0) === score ? "filter-chip active" : "filter-chip"}
                 key={score}
                 onClick={() => update({ minImportance: score === 0 ? undefined : score })}
@@ -166,21 +174,24 @@ export function FilterPanel({
           <div className="source-filter-list">
             {visibleSources.map((facet) => {
               const kindLabel = sourceKindLabel(facet.sourceKind);
+              const sourceHostname = facet.sourceHostname || undefined;
               const isActive = query.sourceKind === facet.sourceKind
                 && query.sourceName === facet.sourceName
-                && query.sourceHostname === facet.sourceHostname;
+                && (query.sourceHostname || undefined) === sourceHostname;
 
               return (
                 <button
                   aria-label={`${facet.sourceName}，${kindLabel}，${facet.count} 条`}
                   aria-pressed={isActive}
                   className={isActive ? "source-filter-row active" : "source-filter-row"}
-                  key={`${facet.sourceKind}-${facet.sourceName}-${facet.sourceHostname ?? ""}`}
+                  data-source-hostname={sourceHostname}
+                  data-source-name={facet.sourceName}
+                  key={`${facet.sourceKind}-${facet.sourceName}-${sourceHostname ?? ""}`}
                   onClick={() =>
                     update({
                       sourceKind: facet.sourceKind,
                       sourceName: facet.sourceName,
-                      sourceHostname: facet.sourceHostname
+                      sourceHostname
                     })
                   }
                   title={`${facet.sourceName} · ${kindLabel}`}
@@ -191,7 +202,7 @@ export function FilterPanel({
                     kind={facet.sourceKind}
                     sourceName={facet.sourceName}
                     sourceAvatarUrl={facet.sourceAvatarUrl}
-                    sourceHostname={facet.sourceHostname}
+                    sourceHostname={sourceHostname}
                     sourceIconHostname={facet.sourceIconHostname}
                   />
                   <span className="source-row-name">{facet.sourceName}</span>
@@ -201,7 +212,12 @@ export function FilterPanel({
             })}
           </div>
           {mergedSources.length > 18 ? (
-            <button className="source-list-footer" onClick={() => setShowAllSources((value) => !value)} type="button">
+            <button
+              aria-expanded={showAllSources}
+              className="source-list-footer"
+              onClick={() => setShowAllSources((value) => !value)}
+              type="button"
+            >
               <span>{showAllSources ? "收起来源" : "展开全部来源"}</span>
               <small>{showAllSources ? "显示前 18 个" : `还有 ${mergedSources.length - visibleSources.length} 个来源`}</small>
               <ChevronDown size={16} className={showAllSources ? "is-open" : ""} />
