@@ -2173,6 +2173,10 @@ body:has(.daily-mode) {
     padding: 0 18px 26px;
   }
 
+  .daily-mainline-panel div {
+    padding-left: 13px;
+  }
+
   .daily-mainline-panel p {
     font-size: 15px;
     line-height: 1.85;
@@ -2197,6 +2201,7 @@ body:has(.daily-mode) {
   }
 
   .daily-story h3 {
+    align-items: flex-start;
     flex-wrap: wrap;
     font-size: 15px;
   }
