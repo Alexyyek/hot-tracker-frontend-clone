@@ -16,7 +16,7 @@
         "跟进：How I tricked Claude into leaking your deepest, darkest secrets",
         "跟进：OpenAI&#039;s Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation",
         "跟进：全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%",
-        "跟进：What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness"
+        "跟进：Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models"
       ],
       "sections": [
         {
@@ -88,6 +88,16 @@
               "confidence": 92
             },
             {
+              "title": "Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models",
+              "summary": "Coding agents must integrate external tool returns into ongoing reasoning - a capability that standard left-to-right pretraining on code exposes only in its forward direction. We observe that the action-observation-continuation loop of a coding agent is structurally isomorphic t…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_39eba394c38ce7cbf4c71d07"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
               "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. This world-knowledge bottleneck is structural: generators a…",
               "insightLabel": "关注",
@@ -116,32 +126,12 @@
                 "local_f2aeb22295f5de36bc3bca6c"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What if autonomous coding AI agents could push your vision reasoning models above 90% accuracy with almost no manual effort? When adapting vision reasoning...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b417c509befff70d1f33afcf"
-              ],
-              "confidence": 92
             }
           ]
         },
         {
           "title": "行业与公司",
           "items": [
-            {
-              "title": "MonkeyOCRv2: A Visual-Text Foundation Model for Document AI",
-              "summary": "Mainstream visual encoders are pretrained on natural images and cannot be effectively applied to document images without document-oriented adaptation, as dense text and fine-grained character strokes demand character-level visual perception. We present MonkeyOCRv2, a visual-text…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_dd977faf71b794c55b504960"
-              ],
-              "confidence": 92
-            },
             {
               "title": "simonw/pedalican",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then lea…",
@@ -160,10 +150,10 @@
         "local_c164af3ad2a4b678b0979e47",
         "local_ba9f8195dedb3af0baff4cf0",
         "local_11991c40cf8290568bb1f837",
+        "local_39eba394c38ce7cbf4c71d07",
         "local_a740d286faeb0ca9bacdf793",
         "local_78a99ee5407a227e1a49eeab",
         "local_8c59a1fd8afc1f42fedd5d39",
-        "local_dd977faf71b794c55b504960",
         "local_cd95928911d9c2c54a9b31a7",
         "local_cde246fb953961169cd28496",
         "local_f2df0191b87c9cd2e6311dbf",
@@ -171,7 +161,7 @@
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-15T21:18:52.191Z",
+      "generatedAt": "2026-07-15T22:41:35.953Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -264,13 +254,13 @@
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-15T21:18:52.191Z",
+      "generatedAt": "2026-07-15T22:41:35.953Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-15T21:18:52.191Z",
+  "generatedAt": "2026-07-15T22:41:35.953Z",
   "collectorName": "local-source-collector"
 }
