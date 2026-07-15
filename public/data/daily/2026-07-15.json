@@ -16,7 +16,7 @@
         "跟进：How I tricked Claude into leaking your deepest, darkest secrets",
         "跟进：OpenAI&#039;s Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation",
         "跟进：全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%",
-        "跟进：SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding"
+        "跟进：What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness"
       ],
       "sections": [
         {
@@ -53,6 +53,16 @@
               "confidence": 86
             },
             {
+              "title": "What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness",
+              "summary": "Large language models fine-tuned for forecasting can be accurate yet poorly calibrated, and their chain-of-thought (CoT) reasoning may not faithfully reflect the evidence behind a forecast. We ask whether internal representations offer a more direct window into both. Working wit…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a740d286faeb0ca9bacdf793"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding",
               "summary": "Vision language models (VLMs) have achieved strong performance on visual document understanding benchmarks such as DocVQA, ChartQA, and MMLongBench-Doc. However, real-world documents combine multiple factors such as length, layout complexity, modality, and question difficulty, w…",
               "insightLabel": "关注",
@@ -61,16 +71,6 @@
                 "local_78a99ee5407a227e1a49eeab"
               ],
               "confidence": 92
-            },
-            {
-              "title": "It's not too late to get Pixel Care+ for your Pixel 9 or 10.",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：From July 13 to August 2, sign up for Pixel Care+ to get accidental damage coverage and $0 battery and screen repairs.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cde246fb953961169cd28496"
-              ],
-              "confidence": 74
             }
           ]
         },
@@ -143,16 +143,6 @@
               "confidence": 92
             },
             {
-              "title": "MuScriptor: An Open Model for Multi-Instrument Music Transcription",
-              "summary": "Existing methods for automatic music transcription are often limited to single-instrument recordings or fail on complex, real music mixes. Although previous work utilizes synthetic training data, the resulting models generalize poorly, leading to largely unusable transcription o…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_7b2862eba242818f42fc61c5"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "simonw/pedalican",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then lea…",
               "insightLabel": "关注",
@@ -170,10 +160,10 @@
         "local_c164af3ad2a4b678b0979e47",
         "local_ba9f8195dedb3af0baff4cf0",
         "local_11991c40cf8290568bb1f837",
+        "local_a740d286faeb0ca9bacdf793",
         "local_78a99ee5407a227e1a49eeab",
         "local_8c59a1fd8afc1f42fedd5d39",
         "local_dd977faf71b794c55b504960",
-        "local_7b2862eba242818f42fc61c5",
         "local_cd95928911d9c2c54a9b31a7",
         "local_cde246fb953961169cd28496",
         "local_f2df0191b87c9cd2e6311dbf",
@@ -181,7 +171,7 @@
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-15T16:48:39.682Z",
+      "generatedAt": "2026-07-15T18:22:53.527Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -274,13 +264,13 @@
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-15T16:48:39.682Z",
+      "generatedAt": "2026-07-15T18:22:53.527Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-15T16:48:39.686Z",
+  "generatedAt": "2026-07-15T18:22:53.527Z",
   "collectorName": "local-source-collector"
 }
