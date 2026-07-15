@@ -59,7 +59,7 @@ export function FilterPanel({
         >
           <span className="topic-row-main">
             <span className="topic-source-info" data-tooltip="聚合 AI 行业、论文、应用和大厂日报。">
-              <Info size={13} />
+              <Info aria-hidden="true" size={13} />
             </span>
             <span className="topic-title">全部 AI</span>
           </span>
@@ -78,9 +78,8 @@ export function FilterPanel({
               <span
                 className="topic-source-info"
                 data-tooltip={getAiTopicTooltip(topic)}
-                onClick={(event) => event.stopPropagation()}
               >
-                <Info size={13} />
+                <Info aria-hidden="true" size={13} />
               </span>
               <span className="topic-title">{topic.title}</span>
             </span>
@@ -96,7 +95,7 @@ export function FilterPanel({
           >
             <span>{showAllTopics ? "收起主题" : "更多主题"}</span>
             <small>{showAllTopics ? "显示精简列表" : `还有 ${hiddenTopicCount} 个主题`}</small>
-            <ChevronDown size={16} className={showAllTopics ? "is-open" : ""} />
+            <ChevronDown aria-hidden="true" size={16} className={showAllTopics ? "is-open" : ""} />
           </button>
         ) : null}
       </section>
@@ -107,12 +106,12 @@ export function FilterPanel({
             <h2>筛选</h2>
           </div>
           <button className="icon-button" onClick={onReset} type="button" title="重置筛选">
-            <SlidersHorizontal size={17} />
+            <SlidersHorizontal aria-hidden="true" size={17} />
           </button>
         </div>
 
         <label className="search-box">
-          <Search size={17} />
+          <Search aria-hidden="true" size={17} />
           <input
             placeholder="搜索标题或摘要"
             type="search"
@@ -220,7 +219,7 @@ export function FilterPanel({
             >
               <span>{showAllSources ? "收起来源" : "展开全部来源"}</span>
               <small>{showAllSources ? "显示前 18 个" : `还有 ${mergedSources.length - visibleSources.length} 个来源`}</small>
-              <ChevronDown size={16} className={showAllSources ? "is-open" : ""} />
+              <ChevronDown aria-hidden="true" size={16} className={showAllSources ? "is-open" : ""} />
             </button>
           ) : null}
         </div>
