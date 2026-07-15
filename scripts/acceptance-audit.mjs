@@ -86,6 +86,8 @@ try {
   results.push(
     await capture("02-local-feed-desktop.png", `${localUrl}/`, desktop, async (page) => {
       const firstExpand = page.locator(".timeline-expand-button").first();
+      const timelineCards = page.locator(".timeline-card");
+      const sourceRows = page.locator(".source-filter-row");
       const firstSourceName = page.locator(".source-filter-row .source-row-name").first();
       const sourceNameEllipsis = await firstSourceName.count()
         ? await firstSourceName.evaluate((element) => {
@@ -93,14 +95,24 @@ try {
             return style.overflow === "hidden" && style.textOverflow === "ellipsis" && style.whiteSpace === "nowrap";
           })
         : null;
+      const countBeforeSourceFilter = await timelineCards.count();
+      const sourceRowCount = await sourceRows.count();
+      const sourceSecondaryLabels = await page.locator(".source-filter-row small").count();
+      if (sourceRowCount > 0) {
+        await sourceRows.first().click();
+        await page.waitForTimeout(400);
+      }
       return {
-        cards: await page.locator(".timeline-card").count(),
+        cards: countBeforeSourceFilter,
         expandText: await firstExpand.count() ? await firstExpand.textContent() : null,
         collapsedMedia: await page.locator(".timeline-card:not(.is-expanded) .feed-media-grid").count(),
         cardHeaderTopicPills: await page.locator(".timeline-card-head .topic-chip").count(),
-        sourceRows: await page.locator(".source-filter-row").count(),
-        sourceSecondaryLabels: await page.locator(".source-filter-row small").count(),
-        sourceNameEllipsis
+        sourceRows: sourceRowCount,
+        sourceSecondaryLabels,
+        sourceNameEllipsis,
+        countBeforeSourceFilter,
+        countAfterSourceFilter: await timelineCards.count(),
+        activeSourceRows: await page.locator(".source-filter-row.active").count()
       };
     })
   );
@@ -315,6 +327,13 @@ function assertAcceptance(captures) {
   expect(desktopFeed?.meta.sourceRows > 0, "desktop feed: no source rows rendered");
   expect(desktopFeed?.meta.sourceSecondaryLabels === 0, "desktop feed: source-kind second line is still visible");
   expect(desktopFeed?.meta.sourceNameEllipsis === true, "desktop feed: source names do not use ellipsis styling");
+  expect(desktopFeed?.meta.activeSourceRows === 1, "desktop feed: source filtering did not activate exactly one source row");
+  expect(desktopFeed?.meta.countBeforeSourceFilter > 0, "desktop feed: source filtering started with no cards");
+  expect(desktopFeed?.meta.countAfterSourceFilter > 0, "desktop feed: source filtering returned no cards");
+  expect(
+    desktopFeed?.meta.countAfterSourceFilter <= desktopFeed?.meta.countBeforeSourceFilter,
+    "desktop feed: source filtering increased the card count"
+  );
   expect(expandedFeed?.meta.expanded === 1, "feed expansion did not open exactly one card");
   expect(expandedFeed?.meta.expandState === "true", "feed expansion did not update aria-expanded");
   expect(expandedFeed?.meta.dialogText?.includes("分享"), "share dialog did not open");

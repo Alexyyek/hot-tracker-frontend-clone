@@ -51,6 +51,7 @@ export function FilterPanel({
           <strong>{topics.length}</strong>
         </div>
         <button
+          aria-pressed={!query.topicId}
           className={!query.topicId ? "topic-row active" : "topic-row"}
           onClick={() => update({ topicId: undefined })}
           style={{ "--topic-accent": "var(--topic-all)" } as React.CSSProperties}
@@ -66,6 +67,7 @@ export function FilterPanel({
         </button>
         {visibleTopics.map((topic) => (
           <button
+            aria-pressed={query.topicId === topic.id}
             className={query.topicId === topic.id ? "topic-row active" : "topic-row"}
             key={topic.id}
             onClick={() => update({ topicId: topic.id })}
@@ -162,40 +164,41 @@ export function FilterPanel({
             </em>
           </div>
           <div className="source-filter-list">
-            {visibleSources.map((facet) => (
-              <button
-                className={[
-                  "source-filter-row",
-                  query.sourceName === facet.sourceName ? "active" : "",
-                ].filter(Boolean).join(" ")}
-                key={`${facet.sourceKind}-${facet.sourceName}-${facet.sourceHostname ?? ""}`}
-                onClick={() =>
-                  update({
-                    sourceKind: facet.sourceKind,
-                    sourceName: facet.sourceName,
-                    sourceHostname: facet.sourceHostname
-                  })
-                }
-                type="button"
-              >
-                <span className="source-dot" />
-                <span className="source-row-body">
-                  <strong>
-                    <SourceIcon
-                      className="source-row-icon"
-                      kind={facet.sourceKind}
-                      sourceName={facet.sourceName}
-                      sourceAvatarUrl={facet.sourceAvatarUrl}
-                      sourceHostname={facet.sourceHostname}
-                      sourceIconHostname={facet.sourceIconHostname}
-                    />
-                    <span className="source-row-name">{facet.sourceName}</span>
-                  </strong>
-                  <small>{sourceKindLabel(facet.sourceKind)}</small>
-                </span>
-                <em className="source-row-count">{facet.count}</em>
-              </button>
-            ))}
+            {visibleSources.map((facet) => {
+              const kindLabel = sourceKindLabel(facet.sourceKind);
+              const isActive = query.sourceKind === facet.sourceKind
+                && query.sourceName === facet.sourceName
+                && query.sourceHostname === facet.sourceHostname;
+
+              return (
+                <button
+                  aria-label={`${facet.sourceName}，${kindLabel}，${facet.count} 条`}
+                  aria-pressed={isActive}
+                  className={isActive ? "source-filter-row active" : "source-filter-row"}
+                  key={`${facet.sourceKind}-${facet.sourceName}-${facet.sourceHostname ?? ""}`}
+                  onClick={() =>
+                    update({
+                      sourceKind: facet.sourceKind,
+                      sourceName: facet.sourceName,
+                      sourceHostname: facet.sourceHostname
+                    })
+                  }
+                  title={`${facet.sourceName} · ${kindLabel}`}
+                  type="button"
+                >
+                  <SourceIcon
+                    className="source-row-icon"
+                    kind={facet.sourceKind}
+                    sourceName={facet.sourceName}
+                    sourceAvatarUrl={facet.sourceAvatarUrl}
+                    sourceHostname={facet.sourceHostname}
+                    sourceIconHostname={facet.sourceIconHostname}
+                  />
+                  <span className="source-row-name">{facet.sourceName}</span>
+                  <em className="source-row-count">{facet.count}</em>
+                </button>
+              );
+            })}
           </div>
           {mergedSources.length > 18 ? (
             <button className="source-list-footer" onClick={() => setShowAllSources((value) => !value)} type="button">
