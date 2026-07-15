@@ -48,7 +48,8 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
   const [expanded, setExpanded] = useState(false);
   const accent = getTopicAccent(topics, item.topicId);
   const watchText = item.whyItMatters || item.watchText || item.actionText;
-  const canExpand = item.summary.length > 180 || (watchText?.length ?? 0) > 120;
+  const knownMediaUrls = extractFeedImageUrls(item);
+  const canExpand = knownMediaUrls.length > 0 || item.summary.length > 180 || (watchText?.length ?? 0) > 120;
 
   return (
     <article
@@ -69,8 +70,9 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
           <span className="timeline-source-time">· {formatTime(item.publishedAt)}</span>
         </div>
         <div className="timeline-card-badges">
-          <span className="topic-chip">{getTopicTitle(topics, item.topicId)}</span>
-          <span className="score-pill">{item.importanceScore}</span>
+          <span className="score-pill" aria-label={`热度 ${item.importanceScore}`}>
+            {item.importanceScore}
+          </span>
         </div>
       </div>
 
@@ -82,7 +84,7 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
 
       <p className="feed-summary">{item.summary}</p>
 
-      <FeedMedia item={item} />
+      {expanded ? <FeedMedia item={item} /> : null}
 
       {watchText ? (
         <div className="timeline-reason">
@@ -114,12 +116,15 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
       ) : null}
 
       <footer className="timeline-card-footer">
-        <a href={item.sourceUrl} rel="noreferrer" target="_blank">
-          {item.sourceName}
-        </a>
-        <button className="feed-action-button" onClick={() => onShare(item)} type="button">
-          分享
+        <div className="timeline-card-context">
+          <span className="topic-chip">{getTopicTitle(topics, item.topicId)}</span>
+          <a href={item.sourceUrl} rel="noreferrer" target="_blank">
+            {item.sourceName}
+          </a>
+        </div>
+        <button className="feed-action-button" onClick={() => onShare(item)} title="分享" type="button">
           <Share2 size={14} />
+          分享
         </button>
       </footer>
     </article>

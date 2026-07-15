@@ -1006,7 +1006,7 @@ body:has(.daily-mode) {
 
 .timeline-day-items {
   display: grid;
-  gap: 10px;
+  gap: 8px;
 }
 
 .timeline-item {
@@ -1049,11 +1049,11 @@ body:has(.daily-mode) {
 .timeline-card {
   --score-accent: var(--brand);
   display: grid;
-  gap: 10px;
+  gap: 9px;
   overflow: hidden;
-  padding: 14px 14px 0;
+  padding: 13px 14px 0;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 7px;
   background: var(--surface);
   box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 5%, transparent);
 }
@@ -1074,7 +1074,9 @@ body:has(.daily-mode) {
 }
 
 .timeline-source-line {
+  flex: 1 1 auto;
   min-width: 0;
+  overflow: hidden;
   color: var(--text-muted);
   font-size: 13px;
 }
@@ -1140,10 +1142,10 @@ body:has(.daily-mode) {
 .score-pill,
 .tag-chip {
   display: inline-flex;
-  min-height: 24px;
+  min-height: 22px;
   align-items: center;
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 550;
   line-height: 1;
 }
@@ -1166,8 +1168,8 @@ body:has(.daily-mode) {
 .timeline-card h3 {
   margin: 2px 0 0;
   color: var(--text-strong);
-  font-size: 17px;
-  line-height: 1.45;
+  font-size: 16px;
+  line-height: 1.48;
   overflow-wrap: anywhere;
 }
 
@@ -1184,12 +1186,12 @@ body:has(.daily-mode) {
   margin: 0;
   color: var(--text);
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.68;
   display: -webkit-box;
   overflow: hidden;
   overflow-wrap: anywhere;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
 }
 
 .timeline-card.is-expanded .feed-summary {
@@ -1202,12 +1204,12 @@ body:has(.daily-mode) {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
-  max-width: min(520px, 100%);
+  max-width: min(420px, 100%);
 }
 
 .feed-media-grid.single {
   grid-template-columns: minmax(0, 1fr);
-  max-width: min(420px, 100%);
+  max-width: min(380px, 100%);
 }
 
 .feed-media-tile {
@@ -1215,12 +1217,12 @@ body:has(.daily-mode) {
   overflow: hidden;
   aspect-ratio: 16 / 10;
   border: 1px solid var(--border-soft);
-  border-radius: 8px;
+  border-radius: 6px;
   background: var(--surface-raised);
 }
 
 .feed-media-grid.single .feed-media-tile {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 10;
 }
 
 .feed-media-tile img {
@@ -1238,10 +1240,10 @@ body:has(.daily-mode) {
 .timeline-reason {
   display: grid;
   gap: 5px;
-  padding: 9px 10px;
+  padding: 8px 10px;
   border: 1px solid color-mix(in srgb, var(--mint) 32%, var(--border));
-  border-radius: 7px;
-  background: color-mix(in srgb, var(--mint) 10%, var(--surface-raised));
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--mint) 8%, var(--surface-raised));
 }
 
 .timeline-reason span {
@@ -1304,13 +1306,34 @@ body:has(.daily-mode) {
 .timeline-card-footer {
   justify-content: space-between;
   margin: 2px -14px 0;
-  padding: 10px 14px;
+  min-width: 0;
+  padding: 9px 14px;
   border-top: 1px solid var(--border-soft);
   color: var(--text-muted);
   font-size: 12px;
 }
 
-.timeline-card-footer a {
+.timeline-card-context {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 0;
+  align-items: center;
+  gap: 7px;
+  overflow: hidden;
+}
+
+.timeline-card-context .topic-chip {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.timeline-card-context a {
+  flex: 1 1 auto;
+  min-width: 0;
   overflow: hidden;
   color: var(--text-muted);
   text-overflow: ellipsis;
@@ -1320,6 +1343,7 @@ body:has(.daily-mode) {
 
 .feed-action-button {
   display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
   gap: 5px;
   border: 0;
@@ -2058,16 +2082,16 @@ body:has(.daily-mode) {
 
   .timeline-card-head,
   .timeline-card-footer {
-    align-items: flex-start;
+    align-items: center;
   }
 
   .timeline-card-head {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .timeline-source-line {
-    width: 100%;
-    flex-wrap: wrap;
+    width: auto;
+    flex-wrap: nowrap;
   }
 
   .source-name {
@@ -2086,7 +2110,7 @@ body:has(.daily-mode) {
   }
 
   .timeline-card h3 {
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .timeline-card-footer {
