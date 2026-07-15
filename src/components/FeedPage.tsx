@@ -307,9 +307,20 @@ export function FeedPage({
           <div className="filter-sheet">
             <div className="filter-sheet-header">
               <strong>筛选</strong>
-              <button className="icon-button" onClick={() => setDrawerOpen(false)} type="button" title="关闭">
-                <X size={18} />
-              </button>
+              <div className="filter-sheet-header-actions">
+                <button
+                  className="icon-button filter-sheet-refresh"
+                  disabled={sourceRefresh.running}
+                  onClick={() => void refreshCatalogSources(query)}
+                  type="button"
+                  title="刷新全部源"
+                >
+                  <RefreshCw size={17} className={sourceRefresh.running ? "is-spinning" : ""} />
+                </button>
+                <button className="icon-button" onClick={() => setDrawerOpen(false)} type="button" title="关闭">
+                  <X size={18} />
+                </button>
+              </div>
             </div>
             {filters}
           </div>
@@ -362,33 +373,15 @@ function RealtimeStatus({
     running: boolean;
     checked: number;
     total: number;
-    lastUpdated: string;
   };
 }) {
-  if (!sourceRefresh.running && !sourceRefresh.lastUpdated) {
-    return null;
-  }
+  if (!sourceRefresh.running) return null;
 
-  const label = sourceRefresh.running
-    ? isStaticDataMode()
-      ? "正在读取最新静态快照"
-      : `正在逐个刷新信息源：${sourceRefresh.checked}/${sourceRefresh.total}`
-    : isStaticDataMode()
-      ? `上次读取快照：${formatStatusTime(sourceRefresh.lastUpdated)}`
-      : `上次逐源刷新：${formatStatusTime(sourceRefresh.lastUpdated)}`;
+  const label = isStaticDataMode()
+    ? "正在读取最新静态快照"
+    : `正在逐个刷新信息源：${sourceRefresh.checked}/${sourceRefresh.total}`;
 
-  return <div className={sourceRefresh.running ? "realtime-status active" : "realtime-status"}>{label}</div>;
-}
-
-function formatStatusTime(value: string) {
-  if (!value) return "--";
-  return new Intl.DateTimeFormat("zh-CN", {
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-    timeZone: "Asia/Shanghai",
-    hour12: false
-  }).format(new Date(value));
+  return <div className="realtime-status active">{label}</div>;
 }
 
 function matchesFeedQuery(item: FeedItem, query: FeedQuery) {
