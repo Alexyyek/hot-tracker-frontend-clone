@@ -1533,8 +1533,8 @@ body:has(.daily-mode) {
   cursor: pointer;
 }
 
-.date-picker:focus-visible {
-  outline: 2px solid color-mix(in srgb, var(--brand) 42%, transparent);
+.date-picker:focus-within .date-picker-control {
+  outline: 2px solid var(--brand-strong);
   outline-offset: 2px;
 }
 
@@ -1758,6 +1758,7 @@ body:has(.daily-mode) {
 .daily-story h3 {
   position: relative;
   display: flex;
+  min-width: 0;
   align-items: center;
   gap: 6px;
   margin: 0;
@@ -1779,6 +1780,16 @@ body:has(.daily-mode) {
   outline: 0;
 }
 
+.daily-source-ref::before {
+  position: absolute;
+  top: -14px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  content: "";
+}
+
 .daily-source-ref em {
   display: inline-flex;
   min-width: 16px;
@@ -1794,7 +1805,7 @@ body:has(.daily-mode) {
 }
 
 .daily-source-ref:focus-visible em {
-  outline: 2px solid color-mix(in srgb, var(--brand) 42%, transparent);
+  outline: 2px solid var(--brand-strong);
   outline-offset: 2px;
 }
 
@@ -1817,6 +1828,12 @@ body:has(.daily-mode) {
   pointer-events: none;
   transform: translateY(6px);
   transition: opacity 0.14s ease, transform 0.14s ease;
+}
+
+.daily-source-ref:hover::before,
+.daily-source-ref:focus-within::before,
+.daily-source-ref:focus::before {
+  display: block;
 }
 
 .daily-source-ref:hover .daily-source-popover,
@@ -2110,9 +2127,10 @@ body:has(.daily-mode) {
   .feed-summary,
   .timeline-reason,
   .timeline-reason p,
-  .daily-mainline,
-  .daily-section-item p,
-  .daily-section-item blockquote {
+  .daily-mainline-panel p,
+  .daily-story h3,
+  .daily-story p,
+  .daily-story blockquote {
     max-width: 100%;
     overflow-wrap: anywhere;
     word-break: break-word;
