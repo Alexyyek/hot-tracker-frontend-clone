@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AWS GraphRAG deployment cuts drug research cycles by 87%」、「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS GraphRAG deployment cuts drug research cycles by 87%",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云"
       ],
       "watchItems": [
         "跟进：AWS GraphRAG deployment cuts drug research cycles by 87%",
-        "跟进：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
         "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
         "跟进：Cloud Use:当 Agent 开始真正使用云",
-        "跟进：阿里云发布 AgentTeams 与 AgentLoop"
+        "跟进：阿里云发布 AgentTeams 与 AgentLoop",
+        "跟进：ChatGPT is now a partner for your most ambitious work"
       ],
       "sections": [
         {
@@ -38,22 +38,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-              "summary": "Agent(首席调度官):意图分 Agent#VOC #Agent架构 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_09d72893296ddf3e20892811"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
               "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_628e951533f17a07f2da3109"
+                "local_fe2d6d916dd8a79103d5f299"
               ],
               "confidence": 92
             },
@@ -63,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ed083de23fe32b2f1f479e96"
+                "local_64da4260d08c89f7ddb3e978"
               ],
               "confidence": 90
             },
@@ -86,20 +76,29 @@
                 "local_a4cd51dabb1a7ac2141014d0"
               ],
               "confidence": 74
+            },
+            {
+              "title": "Flink 面向 Agent 的自我重构!",
+              "summary": "AI Native 时代的基础设施层. 我们梳理了大会上的五个关键判断,试图勾勒出这一技术转向的轮廓.01判断一:Data Gravity&mdash;&mdash;...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d84e8c8091419109c745cbd9"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_1c3362c005d7206289938211",
-        "local_09d72893296ddf3e20892811",
-        "local_628e951533f17a07f2da3109",
-        "local_ed083de23fe32b2f1f479e96",
+        "local_fe2d6d916dd8a79103d5f299",
+        "local_64da4260d08c89f7ddb3e978",
         "local_7665edc707c72d2290ba9c12",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_27f41f481f53ffb232af539c"
+        "local_d84e8c8091419109c745cbd9"
       ],
-      "generatedAt": "2026-07-15T06:49:25.891Z",
+      "generatedAt": "2026-07-15T09:29:06.917Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -110,40 +109,30 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践」、「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「24小时在线的\"商品专家\":商品中心数字员工的诞生与进化」、「Cloud Use:当 Agent 开始真正使用云」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cloud Use:当 Agent 开始真正使用云",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：阿里云发布 AgentTeams 与 AgentLoop"
       ],
       "watchItems": [
-        "跟进：交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
         "跟进：24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
         "跟进：Cloud Use:当 Agent 开始真正使用云",
         "跟进：阿里云发布 AgentTeams 与 AgentLoop",
-        "跟进：ChatGPT is now a partner for your most ambitious work"
+        "跟进：ChatGPT is now a partner for your most ambitious work",
+        "跟进：Flink 面向 Agent 的自我重构!"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "交易 VOC 自动排查:基于 Hermes 的多 Agent 架构实践",
-              "summary": "Agent(首席调度官):意图分 Agent#VOC #Agent架构 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_09d72893296ddf3e20892811"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "24小时在线的\"商品专家\":商品中心数字员工的诞生与进化",
               "summary": "RAG 知识片段,更新需要人工审核与重新部署.两者的本质差异... #Agent自进化 #商品数字员工 #高德 #高德技术END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_628e951533f17a07f2da3109"
+                "local_fe2d6d916dd8a79103d5f299"
               ],
               "confidence": 92
             },
@@ -153,7 +142,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ed083de23fe32b2f1f479e96"
+                "local_64da4260d08c89f7ddb3e978"
               ],
               "confidence": 90
             },
@@ -176,25 +165,34 @@
                 "local_a4cd51dabb1a7ac2141014d0"
               ],
               "confidence": 74
+            },
+            {
+              "title": "Flink 面向 Agent 的自我重构!",
+              "summary": "AI Native 时代的基础设施层. 我们梳理了大会上的五个关键判断,试图勾勒出这一技术转向的轮廓.01判断一:Data Gravity&mdash;&mdash;...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d84e8c8091419109c745cbd9"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_09d72893296ddf3e20892811",
-        "local_628e951533f17a07f2da3109",
-        "local_ed083de23fe32b2f1f479e96",
+        "local_fe2d6d916dd8a79103d5f299",
+        "local_64da4260d08c89f7ddb3e978",
         "local_7665edc707c72d2290ba9c12",
         "local_a4cd51dabb1a7ac2141014d0",
-        "local_27f41f481f53ffb232af539c"
+        "local_d84e8c8091419109c745cbd9"
       ],
-      "generatedAt": "2026-07-15T06:49:25.891Z",
+      "generatedAt": "2026-07-15T09:29:06.917Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-15T06:49:25.891Z",
+  "generatedAt": "2026-07-15T09:29:06.917Z",
   "collectorName": "local-source-collector"
 }

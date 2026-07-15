@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
@@ -31,16 +31,6 @@
                 "local_2b02d67d4990f11fb82d23ca"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Google’s SensorFM turns messy wearable sensor data into a general-purpose health intelligence layer",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Research's SensorFM is a foundation model trained on more than a trillion minutes of wearable data from five million Fitbit and Pixel Watch users. It beats existing benchmarks on 34 of 35 health and behavioral ta…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_1cdc945778d967eeef094c20"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -53,7 +43,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_183f15a2b0cf6373bc56c7a6"
+                "local_7835012a4d25a2adab276261"
               ],
               "confidence": 92
             },
@@ -93,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_24c1b24d39f68639b53bf592"
+                "local_5dcf4e8e4102bf9f08de8dec"
               ],
               "confidence": 92
             }
@@ -102,15 +92,14 @@
       ],
       "referencedFeedItemIds": [
         "local_2b02d67d4990f11fb82d23ca",
-        "local_183f15a2b0cf6373bc56c7a6",
+        "local_7835012a4d25a2adab276261",
         "local_21fffa0e99f470035c1e0aa2",
         "local_7464181499ca06476e96693a",
         "local_9fdc699d63f8eeff41221a7c",
-        "local_24c1b24d39f68639b53bf592",
-        "local_1cdc945778d967eeef094c20",
-        "local_b99939764a22f8015c1e1b4c"
+        "local_5dcf4e8e4102bf9f08de8dec",
+        "local_755478a5333e2b9435b31430"
       ],
-      "generatedAt": "2026-07-15T06:49:25.836Z",
+      "generatedAt": "2026-07-15T09:29:06.865Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -143,7 +132,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_183f15a2b0cf6373bc56c7a6"
+                "local_7835012a4d25a2adab276261"
               ],
               "confidence": 92
             },
@@ -173,7 +162,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_24c1b24d39f68639b53bf592"
+                "local_5dcf4e8e4102bf9f08de8dec"
               ],
               "confidence": 92
             }
@@ -181,18 +170,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_183f15a2b0cf6373bc56c7a6",
+        "local_7835012a4d25a2adab276261",
         "local_7464181499ca06476e96693a",
         "local_9fdc699d63f8eeff41221a7c",
-        "local_24c1b24d39f68639b53bf592"
+        "local_5dcf4e8e4102bf9f08de8dec"
       ],
-      "generatedAt": "2026-07-15T06:49:25.836Z",
+      "generatedAt": "2026-07-15T09:29:06.865Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-15T06:49:25.837Z",
+  "generatedAt": "2026-07-15T09:29:06.866Z",
   "collectorName": "local-source-collector"
 }
