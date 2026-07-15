@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
@@ -16,7 +16,7 @@
         "跟进：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
         "跟进：AI agent crawlers now need permission. Here&#8217;s how to get it",
         "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
-        "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
+        "跟进：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布"
       ],
       "sections": [
         {
@@ -53,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5d43e040a497c9393ad2d3fd"
+                "local_183f15a2b0cf6373bc56c7a6"
               ],
               "confidence": 92
             },
@@ -73,7 +73,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_919d03e3c4af31083bf71cb5"
+                "local_7464181499ca06476e96693a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
+              "summary": "Agent 需要的不只是模型,还有工作台对大多数文本任务来说,Agent 的工作方式已经很自然:读文档、写代码、调接口、看日志.输...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9fdc699d63f8eeff41221a7c"
               ],
               "confidence": 92
             },
@@ -83,17 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b9aee2b244e2420d43e5408"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "可算有个内容创作Agent能解决我0人OPC的多平台同步烦恼了.",
-              "summary": "它会根据这个目标给你配备相应的Agent团队.然后Matrix 就会开始自动配置,几分钟之后,一个有很多小土豆的AI 公司出现了,是的...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_664141f237b67e6d60dc48dc"
+                "local_24c1b24d39f68639b53bf592"
               ],
               "confidence": 92
             }
@@ -102,14 +102,15 @@
       ],
       "referencedFeedItemIds": [
         "local_2b02d67d4990f11fb82d23ca",
-        "local_5d43e040a497c9393ad2d3fd",
+        "local_183f15a2b0cf6373bc56c7a6",
         "local_21fffa0e99f470035c1e0aa2",
-        "local_919d03e3c4af31083bf71cb5",
-        "local_7b9aee2b244e2420d43e5408",
+        "local_7464181499ca06476e96693a",
+        "local_9fdc699d63f8eeff41221a7c",
+        "local_24c1b24d39f68639b53bf592",
         "local_1cdc945778d967eeef094c20",
-        "local_664141f237b67e6d60dc48dc"
+        "local_b99939764a22f8015c1e1b4c"
       ],
-      "generatedAt": "2026-07-15T04:26:48.465Z",
+      "generatedAt": "2026-07-15T06:49:25.836Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -120,15 +121,16 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-13",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」、「得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」、「得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布"
       ],
       "watchItems": [
         "跟进：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
         "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+        "跟进：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
         "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
       ],
       "sections": [
@@ -141,7 +143,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5d43e040a497c9393ad2d3fd"
+                "local_183f15a2b0cf6373bc56c7a6"
               ],
               "confidence": 92
             },
@@ -151,7 +153,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_919d03e3c4af31083bf71cb5"
+                "local_7464181499ca06476e96693a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
+              "summary": "Agent 需要的不只是模型,还有工作台对大多数文本任务来说,Agent 的工作方式已经很自然:读文档、写代码、调接口、看日志.输...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9fdc699d63f8eeff41221a7c"
               ],
               "confidence": 92
             },
@@ -161,7 +173,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b9aee2b244e2420d43e5408"
+                "local_24c1b24d39f68639b53bf592"
               ],
               "confidence": 92
             }
@@ -169,17 +181,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5d43e040a497c9393ad2d3fd",
-        "local_919d03e3c4af31083bf71cb5",
-        "local_7b9aee2b244e2420d43e5408"
+        "local_183f15a2b0cf6373bc56c7a6",
+        "local_7464181499ca06476e96693a",
+        "local_9fdc699d63f8eeff41221a7c",
+        "local_24c1b24d39f68639b53bf592"
       ],
-      "generatedAt": "2026-07-15T04:26:48.465Z",
+      "generatedAt": "2026-07-15T06:49:25.836Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-15T04:26:48.465Z",
+  "generatedAt": "2026-07-15T06:49:25.837Z",
   "collectorName": "local-source-collector"
 }
