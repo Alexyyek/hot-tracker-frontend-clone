@@ -960,6 +960,18 @@ body:has(.daily-mode) {
   font-size: 12px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .timeline {
   --tl-time-w: 56px;
   --tl-rail-w: 28px;

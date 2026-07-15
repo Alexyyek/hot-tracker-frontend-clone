@@ -49,7 +49,9 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
   const accent = getTopicAccent(topics, item.topicId);
   const watchText = item.whyItMatters || item.watchText || item.actionText;
   const knownMediaUrls = extractFeedImageUrls(item);
-  const canExpand = knownMediaUrls.length > 0 || item.summary.length > 180 || (watchText?.length ?? 0) > 120;
+  const hasDetailData = item.sourceItemIds.length > 0 || item.documentIds.length > 0;
+  const canExpand =
+    hasDetailData || knownMediaUrls.length > 0 || item.summary.length > 180 || (watchText?.length ?? 0) > 120;
 
   return (
     <article
@@ -70,7 +72,8 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
           <span className="timeline-source-time">· {formatTime(item.publishedAt)}</span>
         </div>
         <div className="timeline-card-badges">
-          <span className="score-pill" aria-label={`热度 ${item.importanceScore}`}>
+          <span className="score-pill">
+            <span className="visually-hidden">热度 </span>
             {item.importanceScore}
           </span>
         </div>
@@ -101,7 +104,7 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
           aria-expanded={expanded}
         >
           {expanded ? "收起" : "展开"}
-          <ChevronDown size={15} />
+          <ChevronDown aria-hidden="true" size={15} />
         </button>
       ) : null}
 
@@ -123,7 +126,7 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
           </a>
         </div>
         <button className="feed-action-button" onClick={() => onShare(item)} title="分享" type="button">
-          <Share2 size={14} />
+          <Share2 aria-hidden="true" size={14} />
           分享
         </button>
       </footer>
@@ -133,6 +136,7 @@ function FeedCard({ item, onShare, topics }: { item: FeedItem; onShare: (item: F
 
 export function FeedMedia({ item }: { item: FeedItem }) {
   const initialUrls = extractFeedImageUrls(item);
+  const initialMediaKey = JSON.stringify(initialUrls);
   const [urls, setUrls] = useState(initialUrls);
   const [hiddenUrls, setHiddenUrls] = useState<string[]>([]);
   const [loadedUrls, setLoadedUrls] = useState<string[]>([]);
@@ -159,7 +163,7 @@ export function FeedMedia({ item }: { item: FeedItem }) {
     return () => {
       cancelled = true;
     };
-  }, [item.id]);
+  }, [item.id, initialMediaKey]);
 
   useEffect(() => {
     setLoadedUrls([]);
