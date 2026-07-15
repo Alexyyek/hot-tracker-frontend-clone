@@ -5,35 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-07-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「人大*小红书开源UnityMAS-O,多智能体实现联合强化学习」、「AI agent crawlers now need permission. Here&#8217;s how to get it」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent crawlers now need permission. Here&#8217;s how to get it"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent crawlers now need permission. Here&#8217;s how to get it",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理"
       ],
       "watchItems": [
-        "跟进：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
         "跟进：人大*小红书开源UnityMAS-O,多智能体实现联合强化学习",
         "跟进：AI agent crawlers now need permission. Here&#8217;s how to get it",
         "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
-        "跟进：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布"
+        "跟进：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
+        "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：A German research consortium has released Soofi S 30B-A3B, an open language model trained entirely on Deutsche Telekom's cloud infrastructure in Munich. The model uses an efficient hybrid architecture that activates onl…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_2b02d67d4990f11fb82d23ca"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -43,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4f520519b7fa1ebde33c31c"
+                "local_230946839569e47dc99e6b9b"
               ],
               "confidence": 92
             },
@@ -91,15 +76,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2b02d67d4990f11fb82d23ca",
-        "local_f4f520519b7fa1ebde33c31c",
+        "local_230946839569e47dc99e6b9b",
         "local_21fffa0e99f470035c1e0aa2",
         "local_7464181499ca06476e96693a",
         "local_9fdc699d63f8eeff41221a7c",
         "local_5dcf4e8e4102bf9f08de8dec",
         "local_9c3e773707926c36de20b972"
       ],
-      "generatedAt": "2026-07-15T15:07:54.079Z",
+      "generatedAt": "2026-07-15T16:48:39.704Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -132,7 +116,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4f520519b7fa1ebde33c31c"
+                "local_230946839569e47dc99e6b9b"
               ],
               "confidence": 92
             },
@@ -170,18 +154,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f4f520519b7fa1ebde33c31c",
+        "local_230946839569e47dc99e6b9b",
         "local_7464181499ca06476e96693a",
         "local_9fdc699d63f8eeff41221a7c",
         "local_5dcf4e8e4102bf9f08de8dec"
       ],
-      "generatedAt": "2026-07-15T15:07:54.079Z",
+      "generatedAt": "2026-07-15T16:48:39.704Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-15T15:07:54.079Z",
+  "generatedAt": "2026-07-15T16:48:39.704Z",
   "collectorName": "local-source-collector"
 }
