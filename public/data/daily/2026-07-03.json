@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从AI Coding到Harness Engineering的端到端工程开发实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM"
       ],
       "watchItems": [
         "跟进：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "跟进：从AI Coding到Harness Engineering的端到端工程开发实践",
         "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
-        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级"
+        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级",
+        "跟进：架构师深度测评WorkBuddy:办公Agent的新范式已来!"
       ],
       "sections": [
         {
@@ -28,17 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ae45fb57d8092c9bdbbb36d0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从AI Coding到Harness Engineering的端到端工程开发实践",
-              "summary": "工程体系的基石&mdash;&mdash;它决定了 AI 在需求拆解、技术方案、代码生... RAG 检索.之所以这种方式比传统 RAG 更适合知识库的建设,是...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9e3108b91cbe0d87b6da95e2"
+                "local_d9c1d44c3d2382025e9609f9"
               ],
               "confidence": 92
             },
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b1cf3212d80fcff2e95cda34"
+                "local_5c87fb2142b4a70e6b36711e"
               ],
               "confidence": 92
             },
@@ -68,7 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_44d11ff6add314788b902a60"
+                "local_4cdfd764bd27921b48e0e1c9"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+              "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23:30 切换域名解析，10 分…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_ad463b46824fbae8c971fb34"
               ],
               "confidence": 92
             }
@@ -91,15 +91,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_ae45fb57d8092c9bdbbb36d0",
+        "local_d9c1d44c3d2382025e9609f9",
         "feed_629b5173f921c94f16fb0b39",
-        "local_9e3108b91cbe0d87b6da95e2",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_b1cf3212d80fcff2e95cda34",
-        "local_44d11ff6add314788b902a60",
+        "local_5c87fb2142b4a70e6b36711e",
+        "local_4cdfd764bd27921b48e0e1c9",
         "feed_ad463b46824fbae8c971fb34"
       ],
-      "generatedAt": "2026-07-16T08:43:01.745Z",
+      "generatedAt": "2026-07-16T10:42:20.742Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -110,18 +109,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环」、「JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从AI Coding到Harness Engineering的端到端工程开发实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM"
       ],
       "watchItems": [
         "跟进：SGLang 复盘:Coding Agent 开始进入 AI Infra 开发循环",
         "跟进：JoyAI App 上线 UGC 数字人功能，用户可“捏”出专属虚拟玩伴",
-        "跟进：从AI Coding到Harness Engineering的端到端工程开发实践",
         "跟进：面壁智能发布AI全自动预训练框架ForgeTrain，8小时追平Megatron-LM",
-        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级"
+        "跟进：AReaL 2.0 正式发布:面向 Agent 应用的 Online RL 微服务架构升级",
+        "跟进：架构师深度测评WorkBuddy:办公Agent的新范式已来!"
       ],
       "sections": [
         {
@@ -133,17 +132,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ae45fb57d8092c9bdbbb36d0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从AI Coding到Harness Engineering的端到端工程开发实践",
-              "summary": "工程体系的基石&mdash;&mdash;它决定了 AI 在需求拆解、技术方案、代码生... RAG 检索.之所以这种方式比传统 RAG 更适合知识库的建设,是...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9e3108b91cbe0d87b6da95e2"
+                "local_d9c1d44c3d2382025e9609f9"
               ],
               "confidence": 92
             },
@@ -163,7 +152,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b1cf3212d80fcff2e95cda34"
+                "local_5c87fb2142b4a70e6b36711e"
               ],
               "confidence": 92
             },
@@ -173,7 +162,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_44d11ff6add314788b902a60"
+                "local_4cdfd764bd27921b48e0e1c9"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
+              "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23:30 切换域名解析，10 分…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "feed_ad463b46824fbae8c971fb34"
               ],
               "confidence": 92
             }
@@ -196,21 +195,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_ae45fb57d8092c9bdbbb36d0",
+        "local_d9c1d44c3d2382025e9609f9",
         "feed_629b5173f921c94f16fb0b39",
-        "local_9e3108b91cbe0d87b6da95e2",
         "feed_0497f08ac8c2e5f9009aff55",
-        "local_b1cf3212d80fcff2e95cda34",
-        "local_44d11ff6add314788b902a60",
+        "local_5c87fb2142b4a70e6b36711e",
+        "local_4cdfd764bd27921b48e0e1c9",
         "feed_ad463b46824fbae8c971fb34"
       ],
-      "generatedAt": "2026-07-16T08:43:01.745Z",
+      "generatedAt": "2026-07-16T10:42:20.743Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T08:43:01.746Z",
+  "generatedAt": "2026-07-16T10:42:20.743Z",
   "collectorName": "local-source-collector"
 }
