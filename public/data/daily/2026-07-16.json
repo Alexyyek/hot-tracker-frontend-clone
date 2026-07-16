@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Inkling: Our open-weights model」、「OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Inkling: Our open-weights model」、「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inkling: Our open-weights model",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents"
       ],
       "watchItems": [
         "跟进：Inkling: Our open-weights model",
+        "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "跟进：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
         "跟进：Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models",
-        "跟进：Quoting Linus Torvalds",
-        "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手"
+        "跟进：Quoting Linus Torvalds"
       ],
       "sections": [
         {
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4315cff3cde1141790f0bede"
+                "local_879f1112703a560d059e1d5e"
               ],
               "confidence": 92
             }
@@ -67,6 +67,16 @@
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+              "summary": "随着大语言模型进入真实应用,推理成本正在成为限制落地的重要瓶颈.一次生成任务背后,往往包含长上下文预填充、逐 token 解码...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a935d074da64e2dee5a8545d"
+              ],
+              "confidence": 92
+            },
             {
               "title": "OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and keyboard manufacturer Work Louder have unveiled the Codex Micro, a compact hardware controller designed for working with AI agents. The article OpenAI wants developers to stop typing commands and start using …",
@@ -103,19 +113,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1b7eb4d08a5bd6eac32733f8"
+                "local_7ca9d9f781eb54c599cf2e40"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Mermaid to Unicode box art (grok-mermaid)",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs, a \"self-contained terminal renderer for Merma…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_491436e951a580e1e638bf4a"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -147,25 +147,27 @@
       ],
       "referencedFeedItemIds": [
         "local_6733d14360e878a09304b1de",
+        "local_a935d074da64e2dee5a8545d",
         "local_4b7669cbc6bbafd81e108ec6",
         "local_402710a3b04b9ff27634071d",
         "local_47d40acaa04b13a5a5d695e2",
         "local_974b3b45d149121f8a01bccc",
-        "local_4315cff3cde1141790f0bede",
+        "local_879f1112703a560d059e1d5e",
         "local_e49a0b58492631376024fa21",
-        "local_1b7eb4d08a5bd6eac32733f8",
+        "local_7ca9d9f781eb54c599cf2e40",
         "local_491436e951a580e1e638bf4a",
+        "local_cdfe29aca11a005698790359",
         "local_339cf7e0fb5c0779c6d0112f",
+        "local_665b86e5b34067a43ade4b42",
         "local_995a3578d019429242091276",
         "local_68c136b1ed49ef47e1716702",
         "local_893a74730ac568747bd327e9",
-        "local_d9ac5a6f108bc6830905fcc1",
         "local_bfef85928ba765fc1fc01144",
         "local_9bcca655a1d17790ca71d966",
         "local_5d16379f480dad5e34defda4",
         "local_cdd8f5428e83bd2864962151"
       ],
-      "generatedAt": "2026-07-16T16:12:54.943Z",
+      "generatedAt": "2026-07-16T17:48:21.804Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -176,23 +178,33 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-16",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」、「腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」、「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖"
       ],
       "watchItems": [
+        "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
         "跟进：腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
         "跟进：码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕",
-        "跟进：Introducing Grok 4.5",
-        "跟进：Develop Lightweight USD Runtimes Faster with AI Agents"
+        "跟进：How Cars24 scales conversations and builds faster with OpenAI"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+              "summary": "随着大语言模型进入真实应用,推理成本正在成为限制落地的重要瓶颈.一次生成任务背后,往往包含长上下文预填充、逐 token 解码...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a935d074da64e2dee5a8545d"
+              ],
+              "confidence": 92
+            },
             {
               "title": "9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
               "summary": "Skill 发给 Agent:我们就要这个 OpenViking + AgentPlan 的方案今天下午就能让团队用上加入我们,共建 Agent 上下文的未来! 上手...",
@@ -209,9 +221,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1b7eb4d08a5bd6eac32733f8"
+                "local_7ca9d9f781eb54c599cf2e40"
               ],
               "confidence": 82
+            },
+            {
+              "title": "How Cars24 scales conversations and builds faster with OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cdfe29aca11a005698790359"
+              ],
+              "confidence": 92
             },
             {
               "title": "Introducing Grok 4.5",
@@ -222,16 +244,6 @@
                 "local_339cf7e0fb5c0779c6d0112f"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Develop Lightweight USD Runtimes Faster with AI Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9bcca655a1d17790ca71d966"
-              ],
-              "confidence": 70
             }
           ]
         },
@@ -244,7 +256,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4315cff3cde1141790f0bede"
+                "local_879f1112703a560d059e1d5e"
               ],
               "confidence": 92
             }
@@ -252,19 +264,21 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_a935d074da64e2dee5a8545d",
         "local_974b3b45d149121f8a01bccc",
-        "local_4315cff3cde1141790f0bede",
-        "local_1b7eb4d08a5bd6eac32733f8",
+        "local_879f1112703a560d059e1d5e",
+        "local_7ca9d9f781eb54c599cf2e40",
+        "local_cdfe29aca11a005698790359",
         "local_339cf7e0fb5c0779c6d0112f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-16T16:12:54.944Z",
+      "generatedAt": "2026-07-16T17:48:21.804Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T16:12:54.944Z",
+  "generatedAt": "2026-07-16T17:48:21.804Z",
   "collectorName": "local-source-collector"
 }
