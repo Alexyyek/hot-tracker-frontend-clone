@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e7ff8bd787fcdf176d622d58"
+                "local_db5a2a21fd36a2fdb8633aa1"
               ],
               "confidence": 92
             },
@@ -38,19 +38,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_36d025d8dd0d035947c57b68"
+                "local_5f6b16e235a24caa9fc2e64e"
               ],
               "confidence": 78
-            },
-            {
-              "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX e…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7b5e67fecaf9ea8a30a436a4"
-              ],
-              "confidence": 74
             },
             {
               "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
@@ -63,12 +53,22 @@
               "confidence": 92
             },
             {
+              "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX e…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_7b5e67fecaf9ea8a30a436a4"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_80430c3bc1f2f38daec0c2c3"
+                "local_a5cf8cb555911c497f0c7b8f"
               ],
               "confidence": 92
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e287bb2f63118eb8fd7edce0"
+                "local_2ff31eb50072e1108ea76164"
               ],
               "confidence": 70
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4073676ef2145ac3055d05cc"
+                "local_c92f4aa020b32e23d8fb5ad6"
               ],
               "confidence": 82
             },
@@ -103,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6d6410a15cdde596a4416538"
+                "local_8fc0a76dd0359c3a577bae38"
               ],
               "confidence": 82
             },
@@ -113,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_79d128af26cf1733b65ba7c8"
+                "local_b1d63eada8ceb40a5bd5a5b3"
               ],
               "confidence": 70
             },
@@ -123,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_854dd54871a976aa9bbe0ae6"
+                "local_b10255dbc82befca1f836cf9"
               ],
               "confidence": 70
             }
@@ -143,50 +143,35 @@
               "confidence": 78
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_31ebd6a21f0ce6e18e268d04"
-              ],
-              "confidence": 70
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_e7ff8bd787fcdf176d622d58",
-        "local_e287bb2f63118eb8fd7edce0",
-        "local_4073676ef2145ac3055d05cc",
-        "local_6d6410a15cdde596a4416538",
-        "local_36d025d8dd0d035947c57b68",
-        "local_79d128af26cf1733b65ba7c8",
-        "local_854dd54871a976aa9bbe0ae6",
-        "local_7b5e67fecaf9ea8a30a436a4",
+        "local_db5a2a21fd36a2fdb8633aa1",
+        "local_2ff31eb50072e1108ea76164",
+        "local_c92f4aa020b32e23d8fb5ad6",
+        "local_8fc0a76dd0359c3a577bae38",
+        "local_5f6b16e235a24caa9fc2e64e",
+        "local_b1d63eada8ceb40a5bd5a5b3",
+        "local_b10255dbc82befca1f836cf9",
         "local_325e5e2597e0f6ab2432d0d5",
         "local_78dfc4f659956941a8c9b5c8",
         "local_1c28abd38d627229ae1c8c96",
-        "local_f59a2001934046eec9d33381",
-        "local_ae52c514de528cdf65e2329d",
-        "local_73f4dc9a9eaaf471de1fdaec",
-        "local_d4deb5a49a1b7b1795974ef0",
-        "local_80430c3bc1f2f38daec0c2c3",
-        "local_39027ebe08dc197a97f00bf9",
-        "local_3da2dd6206a1a0946131b7ff",
-        "local_2d8c65489fb8b82b3be71bfe",
-        "local_3d45fa5ac63551f562f11a5b",
-        "local_8d221ec5cd1e9b0d65550290",
-        "local_b350660fcde9fbcf1393b968",
-        "local_ca44dc060c2a41b0556420c1",
-        "local_31ebd6a21f0ce6e18e268d04"
+        "local_7b5e67fecaf9ea8a30a436a4",
+        "local_89f1a6bd80f78192ad82b4f2",
+        "local_92d07b7b1a113003c0a33002",
+        "local_4d47524aeef6837cc4f60903",
+        "local_0964907493902866e90cfeaf",
+        "local_a5cf8cb555911c497f0c7b8f",
+        "local_effafaabc26a733eba29f8fb",
+        "local_670436a932d5a10042c62539",
+        "local_64b371adaa5b33837f871a30",
+        "local_213027923e4d1df5658c292d",
+        "local_3957bca689fac3e87f4faccc",
+        "local_611410afb354a0ad87fcbd0a",
+        "local_99935541a7002a4e81313cc7",
+        "local_7f91f27689e8341574a4c9b9"
       ],
-      "generatedAt": "2026-07-16T06:10:57.734Z",
+      "generatedAt": "2026-07-16T08:43:01.568Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,7 +182,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-16",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「从 AI 取数到智能分析：企业级数据 Agent 的多阶段演进与工程化落地」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「从 AI 取数到智能分析：企业级数据 Agent 的多阶段演进与工程化落地」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 AI 取数到智能分析：企业级数据 Agent 的多阶段演进与工程化落地",
@@ -220,7 +205,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e7ff8bd787fcdf176d622d58"
+                "local_db5a2a21fd36a2fdb8633aa1"
               ],
               "confidence": 92
             },
@@ -230,19 +215,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_36d025d8dd0d035947c57b68"
+                "local_5f6b16e235a24caa9fc2e64e"
               ],
               "confidence": 78
-            },
-            {
-              "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX e…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7b5e67fecaf9ea8a30a436a4"
-              ],
-              "confidence": 74
             },
             {
               "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
@@ -255,12 +230,22 @@
               "confidence": 92
             },
             {
+              "title": "We terminated a TPU mid-training and it recovered in seconds: Introduction to elastic training with MaxText",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Distributed AI training is notoriously fragile because losing a single machine typically crashes the entire multi-node job, forcing a time-consuming, full-workload infrastructure restart. To address this, Google’s JAX e…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_7b5e67fecaf9ea8a30a436a4"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "Seed Research",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8d221ec5cd1e9b0d65550290"
+                "local_611410afb354a0ad87fcbd0a"
               ],
               "confidence": 78
             }
@@ -275,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e287bb2f63118eb8fd7edce0"
+                "local_2ff31eb50072e1108ea76164"
               ],
               "confidence": 70
             },
@@ -285,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4073676ef2145ac3055d05cc"
+                "local_c92f4aa020b32e23d8fb5ad6"
               ],
               "confidence": 82
             },
@@ -295,7 +280,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6d6410a15cdde596a4416538"
+                "local_8fc0a76dd0359c3a577bae38"
               ],
               "confidence": 82
             },
@@ -305,7 +290,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_79d128af26cf1733b65ba7c8"
+                "local_b1d63eada8ceb40a5bd5a5b3"
               ],
               "confidence": 70
             },
@@ -315,7 +300,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_854dd54871a976aa9bbe0ae6"
+                "local_b10255dbc82befca1f836cf9"
               ],
               "confidence": 70
             }
@@ -345,7 +330,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_31ebd6a21f0ce6e18e268d04"
+                "local_534f66d4be80de8198697b6b"
               ],
               "confidence": 70
             }
@@ -353,34 +338,35 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e7ff8bd787fcdf176d622d58",
-        "local_e287bb2f63118eb8fd7edce0",
-        "local_4073676ef2145ac3055d05cc",
-        "local_6d6410a15cdde596a4416538",
-        "local_36d025d8dd0d035947c57b68",
-        "local_79d128af26cf1733b65ba7c8",
-        "local_854dd54871a976aa9bbe0ae6",
-        "local_7b5e67fecaf9ea8a30a436a4",
+        "local_db5a2a21fd36a2fdb8633aa1",
+        "local_2ff31eb50072e1108ea76164",
+        "local_c92f4aa020b32e23d8fb5ad6",
+        "local_8fc0a76dd0359c3a577bae38",
+        "local_5f6b16e235a24caa9fc2e64e",
+        "local_b1d63eada8ceb40a5bd5a5b3",
+        "local_b10255dbc82befca1f836cf9",
         "local_325e5e2597e0f6ab2432d0d5",
         "local_78dfc4f659956941a8c9b5c8",
         "local_1c28abd38d627229ae1c8c96",
-        "local_8d221ec5cd1e9b0d65550290",
-        "local_b350660fcde9fbcf1393b968",
-        "local_ca44dc060c2a41b0556420c1",
-        "local_31ebd6a21f0ce6e18e268d04",
-        "local_687700a8f3f4689ed746f97f",
-        "local_d1624a59aea667aa71ccf1b9",
-        "local_bb983a6c1577ed6699541584",
-        "local_2062e2c3edf644f111deab6c",
+        "local_7b5e67fecaf9ea8a30a436a4",
+        "local_effafaabc26a733eba29f8fb",
+        "local_611410afb354a0ad87fcbd0a",
+        "local_99935541a7002a4e81313cc7",
+        "local_7f91f27689e8341574a4c9b9",
+        "local_534f66d4be80de8198697b6b",
+        "local_19f3aa7ea066897b0646a67d",
+        "local_8032f8700e1ec06cb470f38a",
+        "local_4879246a9305b47e35e8fd41",
+        "local_68916f7a8afdf7cc3a6dda60",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-16T06:10:57.734Z",
+      "generatedAt": "2026-07-16T08:43:01.568Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T06:10:57.734Z",
+  "generatedAt": "2026-07-16T08:43:01.568Z",
   "collectorName": "local-source-collector"
 }

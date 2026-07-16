@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Bonsai 27B is a full open reasoning model that fits on an iPhone」、「How I tricked Claude into leaking your deepest, darkest secrets」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Bonsai 27B is a full open reasoning model that fits on an iPhone」、「How I tricked Claude into leaking your deepest, darkest secrets」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bonsai 27B is a full open reasoning model that fits on an iPhone",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How I tricked Claude into leaking your deepest, darkest secrets",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理"
       ],
       "watchItems": [
         "跟进：Bonsai 27B is a full open reasoning model that fits on an iPhone",
         "跟进：How I tricked Claude into leaking your deepest, darkest secrets",
+        "跟进：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
         "跟进：Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity",
-        "跟进：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟",
-        "跟进：OpenAI&#039;s Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation"
+        "跟进：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟"
       ],
       "sections": [
         {
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_11991c40cf8290568bb1f837"
+                "local_f3c46e016855234d6d0f06e3"
               ],
               "confidence": 86
             },
@@ -78,6 +78,16 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
+              "summary": "自动化测试新范式|得物技术4.从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理5.从表单到 Agent:得物社...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4932b6f877366fe6f352c07e"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity",
               "summary": "An LLM agent's real-task performance is shaped as much by the harness around its model as by the frozen model itself: its prompts, injected knowledge, runtime control, and configuration. In deployment the harness is often the only lever available, so improving it automatically i…",
               "insightLabel": "关注",
@@ -93,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b529f5e355dcfc996d1a7efc"
+                "local_29270262465ae8d50a73c0d4"
               ],
               "confidence": 86
             },
@@ -114,16 +124,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_1f3409919b52d7f0e11a5218"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Coding AI agents are becoming practical operators for long-running machine learning (ML) workflows. They can inspect repositories, set up runtimes, resolve...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f2aeb22295f5de36bc3bca6c"
               ],
               "confidence": 92
             }
@@ -148,18 +148,19 @@
       "referencedFeedItemIds": [
         "local_208b2f664513c34caa3a0756",
         "local_c164af3ad2a4b678b0979e47",
+        "local_4932b6f877366fe6f352c07e",
         "local_d38fecb9a60936a9e1bdbd34",
-        "local_b529f5e355dcfc996d1a7efc",
+        "local_29270262465ae8d50a73c0d4",
         "local_ba9f8195dedb3af0baff4cf0",
         "local_1f3409919b52d7f0e11a5218",
-        "local_11991c40cf8290568bb1f837",
+        "local_f3c46e016855234d6d0f06e3",
         "local_cd95928911d9c2c54a9b31a7",
         "local_cde246fb953961169cd28496",
         "local_f2aeb22295f5de36bc3bca6c",
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-16T06:10:57.744Z",
+      "generatedAt": "2026-07-16T08:43:01.581Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -170,30 +171,40 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-15",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟」、「全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理」、「阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：It's not too late to get Pixel Care+ for your Pixel 9 or 10."
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%"
       ],
       "watchItems": [
+        "跟进：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
         "跟进：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟",
         "跟进：全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%",
         "跟进：It's not too late to get Pixel Care+ for your Pixel 9 or 10.",
-        "跟进：How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo",
-        "跟进：Post-Train NVIDIA Cosmos 3 in One Day Using Agent Skills"
+        "跟进：How to Run an Autoresearch Workflow with RL Agent Skills and NVIDIA NeMo"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
+              "summary": "自动化测试新范式|得物技术4.从狂野代码到按目标生产:得物推荐 AI Harness 的工程化实践|AICon 演讲整理5.从表单到 Agent:得物社...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4932b6f877366fe6f352c07e"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟",
               "summary": "首先,感谢阿里 ATH-MaaS(Alibaba Token Hub Model-as-a-Service)应用算法团队、产品和工程团队各位领导与团队成员在 Deep ...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b529f5e355dcfc996d1a7efc"
+                "local_29270262465ae8d50a73c0d4"
               ],
               "confidence": 86
             },
@@ -228,7 +239,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_11991c40cf8290568bb1f837"
+                "local_f3c46e016855234d6d0f06e3"
               ],
               "confidence": 86
             },
@@ -256,20 +267,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b529f5e355dcfc996d1a7efc",
-        "local_11991c40cf8290568bb1f837",
+        "local_4932b6f877366fe6f352c07e",
+        "local_29270262465ae8d50a73c0d4",
+        "local_f3c46e016855234d6d0f06e3",
         "local_cde246fb953961169cd28496",
         "local_f2aeb22295f5de36bc3bca6c",
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-16T06:10:57.744Z",
+      "generatedAt": "2026-07-16T08:43:01.581Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T06:10:57.744Z",
+  "generatedAt": "2026-07-16T08:43:01.581Z",
   "collectorName": "local-source-collector"
 }
