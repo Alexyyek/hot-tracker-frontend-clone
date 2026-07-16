@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AWS and Bluesight build AI for hospital 340B compliance」、「中科大等团队开源长视频Agent:剪辑翻车,只改出错片段」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AWS and Bluesight build AI for hospital 340B compliance」、「中科大等团队开源长视频Agent:剪辑翻车,只改出错片段」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS and Bluesight build AI for hospital 340B compliance",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：中科大等团队开源长视频Agent:剪辑翻车,只改出错片段",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepmind CEO Hassabis says \"nobody in the world knows what happens next\" so \"cautious optimism\" means building guardrails now"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to manage AI investments in the agentic era"
       ],
       "watchItems": [
         "跟进：AWS and Bluesight build AI for hospital 340B compliance",
         "跟进：中科大等团队开源长视频Agent:剪辑翻车,只改出错片段",
-        "跟进：Deepmind CEO Hassabis says \"nobody in the world knows what happens next\" so \"cautious optimism\" means building guardrails now",
         "跟进：How to manage AI investments in the agentic era",
-        "跟进：实测LibTV Agent,把100个AI视频工作流重组成Skills后我创意自由了"
+        "跟进：实测LibTV Agent,把100个AI视频工作流重组成Skills后我创意自由了",
+        "跟进：蚂蚁阿福:从 0 到生产的医疗 Agent 工程化落地"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_764aac5172c4039f80959e7e"
+                "local_b37918a3bcc69cd5a37f04b5"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_db450511cde391cec0898a71"
+                "local_fc057913403d99397fd0d01b"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_07d3b32ee3dedf99563fb0b1"
+                "local_dcf16eac8604d66496b24ce7"
               ],
               "confidence": 90
             }
@@ -77,16 +77,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Deepmind CEO Hassabis says \"nobody in the world knows what happens next\" so \"cautious optimism\" means building guardrails now",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Deepmind CEO Demis Hassabis has published a sweeping proposal for how to handle advanced AI. He wants a new US standards body modeled after financial regulator FINRA that would develop evaluation protocols for fr…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fbd1f63ec14e03eb4394fc5b"
-              ],
-              "confidence": 92
-            },
             {
               "title": "聊聊今年涌进Anthropic的N个巨佬,他们押注的是下一个十年.",
               "summary": "他联合创办了Monzo,英国最大的数字银行之一,用户覆盖英国10... 做过NL2SQL和RAG相关的产品,真的就属于学术能力和工程能力...",
@@ -102,14 +92,13 @@
       ],
       "referencedFeedItemIds": [
         "local_3d4768c920a9f6ba2405a75b",
-        "local_764aac5172c4039f80959e7e",
-        "local_fbd1f63ec14e03eb4394fc5b",
+        "local_b37918a3bcc69cd5a37f04b5",
         "local_34ddef3629703ed40950f35f",
-        "local_db450511cde391cec0898a71",
-        "local_07d3b32ee3dedf99563fb0b1",
+        "local_fc057913403d99397fd0d01b",
+        "local_dcf16eac8604d66496b24ce7",
         "local_8f3395c8924cd6d1b4a25350"
       ],
-      "generatedAt": "2026-07-16T12:16:40.489Z",
+      "generatedAt": "2026-07-16T14:31:27.009Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -142,7 +131,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_764aac5172c4039f80959e7e"
+                "local_b37918a3bcc69cd5a37f04b5"
               ],
               "confidence": 92
             },
@@ -162,7 +151,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_07d3b32ee3dedf99563fb0b1"
+                "local_dcf16eac8604d66496b24ce7"
               ],
               "confidence": 90
             }
@@ -185,18 +174,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_764aac5172c4039f80959e7e",
+        "local_b37918a3bcc69cd5a37f04b5",
         "local_34ddef3629703ed40950f35f",
-        "local_07d3b32ee3dedf99563fb0b1",
+        "local_dcf16eac8604d66496b24ce7",
         "local_8f3395c8924cd6d1b4a25350"
       ],
-      "generatedAt": "2026-07-16T12:16:40.489Z",
+      "generatedAt": "2026-07-16T14:31:27.009Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T12:16:40.489Z",
+  "generatedAt": "2026-07-16T14:31:27.009Z",
   "collectorName": "local-source-collector"
 }
