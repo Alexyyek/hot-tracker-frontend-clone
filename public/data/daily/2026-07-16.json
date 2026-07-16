@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Inkling: Our open-weights model」、「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Inkling: Our open-weights model」、「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inkling: Our open-weights model",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_21054594ec977f6eac2a3a77"
+                "local_c57141a430110cdf35c0b2b6"
               ],
               "confidence": 92
             },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_acbe42ea517fe98ce4451a89"
+                "local_39c151759bea17aa96180590"
               ],
               "confidence": 92
             },
@@ -128,45 +128,29 @@
               "confidence": 82
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Discrete Diffusion Models: A Unified Framework from Tokenization to Generation",
-              "summary": "Discrete denoising diffusion models (DDMs) have recently emerged as a compelling alternative to autoregressive (AR) modeling for discrete data, offering parallel generation and iterative global refinement capabilities. Unlike continuous diffusion, where the state space is fixed,…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_68c136b1ed49ef47e1716702"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_6733d14360e878a09304b1de",
-        "local_acbe42ea517fe98ce4451a89",
+        "local_39c151759bea17aa96180590",
         "local_4b7669cbc6bbafd81e108ec6",
         "local_402710a3b04b9ff27634071d",
         "local_47d40acaa04b13a5a5d695e2",
         "local_974b3b45d149121f8a01bccc",
-        "local_21054594ec977f6eac2a3a77",
+        "local_c57141a430110cdf35c0b2b6",
         "local_e49a0b58492631376024fa21",
         "local_ea47afe7280554f8bbf62f57",
-        "local_491436e951a580e1e638bf4a",
         "local_cdfe29aca11a005698790359",
         "local_339cf7e0fb5c0779c6d0112f",
+        "local_18dcbc61e60b315bfb80400c",
         "local_d7bd09e1644fca12dac8097b",
         "local_665b86e5b34067a43ade4b42",
         "local_995a3578d019429242091276",
-        "local_68c136b1ed49ef47e1716702",
         "local_9bcca655a1d17790ca71d966",
         "local_5d16379f480dad5e34defda4",
         "local_cdd8f5428e83bd2864962151"
       ],
-      "generatedAt": "2026-07-16T20:20:36.454Z",
+      "generatedAt": "2026-07-16T21:52:20.121Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -200,7 +184,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_acbe42ea517fe98ce4451a89"
+                "local_39c151759bea17aa96180590"
               ],
               "confidence": 92
             },
@@ -255,7 +239,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_21054594ec977f6eac2a3a77"
+                "local_c57141a430110cdf35c0b2b6"
               ],
               "confidence": 92
             }
@@ -263,21 +247,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_acbe42ea517fe98ce4451a89",
+        "local_39c151759bea17aa96180590",
         "local_974b3b45d149121f8a01bccc",
-        "local_21054594ec977f6eac2a3a77",
+        "local_c57141a430110cdf35c0b2b6",
         "local_ea47afe7280554f8bbf62f57",
         "local_cdfe29aca11a005698790359",
         "local_339cf7e0fb5c0779c6d0112f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-16T20:20:36.454Z",
+      "generatedAt": "2026-07-16T21:52:20.121Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T20:20:36.454Z",
+  "generatedAt": "2026-07-16T21:52:20.121Z",
   "collectorName": "local-source-collector"
 }
