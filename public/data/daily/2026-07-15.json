@@ -5,65 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-07-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Bonsai 27B is a full open reasoning model that fits on an iPhone」、「从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理」、「Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bonsai 27B is a full open reasoning model that fits on an iPhone",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟"
       ],
       "watchItems": [
-        "跟进：Bonsai 27B is a full open reasoning model that fits on an iPhone",
         "跟进：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
         "跟进：Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity",
         "跟进：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟",
-        "跟进：\"相比写Python,我的工程师更愿意造Agent\",黄仁勋最新26分钟对话:未来公司将建立在Harness之上"
+        "跟进：\"相比写Python,我的工程师更愿意造Agent\",黄仁勋最新26分钟对话:未来公司将建立在Harness之上",
+        "跟进：Set-shifting Behavioral Test for Harnessed Agents"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Bonsai 27B is a full open reasoning model that fits on an iPhone",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：PrismML has compressed a 27-billion-parameter AI model to under 4 GB, small enough to run on an iPhone. In the company's own benchmarks, the smallest version keeps 90 percent of the original performance, with math and c…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_208b2f664513c34caa3a0756"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%",
-              "summary": "由京东云灵境统一上线国内主流商用模型、开源大模型与全套AI工具,实现资源统一展示、统一结算、统一补贴.企业只需一个入口,...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_611aa479b042e39cc2865fe8"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "It's not too late to get Pixel Care+ for your Pixel 9 or 10.",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：From July 13 to August 2, sign up for Pixel Care+ to get accidental damage coverage and $0 battery and screen repairs.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cde246fb953961169cd28496"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Our largest solar and battery storage project ever",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google will both invest in and purchase energy and storage from Steel River Energy Center in Mississippi County, Arkansas.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d047066e3ead16c819497231"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -73,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c56d32919a09ddb05630d638"
+                "local_19a50ef1d5692d59b1b90ef9"
               ],
               "confidence": 92
             },
@@ -93,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d1509069d095cc3604404acf"
+                "local_a350fe30873c2244dfa047a0"
               ],
               "confidence": 86
             },
@@ -118,21 +73,55 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%",
+              "summary": "由京东云灵境统一上线国内主流商用模型、开源大模型与全套AI工具,实现资源统一展示、统一结算、统一补贴.企业只需一个入口,...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_412474a47bf618e08c1e9183"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "It's not too late to get Pixel Care+ for your Pixel 9 or 10.",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：From July 13 to August 2, sign up for Pixel Care+ to get accidental damage coverage and $0 battery and screen repairs.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_cde246fb953961169cd28496"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Our largest solar and battery storage project ever",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google will both invest in and purchase energy and storage from Steel River Energy Center in Mississippi County, Arkansas.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d047066e3ead16c819497231"
+              ],
+              "confidence": 78
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_208b2f664513c34caa3a0756",
-        "local_c56d32919a09ddb05630d638",
+        "local_19a50ef1d5692d59b1b90ef9",
         "local_d38fecb9a60936a9e1bdbd34",
-        "local_d1509069d095cc3604404acf",
+        "local_a350fe30873c2244dfa047a0",
         "local_b10623537f32290be1968e8e",
         "local_1f3409919b52d7f0e11a5218",
-        "local_611aa479b042e39cc2865fe8",
+        "local_412474a47bf618e08c1e9183",
         "local_cde246fb953961169cd28496",
         "local_f2aeb22295f5de36bc3bca6c",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-16T18:58:20.082Z",
+      "generatedAt": "2026-07-16T20:20:36.462Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -166,7 +155,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c56d32919a09ddb05630d638"
+                "local_19a50ef1d5692d59b1b90ef9"
               ],
               "confidence": 92
             },
@@ -176,7 +165,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d1509069d095cc3604404acf"
+                "local_a350fe30873c2244dfa047a0"
               ],
               "confidence": 86
             },
@@ -211,7 +200,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_611aa479b042e39cc2865fe8"
+                "local_412474a47bf618e08c1e9183"
               ],
               "confidence": 86
             },
@@ -239,21 +228,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c56d32919a09ddb05630d638",
-        "local_d1509069d095cc3604404acf",
+        "local_19a50ef1d5692d59b1b90ef9",
+        "local_a350fe30873c2244dfa047a0",
         "local_b10623537f32290be1968e8e",
-        "local_611aa479b042e39cc2865fe8",
+        "local_412474a47bf618e08c1e9183",
         "local_cde246fb953961169cd28496",
         "local_f2aeb22295f5de36bc3bca6c",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-16T18:58:20.082Z",
+      "generatedAt": "2026-07-16T20:20:36.462Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T18:58:20.083Z",
+  "generatedAt": "2026-07-16T20:20:36.463Z",
   "collectorName": "local-source-collector"
 }
