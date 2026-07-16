@@ -5,127 +5,117 @@
       "topicId": "ai",
       "reportDate": "2026-07-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Inkling: Our open-weights model」、「OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inkling: Our open-weights model",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models"
       ],
       "watchItems": [
-        "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践",
-        "跟进：A2O_WORLD的个人空间-A2O_WORLD个人主页-哔哩哔哩视频",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Inkling: Our open-weights model",
+        "跟进：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
+        "跟进：Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models",
+        "跟进：Quoting Linus Torvalds",
+        "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
+              "title": "Inkling: Our open-weights model",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 lice…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_3b2c8addc521343530539015"
+                "local_6733d14360e878a09304b1de"
               ],
               "confidence": 92
             },
             {
-              "title": "从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践",
-              "summary": "记忆正从一个提升效率的辅助功能，蜕变为决定 Agent 能否执行连续复杂任务的生死线。",
+              "title": "Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Sakana AI is integrating Nvidia's open-source Nemotron models into its Fugu orchestrator, which dynamically combines multiple language models for specific tasks. The core argument: Open models only become competitive wi…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_64c0cdf37343ca40a4352ac0"
+                "local_402710a3b04b9ff27634071d"
               ],
-              "confidence": 82
+              "confidence": 74
             },
             {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "title": "Quoting Linus Torvalds",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：I realize that some people really dislike AI, but this is an area where I'm willing to absolutely put my foot down as the top-level maintainer. Linux is not one of those anti-AI projects, and if somebody has issues with…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_eedd1ea66b3df9ed6f91b0bb"
+                "local_47d40acaa04b13a5a5d695e2"
               ],
-              "confidence": 70
+              "confidence": 92
             },
             {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "title": "腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
+              "summary": "公布获奖结果,腾讯PCG技术线-AI创新应用中心联合深圳河套学院AI训练平台张民教授团队凭借全双工语音大模型研究成果 《...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7415d062ad84aa4f9d1a88c2"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anc…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_22ce6b42a383e45c7fc2dc65"
+                "local_4315cff3cde1141790f0bede"
               ],
               "confidence": 92
             }
           ]
         },
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
+              "title": "OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and keyboard manufacturer Work Louder have unveiled the Codex Micro, a compact hardware controller designed for working with AI agents. The article OpenAI wants developers to stop typing commands and start using …",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_26eafc2412182cc1389e53b6"
+                "local_4b7669cbc6bbafd81e108ec6"
               ],
               "confidence": 92
             },
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+              "summary": "Skill 发给 Agent:我们就要这个 OpenViking + AgentPlan 的方案今天下午就能让团队用上加入我们,共建 Agent 上下文的未来! 上手...",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_610ba53c35658ddf38b595d3"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads.…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_325e5e2597e0f6ab2432d0d5"
+                "local_974b3b45d149121f8a01bccc"
               ],
               "confidence": 92
             },
             {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_81dfe48695314e8693dfc79c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
+              "title": "Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google shipped an update to its open AI model Gemma 4 that speeds up performance on Nvidia Hopper GPUs, fixes tool calling bugs, and addresses problems with truncated responses. The article Gemma 4 gets a stealth update…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8e36ae2d9d6c8f6864281a61"
+                "local_e49a0b58492631376024fa21"
               ],
               "confidence": 78
+            },
+            {
+              "title": "码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕",
+              "summary": "华为云CodeArts码道智能体覆盖软件开发全流程,为高校科创实践提供一体化开发支撑.同时他提出三点期许:一是深化校企资源互通...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1b7eb4d08a5bd6eac32733f8"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Mermaid to Unicode box art (grok-mermaid)",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs, a \"self-contained terminal renderer for Merma…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_491436e951a580e1e638bf4a"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -133,70 +123,49 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "A2O_WORLD的个人空间-A2O_WORLD个人主页-哔哩哔哩视频",
-              "summary": "哔哩哔哩A2O_WORLD的个人空间，提供A2O_WORLD分享的视频、音频、文章、动态、收藏等内容，关注A2O_WORLD账号，第一时间了解UP主动态。A2O Entertainment官方账号",
+              "title": "Discrete Diffusion Models: A Unified Framework from Tokenization to Generation",
+              "summary": "Discrete denoising diffusion models (DDMs) have recently emerged as a compelling alternative to autoregressive (AR) modeling for discrete data, offering parallel generation and iterative global refinement capabilities. Unlike continuous diffusion, where the state space is fixed,…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_e04b245cf3885c78b6cbcb30"
+                "local_68c136b1ed49ef47e1716702"
               ],
-              "confidence": 82
+              "confidence": 92
             },
             {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
+              "title": "xai-org/grok-build, now open source",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：xai-org/grok-build, now open source xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud …",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_24eef8d2d6f7e3f4b194cd2f"
+                "local_bfef85928ba765fc1fc01144"
               ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "LiteRT.js, Google's high performance Web AI Inference",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI run…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_1c28abd38d627229ae1c8c96"
-              ],
-              "confidence": 78
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_3b2c8addc521343530539015",
-        "local_26eafc2412182cc1389e53b6",
-        "local_64c0cdf37343ca40a4352ac0",
-        "local_e04b245cf3885c78b6cbcb30",
-        "local_610ba53c35658ddf38b595d3",
-        "local_eedd1ea66b3df9ed6f91b0bb",
-        "local_7415d062ad84aa4f9d1a88c2",
-        "local_22ce6b42a383e45c7fc2dc65",
-        "local_325e5e2597e0f6ab2432d0d5",
-        "local_78dfc4f659956941a8c9b5c8",
-        "local_1c28abd38d627229ae1c8c96",
-        "local_93a74228c618bf8a56671628",
-        "local_1c2a4cc7c728a5b76cca1d98",
-        "local_5128c12a9e9a5a69637cf4d6",
-        "local_52e3fe35ee6e609d6a02f2b1",
-        "local_81dfe48695314e8693dfc79c",
-        "local_23ad5c6c5e11a2e2731e2720",
-        "local_e7e8d1856a04b966f881433a",
-        "local_aa66313f81026a106043b22a",
-        "local_20c926ce21af29b15efa9374",
-        "local_8e36ae2d9d6c8f6864281a61",
-        "local_c71b08aa0736eefc58cc0b6b",
-        "local_73e3c66582bf1e3175bbc47c",
-        "local_24eef8d2d6f7e3f4b194cd2f"
+        "local_6733d14360e878a09304b1de",
+        "local_4b7669cbc6bbafd81e108ec6",
+        "local_402710a3b04b9ff27634071d",
+        "local_47d40acaa04b13a5a5d695e2",
+        "local_974b3b45d149121f8a01bccc",
+        "local_4315cff3cde1141790f0bede",
+        "local_e49a0b58492631376024fa21",
+        "local_1b7eb4d08a5bd6eac32733f8",
+        "local_491436e951a580e1e638bf4a",
+        "local_339cf7e0fb5c0779c6d0112f",
+        "local_995a3578d019429242091276",
+        "local_68c136b1ed49ef47e1716702",
+        "local_893a74730ac568747bd327e9",
+        "local_d9ac5a6f108bc6830905fcc1",
+        "local_bfef85928ba765fc1fc01144",
+        "local_9bcca655a1d17790ca71d966",
+        "local_5d16379f480dad5e34defda4",
+        "local_cdd8f5428e83bd2864962151"
       ],
-      "generatedAt": "2026-07-16T14:31:26.982Z",
+      "generatedAt": "2026-07-16T16:12:54.943Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,72 +176,62 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-16",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」、「腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕"
       ],
       "watchItems": [
-        "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践",
-        "跟进：A2O_WORLD的个人空间-A2O_WORLD个人主页-哔哩哔哩视频",
-        "跟进：Moonshot AI - 博客"
+        "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+        "跟进：腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
+        "跟进：码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕",
+        "跟进：Introducing Grok 4.5",
+        "跟进：Develop Lightweight USD Runtimes Faster with AI Agents"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
+              "title": "9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+              "summary": "Skill 发给 Agent:我们就要这个 OpenViking + AgentPlan 的方案今天下午就能让团队用上加入我们,共建 Agent 上下文的未来! 上手...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3b2c8addc521343530539015"
+                "local_974b3b45d149121f8a01bccc"
               ],
               "confidence": 92
             },
             {
-              "title": "从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践",
-              "summary": "记忆正从一个提升效率的辅助功能，蜕变为决定 Agent 能否执行连续复杂任务的生死线。",
+              "title": "码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕",
+              "summary": "华为云CodeArts码道智能体覆盖软件开发全流程,为高校科创实践提供一体化开发支撑.同时他提出三点期许:一是深化校企资源互通...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_64c0cdf37343ca40a4352ac0"
+                "local_1b7eb4d08a5bd6eac32733f8"
               ],
               "confidence": 82
             },
             {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "title": "Introducing Grok 4.5",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Grok 4.5 is SpaceXAI&#x27;s smartest model built for coding, agentic tasks, and knowledge work.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eedd1ea66b3df9ed6f91b0bb"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7415d062ad84aa4f9d1a88c2"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Expanding Choice in Gemini Enterprise Agent Platform: Introducing Grounding with Parallel Web Search",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud has partnered with Parallel Web Systems to natively integrate Parallel's search infrastructure as a web grounding provider on the Gemini Enterprise Agent Platform. This integration enables developers to anc…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_22ce6b42a383e45c7fc2dc65"
+                "local_339cf7e0fb5c0779c6d0112f"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Develop Lightweight USD Runtimes Faster with AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenUSD is an open, extensible framework that provides a common scene description language for physical AI. It enables teams to bring CAD data, simulation...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9bcca655a1d17790ca71d966"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -280,129 +239,32 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
+              "title": "腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
+              "summary": "公布获奖结果,腾讯PCG技术线-AI创新应用中心联合深圳河套学院AI训练平台张民教授团队凭借全双工语音大模型研究成果 《...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_26eafc2412182cc1389e53b6"
+                "local_4315cff3cde1141790f0bede"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_610ba53c35658ddf38b595d3"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Systems Engineering Playbook: Optimizing Qwen 3.5-397B MoE on Ironwood (TPU7x)",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：To serve the 397B-parameter Qwen 3.5 Mixture-of-Experts (MoE) model on Ironwood TPUs, engineers developed a modular JAX/Pallas optimization stack that achieved up to a 4.7x inference speedup for prefill-heavy workloads.…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_325e5e2597e0f6ab2432d0d5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_8e36ae2d9d6c8f6864281a61"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c71b08aa0736eefc58cc0b6b"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "A2O_WORLD的个人空间-A2O_WORLD个人主页-哔哩哔哩视频",
-              "summary": "哔哩哔哩A2O_WORLD的个人空间，提供A2O_WORLD分享的视频、音频、文章、动态、收藏等内容，关注A2O_WORLD账号，第一时间了解UP主动态。A2O Entertainment官方账号",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e04b245cf3885c78b6cbcb30"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_24eef8d2d6f7e3f4b194cd2f"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "LiteRT.js, Google's high performance Web AI Inference",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：We're excited to introduce LiteRT.js, the newest member of the LiteRT family! LiteRT.js is our powerful solution for running machine learning models directly in the browser, extending Google's cross-platform edge AI run…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_1c28abd38d627229ae1c8c96"
-              ],
-              "confidence": 78
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_3b2c8addc521343530539015",
-        "local_26eafc2412182cc1389e53b6",
-        "local_64c0cdf37343ca40a4352ac0",
-        "local_e04b245cf3885c78b6cbcb30",
-        "local_610ba53c35658ddf38b595d3",
-        "local_eedd1ea66b3df9ed6f91b0bb",
-        "local_7415d062ad84aa4f9d1a88c2",
-        "local_22ce6b42a383e45c7fc2dc65",
-        "local_325e5e2597e0f6ab2432d0d5",
-        "local_78dfc4f659956941a8c9b5c8",
-        "local_1c28abd38d627229ae1c8c96",
-        "local_8e36ae2d9d6c8f6864281a61",
-        "local_c71b08aa0736eefc58cc0b6b",
-        "local_73e3c66582bf1e3175bbc47c",
-        "local_24eef8d2d6f7e3f4b194cd2f",
-        "local_bb7ba3b34d0c44bf0c463da4",
-        "local_a0c8921d07cceaddb1311023",
-        "local_64b5e14b79a115f91a6d82f0",
-        "local_38652891c5982d3c6a7101dc",
-        "local_463ed76d27a442cfc34c304d",
-        "local_1d747434aee389dfea8a510e",
+        "local_974b3b45d149121f8a01bccc",
+        "local_4315cff3cde1141790f0bede",
+        "local_1b7eb4d08a5bd6eac32733f8",
+        "local_339cf7e0fb5c0779c6d0112f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-16T14:31:26.982Z",
+      "generatedAt": "2026-07-16T16:12:54.944Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T14:31:26.983Z",
+  "generatedAt": "2026-07-16T16:12:54.944Z",
   "collectorName": "local-source-collector"
 }

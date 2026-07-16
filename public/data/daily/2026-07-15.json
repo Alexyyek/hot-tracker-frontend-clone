@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Bonsai 27B is a full open reasoning model that fits on an iPhone」、「How I tricked Claude into leaking your deepest, darkest secrets」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Bonsai 27B is a full open reasoning model that fits on an iPhone」、「从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bonsai 27B is a full open reasoning model that fits on an iPhone",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How I tricked Claude into leaking your deepest, darkest secrets",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity"
       ],
       "watchItems": [
         "跟进：Bonsai 27B is a full open reasoning model that fits on an iPhone",
-        "跟进：How I tricked Claude into leaking your deepest, darkest secrets",
         "跟进：从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理",
         "跟进：Self-Evolving Agent Harnesses via Gated Semantic Quality-Diversity",
-        "跟进：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟"
+        "跟进：阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟",
+        "跟进：\"相比写Python,我的工程师更愿意造Agent\",黄仁勋最新26分钟对话:未来公司将建立在Harness之上"
       ],
       "sections": [
         {
@@ -33,22 +33,12 @@
               "confidence": 74
             },
             {
-              "title": "How I tricked Claude into leaking your deepest, darkest secrets",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：How I tricked Claude into leaking your deepest, darkest secrets I've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design. To recap: …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c164af3ad2a4b678b0979e47"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "全国首个!北京亦庄上线\"模型券\"即时补贴平台,补贴比例最高可达65%",
               "summary": "由京东云灵境统一上线国内主流商用模型、开源大模型与全套AI工具,实现资源统一展示、统一结算、统一补贴.企业只需一个入口,...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_732a0536a07a64f3c0469130"
+                "local_e0b709e3789aed5a1fcdc4c7"
               ],
               "confidence": 86
             },
@@ -83,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_63267cba8b919b2b32e3752a"
+                "local_3127c599076d29b6ddbb38b4"
               ],
               "confidence": 92
             },
@@ -103,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fa3813a2d9ba45aa82ef0cc4"
+                "local_715b37cc15e6a2a6cc73d212"
               ],
               "confidence": 86
             },
@@ -118,12 +108,12 @@
               "confidence": 92
             },
             {
-              "title": "OpenAI&#039;s Codex now encrypts instructions between AI agents, leaving developers blind to internal delegation",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Since early June, OpenAI's coding tool Codex encrypts the instructions a main agent passes to its subagents. Developers can no longer track how tasks get delegated internally. For the larger GPT-5.6 variants Sol and Ter…",
+              "title": "Set-shifting Behavioral Test for Harnessed Agents",
+              "summary": "What happens to an LLM agent's tool choice when the reliable tool silently changes within an ongoing session? We borrow set-shifting from cognitive psychology to study how well agents adapt to hidden reliability shifts. Our benchmark mounts tool-skill libraries with redundancies…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba9f8195dedb3af0baff4cf0"
+                "local_1f3409919b52d7f0e11a5218"
               ],
               "confidence": 92
             }
@@ -132,20 +122,18 @@
       ],
       "referencedFeedItemIds": [
         "local_208b2f664513c34caa3a0756",
-        "local_c164af3ad2a4b678b0979e47",
-        "local_63267cba8b919b2b32e3752a",
+        "local_3127c599076d29b6ddbb38b4",
         "local_d38fecb9a60936a9e1bdbd34",
-        "local_fa3813a2d9ba45aa82ef0cc4",
+        "local_715b37cc15e6a2a6cc73d212",
         "local_109d93425e85b8ddffba31fb",
-        "local_ba9f8195dedb3af0baff4cf0",
         "local_1f3409919b52d7f0e11a5218",
-        "local_732a0536a07a64f3c0469130",
+        "local_e0b709e3789aed5a1fcdc4c7",
         "local_cde246fb953961169cd28496",
         "local_f2aeb22295f5de36bc3bca6c",
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-16T14:31:26.994Z",
+      "generatedAt": "2026-07-16T16:12:54.957Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -179,7 +167,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_63267cba8b919b2b32e3752a"
+                "local_3127c599076d29b6ddbb38b4"
               ],
               "confidence": 92
             },
@@ -189,7 +177,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fa3813a2d9ba45aa82ef0cc4"
+                "local_715b37cc15e6a2a6cc73d212"
               ],
               "confidence": 86
             },
@@ -234,7 +222,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_732a0536a07a64f3c0469130"
+                "local_e0b709e3789aed5a1fcdc4c7"
               ],
               "confidence": 86
             },
@@ -262,22 +250,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_63267cba8b919b2b32e3752a",
-        "local_fa3813a2d9ba45aa82ef0cc4",
+        "local_3127c599076d29b6ddbb38b4",
+        "local_715b37cc15e6a2a6cc73d212",
         "local_109d93425e85b8ddffba31fb",
-        "local_732a0536a07a64f3c0469130",
+        "local_e0b709e3789aed5a1fcdc4c7",
         "local_cde246fb953961169cd28496",
         "local_f2aeb22295f5de36bc3bca6c",
         "local_b417c509befff70d1f33afcf",
         "local_d047066e3ead16c819497231"
       ],
-      "generatedAt": "2026-07-16T14:31:26.994Z",
+      "generatedAt": "2026-07-16T16:12:54.957Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-16T14:31:26.995Z",
+  "generatedAt": "2026-07-16T16:12:54.957Z",
   "collectorName": "local-source-collector"
 }
