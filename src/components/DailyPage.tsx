@@ -1,4 +1,4 @@
-import { KeyboardEvent, useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CalendarDays, ExternalLink } from "lucide-react";
 import { getDailyReports, getFeedItem } from "../api";
 import { filterAiDailyReports } from "../aiTopics";
@@ -14,7 +14,6 @@ interface DailyPageProps {
 
 export function DailyPage({ initialDate, initialReports, topics }: DailyPageProps) {
   const initialAiReports = filterAiDailyReports(initialReports);
-  const dateInputRef = useRef<HTMLInputElement>(null);
   const [date, setDate] = useState(initialDate || formatDateInput());
   const [reports, setReports] = useState(initialAiReports);
   const [activeReportId, setActiveReportId] = useState(initialAiReports[0]?.id ?? "");
@@ -60,24 +59,6 @@ export function DailyPage({ initialDate, initialReports, topics }: DailyPageProp
     }
   };
 
-  const openDatePicker = () => {
-    const input = dateInputRef.current;
-    if (!input) return;
-    if (typeof input.showPicker === "function") {
-      input.showPicker();
-    } else {
-      input.focus();
-      input.click();
-    }
-  };
-
-  const handleDateKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
-    if (event.key === "Enter" || event.key === " ") {
-      event.preventDefault();
-      openDatePicker();
-    }
-  };
-
   if (error) {
     return <ErrorView message={error} onRetry={() => void loadDate(date)} />;
   }
@@ -87,22 +68,14 @@ export function DailyPage({ initialDate, initialReports, topics }: DailyPageProp
       <aside className="daily-sidebar content-panel" aria-label="日报列表">
         <div className="daily-sidebar-header">
           <h2>日报</h2>
-          <div
-            className="date-picker"
-            role="button"
-            tabIndex={0}
-            onClick={openDatePicker}
-            onKeyDown={handleDateKeyDown}
-            aria-label={`选择日报日期，当前为 ${formatChineseDate(date)}`}
-          >
+          <div className="date-picker">
             <span className="date-picker-label">日期</span>
             <div className="date-picker-control">
               <CalendarDays size={16} />
               <strong>{formatChineseDate(date)}</strong>
             </div>
             <input
-              ref={dateInputRef}
-              aria-label="选择日报日期"
+              aria-label={`选择日报日期，当前为 ${formatChineseDate(date)}`}
               max={formatDateInput()}
               onChange={(event) => void loadDate(event.target.value)}
               type="date"

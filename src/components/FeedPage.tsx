@@ -56,12 +56,14 @@ export function FeedPage({
   const [fatalError, setFatalError] = useState("");
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [shareItem, setShareItem] = useState<FeedItem | null>(null);
-  const [sourceRefresh, setSourceRefresh] = useState({ running: false, checked: 0, total: 0, lastUpdated: "" });
+  const [sourceRefresh, setSourceRefresh] = useState({ running: false, checked: 0, total: 0 });
   const requestId = useRef(0);
   const sourceRefreshId = useRef(0);
   const itemsRef = useRef(initialItems);
   const sourceFacetsRef = useRef(initialSourceFacets);
   const queryRef = useRef(baseQuery);
+  const filterToggleRef = useRef<HTMLButtonElement>(null);
+  const filterSheetRef = useRef<HTMLDivElement>(null);
 
   const title = query.topicId ? getTopicTitle(topics, query.topicId) : "全部 AI";
 
@@ -108,17 +110,17 @@ export function FeedPage({
         getSourceFacets(sourceQuery),
         getTopicCounts(cleanQuery)
       ]);
-      if (id === requestId.current) {
-        setItems((current) => mergeItems(current, feed.items));
-        setNextCursor(feed.nextCursor);
-        setTotal(feed.total);
-        setSourceFacets(facets);
-        setTopicCounts(counts);
-        if (itemsRef.current.length > 0) {
-          const newCount = feed.items.filter((item) => !itemsRef.current.find((old) => old.id === item.id)).length;
-          if (newCount > 0) onToast("success", `新增 ${newCount} 条动态`);
-        }
+      if (id !== requestId.current) return false;
+      setItems((current) => mergeItems(current, feed.items));
+      setNextCursor(feed.nextCursor);
+      setTotal(feed.total);
+      setSourceFacets(facets);
+      setTopicCounts(counts);
+      if (itemsRef.current.length > 0) {
+        const newCount = feed.items.filter((item) => !itemsRef.current.find((old) => old.id === item.id)).length;
+        if (newCount > 0) onToast("success", `新增 ${newCount} 条动态`);
       }
+      return true;
     } catch (error) {
       if (id === requestId.current) {
         const message = error instanceof Error ? error.message : "动态加载失败，请稍后查看日志。";
@@ -128,6 +130,7 @@ export function FeedPage({
           setFatalError(message);
         }
       }
+      return false;
     } finally {
       if (id === requestId.current && !options.silent) {
         setLoading(false);
@@ -138,15 +141,19 @@ export function FeedPage({
   const refreshCatalogSources = useCallback(async (nextQuery: FeedQuery = queryRef.current) => {
     if (sourceRefresh.running) return;
     if (isStaticDataMode()) {
-      setSourceRefresh({ running: true, checked: 0, total: 1, lastUpdated: sourceRefresh.lastUpdated });
-      await refreshAggregate(nextQuery, { forceStaticRefresh: true, silent: true });
-      setSourceRefresh({
-        running: false,
-        checked: 1,
-        total: 1,
-        lastUpdated: new Date().toISOString()
-      });
-      onToast("success", "已重新读取最新静态快照");
+      setSourceRefresh({ running: true, checked: 0, total: 1 });
+      let succeeded = false;
+      try {
+        succeeded = await refreshAggregate(nextQuery, { forceStaticRefresh: true, silent: true });
+      } catch {
+        succeeded = false;
+      } finally {
+        setSourceRefresh({ running: false, checked: succeeded ? 1 : 0, total: 1 });
+      }
+      onToast(
+        succeeded ? "success" : "error",
+        succeeded ? "已重新读取最新静态快照" : "静态快照刷新失败，正在展示当前数据"
+      );
       return;
     }
     const runId = ++sourceRefreshId.current;
@@ -161,7 +168,7 @@ export function FeedPage({
     const collected: FeedItem[] = [];
     const concurrency = 4;
 
-    setSourceRefresh({ running: true, checked: 0, total: totalSources, lastUpdated: sourceRefresh.lastUpdated });
+    setSourceRefresh({ running: true, checked: 0, total: totalSources });
 
     async function worker(offset: number) {
       for (let index = offset; index < sources.length; index += concurrency) {
@@ -196,13 +203,12 @@ export function FeedPage({
       setSourceRefresh({
         running: false,
         checked: totalSources,
-        total: totalSources,
-        lastUpdated: new Date().toISOString()
+        total: totalSources
       });
       const newCount = collected.filter((item) => !itemsRef.current.find((old) => old.id === item.id)).length;
       onToast("success", `已刷新 ${totalSources} 个信息源${newCount > 0 ? `，新增 ${newCount} 条` : ""}`);
     }
-  }, [onToast, refreshAggregate, sourceRefresh.lastUpdated, sourceRefresh.running]);
+  }, [onToast, refreshAggregate, sourceRefresh.running]);
 
   useEffect(() => {
     void refreshAggregate(query);
@@ -216,6 +222,61 @@ export function FeedPage({
     }, realtimeRefreshMs);
     return () => window.clearInterval(timer);
   }, [refreshAggregate]);
+
+  useEffect(() => {
+    if (!drawerOpen) return;
+
+    const sheet = filterSheetRef.current;
+    const focusableSelector = [
+      "button:not([disabled])",
+      "[href]",
+      "input:not([disabled])",
+      "select:not([disabled])",
+      "textarea:not([disabled])",
+      '[tabindex]:not([tabindex="-1"])'
+    ].join(",");
+    const getFocusable = () => {
+      return sheet
+        ? [...sheet.querySelectorAll<HTMLElement>(focusableSelector)].filter((element) => element.getClientRects().length > 0)
+        : [];
+    };
+    const frame = window.requestAnimationFrame(() => getFocusable()[0]?.focus());
+
+    const handleDrawerKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setDrawerOpen(false);
+        return;
+      }
+      if (event.key !== "Tab") return;
+
+      const focusable = getFocusable();
+      if (focusable.length === 0) {
+        event.preventDefault();
+        return;
+      }
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      const active = document.activeElement;
+      if (!sheet?.contains(active)) {
+        event.preventDefault();
+        (event.shiftKey ? last : first).focus();
+      } else if (event.shiftKey && active === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && active === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    };
+
+    document.addEventListener("keydown", handleDrawerKeyDown);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      document.removeEventListener("keydown", handleDrawerKeyDown);
+      filterToggleRef.current?.focus();
+    };
+  }, [drawerOpen]);
 
   const handleQueryChange = (nextQuery: FeedQuery) => {
     setQuery(cleanFeedQuery({ ...nextQuery, cursor: undefined }));
@@ -278,11 +339,11 @@ export function FeedPage({
               type="button"
               title={isStaticDataMode() ? "重新读取 GitHub Pages 最新静态快照" : "逐个信息源抓取最新内容"}
             >
-              <RefreshCw size={15} className={sourceRefresh.running ? "is-spinning" : ""} />
+              <RefreshCw aria-hidden="true" size={15} className={sourceRefresh.running ? "is-spinning" : ""} />
               {sourceRefresh.running ? `${sourceRefresh.checked}/${sourceRefresh.total}` : "刷新全部源"}
             </button>
-            <button className="mobile-filter-toggle" onClick={() => setDrawerOpen(true)} type="button">
-              <Filter size={16} />
+            <button ref={filterToggleRef} className="mobile-filter-toggle" onClick={() => setDrawerOpen(true)} type="button">
+              <Filter aria-hidden="true" size={16} />
               筛选
             </button>
             <span className="panel-count">{visibleItems.length} 条</span>
@@ -304,12 +365,37 @@ export function FeedPage({
       {drawerOpen ? (
         <div className="filter-drawer">
           <button className="filter-drawer-backdrop" onClick={() => setDrawerOpen(false)} type="button" aria-label="关闭筛选" />
-          <div className="filter-sheet">
+          <div
+            ref={filterSheetRef}
+            className="filter-sheet"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="filter-sheet-title"
+          >
             <div className="filter-sheet-header">
-              <strong>筛选</strong>
-              <button className="icon-button" onClick={() => setDrawerOpen(false)} type="button" title="关闭">
-                <X size={18} />
-              </button>
+              <strong id="filter-sheet-title">筛选</strong>
+              <div className="filter-sheet-header-actions">
+                <button
+                  className="icon-button filter-sheet-refresh"
+                  disabled={sourceRefresh.running}
+                  onClick={() => void refreshCatalogSources(query)}
+                  type="button"
+                  title="刷新全部源"
+                  aria-label="刷新全部源"
+                  aria-busy={sourceRefresh.running}
+                >
+                  <RefreshCw aria-hidden="true" size={17} className={sourceRefresh.running ? "is-spinning" : ""} />
+                </button>
+                <button
+                  className="icon-button"
+                  onClick={() => setDrawerOpen(false)}
+                  type="button"
+                  title="关闭"
+                  aria-label="关闭筛选"
+                >
+                  <X aria-hidden="true" size={18} />
+                </button>
+              </div>
             </div>
             {filters}
           </div>
@@ -362,33 +448,15 @@ function RealtimeStatus({
     running: boolean;
     checked: number;
     total: number;
-    lastUpdated: string;
   };
 }) {
-  if (!sourceRefresh.running && !sourceRefresh.lastUpdated) {
-    return null;
-  }
+  if (!sourceRefresh.running) return null;
 
-  const label = sourceRefresh.running
-    ? isStaticDataMode()
-      ? "正在读取最新静态快照"
-      : `正在逐个刷新信息源：${sourceRefresh.checked}/${sourceRefresh.total}`
-    : isStaticDataMode()
-      ? `上次读取快照：${formatStatusTime(sourceRefresh.lastUpdated)}`
-      : `上次逐源刷新：${formatStatusTime(sourceRefresh.lastUpdated)}`;
+  const label = isStaticDataMode()
+    ? "正在读取最新静态快照"
+    : `正在逐个刷新信息源：${sourceRefresh.checked}/${sourceRefresh.total}`;
 
-  return <div className={sourceRefresh.running ? "realtime-status active" : "realtime-status"}>{label}</div>;
-}
-
-function formatStatusTime(value: string) {
-  if (!value) return "--";
-  return new Intl.DateTimeFormat("zh-CN", {
-    hour: "2-digit",
-    minute: "2-digit",
-    second: "2-digit",
-    timeZone: "Asia/Shanghai",
-    hour12: false
-  }).format(new Date(value));
+  return <div className="realtime-status active">{label}</div>;
 }
 
 function matchesFeedQuery(item: FeedItem, query: FeedQuery) {
