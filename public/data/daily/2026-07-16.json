@@ -1,0 +1,234 @@
+{
+  "items": [
+    {
+      "id": "daily_ai_2026-07-16",
+      "topicId": "ai",
+      "reportDate": "2026-07-16",
+      "title": "AI日报",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents」、「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents"
+      ],
+      "watchItems": [
+        "跟进：Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
+        "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+        "跟进：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
+        "跟进：Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models",
+        "跟进：Human-Robot Interaction in GenAI Architectures via the Agent-Client Protocol"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
+              "summary": "AI coding agents set up projects by reading documentation and installing the dependencies it lists, without verifying their names, sources, or known vulnerabilities. By editing only a README, requirements file, or Makefile, an attacker can redirect the agent to an untrusted regi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4e65a1288f3560b816bff1d2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+              "summary": "随着大语言模型进入真实应用,推理成本正在成为限制落地的重要瓶颈.一次生成任务背后,往往包含长上下文预填充、逐 token 解码...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_59f57f1b4337c467384c529b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and keyboard manufacturer Work Louder have unveiled the Codex Micro, a compact hardware controller designed for working with AI agents. The article OpenAI wants developers to stop typing commands and start using …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4b7669cbc6bbafd81e108ec6"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Human-Robot Interaction in GenAI Architectures via the Agent-Client Protocol",
+              "summary": "Recent advances in Generative Artificial Intelligence (GenAI), particularly Large Language Models (LLMs), are driving robotic architectures toward agent-based high-level orchestration, in which natural-language instructions can be translated into context-aware action sequences. …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_55abaa52213f84ee64adeb2b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Proof-or-Stop: Don't Trust the Agent, Trust the Evidence -- Loop Engineering for Verifiable Evidence-Gated Lifecycle Control",
+              "summary": "Autonomous coding agents increasingly execute multi-step software work, but lifecycle states such as reviewed, tested, DONE, and ready-to-merge remain claims unless supported by current evidence. We present Proof-or-Stop Lifecycle Control, a method that permits lifecycle transit…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5a0595bc500650ca1f15ab42"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Sakana AI is integrating Nvidia's open-source Nemotron models into its Fugu orchestrator, which dynamically combines multiple language models for specific tasks. The core argument: Open models only become competitive wi…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_402710a3b04b9ff27634071d"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
+              "summary": "公布获奖结果,腾讯PCG技术线-AI创新应用中心联合深圳河套学院AI训练平台张民教授团队凭借全双工语音大模型研究成果 《...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_956aa3bb0b4abf05ecf71b39"
+              ],
+              "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_4e65a1288f3560b816bff1d2",
+        "local_59f57f1b4337c467384c529b",
+        "local_4b7669cbc6bbafd81e108ec6",
+        "local_402710a3b04b9ff27634071d",
+        "local_55abaa52213f84ee64adeb2b",
+        "local_5a0595bc500650ca1f15ab42",
+        "local_974b3b45d149121f8a01bccc",
+        "local_956aa3bb0b4abf05ecf71b39",
+        "local_253d1d44d337fa5e7495c340",
+        "local_2c17510933efe8fab99940a0",
+        "local_92b6adf91b0939dbdfe6bcef",
+        "local_cdfe29aca11a005698790359",
+        "local_339cf7e0fb5c0779c6d0112f",
+        "local_9bcca655a1d17790ca71d966"
+      ],
+      "generatedAt": "2026-07-17T20:41:55.862Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-07-16",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-07-16",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」、「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖"
+      ],
+      "watchItems": [
+        "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+        "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+        "跟进：腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
+        "跟进：码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕",
+        "跟进：WAIC'26探展召集令!和量子位一起逛展、直播、聊AI"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+              "summary": "随着大语言模型进入真实应用,推理成本正在成为限制落地的重要瓶颈.一次生成任务背后,往往包含长上下文预填充、逐 token 解码...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_59f57f1b4337c467384c529b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+              "summary": "Skill 发给 Agent:我们就要这个 OpenViking + AgentPlan 的方案今天下午就能让团队用上加入我们,共建 Agent 上下文的未来! 上手...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_974b3b45d149121f8a01bccc"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "码道争锋 云创无限 | 2026华为开发者大赛码道赛道厦门工学院校赛十佳作品路演活动圆满落幕",
+              "summary": "华为云CodeArts码道智能体覆盖软件开发全流程,为高校科创实践提供一体化开发支撑.同时他提出三点期许:一是深化校企资源互通...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_253d1d44d337fa5e7495c340"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "WAIC'26探展召集令!和量子位一起逛展、直播、聊AI",
+              "summary": "7月17日WAIC首晚,量子位还将发起「WAIC AI Mixer」交流活动,邀请Agent、具身智能与世界模型领域的一线Builder、研究员和投...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_92b6adf91b0939dbdfe6bcef"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "How Cars24 scales conversations and builds faster with OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cdfe29aca11a005698790359"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "腾讯PCG联合深圳河套学院:在全双工语音大模型领域取得重要突破,获 ACL 2026 杰出论文奖",
+              "summary": "公布获奖结果,腾讯PCG技术线-AI创新应用中心联合深圳河套学院AI训练平台张民教授团队凭借全双工语音大模型研究成果 《...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_956aa3bb0b4abf05ecf71b39"
+              ],
+              "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_59f57f1b4337c467384c529b",
+        "local_974b3b45d149121f8a01bccc",
+        "local_956aa3bb0b4abf05ecf71b39",
+        "local_253d1d44d337fa5e7495c340",
+        "local_92b6adf91b0939dbdfe6bcef",
+        "local_cdfe29aca11a005698790359",
+        "local_339cf7e0fb5c0779c6d0112f",
+        "local_9bcca655a1d17790ca71d966"
+      ],
+      "generatedAt": "2026-07-17T20:41:55.862Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    }
+  ],
+  "generatedAt": "2026-07-17T20:41:55.862Z",
+  "collectorName": "local-source-collector"
+}

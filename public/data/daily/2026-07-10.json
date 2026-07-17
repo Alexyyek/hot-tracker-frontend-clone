@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-07-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」、「字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!"
       ],
       "watchItems": [
-        "跟进：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "跟进：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+        "跟进：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "跟进：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
-        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式",
-        "跟进：The Future Worth Building Is Human"
+        "跟进：华为云码道(CodeArts)重构图形编程项目实践",
+        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c6afe13a43dfb5956ce588a2"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
-              "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_765ae743a820b7c1c452aa63"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI's latest flagship model hit general availability this morning, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d4b6ae8693b2a33153ebe51"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI's GPT-5.6 Sol scores 59 points on the Artificial Analysis Intelligence Index, just one point behind Claude Fable 5. At $1.04 per task, it costs a third of what Anthropic's top model charges. In agentic coding, So…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b17b74dabac7564703398ba8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
-              "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_45e131a494db0556485cc925"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -83,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7f9e7318b329c8cf5ff2414f"
+                "local_1b513d1a45f4df4a90d8c6cd"
               ],
               "confidence": 82
             },
@@ -93,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7614d30d2768b7c7f6b32f69"
+                "local_a5445b6185c5dd961e8b4fc2"
               ],
               "confidence": 74
             },
@@ -103,29 +48,34 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_322115ffa0a06afc120a8c25"
+                "local_28a7a28c1b8917ccc1345d60"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
+              "summary": "二、超越代码生成:用 Agent 框架破解 OpenBMC 平台移植难题分享人:郏春辉 | 字节跳动 STE 固件团队从管理接口到固件构建:标...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ccf8ac6c99ce50da67577adc"
+              ],
+              "confidence": 82
             },
             {
-              "title": "DrugGen 2: A disease-aware language model for enhancing drug discovery",
-              "summary": "Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introd…",
+              "title": "华为云码道(CodeArts)重构图形编程项目实践",
+              "summary": "智能体的上下文感知能力华为云码道 AI 智能体具备深度上下文感知,能够理解项目的技术栈和架构模式,生成的代码与项目风格高度...",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_184ce184323ee1f65648b98c"
+                "local_b92625cd4671a50cbf276a5c"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b717d1acbc8b54fb57f90386"
-              ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         },
@@ -141,48 +91,19 @@
                 "local_1c16669c44d1afae502de861"
               ],
               "confidence": 92
-            },
-            {
-              "title": "SAM-MT: Real-Time Interactive Multi-Target Video Segmentation",
-              "summary": "Modern Video Object Segmentation (VOS) involves tracking and segmenting user-specified targets. While recent approaches have achieved remarkable performance in single-target scenarios, extending them to multi-target settings typically involves replicating the single-target proce…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_198dda9017f4a4d24e067eba"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Linear Attention Architectures: Mechanisms, Trade-offs, and Cross-Layer Routing",
-              "summary": "Self-attention lets each token retrieve information from the full context, but its quadratic cost in sequence length limits training and inference at long context. This paper presents a comparative study of softmax attention and four recent recurrent linear-attention architectur…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_ff09aaa2e4dec9a3ef65d321"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c6afe13a43dfb5956ce588a2",
-        "local_7f9e7318b329c8cf5ff2414f",
-        "local_7614d30d2768b7c7f6b32f69",
-        "local_322115ffa0a06afc120a8c25",
-        "local_1c16669c44d1afae502de861",
-        "local_765ae743a820b7c1c452aa63",
-        "local_198dda9017f4a4d24e067eba",
-        "local_ff09aaa2e4dec9a3ef65d321",
-        "local_184ce184323ee1f65648b98c",
-        "local_3d4b6ae8693b2a33153ebe51",
-        "local_b717d1acbc8b54fb57f90386",
-        "local_b17b74dabac7564703398ba8",
-        "local_45e131a494db0556485cc925",
-        "local_77b3f065a10810a14eb7b9b9",
-        "local_d9cd811582cbd3d1ab2817c2"
+        "local_1b513d1a45f4df4a90d8c6cd",
+        "local_ccf8ac6c99ce50da67577adc",
+        "local_a5445b6185c5dd961e8b4fc2",
+        "local_b92625cd4671a50cbf276a5c",
+        "local_28a7a28c1b8917ccc1345d60",
+        "local_1c16669c44d1afae502de861"
       ],
-      "generatedAt": "2026-07-10T19:17:59.760Z",
+      "generatedAt": "2026-07-17T20:41:55.898Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -193,35 +114,20 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-10",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit」、「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「高德ABot-M0.5:首个面向移动操作的统一世界动作模型」、「字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!"
       ],
       "watchItems": [
-        "跟进：Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
         "跟进：高德ABot-M0.5:首个面向移动操作的统一世界动作模型",
+        "跟进：字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
         "跟进：全球首个「具身原生」预训练模型发布,从物理世界出发为机器人造大脑!",
-        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式",
-        "跟进：Synthetic Data Generation for Financial AI Research with NVIDIA NeMo"
+        "跟进：华为云码道(CodeArts)重构图形编程项目实践",
+        "跟进：当K8s遇见Ray:大模型时代AI Workload调度的通用范式"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Accelerating End-to-End Co-Folding Performance with NVIDIA BioNeMo Agent Toolkit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Biomolecular structure prediction and co-folding with models like OpenFold3 are now mainstream, large-scale workloads powering drug discovery and protein...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c6afe13a43dfb5956ce588a2"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -231,7 +137,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7f9e7318b329c8cf5ff2414f"
+                "local_1b513d1a45f4df4a90d8c6cd"
               ],
               "confidence": 82
             },
@@ -241,7 +147,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7614d30d2768b7c7f6b32f69"
+                "local_a5445b6185c5dd961e8b4fc2"
               ],
               "confidence": 74
             },
@@ -251,37 +157,52 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_322115ffa0a06afc120a8c25"
+                "local_28a7a28c1b8917ccc1345d60"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "字节跳动 STE 固件团队亮相 OCP China 2026:从标准化到智能化,构建下一代数据中心固件基础设施",
+              "summary": "二、超越代码生成:用 Agent 框架破解 OpenBMC 平台移植难题分享人:郏春辉 | 字节跳动 STE 固件团队从管理接口到固件构建:标...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ccf8ac6c99ce50da67577adc"
+              ],
+              "confidence": 82
             },
             {
-              "title": "Synthetic Data Generation for Financial AI Research with NVIDIA NeMo",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Fine-tuning LLMs for financial natural language processing (NLP) is constrained by limited, imbalanced data. Real-world financial news overrepresents earnings...",
+              "title": "华为云码道(CodeArts)重构图形编程项目实践",
+              "summary": "智能体的上下文感知能力华为云码道 AI 智能体具备深度上下文感知,能够理解项目的技术栈和架构模式,生成的代码与项目风格高度...",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b717d1acbc8b54fb57f90386"
+                "local_b92625cd4671a50cbf276a5c"
               ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c6afe13a43dfb5956ce588a2",
-        "local_7f9e7318b329c8cf5ff2414f",
-        "local_7614d30d2768b7c7f6b32f69",
-        "local_322115ffa0a06afc120a8c25",
-        "local_b717d1acbc8b54fb57f90386"
+        "local_1b513d1a45f4df4a90d8c6cd",
+        "local_ccf8ac6c99ce50da67577adc",
+        "local_a5445b6185c5dd961e8b4fc2",
+        "local_b92625cd4671a50cbf276a5c",
+        "local_28a7a28c1b8917ccc1345d60"
       ],
-      "generatedAt": "2026-07-10T19:17:59.760Z",
+      "generatedAt": "2026-07-17T20:41:55.899Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-10T19:17:59.760Z",
+  "generatedAt": "2026-07-17T20:41:55.899Z",
   "collectorName": "local-source-collector"
 }

@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」、「Insilico Medicine advances AI drug for IPF to Phase III trials」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」、「六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Insilico Medicine advances AI drug for IPF to Phase III trials",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Intelligence is Free, Now What? Data Systems for, of, and by Agents"
       ],
       "watchItems": [
         "跟进：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
-        "跟进：Insilico Medicine advances AI drug for IPF to Phase III trials",
         "跟进：六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?",
-        "跟进：从「不敢发」到「天天发」:AI Agent 时代的 CI/CD 生存指南",
-        "跟进：Intelligence is Free, Now What? Data Systems for, of, and by Agents"
+        "跟进：Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+        "跟进：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务",
+        "跟进：论文秀 Live#41 | ICML 2026 Spotlight 论文解读"
       ],
       "sections": [
         {
@@ -38,17 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ad437bd549995cecd5299f0e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从「不敢发」到「天天发」:AI Agent 时代的 CI/CD 生存指南",
-              "summary": "Agent 提交的 MR,团队成员心里难免会浮现一个问题:这次改动,敢直接发到生产环境吗?传统 CI/CD 流水线解决的是「人写的代码...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8e2b930ccf18885ea6178a43"
+                "local_ba9e46e37d99e1825cae1ac1"
               ],
               "confidence": 92
             },
@@ -63,12 +53,22 @@
               "confidence": 92
             },
             {
-              "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+              "title": "让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务",
+              "summary": "MemGUI-Agent团队 投稿 量子位 | 公众号 QbitAI手机GUI Agent正在从「看懂屏幕、点击按钮」走向更复杂的跨App自动化任务:查商品...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e5ad14b9697b1a5706ad396e"
+                "local_da81e21b2fc0eab7d359a4ee"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "论文秀 Live#41 | ICML 2026 Spotlight 论文解读",
+              "summary": "LLM Agent 模拟人类测试员,实时点击、输入、拖拽并捕获 DOM ... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】、同步直播,敬...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_db4f0e029050d3b85a992785"
               ],
               "confidence": 92
             }
@@ -77,16 +77,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Insilico Medicine advances AI drug for IPF to Phase III trials",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF). This progression supplies the computational drug discovery sector with empirica…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_633eceafe36e6ad5c9fa369d"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Choosing the Optimal Image Input Detail Level in LLMs — OpenRouter Blog",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We ran 1,730 visual reasoning questions across 5 models. Dropping image detail to \"low\" costs real accuracy, and on gpt-5.5 the bill went up too. The lever that",
@@ -102,15 +92,13 @@
       ],
       "referencedFeedItemIds": [
         "local_05812c479251f1a6b0a0b82f",
-        "local_633eceafe36e6ad5c9fa369d",
-        "local_ad437bd549995cecd5299f0e",
-        "local_8e2b930ccf18885ea6178a43",
+        "local_ba9e46e37d99e1825cae1ac1",
         "local_e9a6ec8025fa39252b26e1a3",
-        "local_e5ad14b9697b1a5706ad396e",
-        "local_6406d7805dcaa6a2b746855f",
+        "local_da81e21b2fc0eab7d359a4ee",
+        "local_db4f0e029050d3b85a992785",
         "local_9b8739002785a1d92fac5d0a"
       ],
-      "generatedAt": "2026-07-10T19:17:59.795Z",
+      "generatedAt": "2026-07-17T20:41:55.916Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -121,18 +109,17 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」、「六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters」、「六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从「不敢发」到「天天发」:AI Agent 时代的 CI/CD 生存指南"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务"
       ],
       "watchItems": [
         "跟进：AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
         "跟进：六个Agent 项目,五个半停留在试点:企业AI 落地到底卡在哪?",
-        "跟进：从「不敢发」到「天天发」:AI Agent 时代的 CI/CD 生存指南",
-        "跟进：Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-        "跟进：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务"
+        "跟进：让GUI Agent不再「边做边忘」:快手、浙大提出MemGUI-Agent,攻克长程GUI任务",
+        "跟进：论文秀 Live#41 | ICML 2026 Spotlight 论文解读"
       ],
       "sections": [
         {
@@ -154,27 +141,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ad437bd549995cecd5299f0e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从「不敢发」到「天天发」:AI Agent 时代的 CI/CD 生存指南",
-              "summary": "Agent 提交的 MR,团队成员心里难免会浮现一个问题:这次改动,敢直接发到生产环境吗?传统 CI/CD 流水线解决的是「人写的代码...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8e2b930ccf18885ea6178a43"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：We’re announcing new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e5ad14b9697b1a5706ad396e"
+                "local_ba9e46e37d99e1825cae1ac1"
               ],
               "confidence": 92
             },
@@ -184,7 +151,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6406d7805dcaa6a2b746855f"
+                "local_da81e21b2fc0eab7d359a4ee"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "论文秀 Live#41 | ICML 2026 Spotlight 论文解读",
+              "summary": "LLM Agent 模拟人类测试员,实时点击、输入、拖拽并捕获 DOM ... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】、同步直播,敬...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_db4f0e029050d3b85a992785"
               ],
               "confidence": 92
             }
@@ -193,18 +170,17 @@
       ],
       "referencedFeedItemIds": [
         "local_05812c479251f1a6b0a0b82f",
-        "local_ad437bd549995cecd5299f0e",
-        "local_8e2b930ccf18885ea6178a43",
-        "local_e5ad14b9697b1a5706ad396e",
-        "local_6406d7805dcaa6a2b746855f"
+        "local_ba9e46e37d99e1825cae1ac1",
+        "local_da81e21b2fc0eab7d359a4ee",
+        "local_db4f0e029050d3b85a992785"
       ],
-      "generatedAt": "2026-07-10T19:17:59.795Z",
+      "generatedAt": "2026-07-17T20:41:55.916Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-10T19:17:59.795Z",
+  "generatedAt": "2026-07-17T20:41:55.916Z",
   "collectorName": "local-source-collector"
 }

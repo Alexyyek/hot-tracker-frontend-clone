@@ -5,62 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-07-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「China&#8217;s AI companion rules: what Beijing is really going after」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「腾讯混元Hy3发布:Agent能力和产品体验跃升」、「Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#8217;s AI companion rules: what Beijing is really going after",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯混元Hy3发布:Agent能力和产品体验跃升",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯混元 Hy3 发布:Agent 能力和产品体验跃升"
       ],
       "watchItems": [
-        "跟进：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "跟进：China&#8217;s AI companion rules: what Beijing is really going after",
-        "跟进：华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
         "跟进：腾讯混元Hy3发布:Agent能力和产品体验跃升",
-        "跟进：Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环"
+        "跟进：Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环",
+        "跟进：腾讯混元 Hy3 发布:Agent 能力和产品体验跃升"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-              "summary": "RAG,那就直接在 Decoding(解码)阶段动手! OpenDecoder 的核心逻辑非常优雅:直接利用检索到的文档外部质量指标(如检索...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_bbf525629279c86566312ae2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "China&#8217;s AI companion rules: what Beijing is really going after",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：An AI companion sounds dystopian, but it has become a common thread in the wider conversation about the perils of generative AI. What it refers to is essentially a conversational agent built to sustain an ongoing, perso…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8d5c0e0a1b5e7c3201312b07"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
-              "summary": "近日,华为云码道(CodeArts)代码智能体新版正式发布,围绕企业研发中的存量项目增量开发、企业级安全等高频场景实现多项能力...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0e5946758de2242492209f79"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "腾讯混元Hy3发布:Agent能力和产品体验跃升",
-              "summary": "API已在腾讯云TokenHub上线,多个海外API平台也将陆续接入.模型智能再次全面跃升,智能体实用性实现质变Hy3 是一个快慢思考...",
+              "summary": "7月6日,腾讯混元Hy3 正式发布.相比preview版本,它展现出显... Agent 能力,元宝也同步上线了Agent功能.在其内部评估中,Hy3...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f904908a74e376fc76eaf2d3"
+                "local_73916e6992d8b361291371fe"
               ],
-              "confidence": 92
+              "confidence": 90
             },
             {
               "title": "Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环",
@@ -68,22 +36,29 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_172dbce17013c50f1bd6646c"
+                "local_eef7ef7616cf0cbc26556fab"
               ],
               "confidence": 92
+            },
+            {
+              "title": "腾讯混元 Hy3 发布:Agent 能力和产品体验跃升",
+              "summary": "Agent 协作最怕情况是任务派出去后,某个环节理解错了,发现的... 混元的重建和进步才刚刚开始.我们将持续踏实地扩大训练规模、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_198de825f6ddb5db088b2063"
+              ],
+              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_bbf525629279c86566312ae2",
-        "local_8d5c0e0a1b5e7c3201312b07",
-        "local_0e5946758de2242492209f79",
-        "local_f904908a74e376fc76eaf2d3",
-        "local_172dbce17013c50f1bd6646c",
-        "local_9a8aa0327a78a551c2a4d120"
+        "local_73916e6992d8b361291371fe",
+        "local_eef7ef7616cf0cbc26556fab",
+        "local_198de825f6ddb5db088b2063"
       ],
-      "generatedAt": "2026-07-10T19:17:59.806Z",
+      "generatedAt": "2026-07-17T20:41:55.922Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -94,15 +69,13 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码」、「华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「腾讯混元Hy3发布:Agent能力和产品体验跃升」、「Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯混元Hy3发布:Agent能力和产品体验跃升"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯混元Hy3发布:Agent能力和产品体验跃升",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯混元 Hy3 发布:Agent 能力和产品体验跃升"
       ],
       "watchItems": [
-        "跟进：WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-        "跟进：华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
         "跟进：腾讯混元Hy3发布:Agent能力和产品体验跃升",
         "跟进：Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环",
         "跟进：腾讯混元 Hy3 发布:Agent 能力和产品体验跃升"
@@ -112,34 +85,14 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "WWW 2026 | RAG黑箱被打开!OpenDecoder把文档质量写进解码",
-              "summary": "RAG,那就直接在 Decoding(解码)阶段动手! OpenDecoder 的核心逻辑非常优雅:直接利用检索到的文档外部质量指标(如检索...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_bbf525629279c86566312ae2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "华为云码道商用新版本发布,聚焦企业级开发让AI真正融入存量项目",
-              "summary": "近日,华为云码道(CodeArts)代码智能体新版正式发布,围绕企业研发中的存量项目增量开发、企业级安全等高频场景实现多项能力...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0e5946758de2242492209f79"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "腾讯混元Hy3发布:Agent能力和产品体验跃升",
-              "summary": "API已在腾讯云TokenHub上线,多个海外API平台也将陆续接入.模型智能再次全面跃升,智能体实用性实现质变Hy3 是一个快慢思考...",
+              "summary": "7月6日,腾讯混元Hy3 正式发布.相比preview版本,它展现出显... Agent 能力,元宝也同步上线了Agent功能.在其内部评估中,Hy3...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f904908a74e376fc76eaf2d3"
+                "local_73916e6992d8b361291371fe"
               ],
-              "confidence": 92
+              "confidence": 90
             },
             {
               "title": "Coding Agent把Loop Engineering带火了,机器人的Loop还少了最关键一环",
@@ -147,7 +100,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_172dbce17013c50f1bd6646c"
+                "local_eef7ef7616cf0cbc26556fab"
               ],
               "confidence": 92
             },
@@ -157,7 +110,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9a8aa0327a78a551c2a4d120"
+                "local_198de825f6ddb5db088b2063"
               ],
               "confidence": 90
             }
@@ -165,19 +118,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bbf525629279c86566312ae2",
-        "local_0e5946758de2242492209f79",
-        "local_f904908a74e376fc76eaf2d3",
-        "local_172dbce17013c50f1bd6646c",
-        "local_9a8aa0327a78a551c2a4d120"
+        "local_73916e6992d8b361291371fe",
+        "local_eef7ef7616cf0cbc26556fab",
+        "local_198de825f6ddb5db088b2063"
       ],
-      "generatedAt": "2026-07-10T19:17:59.806Z",
+      "generatedAt": "2026-07-17T20:41:55.922Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-10T19:17:59.806Z",
+  "generatedAt": "2026-07-17T20:41:55.922Z",
   "collectorName": "local-source-collector"
 }
