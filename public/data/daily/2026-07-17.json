@@ -16,7 +16,7 @@
         "跟进：NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
         "跟进：Designing emoji for the way we communicate today",
         "跟进：Quoting Kimi K3",
-        "跟进：Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving"
+        "跟进：LLM cliché highlighter"
       ],
       "sections": [
         {
@@ -53,16 +53,6 @@
               "confidence": 92
             },
             {
-              "title": "Quoting Thibault Sottiaux",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. What we have found is that this most commonly occurs when: Full access mode is enabled and codex is run without sandbo…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7ca6aef24cc55444632e119a"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Integrating Context-Aware Video AI Agents Into Enterprise Workflows",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A video analytics AI agent that can perceive, reason, and act based on massive amounts of video footage must be integrated with existing workflows and...",
               "insightLabel": "关注",
@@ -71,6 +61,16 @@
                 "local_ac1a86a1f16769cdcc74768c"
               ],
               "confidence": 86
+            },
+            {
+              "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+              "summary": "来自Hugging Face的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a7c9d1de93d8b7b4cb6162c9"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -143,6 +143,16 @@
               "confidence": 82
             },
             {
+              "title": "LLM cliché highlighter",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_fa20d8ce893f7c2f84a39340"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
               "summary": "Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as executable scripts. Yet automatically generating such scripts from regulatory descriptions remains an open challenge, and existing a…",
               "insightLabel": "关注",
@@ -168,17 +178,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d9079af8c14a2b9da90bf223"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight releas…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_26f0a2e1fa38750abb4fed8c"
+                "local_b75174e354b05e7d5a518f6d"
               ],
               "confidence": 92
             }
@@ -190,22 +190,22 @@
         "local_a2dc71adf198d0282e3d74d4",
         "local_60901cbc2106a7f9125a1b6a",
         "local_15999c041a005a6fb151633c",
+        "local_fa20d8ce893f7c2f84a39340",
         "local_c08ed584d4643e9314c4481e",
         "local_ec1fb1992c8de26ef34626d2",
         "local_fd6941eaad395f8c03d868ea",
         "local_2ef3a8e8ec7e09dad3ffa0b5",
         "local_74681e36794b6f46a90e51e1",
         "local_b18ef855d207939c7c1089b5",
-        "local_d9079af8c14a2b9da90bf223",
+        "local_b75174e354b05e7d5a518f6d",
         "local_26f0a2e1fa38750abb4fed8c",
         "local_933ee1d10797e49129d4f588",
-        "local_7ca6aef24cc55444632e119a",
         "local_ac1a86a1f16769cdcc74768c",
         "local_a7c9d1de93d8b7b4cb6162c9",
         "local_8a45052c843364d865b2ca10",
         "local_ccf7064f05aa5354de03d275"
       ],
-      "generatedAt": "2026-07-17T17:54:24.428Z",
+      "generatedAt": "2026-07-17T19:35:25.951Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -319,7 +319,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d9079af8c14a2b9da90bf223"
+                "local_b75174e354b05e7d5a518f6d"
               ],
               "confidence": 92
             }
@@ -331,18 +331,18 @@
         "local_a2dc71adf198d0282e3d74d4",
         "local_60901cbc2106a7f9125a1b6a",
         "local_b18ef855d207939c7c1089b5",
-        "local_d9079af8c14a2b9da90bf223",
+        "local_b75174e354b05e7d5a518f6d",
         "local_ac1a86a1f16769cdcc74768c",
         "local_8a45052c843364d865b2ca10",
         "local_ccf7064f05aa5354de03d275"
       ],
-      "generatedAt": "2026-07-17T17:54:24.428Z",
+      "generatedAt": "2026-07-17T19:35:25.951Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-17T17:54:24.428Z",
+  "generatedAt": "2026-07-17T19:35:25.952Z",
   "collectorName": "local-source-collector"
 }
