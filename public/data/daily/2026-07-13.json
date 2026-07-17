@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"」、「AI agent crawlers now need permission. Here&#8217;s how to get it」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"」、「AI agent crawlers now need permission. Here&#8217;s how to get it」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent crawlers now need permission. Here&#8217;s how to get it",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理"
       ],
       "watchItems": [
         "跟进：SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"",
         "跟进：AI agent crawlers now need permission. Here&#8217;s how to get it",
+        "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
         "跟进：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
-        "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践",
-        "跟进：从看见问题到解决问题,Agent 正重新定义可观测"
+        "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8e0e44299d118aebd664bf7"
+                "local_6f7fd5ef800d98db4c299d2d"
               ],
               "confidence": 90
             },
@@ -43,6 +43,16 @@
               "confidence": 92
             },
             {
+              "title": "得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+              "summary": "自动化测试新范式|得物技术3.从表单到 Agent:得物社区活动搭建的 AI 实践之路4.从埋点需求到规则资产:Hermes Agent 重构得物数...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7a462ba0933c24f368cf0612"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
               "summary": "Agent 需要的不只是模型,还有工作台对大多数文本任务来说,Agent 的工作方式已经很自然:读文档、写代码、调接口、看日志.输...",
               "insightLabel": "关注",
@@ -58,32 +68,23 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c7d957ac9b56132dea8f8e95"
+                "local_84cc6d73e7ed6313cd3bd3b9"
               ],
               "confidence": 92
-            },
-            {
-              "title": "从看见问题到解决问题,Agent 正重新定义可观测",
-              "summary": "在本期《C 位面对面》中,InfoQ 极客传媒总编辑&总经理王一鹏对话观测云创始人&CEO 蒋烁淼,一起聊聊 Agent 时代,可观测的变...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_116cfb6a8170e8c02221b3c2"
-              ],
-              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c8e0e44299d118aebd664bf7",
+        "local_6f7fd5ef800d98db4c299d2d",
         "local_21fffa0e99f470035c1e0aa2",
+        "local_7a462ba0933c24f368cf0612",
         "local_62e3ba5f5d0205fc8d551396",
-        "local_c7d957ac9b56132dea8f8e95",
+        "local_84cc6d73e7ed6313cd3bd3b9",
         "local_116cfb6a8170e8c02221b3c2",
-        "local_c6333ea74b1693a6501aac48"
+        "local_be4912b5813e7b7298393bb5"
       ],
-      "generatedAt": "2026-07-17T15:02:58.492Z",
+      "generatedAt": "2026-07-17T16:35:12.917Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -94,14 +95,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-13",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"」、「让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"」、「得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布"
       ],
       "watchItems": [
         "跟进：SingGuard-NSFA 正式开源:从\"管住模型说什么\"走向\"守住 Agent 做什么\"",
+        "跟进：得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
         "跟进：让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
         "跟进：让 Agent 按工程标准交付:AI Coding 下的质量关卡实践",
         "跟进：从看见问题到解决问题,Agent 正重新定义可观测"
@@ -116,9 +118,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8e0e44299d118aebd664bf7"
+                "local_6f7fd5ef800d98db4c299d2d"
               ],
               "confidence": 90
+            },
+            {
+              "title": "得物推荐系统诊断 Agent:从 \"调接口\" 到 \"会思考\"|AICon 演讲整理",
+              "summary": "自动化测试新范式|得物技术3.从表单到 Agent:得物社区活动搭建的 AI 实践之路4.从埋点需求到规则资产:Hermes Agent 重构得物数...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7a462ba0933c24f368cf0612"
+              ],
+              "confidence": 92
             },
             {
               "title": "让 Agent 成为音视频工作台:AI MediaKit CLI + Skill 发布",
@@ -136,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c7d957ac9b56132dea8f8e95"
+                "local_84cc6d73e7ed6313cd3bd3b9"
               ],
               "confidence": 92
             },
@@ -154,18 +166,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c8e0e44299d118aebd664bf7",
+        "local_6f7fd5ef800d98db4c299d2d",
+        "local_7a462ba0933c24f368cf0612",
         "local_62e3ba5f5d0205fc8d551396",
-        "local_c7d957ac9b56132dea8f8e95",
+        "local_84cc6d73e7ed6313cd3bd3b9",
         "local_116cfb6a8170e8c02221b3c2"
       ],
-      "generatedAt": "2026-07-17T15:02:58.492Z",
+      "generatedAt": "2026-07-17T16:35:12.917Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-17T15:02:58.492Z",
+  "generatedAt": "2026-07-17T16:35:12.917Z",
   "collectorName": "local-source-collector"
 }
