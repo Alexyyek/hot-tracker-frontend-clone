@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents」、「Inkling: Our open-weights model」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents」、「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inkling: Our open-weights model",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents"
       ],
       "watchItems": [
         "跟进：Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
-        "跟进：Inkling: Our open-weights model",
         "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "跟进：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
-        "跟进：Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models"
+        "跟进：Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models",
+        "跟进：Human-Robot Interaction in GenAI Architectures via the Agent-Client Protocol"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1b45e8711fcafe26441ae8ae"
+                "local_b5aee5847a53e9ba8f7073c2"
               ],
               "confidence": 92
             },
@@ -78,16 +78,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Inkling: Our open-weights model",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 lice…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6733d14360e878a09304b1de"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Sakana AI&#039;s orchestrator adds Nvidia Nemotron to prove \"collective intelligence\" can rival single frontier models",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Sakana AI is integrating Nvidia's open-source Nemotron models into its Fugu orchestrator, which dynamically combines multiple language models for specific tasks. The core argument: Open models only become competitive wi…",
               "insightLabel": "关注",
@@ -112,8 +102,7 @@
       ],
       "referencedFeedItemIds": [
         "local_4e65a1288f3560b816bff1d2",
-        "local_6733d14360e878a09304b1de",
-        "local_1b45e8711fcafe26441ae8ae",
+        "local_b5aee5847a53e9ba8f7073c2",
         "local_4b7669cbc6bbafd81e108ec6",
         "local_402710a3b04b9ff27634071d",
         "local_55abaa52213f84ee64adeb2b",
@@ -128,7 +117,7 @@
         "local_339cf7e0fb5c0779c6d0112f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-17T12:57:41.476Z",
+      "generatedAt": "2026-07-17T15:02:58.454Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -162,7 +151,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1b45e8711fcafe26441ae8ae"
+                "local_b5aee5847a53e9ba8f7073c2"
               ],
               "confidence": 92
             },
@@ -225,7 +214,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_1b45e8711fcafe26441ae8ae",
+        "local_b5aee5847a53e9ba8f7073c2",
         "local_974b3b45d149121f8a01bccc",
         "local_584abbfc58461d08f826340d",
         "local_415a874f71b534af41ebf9b6",
@@ -234,13 +223,13 @@
         "local_339cf7e0fb5c0779c6d0112f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-17T12:57:41.476Z",
+      "generatedAt": "2026-07-17T15:02:58.454Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-17T12:57:41.477Z",
+  "generatedAt": "2026-07-17T15:02:58.454Z",
   "collectorName": "local-source-collector"
 }
