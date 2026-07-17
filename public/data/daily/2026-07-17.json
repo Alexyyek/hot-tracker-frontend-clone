@@ -16,7 +16,7 @@
         "跟进：NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
         "跟进：Designing emoji for the way we communicate today",
         "跟进：Quoting Kimi K3",
-        "跟进：SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment"
+        "跟进：Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving"
       ],
       "sections": [
         {
@@ -43,12 +43,12 @@
               "confidence": 92
             },
             {
-              "title": "LongStraw: Long-Context RL Beyond 2M Tokens under a Fixed GPU Budget",
-              "summary": "A growing gap separates inference context lengths from RL post-training: inference systems are approaching million-token contexts, while post-training workloads often remain at 256K tokens or below and rely on length generalization at deployment. The gap is especially important …",
+              "title": "RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination",
+              "summary": "Embodied cognition requires agents to connect high-level task reasoning with the physical states to be achieved. We introduce Hy-Embodied-RxBrain, an embodied cognition foundation model with joint language-visual reasoning and imagination. Unlike vision-language models that emph…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a6ec4045538eddbffb13d675"
+                "local_fd6941eaad395f8c03d868ea"
               ],
               "confidence": 92
             },
@@ -88,22 +88,22 @@
               "confidence": 70
             },
             {
+              "title": "Hierarchical Denoising For Multi-Step Visual Reasoning",
+              "summary": "Video models are evolving into vision foundation models, yet they still lack human-like multi-step reasoning. Streaming autoregressive diffusion models are efficient but limited in reasoning, while bidirectional diffusion enables global revision with high inference costs due to …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_ec1fb1992c8de26ef34626d2"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "SUFLECA: Scaling Up Feature Learning for CAD-to-image Alignment",
               "summary": "CAD-to-image alignment aims to estimate an object's 9D pose (rotation, translation, and anisotropic scale) from a single RGB image, enabling applications in robotics and augmented reality. Recent zero-shot methods use visual foundation models to match image regions to CAD models…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_2ef3a8e8ec7e09dad3ffa0b5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AsySplat: Efficient Asymmetric 3D Gaussian Splatting for Long-Sequence Scene Modeling",
-              "summary": "Recent generalizable 3D Gaussian Splatting models have advanced long-sequence novel view synthesis (NVS), but at the cost of substantial redundant computation. We identify that the redundancy can be mitigated based on two observations: (i) high-precision geometry is not strictly…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_322299966a07fbb9193dc514"
               ],
               "confidence": 92
             },
@@ -143,12 +143,12 @@
               "confidence": 82
             },
             {
-              "title": "VIABench: A Comprehensive Video Benchmark Collected from Blind Individuals for Visual Impairment Assistance",
-              "summary": "Visually impaired individuals (VIIs) encounter significant daily challenges due to limited access to visual information. Although Multimodal Large Language Models (MLLMs) have achieved impressive results on general vision and language tasks, their practical utility in real-world…",
+              "title": "Chat2Scenic: An Iterative RAG-Based Framework for Scenario Generation in Autonomous Driving",
+              "summary": "Validating autonomous driving systems requires diverse, regulation-compliant test scenarios. In simulation-based testing, scenarios are defined as executable scripts. Yet automatically generating such scripts from regulatory descriptions remains an open challenge, and existing a…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2d08c2fa1cc402e41059cf8b"
+                "local_c08ed584d4643e9314c4481e"
               ],
               "confidence": 92
             },
@@ -168,7 +168,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a4148f5304cb3ba6b24a9e91"
+                "local_d9079af8c14a2b9da90bf223"
               ],
               "confidence": 92
             },
@@ -190,13 +190,13 @@
         "local_a2dc71adf198d0282e3d74d4",
         "local_60901cbc2106a7f9125a1b6a",
         "local_15999c041a005a6fb151633c",
+        "local_c08ed584d4643e9314c4481e",
+        "local_ec1fb1992c8de26ef34626d2",
+        "local_fd6941eaad395f8c03d868ea",
         "local_2ef3a8e8ec7e09dad3ffa0b5",
-        "local_322299966a07fbb9193dc514",
-        "local_a6ec4045538eddbffb13d675",
-        "local_2d08c2fa1cc402e41059cf8b",
         "local_74681e36794b6f46a90e51e1",
         "local_b18ef855d207939c7c1089b5",
-        "local_a4148f5304cb3ba6b24a9e91",
+        "local_d9079af8c14a2b9da90bf223",
         "local_26f0a2e1fa38750abb4fed8c",
         "local_933ee1d10797e49129d4f588",
         "local_7ca6aef24cc55444632e119a",
@@ -205,7 +205,7 @@
         "local_8a45052c843364d865b2ca10",
         "local_ccf7064f05aa5354de03d275"
       ],
-      "generatedAt": "2026-07-17T16:35:12.865Z",
+      "generatedAt": "2026-07-17T17:54:24.428Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -319,7 +319,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a4148f5304cb3ba6b24a9e91"
+                "local_d9079af8c14a2b9da90bf223"
               ],
               "confidence": 92
             }
@@ -331,18 +331,18 @@
         "local_a2dc71adf198d0282e3d74d4",
         "local_60901cbc2106a7f9125a1b6a",
         "local_b18ef855d207939c7c1089b5",
-        "local_a4148f5304cb3ba6b24a9e91",
+        "local_d9079af8c14a2b9da90bf223",
         "local_ac1a86a1f16769cdcc74768c",
         "local_8a45052c843364d865b2ca10",
         "local_ccf7064f05aa5354de03d275"
       ],
-      "generatedAt": "2026-07-17T16:35:12.865Z",
+      "generatedAt": "2026-07-17T17:54:24.428Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-17T16:35:12.865Z",
+  "generatedAt": "2026-07-17T17:54:24.428Z",
   "collectorName": "local-source-collector"
 }
