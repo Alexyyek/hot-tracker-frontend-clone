@@ -383,6 +383,7 @@ try {
       const topicTitle = (await topicRow.locator(".topic-title").textContent())?.trim() || "";
       await topicRow.focus();
       await page.waitForTimeout(180);
+      const tooltipText = await topicRow.locator(".topic-source-info").getAttribute("data-tooltip") || "";
       const tooltipVisible = await topicRow.evaluate((row) =>
         document.activeElement === row
           && Number.parseFloat(getComputedStyle(row.querySelector(".topic-source-info"), "::after").opacity) >= 0.9
@@ -435,7 +436,20 @@ try {
           return false;
         }
       }));
-      return { baseline, hrefsValid, keywordCount, keywordMatches, lightFocusRing, reachedSearchByTab, scoreCount, scoresValid, topicCount, topicMatches, tooltipVisible };
+      return {
+        baseline,
+        hrefsValid,
+        keywordCount,
+        keywordMatches,
+        lightFocusRing,
+        reachedSearchByTab,
+        scoreCount,
+        scoresValid,
+        topicCount,
+        topicMatches,
+        tooltipText,
+        tooltipVisible
+      };
     })
   );
 
@@ -573,6 +587,10 @@ function assertAcceptance(captures) {
   expect(filterStates?.meta.keywordCount > 0 && filterStates?.meta.keywordMatches === true, "keyword filtering failed");
   expect(filterStates?.meta.scoreCount > 0 && filterStates?.meta.scoresValid === true, "minimum score filtering failed");
   expect(filterStates?.meta.tooltipVisible === true, "topic help tooltip is not visible from keyboard focus");
+  expect(
+    !/当前\s*\d+\s*个来源|可继续补充/.test(filterStates?.meta.tooltipText || ""),
+    "topic help tooltip exposes internal source-catalog metadata"
+  );
   expect(filterStates?.meta.lightFocusRing === true, "search focus ring is not visible in light mode");
   expect(filterStates?.meta.reachedSearchByTab === true, "keyboard traversal did not reach search from topic controls");
   expect(filterStates?.meta.hrefsValid === true, "feed contains an invalid source href");

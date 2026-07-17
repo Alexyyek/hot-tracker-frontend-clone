@@ -902,9 +902,7 @@ const dailyBusinessOnlyTerms = [
 ];
 
 export function getAiTopicTooltip(topic: Topic) {
-  const catalog = aiTopicSourceCatalog[topic.id as keyof typeof aiTopicSourceCatalog];
-  if (!catalog) return topicSourceNotes[topic.id] ?? `${topic.title} / AI 聚合主题`;
-  return `${topicSourceNotes[topic.id]} 当前 ${catalog.length} 个来源，可继续补充。`;
+  return topicSourceNotes[topic.id] ?? `${topic.title} / AI 聚合主题`;
 }
 
 export function toBackendFeedQuery(query: FeedQuery): FeedQuery {
