@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents」、「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents」、「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Human-Robot Interaction in GenAI Architectures via the Agent-Client Protocol"
       ],
       "watchItems": [
         "跟进：Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
         "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
-        "跟进：OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
         "跟进：Human-Robot Interaction in GenAI Architectures via the Agent-Client Protocol",
-        "跟进：Proof-or-Stop: Don't Trust the Agent, Trust the Evidence -- Loop Engineering for Verifiable Evidence-Gated Lifecycle Control"
+        "跟进：Proof-or-Stop: Don't Trust the Agent, Trust the Evidence -- Loop Engineering for Verifiable Evidence-Gated Lifecycle Control",
+        "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手"
       ],
       "sections": [
         {
@@ -38,17 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c74249634975701db994a0fd"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI wants developers to stop typing commands and start using a joystick to control their AI agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and keyboard manufacturer Work Louder have unveiled the Codex Micro, a compact hardware controller designed for working with AI agents. The article OpenAI wants developers to stop typing commands and start using …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4b7669cbc6bbafd81e108ec6"
+                "local_13f7b2ba5149199f81dd3449"
               ],
               "confidence": 92
             },
@@ -71,6 +61,16 @@
                 "local_5a0595bc500650ca1f15ab42"
               ],
               "confidence": 92
+            },
+            {
+              "title": "9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+              "summary": "Skill 发给 Agent:我们就要这个 OpenViking + AgentPlan 的方案今天下午就能让团队用上加入我们,共建 Agent 上下文的未来! 上手...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7604dc75e9fb7128d92f6277"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a53c111700182c36641c0a3e"
+                "local_11f7a5ce5bb15ddc2b84867e"
               ],
               "confidence": 92
             },
@@ -117,13 +117,12 @@
       ],
       "referencedFeedItemIds": [
         "local_4e65a1288f3560b816bff1d2",
-        "local_c74249634975701db994a0fd",
-        "local_4b7669cbc6bbafd81e108ec6",
+        "local_13f7b2ba5149199f81dd3449",
         "local_55abaa52213f84ee64adeb2b",
         "local_5a0595bc500650ca1f15ab42",
         "local_7604dc75e9fb7128d92f6277",
-        "local_a53c111700182c36641c0a3e",
-        "local_578be093e54bd3233e9e05fb",
+        "local_11f7a5ce5bb15ddc2b84867e",
+        "local_8335c71aaf0ae9fd37d3dbce",
         "local_2c17510933efe8fab99940a0",
         "local_f630b84cbaac58b06c52d770",
         "local_7a77a09bbf4575c9aec83bff",
@@ -133,7 +132,7 @@
         "local_339cf7e0fb5c0779c6d0112f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-19T07:44:26.779Z",
+      "generatedAt": "2026-07-19T09:41:27.356Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -167,7 +166,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c74249634975701db994a0fd"
+                "local_13f7b2ba5149199f81dd3449"
               ],
               "confidence": 92
             },
@@ -187,7 +186,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_578be093e54bd3233e9e05fb"
+                "local_8335c71aaf0ae9fd37d3dbce"
               ],
               "confidence": 82
             },
@@ -222,7 +221,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a53c111700182c36641c0a3e"
+                "local_11f7a5ce5bb15ddc2b84867e"
               ],
               "confidence": 92
             },
@@ -255,10 +254,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c74249634975701db994a0fd",
+        "local_13f7b2ba5149199f81dd3449",
         "local_7604dc75e9fb7128d92f6277",
-        "local_a53c111700182c36641c0a3e",
-        "local_578be093e54bd3233e9e05fb",
+        "local_11f7a5ce5bb15ddc2b84867e",
+        "local_8335c71aaf0ae9fd37d3dbce",
         "local_f630b84cbaac58b06c52d770",
         "local_7a77a09bbf4575c9aec83bff",
         "local_55eee600984cf86d49e3a8c1",
@@ -267,13 +266,13 @@
         "local_339cf7e0fb5c0779c6d0112f",
         "local_9bcca655a1d17790ca71d966"
       ],
-      "generatedAt": "2026-07-19T07:44:26.779Z",
+      "generatedAt": "2026-07-19T09:41:27.356Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-19T07:44:26.779Z",
+  "generatedAt": "2026-07-19T09:41:27.356Z",
   "collectorName": "local-source-collector"
 }
