@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「蚂蚁携手20余家伙伴共建ASL生态,推动智能体可信互联」、「让智能体拥有原生语言,蚂蚁密算WAIC发布HOP 3.0」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「蚂蚁携手20余家伙伴共建ASL生态,推动智能体可信互联」、「让智能体拥有原生语言,蚂蚁密算WAIC发布HOP 3.0」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蚂蚁携手20余家伙伴共建ASL生态,推动智能体可信互联",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让智能体拥有原生语言,蚂蚁密算WAIC发布HOP 3.0",
@@ -15,8 +15,7 @@
         "跟进：蚂蚁携手20余家伙伴共建ASL生态,推动智能体可信互联",
         "跟进：让智能体拥有原生语言,蚂蚁密算WAIC发布HOP 3.0",
         "跟进：腾讯发布多款具身智能基座模型与智能体,钛螺丝平台迎来全面升级",
-        "跟进：CLOSER-Bench: Evaluating Budgeted Cross-Stage Design Closure for Hardware Agents",
-        "跟进：DataFlow-Harness: A Grounded Code-Agent Platform for Constructing Editable LLM Data Pipelines"
+        "跟进：Bunkerhill raises $55M to scale agentic AI across health systems"
       ],
       "sections": [
         {
@@ -28,7 +27,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a71d2aeecb5ec77bd4c88fed"
+                "local_aa86573c5a17062fabdef195"
               ],
               "confidence": 92
             },
@@ -38,7 +37,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3a134aea67a19ee9cc5dc09b"
+                "local_42846306671d05b2e5b24f9c"
               ],
               "confidence": 92
             },
@@ -48,27 +47,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bdbfc06d896d1234a7aeb98d"
+                "local_7a75af471518db9bbe423f78"
               ],
               "confidence": 90
             },
             {
-              "title": "CLOSER-Bench: Evaluating Budgeted Cross-Stage Design Closure for Hardware Agents",
-              "summary": "Hardware engineering exposes coding agents to a form of long-horizon work that is difficult to capture with pass-at-k: progress is continuous, tool feedback is delayed and heterogeneous, and a backend failure may require revising RTL rather than tuning another physical-design pa…",
+              "title": "Bunkerhill raises $55M to scale agentic AI across health systems",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Bunkerhill Health has raised $55 million to scale its agentic AI platform, Carebricks. The closing of the company’s Series B round, announced today, folds in continued participation from Sequoia Capital, Felicis, Optum …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_66641491bb557464b501b766"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "DataFlow-Harness: A Grounded Code-Agent Platform for Constructing Editable LLM Data Pipelines",
-              "summary": "Large language models (LLMs) are increasingly used to automate data-processing workflows, yet coding agents typically produce scripts that are not automatically materialized as persistent, editable platform artifacts. We call this disconnect the \\textit{NL2Pipeline gap}. To brid…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_98a94d12970b9c59ca752e25"
+                "local_aebc96d61707939cff5dab9d"
               ],
               "confidence": 92
             }
@@ -76,15 +65,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a71d2aeecb5ec77bd4c88fed",
-        "local_3a134aea67a19ee9cc5dc09b",
-        "local_bdbfc06d896d1234a7aeb98d",
-        "local_66641491bb557464b501b766",
-        "local_98a94d12970b9c59ca752e25",
-        "local_cf232ed7e3c6c0ef16002afe",
+        "local_aa86573c5a17062fabdef195",
+        "local_42846306671d05b2e5b24f9c",
+        "local_7a75af471518db9bbe423f78",
         "local_aebc96d61707939cff5dab9d"
       ],
-      "generatedAt": "2026-07-21T04:42:38.015Z",
+      "generatedAt": "2026-07-21T07:27:54.225Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -116,7 +102,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a71d2aeecb5ec77bd4c88fed"
+                "local_aa86573c5a17062fabdef195"
               ],
               "confidence": 92
             },
@@ -126,7 +112,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3a134aea67a19ee9cc5dc09b"
+                "local_42846306671d05b2e5b24f9c"
               ],
               "confidence": 92
             },
@@ -136,7 +122,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bdbfc06d896d1234a7aeb98d"
+                "local_7a75af471518db9bbe423f78"
               ],
               "confidence": 90
             }
@@ -144,17 +130,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a71d2aeecb5ec77bd4c88fed",
-        "local_3a134aea67a19ee9cc5dc09b",
-        "local_bdbfc06d896d1234a7aeb98d"
+        "local_aa86573c5a17062fabdef195",
+        "local_42846306671d05b2e5b24f9c",
+        "local_7a75af471518db9bbe423f78"
       ],
-      "generatedAt": "2026-07-21T04:42:38.015Z",
+      "generatedAt": "2026-07-21T07:27:54.225Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-21T04:42:38.015Z",
+  "generatedAt": "2026-07-21T07:27:54.225Z",
   "collectorName": "local-source-collector"
 }

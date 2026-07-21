@@ -5,23 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-07-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI」、「Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data」、「At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back"
       ],
       "watchItems": [
+        "跟进：Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
         "跟进：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
         "跟进：Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
         "跟进：ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入",
-        "跟进：Moonshot pauses new Kimi K3 subscriptions after GPU demand maxes out in 48 hours",
-        "跟进：产教协同赋能 AI 创新,华为云高校公开课落地大连理工大学"
+        "跟进：Moonshot pauses new Kimi K3 subscriptions after GPU demand maxes out in 48 hours"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
+              "summary": "Coding agents can now be left alone to improve software against a score. In this pattern--recently popularized as \"autoresearch\"--the agent receives a dataset, an evaluation script, and one editable file, and iterates without supervision: modify the code, measure, keep the chang…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fe117b1c6e9fae2f8dec58ad"
+              ],
+              "confidence": 92
+            },
             {
               "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb8ccadb34a3fd2b1e324744"
+                "local_233355d8be1065bdbf666b5a"
               ],
               "confidence": 92
             },
@@ -58,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_88597e80edce923cbf9b053f"
+                "local_584b50b7e9f647fda1ba8b20"
               ],
               "confidence": 92
             }
@@ -73,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d1dcf3c8aed6317d4bac2888"
+                "local_ea629b9c3318919e81bad110"
               ],
               "confidence": 82
             },
@@ -106,15 +116,16 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_fe117b1c6e9fae2f8dec58ad",
         "local_0088dc377840660675c284a8",
         "local_152f8a15d10ee1a7a10a57fa",
-        "local_d1dcf3c8aed6317d4bac2888",
+        "local_ea629b9c3318919e81bad110",
         "local_7ab76a7162c78e7d273fa22b",
-        "local_fb8ccadb34a3fd2b1e324744",
-        "local_88597e80edce923cbf9b053f",
+        "local_233355d8be1065bdbf666b5a",
+        "local_584b50b7e9f647fda1ba8b20",
         "local_36ccc0f4b359f62038f9fc61"
       ],
-      "generatedAt": "2026-07-21T04:42:37.993Z",
+      "generatedAt": "2026-07-21T07:27:54.204Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -157,7 +168,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb8ccadb34a3fd2b1e324744"
+                "local_233355d8be1065bdbf666b5a"
               ],
               "confidence": 92
             },
@@ -167,7 +178,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_88597e80edce923cbf9b053f"
+                "local_584b50b7e9f647fda1ba8b20"
               ],
               "confidence": 92
             }
@@ -182,7 +193,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d1dcf3c8aed6317d4bac2888"
+                "local_ea629b9c3318919e81bad110"
               ],
               "confidence": 82
             }
@@ -191,17 +202,17 @@
       ],
       "referencedFeedItemIds": [
         "local_0088dc377840660675c284a8",
-        "local_d1dcf3c8aed6317d4bac2888",
-        "local_fb8ccadb34a3fd2b1e324744",
-        "local_88597e80edce923cbf9b053f"
+        "local_ea629b9c3318919e81bad110",
+        "local_233355d8be1065bdbf666b5a",
+        "local_584b50b7e9f647fda1ba8b20"
       ],
-      "generatedAt": "2026-07-21T04:42:37.993Z",
+      "generatedAt": "2026-07-21T07:27:54.204Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-21T04:42:37.994Z",
+  "generatedAt": "2026-07-21T07:27:54.204Z",
   "collectorName": "local-source-collector"
 }
