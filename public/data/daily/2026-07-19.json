@@ -5,14 +5,15 @@
       "topicId": "ai",
       "reportDate": "2026-07-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「上手简单,安全可靠,TeleAgent星辰超级智能体不搞极客玩具那一套」、「AI Mania Is Eviscerating Global Decision-Making」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「上手简单,安全可靠,TeleAgent星辰超级智能体不搞极客玩具那一套」、「A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上手简单,安全可靠,TeleAgent星辰超级智能体不搞极客玩具那一套",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Mania Is Eviscerating Global Decision-Making",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Mania Is Eviscerating Global Decision-Making"
       ],
       "watchItems": [
         "跟进：上手简单,安全可靠,TeleAgent星辰超级智能体不搞极客玩具那一套",
+        "跟进：A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
         "跟进：AI Mania Is Eviscerating Global Decision-Making",
         "跟进：DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖"
       ],
@@ -26,7 +27,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6fd0c4f4a6b84675fedbf953"
+                "local_7c640851f8fa2f521b6e26f7"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "A Systematic Evaluation of Trajectory Data Curation for LoRA Fine-Tuning of Code Agents",
+              "summary": "Supervised fine-tuning (SFT) of open-weight LLMs on expert agent trajectories has emerged as a prominent approach to building capable code agents without reliance on proprietary models. A central yet underexplored question is how trajectory quality and quantity jointly shape mod…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6ada22b8f9b42ad9e508a2f6"
               ],
               "confidence": 92
             },
@@ -59,11 +70,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6fd0c4f4a6b84675fedbf953",
+        "local_7c640851f8fa2f521b6e26f7",
+        "local_6ada22b8f9b42ad9e508a2f6",
         "local_f101ec14838b04d2eda7cc9d",
         "local_6bab4105cf974f322436c708"
       ],
-      "generatedAt": "2026-07-20T23:46:37.085Z",
+      "generatedAt": "2026-07-21T01:18:13.229Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -93,7 +105,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6fd0c4f4a6b84675fedbf953"
+                "local_7c640851f8fa2f521b6e26f7"
               ],
               "confidence": 92
             },
@@ -111,16 +123,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6fd0c4f4a6b84675fedbf953",
+        "local_7c640851f8fa2f521b6e26f7",
         "local_6bab4105cf974f322436c708"
       ],
-      "generatedAt": "2026-07-20T23:46:37.085Z",
+      "generatedAt": "2026-07-21T01:18:13.229Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-20T23:46:37.086Z",
+  "generatedAt": "2026-07-21T01:18:13.229Z",
   "collectorName": "local-source-collector"
 }
