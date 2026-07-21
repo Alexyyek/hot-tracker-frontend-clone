@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data」、「At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data」、「At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入"
       ],
       "watchItems": [
         "跟进：Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
         "跟进：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-        "跟进：Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
         "跟进：ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入",
-        "跟进：产教协同赋能 AI 创新,华为云高校公开课落地大连理工大学"
+        "跟进：产教协同赋能 AI 创新,华为云高校公开课落地大连理工大学",
+        "跟进：华为云高校公开课走进中山大学,聚焦智能体时代企业级开发能力建设"
       ],
       "sections": [
         {
@@ -43,22 +43,12 @@
               "confidence": 82
             },
             {
-              "title": "Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Hugging Face reports an attack on parts of its production infrastructure that was allegedly carried out entirely by an autonomous AI agent system. The attack spanned thousands of actions controlled by an agent framework…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_152f8a15d10ee1a7a10a57fa"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "产教协同赋能 AI 创新,华为云高校公开课落地大连理工大学",
               "summary": "其中《OpenGauss Agent数据库知识智能体》依托华为云码道CodeArts代码智能体打造交互式国产数据库学习平台,采用Vue3+...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6b849d78bfd6776b906121ef"
+                "local_c560bbd93ed7ecc698edcd3c"
               ],
               "confidence": 92
             },
@@ -68,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bd13c8fec5306f9bf56bf2c5"
+                "local_b8fcb83be9644e33bbb2643d"
               ],
               "confidence": 92
             }
@@ -83,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_ce9ae7994360f9fb358d8433"
+                "local_ddeab12368548cc9411d29a2"
               ],
               "confidence": 82
             }
@@ -93,12 +83,11 @@
       "referencedFeedItemIds": [
         "local_fe117b1c6e9fae2f8dec58ad",
         "local_0088dc377840660675c284a8",
-        "local_152f8a15d10ee1a7a10a57fa",
-        "local_ce9ae7994360f9fb358d8433",
-        "local_6b849d78bfd6776b906121ef",
-        "local_bd13c8fec5306f9bf56bf2c5"
+        "local_ddeab12368548cc9411d29a2",
+        "local_c560bbd93ed7ecc698edcd3c",
+        "local_b8fcb83be9644e33bbb2643d"
       ],
-      "generatedAt": "2026-07-21T16:16:01.543Z",
+      "generatedAt": "2026-07-21T17:54:07.110Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -141,7 +130,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6b849d78bfd6776b906121ef"
+                "local_c560bbd93ed7ecc698edcd3c"
               ],
               "confidence": 92
             },
@@ -151,7 +140,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bd13c8fec5306f9bf56bf2c5"
+                "local_b8fcb83be9644e33bbb2643d"
               ],
               "confidence": 92
             }
@@ -166,7 +155,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_ce9ae7994360f9fb358d8433"
+                "local_ddeab12368548cc9411d29a2"
               ],
               "confidence": 82
             }
@@ -175,17 +164,17 @@
       ],
       "referencedFeedItemIds": [
         "local_0088dc377840660675c284a8",
-        "local_ce9ae7994360f9fb358d8433",
-        "local_6b849d78bfd6776b906121ef",
-        "local_bd13c8fec5306f9bf56bf2c5"
+        "local_ddeab12368548cc9411d29a2",
+        "local_c560bbd93ed7ecc698edcd3c",
+        "local_b8fcb83be9644e33bbb2643d"
       ],
-      "generatedAt": "2026-07-21T16:16:01.543Z",
+      "generatedAt": "2026-07-21T17:54:07.110Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-21T16:16:01.543Z",
+  "generatedAt": "2026-07-21T17:54:07.111Z",
   "collectorName": "local-source-collector"
 }
