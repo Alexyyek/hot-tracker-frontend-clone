@@ -5,14 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-07-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data」、「At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI」、「ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：产教协同赋能 AI 创新,华为云高校公开课落地大连理工大学"
       ],
       "watchItems": [
-        "跟进：Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
         "跟进：At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
         "跟进：ICML 2026|InstEmb:面向 Oxygen AIIC 商品知识表征的未来感知指令嵌入",
         "跟进：产教协同赋能 AI 创新,华为云高校公开课落地大连理工大学",
@@ -22,16 +21,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Autoresearch with Coding Agents: Generalizers and Metric-Maximizers on Quran Recitation Data",
-              "summary": "Coding agents can now be left alone to improve software against a score. In this pattern--recently popularized as \"autoresearch\"--the agent receives a dataset, an evaluation script, and one editable file, and iterates without supervision: modify the code, measure, keep the chang…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_fe117b1c6e9fae2f8dec58ad"
-              ],
-              "confidence": 92
-            },
             {
               "title": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From open models to real-time simulation, AI and graphics breakthroughs are transforming media, content creation and robotics.",
@@ -58,7 +47,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1fb8ea5ca34fe8ebdded29af"
+                "local_d4c97ddbb03512c2781873ff"
               ],
               "confidence": 92
             }
@@ -73,7 +62,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f992a5d90dc03efca3423045"
+                "local_b56ac5d0625dd76bf5b35018"
               ],
               "confidence": 82
             }
@@ -81,13 +70,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_fe117b1c6e9fae2f8dec58ad",
         "local_0088dc377840660675c284a8",
-        "local_f992a5d90dc03efca3423045",
+        "local_b56ac5d0625dd76bf5b35018",
         "local_12be7255a6e3aff3b89856a9",
-        "local_1fb8ea5ca34fe8ebdded29af"
+        "local_d4c97ddbb03512c2781873ff"
       ],
-      "generatedAt": "2026-07-21T23:47:29.466Z",
+      "generatedAt": "2026-07-22T01:17:54.392Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -140,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1fb8ea5ca34fe8ebdded29af"
+                "local_d4c97ddbb03512c2781873ff"
               ],
               "confidence": 92
             }
@@ -155,7 +143,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f992a5d90dc03efca3423045"
+                "local_b56ac5d0625dd76bf5b35018"
               ],
               "confidence": 82
             }
@@ -164,17 +152,17 @@
       ],
       "referencedFeedItemIds": [
         "local_0088dc377840660675c284a8",
-        "local_f992a5d90dc03efca3423045",
+        "local_b56ac5d0625dd76bf5b35018",
         "local_12be7255a6e3aff3b89856a9",
-        "local_1fb8ea5ca34fe8ebdded29af"
+        "local_d4c97ddbb03512c2781873ff"
       ],
-      "generatedAt": "2026-07-21T23:47:29.466Z",
+      "generatedAt": "2026-07-22T01:17:54.392Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-21T23:47:29.467Z",
+  "generatedAt": "2026-07-22T01:17:54.392Z",
   "collectorName": "local-source-collector"
 }
