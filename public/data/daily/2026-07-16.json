@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-07-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」、「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」、「Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：围绕协议、约束、自进化与成本,谈真正驾驭智能体"
       ],
       "watchItems": [
-        "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
         "跟进：Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆",
         "跟进：围绕协议、约束、自进化与成本,谈真正驾驭智能体",
-        "跟进：从「构建 AI」,到「驾驭 AI」 | QCon 全球软件开发大会·2026(上海站)正式启动"
+        "跟进：从「构建 AI」,到「驾驭 AI」 | QCon 全球软件开发大会·2026(上海站)正式启动",
+        "跟进：WAIC'26探展召集令!和量子位一起逛展、直播、聊AI"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
-              "summary": "随着大语言模型进入真实应用,推理成本正在成为限制落地的重要瓶颈.一次生成任务背后,往往包含长上下文预填充、逐 token 解码...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d1e51b314de033be8e9b9e9d"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
               "summary": "Skill 发给 Agent:我们就要这个 OpenViking + AgentPlan 的方案今天下午就能让团队用上加入我们,共建 Agent 上下文的未来! 上手...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7f68dfc7b9e28cdcfdd07a5d"
+                "local_0840ccb35405808af776d008"
               ],
               "confidence": 92
             },
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f228d4ba22c86ae3ac04c158"
+                "local_31c2fc3a973455ab4277fa41"
               ],
               "confidence": 92
             },
@@ -71,6 +61,16 @@
                 "local_4a5cdba59660082f57de65f7"
               ],
               "confidence": 86
+            },
+            {
+              "title": "How Cars24 scales conversations and builds faster with OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cdfe29aca11a005698790359"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -106,9 +106,8 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d1e51b314de033be8e9b9e9d",
-        "local_7f68dfc7b9e28cdcfdd07a5d",
-        "local_f228d4ba22c86ae3ac04c158",
+        "local_0840ccb35405808af776d008",
+        "local_31c2fc3a973455ab4277fa41",
         "local_c97f40b68bd5d9c91f151185",
         "local_b21ee96acab1244819449bf6",
         "local_4a5cdba59660082f57de65f7",
@@ -116,7 +115,7 @@
         "local_cdfe29aca11a005698790359",
         "local_339cf7e0fb5c0779c6d0112f"
       ],
-      "generatedAt": "2026-07-22T10:16:17.803Z",
+      "generatedAt": "2026-07-22T12:14:30.362Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -127,40 +126,30 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-16",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍」、「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手」、「Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：围绕协议、约束、自进化与成本,谈真正驾驭智能体"
       ],
       "watchItems": [
-        "跟进：AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
         "跟进：9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
         "跟进：Agent 治理:用 Hook 堵住 LLM 的偷懒、越权与失忆",
         "跟进：围绕协议、约束、自进化与成本,谈真正驾驭智能体",
-        "跟进：从「构建 AI」,到「驾驭 AI」 | QCon 全球软件开发大会·2026(上海站)正式启动"
+        "跟进：从「构建 AI」,到「驾驭 AI」 | QCon 全球软件开发大会·2026(上海站)正式启动",
+        "跟进：WAIC'26探展召集令!和量子位一起逛展、直播、聊AI"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AgentCompile让大模型做\"编译参谋\",CUDA推理平均加速5.66倍",
-              "summary": "随着大语言模型进入真实应用,推理成本正在成为限制落地的重要瓶颈.一次生成任务背后,往往包含长上下文预填充、逐 token 解码...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d1e51b314de033be8e9b9e9d"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "9.9 元/月,用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
               "summary": "Skill 发给 Agent:我们就要这个 OpenViking + AgentPlan 的方案今天下午就能让团队用上加入我们,共建 Agent 上下文的未来! 上手...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7f68dfc7b9e28cdcfdd07a5d"
+                "local_0840ccb35405808af776d008"
               ],
               "confidence": 92
             },
@@ -170,7 +159,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f228d4ba22c86ae3ac04c158"
+                "local_31c2fc3a973455ab4277fa41"
               ],
               "confidence": 92
             },
@@ -193,6 +182,16 @@
                 "local_4a5cdba59660082f57de65f7"
               ],
               "confidence": 86
+            },
+            {
+              "title": "How Cars24 scales conversations and builds faster with OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cdfe29aca11a005698790359"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -228,9 +227,8 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d1e51b314de033be8e9b9e9d",
-        "local_7f68dfc7b9e28cdcfdd07a5d",
-        "local_f228d4ba22c86ae3ac04c158",
+        "local_0840ccb35405808af776d008",
+        "local_31c2fc3a973455ab4277fa41",
         "local_c97f40b68bd5d9c91f151185",
         "local_b21ee96acab1244819449bf6",
         "local_4a5cdba59660082f57de65f7",
@@ -238,13 +236,13 @@
         "local_cdfe29aca11a005698790359",
         "local_339cf7e0fb5c0779c6d0112f"
       ],
-      "generatedAt": "2026-07-22T10:16:17.803Z",
+      "generatedAt": "2026-07-22T12:14:30.362Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-22T10:16:17.803Z",
+  "generatedAt": "2026-07-22T12:14:30.362Z",
   "collectorName": "local-source-collector"
 }
