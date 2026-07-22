@@ -5,23 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-07-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up」、「RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How news organizations are using AI to advance their vital missions",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RE-TRAC框架:让AI智能体＂记住＂失败经验"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术"
       ],
       "watchItems": [
+        "跟进：How news organizations are using AI to advance their vital missions",
         "跟进：SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up",
         "跟进：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
         "跟进：RE-TRAC框架:让AI智能体＂记住＂失败经验",
-        "跟进：高德广告工程的AI Native知识库体系",
-        "跟进：跳出自我确认陷阱:浙大发布EDV框架,开启大模型智能体进化新路径"
+        "跟进：高德广告工程的AI Native知识库体系"
       ],
       "sections": [
         {
           "title": "行业与公司",
           "items": [
+            {
+              "title": "How news organizations are using AI to advance their vital missions",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_d6d1806b6ee0e83973e24a58"
+              ],
+              "confidence": 82
+            },
             {
               "title": "SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：SenseTime has launched the Galaxy Project, teaming with nearly 20 partners to scale domestic AI chip infrastructure in China. In a keynote titled ‘Intelligent Transformation and Symbiosis,’ Yang Fan – the company’s co-f…",
@@ -53,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4e501d7fe58e6b6597e0f201"
+                "local_9e2bfcb7e1110533c2dcb232"
               ],
               "confidence": 92
             },
@@ -98,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aaaa5f8f06f4824612956e96"
+                "local_27d608e2b0ec1cf51efc89d7"
               ],
               "confidence": 92
             },
@@ -108,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f1d26cbfc97f957d7f5ab47f"
+                "local_d6d9e99e8d20b34465797853"
               ],
               "confidence": 92
             },
@@ -118,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b9e7187a7472ea60169440a7"
+                "local_977f41286c0eddc740f0dc9b"
               ],
               "confidence": 92
             },
@@ -138,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e39d746ac3a8f99cf427d0ac"
+                "local_1ba787f3afe2e8f5d5ca5b5e"
               ],
               "confidence": 90
             }
@@ -146,14 +156,15 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_d6d1806b6ee0e83973e24a58",
         "local_e908999355c83a463a69e8f8",
-        "local_4e501d7fe58e6b6597e0f201",
-        "local_aaaa5f8f06f4824612956e96",
-        "local_f1d26cbfc97f957d7f5ab47f",
-        "local_b9e7187a7472ea60169440a7",
+        "local_9e2bfcb7e1110533c2dcb232",
+        "local_27d608e2b0ec1cf51efc89d7",
+        "local_d6d9e99e8d20b34465797853",
+        "local_977f41286c0eddc740f0dc9b",
         "local_75451d3d3acb3d58be964efb",
         "local_19486db86c92c12e99442485",
-        "local_e39d746ac3a8f99cf427d0ac",
+        "local_1ba787f3afe2e8f5d5ca5b5e",
         "local_73aa2ca069066dbaf39befe2",
         "local_8f28396e220021751aa0dd16",
         "local_9c6b97c8e21c5b847e938f2d",
@@ -165,7 +176,7 @@
         "local_e61ddbdbe6ee0eb8d166f966",
         "local_b2f3c65db613b6e334ff6ced"
       ],
-      "generatedAt": "2026-07-22T19:51:59.420Z",
+      "generatedAt": "2026-07-22T21:31:01.187Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -176,20 +187,45 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术」、「RE-TRAC框架:让AI智能体＂记住＂失败经验」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How news organizations are using AI to advance their vital missions",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RE-TRAC框架:让AI智能体＂记住＂失败经验",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德广告工程的AI Native知识库体系"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RE-TRAC框架:让AI智能体＂记住＂失败经验"
       ],
       "watchItems": [
+        "跟进：How news organizations are using AI to advance their vital missions",
         "跟进：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
         "跟进：RE-TRAC框架:让AI智能体＂记住＂失败经验",
         "跟进：高德广告工程的AI Native知识库体系",
-        "跟进：跳出自我确认陷阱:浙大发布EDV框架,开启大模型智能体进化新路径",
-        "跟进：网易智企Data Agent实践入选信通院《智能体创新实践案例汇编》"
+        "跟进：跳出自我确认陷阱:浙大发布EDV框架,开启大模型智能体进化新路径"
       ],
       "sections": [
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "How news organizations are using AI to advance their vital missions",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_d6d1806b6ee0e83973e24a58"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant produ…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_95c9a20a3802078e6d468f7f"
+              ],
+              "confidence": 74
+            }
+          ]
+        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -199,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4e501d7fe58e6b6597e0f201"
+                "local_9e2bfcb7e1110533c2dcb232"
               ],
               "confidence": 92
             }
@@ -214,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aaaa5f8f06f4824612956e96"
+                "local_27d608e2b0ec1cf51efc89d7"
               ],
               "confidence": 92
             },
@@ -224,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f1d26cbfc97f957d7f5ab47f"
+                "local_d6d9e99e8d20b34465797853"
               ],
               "confidence": 92
             },
@@ -234,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b9e7187a7472ea60169440a7"
+                "local_977f41286c0eddc740f0dc9b"
               ],
               "confidence": 92
             },
@@ -254,46 +290,32 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e39d746ac3a8f99cf427d0ac"
+                "local_1ba787f3afe2e8f5d5ca5b5e"
               ],
               "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The AI era runs on AI infrastructure. Many of these advanced systems are built and tested in Texas. Wistron opened its first U.S. manufacturing facility today in Fort Worth — a 324,000-square-foot greenfield plant produ…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_95c9a20a3802078e6d468f7f"
-              ],
-              "confidence": 74
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_4e501d7fe58e6b6597e0f201",
-        "local_aaaa5f8f06f4824612956e96",
-        "local_f1d26cbfc97f957d7f5ab47f",
-        "local_b9e7187a7472ea60169440a7",
+        "local_d6d1806b6ee0e83973e24a58",
+        "local_9e2bfcb7e1110533c2dcb232",
+        "local_27d608e2b0ec1cf51efc89d7",
+        "local_d6d9e99e8d20b34465797853",
+        "local_977f41286c0eddc740f0dc9b",
         "local_75451d3d3acb3d58be964efb",
-        "local_e39d746ac3a8f99cf427d0ac",
+        "local_1ba787f3afe2e8f5d5ca5b5e",
         "local_73aa2ca069066dbaf39befe2",
         "local_95c9a20a3802078e6d468f7f",
         "local_e61ddbdbe6ee0eb8d166f966"
       ],
-      "generatedAt": "2026-07-22T19:51:59.420Z",
+      "generatedAt": "2026-07-22T21:31:01.187Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-22T19:51:59.420Z",
+  "generatedAt": "2026-07-22T21:31:01.187Z",
   "collectorName": "local-source-collector"
 }
