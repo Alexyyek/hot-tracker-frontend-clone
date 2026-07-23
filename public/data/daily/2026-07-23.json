@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size」、「Nvidia bets physical AI can solve healthcare robotics&#8217; data problem」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size」、「Nvidia bets physical AI can solve healthcare robotics&#8217; data problem」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b7c5e00418acd9fb8646e4cd"
+                "local_9b8acdd272b014130917b1e6"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7f1d35ce141609999d50e021"
+                "local_64087502111bf0a353f276b7"
               ],
               "confidence": 90
             },
@@ -58,17 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9f426f2d14920cafce23157e"
+                "local_b48ecf92a68904e8678f0d0c"
               ],
               "confidence": 92
             },
             {
-              "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations",
-              "summary": "As autonomous agents rapidly evolve, their ability to reliably manipulate ubiquitous digital documents has become critical for enabling general-purpose AI assistants and automating complex workspace workflows. In this paper, we introduce DocOps, a deterministically verifiable ev…",
+              "title": "Quoting Thomas Ptacek",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8c6e0d231e19545f658e3767"
+                "local_f566964eff2fa34f40538d70"
               ],
               "confidence": 92
             }
@@ -86,6 +86,16 @@
                 "local_4f70957fc2a7f220b6698d5f"
               ],
               "confidence": 74
+            },
+            {
+              "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
+              "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boolean circuits executa…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_372eaacdea1ef06c32ae1570"
+              ],
+              "confidence": 92
             },
             {
               "title": "Moving Alphabet: A Controlled Study of Training Data for Text-to-Video Generation",
@@ -108,7 +118,17 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b947116792ff85aa3119f798"
+                "local_22d92e73f29ab3e8e2251e9f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "ENTRAP-VL: A Taxonomic Probe for Dual Contextual Entrainment in Vision-Language Models",
+              "summary": "Contextual entrainment is the tendency of a model to let auxiliary context in its input pull its output, independently of whether that context is relevant, true, or even meaningful. Recently, it has been identified and given a mechanistic account in unimodal language models. Whe…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_56288e4840f1d30a85e1cea8"
               ],
               "confidence": 92
             },
@@ -119,16 +139,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_f1321d4796ea6e2be3535aa5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
-              "summary": "Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their u…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a1cf65e1b3ea84cbdafe8cb8"
               ],
               "confidence": 92
             },
@@ -158,22 +168,21 @@
       "referencedFeedItemIds": [
         "local_85bf0233b21ff86916fcc715",
         "local_4f70957fc2a7f220b6698d5f",
-        "local_b947116792ff85aa3119f798",
-        "local_b7c5e00418acd9fb8646e4cd",
-        "local_7f1d35ce141609999d50e021",
-        "local_9f426f2d14920cafce23157e",
+        "local_22d92e73f29ab3e8e2251e9f",
+        "local_9b8acdd272b014130917b1e6",
+        "local_64087502111bf0a353f276b7",
+        "local_b48ecf92a68904e8678f0d0c",
+        "local_56288e4840f1d30a85e1cea8",
+        "local_372eaacdea1ef06c32ae1570",
         "local_bd233f95a3db7a0230456bae",
         "local_f1321d4796ea6e2be3535aa5",
-        "local_8c6e0d231e19545f658e3767",
-        "local_a1cf65e1b3ea84cbdafe8cb8",
         "local_f566964eff2fa34f40538d70",
         "local_4d65c7fffd9ffb0ade345ca9",
         "local_36767c975eae9563e4db2afb",
         "local_2dcacfb3108fc9adf5e8c47e",
-        "local_c289ac091e8612010e74a1ef",
-        "local_3df9459ccfe17bf70f3b7d05"
+        "local_c289ac091e8612010e74a1ef"
       ],
-      "generatedAt": "2026-07-23T17:15:35.565Z",
+      "generatedAt": "2026-07-23T18:34:21.568Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -206,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b947116792ff85aa3119f798"
+                "local_22d92e73f29ab3e8e2251e9f"
               ],
               "confidence": 92
             }
@@ -221,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b7c5e00418acd9fb8646e4cd"
+                "local_9b8acdd272b014130917b1e6"
               ],
               "confidence": 92
             },
@@ -231,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7f1d35ce141609999d50e021"
+                "local_64087502111bf0a353f276b7"
               ],
               "confidence": 90
             },
@@ -241,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9f426f2d14920cafce23157e"
+                "local_b48ecf92a68904e8678f0d0c"
               ],
               "confidence": 92
             }
@@ -249,18 +258,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b947116792ff85aa3119f798",
-        "local_b7c5e00418acd9fb8646e4cd",
-        "local_7f1d35ce141609999d50e021",
-        "local_9f426f2d14920cafce23157e"
+        "local_22d92e73f29ab3e8e2251e9f",
+        "local_9b8acdd272b014130917b1e6",
+        "local_64087502111bf0a353f276b7",
+        "local_b48ecf92a68904e8678f0d0c"
       ],
-      "generatedAt": "2026-07-23T17:15:35.565Z",
+      "generatedAt": "2026-07-23T18:34:21.568Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-23T17:15:35.565Z",
+  "generatedAt": "2026-07-23T18:34:21.568Z",
   "collectorName": "local-source-collector"
 }
