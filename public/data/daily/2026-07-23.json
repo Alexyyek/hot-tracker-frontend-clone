@@ -5,142 +5,72 @@
       "topicId": "ai",
       "reportDate": "2026-07-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size」、「Nvidia bets physical AI can solve healthcare robotics&#8217; data problem」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?"
       ],
       "watchItems": [
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size",
+        "跟进：Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
+        "跟进：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?",
+        "跟进：阿里开源 skill-up:让 Agent Skill 可评测可回归",
+        "跟进：一文带你看懂刚刚发布的\"北京智能体新政\",这是跟每个人都有关的10条."
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_10374a1ceea33e40e46bbfb5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e31ac89133726965653619af"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0d997f9a83bfe6815b91d99c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fb2f57bbb2e9f27bb7d5cbf7"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_78412669191663a91f2528ea"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
+              "title": "Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Poolside has released Laguna S 2.1, its third coding model in three months. Rather than rely on raw scale, the company trained it to keep checking its work, revise failed approaches, and avoid giving up too soon during …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0b94ed733d39bef8b6293152"
+                "local_85bf0233b21ff86916fcc715"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "title": "阿里开源 skill-up:让 Agent Skill 可评测可回归",
+              "summary": "为此,阿里巴巴开源了skill-up:一个专门面向 Agent Skill 开发者的命令行评测框架.它的目标是「让 Agent Skill 的每一次迭代都可被...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb3d5c07d62b8c7ee0843d0d"
+                "local_b7c5e00418acd9fb8646e4cd"
               ],
               "confidence": 92
             },
             {
-              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
+              "title": "一文带你看懂刚刚发布的\"北京智能体新政\",这是跟每个人都有关的10条.",
+              "summary": "多智能体协同和记忆,全放在第一条里.这些词共同指向一种新的... 它高度数字化,Git可以回滚,测试可以验证,所有动作几乎都能...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dff52bf2be91520b8ef76bdc"
+                "local_7f1d35ce141609999d50e021"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "一文讲透Agent三件套:MCP、Skill、Hook如何给大模型装上护栏",
+              "summary": "关注腾讯云开发者,一手技术干货提前解锁让 Agent 会干活不难,难的是让它干得安全、可控、有迹可循.prompt 约束是软的,Agent...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9f426f2d14920cafce23157e"
               ],
               "confidence": 92
             },
             {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations",
+              "summary": "As autonomous agents rapidly evolve, their ability to reliably manipulate ubiquitous digital documents has become critical for enabling general-purpose AI assistants and automating complex workspace workflows. In this paper, we introduce DocOps, a deterministically verifiable ev…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_95ddda0c48ada916d4d1d3e5"
+                "local_8c6e0d231e19545f658e3767"
               ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c67461ce844826e3a7af4a2a"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Run Ray on TPU, Part 1: The foundations",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict …",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_abb0dcba22812eb88be85fe0"
-              ],
-              "confidence": 74
+              "confidence": 92
             }
           ]
         },
@@ -148,45 +78,102 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
+              "title": "Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Nvidia&#8217;s new Medical Physics Simulation framework treats healthcare robots as physical AI systems that need embodied experience to learn, not just code. Physical AI is the term Nvidia and much of the robotics indu…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a18a127225c054b1f23d23a8"
+                "local_4f70957fc2a7f220b6698d5f"
               ],
-              "confidence": 70
+              "confidence": 74
+            },
+            {
+              "title": "Moving Alphabet: A Controlled Study of Training Data for Text-to-Video Generation",
+              "summary": "Text-to-video generation has advanced significantly over the past five years through scaling of model size, data, and compute. Unlike model architecture, training data is often underexplored. Real-world data curation is complex and non-trivial, involving clip selection from raw …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_bd233f95a3db7a0230456bae"
+              ],
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?",
+              "summary": "把算力花在刀刃上的必然选择.卡帕西打开的这扇门,不是 RAG 的终点,而是下一代 AI 知识库的起点.参考链接:",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b947116792ff85aa3119f798"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "SLAM in Low-Light Environments: Project Report",
+              "summary": "Simultaneous localization and mapping (SLAM) is one of the fundamental problems in robotics, as it enables autonomous operations in real-world scenarios. Under low illumination, reduced contrast, sensor noise, and motion blur degrade both feature extraction and feature matching,…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_f1321d4796ea6e2be3535aa5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
+              "summary": "Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection. Although hypernetworks are typically applied for test-time adaptation, we explore their u…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a1cf65e1b3ea84cbdafe8cb8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Are AI labs pelicanmaxxing?",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Are AI labs pelicanmaxxing? Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bic…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_36767c975eae9563e4db2afb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Every frontier AI model tested by Britain&#039;s safety institute tried to cheat on cybersecurity evaluations",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The UK's AI Safety Institute tested five frontier models from OpenAI and Anthropic in cybersecurity evaluations. All five tried to cheat. One even ran code on an external service to access the institute's infrastructure…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_c289ac091e8612010e74a1ef"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_10374a1ceea33e40e46bbfb5",
-        "local_0b94ed733d39bef8b6293152",
-        "local_cb3d5c07d62b8c7ee0843d0d",
-        "local_dff52bf2be91520b8ef76bdc",
-        "local_e31ac89133726965653619af",
-        "local_95ddda0c48ada916d4d1d3e5",
-        "local_c67461ce844826e3a7af4a2a",
-        "local_8e9c4e818e045ee1f8c20ba0",
-        "local_abb0dcba22812eb88be85fe0",
-        "local_22ce6b42a383e45c7fc2dc65",
-        "local_6c763f9097f0d9b76ad4e0a8",
-        "local_b8add372262179590ac98c69",
-        "local_40debcc97333380940ba3c34",
-        "local_6487473050bbcf26bb9eb18d",
-        "local_ded5a9caf8b3e2c80d59f2c3",
-        "local_0d997f9a83bfe6815b91d99c",
-        "local_eec24a3522570cc2a403d521",
-        "local_a9aed82f4c24c3ff0638c624",
-        "local_68a04134e6f847957e03f6f8",
-        "local_4933ccf350a0cb2de7f195c0",
-        "local_fb2f57bbb2e9f27bb7d5cbf7",
-        "local_78412669191663a91f2528ea",
-        "local_1261ac63f3e83fbc7aa8f928",
-        "local_a18a127225c054b1f23d23a8"
+        "local_85bf0233b21ff86916fcc715",
+        "local_4f70957fc2a7f220b6698d5f",
+        "local_b947116792ff85aa3119f798",
+        "local_b7c5e00418acd9fb8646e4cd",
+        "local_7f1d35ce141609999d50e021",
+        "local_9f426f2d14920cafce23157e",
+        "local_bd233f95a3db7a0230456bae",
+        "local_f1321d4796ea6e2be3535aa5",
+        "local_8c6e0d231e19545f658e3767",
+        "local_a1cf65e1b3ea84cbdafe8cb8",
+        "local_f566964eff2fa34f40538d70",
+        "local_4d65c7fffd9ffb0ade345ca9",
+        "local_36767c975eae9563e4db2afb",
+        "local_2dcacfb3108fc9adf5e8c47e",
+        "local_c289ac091e8612010e74a1ef",
+        "local_3df9459ccfe17bf70f3b7d05"
       ],
-      "generatedAt": "2026-07-23T15:47:11.272Z",
+      "generatedAt": "2026-07-23T17:15:35.565Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,72 +184,31 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-23",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?」、「阿里开源 skill-up:让 Agent Skill 可评测可回归」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：阿里开源 skill-up:让 Agent Skill 可评测可回归",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一文带你看懂刚刚发布的\"北京智能体新政\",这是跟每个人都有关的10条."
       ],
       "watchItems": [
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-        "跟进：Moonshot AI - 博客"
+        "跟进：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?",
+        "跟进：阿里开源 skill-up:让 Agent Skill 可评测可回归",
+        "跟进：一文带你看懂刚刚发布的\"北京智能体新政\",这是跟每个人都有关的10条.",
+        "跟进：一文讲透Agent三件套:MCP、Skill、Hook如何给大模型装上护栏"
       ],
       "sections": [
         {
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
+              "title": "卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?",
+              "summary": "把算力花在刀刃上的必然选择.卡帕西打开的这扇门,不是 RAG 的终点,而是下一代 AI 知识库的起点.参考链接:",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_10374a1ceea33e40e46bbfb5"
+                "local_b947116792ff85aa3119f798"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e31ac89133726965653619af"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fb2f57bbb2e9f27bb7d5cbf7"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_78412669191663a91f2528ea"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_1261ac63f3e83fbc7aa8f928"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -270,120 +216,51 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
+              "title": "阿里开源 skill-up:让 Agent Skill 可评测可回归",
+              "summary": "为此,阿里巴巴开源了skill-up:一个专门面向 Agent Skill 开发者的命令行评测框架.它的目标是「让 Agent Skill 的每一次迭代都可被...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0b94ed733d39bef8b6293152"
+                "local_b7c5e00418acd9fb8646e4cd"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "title": "一文带你看懂刚刚发布的\"北京智能体新政\",这是跟每个人都有关的10条.",
+              "summary": "多智能体协同和记忆,全放在第一条里.这些词共同指向一种新的... 它高度数字化,Git可以回滚,测试可以验证,所有动作几乎都能...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb3d5c07d62b8c7ee0843d0d"
+                "local_7f1d35ce141609999d50e021"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "一文讲透Agent三件套:MCP、Skill、Hook如何给大模型装上护栏",
+              "summary": "关注腾讯云开发者,一手技术干货提前解锁让 Agent 会干活不难,难的是让它干得安全、可控、有迹可循.prompt 约束是软的,Agent...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9f426f2d14920cafce23157e"
               ],
               "confidence": 92
-            },
-            {
-              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dff52bf2be91520b8ef76bdc"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_95ddda0c48ada916d4d1d3e5"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c67461ce844826e3a7af4a2a"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Run Ray on TPU, Part 1: The foundations",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict …",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_abb0dcba22812eb88be85fe0"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_a18a127225c054b1f23d23a8"
-              ],
-              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_10374a1ceea33e40e46bbfb5",
-        "local_0b94ed733d39bef8b6293152",
-        "local_cb3d5c07d62b8c7ee0843d0d",
-        "local_dff52bf2be91520b8ef76bdc",
-        "local_e31ac89133726965653619af",
-        "local_95ddda0c48ada916d4d1d3e5",
-        "local_c67461ce844826e3a7af4a2a",
-        "local_8e9c4e818e045ee1f8c20ba0",
-        "local_abb0dcba22812eb88be85fe0",
-        "local_22ce6b42a383e45c7fc2dc65",
-        "local_6c763f9097f0d9b76ad4e0a8",
-        "local_fb2f57bbb2e9f27bb7d5cbf7",
-        "local_78412669191663a91f2528ea",
-        "local_1261ac63f3e83fbc7aa8f928",
-        "local_a18a127225c054b1f23d23a8",
-        "local_8a967e5def0f2f23d1170bc6",
-        "local_7d9688c5ececf6dc8084ea8d",
-        "local_81ce1e2a3d91476a45119e5b",
-        "local_742475c5d9a9a45b22f03c42",
-        "local_b99ac2e6d0ab6543d574b32c",
-        "local_3db78772a3a9b251cd425b1c",
-        "local_cd10cc5cde15e08c60a21d26",
-        "local_f20ecd7d1eb2696faf60d9a3"
+        "local_b947116792ff85aa3119f798",
+        "local_b7c5e00418acd9fb8646e4cd",
+        "local_7f1d35ce141609999d50e021",
+        "local_9f426f2d14920cafce23157e"
       ],
-      "generatedAt": "2026-07-23T15:47:11.272Z",
+      "generatedAt": "2026-07-23T17:15:35.565Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-23T15:47:11.272Z",
+  "generatedAt": "2026-07-23T17:15:35.565Z",
   "collectorName": "local-source-collector"
 }
