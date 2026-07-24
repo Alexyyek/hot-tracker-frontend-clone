@@ -5,70 +5,50 @@
       "topicId": "ai",
       "reportDate": "2026-07-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why"
       ],
       "watchItems": [
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-        "跟进：Moonshot AI - 博客"
+        "跟进：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+        "跟进：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
+        "跟进：Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
+        "跟进：腾讯WorkBuddy实践:如何把Agent做成可用产品",
+        "跟进：OpenAI Presence sells enterprise AI agents with engineers attached"
       ],
       "sections": [
         {
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2eb893b7613fcaabef62bd1a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_494d32595b7f634711841f3f"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_83a05680e88d55281f78926f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
+              "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The German consortium behind the AI model Soofi S has acknowledged in version 3.0 of its tech report that test questions from the science benchmark GPQA accidentally ended up in the training data. The community caught t…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_4729e680d38fbb3c88e48a54"
+                "local_521b046c5099c23e28285c24"
               ],
-              "confidence": 78
+              "confidence": 92
             },
             {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
+              "title": "Kimi K3 trails frontier US models by a wide margin on cyber exploits, and distillation may explain why",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The British AI Security Institute and the U.S. Center for AI Standards and Innovation tested Moonshot AI's Kimi K3 on offensive cyber tasks. Kimi K3 scored 32 percent on ExploitBench, compared with 76 percent for leadin…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_ed0608077b7eed7b7404e856"
+                "local_230fa83c3adef7713d13a910"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Black Forest Labs has released Flux 3, a multimodal foundation model that learns from images, video, and audio and can generate video with native sound for the first time. BFL's own tests put it just ahead of market lea…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_ddb358bce5b332dadbe76332"
               ],
               "confidence": 92
             }
@@ -78,69 +58,54 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
+              "title": "高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
+              "summary": "Agent Harness:组织推理、上下文管理、技能执行、验证和技能... #通用机器人智能体 #高德 #高德技术END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7346fa537984955971f95c94"
+                "local_4a2f0026044ac68002cc5e8f"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "title": "腾讯WorkBuddy实践:如何把Agent做成可用产品",
+              "summary": "AI Agent 的上下文策略设计与落地,是腾讯内部「上下文工程」方向最贴近一线的实践者之一.文章不堆叠概念,而是沿着\"模型&mdash;上...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f7753e3e361ff5a0ac8d819"
+                "local_52f8520946a69376ae254632"
               ],
               "confidence": 92
             },
             {
-              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
+              "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is a managed product delivered through a limited general availability prog…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_00f94db6af25f7f5ece0d876"
+                "local_16020a5f9e2eef155898bc42"
               ],
               "confidence": 92
             },
             {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "title": "DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖",
+              "summary": "RAG 到 Context Engineering 的范式演进● Schema 强制、结构化系统提示、元数据注入● 长上下文 vs 检索:百万 token 时代如何选择●...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5f95c685b7cba52b8cef5c3f"
+                "local_f830d09ca1d8e6cddd17bcf4"
               ],
-              "confidence": 70
+              "confidence": 92
             },
             {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "title": "Multi-Turn On-Policy Distillation with Prefix Replay",
+              "summary": "We study on-policy distillation (OPD) for agentic tasks, where an LLM agent interacts with an environment over multiple turns and a student imitates a teacher over these multi-turn interaction histories. Fully online OPD is costly because each update requires fresh student rollo…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_de8383d0b532454bda832aaa"
+                "local_c2530d2a7a23176e5df9b162"
               ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Run Ray on TPU, Part 1: The foundations",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict …",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_abb0dcba22812eb88be85fe0"
-              ],
-              "confidence": 74
+              "confidence": 92
             }
           ]
         },
@@ -148,45 +113,56 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
+              "title": "喜报|得物算法团队:国际顶会论文录用&荣获AICon明星讲师!",
+              "summary": "\"会思考\"|AICon 演讲整理4.得物 OceanBase 落地实践5.AI UITester:AI Native 的 UI 自动化测试新范式|得物技术\"扫码添加小助手微...",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_0e84b4aa899e5832b88e7e6a"
+                "local_9402c3d29248486946c89024"
               ],
-              "confidence": 70
+              "confidence": 90
+            },
+            {
+              "title": "Dataset Distillation by Influence Matching",
+              "summary": "We revisit dataset distillation from an outcome-centric perspective. Rather than aligning process surrogates (per-step gradients or training trajectories), Influence Matching (Inf-Match) aligns the final outcome of training: it learns a compact synthetic set whose effect on the …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_384370e9ffef9aed53aba898"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Self-Supervised Learning of Structured Dynamics from Videos",
+              "summary": "Understanding motion in video is a fundamental challenge for visual learning, as frame-to-frame change entangles two sources of dynamics: camera motion and object motion. This decomposition has remained underexplored in representation learning, partly because these factors are t…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e7402e5cb4b13c5eb75dc30e"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_2eb893b7613fcaabef62bd1a",
-        "local_7346fa537984955971f95c94",
-        "local_2f7753e3e361ff5a0ac8d819",
-        "local_00f94db6af25f7f5ece0d876",
-        "local_494d32595b7f634711841f3f",
-        "local_5f95c685b7cba52b8cef5c3f",
-        "local_de8383d0b532454bda832aaa",
-        "local_8e9c4e818e045ee1f8c20ba0",
-        "local_abb0dcba22812eb88be85fe0",
-        "local_22ce6b42a383e45c7fc2dc65",
-        "local_6c763f9097f0d9b76ad4e0a8",
-        "local_f5ccb691aa6ebd2a235849eb",
-        "local_64ec92b59238d594bd7964f6",
-        "local_c79ba7294d55d8f09422c522",
-        "local_2ef8e05fd2513a0017155ee5",
-        "local_83a05680e88d55281f78926f",
-        "local_64f8f7d34d6715b03a4891d1",
-        "local_a98a38efc9cc6b7e1dc71d8d",
-        "local_3445e87014d943ff73d17ba8",
-        "local_bd76a33ac5c079b76161be98",
-        "local_4729e680d38fbb3c88e48a54",
-        "local_ed0608077b7eed7b7404e856",
-        "local_b35f7464441a1235028a971d",
-        "local_0e84b4aa899e5832b88e7e6a"
+        "local_521b046c5099c23e28285c24",
+        "local_4a2f0026044ac68002cc5e8f",
+        "local_230fa83c3adef7713d13a910",
+        "local_52f8520946a69376ae254632",
+        "local_16020a5f9e2eef155898bc42",
+        "local_f830d09ca1d8e6cddd17bcf4",
+        "local_9402c3d29248486946c89024",
+        "local_384370e9ffef9aed53aba898",
+        "local_c2530d2a7a23176e5df9b162",
+        "local_9984f4b293aa6d515e8f3581",
+        "local_e7402e5cb4b13c5eb75dc30e",
+        "local_e4c5076c6b78528c5d642ada",
+        "local_15402f8340ef5ad5cd75c375",
+        "local_ddb358bce5b332dadbe76332",
+        "local_188c2019ccf4fe107278a704"
       ],
-      "generatedAt": "2026-07-24T14:18:37.106Z",
+      "generatedAt": "2026-07-24T16:15:35.642Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,142 +173,51 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-24",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」、「腾讯WorkBuddy实践:如何把Agent做成可用产品」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯WorkBuddy实践:如何把Agent做成可用产品",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖"
       ],
       "watchItems": [
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-        "跟进：Moonshot AI - 博客"
+        "跟进：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
+        "跟进：腾讯WorkBuddy实践:如何把Agent做成可用产品",
+        "跟进：DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖",
+        "跟进：喜报|得物算法团队:国际顶会论文录用&荣获AICon明星讲师!"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2eb893b7613fcaabef62bd1a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_494d32595b7f634711841f3f"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_4729e680d38fbb3c88e48a54"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_ed0608077b7eed7b7404e856"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_b35f7464441a1235028a971d"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
+              "title": "高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
+              "summary": "Agent Harness:组织推理、上下文管理、技能执行、验证和技能... #通用机器人智能体 #高德 #高德技术END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7346fa537984955971f95c94"
+                "local_4a2f0026044ac68002cc5e8f"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "title": "腾讯WorkBuddy实践:如何把Agent做成可用产品",
+              "summary": "AI Agent 的上下文策略设计与落地,是腾讯内部「上下文工程」方向最贴近一线的实践者之一.文章不堆叠概念,而是沿着\"模型&mdash;上...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f7753e3e361ff5a0ac8d819"
+                "local_52f8520946a69376ae254632"
               ],
               "confidence": 92
             },
             {
-              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
+              "title": "DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖",
+              "summary": "RAG 到 Context Engineering 的范式演进● Schema 强制、结构化系统提示、元数据注入● 长上下文 vs 检索:百万 token 时代如何选择●...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_00f94db6af25f7f5ece0d876"
+                "local_f830d09ca1d8e6cddd17bcf4"
               ],
               "confidence": 92
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5f95c685b7cba52b8cef5c3f"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_de8383d0b532454bda832aaa"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Run Ray on TPU, Part 1: The foundations",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Ray 2.55 introduces official, first-class support for Google Cloud TPUs, enabling developers to run distributed Python workloads on Google's accelerators using the familiar Ray task-and-actor APIs. To handle the strict …",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_abb0dcba22812eb88be85fe0"
-              ],
-              "confidence": 74
             }
           ]
         },
@@ -340,22 +225,12 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0e84b4aa899e5832b88e7e6a"
-              ],
-              "confidence": 70
-            },
-            {
               "title": "喜报|得物算法团队:国际顶会论文录用&荣获AICon明星讲师!",
               "summary": "\"会思考\"|AICon 演讲整理4.得物 OceanBase 落地实践5.AI UITester:AI Native 的 UI 自动化测试新范式|得物技术\"扫码添加小助手微...",
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_0b3dfed8d9b2929764fff751"
+                "local_9402c3d29248486946c89024"
               ],
               "confidence": 90
             }
@@ -363,37 +238,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2eb893b7613fcaabef62bd1a",
-        "local_7346fa537984955971f95c94",
-        "local_2f7753e3e361ff5a0ac8d819",
-        "local_00f94db6af25f7f5ece0d876",
-        "local_494d32595b7f634711841f3f",
-        "local_5f95c685b7cba52b8cef5c3f",
-        "local_de8383d0b532454bda832aaa",
-        "local_8e9c4e818e045ee1f8c20ba0",
-        "local_abb0dcba22812eb88be85fe0",
-        "local_22ce6b42a383e45c7fc2dc65",
-        "local_6c763f9097f0d9b76ad4e0a8",
-        "local_4729e680d38fbb3c88e48a54",
-        "local_ed0608077b7eed7b7404e856",
-        "local_b35f7464441a1235028a971d",
-        "local_0e84b4aa899e5832b88e7e6a",
-        "local_517eba1566d0389e9cd9ce50",
-        "local_c1f19afc24322fadc9355e57",
-        "local_378fed0d73ffcfd3fc76b296",
-        "local_fe8e3e23f963a6445c74e0d9",
-        "local_b5dfef9068428b5068d15884",
-        "local_9c34adb66a7ece17a96dac72",
-        "local_ec28965a42aa6bdcbe286432",
-        "local_0b3dfed8d9b2929764fff751"
+        "local_4a2f0026044ac68002cc5e8f",
+        "local_52f8520946a69376ae254632",
+        "local_f830d09ca1d8e6cddd17bcf4",
+        "local_9402c3d29248486946c89024"
       ],
-      "generatedAt": "2026-07-24T14:18:37.106Z",
+      "generatedAt": "2026-07-24T16:15:35.642Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-24T14:18:37.106Z",
+  "generatedAt": "2026-07-24T16:15:35.642Z",
   "collectorName": "local-source-collector"
 }
