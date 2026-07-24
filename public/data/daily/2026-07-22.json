@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How news organizations are using AI to advance their vital missions",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Solar Open 2 Technical Report"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术"
       ],
       "watchItems": [
         "跟进：How news organizations are using AI to advance their vital missions",
-        "跟进：PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning",
-        "跟进：Solar Open 2 Technical Report",
         "跟进：SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up",
-        "跟进：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术"
+        "跟进：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
+        "跟进：RE-TRAC框架:让AI智能体＂记住＂失败经验",
+        "跟进：高德广告工程的AI Native知识库体系"
       ],
       "sections": [
         {
@@ -55,35 +55,30 @@
           ]
         },
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning",
-              "summary": "Long-horizon tasks require sustained perception, reasoning, and exploration, and are a persistent challenge for large language model (LLM) agents. This gap is reflected in their limited performance on continual learning benchmarks such as ARC-AGI-3, especially when models are ev…",
+              "title": "RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
+              "summary": "RAG(Retrieval-Augmented Generation,检索增强生成)正是用来解... 自动化测试新范式|得物技术5.从狂野代码到按目标生产:得物推荐 ...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f4305c295cf4f771277afa5d"
+                "local_6a6c1270ce2448c3cd03d82a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Solar Open 2 Technical Report",
-              "summary": "We present Solar Open 2, a 250B-A15B Mixture-of-Experts language model built for long-horizon agentic tasks, scaled up from Solar Open 1 (Solar Open 100B). To hold entire agent trajectories in a single context, Solar Open 2 reaches a 1M-token window through a hybrid attention st…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_05f9be7478b1074e45bc2f83"
-              ],
-              "confidence": 92
-            },
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "RE-TRAC框架:让AI智能体＂记住＂失败经验",
               "summary": "来自微软亚洲研究院、东南大学等机构的研究员们提出了一种全新... 智能体在每轮探索结束后压缩出结构化状态并传递给下一轮,使探...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6eaa46660a04f74a241d9ebb"
+                "local_db8d322f9a017ea01772dbfb"
               ],
               "confidence": 92
             },
@@ -93,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_69090aed150e91afea466810"
+                "local_90e734bd7b53dd96200a4d07"
               ],
               "confidence": 92
             },
@@ -103,41 +98,42 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9ae38b2b9c1f3c2a089abed"
+                "local_f47bb21f37e2e89f8f0fc612"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
+            },
             {
-              "title": "RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
-              "summary": "RAG(Retrieval-Augmented Generation,检索增强生成)正是用来解... 自动化测试新范式|得物技术5.从狂野代码到按目标生产:得物推荐 ...",
+              "title": "网易智企Data Agent实践入选信通院《智能体创新实践案例汇编》",
+              "summary": "网易智企凭借在企业级智能体领域的持续实践,从全国超300项申报中脱颖而出,共有三项成果入选.其中,网易智企联合恒丰银行打...",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ff604ac82a0dba3ae3b572bb"
+                "local_4184656663e8c3f82a8147de"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Agent 越能干,安全越难做?| 直播预告",
+              "summary": "Agent 越能干,安全越难做?腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践.直播介绍直播时间7月 22 日 20:00-...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b56c5c8ec7a5f5dc3af1526d"
+              ],
+              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_d6d1806b6ee0e83973e24a58",
-        "local_f4305c295cf4f771277afa5d",
-        "local_05f9be7478b1074e45bc2f83",
         "local_e908999355c83a463a69e8f8",
-        "local_ff604ac82a0dba3ae3b572bb",
-        "local_6eaa46660a04f74a241d9ebb",
-        "local_69090aed150e91afea466810",
-        "local_f9ae38b2b9c1f3c2a089abed",
+        "local_6a6c1270ce2448c3cd03d82a",
+        "local_db8d322f9a017ea01772dbfb",
+        "local_90e734bd7b53dd96200a4d07",
+        "local_f47bb21f37e2e89f8f0fc612",
         "local_4184656663e8c3f82a8147de",
-        "local_383f725ed853def17e58c0d9",
-        "local_9805ef56e0651fd7e34bec7d",
-        "local_e05e9d6e9def809dc636a96d",
+        "local_b56c5c8ec7a5f5dc3af1526d",
         "local_73aa2ca069066dbaf39befe2",
         "local_95c9a20a3802078e6d468f7f",
         "local_7572c2c230b3202107050523",
@@ -145,7 +141,7 @@
         "local_e61ddbdbe6ee0eb8d166f966",
         "local_b2f3c65db613b6e334ff6ced"
       ],
-      "generatedAt": "2026-07-23T23:47:14.906Z",
+      "generatedAt": "2026-07-24T01:19:21.371Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -204,7 +200,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_ff604ac82a0dba3ae3b572bb"
+                "local_6a6c1270ce2448c3cd03d82a"
               ],
               "confidence": 92
             }
@@ -219,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6eaa46660a04f74a241d9ebb"
+                "local_db8d322f9a017ea01772dbfb"
               ],
               "confidence": 92
             },
@@ -229,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_69090aed150e91afea466810"
+                "local_90e734bd7b53dd96200a4d07"
               ],
               "confidence": 92
             },
@@ -239,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9ae38b2b9c1f3c2a089abed"
+                "local_f47bb21f37e2e89f8f0fc612"
               ],
               "confidence": 92
             },
@@ -259,7 +255,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e05e9d6e9def809dc636a96d"
+                "local_b56c5c8ec7a5f5dc3af1526d"
               ],
               "confidence": 90
             }
@@ -268,25 +264,25 @@
       ],
       "referencedFeedItemIds": [
         "local_d6d1806b6ee0e83973e24a58",
-        "local_ff604ac82a0dba3ae3b572bb",
-        "local_6eaa46660a04f74a241d9ebb",
-        "local_69090aed150e91afea466810",
-        "local_f9ae38b2b9c1f3c2a089abed",
+        "local_6a6c1270ce2448c3cd03d82a",
+        "local_db8d322f9a017ea01772dbfb",
+        "local_90e734bd7b53dd96200a4d07",
+        "local_f47bb21f37e2e89f8f0fc612",
         "local_4184656663e8c3f82a8147de",
-        "local_e05e9d6e9def809dc636a96d",
+        "local_b56c5c8ec7a5f5dc3af1526d",
         "local_73aa2ca069066dbaf39befe2",
         "local_95c9a20a3802078e6d468f7f",
         "local_7572c2c230b3202107050523",
         "local_f447583b2443bdf27ab423ac",
         "local_e61ddbdbe6ee0eb8d166f966"
       ],
-      "generatedAt": "2026-07-23T23:47:14.906Z",
+      "generatedAt": "2026-07-24T01:19:21.371Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-23T23:47:14.907Z",
+  "generatedAt": "2026-07-24T01:19:21.371Z",
   "collectorName": "local-source-collector"
 }

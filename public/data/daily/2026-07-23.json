@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size」、「Nvidia bets physical AI can solve healthcare robotics&#8217; data problem」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size」、「Nvidia bets physical AI can solve healthcare robotics&#8217; data problem」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders"
       ],
       "watchItems": [
         "跟进：Poolside&#039;s Laguna S 2.1 is a small open-weight coding model that punches well above its size",
         "跟进：Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
+        "跟进：ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
         "跟进：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?",
-        "跟进：阿里开源 skill-up:让 Agent Skill 可评测可回归",
-        "跟进：一文带你看懂刚刚发布的\"北京智能体新政\",这是跟每个人都有关的10条."
+        "跟进：阿里开源 skill-up:让 Agent Skill 可评测可回归"
       ],
       "sections": [
         {
@@ -33,12 +33,32 @@
               "confidence": 92
             },
             {
+              "title": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
+              "summary": "The recent emergence of vibe-coding workflows is changing what coding agents are expected to do. Instead of merely completing code under fully specified instructions, agents are increasingly expected to transform incomplete product intent into working software by combining vario…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b7a4a8e943828bd586e503da"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "阿里开源 skill-up:让 Agent Skill 可评测可回归",
               "summary": "为此,阿里巴巴开源了skill-up:一个专门面向 Agent Skill 开发者的命令行评测框架.它的目标是「让 Agent Skill 的每一次迭代都可被...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_30c08c489a41944fbb6950e2"
+                "local_66e3b5d61af1a4f03e61e8c7"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Delivery, Not Storage: Cue-Anchored Working Memory as a Harness Property for Coding Agents",
+              "summary": "Coding agents ship with one kind of memory: documents. Instruction files, plan artifacts, and auto-written memory directories are deliberately authored and deliberately retrieved: the agent must choose to write them and choose to read them back. Human expertise runs on a second …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b0b297ab23a73614df530b11"
               ],
               "confidence": 92
             },
@@ -48,29 +68,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9c31091e6096b3049616e91c"
+                "local_9e59441e8aaa62005ffa73cb"
               ],
               "confidence": 90
-            },
-            {
-              "title": "一文讲透Agent三件套:MCP、Skill、Hook如何给大模型装上护栏",
-              "summary": "关注腾讯云开发者,一手技术干货提前解锁让 Agent 会干活不难,难的是让它干得安全、可控、有迹可循.prompt 约束是软的,Agent...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a4e8a900d289dac34ae5d24e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Quoting Thomas Ptacek",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f566964eff2fa34f40538d70"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -118,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a1e754ea16db0afd13330ea5"
+                "local_13f9f7352246f4e571694281"
               ],
               "confidence": 92
             },
@@ -168,10 +168,13 @@
       "referencedFeedItemIds": [
         "local_85bf0233b21ff86916fcc715",
         "local_4f70957fc2a7f220b6698d5f",
-        "local_a1e754ea16db0afd13330ea5",
-        "local_30c08c489a41944fbb6950e2",
-        "local_9c31091e6096b3049616e91c",
-        "local_a4e8a900d289dac34ae5d24e",
+        "local_b7a4a8e943828bd586e503da",
+        "local_13f9f7352246f4e571694281",
+        "local_66e3b5d61af1a4f03e61e8c7",
+        "local_b0b297ab23a73614df530b11",
+        "local_9e59441e8aaa62005ffa73cb",
+        "local_7b6c0ce816fcca96629d1e94",
+        "local_01c76dd6bab5e2759f91e46c",
         "local_56288e4840f1d30a85e1cea8",
         "local_372eaacdea1ef06c32ae1570",
         "local_bd233f95a3db7a0230456bae",
@@ -179,10 +182,11 @@
         "local_f566964eff2fa34f40538d70",
         "local_4d65c7fffd9ffb0ade345ca9",
         "local_36767c975eae9563e4db2afb",
+        "local_3b1d8d4db72a1b9caf96bf24",
         "local_2dcacfb3108fc9adf5e8c47e",
         "local_c289ac091e8612010e74a1ef"
       ],
-      "generatedAt": "2026-07-23T23:47:14.898Z",
+      "generatedAt": "2026-07-24T01:19:21.357Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -215,7 +219,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a1e754ea16db0afd13330ea5"
+                "local_13f9f7352246f4e571694281"
               ],
               "confidence": 92
             }
@@ -230,7 +234,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_30c08c489a41944fbb6950e2"
+                "local_66e3b5d61af1a4f03e61e8c7"
               ],
               "confidence": 92
             },
@@ -240,7 +244,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9c31091e6096b3049616e91c"
+                "local_9e59441e8aaa62005ffa73cb"
               ],
               "confidence": 90
             },
@@ -250,7 +254,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a4e8a900d289dac34ae5d24e"
+                "local_01c76dd6bab5e2759f91e46c"
               ],
               "confidence": 92
             }
@@ -258,18 +262,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a1e754ea16db0afd13330ea5",
-        "local_30c08c489a41944fbb6950e2",
-        "local_9c31091e6096b3049616e91c",
-        "local_a4e8a900d289dac34ae5d24e"
+        "local_13f9f7352246f4e571694281",
+        "local_66e3b5d61af1a4f03e61e8c7",
+        "local_9e59441e8aaa62005ffa73cb",
+        "local_01c76dd6bab5e2759f91e46c"
       ],
-      "generatedAt": "2026-07-23T23:47:14.898Z",
+      "generatedAt": "2026-07-24T01:19:21.357Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-23T23:47:14.898Z",
+  "generatedAt": "2026-07-24T01:19:21.357Z",
   "collectorName": "local-source-collector"
 }
