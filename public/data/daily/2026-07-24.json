@@ -53,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cf8d52cda8d3809454395e5e"
+                "local_381c280aa453d12ef4f93334"
               ],
               "confidence": 92
             },
@@ -63,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_595b4a5e5130b736143a8a6c"
+                "local_7ddc6cb9d1afe662c1866195"
               ],
               "confidence": 92
             },
@@ -88,12 +88,12 @@
               "confidence": 92
             },
             {
-              "title": "Multi-Turn On-Policy Distillation with Prefix Replay",
-              "summary": "We study on-policy distillation (OPD) for agentic tasks, where an LLM agent interacts with an environment over multiple turns and a student imitates a teacher over these multi-turn interaction histories. Fully online OPD is costly because each update requires fresh student rollo…",
+              "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+              "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make agents hard to train end-to-end with open infrastructure, wh…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c2530d2a7a23176e5df9b162"
+                "local_60c909bc86056b80d0b9bbc6"
               ],
               "confidence": 92
             }
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_c5b82b64019553e49b17dd02"
+                "local_f213f19e6daee6923a57a96a"
               ],
               "confidence": 90
             },
@@ -121,36 +121,26 @@
                 "local_384370e9ffef9aed53aba898"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Self-Supervised Learning of Structured Dynamics from Videos",
-              "summary": "Understanding motion in video is a fundamental challenge for visual learning, as frame-to-frame change entangles two sources of dynamics: camera motion and object motion. This decomposition has remained underexplored in representation learning, partly because these factors are t…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e7402e5cb4b13c5eb75dc30e"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_521b046c5099c23e28285c24",
-        "local_cf8d52cda8d3809454395e5e",
+        "local_381c280aa453d12ef4f93334",
         "local_230fa83c3adef7713d13a910",
-        "local_595b4a5e5130b736143a8a6c",
+        "local_7ddc6cb9d1afe662c1866195",
         "local_16020a5f9e2eef155898bc42",
         "local_bd7f63c67c510490066342da",
-        "local_c5b82b64019553e49b17dd02",
+        "local_f213f19e6daee6923a57a96a",
+        "local_60c909bc86056b80d0b9bbc6",
         "local_384370e9ffef9aed53aba898",
         "local_c2530d2a7a23176e5df9b162",
         "local_9984f4b293aa6d515e8f3581",
-        "local_e7402e5cb4b13c5eb75dc30e",
         "local_e4c5076c6b78528c5d642ada",
         "local_15402f8340ef5ad5cd75c375"
       ],
-      "generatedAt": "2026-07-24T22:49:26.676Z",
+      "generatedAt": "2026-07-25T00:22:18.360Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -183,7 +173,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cf8d52cda8d3809454395e5e"
+                "local_381c280aa453d12ef4f93334"
               ],
               "confidence": 92
             },
@@ -193,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_595b4a5e5130b736143a8a6c"
+                "local_7ddc6cb9d1afe662c1866195"
               ],
               "confidence": 92
             },
@@ -218,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_c5b82b64019553e49b17dd02"
+                "local_f213f19e6daee6923a57a96a"
               ],
               "confidence": 90
             }
@@ -226,18 +216,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_cf8d52cda8d3809454395e5e",
-        "local_595b4a5e5130b736143a8a6c",
+        "local_381c280aa453d12ef4f93334",
+        "local_7ddc6cb9d1afe662c1866195",
         "local_bd7f63c67c510490066342da",
-        "local_c5b82b64019553e49b17dd02"
+        "local_f213f19e6daee6923a57a96a"
       ],
-      "generatedAt": "2026-07-24T22:49:26.676Z",
+      "generatedAt": "2026-07-25T00:22:18.360Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-24T22:49:26.676Z",
+  "generatedAt": "2026-07-25T00:22:18.360Z",
   "collectorName": "local-source-collector"
 }
