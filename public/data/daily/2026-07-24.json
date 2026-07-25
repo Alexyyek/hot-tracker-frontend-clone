@@ -5,35 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-07-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German」、「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」、「腾讯WorkBuddy实践:如何把Agent做成可用产品」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯WorkBuddy实践:如何把Agent做成可用产品"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯WorkBuddy实践:如何把Agent做成可用产品",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Presence sells enterprise AI agents with engineers attached"
       ],
       "watchItems": [
-        "跟进：German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
         "跟进：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
         "跟进：腾讯WorkBuddy实践:如何把Agent做成可用产品",
         "跟进：OpenAI Presence sells enterprise AI agents with engineers attached",
-        "跟进：DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖"
+        "跟进：DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖",
+        "跟进：喜报|得物算法团队:国际顶会论文录用&荣获AICon明星讲师!"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The German consortium behind the AI model Soofi S has acknowledged in version 3.0 of its tech report that test questions from the science benchmark GPQA accidentally ended up in the training data. The community caught t…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_521b046c5099c23e28285c24"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -43,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e742e258df5c88eda0261a07"
+                "local_115b2124242cada73abbbf04"
               ],
               "confidence": 92
             },
@@ -53,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_24227b12315f26a49564ab4e"
+                "local_43ecf33346dca3a564c5538b"
               ],
               "confidence": 92
             },
@@ -98,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_8a566e1b1cf693adf035bcae"
+                "local_d36ab1f395dada317fffc91b"
               ],
               "confidence": 90
             },
@@ -116,12 +101,11 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_521b046c5099c23e28285c24",
-        "local_e742e258df5c88eda0261a07",
-        "local_24227b12315f26a49564ab4e",
+        "local_115b2124242cada73abbbf04",
+        "local_43ecf33346dca3a564c5538b",
         "local_16020a5f9e2eef155898bc42",
         "local_bd7f63c67c510490066342da",
-        "local_8a566e1b1cf693adf035bcae",
+        "local_d36ab1f395dada317fffc91b",
         "local_60c909bc86056b80d0b9bbc6",
         "local_384370e9ffef9aed53aba898",
         "local_c2530d2a7a23176e5df9b162",
@@ -129,7 +113,7 @@
         "local_e4c5076c6b78528c5d642ada",
         "local_15402f8340ef5ad5cd75c375"
       ],
-      "generatedAt": "2026-07-25T10:23:53.475Z",
+      "generatedAt": "2026-07-25T11:56:42.013Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -162,7 +146,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e742e258df5c88eda0261a07"
+                "local_115b2124242cada73abbbf04"
               ],
               "confidence": 92
             },
@@ -172,7 +156,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_24227b12315f26a49564ab4e"
+                "local_43ecf33346dca3a564c5538b"
               ],
               "confidence": 92
             },
@@ -197,7 +181,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_8a566e1b1cf693adf035bcae"
+                "local_d36ab1f395dada317fffc91b"
               ],
               "confidence": 90
             }
@@ -205,18 +189,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e742e258df5c88eda0261a07",
-        "local_24227b12315f26a49564ab4e",
+        "local_115b2124242cada73abbbf04",
+        "local_43ecf33346dca3a564c5538b",
         "local_bd7f63c67c510490066342da",
-        "local_8a566e1b1cf693adf035bcae"
+        "local_d36ab1f395dada317fffc91b"
       ],
-      "generatedAt": "2026-07-25T10:23:53.475Z",
+      "generatedAt": "2026-07-25T11:56:42.013Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-25T10:23:53.475Z",
+  "generatedAt": "2026-07-25T11:56:42.014Z",
   "collectorName": "local-source-collector"
 }
