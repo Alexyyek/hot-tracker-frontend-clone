@@ -5,40 +5,85 @@
       "topicId": "ai",
       "reportDate": "2026-07-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：所有Harness终将长成“龙虾”，但最后活下来的只有几只"
       ],
       "watchItems": [
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Moonshot AI - 博客",
+        "跟进：MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
+              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c79b12a870e40753924f4329"
+                "local_34572cd48a0dd31497d9b069"
               ],
               "confidence": 92
             },
+            {
+              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5d0bfc0c4bc3981b3697eee1"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
+              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_375b7e8371b33c7d924641b4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0dde0da15f5e2966ab9da89f"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d50b08857f43acea953372d5"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
               "title": "Moonshot AI - 博客",
               "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_57d17a37e6402192086c796c"
+                "local_abfe39b3ac163de5581272bf"
               ],
               "confidence": 78
             },
@@ -58,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_8bbdb82274ae372b5115efd1"
+                "local_52d28a8ccebc0d74413a8ab4"
               ],
               "confidence": 92
             },
@@ -68,64 +113,19 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1434b0680077287df03081a2"
+                "local_efb06fc7179a1f9051823903"
               ],
               "confidence": 78
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
+            },
             {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
+              "title": "ByteDance Seed",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_8c4dd897e3cf520383b00e1c"
+                "local_181d5fc4d3fbcd2608e86dbd"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d2bc98683eea9d94bf07f784"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_93bd89a86280cd6927edbaca"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_70d03ca821ee6e5fe29ad74e"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3987873bcdd7eaf4053199fd"
-              ],
-              "confidence": 70
             }
           ]
         },
@@ -153,7 +153,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bf899c04132955c872ec9600"
+                "local_7afd101304570a7c56493834"
               ],
               "confidence": 70
             }
@@ -161,32 +161,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c79b12a870e40753924f4329",
-        "local_8c4dd897e3cf520383b00e1c",
-        "local_d2bc98683eea9d94bf07f784",
-        "local_93bd89a86280cd6927edbaca",
-        "local_57d17a37e6402192086c796c",
-        "local_70d03ca821ee6e5fe29ad74e",
-        "local_3987873bcdd7eaf4053199fd",
-        "local_6c763f9097f0d9b76ad4e0a8",
-        "local_8b92e339216dac9cd5932d34",
+        "local_34572cd48a0dd31497d9b069",
+        "local_5d0bfc0c4bc3981b3697eee1",
+        "local_375b7e8371b33c7d924641b4",
+        "local_abfe39b3ac163de5581272bf",
+        "local_0dde0da15f5e2966ab9da89f",
+        "local_d50b08857f43acea953372d5",
         "local_8e9c4e818e045ee1f8c20ba0",
         "local_abb0dcba22812eb88be85fe0",
-        "local_fafdd01c83f8726af3289047",
-        "local_5f0b36b07c9da6dbc897c0d1",
-        "local_6aec1dd2d0da11aa90b36f82",
-        "local_a074a56ea2c97c2406322e32",
-        "local_8bbdb82274ae372b5115efd1",
-        "local_1a904966830b4e0ef7be101d",
-        "local_d72fac2a5d63bf0f76261a9d",
-        "local_2b8d617a5a3bda3108deabcc",
-        "local_5355f85ded7f4d2b5866cd7f",
-        "local_1434b0680077287df03081a2",
-        "local_6d0b7dc119fa79fd856542cc",
-        "local_1ae37e381b054056789a582b",
-        "local_bf899c04132955c872ec9600"
+        "local_6c763f9097f0d9b76ad4e0a8",
+        "local_8b92e339216dac9cd5932d34",
+        "local_b9e3897bfec059987a29e220",
+        "local_168687d8b83ef3288c78450c",
+        "local_feb1291d7d793a539ea46733",
+        "local_49f3fcb3a61398b74bd6cc10",
+        "local_52d28a8ccebc0d74413a8ab4",
+        "local_068508ffc5530f258f7e669a",
+        "local_25d33a559f91b4a1dc87a3a9",
+        "local_a0c01909b3f5d41afdcff8b1",
+        "local_9ecd92b19b1032dd14ff715e",
+        "local_efb06fc7179a1f9051823903",
+        "local_181d5fc4d3fbcd2608e86dbd",
+        "local_e29f0e87dc056e5e6335853a",
+        "local_7afd101304570a7c56493834",
+        "local_0bd83ee1d57ebc068597a483"
       ],
-      "generatedAt": "2026-07-26T09:30:41.182Z",
+      "generatedAt": "2026-07-26T11:15:37.366Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,40 +197,85 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：所有Harness终将长成“龙虾”，但最后活下来的只有几只"
       ],
       "watchItems": [
-        "跟进：AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Moonshot AI - 博客",
+        "跟进：MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI Infra 拼什么？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "AI Infra 拼什么？模型越强，Infra 越关键！华为、vLLM、范式智能的 3 位专家同台，拆解推理工程与 AI Infra 的下一个战场。",
+              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c79b12a870e40753924f4329"
+                "local_34572cd48a0dd31497d9b069"
               ],
               "confidence": 92
             },
+            {
+              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5d0bfc0c4bc3981b3697eee1"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
+              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_375b7e8371b33c7d924641b4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0dde0da15f5e2966ab9da89f"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d50b08857f43acea953372d5"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
               "title": "Moonshot AI - 博客",
               "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_57d17a37e6402192086c796c"
+                "local_abfe39b3ac163de5581272bf"
               ],
               "confidence": 78
             },
@@ -250,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1434b0680077287df03081a2"
+                "local_efb06fc7179a1f9051823903"
               ],
               "confidence": 78
             },
@@ -260,64 +305,19 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6d0b7dc119fa79fd856542cc"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Harness Engineering 构建可靠 Agent_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Harness Engineering 构建可靠 AgentAgent 越来越强，为什么依然不够可靠？一起聊聊 Harness Engineering 的实践与思考。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8c4dd897e3cf520383b00e1c"
+                "local_181d5fc4d3fbcd2608e86dbd"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "title": "Bytedance Seed-AI for Science",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d2bc98683eea9d94bf07f784"
+                "local_e29f0e87dc056e5e6335853a"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "所有Harness终将长成“龙虾”，但最后活下来的只有几只",
-              "summary": "还没搞懂Harness就过时了？Mastra创始人谈 Agent 终局：AI助手的下一形态是“Claw”",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_93bd89a86280cd6927edbaca"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_70d03ca821ee6e5fe29ad74e"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3987873bcdd7eaf4053199fd"
-              ],
-              "confidence": 70
+              "confidence": 78
             }
           ]
         },
@@ -345,7 +345,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bf899c04132955c872ec9600"
+                "local_7afd101304570a7c56493834"
               ],
               "confidence": 70
             }
@@ -353,33 +353,33 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c79b12a870e40753924f4329",
-        "local_8c4dd897e3cf520383b00e1c",
-        "local_d2bc98683eea9d94bf07f784",
-        "local_93bd89a86280cd6927edbaca",
-        "local_57d17a37e6402192086c796c",
-        "local_70d03ca821ee6e5fe29ad74e",
-        "local_3987873bcdd7eaf4053199fd",
-        "local_6c763f9097f0d9b76ad4e0a8",
-        "local_8b92e339216dac9cd5932d34",
+        "local_34572cd48a0dd31497d9b069",
+        "local_5d0bfc0c4bc3981b3697eee1",
+        "local_375b7e8371b33c7d924641b4",
+        "local_abfe39b3ac163de5581272bf",
+        "local_0dde0da15f5e2966ab9da89f",
+        "local_d50b08857f43acea953372d5",
         "local_8e9c4e818e045ee1f8c20ba0",
         "local_abb0dcba22812eb88be85fe0",
-        "local_1434b0680077287df03081a2",
-        "local_6d0b7dc119fa79fd856542cc",
-        "local_1ae37e381b054056789a582b",
-        "local_bf899c04132955c872ec9600",
-        "local_52c1831fea7ec6d426ee4eba",
-        "local_a9b04a54c5841a029eb5ec52",
-        "local_904c6ada02c4186384339957",
-        "local_a6e55db0cb5ba0278d0c674f"
+        "local_6c763f9097f0d9b76ad4e0a8",
+        "local_8b92e339216dac9cd5932d34",
+        "local_efb06fc7179a1f9051823903",
+        "local_181d5fc4d3fbcd2608e86dbd",
+        "local_e29f0e87dc056e5e6335853a",
+        "local_7afd101304570a7c56493834",
+        "local_0bd83ee1d57ebc068597a483",
+        "local_1ec32163bb2334b0a6180a03",
+        "local_b0e90d4426389f741b5b362b",
+        "local_23d6e4fbdd5e8c50c4f527ad",
+        "local_c79b12a870e40753924f4329"
       ],
-      "generatedAt": "2026-07-26T09:30:41.182Z",
+      "generatedAt": "2026-07-26T11:15:37.366Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-26T09:30:41.183Z",
+  "generatedAt": "2026-07-26T11:15:37.367Z",
   "collectorName": "local-source-collector"
 }

@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face」、「Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face」、「Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Opus 5 delivers near-Fable 5 performance at half the token price"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JiuwenSwarm开源统一工作台来了,引领智能体人机协同新范式!"
       ],
       "watchItems": [
         "跟进：New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face",
         "跟进：Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
-        "跟进：Anthropic&#039;s Claude Opus 5 delivers near-Fable 5 performance at half the token price",
         "跟进：JiuwenSwarm开源统一工作台来了,引领智能体人机协同新范式!",
-        "跟进：Quoting Boris Cherny"
+        "跟进：Quoting Boris Cherny",
+        "跟进：Introducing Claude Opus 5"
       ],
       "sections": [
         {
@@ -68,22 +68,12 @@
               "confidence": 92
             },
             {
-              "title": "Anthropic&#039;s Claude Opus 5 delivers near-Fable 5 performance at half the token price",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic's new flagship model Claude Opus 5 posts top scores in coding and knowledge work at half of Fable 5's token rates. On ARC-AGI-3, a benchmark for novel problem-solving, Opus 5 hits 30.2 percent, nearly four tim…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_593653cb060fa455487cc7f6"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "JiuwenSwarm开源统一工作台来了,引领智能体人机协同新范式!",
               "summary": "机器之心发布最近,AI 技术圈又在热烈讨论一个新词:Graph Engineering(图工程)&mdash;&mdash; 把多智能体组织本身当成一张可编程的图来...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_edcac2a93e5da61c5c9ba84d"
+                "local_f26c57ddcdf771c17b51ccec"
               ],
               "confidence": 92
             }
@@ -108,13 +98,12 @@
       "referencedFeedItemIds": [
         "local_65f097f0719b2f15c25b50f7",
         "local_e9e468e0d95c79c2162dd2c7",
-        "local_593653cb060fa455487cc7f6",
-        "local_edcac2a93e5da61c5c9ba84d",
+        "local_f26c57ddcdf771c17b51ccec",
         "local_247b4cba6442fcb0c7405e22",
         "local_f682596d4553ce5ee5ba82d5",
         "local_f80d1b145418996bb1d6b32b"
       ],
-      "generatedAt": "2026-07-26T09:30:41.192Z",
+      "generatedAt": "2026-07-26T11:15:37.377Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -142,7 +131,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_edcac2a93e5da61c5c9ba84d"
+                "local_f26c57ddcdf771c17b51ccec"
               ],
               "confidence": 92
             }
@@ -150,15 +139,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_edcac2a93e5da61c5c9ba84d"
+        "local_f26c57ddcdf771c17b51ccec"
       ],
-      "generatedAt": "2026-07-26T09:30:41.192Z",
+      "generatedAt": "2026-07-26T11:15:37.377Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-26T09:30:41.192Z",
+  "generatedAt": "2026-07-26T11:15:37.377Z",
   "collectorName": "local-source-collector"
 }
