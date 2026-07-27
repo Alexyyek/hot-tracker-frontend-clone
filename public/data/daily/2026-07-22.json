@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How news organizations are using AI to advance their vital missions",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RE-TRAC框架:让AI智能体＂记住＂失败经验"
       ],
       "watchItems": [
         "跟进：How news organizations are using AI to advance their vital missions",
         "跟进：SenseTime&#8217;s Galaxy Project targets domestic AI chip scale-up",
-        "跟进：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
         "跟进：RE-TRAC框架:让AI智能体＂记住＂失败经验",
-        "跟进：跳出自我确认陷阱:浙大发布EDV框架,开启大模型智能体进化新路径"
+        "跟进：跳出自我确认陷阱:浙大发布EDV框架,开启大模型智能体进化新路径",
+        "跟进：网易智企Data Agent实践入选信通院《智能体创新实践案例汇编》"
       ],
       "sections": [
         {
@@ -55,21 +55,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
-              "summary": "RAG(Retrieval-Augmented Generation,检索增强生成)正是用来解... 自动化测试新范式|得物技术5.从狂野代码到按目标生产:得物推荐 ...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_89abfaaf31bdff67cc9e0816"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
             {
@@ -78,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aff9bbddf3e724145225758f"
+                "local_52c9da7b156fbf91137c5f06"
               ],
               "confidence": 92
             },
@@ -88,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b2ddecae8829b14f69fa13ea"
+                "local_7a48021db12aafb9ff440d89"
               ],
               "confidence": 92
             },
@@ -108,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d75634716a70e874f5430a51"
+                "local_fc9d3750d5c9140f8063547b"
               ],
               "confidence": 90
             },
@@ -128,18 +113,17 @@
       "referencedFeedItemIds": [
         "local_d6d1806b6ee0e83973e24a58",
         "local_e908999355c83a463a69e8f8",
-        "local_89abfaaf31bdff67cc9e0816",
-        "local_aff9bbddf3e724145225758f",
-        "local_b2ddecae8829b14f69fa13ea",
+        "local_52c9da7b156fbf91137c5f06",
+        "local_7a48021db12aafb9ff440d89",
         "local_418116fe32173b3968c65fde",
-        "local_d75634716a70e874f5430a51",
+        "local_fc9d3750d5c9140f8063547b",
         "local_73aa2ca069066dbaf39befe2",
         "local_95c9a20a3802078e6d468f7f",
         "local_7572c2c230b3202107050523",
         "local_f447583b2443bdf27ab423ac",
         "local_e61ddbdbe6ee0eb8d166f966"
       ],
-      "generatedAt": "2026-07-27T11:46:07.971Z",
+      "generatedAt": "2026-07-27T14:07:23.449Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -150,18 +134,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「How news organizations are using AI to advance their vital missions」、「RE-TRAC框架:让AI智能体＂记住＂失败经验」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How news organizations are using AI to advance their vital missions",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RE-TRAC框架:让AI智能体＂记住＂失败经验"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RE-TRAC框架:让AI智能体＂记住＂失败经验",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：跳出自我确认陷阱:浙大发布EDV框架,开启大模型智能体进化新路径"
       ],
       "watchItems": [
         "跟进：How news organizations are using AI to advance their vital missions",
-        "跟进：RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
         "跟进：RE-TRAC框架:让AI智能体＂记住＂失败经验",
         "跟进：跳出自我确认陷阱:浙大发布EDV框架,开启大模型智能体进化新路径",
-        "跟进：网易智企Data Agent实践入选信通院《智能体创新实践案例汇编》"
+        "跟进：网易智企Data Agent实践入选信通院《智能体创新实践案例汇编》",
+        "跟进：Agent 越能干,安全越难做?| 直播预告"
       ],
       "sections": [
         {
@@ -190,21 +174,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "RAG 核心概念与原理:Chunking、Embedding、相似度、HNSW 与多路召回|得物技术",
-              "summary": "RAG(Retrieval-Augmented Generation,检索增强生成)正是用来解... 自动化测试新范式|得物技术5.从狂野代码到按目标生产:得物推荐 ...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_89abfaaf31bdff67cc9e0816"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
             {
@@ -213,7 +182,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aff9bbddf3e724145225758f"
+                "local_52c9da7b156fbf91137c5f06"
               ],
               "confidence": 92
             },
@@ -223,7 +192,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b2ddecae8829b14f69fa13ea"
+                "local_7a48021db12aafb9ff440d89"
               ],
               "confidence": 92
             },
@@ -243,7 +212,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d75634716a70e874f5430a51"
+                "local_fc9d3750d5c9140f8063547b"
               ],
               "confidence": 90
             },
@@ -262,24 +231,23 @@
       ],
       "referencedFeedItemIds": [
         "local_d6d1806b6ee0e83973e24a58",
-        "local_89abfaaf31bdff67cc9e0816",
-        "local_aff9bbddf3e724145225758f",
-        "local_b2ddecae8829b14f69fa13ea",
+        "local_52c9da7b156fbf91137c5f06",
+        "local_7a48021db12aafb9ff440d89",
         "local_418116fe32173b3968c65fde",
-        "local_d75634716a70e874f5430a51",
+        "local_fc9d3750d5c9140f8063547b",
         "local_73aa2ca069066dbaf39befe2",
         "local_95c9a20a3802078e6d468f7f",
         "local_7572c2c230b3202107050523",
         "local_f447583b2443bdf27ab423ac",
         "local_e61ddbdbe6ee0eb8d166f966"
       ],
-      "generatedAt": "2026-07-27T11:46:07.971Z",
+      "generatedAt": "2026-07-27T14:07:23.449Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-27T11:46:07.971Z",
+  "generatedAt": "2026-07-27T14:07:23.449Z",
   "collectorName": "local-source-collector"
 }
