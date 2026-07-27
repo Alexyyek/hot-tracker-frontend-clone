@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「实测腾讯首个设计Agent Miora,13个真实场景把品牌设计全案包圆了」、「Nvidia bets physical AI can solve healthcare robotics&#8217; data problem」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「实测腾讯首个设计Agent Miora,13个真实场景把品牌设计全案包圆了」、「Nvidia bets physical AI can solve healthcare robotics&#8217; data problem」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：实测腾讯首个设计Agent Miora,13个真实场景把品牌设计全案包圆了",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?"
       ],
       "watchItems": [
         "跟进：实测腾讯首个设计Agent Miora,13个真实场景把品牌设计全案包圆了",
         "跟进：Nvidia bets physical AI can solve healthcare robotics&#8217; data problem",
-        "跟进：ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
         "跟进：卡帕西力推的 LLM Wiki,会淘汰传统 RAG 吗?",
-        "跟进：阿里开源 skill-up:让 Agent Skill 可评测可回归"
+        "跟进：阿里开源 skill-up:让 Agent Skill 可评测可回归",
+        "跟进：专访郭列:做出脸萌、FaceU、剪映等爆款后,他第一次阐释如何在AI时代做产品"
       ],
       "sections": [
         {
@@ -28,17 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_13aa1ea557cc9aadd394c609"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders",
-              "summary": "The recent emergence of vibe-coding workflows is changing what coding agents are expected to do. Instead of merely completing code under fully specified instructions, agents are increasingly expected to transform incomplete product intent into working software by combining vario…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b7a4a8e943828bd586e503da"
+                "local_45a0caacc8aa4e810683d8a0"
               ],
               "confidence": 92
             },
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_be84b055ed033193d981776d"
+                "local_f53a6ff223e2cb06a56aa717"
               ],
               "confidence": 92
             },
@@ -58,17 +48,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e8c3a2d919036b319926b3f"
+                "local_3a23939d4a63ca2eb4662175"
               ],
               "confidence": 86
             },
             {
-              "title": "Delivery, Not Storage: Cue-Anchored Working Memory as a Harness Property for Coding Agents",
-              "summary": "Coding agents ship with one kind of memory: documents. Instruction files, plan artifacts, and auto-written memory directories are deliberately authored and deliberately retrieved: the agent must choose to write them and choose to read them back. Human expertise runs on a second …",
+              "title": "一文带你看懂刚刚发布的\"北京智能体新政\",这是跟每个人都有关的10条.",
+              "summary": "多智能体协同和记忆,全放在第一条里.这些词共同指向一种新的... 它高度数字化,Git可以回滚,测试可以验证,所有动作几乎都能...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b0b297ab23a73614df530b11"
+                "local_9e59441e8aaa62005ffa73cb"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "一文讲透Agent三件套:MCP、Skill、Hook如何给大模型装上护栏",
+              "summary": "关注腾讯云开发者,一手技术干货提前解锁让 Agent 会干活不难,难的是让它干得安全、可控、有迹可循.prompt 约束是软的,Agent...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_47ef25e15c1e3316d6787cb7"
               ],
               "confidence": 92
             }
@@ -98,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e78af1d606bc8bc81c65b274"
+                "local_1b369069adc106889b9ed09d"
               ],
               "confidence": 92
             }
@@ -106,20 +106,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_13aa1ea557cc9aadd394c609",
+        "local_45a0caacc8aa4e810683d8a0",
         "local_4f70957fc2a7f220b6698d5f",
-        "local_b7a4a8e943828bd586e503da",
-        "local_e78af1d606bc8bc81c65b274",
-        "local_be84b055ed033193d981776d",
-        "local_9e8c3a2d919036b319926b3f",
-        "local_b0b297ab23a73614df530b11",
+        "local_1b369069adc106889b9ed09d",
+        "local_f53a6ff223e2cb06a56aa717",
+        "local_3a23939d4a63ca2eb4662175",
         "local_9e59441e8aaa62005ffa73cb",
-        "local_7b6c0ce816fcca96629d1e94",
-        "local_c5f876d71a70ddecbf34e14d",
-        "local_3b1d8d4db72a1b9caf96bf24",
+        "local_47ef25e15c1e3316d6787cb7",
         "local_2dcacfb3108fc9adf5e8c47e"
       ],
-      "generatedAt": "2026-07-27T08:14:40.723Z",
+      "generatedAt": "2026-07-27T11:46:07.960Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -153,7 +149,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e78af1d606bc8bc81c65b274"
+                "local_1b369069adc106889b9ed09d"
               ],
               "confidence": 92
             }
@@ -168,7 +164,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_be84b055ed033193d981776d"
+                "local_f53a6ff223e2cb06a56aa717"
               ],
               "confidence": 92
             },
@@ -178,7 +174,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e8c3a2d919036b319926b3f"
+                "local_3a23939d4a63ca2eb4662175"
               ],
               "confidence": 86
             },
@@ -198,7 +194,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c5f876d71a70ddecbf34e14d"
+                "local_47ef25e15c1e3316d6787cb7"
               ],
               "confidence": 92
             }
@@ -206,19 +202,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e78af1d606bc8bc81c65b274",
-        "local_be84b055ed033193d981776d",
-        "local_9e8c3a2d919036b319926b3f",
+        "local_1b369069adc106889b9ed09d",
+        "local_f53a6ff223e2cb06a56aa717",
+        "local_3a23939d4a63ca2eb4662175",
         "local_9e59441e8aaa62005ffa73cb",
-        "local_c5f876d71a70ddecbf34e14d"
+        "local_47ef25e15c1e3316d6787cb7"
       ],
-      "generatedAt": "2026-07-27T08:14:40.723Z",
+      "generatedAt": "2026-07-27T11:46:07.960Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-27T08:14:40.723Z",
+  "generatedAt": "2026-07-27T11:46:07.960Z",
   "collectorName": "local-source-collector"
 }

@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」、「腾讯WorkBuddy实践:如何把Agent做成可用产品」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」、「腾讯WorkBuddy实践:如何把Agent做成可用产品」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯WorkBuddy实践:如何把Agent做成可用产品",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Presence sells enterprise AI agents with engineers attached"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Mode"
       ],
       "watchItems": [
         "跟进：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
         "跟进：腾讯WorkBuddy实践:如何把Agent做成可用产品",
+        "跟进：Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Mode",
         "跟进：OpenAI Presence sells enterprise AI agents with engineers attached",
-        "跟进：DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖",
-        "跟进：喜报|得物算法团队:国际顶会论文录用&荣获AICon明星讲师!"
+        "跟进：\"Go Home Copilot, You're Drunk\": Understanding Developer Responses to Agent-Generated Code Review Comments"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2805d5f7fb7f9b0d37457a14"
+                "local_818f65fd992ff154d8f89d11"
               ],
               "confidence": 92
             },
@@ -38,7 +38,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4afe67982a872b4ac3e2cebe"
+                "local_79724a2e2262fe4100e0d42d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Nanbeige4.2-3B: Unlocking Agentic Capabilities in a Compact Mode",
+              "summary": "We present Nanbeige4.2-3B, a compact general agentic model with 3B non-embedding parameters. It delivers strong performance across code-agent, office-agent, and complex tool-use tasks while maintaining highly competitive reasoning capabilities in mathematics, coding, and science…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_772f28bb0034feb12834b840"
               ],
               "confidence": 92
             },
@@ -53,24 +63,14 @@
               "confidence": 92
             },
             {
-              "title": "DACon北京站大会启动:语义层、上下文工程、Agentic RAG、数据工程等技术全覆盖",
-              "summary": "RAG 到 Context Engineering 的范式演进● Schema 强制、结构化系统提示、元数据注入● 长上下文 vs 检索:百万 token 时代如何选择●...",
+              "title": "\"Go Home Copilot, You're Drunk\": Understanding Developer Responses to Agent-Generated Code Review Comments",
+              "summary": "Code review is a critical quality assurance practice in software engineering development, and AI coding agents are increasingly generating review comments on pull requests. However, little is known about how developers actually respond to such agent-generated feedback. In this p…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3158a6ab29c687105c9ae1dd"
+                "local_f329fb4663f0059ed4782bfe"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Classifiers: Track What Your Agents Do and What It Costs — OpenRouter Blog",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Define a taxonomy and a small model tags every generation in your workspace by department, task type, or agent complexity. Filter your logs and group your Activ",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e4c5076c6b78528c5d642ada"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_d4a851e35823b04e5614d1ac"
+                "local_d28ff019453cb01e81bf2e3e"
               ],
               "confidence": 90
             }
@@ -91,14 +91,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2805d5f7fb7f9b0d37457a14",
-        "local_4afe67982a872b4ac3e2cebe",
+        "local_818f65fd992ff154d8f89d11",
+        "local_79724a2e2262fe4100e0d42d",
+        "local_772f28bb0034feb12834b840",
         "local_16020a5f9e2eef155898bc42",
+        "local_f329fb4663f0059ed4782bfe",
         "local_3158a6ab29c687105c9ae1dd",
-        "local_d4a851e35823b04e5614d1ac",
+        "local_d28ff019453cb01e81bf2e3e",
+        "local_8c45974c831617c8cb3ea462",
         "local_e4c5076c6b78528c5d642ada"
       ],
-      "generatedAt": "2026-07-27T08:14:40.714Z",
+      "generatedAt": "2026-07-27T11:46:07.949Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -131,7 +134,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2805d5f7fb7f9b0d37457a14"
+                "local_818f65fd992ff154d8f89d11"
               ],
               "confidence": 92
             },
@@ -141,7 +144,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4afe67982a872b4ac3e2cebe"
+                "local_79724a2e2262fe4100e0d42d"
               ],
               "confidence": 92
             },
@@ -166,7 +169,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_d4a851e35823b04e5614d1ac"
+                "local_d28ff019453cb01e81bf2e3e"
               ],
               "confidence": 90
             }
@@ -174,18 +177,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2805d5f7fb7f9b0d37457a14",
-        "local_4afe67982a872b4ac3e2cebe",
+        "local_818f65fd992ff154d8f89d11",
+        "local_79724a2e2262fe4100e0d42d",
         "local_3158a6ab29c687105c9ae1dd",
-        "local_d4a851e35823b04e5614d1ac"
+        "local_d28ff019453cb01e81bf2e3e"
       ],
-      "generatedAt": "2026-07-27T08:14:40.714Z",
+      "generatedAt": "2026-07-27T11:46:07.949Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-27T08:14:40.715Z",
+  "generatedAt": "2026-07-27T11:46:07.949Z",
   "collectorName": "local-source-collector"
 }

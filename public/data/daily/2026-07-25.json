@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face」、「JiuwenSwarm开源统一工作台来了,引领智能体人机协同新范式!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face」、「JiuwenSwarm开源统一工作台来了,引领智能体人机协同新范式!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New reports reveal the extent of OpenAI&#039;s loss of control during the autonomous hack on Hugging Face",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：JiuwenSwarm开源统一工作台来了,引领智能体人机协同新范式!",
@@ -16,7 +16,7 @@
         "跟进：JiuwenSwarm开源统一工作台来了,引领智能体人机协同新范式!",
         "跟进：Quoting Boris Cherny",
         "跟进：Introducing Claude Opus 5",
-        "跟进：Meta, Microsoft, Nvidia, IBM, and others back open-weight AI"
+        "跟进：CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference"
       ],
       "sections": [
         {
@@ -63,7 +63,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c4c56ea8498ed34d7ee1d033"
+                "local_2c68424e3145f38d4ca01ec5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+              "summary": "Automating theoretical research is constrained not only by the generation of candidate results, but also by their reliable evaluation. A common approach is to close the research loop with a large language model (LLM) reviewer. However, such reviewers remain empirically unreliabl…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2e992810508c91ccda56e10b"
               ],
               "confidence": 92
             }
@@ -87,12 +97,13 @@
       ],
       "referencedFeedItemIds": [
         "local_65f097f0719b2f15c25b50f7",
-        "local_c4c56ea8498ed34d7ee1d033",
+        "local_2c68424e3145f38d4ca01ec5",
         "local_247b4cba6442fcb0c7405e22",
         "local_f682596d4553ce5ee5ba82d5",
+        "local_2e992810508c91ccda56e10b",
         "local_f80d1b145418996bb1d6b32b"
       ],
-      "generatedAt": "2026-07-27T08:14:40.705Z",
+      "generatedAt": "2026-07-27T11:46:07.938Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -120,7 +131,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c4c56ea8498ed34d7ee1d033"
+                "local_2c68424e3145f38d4ca01ec5"
               ],
               "confidence": 92
             }
@@ -128,15 +139,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c4c56ea8498ed34d7ee1d033"
+        "local_2c68424e3145f38d4ca01ec5"
       ],
-      "generatedAt": "2026-07-27T08:14:40.705Z",
+      "generatedAt": "2026-07-27T11:46:07.938Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-27T08:14:40.705Z",
+  "generatedAt": "2026-07-27T11:46:07.939Z",
   "collectorName": "local-source-collector"
 }
