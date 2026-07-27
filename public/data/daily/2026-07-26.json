@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Cursor&#039;s agent swarm suggests cheaper models can handle most coding when frontier models plan the work」、「Anthropic&#039;s Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Cursor&#039;s agent swarm suggests cheaper models can handle most coding when frontier models plan the work」、「Anthropic&#039;s Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cursor&#039;s agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The AI coding tutor paradox grows as educators scramble to rethink how they test real skills"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction"
       ],
       "watchItems": [
         "跟进：Cursor&#039;s agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
         "跟进：Anthropic&#039;s Opus 5 blows past Fable 5 and GPT-5.6 Sol on the benchmark designed to measure real intelligence",
+        "跟进：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
         "跟进：The AI coding tutor paradox grows as educators scramble to rethink how they test real skills",
-        "跟进：Agent Harness 解析:智能体架构深度拆解",
-        "跟进：Ruff v0.16.0"
+        "跟进：Agent Harness 解析:智能体架构深度拆解"
       ],
       "sections": [
         {
@@ -66,6 +66,16 @@
                 "local_e1bfd098009adf17c229b964"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：--> .abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; caption…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d728afb4dc9ade85d29e1549"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -88,11 +98,12 @@
       "referencedFeedItemIds": [
         "local_a79f252711a87548c362662e",
         "local_e1bfd098009adf17c229b964",
+        "local_d728afb4dc9ade85d29e1549",
         "local_4adc8ecc16786d37d56f04e0",
         "local_d9be4b7c1e1099caab3e39a9",
         "local_6d01e349118e1d24c0f5a080"
       ],
-      "generatedAt": "2026-07-27T00:17:03.055Z",
+      "generatedAt": "2026-07-27T04:34:32.362Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -130,13 +141,13 @@
       "referencedFeedItemIds": [
         "local_d9be4b7c1e1099caab3e39a9"
       ],
-      "generatedAt": "2026-07-27T00:17:03.055Z",
+      "generatedAt": "2026-07-27T04:34:32.362Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-27T00:17:03.056Z",
+  "generatedAt": "2026-07-27T04:34:32.362Z",
   "collectorName": "local-source-collector"
 }

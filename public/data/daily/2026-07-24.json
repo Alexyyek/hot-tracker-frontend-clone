@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」、「腾讯WorkBuddy实践:如何把Agent做成可用产品」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统」、「腾讯WorkBuddy实践:如何把Agent做成可用产品」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德ABot-AgentOS:面向机器人智能体的通用自进化操作系统",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯WorkBuddy实践:如何把Agent做成可用产品",
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1e888f0809f1b1dd58e536c5"
+                "local_55b67b853d0a1eaaf6795a6e"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ec920046270657d181f99a17"
+                "local_ec5a7202eff3267478ca844f"
               ],
               "confidence": 92
             },
@@ -58,19 +58,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_355a5bc09a0e132ec7865407"
+                "local_3158a6ab29c687105c9ae1dd"
               ],
               "confidence": 92
             },
             {
-              "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
-              "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make agents hard to train end-to-end with open infrastructure, wh…",
+              "title": "Classifiers: Track What Your Agents Do and What It Costs — OpenRouter Blog",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Define a taxonomy and a small model tags every generation in your workspace by department, task type, or agent complexity. Filter your logs and group your Activ",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_60c909bc86056b80d0b9bbc6"
+                "local_e4c5076c6b78528c5d642ada"
               ],
-              "confidence": 92
+              "confidence": 82
             }
           ]
         },
@@ -83,36 +83,22 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_4206a1c453fc3ff1ab9db2b4"
+                "local_3467ddb439a4a2f48094791e"
               ],
               "confidence": 90
-            },
-            {
-              "title": "Dataset Distillation by Influence Matching",
-              "summary": "We revisit dataset distillation from an outcome-centric perspective. Rather than aligning process surrogates (per-step gradients or training trajectories), Influence Matching (Inf-Match) aligns the final outcome of training: it learns a compact synthetic set whose effect on the …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_384370e9ffef9aed53aba898"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_1e888f0809f1b1dd58e536c5",
-        "local_ec920046270657d181f99a17",
+        "local_55b67b853d0a1eaaf6795a6e",
+        "local_ec5a7202eff3267478ca844f",
         "local_16020a5f9e2eef155898bc42",
-        "local_355a5bc09a0e132ec7865407",
-        "local_4206a1c453fc3ff1ab9db2b4",
-        "local_60c909bc86056b80d0b9bbc6",
-        "local_384370e9ffef9aed53aba898",
-        "local_c2530d2a7a23176e5df9b162",
-        "local_9984f4b293aa6d515e8f3581",
+        "local_3158a6ab29c687105c9ae1dd",
+        "local_3467ddb439a4a2f48094791e",
         "local_e4c5076c6b78528c5d642ada"
       ],
-      "generatedAt": "2026-07-27T00:17:03.078Z",
+      "generatedAt": "2026-07-27T04:34:32.385Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -145,7 +131,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1e888f0809f1b1dd58e536c5"
+                "local_55b67b853d0a1eaaf6795a6e"
               ],
               "confidence": 92
             },
@@ -155,7 +141,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ec920046270657d181f99a17"
+                "local_ec5a7202eff3267478ca844f"
               ],
               "confidence": 92
             },
@@ -165,7 +151,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_355a5bc09a0e132ec7865407"
+                "local_3158a6ab29c687105c9ae1dd"
               ],
               "confidence": 92
             }
@@ -180,7 +166,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_4206a1c453fc3ff1ab9db2b4"
+                "local_3467ddb439a4a2f48094791e"
               ],
               "confidence": 90
             }
@@ -188,18 +174,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_1e888f0809f1b1dd58e536c5",
-        "local_ec920046270657d181f99a17",
-        "local_355a5bc09a0e132ec7865407",
-        "local_4206a1c453fc3ff1ab9db2b4"
+        "local_55b67b853d0a1eaaf6795a6e",
+        "local_ec5a7202eff3267478ca844f",
+        "local_3158a6ab29c687105c9ae1dd",
+        "local_3467ddb439a4a2f48094791e"
       ],
-      "generatedAt": "2026-07-27T00:17:03.078Z",
+      "generatedAt": "2026-07-27T04:34:32.385Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-27T00:17:03.078Z",
+  "generatedAt": "2026-07-27T04:34:32.385Z",
   "collectorName": "local-source-collector"
 }
