@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_53f06702c5e731affbb04b5e"
+                "local_961da4fc6e802426aa203775"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3e3c782379181592ae521087"
+                "local_b4ea920f0c0157ee821887cb"
               ],
               "confidence": 92
             },
@@ -123,6 +123,16 @@
           "title": "行业与公司",
           "items": [
             {
+              "title": "TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward",
+              "summary": "Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to complex compositional prompts. We present TILT, a training-free framework for compo…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_060b83860ca5b722b16195a2"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "UltraViT: Latency-Optimized On-device Vision Encoder for Large Vision-Language Models",
               "summary": "Large Vision-Language Models (LVLMs) remain bottlenecked by massive computational footprints, precluding their deployment on resource-constrained edge devices. While efforts to compress LVLMs focus heavily on vision token reduction or smaller language models, the vision encoder …",
               "insightLabel": "关注",
@@ -147,14 +157,14 @@
       ],
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
-        "local_53f06702c5e731affbb04b5e",
+        "local_961da4fc6e802426aa203775",
         "local_eca4ae7bacb63519fa450d52",
         "local_d39b6d526253b7a3d317b1f2",
-        "local_3e3c782379181592ae521087",
+        "local_b4ea920f0c0157ee821887cb",
+        "local_060b83860ca5b722b16195a2",
         "local_1c9da93a855adab703ffc9b6",
         "local_08e54f836a60c31e6008f23d",
         "local_3f13de3fe7f7132bd166b0c2",
-        "local_4b28045da83a0563e6e21703",
         "local_d4421f359fe08ad982f35846",
         "local_4b6ac613c457d9e78d218b8b",
         "local_04a953f7cf246cdf05c90830",
@@ -163,7 +173,7 @@
         "local_0727a6f1ef8060c5f6b5bd16",
         "local_73a2da00c082f0de209a94b5"
       ],
-      "generatedAt": "2026-07-28T16:57:53.925Z",
+      "generatedAt": "2026-07-28T18:47:50.186Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,7 +217,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_53f06702c5e731affbb04b5e"
+                "local_961da4fc6e802426aa203775"
               ],
               "confidence": 92
             },
@@ -227,7 +237,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3e3c782379181592ae521087"
+                "local_b4ea920f0c0157ee821887cb"
               ],
               "confidence": 92
             }
@@ -251,18 +261,18 @@
       ],
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
-        "local_53f06702c5e731affbb04b5e",
+        "local_961da4fc6e802426aa203775",
         "local_eca4ae7bacb63519fa450d52",
         "local_d39b6d526253b7a3d317b1f2",
-        "local_3e3c782379181592ae521087"
+        "local_b4ea920f0c0157ee821887cb"
       ],
-      "generatedAt": "2026-07-28T16:57:53.925Z",
+      "generatedAt": "2026-07-28T18:47:50.186Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-28T16:57:53.925Z",
+  "generatedAt": "2026-07-28T18:47:50.186Z",
   "collectorName": "local-source-collector"
 }
