@@ -63,12 +63,12 @@
               "confidence": 92
             },
             {
-              "title": "A Vocabulary for Multi-Agent Automated Research Systems",
-              "summary": "We introduce a vocabulary for automated research systems built from one or more agents to make their design choices easier to describe and compare. The vocabulary specifies 1) who the agents are, 2) what operations are available in the system, 3) who may invoke them, 4) how agen…",
+              "title": "An opinionated guide to which AI to use to do stuff",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3f13de3fe7f7132bd166b0c2"
+                "local_04a953f7cf246cdf05c90830"
               ],
               "confidence": 92
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_140bfe56967dcd92a0493228"
+                "local_b5da44507ae4d56863533842"
               ],
               "confidence": 82
             },
@@ -123,6 +123,16 @@
           "title": "行业与公司",
           "items": [
             {
+              "title": "Bitcoin Price Direction Prediction via Regime-Aware Multi-Modal Fusion of Social Sentiment and Technical Features",
+              "summary": "Bitcoin price prediction on sub-daily timescales is a hard open problem in computational finance. Bitcoin exhibits fat-tailed returns, non-stationary dynamics, and a price discovery process influenced by social discourse on Reddit and Twitter. Conventional approaches fuse OHLCV …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_d2cd10178b3162e845b9563a"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward",
               "summary": "Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to complex compositional prompts. We present TILT, a training-free framework for compo…",
               "insightLabel": "关注",
@@ -158,13 +168,13 @@
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
         "local_961da4fc6e802426aa203775",
-        "local_140bfe56967dcd92a0493228",
+        "local_b5da44507ae4d56863533842",
         "local_d39b6d526253b7a3d317b1f2",
         "local_b4ea920f0c0157ee821887cb",
+        "local_d2cd10178b3162e845b9563a",
         "local_060b83860ca5b722b16195a2",
         "local_1c9da93a855adab703ffc9b6",
         "local_08e54f836a60c31e6008f23d",
-        "local_3f13de3fe7f7132bd166b0c2",
         "local_d4421f359fe08ad982f35846",
         "local_4b6ac613c457d9e78d218b8b",
         "local_04a953f7cf246cdf05c90830",
@@ -173,7 +183,7 @@
         "local_0727a6f1ef8060c5f6b5bd16",
         "local_73a2da00c082f0de209a94b5"
       ],
-      "generatedAt": "2026-07-28T20:30:15.150Z",
+      "generatedAt": "2026-07-28T21:50:15.427Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -252,7 +262,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_140bfe56967dcd92a0493228"
+                "local_b5da44507ae4d56863533842"
               ],
               "confidence": 82
             }
@@ -262,17 +272,17 @@
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
         "local_961da4fc6e802426aa203775",
-        "local_140bfe56967dcd92a0493228",
+        "local_b5da44507ae4d56863533842",
         "local_d39b6d526253b7a3d317b1f2",
         "local_b4ea920f0c0157ee821887cb"
       ],
-      "generatedAt": "2026-07-28T20:30:15.151Z",
+      "generatedAt": "2026-07-28T21:50:15.427Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-28T20:30:15.151Z",
+  "generatedAt": "2026-07-28T21:50:15.428Z",
   "collectorName": "local-source-collector"
 }
