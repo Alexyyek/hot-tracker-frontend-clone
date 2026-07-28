@@ -5,23 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-07-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「METR introduces a new metric to calculate exactly when AI agents become more expensive than humans」、「推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents」、「METR introduces a new metric to calculate exactly when AI agents become more expensive than humans」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面向 Coding Agent 的多仓库 Git Worktree"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理"
       ],
       "watchItems": [
+        "跟进：SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
         "跟进：METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
         "跟进：推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理",
         "跟进：面向 Coding Agent 的多仓库 Git Worktree",
-        "跟进：Six Agent Harness Capabilities for Higher Model Performance",
-        "跟进：NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding"
+        "跟进：Six Agent Harness Capabilities for Higher Model Performance"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
+              "summary": "Early warning of extreme weather is essential for mitigating the societal, economic, and environmental risks posed by hazardous weather events. However, expert-centered warning workflows are costly, labor-intensive, and difficult to scale throughout the warning-to-action process…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c68dde728fef2a63290ed3ab"
+              ],
+              "confidence": 92
+            },
             {
               "title": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：METR's new metric, the \"expenditure horizon,\" puts a dollar figure on how cost-effective AI agents are at solving problems. Early results on the NanoGPT speedrun are underwhelming, the metric has blind spots, and the ne…",
@@ -38,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_45f52440143681aa4db268c3"
+                "local_7227bc7e42da042132260869"
               ],
               "confidence": 92
             },
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e6d8f781be418ef829802c05"
+                "local_72186a310e3a7e7c0092798c"
               ],
               "confidence": 92
             },
@@ -61,41 +71,6 @@
                 "local_71e5040e40cb255df6c548a0"
               ],
               "confidence": 92
-            },
-            {
-              "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7d0b4cca8593b8ae4f893a24"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Multimodal Speaker Verification as a Threat to Speaker Anonymization",
-              "summary": "Most automatic speaker verification (ASV) systems operate on individual utterances, despite real-world interactions typically consisting of multiple utterances. As speech accumulates, increasingly rich speaker information becomes available through acoustic, prosodic, and linguis…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_214d6a78c51a5138ff9eec5a"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Spectral Prior for Reducing Exposure Bias in Diffusion Models",
-              "summary": "Diffusion models typically suffer from error accumulation during iterative sampling, commonly referred to as exposure bias. We reveal systematic frequency-dependent discrepancies between training and inference, which can be interpreted as frequency-dependent SNR error. Crucially…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f4238d475bd3fe6ee13c82f9"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -116,18 +91,16 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_c68dde728fef2a63290ed3ab",
         "local_411a4d205a7a65cb944d3d4a",
-        "local_45f52440143681aa4db268c3",
-        "local_e6d8f781be418ef829802c05",
+        "local_7227bc7e42da042132260869",
+        "local_72186a310e3a7e7c0092798c",
         "local_71e5040e40cb255df6c548a0",
         "local_7d0b4cca8593b8ae4f893a24",
-        "local_95db51da132f272832689da4",
-        "local_afe77f5dd09365ccc82901f9",
-        "local_214d6a78c51a5138ff9eec5a",
-        "local_f4238d475bd3fe6ee13c82f9",
-        "local_b23cef0f82fa4335d3dcb776"
+        "local_b23cef0f82fa4335d3dcb776",
+        "local_f12f2497b9fc333902bed666"
       ],
-      "generatedAt": "2026-07-28T01:06:40.453Z",
+      "generatedAt": "2026-07-28T04:31:31.134Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -160,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_45f52440143681aa4db268c3"
+                "local_7227bc7e42da042132260869"
               ],
               "confidence": 92
             },
@@ -170,7 +143,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e6d8f781be418ef829802c05"
+                "local_72186a310e3a7e7c0092798c"
               ],
               "confidence": 92
             },
@@ -198,18 +171,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_45f52440143681aa4db268c3",
-        "local_e6d8f781be418ef829802c05",
+        "local_7227bc7e42da042132260869",
+        "local_72186a310e3a7e7c0092798c",
         "local_71e5040e40cb255df6c548a0",
         "local_7d0b4cca8593b8ae4f893a24"
       ],
-      "generatedAt": "2026-07-28T01:06:40.453Z",
+      "generatedAt": "2026-07-28T04:31:31.134Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-28T01:06:40.453Z",
+  "generatedAt": "2026-07-28T04:31:31.134Z",
   "collectorName": "local-source-collector"
 }
