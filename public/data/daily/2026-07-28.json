@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
@@ -63,12 +63,12 @@
               "confidence": 92
             },
             {
-              "title": "An opinionated guide to which AI to use to do stuff",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, …",
+              "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Microsoft introduces MAI-Cyber-1-Flash, a compact security model that scores 96 percent on the CyberGym benchmark when embedded in its MDASH multi-agent system. Microsoft says costs should drop by 50 percent compared to…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_04a953f7cf246cdf05c90830"
+                "local_c90897ee42e4fd5435f11e32"
               ],
               "confidence": 92
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b5da44507ae4d56863533842"
+                "local_1e69af3b42402f4d9c7d8ce9"
               ],
               "confidence": 82
             },
@@ -168,7 +168,7 @@
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
         "local_961da4fc6e802426aa203775",
-        "local_b5da44507ae4d56863533842",
+        "local_1e69af3b42402f4d9c7d8ce9",
         "local_d39b6d526253b7a3d317b1f2",
         "local_b4ea920f0c0157ee821887cb",
         "local_d2cd10178b3162e845b9563a",
@@ -177,13 +177,12 @@
         "local_08e54f836a60c31e6008f23d",
         "local_d4421f359fe08ad982f35846",
         "local_4b6ac613c457d9e78d218b8b",
-        "local_04a953f7cf246cdf05c90830",
         "local_71ae786c49197a1c2f2649af",
         "local_c90897ee42e4fd5435f11e32",
         "local_0727a6f1ef8060c5f6b5bd16",
         "local_73a2da00c082f0de209a94b5"
       ],
-      "generatedAt": "2026-07-28T21:50:15.427Z",
+      "generatedAt": "2026-07-28T23:17:54.791Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -262,7 +261,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b5da44507ae4d56863533842"
+                "local_1e69af3b42402f4d9c7d8ce9"
               ],
               "confidence": 82
             }
@@ -272,17 +271,17 @@
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
         "local_961da4fc6e802426aa203775",
-        "local_b5da44507ae4d56863533842",
+        "local_1e69af3b42402f4d9c7d8ce9",
         "local_d39b6d526253b7a3d317b1f2",
         "local_b4ea920f0c0157ee821887cb"
       ],
-      "generatedAt": "2026-07-28T21:50:15.427Z",
+      "generatedAt": "2026-07-28T23:17:54.791Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-28T21:50:15.428Z",
+  "generatedAt": "2026-07-28T23:17:54.792Z",
   "collectorName": "local-source-collector"
 }
