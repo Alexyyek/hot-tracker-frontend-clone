@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「OpenAI report links coding agents to faster science software builds」、「AI Native 交易核心系统的研发范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「OpenAI report links coding agents to faster science software builds」、「AI Native 交易核心系统的研发范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI report links coding agents to faster science software builds",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 交易核心系统的研发范式|得物技术",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9a731bb7eb63e0592ce9cf45"
+                "local_8390bc7754b706ea9c199d57"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4c251c74a9b57efebdaca135"
+                "local_3444b7d8fb798620f2143857"
               ],
               "confidence": 82
             },
@@ -58,17 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c707fd32eb96447e0357f70a"
+                "local_b96ad284721d5503a69def10"
               ],
               "confidence": 92
             },
             {
-              "title": "OPERA: Offline Policy-guided Expert Routing and Adaptation for Universal Biomedical Image Analysis",
-              "summary": "Biomedical image analysis spans diverse modalities and tasks, yet real-world deployment is hindered by severe distribution shifts across scanners, protocols, and patient populations. High-performing models consequently require repeated domain-specific fine-tuning, which is a cos…",
+              "title": "Adding a custom MCP server to Claude and ChatGPT",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai, generative-ai, chatgpt, llms, …",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2093b695149dd551d535e9b6"
+                "local_1d50383dd671c6b3db778577"
               ],
               "confidence": 92
             }
@@ -86,6 +86,26 @@
                 "local_3bf631ab54042d256dcf506b"
               ],
               "confidence": 74
+            },
+            {
+              "title": "How Fast Can Reward Models Score? A Systems Study of C++ and PyTorch Inference Runtimes for RLHF",
+              "summary": "In RLHF pipelines, reward scoring blocks policy updates. Slow scoring bottlenecks the entire loop, since no update runs until every rollout gets a score. And yet most setups just default to PyTorch eager mode or torch.compile, no one checks if that's actually fastest. Scoring it…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_f339b432138dea21cb3b5a54"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Uncovering Latent Reasoning Strategies in Language Models",
+              "summary": "A language model p_θ(y mid x) trained on reasoning tasks learns to solve problems via multiple distinct strategies, yet these strategies are implicit and entangled within the model's response distribution. We study the problem of decomposing the response distribution of a given …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_8dc86878e9eee5150a061362"
+              ],
+              "confidence": 92
             },
             {
               "title": "Discovering cryptographic weaknesses with Claude",
@@ -133,16 +153,6 @@
               "confidence": 92
             },
             {
-              "title": "Projection Pursuit CPCANet for Domain Generalization",
-              "summary": "Domain Generalization (DG) aims to learn representations robust to distribution shifts. Recent geometric alignment methods, such as CPCANet, extract domain-invariant structures through batch-wise Common Principal Component Analysis (CPCA). However, CPCANet suffers from rank-defi…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_417f4b5942a14f0158657c0d"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "Amazon reportedly scales back its Nova AI models and bets on a new Frontier research team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Amazon is scaling back most of its in-house Nova AI models, including Nova Premier, Omni, Reel, and Canvas. The models stay online for existing customers in \"keep the lights on\" mode but are no longer actively developed…",
               "insightLabel": "关注",
@@ -157,18 +167,17 @@
       ],
       "referencedFeedItemIds": [
         "local_93c4a522e5d240c688f58898",
-        "local_9a731bb7eb63e0592ce9cf45",
+        "local_8390bc7754b706ea9c199d57",
         "local_3bf631ab54042d256dcf506b",
-        "local_4c251c74a9b57efebdaca135",
-        "local_c707fd32eb96447e0357f70a",
+        "local_3444b7d8fb798620f2143857",
+        "local_b96ad284721d5503a69def10",
         "local_3127ed426e9565c1b52ed6ed",
+        "local_1d50383dd671c6b3db778577",
+        "local_f339b432138dea21cb3b5a54",
+        "local_8dc86878e9eee5150a061362",
         "local_9eab2d38c96ad8744ab85a53",
         "local_2093b695149dd551d535e9b6",
-        "local_2f6d10701262ecc935ddff6f",
-        "local_417f4b5942a14f0158657c0d",
         "local_00653c82578dfed70e85028b",
-        "local_d3f3a5a94cda5d06f56272ee",
-        "local_8bf694b24a2c429de04ef576",
         "local_756943e0b31e3576ce85ff51",
         "local_8aaf1876c7edc89f38b432e3",
         "local_5f916fd9588944ac5e581d8a",
@@ -176,7 +185,7 @@
         "local_bddd798ebee8be6d2ec27a5a",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-29T18:05:08.450Z",
+      "generatedAt": "2026-07-29T19:47:58.697Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -210,7 +219,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9a731bb7eb63e0592ce9cf45"
+                "local_8390bc7754b706ea9c199d57"
               ],
               "confidence": 92
             },
@@ -220,7 +229,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4c251c74a9b57efebdaca135"
+                "local_3444b7d8fb798620f2143857"
               ],
               "confidence": 82
             },
@@ -230,7 +239,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c707fd32eb96447e0357f70a"
+                "local_b96ad284721d5503a69def10"
               ],
               "confidence": 92
             },
@@ -288,22 +297,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9a731bb7eb63e0592ce9cf45",
-        "local_4c251c74a9b57efebdaca135",
-        "local_c707fd32eb96447e0357f70a",
+        "local_8390bc7754b706ea9c199d57",
+        "local_3444b7d8fb798620f2143857",
+        "local_b96ad284721d5503a69def10",
         "local_3127ed426e9565c1b52ed6ed",
         "local_756943e0b31e3576ce85ff51",
         "local_8aaf1876c7edc89f38b432e3",
         "local_8b5e48b36310a2498d219fbd",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-29T18:05:08.450Z",
+      "generatedAt": "2026-07-29T19:47:58.697Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-29T18:05:08.450Z",
+  "generatedAt": "2026-07-29T19:47:58.697Z",
   "collectorName": "local-source-collector"
 }
