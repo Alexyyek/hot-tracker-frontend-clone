@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Distributing Security Controls Through Harness Engineering」、「CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Distributing Security Controls Through Harness Engineering」、「CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Distributing Security Controls Through Harness Engineering",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents",
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b8e1e68909e4f887435ae29"
+                "local_03491522520b06399c8e5536"
               ],
               "confidence": 92
             }
@@ -135,7 +135,8 @@
         "local_2ea97df839efaf2050b3f41b",
         "local_4e4776009a8e61cf50365125",
         "local_b7999cfd5b152f95c163ccc4",
-        "local_7b8e1e68909e4f887435ae29",
+        "local_03491522520b06399c8e5536",
+        "local_0613644842cefce2cb34cb31",
         "local_b0100653ac1da1b81df7b302",
         "local_a449456d53de52a7458460e4",
         "local_d39b6d526253b7a3d317b1f2",
@@ -144,7 +145,7 @@
         "local_71ae786c49197a1c2f2649af",
         "local_c90897ee42e4fd5435f11e32"
       ],
-      "generatedAt": "2026-07-29T07:34:30.491Z",
+      "generatedAt": "2026-07-29T10:24:24.865Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -155,18 +156,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-28",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：微软CEO纳德拉最新警告:单押一个大模型,是把公司命门交出去"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PIBench:支付宝AI支付团队提出支付场景AI编程智能体评测基准"
       ],
       "watchItems": [
         "跟进：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
         "跟进：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
+        "跟进：PIBench:支付宝AI支付团队提出支付场景AI编程智能体评测基准",
         "跟进：微软CEO纳德拉最新警告:单押一个大模型,是把公司命门交出去",
-        "跟进：Kando AI完成数千万元种子轮融资,要做\"决策领域的Cursor\"|涌现新项目",
-        "跟进：OpenSandbox:重新思考 Agent 时代的 Runtime"
+        "跟进：Kando AI完成数千万元种子轮融资,要做\"决策领域的Cursor\"|涌现新项目"
       ],
       "sections": [
         {
@@ -188,7 +189,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b8e1e68909e4f887435ae29"
+                "local_03491522520b06399c8e5536"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "PIBench:支付宝AI支付团队提出支付场景AI编程智能体评测基准",
+              "summary": "Agent 完成.而随着 Agent 从生成代码走向执行真实业务,支付、... 为此,蚂蚁集团开源 Alipay-PIBench,提出首个基于真实支付宝支...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0613644842cefce2cb34cb31"
               ],
               "confidence": 92
             },
@@ -232,18 +243,19 @@
       ],
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
-        "local_7b8e1e68909e4f887435ae29",
+        "local_03491522520b06399c8e5536",
+        "local_0613644842cefce2cb34cb31",
         "local_b0100653ac1da1b81df7b302",
         "local_a449456d53de52a7458460e4",
         "local_d39b6d526253b7a3d317b1f2"
       ],
-      "generatedAt": "2026-07-29T07:34:30.491Z",
+      "generatedAt": "2026-07-29T10:24:24.865Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-29T07:34:30.491Z",
+  "generatedAt": "2026-07-29T10:24:24.865Z",
   "collectorName": "local-source-collector"
 }
