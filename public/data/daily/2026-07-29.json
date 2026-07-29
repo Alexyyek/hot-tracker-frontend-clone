@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_76b9583d54537f9d639a5c1f"
+                "local_9a731bb7eb63e0592ce9cf45"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_61b677bec3edede726132278"
+                "local_4c251c74a9b57efebdaca135"
               ],
               "confidence": 82
             },
@@ -58,17 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f839eda8974b8912a65f29f2"
+                "local_c707fd32eb96447e0357f70a"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent Retrieval Bench: Evaluating Repository Context Retrieval for Coding Agents",
-              "summary": "Modern coding agents are usually evaluated by whether they eventually produce a correct patch, but patch generation depends on an earlier context-acquisition stage: finding the repository files needed for the task. We introduce Agent Retrieval Bench, a file-level benchmark for t…",
+              "title": "OPERA: Offline Policy-guided Expert Routing and Adaptation for Universal Biomedical Image Analysis",
+              "summary": "Biomedical image analysis spans diverse modalities and tasks, yet real-world deployment is hindered by severe distribution shifts across scanners, protocols, and patient populations. High-performing models consequently require repeated domain-specific fine-tuning, which is a cos…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f6d10701262ecc935ddff6f"
+                "local_2093b695149dd551d535e9b6"
               ],
               "confidence": 92
             }
@@ -123,6 +123,16 @@
               "confidence": 92
             },
             {
+              "title": "Reinforcement Learning for Code Optimization",
+              "summary": "RL for code correctness is now established: have the model generate a program, run it against hidden test cases, and reward solutions that pass. Extending this to code optimization seems straightforward: just add execution time to the reward. But in practice, once timing drives …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_9eab2d38c96ad8744ab85a53"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Projection Pursuit CPCANet for Domain Generalization",
               "summary": "Domain Generalization (DG) aims to learn representations robust to distribution shifts. Recent geometric alignment methods, such as CPCANet, extract domain-invariant structures through batch-wise Common Principal Component Analysis (CPCA). However, CPCANet suffers from rank-defi…",
               "insightLabel": "关注",
@@ -131,26 +141,6 @@
                 "local_417f4b5942a14f0158657c0d"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Edge-Aware Thermal Infrared UAV Swarm Tracking",
-              "summary": "Thermal infrared (TIR) imaging is essential for UAV swarm operations in visually degraded environments. However, tracking tiny UAVs remains challenging due to limited appearance cues, frequent occlusions, and rapid maneuvers. Despite significant progress driven by benchmarks suc…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_398e5025b23980f98060fa13"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "GLI-AL: A Multi-Modal Glioma MRI Label Resource with Unified Anatomy-Lesion Labels",
-              "summary": "Existing BraTS-GLI datasets provide a widely used benchmark for adult glioma MRI segmentation, but their task definition focuses on tumor subregions and does not systematically represent coexisting white matter hyperintensities (WMH). In joint segmentation settings, such unlabel…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_a91ddf9845b3b21ed2b5faf1"
-              ],
-              "confidence": 92
             },
             {
               "title": "Amazon reportedly scales back its Nova AI models and bets on a new Frontier research team",
@@ -167,15 +157,15 @@
       ],
       "referencedFeedItemIds": [
         "local_93c4a522e5d240c688f58898",
-        "local_76b9583d54537f9d639a5c1f",
+        "local_9a731bb7eb63e0592ce9cf45",
         "local_3bf631ab54042d256dcf506b",
-        "local_61b677bec3edede726132278",
-        "local_f839eda8974b8912a65f29f2",
+        "local_4c251c74a9b57efebdaca135",
+        "local_c707fd32eb96447e0357f70a",
         "local_3127ed426e9565c1b52ed6ed",
+        "local_9eab2d38c96ad8744ab85a53",
+        "local_2093b695149dd551d535e9b6",
         "local_2f6d10701262ecc935ddff6f",
         "local_417f4b5942a14f0158657c0d",
-        "local_398e5025b23980f98060fa13",
-        "local_a91ddf9845b3b21ed2b5faf1",
         "local_00653c82578dfed70e85028b",
         "local_d3f3a5a94cda5d06f56272ee",
         "local_8bf694b24a2c429de04ef576",
@@ -186,7 +176,7 @@
         "local_bddd798ebee8be6d2ec27a5a",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-29T16:46:59.753Z",
+      "generatedAt": "2026-07-29T18:05:08.450Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -220,7 +210,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_76b9583d54537f9d639a5c1f"
+                "local_9a731bb7eb63e0592ce9cf45"
               ],
               "confidence": 92
             },
@@ -230,7 +220,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_61b677bec3edede726132278"
+                "local_4c251c74a9b57efebdaca135"
               ],
               "confidence": 82
             },
@@ -240,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f839eda8974b8912a65f29f2"
+                "local_c707fd32eb96447e0357f70a"
               ],
               "confidence": 92
             },
@@ -298,22 +288,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_76b9583d54537f9d639a5c1f",
-        "local_61b677bec3edede726132278",
-        "local_f839eda8974b8912a65f29f2",
+        "local_9a731bb7eb63e0592ce9cf45",
+        "local_4c251c74a9b57efebdaca135",
+        "local_c707fd32eb96447e0357f70a",
         "local_3127ed426e9565c1b52ed6ed",
         "local_756943e0b31e3576ce85ff51",
         "local_8aaf1876c7edc89f38b432e3",
         "local_8b5e48b36310a2498d219fbd",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-29T16:46:59.753Z",
+      "generatedAt": "2026-07-29T18:05:08.450Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-29T16:46:59.753Z",
+  "generatedAt": "2026-07-29T18:05:08.450Z",
   "collectorName": "local-source-collector"
 }
