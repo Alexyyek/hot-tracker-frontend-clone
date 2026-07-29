@@ -5,23 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-07-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Distributing Security Controls Through Harness Engineering」、「CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Kando AI完成数千万元种子轮融资,要做\"决策领域的Cursor\"|涌现新项目"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Distributing Security Controls Through Harness Engineering",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson"
       ],
       "watchItems": [
+        "跟进：Distributing Security Controls Through Harness Engineering",
+        "跟进：CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents",
         "跟进：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
-        "跟进：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
-        "跟进：Kando AI完成数千万元种子轮融资,要做\"决策领域的Cursor\"|涌现新项目",
-        "跟进：OpenSandbox:重新思考 Agent 时代的 Runtime",
-        "跟进：拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践"
+        "跟进：SkillGate: Cost Efficient Runtime Malicious Skill File Detection in Coding Agents",
+        "跟进：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Distributing Security Controls Through Harness Engineering",
+              "summary": "AI coding agents are being adopted at historic speed, yet security and risk concerns remain the primary barrier to scaling agentic AI across organizations. Existing security controls for coding agents are not systematically distributed to engineering teams, and vendor-native sol…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_68de4be0e2427c817c58a99b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents",
+              "summary": "Agent harnesses have become the operational infrastructure of modern large language model agents, coordinating context, tools, verification, and execution control to translate latent model capability into reliable long-horizon behavior. However, reliable long-horizon behavior re…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2ea97df839efaf2050b3f41b"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The NVIDIA Jetson platform for edge AI and robotics gives busy developers both power and portability in one agentic-ready AI platform.",
@@ -33,42 +53,22 @@
               "confidence": 92
             },
             {
+              "title": "SkillGate: Cost Efficient Runtime Malicious Skill File Detection in Coding Agents",
+              "summary": "Software engineering teams now deploy AI coding agents (Cursor, Claude Code, GitHub Copilot) as first-class productivity tools, installing domain-specific skill files to tailor agent behavior to project APIs, framework conventions, and organizational workflows. These complex Mar…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b7999cfd5b152f95c163ccc4"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
               "summary": "小时,Agent 能写 10 套方案,但只跑得起 1 套.浙江大学与蚂蚁... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】、同步直播,敬...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_961da4fc6e802426aa203775"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenSandbox:重新思考 Agent 时代的 Runtime",
-              "summary": "以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1AI Agent 执行环境的新挑战最近这一两年,我有一个特别强烈的体感:当...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d39b6d526253b7a3d317b1f2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践",
-              "summary": "AI Native 工程哲学:让 AI 适配工程体系,而非工程体系迁就 AI.整套框架不依赖大模型的随机能力,而是将所有流程、规则、状态、...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b4ea920f0c0157ee821887cb"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Microsoft introduces MAI-Cyber-1-Flash, a compact security model that scores 96 percent on the CyberGym benchmark when embedded in its MDASH multi-agent system. Microsoft says costs should drop by 50 percent compared to…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c90897ee42e4fd5435f11e32"
+                "local_e36889b430cc35e404de2a38"
               ],
               "confidence": 92
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_1e69af3b42402f4d9c7d8ce9"
+                "local_031780de6d331c619d1e46cf"
               ],
               "confidence": 82
             },
@@ -118,71 +118,23 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Bitcoin Price Direction Prediction via Regime-Aware Multi-Modal Fusion of Social Sentiment and Technical Features",
-              "summary": "Bitcoin price prediction on sub-daily timescales is a hard open problem in computational finance. Bitcoin exhibits fat-tailed returns, non-stationary dynamics, and a price discovery process influenced by social discourse on Reddit and Twitter. Conventional approaches fuse OHLCV …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d2cd10178b3162e845b9563a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward",
-              "summary": "Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to complex compositional prompts. We present TILT, a training-free framework for compo…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_060b83860ca5b722b16195a2"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "UltraViT: Latency-Optimized On-device Vision Encoder for Large Vision-Language Models",
-              "summary": "Large Vision-Language Models (LVLMs) remain bottlenecked by massive computational footprints, precluding their deployment on resource-constrained edge devices. While efforts to compress LVLMs focus heavily on vision token reduction or smaller language models, the vision encoder …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1c9da93a855adab703ffc9b6"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "WorldDiT: A Unified Diffusion Architecture for World and Action Modeling",
-              "summary": "Many recent robot policies pursue stronger control by using large pretrained vision-language models (VLMs) as the action backbone. We introduce WorldDiT, a unified diffusion transformer architecture that couples action generation with visual world modeling and achieves strong pe…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_08e54f836a60c31e6008f23d"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_68de4be0e2427c817c58a99b",
+        "local_2ea97df839efaf2050b3f41b",
         "local_4e4776009a8e61cf50365125",
-        "local_961da4fc6e802426aa203775",
-        "local_1e69af3b42402f4d9c7d8ce9",
+        "local_b7999cfd5b152f95c163ccc4",
+        "local_e36889b430cc35e404de2a38",
+        "local_031780de6d331c619d1e46cf",
         "local_d39b6d526253b7a3d317b1f2",
-        "local_b4ea920f0c0157ee821887cb",
-        "local_d2cd10178b3162e845b9563a",
-        "local_060b83860ca5b722b16195a2",
-        "local_1c9da93a855adab703ffc9b6",
-        "local_08e54f836a60c31e6008f23d",
+        "local_39332c8b6d9a5a6b1d1b7df8",
         "local_d4421f359fe08ad982f35846",
         "local_4b6ac613c457d9e78d218b8b",
         "local_71ae786c49197a1c2f2649af",
-        "local_c90897ee42e4fd5435f11e32",
-        "local_0727a6f1ef8060c5f6b5bd16",
-        "local_73a2da00c082f0de209a94b5"
+        "local_c90897ee42e4fd5435f11e32"
       ],
-      "generatedAt": "2026-07-29T01:09:26.609Z",
+      "generatedAt": "2026-07-29T04:36:58.867Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -226,7 +178,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_961da4fc6e802426aa203775"
+                "local_e36889b430cc35e404de2a38"
               ],
               "confidence": 92
             },
@@ -246,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b4ea920f0c0157ee821887cb"
+                "local_39332c8b6d9a5a6b1d1b7df8"
               ],
               "confidence": 92
             }
@@ -261,7 +213,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_1e69af3b42402f4d9c7d8ce9"
+                "local_031780de6d331c619d1e46cf"
               ],
               "confidence": 82
             }
@@ -270,18 +222,18 @@
       ],
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
-        "local_961da4fc6e802426aa203775",
-        "local_1e69af3b42402f4d9c7d8ce9",
+        "local_e36889b430cc35e404de2a38",
+        "local_031780de6d331c619d1e46cf",
         "local_d39b6d526253b7a3d317b1f2",
-        "local_b4ea920f0c0157ee821887cb"
+        "local_39332c8b6d9a5a6b1d1b7df8"
       ],
-      "generatedAt": "2026-07-29T01:09:26.609Z",
+      "generatedAt": "2026-07-29T04:36:58.867Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-29T01:09:26.610Z",
+  "generatedAt": "2026-07-29T04:36:58.867Z",
   "collectorName": "local-source-collector"
 }

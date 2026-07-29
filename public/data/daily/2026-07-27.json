@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-07-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents」、「METR introduces a new metric to calculate exactly when AI agents become more expensive than humans」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「METR introduces a new metric to calculate exactly when AI agents become more expensive than humans」、「推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面向 Coding Agent 的多仓库 Git Worktree"
       ],
       "watchItems": [
-        "跟进：SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
         "跟进：METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
         "跟进：推荐系统体验的数字化突破:得物自动化评测平台的技术实践|AICon 文章整理",
         "跟进：面向 Coding Agent 的多仓库 Git Worktree",
-        "跟进：Six Agent Harness Capabilities for Higher Model Performance"
+        "跟进：Six Agent Harness Capabilities for Higher Model Performance",
+        "跟进：NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "SIREN: Towards End-to-End Extreme-Weather Early Warning with Experience-Grounded LLM Agents",
-              "summary": "Early warning of extreme weather is essential for mitigating the societal, economic, and environmental risks posed by hazardous weather events. However, expert-centered warning workflows are costly, labor-intensive, and difficult to scale throughout the warning-to-action process…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c68dde728fef2a63290ed3ab"
-              ],
-              "confidence": 92
-            },
             {
               "title": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：METR's new metric, the \"expenditure horizon,\" puts a dollar figure on how cost-effective AI agents are at solving problems. Early results on the NanoGPT speedrun are underwhelming, the metric has blind spots, and the ne…",
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9320e4a3c782e50f2f6159c7"
+                "local_981cc68243b8259235f06be2"
               ],
               "confidence": 92
             },
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d34d3180eda0120bf18408ec"
+                "local_ba79664b86dd1e3efa8ea55a"
               ],
               "confidence": 92
             },
@@ -71,20 +61,28 @@
                 "local_71e5040e40cb255df6c548a0"
               ],
               "confidence": 92
+            },
+            {
+              "title": "NVIDIA Nemotron 3 Ultra Leads Open Models on Accuracy and Efficiency in Agentic RTL Coding",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Modern chip design is increasingly limited by engineering time. Register transfer level (RTL) development and verification require specialized hardware...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7d0b4cca8593b8ae4f893a24"
+              ],
+              "confidence": 78
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c68dde728fef2a63290ed3ab",
         "local_411a4d205a7a65cb944d3d4a",
-        "local_9320e4a3c782e50f2f6159c7",
-        "local_d34d3180eda0120bf18408ec",
+        "local_981cc68243b8259235f06be2",
+        "local_ba79664b86dd1e3efa8ea55a",
         "local_71e5040e40cb255df6c548a0",
-        "local_7d0b4cca8593b8ae4f893a24",
-        "local_f12f2497b9fc333902bed666"
+        "local_7d0b4cca8593b8ae4f893a24"
       ],
-      "generatedAt": "2026-07-29T01:09:26.620Z",
+      "generatedAt": "2026-07-29T04:36:58.881Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -117,7 +115,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9320e4a3c782e50f2f6159c7"
+                "local_981cc68243b8259235f06be2"
               ],
               "confidence": 92
             },
@@ -127,7 +125,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d34d3180eda0120bf18408ec"
+                "local_ba79664b86dd1e3efa8ea55a"
               ],
               "confidence": 92
             },
@@ -155,18 +153,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9320e4a3c782e50f2f6159c7",
-        "local_d34d3180eda0120bf18408ec",
+        "local_981cc68243b8259235f06be2",
+        "local_ba79664b86dd1e3efa8ea55a",
         "local_71e5040e40cb255df6c548a0",
         "local_7d0b4cca8593b8ae4f893a24"
       ],
-      "generatedAt": "2026-07-29T01:09:26.620Z",
+      "generatedAt": "2026-07-29T04:36:58.881Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-29T01:09:26.620Z",
+  "generatedAt": "2026-07-29T04:36:58.881Z",
   "collectorName": "local-source-collector"
 }
