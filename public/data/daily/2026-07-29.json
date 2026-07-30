@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「VITAL-RAG: Invariance Race for Context Allocation in Coding Agents」、「OpenAI report links coding agents to faster science software builds」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「VITAL-RAG: Invariance Race for Context Allocation in Coding Agents」、「OpenAI report links coding agents to faster science software builds」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI report links coding agents to faster science software builds",
@@ -16,7 +16,7 @@
         "跟进：OpenAI report links coding agents to faster science software builds",
         "跟进：AI Native 交易核心系统的研发范式|得物技术",
         "跟进：Google AI Overviews become more common in search",
-        "跟进：高德 ABot-C0:构筑四足机器人的通用控制智能基座"
+        "跟进：From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon"
       ],
       "sections": [
         {
@@ -48,19 +48,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_13eac2f041970d28c1ad946f"
+                "local_c125237541dbbffce7597880"
               ],
               "confidence": 92
-            },
-            {
-              "title": "高德 ABot-C0:构筑四足机器人的通用控制智能基座",
-              "summary": "面向机器人智能体的通用自进化操作系统高德 ABot-N1:以\"快慢... #机器人 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d40b1ffe656b97b886744f46"
-              ],
-              "confidence": 82
             },
             {
               "title": "拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践",
@@ -68,7 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_93120e429218ace6b747edf3"
+                "local_de41a40d21bb36e01f1d1c0a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Adding a custom MCP server to Claude and ChatGPT",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai, generative-ai, chatgpt, llms, …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_1d50383dd671c6b3db778577"
               ],
               "confidence": 92
             }
@@ -148,11 +148,10 @@
       "referencedFeedItemIds": [
         "local_a791f94256567bcf19657fba",
         "local_93c4a522e5d240c688f58898",
-        "local_13eac2f041970d28c1ad946f",
+        "local_c125237541dbbffce7597880",
         "local_3bf631ab54042d256dcf506b",
-        "local_d40b1ffe656b97b886744f46",
         "local_22acaa14ab171dc054b6702a",
-        "local_93120e429218ace6b747edf3",
+        "local_de41a40d21bb36e01f1d1c0a",
         "local_3127ed426e9565c1b52ed6ed",
         "local_1d50383dd671c6b3db778577",
         "local_aa8a81db4896c6afcb628be0",
@@ -163,7 +162,7 @@
         "local_bddd798ebee8be6d2ec27a5a",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-30T11:40:10.424Z",
+      "generatedAt": "2026-07-30T13:21:00.458Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -174,18 +173,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-29",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「AI Native 交易核心系统的研发范式|得物技术」、「高德 ABot-C0:构筑四足机器人的通用控制智能基座」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI Native 交易核心系统的研发范式|得物技术」、「拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 交易核心系统的研发范式|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德 ABot-C0:构筑四足机器人的通用控制智能基座",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：大模型、机器人之外,社会智能补上AGI第三极"
       ],
       "watchItems": [
         "跟进：AI Native 交易核心系统的研发范式|得物技术",
-        "跟进：高德 ABot-C0:构筑四足机器人的通用控制智能基座",
         "跟进：拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践",
         "跟进：大模型、机器人之外,社会智能补上AGI第三极",
-        "跟进：How GPT-5.6 fuses frontier intelligence with frontier efficiency"
+        "跟进：How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+        "跟进：Developing Healthcare Robotics with GPU-Native Medical Physics Simulation"
       ],
       "sections": [
         {
@@ -197,19 +196,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_13eac2f041970d28c1ad946f"
+                "local_c125237541dbbffce7597880"
               ],
               "confidence": 92
-            },
-            {
-              "title": "高德 ABot-C0:构筑四足机器人的通用控制智能基座",
-              "summary": "面向机器人智能体的通用自进化操作系统高德 ABot-N1:以\"快慢... #机器人 #高德 #高德技术END",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d40b1ffe656b97b886744f46"
-              ],
-              "confidence": 82
             },
             {
               "title": "拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践",
@@ -217,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_93120e429218ace6b747edf3"
+                "local_de41a40d21bb36e01f1d1c0a"
               ],
               "confidence": 92
             },
@@ -238,6 +227,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_8aaf1876c7edc89f38b432e3"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how Paul Windemuller, a Michigan dairy farmer, is changing the way he works by using AI agents built with Gemini 3.6 Flash.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8b5e48b36310a2498d219fbd"
               ],
               "confidence": 92
             }
@@ -275,9 +274,8 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_13eac2f041970d28c1ad946f",
-        "local_d40b1ffe656b97b886744f46",
-        "local_93120e429218ace6b747edf3",
+        "local_c125237541dbbffce7597880",
+        "local_de41a40d21bb36e01f1d1c0a",
         "local_3127ed426e9565c1b52ed6ed",
         "local_aa8a81db4896c6afcb628be0",
         "local_756943e0b31e3576ce85ff51",
@@ -285,13 +283,13 @@
         "local_8b5e48b36310a2498d219fbd",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-30T11:40:10.425Z",
+      "generatedAt": "2026-07-30T13:21:00.458Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-30T11:40:10.425Z",
+  "generatedAt": "2026-07-30T13:21:00.458Z",
   "collectorName": "local-source-collector"
 }
