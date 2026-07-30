@@ -5,23 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-07-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「OpenAI report links coding agents to faster science software builds」、「AI Native 交易核心系统的研发范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「VITAL-RAG: Invariance Race for Context Allocation in Coding Agents」、「OpenAI report links coding agents to faster science software builds」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI report links coding agents to faster science software builds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 交易核心系统的研发范式|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google AI Overviews become more common in search"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 交易核心系统的研发范式|得物技术"
       ],
       "watchItems": [
+        "跟进：VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
         "跟进：OpenAI report links coding agents to faster science software builds",
         "跟进：AI Native 交易核心系统的研发范式|得物技术",
         "跟进：Google AI Overviews become more common in search",
-        "跟进：高德 ABot-C0:构筑四足机器人的通用控制智能基座",
-        "跟进：From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon"
+        "跟进：高德 ABot-C0:构筑四足机器人的通用控制智能基座"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
+              "summary": "Coding agents often retrieve code from an entire repository, but only limited evidence can fit into the final model input. Conventional retrieval-augmented generation (RAG) for coding agents treats fragments from the same code object as separate results, so redundant views can o…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a791f94256567bcf19657fba"
+              ],
+              "confidence": 92
+            },
             {
               "title": "OpenAI report links coding agents to faster science software builds",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects that used Codex on its own in five cases and a combination of Codex and…",
@@ -38,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_719508bc69b51bd49b0df184"
+                "local_11a726c800b466bcf5724d57"
               ],
               "confidence": 92
             },
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_37f29ca80c7bbee7e53b557c"
+                "local_080c49e202da27676b37cb74"
               ],
               "confidence": 82
             },
@@ -58,17 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a23fd7319c5d81d4b6ca8c7a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Adding a custom MCP server to Claude and ChatGPT",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai, generative-ai, chatgpt, llms, …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1d50383dd671c6b3db778577"
+                "local_070560aa40eb138a38096c8f"
               ],
               "confidence": 92
             }
@@ -98,26 +98,6 @@
               "confidence": 92
             },
             {
-              "title": "How Fast Can Reward Models Score? A Systems Study of C++ and PyTorch Inference Runtimes for RLHF",
-              "summary": "In RLHF pipelines, reward scoring blocks policy updates. Slow scoring bottlenecks the entire loop, since no update runs until every rollout gets a score. And yet most setups just default to PyTorch eager mode or torch.compile, no one checks if that's actually fastest. Scoring it…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f339b432138dea21cb3b5a54"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Uncovering Latent Reasoning Strategies in Language Models",
-              "summary": "A language model p_θ(y mid x) trained on reasoning tasks learns to solve problems via multiple distinct strategies, yet these strategies are implicit and entangled within the model's response distribution. We study the problem of decomposing the response distribution of a given …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_8dc86878e9eee5150a061362"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Discovering cryptographic weaknesses with Claude",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"n…",
               "insightLabel": "关注",
@@ -126,6 +106,16 @@
                 "local_00653c82578dfed70e85028b"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Developing Healthcare Robotics with GPU-Native Medical Physics Simulation",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Unlike autonomous driving or industrial robotics, healthcare robotics can’t rely on internet-scale data collection or unlimited real-world experimentation....",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_756943e0b31e3576ce85ff51"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -143,26 +133,6 @@
               "confidence": 92
             },
             {
-              "title": "Human-in-the-Loop Signature Bootstrapping for UAV Hyperspectral PFM-1 Mine Detection",
-              "summary": "Hyperspectral imaging (HSI) is useful for material discrimination, but operational mine screening also depends on how many false alarms must be inspected before targets are found. This paper studies PFM-1 landmine detection in unmanned aerial vehicle (UAV) visible and near-infra…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1fa1df166cbc9258ae17a768"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Reinforcement Learning for Code Optimization",
-              "summary": "RL for code correctness is now established: have the model generate a program, run it against hidden test cases, and reward solutions that pass. Extending this to code optimization seems straightforward: just add execution time to the reward. But in practice, once timing drives …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9eab2d38c96ad8744ab85a53"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Amazon reportedly scales back its Nova AI models and bets on a new Frontier research team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Amazon is scaling back most of its in-house Nova AI models, including Nova Premier, Omni, Reel, and Canvas. The models stay online for existing customers in \"keep the lights on\" mode but are no longer actively developed…",
               "insightLabel": "关注",
@@ -176,28 +146,24 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_a791f94256567bcf19657fba",
         "local_93c4a522e5d240c688f58898",
-        "local_719508bc69b51bd49b0df184",
+        "local_11a726c800b466bcf5724d57",
         "local_3bf631ab54042d256dcf506b",
-        "local_37f29ca80c7bbee7e53b557c",
+        "local_080c49e202da27676b37cb74",
         "local_22acaa14ab171dc054b6702a",
-        "local_a23fd7319c5d81d4b6ca8c7a",
+        "local_070560aa40eb138a38096c8f",
         "local_3127ed426e9565c1b52ed6ed",
         "local_1d50383dd671c6b3db778577",
         "local_aa8a81db4896c6afcb628be0",
-        "local_1fa1df166cbc9258ae17a768",
-        "local_f339b432138dea21cb3b5a54",
-        "local_8dc86878e9eee5150a061362",
-        "local_9eab2d38c96ad8744ab85a53",
         "local_00653c82578dfed70e85028b",
         "local_756943e0b31e3576ce85ff51",
         "local_8aaf1876c7edc89f38b432e3",
-        "local_5f916fd9588944ac5e581d8a",
         "local_8b5e48b36310a2498d219fbd",
         "local_bddd798ebee8be6d2ec27a5a",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-29T23:48:41.223Z",
+      "generatedAt": "2026-07-30T03:30:17.104Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -231,7 +197,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_719508bc69b51bd49b0df184"
+                "local_11a726c800b466bcf5724d57"
               ],
               "confidence": 92
             },
@@ -241,7 +207,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_37f29ca80c7bbee7e53b557c"
+                "local_080c49e202da27676b37cb74"
               ],
               "confidence": 82
             },
@@ -251,7 +217,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a23fd7319c5d81d4b6ca8c7a"
+                "local_070560aa40eb138a38096c8f"
               ],
               "confidence": 92
             },
@@ -309,9 +275,9 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_719508bc69b51bd49b0df184",
-        "local_37f29ca80c7bbee7e53b557c",
-        "local_a23fd7319c5d81d4b6ca8c7a",
+        "local_11a726c800b466bcf5724d57",
+        "local_080c49e202da27676b37cb74",
+        "local_070560aa40eb138a38096c8f",
         "local_3127ed426e9565c1b52ed6ed",
         "local_aa8a81db4896c6afcb628be0",
         "local_756943e0b31e3576ce85ff51",
@@ -319,13 +285,13 @@
         "local_8b5e48b36310a2498d219fbd",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-29T23:48:41.223Z",
+      "generatedAt": "2026-07-30T03:30:17.104Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-29T23:48:41.224Z",
+  "generatedAt": "2026-07-30T03:30:17.105Z",
   "collectorName": "local-source-collector"
 }
