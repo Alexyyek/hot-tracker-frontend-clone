@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-07-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「VITAL-RAG: Invariance Race for Context Allocation in Coding Agents」、「OpenAI report links coding agents to faster science software builds」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「OpenAI report links coding agents to faster science software builds」、「AI Native 交易核心系统的研发范式|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI report links coding agents to faster science software builds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 交易核心系统的研发范式|得物技术"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Native 交易核心系统的研发范式|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google AI Overviews become more common in search"
       ],
       "watchItems": [
-        "跟进：VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
         "跟进：OpenAI report links coding agents to faster science software builds",
         "跟进：AI Native 交易核心系统的研发范式|得物技术",
         "跟进：Google AI Overviews become more common in search",
-        "跟进：From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon"
+        "跟进：From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+        "跟进：拆解海博 AI-Native 落地保障:Harness、双 Loop、知识库与技能自主迭代实践"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "VITAL-RAG: Invariance Race for Context Allocation in Coding Agents",
-              "summary": "Coding agents often retrieve code from an entire repository, but only limited evidence can fit into the final model input. Conventional retrieval-augmented generation (RAG) for coding agents treats fragments from the same code object as separate results, so redundant views can o…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a791f94256567bcf19657fba"
-              ],
-              "confidence": 92
-            },
             {
               "title": "OpenAI report links coding agents to faster science software builds",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects that used Codex on its own in five cases and a combination of Codex and…",
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5bf3b3127da08b93bce7a878"
+                "local_b3b1b7e10ac933bad6fa0da7"
               ],
               "confidence": 92
             },
@@ -58,17 +48,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8140ceb1707e5c6236d9a3f"
+                "local_086e2801c3c875191d77ba70"
               ],
               "confidence": 92
             },
             {
-              "title": "Adding a custom MCP server to Claude and ChatGPT",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai, generative-ai, chatgpt, llms, …",
+              "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1d50383dd671c6b3db778577"
+                "local_aa8a81db4896c6afcb628be0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Scientific computing in the age of agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8aaf1876c7edc89f38b432e3"
               ],
               "confidence": 92
             }
@@ -136,14 +136,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a791f94256567bcf19657fba",
         "local_93c4a522e5d240c688f58898",
-        "local_5bf3b3127da08b93bce7a878",
+        "local_b3b1b7e10ac933bad6fa0da7",
         "local_3bf631ab54042d256dcf506b",
         "local_22acaa14ab171dc054b6702a",
-        "local_c8140ceb1707e5c6236d9a3f",
+        "local_086e2801c3c875191d77ba70",
         "local_3127ed426e9565c1b52ed6ed",
-        "local_1d50383dd671c6b3db778577",
         "local_aa8a81db4896c6afcb628be0",
         "local_756943e0b31e3576ce85ff51",
         "local_8aaf1876c7edc89f38b432e3",
@@ -151,7 +149,7 @@
         "local_bddd798ebee8be6d2ec27a5a",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-30T23:25:31.637Z",
+      "generatedAt": "2026-07-31T01:18:42.575Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -185,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5bf3b3127da08b93bce7a878"
+                "local_b3b1b7e10ac933bad6fa0da7"
               ],
               "confidence": 92
             },
@@ -195,7 +193,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8140ceb1707e5c6236d9a3f"
+                "local_086e2801c3c875191d77ba70"
               ],
               "confidence": 92
             },
@@ -263,8 +261,8 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5bf3b3127da08b93bce7a878",
-        "local_c8140ceb1707e5c6236d9a3f",
+        "local_b3b1b7e10ac933bad6fa0da7",
+        "local_086e2801c3c875191d77ba70",
         "local_3127ed426e9565c1b52ed6ed",
         "local_aa8a81db4896c6afcb628be0",
         "local_756943e0b31e3576ce85ff51",
@@ -272,13 +270,13 @@
         "local_8b5e48b36310a2498d219fbd",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-07-30T23:25:31.637Z",
+      "generatedAt": "2026-07-31T01:18:42.575Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-30T23:25:31.637Z",
+  "generatedAt": "2026-07-31T01:18:42.575Z",
   "collectorName": "local-source-collector"
 }

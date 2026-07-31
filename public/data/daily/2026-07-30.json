@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「Language models can&#039;t spark scientific revolutions, but world models might」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「Language models can&#039;t spark scientific revolutions, but world models might」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Language models can&#039;t spark scientific revolutions, but world models might",
@@ -15,8 +15,8 @@
         "跟进：Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
         "跟进：Language models can&#039;t spark scientific revolutions, but world models might",
         "跟进：Microsoft AI bets on cheap specialist models instead of chasing the frontier",
-        "跟进：Zuckerberg details Meta&#8217;s personal AI superintelligence strategy",
-        "跟进：高德AI Native数据Agent工程实践"
+        "跟进：Agent Harness Distillation: Inference-Time Harness Extraction and Exploitation in Autonomous Multi-Agent Systems",
+        "跟进：Distilling Answer Set Programming Theories from Large Language Models"
       ],
       "sections": [
         {
@@ -78,12 +78,12 @@
               "confidence": 92
             },
             {
-              "title": "Quoting Matthew Green",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there …",
+              "title": "OpenAI admits its autonomous AI models also compromised credentials on other platforms during security eval",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：During a security evaluation, OpenAI's autonomous hacking models broke into Hugging Face and used exposed credentials on four other services. Hugging Face reconstructed about 17,600 actions over two and a half days, inc…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_3004fd8d0dd13eb6ce0bf06a"
+                "local_d8596e2535f0fc9685a7c48b"
               ],
               "confidence": 92
             }
@@ -93,69 +93,54 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Agent Harness Distillation: Inference-Time Harness Extraction and Exploitation in Autonomous Multi-Agent Systems",
+              "summary": "Autonomous multi-agent systems (AMAS) built on large language models (LLMs), such as Hermes, increasingly rely on inference-time harnesses to coordinate reasoning and action. Constructing these harnesses requires substantial engineering effort and computational resources, as the…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4d21b31de98427a44ca43186"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Distilling Answer Set Programming Theories from Large Language Models",
+              "summary": "Writing Answer Set Programming (ASP) theories from scratch is a difficult and time-consuming task. We take a neurosymbolic approach to study whether a model can distill complete and correct theories, given a fixed agent harness with the solver in the loop. The protocol is datase…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5f16e00a2b25e7db6cb6750f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "SKIMIX: Multi-Agent Harness-Time Scaling with Skill Mixture for Dynamic Harness Engineering",
+              "summary": "AI agents increasingly rely on large skill libraries, but selecting, combining, and maintaining skills remains difficult. We propose SKIMIX, a multi-agent framework in which agents with different skill portfolios collaborate through iterative refinement. SKIMIX combines embeddin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_11072fece7ceacaf9b68ac79"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "高德AI Native数据Agent工程实践",
               "summary": "背景高德信息业务覆盖十大核心业务域、千余张数据表.日常数据... (Agent技能包挂载的结构化知识文档)执行层SQL执行(仅...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a3f052ccdc8aec9877b09c6e"
+                "local_eefdf5cf23a4444ccd193437"
               ],
               "confidence": 92
             },
             {
-              "title": "SpecFirst: Behavioral Specification Elicitation as a First-Class Step in Agent-Based Program Synthesis from Scratch",
-              "summary": "LLM-based agents excel at software engineering tasks where an existing codebase provides context, but constructing a program from scratch remains fundamentally harder. Recent benchmarks such as ProgramBench quantify this gap: given only natural-language documentation and an exec…",
+              "title": "DeepResearch Agent System",
+              "summary": "The DeepResearch Agent System is a large language model system engineered for deep information retrieval, multi-step reasoning, and autonomous research tasks. Built upon a sparse activation architecture with 30 billion total parameters of which only 3 billion are activated per t…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_203dea87526f72f0a5ac82c7"
+                "local_156b1a9e19d77eb011850579"
               ],
               "confidence": 92
-            },
-            {
-              "title": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
-              "summary": "Coding agents have made substantial progress on software engineering tasks that modify existing codebases, including bug fixing and feature implementation. However, constructing a complete program from scratch remains a major challenge: even the frontier models evaluated on Prog…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8d9246a205a452681ea23f7f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Voice Memory for Agentic Speech Recognition",
-              "summary": "We present Voice Memory, a inference-only scheme for agentic speech recognition: at stream time, a frozen corrector reads a single per-domain memory.md and decides per utterance whether to act on the hypothesis or abstain and keep the 1-best. Asynchronously, a score-gated optimi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f32c08eeafc3e97ced3ad6c7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MindForge: Teaching Small Language Models Whole-Life-Cycle Software Engineering via Source-Free Program Synthesis",
-              "summary": "Coding agents have made substantial progress on software engineering tasks that modify existing codebases, including bug fixing and feature implementation. However, constructing a complete program from scratch remains a major challenge: even the frontier models evaluated on Prog…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_16cb4719202941fe18490678"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "AI Worming through Word",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f6d3a42ff5e2268cddaf5a78"
-              ],
-              "confidence": 78
             }
           ]
         }
@@ -164,20 +149,19 @@
         "local_e601c6b8ec5364c0f88b1a69",
         "local_31318a292e125714eb36654b",
         "local_121c7ae31612eadc5e3be853",
+        "local_4d21b31de98427a44ca43186",
+        "local_5f16e00a2b25e7db6cb6750f",
         "local_748b4497f4e6c7f82c71ec46",
-        "local_a3f052ccdc8aec9877b09c6e",
+        "local_11072fece7ceacaf9b68ac79",
+        "local_eefdf5cf23a4444ccd193437",
+        "local_156b1a9e19d77eb011850579",
         "local_203dea87526f72f0a5ac82c7",
         "local_8d9246a205a452681ea23f7f",
         "local_dc098216a7422cf1ed25f3bb",
         "local_f32c08eeafc3e97ced3ad6c7",
-        "local_f6d3a42ff5e2268cddaf5a78",
-        "local_3004fd8d0dd13eb6ce0bf06a",
-        "local_16cb4719202941fe18490678",
-        "local_d8596e2535f0fc9685a7c48b",
-        "local_5edec9f7a831e5f91644fe17",
-        "local_dfa710ff862a10538060945b"
+        "local_d8596e2535f0fc9685a7c48b"
       ],
-      "generatedAt": "2026-07-30T23:25:31.627Z",
+      "generatedAt": "2026-07-31T01:18:42.561Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -222,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a3f052ccdc8aec9877b09c6e"
+                "local_eefdf5cf23a4444ccd193437"
               ],
               "confidence": 92
             }
@@ -231,15 +215,15 @@
       ],
       "referencedFeedItemIds": [
         "local_e601c6b8ec5364c0f88b1a69",
-        "local_a3f052ccdc8aec9877b09c6e"
+        "local_eefdf5cf23a4444ccd193437"
       ],
-      "generatedAt": "2026-07-30T23:25:31.627Z",
+      "generatedAt": "2026-07-31T01:18:42.561Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-30T23:25:31.627Z",
+  "generatedAt": "2026-07-31T01:18:42.562Z",
   "collectorName": "local-source-collector"
 }
