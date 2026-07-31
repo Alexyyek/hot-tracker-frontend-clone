@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「Language models can&#039;t spark scientific revolutions, but world models might」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「Language models can&#039;t spark scientific revolutions, but world models might」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Language models can&#039;t spark scientific revolutions, but world models might",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Microsoft AI bets on cheap specialist models instead of chasing the frontier"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness Distillation: Inference-Time Harness Extraction and Exploitation in Autonomous Multi-Agent Systems"
       ],
       "watchItems": [
         "跟进：Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
         "跟进：Language models can&#039;t spark scientific revolutions, but world models might",
-        "跟进：Microsoft AI bets on cheap specialist models instead of chasing the frontier",
         "跟进：Agent Harness Distillation: Inference-Time Harness Extraction and Exploitation in Autonomous Multi-Agent Systems",
-        "跟进：Distilling Answer Set Programming Theories from Large Language Models"
+        "跟进：Distilling Answer Set Programming Theories from Large Language Models",
+        "跟进：Zuckerberg details Meta&#8217;s personal AI superintelligence strategy"
       ],
       "sections": [
         {
@@ -46,16 +46,6 @@
                 "local_31318a292e125714eb36654b"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Microsoft AI bets on cheap specialist models instead of chasing the frontier",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Microsoft AI is betting on small specialist models instead of expensive general-purpose ones, according to AI CEO Mustafa Suleyman. MAI-Cyber-1-Flash tops the CyberGym benchmark when embedded in an orchestrator and repo…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_121c7ae31612eadc5e3be853"
-              ],
-              "confidence": 90
             },
             {
               "title": "Zuckerberg details Meta&#8217;s personal AI superintelligence strategy",
@@ -94,11 +84,11 @@
             },
             {
               "title": "高德AI Native数据Agent工程实践",
-              "summary": "背景高德信息业务覆盖十大核心业务域、千余张数据表.日常数据... (Agent技能包挂载的结构化知识文档)执行层SQL执行(仅...",
+              "summary": "本项目构建了一套AI Native(AI 原生)数据Agent体系,将数据消费... 技术选型面对＂自然语言到数据结果＂这一目标,业界有三种典型...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_86263f9f447c57eec364a18f"
+                "local_ce328385b232ed108ebf32c5"
               ],
               "confidence": 92
             },
@@ -118,14 +108,13 @@
       "referencedFeedItemIds": [
         "local_e601c6b8ec5364c0f88b1a69",
         "local_31318a292e125714eb36654b",
-        "local_121c7ae31612eadc5e3be853",
         "local_4d21b31de98427a44ca43186",
         "local_5f16e00a2b25e7db6cb6750f",
         "local_748b4497f4e6c7f82c71ec46",
-        "local_86263f9f447c57eec364a18f",
+        "local_ce328385b232ed108ebf32c5",
         "local_40be5f645c75bd554a5f485a"
       ],
-      "generatedAt": "2026-07-31T15:56:44.883Z",
+      "generatedAt": "2026-07-31T17:58:17.865Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -168,11 +157,11 @@
           "items": [
             {
               "title": "高德AI Native数据Agent工程实践",
-              "summary": "背景高德信息业务覆盖十大核心业务域、千余张数据表.日常数据... (Agent技能包挂载的结构化知识文档)执行层SQL执行(仅...",
+              "summary": "本项目构建了一套AI Native(AI 原生)数据Agent体系,将数据消费... 技术选型面对＂自然语言到数据结果＂这一目标,业界有三种典型...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_86263f9f447c57eec364a18f"
+                "local_ce328385b232ed108ebf32c5"
               ],
               "confidence": 92
             },
@@ -191,16 +180,16 @@
       ],
       "referencedFeedItemIds": [
         "local_e601c6b8ec5364c0f88b1a69",
-        "local_86263f9f447c57eec364a18f",
+        "local_ce328385b232ed108ebf32c5",
         "local_40be5f645c75bd554a5f485a"
       ],
-      "generatedAt": "2026-07-31T15:56:44.883Z",
+      "generatedAt": "2026-07-31T17:58:17.865Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-31T15:56:44.883Z",
+  "generatedAt": "2026-07-31T17:58:17.865Z",
   "collectorName": "local-source-collector"
 }
