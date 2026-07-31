@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-31",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems」、「Aschenbrenner&#039;s AI thesis could be correct, his timing and leverage were not」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems」、「Aschenbrenner&#039;s AI thesis could be correct, his timing and leverage were not」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Aschenbrenner&#039;s AI thesis could be correct, his timing and leverage were not",
@@ -116,16 +116,6 @@
                 "local_9f9011c81d5f2ea105b014e9"
               ],
               "confidence": 92
-            },
-            {
-              "title": "llm 0.32rc2",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm 0.32rc2 Hot on the heels of RC1, this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna. It was previously GPT-…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_453fe38ca5e60589f69acfe2"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -138,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e2ded7eca084b0a2b55ae0e5"
+                "local_28a0328503df14644089598e"
               ],
               "confidence": 90
             },
@@ -188,7 +178,7 @@
       "referencedFeedItemIds": [
         "local_47062b6100f85b9a5716f593",
         "local_268da8039072113f20e748bb",
-        "local_e2ded7eca084b0a2b55ae0e5",
+        "local_28a0328503df14644089598e",
         "local_92dae6e3911596466bbabf3b",
         "local_ba74467f17e48b6ac93df41d",
         "local_6c5a78e5033a344c8e8c6fed",
@@ -200,13 +190,11 @@
         "local_9f9011c81d5f2ea105b014e9",
         "local_d8aa4cc8b457636b2c05644e",
         "local_8376ea64a96ca2c603a14dcd",
-        "local_453fe38ca5e60589f69acfe2",
         "local_b6f89c90d2361fa56d572e35",
-        "local_2d47544c45e954d666835b00",
         "local_87c4d469e1ed47c3603c8851",
         "local_bc5b4891a0a28e5e6e6a474d"
       ],
-      "generatedAt": "2026-07-31T21:26:20.314Z",
+      "generatedAt": "2026-07-31T22:48:08.749Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -240,7 +228,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e2ded7eca084b0a2b55ae0e5"
+                "local_28a0328503df14644089598e"
               ],
               "confidence": 90
             },
@@ -303,7 +291,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e2ded7eca084b0a2b55ae0e5",
+        "local_28a0328503df14644089598e",
         "local_92dae6e3911596466bbabf3b",
         "local_ba74467f17e48b6ac93df41d",
         "local_6c5a78e5033a344c8e8c6fed",
@@ -311,13 +299,13 @@
         "local_8376ea64a96ca2c603a14dcd",
         "local_b6f89c90d2361fa56d572e35"
       ],
-      "generatedAt": "2026-07-31T21:26:20.314Z",
+      "generatedAt": "2026-07-31T22:48:08.750Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-31T21:26:20.314Z",
+  "generatedAt": "2026-07-31T22:48:08.750Z",
   "collectorName": "local-source-collector"
 }
