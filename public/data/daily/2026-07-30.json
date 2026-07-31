@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「Language models can&#039;t spark scientific revolutions, but world models might」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「Language models can&#039;t spark scientific revolutions, but world models might」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Language models can&#039;t spark scientific revolutions, but world models might",
@@ -68,16 +68,6 @@
               "confidence": 74
             },
             {
-              "title": "DistillAlign: Coordinating Mode Covering and Mode Seeking in Autoregressive Video Distillation",
-              "summary": "Existing autoregressive video distillation methods commonly adopt a Distribution Matching Distillation (DMD)-based multi-stage pipeline. However, they typically decouple the initialization and DMD stages -- which then pursue different target distributions -- and judge the interm…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_dc098216a7422cf1ed25f3bb"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "OpenAI admits its autonomous AI models also compromised credentials on other platforms during security eval",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：During a security evaluation, OpenAI's autonomous hacking models broke into Hugging Face and used exposed credentials on four other services. Hugging Face reconstructed about 17,600 actions over two and a half days, inc…",
               "insightLabel": "关注",
@@ -113,32 +103,22 @@
               "confidence": 92
             },
             {
-              "title": "SKIMIX: Multi-Agent Harness-Time Scaling with Skill Mixture for Dynamic Harness Engineering",
-              "summary": "AI agents increasingly rely on large skill libraries, but selecting, combining, and maintaining skills remains difficult. We propose SKIMIX, a multi-agent framework in which agents with different skill portfolios collaborate through iterative refinement. SKIMIX combines embeddin…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_11072fece7ceacaf9b68ac79"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "高德AI Native数据Agent工程实践",
               "summary": "背景高德信息业务覆盖十大核心业务域、千余张数据表.日常数据... (Agent技能包挂载的结构化知识文档)执行层SQL执行(仅...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eefdf5cf23a4444ccd193437"
+                "local_038b1aed6991a1c2f245c90d"
               ],
               "confidence": 92
             },
             {
-              "title": "DeepResearch Agent System",
-              "summary": "The DeepResearch Agent System is a large language model system engineered for deep information retrieval, multi-step reasoning, and autonomous research tasks. Built upon a sparse activation architecture with 30 billion total parameters of which only 3 billion are activated per t…",
+              "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_156b1a9e19d77eb011850579"
+                "local_40be5f645c75bd554a5f485a"
               ],
               "confidence": 92
             }
@@ -152,16 +132,11 @@
         "local_4d21b31de98427a44ca43186",
         "local_5f16e00a2b25e7db6cb6750f",
         "local_748b4497f4e6c7f82c71ec46",
-        "local_11072fece7ceacaf9b68ac79",
-        "local_eefdf5cf23a4444ccd193437",
-        "local_156b1a9e19d77eb011850579",
-        "local_203dea87526f72f0a5ac82c7",
-        "local_8d9246a205a452681ea23f7f",
-        "local_dc098216a7422cf1ed25f3bb",
-        "local_f32c08eeafc3e97ced3ad6c7",
+        "local_038b1aed6991a1c2f245c90d",
+        "local_40be5f645c75bd554a5f485a",
         "local_d8596e2535f0fc9685a7c48b"
       ],
-      "generatedAt": "2026-07-31T01:18:42.561Z",
+      "generatedAt": "2026-07-31T05:14:34.798Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -172,14 +147,16 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-30",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「高德AI Native数据Agent工程实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration」、「高德AI Native数据Agent工程实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德AI Native数据Agent工程实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德AI Native数据Agent工程实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How avatarin built a 24/7 retail agent with GPT-Realtime"
       ],
       "watchItems": [
         "跟进：Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-        "跟进：高德AI Native数据Agent工程实践"
+        "跟进：高德AI Native数据Agent工程实践",
+        "跟进：How avatarin built a 24/7 retail agent with GPT-Realtime"
       ],
       "sections": [
         {
@@ -206,7 +183,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eefdf5cf23a4444ccd193437"
+                "local_038b1aed6991a1c2f245c90d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_40be5f645c75bd554a5f485a"
               ],
               "confidence": 92
             }
@@ -215,15 +202,16 @@
       ],
       "referencedFeedItemIds": [
         "local_e601c6b8ec5364c0f88b1a69",
-        "local_eefdf5cf23a4444ccd193437"
+        "local_038b1aed6991a1c2f245c90d",
+        "local_40be5f645c75bd554a5f485a"
       ],
-      "generatedAt": "2026-07-31T01:18:42.561Z",
+      "generatedAt": "2026-07-31T05:14:34.798Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-31T01:18:42.562Z",
+  "generatedAt": "2026-07-31T05:14:34.798Z",
   "collectorName": "local-source-collector"
 }

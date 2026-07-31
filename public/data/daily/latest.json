@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-07-31",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「OpenSandbox：重新思考 Agent 时代的 Runtime」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenSandbox：重新思考 Agent 时代的 Runtime",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenSandbox：重新思考 Agent 时代的 Runtime"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：OpenSandbox：重新思考 Agent 时代的 Runtime",
         "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d4d1f8e40f49ee879d757275"
+                "local_e136d4464332d5dcc469727f"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5562f3022822c226b7517ec1"
+                "local_29464d961ab45f691fe85410"
               ],
               "confidence": 70
             }
@@ -48,12 +48,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_848f1fda739c77c38fc7f45a"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "OpenSandbox：重新思考 Agent 时代的 Runtime",
               "summary": "Agent时代，执行环境已不再是一个简单的基础设施细节，它在很大程度上决定了整个系统的能力上限。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f38a27dd0c16a8be050159c"
+                "local_913f39fda9a165c643cb55d7"
               ],
               "confidence": 82
             },
@@ -63,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_37861781507d6c04515c76b8"
+                "local_70577f094c7c86a3d1285f40"
               ],
               "confidence": 92
             },
@@ -83,19 +93,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_551c97f0238a1c846a3103ba"
+                "local_ac1da81a0f28d837d3c5c688"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Cursor — Build Software with AI Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cursor plans, writes, and reviews code using AI agents that understand your entire codebase. Everywhere you work: Desktop, CLI, Web & Mobile.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6c8af425bfc2e3f56359e003"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e99cefe9c76f398e68132146"
+                "local_deea809057aa0b4797197875"
               ],
               "confidence": 90
             },
@@ -118,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_709733ccc1aca94bcab6e716"
+                "local_7008996b7e2cf308feb69c3b"
               ],
               "confidence": 78
             },
@@ -148,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b478d044997ed7d60a073b9e"
+                "local_1cde46ff76d2d068e1efeb62"
               ],
               "confidence": 92
             }
@@ -171,32 +171,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d4d1f8e40f49ee879d757275",
-        "local_0f38a27dd0c16a8be050159c",
-        "local_e99cefe9c76f398e68132146",
-        "local_37861781507d6c04515c76b8",
-        "local_709733ccc1aca94bcab6e716",
-        "local_75a3242718a21237b40ae7f3",
-        "local_8b92e339216dac9cd5932d34",
+        "local_e136d4464332d5dcc469727f",
+        "local_848f1fda739c77c38fc7f45a",
+        "local_913f39fda9a165c643cb55d7",
+        "local_deea809057aa0b4797197875",
+        "local_70577f094c7c86a3d1285f40",
+        "local_7008996b7e2cf308feb69c3b",
         "local_8e9c4e818e045ee1f8c20ba0",
         "local_abb0dcba22812eb88be85fe0",
-        "local_551c97f0238a1c846a3103ba",
-        "local_6c8af425bfc2e3f56359e003",
-        "local_f145e5d4c2be3208eb0c6bb3",
-        "local_f3eb9e40dedf8f2793e0c9ad",
-        "local_b478d044997ed7d60a073b9e",
-        "local_a3e16efff3b2e5f936c01b1d",
-        "local_bfc4c8099c1a3a01bd390bee",
-        "local_0ab24f9905144fa09c458dee",
-        "local_7ef039869962562b40c9ec05",
-        "local_fcd979341e456bea5fc21a13",
-        "local_3624827640ca000ccb0e6365",
-        "local_502363ed9c8b6a07fdd69bcc",
-        "local_5562f3022822c226b7517ec1",
-        "local_08156774a6d385c2d1a326fd",
-        "local_21a5e239c397ec82ac09d089"
+        "local_75a3242718a21237b40ae7f3",
+        "local_8b92e339216dac9cd5932d34",
+        "local_ac1da81a0f28d837d3c5c688",
+        "local_e16f315dea5c7ddd22f81524",
+        "local_e0501fe7f837c2cbe89ffe09",
+        "local_edd32f8b21b86aca8df56042",
+        "local_1cde46ff76d2d068e1efeb62",
+        "local_01c915b21e16a1d8bf6f247b",
+        "local_2a44c06183a7057637e1e3d6",
+        "local_48326199c201c231c87a5ab7",
+        "local_6cf15cba4523e1887cb800e8",
+        "local_407acb168d5b9ebef9dccfde",
+        "local_ead27031582e7e4b3c627e3a",
+        "local_57fb8ed7625e6a770faa3aaa",
+        "local_29464d961ab45f691fe85410",
+        "local_1f28608fbb2b4f938d741ffd"
       ],
-      "generatedAt": "2026-07-31T01:18:42.539Z",
+      "generatedAt": "2026-07-31T05:14:34.773Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,18 +207,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-31",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「OpenSandbox：重新思考 Agent 时代的 Runtime」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenSandbox：重新思考 Agent 时代的 Runtime",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenSandbox：重新思考 Agent 时代的 Runtime"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：OpenSandbox：重新思考 Agent 时代的 Runtime",
         "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
-        "跟进：Moonshot AI - 博客"
+        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
       ],
       "sections": [
         {
@@ -230,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d4d1f8e40f49ee879d757275"
+                "local_e136d4464332d5dcc469727f"
               ],
               "confidence": 78
             },
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5562f3022822c226b7517ec1"
+                "local_29464d961ab45f691fe85410"
               ],
               "confidence": 70
             }
@@ -250,12 +250,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
+              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_848f1fda739c77c38fc7f45a"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "OpenSandbox：重新思考 Agent 时代的 Runtime",
               "summary": "Agent时代，执行环境已不再是一个简单的基础设施细节，它在很大程度上决定了整个系统的能力上限。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f38a27dd0c16a8be050159c"
+                "local_913f39fda9a165c643cb55d7"
               ],
               "confidence": 82
             },
@@ -265,7 +275,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_37861781507d6c04515c76b8"
+                "local_70577f094c7c86a3d1285f40"
               ],
               "confidence": 92
             },
@@ -285,17 +295,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_21a5e239c397ec82ac09d089"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "The Making of Claude Code",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The inside story of how Claude Code went from an internal CLI to Anthropic&#x27;s coding agent, told by researchers, engineers and early users who built it.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6b018757dfc1c6eb47c47fda"
+                "local_073654ddb366da832ae4647d"
               ],
               "confidence": 92
             }
@@ -310,7 +310,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e99cefe9c76f398e68132146"
+                "local_deea809057aa0b4797197875"
               ],
               "confidence": 90
             },
@@ -320,7 +320,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_709733ccc1aca94bcab6e716"
+                "local_7008996b7e2cf308feb69c3b"
               ],
               "confidence": 78
             },
@@ -350,7 +350,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fcd979341e456bea5fc21a13"
+                "local_407acb168d5b9ebef9dccfde"
               ],
               "confidence": 78
             }
@@ -373,35 +373,35 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d4d1f8e40f49ee879d757275",
-        "local_0f38a27dd0c16a8be050159c",
-        "local_e99cefe9c76f398e68132146",
-        "local_37861781507d6c04515c76b8",
-        "local_709733ccc1aca94bcab6e716",
-        "local_75a3242718a21237b40ae7f3",
-        "local_8b92e339216dac9cd5932d34",
+        "local_e136d4464332d5dcc469727f",
+        "local_848f1fda739c77c38fc7f45a",
+        "local_913f39fda9a165c643cb55d7",
+        "local_deea809057aa0b4797197875",
+        "local_70577f094c7c86a3d1285f40",
+        "local_7008996b7e2cf308feb69c3b",
         "local_8e9c4e818e045ee1f8c20ba0",
         "local_abb0dcba22812eb88be85fe0",
-        "local_fcd979341e456bea5fc21a13",
-        "local_3624827640ca000ccb0e6365",
-        "local_502363ed9c8b6a07fdd69bcc",
-        "local_5562f3022822c226b7517ec1",
-        "local_08156774a6d385c2d1a326fd",
-        "local_21a5e239c397ec82ac09d089",
-        "local_6b018757dfc1c6eb47c47fda",
-        "local_d3b99920f51cae40cf2b6ab4",
-        "local_4e46fc1f55f170ea16c8e01f",
+        "local_75a3242718a21237b40ae7f3",
+        "local_8b92e339216dac9cd5932d34",
+        "local_407acb168d5b9ebef9dccfde",
+        "local_ead27031582e7e4b3c627e3a",
+        "local_57fb8ed7625e6a770faa3aaa",
+        "local_29464d961ab45f691fe85410",
+        "local_1f28608fbb2b4f938d741ffd",
+        "local_073654ddb366da832ae4647d",
+        "local_0dd8b0933d036d8ca0138155",
+        "local_d73bb58ae2f50e5733712588",
         "local_d8aa4cc8b457636b2c05644e",
         "local_8376ea64a96ca2c603a14dcd",
         "local_b6f89c90d2361fa56d572e35"
       ],
-      "generatedAt": "2026-07-31T01:18:42.539Z",
+      "generatedAt": "2026-07-31T05:14:34.774Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-31T01:18:42.539Z",
+  "generatedAt": "2026-07-31T05:14:34.774Z",
   "collectorName": "local-source-collector"
 }
