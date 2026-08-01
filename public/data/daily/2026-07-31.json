@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-31",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems」、「Aschenbrenner&#039;s AI thesis could be correct, his timing and leverage were not」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems」、「Aschenbrenner&#039;s AI thesis could be correct, his timing and leverage were not」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic follows OpenAI in admitting its Claude models reached out of test environments and attacked real-world systems",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Aschenbrenner&#039;s AI thesis could be correct, his timing and leverage were not",
@@ -43,6 +43,16 @@
               "confidence": 70
             },
             {
+              "title": "A Safe Path to Open Weights",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Abstract: Safe open-weight models are public goods, as they put AI development and safety work in many hands and make training choices inspectable. Open models also carry real misuse risks, and release is irreversible. …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_981a02296c0fa93d994b905e"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
               "summary": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort. We identify a structural source of this difficulty: vanilla OPSD is precise…",
               "insightLabel": "关注",
@@ -59,16 +69,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_c21cb1f9c466f5c8a3c331e4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Advancing the price-performance frontier with GPT‑5.6",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_81030672211475514d86b383"
               ],
               "confidence": 92
             }
@@ -106,16 +106,6 @@
                 "local_5a3497d3ac69f68e43b83daa"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier m…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9f9011c81d5f2ea105b014e9"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -128,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_28a0328503df14644089598e"
+                "local_226f04e37d0f4a453b962fef"
               ],
               "confidence": 90
             },
@@ -178,23 +168,22 @@
       "referencedFeedItemIds": [
         "local_47062b6100f85b9a5716f593",
         "local_268da8039072113f20e748bb",
-        "local_28a0328503df14644089598e",
+        "local_226f04e37d0f4a453b962fef",
         "local_92dae6e3911596466bbabf3b",
         "local_ba74467f17e48b6ac93df41d",
         "local_6c5a78e5033a344c8e8c6fed",
+        "local_981a02296c0fa93d994b905e",
         "local_ccacc81fa1afd9a14867018f",
         "local_fd861d4cf4599160ed17bd2f",
         "local_c21cb1f9c466f5c8a3c331e4",
         "local_5a3497d3ac69f68e43b83daa",
-        "local_81030672211475514d86b383",
-        "local_9f9011c81d5f2ea105b014e9",
         "local_d8aa4cc8b457636b2c05644e",
         "local_8376ea64a96ca2c603a14dcd",
         "local_b6f89c90d2361fa56d572e35",
         "local_87c4d469e1ed47c3603c8851",
         "local_bc5b4891a0a28e5e6e6a474d"
       ],
-      "generatedAt": "2026-07-31T22:48:08.749Z",
+      "generatedAt": "2026-08-01T00:18:36.410Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -228,7 +217,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_28a0328503df14644089598e"
+                "local_226f04e37d0f4a453b962fef"
               ],
               "confidence": 90
             },
@@ -291,7 +280,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_28a0328503df14644089598e",
+        "local_226f04e37d0f4a453b962fef",
         "local_92dae6e3911596466bbabf3b",
         "local_ba74467f17e48b6ac93df41d",
         "local_6c5a78e5033a344c8e8c6fed",
@@ -299,13 +288,13 @@
         "local_8376ea64a96ca2c603a14dcd",
         "local_b6f89c90d2361fa56d572e35"
       ],
-      "generatedAt": "2026-07-31T22:48:08.750Z",
+      "generatedAt": "2026-08-01T00:18:36.410Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-07-31T22:48:08.750Z",
+  "generatedAt": "2026-08-01T00:18:36.411Z",
   "collectorName": "local-source-collector"
 }
