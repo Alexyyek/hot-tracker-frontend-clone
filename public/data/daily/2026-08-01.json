@@ -5,16 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-08-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「AI coding agents can modernize research software but can&#039;t judge if the science is right」、「OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「AI coding agents can modernize research software but can&#039;t judge if the science is right」、「超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI coding agents can modernize research software but can&#039;t judge if the science is right",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI is reportedly building Astra, a model family designed to work on problems for hours or days"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference"
       ],
       "watchItems": [
         "跟进：AI coding agents can modernize research software but can&#039;t judge if the science is right",
-        "跟进：OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
-        "跟进：OpenAI is reportedly building Astra, a model family designed to work on problems for hours or days",
         "跟进：超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
         "跟进：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference"
       ],
@@ -31,26 +29,6 @@
                 "local_c840121b1743076237a3111f"
               ],
               "confidence": 92
-            },
-            {
-              "title": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI is building a new model family called \"Astra\" that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_48a154d83e97e73befff23bc"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "OpenAI is reportedly building Astra, a model family designed to work on problems for hours or days",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI is building a new model family called \"Astra\" that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_090de42243ab3a7c9d655072"
-              ],
-              "confidence": 86
             },
             {
               "title": "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
@@ -73,7 +51,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e03c997336dbe381d4e12cb9"
+                "local_37a7b7a399528e8949a10036"
               ],
               "confidence": 86
             }
@@ -82,12 +60,10 @@
       ],
       "referencedFeedItemIds": [
         "local_c840121b1743076237a3111f",
-        "local_48a154d83e97e73befff23bc",
-        "local_090de42243ab3a7c9d655072",
-        "local_e03c997336dbe381d4e12cb9",
+        "local_37a7b7a399528e8949a10036",
         "local_1058ab5a867f722f35a015b9"
       ],
-      "generatedAt": "2026-08-02T12:51:22.209Z",
+      "generatedAt": "2026-08-02T14:51:27.784Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -117,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e03c997336dbe381d4e12cb9"
+                "local_37a7b7a399528e8949a10036"
               ],
               "confidence": 86
             }
@@ -140,16 +116,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e03c997336dbe381d4e12cb9",
+        "local_37a7b7a399528e8949a10036",
         "local_1058ab5a867f722f35a015b9"
       ],
-      "generatedAt": "2026-08-02T12:51:22.209Z",
+      "generatedAt": "2026-08-02T14:51:27.784Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-02T12:51:22.209Z",
+  "generatedAt": "2026-08-02T14:51:27.784Z",
   "collectorName": "local-source-collector"
 }
