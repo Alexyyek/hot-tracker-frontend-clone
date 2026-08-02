@@ -5,95 +5,85 @@
       "topicId": "ai",
       "reportDate": "2026-08-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「OpenAI Presence wants to make AI agents production-ready for businesses」、「Meta AI uses a second AI agent as a memory coach to keep long tasks on track」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Presence wants to make AI agents production-ready for businesses",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
+        "跟进：OpenAI Presence wants to make AI agents production-ready for businesses",
+        "跟进：Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+        "跟进：After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
+        "跟进：Open letters about AI development",
+        "跟进：July 2026 newsletter"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_23e87de8fbcbf7eabcdc3baa"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_931e97f74968694b0b4c2c12"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-              "summary": "深度访谈｜Agentic 时代，谁来重新定义数据库？",
+              "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For comp…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f2e22461a7418b25c89fea17"
+                "local_cb717620230e9fcff36851e7"
               ],
               "confidence": 92
             },
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "title": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta AI wants to stop AI agents from forgetting errors they've already diagnosed and repeating failed steps during complex tasks. A separate memory agent maintains a structured memory bank and decides when to remind the…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3f5bd74b40180c7645c7eff4"
+                "local_ffa9c92655c71fb51dd0be7d"
               ],
               "confidence": 92
             },
             {
-              "title": "Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
-              "summary": "那个曾称霸容器时代的平台并不适合作为 AI 智能体的控制平面。",
+              "title": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b0e423b2c34f4cf375f793cb"
+                "local_ab161bbfdad4274b726775c8"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can …",
+              "title": "July 2026 newsletter",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here. This month: Accidental cyberattacks by OpenAl and Anthropic models under t…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d7a6a19cbb379611fc782e62"
+                "local_f8a2398bb5a22569a322050c"
               ],
-              "confidence": 92
+              "confidence": 90
             },
             {
-              "title": "Enable on-demand expertise with Agent Skills in Genkit Go",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references in…",
+              "title": "datasette-apps 0.2a0",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent: New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_l…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f054056a945aab9ef1db763"
+                "local_8a1515d6f72e287124befa36"
+              ],
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Open letters about AI development",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_29009d4337c158f3ba5a101e"
               ],
               "confidence": 92
             }
@@ -103,85 +93,28 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
+              "title": "Quoting Greg Brockman",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by t…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f76e184a2f7e4189c9b7d183"
+                "local_bbcdf183fa0d3b1279fcdafe"
               ],
-              "confidence": 90
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_3a2e6e506a28a4d1cd143a48"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "How to use Google microbenchmarks for evaluating TPU performance",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google's open-source TPU microbenchmark suite provides developers with granular performance metrics across Network, Compute, HBM, Host Transfer, and Attention components to validate real-world hardware capabilities. By …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_75a3242718a21237b40ae7f3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Run Ray on TPU, Part 2: Ray AI libraries",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correc…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_8b92e339216dac9cd5932d34"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7c8cca709f5f73c9b2652ccb"
-              ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_23e87de8fbcbf7eabcdc3baa",
-        "local_f2e22461a7418b25c89fea17",
-        "local_3f5bd74b40180c7645c7eff4",
-        "local_f76e184a2f7e4189c9b7d183",
-        "local_b0e423b2c34f4cf375f793cb",
-        "local_3a2e6e506a28a4d1cd143a48",
-        "local_d7a6a19cbb379611fc782e62",
-        "local_2f054056a945aab9ef1db763",
-        "local_75a3242718a21237b40ae7f3",
-        "local_8b92e339216dac9cd5932d34",
-        "local_9d3b25c1c0ef4d9d16eef864",
-        "local_96445e1a2c654561adc3c78c",
-        "local_11b6053f9cdfbb33cbe74e6f",
-        "local_4215f327cbe6d008c168ae0f",
-        "local_7c8cca709f5f73c9b2652ccb",
-        "local_e30f44b8babfcffcee915a56",
-        "local_2d7e465f74e4420e18968093",
-        "local_600b5cd16c0274b266352ee0",
-        "local_a5192019b32dd534492a7ea2",
-        "local_571cb89aca896f404da75103",
-        "local_73d7c7267feac2c6c70f7b3a",
-        "local_9cb22c8a4c687dc4a4b4ed84",
-        "local_931e97f74968694b0b4c2c12",
-        "local_39f68fe67d4f1672d7ea556b"
+        "local_cb717620230e9fcff36851e7",
+        "local_ffa9c92655c71fb51dd0be7d",
+        "local_ab161bbfdad4274b726775c8",
+        "local_29009d4337c158f3ba5a101e",
+        "local_f8a2398bb5a22569a322050c",
+        "local_bbcdf183fa0d3b1279fcdafe",
+        "local_8a1515d6f72e287124befa36"
       ],
-      "generatedAt": "2026-08-02T14:51:27.778Z",
+      "generatedAt": "2026-08-02T16:19:15.770Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,95 +125,85 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-02",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「OpenAI Presence wants to make AI agents production-ready for businesses」、「Meta AI uses a second AI agent as a memory coach to keep long tasks on track」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Presence wants to make AI agents production-ready for businesses",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
+        "跟进：OpenAI Presence wants to make AI agents production-ready for businesses",
+        "跟进：Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+        "跟进：After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
+        "跟进：Open letters about AI development",
+        "跟进：July 2026 newsletter"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_23e87de8fbcbf7eabcdc3baa"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_931e97f74968694b0b4c2c12"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-              "summary": "深度访谈｜Agentic 时代，谁来重新定义数据库？",
+              "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For comp…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f2e22461a7418b25c89fea17"
+                "local_cb717620230e9fcff36851e7"
               ],
               "confidence": 92
             },
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "title": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta AI wants to stop AI agents from forgetting errors they've already diagnosed and repeating failed steps during complex tasks. A separate memory agent maintains a structured memory bank and decides when to remind the…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3f5bd74b40180c7645c7eff4"
+                "local_ffa9c92655c71fb51dd0be7d"
               ],
               "confidence": 92
             },
             {
-              "title": "Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
-              "summary": "那个曾称霸容器时代的平台并不适合作为 AI 智能体的控制平面。",
+              "title": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b0e423b2c34f4cf375f793cb"
+                "local_ab161bbfdad4274b726775c8"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent and Model Evaluations in Gemini Enterprise Agent Platform are now GA",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can …",
+              "title": "July 2026 newsletter",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here. This month: Accidental cyberattacks by OpenAl and Anthropic models under t…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d7a6a19cbb379611fc782e62"
+                "local_f8a2398bb5a22569a322050c"
               ],
-              "confidence": 92
+              "confidence": 90
             },
             {
-              "title": "Enable on-demand expertise with Agent Skills in Genkit Go",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references in…",
+              "title": "datasette-apps 0.2a0",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent: New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_l…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f054056a945aab9ef1db763"
+                "local_8a1515d6f72e287124befa36"
+              ],
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Open letters about AI development",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_29009d4337c158f3ba5a101e"
               ],
               "confidence": 92
             }
@@ -290,85 +213,34 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
+              "title": "Quoting Greg Brockman",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by t…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f76e184a2f7e4189c9b7d183"
+                "local_bbcdf183fa0d3b1279fcdafe"
               ],
-              "confidence": 90
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_3a2e6e506a28a4d1cd143a48"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "How to use Google microbenchmarks for evaluating TPU performance",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google's open-source TPU microbenchmark suite provides developers with granular performance metrics across Network, Compute, HBM, Host Transfer, and Attention components to validate real-world hardware capabilities. By …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_75a3242718a21237b40ae7f3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Run Ray on TPU, Part 2: Ray AI libraries",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correc…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_8b92e339216dac9cd5932d34"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_571cb89aca896f404da75103"
-              ],
-              "confidence": 78
+              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_23e87de8fbcbf7eabcdc3baa",
-        "local_f2e22461a7418b25c89fea17",
-        "local_3f5bd74b40180c7645c7eff4",
-        "local_f76e184a2f7e4189c9b7d183",
-        "local_b0e423b2c34f4cf375f793cb",
-        "local_3a2e6e506a28a4d1cd143a48",
-        "local_d7a6a19cbb379611fc782e62",
-        "local_2f054056a945aab9ef1db763",
-        "local_75a3242718a21237b40ae7f3",
-        "local_8b92e339216dac9cd5932d34",
-        "local_571cb89aca896f404da75103",
-        "local_73d7c7267feac2c6c70f7b3a",
-        "local_9cb22c8a4c687dc4a4b4ed84",
-        "local_931e97f74968694b0b4c2c12",
-        "local_39f68fe67d4f1672d7ea556b",
-        "local_9487e00b01b834bd3836c684",
-        "local_4b889230433af7d0d0944822",
-        "local_9237e1c022d7b4a1264e5367"
+        "local_cb717620230e9fcff36851e7",
+        "local_ffa9c92655c71fb51dd0be7d",
+        "local_ab161bbfdad4274b726775c8",
+        "local_29009d4337c158f3ba5a101e",
+        "local_f8a2398bb5a22569a322050c",
+        "local_bbcdf183fa0d3b1279fcdafe",
+        "local_8a1515d6f72e287124befa36"
       ],
-      "generatedAt": "2026-08-02T14:51:27.778Z",
+      "generatedAt": "2026-08-02T16:19:15.770Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-02T14:51:27.778Z",
+  "generatedAt": "2026-08-02T16:19:15.770Z",
   "collectorName": "local-source-collector"
 }
