@@ -43,22 +43,22 @@
               "confidence": 90
             },
             {
+              "title": "Constitutional Midtraining: Content Presence Drives Alignment Gains",
+              "summary": "Post-training alignment is often shallow, eroding under fine-tuning. Whether midtraining interventions, cleanly isolated from post-training, can produce durable alignment remains untested. We test this via constitutional midtraining: inserting principled, values-based content in…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_4331a38a536e8f086fc3f776"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
               "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while on-policy distillation (OPD) scores each token against a stronger teacher for a dense advantage but caps performance at teacher quality and discourages explorati…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_025dd608eef0910e5440021d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
-              "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often degrades on challenging and out-of-domain tasks. Recent test-time steering and scaling methods improve performance without extensive data collection and retrain…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6f6591fe8911077452912842"
               ],
               "confidence": 92
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3443a8a8405776146e88760a"
+                "local_fe73e4e1b0ee909d3e2bbfdb"
               ],
               "confidence": 92
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_00133541f1c34e5497923d9a"
+                "local_d5b6c66b41e932c0b503ed67"
               ],
               "confidence": 92
             },
@@ -165,16 +165,16 @@
         "local_8da38de7b7c874d5c7a149a6",
         "local_4c570532fb1d5c6715b0adfb",
         "local_b386740a8d2ecd175a0ba711",
-        "local_3443a8a8405776146e88760a",
-        "local_00133541f1c34e5497923d9a",
+        "local_fe73e4e1b0ee909d3e2bbfdb",
+        "local_d5b6c66b41e932c0b503ed67",
+        "local_4331a38a536e8f086fc3f776",
         "local_4b8b4184c15549e955aabdaf",
         "local_82ead68491942a64853c7182",
         "local_025dd608eef0910e5440021d",
-        "local_6f6591fe8911077452912842",
         "local_9d331257b1b40deae2f6c648",
         "local_3cfb706be0e3bb667b791c19"
       ],
-      "generatedAt": "2026-08-03T19:18:06.344Z",
+      "generatedAt": "2026-08-03T20:55:07.844Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -216,7 +216,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3443a8a8405776146e88760a"
+                "local_fe73e4e1b0ee909d3e2bbfdb"
               ],
               "confidence": 92
             },
@@ -226,7 +226,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_00133541f1c34e5497923d9a"
+                "local_d5b6c66b41e932c0b503ed67"
               ],
               "confidence": 92
             }
@@ -235,16 +235,16 @@
       ],
       "referencedFeedItemIds": [
         "local_8da38de7b7c874d5c7a149a6",
-        "local_3443a8a8405776146e88760a",
-        "local_00133541f1c34e5497923d9a"
+        "local_fe73e4e1b0ee909d3e2bbfdb",
+        "local_d5b6c66b41e932c0b503ed67"
       ],
-      "generatedAt": "2026-08-03T19:18:06.344Z",
+      "generatedAt": "2026-08-03T20:55:07.844Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T19:18:06.344Z",
+  "generatedAt": "2026-08-03T20:55:07.844Z",
   "collectorName": "local-source-collector"
 }
