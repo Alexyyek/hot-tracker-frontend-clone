@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-07-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「Loop Engineering 已死? 一文带你了解Graph Engineering」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「Loop Engineering 已死? 一文带你了解Graph Engineering」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Loop Engineering 已死? 一文带你了解Graph Engineering",
@@ -15,8 +15,8 @@
         "跟进：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
         "跟进：Loop Engineering 已死? 一文带你了解Graph Engineering",
         "跟进：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
-        "跟进：微软CEO纳德拉最新警告:单押一个大模型,是把公司命门交出去",
-        "跟进：实测阿里新内测的千问办公,这次把打工人4大痛点都覆盖了"
+        "跟进：PIBench:支付宝AI支付团队提出支付场景AI编程智能体评测基准",
+        "跟进：微软CEO纳德拉最新警告:单押一个大模型,是把公司命门交出去"
       ],
       "sections": [
         {
@@ -48,7 +48,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_431f80a7ac9d802dcd298cab"
+                "local_5b2bea9e9147081a2b8e67e6"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "PIBench:支付宝AI支付团队提出支付场景AI编程智能体评测基准",
+              "summary": "Agent 完成.而随着 Agent 从生成代码走向执行真实业务,支付、... 为此,蚂蚁集团开源 Alipay-PIBench,提出首个基于真实支付宝支...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1c55abbb3fa8f37dce18813f"
               ],
               "confidence": 92
             }
@@ -88,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_3b27c8cf9fadb13422959d28"
+                "local_6b575bf546fb8d3d07c32155"
               ],
               "confidence": 82
             }
@@ -98,12 +108,13 @@
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
         "local_189d49a35ce78163bd92b871",
-        "local_431f80a7ac9d802dcd298cab",
+        "local_5b2bea9e9147081a2b8e67e6",
+        "local_1c55abbb3fa8f37dce18813f",
         "local_d3d6cfe89c8942bebe3744d5",
-        "local_3b27c8cf9fadb13422959d28",
+        "local_6b575bf546fb8d3d07c32155",
         "local_d4421f359fe08ad982f35846"
       ],
-      "generatedAt": "2026-08-03T22:24:17.736Z",
+      "generatedAt": "2026-08-03T23:51:59.249Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -114,7 +125,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-28",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「Loop Engineering 已死? 一文带你了解Graph Engineering」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson」、「Loop Engineering 已死? 一文带你了解Graph Engineering」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Loop Engineering 已死? 一文带你了解Graph Engineering",
@@ -124,6 +135,7 @@
         "跟进：Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
         "跟进：Loop Engineering 已死? 一文带你了解Graph Engineering",
         "跟进：论文秀 Live#43 | ACL 2026 SAC Highlight:不跑代码,LLM 如何预判 ML 方案优劣?",
+        "跟进：PIBench:支付宝AI支付团队提出支付场景AI编程智能体评测基准",
         "跟进：微软CEO纳德拉最新警告:单押一个大模型,是把公司命门交出去"
       ],
       "sections": [
@@ -156,7 +168,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_431f80a7ac9d802dcd298cab"
+                "local_5b2bea9e9147081a2b8e67e6"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "PIBench:支付宝AI支付团队提出支付场景AI编程智能体评测基准",
+              "summary": "Agent 完成.而随着 Agent 从生成代码走向执行真实业务,支付、... 为此,蚂蚁集团开源 Alipay-PIBench,提出首个基于真实支付宝支...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1c55abbb3fa8f37dce18813f"
               ],
               "confidence": 92
             }
@@ -181,16 +203,17 @@
       "referencedFeedItemIds": [
         "local_4e4776009a8e61cf50365125",
         "local_189d49a35ce78163bd92b871",
-        "local_431f80a7ac9d802dcd298cab",
+        "local_5b2bea9e9147081a2b8e67e6",
+        "local_1c55abbb3fa8f37dce18813f",
         "local_d3d6cfe89c8942bebe3744d5"
       ],
-      "generatedAt": "2026-08-03T22:24:17.736Z",
+      "generatedAt": "2026-08-03T23:51:59.249Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T22:24:17.736Z",
+  "generatedAt": "2026-08-03T23:51:59.249Z",
   "collectorName": "local-source-collector"
 }
