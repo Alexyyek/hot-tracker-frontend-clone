@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-07-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「We’re announcing the Alliance for America’s Skilled Trades.」、「南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代」、「从生成到交付,音视频 Agent 要有生产级开发套件」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：We’re announcing the Alliance for America’s Skilled Trades.",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从生成到交付,音视频 Agent 要有生产级开发套件"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从生成到交付,音视频 Agent 要有生产级开发套件",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 黑客真的来了,Hugging Face 遭遇 Agent 自主攻击,靠自建GLM 5.2反击成功"
       ],
       "watchItems": [
-        "跟进：We’re announcing the Alliance for America’s Skilled Trades.",
         "跟进：南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
         "跟进：从生成到交付,音视频 Agent 要有生产级开发套件",
         "跟进：AI 黑客真的来了,Hugging Face 遭遇 Agent 自主攻击,靠自建GLM 5.2反击成功",
-        "跟进：Tokens限时免费,华为云OfficeAce喊你早点下班!"
+        "跟进：Tokens限时免费,华为云OfficeAce喊你早点下班!",
+        "跟进：AI说不出的随机数,成了鉴别套壳大模型最好的照妖镜."
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "We’re announcing the Alliance for America’s Skilled Trades.",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is joining BlackRock, Carhartt and Ford to launch the Alliance for America’s Skilled Trades.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_440caa869a05962100b3341d"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
               "summary": "TVIR-Agent(Qwen3-Max)和 TVIR-Agent(GLM-4.7).在商业系统中,Manus-1.6 表现最好.2. 不同变体各有所长TVIR-Agent(GLM-4.7)在文...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b8b96ecdbf6b2e199f1a3e63"
+                "local_79614a44445577895f24b87d"
               ],
               "confidence": 92
             },
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ad6a2ecde0887d1935ff6fec"
+                "local_9333b66cab58ab0098493703"
               ],
               "confidence": 92
             },
@@ -68,103 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b9c6716f3b2dd09c31e531fc"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "AI说不出的随机数,成了鉴别套壳大模型最好的照妖镜.",
-              "summary": "看上去更像一个没有经过思考、随手蹦出来的数字.可恰恰因为所有人都觉得它们更随机,它们才变得最不随机.大模型只不过把人类...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_da00dee75d80f134ce2d99eb"
-              ],
-              "confidence": 92
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_440caa869a05962100b3341d",
-        "local_b8b96ecdbf6b2e199f1a3e63",
-        "local_a58bfa1eb2799f687f0e631e",
-        "local_ad6a2ecde0887d1935ff6fec",
-        "local_b9c6716f3b2dd09c31e531fc",
-        "local_da00dee75d80f134ce2d99eb",
-        "local_6bd7f6626e5bc6a2a8987c65",
-        "local_1ae59f6f42f3c5b653a50d9a"
-      ],
-      "generatedAt": "2026-08-03T11:49:14.971Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-07-21",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-07-21",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「We’re announcing the Alliance for America’s Skilled Trades.」、「南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：We’re announcing the Alliance for America’s Skilled Trades.",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从生成到交付,音视频 Agent 要有生产级开发套件"
-      ],
-      "watchItems": [
-        "跟进：We’re announcing the Alliance for America’s Skilled Trades.",
-        "跟进：南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
-        "跟进：从生成到交付,音视频 Agent 要有生产级开发套件",
-        "跟进：Tokens限时免费,华为云OfficeAce喊你早点下班!",
-        "跟进：AI说不出的随机数,成了鉴别套壳大模型最好的照妖镜."
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "We’re announcing the Alliance for America’s Skilled Trades.",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is joining BlackRock, Carhartt and Ford to launch the Alliance for America’s Skilled Trades.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_440caa869a05962100b3341d"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
-              "summary": "TVIR-Agent(Qwen3-Max)和 TVIR-Agent(GLM-4.7).在商业系统中,Manus-1.6 表现最好.2. 不同变体各有所长TVIR-Agent(GLM-4.7)在文...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b8b96ecdbf6b2e199f1a3e63"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从生成到交付,音视频 Agent 要有生产级开发套件",
-              "summary": "Agent 驱动的工作流.这不仅是在调用模型去生成、处理音视频内... 这种视频生产范式的革新,需要由新的技术底座提供支撑.火山引...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a58bfa1eb2799f687f0e631e"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Tokens限时免费,华为云OfficeAce喊你早点下班!",
-              "summary": "华为云OfficeAce办公智能体 0.4.5 版本正式上线,带来多项新特性,你的这些职场痛点,这次全部被看见、被解决!而且,邀请码正式...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b9c6716f3b2dd09c31e531fc"
+                "local_2c824034fee1d92192e2dd27"
               ],
               "confidence": 82
             },
@@ -197,20 +91,113 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_440caa869a05962100b3341d",
-        "local_b8b96ecdbf6b2e199f1a3e63",
+        "local_79614a44445577895f24b87d",
         "local_a58bfa1eb2799f687f0e631e",
-        "local_b9c6716f3b2dd09c31e531fc",
+        "local_9333b66cab58ab0098493703",
+        "local_2c824034fee1d92192e2dd27",
         "local_da00dee75d80f134ce2d99eb",
         "local_6bd7f6626e5bc6a2a8987c65"
       ],
-      "generatedAt": "2026-08-03T11:49:14.971Z",
+      "generatedAt": "2026-08-03T15:20:53.737Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-07-21",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-07-21",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代」、「从生成到交付,音视频 Agent 要有生产级开发套件」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从生成到交付,音视频 Agent 要有生产级开发套件",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Tokens限时免费,华为云OfficeAce喊你早点下班!"
+      ],
+      "watchItems": [
+        "跟进：南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
+        "跟进：从生成到交付,音视频 Agent 要有生产级开发套件",
+        "跟进：Tokens限时免费,华为云OfficeAce喊你早点下班!",
+        "跟进：AI说不出的随机数,成了鉴别套壳大模型最好的照妖镜.",
+        "跟进：删掉80%的Skill,Agent反而更听话了"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "南大 * 阿里提出TVIR:深度研究Agent迈入图文交错时代",
+              "summary": "TVIR-Agent(Qwen3-Max)和 TVIR-Agent(GLM-4.7).在商业系统中,Manus-1.6 表现最好.2. 不同变体各有所长TVIR-Agent(GLM-4.7)在文...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_79614a44445577895f24b87d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从生成到交付,音视频 Agent 要有生产级开发套件",
+              "summary": "Agent 驱动的工作流.这不仅是在调用模型去生成、处理音视频内... 这种视频生产范式的革新,需要由新的技术底座提供支撑.火山引...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a58bfa1eb2799f687f0e631e"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "Tokens限时免费,华为云OfficeAce喊你早点下班!",
+              "summary": "华为云OfficeAce办公智能体 0.4.5 版本正式上线,带来多项新特性,你的这些职场痛点,这次全部被看见、被解决!而且,邀请码正式...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2c824034fee1d92192e2dd27"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "删掉80%的Skill,Agent反而更听话了",
+              "summary": "关注腾讯云开发者,一手技术干货提前解锁 引言:一个让人抓狂的循环我维护着一个 Agent Skill&mdash;&mdash;一份告诉大模型＂你是谁、该怎么...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6bd7f6626e5bc6a2a8987c65"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "AI说不出的随机数,成了鉴别套壳大模型最好的照妖镜.",
+              "summary": "看上去更像一个没有经过思考、随手蹦出来的数字.可恰恰因为所有人都觉得它们更随机,它们才变得最不随机.大模型只不过把人类...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_da00dee75d80f134ce2d99eb"
+              ],
+              "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_79614a44445577895f24b87d",
+        "local_a58bfa1eb2799f687f0e631e",
+        "local_2c824034fee1d92192e2dd27",
+        "local_da00dee75d80f134ce2d99eb",
+        "local_6bd7f6626e5bc6a2a8987c65"
+      ],
+      "generatedAt": "2026-08-03T15:20:53.737Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T11:49:14.971Z",
+  "generatedAt": "2026-08-03T15:20:53.737Z",
   "collectorName": "local-source-collector"
 }

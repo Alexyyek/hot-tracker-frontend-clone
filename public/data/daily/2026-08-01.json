@@ -5,33 +5,38 @@
       "topicId": "ai",
       "reportDate": "2026-08-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI coding agents can modernize research software but can&#039;t judge if the science is right」、「超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26」、「Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI coding agents can modernize research software but can&#039;t judge if the science is right",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：TokTier: Exact Stateful Tokenization for Agentic LLM Serving"
       ],
       "watchItems": [
-        "跟进：AI coding agents can modernize research software but can&#039;t judge if the science is right",
         "跟进：超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
         "跟进：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
         "跟进：TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
-        "跟进：ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction"
+        "跟进：ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+        "跟进：Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "AI coding agents can modernize research software but can&#039;t judge if the science is right",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A field report from OpenAI and academic partners shows coding agents can modernize neglected research software, with speedups of up to 60x. But the systems are \"eloquent, convincing, and confidently wrong in ways that a…",
+              "title": "超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
+              "summary": "新智元报道 多模态大语言模型正在改变情感识别的研究范式.与... Light-MER的核心思路:大模型只负责提供知识,低于1B参数的学...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c840121b1743076237a3111f"
+                "local_d6ae29dfbb8bfb91456c46f2"
               ],
-              "confidence": 92
-            },
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：As agentic and long-context workloads become common, the context lengths increase and attention consumes a larger share of inference time (Figure 1). Because...",
@@ -73,32 +78,16 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
-              "summary": "新智元报道 多模态大语言模型正在改变情感识别的研究范式.与... Light-MER的核心思路:大模型只负责提供知识,低于1B参数的学...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_641de203f721e9cbff7020e4"
-              ],
-              "confidence": 86
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c840121b1743076237a3111f",
-        "local_641de203f721e9cbff7020e4",
+        "local_d6ae29dfbb8bfb91456c46f2",
         "local_1058ab5a867f722f35a015b9",
         "local_e0ee8546e7e3d405bc122619",
         "local_b936c99459fa278b544a44dd",
         "local_8fcdf886bcc4e653ba2dda6e"
       ],
-      "generatedAt": "2026-08-03T11:49:14.900Z",
+      "generatedAt": "2026-08-03T15:20:53.623Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -128,7 +117,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_641de203f721e9cbff7020e4"
+                "local_d6ae29dfbb8bfb91456c46f2"
               ],
               "confidence": 86
             }
@@ -151,16 +140,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_641de203f721e9cbff7020e4",
+        "local_d6ae29dfbb8bfb91456c46f2",
         "local_1058ab5a867f722f35a015b9"
       ],
-      "generatedAt": "2026-08-03T11:49:14.900Z",
+      "generatedAt": "2026-08-03T15:20:53.623Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T11:49:14.900Z",
+  "generatedAt": "2026-08-03T15:20:53.623Z",
   "collectorName": "local-source-collector"
 }
