@@ -5,20 +5,65 @@
       "topicId": "ai",
       "reportDate": "2026-08-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Inside our 353,000-person vibe coding course」、「China&#039;s MiniMax H3 is the first open model to top an AI video ranking」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Devtools must be open source (exe.dev)」、「Inside our 353,000-person vibe coding course」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Devtools must be open source (exe.dev)",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inside our 353,000-person vibe coding course",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#039;s MiniMax H3 is the first open model to top an AI video ranking"
       ],
       "watchItems": [
+        "跟进：Devtools must be open source (exe.dev)",
         "跟进：Inside our 353,000-person vibe coding course",
         "跟进：China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
         "跟进：Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
-        "跟进：实测 9 款 AI 架构图工具:从 Mermaid 美化到 GPT-Image2,一份选型清单",
-        "跟进：自构建智能体:一项 LangChain4j 实验"
+        "跟进：实测 9 款 AI 架构图工具:从 Mermaid 美化到 GPT-Image2,一份选型清单"
       ],
       "sections": [
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Devtools must be open source (exe.dev)",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：My comment on Devtools must be open source (exe.dev) &mdash; Hacker News.One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_31543a89585e3c18d3e05bc8"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：One paragraph of \"Lord of the Rings\" in, 5,500 lines of code out. Andrej Karpathy had Claude Opus 5 turn Tolkien's opening into a 3D browser scene. The article Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b386740a8d2ecd175a0ba711"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
+              "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while on-policy distillation (OPD) scores each token against a stronger teacher for a dense advantage but caps performance at teacher quality and discourages explorati…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_025dd608eef0910e5440021d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
+              "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often degrades on challenging and out-of-domain tasks. Recent test-time steering and scaling methods improve performance without extensive data collection and retrain…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_6f6591fe8911077452912842"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -38,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a983f6f625434838fda855f8"
+                "local_3443a8a8405776146e88760a"
               ],
               "confidence": 92
             },
@@ -90,41 +135,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：One paragraph of \"Lord of the Rings\" in, 5,500 lines of code out. Andrej Karpathy had Claude Opus 5 turn Tolkien's opening into a 3D browser scene. The article Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b386740a8d2ecd175a0ba711"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
-              "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while on-policy distillation (OPD) scores each token against a stronger teacher for a dense advantage but caps performance at teacher quality and discourages explorati…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_025dd608eef0910e5440021d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "RL^2-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
-              "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often degrades on challenging and out-of-domain tasks. Recent test-time steering and scaling methods improve performance without extensive data collection and retrain…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6f6591fe8911077452912842"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "行业与公司",
           "items": [
             {
@@ -151,10 +161,11 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_31543a89585e3c18d3e05bc8",
         "local_8da38de7b7c874d5c7a149a6",
         "local_4c570532fb1d5c6715b0adfb",
         "local_b386740a8d2ecd175a0ba711",
-        "local_a983f6f625434838fda855f8",
+        "local_3443a8a8405776146e88760a",
         "local_00133541f1c34e5497923d9a",
         "local_4b8b4184c15549e955aabdaf",
         "local_82ead68491942a64853c7182",
@@ -163,7 +174,7 @@
         "local_9d331257b1b40deae2f6c648",
         "local_3cfb706be0e3bb667b791c19"
       ],
-      "generatedAt": "2026-08-03T17:37:35.449Z",
+      "generatedAt": "2026-08-03T19:18:06.344Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -205,7 +216,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a983f6f625434838fda855f8"
+                "local_3443a8a8405776146e88760a"
               ],
               "confidence": 92
             },
@@ -224,16 +235,16 @@
       ],
       "referencedFeedItemIds": [
         "local_8da38de7b7c874d5c7a149a6",
-        "local_a983f6f625434838fda855f8",
+        "local_3443a8a8405776146e88760a",
         "local_00133541f1c34e5497923d9a"
       ],
-      "generatedAt": "2026-08-03T17:37:35.449Z",
+      "generatedAt": "2026-08-03T19:18:06.344Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T17:37:35.450Z",
+  "generatedAt": "2026-08-03T19:18:06.344Z",
   "collectorName": "local-source-collector"
 }
