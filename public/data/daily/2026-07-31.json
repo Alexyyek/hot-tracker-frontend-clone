@@ -5,30 +5,40 @@
       "topicId": "ai",
       "reportDate": "2026-07-31",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目」、「Experience the magic of Kosovo from anywhere with Street View」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale」、「国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Experience the magic of Kosovo from anywhere with Street View",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness 解析:智能体架构深度拆解"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Experience the magic of Kosovo from anywhere with Street View"
       ],
       "watchItems": [
+        "跟进：From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
         "跟进：国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目",
         "跟进：Experience the magic of Kosovo from anywhere with Street View",
         "跟进：Agent Harness 解析:智能体架构深度拆解",
-        "跟进：给 Agent 装上方向盘和刹车,Harness 时代的工程新范式",
-        "跟进：A Safe Path to Open Weights"
+        "跟进：给 Agent 装上方向盘和刹车,Harness 时代的工程新范式"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
+              "summary": "AI coding agents are generating code at volumes that exceed the capacity of traditional peer review. At the same time, existing AI code review tools over-index on low-value suggestions such as style and best practices while under-indexing on the concerns human reviewers prioriti…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3113159b54989afb994a20f3"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目",
               "summary": "Agent也好,物理或者非物理AI也好,最终都需要主动智能来支撑.而主动智能的本质就是决策,即在充分理解用户个性化数据闭环的...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_729bb77a831825e51de93afb"
+                "local_ed7a4db7ed1293a59ab331ac"
               ],
               "confidence": 90
             },
@@ -61,16 +71,6 @@
                 "local_d8aa4cc8b457636b2c05644e"
               ],
               "confidence": 70
-            },
-            {
-              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8376ea64a96ca2c603a14dcd"
-              ],
-              "confidence": 70
             }
           ]
         },
@@ -96,72 +96,22 @@
                 "local_981a02296c0fa93d994b905e"
               ],
               "confidence": 92
-            },
-            {
-              "title": "β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation",
-              "summary": "On-policy self-distillation (OPSD) is a promising approach to improve reasoning language models, but it remains brittle in practice: making it work reliably often requires substantial engineering effort. We identify a structural source of this difficulty: vanilla OPSD is precise…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fd861d4cf4599160ed17bd2f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Beyond Geometric Complementarity: Coherent Overlap in Sparse Mixture-of-Experts Routing",
-              "summary": "Sparse mixture-of-experts (MoE) language models route each token to multiple experts, suggesting a geometric account of their benefit: co-selected experts should contribute distinct representation directions. Existing evidence often conflates route coherence, candidate quality, …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c21cb1f9c466f5c8a3c331e4"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "OmniScope: Modality-Decoupled Token Compression for Omnimodal Large Language Models",
-              "summary": "Existing token compression methods for omnimodal large language models typically rely on one modality to determine what to retain in the other. We show that this assumption often breaks down: for the same query, audio and video relevance often peaks at different moments. This cr…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_ccacc81fa1afd9a14867018f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Fairness Pruning: Locating Demographic Bias in GLU-MLP Layers via Differential Activations",
-              "summary": "This work presents Fairness Pruning, a lightweight structural intervention method designed for the management and future mitigation of demographic bias in large language models (LLMs). As a foundational empirical validation of this method, this work focuses on causal bias locali…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_5a3497d3ac69f68e43b83daa"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_729bb77a831825e51de93afb",
+        "local_3113159b54989afb994a20f3",
+        "local_ed7a4db7ed1293a59ab331ac",
         "local_92dae6e3911596466bbabf3b",
         "local_ba74467f17e48b6ac93df41d",
         "local_6c5a78e5033a344c8e8c6fed",
         "local_981a02296c0fa93d994b905e",
-        "local_ccacc81fa1afd9a14867018f",
-        "local_fd861d4cf4599160ed17bd2f",
-        "local_c21cb1f9c466f5c8a3c331e4",
-        "local_5a3497d3ac69f68e43b83daa",
         "local_d8aa4cc8b457636b2c05644e",
         "local_8376ea64a96ca2c603a14dcd",
-        "local_b6f89c90d2361fa56d572e35",
-        "local_87c4d469e1ed47c3603c8851",
-        "local_bc5b4891a0a28e5e6e6a474d"
+        "local_b6f89c90d2361fa56d572e35"
       ],
-      "generatedAt": "2026-08-02T23:47:22.012Z",
+      "generatedAt": "2026-08-03T03:59:20.187Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -195,7 +145,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_729bb77a831825e51de93afb"
+                "local_ed7a4db7ed1293a59ab331ac"
               ],
               "confidence": 90
             },
@@ -258,7 +208,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_729bb77a831825e51de93afb",
+        "local_ed7a4db7ed1293a59ab331ac",
         "local_92dae6e3911596466bbabf3b",
         "local_ba74467f17e48b6ac93df41d",
         "local_6c5a78e5033a344c8e8c6fed",
@@ -266,13 +216,13 @@
         "local_8376ea64a96ca2c603a14dcd",
         "local_b6f89c90d2361fa56d572e35"
       ],
-      "generatedAt": "2026-08-02T23:47:22.012Z",
+      "generatedAt": "2026-08-03T03:59:20.187Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-02T23:47:22.012Z",
+  "generatedAt": "2026-08-03T03:59:20.187Z",
   "collectorName": "local-source-collector"
 }
