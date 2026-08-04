@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
+        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
+        "跟进：大米评测的个人空间-大米评测个人主页-哔哩哔哩视频",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_890cc480bbdfcce00d6bb98e"
+                "local_d7cf77c6a00361e5fa839353"
               ],
               "confidence": 78
             },
@@ -38,9 +38,64 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fc628c13d96c0994090cd9a7"
+                "local_2b349ee7456ba17a6718649a"
               ],
               "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
+              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_07adabe59e02d230e5931011"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "大米评测的个人空间-大米评测个人主页-哔哩哔哩视频",
+              "summary": "哔哩哔哩大米评测的个人空间，提供大米评测分享的视频、音频、文章、动态、收藏等内容，关注大米评测账号，第一时间了解UP主动态。去发现 去改变 | 合作联系wx：damipingce-swhz",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_ee8287ccf3e40b11e44aa6ab"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Moonshot AI - 博客",
+              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_386fac6741ae281582cc9a14"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_0a3ed550020b768b406067f8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_1817487321b0d62ac58a03b7"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -48,32 +103,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-              "summary": "深度访谈｜Agentic 时代，谁来重新定义数据库？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0c8b6abf963818704303d16b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_62cae16dd8b80ef98ccc476f"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
               "summary": "那个曾称霸容器时代的平台并不适合作为 AI 智能体的控制平面。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a67898702bf76f2f28f38502"
+                "local_1633e99da0fa3b3690da252b"
               ],
               "confidence": 92
             },
@@ -96,92 +131,57 @@
                 "local_d7a6a19cbb379611fc782e62"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7e6f4785a1444bdac5e94bcf"
-              ],
-              "confidence": 90
             },
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "A unified API for AI model routing",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_3f39ebf61fb92df69b3d6656"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a12f53d7fd5f693c7f103b93"
+                "local_ecbc6fb21218eeb4b5c0a881"
               ],
               "confidence": 92
             },
             {
-              "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained …",
+              "title": "Scaling real-time AI agents with session-aware load balancing",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f147d1f304bcfc0d8be13e0"
+                "local_6a1d70e62dcf0060c667e16e"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_544cc82003663560d32289bb"
-              ],
-              "confidence": 78
+              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_890cc480bbdfcce00d6bb98e",
-        "local_0c8b6abf963818704303d16b",
-        "local_62cae16dd8b80ef98ccc476f",
-        "local_7e6f4785a1444bdac5e94bcf",
-        "local_a67898702bf76f2f28f38502",
-        "local_3f39ebf61fb92df69b3d6656",
+        "local_d7cf77c6a00361e5fa839353",
+        "local_07adabe59e02d230e5931011",
+        "local_1633e99da0fa3b3690da252b",
+        "local_ee8287ccf3e40b11e44aa6ab",
+        "local_386fac6741ae281582cc9a14",
         "local_2f054056a945aab9ef1db763",
         "local_d7a6a19cbb379611fc782e62",
         "local_ecbc6fb21218eeb4b5c0a881",
         "local_6a1d70e62dcf0060c667e16e",
-        "local_89259baa36c237246e381dfc",
-        "local_3598713c8a5ef27bd29cfd47",
-        "local_8432a550e52ee9f46da77680",
-        "local_47e6dac2fffca7561d6a2382",
-        "local_a12f53d7fd5f693c7f103b93",
-        "local_0f147d1f304bcfc0d8be13e0",
-        "local_5f72c1cb50393aa29e20ee83",
-        "local_1e617fd960523b34282ef7a3",
-        "local_09a08a2ed932cc6e8af46a6f",
-        "local_544cc82003663560d32289bb",
-        "local_95213012cb9f3f6a144cdd00",
-        "local_3bc1811378bc3333d9010296",
-        "local_fc628c13d96c0994090cd9a7",
-        "local_04e6f76ad2dfa342fe7bc6ad"
+        "local_98c4c9329f3d29391f12227a",
+        "local_93097e54a4e3640874eef854",
+        "local_70abd1d3333c096ed0cced29",
+        "local_dc09c07f0bff22e7c8bc0b9c",
+        "local_0a3ed550020b768b406067f8",
+        "local_1817487321b0d62ac58a03b7",
+        "local_f7723f62a68f6b58a7b7a3e0",
+        "local_942bf893b01d98c117ccbf39",
+        "local_30a59bf302283edb4073e552",
+        "local_06390c9b101aaabdd83b9ff5",
+        "local_f0d4d007003d46834046fe21",
+        "local_0adb7fca7bc04cd71bafa9f1",
+        "local_2b349ee7456ba17a6718649a",
+        "local_b48801b1d04e68d5d7164c7b",
+        "local_f9a7c534d0994d38c52ffe0d"
       ],
-      "generatedAt": "2026-08-04T16:39:30.792Z",
+      "generatedAt": "2026-08-04T18:25:17.640Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,18 +192,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-05",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
+        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
+        "跟进：大米评测的个人空间-大米评测个人主页-哔哩哔哩视频",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_890cc480bbdfcce00d6bb98e"
+                "local_d7cf77c6a00361e5fa839353"
               ],
               "confidence": 78
             },
@@ -225,9 +225,64 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fc628c13d96c0994090cd9a7"
+                "local_2b349ee7456ba17a6718649a"
               ],
               "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
+              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_07adabe59e02d230e5931011"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "大米评测的个人空间-大米评测个人主页-哔哩哔哩视频",
+              "summary": "哔哩哔哩大米评测的个人空间，提供大米评测分享的视频、音频、文章、动态、收藏等内容，关注大米评测账号，第一时间了解UP主动态。去发现 去改变 | 合作联系wx：damipingce-swhz",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_ee8287ccf3e40b11e44aa6ab"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Moonshot AI - 博客",
+              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_386fac6741ae281582cc9a14"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Seed Research",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_06390c9b101aaabdd83b9ff5"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "ByteDance Seed",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f0d4d007003d46834046fe21"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -235,32 +290,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
-              "summary": "深度访谈｜Agentic 时代，谁来重新定义数据库？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0c8b6abf963818704303d16b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_62cae16dd8b80ef98ccc476f"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
               "summary": "那个曾称霸容器时代的平台并不适合作为 AI 智能体的控制平面。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a67898702bf76f2f28f38502"
+                "local_1633e99da0fa3b3690da252b"
               ],
               "confidence": 92
             },
@@ -283,92 +318,57 @@
                 "local_d7a6a19cbb379611fc782e62"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7e6f4785a1444bdac5e94bcf"
-              ],
-              "confidence": 90
             },
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "A unified API for AI model routing",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_3f39ebf61fb92df69b3d6656"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_544cc82003663560d32289bb"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_95213012cb9f3f6a144cdd00"
+                "local_ecbc6fb21218eeb4b5c0a881"
               ],
               "confidence": 92
             },
             {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
+              "title": "Scaling real-time AI agents with session-aware load balancing",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3bc1811378bc3333d9010296"
+                "local_6a1d70e62dcf0060c667e16e"
               ],
-              "confidence": 78
+              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_890cc480bbdfcce00d6bb98e",
-        "local_0c8b6abf963818704303d16b",
-        "local_62cae16dd8b80ef98ccc476f",
-        "local_7e6f4785a1444bdac5e94bcf",
-        "local_a67898702bf76f2f28f38502",
-        "local_3f39ebf61fb92df69b3d6656",
+        "local_d7cf77c6a00361e5fa839353",
+        "local_07adabe59e02d230e5931011",
+        "local_1633e99da0fa3b3690da252b",
+        "local_ee8287ccf3e40b11e44aa6ab",
+        "local_386fac6741ae281582cc9a14",
         "local_2f054056a945aab9ef1db763",
         "local_d7a6a19cbb379611fc782e62",
         "local_ecbc6fb21218eeb4b5c0a881",
         "local_6a1d70e62dcf0060c667e16e",
-        "local_544cc82003663560d32289bb",
-        "local_95213012cb9f3f6a144cdd00",
-        "local_3bc1811378bc3333d9010296",
-        "local_fc628c13d96c0994090cd9a7",
-        "local_04e6f76ad2dfa342fe7bc6ad",
-        "local_3a32d9655d587d43326099cc",
-        "local_192ce9638b66d4587fff7481",
-        "local_1651079b3cb26e5cd2151a6b"
+        "local_06390c9b101aaabdd83b9ff5",
+        "local_f0d4d007003d46834046fe21",
+        "local_0adb7fca7bc04cd71bafa9f1",
+        "local_2b349ee7456ba17a6718649a",
+        "local_b48801b1d04e68d5d7164c7b",
+        "local_f9a7c534d0994d38c52ffe0d",
+        "local_593642640bd0ab75ada2fc15",
+        "local_6ffd4f255eba279c0033103f",
+        "local_0c8b6abf963818704303d16b"
       ],
-      "generatedAt": "2026-08-04T16:39:30.792Z",
+      "generatedAt": "2026-08-04T18:25:17.640Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-04T16:39:30.792Z",
+  "generatedAt": "2026-08-04T18:25:17.641Z",
   "collectorName": "local-source-collector"
 }

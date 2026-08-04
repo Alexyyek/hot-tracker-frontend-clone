@@ -33,22 +33,32 @@
               "confidence": 82
             },
             {
+              "title": "Wnuan: Staged Post-Training for Question Answering over Proprietary Enterprise Knowledge",
+              "summary": "Enterprise question answering requires models to acquire proprietary knowledge without discarding general capabilities. We present Wnuan, a three-stage pipeline that constructs task-oriented supervision from documents, performs supervised fine-tuning with general-data replay, an…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_df1a10c4c22af06e7bcde9eb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "To Add Is Machine, To Delete Is Human: Measuring and Mitigating Deletion Avoidance in LLM Code Editing",
+              "summary": "Large language models increasingly write and repair production code, yet evidence is mounting that their test-passing patches leave codebases harder to maintain. We identify one concrete source: deletion avoidance, the systematic tendency to retain code that an intended edit req…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_003c59c232c6df32d1e1df95"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space",
               "summary": "World Action Models (WAMs) couple action generation with prediction of future states. Their effectiveness depends on whether future dynamics are modeled in a space that is both aligned with action generation and sufficiently geometry-aware to capture where and how actions change…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_13187e92e3c1150681ffcc61"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Seeing or Knowing? Visual Context Sensitivity in Multimodal Large Language Models",
-              "summary": "Multimodal Large Language Models (MLLMs) achieve strong performance by integrating visual inputs with the rich priors of pretrained language models. However, they often fail on vision-centric tasks, especially when visual evidence conflicts with pretrained knowledge. We explore …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c1ba93f61694c9bb0e25a148"
               ],
               "confidence": 92
             },
@@ -61,16 +71,6 @@
                 "local_414344d02821e6c9a9a483c2"
               ],
               "confidence": 78
-            },
-            {
-              "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_db1407bdc16059346d97cb53"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -103,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4d47adb2331a3700f54bc3c7"
+                "local_575f82c8daf0406a13654171"
               ],
               "confidence": 92
             },
@@ -113,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_544e43337711772f3f426318"
+                "local_d01a403a175dab63219084cf"
               ],
               "confidence": 92
             },
@@ -141,16 +141,6 @@
                 "local_84fd4b7901a3cdb7974c1bbd"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Loud or Silent? A Reusable Framework for Per-Modality Failure Analysis in Multimodal Clinical AI",
-              "summary": "Multimodal clinical models are usually judged on accuracy with every modality present, but deployment removes modalities; an echocardiogram is often unavailable where an ECG is routine. Two questions then matter beyond the size of the accuracy loss: which modality was responsibl…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e54beb7992fca03d60b8e266"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -160,13 +150,13 @@
         "local_e6ae713bf32195f5fc6b01b6",
         "local_84fd4b7901a3cdb7974c1bbd",
         "local_004923fcfde4b75198987b70",
-        "local_4d47adb2331a3700f54bc3c7",
-        "local_544e43337711772f3f426318",
+        "local_575f82c8daf0406a13654171",
+        "local_d01a403a175dab63219084cf",
         "local_0276224125bdfe65c2da2ebd",
+        "local_df1a10c4c22af06e7bcde9eb",
+        "local_003c59c232c6df32d1e1df95",
         "local_13187e92e3c1150681ffcc61",
         "local_5cb2bdc4fa4cb874691bca78",
-        "local_e54beb7992fca03d60b8e266",
-        "local_c1ba93f61694c9bb0e25a148",
         "local_44a41491f740dea310d4f8f7",
         "local_414344d02821e6c9a9a483c2",
         "local_db1407bdc16059346d97cb53",
@@ -174,7 +164,7 @@
         "local_1d2b548233e9edad212799ca",
         "local_b665dfdfaa43c29385f64dfb"
       ],
-      "generatedAt": "2026-08-04T16:39:30.802Z",
+      "generatedAt": "2026-08-04T18:25:17.649Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -253,7 +243,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4d47adb2331a3700f54bc3c7"
+                "local_575f82c8daf0406a13654171"
               ],
               "confidence": 92
             },
@@ -263,7 +253,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_544e43337711772f3f426318"
+                "local_d01a403a175dab63219084cf"
               ],
               "confidence": 92
             },
@@ -300,18 +290,18 @@
         "local_e6ae713bf32195f5fc6b01b6",
         "local_84fd4b7901a3cdb7974c1bbd",
         "local_004923fcfde4b75198987b70",
-        "local_4d47adb2331a3700f54bc3c7",
-        "local_544e43337711772f3f426318",
+        "local_575f82c8daf0406a13654171",
+        "local_d01a403a175dab63219084cf",
         "local_db1407bdc16059346d97cb53",
         "local_b665dfdfaa43c29385f64dfb"
       ],
-      "generatedAt": "2026-08-04T16:39:30.802Z",
+      "generatedAt": "2026-08-04T18:25:17.649Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-04T16:39:30.803Z",
+  "generatedAt": "2026-08-04T18:25:17.649Z",
   "collectorName": "local-source-collector"
 }
