@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-07-31",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale」、「国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目」、「Experience the magic of Kosovo from anywhere with Street View」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Experience the magic of Kosovo from anywhere with Street View"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Experience the magic of Kosovo from anywhere with Street View",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness 解析:智能体架构深度拆解"
       ],
       "watchItems": [
-        "跟进：From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
         "跟进：国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目",
         "跟进：Experience the magic of Kosovo from anywhere with Street View",
         "跟进：Agent Harness 解析:智能体架构深度拆解",
-        "跟进：给 Agent 装上方向盘和刹车,Harness 时代的工程新范式"
+        "跟进：给 Agent 装上方向盘和刹车,Harness 时代的工程新范式",
+        "跟进：A Safe Path to Open Weights"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
-              "summary": "AI coding agents are generating code at volumes that exceed the capacity of traditional peer review. At the same time, existing AI code review tools over-index on low-value suggestions such as style and best practices while under-indexing on the concerns human reviewers prioriti…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3113159b54989afb994a20f3"
-              ],
-              "confidence": 92
-            },
             {
               "title": "国内唯一做多模态长记忆的公司,融资数千万,押注主动智能|涌现新项目",
               "summary": "Agent也好,物理或者非物理AI也好,最终都需要主动智能来支撑.而主动智能的本质就是决策,即在充分理解用户个性化数据闭环的...",
@@ -71,6 +61,16 @@
                 "local_d8aa4cc8b457636b2c05644e"
               ],
               "confidence": 70
+            },
+            {
+              "title": "MiniMax Hailuo 2.3: A New Level of Complex Video Performance & Media Agent",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building AGI with our mission Intelligence with Everyone. Global leader in multi-modal models and AI-native products with over 200 million users.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8376ea64a96ca2c603a14dcd"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -101,7 +101,6 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_3113159b54989afb994a20f3",
         "local_1a5c36ff045ee543238aefbe",
         "local_92dae6e3911596466bbabf3b",
         "local_ba74467f17e48b6ac93df41d",
@@ -111,7 +110,7 @@
         "local_8376ea64a96ca2c603a14dcd",
         "local_b6f89c90d2361fa56d572e35"
       ],
-      "generatedAt": "2026-08-03T23:51:59.217Z",
+      "generatedAt": "2026-08-04T03:41:02.504Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -216,13 +215,13 @@
         "local_8376ea64a96ca2c603a14dcd",
         "local_b6f89c90d2361fa56d572e35"
       ],
-      "generatedAt": "2026-08-03T23:51:59.217Z",
+      "generatedAt": "2026-08-04T03:41:02.504Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T23:51:59.218Z",
+  "generatedAt": "2026-08-04T03:41:02.505Z",
   "collectorName": "local-source-collector"
 }

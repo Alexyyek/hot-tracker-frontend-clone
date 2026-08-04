@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Devtools must be open source (exe.dev)」、「Inside our 353,000-person vibe coding course」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Devtools must be open source (exe.dev)」、「Inside our 353,000-person vibe coding course」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Devtools must be open source (exe.dev)",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inside our 353,000-person vibe coding course",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#039;s MiniMax H3 is the first open model to top an AI video ranking"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Trajectories That Segment Themselves: Agent-Declared Boundaries as a Training Unit"
       ],
       "watchItems": [
         "跟进：Devtools must be open source (exe.dev)",
         "跟进：Inside our 353,000-person vibe coding course",
-        "跟进：China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
-        "跟进：Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
-        "跟进：实测 9 款 AI 架构图工具:从 Mermaid 美化到 GPT-Image2,一份选型清单"
+        "跟进：Trajectories That Segment Themselves: Agent-Declared Boundaries as a Training Unit",
+        "跟进：Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+        "跟进：China&#039;s MiniMax H3 is the first open model to top an AI video ranking"
       ],
       "sections": [
         {
@@ -41,26 +41,6 @@
                 "local_b386740a8d2ecd175a0ba711"
               ],
               "confidence": 90
-            },
-            {
-              "title": "Constitutional Midtraining: Content Presence Drives Alignment Gains",
-              "summary": "Post-training alignment is often shallow, eroding under fine-tuning. Whether midtraining interventions, cleanly isolated from post-training, can produce durable alignment remains untested. We test this via constitutional midtraining: inserting principled, values-based content in…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4331a38a536e8f086fc3f776"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "SAF-OPD: Stable Advantage Fusion for On-Policy Distillation",
-              "summary": "Reinforcement learning with verifiable rewards (RLVR) broadcasts a single response-level reward to every token, while on-policy distillation (OPD) scores each token against a stronger teacher for a dense advantage but caps performance at teacher quality and discourages explorati…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_025dd608eef0910e5440021d"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -78,42 +58,42 @@
               "confidence": 78
             },
             {
+              "title": "Trajectories That Segment Themselves: Agent-Declared Boundaries as a Training Unit",
+              "summary": "Long-horizon coding-agent trajectories are poorly matched to the credit units available to train on: a single action has no stable value, an episode label merges productive exploration with abandoned directions, and a fixed window cuts where the logging mechanics fall. We introd…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dc3d1fd8856a97ef7a811a4a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
+              "summary": "Agents built around large language models continually accumulate interaction trajectories during deployment, yet their behavior typically remains fixed. Beyond updating model weights, these trajectories can improve the agent harness that constructs context, mediates tools, valid…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dd2edb4717a521c633a9e620"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Beyond Solution-Centric Search: Adaptive Inquiry and Knowledge Revision for Autonomous ML Engineering",
+              "summary": "Long-horizon autonomous research tasks such as machine learning engineering require systems to make interdependent decisions under a limited budget. Existing LLM-based agents typically organize candidate-solution improvement through tree, graph, or chain structures, meaning that…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_766a378846d3e077a125a9b7"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "实测 9 款 AI 架构图工具:从 Mermaid 美化到 GPT-Image2,一份选型清单",
               "summary": "Agentic RAG 架构图,包含 Query、Planner、Search Tool、... 在研发流程中的自动化协作读者对象:开发者、架构师核心模块:...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4d16dbbb8008da6462a9007a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "自构建智能体:一项 LangChain4j 实验",
-              "summary": "智能体框架,利用氛围编程的方法构建一个智能代码生成器,让大... //www.infoq.com/articles/self-building-agent-langchain4j/今日好文...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ccfb5592f9ac07235bbd3584"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "EMBL AI Librarian: Life-Sciences Knowledge Layer for AI Agents",
-              "summary": "The web is increasingly accessed by AI agents rather than humans. Every agent needs knowledge, especially in the life-sciences, where agentic pipelines are growing fast. Access to the literature is a crucial part of that need, and resources such as Europe PMC, with over 40M inde…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4b8b4184c15549e955aabdaf"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Ori Eval: Find the Best Model for What You're Building — OpenRouter Blog",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Ori Eval runs your agent on your own prompts, asserts on the tools it called, and grades answers with an LLM judge. Find the best model for what you're building.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9d331257b1b40deae2f6c648"
+                "local_61f48d0c69589835d10ab6cc"
               ],
               "confidence": 92
             }
@@ -133,48 +113,21 @@
               "confidence": 78
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Beyond Feeling Better: Capability-Sustaining Emotional Dialogue as a Longitudinal Research Paradigm",
-              "summary": "Emotional dialogue research includes two influential strategy traditions. Empathetic dialogue prioritizes understanding a speaker's emotional experience. Emotional support conversation selects and sequences support for the seeker's current needs. Sustained use introduces a furth…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_82ead68491942a64853c7182"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "condense-json 1.0",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Release: condense-json 1.0 I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it. Here'…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_3cfb706be0e3bb667b791c19"
-              ],
-              "confidence": 74
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_31543a89585e3c18d3e05bc8",
         "local_8da38de7b7c874d5c7a149a6",
+        "local_dc3d1fd8856a97ef7a811a4a",
+        "local_dd2edb4717a521c633a9e620",
         "local_4c570532fb1d5c6715b0adfb",
+        "local_766a378846d3e077a125a9b7",
         "local_b386740a8d2ecd175a0ba711",
-        "local_4d16dbbb8008da6462a9007a",
-        "local_ccfb5592f9ac07235bbd3584",
-        "local_4331a38a536e8f086fc3f776",
-        "local_4b8b4184c15549e955aabdaf",
-        "local_82ead68491942a64853c7182",
-        "local_025dd608eef0910e5440021d",
-        "local_9d331257b1b40deae2f6c648",
-        "local_3cfb706be0e3bb667b791c19"
+        "local_61f48d0c69589835d10ab6cc",
+        "local_e86403340582fe5d2dec984f",
+        "local_9d331257b1b40deae2f6c648"
       ],
-      "generatedAt": "2026-08-03T23:51:59.186Z",
+      "generatedAt": "2026-08-04T03:41:02.485Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -216,7 +169,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4d16dbbb8008da6462a9007a"
+                "local_61f48d0c69589835d10ab6cc"
               ],
               "confidence": 92
             },
@@ -226,7 +179,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ccfb5592f9ac07235bbd3584"
+                "local_e86403340582fe5d2dec984f"
               ],
               "confidence": 92
             }
@@ -235,16 +188,16 @@
       ],
       "referencedFeedItemIds": [
         "local_8da38de7b7c874d5c7a149a6",
-        "local_4d16dbbb8008da6462a9007a",
-        "local_ccfb5592f9ac07235bbd3584"
+        "local_61f48d0c69589835d10ab6cc",
+        "local_e86403340582fe5d2dec984f"
       ],
-      "generatedAt": "2026-08-03T23:51:59.186Z",
+      "generatedAt": "2026-08-04T03:41:02.485Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T23:51:59.186Z",
+  "generatedAt": "2026-08-04T03:41:02.485Z",
   "collectorName": "local-source-collector"
 }

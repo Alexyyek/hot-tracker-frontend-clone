@@ -5,18 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-08-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26」、「Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26」、「Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：TokTier: Exact Stateful Tokenization for Agentic LLM Serving"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference"
       ],
       "watchItems": [
         "跟进：超过1B参数都是浪费?多模态情感模型进入「小」时代 | ACM MM'26",
-        "跟进：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
-        "跟进：TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
-        "跟进：ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
-        "跟进：Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents"
+        "跟进：Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference"
       ],
       "sections": [
         {
@@ -28,7 +24,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_914184438180196c25f55228"
+                "local_a5c8f6ac1c622ec2fd7aa233"
               ],
               "confidence": 86
             }
@@ -46,48 +42,15 @@
                 "local_1058ab5a867f722f35a015b9"
               ],
               "confidence": 92
-            },
-            {
-              "title": "TokTier: Exact Stateful Tokenization for Agentic LLM Serving",
-              "summary": "LLM serving systems cache prompt KV state, yet most front ends still re-tokenize the full request text on every call. The cost lands on coding agents, which resubmit a long transcript after each small tool result, and reuse is hard because even a short append can change token bo…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e0ee8546e7e3d405bc122619"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
-              "summary": "Enterprise workflows increasingly rely on agents for \\emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We present ExtractBench, a benchmar…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b936c99459fa278b544a44dd"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents",
-              "summary": "Although LLM-driven repair agents can tackle complex, repository-level issues, they treat every issue independently and discard the procedural knowledge accumulated from previous repairs. We introduce STAIR, a framework that converts historical repair trajectories into hierarchi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8fcdf886bcc4e653ba2dda6e"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_914184438180196c25f55228",
-        "local_1058ab5a867f722f35a015b9",
-        "local_e0ee8546e7e3d405bc122619",
-        "local_b936c99459fa278b544a44dd",
-        "local_8fcdf886bcc4e653ba2dda6e"
+        "local_a5c8f6ac1c622ec2fd7aa233",
+        "local_1058ab5a867f722f35a015b9"
       ],
-      "generatedAt": "2026-08-03T23:51:59.207Z",
+      "generatedAt": "2026-08-04T03:41:02.498Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -117,7 +80,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_914184438180196c25f55228"
+                "local_a5c8f6ac1c622ec2fd7aa233"
               ],
               "confidence": 86
             }
@@ -140,16 +103,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_914184438180196c25f55228",
+        "local_a5c8f6ac1c622ec2fd7aa233",
         "local_1058ab5a867f722f35a015b9"
       ],
-      "generatedAt": "2026-08-03T23:51:59.207Z",
+      "generatedAt": "2026-08-04T03:41:02.498Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-03T23:51:59.207Z",
+  "generatedAt": "2026-08-04T03:41:02.498Z",
   "collectorName": "local-source-collector"
 }
