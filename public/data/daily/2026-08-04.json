@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「As AI Increases Demands on Memory, Storage Steps Up」、「AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「As AI Increases Demands on Memory, Storage Steps Up」、「AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：As AI Increases Demands on Memory, Storage Steps Up",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【内含直播预告】高德汽车工程AI Native演进实录|基于Qoder的业务知识工程建设实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GenOS: Compositional Certificates for Semantic Robustness in AI Code Generation"
       ],
       "watchItems": [
         "跟进：As AI Increases Demands on Memory, Storage Steps Up",
         "跟进：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-        "跟进：【内含直播预告】高德汽车工程AI Native演进实录|基于Qoder的业务知识工程建设实践",
-        "跟进：别让 Agent 每次都重新开始",
-        "跟进：腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座"
+        "跟进：GenOS: Compositional Certificates for Semantic Robustness in AI Code Generation",
+        "跟进：From Social Coding to Agentic Coding: Productivity and Relational Reconfiguration in Open-Source Communities",
+        "跟进：MT-Web2Code: Benchmarking Coding Agents on Multi-Turn Regional Reconstruction and Localized Modification"
       ],
       "sections": [
         {
@@ -31,26 +31,6 @@
                 "local_8cbced4e96e5757ca5097cf0"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Wnuan: Staged Post-Training for Question Answering over Proprietary Enterprise Knowledge",
-              "summary": "Enterprise question answering requires models to acquire proprietary knowledge without discarding general capabilities. We present Wnuan, a three-stage pipeline that constructs task-oriented supervision from documents, performs supervised fine-tuning with general-data replay, an…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_df1a10c4c22af06e7bcde9eb"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "To Add Is Machine, To Delete Is Human: Measuring and Mitigating Deletion Avoidance in LLM Code Editing",
-              "summary": "Large language models increasingly write and repair production code, yet evidence is mounting that their test-passing patches leave codebases harder to maintain. We identify one concrete source: deletion avoidance, the systematic tendency to retain code that an intended edit req…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_003c59c232c6df32d1e1df95"
-              ],
-              "confidence": 92
             },
             {
               "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
@@ -78,42 +58,42 @@
               "confidence": 92
             },
             {
-              "title": "别让 Agent 每次都重新开始",
-              "summary": "过去一年,AI Agent 正在快速进入真实研发场景.它能读代码、调工具、跑测试,也能推进一个完整需求.但越靠近生产,问题越尖锐...",
+              "title": "GenOS: Compositional Certificates for Semantic Robustness in AI Code Generation",
+              "summary": "AI coding agents are stochastic workflows: prompts are interpreted, artifacts are sampled, validators produce observations, and orchestrators commit or repair. Small prompt or specification changes can therefore alter program-behavior distributions even when the texts appear syn…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_004923fcfde4b75198987b70"
+                "local_b4aa2cc887b8ce5de0aa2e50"
               ],
               "confidence": 92
             },
             {
-              "title": "腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座",
-              "summary": "AI Native 数据实践.本次专场给出的主线十分清晰:Agent 时代的数据底座不能再把数据处理、模型训练、在线推理和 Agent 运行拆成...",
+              "title": "From Social Coding to Agentic Coding: Productivity and Relational Reconfiguration in Open-Source Communities",
+              "summary": "Open-source software communities are a form of digital public infrastructure that not only produces code, but also generates public knowledge and interpersonal relationships through visible collaboration. Generative coding agents (CAs) are an advanced tool to improve development…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_391bbb2078244084c8a9066b"
+                "local_d7b985119003e3609cdbb187"
               ],
               "confidence": 92
             },
             {
-              "title": "ICML 2026|NaviAgent:面向 Oxygen 智能体的可扩展工具编排",
-              "summary": "Agent需要具备全局规划能力,而不仅仅是局部决策能力.传统逐步调用缺乏全局视角目前主流的工具调用框架大多采用ReAct模式,...",
+              "title": "MT-Web2Code: Benchmarking Coding Agents on Multi-Turn Regional Reconstruction and Localized Modification",
+              "summary": "Recent advances in Large Vision-Language Models (LVLMs) have demonstrated impressive capabilities in web UI generation. However, existing benchmarks predominantly focus on single-turn full-page generation from scratch, overlooking the iterative workflow of real-world frontend en…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_60e30fb29354820f4090f9b0"
+                "local_08c95fd3112b703082bf0b0a"
               ],
               "confidence": 92
             },
             {
-              "title": "Quoting Steve Yegge",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Gas Town was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the…",
+              "title": "DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces",
+              "summary": "Data agents enable natural-language analytics over organizational workspaces, where relevant evidence may be scattered across databases, structured files, long documents, and multimedia. Existing benchmarks largely isolate structured querying, retrieval, or open-ended analysis, …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0276224125bdfe65c2da2ebd"
+                "local_452a4479f6342f6866fb8bc0"
               ],
               "confidence": 92
             }
@@ -128,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_1d915a29cb2d3af473d97e84"
+                "local_57036073945cfde8edf9a3c1"
               ],
               "confidence": 86
             }
@@ -138,21 +118,20 @@
       "referencedFeedItemIds": [
         "local_8cbced4e96e5757ca5097cf0",
         "local_e6ae713bf32195f5fc6b01b6",
-        "local_1d915a29cb2d3af473d97e84",
-        "local_004923fcfde4b75198987b70",
-        "local_391bbb2078244084c8a9066b",
-        "local_60e30fb29354820f4090f9b0",
+        "local_b4aa2cc887b8ce5de0aa2e50",
+        "local_d7b985119003e3609cdbb187",
+        "local_08c95fd3112b703082bf0b0a",
+        "local_452a4479f6342f6866fb8bc0",
+        "local_57036073945cfde8edf9a3c1",
+        "local_a8ac6926b5e353e81f0dfece",
+        "local_65ca7bd54e0b2e7049c60d09",
+        "local_995f253ad5f891f8e4517b89",
         "local_0276224125bdfe65c2da2ebd",
-        "local_971fb71c31fbf5d83fb44c9c",
-        "local_7a99f7daece72ea1596db089",
-        "local_df1a10c4c22af06e7bcde9eb",
-        "local_003c59c232c6df32d1e1df95",
         "local_44a41491f740dea310d4f8f7",
         "local_db1407bdc16059346d97cb53",
-        "local_444a51256ba9aeb74a373cde",
         "local_b665dfdfaa43c29385f64dfb"
       ],
-      "generatedAt": "2026-08-05T01:10:09.503Z",
+      "generatedAt": "2026-08-05T04:37:58.712Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -221,7 +200,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_004923fcfde4b75198987b70"
+                "local_a8ac6926b5e353e81f0dfece"
               ],
               "confidence": 92
             },
@@ -231,7 +210,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_391bbb2078244084c8a9066b"
+                "local_65ca7bd54e0b2e7049c60d09"
               ],
               "confidence": 92
             },
@@ -241,7 +220,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_60e30fb29354820f4090f9b0"
+                "local_995f253ad5f891f8e4517b89"
               ],
               "confidence": 92
             },
@@ -266,7 +245,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_1d915a29cb2d3af473d97e84"
+                "local_57036073945cfde8edf9a3c1"
               ],
               "confidence": 86
             }
@@ -276,20 +255,20 @@
       "referencedFeedItemIds": [
         "local_8cbced4e96e5757ca5097cf0",
         "local_e6ae713bf32195f5fc6b01b6",
-        "local_1d915a29cb2d3af473d97e84",
-        "local_004923fcfde4b75198987b70",
-        "local_391bbb2078244084c8a9066b",
-        "local_60e30fb29354820f4090f9b0",
+        "local_57036073945cfde8edf9a3c1",
+        "local_a8ac6926b5e353e81f0dfece",
+        "local_65ca7bd54e0b2e7049c60d09",
+        "local_995f253ad5f891f8e4517b89",
         "local_db1407bdc16059346d97cb53",
         "local_b665dfdfaa43c29385f64dfb"
       ],
-      "generatedAt": "2026-08-05T01:10:09.503Z",
+      "generatedAt": "2026-08-05T04:37:58.712Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-05T01:10:09.503Z",
+  "generatedAt": "2026-08-05T04:37:58.712Z",
   "collectorName": "local-source-collector"
 }

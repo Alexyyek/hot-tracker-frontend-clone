@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Inside our 353,000-person vibe coding course」、「Trajectories That Segment Themselves: Agent-Declared Boundaries as a Training Unit」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Inside our 353,000-person vibe coding course」、「China&#039;s MiniMax H3 is the first open model to top an AI video ranking」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inside our 353,000-person vibe coding course",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Trajectories That Segment Themselves: Agent-Declared Boundaries as a Training Unit",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test"
       ],
       "watchItems": [
         "跟进：Inside our 353,000-person vibe coding course",
-        "跟进：Trajectories That Segment Themselves: Agent-Declared Boundaries as a Training Unit",
-        "跟进：Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
         "跟进：China&#039;s MiniMax H3 is the first open model to top an AI video ranking",
-        "跟进：Beyond Solution-Centric Search: Adaptive Inquiry and Knowledge Revision for Autonomous ML Engineering"
+        "跟进：Unicorn, pelican, Middle-earth: OpenAI co-founder Karpathy is looking for the next AI vibe test",
+        "跟进：高德汽车工程AI Native演进实录|AutoSDK全链路AI Native开发",
+        "跟进：Ori Eval: Find the Best Model for What You're Building — OpenRouter Blog"
       ],
       "sections": [
         {
@@ -33,42 +33,12 @@
               "confidence": 78
             },
             {
-              "title": "Trajectories That Segment Themselves: Agent-Declared Boundaries as a Training Unit",
-              "summary": "Long-horizon coding-agent trajectories are poorly matched to the credit units available to train on: a single action has no stable value, an episode label merges productive exploration with abandoned directions, and a fixed window cuts where the logging mechanics fall. We introd…",
+              "title": "Ori Eval: Find the Best Model for What You're Building — OpenRouter Blog",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Ori Eval runs your agent on your own prompts, asserts on the tools it called, and grades answers with an LLM judge. Find the best model for what you're building.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dc3d1fd8856a97ef7a811a4a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories",
-              "summary": "Agents built around large language models continually accumulate interaction trajectories during deployment, yet their behavior typically remains fixed. Beyond updating model weights, these trajectories can improve the agent harness that constructs context, mediates tools, valid…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dd2edb4717a521c633a9e620"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Beyond Solution-Centric Search: Adaptive Inquiry and Knowledge Revision for Autonomous ML Engineering",
-              "summary": "Long-horizon autonomous research tasks such as machine learning engineering require systems to make interdependent decisions under a limited budget. Existing LLM-based agents typically organize candidate-solution improvement through tree, graph, or chain structures, meaning that…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_766a378846d3e077a125a9b7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "自构建智能体:一项 LangChain4j 实验",
-              "summary": "智能体框架,利用氛围编程的方法构建一个智能代码生成器,让大... //www.infoq.com/articles/self-building-agent-langchain4j/今日好文...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_59f6883ba689ff8b7962e1e9"
+                "local_9d331257b1b40deae2f6c648"
               ],
               "confidence": 92
             }
@@ -108,7 +78,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_86807472f4ac0d4f4846ae71"
+                "local_8114c79140b759537d002e2e"
               ],
               "confidence": 92
             }
@@ -117,16 +87,12 @@
       ],
       "referencedFeedItemIds": [
         "local_8da38de7b7c874d5c7a149a6",
-        "local_dc3d1fd8856a97ef7a811a4a",
-        "local_dd2edb4717a521c633a9e620",
         "local_4c570532fb1d5c6715b0adfb",
-        "local_766a378846d3e077a125a9b7",
         "local_b386740a8d2ecd175a0ba711",
-        "local_86807472f4ac0d4f4846ae71",
-        "local_59f6883ba689ff8b7962e1e9",
+        "local_8114c79140b759537d002e2e",
         "local_9d331257b1b40deae2f6c648"
       ],
-      "generatedAt": "2026-08-05T01:10:09.513Z",
+      "generatedAt": "2026-08-05T04:37:58.725Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -137,16 +103,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Inside our 353,000-person vibe coding course」、「高德汽车工程AI Native演进实录|AutoSDK全链路AI Native开发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Inside our 353,000-person vibe coding course」、「高德汽车工程AI Native演进实录|AutoSDK全链路AI Native开发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Inside our 353,000-person vibe coding course",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程AI Native演进实录|AutoSDK全链路AI Native开发",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：自构建智能体:一项 LangChain4j 实验"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程AI Native演进实录|AutoSDK全链路AI Native开发"
       ],
       "watchItems": [
         "跟进：Inside our 353,000-person vibe coding course",
-        "跟进：高德汽车工程AI Native演进实录|AutoSDK全链路AI Native开发",
-        "跟进：自构建智能体:一项 LangChain4j 实验"
+        "跟进：高德汽车工程AI Native演进实录|AutoSDK全链路AI Native开发"
       ],
       "sections": [
         {
@@ -161,16 +125,6 @@
                 "local_8da38de7b7c874d5c7a149a6"
               ],
               "confidence": 78
-            },
-            {
-              "title": "自构建智能体:一项 LangChain4j 实验",
-              "summary": "智能体框架,利用氛围编程的方法构建一个智能代码生成器,让大... //www.infoq.com/articles/self-building-agent-langchain4j/今日好文...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_59f6883ba689ff8b7962e1e9"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -183,7 +137,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_86807472f4ac0d4f4846ae71"
+                "local_8114c79140b759537d002e2e"
               ],
               "confidence": 92
             }
@@ -192,16 +146,15 @@
       ],
       "referencedFeedItemIds": [
         "local_8da38de7b7c874d5c7a149a6",
-        "local_86807472f4ac0d4f4846ae71",
-        "local_59f6883ba689ff8b7962e1e9"
+        "local_8114c79140b759537d002e2e"
       ],
-      "generatedAt": "2026-08-05T01:10:09.513Z",
+      "generatedAt": "2026-08-05T04:37:58.725Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-05T01:10:09.513Z",
+  "generatedAt": "2026-08-05T04:37:58.725Z",
   "collectorName": "local-source-collector"
 }
