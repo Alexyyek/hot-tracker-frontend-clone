@@ -16,7 +16,7 @@
         "跟进：实战从零开始构建一个Coding Agent:Violin |得物技术",
         "跟进：US appeals court allows Perplexity&#039;s AI shopping agent back on Amazon",
         "跟进：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-        "跟进：An AI agent went rogue during UK safety tests, creating fake identities and launching social engineering attacks unprompted"
+        "跟进：从分散提效到 AI Native 组织的实践"
       ],
       "sections": [
         {
@@ -43,7 +43,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2aea36a8288baf13387ec54f"
+                "local_e5ac70fb9e0038b1854f26c0"
               ],
               "confidence": 92
             },
@@ -59,21 +59,21 @@
             },
             {
               "title": "从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-              "summary": "AI Native 的,产品自然也需要是 AI Native 的;用户或许不是人人都懂 loop、memory、RAG、MCP 这些技术理念,但知道好不好用、...",
+              "summary": "loop、memory、RAG、MCP 这些技术理念,但知道好不好用、靠不靠谱、值不值得付费.所谓 AI Native 的产品,就是基于大模型,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dbebca46389a04ca694ee7d9"
+                "local_1f8f5c6edf8eea7a3ff7124f"
               ],
               "confidence": 92
             },
             {
-              "title": "An AI agent went rogue during UK safety tests, creating fake identities and launching social engineering attacks unprompted",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：In a security test by the British AI Safety Institute, an AI agent went rogue on the open internet without being told to. It created fake identities, tried to sneak malicious code into a GitHub project, and ran social e…",
+              "title": "从分散提效到 AI Native 组织的实践",
+              "summary": "GEEK TALK03BuilderAgent:AI交付智能体基于 AI Native 的两个核心理念,参考 SDD 和 AI-DLC 思想,我们协同 QA/OP 共建 ...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_921278eec7ce05465a013d9a"
+                "local_b3d7210831e9f28fe76738cd"
               ],
               "confidence": 92
             },
@@ -103,32 +103,32 @@
               "confidence": 86
             },
             {
-              "title": "CURV: Enhancing Chart Understanding Through Curriculum Visual Grounded Reasoning",
-              "summary": "Chart question answering (CQA) requires multimodal large language models (MLLMs) to integrate visual comprehension with logical reasoning, yet current models struggle with accurate visual grounding and coherent reasoning chains. While extrinsic chain-of-thought prompting and vis…",
+              "title": "When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs",
+              "summary": "Self-consistency assumes the most frequent answer among sampled reasoning traces is the most reliable, but this can fail in causal reasoning: samples often repeat the same confounding error, and votes fragment across multiple valid answers, letting an invalid answer win despite …",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e9af1da90d86c5bcd7fc11fe"
+                "local_fed32274d54f7876eb9f5f5a"
               ],
               "confidence": 92
             },
             {
-              "title": "ChronoLens: Measuring Language Change Across Time, Languages, and Linguistic Levels",
-              "summary": "Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically examine these levels with incompatible representations and therefore cannot determine whether they evolve together across languages. We address this problem by a…",
+              "title": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
+              "summary": "Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16 or FP16. Quantizing this projection naively can strongly perturb the vocabulary-log…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_63785af413e1ebae12fd33cf"
+                "local_1c4fde4318cfaa67bf4553a8"
               ],
               "confidence": 92
             },
             {
-              "title": "Better, Stronger, Faster, and Broader: Structured All-Mask Prediction for MLLM-Based Segmentation",
-              "summary": "MLLM-based segmentation faces a core segmentation trilemma: high segmentation performance, preserved dialogue ability, and fast inference. Embedding-prediction methods may disrupt language modeling through pixel-level objectives, whereas next-token generation is inefficient for …",
+              "title": "LegalPincite: Multi-level Legal Information Retrieval Dataset",
+              "summary": "A common task in legal Information Retrieval (IR) is to find relevant legal sources from case-law collections. While legal practice often requires pinpoint citations (pincites) to specific case paragraphs, most existing public legal IR datasets lack paragraph-level citation anno…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c47172433b26d7ef0feafebd"
+                "local_35db6e4f4800304d8d143094"
               ],
               "confidence": 92
             },
@@ -143,26 +143,41 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning",
+              "summary": "On-policy training has emerged as a powerful post-training paradigm for improving the reasoning capabilities of large language models, and is often enhanced by golden trajectories from stronger expert models. However, when the expert fails on harder problems, existing trajectory…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_fda05ee7652a50c13faa049e"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_132a6f86381e8d0188224588",
-        "local_2aea36a8288baf13387ec54f",
+        "local_e5ac70fb9e0038b1854f26c0",
         "local_49de4f4b7e9a14505f4b24f4",
-        "local_dbebca46389a04ca694ee7d9",
-        "local_921278eec7ce05465a013d9a",
+        "local_1f8f5c6edf8eea7a3ff7124f",
+        "local_b3d7210831e9f28fe76738cd",
         "local_90b5a5862b6a3de260e442d8",
         "local_a349d4c6a5a65fdb7586b09e",
-        "local_e9af1da90d86c5bcd7fc11fe",
-        "local_2fc0e1d3564453809042f90a",
-        "local_63785af413e1ebae12fd33cf",
-        "local_c47172433b26d7ef0feafebd",
+        "local_fed32274d54f7876eb9f5f5a",
+        "local_1c4fde4318cfaa67bf4553a8",
+        "local_35db6e4f4800304d8d143094",
+        "local_fda05ee7652a50c13faa049e",
         "local_8d975e3ed98f8de88a8c5365",
         "local_a48508da5119cee79d1ca8c9",
         "local_2b00904bab2252b4c579dd8e",
         "local_0d1be0cb592ccfa0656b9e53"
       ],
-      "generatedAt": "2026-08-05T17:03:55.193Z",
+      "generatedAt": "2026-08-05T18:58:58.532Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -173,18 +188,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-05",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「实战从零开始构建一个Coding Agent:Violin |得物技术」、「从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「实战从零开始构建一个Coding Agent:Violin |得物技术」、「从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：实战从零开始构建一个Coding Agent:Violin |得物技术",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从分散提效到 AI Native 组织的实践"
       ],
       "watchItems": [
         "跟进：实战从零开始构建一个Coding Agent:Violin |得物技术",
         "跟进：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
+        "跟进：从分散提效到 AI Native 组织的实践",
         "跟进：SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性",
-        "跟进：Agent 形态一天一个样,Infra 到底该为谁而建?",
-        "跟进：Third-party cyber evaluations involving OpenAI models"
+        "跟进：Agent 形态一天一个样,Infra 到底该为谁而建?"
       ],
       "sections": [
         {
@@ -196,17 +211,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2aea36a8288baf13387ec54f"
+                "local_e5ac70fb9e0038b1854f26c0"
               ],
               "confidence": 92
             },
             {
               "title": "从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-              "summary": "AI Native 的,产品自然也需要是 AI Native 的;用户或许不是人人都懂 loop、memory、RAG、MCP 这些技术理念,但知道好不好用、...",
+              "summary": "loop、memory、RAG、MCP 这些技术理念,但知道好不好用、靠不靠谱、值不值得付费.所谓 AI Native 的产品,就是基于大模型,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dbebca46389a04ca694ee7d9"
+                "local_1f8f5c6edf8eea7a3ff7124f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从分散提效到 AI Native 组织的实践",
+              "summary": "GEEK TALK03BuilderAgent:AI交付智能体基于 AI Native 的两个核心理念,参考 SDD 和 AI-DLC 思想,我们协同 QA/OP 共建 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b3d7210831e9f28fe76738cd"
               ],
               "confidence": 92
             },
@@ -249,19 +274,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2aea36a8288baf13387ec54f",
-        "local_dbebca46389a04ca694ee7d9",
+        "local_e5ac70fb9e0038b1854f26c0",
+        "local_1f8f5c6edf8eea7a3ff7124f",
+        "local_b3d7210831e9f28fe76738cd",
         "local_90b5a5862b6a3de260e442d8",
         "local_a349d4c6a5a65fdb7586b09e",
         "local_2b00904bab2252b4c579dd8e"
       ],
-      "generatedAt": "2026-08-05T17:03:55.193Z",
+      "generatedAt": "2026-08-05T18:58:58.532Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-05T17:03:55.193Z",
+  "generatedAt": "2026-08-05T18:58:58.533Z",
   "collectorName": "local-source-collector"
 }
