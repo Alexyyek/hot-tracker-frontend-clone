@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「As AI Increases Demands on Memory, Storage Steps Up」、「AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「As AI Increases Demands on Memory, Storage Steps Up」、「AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：As AI Increases Demands on Memory, Storage Steps Up",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
@@ -53,24 +53,14 @@
               "confidence": 92
             },
             {
-              "title": "SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space",
-              "summary": "World Action Models (WAMs) couple action generation with prediction of future states. Their effectiveness depends on whether future dynamics are modeled in a space that is both aligned with action generation and sufficiently geometry-aware to capture where and how actions change…",
+              "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_13187e92e3c1150681ffcc61"
+                "local_db1407bdc16059346d97cb53"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Don't be a meat proxy",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Don&#x27;t be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means, prompt AI. But don't just relay the output.…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_414344d02821e6c9a9a483c2"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -103,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b0a0858d8ba60df893c11c9e"
+                "local_391bbb2078244084c8a9066b"
               ],
               "confidence": 92
             },
@@ -113,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc4839c19c0cf125d5bea54e"
+                "local_60e30fb29354820f4090f9b0"
               ],
               "confidence": 92
             },
@@ -150,21 +140,19 @@
         "local_e6ae713bf32195f5fc6b01b6",
         "local_1d915a29cb2d3af473d97e84",
         "local_004923fcfde4b75198987b70",
-        "local_b0a0858d8ba60df893c11c9e",
-        "local_bc4839c19c0cf125d5bea54e",
+        "local_391bbb2078244084c8a9066b",
+        "local_60e30fb29354820f4090f9b0",
         "local_0276224125bdfe65c2da2ebd",
+        "local_971fb71c31fbf5d83fb44c9c",
+        "local_7a99f7daece72ea1596db089",
         "local_df1a10c4c22af06e7bcde9eb",
         "local_003c59c232c6df32d1e1df95",
-        "local_13187e92e3c1150681ffcc61",
-        "local_5cb2bdc4fa4cb874691bca78",
         "local_44a41491f740dea310d4f8f7",
-        "local_414344d02821e6c9a9a483c2",
         "local_db1407bdc16059346d97cb53",
         "local_444a51256ba9aeb74a373cde",
-        "local_1d2b548233e9edad212799ca",
         "local_b665dfdfaa43c29385f64dfb"
       ],
-      "generatedAt": "2026-08-04T23:24:52.855Z",
+      "generatedAt": "2026-08-05T01:10:09.503Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -243,7 +231,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b0a0858d8ba60df893c11c9e"
+                "local_391bbb2078244084c8a9066b"
               ],
               "confidence": 92
             },
@@ -253,7 +241,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc4839c19c0cf125d5bea54e"
+                "local_60e30fb29354820f4090f9b0"
               ],
               "confidence": 92
             },
@@ -290,18 +278,18 @@
         "local_e6ae713bf32195f5fc6b01b6",
         "local_1d915a29cb2d3af473d97e84",
         "local_004923fcfde4b75198987b70",
-        "local_b0a0858d8ba60df893c11c9e",
-        "local_bc4839c19c0cf125d5bea54e",
+        "local_391bbb2078244084c8a9066b",
+        "local_60e30fb29354820f4090f9b0",
         "local_db1407bdc16059346d97cb53",
         "local_b665dfdfaa43c29385f64dfb"
       ],
-      "generatedAt": "2026-08-04T23:24:52.855Z",
+      "generatedAt": "2026-08-05T01:10:09.503Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-04T23:24:52.855Z",
+  "generatedAt": "2026-08-05T01:10:09.503Z",
   "collectorName": "local-source-collector"
 }
