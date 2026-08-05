@@ -1,9 +1,9 @@
 {
   "items": [
     {
-      "id": "daily_ai_2026-08-05",
+      "id": "daily_ai_2026-08-06",
       "topicId": "ai",
-      "reportDate": "2026-08-05",
+      "reportDate": "2026-08-06",
       "title": "AI日报",
       "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
@@ -15,8 +15,8 @@
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
         "跟进：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
         "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
+        "跟进：给 Agent 装上方向盘和刹车，Harness 时代的工程新范式",
+        "跟进：AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a14267d89811eb1cef7259fb"
+                "local_0a4a70ca47e3af3d543db0ff"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6ae2b69f42317b05dbc17fb6"
+                "local_a99748ec8b70c335456dc09a"
               ],
               "confidence": 70
             }
@@ -53,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_41d1a29712ab35ad27cfffb0"
+                "local_8df669378d9275ee840ec798"
               ],
               "confidence": 92
             },
@@ -63,37 +63,37 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e48a9f6413ffcabf20b90282"
+                "local_0be324d90b07e98bab698517"
               ],
               "confidence": 92
             },
             {
-              "title": "Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
-              "summary": "那个曾称霸容器时代的平台并不适合作为 AI 智能体的控制平面。",
+              "title": "给 Agent 装上方向盘和刹车，Harness 时代的工程新范式",
+              "summary": "“Agent 的能力只有被工程体系承载，才能真正进入复杂场景。”",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ec2798b4b15797582ea63b82"
+                "local_30abfd776b73cd976661670f"
               ],
               "confidence": 92
             },
             {
-              "title": "Scaling real-time AI agents with session-aware load balancing",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement…",
+              "title": "AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径",
+              "summary": "大模型能力持续演进，但 AI 的下一阶段竞争正在发生变化。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6a1d70e62dcf0060c667e16e"
+                "local_8d203f0d75f906df0dbfdfb7"
               ],
-              "confidence": 86
+              "confidence": 92
             },
             {
-              "title": "Enable on-demand expertise with Agent Skills in Genkit Go",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references in…",
+              "title": "A unified API for AI model routing",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_2f054056a945aab9ef1db763"
+                "local_ecbc6fb21218eeb4b5c0a881"
               ],
               "confidence": 92
             }
@@ -103,22 +103,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_78b45f442b4685bafff78cb8"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "Moonshot AI - 博客",
               "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_22cbd041c1f05f5fbf83406c"
+                "local_ba53210a78d6b6d250294c42"
               ],
               "confidence": 78
             },
@@ -128,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_29e002a04b4818a87d588888"
+                "local_f4c193bdd53249ab4abfb06c"
               ],
               "confidence": 92
             },
@@ -138,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_820a601412b0fcb8abca6dd3"
+                "local_2f41d0b652194ec06c4cf227"
               ],
               "confidence": 92
             },
@@ -148,51 +138,61 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6de5aa3e405b04a1f799cb45"
+                "local_16357a6683840a8affdec942"
               ],
               "confidence": 78
+            },
+            {
+              "title": "ByteDance Seed",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_dd2f54a17c33ac3692bcccfa"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_a14267d89811eb1cef7259fb",
-        "local_41d1a29712ab35ad27cfffb0",
-        "local_e48a9f6413ffcabf20b90282",
-        "local_78b45f442b4685bafff78cb8",
-        "local_ec2798b4b15797582ea63b82",
-        "local_22cbd041c1f05f5fbf83406c",
+        "local_0a4a70ca47e3af3d543db0ff",
+        "local_8df669378d9275ee840ec798",
+        "local_0be324d90b07e98bab698517",
+        "local_30abfd776b73cd976661670f",
+        "local_8d203f0d75f906df0dbfdfb7",
+        "local_ba53210a78d6b6d250294c42",
+        "local_ecbc6fb21218eeb4b5c0a881",
         "local_6a1d70e62dcf0060c667e16e",
         "local_2f054056a945aab9ef1db763",
         "local_d7a6a19cbb379611fc782e62",
-        "local_ecbc6fb21218eeb4b5c0a881",
-        "local_277061cea90a9e22c6008ec0",
-        "local_f4695f94f91e23e8e2993d48",
-        "local_84e439bd64d259d25f5337e7",
-        "local_56ea856d72932b39323e4bd5",
-        "local_29e002a04b4818a87d588888",
-        "local_820a601412b0fcb8abca6dd3",
-        "local_decc6e4876a52860e4fcab56",
-        "local_ed0da80f3604219c9f7b9fc3",
-        "local_d2002ce41de362005814d2ca",
-        "local_6de5aa3e405b04a1f799cb45",
-        "local_64dd180770274b864ab1ebeb",
-        "local_49ac5dc903939c6b33ceba09",
-        "local_6ae2b69f42317b05dbc17fb6",
-        "local_325a49a51e190c010a0e7702"
+        "local_52c062d731cd1a8aed65d145",
+        "local_fed196b5ea5d0a2b451cf12b",
+        "local_ff6c50ed3154ac6f5175da44",
+        "local_ba8c2a6611cc8147109dcdb1",
+        "local_f4c193bdd53249ab4abfb06c",
+        "local_2f41d0b652194ec06c4cf227",
+        "local_50dc9b0d3e392312ae8dffcb",
+        "local_0309c0ad214fcb8f7a732ac3",
+        "local_7361c80a1d8dc04af85e89ce",
+        "local_16357a6683840a8affdec942",
+        "local_dd2f54a17c33ac3692bcccfa",
+        "local_ee8ab6ebcb282a301405f8ec",
+        "local_a99748ec8b70c335456dc09a",
+        "local_0eed413f7147a5c68b1d7077"
       ],
-      "generatedAt": "2026-08-05T12:40:02.233Z",
+      "generatedAt": "2026-08-05T17:03:55.179Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     },
     {
-      "id": "daily_big-tech-daily_2026-08-05",
+      "id": "daily_big-tech-daily_2026-08-06",
       "topicId": "big-tech-daily",
-      "reportDate": "2026-08-05",
+      "reportDate": "2026-08-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
@@ -202,8 +202,8 @@
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
         "跟进：深度访谈｜Agentic 时代，谁来重新定义数据库？_企业动态_阿里云_InfoQ精选视频",
         "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-        "跟进：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
+        "跟进：给 Agent 装上方向盘和刹车，Harness 时代的工程新范式",
+        "跟进：AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径"
       ],
       "sections": [
         {
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a14267d89811eb1cef7259fb"
+                "local_0a4a70ca47e3af3d543db0ff"
               ],
               "confidence": 78
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6ae2b69f42317b05dbc17fb6"
+                "local_a99748ec8b70c335456dc09a"
               ],
               "confidence": 70
             }
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_41d1a29712ab35ad27cfffb0"
+                "local_8df669378d9275ee840ec798"
               ],
               "confidence": 92
             },
@@ -250,37 +250,37 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e48a9f6413ffcabf20b90282"
+                "local_0be324d90b07e98bab698517"
               ],
               "confidence": 92
             },
             {
-              "title": "Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
-              "summary": "那个曾称霸容器时代的平台并不适合作为 AI 智能体的控制平面。",
+              "title": "给 Agent 装上方向盘和刹车，Harness 时代的工程新范式",
+              "summary": "“Agent 的能力只有被工程体系承载，才能真正进入复杂场景。”",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ec2798b4b15797582ea63b82"
+                "local_30abfd776b73cd976661670f"
               ],
               "confidence": 92
             },
             {
-              "title": "Scaling real-time AI agents with session-aware load balancing",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement…",
+              "title": "AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径",
+              "summary": "大模型能力持续演进，但 AI 的下一阶段竞争正在发生变化。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6a1d70e62dcf0060c667e16e"
+                "local_8d203f0d75f906df0dbfdfb7"
               ],
-              "confidence": 86
+              "confidence": 92
             },
             {
-              "title": "Enable on-demand expertise with Agent Skills in Genkit Go",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：To prevent context window bloat and reduce token consumption, Genkit Go introduces Agent Skills based on a progressive disclosure architecture. Developers can package specialized instructions, scripts, and references in…",
+              "title": "A unified API for AI model routing",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_2f054056a945aab9ef1db763"
+                "local_ecbc6fb21218eeb4b5c0a881"
               ],
               "confidence": 92
             }
@@ -290,22 +290,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "从GPT-2到Kimi K3：七年规模扩大2.26万倍，大模型架构主线是在建立一套“记忆操作系统”",
-              "summary": "摘要：从 GPT-2 到 Kimi K3，大模型技术演进路线展示了 AI 架构如何从“记住一切”，走向“选择性记忆”。KV Cache 解决生成效率问题，Linear Attention 探索更高效的长期记忆，DeltaNet 和 Kimi Linear 则进一步让模型学会更新、遗忘和管理信息。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_78b45f442b4685bafff78cb8"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "Moonshot AI - 博客",
               "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_22cbd041c1f05f5fbf83406c"
+                "local_ba53210a78d6b6d250294c42"
               ],
               "confidence": 78
             },
@@ -315,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6de5aa3e405b04a1f799cb45"
+                "local_16357a6683840a8affdec942"
               ],
               "confidence": 78
             },
@@ -325,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_64dd180770274b864ab1ebeb"
+                "local_dd2f54a17c33ac3692bcccfa"
               ],
               "confidence": 92
             },
@@ -335,45 +325,50 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_49ac5dc903939c6b33ceba09"
+                "local_ee8ab6ebcb282a301405f8ec"
               ],
               "confidence": 78
+            },
+            {
+              "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_0eed413f7147a5c68b1d7077"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_a14267d89811eb1cef7259fb",
-        "local_41d1a29712ab35ad27cfffb0",
-        "local_e48a9f6413ffcabf20b90282",
-        "local_78b45f442b4685bafff78cb8",
-        "local_ec2798b4b15797582ea63b82",
-        "local_22cbd041c1f05f5fbf83406c",
+        "local_0a4a70ca47e3af3d543db0ff",
+        "local_8df669378d9275ee840ec798",
+        "local_0be324d90b07e98bab698517",
+        "local_30abfd776b73cd976661670f",
+        "local_8d203f0d75f906df0dbfdfb7",
+        "local_ba53210a78d6b6d250294c42",
+        "local_ecbc6fb21218eeb4b5c0a881",
         "local_6a1d70e62dcf0060c667e16e",
         "local_2f054056a945aab9ef1db763",
         "local_d7a6a19cbb379611fc782e62",
-        "local_ecbc6fb21218eeb4b5c0a881",
-        "local_6de5aa3e405b04a1f799cb45",
-        "local_64dd180770274b864ab1ebeb",
-        "local_49ac5dc903939c6b33ceba09",
-        "local_6ae2b69f42317b05dbc17fb6",
-        "local_325a49a51e190c010a0e7702",
-        "local_b261d000d7166174b563836e",
-        "local_5c6f559f76997687498fc642",
-        "local_159023d18091215d4404d345",
-        "local_6b6cf653c95a9de515b073de",
-        "local_4d42cd887cc89408d080a30e",
-        "local_90b5a5862b6a3de260e442d8",
-        "local_a349d4c6a5a65fdb7586b09e",
-        "local_2b00904bab2252b4c579dd8e"
+        "local_16357a6683840a8affdec942",
+        "local_dd2f54a17c33ac3692bcccfa",
+        "local_ee8ab6ebcb282a301405f8ec",
+        "local_a99748ec8b70c335456dc09a",
+        "local_0eed413f7147a5c68b1d7077",
+        "local_c1ff4cf8f8508bd974a42847",
+        "local_37a547e383f18717255d597a",
+        "local_94b15bb74466c9ac4a8f86ba"
       ],
-      "generatedAt": "2026-08-05T12:40:02.233Z",
+      "generatedAt": "2026-08-05T17:03:55.180Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-05T12:40:02.233Z",
+  "generatedAt": "2026-08-05T17:03:55.180Z",
   "collectorName": "local-source-collector"
 }
