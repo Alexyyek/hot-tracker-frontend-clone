@@ -5,45 +5,60 @@
       "topicId": "ai",
       "reportDate": "2026-08-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Black Forest Labs makes FLUX 3 Video generally available and claims it beats Seedance 2.0」、「实战从零开始构建一个Coding Agent:Violin |得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications」、「Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Black Forest Labs makes FLUX 3 Video generally available and claims it beats Seedance 2.0",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：实战从零开始构建一个Coding Agent:Violin |得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：US appeals court allows Perplexity&#039;s AI shopping agent back on Amazon"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First"
       ],
       "watchItems": [
+        "跟进：CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications",
+        "跟进：Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?",
+        "跟进：Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First",
         "跟进：Black Forest Labs makes FLUX 3 Video generally available and claims it beats Seedance 2.0",
-        "跟进：实战从零开始构建一个Coding Agent:Violin |得物技术",
-        "跟进：US appeals court allows Perplexity&#039;s AI shopping agent back on Amazon",
-        "跟进：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-        "跟进：从分散提效到 AI Native 组织的实践"
+        "跟进：实战从零开始构建一个Coding Agent:Violin |得物技术"
       ],
       "sections": [
         {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "Black Forest Labs makes FLUX 3 Video generally available and claims it beats Seedance 2.0",
-              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：Black Forest Labs has launched FLUX 3 Video, which generates Full HD clips up to 20 seconds long with native audio and lip-synced dialogue in more than 14 languages. It can also render typography directly in scenes. BFL…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_132a6f86381e8d0188224588"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "CheMLFlow: An Open-Source Platform for Cheminformatics and Materials Informatics Applications",
+              "summary": "CheMLFlow is an open-source platform for building and executing end-to-end, high-throughput, and agentic workflows for scientific and technological applications. CheMLFlow targets a common bottleneck in scientific machine learning development, where researchers often need to ass…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8a668724e8509be390d6c2c0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?",
+              "summary": "Large language model (LLM) agents increasingly rely on skills, structured documents that specify when to act, which procedure to follow, and which tools are allowed. Existing evaluations mostly judge the quality of a skill or its contribution to task success, leaving unexamined …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_df8d936eea81fbd04ce8916a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First",
+              "summary": "Frontier language models can resolve repository-level software issues, but each attempt is expensive, and existing routers select a model from the issue text alone. We present SuperScout, which routes after scouting the repository: a 7B searcher, SuperScout-7B, first explores th…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3c4ebbd5087028ae139c907e"
+              ],
+              "confidence": 92
+            },
             {
               "title": "实战从零开始构建一个Coding Agent:Violin |得物技术",
               "summary": "酒米关注得物技术,每周具、再问.客服 agent 的会话管理、数据分析 agent 的工具链编排、工作流 agent 的状态机设计 &mdash;&mdash; 追根溯...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f771e3ff4ab9c6df802dd4ba"
+                "local_50d0bffecbdce085ebd59b57"
               ],
               "confidence": 92
             },
@@ -56,36 +71,21 @@
                 "local_49de4f4b7e9a14505f4b24f4"
               ],
               "confidence": 86
-            },
+            }
+          ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
             {
-              "title": "从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-              "summary": "AI Native 的,产品自然也需要是 AI Native 的;用户或许不是人人都懂 loop、memory、RAG、MCP 这些技术理念,但知道好不好用、...",
+              "title": "Black Forest Labs makes FLUX 3 Video generally available and claims it beats Seedance 2.0",
+              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：Black Forest Labs has launched FLUX 3 Video, which generates Full HD clips up to 20 seconds long with native audio and lip-synced dialogue in more than 14 languages. It can also render typography directly in scenes. BFL…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_e11d7831e7eb560a833224d3"
+                "local_132a6f86381e8d0188224588"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "从分散提效到 AI Native 组织的实践",
-              "summary": "GEEK TALK03BuilderAgent:AI交付智能体基于 AI Native 的两个核心理念,参考 SDD 和 AI-DLC 思想,我们协同 QA/OP 共建 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a8c62d67a501f77588cd727c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agent 形态一天一个样,Infra 到底该为谁而建?",
-              "summary": "//www.infoq.cn/video/Cpw9ye57OyQNHSKpem7T1 模型能力越强,Agent 的投资反而越谨慎 师天麾认为,Agent 的发展速度确实有些...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a349d4c6a5a65fdb7586b09e"
-              ],
-              "confidence": 90
+              "confidence": 78
             }
           ]
         },
@@ -103,36 +103,6 @@
               "confidence": 86
             },
             {
-              "title": "When Many Answers Are Valid, Voting Fails: Symbolic Verification for Best-of-K Causal Reasoning in LLMs",
-              "summary": "Self-consistency assumes the most frequent answer among sampled reasoning traces is the most reliable, but this can fail in causal reasoning: samples often repeat the same confounding error, and votes fragment across multiple valid answers, letting an invalid answer win despite …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_fed32274d54f7876eb9f5f5a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
-              "summary": "Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16 or FP16. Quantizing this projection naively can strongly perturb the vocabulary-log…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1c4fde4318cfaa67bf4553a8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LegalPincite: Multi-level Legal Information Retrieval Dataset",
-              "summary": "A common task in legal Information Retrieval (IR) is to find relevant legal sources from case-law collections. While legal practice often requires pinpoint citations (pincites) to specific case paragraphs, most existing public legal IR datasets lack paragraph-level citation anno…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_35db6e4f4800304d8d143094"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Third-party cyber evaluations involving OpenAI models",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
               "insightLabel": "关注",
@@ -143,38 +113,22 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Know When to Stop: Segment-Level Credit Assignment for Reducing Overthinking",
-              "summary": "Reasoning language models frequently overthink: generating extended chains of behaviors such as hedging, approach abandonment, and self contradiction that consume tokens without improving answers. We show that these behaviors are not merely a consequence of length; even when con…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1e3d5c37321418d66bcd4526"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_8a668724e8509be390d6c2c0",
+        "local_df8d936eea81fbd04ce8916a",
+        "local_3c4ebbd5087028ae139c907e",
         "local_132a6f86381e8d0188224588",
-        "local_f771e3ff4ab9c6df802dd4ba",
+        "local_50d0bffecbdce085ebd59b57",
         "local_49de4f4b7e9a14505f4b24f4",
-        "local_e11d7831e7eb560a833224d3",
+        "local_8ee437e0931b5aae798dae04",
         "local_a8c62d67a501f77588cd727c",
         "local_68e6f939fd9d307f4d095a95",
         "local_a349d4c6a5a65fdb7586b09e",
-        "local_1e3d5c37321418d66bcd4526",
-        "local_fed32274d54f7876eb9f5f5a",
-        "local_1c4fde4318cfaa67bf4553a8",
-        "local_35db6e4f4800304d8d143094",
         "local_2b00904bab2252b4c579dd8e"
       ],
-      "generatedAt": "2026-08-06T01:16:10.319Z",
+      "generatedAt": "2026-08-06T04:35:15.917Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,7 +162,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f771e3ff4ab9c6df802dd4ba"
+                "local_50d0bffecbdce085ebd59b57"
               ],
               "confidence": 92
             },
@@ -218,7 +172,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e11d7831e7eb560a833224d3"
+                "local_8ee437e0931b5aae798dae04"
               ],
               "confidence": 92
             },
@@ -271,20 +225,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f771e3ff4ab9c6df802dd4ba",
-        "local_e11d7831e7eb560a833224d3",
+        "local_50d0bffecbdce085ebd59b57",
+        "local_8ee437e0931b5aae798dae04",
         "local_a8c62d67a501f77588cd727c",
         "local_68e6f939fd9d307f4d095a95",
         "local_a349d4c6a5a65fdb7586b09e",
         "local_2b00904bab2252b4c579dd8e"
       ],
-      "generatedAt": "2026-08-06T01:16:10.319Z",
+      "generatedAt": "2026-08-06T04:35:15.917Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-06T01:16:10.319Z",
+  "generatedAt": "2026-08-06T04:35:15.917Z",
   "collectorName": "local-source-collector"
 }

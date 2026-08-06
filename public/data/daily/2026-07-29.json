@@ -33,16 +33,6 @@
               "confidence": 92
             },
             {
-              "title": "AI Native 交易核心系统的研发范式|得物技术",
-              "summary": "与多路召回|得物技术 3.从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理4.得物推荐系统诊断 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_bf87ee309f0cead1c655e329"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "火山引擎开源 Agent 驱动的搜索自迭代技术",
               "summary": "Agent 临时拼脚本,网络抖动、限流或进程中断都可能让结果丢失... 索自迭代技术的初衷.未来,Viking AI搜将推出更多能力,和我们...",
               "insightLabel": "关注",
@@ -71,6 +61,31 @@
                 "local_8aaf1876c7edc89f38b432e3"
               ],
               "confidence": 92
+            },
+            {
+              "title": "How Gemini Flash agents are helping a Michigan dairy farmer",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how Paul Windemuller, a Michigan dairy farmer, is changing the way he works by using AI agents built with Gemini 3.6 Flash.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8b5e48b36310a2498d219fbd"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
+            {
+              "title": "AI Native 交易核心系统的研发范式|得物技术",
+              "summary": "AI Native 下核心系统稳定性的挑战三、AI Native 核心系统编码全... 与多路召回|得物技术 3.从＂机械应答＂到＂服务伙伴＂:得物高可...",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_cfdcddad419f39b2e427fb35"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -127,7 +142,7 @@
       ],
       "referencedFeedItemIds": [
         "local_93c4a522e5d240c688f58898",
-        "local_bf87ee309f0cead1c655e329",
+        "local_cfdcddad419f39b2e427fb35",
         "local_9c2d9fb693c027319fd0557e",
         "local_3bf631ab54042d256dcf506b",
         "local_22acaa14ab171dc054b6702a",
@@ -138,7 +153,7 @@
         "local_8b5e48b36310a2498d219fbd",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-08-06T01:16:10.409Z",
+      "generatedAt": "2026-08-06T04:35:16.010Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -164,18 +179,23 @@
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "物流、地址与召排",
           "items": [
             {
               "title": "AI Native 交易核心系统的研发范式|得物技术",
-              "summary": "与多路召回|得物技术 3.从＂机械应答＂到＂服务伙伴＂:得物高可控智能客服的 Agent 工程实践|AICon 演讲整理4.得物推荐系统诊断 ...",
+              "summary": "AI Native 下核心系统稳定性的挑战三、AI Native 核心系统编码全... 与多路召回|得物技术 3.从＂机械应答＂到＂服务伙伴＂:得物高可...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_bf87ee309f0cead1c655e329"
+                "local_cfdcddad419f39b2e427fb35"
               ],
-              "confidence": 92
-            },
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "火山引擎开源 Agent 驱动的搜索自迭代技术",
               "summary": "Agent 临时拼脚本,网络抖动、限流或进程中断都可能让结果丢失... 索自迭代技术的初衷.未来,Viking AI搜将推出更多能力,和我们...",
@@ -215,6 +235,16 @@
                 "local_8b5e48b36310a2498d219fbd"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b99c30f96612f9d955116f5a"
+              ],
+              "confidence": 90
             }
           ]
         },
@@ -250,7 +280,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bf87ee309f0cead1c655e329",
+        "local_cfdcddad419f39b2e427fb35",
         "local_9c2d9fb693c027319fd0557e",
         "local_3127ed426e9565c1b52ed6ed",
         "local_aa8a81db4896c6afcb628be0",
@@ -259,13 +289,13 @@
         "local_8b5e48b36310a2498d219fbd",
         "local_b99c30f96612f9d955116f5a"
       ],
-      "generatedAt": "2026-08-06T01:16:10.409Z",
+      "generatedAt": "2026-08-06T04:35:16.010Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-06T01:16:10.409Z",
+  "generatedAt": "2026-08-06T04:35:16.010Z",
   "collectorName": "local-source-collector"
 }
