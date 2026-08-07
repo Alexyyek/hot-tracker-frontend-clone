@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8cd37dcddfc392cc6da9c3e9"
+                "local_f41d31b1979d5ee1a3829e5e"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_82a7a20927982adb7bc3c5bc"
+                "local_75c27b0539347ceed7fb84bf"
               ],
               "confidence": 70
             }
@@ -53,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_62d27db42076e29507a26288"
+                "local_925b2352b051d2b70228b045"
               ],
               "confidence": 92
             },
@@ -63,19 +63,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f5b9ff0af3e46d94e8505004"
+                "local_59d1e8c9e705e72504c4ad22"
               ],
               "confidence": 70
-            },
-            {
-              "title": "Scaling real-time AI agents with session-aware load balancing",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6a1d70e62dcf0060c667e16e"
-              ],
-              "confidence": 86
             },
             {
               "title": "Agent Plugins package your skills, tools, and more",
@@ -96,6 +86,16 @@
                 "local_8a47eaf3d52c795e8ba916ac"
               ],
               "confidence": 92
+            },
+            {
+              "title": "A unified API for AI model routing",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_ecbc6fb21218eeb4b5c0a881"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_a77b0b1ed4a7d2a22c2fd679"
+                "local_9e171b306a8ca04f82b42086"
               ],
               "confidence": 74
             }
@@ -123,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_50dde8dd6f7fbde6c457325f"
+                "local_bc169da657f3125ce2d7cea9"
               ],
               "confidence": 78
             },
@@ -133,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fb63311029ad5b89a0306a2e"
+                "local_36a8ea08fc8203f9c672ca41"
               ],
               "confidence": 92
             },
@@ -143,7 +143,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0e913934a62957fe0e906e29"
+                "local_13b3261762621dc8f717fb37"
               ],
               "confidence": 92
             },
@@ -153,7 +153,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_89a4b42732bce9bbcdf7d5da"
+                "local_34bebab455e8b3a2929d47f3"
               ],
               "confidence": 78
             },
@@ -163,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_71861891f991895f0351b74d"
+                "local_0af9073ecc6582cf376c2cd2"
               ],
               "confidence": 92
             }
@@ -171,32 +171,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8cd37dcddfc392cc6da9c3e9",
-        "local_62d27db42076e29507a26288",
-        "local_f5b9ff0af3e46d94e8505004",
-        "local_a77b0b1ed4a7d2a22c2fd679",
-        "local_50dde8dd6f7fbde6c457325f",
-        "local_6a1d70e62dcf0060c667e16e",
+        "local_f41d31b1979d5ee1a3829e5e",
+        "local_925b2352b051d2b70228b045",
+        "local_59d1e8c9e705e72504c4ad22",
+        "local_9e171b306a8ca04f82b42086",
+        "local_bc169da657f3125ce2d7cea9",
         "local_f005e7f90a8397d52493bc34",
         "local_8a47eaf3d52c795e8ba916ac",
         "local_ecbc6fb21218eeb4b5c0a881",
-        "local_46a5ddb63a519b543d23fd7d",
-        "local_f9f6ae033008dfd762a7bd0b",
-        "local_cc1109534929f1aeb706457d",
-        "local_1166616585e3467b13c55cd4",
-        "local_fb63311029ad5b89a0306a2e",
-        "local_0e913934a62957fe0e906e29",
-        "local_4fcea09ccc6dc23813440cff",
-        "local_a14f142583ec2925b64f8168",
-        "local_4908df7e21bca35e48e20160",
-        "local_89a4b42732bce9bbcdf7d5da",
-        "local_71861891f991895f0351b74d",
-        "local_630f1662ab4d97bcf20d8dd1",
-        "local_82a7a20927982adb7bc3c5bc",
-        "local_3e9ae373a433ff24ef291a20",
-        "local_b45b15e997d0474a6fa9e9b7"
+        "local_6a1d70e62dcf0060c667e16e",
+        "local_e7c02854eb4bf41eedae19de",
+        "local_ea346a6e7594a0fadd7e75ed",
+        "local_401ca73eb0e10bd63e1d9559",
+        "local_a7f59f1e7dd09052a5ae8696",
+        "local_36a8ea08fc8203f9c672ca41",
+        "local_13b3261762621dc8f717fb37",
+        "local_39d820df69074ada422f3c60",
+        "local_bd0ac3ced1ac249ba220461f",
+        "local_8318457820842f2fcd9aaf75",
+        "local_34bebab455e8b3a2929d47f3",
+        "local_0af9073ecc6582cf376c2cd2",
+        "local_9f32c6635ef5d2be01d90540",
+        "local_75c27b0539347ceed7fb84bf",
+        "local_0ed19b0ed676ae9720e95a0e",
+        "local_5c9c59ca3c50323d80703f68"
       ],
-      "generatedAt": "2026-08-07T16:16:37.447Z",
+      "generatedAt": "2026-08-07T17:38:39.143Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -230,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8cd37dcddfc392cc6da9c3e9"
+                "local_f41d31b1979d5ee1a3829e5e"
               ],
               "confidence": 78
             },
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_82a7a20927982adb7bc3c5bc"
+                "local_75c27b0539347ceed7fb84bf"
               ],
               "confidence": 70
             }
@@ -255,7 +255,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_62d27db42076e29507a26288"
+                "local_925b2352b051d2b70228b045"
               ],
               "confidence": 92
             },
@@ -265,19 +265,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f5b9ff0af3e46d94e8505004"
+                "local_59d1e8c9e705e72504c4ad22"
               ],
               "confidence": 70
-            },
-            {
-              "title": "Scaling real-time AI agents with session-aware load balancing",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Real-time AI agents break traditional request-response load balancing paradigms because they rely on long-lived, stateful bidirectional streams that obscure true server capacity. To solve this, developers must implement…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6a1d70e62dcf0060c667e16e"
-              ],
-              "confidence": 86
             },
             {
               "title": "Agent Plugins package your skills, tools, and more",
@@ -298,6 +288,16 @@
                 "local_8a47eaf3d52c795e8ba916ac"
               ],
               "confidence": 92
+            },
+            {
+              "title": "A unified API for AI model routing",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_ecbc6fb21218eeb4b5c0a881"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -310,7 +310,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_a77b0b1ed4a7d2a22c2fd679"
+                "local_9e171b306a8ca04f82b42086"
               ],
               "confidence": 74
             }
@@ -325,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_50dde8dd6f7fbde6c457325f"
+                "local_bc169da657f3125ce2d7cea9"
               ],
               "confidence": 78
             },
@@ -335,7 +335,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_89a4b42732bce9bbcdf7d5da"
+                "local_34bebab455e8b3a2929d47f3"
               ],
               "confidence": 78
             },
@@ -345,7 +345,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_71861891f991895f0351b74d"
+                "local_0af9073ecc6582cf376c2cd2"
               ],
               "confidence": 92
             },
@@ -355,7 +355,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_630f1662ab4d97bcf20d8dd1"
+                "local_9f32c6635ef5d2be01d90540"
               ],
               "confidence": 78
             },
@@ -365,7 +365,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_3e9ae373a433ff24ef291a20"
+                "local_0ed19b0ed676ae9720e95a0e"
               ],
               "confidence": 92
             }
@@ -373,31 +373,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8cd37dcddfc392cc6da9c3e9",
-        "local_62d27db42076e29507a26288",
-        "local_f5b9ff0af3e46d94e8505004",
-        "local_a77b0b1ed4a7d2a22c2fd679",
-        "local_50dde8dd6f7fbde6c457325f",
-        "local_6a1d70e62dcf0060c667e16e",
+        "local_f41d31b1979d5ee1a3829e5e",
+        "local_925b2352b051d2b70228b045",
+        "local_59d1e8c9e705e72504c4ad22",
+        "local_9e171b306a8ca04f82b42086",
+        "local_bc169da657f3125ce2d7cea9",
         "local_f005e7f90a8397d52493bc34",
         "local_8a47eaf3d52c795e8ba916ac",
         "local_ecbc6fb21218eeb4b5c0a881",
-        "local_89a4b42732bce9bbcdf7d5da",
-        "local_71861891f991895f0351b74d",
-        "local_630f1662ab4d97bcf20d8dd1",
-        "local_82a7a20927982adb7bc3c5bc",
-        "local_3e9ae373a433ff24ef291a20",
-        "local_b45b15e997d0474a6fa9e9b7",
-        "local_2ae9ec80809244e48b795220",
-        "local_0ecb99537f89da80f69db932"
+        "local_6a1d70e62dcf0060c667e16e",
+        "local_34bebab455e8b3a2929d47f3",
+        "local_0af9073ecc6582cf376c2cd2",
+        "local_9f32c6635ef5d2be01d90540",
+        "local_75c27b0539347ceed7fb84bf",
+        "local_0ed19b0ed676ae9720e95a0e",
+        "local_5c9c59ca3c50323d80703f68",
+        "local_23af56b9d4d6dc9cdae7d693",
+        "local_31f984654db157cb3693cac1"
       ],
-      "generatedAt": "2026-08-07T16:16:37.447Z",
+      "generatedAt": "2026-08-07T17:38:39.144Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-07T16:16:37.447Z",
+  "generatedAt": "2026-08-07T17:38:39.144Z",
   "collectorName": "local-source-collector"
 }
