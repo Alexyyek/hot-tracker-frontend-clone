@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「The company that made open weights mainstream now competes on discounts」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「Learning Globally Reusable Skills for Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent训练最容易踩的坑:Credit Assignment Is All You Need",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The company that made open weights mainstream now competes on discounts",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps gets more helpful with food ordering and more"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Learning Globally Reusable Skills for Coding Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The company that made open weights mainstream now competes on discounts"
       ],
       "watchItems": [
         "跟进：Agent训练最容易踩的坑:Credit Assignment Is All You Need",
+        "跟进：Learning Globally Reusable Skills for Coding Agents",
         "跟进：The company that made open weights mainstream now competes on discounts",
         "跟进：Ask Maps gets more helpful with food ordering and more",
-        "跟进：OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
-        "跟进：OfficeAce 首批通过《云上Agent基准度量模型》重要级评估,定义智能体可信新标杆"
+        "跟进：OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected"
       ],
       "sections": [
         {
@@ -28,7 +28,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f38c181eab4f34f616618af"
+                "local_0bdcb040e79caf4857ba8434"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Learning Globally Reusable Skills for Coding Agents",
+              "summary": "Automated skill evolution enables Large Language Model (LLM) agents to continuously improve without expensive retraining. However, existing approaches typically treat skill evolution as a sequence of local updates, overlooking relationships among skills and often producing overf…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_906c449bfc042016a459d5db"
               ],
               "confidence": 92
             },
@@ -61,16 +71,6 @@
                 "local_7d90388d44420dde581e1026"
               ],
               "confidence": 90
-            },
-            {
-              "title": "OfficeAce 首批通过《云上Agent基准度量模型》重要级评估,定义智能体可信新标杆",
-              "summary": "华为云OfficeAce凭借在Agent可观测性、稳定性保障与基准度量等维度的全栈领先能力,首批通过《AI可观测性云上智能体(Agent)...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7fe443b1994b0673946e875e"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_098047e7c3c0cb36b88aecca"
+                "local_a17ed045a0e9d0560796dd20"
               ],
               "confidence": 86
             },
@@ -109,26 +109,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_39958ad91b3762c096d57768"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "What AI Red-Team Evaluations Can and Cannot Prove",
-              "summary": "Red-team evaluations of AI models support some claims and not others, and the boundary between the two is calculable rather than merely a matter of judgment. We define the evidential ceiling of an evaluation as the largest factor by which one result can move belief under a fixed…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_34fbd71c66c60affecc7587c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "SIGNPOST-Bench: Benchmarking Text-Vision Conflict Resolution in Multimodal Large Language Models",
-              "summary": "Multimodal large language models (MLLMs) make grounded predictions in real-world scenes by combining visual and textual cues, yet existing benchmarks rarely reveal how they arbitrate between these evidence sources when they conflict. We introduce SIGNPOST-Bench, a controlled cou…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_85628d0a23a8c78b89eab9d4"
               ],
               "confidence": 92
             },
@@ -171,25 +151,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2f38c181eab4f34f616618af",
+        "local_0bdcb040e79caf4857ba8434",
+        "local_906c449bfc042016a459d5db",
         "local_a1007a85c1c22bc8eac05d35",
         "local_e19d71717f06898a2176b300",
         "local_7d90388d44420dde581e1026",
-        "local_7fe443b1994b0673946e875e",
-        "local_098047e7c3c0cb36b88aecca",
+        "local_d49a8755f2ed961d8065c1db",
+        "local_5696bd0bbe492b1fedd4cd8c",
+        "local_c8362228fe1331c7def4f388",
+        "local_a17ed045a0e9d0560796dd20",
         "local_39958ad91b3762c096d57768",
         "local_69e4606016a23c1ad489f322",
-        "local_46125bba8d8e672fb50c66a9",
-        "local_3a5e67ff9174a90e78689bbe",
-        "local_34fbd71c66c60affecc7587c",
-        "local_85628d0a23a8c78b89eab9d4",
         "local_e4f1dbcf4cdd23c6dd7ef7e9",
         "local_90979569ffd7a30a52ae776c",
         "local_cb26418ef6de2e46c3b3c676",
-        "local_4ac62509ace5abab0224d174",
-        "local_62bb269dbbf45e4854b75d4a"
+        "local_4ac62509ace5abab0224d174"
       ],
-      "generatedAt": "2026-08-07T00:52:48.176Z",
+      "generatedAt": "2026-08-07T04:11:14.578Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -223,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f38c181eab4f34f616618af"
+                "local_0bdcb040e79caf4857ba8434"
               ],
               "confidence": 92
             },
@@ -243,7 +221,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7fe443b1994b0673946e875e"
+                "local_c8362228fe1331c7def4f388"
               ],
               "confidence": 92
             }
@@ -258,7 +236,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_098047e7c3c0cb36b88aecca"
+                "local_a17ed045a0e9d0560796dd20"
               ],
               "confidence": 86
             },
@@ -291,20 +269,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2f38c181eab4f34f616618af",
+        "local_0bdcb040e79caf4857ba8434",
         "local_e19d71717f06898a2176b300",
-        "local_7fe443b1994b0673946e875e",
-        "local_098047e7c3c0cb36b88aecca",
+        "local_c8362228fe1331c7def4f388",
+        "local_a17ed045a0e9d0560796dd20",
         "local_69e4606016a23c1ad489f322",
         "local_cb26418ef6de2e46c3b3c676"
       ],
-      "generatedAt": "2026-08-07T00:52:48.176Z",
+      "generatedAt": "2026-08-07T04:11:14.578Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-07T00:52:48.177Z",
+  "generatedAt": "2026-08-07T04:11:14.578Z",
   "collectorName": "local-source-collector"
 }
