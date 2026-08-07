@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「Learning Globally Reusable Skills for Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「Learning Globally Reusable Skills for Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent训练最容易踩的坑:Credit Assignment Is All You Need",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Learning Globally Reusable Skills for Coding Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The company that made open weights mainstream now competes on discounts"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps gets more helpful with food ordering and more"
       ],
       "watchItems": [
         "跟进：Agent训练最容易踩的坑:Credit Assignment Is All You Need",
         "跟进：Learning Globally Reusable Skills for Coding Agents",
-        "跟进：The company that made open weights mainstream now competes on discounts",
         "跟进：Ask Maps gets more helpful with food ordering and more",
-        "跟进：CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents"
+        "跟进：CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents",
+        "跟进：The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c23eb10e6e286fab44e46715"
+                "local_eea7030f8bfdd7e1cfa5dc42"
               ],
               "confidence": 92
             },
@@ -39,16 +39,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_906c449bfc042016a459d5db"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "The company that made open weights mainstream now competes on discounts",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta released Muse Spark 1.2 along with its own coding agent, Muse Code, which is designed to pick up exactly where it left off after a crash. The cheapest tier runs just 20 cents per million output tokens but requires …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a1007a85c1c22bc8eac05d35"
               ],
               "confidence": 92
             },
@@ -69,6 +59,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_d49a8755f2ed961d8065c1db"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents",
+              "summary": "Existing guidance identifies excessive agency, excessive permission, weak task-bound authorization, and inadequate agent controls as important risks. Control frameworks also describe capabilities for constraining, authorizing, observing, validating, and responding to agent activ…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5696bd0bbe492b1fedd4cd8c"
               ],
               "confidence": 92
             }
@@ -141,13 +141,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c23eb10e6e286fab44e46715",
+        "local_eea7030f8bfdd7e1cfa5dc42",
         "local_906c449bfc042016a459d5db",
-        "local_a1007a85c1c22bc8eac05d35",
         "local_e19d71717f06898a2176b300",
         "local_d49a8755f2ed961d8065c1db",
         "local_5696bd0bbe492b1fedd4cd8c",
-        "local_607fd535b9137ad79a4812b5",
+        "local_ffee58453c9aae34489603a6",
         "local_1fdc09a2111d42bcfb8b9852",
         "local_39958ad91b3762c096d57768",
         "local_69e4606016a23c1ad489f322",
@@ -155,7 +154,7 @@
         "local_90979569ffd7a30a52ae776c",
         "local_cb26418ef6de2e46c3b3c676"
       ],
-      "generatedAt": "2026-08-07T12:34:42.647Z",
+      "generatedAt": "2026-08-07T14:04:50.983Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -189,7 +188,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c23eb10e6e286fab44e46715"
+                "local_eea7030f8bfdd7e1cfa5dc42"
               ],
               "confidence": 92
             },
@@ -209,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_607fd535b9137ad79a4812b5"
+                "local_ffee58453c9aae34489603a6"
               ],
               "confidence": 92
             }
@@ -257,20 +256,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c23eb10e6e286fab44e46715",
+        "local_eea7030f8bfdd7e1cfa5dc42",
         "local_e19d71717f06898a2176b300",
-        "local_607fd535b9137ad79a4812b5",
+        "local_ffee58453c9aae34489603a6",
         "local_1fdc09a2111d42bcfb8b9852",
         "local_69e4606016a23c1ad489f322",
         "local_cb26418ef6de2e46c3b3c676"
       ],
-      "generatedAt": "2026-08-07T12:34:42.647Z",
+      "generatedAt": "2026-08-07T14:04:50.983Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-07T12:34:42.648Z",
+  "generatedAt": "2026-08-07T14:04:50.983Z",
   "collectorName": "local-source-collector"
 }
