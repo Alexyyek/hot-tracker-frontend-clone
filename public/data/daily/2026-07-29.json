@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-07-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「OpenAI report links coding agents to faster science software builds」、「火山引擎开源 Agent 驱动的搜索自迭代技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「火山引擎开源 Agent 驱动的搜索自迭代技术」、「GAIR Paper 113 | Mi-Memory:让个人AI拥有可审计的生命周期记忆」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI report links coding agents to faster science software builds",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：火山引擎开源 Agent 驱动的搜索自迭代技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GAIR Paper 113 | Mi-Memory:让个人AI拥有可审计的生命周期记忆"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GAIR Paper 113 | Mi-Memory:让个人AI拥有可审计的生命周期记忆",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon"
       ],
       "watchItems": [
-        "跟进：OpenAI report links coding agents to faster science software builds",
         "跟进：火山引擎开源 Agent 驱动的搜索自迭代技术",
         "跟进：GAIR Paper 113 | Mi-Memory:让个人AI拥有可审计的生命周期记忆",
         "跟进：From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
-        "跟进：大模型、机器人之外,社会智能补上AGI第三极"
+        "跟进：大模型、机器人之外,社会智能补上AGI第三极",
+        "跟进：How GPT-5.6 fuses frontier intelligence with frontier efficiency"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "OpenAI report links coding agents to faster science software builds",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects that used Codex on its own in five cases and a combination of Codex and…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_93c4a522e5d240c688f58898"
-              ],
-              "confidence": 92
-            },
             {
               "title": "火山引擎开源 Agent 驱动的搜索自迭代技术",
               "summary": "Agent 临时拼脚本,网络抖动、限流或进程中断都可能让结果丢失... 索自迭代技术的初衷.未来,Viking AI搜将推出更多能力,和我们...",
@@ -116,7 +106,6 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_93c4a522e5d240c688f58898",
         "local_9c2d9fb693c027319fd0557e",
         "local_a890151a85fbe0ad7cc467f9",
         "local_22acaa14ab171dc054b6702a",
@@ -125,7 +114,7 @@
         "local_756943e0b31e3576ce85ff51",
         "local_8b5e48b36310a2498d219fbd"
       ],
-      "generatedAt": "2026-08-07T14:04:51.064Z",
+      "generatedAt": "2026-08-07T15:15:22.821Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -234,13 +223,13 @@
         "local_756943e0b31e3576ce85ff51",
         "local_8b5e48b36310a2498d219fbd"
       ],
-      "generatedAt": "2026-08-07T14:04:51.064Z",
+      "generatedAt": "2026-08-07T15:15:22.821Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-07T14:04:51.064Z",
+  "generatedAt": "2026-08-07T15:15:22.821Z",
   "collectorName": "local-source-collector"
 }
