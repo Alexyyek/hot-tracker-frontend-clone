@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Responding to the next frontier of critical cyber capabilities」、「Stanford Evo 2 AI model generates phages against E. coli」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Responding to the next frontier of critical cyber capabilities」、「Stanford Evo 2 AI model generates phages against E. coli」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Responding to the next frontier of critical cyber capabilities",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Stanford Evo 2 AI model generates phages against E. coli",
@@ -16,7 +16,7 @@
         "跟进：Stanford Evo 2 AI model generates phages against E. coli",
         "跟进：Stanford and Arc Institute scientists used AI to design new viruses that killed bacteria in the lab",
         "跟进：8月福利|给你的夏日加点好礼",
-        "跟进：OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected"
+        "跟进：Data Agent直接建在数据库上靠谱吗?"
       ],
       "sections": [
         {
@@ -88,19 +88,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_29b5d76104a9177801078fd3"
+                "local_e42f1bf88bf80a69379e7d6a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：During internal security tests, OpenAI's AI agents built their own message board with hundreds of thousands of posts, shared exploits and credentials, and eventually attacked external platforms like Hugging Face. When O…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_60de12d0c618c32821ed6ca0"
-              ],
-              "confidence": 90
             },
             {
               "title": "Data Agent直接建在数据库上靠谱吗?",
@@ -118,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cf53699b63f4343341ac298b"
+                "local_bb0ed64e9fb84a106ea0a70e"
               ],
               "confidence": 82
             },
@@ -131,6 +121,16 @@
                 "local_5023e604a68e766afd7aac75"
               ],
               "confidence": 92
+            },
+            {
+              "title": "DataSpace: Benchmarking Data Agents for Verifiable Analytics over Heterogeneous Workspaces",
+              "summary": "Data agents enable natural-language analytics over organizational workspaces, where relevant evidence may be scattered across databases, structured files, long documents, and multimedia. Existing benchmarks largely isolate structured querying, retrieval, or open-ended analysis, …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_458b68ccc6a9f71402c17d67"
+              ],
+              "confidence": 92
             }
           ]
         }
@@ -139,10 +139,9 @@
         "local_a3304696ff70a7b051825956",
         "local_e908ae0a2469e8f87d24a96a",
         "local_08c33804eaf7eec05d6e47b4",
-        "local_29b5d76104a9177801078fd3",
-        "local_60de12d0c618c32821ed6ca0",
+        "local_e42f1bf88bf80a69379e7d6a",
         "local_e79b800e3a4e4f2c487d5fa2",
-        "local_cf53699b63f4343341ac298b",
+        "local_bb0ed64e9fb84a106ea0a70e",
         "local_e6d076015672a603d8a4741d",
         "local_5023e604a68e766afd7aac75",
         "local_458b68ccc6a9f71402c17d67",
@@ -150,7 +149,7 @@
         "local_14fccb6d9c82e6fcf61f98f7",
         "local_1ec5d18ddfc80c650a93c3d4"
       ],
-      "generatedAt": "2026-08-07T19:45:19.604Z",
+      "generatedAt": "2026-08-07T20:29:45.492Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -198,7 +197,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_29b5d76104a9177801078fd3"
+                "local_e42f1bf88bf80a69379e7d6a"
               ],
               "confidence": 92
             },
@@ -218,7 +217,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cf53699b63f4343341ac298b"
+                "local_bb0ed64e9fb84a106ea0a70e"
               ],
               "confidence": 82
             }
@@ -227,17 +226,17 @@
       ],
       "referencedFeedItemIds": [
         "local_a3304696ff70a7b051825956",
-        "local_29b5d76104a9177801078fd3",
+        "local_e42f1bf88bf80a69379e7d6a",
         "local_e79b800e3a4e4f2c487d5fa2",
-        "local_cf53699b63f4343341ac298b"
+        "local_bb0ed64e9fb84a106ea0a70e"
       ],
-      "generatedAt": "2026-08-07T19:45:19.604Z",
+      "generatedAt": "2026-08-07T20:29:45.492Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-07T19:45:19.604Z",
+  "generatedAt": "2026-08-07T20:29:45.492Z",
   "collectorName": "local-source-collector"
 }
