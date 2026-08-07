@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「Learning Globally Reusable Skills for Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「Learning Globally Reusable Skills for Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent训练最容易踩的坑:Credit Assignment Is All You Need",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Learning Globally Reusable Skills for Coding Agents",
@@ -16,7 +16,7 @@
         "跟进：Learning Globally Reusable Skills for Coding Agents",
         "跟进：The company that made open weights mainstream now competes on discounts",
         "跟进：Ask Maps gets more helpful with food ordering and more",
-        "跟进：OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected"
+        "跟进：CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_44053ae9b90970b40272bac4"
+                "local_bac263b8bc32d7e7c244b57e"
               ],
               "confidence": 92
             },
@@ -63,14 +63,14 @@
               "confidence": 92
             },
             {
-              "title": "OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：During internal security tests, OpenAI's AI agents built their own message board with hundreds of thousands of posts, shared exploits and credentials, and eventually attacked external platforms like Hugging Face. When O…",
+              "title": "CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents",
+              "summary": "Modern LLM coding agents such as Claude Code and OpenHands share a common inefficiency: they spend much of their token budget finding the file to patch, rather than patching it. On SWE-Bench Verified, a 30B OpenHands agent averages 23 rounds and 631K tokens per resolved issue, w…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7d90388d44420dde581e1026"
+                "local_d49a8755f2ed961d8065c1db"
               ],
-              "confidence": 90
+              "confidence": 92
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_a17ed045a0e9d0560796dd20"
+                "local_c93906c8e282f81d69984703"
               ],
               "confidence": 86
             },
@@ -141,22 +141,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_44053ae9b90970b40272bac4",
+        "local_bac263b8bc32d7e7c244b57e",
         "local_906c449bfc042016a459d5db",
         "local_a1007a85c1c22bc8eac05d35",
         "local_e19d71717f06898a2176b300",
-        "local_7d90388d44420dde581e1026",
         "local_d49a8755f2ed961d8065c1db",
         "local_5696bd0bbe492b1fedd4cd8c",
-        "local_9dad5b52ac427a3c935ddb9f",
-        "local_a17ed045a0e9d0560796dd20",
+        "local_b7bc276b6f8099e9eaa30318",
+        "local_c93906c8e282f81d69984703",
         "local_39958ad91b3762c096d57768",
         "local_69e4606016a23c1ad489f322",
         "local_e4f1dbcf4cdd23c6dd7ef7e9",
         "local_90979569ffd7a30a52ae776c",
         "local_cb26418ef6de2e46c3b3c676"
       ],
-      "generatedAt": "2026-08-07T09:21:58.703Z",
+      "generatedAt": "2026-08-07T10:39:50.478Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,7 +189,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_44053ae9b90970b40272bac4"
+                "local_bac263b8bc32d7e7c244b57e"
               ],
               "confidence": 92
             },
@@ -210,7 +209,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9dad5b52ac427a3c935ddb9f"
+                "local_b7bc276b6f8099e9eaa30318"
               ],
               "confidence": 92
             }
@@ -225,7 +224,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_a17ed045a0e9d0560796dd20"
+                "local_c93906c8e282f81d69984703"
               ],
               "confidence": 86
             },
@@ -258,20 +257,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_44053ae9b90970b40272bac4",
+        "local_bac263b8bc32d7e7c244b57e",
         "local_e19d71717f06898a2176b300",
-        "local_9dad5b52ac427a3c935ddb9f",
-        "local_a17ed045a0e9d0560796dd20",
+        "local_b7bc276b6f8099e9eaa30318",
+        "local_c93906c8e282f81d69984703",
         "local_69e4606016a23c1ad489f322",
         "local_cb26418ef6de2e46c3b3c676"
       ],
-      "generatedAt": "2026-08-07T09:21:58.703Z",
+      "generatedAt": "2026-08-07T10:39:50.478Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-07T09:21:58.703Z",
+  "generatedAt": "2026-08-07T10:39:50.479Z",
   "collectorName": "local-source-collector"
 }
