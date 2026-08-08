@@ -5,12 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-07-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction」、「Agent Harness 解析:智能体架构深度拆解」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness 解析:智能体架构深度拆解"
       ],
       "watchItems": [
-        "跟进：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction"
+        "跟进：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+        "跟进：Agent Harness 解析:智能体架构深度拆解"
       ],
       "sections": [
         {
@@ -27,12 +29,28 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Agent Harness 解析:智能体架构深度拆解",
+              "summary": "文档智能+知识图谱+大模型结合范式Hermes Agent 被忽视的 4 个坑,DTClaw 如何填平?梁文锋出资200亿!DeepSeek首轮创纪录融...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_30f074fce732738c9290ca94"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_d728afb4dc9ade85d29e1549"
+        "local_d728afb4dc9ade85d29e1549",
+        "local_30f074fce732738c9290ca94"
       ],
-      "generatedAt": "2026-08-08T13:17:58.083Z",
+      "generatedAt": "2026-08-08T14:24:25.281Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -43,24 +61,24 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-07-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Agent Harness 解析:智能体架构深度拆解」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness 解析:智能体架构深度拆解"
       ],
       "watchItems": [
-        "跟进：Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction"
+        "跟进：Agent Harness 解析:智能体架构深度拆解"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：.abbel-fig { display: block; text-align: center; margin: 2.4em 0; line-height: 1.4; max-width: 100%; } .abbel-fig img { display: block; margin: 0.65em auto 0; height: auto; max-width: 100%; } /* Image sizes; captions us…",
+              "title": "Agent Harness 解析:智能体架构深度拆解",
+              "summary": "文档智能+知识图谱+大模型结合范式Hermes Agent 被忽视的 4 个坑,DTClaw 如何填平?梁文锋出资200亿!DeepSeek首轮创纪录融...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d728afb4dc9ade85d29e1549"
+                "local_30f074fce732738c9290ca94"
               ],
               "confidence": 92
             }
@@ -68,15 +86,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d728afb4dc9ade85d29e1549"
+        "local_30f074fce732738c9290ca94"
       ],
-      "generatedAt": "2026-08-08T13:17:58.083Z",
+      "generatedAt": "2026-08-08T14:24:25.281Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-08T13:17:58.083Z",
+  "generatedAt": "2026-08-08T14:24:25.281Z",
   "collectorName": "local-source-collector"
 }
