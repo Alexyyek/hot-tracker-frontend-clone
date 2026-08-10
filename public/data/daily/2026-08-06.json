@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「Learning Globally Reusable Skills for Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Agent训练最容易踩的坑:Credit Assignment Is All You Need」、「Ask Maps gets more helpful with food ordering and more」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent训练最容易踩的坑:Credit Assignment Is All You Need",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Learning Globally Reusable Skills for Coding Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps gets more helpful with food ordering and more"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps gets more helpful with food ordering and more",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OfficeAce 首批通过《云上Agent基准度量模型》重要级评估,定义智能体可信新标杆"
       ],
       "watchItems": [
         "跟进：Agent训练最容易踩的坑:Credit Assignment Is All You Need",
-        "跟进：Learning Globally Reusable Skills for Coding Agents",
         "跟进：Ask Maps gets more helpful with food ordering and more",
-        "跟进：CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents",
-        "跟进：The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents"
+        "跟进：OfficeAce 首批通过《云上Agent基准度量模型》重要级评估,定义智能体可信新标杆",
+        "跟进：【内含直播】高德汽车工程AI Native演进实录|基于Qoder的业务知识工程建设实践",
+        "跟进：From asking to doing: How the world is putting ChatGPT to work"
       ],
       "sections": [
         {
@@ -28,17 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a999cf4893087f913e4d419a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Learning Globally Reusable Skills for Coding Agents",
-              "summary": "Automated skill evolution enables Large Language Model (LLM) agents to continuously improve without expensive retraining. However, existing approaches typically treat skill evolution as a sequence of local updates, overlooking relationships among skills and often producing overf…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_906c449bfc042016a459d5db"
+                "local_8d408ba2a5f0f66d6eb417bc"
               ],
               "confidence": 92
             },
@@ -53,22 +43,12 @@
               "confidence": 92
             },
             {
-              "title": "CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents",
-              "summary": "Modern LLM coding agents such as Claude Code and OpenHands share a common inefficiency: they spend much of their token budget finding the file to patch, rather than patching it. On SWE-Bench Verified, a 30B OpenHands agent averages 23 rounds and 631K tokens per resolved issue, w…",
+              "title": "OfficeAce 首批通过《云上Agent基准度量模型》重要级评估,定义智能体可信新标杆",
+              "summary": "华为云OfficeAce凭借在Agent可观测性、稳定性保障与基准度量等维度的全栈领先能力,首批通过《AI可观测性云上智能体(Agent)...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d49a8755f2ed961d8065c1db"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents",
-              "summary": "Existing guidance identifies excessive agency, excessive permission, weak task-bound authorization, and inadequate agent controls as important risks. Control frameworks also describe capabilities for constraining, authorizing, observing, validating, and responding to agent activ…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5696bd0bbe492b1fedd4cd8c"
+                "local_c84fbb8d2587affa7b4dab8e"
               ],
               "confidence": 92
             }
@@ -83,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_a6b54c40677bed7d7cb114ec"
+                "local_82abfa89772bb1be3ff1548f"
               ],
               "confidence": 86
             },
@@ -116,17 +96,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a999cf4893087f913e4d419a",
-        "local_906c449bfc042016a459d5db",
+        "local_8d408ba2a5f0f66d6eb417bc",
         "local_e19d71717f06898a2176b300",
-        "local_d49a8755f2ed961d8065c1db",
-        "local_5696bd0bbe492b1fedd4cd8c",
-        "local_ba4b7f3d2b3950e29f398fa8",
-        "local_a6b54c40677bed7d7cb114ec",
+        "local_c84fbb8d2587affa7b4dab8e",
+        "local_82abfa89772bb1be3ff1548f",
         "local_69e4606016a23c1ad489f322",
         "local_cb26418ef6de2e46c3b3c676"
       ],
-      "generatedAt": "2026-08-09T23:45:32.388Z",
+      "generatedAt": "2026-08-10T02:40:05.613Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -160,7 +137,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a999cf4893087f913e4d419a"
+                "local_8d408ba2a5f0f66d6eb417bc"
               ],
               "confidence": 92
             },
@@ -180,7 +157,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba4b7f3d2b3950e29f398fa8"
+                "local_c84fbb8d2587affa7b4dab8e"
               ],
               "confidence": 92
             }
@@ -195,7 +172,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_a6b54c40677bed7d7cb114ec"
+                "local_82abfa89772bb1be3ff1548f"
               ],
               "confidence": 86
             },
@@ -228,20 +205,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a999cf4893087f913e4d419a",
+        "local_8d408ba2a5f0f66d6eb417bc",
         "local_e19d71717f06898a2176b300",
-        "local_ba4b7f3d2b3950e29f398fa8",
-        "local_a6b54c40677bed7d7cb114ec",
+        "local_c84fbb8d2587affa7b4dab8e",
+        "local_82abfa89772bb1be3ff1548f",
         "local_69e4606016a23c1ad489f322",
         "local_cb26418ef6de2e46c3b3c676"
       ],
-      "generatedAt": "2026-08-09T23:45:32.388Z",
+      "generatedAt": "2026-08-10T02:40:05.613Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-09T23:45:32.388Z",
+  "generatedAt": "2026-08-10T02:40:05.613Z",
   "collectorName": "local-source-collector"
 }

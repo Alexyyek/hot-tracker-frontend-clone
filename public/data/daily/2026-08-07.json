@@ -5,20 +5,75 @@
       "topicId": "ai",
       "reportDate": "2026-08-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Responding to the next frontier of critical cyber capabilities」、「Stanford Evo 2 AI model generates phages against E. coli」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「An End-to-End Agent Auditing Engine」、「Responding to the next frontier of critical cyber capabilities」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：An End-to-End Agent Auditing Engine",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Responding to the next frontier of critical cyber capabilities",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Stanford Evo 2 AI model generates phages against E. coli",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：8月福利|给你的夏日加点好礼"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Stanford Evo 2 AI model generates phages against E. coli"
       ],
       "watchItems": [
+        "跟进：An End-to-End Agent Auditing Engine",
         "跟进：Responding to the next frontier of critical cyber capabilities",
         "跟进：Stanford Evo 2 AI model generates phages against E. coli",
-        "跟进：8月福利|给你的夏日加点好礼",
-        "跟进：Data Agent直接建在数据库上靠谱吗?",
-        "跟进：腾讯云Team Memory来了!"
+        "跟进：DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
+        "跟进：MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "An End-to-End Agent Auditing Engine",
+              "summary": "With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range of domains. The fast-evolving harness ecosystem has also made rigorous capability evaluation increasingly important. However, effic…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4ebd014d86ae2f0f32211485"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
+              "summary": "Reinforcement learning with Verifiable Reward (RLVR) has emerged as a powerful paradigm for training coding agents, where the execution feedback from compilation and tests provides objective verification. However, unlike agent tasks, coding agents face a unique and finer-grained…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e14c0dbf1425bd6970b63abf"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents",
+              "summary": "Long-horizon agents accumulate growing contexts during interaction, impairing performance and stability. Compact memory mitigates this problem by compressing and rewriting the history retained between model invocations. Learning what to retain typically relies on proximal policy…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5461ea1ad5714b401a7e6dd4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "8月福利|给你的夏日加点好礼",
+              "summary": "评论区点赞top1,百度Geek说请你立秋第一杯奶茶! END 推荐阅读从分散提效到 AI Native 组织的实践面向 Coding Agent 的多仓库 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fad563ab40fa82e41e9f8597"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "HarnessSafe: Evaluating Safety Across Persistent Carriers in Agent Harnesses",
+              "summary": "Modern agent harnesses persist state across tasks and sessions through persistent carriers like memory, skills, tools, and shared artifacts. However, this capability creates delayed safety risks: attacker-influenced content can cross system boundaries and later affect the execut…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_af4bd664ba87bc7de585b647"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -29,16 +84,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_a3304696ff70a7b051825956"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "GaussianSelector: Lightweight Human-Guided Object Selection in 3D Gaussian Splatting with Graph Optimization",
-              "summary": "Selecting a complete 3D object from a reconstructed scene with minimal user effort is essential for practical scene editing and embodied interaction. Existing 3DGS-based methods either retrain the Gaussian representation to embed per-object labels, or build dense multi-view SAM …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2de39d88092848f9494bd0e0"
               ],
               "confidence": 92
             }
@@ -56,88 +101,22 @@
                 "local_e908ae0a2469e8f87d24a96a"
               ],
               "confidence": 78
-            },
-            {
-              "title": "KVAE: Family of Tokenizers for Multimodal Generative Models",
-              "summary": "Latent diffusion modeling (LDM), a prominent paradigm, utilizes tokenizers to map input signal to compressed representation. This dependency positions tokenizer as an integral part of generation process itself, since it affects learning speed, quality of synthesized samples and …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e6d076015672a603d8a4741d"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "8月福利|给你的夏日加点好礼",
-              "summary": "评论区点赞top1,百度Geek说请你立秋第一杯奶茶! END 推荐阅读从分散提效到 AI Native 组织的实践面向 Coding Agent 的多仓库 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e987b1b403432cf8fc2a4a15"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Data Agent直接建在数据库上靠谱吗?",
-              "summary": "当数据库长出Agent,它就不再是那个被业务调用、只会被动响应查询的\"老黄牛\"了&mdash;&mdash;这是个诱人的技术想象,但也引发了一个灵...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ce95231b557c3e43ea896ee6"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "腾讯云Team Memory来了!",
-              "summary": "腾讯云Agent Memory 2.0.0大版本已上线,全新升级Team Memory,将长期记忆能力从个人扩展到团队协作场景.以后,团队与Agent...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c9a1c7fd15b5f82e4aea20c1"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Weights or Skills? A Survey of Robot-Learning Techniques: from Action-Predicting Weights to Robots that Write their Own Skills",
-              "summary": "Robot learning is splitting into two bets: policies that bake competence into frozen weights (vision-language-action, or VLA, models), and agents that write and refine their own executable skills as code. This survey organises the field around that axis of weights versus skills.…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_df194b6a27a130c9afae1794"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "FactorJEPA: Factorizing Monolithic Futures into Layout-Agent-Interaction Channels for Crowded and Chaotic Global South Urban Worlds",
-              "summary": "World models have attracted significant attention for their ability to capture and predict the structure and dynamics of the physical world. In this emerging landscape, Joint Embedding Predictive Architectures (JEPA) offer a particularly compelling direction. We study a largely …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9b243ee0707def16b13e9d00"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_4ebd014d86ae2f0f32211485",
         "local_a3304696ff70a7b051825956",
         "local_e908ae0a2469e8f87d24a96a",
-        "local_e987b1b403432cf8fc2a4a15",
+        "local_e14c0dbf1425bd6970b63abf",
+        "local_5461ea1ad5714b401a7e6dd4",
+        "local_fad563ab40fa82e41e9f8597",
+        "local_af4bd664ba87bc7de585b647",
         "local_ce95231b557c3e43ea896ee6",
-        "local_c9a1c7fd15b5f82e4aea20c1",
-        "local_2de39d88092848f9494bd0e0",
-        "local_df194b6a27a130c9afae1794",
-        "local_9b243ee0707def16b13e9d00",
-        "local_e6d076015672a603d8a4741d",
-        "local_1ec5d18ddfc80c650a93c3d4"
+        "local_c9a1c7fd15b5f82e4aea20c1"
       ],
-      "generatedAt": "2026-08-09T23:45:32.381Z",
+      "generatedAt": "2026-08-10T02:40:05.601Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -185,7 +164,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e987b1b403432cf8fc2a4a15"
+                "local_fad563ab40fa82e41e9f8597"
               ],
               "confidence": 92
             },
@@ -214,17 +193,17 @@
       ],
       "referencedFeedItemIds": [
         "local_a3304696ff70a7b051825956",
-        "local_e987b1b403432cf8fc2a4a15",
+        "local_fad563ab40fa82e41e9f8597",
         "local_ce95231b557c3e43ea896ee6",
         "local_c9a1c7fd15b5f82e4aea20c1"
       ],
-      "generatedAt": "2026-08-09T23:45:32.381Z",
+      "generatedAt": "2026-08-10T02:40:05.601Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-09T23:45:32.381Z",
+  "generatedAt": "2026-08-10T02:40:05.601Z",
   "collectorName": "local-source-collector"
 }
