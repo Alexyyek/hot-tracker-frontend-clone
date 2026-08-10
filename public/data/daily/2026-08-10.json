@@ -98,22 +98,12 @@
               "confidence": 70
             },
             {
-              "title": "Relevant but Incomplete: Referential Dangling as a Paradigm-Level Failure Mode in Hard Prompt Compression",
-              "summary": "Hard prompt compression reduces long-context inference cost by independently scoring tokens, sentences, or chunks and retaining the highest-scoring units under a budget. We identify a structural failure in this procedure: independent selection can split dependent evidence pairs,…",
+              "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
+              "summary": "Sequence models must decide what to write into memory and what to retain. In quantum and quantum-inspired sequence learning, nonlinear recurrent updates often require repeated circuit evaluations and sequential backpropagation through time, making long contexts costly. Gated fas…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_1f6dfd3149f46c9e57c44834"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Small Foundation Models of Human Cognition and Behaviour",
-              "summary": "Large language models fine-tuned on human behavioural data have emerged as general-purpose cognitive proxies, but the scale this requires, and whether these models process task structure or exploit statistical shortcuts, remain open questions. We train fourteen models from 135M …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6c9938d2a0a68511ced5e378"
+                "local_428595a5838f07771149ed83"
               ],
               "confidence": 92
             },
@@ -126,6 +116,16 @@
                 "local_73ca9ce9d4bcaf50dd625775"
               ],
               "confidence": 92
+            },
+            {
+              "title": "SQLite compressed text-history prototypes",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the full text …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_6a51441795673691dd179f88"
+              ],
+              "confidence": 78
             }
           ]
         },
@@ -157,15 +157,15 @@
         "local_db694c1401afadf27ef91509",
         "local_b88fc41cd6498c98d5649be8",
         "local_9377f3f4762ae8eb3ab4de6e",
+        "local_428595a5838f07771149ed83",
+        "local_730278e070688ea77441eda6",
         "local_8c7d8588ebe9adf49e5a447a",
         "local_691bc1278c245e3b972b1215",
-        "local_1f6dfd3149f46c9e57c44834",
-        "local_6c9938d2a0a68511ced5e378",
         "local_73ca9ce9d4bcaf50dd625775",
         "local_f5d6ef09b0aad9a8830d84aa",
         "local_6a51441795673691dd179f88"
       ],
-      "generatedAt": "2026-08-10T19:44:05.194Z",
+      "generatedAt": "2026-08-10T21:00:50.221Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -246,13 +246,13 @@
         "local_d70d9f268ce85317b1d8baac",
         "local_db694c1401afadf27ef91509"
       ],
-      "generatedAt": "2026-08-10T19:44:05.194Z",
+      "generatedAt": "2026-08-10T21:00:50.221Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-10T19:44:05.194Z",
+  "generatedAt": "2026-08-10T21:00:50.221Z",
   "collectorName": "local-source-collector"
 }
