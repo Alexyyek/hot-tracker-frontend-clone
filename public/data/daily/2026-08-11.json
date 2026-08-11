@@ -53,12 +53,12 @@
               "confidence": 78
             },
             {
-              "title": "MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation",
-              "summary": "Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challenging because the content within a mirror must remain consistent with the surrounding scene. Existing VDMs are not specifically desig…",
+              "title": "Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers",
+              "summary": "Positional embeddings (PE) in Transformers encode token distance and order but are largely agnostic to syntactic structure. We introduce Syntax-informed Positional Embeddings (SiPE), which learns a lightweight syntactic prior from dependency parses during pretraining and injects…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_3264e3fb1010a9a86537ca31"
+                "local_56ea6d63af030f9c5c2ce0e4"
               ],
               "confidence": 92
             },
@@ -143,6 +143,16 @@
               "confidence": 82
             },
             {
+              "title": "Beyond Starry Night: Shortcut-Aware Control-State Planning for Artist-Grounded Text to Image Generation",
+              "summary": "Artist-grounded image generation requires more than appending an artist name to a prompt. Image models often respond to artist names through canonical shortcuts, such as recurring motifs, generic palettes, or overrepresented period signatures, rather than preserving the user's i…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d3b3769bc1f3b40240d360ab"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "On-Policy Self-Distillation without Any Supervision",
               "summary": "On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods still rely heavily on external supervision, including ground-truth signals, environmental feedback, or guidance from larger models, and…",
               "insightLabel": "关注",
@@ -179,10 +189,10 @@
         "local_ab0a69be71292f045fad1f45",
         "local_8b393e31202206798cfadfe9",
         "local_3a20e7bff11bb6c0114633d4",
+        "local_56ea6d63af030f9c5c2ce0e4",
+        "local_d3b3769bc1f3b40240d360ab",
         "local_c7c29ce003debf567cc9c01b",
         "local_2eacb16c25d715deaae65197",
-        "local_f66ef8e95e019988187a4f0f",
-        "local_3264e3fb1010a9a86537ca31",
         "local_694c2e23e7dce25468b3a44c",
         "local_3506cf7a24640f36dadc84a1",
         "local_209cf05e06d83c4adebef7af",
@@ -190,7 +200,7 @@
         "local_725d9f84b56d13837f4ddf76",
         "local_437ea8f38292bdc98a405632"
       ],
-      "generatedAt": "2026-08-11T23:03:22.540Z",
+      "generatedAt": "2026-08-11T23:59:00.570Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -280,13 +290,13 @@
         "local_db32e875c64c9fc7699b604e",
         "local_3a20e7bff11bb6c0114633d4"
       ],
-      "generatedAt": "2026-08-11T23:03:22.540Z",
+      "generatedAt": "2026-08-11T23:59:00.570Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-11T23:03:22.541Z",
+  "generatedAt": "2026-08-11T23:59:00.571Z",
   "collectorName": "local-source-collector"
 }
