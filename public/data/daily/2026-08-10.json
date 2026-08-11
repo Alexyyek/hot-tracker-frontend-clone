@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Evolve your marketing with new AI tools」、「Activation Probes Surface Code-Security Signals that the Model's Output Misses」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Evolve your marketing with new AI tools」、「Activation Probes Surface Code-Security Signals that the Model's Output Misses」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Evolve your marketing with new AI tools",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Activation Probes Surface Code-Security Signals that the Model's Output Misses",
@@ -93,19 +93,9 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_b2af63a6bbb44398b6a26f36"
+                "local_68226cfd949a279dcd266e63"
               ],
               "confidence": 70
-            },
-            {
-              "title": "Enfold: Folding World Model Imagination into Predictive Representations for Ultra-Efficient Embodied Control",
-              "summary": "World generative models are typically used through what they produce: a rendered future, a video-conditioned action, or latent context computed by a costly generative branch. We argue that their more reusable asset is the computation that constructs a future. As a generator tran…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6f83e592282ef770b9233ec7"
-              ],
-              "confidence": 92
             },
             {
               "title": "Quoting Claude Opus 5 system prompt",
@@ -131,16 +121,6 @@
                 "local_b88fc41cd6498c98d5649be8"
               ],
               "confidence": 82
-            },
-            {
-              "title": "CLIP-CC-Bench: Evaluating Paragraph-Level Video Descriptions in Video-Language Models",
-              "summary": "Benchmarking video-language models has largely focused on short clips and single-sentence metrics, leaving open whether current systems can generate accurate long-form, paragraph-level descriptions. We introduce CLIP-CC-Bench, an evaluation suite for long-form video description …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_557b96d22d9316dd0a4984b5"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -154,19 +134,17 @@
         "local_63ea0dea39938982d89c21d2",
         "local_9df7516b3dea196d45fd4fd0",
         "local_3a8624debea358c974090e3f",
-        "local_d4c0e0b3ebfa17503576a82d",
+        "local_b1cb7e08c2ac30dd7cf1947b",
         "local_2a319d54cb0fecc4ad40668d",
         "local_53a8f87215d77bd34ae31d76",
         "local_c3aa13e60b7bf4060f3382a5",
-        "local_b2af63a6bbb44398b6a26f36",
+        "local_68226cfd949a279dcd266e63",
         "local_b88fc41cd6498c98d5649be8",
         "local_9377f3f4762ae8eb3ab4de6e",
-        "local_6f83e592282ef770b9233ec7",
-        "local_557b96d22d9316dd0a4984b5",
         "local_73ca9ce9d4bcaf50dd625775",
         "local_f5d6ef09b0aad9a8830d84aa"
       ],
-      "generatedAt": "2026-08-11T02:33:35.310Z",
+      "generatedAt": "2026-08-11T04:13:47.106Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -219,7 +197,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d4c0e0b3ebfa17503576a82d"
+                "local_b1cb7e08c2ac30dd7cf1947b"
               ],
               "confidence": 90
             }
@@ -234,7 +212,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_b2af63a6bbb44398b6a26f36"
+                "local_68226cfd949a279dcd266e63"
               ],
               "confidence": 70
             }
@@ -244,16 +222,16 @@
       "referencedFeedItemIds": [
         "local_a68f3d4ed252d7d876586143",
         "local_9b3cad1886ad72f4ce3beab7",
-        "local_d4c0e0b3ebfa17503576a82d",
-        "local_b2af63a6bbb44398b6a26f36"
+        "local_b1cb7e08c2ac30dd7cf1947b",
+        "local_68226cfd949a279dcd266e63"
       ],
-      "generatedAt": "2026-08-11T02:33:35.310Z",
+      "generatedAt": "2026-08-11T04:13:47.106Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-11T02:33:35.311Z",
+  "generatedAt": "2026-08-11T04:13:47.106Z",
   "collectorName": "local-source-collector"
 }
