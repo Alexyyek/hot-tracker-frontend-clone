@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Nvidia&#039;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence」、「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「Nvidia&#039;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence」、「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia&#039;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
@@ -133,6 +133,16 @@
               "confidence": 82
             },
             {
+              "title": "Omega-S: A Functional Resilience Index for LLM Fine-Tuning",
+              "summary": "Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penalty computed from the weight matrix alone: it needs no previous-task data, no Fisher matrix and no stored copy of the old weights. It is three lines in an existi…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_50867f465872b3ea0a9bd148"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Gaming Without an Attacker: Benchmark Fingerprinting in LLM-Driven Search Under Selection Pressure",
               "summary": "Benchmarks for systems that are optimized against the evaluation signal measure something different from what they claim. We document this concretely in two GPU-kernel-optimization suites with held-out generalization gates: Metal-Sci (10 scientific-compute tasks) and Metal-ZK (1…",
               "insightLabel": "关注",
@@ -149,16 +159,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_ada28527612f5b063a967abf"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization",
-              "summary": "Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own. We formalize this setting as streaming dialogue summarization, where a system must summarize a current window using selective memor…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_d11b48681bbd49975f1ad984"
               ],
               "confidence": 92
             }
@@ -178,10 +178,11 @@
         "local_420ac7fc5b0e1f164e85f8c1",
         "local_ab0a69be71292f045fad1f45",
         "local_8b393e31202206798cfadfe9",
+        "local_3a20e7bff11bb6c0114633d4",
+        "local_50867f465872b3ea0a9bd148",
         "local_1593e92c51ed77b0bb119ae6",
         "local_debe2b91af5eb7611268db73",
         "local_ada28527612f5b063a967abf",
-        "local_d11b48681bbd49975f1ad984",
         "local_694c2e23e7dce25468b3a44c",
         "local_3506cf7a24640f36dadc84a1",
         "local_209cf05e06d83c4adebef7af",
@@ -189,7 +190,7 @@
         "local_725d9f84b56d13837f4ddf76",
         "local_437ea8f38292bdc98a405632"
       ],
-      "generatedAt": "2026-08-11T16:34:05.091Z",
+      "generatedAt": "2026-08-11T17:39:03.974Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -200,7 +201,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-11",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」、「NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」、「NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
@@ -276,15 +277,16 @@
         "local_65dea33d5d778d2e8a8173c8",
         "local_58af9d009abf8096baf12f4b",
         "local_256edf6f58dfbbf7d824e1d9",
-        "local_db32e875c64c9fc7699b604e"
+        "local_db32e875c64c9fc7699b604e",
+        "local_3a20e7bff11bb6c0114633d4"
       ],
-      "generatedAt": "2026-08-11T16:34:05.091Z",
+      "generatedAt": "2026-08-11T17:39:03.974Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-11T16:34:05.091Z",
+  "generatedAt": "2026-08-11T17:39:03.975Z",
   "collectorName": "local-source-collector"
 }
