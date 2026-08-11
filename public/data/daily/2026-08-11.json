@@ -5,42 +5,62 @@
       "topicId": "ai",
       "reportDate": "2026-08-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Nvidia&#039;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence」、「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia&#039;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
-        "跟进：MCP 迎来最大更新：重回上古时代HTTP",
-        "跟进：AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径"
+        "跟进：Nvidia&#039;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence",
+        "跟进：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+        "跟进：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+        "跟进：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+        "跟进：NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI"
       ],
       "sections": [
         {
           "title": "行业与公司",
           "items": [
             {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "title": "Nvidia&#039;s open-weight Nemotron 3.5 Lightning prioritizes speed over maximum intelligence",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Nvidia's Nemotron 3.5 Lightning is an open-weights model with just 3.6 billion active parameters that matches OpenAI's gpt-oss-120b on the Intelligence Index despite being four times smaller. At nearly 670 tokens per se…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_26e0e70f31b6a876c71e9b93"
+                "local_4857badad961c006236a0400"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Anthropic watermarks all Claude outputs globally with marks that \"may persist through some editing\"",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Anthropic will embed invisible watermarks in all Claude-generated text and sign files using the C2PA standard. New models shipping from August 2026 onward will have labeling built in from day one. The policy applies wor…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_ab0a69be71292f045fad1f45"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "How AI is changing the vulnerability response timeline",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Artificial intelligence is giving security researchers new ways to examine code, trace unusual behaviour and identify flaws that conventional tools may overlook. The pressure is particularly visible around Zero-day vuln…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_8b393e31202206798cfadfe9"
               ],
               "confidence": 78
             },
             {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
+              "title": "Forking-Sequences — Part II: Multi-Horizon Forecast Ensembling with Reduced Volatility",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Based on: Potosnak, W., Wolff, M., Cao, M., Ma, R., Konstantinova, T., Efimov, D., Mahoney, M.W., Oreshkin, B., &#38; Olivares, K.G. \"Forking-Sequences: Statistically and Computationally Efficient Multi-Horizon Forecast…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0d309a019d2a2d9764642ffc"
+                "local_3506cf7a24640f36dadc84a1"
               ],
-              "confidence": 70
+              "confidence": 92
             }
           ]
         },
@@ -48,69 +68,54 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_111b62f5ccf5d5e8634ff916"
+                "local_8b3607ee1ca5140318729ac3"
               ],
-              "confidence": 92
+              "confidence": 86
             },
             {
-              "title": "Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
-              "summary": "在 Claude Code 创始人 Boris Cherny 看来，这个头脑可能每隔半年就应该清空一次。",
+              "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ecosystem.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_664e758cb7b94ba4395491b3"
+                "local_bad4c4587eb8d2e756c52cbf"
               ],
               "confidence": 70
             },
             {
-              "title": "AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径",
-              "summary": "来自产业一线的技术专家将围绕 Agent 工程化、大模型基础设施、AI Native 研发、具身智能等前沿方向，分享 AI 时代的技术探索与工程实践，共同探讨 AI 从能力突破走向系统构建的新路径。",
+              "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ecosystem.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8f9e423439bba72d13fef46"
+                "local_65dea33d5d778d2e8a8173c8"
               ],
-              "confidence": 92
+              "confidence": 70
             },
             {
-              "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load…",
+              "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8a47eaf3d52c795e8ba916ac"
+                "local_58af9d009abf8096baf12f4b"
               ],
-              "confidence": 92
+              "confidence": 82
             },
             {
-              "title": "Model routing with Google Cloud API Gateway",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
+              "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud.",
               "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ecbc6fb21218eeb4b5c0a881"
+                "local_256edf6f58dfbbf7d824e1d9"
               ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "MCP 迎来最大更新：重回上古时代HTTP",
-              "summary": "MCP 折腾了近两年，终于迎来了官方口中“发布以来最大的一次更新”，只不过方向有点出人意料——重回上古 HTTP 时代。",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_d28df38e77a0cc7922f96728"
-              ],
-              "confidence": 74
+              "confidence": 82
             }
           ]
         },
@@ -118,52 +123,42 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cb39f45d0d944e68292a2f60"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard based on benchmarks and real usage data from millions of users. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_53a68cd083e5362548914a86"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_78277635e544e7ee5098c57e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
+              "title": "Anthropic&#039;s planned mega-IPO faces investor skepticism over Chinese rivals and political headwinds",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic is preparing an IPO for September or October, according to the Wall Street Journal, potentially the largest ever. During investor meetings, the company, valued at $965 billion, is fielding tough questions abou…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_82deadb6beabd196e740db98"
+                "local_bf5903cc9e2f696c621918af"
               ],
-              "confidence": 78
+              "confidence": 82
             },
             {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
+              "title": "Gaming Without an Attacker: Benchmark Fingerprinting in LLM-Driven Search Under Selection Pressure",
+              "summary": "Benchmarks for systems that are optimized against the evaluation signal measure something different from what they claim. We document this concretely in two GPU-kernel-optimization suites with held-out generalization gates: Metal-Sci (10 scientific-compute tasks) and Metal-ZK (1…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f102e0dc3c2ccf4e6320684d"
+                "local_1593e92c51ed77b0bb119ae6"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification",
+              "summary": "Large language models (LLMs) increasingly serve as data-driven reasoners, yet their chains-of-thought (CoT) can be unfaithful even when final answers are correct. Most existing ``verification'' signals are not diagnostic: answer matching observes only the outcome, LLM-as-judge p…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_ada28527612f5b063a967abf"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization",
+              "summary": "Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own. We formalize this setting as streaming dialogue summarization, where a system must summarize a current window using selective memor…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_d11b48681bbd49975f1ad984"
               ],
               "confidence": 92
             }
@@ -171,32 +166,30 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_26e0e70f31b6a876c71e9b93",
-        "local_111b62f5ccf5d5e8634ff916",
-        "local_664e758cb7b94ba4395491b3",
-        "local_d28df38e77a0cc7922f96728",
-        "local_c8f9e423439bba72d13fef46",
-        "local_cb39f45d0d944e68292a2f60",
-        "local_8a47eaf3d52c795e8ba916ac",
-        "local_ecbc6fb21218eeb4b5c0a881",
-        "local_6a1d70e62dcf0060c667e16e",
-        "local_f005e7f90a8397d52493bc34",
-        "local_73f89c946b8953aec657cefa",
-        "local_e3e0a32b74c35613d5cce30f",
-        "local_3343ad85573d7ef0fb458626",
-        "local_e52bbbb0757f5b3d12eb0b97",
-        "local_53a68cd083e5362548914a86",
-        "local_78277635e544e7ee5098c57e",
-        "local_f1769301f744df5c00327ee2",
-        "local_ffb13a724a0d4885a22efbb5",
-        "local_5d7a9d2dc152739f9b8bf78e",
-        "local_82deadb6beabd196e740db98",
-        "local_f102e0dc3c2ccf4e6320684d",
-        "local_42ca294762008b4acceb0788",
-        "local_0d309a019d2a2d9764642ffc",
-        "local_56045ae49bc0c51865336dbf"
+        "local_4857badad961c006236a0400",
+        "local_8b3607ee1ca5140318729ac3",
+        "local_bad4c4587eb8d2e756c52cbf",
+        "local_65dea33d5d778d2e8a8173c8",
+        "local_58af9d009abf8096baf12f4b",
+        "local_256edf6f58dfbbf7d824e1d9",
+        "local_db32e875c64c9fc7699b604e",
+        "local_bf5903cc9e2f696c621918af",
+        "local_92cd369b2709fe83b07cce43",
+        "local_420ac7fc5b0e1f164e85f8c1",
+        "local_ab0a69be71292f045fad1f45",
+        "local_8b393e31202206798cfadfe9",
+        "local_1593e92c51ed77b0bb119ae6",
+        "local_debe2b91af5eb7611268db73",
+        "local_ada28527612f5b063a967abf",
+        "local_d11b48681bbd49975f1ad984",
+        "local_694c2e23e7dce25468b3a44c",
+        "local_3506cf7a24640f36dadc84a1",
+        "local_209cf05e06d83c4adebef7af",
+        "local_7ad528a197dcaa688d49c4ce",
+        "local_725d9f84b56d13837f4ddf76",
+        "local_437ea8f38292bdc98a405632"
       ],
-      "generatedAt": "2026-08-11T15:18:40.585Z",
+      "generatedAt": "2026-08-11T16:34:05.091Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,190 +200,77 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-11",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」、「NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
-        "跟进：MCP 迎来最大更新：重回上古时代HTTP",
-        "跟进：AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径"
+        "跟进：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+        "跟进：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+        "跟进：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+        "跟进：NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+        "跟进：NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_26e0e70f31b6a876c71e9b93"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0d309a019d2a2d9764642ffc"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_111b62f5ccf5d5e8634ff916"
+                "local_8b3607ee1ca5140318729ac3"
               ],
-              "confidence": 92
+              "confidence": 86
             },
             {
-              "title": "Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
-              "summary": "在 Claude Code 创始人 Boris Cherny 看来，这个头脑可能每隔半年就应该清空一次。",
+              "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ecosystem.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_664e758cb7b94ba4395491b3"
+                "local_bad4c4587eb8d2e756c52cbf"
               ],
               "confidence": 70
             },
             {
-              "title": "AICon 深圳 2026 全日程揭晓｜聚焦 Agent 工程化，构建可靠智能的技术路径",
-              "summary": "来自产业一线的技术专家将围绕 Agent 工程化、大模型基础设施、AI Native 研发、具身智能等前沿方向，分享 AI 时代的技术探索与工程实践，共同探讨 AI 从能力突破走向系统构建的新路径。",
+              "title": "NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Throughout August, NVIDIA is celebrating the partners and open source communities moving local AI forward, along with the models, applications and tools emerging across the ecosystem.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8f9e423439bba72d13fef46"
+                "local_65dea33d5d778d2e8a8173c8"
               ],
-              "confidence": 92
+              "confidence": 70
             },
             {
-              "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The 2026-07-28 Model Context Protocol (MCP) specification replaces legacy stateful constraints with a fully stateless core, enabling cloud-native horizontal scaling, serverless deployments, and standard round-robin load…",
+              "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8a47eaf3d52c795e8ba916ac"
+                "local_58af9d009abf8096baf12f4b"
               ],
-              "confidence": 92
+              "confidence": 82
             },
             {
-              "title": "Model routing with Google Cloud API Gateway",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Google Cloud API Gateway now offers a model routing feature in Public Preview, allowing developers to dynamically route traffic to models like Gemini, Claude, or OpenAI OSS-GPT without hardcoding endpoints or managing o…",
+              "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud.",
               "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ecbc6fb21218eeb4b5c0a881"
+                "local_256edf6f58dfbbf7d824e1d9"
               ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "MCP 迎来最大更新：重回上古时代HTTP",
-              "summary": "MCP 折腾了近两年，终于迎来了官方口中“发布以来最大的一次更新”，只不过方向有点出人意料——重回上古 HTTP 时代。",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_d28df38e77a0cc7922f96728"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cb39f45d0d944e68292a2f60"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_82deadb6beabd196e740db98"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f102e0dc3c2ccf4e6320684d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_42ca294762008b4acceb0788"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：In a review of our cybersecurity evaluation transcripts, we found three incidents in which a Claude model reached the internet from within or while interacting with a third-party evaluation environment, and then gained …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_56045ae49bc0c51865336dbf"
-              ],
-              "confidence": 92
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_26e0e70f31b6a876c71e9b93",
-        "local_111b62f5ccf5d5e8634ff916",
-        "local_664e758cb7b94ba4395491b3",
-        "local_d28df38e77a0cc7922f96728",
-        "local_c8f9e423439bba72d13fef46",
-        "local_cb39f45d0d944e68292a2f60",
-        "local_8a47eaf3d52c795e8ba916ac",
-        "local_ecbc6fb21218eeb4b5c0a881",
-        "local_6a1d70e62dcf0060c667e16e",
-        "local_f005e7f90a8397d52493bc34",
-        "local_82deadb6beabd196e740db98",
-        "local_f102e0dc3c2ccf4e6320684d",
-        "local_42ca294762008b4acceb0788",
-        "local_0d309a019d2a2d9764642ffc",
-        "local_56045ae49bc0c51865336dbf",
-        "local_45b0b2537d37842f1fdcab00",
-        "local_edf4cd59429b54136f404a64",
-        "local_b3788fe9aba4306db9e5501e",
         "local_8b3607ee1ca5140318729ac3",
         "local_bad4c4587eb8d2e756c52cbf",
         "local_65dea33d5d778d2e8a8173c8",
@@ -398,13 +278,13 @@
         "local_256edf6f58dfbbf7d824e1d9",
         "local_db32e875c64c9fc7699b604e"
       ],
-      "generatedAt": "2026-08-11T15:18:40.585Z",
+      "generatedAt": "2026-08-11T16:34:05.091Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-11T15:18:40.585Z",
+  "generatedAt": "2026-08-11T16:34:05.091Z",
   "collectorName": "local-source-collector"
 }
