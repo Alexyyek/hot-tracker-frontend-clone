@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Evolve your marketing with new AI tools」、「Meta returns to open models with Zuckerberg&#039;s plan to out-copy China and sell compute by auction」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Evolve your marketing with new AI tools」、「Activation Probes Surface Code-Security Signals that the Model's Output Misses」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Evolve your marketing with new AI tools",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta returns to open models with Zuckerberg&#039;s plan to out-copy China and sell compute by auction",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Activation Probes Surface Code-Security Signals that the Model's Output Misses",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta returns to open models with Zuckerberg&#039;s plan to out-copy China and sell compute by auction"
       ],
       "watchItems": [
         "跟进：Evolve your marketing with new AI tools",
+        "跟进：Activation Probes Surface Code-Security Signals that the Model's Output Misses",
         "跟进：Meta returns to open models with Zuckerberg&#039;s plan to out-copy China and sell compute by auction",
         "跟进：Run Local Agentic AI Workflows with Meta’s Muse Glimmer on NVIDIA",
-        "跟进：Told to book a gym class, an AI agent hacked the site instead to move its user up the waitlist",
-        "跟进：5 useful things you'll learn in my new post-training textbook (shipping now!)"
+        "跟进：Told to book a gym class, an AI agent hacked the site instead to move its user up the waitlist"
       ],
       "sections": [
         {
@@ -29,6 +29,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_a68f3d4ed252d7d876586143"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Activation Probes Surface Code-Security Signals that the Model's Output Misses",
+              "summary": "AI coding agents now write a growing share of production code, and human security review does not scale at the rate code is generated. The agents in widest use are closed-weight, so a deploying team cannot read their internals. It can instead run an open-weight model as a review…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0f6d640b9585163fe9a635c9"
               ],
               "confidence": 92
             },
@@ -61,16 +71,6 @@
                 "local_c23f0b39f184e1192d824374"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Meta Muse Glimmer brings local AI agents to consumer GPUs",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta is releasing Muse Glimmer under an Apache 2.0 licence for local AI agents that can run on a consumer GPU. The company’s&#160; Superintelligence Labs has released the 30-billion-parameter model’s weights on Hugging …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9df7516b3dea196d45fd4fd0"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_db694c1401afadf27ef91509"
+                "local_b2af63a6bbb44398b6a26f36"
               ],
               "confidence": 70
             },
@@ -104,16 +104,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_6f83e592282ef770b9233ec7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Complementary Matrix-Gated QKAN Fast-Weight Programmers for Quantum Dynamics Forecasting",
-              "summary": "Sequence models must decide what to write into memory and what to retain. In quantum and quantum-inspired sequence learning, nonlinear recurrent updates often require repeated circuit evaluations and sequential backpropagation through time, making long contexts costly. Gated fas…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_428595a5838f07771149ed83"
               ],
               "confidence": 92
             },
@@ -151,41 +141,32 @@
                 "local_557b96d22d9316dd0a4984b5"
               ],
               "confidence": 92
-            },
-            {
-              "title": "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues",
-              "summary": "Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with the scenario, yet current models apply a single norm regardless of context. This limitation originates in their training data: human-human speech corpora captur…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6e9a658834529bcb4c969226"
-              ],
-              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_a68f3d4ed252d7d876586143",
+        "local_0f6d640b9585163fe9a635c9",
         "local_53990c0f1142615ac6661fab",
         "local_9b3cad1886ad72f4ce3beab7",
         "local_c23f0b39f184e1192d824374",
         "local_63ea0dea39938982d89c21d2",
         "local_9df7516b3dea196d45fd4fd0",
-        "local_d70d9f268ce85317b1d8baac",
+        "local_3a8624debea358c974090e3f",
+        "local_d4c0e0b3ebfa17503576a82d",
         "local_2a319d54cb0fecc4ad40668d",
-        "local_db694c1401afadf27ef91509",
+        "local_53a8f87215d77bd34ae31d76",
+        "local_c3aa13e60b7bf4060f3382a5",
+        "local_b2af63a6bbb44398b6a26f36",
         "local_b88fc41cd6498c98d5649be8",
         "local_9377f3f4762ae8eb3ab4de6e",
         "local_6f83e592282ef770b9233ec7",
         "local_557b96d22d9316dd0a4984b5",
-        "local_6e9a658834529bcb4c969226",
-        "local_428595a5838f07771149ed83",
         "local_73ca9ce9d4bcaf50dd625775",
-        "local_f5d6ef09b0aad9a8830d84aa",
-        "local_6a51441795673691dd179f88"
+        "local_f5d6ef09b0aad9a8830d84aa"
       ],
-      "generatedAt": "2026-08-10T23:51:11.029Z",
+      "generatedAt": "2026-08-11T02:33:35.310Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -238,7 +219,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d70d9f268ce85317b1d8baac"
+                "local_d4c0e0b3ebfa17503576a82d"
               ],
               "confidence": 90
             }
@@ -253,7 +234,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_db694c1401afadf27ef91509"
+                "local_b2af63a6bbb44398b6a26f36"
               ],
               "confidence": 70
             }
@@ -263,16 +244,16 @@
       "referencedFeedItemIds": [
         "local_a68f3d4ed252d7d876586143",
         "local_9b3cad1886ad72f4ce3beab7",
-        "local_d70d9f268ce85317b1d8baac",
-        "local_db694c1401afadf27ef91509"
+        "local_d4c0e0b3ebfa17503576a82d",
+        "local_b2af63a6bbb44398b6a26f36"
       ],
-      "generatedAt": "2026-08-10T23:51:11.029Z",
+      "generatedAt": "2026-08-11T02:33:35.310Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-10T23:51:11.029Z",
+  "generatedAt": "2026-08-11T02:33:35.311Z",
   "collectorName": "local-source-collector"
 }

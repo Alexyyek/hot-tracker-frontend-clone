@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-08-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「An End-to-End Agent Auditing Engine」、「Responding to the next frontier of critical cyber capabilities」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Responding to the next frontier of critical cyber capabilities」、「Stanford Evo 2 AI model generates phages against E. coli」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：An End-to-End Agent Auditing Engine",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Responding to the next frontier of critical cyber capabilities",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Stanford Evo 2 AI model generates phages against E. coli"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Stanford Evo 2 AI model generates phages against E. coli",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：8月福利|给你的夏日加点好礼"
       ],
       "watchItems": [
-        "跟进：An End-to-End Agent Auditing Engine",
         "跟进：Responding to the next frontier of critical cyber capabilities",
         "跟进：Stanford Evo 2 AI model generates phages against E. coli",
-        "跟进：DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
-        "跟进：MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents"
+        "跟进：8月福利|给你的夏日加点好礼",
+        "跟进：Data Agent直接建在数据库上靠谱吗?",
+        "跟进：腾讯云Team Memory来了!"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "An End-to-End Agent Auditing Engine",
-              "summary": "With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range of domains. The fast-evolving harness ecosystem has also made rigorous capability evaluation increasingly important. However, effic…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4ebd014d86ae2f0f32211485"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
-              "summary": "Reinforcement learning with Verifiable Reward (RLVR) has emerged as a powerful paradigm for training coding agents, where the execution feedback from compilation and tests provides objective verification. However, unlike agent tasks, coding agents face a unique and finer-grained…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e14c0dbf1425bd6970b63abf"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents",
-              "summary": "Long-horizon agents accumulate growing contexts during interaction, impairing performance and stability. Compact memory mitigates this problem by compressing and rewriting the history retained between model invocations. Learning what to retain typically relies on proximal policy…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5461ea1ad5714b401a7e6dd4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "8月福利|给你的夏日加点好礼",
-              "summary": "评论区点赞top1,百度Geek说请你立秋第一杯奶茶! END 推荐阅读从分散提效到 AI Native 组织的实践面向 Coding Agent 的多仓库 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_499b536439ffb06d6e29ac69"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "HarnessSafe: Evaluating Safety Across Persistent Carriers in Agent Harnesses",
-              "summary": "Modern agent harnesses persist state across tasks and sessions through persistent carriers like memory, skills, tools, and shared artifacts. However, this capability creates delayed safety risks: attacker-influenced content can cross system boundaries and later affect the execut…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_af4bd664ba87bc7de585b647"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -103,20 +48,51 @@
               "confidence": 78
             }
           ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "8月福利|给你的夏日加点好礼",
+              "summary": "评论区点赞top1,百度Geek说请你立秋第一杯奶茶! END 推荐阅读从分散提效到 AI Native 组织的实践面向 Coding Agent 的多仓库 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b133fb787c14fe1dbe40b66b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Data Agent直接建在数据库上靠谱吗?",
+              "summary": "当数据库长出Agent,它就不再是那个被业务调用、只会被动响应查询的\"老黄牛\"了&mdash;&mdash;这是个诱人的技术想象,但也引发了一个灵...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4ccd7cb90afc93203265a310"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "腾讯云Team Memory来了!",
+              "summary": "腾讯云Agent Memory 2.0.0大版本已上线,全新升级Team Memory,将长期记忆能力从个人扩展到团队协作场景.以后,团队与Agent...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_73fbd3f9999ba62c31988204"
+              ],
+              "confidence": 82
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_4ebd014d86ae2f0f32211485",
         "local_a3304696ff70a7b051825956",
         "local_e908ae0a2469e8f87d24a96a",
-        "local_e14c0dbf1425bd6970b63abf",
-        "local_5461ea1ad5714b401a7e6dd4",
-        "local_499b536439ffb06d6e29ac69",
-        "local_af4bd664ba87bc7de585b647",
+        "local_b133fb787c14fe1dbe40b66b",
         "local_4ccd7cb90afc93203265a310",
         "local_73fbd3f9999ba62c31988204"
       ],
-      "generatedAt": "2026-08-10T23:51:11.057Z",
+      "generatedAt": "2026-08-11T02:33:35.335Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -164,7 +140,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_499b536439ffb06d6e29ac69"
+                "local_b133fb787c14fe1dbe40b66b"
               ],
               "confidence": 92
             },
@@ -193,17 +169,17 @@
       ],
       "referencedFeedItemIds": [
         "local_a3304696ff70a7b051825956",
-        "local_499b536439ffb06d6e29ac69",
+        "local_b133fb787c14fe1dbe40b66b",
         "local_4ccd7cb90afc93203265a310",
         "local_73fbd3f9999ba62c31988204"
       ],
-      "generatedAt": "2026-08-10T23:51:11.057Z",
+      "generatedAt": "2026-08-11T02:33:35.335Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-10T23:51:11.058Z",
+  "generatedAt": "2026-08-11T02:33:35.335Z",
   "collectorName": "local-source-collector"
 }
