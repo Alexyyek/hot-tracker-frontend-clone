@@ -143,22 +143,22 @@
               "confidence": 82
             },
             {
+              "title": "On-Policy Self-Distillation without Any Supervision",
+              "summary": "On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods still rely heavily on external supervision, including ground-truth signals, environmental feedback, or guidance from larger models, and…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_c7c29ce003debf567cc9c01b"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness",
               "summary": "Multilingual translation benchmarks are typically sourced in English and translated into other languages, treating language pairs as the unit of evaluation---a design that is prone to contamination over time and overlooks locale and cultural considerations. We therefore advocate…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_2eacb16c25d715deaae65197"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Omega-S: A Functional Resilience Index for LLM Fine-Tuning",
-              "summary": "Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penalty computed from the weight matrix alone: it needs no previous-task data, no Fisher matrix and no stored copy of the old weights. It is three lines in an existi…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_50867f465872b3ea0a9bd148"
               ],
               "confidence": 92
             }
@@ -179,10 +179,10 @@
         "local_ab0a69be71292f045fad1f45",
         "local_8b393e31202206798cfadfe9",
         "local_3a20e7bff11bb6c0114633d4",
+        "local_c7c29ce003debf567cc9c01b",
         "local_2eacb16c25d715deaae65197",
         "local_f66ef8e95e019988187a4f0f",
         "local_3264e3fb1010a9a86537ca31",
-        "local_50867f465872b3ea0a9bd148",
         "local_694c2e23e7dce25468b3a44c",
         "local_3506cf7a24640f36dadc84a1",
         "local_209cf05e06d83c4adebef7af",
@@ -190,7 +190,7 @@
         "local_725d9f84b56d13837f4ddf76",
         "local_437ea8f38292bdc98a405632"
       ],
-      "generatedAt": "2026-08-11T21:05:01.047Z",
+      "generatedAt": "2026-08-11T22:05:35.239Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -280,13 +280,13 @@
         "local_db32e875c64c9fc7699b604e",
         "local_3a20e7bff11bb6c0114633d4"
       ],
-      "generatedAt": "2026-08-11T21:05:01.047Z",
+      "generatedAt": "2026-08-11T22:05:35.239Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-11T21:05:01.048Z",
+  "generatedAt": "2026-08-11T22:05:35.240Z",
   "collectorName": "local-source-collector"
 }
