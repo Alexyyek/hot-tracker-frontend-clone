@@ -5,122 +5,6 @@
       "topicId": "ai",
       "reportDate": "2026-08-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「As AI Increases Demands on Memory, Storage Steps Up」、「AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：As AI Increases Demands on Memory, Storage Steps Up",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent成本暴降几十倍!LlamaFactory作者开源新工具:0.2元自动造Agent"
-      ],
-      "watchItems": [
-        "跟进：As AI Increases Demands on Memory, Storage Steps Up",
-        "跟进：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-        "跟进：Agent成本暴降几十倍!LlamaFactory作者开源新工具:0.2元自动造Agent",
-        "跟进：别让 Agent 每次都重新开始",
-        "跟进：腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座"
-      ],
-      "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "As AI Increases Demands on Memory, Storage Steps Up",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：At FMS, NVIDIA shows how accelerated computing enables AI applications to access storage directly — fast enough to act like memory and secure by design.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_8cbced4e96e5757ca5097cf0"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_db1407bdc16059346d97cb53"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Li…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e6ae713bf32195f5fc6b01b6"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agent成本暴降几十倍!LlamaFactory作者开源新工具:0.2元自动造Agent",
-              "summary": "新智元报道 过去,LlamaFactory让每个人都能微调大模型;现在,PenguinHarness希望让每个人都能构建自进化Agent....",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8e14af6d6e99c55bfed11eda"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "别让 Agent 每次都重新开始",
-              "summary": "过去一年,AI Agent 正在快速进入真实研发场景.它能读代码、调工具、跑测试,也能推进一个完整需求.但越靠近生产,问题越尖锐...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_601de26aff098756341fc494"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座",
-              "summary": "AI Native 数据实践.本次专场给出的主线十分清晰:Agent 时代的数据底座不能再把数据处理、模型训练、在线推理和 Agent 运行拆成...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f0746f399fe5c02eccd398fe"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "ICML 2026|NaviAgent:面向 Oxygen 智能体的可扩展工具编排",
-              "summary": "Agent需要具备全局规划能力,而不仅仅是局部决策能力.传统逐步调用缺乏全局视角目前主流的工具调用框架大多采用ReAct模式,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6f1485071ea6c8a4f0d3d6af"
-              ],
-              "confidence": 92
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_8cbced4e96e5757ca5097cf0",
-        "local_e6ae713bf32195f5fc6b01b6",
-        "local_8e14af6d6e99c55bfed11eda",
-        "local_601de26aff098756341fc494",
-        "local_f0746f399fe5c02eccd398fe",
-        "local_6f1485071ea6c8a4f0d3d6af",
-        "local_44a41491f740dea310d4f8f7",
-        "local_db1407bdc16059346d97cb53"
-      ],
-      "generatedAt": "2026-08-12T06:49:14.354Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-08-04",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-08-04",
-      "title": "大厂 AI 日报",
       "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「As AI Increases Demands on Memory, Storage Steps Up」、「AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：As AI Increases Demands on Memory, Storage Steps Up",
@@ -131,8 +15,8 @@
         "跟进：As AI Increases Demands on Memory, Storage Steps Up",
         "跟进：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
         "跟进：Agent成本暴降几十倍!LlamaFactory作者开源新工具:0.2元自动造Agent",
-        "跟进：别让 Agent 每次都重新开始",
-        "跟进：腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座"
+        "跟进：腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座",
+        "跟进：ICML 2026|NaviAgent:面向 Oxygen 智能体的可扩展工具编排"
       ],
       "sections": [
         {
@@ -184,22 +68,12 @@
               "confidence": 92
             },
             {
-              "title": "别让 Agent 每次都重新开始",
-              "summary": "过去一年,AI Agent 正在快速进入真实研发场景.它能读代码、调工具、跑测试,也能推进一个完整需求.但越靠近生产,问题越尖锐...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_601de26aff098756341fc494"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座",
               "summary": "AI Native 数据实践.本次专场给出的主线十分清晰:Agent 时代的数据底座不能再把数据处理、模型训练、在线推理和 Agent 运行拆成...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f0746f399fe5c02eccd398fe"
+                "local_347245f36f77cabb07ba130b"
               ],
               "confidence": 92
             },
@@ -209,7 +83,122 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6f1485071ea6c8a4f0d3d6af"
+                "local_180cfb07c1a0a3b8684f84c4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Ori Harness: Use OpenRouter with Claude Code, Codex, OpenCode, and Hermes — OpenRouter Blog",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Install the ori CLI, log in with OpenRouter, and run Claude Code, Codex, OpenCode, or Hermes with an optimized configuration out of the box. No ad-hoc scripts, no environment variable spelunking.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_44a41491f740dea310d4f8f7"
+              ],
+              "confidence": 70
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_8cbced4e96e5757ca5097cf0",
+        "local_e6ae713bf32195f5fc6b01b6",
+        "local_8e14af6d6e99c55bfed11eda",
+        "local_347245f36f77cabb07ba130b",
+        "local_180cfb07c1a0a3b8684f84c4",
+        "local_44a41491f740dea310d4f8f7",
+        "local_db1407bdc16059346d97cb53"
+      ],
+      "generatedAt": "2026-08-12T08:47:06.309Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-08-04",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-08-04",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「As AI Increases Demands on Memory, Storage Steps Up」、「AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：As AI Increases Demands on Memory, Storage Steps Up",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent成本暴降几十倍!LlamaFactory作者开源新工具:0.2元自动造Agent"
+      ],
+      "watchItems": [
+        "跟进：As AI Increases Demands on Memory, Storage Steps Up",
+        "跟进：AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+        "跟进：Agent成本暴降几十倍!LlamaFactory作者开源新工具:0.2元自动造Agent",
+        "跟进：腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座",
+        "跟进：ICML 2026|NaviAgent:面向 Oxygen 智能体的可扩展工具编排"
+      ],
+      "sections": [
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "As AI Increases Demands on Memory, Storage Steps Up",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：At FMS, NVIDIA shows how accelerated computing enables AI applications to access storage directly — fast enough to act like memory and secure by design.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_8cbced4e96e5757ca5097cf0"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "GEM Training: How Meta Doubled the Efficiency of Its LLM-Scale Ads Foundation Model",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Meta&#8217;s Generative Ads Recommendation Model (GEM), the foundation model behind ads recommendations across Instagram and Facebook, now trains at LLM scale on several thousand of the latest-generation GPUs. This post…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_db1407bdc16059346d97cb53"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Li…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e6ae713bf32195f5fc6b01b6"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agent成本暴降几十倍!LlamaFactory作者开源新工具:0.2元自动造Agent",
+              "summary": "新智元报道 过去,LlamaFactory让每个人都能微调大模型;现在,PenguinHarness希望让每个人都能构建自进化Agent....",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8e14af6d6e99c55bfed11eda"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "腾讯云智能数据湖计算 AI DLC 发布会回顾 Spark + Ray 一体化,面向 Agent 重构数据底座",
+              "summary": "AI Native 数据实践.本次专场给出的主线十分清晰:Agent 时代的数据底座不能再把数据处理、模型训练、在线推理和 Agent 运行拆成...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_347245f36f77cabb07ba130b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "ICML 2026|NaviAgent:面向 Oxygen 智能体的可扩展工具编排",
+              "summary": "Agent需要具备全局规划能力,而不仅仅是局部决策能力.传统逐步调用缺乏全局视角目前主流的工具调用框架大多采用ReAct模式,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_180cfb07c1a0a3b8684f84c4"
               ],
               "confidence": 92
             }
@@ -220,18 +209,17 @@
         "local_8cbced4e96e5757ca5097cf0",
         "local_e6ae713bf32195f5fc6b01b6",
         "local_8e14af6d6e99c55bfed11eda",
-        "local_601de26aff098756341fc494",
-        "local_f0746f399fe5c02eccd398fe",
-        "local_6f1485071ea6c8a4f0d3d6af",
+        "local_347245f36f77cabb07ba130b",
+        "local_180cfb07c1a0a3b8684f84c4",
         "local_db1407bdc16059346d97cb53"
       ],
-      "generatedAt": "2026-08-12T06:49:14.355Z",
+      "generatedAt": "2026-08-12T08:47:06.309Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-12T06:49:14.355Z",
+  "generatedAt": "2026-08-12T08:47:06.309Z",
   "collectorName": "local-source-collector"
 }
