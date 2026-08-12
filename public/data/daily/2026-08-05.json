@@ -5,15 +5,16 @@
       "topicId": "ai",
       "reportDate": "2026-08-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「实战从零开始构建一个Coding Agent:Violin |得物技术」、「从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「实战从零开始构建一个Coding Agent:Violin |得物技术」、「从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：实战从零开始构建一个Coding Agent:Violin |得物技术",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 形态一天一个样,Infra 到底该为谁而建?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性"
       ],
       "watchItems": [
         "跟进：实战从零开始构建一个Coding Agent:Violin |得物技术",
         "跟进：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
+        "跟进：SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性",
         "跟进：Agent 形态一天一个样,Infra 到底该为谁而建?",
         "跟进：Third-party cyber evaluations involving OpenAI models"
       ],
@@ -27,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9197d2a046b7f7b6082fed87"
+                "local_f045e5db2fa0263ca0119479"
               ],
               "confidence": 92
             },
@@ -37,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_68cf7ec5bda94596176791e1"
+                "local_1fe4db0c104dc1a57a195c56"
               ],
               "confidence": 92
             },
@@ -57,6 +58,16 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性",
+              "summary": "该方法有效缓解了多模态大模型作为评价器时的幻觉问题,并为图... #SIGGRAPH #多参考图像编辑 #论文 #高德 #高德技术END",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b5533b203ce026e8ba9fa1ca"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "Third-party cyber evaluations involving OpenAI models",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
               "insightLabel": "关注",
@@ -70,12 +81,13 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9197d2a046b7f7b6082fed87",
-        "local_68cf7ec5bda94596176791e1",
+        "local_f045e5db2fa0263ca0119479",
+        "local_1fe4db0c104dc1a57a195c56",
+        "local_b5533b203ce026e8ba9fa1ca",
         "local_4fe35861291523a2eff33ab0",
         "local_2b00904bab2252b4c579dd8e"
       ],
-      "generatedAt": "2026-08-12T02:48:06.796Z",
+      "generatedAt": "2026-08-12T05:07:51.044Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -86,15 +98,16 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-05",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「实战从零开始构建一个Coding Agent:Violin |得物技术」、「从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「实战从零开始构建一个Coding Agent:Violin |得物技术」、「从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：实战从零开始构建一个Coding Agent:Violin |得物技术",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 形态一天一个样,Infra 到底该为谁而建?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性"
       ],
       "watchItems": [
         "跟进：实战从零开始构建一个Coding Agent:Violin |得物技术",
         "跟进：从 Agent Flow 到 AI Native:为什么通用 Agent 是\"饮鸩止渴\"",
+        "跟进：SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性",
         "跟进：Agent 形态一天一个样,Infra 到底该为谁而建?",
         "跟进：Third-party cyber evaluations involving OpenAI models"
       ],
@@ -108,7 +121,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9197d2a046b7f7b6082fed87"
+                "local_f045e5db2fa0263ca0119479"
               ],
               "confidence": 92
             },
@@ -118,7 +131,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_68cf7ec5bda94596176791e1"
+                "local_1fe4db0c104dc1a57a195c56"
               ],
               "confidence": 92
             },
@@ -138,6 +151,16 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "SIGGRAPH Asia 2026 | 高德EVR:用\"评估-验证\"奖励机制提升多参考图像编辑一致性",
+              "summary": "该方法有效缓解了多模态大模型作为评价器时的幻觉问题,并为图... #SIGGRAPH #多参考图像编辑 #论文 #高德 #高德技术END",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b5533b203ce026e8ba9fa1ca"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "Third-party cyber evaluations involving OpenAI models",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
               "insightLabel": "关注",
@@ -151,18 +174,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9197d2a046b7f7b6082fed87",
-        "local_68cf7ec5bda94596176791e1",
+        "local_f045e5db2fa0263ca0119479",
+        "local_1fe4db0c104dc1a57a195c56",
+        "local_b5533b203ce026e8ba9fa1ca",
         "local_4fe35861291523a2eff33ab0",
         "local_2b00904bab2252b4c579dd8e"
       ],
-      "generatedAt": "2026-08-12T02:48:06.796Z",
+      "generatedAt": "2026-08-12T05:07:51.044Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-12T02:48:06.796Z",
+  "generatedAt": "2026-08-12T05:07:51.044Z",
   "collectorName": "local-source-collector"
 }
