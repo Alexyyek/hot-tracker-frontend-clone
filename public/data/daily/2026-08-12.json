@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Quoting Florian Herrengt」、「Google tests AMIE for clinical video consultations」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Quoting Florian Herrengt」、「Google tests AMIE for clinical video consultations」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Florian Herrengt",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google tests AMIE for clinical video consultations",
@@ -61,16 +61,6 @@
                 "local_f9850711582f720e1d021f60"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name (stolen-thoughts.com) for a neat paper: Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed acr…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e35e9040a70075702a1304dc"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -89,11 +79,11 @@
             },
             {
               "title": "得物知识问答:复合检索 Agent 的系统设计实践",
-              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
+              "summary": "RAG 的流程是单向的:用户提问 &rarr; 向量检索 &rarr; 拼接上下文 &rarr; 生... 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ab8e66bc94aef506b6da71d8"
+                "local_dca8041983aefd09c6a66699"
               ],
               "confidence": 92
             },
@@ -103,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bce5e2ab0f91bcc7ff27df66"
+                "local_b6b3e8345ae05590ae7a4312"
               ],
               "confidence": 92
             },
@@ -161,25 +151,24 @@
         "local_238af0100c86f214fcef9554",
         "local_e2e9d431128c6acb937ec3cb",
         "local_9989ae9ac4e4e1167a6c8640",
-        "local_ab8e66bc94aef506b6da71d8",
+        "local_dca8041983aefd09c6a66699",
         "local_826eb665037a7f329a89b57a",
-        "local_bce5e2ab0f91bcc7ff27df66",
+        "local_b6b3e8345ae05590ae7a4312",
         "local_d31812ab2c2efcae909b099e",
         "local_bc96a833cb98173c5e2db526",
-        "local_5986f42c8ab4b0aa92968682",
-        "local_1130c0305f2ef97d220e2cd9",
+        "local_2fa3f3866be814a11d28e6d2",
+        "local_469afb88bd696035524a4066",
         "local_7439527a11d7150c6e28baa2",
-        "local_93673a765a2f453c704291f7",
-        "local_a3c7955b487dbad9829c0f5a",
+        "local_d10fffb3dc0d385190b62641",
+        "local_7e7cd44dbd1971f55f2525f5",
         "local_27f6e3aa3b938bda032f9342",
         "local_4f797fc1f79946af066c079e",
         "local_681a02f5106fa73f14dd32e0",
         "local_f9850711582f720e1d021f60",
-        "local_e35e9040a70075702a1304dc",
         "local_629d4858ff89b91fe41881b8",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-13T02:52:14.441Z",
+      "generatedAt": "2026-08-13T05:09:38.948Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -224,11 +213,11 @@
           "items": [
             {
               "title": "得物知识问答:复合检索 Agent 的系统设计实践",
-              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
+              "summary": "RAG 的流程是单向的:用户提问 &rarr; 向量检索 &rarr; 拼接上下文 &rarr; 生... 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ab8e66bc94aef506b6da71d8"
+                "local_dca8041983aefd09c6a66699"
               ],
               "confidence": 92
             },
@@ -238,7 +227,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bce5e2ab0f91bcc7ff27df66"
+                "local_b6b3e8345ae05590ae7a4312"
               ],
               "confidence": 92
             },
@@ -248,7 +237,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5986f42c8ab4b0aa92968682"
+                "local_2fa3f3866be814a11d28e6d2"
               ],
               "confidence": 92
             },
@@ -258,7 +247,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_1130c0305f2ef97d220e2cd9"
+                "local_469afb88bd696035524a4066"
               ],
               "confidence": 90
             },
@@ -277,23 +266,23 @@
       ],
       "referencedFeedItemIds": [
         "local_e2e9d431128c6acb937ec3cb",
-        "local_ab8e66bc94aef506b6da71d8",
-        "local_bce5e2ab0f91bcc7ff27df66",
-        "local_5986f42c8ab4b0aa92968682",
-        "local_1130c0305f2ef97d220e2cd9",
+        "local_dca8041983aefd09c6a66699",
+        "local_b6b3e8345ae05590ae7a4312",
+        "local_2fa3f3866be814a11d28e6d2",
+        "local_469afb88bd696035524a4066",
         "local_7439527a11d7150c6e28baa2",
-        "local_93673a765a2f453c704291f7",
-        "local_a3c7955b487dbad9829c0f5a",
+        "local_d10fffb3dc0d385190b62641",
+        "local_7e7cd44dbd1971f55f2525f5",
         "local_27f6e3aa3b938bda032f9342",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-13T02:52:14.441Z",
+      "generatedAt": "2026-08-13T05:09:38.948Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-13T02:52:14.441Z",
+  "generatedAt": "2026-08-13T05:09:38.949Z",
   "collectorName": "local-source-collector"
 }
