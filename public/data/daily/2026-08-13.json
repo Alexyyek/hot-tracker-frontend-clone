@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「The builder’s guide to GPT‑5.6」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The builder’s guide to GPT‑5.6",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic brings Claude Cowork to its Chrome extension, adding skills and plugins to the browser"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The builder’s guide to GPT‑5.6"
       ],
       "watchItems": [
         "跟进：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
+        "跟进：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
         "跟进：The builder’s guide to GPT‑5.6",
         "跟进：Anthropic brings Claude Cowork to its Chrome extension, adding skills and plugins to the browser",
-        "跟进：Okta targets AI agent token costs with MCP scoping",
-        "跟进：不蒸馏,大模型公司的代价是什么?"
+        "跟进：Okta targets AI agent token costs with MCP scoping"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f8b1d41b27201a614f0fe456"
+                "local_7a2dfab42f025053639b4014"
               ],
               "confidence": 92
             },
@@ -78,12 +78,22 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
+              "summary": "作者认为,现在常见的向量数据库、RAG、Scratchpad和上下文管... 未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_49b5cfc304115dac9e89d08d"
+              ],
+              "confidence": 82
+            },
+            {
               "title": "不蒸馏,大模型公司的代价是什么?",
               "summary": "《智能涌现》跟多位大模型研究员交流了相关问题.不蒸馏,要付出多少时间\"数据不够、算力不够,也缺少相关的管线.\"有研究员...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_402f94842294e71f3d6cc5b5"
+                "local_6f47b6f4c7d0d0d45fec6bae"
               ],
               "confidence": 90
             },
@@ -93,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fb48c2b7218d234db9a70239"
+                "local_39b8871e2daa60687d6e32ef"
               ],
               "confidence": 90
             },
@@ -114,16 +124,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_6e08fca24a6beaec5733b932"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't bee…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a11afaf24c2a265c130719cc"
               ],
               "confidence": 92
             }
@@ -156,12 +156,13 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f8b1d41b27201a614f0fe456",
+        "local_7a2dfab42f025053639b4014",
+        "local_49b5cfc304115dac9e89d08d",
         "local_336473e40d5c5f043ea7c16f",
         "local_4bc9709d065f3299a834bc64",
         "local_72c788d7118342f8e3bc39c2",
-        "local_402f94842294e71f3d6cc5b5",
-        "local_fb48c2b7218d234db9a70239",
+        "local_6f47b6f4c7d0d0d45fec6bae",
+        "local_39b8871e2daa60687d6e32ef",
         "local_d139daef9f976063b79be985",
         "local_d31e55d9d4382ea52f6881b1",
         "local_499758c95c69d19a6302304a",
@@ -171,7 +172,7 @@
         "local_08f9bb0c072fd010bb70defa",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-13T21:07:32.912Z",
+      "generatedAt": "2026-08-13T22:07:49.827Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -182,18 +183,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-13",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「The builder’s guide to GPT‑5.6」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The builder’s guide to GPT‑5.6",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：不蒸馏,大模型公司的代价是什么?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The builder’s guide to GPT‑5.6"
       ],
       "watchItems": [
         "跟进：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
+        "跟进：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
         "跟进：The builder’s guide to GPT‑5.6",
         "跟进：不蒸馏,大模型公司的代价是什么?",
-        "跟进：RAG堆得越多效果越好?上下文工程才是让AI＂懂企业＂的正确打开方式",
-        "跟进：How to Choose Full-Stack Observability for NVIDIA AI Factories"
+        "跟进：RAG堆得越多效果越好?上下文工程才是让AI＂懂企业＂的正确打开方式"
       ],
       "sections": [
         {
@@ -205,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f8b1d41b27201a614f0fe456"
+                "local_7a2dfab42f025053639b4014"
               ],
               "confidence": 92
             },
@@ -225,12 +226,22 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
+              "summary": "作者认为,现在常见的向量数据库、RAG、Scratchpad和上下文管... 未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_49b5cfc304115dac9e89d08d"
+              ],
+              "confidence": 82
+            },
+            {
               "title": "不蒸馏,大模型公司的代价是什么?",
               "summary": "《智能涌现》跟多位大模型研究员交流了相关问题.不蒸馏,要付出多少时间\"数据不够、算力不够,也缺少相关的管线.\"有研究员...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_402f94842294e71f3d6cc5b5"
+                "local_6f47b6f4c7d0d0d45fec6bae"
               ],
               "confidence": 90
             },
@@ -240,7 +251,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fb48c2b7218d234db9a70239"
+                "local_39b8871e2daa60687d6e32ef"
               ],
               "confidence": 90
             },
@@ -258,19 +269,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f8b1d41b27201a614f0fe456",
+        "local_7a2dfab42f025053639b4014",
+        "local_49b5cfc304115dac9e89d08d",
         "local_336473e40d5c5f043ea7c16f",
-        "local_402f94842294e71f3d6cc5b5",
-        "local_fb48c2b7218d234db9a70239",
+        "local_6f47b6f4c7d0d0d45fec6bae",
+        "local_39b8871e2daa60687d6e32ef",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-13T21:07:32.912Z",
+      "generatedAt": "2026-08-13T22:07:49.827Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-13T21:07:32.912Z",
+  "generatedAt": "2026-08-13T22:07:49.827Z",
   "collectorName": "local-source-collector"
 }
