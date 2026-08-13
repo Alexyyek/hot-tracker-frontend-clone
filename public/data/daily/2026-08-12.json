@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Quoting Florian Herrengt」、「Google tests AMIE for clinical video consultations」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Quoting Florian Herrengt」、「Google tests AMIE for clinical video consultations」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Florian Herrengt",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google tests AMIE for clinical video consultations",
@@ -16,7 +16,7 @@
         "跟进：Google tests AMIE for clinical video consultations",
         "跟进：SCOPE-Router: Cost-Aware Open-Set VLM Routing for Execution-Oriented Tasks",
         "跟进：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-        "跟进：Nvidia&#039;s Nemotron 4 aims for one trillion parameters, a scale Chinese labs already surpassed"
+        "跟进：得物知识问答:复合检索 Agent 的系统设计实践"
       ],
       "sections": [
         {
@@ -69,11 +69,11 @@
             },
             {
               "title": "得物知识问答:复合检索 Agent 的系统设计实践",
-              "summary": "RAG 的流程是单向的:用户提问 &rarr; 向量检索 &rarr; 拼接上下文 &rarr; 生... 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应...",
+              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_90eeff49370e06169cf56d7f"
+                "local_abda75a8418247f431ec1f20"
               ],
               "confidence": 92
             },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_01b099a806968f38e1f42986"
+                "local_9c8a2dad5e0dc04cec5889cc"
               ],
               "confidence": 92
             },
@@ -121,16 +121,6 @@
                 "local_e2e9d431128c6acb937ec3cb"
               ],
               "confidence": 74
-            },
-            {
-              "title": "Nvidia&#039;s Nemotron 4 aims for one trillion parameters, a scale Chinese labs already surpassed",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Nvidia is working on Nemotron 4, a new open-weight model designed to rival the world’s best freely available models. The article Nvidia&#039;s Nemotron 4 aims for one trillion parameters, a scale Chinese labs already su…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9989ae9ac4e4e1167a6c8640"
-              ],
-              "confidence": 74
             }
           ]
         }
@@ -140,16 +130,15 @@
         "local_04aeac4e2eb60e6b422a1ec1",
         "local_238af0100c86f214fcef9554",
         "local_e2e9d431128c6acb937ec3cb",
-        "local_9989ae9ac4e4e1167a6c8640",
-        "local_90eeff49370e06169cf56d7f",
-        "local_01b099a806968f38e1f42986",
+        "local_abda75a8418247f431ec1f20",
+        "local_9c8a2dad5e0dc04cec5889cc",
         "local_d31812ab2c2efcae909b099e",
         "local_bc96a833cb98173c5e2db526",
-        "local_38e16339989510b1165475d4",
-        "local_9fe5f7345bebb2349d616f6b",
+        "local_3c64e05db526a45c4cfcf526",
+        "local_1661d6efe756fe7a106e45ed",
         "local_7439527a11d7150c6e28baa2",
         "local_222cb07ba7dd0d2cb4d16263",
-        "local_9d16baf6c27b5c6c915d613e",
+        "local_fed5461626c3bcd5c25aeadc",
         "local_27f6e3aa3b938bda032f9342",
         "local_4f797fc1f79946af066c079e",
         "local_681a02f5106fa73f14dd32e0",
@@ -157,7 +146,7 @@
         "local_629d4858ff89b91fe41881b8",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-13T15:21:56.327Z",
+      "generatedAt": "2026-08-13T16:39:36.387Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -202,11 +191,11 @@
           "items": [
             {
               "title": "得物知识问答:复合检索 Agent 的系统设计实践",
-              "summary": "RAG 的流程是单向的:用户提问 &rarr; 向量检索 &rarr; 拼接上下文 &rarr; 生... 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应...",
+              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_90eeff49370e06169cf56d7f"
+                "local_abda75a8418247f431ec1f20"
               ],
               "confidence": 92
             },
@@ -216,7 +205,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_01b099a806968f38e1f42986"
+                "local_9c8a2dad5e0dc04cec5889cc"
               ],
               "confidence": 92
             },
@@ -226,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_38e16339989510b1165475d4"
+                "local_3c64e05db526a45c4cfcf526"
               ],
               "confidence": 92
             },
@@ -236,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_9fe5f7345bebb2349d616f6b"
+                "local_1661d6efe756fe7a106e45ed"
               ],
               "confidence": 90
             },
@@ -255,23 +244,23 @@
       ],
       "referencedFeedItemIds": [
         "local_e2e9d431128c6acb937ec3cb",
-        "local_90eeff49370e06169cf56d7f",
-        "local_01b099a806968f38e1f42986",
-        "local_38e16339989510b1165475d4",
-        "local_9fe5f7345bebb2349d616f6b",
+        "local_abda75a8418247f431ec1f20",
+        "local_9c8a2dad5e0dc04cec5889cc",
+        "local_3c64e05db526a45c4cfcf526",
+        "local_1661d6efe756fe7a106e45ed",
         "local_7439527a11d7150c6e28baa2",
         "local_222cb07ba7dd0d2cb4d16263",
-        "local_9d16baf6c27b5c6c915d613e",
+        "local_fed5461626c3bcd5c25aeadc",
         "local_27f6e3aa3b938bda032f9342",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-13T15:21:56.327Z",
+      "generatedAt": "2026-08-13T16:39:36.387Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-13T15:21:56.327Z",
+  "generatedAt": "2026-08-13T16:39:36.387Z",
   "collectorName": "local-source-collector"
 }
