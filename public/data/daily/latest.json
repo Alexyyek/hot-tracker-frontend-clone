@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MCP 迎来最大更新：重回上古时代HTTP"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
         "跟进：MCP 迎来最大更新：重回上古时代HTTP",
-        "跟进：当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？"
+        "跟进：当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_de6c0a9031dc08ca1b818c98"
+                "local_2f1867775fa39967416836f8"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a11ea648240077f1b3b1f350"
+                "local_3c23a61f8b3d7f27e7b116c9"
               ],
               "confidence": 70
             }
@@ -48,22 +48,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7a71802d23aa7d8a3960d6ef"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
               "summary": "在 Claude Code 创始人 Boris Cherny 看来，这个头脑可能每隔半年就应该清空一次。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_54c8ab0e36674d108720b48b"
+                "local_de4f5f4b0530cbb31c053983"
               ],
               "confidence": 70
             },
@@ -73,9 +63,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_500ccf92c9e8f3c8322968b7"
+                "local_7c897b54517ac5df9f117a99"
               ],
               "confidence": 82
+            },
+            {
+              "title": "Agent Plugins package your skills, tools, and more",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f005e7f90a8397d52493bc34"
+              ],
+              "confidence": 92
             },
             {
               "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_dbe78ef6d3abdaf5dd7fdd52"
+                "local_1ee457d0e1a3c9df445e5c14"
               ],
               "confidence": 74
             }
@@ -123,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_bc5e27193b045029683ff6b4"
+                "local_7d9b71e5bc867d2df0e194b9"
               ],
               "confidence": 78
             },
@@ -133,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_373995960059c637c4980900"
+                "local_badd46e8050027cce811e72c"
               ],
               "confidence": 92
             },
@@ -143,7 +143,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a2c83b15a0b35f5af0d2a2b0"
+                "local_b3d223f7c3535412d8e6b844"
               ],
               "confidence": 92
             },
@@ -153,7 +153,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0616bbf13025bcefc03787ad"
+                "local_1cccf767cab925c5c48e5a36"
               ],
               "confidence": 78
             },
@@ -163,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_780221d165ddd23817baa804"
+                "local_fbdba886ae333d6ae43d2ebc"
               ],
               "confidence": 92
             }
@@ -171,32 +171,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_de6c0a9031dc08ca1b818c98",
-        "local_7a71802d23aa7d8a3960d6ef",
-        "local_54c8ab0e36674d108720b48b",
-        "local_dbe78ef6d3abdaf5dd7fdd52",
-        "local_500ccf92c9e8f3c8322968b7",
-        "local_bc5e27193b045029683ff6b4",
+        "local_2f1867775fa39967416836f8",
+        "local_de4f5f4b0530cbb31c053983",
+        "local_1ee457d0e1a3c9df445e5c14",
+        "local_7c897b54517ac5df9f117a99",
+        "local_7d9b71e5bc867d2df0e194b9",
+        "local_f005e7f90a8397d52493bc34",
         "local_8a47eaf3d52c795e8ba916ac",
         "local_ecbc6fb21218eeb4b5c0a881",
         "local_6a1d70e62dcf0060c667e16e",
-        "local_f005e7f90a8397d52493bc34",
-        "local_31b286275dca6b53aa485211",
-        "local_c731158e67741b15a38adeab",
-        "local_fc9a08b79003cfa37a4a3cf5",
-        "local_acb1fb20f5275f3cae18e412",
-        "local_373995960059c637c4980900",
-        "local_a2c83b15a0b35f5af0d2a2b0",
-        "local_330a50108fcdb57f9ebf2018",
-        "local_cfadec520866ad98d7381c73",
-        "local_2653bcc8016a9d57c33a9ec9",
-        "local_0616bbf13025bcefc03787ad",
-        "local_780221d165ddd23817baa804",
-        "local_8653400a4eceb65c6008452f",
-        "local_a11ea648240077f1b3b1f350",
-        "local_b89a479c20bd529088a0c7f8"
+        "local_4915dcdba2f4ac49014727d9",
+        "local_e57971bdca7565b37f4110a4",
+        "local_e2bc4625b7108fd01dee233e",
+        "local_219241816070d04b9cb14d8f",
+        "local_badd46e8050027cce811e72c",
+        "local_b3d223f7c3535412d8e6b844",
+        "local_fc6d4077c61d0bca4423e559",
+        "local_55ecae175b7a28f5fb1dedf5",
+        "local_30cdac18d131e05e0589d217",
+        "local_1cccf767cab925c5c48e5a36",
+        "local_fbdba886ae333d6ae43d2ebc",
+        "local_406535a79fed4297710e7fcb",
+        "local_3c23a61f8b3d7f27e7b116c9",
+        "local_ce12ac0221b52ba62f09127f",
+        "local_2989a732fa2e9aa382a719b8"
       ],
-      "generatedAt": "2026-08-12T23:07:26.071Z",
+      "generatedAt": "2026-08-13T00:03:47.417Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,18 +207,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-13",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MCP 迎来最大更新：重回上古时代HTTP"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
         "跟进：MCP 迎来最大更新：重回上古时代HTTP",
-        "跟进：当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？"
+        "跟进：当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -230,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_de6c0a9031dc08ca1b818c98"
+                "local_2f1867775fa39967416836f8"
               ],
               "confidence": 78
             },
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a11ea648240077f1b3b1f350"
+                "local_3c23a61f8b3d7f27e7b116c9"
               ],
               "confidence": 70
             }
@@ -250,22 +250,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7a71802d23aa7d8a3960d6ef"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Claude Code之父：每半年清空一次claude.md、skills和hooks，模型自己会想办法",
               "summary": "在 Claude Code 创始人 Boris Cherny 看来，这个头脑可能每隔半年就应该清空一次。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_54c8ab0e36674d108720b48b"
+                "local_de4f5f4b0530cbb31c053983"
               ],
               "confidence": 70
             },
@@ -275,9 +265,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_500ccf92c9e8f3c8322968b7"
+                "local_7c897b54517ac5df9f117a99"
               ],
               "confidence": 82
+            },
+            {
+              "title": "Agent Plugins package your skills, tools, and more",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f005e7f90a8397d52493bc34"
+              ],
+              "confidence": 92
             },
             {
               "title": "Scaling AI Agent Infrastructure with the MCP Stateless updates",
@@ -310,7 +310,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_dbe78ef6d3abdaf5dd7fdd52"
+                "local_1ee457d0e1a3c9df445e5c14"
               ],
               "confidence": 74
             }
@@ -325,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_bc5e27193b045029683ff6b4"
+                "local_7d9b71e5bc867d2df0e194b9"
               ],
               "confidence": 78
             },
@@ -335,7 +335,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0616bbf13025bcefc03787ad"
+                "local_1cccf767cab925c5c48e5a36"
               ],
               "confidence": 78
             },
@@ -345,7 +345,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_780221d165ddd23817baa804"
+                "local_fbdba886ae333d6ae43d2ebc"
               ],
               "confidence": 92
             },
@@ -355,7 +355,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8653400a4eceb65c6008452f"
+                "local_406535a79fed4297710e7fcb"
               ],
               "confidence": 78
             },
@@ -365,7 +365,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b89a479c20bd529088a0c7f8"
+                "local_ce12ac0221b52ba62f09127f"
               ],
               "confidence": 92
             }
@@ -373,33 +373,33 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_de6c0a9031dc08ca1b818c98",
-        "local_7a71802d23aa7d8a3960d6ef",
-        "local_54c8ab0e36674d108720b48b",
-        "local_dbe78ef6d3abdaf5dd7fdd52",
-        "local_500ccf92c9e8f3c8322968b7",
-        "local_bc5e27193b045029683ff6b4",
+        "local_2f1867775fa39967416836f8",
+        "local_de4f5f4b0530cbb31c053983",
+        "local_1ee457d0e1a3c9df445e5c14",
+        "local_7c897b54517ac5df9f117a99",
+        "local_7d9b71e5bc867d2df0e194b9",
+        "local_f005e7f90a8397d52493bc34",
         "local_8a47eaf3d52c795e8ba916ac",
         "local_ecbc6fb21218eeb4b5c0a881",
         "local_6a1d70e62dcf0060c667e16e",
-        "local_f005e7f90a8397d52493bc34",
-        "local_0616bbf13025bcefc03787ad",
-        "local_780221d165ddd23817baa804",
-        "local_8653400a4eceb65c6008452f",
-        "local_a11ea648240077f1b3b1f350",
-        "local_b89a479c20bd529088a0c7f8",
-        "local_46bd1c542d5aac7103b62d85",
-        "local_d63df935d6888072d2299e63",
-        "local_58dcb6963ef16c7d2ea394a7",
+        "local_1cccf767cab925c5c48e5a36",
+        "local_fbdba886ae333d6ae43d2ebc",
+        "local_406535a79fed4297710e7fcb",
+        "local_3c23a61f8b3d7f27e7b116c9",
+        "local_ce12ac0221b52ba62f09127f",
+        "local_2989a732fa2e9aa382a719b8",
+        "local_5190aed218526fe5bc997cf7",
+        "local_61419c7d65b5a76d14af6c5c",
+        "local_7a71802d23aa7d8a3960d6ef",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-12T23:07:26.072Z",
+      "generatedAt": "2026-08-13T00:03:47.417Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-12T23:07:26.072Z",
+  "generatedAt": "2026-08-13T00:03:47.418Z",
   "collectorName": "local-source-collector"
 }
