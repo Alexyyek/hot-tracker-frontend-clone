@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-08-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Understanding the Architecture of Coding Agents: An Exploratory Study Using a Research Prototype」、「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents」、「NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Understanding the Architecture of Coding Agents: An Exploratory Study Using a Research Prototype",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents"
       ],
       "watchItems": [
-        "跟进：Understanding the Architecture of Coding Agents: An Exploratory Study Using a Research Prototype",
         "跟进：NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
         "跟进：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
         "跟进：NVIDIA and Local AI Community Fuel Open Source Models and Intelligent Agents",
+        "跟进：NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
         "跟进：NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Understanding the Architecture of Coding Agents: An Exploratory Study Using a Research Prototype",
-              "summary": "Coding agents have rapidly emerged as the primary interface for AI-assisted software development. However, despite their growing adoption, relatively little is known about their internal architecture, and no systematic architectural description comparable to those available for …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0ed83ac96f3426c2d2ec131c"
-              ],
-              "confidence": 92
-            },
             {
               "title": "NVIDIA Nemotron 3.5 Lightning Delivers Fast, Accurate Specialized Task Execution for Long-Running Agents",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Long-running AI agents spend most of their time on high-volume execution: tool calls, result validation, and subagent delegation. Using a frontier reasoning...",
@@ -71,6 +61,16 @@
                 "local_58af9d009abf8096baf12f4b"
               ],
               "confidence": 82
+            },
+            {
+              "title": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The new lightweight open model and routing library delivers greater control over AI, data and workflows across edge devices, PCs, workstations, data centers and the cloud.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_256edf6f58dfbbf7d824e1d9"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -101,7 +101,6 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0ed83ac96f3426c2d2ec131c",
         "local_8b3607ee1ca5140318729ac3",
         "local_bad4c4587eb8d2e756c52cbf",
         "local_65dea33d5d778d2e8a8173c8",
@@ -109,15 +108,12 @@
         "local_256edf6f58dfbbf7d824e1d9",
         "local_db32e875c64c9fc7699b604e",
         "local_420ac7fc5b0e1f164e85f8c1",
-        "local_2add678790b11af6f33f97e7",
         "local_8b393e31202206798cfadfe9",
-        "local_f7116a55d0295f846e13f2ec",
         "local_b0bb6fa78822306c97e0ae34",
-        "local_940e94e07a05e4845598ef29",
         "local_3a20e7bff11bb6c0114633d4",
         "local_3506cf7a24640f36dadc84a1"
       ],
-      "generatedAt": "2026-08-13T00:03:47.450Z",
+      "generatedAt": "2026-08-13T02:52:14.449Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,13 +204,13 @@
         "local_b0bb6fa78822306c97e0ae34",
         "local_3a20e7bff11bb6c0114633d4"
       ],
-      "generatedAt": "2026-08-13T00:03:47.451Z",
+      "generatedAt": "2026-08-13T02:52:14.449Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-13T00:03:47.451Z",
+  "generatedAt": "2026-08-13T02:52:14.449Z",
   "collectorName": "local-source-collector"
 }

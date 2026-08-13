@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「Quoting Florian Herrengt」、「Google tests AMIE for clinical video consultations」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Quoting Florian Herrengt」、「Google tests AMIE for clinical video consultations」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Florian Herrengt",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google tests AMIE for clinical video consultations",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SCOPE-Router: Cost-Aware Open-Set VLM Routing for Execution-Oriented Tasks"
       ],
       "watchItems": [
         "跟进：Quoting Florian Herrengt",
         "跟进：Google tests AMIE for clinical video consultations",
+        "跟进：SCOPE-Router: Cost-Aware Open-Set VLM Routing for Execution-Oriented Tasks",
         "跟进：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-        "跟进：Nvidia&#039;s Nemotron 4 aims for one trillion parameters, a scale Chinese labs already surpassed",
-        "跟进：得物知识问答:复合检索 Agent 的系统设计实践"
+        "跟进：Nvidia&#039;s Nemotron 4 aims for one trillion parameters, a scale Chinese labs already surpassed"
       ],
       "sections": [
         {
@@ -53,16 +53,6 @@
               "confidence": 78
             },
             {
-              "title": "Power law graph attention: exact generalization of scaled dot-product attention, empirical collapse at inference",
-              "summary": "The Large Language Model from Power Law Decoder Representations (PLDR-LLM) and its attention, Power Law Graph Attention (PLGA), replace the fixed bilinear form of scaled dot-product attention (SDPA) with a learned, input-generated bilinear operator G_{LM}, built from a positive …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_28dd55fb7bb9f0283b946fb0"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "There are no lossless transformations of natural-language text",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really g…",
               "insightLabel": "关注",
@@ -71,6 +61,71 @@
                 "local_f9850711582f720e1d021f60"
               ],
               "confidence": 78
+            },
+            {
+              "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Stealing Reasoning Traces from Proprietary LLM APIs A vanity domain name (stolen-thoughts.com) for a neat paper: Anthropic, OpenAI, and Google return encrypted chain-of-thought blocks to clients that can be replayed acr…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e35e9040a70075702a1304dc"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "SCOPE-Router: Cost-Aware Open-Set VLM Routing for Execution-Oriented Tasks",
+              "summary": "Model routing aims to select the most suitable model from a candidate pool for each query, balancing quality and cost. Existing VLM routing research is limited to traditional VQA evaluation, lacks systematic calibration optimization for open-set scenarios, and employs training o…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_238af0100c86f214fcef9554"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "得物知识问答:复合检索 Agent 的系统设计实践",
+              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ab8e66bc94aef506b6da71d8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "高德汽车工程AI Native演进实录|用Harness构建可控AI交付",
+              "summary": "开发高德汽车工程AI Native演进实录|基于Qoder的业务知识工程建设实践#高德 #高德技术 #AI Native #Harness #汽车工程",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bce5e2ab0f91bcc7ff27df66"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Diagnosis Before Recovery: Turning Agent Failures into Selective Self-Correction",
+              "summary": "Self-correction is particularly useful when a failure constrains the next repair. Coding agents benefit from this property because compilers, tests, and execution traces turn many failures into typed recovery signals, but broad language-agent tasks often expose only a coarse tas…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d31812ab2c2efcae909b099e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Harness-IF: Evaluating Instruction Following Across Instruction Surfaces in Coding Agents",
+              "summary": "When a coding agent obeys a rule, it may simply have been going to do that anyway. Existing instruction-following benchmarks cannot tell the difference: they concentrate rules in the user turn, while coding-agent benchmarks emphasize final task success. We introduce Harness-IF, …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bc96a833cb98173c5e2db526"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -96,71 +151,6 @@
                 "local_9989ae9ac4e4e1167a6c8640"
               ],
               "confidence": 74
-            },
-            {
-              "title": "datasette-upload-dbs 0.5a0",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_7c3869ba4696d8c53a788481"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "得物知识问答:复合检索 Agent 的系统设计实践",
-              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_528d481f0ac3e59e3dfb58be"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "高德汽车工程AI Native演进实录|用Harness构建可控AI交付",
-              "summary": "开发高德汽车工程AI Native演进实录|基于Qoder的业务知识工程建设实践#高德 #高德技术 #AI Native #Harness #汽车工程",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_956fde2c1e238523b08c6d94"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "微软正式发布 Agent Framework Harness 和 Hosted Agents",
-              "summary": "//www.infoq.com/news/2026/08/agent-framework-harness-ga/声明:本文为 InfoQ 翻译,未经许可禁止转载.点击底部阅读原文访问 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b071081bacca7b3bbac09ed9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从 AI Coding 到 AI Native SDLC:企业级人机协同研发范式的演进与落地|AICon 深圳",
-              "summary": "AI Native SDLC.陈洁,网龙网络资深技术总监,AI 与 Web3 技术专家,长期致力于人工智能应用创新、企业数字化转型及技术组织建...",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_87891c999d5ffa589a779132"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "From assistance to execution: How enterprises put AI to work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7439527a11d7150c6e28baa2"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -168,29 +158,28 @@
       "referencedFeedItemIds": [
         "local_e5aa651b704ca2d4212fbf07",
         "local_04aeac4e2eb60e6b422a1ec1",
+        "local_238af0100c86f214fcef9554",
         "local_e2e9d431128c6acb937ec3cb",
         "local_9989ae9ac4e4e1167a6c8640",
-        "local_528d481f0ac3e59e3dfb58be",
+        "local_ab8e66bc94aef506b6da71d8",
         "local_826eb665037a7f329a89b57a",
-        "local_956fde2c1e238523b08c6d94",
-        "local_b071081bacca7b3bbac09ed9",
-        "local_87891c999d5ffa589a779132",
+        "local_bce5e2ab0f91bcc7ff27df66",
+        "local_d31812ab2c2efcae909b099e",
+        "local_bc96a833cb98173c5e2db526",
+        "local_5986f42c8ab4b0aa92968682",
+        "local_1130c0305f2ef97d220e2cd9",
         "local_7439527a11d7150c6e28baa2",
-        "local_adfea25ee5683b04b8232df3",
-        "local_11c20acb05d73b007a4108a2",
+        "local_93673a765a2f453c704291f7",
+        "local_a3c7955b487dbad9829c0f5a",
         "local_27f6e3aa3b938bda032f9342",
-        "local_b1c904d1052172ce54048398",
-        "local_7270a5c68eeea82e2f3c8123",
-        "local_28dd55fb7bb9f0283b946fb0",
-        "local_a6344cb0bd6ca8c61e5f853f",
         "local_4f797fc1f79946af066c079e",
         "local_681a02f5106fa73f14dd32e0",
         "local_f9850711582f720e1d021f60",
         "local_e35e9040a70075702a1304dc",
-        "local_7c3869ba4696d8c53a788481",
+        "local_629d4858ff89b91fe41881b8",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-13T00:03:47.438Z",
+      "generatedAt": "2026-08-13T02:52:14.441Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -239,7 +228,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_528d481f0ac3e59e3dfb58be"
+                "local_ab8e66bc94aef506b6da71d8"
               ],
               "confidence": 92
             },
@@ -249,7 +238,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_956fde2c1e238523b08c6d94"
+                "local_bce5e2ab0f91bcc7ff27df66"
               ],
               "confidence": 92
             },
@@ -259,7 +248,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b071081bacca7b3bbac09ed9"
+                "local_5986f42c8ab4b0aa92968682"
               ],
               "confidence": 92
             },
@@ -269,7 +258,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_87891c999d5ffa589a779132"
+                "local_1130c0305f2ef97d220e2cd9"
               ],
               "confidence": 90
             },
@@ -288,23 +277,23 @@
       ],
       "referencedFeedItemIds": [
         "local_e2e9d431128c6acb937ec3cb",
-        "local_528d481f0ac3e59e3dfb58be",
-        "local_956fde2c1e238523b08c6d94",
-        "local_b071081bacca7b3bbac09ed9",
-        "local_87891c999d5ffa589a779132",
+        "local_ab8e66bc94aef506b6da71d8",
+        "local_bce5e2ab0f91bcc7ff27df66",
+        "local_5986f42c8ab4b0aa92968682",
+        "local_1130c0305f2ef97d220e2cd9",
         "local_7439527a11d7150c6e28baa2",
-        "local_adfea25ee5683b04b8232df3",
-        "local_11c20acb05d73b007a4108a2",
+        "local_93673a765a2f453c704291f7",
+        "local_a3c7955b487dbad9829c0f5a",
         "local_27f6e3aa3b938bda032f9342",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-13T00:03:47.439Z",
+      "generatedAt": "2026-08-13T02:52:14.441Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-13T00:03:47.439Z",
+  "generatedAt": "2026-08-13T02:52:14.441Z",
   "collectorName": "local-source-collector"
 }
