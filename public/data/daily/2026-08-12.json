@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-08-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Quoting Florian Herrengt」、「Google tests AMIE for clinical video consultations」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Google tests AMIE for clinical video consultations」、「How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Florian Herrengt",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google tests AMIE for clinical video consultations",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物知识问答:复合检索 Agent 的系统设计实践"
       ],
       "watchItems": [
-        "跟进：Quoting Florian Herrengt",
         "跟进：Google tests AMIE for clinical video consultations",
         "跟进：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
         "跟进：得物知识问答:复合检索 Agent 的系统设计实践",
-        "跟进：高德汽车工程AI Native演进实录|用Harness构建可控AI交付"
+        "跟进：高德汽车工程AI Native演进实录|用Harness构建可控AI交付",
+        "跟进：从 AI Coding 到 AI Native SDLC:企业级人机协同研发范式的演进与落地|AICon 深圳"
       ],
       "sections": [
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Quoting Florian Herrengt",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e5aa651b704ca2d4212fbf07"
-              ],
-              "confidence": 86
-            },
             {
               "title": "Google tests AMIE for clinical video consultations",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google’s research medical AI system, AMIE (Video), conducted synchronous video consultations with professional patient actors and received clinical evaluator ratings on par with primary care physicians across several co…",
@@ -68,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8a4d4a08949f5b23b2caeb3c"
+                "local_3caabe860fb29606d9508672"
               ],
               "confidence": 92
             },
@@ -78,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c157040f8dab28cfcee2226f"
+                "local_ca4da1c9408a1b2871dae57b"
               ],
               "confidence": 92
             },
@@ -88,7 +78,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_a3106262e59936620cf06ba9"
+                "local_e2f383293666e2c7429c3443"
               ],
               "confidence": 90
             },
@@ -108,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8c8d36007e1a6ab65b59e72d"
+                "local_db9708240fd53dfa430298a5"
               ],
               "confidence": 92
             }
@@ -116,21 +106,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e5aa651b704ca2d4212fbf07",
         "local_04aeac4e2eb60e6b422a1ec1",
         "local_e2e9d431128c6acb937ec3cb",
-        "local_8a4d4a08949f5b23b2caeb3c",
-        "local_c157040f8dab28cfcee2226f",
-        "local_a3106262e59936620cf06ba9",
+        "local_3caabe860fb29606d9508672",
+        "local_ca4da1c9408a1b2871dae57b",
+        "local_e2f383293666e2c7429c3443",
         "local_7439527a11d7150c6e28baa2",
-        "local_8c8d36007e1a6ab65b59e72d",
-        "local_15229cd323f2b9d48578fd66",
+        "local_db9708240fd53dfa430298a5",
+        "local_90303b7ea4f59151095846e9",
         "local_27f6e3aa3b938bda032f9342",
         "local_4f797fc1f79946af066c079e",
         "local_681a02f5106fa73f14dd32e0",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-14T21:45:22.898Z",
+      "generatedAt": "2026-08-14T22:07:54.903Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -179,7 +168,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8a4d4a08949f5b23b2caeb3c"
+                "local_3caabe860fb29606d9508672"
               ],
               "confidence": 92
             },
@@ -189,7 +178,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c157040f8dab28cfcee2226f"
+                "local_ca4da1c9408a1b2871dae57b"
               ],
               "confidence": 92
             },
@@ -199,7 +188,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_a3106262e59936620cf06ba9"
+                "local_e2f383293666e2c7429c3443"
               ],
               "confidence": 90
             },
@@ -219,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8c8d36007e1a6ab65b59e72d"
+                "local_db9708240fd53dfa430298a5"
               ],
               "confidence": 92
             }
@@ -228,22 +217,22 @@
       ],
       "referencedFeedItemIds": [
         "local_e2e9d431128c6acb937ec3cb",
-        "local_8a4d4a08949f5b23b2caeb3c",
-        "local_c157040f8dab28cfcee2226f",
-        "local_a3106262e59936620cf06ba9",
+        "local_3caabe860fb29606d9508672",
+        "local_ca4da1c9408a1b2871dae57b",
+        "local_e2f383293666e2c7429c3443",
         "local_7439527a11d7150c6e28baa2",
-        "local_8c8d36007e1a6ab65b59e72d",
-        "local_15229cd323f2b9d48578fd66",
+        "local_db9708240fd53dfa430298a5",
+        "local_90303b7ea4f59151095846e9",
         "local_27f6e3aa3b938bda032f9342",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-14T21:45:22.898Z",
+      "generatedAt": "2026-08-14T22:07:54.903Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-14T21:45:22.898Z",
+  "generatedAt": "2026-08-14T22:07:54.904Z",
   "collectorName": "local-source-collector"
 }
