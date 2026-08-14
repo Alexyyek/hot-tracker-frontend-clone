@@ -5,30 +5,40 @@
       "topicId": "ai",
       "reportDate": "2026-08-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Training AI Scientists to Replicate Research」、「Agent Harness开始自动修复:系统级Debug最高提升18.4点」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Training AI Scientists to Replicate Research",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The builder’s guide to GPT‑5.6"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力"
       ],
       "watchItems": [
+        "跟进：Training AI Scientists to Replicate Research",
         "跟进：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
         "跟进：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
         "跟进：The builder’s guide to GPT‑5.6",
-        "跟进：Anthropic brings Claude Cowork to its Chrome extension, adding skills and plugins to the browser",
-        "跟进：Okta targets AI agent token costs with MCP scoping"
+        "跟进：Anthropic brings Claude Cowork to its Chrome extension, adding skills and plugins to the browser"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Training AI Scientists to Replicate Research",
+              "summary": "The replicability of papers is a cornerstone of scientific knowledge, ensuring the reliability of existing results and providing a base for further experiments. The act of replication typically illuminates details that were previously underspecified, and thus requires similar hy…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_81db3a01ba7a10e0af08066b"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Agent Harness开始自动修复:系统级Debug最高提升18.4点",
               "summary": "很多 LLM agent 的失败,看起来像是模型没有想明白:工具调错了、上下文漏了、最终答案提前交了.但在复杂任务里,问题往往不只...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2a79660d304e285cccc03bb5"
+                "local_543e7562a3d65430d416a51f"
               ],
               "confidence": 92
             },
@@ -61,16 +71,6 @@
                 "local_72c788d7118342f8e3bc39c2"
               ],
               "confidence": 92
-            },
-            {
-              "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
-              "summary": "Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages and loaded at inference time. As skill libraries grow, a central challenge is to expose the smallest sufficient executable context under a limited context budg…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_499758c95c69d19a6302304a"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2cfbcfb6e10d82a7ad4d7f30"
+                "local_2dcae96aaae40b0707ed51d4"
               ],
               "confidence": 90
             },
@@ -103,45 +103,35 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_3740cb4dbf29aa99810f2c38"
+                "local_47b1912d650ec867aaa11ee5"
               ],
               "confidence": 90
             },
             {
-              "title": "ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization",
-              "summary": "ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent in standard round-to-nearest (RTN) schemes when quantizing weights near the centers of quantization intervals. Starting from a pretrained LLM, ReRound trains a…",
+              "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't bee…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_9b8645b2cc159e069c52bcd9"
+                "local_a11afaf24c2a265c130719cc"
               ],
               "confidence": 92
             },
             {
-              "title": "Learning How the World Evolves: Extrapolative Video World Models via Latent Dynamics Reasoning",
-              "summary": "The world evolves following its dynamics, i.e., its laws of motion. However, leading video diffusion models largely fit the pixels without modeling how the pixels transit over time. Thus, they render visually plausible frames but may not accurately obey the laws. To capture the …",
+              "title": "How to Choose Full-Stack Observability for NVIDIA AI Factories",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：AI infrastructure spans multiple layers, from compute and networking to storage, orchestration, and applications. When performance degrades, identifying the...",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d31e55d9d4382ea52f6881b1"
+                "local_8cba88778c2391aee968e099"
               ],
-              "confidence": 92
+              "confidence": 74
             }
           ]
         },
         {
           "title": "行业与公司",
           "items": [
-            {
-              "title": "Gaze Target Estimation Anywhere with Concepts",
-              "summary": "Estimating human gaze targets from images in-the-wild is an important and formidable task. Existing approaches primarily employ brittle, multi-stage pipelines that require explicit inputs, like head bounding boxes and human pose, in order to identify the subject of gaze analysis…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d139daef9f976063b79be985"
-              ],
-              "confidence": 92
-            },
             {
               "title": "alchemy-utils 0.1a0",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 So…",
@@ -156,23 +146,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2a79660d304e285cccc03bb5",
+        "local_81db3a01ba7a10e0af08066b",
+        "local_543e7562a3d65430d416a51f",
         "local_49b5cfc304115dac9e89d08d",
         "local_336473e40d5c5f043ea7c16f",
         "local_4bc9709d065f3299a834bc64",
         "local_72c788d7118342f8e3bc39c2",
-        "local_2cfbcfb6e10d82a7ad4d7f30",
-        "local_3740cb4dbf29aa99810f2c38",
-        "local_9b8645b2cc159e069c52bcd9",
-        "local_d139daef9f976063b79be985",
-        "local_d31e55d9d4382ea52f6881b1",
-        "local_499758c95c69d19a6302304a",
+        "local_2dcae96aaae40b0707ed51d4",
+        "local_47b1912d650ec867aaa11ee5",
         "local_a11afaf24c2a265c130719cc",
         "local_3c6cf683d8ba22004d8f90d3",
         "local_08f9bb0c072fd010bb70defa",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-14T00:02:20.765Z",
+      "generatedAt": "2026-08-14T02:49:35.907Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -206,7 +193,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2a79660d304e285cccc03bb5"
+                "local_543e7562a3d65430d416a51f"
               ],
               "confidence": 92
             },
@@ -241,7 +228,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2cfbcfb6e10d82a7ad4d7f30"
+                "local_2dcae96aaae40b0707ed51d4"
               ],
               "confidence": 90
             },
@@ -251,7 +238,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_3740cb4dbf29aa99810f2c38"
+                "local_47b1912d650ec867aaa11ee5"
               ],
               "confidence": 90
             },
@@ -269,20 +256,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2a79660d304e285cccc03bb5",
+        "local_543e7562a3d65430d416a51f",
         "local_49b5cfc304115dac9e89d08d",
         "local_336473e40d5c5f043ea7c16f",
-        "local_2cfbcfb6e10d82a7ad4d7f30",
-        "local_3740cb4dbf29aa99810f2c38",
+        "local_2dcae96aaae40b0707ed51d4",
+        "local_47b1912d650ec867aaa11ee5",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-14T00:02:20.765Z",
+      "generatedAt": "2026-08-14T02:49:35.907Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-14T00:02:20.765Z",
+  "generatedAt": "2026-08-14T02:49:35.907Z",
   "collectorName": "local-source-collector"
 }
