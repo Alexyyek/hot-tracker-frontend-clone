@@ -43,6 +43,16 @@
               "confidence": 90
             },
             {
+              "title": "Thought-Level Beam Search for Reasoning",
+              "summary": "Test-time compute scaling is a primary driver of performance in large reasoning models (LRMs), but extreme inefficiency bounds current approaches, shifting the critical question from how much compute to spend, to where to allocate it. We formalize test-time reasoning as a constr…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_3764fed12adbf9cc61965b21"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation",
               "summary": "Interactive autoregressive video generation demands both low-latency rollouts and precise online control. Few-step distillation accelerates generation by reducing denoising steps, while online control imposes a causal constraint: frames and blocks should depend on history and co…",
               "insightLabel": "关注",
@@ -83,27 +93,17 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_48bf2ad42b40373f58a1d7ad"
+                "local_0980d18b49794e5861dfe407"
               ],
               "confidence": 86
             },
             {
-              "title": "Mitigating Gender Bias in English to Romanian Machine Translation",
-              "summary": "Machine translation (MT) systems often fail to correctly translate gender, especially when converting from a gender-neutral language like English to a gendered target language such as Romanian. This bias results in translations that default to masculine forms or reinforce gender…",
+              "title": "Maglev: Sliding Recurrent Memory",
+              "summary": "We introduce , a recurrent Transformer architecture with fixed-size memory that generalizes sliding-window attention while remaining parallelizable during training. consists of two coupled models: a prefiller Q, which leverages full attentionIn practice, we use interleaved full …",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_672903fc8c31c75cb950aa16"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing",
-              "summary": "Large language models (LLMs) achieve remarkable performance across natural language tasks, yet they are trained on static corpora and their knowledge quickly becomes outdated in a fast-changing world. This motivates knowledge editing (KE), which updates specific knowledge in an …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d665b7c871d0fcd8314577ea"
+                "local_b84264691e931296ca1e02d6"
               ],
               "confidence": 92
             },
@@ -114,6 +114,16 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_25000f39bdf54ea6358f3ee5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "llm-gemini 0.33",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash, gemini-3.5-flash-lite and two embedding …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_482df1d131ab21b9a4f717f0"
               ],
               "confidence": 92
             }
@@ -128,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_efab47c8c96a13ee19b26205"
+                "local_5364c947564549d5b1a9b3bb"
               ],
               "confidence": 86
             },
@@ -138,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3916b078dbb561b51b984b31"
+                "local_c46d426df494b693d1dbdb3e"
               ],
               "confidence": 92
             },
@@ -148,7 +158,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fe44029986821d48e1e0a3b2"
+                "local_ebb646d635f0d3748c0ff6b2"
               ],
               "confidence": 92
             },
@@ -168,7 +178,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_673907cb0db94694edb48c59"
+                "local_f7de0857bdcb9ccba0047c36"
               ],
               "confidence": 92
             }
@@ -183,7 +193,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_61af56a6ff5d4f1d201d5d6a"
+                "local_67d825c3482598d844d60aad"
               ],
               "confidence": 86
             }
@@ -194,25 +204,25 @@
         "local_2e79eec5cdc4ec2a08a18d97",
         "local_8feb76b82fc68e0020b39d31",
         "local_c38fb1d2359529838f7e6424",
-        "local_efab47c8c96a13ee19b26205",
-        "local_3916b078dbb561b51b984b31",
-        "local_fe44029986821d48e1e0a3b2",
-        "local_61af56a6ff5d4f1d201d5d6a",
-        "local_48bf2ad42b40373f58a1d7ad",
+        "local_5364c947564549d5b1a9b3bb",
+        "local_c46d426df494b693d1dbdb3e",
+        "local_ebb646d635f0d3748c0ff6b2",
+        "local_67d825c3482598d844d60aad",
+        "local_0980d18b49794e5861dfe407",
         "local_d4afe45cd9437702b4a1d668",
+        "local_b84264691e931296ca1e02d6",
+        "local_3764fed12adbf9cc61965b21",
         "local_3e5adee3c65df116a43778ab",
         "local_e56721f86e47818365d426f4",
-        "local_672903fc8c31c75cb950aa16",
-        "local_d665b7c871d0fcd8314577ea",
         "local_25000f39bdf54ea6358f3ee5",
-        "local_673907cb0db94694edb48c59",
+        "local_f7de0857bdcb9ccba0047c36",
         "local_482df1d131ab21b9a4f717f0",
         "local_b2c8084324845674fa350d51",
         "local_4b9142d153c26f916f4d17f1",
         "local_bbd7b1107d7c3feb5ecf873f",
         "local_0d42daa4d878836f41490c5d"
       ],
-      "generatedAt": "2026-08-14T23:07:06.898Z",
+      "generatedAt": "2026-08-14T23:41:01.436Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -246,7 +256,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_efab47c8c96a13ee19b26205"
+                "local_5364c947564549d5b1a9b3bb"
               ],
               "confidence": 86
             },
@@ -256,7 +266,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3916b078dbb561b51b984b31"
+                "local_c46d426df494b693d1dbdb3e"
               ],
               "confidence": 92
             },
@@ -266,7 +276,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fe44029986821d48e1e0a3b2"
+                "local_ebb646d635f0d3748c0ff6b2"
               ],
               "confidence": 92
             },
@@ -291,7 +301,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_61af56a6ff5d4f1d201d5d6a"
+                "local_67d825c3482598d844d60aad"
               ],
               "confidence": 86
             }
@@ -306,7 +316,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_48bf2ad42b40373f58a1d7ad"
+                "local_0980d18b49794e5861dfe407"
               ],
               "confidence": 86
             }
@@ -314,20 +324,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_efab47c8c96a13ee19b26205",
-        "local_3916b078dbb561b51b984b31",
-        "local_fe44029986821d48e1e0a3b2",
-        "local_61af56a6ff5d4f1d201d5d6a",
-        "local_48bf2ad42b40373f58a1d7ad",
+        "local_5364c947564549d5b1a9b3bb",
+        "local_c46d426df494b693d1dbdb3e",
+        "local_ebb646d635f0d3748c0ff6b2",
+        "local_67d825c3482598d844d60aad",
+        "local_0980d18b49794e5861dfe407",
         "local_d4afe45cd9437702b4a1d668"
       ],
-      "generatedAt": "2026-08-14T23:07:06.898Z",
+      "generatedAt": "2026-08-14T23:41:01.436Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-14T23:07:06.898Z",
+  "generatedAt": "2026-08-14T23:41:01.437Z",
   "collectorName": "local-source-collector"
 }
