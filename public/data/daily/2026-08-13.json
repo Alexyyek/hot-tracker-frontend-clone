@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Training AI Scientists to Replicate Research」、「Agent Harness开始自动修复:系统级Debug最高提升18.4点」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Training AI Scientists to Replicate Research」、「Agent Harness开始自动修复:系统级Debug最高提升18.4点」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Training AI Scientists to Replicate Research",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
@@ -15,8 +15,8 @@
         "跟进：Training AI Scientists to Replicate Research",
         "跟进：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
         "跟进：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
-        "跟进：The builder’s guide to GPT‑5.6",
-        "跟进：Anthropic brings Claude Cowork to its Chrome extension, adding skills and plugins to the browser"
+        "跟进：Agent 越改越乱之后,我用评测和轨迹把它拉回来了",
+        "跟进：The builder’s guide to GPT‑5.6"
       ],
       "sections": [
         {
@@ -38,7 +38,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb9105a4b111f5b0c1d4ce6c"
+                "local_a646db17910c41c684d49285"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agent 越改越乱之后,我用评测和轨迹把它拉回来了",
+              "summary": "这是2026年的第 51 篇文章( 本文阅读时间:约 25 分钟 )01解决什么问题现在很多人都在用 AI agent 干活:写一份 skill(也就是 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5354b1bbc88b19ac17dd190d"
               ],
               "confidence": 92
             },
@@ -59,16 +69,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_4bc9709d065f3299a834bc64"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Okta targets AI agent token costs with MCP scoping",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Okta says identity-scoped Model Context Protocol (MCP) tool lists can reduce AI agent token costs. Each model call made by an AI agent can include schemas, names, descriptions and parameters for every tool exposed by a …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_72c788d7118342f8e3bc39c2"
               ],
               "confidence": 92
             }
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4cc118ce8864c83b8df30174"
+                "local_8a1372ebed74cba6ab37856f"
               ],
               "confidence": 90
             },
@@ -103,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d922eec9529dd3f7a6113b8d"
+                "local_fc905c3458cd9ba9d7077307"
               ],
               "confidence": 90
             },
@@ -147,19 +147,20 @@
       ],
       "referencedFeedItemIds": [
         "local_81db3a01ba7a10e0af08066b",
-        "local_cb9105a4b111f5b0c1d4ce6c",
+        "local_a646db17910c41c684d49285",
         "local_49b5cfc304115dac9e89d08d",
+        "local_5354b1bbc88b19ac17dd190d",
         "local_336473e40d5c5f043ea7c16f",
         "local_4bc9709d065f3299a834bc64",
         "local_72c788d7118342f8e3bc39c2",
-        "local_4cc118ce8864c83b8df30174",
-        "local_d922eec9529dd3f7a6113b8d",
+        "local_8a1372ebed74cba6ab37856f",
+        "local_fc905c3458cd9ba9d7077307",
         "local_a11afaf24c2a265c130719cc",
         "local_3c6cf683d8ba22004d8f90d3",
         "local_08f9bb0c072fd010bb70defa",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-14T06:47:14.227Z",
+      "generatedAt": "2026-08-14T08:44:51.333Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -170,18 +171,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-13",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The builder’s guide to GPT‑5.6"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越改越乱之后,我用评测和轨迹把它拉回来了"
       ],
       "watchItems": [
         "跟进：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
         "跟进：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
+        "跟进：Agent 越改越乱之后,我用评测和轨迹把它拉回来了",
         "跟进：The builder’s guide to GPT‑5.6",
-        "跟进：不蒸馏,大模型公司的代价是什么?",
-        "跟进：RAG堆得越多效果越好?上下文工程才是让AI＂懂企业＂的正确打开方式"
+        "跟进：不蒸馏,大模型公司的代价是什么?"
       ],
       "sections": [
         {
@@ -193,7 +194,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb9105a4b111f5b0c1d4ce6c"
+                "local_a646db17910c41c684d49285"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agent 越改越乱之后,我用评测和轨迹把它拉回来了",
+              "summary": "这是2026年的第 51 篇文章( 本文阅读时间:约 25 分钟 )01解决什么问题现在很多人都在用 AI agent 干活:写一份 skill(也就是 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5354b1bbc88b19ac17dd190d"
               ],
               "confidence": 92
             },
@@ -228,7 +239,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4cc118ce8864c83b8df30174"
+                "local_8a1372ebed74cba6ab37856f"
               ],
               "confidence": 90
             },
@@ -238,7 +249,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d922eec9529dd3f7a6113b8d"
+                "local_fc905c3458cd9ba9d7077307"
               ],
               "confidence": 90
             },
@@ -256,20 +267,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_cb9105a4b111f5b0c1d4ce6c",
+        "local_a646db17910c41c684d49285",
         "local_49b5cfc304115dac9e89d08d",
+        "local_5354b1bbc88b19ac17dd190d",
         "local_336473e40d5c5f043ea7c16f",
-        "local_4cc118ce8864c83b8df30174",
-        "local_d922eec9529dd3f7a6113b8d",
+        "local_8a1372ebed74cba6ab37856f",
+        "local_fc905c3458cd9ba9d7077307",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-14T06:47:14.227Z",
+      "generatedAt": "2026-08-14T08:44:51.333Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-14T06:47:14.227Z",
+  "generatedAt": "2026-08-14T08:44:51.333Z",
   "collectorName": "local-source-collector"
 }
