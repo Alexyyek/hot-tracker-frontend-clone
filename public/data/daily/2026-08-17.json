@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7c41aec2a36c0e2304911c04"
+                "local_cdf52bd071713c49683bc68a"
               ],
               "confidence": 92
             },
@@ -63,12 +63,12 @@
               "confidence": 92
             },
             {
-              "title": "Who Speaks Matters: Authority-Aware Multi-View RAG over Italian Parliamentary Proceedings",
-              "summary": "Parliamentary proceedings are a primary record of democratic deliberation, yet their volume and fragmentation make multi-perspective access difficult for citizens, journalists, and researchers. Applying Retrieval-Augmented Generation (RAG) to parliamentary transcripts introduces…",
+              "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Friday's big release was Qwen 3.8 27B, an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a rea…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8afaedc16b483185c9e7e851"
+                "local_aff84d1380085f2df117c246"
               ],
               "confidence": 92
             }
@@ -108,6 +108,16 @@
               "confidence": 92
             },
             {
+              "title": "Nanbeige4.2-3B on Apple Silicon: Fixing Deployment Bugs and Decreasing Looped Transformer Memory Overhead",
+              "summary": "Nanbeige4.2-3B is a 3B-parameter agentic model built around a Looped Transformer (LT) that reuses one stack of layers for a second forward pass, adding effective depth without additional parameters. Evaluated on Apple Silicon (MPS), we identify five independent bugs which preven…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5afe02e43d13ebf788bedb9b"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence",
               "summary": "Apollo did not reach the Moon merely because its engineers could solve difficult equations. It succeeded by turning a distant ambition into a mission architecture of explicit objectives, simulation, verification, and repeated correction. AI now faces a similar transition: fronti…",
               "insightLabel": "关注",
@@ -116,16 +126,6 @@
                 "local_82dc1a36028a09449a2201dc"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Understand your AI usage: every agent, model, and request — OpenRouter Blog",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The OpenRouter Activity dashboard shows spend, tokens, cache hit rate, and latency across every model, user, and agent. Save charts, drill into individual generations, and query the same data with the beta Analytics API.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_704e92e54cec14e0f940a4c9"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -162,20 +162,20 @@
       ],
       "referencedFeedItemIds": [
         "local_1eacf8d3c2c1fac994b9740b",
-        "local_7c41aec2a36c0e2304911c04",
+        "local_cdf52bd071713c49683bc68a",
         "local_1b0374bdb9bd3168d2574499",
         "local_32eb9f67e2f0ae76861e91ef",
         "local_b5f50db7f1a61686fedbf6a4",
         "local_62cba1220d33d715a80dffdb",
+        "local_5afe02e43d13ebf788bedb9b",
         "local_11e9e19d635db6b282c18d1d",
         "local_a99e46ce76136845dd4c9aa6",
         "local_82dc1a36028a09449a2201dc",
-        "local_8afaedc16b483185c9e7e851",
         "local_704e92e54cec14e0f940a4c9",
         "local_870f756a2577f113df188e97",
         "local_aff84d1380085f2df117c246"
       ],
-      "generatedAt": "2026-08-17T16:48:01.462Z",
+      "generatedAt": "2026-08-17T17:44:25.572Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7c41aec2a36c0e2304911c04"
+                "local_cdf52bd071713c49683bc68a"
               ],
               "confidence": 92
             }
@@ -251,18 +251,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_7c41aec2a36c0e2304911c04",
+        "local_cdf52bd071713c49683bc68a",
         "local_1b0374bdb9bd3168d2574499",
         "local_32eb9f67e2f0ae76861e91ef",
         "local_62cba1220d33d715a80dffdb"
       ],
-      "generatedAt": "2026-08-17T16:48:01.462Z",
+      "generatedAt": "2026-08-17T17:44:25.572Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-17T16:48:01.462Z",
+  "generatedAt": "2026-08-17T17:44:25.573Z",
   "collectorName": "local-source-collector"
 }
