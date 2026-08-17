@@ -54,11 +54,11 @@
           "items": [
             {
               "title": "得物知识问答:复合检索 Agent 的系统设计实践",
-              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
+              "summary": "RAG 的流程是单向的:用户提问 &rarr; 向量检索 &rarr; 拼接上下文 &rarr; 生... 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2dc387dad678b51d3e32aeed"
+                "local_fcd9b3388d2dce2e04ee728c"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_404075d9e50ad18b0679abbe"
+                "local_300e9964d3e1c20d9e9907f9"
               ],
               "confidence": 90
             },
@@ -88,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ee0cd934a9e200786959c308"
+                "local_1f0526962ff01212eff77c3e"
               ],
               "confidence": 92
             },
@@ -98,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba2ec24bccbfa0978496f2d1"
+                "local_16df4ba5df65206175be98ae"
               ],
               "confidence": 92
             }
@@ -108,16 +108,16 @@
       "referencedFeedItemIds": [
         "local_04aeac4e2eb60e6b422a1ec1",
         "local_e2e9d431128c6acb937ec3cb",
-        "local_2dc387dad678b51d3e32aeed",
-        "local_404075d9e50ad18b0679abbe",
+        "local_fcd9b3388d2dce2e04ee728c",
+        "local_300e9964d3e1c20d9e9907f9",
         "local_7439527a11d7150c6e28baa2",
-        "local_ee0cd934a9e200786959c308",
-        "local_ba2ec24bccbfa0978496f2d1",
+        "local_1f0526962ff01212eff77c3e",
+        "local_16df4ba5df65206175be98ae",
         "local_27f6e3aa3b938bda032f9342",
         "local_4f797fc1f79946af066c079e",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-17T13:13:05.496Z",
+      "generatedAt": "2026-08-17T14:00:17.083Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -162,11 +162,11 @@
           "items": [
             {
               "title": "得物知识问答:复合检索 Agent 的系统设计实践",
-              "summary": "得物高可控智能客服的 Agent 工程实践|AICon 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应答＂到＂服务伙伴＂:...",
+              "summary": "RAG 的流程是单向的:用户提问 &rarr; 向量检索 &rarr; 拼接上下文 &rarr; 生... 演讲整理文 /莲舟关注得物技术,每周三更新物技术5.从＂机械应...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2dc387dad678b51d3e32aeed"
+                "local_fcd9b3388d2dce2e04ee728c"
               ],
               "confidence": 92
             },
@@ -176,7 +176,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_404075d9e50ad18b0679abbe"
+                "local_300e9964d3e1c20d9e9907f9"
               ],
               "confidence": 90
             },
@@ -196,7 +196,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ee0cd934a9e200786959c308"
+                "local_1f0526962ff01212eff77c3e"
               ],
               "confidence": 92
             },
@@ -206,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba2ec24bccbfa0978496f2d1"
+                "local_16df4ba5df65206175be98ae"
               ],
               "confidence": 92
             }
@@ -215,21 +215,21 @@
       ],
       "referencedFeedItemIds": [
         "local_e2e9d431128c6acb937ec3cb",
-        "local_2dc387dad678b51d3e32aeed",
-        "local_404075d9e50ad18b0679abbe",
+        "local_fcd9b3388d2dce2e04ee728c",
+        "local_300e9964d3e1c20d9e9907f9",
         "local_7439527a11d7150c6e28baa2",
-        "local_ee0cd934a9e200786959c308",
-        "local_ba2ec24bccbfa0978496f2d1",
+        "local_1f0526962ff01212eff77c3e",
+        "local_16df4ba5df65206175be98ae",
         "local_27f6e3aa3b938bda032f9342",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-17T13:13:05.496Z",
+      "generatedAt": "2026-08-17T14:00:17.083Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-17T13:13:05.497Z",
+  "generatedAt": "2026-08-17T14:00:17.083Z",
   "collectorName": "local-source-collector"
 }
