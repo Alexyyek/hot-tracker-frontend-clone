@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-08-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Training AI Scientists to Replicate Research」、「Agent Harness开始自动修复:系统级Debug最高提升18.4点」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Agent Harness开始自动修复:系统级Debug最高提升18.4点」、「HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Training AI Scientists to Replicate Research",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越改越乱之后,我用评测和轨迹把它拉回来了"
       ],
       "watchItems": [
-        "跟进：Training AI Scientists to Replicate Research",
         "跟进：Agent Harness开始自动修复:系统级Debug最高提升18.4点",
         "跟进：HTML正在成为 AI 办公的新载体?WorkBuddy 升级了一个关键能力",
         "跟进：Agent 越改越乱之后,我用评测和轨迹把它拉回来了",
-        "跟进：The builder’s guide to GPT‑5.6"
+        "跟进：The builder’s guide to GPT‑5.6",
+        "跟进：Okta targets AI agent token costs with MCP scoping"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Training AI Scientists to Replicate Research",
-              "summary": "The replicability of papers is a cornerstone of scientific knowledge, ensuring the reliability of existing results and providing a base for further experiments. The act of replication typically illuminates details that were previously underspecified, and thus requires similar hy…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_81db3a01ba7a10e0af08066b"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Agent Harness开始自动修复:系统级Debug最高提升18.4点",
               "summary": "很多 LLM agent 的失败,看起来像是模型没有想明白:工具调错了、上下文漏了、最终答案提前交了.但在复杂任务里,问题往往不只...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e789e8d3c95f91bf9098ee67"
+                "local_fb8fb452015bca8969f61610"
               ],
               "confidence": 92
             },
@@ -93,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_069140519fa51152f767a094"
+                "local_20578ea91f1c013463f15d0b"
               ],
               "confidence": 90
             },
@@ -103,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a9a42a0d47c86452d5cb9d4b"
+                "local_7eaf54a6a422675242a07034"
               ],
               "confidence": 90
             },
@@ -121,17 +111,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_81db3a01ba7a10e0af08066b",
-        "local_e789e8d3c95f91bf9098ee67",
+        "local_fb8fb452015bca8969f61610",
         "local_e298aee42581bd8513e8e6af",
         "local_43c9c8614af7fdde096150ba",
         "local_336473e40d5c5f043ea7c16f",
         "local_72c788d7118342f8e3bc39c2",
-        "local_069140519fa51152f767a094",
-        "local_a9a42a0d47c86452d5cb9d4b",
+        "local_20578ea91f1c013463f15d0b",
+        "local_7eaf54a6a422675242a07034",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-17T02:02:58.880Z",
+      "generatedAt": "2026-08-17T03:18:13.509Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -165,7 +154,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e789e8d3c95f91bf9098ee67"
+                "local_fb8fb452015bca8969f61610"
               ],
               "confidence": 92
             },
@@ -210,7 +199,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_069140519fa51152f767a094"
+                "local_20578ea91f1c013463f15d0b"
               ],
               "confidence": 90
             },
@@ -220,7 +209,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a9a42a0d47c86452d5cb9d4b"
+                "local_7eaf54a6a422675242a07034"
               ],
               "confidence": 90
             },
@@ -238,21 +227,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e789e8d3c95f91bf9098ee67",
+        "local_fb8fb452015bca8969f61610",
         "local_e298aee42581bd8513e8e6af",
         "local_43c9c8614af7fdde096150ba",
         "local_336473e40d5c5f043ea7c16f",
-        "local_069140519fa51152f767a094",
-        "local_a9a42a0d47c86452d5cb9d4b",
+        "local_20578ea91f1c013463f15d0b",
+        "local_7eaf54a6a422675242a07034",
         "local_8cba88778c2391aee968e099"
       ],
-      "generatedAt": "2026-08-17T02:02:58.880Z",
+      "generatedAt": "2026-08-17T03:18:13.509Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-17T02:02:58.880Z",
+  "generatedAt": "2026-08-17T03:18:13.509Z",
   "collectorName": "local-source-collector"
 }
