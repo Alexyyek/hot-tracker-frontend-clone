@@ -5,35 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-08-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Google tests AMIE for clinical video consultations」、「How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees」、「得物知识问答:复合检索 Agent 的系统设计实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google tests AMIE for clinical video consultations",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物知识问答:复合检索 Agent 的系统设计实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物知识问答:复合检索 Agent 的系统设计实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 AI Coding 到 AI Native SDLC:企业级人机协同研发范式的演进与落地|AICon 深圳"
       ],
       "watchItems": [
-        "跟进：Google tests AMIE for clinical video consultations",
         "跟进：How We’re Building Scam Alert on WhatsApp With End-to-End Encryption and Verifiability Guarantees",
         "跟进：得物知识问答:复合检索 Agent 的系统设计实践",
         "跟进：从 AI Coding 到 AI Native SDLC:企业级人机协同研发范式的演进与落地|AICon 深圳",
-        "跟进：From assistance to execution: How enterprises put AI to work"
+        "跟进：From assistance to execution: How enterprises put AI to work",
+        "跟进：硅谷一线AI科学家带队,13周深度实战Agent工程"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Google tests AMIE for clinical video consultations",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google’s research medical AI system, AMIE (Video), conducted synchronous video consultations with professional patient actors and received clinical evaluator ratings on par with primary care physicians across several co…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_04aeac4e2eb60e6b422a1ec1"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
         {
           "title": "行业与公司",
           "items": [
@@ -58,7 +43,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3e29a92bb3093355867763fa"
+                "local_25b35016c534963bc5eb6a47"
               ],
               "confidence": 92
             },
@@ -68,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_235cbdfa68ace554cafaf072"
+                "local_cc54ad04cf14448cb64eb120"
               ],
               "confidence": 90
             },
@@ -88,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bf495400823dda42d5250c58"
+                "local_d46abe32a0d1b75e62b15ca4"
               ],
               "confidence": 92
             },
@@ -98,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_083f724a28ad1244db90af44"
+                "local_96c0fcf1275ebb0fabedbfb3"
               ],
               "confidence": 92
             }
@@ -106,18 +91,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_04aeac4e2eb60e6b422a1ec1",
         "local_e2e9d431128c6acb937ec3cb",
-        "local_3e29a92bb3093355867763fa",
-        "local_235cbdfa68ace554cafaf072",
+        "local_25b35016c534963bc5eb6a47",
+        "local_cc54ad04cf14448cb64eb120",
         "local_7439527a11d7150c6e28baa2",
-        "local_bf495400823dda42d5250c58",
-        "local_083f724a28ad1244db90af44",
+        "local_d46abe32a0d1b75e62b15ca4",
+        "local_96c0fcf1275ebb0fabedbfb3",
         "local_27f6e3aa3b938bda032f9342",
         "local_4f797fc1f79946af066c079e",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-18T11:44:47.572Z",
+      "generatedAt": "2026-08-18T12:09:28.793Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -166,7 +150,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3e29a92bb3093355867763fa"
+                "local_25b35016c534963bc5eb6a47"
               ],
               "confidence": 92
             },
@@ -176,7 +160,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_235cbdfa68ace554cafaf072"
+                "local_cc54ad04cf14448cb64eb120"
               ],
               "confidence": 90
             },
@@ -196,7 +180,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bf495400823dda42d5250c58"
+                "local_d46abe32a0d1b75e62b15ca4"
               ],
               "confidence": 92
             },
@@ -206,7 +190,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_083f724a28ad1244db90af44"
+                "local_96c0fcf1275ebb0fabedbfb3"
               ],
               "confidence": 92
             }
@@ -215,21 +199,21 @@
       ],
       "referencedFeedItemIds": [
         "local_e2e9d431128c6acb937ec3cb",
-        "local_3e29a92bb3093355867763fa",
-        "local_235cbdfa68ace554cafaf072",
+        "local_25b35016c534963bc5eb6a47",
+        "local_cc54ad04cf14448cb64eb120",
         "local_7439527a11d7150c6e28baa2",
-        "local_bf495400823dda42d5250c58",
-        "local_083f724a28ad1244db90af44",
+        "local_d46abe32a0d1b75e62b15ca4",
+        "local_96c0fcf1275ebb0fabedbfb3",
         "local_27f6e3aa3b938bda032f9342",
         "local_de46f2c35151ef475c265a5d"
       ],
-      "generatedAt": "2026-08-18T11:44:47.572Z",
+      "generatedAt": "2026-08-18T12:09:28.793Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-18T11:44:47.572Z",
+  "generatedAt": "2026-08-18T12:09:28.793Z",
   "collectorName": "local-source-collector"
 }
