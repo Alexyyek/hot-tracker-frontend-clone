@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-08-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond」、「Samsung health AI models analyse wearable biosignal data」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Samsung health AI models analyse wearable biosignal data」、「高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Samsung health AI models analyse wearable biosignal data",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeepSeek Harness 拆解:一套能拼装的 Agent 架构"
       ],
       "watchItems": [
-        "跟进：ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond",
         "跟进：Samsung health AI models analyse wearable biosignal data",
         "跟进：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "跟进：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
-        "跟进：AppLooper: An Agentic Application Engineering Loop for Accountable Release with Virtual-User Feedback"
+        "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
+        "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "ScienceFlow: A long-horizon agent for ML research, scientific discovery and beyond",
-              "summary": "Enabling LLM agents to sustain productive, stable, and goal-aligned research over extended horizons is a central challenge for autonomous machine learning and scientific discovery, as progress hinges on continuously managing evolving state, exploration decisions, and computation…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a99d4cb9122043e220a3e984"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
-              "summary": "AI Native 时代下企业级软件工程的新路径.#高德 #高德技术 #AI Native #AutoSDK #AICodingEND",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_3a495a0fbc14d4501c319983"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
-              "summary": "作者:chino,腾讯WXG 微信小店前端开发工程师DeepSeek 发布了第一款 Agent 产品,DeepSeek Harness.这次的重点放在了运行...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d0185585ec08015015558adf"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AppLooper: An Agentic Application Engineering Loop for Accountable Release with Virtual-User Feedback",
-              "summary": "Much existing research on coding agents organizes application development as an iterative loop of requirement interpretation, implementation, tool execution, evaluation, and repair. As these loops run longer, requirements may drift; users may lose awareness of the current state …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_afae0e0c6f4cffebe9acf903"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Aether.jl : A High-Performance 3D MHD and Multifluid Dust Code Written in a Dynamic Language with an Interactive Human-AI Development Framework",
-              "summary": "We present Aether.jl, a new finite-volume code for compressible hydrodynamics and magnetohydrodynamics, written in Julia and primarily designed for GPU systems. The code solves the MHD equations with constrained transport in Cartesian, cylindrical, and spherical-polar coordinate…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_55d0c9795caad674ba894fe0"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -100,6 +45,61 @@
           ]
         },
         {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
+              "summary": "AI Native 时代下企业级软件工程的新路径.#高德 #高德技术 #AI Native #AutoSDK #AICodingEND",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_2250b00bcfc2f9dad628deec"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
+              "summary": "作者:chino,腾讯WXG 微信小店前端开发工程师DeepSeek 发布了第一款 Agent 产品,DeepSeek Harness.这次的重点放在了运行...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d0185585ec08015015558adf"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
+              "summary": "关于项目的详细介绍见第一篇文章:第一个 AI Agent 项目:从零搭建 AI 音频创作助手(入门篇)这篇文章更多介绍进阶篇添加的功能...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_83c14badf376e850ebcb9a6e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
+              "summary": "这是一篇关于企业 Agent 落地的笔记:结合行业案例和自己的实践.我知道在 AI 时代写长文是逆潮流的&mdash;&mdash;注意力越来越短.写完后...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_214575676c97d136ad55e156"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "DeepSeek Harness,是今年最有野心的一次Agent开源",
+              "summary": "Agent preset,具备标准模式全部能力,另外提供运行时检查、插... 我觉得还挺好看的,于是顺手做了一个开源皮肤合集:夕小瑶 * ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c38e1e37cf9a372bd70ddd29"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "产品与工具",
           "items": [
             {
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_c94f386dbcf649d9d90c1dfe"
+                "local_5556057a40e3884fc1e3847a"
               ],
               "confidence": 86
             }
@@ -116,21 +116,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a99d4cb9122043e220a3e984",
         "local_8feb76b82fc68e0020b39d31",
-        "local_3a495a0fbc14d4501c319983",
+        "local_2250b00bcfc2f9dad628deec",
         "local_d0185585ec08015015558adf",
-        "local_afae0e0c6f4cffebe9acf903",
-        "local_55d0c9795caad674ba894fe0",
-        "local_57f6f470f8eb34ccd2dbcb73",
-        "local_c94f386dbcf649d9d90c1dfe",
+        "local_83c14badf376e850ebcb9a6e",
+        "local_5556057a40e3884fc1e3847a",
         "local_214575676c97d136ad55e156",
         "local_25000f39bdf54ea6358f3ee5",
-        "local_83d90c41a190030a8913eb0a",
+        "local_c38e1e37cf9a372bd70ddd29",
         "local_bbd7b1107d7c3feb5ecf873f",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T01:57:45.328Z",
+      "generatedAt": "2026-08-18T03:14:30.719Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -164,7 +161,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_3a495a0fbc14d4501c319983"
+                "local_2250b00bcfc2f9dad628deec"
               ],
               "confidence": 86
             },
@@ -184,7 +181,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_57f6f470f8eb34ccd2dbcb73"
+                "local_83c14badf376e850ebcb9a6e"
               ],
               "confidence": 92
             },
@@ -219,7 +216,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_c94f386dbcf649d9d90c1dfe"
+                "local_5556057a40e3884fc1e3847a"
               ],
               "confidence": 86
             }
@@ -227,20 +224,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_3a495a0fbc14d4501c319983",
+        "local_2250b00bcfc2f9dad628deec",
         "local_d0185585ec08015015558adf",
-        "local_57f6f470f8eb34ccd2dbcb73",
-        "local_c94f386dbcf649d9d90c1dfe",
+        "local_83c14badf376e850ebcb9a6e",
+        "local_5556057a40e3884fc1e3847a",
         "local_214575676c97d136ad55e156",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T01:57:45.328Z",
+      "generatedAt": "2026-08-18T03:14:30.719Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-18T01:57:45.328Z",
+  "generatedAt": "2026-08-18T03:14:30.719Z",
   "collectorName": "local-source-collector"
 }
