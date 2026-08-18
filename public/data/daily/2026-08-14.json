@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Samsung health AI models analyse wearable biosignal data」、「高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Samsung health AI models analyse wearable biosignal data」、「DeepSeek Harness 拆解:一套能拼装的 Agent 架构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Samsung health AI models analyse wearable biosignal data",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeepSeek Harness 拆解:一套能拼装的 Agent 架构"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)"
       ],
       "watchItems": [
         "跟进：Samsung health AI models analyse wearable biosignal data",
-        "跟进：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "跟进：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
         "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
-        "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳"
+        "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
+        "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统"
       ],
       "sections": [
         {
@@ -48,16 +48,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
-              "summary": "AI Native 时代下企业级软件工程的新路径.#高德 #高德技术 #AI Native #AutoSDK #AICodingEND",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_2250b00bcfc2f9dad628deec"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
               "summary": "作者:chino,腾讯WXG 微信小店前端开发工程师DeepSeek 发布了第一款 Agent 产品,DeepSeek Harness.这次的重点放在了运行...",
               "insightLabel": "关注",
@@ -73,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_83c14badf376e850ebcb9a6e"
+                "local_a2ddfa17b08a613221106000"
               ],
               "confidence": 92
             },
@@ -93,9 +83,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c38e1e37cf9a372bd70ddd29"
+                "local_0e08eff0fd6e98aa81ee5905"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+              "summary": "来自Hugging Face的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bbd7b1107d7c3feb5ecf873f"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_5556057a40e3884fc1e3847a"
+                "local_20b558cffd2f7a07941eb12f"
               ],
               "confidence": 86
             }
@@ -117,17 +117,16 @@
       ],
       "referencedFeedItemIds": [
         "local_8feb76b82fc68e0020b39d31",
-        "local_2250b00bcfc2f9dad628deec",
         "local_d0185585ec08015015558adf",
-        "local_83c14badf376e850ebcb9a6e",
-        "local_5556057a40e3884fc1e3847a",
+        "local_a2ddfa17b08a613221106000",
+        "local_20b558cffd2f7a07941eb12f",
         "local_214575676c97d136ad55e156",
         "local_25000f39bdf54ea6358f3ee5",
-        "local_c38e1e37cf9a372bd70ddd29",
+        "local_0e08eff0fd6e98aa81ee5905",
         "local_bbd7b1107d7c3feb5ecf873f",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T03:14:30.719Z",
+      "generatedAt": "2026-08-18T04:04:43.754Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -138,33 +137,23 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-14",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建」、「DeepSeek Harness 拆解:一套能拼装的 Agent 架构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「DeepSeek Harness 拆解:一套能拼装的 Agent 架构」、「【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳"
       ],
       "watchItems": [
-        "跟进：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "跟进：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
         "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
         "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
-        "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统"
+        "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
+        "跟进：Introducing Gemini 3.7 Flash"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
-              "summary": "AI Native 时代下企业级软件工程的新路径.#高德 #高德技术 #AI Native #AutoSDK #AICodingEND",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_2250b00bcfc2f9dad628deec"
-              ],
-              "confidence": 86
-            },
             {
               "title": "DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
               "summary": "作者:chino,腾讯WXG 微信小店前端开发工程师DeepSeek 发布了第一款 Agent 产品,DeepSeek Harness.这次的重点放在了运行...",
@@ -181,7 +170,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_83c14badf376e850ebcb9a6e"
+                "local_a2ddfa17b08a613221106000"
               ],
               "confidence": 92
             },
@@ -216,7 +205,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_5556057a40e3884fc1e3847a"
+                "local_20b558cffd2f7a07941eb12f"
               ],
               "confidence": 86
             }
@@ -224,20 +213,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2250b00bcfc2f9dad628deec",
         "local_d0185585ec08015015558adf",
-        "local_83c14badf376e850ebcb9a6e",
-        "local_5556057a40e3884fc1e3847a",
+        "local_a2ddfa17b08a613221106000",
+        "local_20b558cffd2f7a07941eb12f",
         "local_214575676c97d136ad55e156",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T03:14:30.719Z",
+      "generatedAt": "2026-08-18T04:04:43.754Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-18T03:14:30.719Z",
+  "generatedAt": "2026-08-18T04:04:43.754Z",
   "collectorName": "local-source-collector"
 }
