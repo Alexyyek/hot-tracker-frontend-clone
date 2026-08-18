@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Samsung health AI models analyse wearable biosignal data」、「DeepSeek Harness 拆解:一套能拼装的 Agent 架构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Samsung health AI models analyse wearable biosignal data」、「DeepSeek Harness 拆解:一套能拼装的 Agent 架构」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Samsung health AI models analyse wearable biosignal data",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳"
       ],
       "watchItems": [
         "跟进：Samsung health AI models analyse wearable biosignal data",
         "跟进：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
-        "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
         "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
-        "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统"
+        "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
+        "跟进：How to Send an Image to an LLM via API (Vision Guide) — OpenRouter Blog"
       ],
       "sections": [
         {
@@ -58,16 +58,6 @@
               "confidence": 92
             },
             {
-              "title": "【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
-              "summary": "关于项目的详细介绍见第一篇文章:第一个 AI Agent 项目:从零搭建 AI 音频创作助手(入门篇)这篇文章更多介绍进阶篇添加的功能...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5b04da0a6569ff171feff687"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
               "summary": "这是一篇关于企业 Agent 落地的笔记:结合行业案例和自己的实践.我知道在 AI 时代写长文是逆潮流的&mdash;&mdash;注意力越来越短.写完后...",
               "insightLabel": "关注",
@@ -83,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7455fb6f196b5de2d657c817"
+                "local_3b193e519f79237c916a0b15"
               ],
               "confidence": 92
             },
@@ -94,6 +84,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_bbd7b1107d7c3feb5ecf873f"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Introducing Gemini 3.7 Flash",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Gemini 3.7 Flash is our most intelligent workhorse model yet for coding and agents.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8cc42104463bb3725146e9b8"
               ],
               "confidence": 82
             }
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_d18b9c9c749ce66be75992dc"
+                "local_d1d9a619b051e5eb091b0062"
               ],
               "confidence": 86
             }
@@ -118,15 +118,14 @@
       "referencedFeedItemIds": [
         "local_8feb76b82fc68e0020b39d31",
         "local_d0185585ec08015015558adf",
-        "local_5b04da0a6569ff171feff687",
-        "local_d18b9c9c749ce66be75992dc",
+        "local_d1d9a619b051e5eb091b0062",
         "local_214575676c97d136ad55e156",
         "local_25000f39bdf54ea6358f3ee5",
-        "local_7455fb6f196b5de2d657c817",
+        "local_3b193e519f79237c916a0b15",
         "local_bbd7b1107d7c3feb5ecf873f",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T04:56:47.723Z",
+      "generatedAt": "2026-08-18T05:50:24.087Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -137,15 +136,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-14",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「DeepSeek Harness 拆解:一套能拼装的 Agent 架构」、「【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「DeepSeek Harness 拆解:一套能拼装的 Agent 架构」、「从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统"
       ],
       "watchItems": [
         "跟进：DeepSeek Harness 拆解:一套能拼装的 Agent 架构",
-        "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
         "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
         "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
         "跟进：Introducing Gemini 3.7 Flash"
@@ -161,16 +159,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_d0185585ec08015015558adf"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(进阶篇)",
-              "summary": "关于项目的详细介绍见第一篇文章:第一个 AI Agent 项目:从零搭建 AI 音频创作助手(入门篇)这篇文章更多介绍进阶篇添加的功能...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5b04da0a6569ff171feff687"
               ],
               "confidence": 92
             },
@@ -205,7 +193,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_d18b9c9c749ce66be75992dc"
+                "local_d1d9a619b051e5eb091b0062"
               ],
               "confidence": 86
             }
@@ -214,18 +202,17 @@
       ],
       "referencedFeedItemIds": [
         "local_d0185585ec08015015558adf",
-        "local_5b04da0a6569ff171feff687",
-        "local_d18b9c9c749ce66be75992dc",
+        "local_d1d9a619b051e5eb091b0062",
         "local_214575676c97d136ad55e156",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T04:56:47.723Z",
+      "generatedAt": "2026-08-18T05:50:24.087Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-18T04:56:47.723Z",
+  "generatedAt": "2026-08-18T05:50:24.087Z",
   "collectorName": "local-source-collector"
 }
