@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Samsung health AI models analyse wearable biosignal data」、「从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Samsung health AI models analyse wearable biosignal data」、「高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Samsung health AI models analyse wearable biosignal data",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳"
       ],
       "watchItems": [
         "跟进：Samsung health AI models analyse wearable biosignal data",
+        "跟进：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
         "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
-        "跟进：How to Send an Image to an LLM via API (Vision Guide) — OpenRouter Blog",
-        "跟进：DeepSeek Harness,是今年最有野心的一次Agent开源"
+        "跟进：How to Send an Image to an LLM via API (Vision Guide) — OpenRouter Blog"
       ],
       "sections": [
         {
@@ -45,23 +45,18 @@
           ]
         },
         {
-          "title": "产品与工具",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
-              "summary": "《从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁》 的主题分享.AI 时代,应用正在从\"用户主动打开的 App\"演进为\"系...",
+              "title": "高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
+              "summary": "AI Native 时代下企业级软件工程的新路径.#高德 #高德技术 #AI Native #AutoSDK #AICodingEND",
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_dd4d9eb62297a7b08d612503"
+                "local_9622a38c833747db19529a8e"
               ],
               "confidence": 86
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
+            },
             {
               "title": "企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
               "summary": "这是一篇关于企业 Agent 落地的笔记:结合行业案例和自己的实践.我知道在 AI 时代写长文是逆潮流的&mdash;&mdash;注意力越来越短.写完后...",
@@ -78,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_15c35ab1565d7a992af6e41b"
+                "local_895c5aa851c7be62794afda6"
               ],
               "confidence": 92
             },
@@ -103,18 +98,34 @@
               "confidence": 82
             }
           ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
+              "summary": "《从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁》 的主题分享.AI 时代,应用正在从\"用户主动打开的 App\"演进为\"系...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_94379935bd901f089881a09f"
+              ],
+              "confidence": 86
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_8feb76b82fc68e0020b39d31",
-        "local_dd4d9eb62297a7b08d612503",
+        "local_9622a38c833747db19529a8e",
+        "local_94379935bd901f089881a09f",
         "local_214575676c97d136ad55e156",
         "local_25000f39bdf54ea6358f3ee5",
-        "local_15c35ab1565d7a992af6e41b",
+        "local_895c5aa851c7be62794afda6",
         "local_bbd7b1107d7c3feb5ecf873f",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T17:47:15.714Z",
+      "generatedAt": "2026-08-18T19:01:12.592Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -125,36 +136,32 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-14",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳」、「企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建」、「从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Gemini 3.7 Flash"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统"
       ],
       "watchItems": [
+        "跟进：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "跟进：从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
         "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
         "跟进：Introducing Gemini 3.7 Flash"
       ],
       "sections": [
         {
-          "title": "产品与工具",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
-              "summary": "《从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁》 的主题分享.AI 时代,应用正在从\"用户主动打开的 App\"演进为\"系...",
+              "title": "高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
+              "summary": "AI Native 时代下企业级软件工程的新路径.#高德 #高德技术 #AI Native #AutoSDK #AICodingEND",
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_dd4d9eb62297a7b08d612503"
+                "local_9622a38c833747db19529a8e"
               ],
               "confidence": 86
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
+            },
             {
               "title": "企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
               "summary": "这是一篇关于企业 Agent 落地的笔记:结合行业案例和自己的实践.我知道在 AI 时代写长文是逆潮流的&mdash;&mdash;注意力越来越短.写完后...",
@@ -176,20 +183,36 @@
               "confidence": 82
             }
           ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁|AICon 深圳",
+              "summary": "《从入鸿蒙到 AI Native:系统与 AI 融合下的应用智能化跃迁》 的主题分享.AI 时代,应用正在从\"用户主动打开的 App\"演进为\"系...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_94379935bd901f089881a09f"
+              ],
+              "confidence": 86
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_dd4d9eb62297a7b08d612503",
+        "local_9622a38c833747db19529a8e",
+        "local_94379935bd901f089881a09f",
         "local_214575676c97d136ad55e156",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-18T17:47:15.714Z",
+      "generatedAt": "2026-08-18T19:01:12.592Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-18T17:47:15.714Z",
+  "generatedAt": "2026-08-18T19:01:12.592Z",
   "collectorName": "local-source-collector"
 }
