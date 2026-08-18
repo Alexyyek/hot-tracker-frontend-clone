@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5cca6e792f42f70b36bd0786"
+                "local_159b551a0256f5412f36b417"
               ],
               "confidence": 92
             },
@@ -108,22 +108,22 @@
               "confidence": 86
             },
             {
+              "title": "Accuracy and Order Sensitivity Diverge Under Label-Free Strategies",
+              "summary": "Multiple-choice benchmarks are widely used to evaluate large language models, but MCQ scores conflate knowledge with sensitivity to option order, which makes them unreliable measures of model knowledge. In this paper, we test whether preventing a model from seeing option labels …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_546df86bbbfb3f3ef2fe343e"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Beyond Visual CoT: Internalized Visual Thinking for Proactive Video Reasoning",
               "summary": "Multimodal large language models increasingly use visual chain-of-thought (Visual CoT) to reason about spatial, temporal, and embodied environments. By generating intermediate reasoning images, Visual CoT provides an intuitive mechanism for visual foresight but introduces substa…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_d7b9e7762eff12260f6dc827"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "StreamOPD: A Post-Training Recipe with Spatio-Temporal Cue Gating for Streaming Video Understanding",
-              "summary": "Streaming video understanding demands direct responses from the causally observed prefix of an unfolding video. Existing systems add inference-time memory, retrieval, and compression, yet a training-free sliding-window baseline already matches them. We therefore fix a memory-fre…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c8655fcc5a98342609abee1d"
               ],
               "confidence": 92
             }
@@ -153,18 +153,18 @@
         "local_2161a98b5b1fbe628f520f3e",
         "local_cc7a67b62cc4045797d5f43d",
         "local_b991da544d52530928622e50",
-        "local_5cca6e792f42f70b36bd0786",
+        "local_159b551a0256f5412f36b417",
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe",
+        "local_546df86bbbfb3f3ef2fe343e",
         "local_d7b9e7762eff12260f6dc827",
         "local_38038881137474ce971c1765",
         "local_c8655fcc5a98342609abee1d",
-        "local_a56db67f8ed52ac102c03535",
         "local_ff1d2f70b8cc151a31e2502f",
         "local_8408a9382a3f465fe578d516",
         "local_6c720853098324fa10ce7dd0"
       ],
-      "generatedAt": "2026-08-18T20:02:05.323Z",
+      "generatedAt": "2026-08-18T20:41:01.764Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -218,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5cca6e792f42f70b36bd0786"
+                "local_159b551a0256f5412f36b417"
               ],
               "confidence": 92
             },
@@ -248,17 +248,17 @@
       "referencedFeedItemIds": [
         "local_c833f16acadae82931ca8d6f",
         "local_2161a98b5b1fbe628f520f3e",
-        "local_5cca6e792f42f70b36bd0786",
+        "local_159b551a0256f5412f36b417",
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe"
       ],
-      "generatedAt": "2026-08-18T20:02:05.323Z",
+      "generatedAt": "2026-08-18T20:41:01.764Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-18T20:02:05.323Z",
+  "generatedAt": "2026-08-18T20:41:01.764Z",
   "collectorName": "local-source-collector"
 }
