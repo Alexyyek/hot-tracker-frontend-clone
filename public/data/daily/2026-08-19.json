@@ -5,33 +5,38 @@
       "topicId": "ai",
       "reportDate": "2026-08-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed」、「Anthropic says any lab can now let a language model agent run the whole protein design stack」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says any lab can now let a language model agent run the whole protein design stack"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says any lab can now let a language model agent run the whole protein design stack",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents"
       ],
       "watchItems": [
-        "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
         "跟进：Anthropic says any lab can now let a language model agent run the whole protein design stack",
+        "跟进：LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
         "跟进：PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
         "跟进：CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "物流、地址与召排",
           "items": [
             {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
+              "title": "GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
+              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：GLM-5.3, the AI model from Chinese startup Z.ai, scores 60 points on the Artificial Analysis Intelligence Index. That ties it with Kimi K3 for the top spot among open models, and it's seven points ahead of the previous …",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_38dc2e7963e8bc931e5162db"
+                "local_366d4347262d3687d06bb94a"
               ],
-              "confidence": 92
-            },
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Anthropic says any lab can now let a language model agent run the whole protein design stack",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic had its Claude models design small proteins on their own that dock onto target structures in the body, a key step in early drug development. The hit rate reached up to 35 percent, far above the industry averag…",
@@ -39,6 +44,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_0828100acb9855bb83926d83"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
+              "summary": "Reinforcement learning for coding agents increasingly relies on long-running agent harnesses to manage tool integration, repository contexts, and execution feedback. However, the native execution environments of these harnesses are inherently misaligned with policy-gradient trai…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0ccf65049933a41f8a6f1cb8"
               ],
               "confidence": 92
             },
@@ -75,21 +90,6 @@
           ]
         },
         {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：GLM-5.3, the AI model from Chinese startup Z.ai, scores 60 points on the Artificial Analysis Intelligence Index. That ties it with Kimi K3 for the top spot among open models, and it's seven points ahead of the previous …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_366d4347262d3687d06bb94a"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
             {
@@ -99,16 +99,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_4e0538f16d0922ed5923ca37"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
-              "summary": "As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as violence and nudity, further exacerbated by red-teaming adversarial attacks. Existing defenses predominantly operate under whi…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_80f31f7e02cf618ecadbb564"
               ],
               "confidence": 92
             },
@@ -151,19 +141,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_38dc2e7963e8bc931e5162db",
         "local_366d4347262d3687d06bb94a",
         "local_0828100acb9855bb83926d83",
+        "local_0ccf65049933a41f8a6f1cb8",
         "local_4e0538f16d0922ed5923ca37",
         "local_5bebcc0363a7e7694f99aaab",
         "local_f7e1a4cb76d0f6c9c1e75ba5",
-        "local_80f31f7e02cf618ecadbb564",
         "local_5222f4da6a4c26c351d212ee",
         "local_2b60b7890065d28e6f81aa52",
         "local_90cdc17b700975a06092bb68",
         "local_0eab62717fc3fa4b16e4f212"
       ],
-      "generatedAt": "2026-08-19T16:47:38.758Z",
+      "generatedAt": "2026-08-19T17:42:14.972Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -174,29 +163,17 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-19",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」、「How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit"
       ],
       "watchItems": [
-        "跟进：Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Agent 越能干，安全越难做？_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "Agent 越能干，安全越难做？Agent 越能干，安全越难做？腾讯、百度、Cloudflare 安全专家共谈企业级 Agent 安全落地实践。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_38dc2e7963e8bc931e5162db"
-              ],
-              "confidence": 92
-            },
             {
               "title": "How AI Coding Agents Can Unlock Materials Simulation with NVIDIA ALCHEMI Toolkit",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Atomistic simulation requires three things: knowledge of the science, compute-efficient implementation of simulations, and accessible interfaces to the...",
@@ -211,16 +188,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_38dc2e7963e8bc931e5162db",
         "local_90cdc17b700975a06092bb68"
       ],
-      "generatedAt": "2026-08-19T16:47:38.758Z",
+      "generatedAt": "2026-08-19T17:42:14.972Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-19T16:47:38.758Z",
+  "generatedAt": "2026-08-19T17:42:14.972Z",
   "collectorName": "local-source-collector"
 }
