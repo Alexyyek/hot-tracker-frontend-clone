@@ -9,14 +9,14 @@
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says any lab can now let a language model agent run the whole protein design stack",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Problem Is the Problem: Towards Scalable Mathematical Discovery"
       ],
       "watchItems": [
         "跟进：GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
         "跟进：Anthropic says any lab can now let a language model agent run the whole protein design stack",
+        "跟进：The Problem Is the Problem: Towards Scalable Mathematical Discovery",
         "跟进：LEGO-RL: Harness-Native Reinforcement Learning for Coding Agents",
-        "跟进：PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX",
-        "跟进：CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation"
+        "跟进：PTXBench: Benchmark and Adapt LLMs for GPU Kernel Optimization with Architecture-specific PTX"
       ],
       "sections": [
         {
@@ -90,6 +90,31 @@
           ]
         },
         {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "The Problem Is the Problem: Towards Scalable Mathematical Discovery",
+              "summary": "AI systems are increasingly capable of contributing to mathematical research. In research practice, frontier-model reasoning is a limited resource, and expert mathematical review is even more sharply constrained. Allocating these scarce resources well is therefore central to mak…",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_92f1bd82a08d559fccedbc78"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+              "summary": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the same cardiac cycle, yet existing cardiac foundation models are trained for a single sensing modality, leaving the shared physiology across sensors unexploited. W…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_5bebcc0363a7e7694f99aaab"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "模型与基础设施",
           "items": [
             {
@@ -113,46 +138,21 @@
               "confidence": 74
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
-              "summary": "Electrocardiography (ECG), photoplethysmography (PPG), and phonocardiography (PCG) provide complementary views of the same cardiac cycle, yet existing cardiac foundation models are trained for a single sensing modality, leaving the shared physiology across sensors unexploited. W…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_5bebcc0363a7e7694f99aaab"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
-              "summary": "Latent video generation relies on autoencoders to define a compact space in which generative models operate. Although video autoencoder architectures have evolved substantially, their latent spaces are still optimized primarily for pixel-level reconstruction and provide limited …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f7e1a4cb76d0f6c9c1e75ba5"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_366d4347262d3687d06bb94a",
         "local_0828100acb9855bb83926d83",
+        "local_92f1bd82a08d559fccedbc78",
         "local_0ccf65049933a41f8a6f1cb8",
         "local_4e0538f16d0922ed5923ca37",
         "local_5bebcc0363a7e7694f99aaab",
-        "local_f7e1a4cb76d0f6c9c1e75ba5",
         "local_5222f4da6a4c26c351d212ee",
         "local_2b60b7890065d28e6f81aa52",
         "local_90cdc17b700975a06092bb68",
         "local_0eab62717fc3fa4b16e4f212"
       ],
-      "generatedAt": "2026-08-19T20:00:25.177Z",
+      "generatedAt": "2026-08-19T20:44:47.552Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,13 +190,13 @@
       "referencedFeedItemIds": [
         "local_90cdc17b700975a06092bb68"
       ],
-      "generatedAt": "2026-08-19T20:00:25.177Z",
+      "generatedAt": "2026-08-19T20:44:47.552Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-19T20:00:25.177Z",
+  "generatedAt": "2026-08-19T20:44:47.552Z",
   "collectorName": "local-source-collector"
 }
