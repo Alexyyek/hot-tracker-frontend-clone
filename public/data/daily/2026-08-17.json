@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility」、「The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility」、「全球首个跨本体、跨视角、多模态物理世界模型,CurrentWorld-0 来了!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Mint-Agent: Introducing Finance-Native Agentic Foundation Models"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球首个跨本体、跨视角、多模态物理世界模型,CurrentWorld-0 来了!",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德动量@WRC 2026|从空间智能到具身智能,让 AI 服务真实生活"
       ],
       "watchItems": [
         "跟进：We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-        "跟进：The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
-        "跟进：Mint-Agent: Introducing Finance-Native Agentic Foundation Models",
         "跟进：全球首个跨本体、跨视角、多模态物理世界模型,CurrentWorld-0 来了!",
-        "跟进：高德动量@WRC 2026|从空间智能到具身智能,让 AI 服务真实生活"
+        "跟进：高德动量@WRC 2026|从空间智能到具身智能,让 AI 服务真实生活",
+        "跟进：Agent的上限,可能不在模型,而在团队知识",
+        "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手(高级篇)"
       ],
       "sections": [
         {
@@ -48,26 +48,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
-              "summary": "Repository-scale coding requires an agent to keep tests, imports, configuration, and migration rules consistent within a bounded context window. We model this as reconstructing a coupled-fact graph: at each edit, a required fact comes from recent context or parametric memory, an…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0d8ba18f7e01d98cb300f40b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Mint-Agent: Introducing Finance-Native Agentic Foundation Models",
-              "summary": "Financial agents must do more than recall domain knowledge: they must be both reliable, executing precise operations over grounded evidence, and executive, sustaining long-horizon research whose conclusions remain auditable. We present Mint-Agent, a family of finance-native agen…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5b9fe5e7f43c5b08f0b13c22"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "高德动量@WRC 2026|从空间智能到具身智能,让 AI 服务真实生活",
               "summary": "面向机器人智能体的通用自进化操作系统#高德#高德技术#高德动量#具身智能#WRC",
               "insightLabel": "关注",
@@ -96,6 +76,16 @@
                 "local_6b7bf93a9de5825aaec9fc1b"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Understand your AI usage: every agent, model, and request — OpenRouter Blog",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The OpenRouter Activity dashboard shows spend, tokens, cache hit rate, and latency across every model, user, and agent. Save charts, drill into individual generations, and query the same data with the beta Analytics API.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_704e92e54cec14e0f940a4c9"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -117,8 +107,6 @@
       ],
       "referencedFeedItemIds": [
         "local_1eacf8d3c2c1fac994b9740b",
-        "local_0d8ba18f7e01d98cb300f40b",
-        "local_5b9fe5e7f43c5b08f0b13c22",
         "local_cdf52bd071713c49683bc68a",
         "local_239cfc16392438f1ef18e15d",
         "local_f6c0f607c92e9873df1285d1",
@@ -126,7 +114,7 @@
         "local_704e92e54cec14e0f940a4c9",
         "local_870f756a2577f113df188e97"
       ],
-      "generatedAt": "2026-08-19T01:54:47.069Z",
+      "generatedAt": "2026-08-19T03:11:43.183Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,13 +195,13 @@
         "local_f6c0f607c92e9873df1285d1",
         "local_6b7bf93a9de5825aaec9fc1b"
       ],
-      "generatedAt": "2026-08-19T01:54:47.069Z",
+      "generatedAt": "2026-08-19T03:11:43.183Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-19T01:54:47.069Z",
+  "generatedAt": "2026-08-19T03:11:43.183Z",
   "collectorName": "local-source-collector"
 }

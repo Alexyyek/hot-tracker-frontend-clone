@@ -5,23 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-08-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Alvys launches AI agents for freight TMS workflows」、「Partnering with CodeAI to prepare the first AI generation」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「AutoResearch: Insight In, Hallucination Out」、「Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Alvys launches AI agents for freight TMS workflows",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Partnering with CodeAI to prepare the first AI generation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s per-token cost runs 4.4 times the average on Vercel, and developers keep paying"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AutoResearch: Insight In, Hallucination Out",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Alvys launches AI agents for freight TMS workflows"
       ],
       "watchItems": [
+        "跟进：AutoResearch: Insight In, Hallucination Out",
+        "跟进：Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents",
         "跟进：Alvys launches AI agents for freight TMS workflows",
         "跟进：Partnering with CodeAI to prepare the first AI generation",
-        "跟进：Anthropic&#039;s per-token cost runs 4.4 times the average on Vercel, and developers keep paying",
-        "跟进：Reading Zhipu&#8217;s GLM-5.3 results past the headline number",
-        "跟进：任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践"
+        "跟进：Anthropic&#039;s per-token cost runs 4.4 times the average on Vercel, and developers keep paying"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "AutoResearch: Insight In, Hallucination Out",
+              "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting process remains scientifically grounded. We introduce AutoResearch, a two-stage system that connects Idea Generation with Idea Execu…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_342e05491d5234a2b63adbec"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents",
+              "summary": "Long-horizon agents increasingly operate across many steps, tools, and observa- tions. In this setting, the relevant oversight question is not only whether each action is locally valid, but whether the evolving trajectory still corresponds to the task the user authorized. Drift …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d6727914c9748fa6502890b6"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Alvys launches AI agents for freight TMS workflows",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Freight software provider Alvys has launched an agentic AI platform that allows carriers and brokers to automate operational tasks directly within its transportation management system (TMS). Called Alvys Foundry, the pl…",
@@ -43,32 +63,12 @@
               "confidence": 82
             },
             {
-              "title": "任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践",
-              "summary": "TencentDB Agent Memory 在团队记忆上的工程实践:我们如何把任务轨迹、项目知识、代码结构和工作方法转成可治理的记忆资产,...",
+              "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
+              "summary": "Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state, permissions, and external actions. Existing safety benchmarks mainly target individual attack mechanisms or a limited subset of operational settings, making i…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2161a98b5b1fbe628f520f3e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "千问办公开源上下文基础设施,Agent的下一个战场打响",
-              "summary": "但新的问题也随之涌现,Agent的能力边界依旧局限于处理标准化或者通用的任务.越往真实业务里走,Agent的表现就大打折扣.导...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_159b551a0256f5412f36b417"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手【最终版】",
-              "summary": "这个项目试图把整个链条打通:从内容理解到音色设计,从语音合成到专业混音,全部由 AI Agent 自动完成.这是我个人独立开发的...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3ed3d3838446a7b36b4df5c8"
+                "local_03e67a4aa2b0aff71485a5ef"
               ],
               "confidence": 92
             }
@@ -108,24 +108,24 @@
               "confidence": 86
             },
             {
-              "title": "HarmProfile: Characterizing Harmful Distributions in Frontier LLMs",
-              "summary": "Frontier large language models (LLMs) safety evaluation has largely treated harmful generation as an attack outcome rather than as an object of analysis. Consequently, little is known about the harmful outputs produced during model misbehavior, partly because large-scale, high-q…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a8333bfd0bd4ddfe7f506c9d"
+                "local_9a6c348246c3455d444b86a5"
               ],
               "confidence": 92
             },
             {
-              "title": "Accuracy and Order Sensitivity Diverge Under Label-Free Strategies",
-              "summary": "Multiple-choice benchmarks are widely used to evaluate large language models, but MCQ scores conflate knowledge with sensitivity to option order, which makes them unreliable measures of model knowledge. In this paper, we test whether preventing a model from seeing option labels …",
+              "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSe…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_546df86bbbfb3f3ef2fe343e"
+                "local_ff1d2f70b8cc151a31e2502f"
               ],
-              "confidence": 92
+              "confidence": 90
             }
           ]
         },
@@ -146,9 +146,12 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_342e05491d5234a2b63adbec",
+        "local_d6727914c9748fa6502890b6",
         "local_6cfb48fd4b8bb3812f0be4aa",
         "local_c833f16acadae82931ca8d6f",
         "local_5a1fad51303ffc828da585ef",
+        "local_03e67a4aa2b0aff71485a5ef",
         "local_7fb1214def27b09313096b83",
         "local_2161a98b5b1fbe628f520f3e",
         "local_cc7a67b62cc4045797d5f43d",
@@ -156,15 +159,10 @@
         "local_159b551a0256f5412f36b417",
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe",
-        "local_a8333bfd0bd4ddfe7f506c9d",
-        "local_546df86bbbfb3f3ef2fe343e",
-        "local_d7b9e7762eff12260f6dc827",
         "local_9a6c348246c3455d444b86a5",
-        "local_ff1d2f70b8cc151a31e2502f",
-        "local_8408a9382a3f465fe578d516",
-        "local_6c720853098324fa10ce7dd0"
+        "local_ff1d2f70b8cc151a31e2502f"
       ],
-      "generatedAt": "2026-08-19T01:54:47.058Z",
+      "generatedAt": "2026-08-19T03:11:43.176Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -252,13 +250,13 @@
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe"
       ],
-      "generatedAt": "2026-08-19T01:54:47.058Z",
+      "generatedAt": "2026-08-19T03:11:43.176Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-19T01:54:47.058Z",
+  "generatedAt": "2026-08-19T03:11:43.176Z",
   "collectorName": "local-source-collector"
 }
