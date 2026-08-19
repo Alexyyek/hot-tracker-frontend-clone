@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「AutoResearch: Insight In, Hallucination Out」、「Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「AutoResearch: Insight In, Hallucination Out」、「Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AutoResearch: Insight In, Hallucination Out",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents",
@@ -98,16 +98,6 @@
               "confidence": 74
             },
             {
-              "title": "AI systems quietly drop user instructions when they compress context",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When AI systems condense long conversations, they drop an average of 83 percent of user rules, like \"don't send emails without my approval.\" Penn State researchers propose a small add-on module built on Qwen3.5-9B that …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cc7a67b62cc4045797d5f43d"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
@@ -128,21 +118,6 @@
               "confidence": 90
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Anthropic increases revenue sevenfold, hits annualized rate above $65 billion",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Anthropic's annualized revenue has topped $65 billion, a sevenfold increase in one year, according to Bloomberg. The company could go public as early as fall 2026 at a $1 trillion valuation, potentially beating OpenAI t…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_b991da544d52530928622e50"
-              ],
-              "confidence": 90
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
@@ -154,15 +129,13 @@
         "local_03e67a4aa2b0aff71485a5ef",
         "local_7fb1214def27b09313096b83",
         "local_2161a98b5b1fbe628f520f3e",
-        "local_cc7a67b62cc4045797d5f43d",
-        "local_b991da544d52530928622e50",
         "local_0d127417a1010bb73c292ed4",
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe",
         "local_9a6c348246c3455d444b86a5",
         "local_ff1d2f70b8cc151a31e2502f"
       ],
-      "generatedAt": "2026-08-19T13:10:15.144Z",
+      "generatedAt": "2026-08-19T13:59:32.515Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -250,13 +223,13 @@
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe"
       ],
-      "generatedAt": "2026-08-19T13:10:15.144Z",
+      "generatedAt": "2026-08-19T13:59:32.516Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-19T13:10:15.144Z",
+  "generatedAt": "2026-08-19T13:59:32.516Z",
   "collectorName": "local-source-collector"
 }
