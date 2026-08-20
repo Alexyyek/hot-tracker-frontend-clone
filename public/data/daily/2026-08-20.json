@@ -16,7 +16,7 @@
         "跟进：Agentic AI in government just hit the hard part: deciding what a machine may decide",
         "跟进：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
         "跟进：HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector",
-        "跟进：SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents"
+        "跟进：SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection"
       ],
       "sections": [
         {
@@ -63,12 +63,12 @@
               "confidence": 92
             },
             {
-              "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
-              "summary": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while public libraries now hold thousands of them. Which skill to read has thus become a decision the policy itself makes in the middle of an episode, yet no existin…",
+              "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
+              "summary": "LLM-based agents can act on behalf of a user to access cloud services, call tools, or invoke agents. At session start, the agent's permissions are set but remain static, and each request is evaluated independently, without considering prior actions. Within its permissions, an ag…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9f3f6cadeda31077a6569c55"
+                "local_2c52116c1a5835108cb3633a"
               ],
               "confidence": 92
             }
@@ -78,22 +78,22 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "The More Popular, The Harder to Forget: Adaptive Popularity for LLM Unlearning",
-              "summary": "Popular facts are memorised more deeply during pretraining and resist removal longer than rare ones, yet existing LLM unlearning methods apply uniform gradient pressure regardless of training-data frequency. We propose the AdaPop (Adaptive Popularity) method, which combines loca…",
+              "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
+              "summary": "Object detectors often produce over-confident predictions for objects outside their training categories, leading to so-called out-of-distribution (OoD) hallucinations. Existing approaches for detecting or mitigating such hallucinations typically either construct scoring function…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_db92c839561309b5459862c8"
+                "local_04c5b900f840ec85f06b9e7c"
               ],
               "confidence": 92
             },
             {
-              "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
-              "summary": "Token-level hallucination detectors score each token independently from a single signal, and fail exactly when the generating model is confidently wrong. This paper instead treats hallucination as a temporally extended span and detects it by sequence labeling: each token is scor…",
+              "title": "LLMs Get Smarter from Targeted Synthetic Multilingual Data",
+              "summary": "Language-specific competency (LSC) is the phenomenon of a language model performing better or worse depending on the language of the prompt. In other words, a language model outputs different (and potentially incorrect) responses to the same semantic query when prompted in diffe…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_39c3070b3f9d0c73107ce15d"
+                "local_02a90b78c46babe955ef057c"
               ],
               "confidence": 92
             },
@@ -140,10 +140,10 @@
         "local_774f6eae335d2e69e13c16b1",
         "local_ad350cc73f9e58ab6fc057ac",
         "local_14fb96033afadb6a29761e91",
+        "local_04c5b900f840ec85f06b9e7c",
+        "local_02a90b78c46babe955ef057c",
+        "local_2c52116c1a5835108cb3633a",
         "local_9f3f6cadeda31077a6569c55",
-        "local_db92c839561309b5459862c8",
-        "local_39c3070b3f9d0c73107ce15d",
-        "local_eff093e3b01f95c660a9cf57",
         "local_1a3a058c1495293634d19d50",
         "local_03c58d6ebb7880a1a2aa9ae6",
         "local_d96c0915dc0c5f217ab671af",
@@ -152,7 +152,7 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T16:51:54.725Z",
+      "generatedAt": "2026-08-20T17:46:05.458Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -233,13 +233,13 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T16:51:54.725Z",
+      "generatedAt": "2026-08-20T17:46:05.458Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-20T16:51:54.725Z",
+  "generatedAt": "2026-08-20T17:46:05.458Z",
   "collectorName": "local-source-collector"
 }

@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed」、「Anthropic says any lab can now let a language model agent run the whole protein design stack」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed」、「SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says any lab can now let a language model agent run the whole protein design stack",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EP-Harness:从个人 AI Coding 到团队级 Agent 工作流|得物技术"
       ],
       "watchItems": [
         "跟进：GLM-5.3 tops the open-model rankings and undercuts rivals on price, but its release is delayed",
-        "跟进：Anthropic says any lab can now let a language model agent run the whole protein design stack",
         "跟进：SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
         "跟进：EP-Harness:从个人 AI Coding 到团队级 Agent 工作流|得物技术",
-        "跟进：Code Health in LLM-Based Test Generation: Effectiveness and Token Efficiency"
+        "跟进：Code Health in LLM-Based Test Generation: Effectiveness and Token Efficiency",
+        "跟进：大模型推理加速全链路:内存管理、编译优化、量化与并行策略"
       ],
       "sections": [
         {
@@ -37,16 +37,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Anthropic says any lab can now let a language model agent run the whole protein design stack",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic had its Claude models design small proteins on their own that dock onto target structures in the body, a key step in early drug development. The hit rate reached up to 35 percent, far above the industry averag…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0828100acb9855bb83926d83"
-              ],
-              "confidence": 92
-            },
             {
               "title": "SkillGate: Training In-Policy Skill Selection in Long-Horizon Agents",
               "summary": "Agent frameworks increasingly package procedural knowledge as skills: instruction files an agent reads on demand, while public libraries now hold thousands of them. Which skill to read has thus become a decision the policy itself makes in the middle of an episode, yet no existin…",
@@ -86,6 +76,16 @@
                 "local_8e36c2f4c21f9c9a5a79d559"
               ],
               "confidence": 92
+            },
+            {
+              "title": "SemaPLC: A Project-Grounded, Verification-Gated Agent Harness for PLC Code Generation",
+              "summary": "Programmable logic controllers (PLCs) run industrial plants, and large language models can already generate independent program organization units (POUs) for them. Whether such logic integrates into an existing PLC project and then runs correctly has been checked only in limited…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_be52b1a9db0b7e227e38a22e"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -117,7 +117,6 @@
       ],
       "referencedFeedItemIds": [
         "local_366d4347262d3687d06bb94a",
-        "local_0828100acb9855bb83926d83",
         "local_6ea6d271f6dc2914b5f3262b",
         "local_86339110545e4fe92cd7c994",
         "local_d0299dfa2e43393bc0d58641",
@@ -130,7 +129,7 @@
         "local_5222f4da6a4c26c351d212ee",
         "local_90cdc17b700975a06092bb68"
       ],
-      "generatedAt": "2026-08-20T16:51:54.733Z",
+      "generatedAt": "2026-08-20T17:46:05.471Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -218,13 +217,13 @@
         "local_d47ed196d79d545815727378",
         "local_90cdc17b700975a06092bb68"
       ],
-      "generatedAt": "2026-08-20T16:51:54.733Z",
+      "generatedAt": "2026-08-20T17:46:05.471Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-20T16:51:54.734Z",
+  "generatedAt": "2026-08-20T17:46:05.471Z",
   "collectorName": "local-source-collector"
 }
