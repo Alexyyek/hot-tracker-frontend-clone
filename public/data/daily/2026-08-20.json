@@ -16,7 +16,7 @@
         "跟进：Agentic AI in government just hit the hard part: deciding what a machine may decide",
         "跟进：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
         "跟进：HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector",
-        "跟进：Towards Real-Time and Adaptable LiDAR Scene Completion"
+        "跟进：Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems"
       ],
       "sections": [
         {
@@ -63,14 +63,49 @@
               "confidence": 92
             },
             {
-              "title": "Bounded Agents: Delegation Security for Multi-Agent AI Systems",
-              "summary": "LLM-based agents can act on behalf of a user to access cloud services, call tools, or invoke agents. At session start, the agent's permissions are set but remain static, and each request is evaluated independently, without considering prior actions. Within its permissions, an ag…",
+              "title": "Conceptual integrity and counting lines of code",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights fr…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2c52116c1a5835108cb3633a"
+                "local_d96c0915dc0c5f217ab671af"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
+              "summary": "Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music editing systems have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. How…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e396507e309e0bae00c338cb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1a3a058c1495293634d19d50"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_f487b38283a35803ad97aa96"
+              ],
+              "confidence": 74
             }
           ]
         },
@@ -118,31 +153,6 @@
               "confidence": 78
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1a3a058c1495293634d19d50"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f487b38283a35803ad97aa96"
-              ],
-              "confidence": 74
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
@@ -150,10 +160,10 @@
         "local_774f6eae335d2e69e13c16b1",
         "local_ad350cc73f9e58ab6fc057ac",
         "local_14fb96033afadb6a29761e91",
+        "local_e396507e309e0bae00c338cb",
         "local_90d173e0bcee97cf410b6703",
         "local_04c5b900f840ec85f06b9e7c",
         "local_02a90b78c46babe955ef057c",
-        "local_2c52116c1a5835108cb3633a",
         "local_1a3a058c1495293634d19d50",
         "local_03c58d6ebb7880a1a2aa9ae6",
         "local_d96c0915dc0c5f217ab671af",
@@ -162,7 +172,7 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T19:44:26.858Z",
+      "generatedAt": "2026-08-20T20:44:54.707Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -243,13 +253,13 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T19:44:26.858Z",
+      "generatedAt": "2026-08-20T20:44:54.707Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-20T19:44:26.858Z",
+  "generatedAt": "2026-08-20T20:44:54.707Z",
   "collectorName": "local-source-collector"
 }
