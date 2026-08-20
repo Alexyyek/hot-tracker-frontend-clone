@@ -5,43 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-08-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「AutoResearch: Insight In, Hallucination Out」、「Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Alvys launches AI agents for freight TMS workflows」、「Partnering with CodeAI to prepare the first AI generation」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AutoResearch: Insight In, Hallucination Out",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Alvys launches AI agents for freight TMS workflows"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Alvys launches AI agents for freight TMS workflows",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Partnering with CodeAI to prepare the first AI generation",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reading Zhipu&#8217;s GLM-5.3 results past the headline number"
       ],
       "watchItems": [
-        "跟进：AutoResearch: Insight In, Hallucination Out",
-        "跟进：Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents",
         "跟进：Alvys launches AI agents for freight TMS workflows",
         "跟进：Partnering with CodeAI to prepare the first AI generation",
-        "跟进：HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety"
+        "跟进：Reading Zhipu&#8217;s GLM-5.3 results past the headline number",
+        "跟进：任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践",
+        "跟进：千问办公开源上下文基础设施,Agent的下一个战场打响"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "AutoResearch: Insight In, Hallucination Out",
-              "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting process remains scientifically grounded. We introduce AutoResearch, a two-stage system that connects Idea Generation with Idea Execu…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_342e05491d5234a2b63adbec"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Beyond Suspicious Steps: Ontological Trust in Long-Horizon Agents",
-              "summary": "Long-horizon agents increasingly operate across many steps, tools, and observa- tions. In this setting, the relevant oversight question is not only whether each action is locally valid, but whether the evolving trajectory still corresponds to the task the user authorized. Drift …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d6727914c9748fa6502890b6"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Alvys launches AI agents for freight TMS workflows",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Freight software provider Alvys has launched an agentic AI platform that allows carriers and brokers to automate operational tasks directly within its transportation management system (TMS). Called Alvys Foundry, the pl…",
@@ -63,12 +43,32 @@
               "confidence": 82
             },
             {
-              "title": "HarnessRisk: A Lifecycle-Oriented Benchmark for Agent Harness Safety",
-              "summary": "Large language models are increasingly deployed through agent harnesses that manage tools, extensions, persistent state, permissions, and external actions. Existing safety benchmarks mainly target individual attack mechanisms or a limited subset of operational settings, making i…",
+              "title": "任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践",
+              "summary": "TencentDB Agent Memory 在团队记忆上的工程实践:我们如何把任务轨迹、项目知识、代码结构和工作方法转成可治理的记忆资产,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_03e67a4aa2b0aff71485a5ef"
+                "local_2161a98b5b1fbe628f520f3e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "千问办公开源上下文基础设施,Agent的下一个战场打响",
+              "summary": "但新的问题也随之涌现,Agent的能力边界依旧局限于处理标准化或者通用的任务.越往真实业务里走,Agent的表现就大打折扣.导...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0d127417a1010bb73c292ed4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手【最终版】",
+              "summary": "这个项目试图把整个链条打通:从内容理解到音色设计,从语音合成到专业混音,全部由 AI Agent 自动完成.这是我个人独立开发的...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3ed3d3838446a7b36b4df5c8"
               ],
               "confidence": 92
             }
@@ -91,18 +91,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_342e05491d5234a2b63adbec",
-        "local_d6727914c9748fa6502890b6",
         "local_6cfb48fd4b8bb3812f0be4aa",
         "local_c833f16acadae82931ca8d6f",
-        "local_03e67a4aa2b0aff71485a5ef",
         "local_7fb1214def27b09313096b83",
         "local_2161a98b5b1fbe628f520f3e",
         "local_0d127417a1010bb73c292ed4",
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe"
       ],
-      "generatedAt": "2026-08-20T01:52:08.938Z",
+      "generatedAt": "2026-08-20T03:10:42.768Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,13 +187,13 @@
         "local_3ed3d3838446a7b36b4df5c8",
         "local_24ecb445c2a64c82a3a2abfe"
       ],
-      "generatedAt": "2026-08-20T01:52:08.938Z",
+      "generatedAt": "2026-08-20T03:10:42.768Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-20T01:52:08.938Z",
+  "generatedAt": "2026-08-20T03:10:42.768Z",
   "collectorName": "local-source-collector"
 }
