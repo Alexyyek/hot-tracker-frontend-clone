@@ -16,7 +16,7 @@
         "跟进：Agentic AI in government just hit the hard part: deciding what a machine may decide",
         "跟进：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
         "跟进：HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector",
-        "跟进：SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection"
+        "跟进：Towards Real-Time and Adaptable LiDAR Scene Completion"
       ],
       "sections": [
         {
@@ -77,6 +77,16 @@
         {
           "title": "模型与基础设施",
           "items": [
+            {
+              "title": "Towards Real-Time and Adaptable LiDAR Scene Completion",
+              "summary": "LiDAR scene completion is a key component of 3D perception in autonomous driving, where the scene must be completed in real time to be usable in downstream tasks. Existing approaches typically follow an initialize-and-refine paradigm, in which a coarse initialization of the scen…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_90d173e0bcee97cf410b6703"
+              ],
+              "confidence": 82
+            },
             {
               "title": "SPK: Eliciting Structured Prior Knowledge for Interpretable Out-of-Distribution Detection in Real-Time Object Detection",
               "summary": "Object detectors often produce over-confident predictions for objects outside their training categories, leading to so-called out-of-distribution (OoD) hallucinations. Existing approaches for detecting or mitigating such hallucinations typically either construct scoring function…",
@@ -140,10 +150,10 @@
         "local_774f6eae335d2e69e13c16b1",
         "local_ad350cc73f9e58ab6fc057ac",
         "local_14fb96033afadb6a29761e91",
+        "local_90d173e0bcee97cf410b6703",
         "local_04c5b900f840ec85f06b9e7c",
         "local_02a90b78c46babe955ef057c",
         "local_2c52116c1a5835108cb3633a",
-        "local_9f3f6cadeda31077a6569c55",
         "local_1a3a058c1495293634d19d50",
         "local_03c58d6ebb7880a1a2aa9ae6",
         "local_d96c0915dc0c5f217ab671af",
@@ -152,7 +162,7 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T19:00:49.547Z",
+      "generatedAt": "2026-08-20T19:44:26.858Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -233,13 +243,13 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T19:00:49.547Z",
+      "generatedAt": "2026-08-20T19:44:26.858Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-20T19:00:49.547Z",
+  "generatedAt": "2026-08-20T19:44:26.858Z",
   "collectorName": "local-source-collector"
 }
