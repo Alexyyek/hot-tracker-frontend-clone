@@ -5,20 +5,65 @@
       "topicId": "ai",
       "reportDate": "2026-08-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world」、「Agentic AI in government just hit the hard part: deciding what a machine may decide」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities」、「KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI in government just hit the hard part: deciding what a machine may decide",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI in government just hit the hard part: deciding what a machine may decide"
       ],
       "watchItems": [
+        "跟进：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
         "跟进：KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world",
         "跟进：Agentic AI in government just hit the hard part: deciding what a machine may decide",
         "跟进：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
-        "跟进：HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector",
-        "跟进：Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems"
+        "跟进：HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector"
       ],
       "sections": [
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Amazon plans to expand its Prime Air drone delivery service to nearly 500 cities and towns across the US by the end of 2026. That build-out amounts to six times the number of locations Prime Air serves today, extending …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_98d00b897d12b379cd74ccfd"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
+              "summary": "Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music editing systems have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. How…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e396507e309e0bae00c338cb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1a3a058c1495293634d19d50"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_f487b38283a35803ad97aa96"
+              ],
+              "confidence": 74
+            }
+          ]
+        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -75,41 +120,6 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Evaluating Music Context Preservation: A Multi-facet Framework for Music Editing Systems",
-              "summary": "Music editing plays a vital role in modern music production, with applications in film, broadcasting, and game development. Recent advances in music editing systems have enabled diverse editing tasks such as timbre transfer, instrument substitution, and genre transformation. How…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e396507e309e0bae00c338cb"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1a3a058c1495293634d19d50"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Robots need policies that can adapt to their sensors, environments, and tasks while running on onboard computing hardware. World models offer a foundation for...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f487b38283a35803ad97aa96"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
             {
@@ -156,6 +166,7 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_98d00b897d12b379cd74ccfd",
         "local_7c8ecf7a9de0c825ae7cb9f0",
         "local_774f6eae335d2e69e13c16b1",
         "local_ad350cc73f9e58ab6fc057ac",
@@ -172,7 +183,7 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T20:44:54.707Z",
+      "generatedAt": "2026-08-20T21:42:11.864Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -253,13 +264,13 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-20T20:44:54.707Z",
+      "generatedAt": "2026-08-20T21:42:11.864Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-20T20:44:54.707Z",
+  "generatedAt": "2026-08-20T21:42:11.864Z",
   "collectorName": "local-source-collector"
 }
