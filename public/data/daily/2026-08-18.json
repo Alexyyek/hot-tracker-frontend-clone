@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-08-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Alvys launches AI agents for freight TMS workflows」、「Partnering with CodeAI to prepare the first AI generation」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Partnering with CodeAI to prepare the first AI generation」、「任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Alvys launches AI agents for freight TMS workflows",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Partnering with CodeAI to prepare the first AI generation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公开源上下文基础设施,Agent的下一个战场打响"
       ],
       "watchItems": [
-        "跟进：Alvys launches AI agents for freight TMS workflows",
         "跟进：Partnering with CodeAI to prepare the first AI generation",
         "跟进：任何错误只犯一次:TencentDB Agent Memory 的团队记忆实践",
         "跟进：千问办公开源上下文基础设施,Agent的下一个战场打响",
-        "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手【最终版】"
+        "跟进：【全栈实践】第一个 AI Agent 项目:从零搭建 AI 音频创作助手【最终版】",
+        "跟进：Agent的命门是上下文:关键不在少给,而在给对"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Alvys launches AI agents for freight TMS workflows",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Freight software provider Alvys has launched an agentic AI platform that allows carriers and brokers to automate operational tasks directly within its transportation management system (TMS). Called Alvys Foundry, the pl…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6cfb48fd4b8bb3812f0be4aa"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Partnering with CodeAI to prepare the first AI generation",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
@@ -71,19 +61,28 @@
                 "local_99948aa81a151d2ad5d1277d"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Agent的命门是上下文:关键不在少给,而在给对",
+              "summary": "导语腾讯云轻量云有一套用来组织 AI 开发的工作流Devflow:我只... Agent 依次接手.欢迎体验轻量云团队多Agent工作流&mdash;&mdash;只需一...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1e735c6a2e0f444ceab17873"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_6cfb48fd4b8bb3812f0be4aa",
         "local_c833f16acadae82931ca8d6f",
         "local_e9ff403e11cebc27028a4e99",
         "local_d29e38012a42a8331d4c8163",
         "local_99948aa81a151d2ad5d1277d",
         "local_1e735c6a2e0f444ceab17873"
       ],
-      "generatedAt": "2026-08-21T07:58:41.381Z",
+      "generatedAt": "2026-08-21T08:58:24.615Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -171,13 +170,13 @@
         "local_99948aa81a151d2ad5d1277d",
         "local_1e735c6a2e0f444ceab17873"
       ],
-      "generatedAt": "2026-08-21T07:58:41.381Z",
+      "generatedAt": "2026-08-21T08:58:24.615Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-21T07:58:41.381Z",
+  "generatedAt": "2026-08-21T08:58:24.615Z",
   "collectorName": "local-source-collector"
 }
