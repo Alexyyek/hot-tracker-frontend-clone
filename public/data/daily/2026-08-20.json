@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation」、「A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation」、「A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
@@ -16,7 +16,7 @@
         "跟进：A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
         "跟进：Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
         "跟进：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
-        "跟进：KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world"
+        "跟进：Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis"
       ],
       "sections": [
         {
@@ -43,16 +43,6 @@
               "confidence": 92
             },
             {
-              "title": "KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Turing Award winner Richard Sutton calls synthetic data a \"big mistake\" for scaling large language models. The world is infinitely complex, and any simulation of it is \"microscopic,\" with human expertise acting as a bot…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7c8ecf7a9de0c825ae7cb9f0"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis",
               "summary": "AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and the claim is limited to what the evidence supports. Agents may reproduce failures including selective analysis, premature declarations of success …",
               "insightLabel": "关注",
@@ -69,6 +59,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_774f6eae335d2e69e13c16b1"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents",
+              "summary": "Credit assignment is challenging in long-horizon agentic reinforcement learning, where supervision often comes only from final rewards. Existing methods refine trajectory-level signals into step-level credits through step grouping or graph-based advantage estimation, but can ove…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8a1e98a5561af00d3eebe2d3"
               ],
               "confidence": 92
             }
@@ -130,7 +130,6 @@
         "local_e871dabfd65aaf710c3c1f81",
         "local_afd3d22e66708210b3cdedb2",
         "local_98d00b897d12b379cd74ccfd",
-        "local_7c8ecf7a9de0c825ae7cb9f0",
         "local_c12c214b92ce8b253f6a5123",
         "local_774f6eae335d2e69e13c16b1",
         "local_8a1e98a5561af00d3eebe2d3",
@@ -140,7 +139,7 @@
         "local_27212fc14cccf03b0ead5d65",
         "local_f487b38283a35803ad97aa96"
       ],
-      "generatedAt": "2026-08-21T18:57:14.587Z",
+      "generatedAt": "2026-08-21T19:37:28.410Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -209,13 +208,13 @@
         "local_27212fc14cccf03b0ead5d65",
         "local_f487b38283a35803ad97aa96"
       ],
-      "generatedAt": "2026-08-21T18:57:14.587Z",
+      "generatedAt": "2026-08-21T19:37:28.410Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-21T18:57:14.588Z",
+  "generatedAt": "2026-08-21T19:37:28.411Z",
   "collectorName": "local-source-collector"
 }
