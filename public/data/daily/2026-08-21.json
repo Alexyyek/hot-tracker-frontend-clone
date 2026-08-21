@@ -43,6 +43,16 @@
               "confidence": 78
             },
             {
+              "title": "The Embedder's Dilemma: LLMs Are Better, but at What Cost?",
+              "summary": "Should you replace your text-embedding pipeline with a large language model? We answer this with a controlled, cost-aware comparison of ten LLMs across six families and 26 embedding models (118M to 14B parameters) on 37 tasks spanning classification, semantic textual similarity …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_89dbe2535bcabe486e15fb5b"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "LLMs could write like humans but post-training guardrails make their text detectable",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLMs don't write in a recognizable style because they can't do better. Post-training and safety guardrails sharply narrow their expressive range, argues Pangram CTO Bradley Emi. Base models without these constraints alr…",
               "insightLabel": "关注",
@@ -83,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_47a6dd0cfb6cabd455f7025c"
+                "local_777e1f621ee1de8168797177"
               ],
               "confidence": 92
             },
@@ -139,18 +149,18 @@
         "local_ce0a58690a61ac06e91ac185",
         "local_c504d9357e3f42bbcb400c71",
         "local_0ef782d77c0508dda0530f40",
-        "local_47a6dd0cfb6cabd455f7025c",
+        "local_777e1f621ee1de8168797177",
         "local_66726887564e46f112b26af1",
         "local_70aeb07498f29cf9134dcad2",
         "local_fbeded603a7c30e042d0dac7",
+        "local_89dbe2535bcabe486e15fb5b",
         "local_dc1839ba671faf4e0b03d569",
         "local_3dcdb1d7b9451e336395213c",
         "local_4aa6c1521c82fa920396f143",
-        "local_3bc0ab2b34e26a1e70478caa",
         "local_20792d3b0d8b538c4bdd7ebe",
         "local_7068859d1bf3996f54549cd6"
       ],
-      "generatedAt": "2026-08-21T17:43:50.426Z",
+      "generatedAt": "2026-08-21T18:57:14.575Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -201,13 +211,13 @@
         "local_c504d9357e3f42bbcb400c71",
         "local_0ef782d77c0508dda0530f40"
       ],
-      "generatedAt": "2026-08-21T17:43:50.426Z",
+      "generatedAt": "2026-08-21T18:57:14.575Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-21T17:43:50.426Z",
+  "generatedAt": "2026-08-21T18:57:14.575Z",
   "collectorName": "local-source-collector"
 }
