@@ -5,20 +5,75 @@
       "topicId": "ai",
       "reportDate": "2026-08-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView」、「Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation」、「A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection"
       ],
       "watchItems": [
+        "跟进：From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
         "跟进：A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+        "跟进：Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
         "跟进：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
-        "跟进：KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world",
-        "跟进：Agentic AI in government just hit the hard part: deciding what a machine may decide",
-        "跟进：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系"
+        "跟进：KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
+              "summary": "Technical documentation is written for human developers, but an increasing share of software changes is now authored by autonomous coding agents. Which documents they consult, when, and what follows remain unknown. We conduct a behaviour-grounded study of agent-documentation int…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_032a6fdfb1142d862fde1d82"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
+              "summary": "We present a novel approach to efficient LLM agent harness optimization through adaptive validation task selection. Harness optimization iteratively rewrites the harness code based on validation performance, enabling substantial performance gains without updating the underlying …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_afd3d22e66708210b3cdedb2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Turing Award winner Richard Sutton calls synthetic data a \"big mistake\" for scaling large language models. The world is infinitely complex, and any simulation of it is \"microscopic,\" with human expertise acting as a bot…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7c8ecf7a9de0c825ae7cb9f0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis",
+              "summary": "AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and the claim is limited to what the evidence supports. Agents may reproduce failures including selective analysis, premature declarations of success …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c12c214b92ce8b253f6a5123"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agentic AI in government just hit the hard part: deciding what a machine may decide",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The United Arab Emirates (UAE) has been early in adopting artificial intelligence for 9 years. It published a national AI strategy in October 2017 and, days later, created a ministerial post to run it, making Omar Sulta…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_774f6eae335d2e69e13c16b1"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
         {
           "title": "行业与公司",
           "items": [
@@ -65,73 +120,8 @@
           ]
         },
         {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "KI-Pioneer Sutton calls synthetic data a \"big mistake\" in the face of an infinitely complex world",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Turing Award winner Richard Sutton calls synthetic data a \"big mistake\" for scaling large language models. The world is infinitely complex, and any simulation of it is \"microscopic,\" with human expertise acting as a bot…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7c8ecf7a9de0c825ae7cb9f0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agentic AI in government just hit the hard part: deciding what a machine may decide",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The United Arab Emirates (UAE) has been early in adopting artificial intelligence for 9 years. It published a national AI strategy in October 2017 and, days later, created a ministerial post to run it, making Omar Sulta…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_774f6eae335d2e69e13c16b1"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
-              "summary": "以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 背景与挑战:Agent 的\"黑盒\"困境从去年开始,Agent 的能力逐渐进入...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ad350cc73f9e58ab6fc057ac"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Autonomous artificial intelligence agents have already penetrated the offices of large, global enterprises. Now, HoneyBook is trying to bring that same capability to independent businesses with the launch of HoneyBook M…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_14fb96033afadb6a29761e91"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Holoscan is a platform for building real-time AI applications at the edge, from medical imaging to robotics. HoloHub is its companion repository: a...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_27212fc14cccf03b0ead5d65"
-              ],
-              "confidence": 90
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
-              "summary": "Using reinforcement learning to post-train joint video-audio generation models requires a reward signal. Existing methods construct this reward by combining metrics for individual quality dimensions, including audio quality, visual fidelity, and synchronization. However, these m…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_644d8c9ae4a0ec1996ec853d"
-              ],
-              "confidence": 92
-            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -156,13 +146,16 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_032a6fdfb1142d862fde1d82",
         "local_e871dabfd65aaf710c3c1f81",
+        "local_afd3d22e66708210b3cdedb2",
         "local_98d00b897d12b379cd74ccfd",
         "local_7c8ecf7a9de0c825ae7cb9f0",
+        "local_c12c214b92ce8b253f6a5123",
         "local_774f6eae335d2e69e13c16b1",
+        "local_8a1e98a5561af00d3eebe2d3",
         "local_ad350cc73f9e58ab6fc057ac",
         "local_14fb96033afadb6a29761e91",
-        "local_644d8c9ae4a0ec1996ec853d",
         "local_384fb14ec841b00dbe96d64f",
         "local_1a3a058c1495293634d19d50",
         "local_03c58d6ebb7880a1a2aa9ae6",
@@ -171,7 +164,7 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-21T01:58:00.058Z",
+      "generatedAt": "2026-08-21T03:17:26.870Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -252,13 +245,13 @@
         "local_f487b38283a35803ad97aa96",
         "local_91ffcf5097cacfa1448f2f92"
       ],
-      "generatedAt": "2026-08-21T01:58:00.058Z",
+      "generatedAt": "2026-08-21T03:17:26.870Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-21T01:58:00.058Z",
+  "generatedAt": "2026-08-21T03:17:26.871Z",
   "collectorName": "local-source-collector"
 }
