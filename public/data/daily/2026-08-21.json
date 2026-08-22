@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Quoting Matt Webb」、「NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Quoting Matt Webb」、「NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matt Webb",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents",
@@ -61,16 +61,6 @@
                 "local_5606204004a6d535f01ba823"
               ],
               "confidence": 92
-            },
-            {
-              "title": "LLMs could write like humans but post-training guardrails make their text detectable",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLMs don't write in a recognizable style because they can't do better. Post-training and safety guardrails sharply narrow their expressive range, argues Pangram CTO Bradley Emi. Base models without these constraints alr…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7068859d1bf3996f54549cd6"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -103,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_40de1af8425a4baa10e0a01d"
+                "local_3a902fbdd15b92c21d67eb3b"
               ],
               "confidence": 92
             },
@@ -133,16 +123,6 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "GPT-5.6 Sol drives OpenAI&#039;s revenue surge as it regains ground on Anthropic",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Since GPT-5.6 Sol launched in early July, OpenAI says revenue is up 35 percent this quarter, with enterprise revenue growing more than 50 percent. Ramp data shows OpenAI outpacing Anthropic in business API spending for …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fbeded603a7c30e042d0dac7"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
               "summary": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 parameters, on the premise that at this size the periodic structure of a context is worth computing rather than learning. A zero-parameter spectral detector supplies t…",
               "insightLabel": "关注",
@@ -159,19 +139,17 @@
         "local_ce0a58690a61ac06e91ac185",
         "local_c504d9357e3f42bbcb400c71",
         "local_0ef782d77c0508dda0530f40",
-        "local_40de1af8425a4baa10e0a01d",
+        "local_3a902fbdd15b92c21d67eb3b",
         "local_66726887564e46f112b26af1",
         "local_70aeb07498f29cf9134dcad2",
-        "local_fbeded603a7c30e042d0dac7",
         "local_89c82afc9f20ed4acb03b8c1",
         "local_f0ff8a31b659108b2c6c2e51",
         "local_0b15f75a020eb0fa49372930",
         "local_89dbe2535bcabe486e15fb5b",
         "local_dc1839ba671faf4e0b03d569",
-        "local_5606204004a6d535f01ba823",
-        "local_7068859d1bf3996f54549cd6"
+        "local_5606204004a6d535f01ba823"
       ],
-      "generatedAt": "2026-08-22T07:00:16.739Z",
+      "generatedAt": "2026-08-22T07:45:08.450Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -235,13 +213,13 @@
         "local_0ef782d77c0508dda0530f40",
         "local_89c82afc9f20ed4acb03b8c1"
       ],
-      "generatedAt": "2026-08-22T07:00:16.739Z",
+      "generatedAt": "2026-08-22T07:45:08.450Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-22T07:00:16.739Z",
+  "generatedAt": "2026-08-22T07:45:08.450Z",
   "collectorName": "local-source-collector"
 }
