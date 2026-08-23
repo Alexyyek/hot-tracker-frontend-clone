@@ -5,14 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-08-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「More than just code review」、「Study explains why AI agents benefit from \"skills\" and when they fail」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Study explains why AI agents benefit from \"skills\" and when they fail」、「World models that ignore human beliefs predict the wrong actions, new research shows」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：More than just code review",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Study explains why AI agents benefit from \"skills\" and when they fail",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：World models that ignore human beliefs predict the wrong actions, new research shows"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：World models that ignore human beliefs predict the wrong actions, new research shows",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云开展高校AI师资培训,助力智能体教学实践"
       ],
       "watchItems": [
-        "跟进：More than just code review",
         "跟进：Study explains why AI agents benefit from \"skills\" and when they fail",
         "跟进：World models that ignore human beliefs predict the wrong actions, new research shows",
         "跟进：华为云开展高校AI师资培训,助力智能体教学实践",
@@ -22,16 +21,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "More than just code review",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Somet…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_db724199cad78d5b604b41b2"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Study explains why AI agents benefit from \"skills\" and when they fail",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A study from researchers at Princeton University and UC San Diego finds that so-called skills make AI agents better mainly through structured workflows, not through added knowledge. But as the skill library grows, agent…",
@@ -81,29 +70,17 @@
                 "local_d14ff8d18c3b7b279ca99fce"
               ],
               "confidence": 92
-            },
-            {
-              "title": "llm 0.32.1",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx, and it turned out LLM depended on that library but only installed it via a transitive…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_5d06dfb25ecf60e12b98e04a"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_db724199cad78d5b604b41b2",
         "local_462bc511e7a864610343ae9e",
         "local_648475c53843e8265a00c578",
         "local_6e7ef907a5f2518ca9f6b7f1",
-        "local_d14ff8d18c3b7b279ca99fce",
-        "local_5d06dfb25ecf60e12b98e04a"
+        "local_d14ff8d18c3b7b279ca99fce"
       ],
-      "generatedAt": "2026-08-23T19:55:26.942Z",
+      "generatedAt": "2026-08-23T20:39:01.150Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -141,13 +118,13 @@
       "referencedFeedItemIds": [
         "local_6e7ef907a5f2518ca9f6b7f1"
       ],
-      "generatedAt": "2026-08-23T19:55:26.942Z",
+      "generatedAt": "2026-08-23T20:39:01.150Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-23T19:55:26.942Z",
+  "generatedAt": "2026-08-23T20:39:01.150Z",
   "collectorName": "local-source-collector"
 }
