@@ -15,7 +15,7 @@
         "跟进：Study explains why AI agents benefit from \"skills\" and when they fail",
         "跟进：World models that ignore human beliefs predict the wrong actions, new research shows",
         "跟进：华为云开展高校AI师资培训,助力智能体教学实践",
-        "跟进：LLM Rankings"
+        "跟进：AI-to-AI Code Reviews of GitHub Pull Requests"
       ],
       "sections": [
         {
@@ -37,7 +37,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6e7ef907a5f2518ca9f6b7f1"
+                "local_5bb36dd22ae5acbab3c7f258"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI-to-AI Code Reviews of GitHub Pull Requests",
+              "summary": "AI coding agents are increasingly integrated into software development workflows, operating on both sides of the pull-request (PR) process: AI authoring agents create or modify PRs, while AI reviewers evaluate them. This creates a closed loop in which one AI coding agent reviews…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c9e0fa144d099e7f3e0dc512"
               ],
               "confidence": 92
             }
@@ -57,30 +67,15 @@
               "confidence": 82
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d14ff8d18c3b7b279ca99fce"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_462bc511e7a864610343ae9e",
         "local_648475c53843e8265a00c578",
-        "local_6e7ef907a5f2518ca9f6b7f1",
-        "local_d14ff8d18c3b7b279ca99fce"
+        "local_5bb36dd22ae5acbab3c7f258",
+        "local_c9e0fa144d099e7f3e0dc512"
       ],
-      "generatedAt": "2026-08-23T23:56:57.353Z",
+      "generatedAt": "2026-08-24T02:03:29.592Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -108,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6e7ef907a5f2518ca9f6b7f1"
+                "local_5bb36dd22ae5acbab3c7f258"
               ],
               "confidence": 92
             }
@@ -116,15 +111,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6e7ef907a5f2518ca9f6b7f1"
+        "local_5bb36dd22ae5acbab3c7f258"
       ],
-      "generatedAt": "2026-08-23T23:56:57.353Z",
+      "generatedAt": "2026-08-24T02:03:29.592Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-23T23:56:57.354Z",
+  "generatedAt": "2026-08-24T02:03:29.592Z",
   "collectorName": "local-source-collector"
 }

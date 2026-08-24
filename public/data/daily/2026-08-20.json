@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-08-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation」、「Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities」、「Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ling-3.0-flash :为真实世界而生的开放智能"
       ],
       "watchItems": [
-        "跟进：From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
-        "跟进：Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
         "跟进：Amazon&#8217;s Prime Air autonomous drones to reach 500 US cities",
-        "跟进：Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis",
-        "跟进：Ling-3.0-flash :为真实世界而生的开放智能"
+        "跟进：Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架",
+        "跟进：Ling-3.0-flash :为真实世界而生的开放智能",
+        "跟进：Agentic AI in government just hit the hard part: deciding what a machine may decide",
+        "跟进：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "From Agent Behaviour to Agent-Friendly Documentation: An Empirical Study of How Coding Agents Discover, Read, and Write Technical Documentation",
-              "summary": "Technical documentation is written for human developers, but an increasing share of software changes is now authored by autonomous coding agents. Which documents they consult, when, and what follows remain unknown. We conduct a behaviour-grounded study of agent-documentation int…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_032a6fdfb1142d862fde1d82"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Task-CoEvolve: Efficient Harness Optimization via Adaptive Validation Task Selection",
-              "summary": "We present a novel approach to efficient LLM agent harness optimization through adaptive validation task selection. Harness optimization iteratively rewrites the harness code based on validation performance, enabling substantial performance gains without updating the underlying …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_afd3d22e66708210b3cdedb2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis",
-              "summary": "AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and the claim is limited to what the evidence supports. Agents may reproduce failures including selective analysis, premature declarations of success …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c12c214b92ce8b253f6a5123"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Ling-3.0-flash :为真实世界而生的开放智能",
-              "summary": "Agent 工作流中尤其明显.一个 Agent 任务完成任务,通常需要经... 把数据与技术路径留在自己的环境中近期,Sebastian Raschka 在...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2b42079c385e773299710fce"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Agentic AI in government just hit the hard part: deciding what a machine may decide",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The United Arab Emirates (UAE) has been early in adopting artificial intelligence for 9 years. It published a national AI strategy in October 2017 and, days later, created a ministerial post to run it, making Omar Sulta…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_774f6eae335d2e69e13c16b1"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "行业与公司",
           "items": [
@@ -98,23 +43,75 @@
               "confidence": 74
             }
           ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架",
+              "summary": "微软亚洲研究院的研究员们提出了 Harnessed Agentic RL 训练范式,并开源了全面重构的 Agent Lightning v1.0 .相比原版本的Agent ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_093854f47908b68aa01e4385"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Ling-3.0-flash :为真实世界而生的开放智能",
+              "summary": "Agent 工作流中尤其明显.一个 Agent 任务完成任务,通常需要经... 把数据与技术路径留在自己的环境中近期,Sebastian Raschka 在...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2b42079c385e773299710fce"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Agentic AI in government just hit the hard part: deciding what a machine may decide",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The United Arab Emirates (UAE) has been early in adopting artificial intelligence for 9 years. It published a national AI strategy in October 2017 and, days later, created a ministerial post to run it, making Omar Sulta…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_774f6eae335d2e69e13c16b1"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
+              "summary": "以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 背景与挑战:Agent 的\"黑盒\"困境从去年开始,Agent 的能力逐渐进入...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cf6c934ae894facc2fa2127d"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Autonomous artificial intelligence agents have already penetrated the offices of large, global enterprises. Now, HoneyBook is trying to bring that same capability to independent businesses with the launch of HoneyBook M…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_14fb96033afadb6a29761e91"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_032a6fdfb1142d862fde1d82",
-        "local_afd3d22e66708210b3cdedb2",
         "local_98d00b897d12b379cd74ccfd",
-        "local_c12c214b92ce8b253f6a5123",
+        "local_093854f47908b68aa01e4385",
         "local_2b42079c385e773299710fce",
         "local_774f6eae335d2e69e13c16b1",
-        "local_8a1e98a5561af00d3eebe2d3",
-        "local_2333234dc770f70658dbdc69",
+        "local_cf6c934ae894facc2fa2127d",
         "local_14fb96033afadb6a29761e91",
-        "local_a1f63c1845f4c2a7cefc2cec",
+        "local_97bd2c01e63b934dbd57ad88",
         "local_27212fc14cccf03b0ead5d65",
         "local_f487b38283a35803ad97aa96"
       ],
-      "generatedAt": "2026-08-23T23:56:57.382Z",
+      "generatedAt": "2026-08-24T02:03:29.613Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -125,23 +122,33 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-20",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Ling-3.0-flash :为真实世界而生的开放智能」、「给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架」、「Ling-3.0-flash :为真实世界而生的开放智能」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ling-3.0-flash :为真实世界而生的开放智能",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云码道「码力续航计划」上线!"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系"
       ],
       "watchItems": [
+        "跟进：Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架",
         "跟进：Ling-3.0-flash :为真实世界而生的开放智能",
         "跟进：给 Agent 做\"CT\":大规模 Agent 的可观测与质量保障体系",
         "跟进：华为云码道「码力续航计划」上线!",
-        "跟进：Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents",
-        "跟进：Post-Train NVIDIA Cosmos 3 Edge for On-Device Robot Control"
+        "跟进：Developing NVIDIA Holoscan Applications with CLI, Skills, and AI Coding Agents"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Agent Lightning v1.0 开源:面向真实Agent Harness的轻量级强化学习框架",
+              "summary": "微软亚洲研究院的研究员们提出了 Harnessed Agentic RL 训练范式,并开源了全面重构的 Agent Lightning v1.0 .相比原版本的Agent ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_093854f47908b68aa01e4385"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Ling-3.0-flash :为真实世界而生的开放智能",
               "summary": "Agent 工作流中尤其明显.一个 Agent 任务完成任务,通常需要经... 把数据与技术路径留在自己的环境中近期,Sebastian Raschka 在...",
@@ -158,7 +165,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2333234dc770f70658dbdc69"
+                "local_cf6c934ae894facc2fa2127d"
               ],
               "confidence": 90
             },
@@ -168,7 +175,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a1f63c1845f4c2a7cefc2cec"
+                "local_97bd2c01e63b934dbd57ad88"
               ],
               "confidence": 86
             },
@@ -201,19 +208,20 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_093854f47908b68aa01e4385",
         "local_2b42079c385e773299710fce",
-        "local_2333234dc770f70658dbdc69",
-        "local_a1f63c1845f4c2a7cefc2cec",
+        "local_cf6c934ae894facc2fa2127d",
+        "local_97bd2c01e63b934dbd57ad88",
         "local_27212fc14cccf03b0ead5d65",
         "local_f487b38283a35803ad97aa96"
       ],
-      "generatedAt": "2026-08-23T23:56:57.382Z",
+      "generatedAt": "2026-08-24T02:03:29.613Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-23T23:56:57.382Z",
+  "generatedAt": "2026-08-24T02:03:29.613Z",
   "collectorName": "local-source-collector"
 }

@@ -5,23 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-08-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents」、「Where Security Fits in an AI Agent Stack」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda」、「NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Where Security Fits in an AI Agent Stack",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：第一个能帮你做生意的Agent现在打通国内电商了"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Where Security Fits in an AI Agent Stack"
       ],
       "watchItems": [
+        "跟进：Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
         "跟进：NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents",
         "跟进：Where Security Fits in an AI Agent Stack",
         "跟进：第一个能帮你做生意的Agent现在打通国内电商了",
-        "跟进：How AI coding tools are contributing to the popularity of JavaScript",
-        "跟进：让Data Agent自己进化:人民大学张绍磊提出Data&ndash;Ontology&ndash;Agent协同进化框架"
+        "跟进：How AI coding tools are contributing to the popularity of JavaScript"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
+              "summary": "Large Language Models (LLMs) are moving from code completion toward repository-scale agents that retrieve context, edit files, execute tools, and participate in security-sensitive workflows. The evidence for these systems, however, remains divided between software engineering ev…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7b955827865e0031e2d81793"
+              ],
+              "confidence": 92
+            },
             {
               "title": "NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A frontier language model is only one component of an AI agent. The surrounding agent system—often called a harness—determines how the model receives...",
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d8e815bcb36502f356514b0c"
+                "local_841a70f082ce079f3f68064b"
               ],
               "confidence": 92
             },
@@ -59,16 +69,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_70aeb07498f29cf9134dcad2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "让Data Agent自己进化:人民大学张绍磊提出Data&ndash;Ontology&ndash;Agent协同进化框架",
-              "summary": "《自进化数据智能体:迈向Data&ndash;Ontology&ndash;Agent协同进化》,介... https://h.datafuntalk.com/T9MNt7️ 票务咨询:13311343487 8 折...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f89643f5f1e7ffcc184b9b09"
               ],
               "confidence": 92
             }
@@ -106,18 +106,20 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_7b955827865e0031e2d81793",
         "local_c504d9357e3f42bbcb400c71",
         "local_0ef782d77c0508dda0530f40",
-        "local_d8e815bcb36502f356514b0c",
+        "local_841a70f082ce079f3f68064b",
         "local_70aeb07498f29cf9134dcad2",
-        "local_f89643f5f1e7ffcc184b9b09",
+        "local_0addde5945e3e2cc2f1826aa",
+        "local_7e1bccf92e61aaa7cc256bda",
+        "local_790df17ed00c1adba6ed1921",
         "local_89c82afc9f20ed4acb03b8c1",
         "local_f0ff8a31b659108b2c6c2e51",
         "local_0b15f75a020eb0fa49372930",
-        "local_89dbe2535bcabe486e15fb5b",
-        "local_dc1839ba671faf4e0b03d569"
+        "local_89dbe2535bcabe486e15fb5b"
       ],
-      "generatedAt": "2026-08-23T23:56:57.366Z",
+      "generatedAt": "2026-08-24T02:03:29.603Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -170,7 +172,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f89643f5f1e7ffcc184b9b09"
+                "local_7e1bccf92e61aaa7cc256bda"
               ],
               "confidence": 92
             },
@@ -190,16 +192,16 @@
       "referencedFeedItemIds": [
         "local_c504d9357e3f42bbcb400c71",
         "local_0ef782d77c0508dda0530f40",
-        "local_f89643f5f1e7ffcc184b9b09",
+        "local_7e1bccf92e61aaa7cc256bda",
         "local_89c82afc9f20ed4acb03b8c1"
       ],
-      "generatedAt": "2026-08-23T23:56:57.366Z",
+      "generatedAt": "2026-08-24T02:03:29.603Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-23T23:56:57.366Z",
+  "generatedAt": "2026-08-24T02:03:29.603Z",
   "collectorName": "local-source-collector"
 }
