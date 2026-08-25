@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Alibaba&#039;s Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents」、「Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Alibaba&#039;s Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents」、「Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Alibaba&#039;s Wan3.0 generates AI videos up to 30 seconds long from text, images, and documents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Up to 30x More Work Per Watt: NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
@@ -43,12 +43,12 @@
               "confidence": 70
             },
             {
-              "title": "Partition the Support, Reconstruct the Residual: Training-Free Sparse Attention for Video Generation and World Models",
-              "summary": "Training-free block-sparse attention can accelerate video transformers, but row-wise attention concentration does not by itself specify an executable sparse operator. Queries sharing a block route may have poorly overlapping supports, while retained attention mass alone does not…",
+              "title": "WorldMind: Decoupled Game World Model for State-Aware NPC Behavior",
+              "summary": "Game world models have recently demonstrated promising capabilities in generating visually coherent and action-controllable gameplay videos. However, non-player character (NPC) behavior in existing models is either implicitly entangled with video generation or explicitly prescri…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dfb193ae899fb8fb20cc62e2"
+                "local_4e355b9b13f164563c311343"
               ],
               "confidence": 92
             },
@@ -141,6 +141,16 @@
                 "local_958f56825d4d6921350e3bbc"
               ],
               "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_2b1e63ab4ac0c918f3332eff"
+              ],
+              "confidence": 92
             }
           ]
         }
@@ -157,14 +167,15 @@
         "local_2028ba68e11a719d283d22d4",
         "local_e078cbbb90539a1b9ca7f588",
         "local_8fd3ef609a74fd66aed8f584",
+        "local_4e355b9b13f164563c311343",
         "local_c7903bf4d6ca5827a6ad1b65",
         "local_4f586f39b96016c42c4c57df",
         "local_958f56825d4d6921350e3bbc",
-        "local_dfb193ae899fb8fb20cc62e2",
+        "local_2b1e63ab4ac0c918f3332eff",
         "local_bd6e4e1ddd5cd5c0ddf32077",
         "local_c4bcb3e910f344092aa7bf18"
       ],
-      "generatedAt": "2026-08-24T23:59:43.690Z",
+      "generatedAt": "2026-08-25T01:54:55.404Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -270,13 +281,13 @@
         "local_e078cbbb90539a1b9ca7f588",
         "local_8fd3ef609a74fd66aed8f584"
       ],
-      "generatedAt": "2026-08-24T23:59:43.690Z",
+      "generatedAt": "2026-08-25T01:54:55.404Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-24T23:59:43.690Z",
+  "generatedAt": "2026-08-25T01:54:55.405Z",
   "collectorName": "local-source-collector"
 }
