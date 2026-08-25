@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October」、「Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October」、「Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
+              "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
+              "summary": "Agent benchmarks often evaluate only final answers even when agents run on stateful runtimes. We argue this under-specifies what is being evaluated: the proper unit is a declared model-plus-runtime configuration whose failures can occur in evidence acquisition, runtime routing, …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_71ccacccd3a51966889cecfd"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
               "summary": "Large language models are increasingly expected to execute complex workflows whose success depends on maintaining interdependent constraints and producing artifacts that satisfy strict end-to-end verification. Yet successful execution experience is typically lost after a single …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_239792a9ad0cc701d11d8ca2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AutoResearch: Insight In, Hallucination Out",
-              "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting process remains scientifically grounded. We introduce AutoResearch, a two-stage system that connects Idea Generation with Idea Execu…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_72f188b39cd2ec42c2745a05"
               ],
               "confidence": 92
             }
@@ -96,16 +96,6 @@
                 "local_d8ed05e07605d355d9986a17"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Pew study confirms sharp rise of AI-written text on the web since ChatGPT&#039;s launch",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Pew Research Center analyzed nearly half a million English-language web pages for AI-generated content. More than a third of pages published since ChatGPT's launch show signs of machine-written text, and commercial …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0a641029f46b23c09caa9943"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -156,11 +146,10 @@
         "local_6f412b4f81cb8e1b444c80b5",
         "local_d8ed05e07605d355d9986a17",
         "local_85be1b33297aa0cb64dd42df",
+        "local_71ccacccd3a51966889cecfd",
         "local_cd5484f7825255da2b79329f",
         "local_239792a9ad0cc701d11d8ca2",
         "local_72f188b39cd2ec42c2745a05",
-        "local_00ae98b2350e953f84adf299",
-        "local_0a641029f46b23c09caa9943",
         "local_b6dceaab2e46efb4fa12cb6d",
         "local_04a176d3acae11cfd426e5f7",
         "local_d4c78bbfbe70143c85b1b87b",
@@ -168,7 +157,7 @@
         "local_98aa043dbd5c7b2af271c340",
         "local_0287ecb8d9eba9940ab1d687"
       ],
-      "generatedAt": "2026-08-25T16:21:32.974Z",
+      "generatedAt": "2026-08-25T17:13:05.085Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -242,13 +231,13 @@
         "local_85be1b33297aa0cb64dd42df",
         "local_d4c78bbfbe70143c85b1b87b"
       ],
-      "generatedAt": "2026-08-25T16:21:32.974Z",
+      "generatedAt": "2026-08-25T17:13:05.085Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-25T16:21:32.974Z",
+  "generatedAt": "2026-08-25T17:13:05.085Z",
   "collectorName": "local-source-collector"
 }
