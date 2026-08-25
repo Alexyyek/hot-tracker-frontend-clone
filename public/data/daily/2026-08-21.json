@@ -5,40 +5,29 @@
       "topicId": "ai",
       "reportDate": "2026-08-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda」、「第一个能帮你做生意的Agent现在打通国内电商了」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「第一个能帮你做生意的Agent现在打通国内电商了」、「How AI coding tools are contributing to the popularity of JavaScript」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：第一个能帮你做生意的Agent现在打通国内电商了",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How AI coding tools are contributing to the popularity of JavaScript"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How AI coding tools are contributing to the popularity of JavaScript",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：让Data Agent自己进化:人民大学张绍磊提出Data&ndash;Ontology&ndash;Agent协同进化框架"
       ],
       "watchItems": [
-        "跟进：Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
         "跟进：第一个能帮你做生意的Agent现在打通国内电商了",
         "跟进：How AI coding tools are contributing to the popularity of JavaScript",
-        "跟进：BC-Bench: Evaluating Agentic Engineering in a Domain-Specific Language for ERP",
-        "跟进：让Data Agent自己进化:人民大学张绍磊提出Data&ndash;Ontology&ndash;Agent协同进化框架"
+        "跟进：让Data Agent自己进化:人民大学张绍磊提出Data&ndash;Ontology&ndash;Agent协同进化框架",
+        "跟进：Grok 4.6 on Gemini Enterprise Agent Platform"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Large Language Models at the Intersection of Software Engineering and Software Security:An Evidence-Centered Structured Survey and Research Agenda",
-              "summary": "Large Language Models (LLMs) are moving from code completion toward repository-scale agents that retrieve context, edit files, execute tools, and participate in security-sensitive workflows. The evidence for these systems, however, remains divided between software engineering ev…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7b955827865e0031e2d81793"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "第一个能帮你做生意的Agent现在打通国内电商了",
               "summary": "AI搞的,30 分钟搭完,整个流程确实很丝滑.但海外电商发仓、物... 上线了一个电商管家Agent,直接打通了淘宝、天猫、拼多多、京...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ae44bafcd9cc51a8d6fe1d0a"
+                "local_85dca1d28ea1fc2a462750b2"
               ],
               "confidence": 92
             },
@@ -53,22 +42,22 @@
               "confidence": 92
             },
             {
-              "title": "BC-Bench: Evaluating Agentic Engineering in a Domain-Specific Language for ERP",
-              "summary": "Agentic engineering systems have shown strong performance on general-purpose benchmarks, yet their effectiveness in enterprise resource planning (ERP) domain-specific languages (DSLs) remains underexplored. We introduce BC-Bench, a benchmark designed to evaluate agentic engineer…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0addde5945e3e2cc2f1826aa"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "让Data Agent自己进化:人民大学张绍磊提出Data&ndash;Ontology&ndash;Agent协同进化框架",
               "summary": "《自进化数据智能体:迈向Data&ndash;Ontology&ndash;Agent协同进化》,介... https://h.datafuntalk.com/T9MNt7️ 票务咨询:13311343487 8 折...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_97a6e5f06707dfd6c2caf931"
+                "local_3400360b84446e15d1e191bd"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Grok 4.6 on Gemini Enterprise Agent Platform",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Grok 4.6 is now available via Gemini Enterprise Agent Platform.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_89c82afc9f20ed4acb03b8c1"
               ],
               "confidence": 92
             }
@@ -76,15 +65,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_7b955827865e0031e2d81793",
-        "local_ae44bafcd9cc51a8d6fe1d0a",
+        "local_85dca1d28ea1fc2a462750b2",
         "local_70aeb07498f29cf9134dcad2",
-        "local_0addde5945e3e2cc2f1826aa",
-        "local_97a6e5f06707dfd6c2caf931",
-        "local_790df17ed00c1adba6ed1921",
+        "local_3400360b84446e15d1e191bd",
         "local_89c82afc9f20ed4acb03b8c1"
       ],
-      "generatedAt": "2026-08-25T01:54:55.437Z",
+      "generatedAt": "2026-08-25T03:15:43.536Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -114,7 +100,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_97a6e5f06707dfd6c2caf931"
+                "local_3400360b84446e15d1e191bd"
               ],
               "confidence": 92
             },
@@ -132,16 +118,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_97a6e5f06707dfd6c2caf931",
+        "local_3400360b84446e15d1e191bd",
         "local_89c82afc9f20ed4acb03b8c1"
       ],
-      "generatedAt": "2026-08-25T01:54:55.437Z",
+      "generatedAt": "2026-08-25T03:15:43.536Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-25T01:54:55.438Z",
+  "generatedAt": "2026-08-25T03:15:43.537Z",
   "collectorName": "local-source-collector"
 }
