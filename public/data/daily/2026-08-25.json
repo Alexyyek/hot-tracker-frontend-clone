@@ -16,7 +16,7 @@
         "跟进：Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
         "跟进：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
         "跟进：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
-        "跟进：ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts"
+        "跟进：What AstroPT knows about galaxies, and what that can teach us about LLMs"
       ],
       "sections": [
         {
@@ -63,14 +63,14 @@
               "confidence": 92
             },
             {
-              "title": "AutoResearch: Insight In, Hallucination Out",
-              "summary": "Autonomous research systems are increasingly capable of executing long research workflows, yet automation alone does not ensure that the resulting process remains scientifically grounded. We introduce AutoResearch, a two-stage system that connects Idea Generation with Idea Execu…",
+              "title": "How to Choose the Best AI Model (Live, in Your Editor) — OpenRouter Blog",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A six-step framework for choosing an AI model: define the task, shortlist from live usage and benchmark data over MCP, compare providers, test on your own prompts, and measure cost per completed task.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_72f188b39cd2ec42c2745a05"
+                "local_fc305e50860dc6b2350c30ab"
               ],
-              "confidence": 92
+              "confidence": 90
             }
           ]
         },
@@ -102,6 +102,16 @@
         {
           "title": "模型与基础设施",
           "items": [
+            {
+              "title": "What AstroPT knows about galaxies, and what that can teach us about LLMs",
+              "summary": "Interpretability research increasingly asks when concepts emerge during training and whether linear probes recover real structure, but in language models these claims are hard to validate because language offers little ground-truth ordering of concepts or relationships among the…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_111c72eb8302b32658acd3ca"
+              ],
+              "confidence": 92
+            },
             {
               "title": "The Laws of Context Allocation: Causal Measurement and Closed-Loop Orchestration in Generative Search",
               "summary": "As Retrieval-Augmented Generation (RAG) shifts toward diverse portfolio generation, it is stymied by two critical bottlenecks: flawed measurement of evidence utilization, and suboptimal context budget allocation. We resolve both sequentially. To resolve measurement, we expose a …",
@@ -145,10 +155,10 @@
         "local_8b3747dc91ca489a6ee87390",
         "local_d8ed05e07605d355d9986a17",
         "local_85be1b33297aa0cb64dd42df",
+        "local_111c72eb8302b32658acd3ca",
         "local_71ccacccd3a51966889cecfd",
         "local_cd5484f7825255da2b79329f",
         "local_239792a9ad0cc701d11d8ca2",
-        "local_72f188b39cd2ec42c2745a05",
         "local_fc305e50860dc6b2350c30ab",
         "local_b6dceaab2e46efb4fa12cb6d",
         "local_04a176d3acae11cfd426e5f7",
@@ -157,7 +167,7 @@
         "local_98aa043dbd5c7b2af271c340",
         "local_0287ecb8d9eba9940ab1d687"
       ],
-      "generatedAt": "2026-08-25T21:44:36.208Z",
+      "generatedAt": "2026-08-25T22:46:53.751Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -231,13 +241,13 @@
         "local_85be1b33297aa0cb64dd42df",
         "local_d4c78bbfbe70143c85b1b87b"
       ],
-      "generatedAt": "2026-08-25T21:44:36.208Z",
+      "generatedAt": "2026-08-25T22:46:53.751Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-25T21:44:36.208Z",
+  "generatedAt": "2026-08-25T22:46:53.751Z",
   "collectorName": "local-source-collector"
 }
