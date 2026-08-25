@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建」、「企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建」、「企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Send an Image to an LLM via API (Vision Guide) — OpenRouter Blog"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeepSeek Harness,是今年最有野心的一次Agent开源"
       ],
       "watchItems": [
         "跟进：高德汽车工程 AI Native 演进实录|AutoSDK AI Coding 可观测与自进化闭环的构建",
         "跟进：企业内Agent工具落地实践:统一Harness、Skill与虚拟文件系统",
-        "跟进：How to Send an Image to an LLM via API (Vision Guide) — OpenRouter Blog",
         "跟进：DeepSeek Harness,是今年最有野心的一次Agent开源",
-        "跟进：Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets"
+        "跟进：Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "跟进：Introducing Gemini 3.7 Flash"
       ],
       "sections": [
         {
@@ -73,32 +73,16 @@
               "confidence": 82
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "How to Send an Image to an LLM via API (Vision Guide) — OpenRouter Blog",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Send images to any vision-capable LLM with one request shape: a content array with a text part and an image_url part. Covers base64 vs hosted URLs, model selection, multiple images, tokenization, and multimodal RAG.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_25000f39bdf54ea6358f3ee5"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_a05117dae84c3b40fe42f972",
         "local_214575676c97d136ad55e156",
-        "local_25000f39bdf54ea6358f3ee5",
         "local_e32f35962562ea044850bb14",
         "local_bbd7b1107d7c3feb5ecf873f",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-25T18:57:45.102Z",
+      "generatedAt": "2026-08-25T19:46:32.466Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -162,13 +146,13 @@
         "local_214575676c97d136ad55e156",
         "local_8cc42104463bb3725146e9b8"
       ],
-      "generatedAt": "2026-08-25T18:57:45.102Z",
+      "generatedAt": "2026-08-25T19:46:32.466Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-25T18:57:45.102Z",
+  "generatedAt": "2026-08-25T19:46:32.467Z",
   "collectorName": "local-source-collector"
 }
