@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October」、「Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October」、「Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
@@ -16,7 +16,7 @@
         "跟进：Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
         "跟进：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
         "跟进：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
-        "跟进：What AstroPT knows about galaxies, and what that can teach us about LLMs"
+        "跟进：LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures"
       ],
       "sections": [
         {
@@ -43,22 +43,22 @@
               "confidence": 92
             },
             {
+              "title": "LongRCA Bench: Diagnosing Responsible Roles and Root Causes in Long-Horizon Agent Failures",
+              "summary": "When a long-horizon agent execution fails, outcome-level evaluation reveals the unsuccessful result but not where the decisive error entered the trajectory. Developers must then inspect the full execution to identify the responsible role and localize the earliest decisive root-c…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1b912f46be80d0eb67daa18c"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "ClawProBench: Trace-Aware Evaluation of AI Agents with Runtime Coverage and Frozen Workplace-Style Holdouts",
               "summary": "Agent benchmarks often evaluate only final answers even when agents run on stateful runtimes. We argue this under-specifies what is being evaluated: the proper unit is a declared model-plus-runtime configuration whose failures can occur in evidence acquisition, runtime routing, …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_71ccacccd3a51966889cecfd"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LongWoF-Bench: Evaluating EvoMap Genes for Verifiable Long-Workflow Tasks",
-              "summary": "Large language models are increasingly expected to execute complex workflows whose success depends on maintaining interdependent constraints and producing artifacts that satisfy strict end-to-end verification. Yet successful execution experience is typically lost after a single …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_239792a9ad0cc701d11d8ca2"
               ],
               "confidence": 92
             },
@@ -123,6 +123,16 @@
               "confidence": 92
             },
             {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_bb1368eaa81e140daa9535e3"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "llm-anthropic 0.27",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2. OpenAI made the sam…",
               "insightLabel": "关注",
@@ -155,10 +165,11 @@
         "local_8b3747dc91ca489a6ee87390",
         "local_d8ed05e07605d355d9986a17",
         "local_85be1b33297aa0cb64dd42df",
+        "local_1b912f46be80d0eb67daa18c",
         "local_111c72eb8302b32658acd3ca",
         "local_71ccacccd3a51966889cecfd",
         "local_cd5484f7825255da2b79329f",
-        "local_239792a9ad0cc701d11d8ca2",
+        "local_bb1368eaa81e140daa9535e3",
         "local_fc305e50860dc6b2350c30ab",
         "local_b6dceaab2e46efb4fa12cb6d",
         "local_04a176d3acae11cfd426e5f7",
@@ -167,7 +178,7 @@
         "local_98aa043dbd5c7b2af271c340",
         "local_0287ecb8d9eba9940ab1d687"
       ],
-      "generatedAt": "2026-08-26T00:02:52.707Z",
+      "generatedAt": "2026-08-26T02:00:39.151Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -241,13 +252,13 @@
         "local_85be1b33297aa0cb64dd42df",
         "local_d4c78bbfbe70143c85b1b87b"
       ],
-      "generatedAt": "2026-08-26T00:02:52.707Z",
+      "generatedAt": "2026-08-26T02:00:39.151Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-26T00:02:52.707Z",
+  "generatedAt": "2026-08-26T02:00:39.152Z",
   "collectorName": "local-source-collector"
 }
