@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「A Literate Programming Environment for Human and Machine Agents」、「Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「A Literate Programming Environment for Human and Machine Agents」、「Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A Literate Programming Environment for Human and Machine Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October",
@@ -15,8 +15,8 @@
         "跟进：A Literate Programming Environment for Human and Machine Agents",
         "跟进：Meta&#039;s paid AI agent Hatch launches soon, with a new model called Watermelon due in October",
         "跟进：The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
-        "跟进：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "跟进：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发"
+        "跟进：行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
+        "跟进：从用户意图到三端原生界面:高德端云一体化的生成式 UI 实践"
       ],
       "sections": [
         {
@@ -53,45 +53,40 @@
               "confidence": 92
             },
             {
+              "title": "行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
+              "summary": "系统性梳理了智能体安全建设的 10 大能力维度、60 项核心技术要素.管理范围包括:WorkFlow 类智能体、办公类智能体、AI Coding...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5e9a9bb51a5253e32d93df86"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
               "summary": "而AI Voice是连接基础模型智能与用户体验的关键交互层.这个判断也来自他与团队使用Coding Agent的经历.过去,工程师会主动设...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7d96374ed26ca917d9f78022"
+                "local_4ee0a6c92beb54f23f5a3a30"
               ],
               "confidence": 92
-            },
-            {
-              "title": "How to Choose the Best AI Model (Live, in Your Editor) — OpenRouter Blog",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A six-step framework for choosing an AI model: define the task, shortlist from live usage and benchmark data over MCP, compare providers, test on your own prompts, and measure cost per completed task.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fc305e50860dc6b2350c30ab"
-              ],
-              "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d8ed05e07605d355d9986a17"
-              ],
-              "confidence": 86
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
+            {
+              "title": "从用户意图到三端原生界面:高德端云一体化的生成式 UI 实践",
+              "summary": "大模型时代,人机交互正迎来一次深刻变革.传统\"对话框 + 纯文... 高德地图 应用基建智能部 AI全栈资深技术专家#高德# #高德技术# ...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_223167ddf02c2c0c5d6044b2"
+              ],
+              "confidence": 90
+            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -115,6 +110,21 @@
           ]
         },
         {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_d8ed05e07605d355d9986a17"
+              ],
+              "confidence": 86
+            }
+          ]
+        },
+        {
           "title": "物流、地址与召排",
           "items": [
             {
@@ -134,15 +144,17 @@
         "local_d83830071eba4fca314ba25f",
         "local_64734f09cab4a3bc0080a4e3",
         "local_3b42d3c0b4436e49a90aca86",
+        "local_5e9a9bb51a5253e32d93df86",
+        "local_223167ddf02c2c0c5d6044b2",
         "local_d8ed05e07605d355d9986a17",
-        "local_7d96374ed26ca917d9f78022",
+        "local_4ee0a6c92beb54f23f5a3a30",
         "local_bb1368eaa81e140daa9535e3",
         "local_fc305e50860dc6b2350c30ab",
         "local_d4c78bbfbe70143c85b1b87b",
         "local_dc4e3d525201cf5fd689d591",
         "local_0287ecb8d9eba9940ab1d687"
       ],
-      "generatedAt": "2026-08-26T10:55:24.478Z",
+      "generatedAt": "2026-08-26T11:50:11.344Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -153,18 +165,60 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-25",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Jalapeño’s first results show industry-leading speed and efficiency in AI inference」、「前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「行业首发|智能体安全能力图谱发布:企业可落地的建设路径」、「从用户意图到三端原生界面:高德端云一体化的生成式 UI 实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从用户意图到三端原生界面:高德端云一体化的生成式 UI 实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jalapeño’s first results show industry-leading speed and efficiency in AI inference"
       ],
       "watchItems": [
+        "跟进：行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
+        "跟进：从用户意图到三端原生界面:高德端云一体化的生成式 UI 实践",
         "跟进：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
         "跟进：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
         "跟进：MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
+              "summary": "系统性梳理了智能体安全建设的 10 大能力维度、60 项核心技术要素.管理范围包括:WorkFlow 类智能体、办公类智能体、AI Coding...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5e9a9bb51a5253e32d93df86"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
+              "summary": "而AI Voice是连接基础模型智能与用户体验的关键交互层.这个判断也来自他与团队使用Coding Agent的经历.过去,工程师会主动设...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4ee0a6c92beb54f23f5a3a30"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "从用户意图到三端原生界面:高德端云一体化的生成式 UI 实践",
+              "summary": "大模型时代,人机交互正迎来一次深刻变革.传统\"对话框 + 纯文... 高德地图 应用基建智能部 AI全栈资深技术专家#高德# #高德技术# ...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_223167ddf02c2c0c5d6044b2"
+              ],
+              "confidence": 90
+            }
+          ]
+        },
         {
           "title": "行业与公司",
           "items": [
@@ -177,21 +231,6 @@
                 "local_d8ed05e07605d355d9986a17"
               ],
               "confidence": 86
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
-              "summary": "而AI Voice是连接基础模型智能与用户体验的关键交互层.这个判断也来自他与团队使用Coding Agent的经历.过去,工程师会主动设...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7d96374ed26ca917d9f78022"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -212,17 +251,19 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_5e9a9bb51a5253e32d93df86",
+        "local_223167ddf02c2c0c5d6044b2",
         "local_d8ed05e07605d355d9986a17",
-        "local_7d96374ed26ca917d9f78022",
+        "local_4ee0a6c92beb54f23f5a3a30",
         "local_d4c78bbfbe70143c85b1b87b"
       ],
-      "generatedAt": "2026-08-26T10:55:24.478Z",
+      "generatedAt": "2026-08-26T11:50:11.344Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-26T10:55:24.478Z",
+  "generatedAt": "2026-08-26T11:50:11.344Z",
   "collectorName": "local-source-collector"
 }
