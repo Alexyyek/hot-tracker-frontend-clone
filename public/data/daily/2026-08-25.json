@@ -5,43 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-08-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「A Literate Programming Environment for Human and Machine Agents」、「The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「行业首发|智能体安全能力图谱发布:企业可落地的建设路径」、「Jalapeño’s first results show industry-leading speed and efficiency in AI inference」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A Literate Programming Environment for Human and Machine Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：行业首发|智能体安全能力图谱发布:企业可落地的建设路径"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发"
       ],
       "watchItems": [
-        "跟进：A Literate Programming Environment for Human and Machine Agents",
-        "跟进：The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
         "跟进：行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
         "跟进：Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "跟进：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发"
+        "跟进：前MiniMax技术合伙人杨斌押注语音交互智能,已获600万美元种子轮融资|智能涌现首发",
+        "跟进：How to Choose the Best AI Model (Live, in Your Editor) — OpenRouter Blog",
+        "跟进：MTIA 300: Meta&#8217;s First Training Chip with Built-in NICs and Communication-Offloading Engines"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "A Literate Programming Environment for Human and Machine Agents",
-              "summary": "This paper introduces an environment for constructing literate programs in concert with language-aware machine agents. This environment includes a grammar for executable program essays, a parser that treats names as first-class objects, an internal name-graph which relates prose…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d83830071eba4fca314ba25f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents",
-              "summary": "Coding agents perform long-running tasks spanning dozens of model calls, tool uses, and code edits. As these runs unfold, users face a practical cost-quality trade-off: escalating to a stronger model when a cheaper one struggles, or downshifting once the hard reasoning is comple…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3b42d3c0b4436e49a90aca86"
-              ],
-              "confidence": 92
-            },
             {
               "title": "行业首发|智能体安全能力图谱发布:企业可落地的建设路径",
               "summary": "系统性梳理了智能体安全建设的 10 大能力维度、60 项核心技术要素.管理范围包括:WorkFlow 类智能体、办公类智能体、AI Coding...",
@@ -58,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_17f6c19dbf15ffccab7e8523"
+                "local_5de63c8173ad133476cdb33b"
               ],
               "confidence": 92
             },
@@ -71,6 +51,16 @@
                 "local_fc305e50860dc6b2350c30ab"
               ],
               "confidence": 90
+            },
+            {
+              "title": "Fences, not Sandboxes",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：I’m here to give you a glimpse of a future that I think none of us expected. It’s a future where AIs are governed by laws, not by programs that try to contain and control them.First, my secret: I see the future by livin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dc4e3d525201cf5fd689d591"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -90,31 +80,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_bb1368eaa81e140daa9535e3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "llm-anthropic 0.27",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2. OpenAI made the sam…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0287ecb8d9eba9940ab1d687"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "物流、地址与召排",
           "items": [
             {
@@ -128,21 +93,33 @@
               "confidence": 86
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "llm-anthropic 0.27",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2. OpenAI made the sam…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_0287ecb8d9eba9940ab1d687"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_d83830071eba4fca314ba25f",
-        "local_3b42d3c0b4436e49a90aca86",
         "local_4d932d8e2f894ade2f2ac3dc",
         "local_d8ed05e07605d355d9986a17",
-        "local_17f6c19dbf15ffccab7e8523",
-        "local_bb1368eaa81e140daa9535e3",
+        "local_5de63c8173ad133476cdb33b",
         "local_fc305e50860dc6b2350c30ab",
         "local_d4c78bbfbe70143c85b1b87b",
         "local_dc4e3d525201cf5fd689d591",
         "local_0287ecb8d9eba9940ab1d687"
       ],
-      "generatedAt": "2026-08-26T22:39:42.650Z",
+      "generatedAt": "2026-08-27T03:42:31.305Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -185,7 +162,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_17f6c19dbf15ffccab7e8523"
+                "local_5de63c8173ad133476cdb33b"
               ],
               "confidence": 92
             }
@@ -225,16 +202,16 @@
       "referencedFeedItemIds": [
         "local_4d932d8e2f894ade2f2ac3dc",
         "local_d8ed05e07605d355d9986a17",
-        "local_17f6c19dbf15ffccab7e8523",
+        "local_5de63c8173ad133476cdb33b",
         "local_d4c78bbfbe70143c85b1b87b"
       ],
-      "generatedAt": "2026-08-26T22:39:42.650Z",
+      "generatedAt": "2026-08-27T03:42:31.305Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-26T22:39:42.651Z",
+  "generatedAt": "2026-08-27T03:42:31.305Z",
   "collectorName": "local-source-collector"
 }
