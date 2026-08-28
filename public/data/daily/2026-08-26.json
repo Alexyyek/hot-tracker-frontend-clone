@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Code World Model: Coding Agent as World Brain」、「Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Code World Model: Coding Agent as World Brain」、「SkillShield: Prompt-Space Security Skills for LLM Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Code World Model: Coding Agent as World Brain",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SkillShield: Prompt-Space Security Skills for LLM Coding Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SkillShield: Prompt-Space Security Skills for LLM Coding Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EVOMAL: Self-Poisoning in Self-Evolving Coding Agents"
       ],
       "watchItems": [
         "跟进：Code World Model: Coding Agent as World Brain",
-        "跟进：Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
         "跟进：SkillShield: Prompt-Space Security Skills for LLM Coding Agents",
         "跟进：EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
-        "跟进：Employee revolt and failing agents forced Meta to scrap its AI layoff plan"
+        "跟进：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
+        "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术"
       ],
       "sections": [
         {
@@ -53,59 +53,24 @@
               "confidence": 92
             },
             {
-              "title": "Employee revolt and failing agents forced Meta to scrap its AI layoff plan",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta wanted to replace far more of its workforce with AI than previously known, according to Reuters, but the plan collapsed under rebellious employees and agents that failed to deliver. The article Employee revolt and …",
+              "title": "字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
+              "summary": "本篇为技术实践篇,分享针对 Agent 提示词注入攻击的防护实践.一、引言:当 Agent 开始行动,提示词注入成为系统性风险过去一...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2a7a1ebe5c394acea2bc5181"
+                "local_a2884653febadad932030dce"
               ],
-              "confidence": 86
+              "confidence": 90
             },
             {
-              "title": "IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：IBM is releasing its Granite 4.2 language models in 3B, 8B, and 30B sizes, trained on about 15 trillion tokens with a context window of up to 512,000 tokens. The larger models use \"agentic RL\" training to learn tool use…",
+              "title": "企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
+              "summary": "Agent Memory 的读取、作用域和异步沉淀链路.记忆类型四层模型与 MemOS 类型是两套分类维度:四层模型描述信息的生命周期和...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6688c01a04e2258c70dc37ad"
+                "local_14283d6bf73b40d29f8f3bcb"
               ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Alibaba's Qwen team is previewing the Qwen4 architecture with Qwen3.8-Flash-Next, a mixture-of-experts model that activates just 6 out of 125 billion parameters per token. At one-ninth the training cost, it beats much l…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3c9999a6017b6a7158b4f5db"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cdb34be239a9b3b976cdcb84"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1931fcab42a9cb1b63c5a498"
-              ],
-              "confidence": 92
+              "confidence": 90
             }
           ]
         },
@@ -133,7 +98,32 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_6e476b90301193b0ef0c294f"
+                "local_ccdc9ba2a3a2310df55aba90"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_cdb34be239a9b3b976cdcb84"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_1931fcab42a9cb1b63c5a498"
               ],
               "confidence": 92
             }
@@ -142,23 +132,20 @@
       ],
       "referencedFeedItemIds": [
         "local_a4c3cde1b7f116dff3c4d5a4",
-        "local_3c9999a6017b6a7158b4f5db",
         "local_854e8d4586795b4b3a9d5cd9",
         "local_7c90ad94604e8c3db7c0368b",
-        "local_2a7a1ebe5c394acea2bc5181",
-        "local_6688c01a04e2258c70dc37ad",
-        "local_0b9e223c60b028169d0b5db1",
-        "local_60057282d21db7a4dc4159f9",
-        "local_2fa4adc31e9c091b1a835442",
+        "local_a2884653febadad932030dce",
+        "local_14283d6bf73b40d29f8f3bcb",
+        "local_b8c069edcd34519d1fd1ec59",
         "local_5e5bef80693345e011de30fb",
-        "local_d8edc6babe620da3943e01f8",
-        "local_65b957680cf2f57ed7589edc",
+        "local_589b19d8625ddf47bb66a3bc",
+        "local_122642240c3786d3e0304449",
         "local_d9b86a34eedcef62733312b6",
-        "local_6e476b90301193b0ef0c294f",
+        "local_ccdc9ba2a3a2310df55aba90",
         "local_cdb34be239a9b3b976cdcb84",
         "local_1931fcab42a9cb1b63c5a498"
       ],
-      "generatedAt": "2026-08-27T14:47:31.267Z",
+      "generatedAt": "2026-08-28T00:11:42.286Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -169,16 +156,16 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」、「一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德Push机制智能化演进|从静态阈值到 Agent 感知投放"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作"
       ],
       "watchItems": [
+        "跟进：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
         "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
-        "跟进：高德Push机制智能化演进|从静态阈值到 Agent 感知投放",
         "跟进：Cloudflare 推出 Agent Tracing:支持截断限制,不同框架的 Payload 默认记录策略存在差异",
         "跟进：Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo"
       ],
@@ -187,12 +174,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
+              "summary": "本篇为技术实践篇,分享针对 Agent 提示词注入攻击的防护实践.一、引言:当 Agent 开始行动,提示词注入成为系统性风险过去一...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a2884653febadad932030dce"
+              ],
+              "confidence": 90
+            },
+            {
               "title": "企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
               "summary": "Agent Memory 的读取、作用域和异步沉淀链路.记忆类型四层模型与 MemOS 类型是两套分类维度:四层模型描述信息的生命周期和...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0b9e223c60b028169d0b5db1"
+                "local_14283d6bf73b40d29f8f3bcb"
               ],
               "confidence": 90
             },
@@ -202,17 +199,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_60057282d21db7a4dc4159f9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "高德Push机制智能化演进|从静态阈值到 Agent 感知投放",
-              "summary": "KDD 2024[5]Google DeepMind, ＂Towards a Science of Scaling Agent Systems＂, 2025#高德# #高德技术# #Agent# #约束工程#",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2fa4adc31e9c091b1a835442"
+                "local_b8c069edcd34519d1fd1ec59"
               ],
               "confidence": 92
             },
@@ -222,7 +209,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d8edc6babe620da3943e01f8"
+                "local_589b19d8625ddf47bb66a3bc"
               ],
               "confidence": 90
             }
@@ -245,19 +232,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0b9e223c60b028169d0b5db1",
-        "local_60057282d21db7a4dc4159f9",
-        "local_2fa4adc31e9c091b1a835442",
-        "local_d8edc6babe620da3943e01f8",
+        "local_a2884653febadad932030dce",
+        "local_14283d6bf73b40d29f8f3bcb",
+        "local_b8c069edcd34519d1fd1ec59",
+        "local_589b19d8625ddf47bb66a3bc",
         "local_1931fcab42a9cb1b63c5a498"
       ],
-      "generatedAt": "2026-08-27T14:47:31.267Z",
+      "generatedAt": "2026-08-28T00:11:42.287Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-27T14:47:31.267Z",
+  "generatedAt": "2026-08-28T00:11:42.287Z",
   "collectorName": "local-source-collector"
 }
