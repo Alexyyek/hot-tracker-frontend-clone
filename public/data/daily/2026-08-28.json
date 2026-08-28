@@ -5,42 +5,32 @@
       "topicId": "ai",
       "reportDate": "2026-08-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「AI benchmarks have a trust problem and Google wants to fix it」、「高德全模态出行智能体:正式开启\"导航Live模式\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：大模型推理加速全链路：内存管理、编译优化、量化与并行策略"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI benchmarks have a trust problem and Google wants to fix it",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德全模态出行智能体:正式开启\"导航Live模式\"",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Always-on and self-starting AI agents might be OpenAI&#039;s next big play"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
-        "跟进：1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后",
-        "跟进：下一层抽象：从UX角度思考Agentic OS的样貌"
+        "跟进：AI benchmarks have a trust problem and Google wants to fix it",
+        "跟进：高德全模态出行智能体:正式开启\"导航Live模式\"",
+        "跟进：Always-on and self-starting AI agents might be OpenAI&#039;s next big play",
+        "跟进：TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+        "跟进：What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals"
       ],
       "sections": [
         {
-          "title": "行业与公司",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "title": "AI benchmarks have a trust problem and Google wants to fix it",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Deepmind is testing a double-blind evaluation of a frontier AI model for the first time. Cryptographic protection through Confidential Space is meant to keep Google from seeing the test questions and keep evaluat…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_933a3021532247639c3ac308"
+                "local_6473c9eeb841672677d67cab"
               ],
-              "confidence": 78
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cac70a6f0efe47ff71d8ffd0"
-              ],
-              "confidence": 70
+              "confidence": 92
             }
           ]
         },
@@ -48,140 +38,107 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "title": "高德全模态出行智能体:正式开启\"导航Live模式\"",
+              "summary": "把事情办成,持续延伸用户在真实世界的行动能力#高德 #高德技术 #高德2026 #导航Live #全模态大模型",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_247ae6bed4a2647780a0208b"
+                "local_a99c8aa53889c177a4fecf6b"
               ],
               "confidence": 92
             },
             {
-              "title": "1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后",
-              "summary": "Agentic Engineering 在实践中究竟是什么样的？",
+              "title": "Always-on and self-starting AI agents might be OpenAI&#039;s next big play",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with r…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c85f479ab7b4a055836e0abc"
+                "local_1a8f633fd3a5d6f0967f80a9"
               ],
               "confidence": 92
             },
             {
-              "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
-              "summary": "Agentic OS 比“LLM OS”更值得讨论",
+              "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
+              "summary": "Long-horizon agent runs generate experience that can improve both the current run and future work. Most self-improvement methods process this experience only after execution ends, so they cannot redirect the active run or immediately apply and validate lessons learned from it. W…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6101a2279ebc98f309fc3946"
+                "local_9e379b9e9d8b1eb015cf2d6a"
               ],
               "confidence": 92
             },
             {
-              "title": "Build zero-trust AI agents with Google's Agent Development Kit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building autonomous AI agents that mutate production state requires moving beyond soft system prompts to a robust zero-trust architecture. To secure Google Agent Development Kit (ADK) workflows against prompt injections…",
+              "title": "Breaking Claude Code Opus 5 Auto Mode",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5b383196cbb403ec79d39cf0"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Agent Plugins package your skills, tools, and more",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f005e7f90a8397d52493bc34"
+                "local_20ee9b4a81ac1d0ed567ce81"
               ],
               "confidence": 92
+            },
+            {
+              "title": "AI shopping agents aren&#039;t ready to buy on your behalf, study finds",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Letting an AI do your shopping might not get you the best deal. Researchers at the Wharton School show how erratic AI shopping agents really are: a single external source like Wirecutter shifted product picks by up to 9…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7f1b1dd8881bb10f77c19d15"
+              ],
+              "confidence": 90
             }
           ]
         },
         {
-          "title": "模型与基础设施",
+          "title": "行业与公司",
           "items": [
             {
-              "title": "大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
-              "summary": "“通过技术手段把大模型对底层硬件算力的需求打破、压低，让推理变得更高效、更普惠。”",
+              "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
+              "summary": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon. However, chunk-based vision-language-action models predict complete action chunks from observations collected before execution, leaving tactile conditioning stal…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6e67e96a0107cb22ee04d6ef"
+                "local_0aa715c6934e657a97d3be0d"
               ],
               "confidence": 92
             },
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_22f72015e1e58b4a4dfede52"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a051744c929a8838564a1fb3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
+              "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
+              "summary": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric. They do not necessarily license the claim attached to that metric because the historical evidence and alternative semantics needed to replay it may be unbound. We formalize this missing clai…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0cf41c9be960a5a3c7742a0c"
+                "local_537f8df35503d77faaad535a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "EditaLive! Unified Character Video Editing for Live Streaming",
+              "summary": "Conventional video editing primarily focuses on scene-level content, whereas live streaming places greater emphasis on the human subject. However, directly applying existing video-editing methods to human-centric live streaming remains challenging, as they may introduce facial-e…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_2c10c9c2d63f56581c69a073"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6f2cd9893d3eee9f57a6e299"
-              ],
-              "confidence": 78
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_933a3021532247639c3ac308",
-        "local_247ae6bed4a2647780a0208b",
-        "local_6e67e96a0107cb22ee04d6ef",
-        "local_c85f479ab7b4a055836e0abc",
-        "local_6101a2279ebc98f309fc3946",
-        "local_22f72015e1e58b4a4dfede52",
-        "local_5b383196cbb403ec79d39cf0",
-        "local_f005e7f90a8397d52493bc34",
-        "local_a051744c929a8838564a1fb3",
-        "local_e9b1f38c41cb1005785f5e8d",
-        "local_673fe433eb07ea76f3278d72",
-        "local_6d9a7c6eebdb7f42c0a9d36a",
-        "local_b36d6b2a38ddfd58e36708cc",
-        "local_f16668186e7440b4346c3ddf",
-        "local_0cf41c9be960a5a3c7742a0c",
-        "local_e28e56cb91ef2ab50bae6fbb",
-        "local_fd80fdeb529ce00d45a8e97b",
-        "local_917bd05987fb01d9e957aaf7",
-        "local_dba4536b1c0d513445586dc2",
-        "local_6f2cd9893d3eee9f57a6e299",
-        "local_cac70a6f0efe47ff71d8ffd0",
-        "local_11496e0328a960bcf14e100d",
-        "local_46c97be8637e975cb0e0f1fc",
-        "local_e63afb6006061454411d051d"
+        "local_6473c9eeb841672677d67cab",
+        "local_a99c8aa53889c177a4fecf6b",
+        "local_1a8f633fd3a5d6f0967f80a9",
+        "local_0aa715c6934e657a97d3be0d",
+        "local_537f8df35503d77faaad535a",
+        "local_2c10c9c2d63f56581c69a073",
+        "local_9e379b9e9d8b1eb015cf2d6a",
+        "local_20ee9b4a81ac1d0ed567ce81",
+        "local_7f1b1dd8881bb10f77c19d15",
+        "local_897941180a5e1fd6d9fad123",
+        "local_f3d716345fb9f010dd700fc9"
       ],
-      "generatedAt": "2026-08-28T11:27:45.066Z",
+      "generatedAt": "2026-08-28T21:40:59.499Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,184 +149,40 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-28",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「高德全模态出行智能体:正式开启\"导航Live模式\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：大模型推理加速全链路：内存管理、编译优化、量化与并行策略"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德全模态出行智能体:正式开启\"导航Live模式\""
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "跟进：大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
-        "跟进：1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后",
-        "跟进：下一层抽象：从UX角度思考Agentic OS的样貌"
+        "跟进：高德全模态出行智能体:正式开启\"导航Live模式\""
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_933a3021532247639c3ac308"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cac70a6f0efe47ff71d8ffd0"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
+              "title": "高德全模态出行智能体:正式开启\"导航Live模式\"",
+              "summary": "把事情办成,持续延伸用户在真实世界的行动能力#高德 #高德技术 #高德2026 #导航Live #全模态大模型",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_247ae6bed4a2647780a0208b"
+                "local_a99c8aa53889c177a4fecf6b"
               ],
               "confidence": 92
-            },
-            {
-              "title": "1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后",
-              "summary": "Agentic Engineering 在实践中究竟是什么样的？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c85f479ab7b4a055836e0abc"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
-              "summary": "Agentic OS 比“LLM OS”更值得讨论",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6101a2279ebc98f309fc3946"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Build zero-trust AI agents with Google's Agent Development Kit",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building autonomous AI agents that mutate production state requires moving beyond soft system prompts to a robust zero-trust architecture. To secure Google Agent Development Kit (ADK) workflows against prompt injections…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5b383196cbb403ec79d39cf0"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Agent Plugins package your skills, tools, and more",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Plugins 1.0.0 is a new, vendor-neutral directory specification—backed by Google, Amazon, Microsoft, and others—for packaging Agent Skills and MCP servers into a single portable unit. By standardizing the manifest …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f005e7f90a8397d52493bc34"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "大模型推理加速全链路：内存管理、编译优化、量化与并行策略",
-              "summary": "“通过技术手段把大模型对底层硬件算力的需求打破、压低，让推理变得更高效、更普惠。”",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6e67e96a0107cb22ee04d6ef"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_22f72015e1e58b4a4dfede52"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a051744c929a8838564a1fb3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6f2cd9893d3eee9f57a6e299"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9ac9b7ef87789e2e488339f1"
-              ],
-              "confidence": 78
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_933a3021532247639c3ac308",
-        "local_247ae6bed4a2647780a0208b",
-        "local_6e67e96a0107cb22ee04d6ef",
-        "local_c85f479ab7b4a055836e0abc",
-        "local_6101a2279ebc98f309fc3946",
-        "local_22f72015e1e58b4a4dfede52",
-        "local_5b383196cbb403ec79d39cf0",
-        "local_f005e7f90a8397d52493bc34",
-        "local_a051744c929a8838564a1fb3",
-        "local_e9b1f38c41cb1005785f5e8d",
-        "local_6f2cd9893d3eee9f57a6e299",
-        "local_cac70a6f0efe47ff71d8ffd0",
-        "local_11496e0328a960bcf14e100d",
-        "local_46c97be8637e975cb0e0f1fc",
-        "local_e63afb6006061454411d051d",
-        "local_b646fd7f837802851f7ed594",
-        "local_061237a691611d8d101db146",
-        "local_9ac9b7ef87789e2e488339f1",
-        "local_759cefccaf364b5e43991de0"
+        "local_a99c8aa53889c177a4fecf6b"
       ],
-      "generatedAt": "2026-08-28T11:27:45.066Z",
+      "generatedAt": "2026-08-28T21:40:59.499Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-28T11:27:45.066Z",
+  "generatedAt": "2026-08-28T21:40:59.499Z",
   "collectorName": "local-source-collector"
 }

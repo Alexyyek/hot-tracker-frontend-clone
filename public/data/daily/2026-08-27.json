@@ -5,55 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-08-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「OpenAI researcher warns ultrafast AI could leave security teams in the dust」、「给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%」、「Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI researcher warns ultrafast AI could leave security teams in the dust",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now"
       ],
       "watchItems": [
-        "跟进：OpenAI researcher warns ultrafast AI could leave security teams in the dust",
         "跟进：给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
-        "跟进：Piloting the world's first double-blind AI evaluations"
+        "跟进：Piloting the world's first double-blind AI evaluations",
+        "跟进：AI 创新实践|「架构师 Agent」系统化落地"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "OpenAI researcher warns ultrafast AI could leave security teams in the dust",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：An OpenAI researcher warns that state-of-the-art AI models running 50 times faster could infiltrate systems before human teams can react. Simple monitoring won't cut it anymore, he says. What's needed are autonomous shu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0360989610e0fc31498a3ed0"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "A quarter of Nvidia&#8217;s business next year comes from labs it is financing",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Nvidia has put nearly US$50 billion into the AI labs that buy its chips, and has lined up commitments for more than $500 billion Colette Kress, the company&#8217;s chief financial officer,&#160;told analysts&#160;on Aug…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_533883460c1f36fb92caf2e7"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_bdc157ea3e20f226d11adce6"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -123,16 +88,6 @@
               "confidence": 92
             },
             {
-              "title": "EMNLP'26|高德中稿7篇(含2篇finding),覆盖多模态理解、强化学习、多模态导航等技术领域",
-              "summary": "(Retrieval-Augmented Generation,RAG)检索相关笔记,并将其... #高德 #高德技术 #EMNLP2026 #顶会",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4695d8412f850f6639a7810a"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Not Just Reason, Not Just Scan: Reinforcement Learning for Proactive Scientific Error Verification over Academic Paper",
               "summary": "Multimodal large language models (MLLMs) are increasingly capable scientific assistants, yet they remain far from fully autonomous research. This transition requires models to actively inspect academic papers, build global evidence views, and make traceable judgments without pre…",
               "insightLabel": "关注",
@@ -163,15 +118,38 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "A quarter of Nvidia&#8217;s business next year comes from labs it is financing",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Nvidia has put nearly US$50 billion into the AI labs that buy its chips, and has lined up commitments for more than $500 billion Colette Kress, the company&#8217;s chief financial officer,&#160;told analysts&#160;on Aug…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_533883460c1f36fb92caf2e7"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_bdc157ea3e20f226d11adce6"
+              ],
+              "confidence": 74
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_0360989610e0fc31498a3ed0",
         "local_c3bd663c1189fb6b710263cd",
         "local_0c85ec68362b5f32a0c97504",
         "local_ccafe6da31f9beb91c77f820",
         "local_c5763b46e61d98703453b860",
-        "local_4695d8412f850f6639a7810a",
         "local_041ab8704acad9ee95cb72e4",
         "local_533883460c1f36fb92caf2e7",
         "local_bdc157ea3e20f226d11adce6",
@@ -183,7 +161,7 @@
         "local_f6ac4cdd20f5d7f848d3f798",
         "local_e59fa7e6363514d4f41b12a5"
       ],
-      "generatedAt": "2026-08-28T11:27:45.072Z",
+      "generatedAt": "2026-08-28T21:40:59.508Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -194,7 +172,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-27",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%」、「Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%」、「Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
@@ -205,7 +183,7 @@
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
         "跟进：Piloting the world's first double-blind AI evaluations",
-        "跟进：EMNLP'26|高德中稿7篇(含2篇finding),覆盖多模态理解、强化学习、多模态导航等技术领域"
+        "跟进：AI 创新实践|「架构师 Agent」系统化落地"
       ],
       "sections": [
         {
@@ -275,16 +253,6 @@
                 "local_c5763b46e61d98703453b860"
               ],
               "confidence": 92
-            },
-            {
-              "title": "EMNLP'26|高德中稿7篇(含2篇finding),覆盖多模态理解、强化学习、多模态导航等技术领域",
-              "summary": "(Retrieval-Augmented Generation,RAG)检索相关笔记,并将其... #高德 #高德技术 #EMNLP2026 #顶会",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4695d8412f850f6639a7810a"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -309,20 +277,19 @@
         "local_0c85ec68362b5f32a0c97504",
         "local_ccafe6da31f9beb91c77f820",
         "local_c5763b46e61d98703453b860",
-        "local_4695d8412f850f6639a7810a",
         "local_041ab8704acad9ee95cb72e4",
         "local_bdc157ea3e20f226d11adce6",
         "local_37ee7f0bfc8be51f2237e873",
         "local_f6ac4cdd20f5d7f848d3f798",
         "local_e59fa7e6363514d4f41b12a5"
       ],
-      "generatedAt": "2026-08-28T11:27:45.073Z",
+      "generatedAt": "2026-08-28T21:40:59.508Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-28T11:27:45.073Z",
+  "generatedAt": "2026-08-28T21:40:59.509Z",
   "collectorName": "local-source-collector"
 }
