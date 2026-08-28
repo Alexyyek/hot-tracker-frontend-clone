@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「OpenAI researcher warns ultrafast AI could leave security teams in the dust」、「Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「OpenAI researcher warns ultrafast AI could leave security teams in the dust」、「给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI researcher warns ultrafast AI could leave security teams in the dust",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now"
       ],
       "watchItems": [
         "跟进：OpenAI researcher warns ultrafast AI could leave security teams in the dust",
+        "跟进：给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
-        "跟进：Piloting the world's first double-blind AI evaluations",
-        "跟进：EMNLP'26|高德中稿7篇(含2篇finding),覆盖多模态理解、强化学习、多模态导航等技术领域"
+        "跟进：Piloting the world's first double-blind AI evaluations"
       ],
       "sections": [
         {
@@ -31,16 +31,6 @@
                 "local_0360989610e0fc31498a3ed0"
               ],
               "confidence": 82
-            },
-            {
-              "title": "GLM-5.3-Flash matches top models at a fraction of the cost, and runs without Nvidia",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Z.ai releases GLM-5.3-Flash, an open-source model with 320 billion parameters that lands just three points behind the larger GLM-5.3 on Artificial Analysis's Intelligence Index, at a seventh of the cost. What's notable …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6dabcc96339ec5d5f51ca56c"
-              ],
-              "confidence": 70
             },
             {
               "title": "A quarter of Nvidia&#8217;s business next year comes from labs it is financing",
@@ -61,22 +51,22 @@
                 "local_bdc157ea3e20f226d11adce6"
               ],
               "confidence": 74
-            },
-            {
-              "title": "Prefix Sliding for efficient test-time scaling",
-              "summary": "Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As models keep the entire reasoning trace in memory via full attention, hard tasks that need long thinking can be prohibitively expensive.…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_266ed01ef82dd0b3829875cf"
-              ],
-              "confidence": 82
             }
           ]
         },
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
+              "summary": "KI 团队 投稿 量子位 | 公众号 QbitAIAI Agent会写代码,不等于它会做科学计算.以水文模拟为例,Agent要划分流域、准备强迫数据、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c3bd663c1189fb6b710263cd"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Ian Buck hand-delivers the first NVIDIA Vera CPU systems to Anthropic, OpenAI, Oracle Cloud Infrastructure and SpaceXAI — marking the moment agentic CPUs move from announcement to production.",
@@ -108,22 +98,12 @@
               "confidence": 92
             },
             {
-              "title": "GUI-Primitives: Diagnosing Spatial Reasoning Failures in Vision-Language GUI Grounding",
-              "summary": "Computer-use agents ground natural-language instructions in screenshots to locate interface elements, yet existing benchmarks do not isolate whether models bind relational language to the correct element. We introduce GUI-Primitives, a 994-item benchmark of contrastive instructi…",
+              "title": "PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents",
+              "summary": "Long-horizon agent runs generate experience that can improve both the current run and future work. Most self-improvement methods process this experience only after execution ends, so they cannot redirect the active run or immediately apply and validate lessons learned from it. W…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_844708a441becb6d2bc601c6"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Skill Issue: Are Skills Language-Invariant in LLMs?",
-              "summary": "Large language models access knowledge inconsistently across languages, but to what extent do they differ in their skill sets when interacting with different languages? This work quantifies cross-lingual skill inconsistency orthogonally from knowledge and general benchmark perfo…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_23a1923e1195ae37cac702ce"
+                "local_d5d242a46b7618fd5a9bd18f"
               ],
               "confidence": 92
             }
@@ -148,19 +128,29 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_8458b66c76a5b23a4d48d8c3"
+                "local_4695d8412f850f6639a7810a"
               ],
               "confidence": 92
             },
             {
-              "title": "Pushing the Limits of High-Resolution Weather Forecasting through Data Scaling",
-              "summary": "The development of 0.1^{circ} global weather forecasting models based on machine learning (ML) is constrained by the limited availability of high-resolution data, as decades of reanalysis are only available at 0.25^{circ} resolution. While existing approaches fine-tune 0.25^{cir…",
+              "title": "Not Just Reason, Not Just Scan: Reinforcement Learning for Proactive Scientific Error Verification over Academic Paper",
+              "summary": "Multimodal large language models (MLLMs) are increasingly capable scientific assistants, yet they remain far from fully autonomous research. This transition requires models to actively inspect academic papers, build global evidence views, and make traceable judgments without pre…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_970a46432fc2e1185d0c47a8"
+                "local_6bc254ba0778124a187c9229"
               ],
-              "confidence": 86
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_36d20d66ab798bcbec4dfa16"
+              ],
+              "confidence": 92
             },
             {
               "title": "Qwen3.8-Flash-Next",
@@ -177,25 +167,23 @@
       ],
       "referencedFeedItemIds": [
         "local_0360989610e0fc31498a3ed0",
+        "local_c3bd663c1189fb6b710263cd",
         "local_0c85ec68362b5f32a0c97504",
         "local_ccafe6da31f9beb91c77f820",
         "local_c5763b46e61d98703453b860",
-        "local_8458b66c76a5b23a4d48d8c3",
-        "local_6dabcc96339ec5d5f51ca56c",
+        "local_4695d8412f850f6639a7810a",
         "local_041ab8704acad9ee95cb72e4",
         "local_533883460c1f36fb92caf2e7",
         "local_bdc157ea3e20f226d11adce6",
-        "local_844708a441becb6d2bc601c6",
-        "local_23a1923e1195ae37cac702ce",
-        "local_266ed01ef82dd0b3829875cf",
-        "local_970a46432fc2e1185d0c47a8",
+        "local_6bc254ba0778124a187c9229",
+        "local_d5d242a46b7618fd5a9bd18f",
+        "local_36d20d66ab798bcbec4dfa16",
         "local_e17f400ee7792f52217b202c",
         "local_37ee7f0bfc8be51f2237e873",
-        "local_93f794d78f2c60bbeddf8495",
         "local_f6ac4cdd20f5d7f848d3f798",
         "local_e59fa7e6363514d4f41b12a5"
       ],
-      "generatedAt": "2026-08-28T00:11:42.274Z",
+      "generatedAt": "2026-08-28T11:27:45.072Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -206,23 +194,33 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-27",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now」、「Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%」、「Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Piloting the world's first double-blind AI evaluations"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now"
       ],
       "watchItems": [
+        "跟进：给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
         "跟进：Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
         "跟进：Piloting the world's first double-blind AI evaluations",
-        "跟进：EMNLP'26|高德中稿7篇(含2篇finding),覆盖多模态理解、强化学习、多模态导航等技术领域",
-        "跟进：AI 创新实践|「架构师 Agent」系统化落地"
+        "跟进：EMNLP'26|高德中稿7篇(含2篇finding),覆盖多模态理解、强化学习、多模态导航等技术领域"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "给AI Agent装上\"科学常识\",端到端仿真成功率从0拉到84%",
+              "summary": "KI 团队 投稿 量子位 | 公众号 QbitAIAI Agent会写代码,不等于它会做科学计算.以水文模拟为例,Agent要划分流域、准备强迫数据、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c3bd663c1189fb6b710263cd"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Delivering Vera: NVIDIA’s First CPU Built for Agents Is Shipping Now",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Ian Buck hand-delivers the first NVIDIA Vera CPU systems to Anthropic, OpenAI, Oracle Cloud Infrastructure and SpaceXAI — marking the moment agentic CPUs move from announcement to production.",
@@ -262,16 +260,6 @@
                 "local_37ee7f0bfc8be51f2237e873"
               ],
               "confidence": 70
-            },
-            {
-              "title": "Experiment with Qwen3.8-Flash-Next on NVIDIA GB300 NVL72 for Agentic Coding",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Alibaba released the model weights for Qwen3.8-Flash-Next as a preview of the upcoming Qwen4 architecture for developers to experiment with and evaluate. It’s...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f6ac4cdd20f5d7f848d3f798"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -294,7 +282,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_8458b66c76a5b23a4d48d8c3"
+                "local_4695d8412f850f6639a7810a"
               ],
               "confidence": 92
             }
@@ -317,23 +305,24 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_c3bd663c1189fb6b710263cd",
         "local_0c85ec68362b5f32a0c97504",
         "local_ccafe6da31f9beb91c77f820",
         "local_c5763b46e61d98703453b860",
-        "local_8458b66c76a5b23a4d48d8c3",
+        "local_4695d8412f850f6639a7810a",
         "local_041ab8704acad9ee95cb72e4",
         "local_bdc157ea3e20f226d11adce6",
         "local_37ee7f0bfc8be51f2237e873",
         "local_f6ac4cdd20f5d7f848d3f798",
         "local_e59fa7e6363514d4f41b12a5"
       ],
-      "generatedAt": "2026-08-28T00:11:42.274Z",
+      "generatedAt": "2026-08-28T11:27:45.073Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-28T00:11:42.274Z",
+  "generatedAt": "2026-08-28T11:27:45.073Z",
   "collectorName": "local-source-collector"
 }

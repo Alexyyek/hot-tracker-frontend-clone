@@ -5,60 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-08-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Code World Model: Coding Agent as World Brain」、「SkillShield: Prompt-Space Security Skills for LLM Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Code World Model: Coding Agent as World Brain",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SkillShield: Prompt-Space Security Skills for LLM Coding Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EVOMAL: Self-Poisoning in Self-Evolving Coding Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作"
       ],
       "watchItems": [
-        "跟进：Code World Model: Coding Agent as World Brain",
-        "跟进：SkillShield: Prompt-Space Security Skills for LLM Coding Agents",
-        "跟进：EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
         "跟进：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
-        "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术"
+        "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
+        "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
+        "跟进：Gatik raises $200M to scale AI-powered autonomous freight",
+        "跟进：Cloudflare 推出 Agent Tracing:支持截断限制,不同框架的 Payload 默认记录策略存在差异"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Code World Model: Coding Agent as World Brain",
-              "summary": "World models aim to simulate how complex environments evolve under actions and events, yet existing video-based world models primarily learn dynamics from visual observations, which reveal outcomes rather than the underlying knowledge, rules, and mechanisms governing world evolu…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a4c3cde1b7f116dff3c4d5a4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "SkillShield: Prompt-Space Security Skills for LLM Coding Agents",
-              "summary": "A coding agent edits files and executes shell commands with its developer's privileges, allowing malicious requests to translate directly into harmful actions or functional malware. Existing defenses have complementary limitations: weight-level alignment is unavailable to API-on…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_854e8d4586795b4b3a9d5cd9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "EVOMAL: Self-Poisoning in Self-Evolving Coding Agents",
-              "summary": "Self-evolving LLM coding agents write their own tools by imitating retrieved skills from shared skill libraries. We identify a vulnerability in this loop: during authoring, a retrieved malicious skill can become the template for a new skill that preserves the payload. We call th…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7c90ad94604e8c3db7c0368b"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
               "summary": "本篇为技术实践篇,分享针对 Agent 提示词注入攻击的防护实践.一、引言:当 Agent 开始行动,提示词注入成为系统性风险过去一...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a2884653febadad932030dce"
+                "local_830b6c8f6691c0f22ae230ea"
               ],
               "confidence": 90
             },
@@ -68,9 +38,39 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_14283d6bf73b40d29f8f3bcb"
+                "local_c6e76fa293ec018c5d8c0606"
               ],
               "confidence": 90
+            },
+            {
+              "title": "一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
+              "summary": "针对这一痛点,微软亚洲研究院推出了DeepVisual Agent.该智能体以\"意图输入,视觉交付输出\"为核心目标,突破了传统AI生图与...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9f1de8fbc52f602768154fe0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Cloudflare 推出 Agent Tracing:支持截断限制,不同框架的 Payload 默认记录策略存在差异",
+              "summary": "//www.infoq.com/news/2026/08/cloudflare-agent-tracing/)声明:本文为 InfoQ 翻译,未经许可禁止转载.点击底部阅读原文访问 InfoQ ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_81ff5531881809d9544a1b77"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "实测飞书和豆包合体后第1个Agent,我挖到了豆包工作的8个使用技巧",
+              "summary": "跟AI聊天,一天能用多少token?但一个Work Agent跑一次复杂任务,消耗的token可能顶你聊一个礼拜.Chat产品的变现天花板太低了...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a7f4be431ab2cf7dc766dee3"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -98,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_ccdc9ba2a3a2310df55aba90"
+                "local_3a3116856ab02528706ff6a9"
               ],
               "confidence": 92
             }
@@ -107,16 +107,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cdb34be239a9b3b976cdcb84"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
@@ -131,21 +121,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a4c3cde1b7f116dff3c4d5a4",
-        "local_854e8d4586795b4b3a9d5cd9",
-        "local_7c90ad94604e8c3db7c0368b",
-        "local_a2884653febadad932030dce",
-        "local_14283d6bf73b40d29f8f3bcb",
-        "local_b8c069edcd34519d1fd1ec59",
+        "local_830b6c8f6691c0f22ae230ea",
+        "local_c6e76fa293ec018c5d8c0606",
+        "local_9f1de8fbc52f602768154fe0",
         "local_5e5bef80693345e011de30fb",
-        "local_589b19d8625ddf47bb66a3bc",
-        "local_122642240c3786d3e0304449",
+        "local_81ff5531881809d9544a1b77",
+        "local_a7f4be431ab2cf7dc766dee3",
         "local_d9b86a34eedcef62733312b6",
-        "local_ccdc9ba2a3a2310df55aba90",
-        "local_cdb34be239a9b3b976cdcb84",
+        "local_3a3116856ab02528706ff6a9",
         "local_1931fcab42a9cb1b63c5a498"
       ],
-      "generatedAt": "2026-08-28T00:11:42.286Z",
+      "generatedAt": "2026-08-28T11:27:45.079Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -179,7 +165,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a2884653febadad932030dce"
+                "local_830b6c8f6691c0f22ae230ea"
               ],
               "confidence": 90
             },
@@ -189,7 +175,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_14283d6bf73b40d29f8f3bcb"
+                "local_c6e76fa293ec018c5d8c0606"
               ],
               "confidence": 90
             },
@@ -199,7 +185,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b8c069edcd34519d1fd1ec59"
+                "local_9f1de8fbc52f602768154fe0"
               ],
               "confidence": 92
             },
@@ -209,7 +195,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_589b19d8625ddf47bb66a3bc"
+                "local_81ff5531881809d9544a1b77"
               ],
               "confidence": 90
             }
@@ -232,19 +218,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a2884653febadad932030dce",
-        "local_14283d6bf73b40d29f8f3bcb",
-        "local_b8c069edcd34519d1fd1ec59",
-        "local_589b19d8625ddf47bb66a3bc",
+        "local_830b6c8f6691c0f22ae230ea",
+        "local_c6e76fa293ec018c5d8c0606",
+        "local_9f1de8fbc52f602768154fe0",
+        "local_81ff5531881809d9544a1b77",
         "local_1931fcab42a9cb1b63c5a498"
       ],
-      "generatedAt": "2026-08-28T00:11:42.287Z",
+      "generatedAt": "2026-08-28T11:27:45.079Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-28T00:11:42.287Z",
+  "generatedAt": "2026-08-28T11:27:45.079Z",
   "collectorName": "local-source-collector"
 }
