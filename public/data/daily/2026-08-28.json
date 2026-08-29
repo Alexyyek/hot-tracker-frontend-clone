@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕」、「AI benchmarks have a trust problem and Google wants to fix it」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕」、「AI benchmarks have a trust problem and Google wants to fix it」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI benchmarks have a trust problem and Google wants to fix it",
@@ -16,7 +16,7 @@
         "跟进：AI benchmarks have a trust problem and Google wants to fix it",
         "跟进：高德全模态出行智能体:正式开启\"导航Live模式\"",
         "跟进：OpenAI模型失控过程太恐怖!幽灵误判,1200个Agent,还弄出敢死队&hellip;",
-        "跟进：Always-on and self-starting AI agents might be OpenAI&#039;s next big play"
+        "跟进：Luce: Relightable Gaussians for 3D Asset Generation"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9b5a12f5965d1bb1297f3f30"
+                "local_99ab3c19ee06ca3aee00284d"
               ],
               "confidence": 92
             },
@@ -53,22 +53,22 @@
               "confidence": 86
             },
             {
-              "title": "Always-on and self-starting AI agents might be OpenAI&#039;s next big play",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI is building a \"Persistent Mode\" for its AI agent Codex that stays active indefinitely and generates its own follow-up tasks. WIRED found the relevant code, and OpenAI confirmed the tests. The feature comes with r…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1a8f633fd3a5d6f0967f80a9"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Breaking Claude Code Opus 5 Auto Mode",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_20ee9b4a81ac1d0ed567ce81"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification",
+              "summary": "Agent harnesses shape how language-model agents use instructions, tools, and runtime components, but adapting these harnesses requires costly verification. Existing propose-and-verify methods typically score every candidate on a fixed task set, wasting rollouts on unrelated beha…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_897941180a5e1fd6d9fad123"
               ],
               "confidence": 92
             }
@@ -148,20 +148,18 @@
       "referencedFeedItemIds": [
         "local_2dfdad2a7fe51ac7abbaecbb",
         "local_6473c9eeb841672677d67cab",
-        "local_9b5a12f5965d1bb1297f3f30",
+        "local_99ab3c19ee06ca3aee00284d",
         "local_8defd1d2b07e7952eb80293d",
-        "local_1a8f633fd3a5d6f0967f80a9",
         "local_dfb6202da5d9acfbedd6d16f",
         "local_7600e99e63c61b91342438e1",
         "local_0aa715c6934e657a97d3be0d",
         "local_537f8df35503d77faaad535a",
         "local_4550ae5648e78ed856a53c7c",
         "local_20ee9b4a81ac1d0ed567ce81",
-        "local_7f1b1dd8881bb10f77c19d15",
         "local_897941180a5e1fd6d9fad123",
         "local_f3d716345fb9f010dd700fc9"
       ],
-      "generatedAt": "2026-08-29T03:32:26.185Z",
+      "generatedAt": "2026-08-29T10:34:24.422Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -203,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9b5a12f5965d1bb1297f3f30"
+                "local_99ab3c19ee06ca3aee00284d"
               ],
               "confidence": 92
             },
@@ -222,16 +220,16 @@
       ],
       "referencedFeedItemIds": [
         "local_2dfdad2a7fe51ac7abbaecbb",
-        "local_9b5a12f5965d1bb1297f3f30",
+        "local_99ab3c19ee06ca3aee00284d",
         "local_8defd1d2b07e7952eb80293d"
       ],
-      "generatedAt": "2026-08-29T03:32:26.185Z",
+      "generatedAt": "2026-08-29T10:34:24.422Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-29T03:32:26.185Z",
+  "generatedAt": "2026-08-29T10:34:24.422Z",
   "collectorName": "local-source-collector"
 }
