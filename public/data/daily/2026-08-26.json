@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
@@ -16,7 +16,7 @@
         "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
         "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
         "跟进：Gatik raises $200M to scale AI-powered autonomous freight",
-        "跟进：Cloudflare 推出 Agent Tracing:支持截断限制,不同框架的 Payload 默认记录策略存在差异"
+        "跟进：实测飞书和豆包合体后第1个Agent,我挖到了豆包工作的8个使用技巧"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f35af04e35c765f0e32a82e3"
+                "local_ec9f452a79890926b596633e"
               ],
               "confidence": 90
             },
@@ -48,19 +48,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c53be3cc60d02a2e5d912c97"
+                "local_ca6a3aa4da4b435f16e33336"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Cloudflare 推出 Agent Tracing:支持截断限制,不同框架的 Payload 默认记录策略存在差异",
-              "summary": "//www.infoq.com/news/2026/08/cloudflare-agent-tracing/)声明:本文为 InfoQ 翻译,未经许可禁止转载.点击底部阅读原文访问 InfoQ ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_543c715787722eb48d6b8a2a"
-              ],
-              "confidence": 90
             },
             {
               "title": "实测飞书和豆包合体后第1个Agent,我挖到了豆包工作的8个使用技巧",
@@ -68,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5239daff7483ddc043ddea1a"
+                "local_6d1580749cba4c7c95c8b30e"
               ],
               "confidence": 92
             }
@@ -98,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_7465d4271a734321a6a44885"
+                "local_035e468fe876847a59da88a4"
               ],
               "confidence": 92
             }
@@ -122,15 +112,14 @@
       ],
       "referencedFeedItemIds": [
         "local_6aaf37e55532fb1906b67f45",
-        "local_f35af04e35c765f0e32a82e3",
-        "local_c53be3cc60d02a2e5d912c97",
+        "local_ec9f452a79890926b596633e",
+        "local_ca6a3aa4da4b435f16e33336",
         "local_5e5bef80693345e011de30fb",
-        "local_543c715787722eb48d6b8a2a",
-        "local_5239daff7483ddc043ddea1a",
-        "local_7465d4271a734321a6a44885",
+        "local_6d1580749cba4c7c95c8b30e",
+        "local_035e468fe876847a59da88a4",
         "local_1931fcab42a9cb1b63c5a498"
       ],
-      "generatedAt": "2026-08-30T05:56:20.989Z",
+      "generatedAt": "2026-08-30T12:00:27.295Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -141,7 +130,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
@@ -151,7 +140,6 @@
         "跟进：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
         "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
-        "跟进：Cloudflare 推出 Agent Tracing:支持截断限制,不同框架的 Payload 默认记录策略存在差异",
         "跟进：Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo"
       ],
       "sections": [
@@ -174,7 +162,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f35af04e35c765f0e32a82e3"
+                "local_ec9f452a79890926b596633e"
               ],
               "confidence": 90
             },
@@ -184,19 +172,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c53be3cc60d02a2e5d912c97"
+                "local_ca6a3aa4da4b435f16e33336"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Cloudflare 推出 Agent Tracing:支持截断限制,不同框架的 Payload 默认记录策略存在差异",
-              "summary": "//www.infoq.com/news/2026/08/cloudflare-agent-tracing/)声明:本文为 InfoQ 翻译,未经许可禁止转载.点击底部阅读原文访问 InfoQ ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_543c715787722eb48d6b8a2a"
-              ],
-              "confidence": 90
             }
           ]
         },
@@ -218,18 +196,17 @@
       ],
       "referencedFeedItemIds": [
         "local_6aaf37e55532fb1906b67f45",
-        "local_f35af04e35c765f0e32a82e3",
-        "local_c53be3cc60d02a2e5d912c97",
-        "local_543c715787722eb48d6b8a2a",
+        "local_ec9f452a79890926b596633e",
+        "local_ca6a3aa4da4b435f16e33336",
         "local_1931fcab42a9cb1b63c5a498"
       ],
-      "generatedAt": "2026-08-30T05:56:20.989Z",
+      "generatedAt": "2026-08-30T12:00:27.295Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-30T05:56:20.989Z",
+  "generatedAt": "2026-08-30T12:00:27.295Z",
   "collectorName": "local-source-collector"
 }
