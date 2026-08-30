@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Google&#039;s WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance」、「LAION drops massive open video dataset with 10 million hours of footage for AI research」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Google&#039;s WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance」、「LAION drops massive open video dataset with 10 million hours of footage for AI research」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google&#039;s WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LAION drops massive open video dataset with 10 million hours of footage for AI research",
@@ -15,8 +15,8 @@
         "跟进：Google&#039;s WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
         "跟进：LAION drops massive open video dataset with 10 million hours of footage for AI research",
         "跟进：Anthropic wants to do for physical hardware what its Model Context Protocol did for software",
-        "跟进：Agent Harness 解析:智能体架构深度拆解",
-        "跟进：突发,OpenAI 将全面断供 Cursor!原因是不信任SpaceX"
+        "跟进：企业智能化产品与案例征集|量子位智库",
+        "跟进：Agent Harness 解析:智能体架构深度拆解"
       ],
       "sections": [
         {
@@ -43,12 +43,22 @@
               "confidence": 92
             },
             {
+              "title": "企业智能化产品与案例征集|量子位智库",
+              "summary": "卡洛琳量子位 | 公众号 QbitAIAI正在进入企业核心业务.过去几年... Coding Agent及智能体平台厂商数据开发治理、指标平台、BI和企...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c12753fb4c0100b6eb1c3616"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Agent Harness 解析:智能体架构深度拆解",
               "summary": "文档智能+知识图谱+大模型结合范式Hermes Agent 被忽视的 4 个坑,DTClaw 如何填平?梁文锋出资200亿!DeepSeek首轮创纪录融...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c55c0377bc45d0dbbc1de64f"
+                "local_f62fbc74bae4a80ef3225c20"
               ],
               "confidence": 92
             },
@@ -58,17 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aae75c6b6cb9820ea32a76b7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Just a rumour of a bug is enough to find a security exploit these days",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he rep…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d9362e240919538475d65c9e"
+                "local_6ff2eca0565ca9ecfba959c1"
               ],
               "confidence": 92
             }
@@ -86,6 +86,16 @@
                 "local_43d6bf885083589eb37580c4"
               ],
               "confidence": 78
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d27a272c7376e5a40fb4d120"
+              ],
+              "confidence": 92
             }
           ]
         }
@@ -94,12 +104,14 @@
         "local_815e1c8f067c1ce48c2a4b26",
         "local_43d6bf885083589eb37580c4",
         "local_a4e22b39d7d552b50b5006c8",
-        "local_c55c0377bc45d0dbbc1de64f",
-        "local_aae75c6b6cb9820ea32a76b7",
+        "local_c12753fb4c0100b6eb1c3616",
+        "local_f62fbc74bae4a80ef3225c20",
+        "local_6ff2eca0565ca9ecfba959c1",
+        "local_d27a272c7376e5a40fb4d120",
         "local_d9362e240919538475d65c9e",
         "local_3f6a261bcb4c7b8f00b0b22c"
       ],
-      "generatedAt": "2026-08-30T00:24:57.541Z",
+      "generatedAt": "2026-08-30T05:56:20.954Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -110,12 +122,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-29",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Agent Harness 解析:智能体架构深度拆解」、「突发,OpenAI 将全面断供 Cursor!原因是不信任SpaceX」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「企业智能化产品与案例征集|量子位智库」、「Agent Harness 解析:智能体架构深度拆解」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业智能化产品与案例征集|量子位智库",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness 解析:智能体架构深度拆解",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：突发,OpenAI 将全面断供 Cursor!原因是不信任SpaceX"
       ],
       "watchItems": [
+        "跟进：企业智能化产品与案例征集|量子位智库",
         "跟进：Agent Harness 解析:智能体架构深度拆解",
         "跟进：突发,OpenAI 将全面断供 Cursor!原因是不信任SpaceX"
       ],
@@ -124,12 +138,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "企业智能化产品与案例征集|量子位智库",
+              "summary": "卡洛琳量子位 | 公众号 QbitAIAI正在进入企业核心业务.过去几年... Coding Agent及智能体平台厂商数据开发治理、指标平台、BI和企...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c12753fb4c0100b6eb1c3616"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Agent Harness 解析:智能体架构深度拆解",
               "summary": "文档智能+知识图谱+大模型结合范式Hermes Agent 被忽视的 4 个坑,DTClaw 如何填平?梁文锋出资200亿!DeepSeek首轮创纪录融...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c55c0377bc45d0dbbc1de64f"
+                "local_f62fbc74bae4a80ef3225c20"
               ],
               "confidence": 92
             },
@@ -139,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aae75c6b6cb9820ea32a76b7"
+                "local_6ff2eca0565ca9ecfba959c1"
               ],
               "confidence": 92
             }
@@ -147,16 +171,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c55c0377bc45d0dbbc1de64f",
-        "local_aae75c6b6cb9820ea32a76b7"
+        "local_c12753fb4c0100b6eb1c3616",
+        "local_f62fbc74bae4a80ef3225c20",
+        "local_6ff2eca0565ca9ecfba959c1"
       ],
-      "generatedAt": "2026-08-30T00:24:57.541Z",
+      "generatedAt": "2026-08-30T05:56:20.954Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-30T00:24:57.541Z",
+  "generatedAt": "2026-08-30T05:56:20.954Z",
   "collectorName": "local-source-collector"
 }
