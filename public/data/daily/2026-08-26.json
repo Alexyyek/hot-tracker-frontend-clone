@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_62eae7b86edcca34571217ca"
+                "local_7c60e494c30cb5e28e6395a3"
               ],
               "confidence": 90
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_214b9caf3a3b978399ac41e0"
+                "local_57a2e9b88b6cb0dc4559be36"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0a7436b3be3971b4db52ebba"
+                "local_8d4e60276fa88363fd0f6080"
               ],
               "confidence": 92
             }
@@ -88,22 +88,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_3c9e8c76bb7356111c55186b"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1931fcab42a9cb1b63c5a498"
+                "local_5b766a6c0c00a8d55c1a91e4"
               ],
               "confidence": 92
             }
@@ -112,14 +97,13 @@
       ],
       "referencedFeedItemIds": [
         "local_2355b87e97f6aa24f4be0559",
-        "local_62eae7b86edcca34571217ca",
-        "local_214b9caf3a3b978399ac41e0",
+        "local_7c60e494c30cb5e28e6395a3",
+        "local_57a2e9b88b6cb0dc4559be36",
         "local_5e5bef80693345e011de30fb",
-        "local_0a7436b3be3971b4db52ebba",
-        "local_3c9e8c76bb7356111c55186b",
-        "local_1931fcab42a9cb1b63c5a498"
+        "local_8d4e60276fa88363fd0f6080",
+        "local_5b766a6c0c00a8d55c1a91e4"
       ],
-      "generatedAt": "2026-08-31T13:50:59.411Z",
+      "generatedAt": "2026-08-31T20:09:31.939Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -130,7 +114,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
@@ -139,8 +123,7 @@
       "watchItems": [
         "跟进：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
-        "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
-        "跟进：Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo"
+        "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作"
       ],
       "sections": [
         {
@@ -162,7 +145,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_62eae7b86edcca34571217ca"
+                "local_7c60e494c30cb5e28e6395a3"
               ],
               "confidence": 90
             },
@@ -172,22 +155,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_214b9caf3a3b978399ac41e0"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Restore LLM Inference Capacity in Seconds with Shadow Engine Recovery in NVIDIA Dynamo",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When an LLM engine process fails, the standard recovery path involves a cold restart. This requires loading weights into HBM from storage, compiling kernels,...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1931fcab42a9cb1b63c5a498"
+                "local_57a2e9b88b6cb0dc4559be36"
               ],
               "confidence": 92
             }
@@ -196,17 +164,16 @@
       ],
       "referencedFeedItemIds": [
         "local_2355b87e97f6aa24f4be0559",
-        "local_62eae7b86edcca34571217ca",
-        "local_214b9caf3a3b978399ac41e0",
-        "local_1931fcab42a9cb1b63c5a498"
+        "local_7c60e494c30cb5e28e6395a3",
+        "local_57a2e9b88b6cb0dc4559be36"
       ],
-      "generatedAt": "2026-08-31T13:50:59.411Z",
+      "generatedAt": "2026-08-31T20:09:31.939Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-31T13:50:59.411Z",
+  "generatedAt": "2026-08-31T20:09:31.939Z",
   "collectorName": "local-source-collector"
 }

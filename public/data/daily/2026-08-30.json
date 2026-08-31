@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AI agents have no sense of time and are not aware of it」、「The skills that earn top grades are the ones AI can fake best」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI agents have no sense of time and are not aware of it」、「The skills that earn top grades are the ones AI can fake best」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents have no sense of time and are not aware of it",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The skills that earn top grades are the ones AI can fake best",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Code limit change is a raise on paper but a cut in practice"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：自研Runtime、Agent Loop、Infra:一家通用Agent公司的全栈赌注"
       ],
       "watchItems": [
         "跟进：AI agents have no sense of time and are not aware of it",
         "跟进：The skills that earn top grades are the ones AI can fake best",
-        "跟进：Anthropic&#039;s Claude Code limit change is a raise on paper but a cut in practice",
         "跟进：自研Runtime、Agent Loop、Infra:一家通用Agent公司的全栈赌注",
-        "跟进：手机本地一键成片,靠的是一个8B小模型的自我进化 | EMNLP'26"
+        "跟进：手机本地一键成片,靠的是一个8B小模型的自我进化 | EMNLP'26",
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -48,24 +48,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d187774c4723f7dc5ce7ad6a"
+                "local_524d7f08666aa46b7d5b14a8"
               ],
               "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Anthropic&#039;s Claude Code limit change is a raise on paper but a cut in practice",
-              "summary": "Anthropic is effectively cutting Claude Code's weekly usage limits by 17 percent. A temporary 50 percent boost expires on September 14 and will be replaced by a permanent 25 percent increase. Anthropic promises more control and transparency over usage in return. The article Anth…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_72b65aac6e24541a05bb3edf"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -108,13 +93,12 @@
       "referencedFeedItemIds": [
         "local_b0bc90d045dd5cee3dee9f61",
         "local_b59f8893051eec1efea77bce",
-        "local_72b65aac6e24541a05bb3edf",
-        "local_d187774c4723f7dc5ce7ad6a",
+        "local_524d7f08666aa46b7d5b14a8",
         "local_81b6e4bf1667f48e48a94e63",
         "local_1246ccf01c099e13793c14f3",
         "local_1b7db444abbd77662a2b56c0"
       ],
-      "generatedAt": "2026-08-31T13:50:59.382Z",
+      "generatedAt": "2026-08-31T20:09:31.906Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -144,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d187774c4723f7dc5ce7ad6a"
+                "local_524d7f08666aa46b7d5b14a8"
               ],
               "confidence": 90
             }
@@ -167,16 +151,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d187774c4723f7dc5ce7ad6a",
+        "local_524d7f08666aa46b7d5b14a8",
         "local_81b6e4bf1667f48e48a94e63"
       ],
-      "generatedAt": "2026-08-31T13:50:59.382Z",
+      "generatedAt": "2026-08-31T20:09:31.906Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-31T13:50:59.383Z",
+  "generatedAt": "2026-08-31T20:09:31.908Z",
   "collectorName": "local-source-collector"
 }
