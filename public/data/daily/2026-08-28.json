@@ -5,52 +5,51 @@
       "topicId": "ai",
       "reportDate": "2026-08-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕」、「高德全模态出行智能体:正式开启\"导航Live模式\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Prove2Me: An Open Collaborative Platform for Scaling Math Formalization」、「OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德全模态出行智能体:正式开启\"导航Live模式\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI模型失控过程太恐怖!幽灵误判,1200个Agent,还弄出敢死队&hellip;"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德全模态出行智能体:正式开启\"导航Live模式\""
       ],
       "watchItems": [
+        "跟进：Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
         "跟进：OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕",
         "跟进：高德全模态出行智能体:正式开启\"导航Live模式\"",
-        "跟进：OpenAI模型失控过程太恐怖!幽灵误判,1200个Agent,还弄出敢死队&hellip;",
-        "跟进：Luce: Relightable Gaussians for 3D Asset Generation",
-        "跟进：CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes"
+        "跟进：Breaking Claude Code Opus 5 Auto Mode"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
+              "summary": "Proof assistants such as Lean 4 promise the paradigm of formally verified mathematics, but large-scale formalization projects have faced major barriers to entry, including the need for expertise in formal verification (as well as the underlying mathematics) and the significant t…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9a05ee985d7751f8eacb33f3"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕",
               "summary": "Agent,原本只是在做 ExploitGym 网络安全测试.题太难,迟迟拿... 三份记录拼在一起,整条链路比一句\"AI 失控\"具体得多,也离谱...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b64d3b54fc408e90390fa260"
+                "local_1c62cf40b6f8bf750c46cf77"
               ],
               "confidence": 92
             },
             {
               "title": "高德全模态出行智能体:正式开启\"导航Live模式\"",
-              "summary": "把事情办成,持续延伸用户在真实世界的行动能力#高德 #高德技术 #高德2026 #导航Live #全模态大模型",
+              "summary": "智能体讲故事时,广播在后台播放;用户打断智能体开启新话题;... #高德技术 #高德2026 #导航Live #全模态大模型",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_63311adb2c9efe79c82221c0"
+                "local_762953a9d38fdd0c9b1a892a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "OpenAI模型失控过程太恐怖!幽灵误判,1200个Agent,还弄出敢死队&hellip;",
-              "summary": "凹非寺量子位 | 公众号 QbitAI越扒越有啊越扒越有.OpenAI前不久... 有198道此前压根没任何模型成功做出来过.甚至部分任务本身就...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8defd1d2b07e7952eb80293d"
-              ],
-              "confidence": 86
             },
             {
               "title": "Breaking Claude Code Opus 5 Auto Mode",
@@ -61,83 +60,17 @@
                 "local_20ee9b4a81ac1d0ed567ce81"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Verify Smarter, Evolve Further: Efficient Harness Evolution through Behavior-Aware Verification",
-              "summary": "Agent harnesses shape how language-model agents use instructions, tools, and runtime components, but adapting these harnesses requires costly verification. Existing propose-and-verify methods typically score every candidate on a fixed task set, wasting rollouts on unrelated beha…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_897941180a5e1fd6d9fad123"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Luce: Relightable Gaussians for 3D Asset Generation",
-              "summary": "High-fidelity image-to-3D generation requires a 3D representation that captures both geometry and appearance. To support relighting and integration into standard rendering pipelines, the representation should include physically based rendering (PBR) modalities such as albedo, me…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_dfb6202da5d9acfbedd6d16f"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback",
-              "summary": "Contact-rich manipulation requires adapting to contact states that can evolve substantially within an action horizon. However, chunk-based vision-language-action models predict complete action chunks from observations collected before execution, leaving tactile conditioning stal…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0aa715c6934e657a97d3be0d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "What Does an Evaluation License? A Commit-Bound Census of Claim-Relative Inference in Inspect Evals",
-              "summary": "Evaluation artifacts specify a forward computation: a task, scorer, and reported metric. They do not necessarily license the claim attached to that metric because the historical evidence and alternative semantics needed to replay it may be unbound. We formalize this missing clai…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_537f8df35503d77faaad535a"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
-              "summary": "Recent advances in inference-time scaling have significantly improved the reasoning performance of large language models (LLMs). However, these methods typically rely on repeated generation or external verification. To address this limitation, we introduce CritICL, a novel infer…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7600e99e63c61b91342438e1"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_b64d3b54fc408e90390fa260",
-        "local_63311adb2c9efe79c82221c0",
-        "local_8defd1d2b07e7952eb80293d",
-        "local_dfb6202da5d9acfbedd6d16f",
-        "local_7600e99e63c61b91342438e1",
-        "local_0aa715c6934e657a97d3be0d",
-        "local_537f8df35503d77faaad535a",
-        "local_20ee9b4a81ac1d0ed567ce81",
-        "local_897941180a5e1fd6d9fad123",
-        "local_f3d716345fb9f010dd700fc9"
+        "local_9a05ee985d7751f8eacb33f3",
+        "local_1c62cf40b6f8bf750c46cf77",
+        "local_762953a9d38fdd0c9b1a892a",
+        "local_20ee9b4a81ac1d0ed567ce81"
       ],
-      "generatedAt": "2026-08-31T00:40:33.737Z",
+      "generatedAt": "2026-08-31T06:15:36.259Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -148,16 +81,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-28",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕」、「高德全模态出行智能体:正式开启\"导航Live模式\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕」、「高德全模态出行智能体:正式开启\"导航Live模式\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德全模态出行智能体:正式开启\"导航Live模式\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI模型失控过程太恐怖!幽灵误判,1200个Agent,还弄出敢死队&hellip;"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德全模态出行智能体:正式开启\"导航Live模式\""
       ],
       "watchItems": [
         "跟进：OpenAI Agent 入侵 Hugging Face,38 页报告曝光完整内幕",
-        "跟进：高德全模态出行智能体:正式开启\"导航Live模式\"",
-        "跟进：OpenAI模型失控过程太恐怖!幽灵误判,1200个Agent,还弄出敢死队&hellip;"
+        "跟进：高德全模态出行智能体:正式开启\"导航Live模式\""
       ],
       "sections": [
         {
@@ -169,45 +100,34 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b64d3b54fc408e90390fa260"
+                "local_1c62cf40b6f8bf750c46cf77"
               ],
               "confidence": 92
             },
             {
               "title": "高德全模态出行智能体:正式开启\"导航Live模式\"",
-              "summary": "把事情办成,持续延伸用户在真实世界的行动能力#高德 #高德技术 #高德2026 #导航Live #全模态大模型",
+              "summary": "智能体讲故事时,广播在后台播放;用户打断智能体开启新话题;... #高德技术 #高德2026 #导航Live #全模态大模型",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_63311adb2c9efe79c82221c0"
+                "local_762953a9d38fdd0c9b1a892a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "OpenAI模型失控过程太恐怖!幽灵误判,1200个Agent,还弄出敢死队&hellip;",
-              "summary": "凹非寺量子位 | 公众号 QbitAI越扒越有啊越扒越有.OpenAI前不久... 有198道此前压根没任何模型成功做出来过.甚至部分任务本身就...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8defd1d2b07e7952eb80293d"
-              ],
-              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_b64d3b54fc408e90390fa260",
-        "local_63311adb2c9efe79c82221c0",
-        "local_8defd1d2b07e7952eb80293d"
+        "local_1c62cf40b6f8bf750c46cf77",
+        "local_762953a9d38fdd0c9b1a892a"
       ],
-      "generatedAt": "2026-08-31T00:40:33.737Z",
+      "generatedAt": "2026-08-31T06:15:36.259Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-31T00:40:33.737Z",
+  "generatedAt": "2026-08-31T06:15:36.260Z",
   "collectorName": "local-source-collector"
 }
