@@ -63,14 +63,14 @@
               "confidence": 92
             },
             {
-              "title": "ContextBias: Controlled Evaluation of Bias Persistence Under Context Shift in Text-to-Image Models",
-              "summary": "Text-to-image models learn associations between concepts - in the case of this paper, people's professions, which we refer to as roles - and visual attributes. These associations can underpin many observed forms of stereotypical bias. A key open question in this area is whether …",
+              "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Andrew Bailey warns G20 finance ministers about inflated AI valuations, growing leverage across markets, and cyber risks from frontier AI models. Cross-investments between AI companies and hyperscalers could trigger a c…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_91466b5c0bf2e7ca21382232"
+                "local_f159cf587c9d82c2093cef97"
               ],
-              "confidence": 92
+              "confidence": 82
             }
           ]
         },
@@ -96,6 +96,16 @@
                 "local_43aa2cc38ea36db3d5eadbf7"
               ],
               "confidence": 74
+            },
+            {
+              "title": "RECAP-Forcing: Retaining Content Appearances for Long Video Generation",
+              "summary": "Long autoregressive video generation faces a fundamental memory challenge: with a finite attention window, a model must decide which information from an ever-expanding history to retain. Existing methods organize memory temporally, preserving recent frames while compressing or d…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_d60ac7e45524d62763007d08"
+              ],
+              "confidence": 82
             },
             {
               "title": "MMMMM: A Unified Taxonomy for Investigating the Mechanisms of Multilingual MultiModal Misinformation",
@@ -128,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b41eadff26854e43f2551019"
+                "local_7e3fa6d188f104d0c95c128d"
               ],
               "confidence": 90
             },
@@ -180,11 +190,11 @@
         "local_b87eb3246d6e1d6c31de5178",
         "local_43aa2cc38ea36db3d5eadbf7",
         "local_a56e5d91041ec1044cc79fef",
-        "local_b41eadff26854e43f2551019",
+        "local_7e3fa6d188f104d0c95c128d",
+        "local_d60ac7e45524d62763007d08",
         "local_e5542ee91479dd5deaa9be64",
         "local_a0925faaf826fb7f30e976da",
         "local_b6330294f2cd57352aff7ac0",
-        "local_91466b5c0bf2e7ca21382232",
         "local_af17c1ba1c0902b7c8115405",
         "local_f159cf587c9d82c2093cef97",
         "local_3d13e67e3d3786e49c9bb73e",
@@ -193,7 +203,7 @@
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-01T18:36:15.753Z",
+      "generatedAt": "2026-09-01T21:28:01.459Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -241,7 +251,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b41eadff26854e43f2551019"
+                "local_7e3fa6d188f104d0c95c128d"
               ],
               "confidence": 90
             },
@@ -275,17 +285,17 @@
       ],
       "referencedFeedItemIds": [
         "local_a56e5d91041ec1044cc79fef",
-        "local_b41eadff26854e43f2551019",
+        "local_7e3fa6d188f104d0c95c128d",
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-01T18:36:15.753Z",
+      "generatedAt": "2026-09-01T21:28:01.459Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-01T18:36:15.754Z",
+  "generatedAt": "2026-09-01T21:28:01.459Z",
   "collectorName": "local-source-collector"
 }
