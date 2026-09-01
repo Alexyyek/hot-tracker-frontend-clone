@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-08-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI agents have no sense of time and are not aware of it」、「The skills that earn top grades are the ones AI can fake best」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「AI agents have no sense of time and are not aware of it」、「The skills that earn top grades are the ones AI can fake best」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents have no sense of time and are not aware of it",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The skills that earn top grades are the ones AI can fake best",
@@ -16,7 +16,7 @@
         "跟进：The skills that earn top grades are the ones AI can fake best",
         "跟进：自研Runtime、Agent Loop、Infra:一家通用Agent公司的全栈赌注",
         "跟进：手机本地一键成片,靠的是一个8B小模型的自我进化 | EMNLP'26",
-        "跟进：LLM Rankings"
+        "跟进：Introducing Hy4 Preview"
       ],
       "sections": [
         {
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7168a9e2881cf74a4e422c12"
+                "local_52dfe76e0a0ad3f92faa65be"
               ],
               "confidence": 90
             }
@@ -68,16 +68,6 @@
               "confidence": 86
             },
             {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1246ccf01c099e13793c14f3"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Introducing Hy4 Preview",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face. This is a big size in…",
               "insightLabel": "关注",
@@ -93,12 +83,11 @@
       "referencedFeedItemIds": [
         "local_b0bc90d045dd5cee3dee9f61",
         "local_b59f8893051eec1efea77bce",
-        "local_7168a9e2881cf74a4e422c12",
+        "local_52dfe76e0a0ad3f92faa65be",
         "local_e806e9baa0220e519f29bf02",
-        "local_1246ccf01c099e13793c14f3",
         "local_1b7db444abbd77662a2b56c0"
       ],
-      "generatedAt": "2026-08-31T23:57:53.990Z",
+      "generatedAt": "2026-09-01T05:09:38.286Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -128,7 +117,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7168a9e2881cf74a4e422c12"
+                "local_52dfe76e0a0ad3f92faa65be"
               ],
               "confidence": 90
             }
@@ -151,16 +140,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_7168a9e2881cf74a4e422c12",
+        "local_52dfe76e0a0ad3f92faa65be",
         "local_e806e9baa0220e519f29bf02"
       ],
-      "generatedAt": "2026-08-31T23:57:53.990Z",
+      "generatedAt": "2026-09-01T05:09:38.286Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-08-31T23:57:53.991Z",
+  "generatedAt": "2026-09-01T05:09:38.287Z",
   "collectorName": "local-source-collector"
 }
