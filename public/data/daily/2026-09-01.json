@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Python 3.15.0 candidate 2 is here!」、「Google&#039;s election AI Overviews are opaque, rely on few sources, and sometimes take sides」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Python 3.15.0 candidate 2 is here!」、「Google&#039;s election AI Overviews are opaque, rely on few sources, and sometimes take sides」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Python 3.15.0 candidate 2 is here!",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google&#039;s election AI Overviews are opaque, rely on few sources, and sometimes take sides",
@@ -43,6 +43,16 @@
               "confidence": 86
             },
             {
+              "title": "The Safeguard Worked. Is the LLM System Safer?",
+              "summary": "Safeguards in deployed LLM services are evaluated by refusal, attack success, and policy violation rates. Those rates characterize how a control performed on the requests it was tested on. A deployment has to answer a different question: how much help with harmful tasks the serv…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a9c828bdf1227ea598df064d"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions",
               "summary": "Chain-of-thought (CoT) reasoning has dramatically improved large language models (LLMs) by allowing them to decompose problems into intermediate steps. While CoT is widely effective for linguistic tasks, text-only CoT forces models to serialize visual problems into awkward prose…",
               "insightLabel": "关注",
@@ -53,24 +63,14 @@
               "confidence": 92
             },
             {
-              "title": "SpanCalib-VLM: Calibrated Hallucination Span Detection in Vision-Language Models",
-              "summary": "Detecting hallucinations in Large Vision-Language Models (LVLMs) requires both accurate span localization and well-calibrated confidence scores. Fine-tuned generative VLMs excel at identifying hallucinated text spans but suffer from overconfidence and high inference latency. Dis…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b6330294f2cd57352aff7ac0"
+                "local_7b623e683d9d00d0b0caf7ee"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Andrew Bailey warns G20 finance ministers about inflated AI valuations, growing leverage across markets, and cyber risks from frontier AI models. Cross-investments between AI companies and hyperscalers could trigger a c…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f159cf587c9d82c2093cef97"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -108,16 +108,6 @@
               "confidence": 82
             },
             {
-              "title": "MMMMM: A Unified Taxonomy for Investigating the Mechanisms of Multilingual MultiModal Misinformation",
-              "summary": "Multimodal misinformation on social media is highly prevalent, potent, and harmful, yet difficult to detect and counter, and still poorly understood compared to its text-only counterpart. Research on the properties and deceptive strategies of multimodal misinformation is hindere…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_a0925faaf826fb7f30e976da"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：A perception stack is shaped by the vehicle that carries it. Move the same software to a new carline—for example, from an SUV to a sedan or another vehicle...",
               "insightLabel": "关注",
@@ -138,9 +128,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a8e120b7857f4f5ffde4ca76"
+                "local_a9a1d63daea585bc83dcbe14"
               ],
               "confidence": 90
+            },
+            {
+              "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
+              "summary": "GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must remain contextually consistent when they are repe…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0a67fc3d6823f9a357408e23"
+              ],
+              "confidence": 92
             },
             {
               "title": "Introducing wrapture",
@@ -171,16 +171,6 @@
                 "local_e18aae22e1923f3bf903515a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Measure Before You Manage: Evaluating Agent Working Memory in Coding Agents",
-              "summary": "Agent working memory is heterogeneous. Objects such as instructions, artifacts, tool outputs, and agent-generated state play different semantic roles and exhibit different size, retention, and representation profiles. Recent work has begun to explore memory-management mechanisms…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_aa8b76a538a2b6d76f06a9fc"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -190,11 +180,12 @@
         "local_b87eb3246d6e1d6c31de5178",
         "local_43aa2cc38ea36db3d5eadbf7",
         "local_a56e5d91041ec1044cc79fef",
-        "local_a8e120b7857f4f5ffde4ca76",
+        "local_a9a1d63daea585bc83dcbe14",
+        "local_a9c828bdf1227ea598df064d",
+        "local_0a67fc3d6823f9a357408e23",
         "local_d60ac7e45524d62763007d08",
         "local_e5542ee91479dd5deaa9be64",
-        "local_a0925faaf826fb7f30e976da",
-        "local_b6330294f2cd57352aff7ac0",
+        "local_7b623e683d9d00d0b0caf7ee",
         "local_af17c1ba1c0902b7c8115405",
         "local_f159cf587c9d82c2093cef97",
         "local_3d13e67e3d3786e49c9bb73e",
@@ -203,7 +194,7 @@
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-01T23:42:47.210Z",
+      "generatedAt": "2026-09-02T01:32:43.173Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -251,7 +242,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a8e120b7857f4f5ffde4ca76"
+                "local_a9a1d63daea585bc83dcbe14"
               ],
               "confidence": 90
             },
@@ -285,17 +276,17 @@
       ],
       "referencedFeedItemIds": [
         "local_a56e5d91041ec1044cc79fef",
-        "local_a8e120b7857f4f5ffde4ca76",
+        "local_a9a1d63daea585bc83dcbe14",
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-01T23:42:47.210Z",
+      "generatedAt": "2026-09-02T01:32:43.173Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-01T23:42:47.211Z",
+  "generatedAt": "2026-09-02T01:32:43.174Z",
   "collectorName": "local-source-collector"
 }
