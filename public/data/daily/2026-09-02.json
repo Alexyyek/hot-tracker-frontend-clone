@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Claude's new system prompt really doesn't want to reproduce song lyrics」、「World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Claude's new system prompt really doesn't want to reproduce song lyrics」、「World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude's new system prompt really doesn't want to reproduce song lyrics",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
@@ -29,26 +29,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_8550d1dbfe31727f3fc5a231"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Learning Where Outcomes Change:Credit-Addressable Reasoning for Multimodal Geometry",
-              "summary": "Multimodal geometry reasoning requires VLMs to extract precise visual relations and preserve them through multi-step deduction. Existing free-form traces obscure the decisions that determine the answer, and trajectory-level reinforcement learning distributes a single terminal si…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_343330d7b673f934074ec4d7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "From Production Traffic to Post-Training: Building a Self-Hosted LLM That Covers the Corporate Request Mix",
-              "summary": "Data-residency constraints force enterprises to self-host LLMs, but continuous adoption of newer models without decommissioning their predecessors expands the serving fleet, fragmenting a finite GPU pool. We consolidate traffic from over 200 internal applications onto a single m…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e93e5b80f8111e050e911003"
               ],
               "confidence": 92
             },
@@ -108,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e04dc4af41cdd46d3c72da28"
+                "local_5b891fbe433f2f3e74408a1d"
               ],
               "confidence": 92
             },
@@ -118,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d5f401d5dbd65aed1ab0352c"
+                "local_5edeae06dc30f485670a4323"
               ],
               "confidence": 92
             },
@@ -138,17 +118,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e4cfc91d7dcd7ee67d5ddae7"
+                "local_9722171f03bdf0b4133c8830"
               ],
               "confidence": 90
             },
             {
-              "title": "DramaChain Bench: An End-to-End Benchmark for Short-Drama Generation",
-              "summary": "Commercial short-drama production follows a multi-stage chain: script, storyboard, keyframe imagery, shot-level video, and the finished short drama. Most existing benchmarks evaluate solely the video-generation stage using pre-authored inputs instead of real upstream pipeline ou…",
+              "title": "AgentJudgeBench: A Multi-Difficulty Benchmark for Evaluating LLM Judges on Agentic Tool-Calling",
+              "summary": "LLM judges are widely used to evaluate agentic tool-calling systems, yet their reliability on structured, dependency-driven workflows remains largely unexamined. We present AgentJudgeBench, the first benchmark to systematically study LLM-as-a-judge reliability for agentic tool-c…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8846c70a1de10f6fccb7a553"
+                "local_e4ff62a1560a3de517808633"
               ],
               "confidence": 92
             }
@@ -158,20 +138,19 @@
       "referencedFeedItemIds": [
         "local_8550d1dbfe31727f3fc5a231",
         "local_cdef7eabf3c0f0b9c93012bd",
-        "local_e04dc4af41cdd46d3c72da28",
-        "local_d5f401d5dbd65aed1ab0352c",
+        "local_5b891fbe433f2f3e74408a1d",
+        "local_5edeae06dc30f485670a4323",
         "local_d397271ab25e7d21da8bf632",
         "local_0127eeab7398ae475430f226",
-        "local_e4cfc91d7dcd7ee67d5ddae7",
+        "local_9722171f03bdf0b4133c8830",
+        "local_e4ff62a1560a3de517808633",
+        "local_e5f68f49d467f582043c4cb1",
         "local_15e79ebe6b9328e1c85181b3",
         "local_8846c70a1de10f6fccb7a553",
-        "local_343330d7b673f934074ec4d7",
-        "local_e93e5b80f8111e050e911003",
         "local_108394de47a1989a413cf6d4",
         "local_57a4628a4a1f824184e32702",
         "local_42bb79eb33123f58a9c74bba",
         "local_dcc43543bf6eed6c4ec3d1e7",
-        "local_6a783187ddd322c7cfc124d8",
         "local_8c2edf348a1400ca5c46a745",
         "local_bda6abed23650a53fe6b58b1",
         "local_551ebfc968f4e0a914c79361",
@@ -179,7 +158,7 @@
         "local_ef961d56a5ffa1c506fe4af4",
         "local_be15616bb34efd23f6320224"
       ],
-      "generatedAt": "2026-09-02T16:42:02.976Z",
+      "generatedAt": "2026-09-02T19:39:27.813Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -213,7 +192,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e04dc4af41cdd46d3c72da28"
+                "local_5b891fbe433f2f3e74408a1d"
               ],
               "confidence": 92
             },
@@ -223,7 +202,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d5f401d5dbd65aed1ab0352c"
+                "local_5edeae06dc30f485670a4323"
               ],
               "confidence": 92
             },
@@ -233,7 +212,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e4cfc91d7dcd7ee67d5ddae7"
+                "local_9722171f03bdf0b4133c8830"
               ],
               "confidence": 90
             },
@@ -261,21 +240,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e04dc4af41cdd46d3c72da28",
-        "local_d5f401d5dbd65aed1ab0352c",
-        "local_e4cfc91d7dcd7ee67d5ddae7",
+        "local_5b891fbe433f2f3e74408a1d",
+        "local_5edeae06dc30f485670a4323",
+        "local_9722171f03bdf0b4133c8830",
         "local_42bb79eb33123f58a9c74bba",
         "local_bda6abed23650a53fe6b58b1",
         "local_551ebfc968f4e0a914c79361",
         "local_92f40268824ad5014b5a213d"
       ],
-      "generatedAt": "2026-09-02T16:42:02.976Z",
+      "generatedAt": "2026-09-02T19:39:27.813Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-02T16:42:02.977Z",
+  "generatedAt": "2026-09-02T19:39:27.813Z",
   "collectorName": "local-source-collector"
 }
