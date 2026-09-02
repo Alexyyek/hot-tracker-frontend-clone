@@ -5,70 +5,60 @@
       "topicId": "ai",
       "reportDate": "2026-09-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Python 3.15.0 candidate 2 is here!」、「Google&#039;s election AI Overviews are opaque, rely on few sources, and sometimes take sides」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?」、「datasette-mcp 0.2」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Python 3.15.0 candidate 2 is here!",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google&#039;s election AI Overviews are opaque, rely on few sources, and sometimes take sides",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Runway&#039;s Solaris is an AI system that generates software interfaces in real time"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：datasette-mcp 0.2",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google&#039;s election AI Overviews are opaque, rely on few sources, and sometimes take sides"
       ],
       "watchItems": [
-        "跟进：Python 3.15.0 candidate 2 is here!",
+        "跟进：HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+        "跟进：datasette-mcp 0.2",
         "跟进：Google&#039;s election AI Overviews are opaque, rely on few sources, and sometimes take sides",
         "跟进：Runway&#039;s Solaris is an AI system that generates software interfaces in real time",
-        "跟进：Runway把世界模型做成了操作系统!不用代码直接生成界面",
-        "跟进：删掉80%的Prompt规则,Agent交付成功率反而更高了"
+        "跟进：Runway把世界模型做成了操作系统!不用代码直接生成界面"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Python 3.15.0 candidate 2 is here!",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate pha…",
+              "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
+              "summary": "As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external execution infrastructure, commonly termed the agent harness. Changing this harness while holding model weights fixed can substantially alter task performance. Curre…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2ade6f1171cca838af3d2f5b"
+                "local_9ea6d2a5590c07433e6d5330"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "datasette-mcp 0.2",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which colu…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_85e95386fb9ba3d489ef13e7"
               ],
               "confidence": 74
             },
             {
-              "title": "Runway把世界模型做成了操作系统!不用代码直接生成界面",
-              "summary": "机器之心编辑部过去,AI 改写软件开发的方式,大体遵循着同一条... 和前沿大模型比,Solaris 表现怎么样?Runway 也专门设计了一组...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a56e5d91041ec1044cc79fef"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "The Safeguard Worked. Is the LLM System Safer?",
-              "summary": "Safeguards in deployed LLM services are evaluated by refusal, attack success, and policy violation rates. Those rates characterize how a control performed on the requests it was tested on. A deployment has to answer a different question: how much help with harmful tasks the serv…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a9c828bdf1227ea598df064d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "CoVA-SFT: A Large-Scale Dataset for Chain of Visual Abstractions",
-              "summary": "Chain-of-thought (CoT) reasoning has dramatically improved large language models (LLMs) by allowing them to decompose problems into intermediate steps. While CoT is widely effective for linguistic tasks, text-only CoT forces models to serialize visual problems into awkward prose…",
+              "title": "删掉80%的Prompt规则,Agent交付成功率反而更高了",
+              "summary": "当写代码不再是瓶颈,真正容易断掉的是交付链:Agent 是否读到了可信事实、规则能不能在关键节点拦住错误、任务中断后能不能继...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e5542ee91479dd5deaa9be64"
+                "local_81203cc0fa132734daffa5af"
               ],
-              "confidence": 92
+              "confidence": 90
             },
             {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "title": "Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI is changing how research is done. AI scientists can read papers, propose hypotheses, call models, and determine which experiments to prioritize next....",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b623e683d9d00d0b0caf7ee"
+                "local_38fec3361009a00d3be83074"
               ],
               "confidence": 92
             }
@@ -98,16 +88,6 @@
               "confidence": 74
             },
             {
-              "title": "RECAP-Forcing: Retaining Content Appearances for Long Video Generation",
-              "summary": "Long autoregressive video generation faces a fundamental memory challenge: with a finite attention window, a model must decide which information from an ever-expanding history to retain. Existing methods organize memory temporally, preserving recent frames while compressing or d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d60ac7e45524d62763007d08"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：A perception stack is shaped by the vehicle that carries it. Move the same software to a new carline—for example, from an SUV to a sedan or another vehicle...",
               "insightLabel": "关注",
@@ -120,81 +100,54 @@
           ]
         },
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "删掉80%的Prompt规则,Agent交付成功率反而更高了",
-              "summary": "当写代码不再是瓶颈,真正容易断掉的是交付链:Agent 是否读到了可信事实、规则能不能在关键节点拦住错误、任务中断后能不能继...",
+              "title": "Runway把世界模型做成了操作系统!不用代码直接生成界面",
+              "summary": "机器之心编辑部过去,AI 改写软件开发的方式,大体遵循着同一条... 和前沿大模型比,Solaris 表现怎么样?Runway 也专门设计了一组...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a9a1d63daea585bc83dcbe14"
+                "local_a56e5d91041ec1044cc79fef"
               ],
-              "confidence": 90
+              "confidence": 86
             },
             {
-              "title": "GUI-CC: Benchmarking Contextual Consistency of GUI World Models as Agent Environments",
-              "summary": "GUI world models are increasingly evaluated as one-step next-screen predictors, yet their intended use is often as multi-step environments for GUI agents. This mismatch leaves a key requirement under-tested: generated states must remain contextually consistent when they are repe…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0a67fc3d6823f9a357408e23"
+                "local_7b623e683d9d00d0b0caf7ee"
               ],
               "confidence": 92
             },
             {
-              "title": "Introducing wrapture",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing wrapture New from Graham Dumpleton (of wrapt, mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tra…",
+              "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Andrew Bailey warns G20 finance ministers about inflated AI valuations, growing leverage across markets, and cyber risks from frontier AI models. Cross-investments between AI companies and hyperscalers could trigger a c…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_af17c1ba1c0902b7c8115405"
+                "local_f159cf587c9d82c2093cef97"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Aspire: Can Models Self-Evolve from Vague Goals?",
-              "summary": "Many important forms of human learning begin with a vague goal, such as \"become a better physicist\" or \"improve at research.\" Learners must interpret the goal, identify capability gaps, decide how to learn, and determine whether they have actually improved. In contrast, existing…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d13e67e3d3786e49c9bb73e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
-              "summary": "Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and succe…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e18aae22e1923f3bf903515a"
-              ],
-              "confidence": 92
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_2ade6f1171cca838af3d2f5b",
+        "local_9ea6d2a5590c07433e6d5330",
+        "local_85e95386fb9ba3d489ef13e7",
         "local_b87eb3246d6e1d6c31de5178",
         "local_43aa2cc38ea36db3d5eadbf7",
         "local_a56e5d91041ec1044cc79fef",
-        "local_a9a1d63daea585bc83dcbe14",
-        "local_a9c828bdf1227ea598df064d",
-        "local_0a67fc3d6823f9a357408e23",
-        "local_d60ac7e45524d62763007d08",
-        "local_e5542ee91479dd5deaa9be64",
+        "local_81203cc0fa132734daffa5af",
         "local_7b623e683d9d00d0b0caf7ee",
-        "local_af17c1ba1c0902b7c8115405",
         "local_f159cf587c9d82c2093cef97",
-        "local_3d13e67e3d3786e49c9bb73e",
-        "local_e18aae22e1923f3bf903515a",
-        "local_aa8b76a538a2b6d76f06a9fc",
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-02T01:32:43.173Z",
+      "generatedAt": "2026-09-02T06:33:13.150Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -242,7 +195,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a9a1d63daea585bc83dcbe14"
+                "local_81203cc0fa132734daffa5af"
               ],
               "confidence": 90
             },
@@ -276,17 +229,17 @@
       ],
       "referencedFeedItemIds": [
         "local_a56e5d91041ec1044cc79fef",
-        "local_a9a1d63daea585bc83dcbe14",
+        "local_81203cc0fa132734daffa5af",
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-02T01:32:43.173Z",
+      "generatedAt": "2026-09-02T06:33:13.150Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-02T01:32:43.174Z",
+  "generatedAt": "2026-09-02T06:33:13.150Z",
   "collectorName": "local-source-collector"
 }
