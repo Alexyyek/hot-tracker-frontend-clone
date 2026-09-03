@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Claude's new system prompt really doesn't want to reproduce song lyrics」、「World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Claude's new system prompt really doesn't want to reproduce song lyrics」、「换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude's new system prompt really doesn't want to reproduce song lyrics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付"
       ],
       "watchItems": [
         "跟进：Claude's new system prompt really doesn't want to reproduce song lyrics",
-        "跟进：World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
         "跟进：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
         "跟进：得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付",
-        "跟进：周五直播 | Agent Lightning v1.0 解析"
+        "跟进：周五直播 | Agent Lightning v1.0 解析",
+        "跟进：An Organizational Second Brain: Building an AI That Learns From Experts"
       ],
       "sections": [
         {
@@ -55,31 +55,6 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：World Labs, co-founded by AI researcher Fei-Fei Li, has announced Atlas, a world model that generates, reconstructs, and simulates 3D scenes from just a few images. The company claims it beats specialized models by anch…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cdef7eabf3c0f0b9c93012bd"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Quoting Rick Brewster",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now ha…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0127eeab7398ae475430f226"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
             {
@@ -88,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_34ab9327d345ed0095a0e1db"
+                "local_94aab476ca6cb95163977806"
               ],
               "confidence": 90
             },
@@ -98,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_06e88cf5e0b2a4218798336d"
+                "local_e667d637e2fdcf5d183adf2d"
               ],
               "confidence": 92
             },
@@ -108,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc2642172df7ff4cea44a6c8"
+                "local_6e5e5f12f99e773245982678"
               ],
               "confidence": 92
             },
@@ -133,30 +108,43 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Quoting Rick Brewster",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now ha…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0127eeab7398ae475430f226"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_8550d1dbfe31727f3fc5a231",
-        "local_cdef7eabf3c0f0b9c93012bd",
-        "local_34ab9327d345ed0095a0e1db",
-        "local_06e88cf5e0b2a4218798336d",
-        "local_bc2642172df7ff4cea44a6c8",
+        "local_94aab476ca6cb95163977806",
+        "local_e667d637e2fdcf5d183adf2d",
+        "local_6e5e5f12f99e773245982678",
         "local_cef8ae8cb77fa2db5fa3ac0d",
         "local_81c8869c8d1f6e91fb860d07",
         "local_5e676836e700f55ae38e75a0",
         "local_0127eeab7398ae475430f226",
         "local_1ef099d5e2772736bfe5d0c9",
-        "local_e84954ba7b51b18aa1c7fe05",
+        "local_f5c84288cd25f8d4addea83a",
         "local_d808a6ea36af1c08cbe8f941",
         "local_629fafa277b787a7b78b29dd",
-        "local_108394de47a1989a413cf6d4",
         "local_57a4628a4a1f824184e32702",
         "local_42bb79eb33123f58a9c74bba",
         "local_bda6abed23650a53fe6b58b1",
         "local_551ebfc968f4e0a914c79361",
         "local_92f40268824ad5014b5a213d"
       ],
-      "generatedAt": "2026-09-03T18:11:36.681Z",
+      "generatedAt": "2026-09-03T21:06:58.098Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,7 +178,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_34ab9327d345ed0095a0e1db"
+                "local_94aab476ca6cb95163977806"
               ],
               "confidence": 90
             },
@@ -200,7 +188,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_06e88cf5e0b2a4218798336d"
+                "local_e667d637e2fdcf5d183adf2d"
               ],
               "confidence": 92
             },
@@ -210,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc2642172df7ff4cea44a6c8"
+                "local_6e5e5f12f99e773245982678"
               ],
               "confidence": 92
             },
@@ -230,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e84954ba7b51b18aa1c7fe05"
+                "local_f5c84288cd25f8d4addea83a"
               ],
               "confidence": 90
             }
@@ -238,23 +226,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_34ab9327d345ed0095a0e1db",
-        "local_06e88cf5e0b2a4218798336d",
-        "local_bc2642172df7ff4cea44a6c8",
+        "local_94aab476ca6cb95163977806",
+        "local_e667d637e2fdcf5d183adf2d",
+        "local_6e5e5f12f99e773245982678",
         "local_cef8ae8cb77fa2db5fa3ac0d",
-        "local_e84954ba7b51b18aa1c7fe05",
+        "local_f5c84288cd25f8d4addea83a",
         "local_42bb79eb33123f58a9c74bba",
         "local_bda6abed23650a53fe6b58b1",
         "local_551ebfc968f4e0a914c79361",
         "local_92f40268824ad5014b5a213d"
       ],
-      "generatedAt": "2026-09-03T18:11:36.681Z",
+      "generatedAt": "2026-09-03T21:06:58.098Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-03T18:11:36.681Z",
+  "generatedAt": "2026-09-03T21:06:58.098Z",
   "collectorName": "local-source-collector"
 }
