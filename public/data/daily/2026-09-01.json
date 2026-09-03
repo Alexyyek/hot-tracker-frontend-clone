@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-09-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?」、「Why MCP servers are becoming AI’s newest attack surface」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Why MCP servers are becoming AI’s newest attack surface」、「Runway把世界模型做成了操作系统!不用代码直接生成界面」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Why MCP servers are becoming AI’s newest attack surface",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Runway把世界模型做成了操作系统!不用代码直接生成界面"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Runway把世界模型做成了操作系统!不用代码直接生成界面",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：删掉80%的Prompt规则,Agent交付成功率反而更高了"
       ],
       "watchItems": [
-        "跟进：HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
         "跟进：Why MCP servers are becoming AI’s newest attack surface",
         "跟进：Runway把世界模型做成了操作系统!不用代码直接生成界面",
         "跟进：删掉80%的Prompt规则,Agent交付成功率反而更高了",
-        "跟进：Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science"
+        "跟进：Run NVIDIA BioNeMo NIM Microservices for Protein Structure Prediction in Claude Science",
+        "跟进：Scale AV Perception Across Vehicle Platforms with NVIDIA Omniverse NuRec"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness?",
-              "summary": "As agents move from research prototypes to deployed tools, their capability increasingly depends on model-external execution infrastructure, commonly termed the agent harness. Changing this harness while holding model weights fixed can substantially alter task performance. Curre…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9ea6d2a5590c07433e6d5330"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Why MCP servers are becoming AI’s newest attack surface",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：As AI adoption gathers pace, so does the evolution of the infrastructure that supports it. New standards and connectors keep appearing, and the ones that catch on spread through the ecosystem within months rather than y…",
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7daa4c3ebd1192faf7e8a843"
+                "local_59c7df609d46558ca7523f87"
               ],
               "confidence": 90
             },
@@ -96,14 +86,13 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9ea6d2a5590c07433e6d5330",
         "local_c6635cff4e3367f13f63be8f",
         "local_a56e5d91041ec1044cc79fef",
-        "local_7daa4c3ebd1192faf7e8a843",
+        "local_59c7df609d46558ca7523f87",
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-03T00:19:44.408Z",
+      "generatedAt": "2026-09-03T05:10:20.969Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -151,7 +140,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7daa4c3ebd1192faf7e8a843"
+                "local_59c7df609d46558ca7523f87"
               ],
               "confidence": 90
             },
@@ -185,17 +174,17 @@
       ],
       "referencedFeedItemIds": [
         "local_a56e5d91041ec1044cc79fef",
-        "local_7daa4c3ebd1192faf7e8a843",
+        "local_59c7df609d46558ca7523f87",
         "local_38fec3361009a00d3be83074",
         "local_048d5c16375fbb7a152f85e9"
       ],
-      "generatedAt": "2026-09-03T00:19:44.408Z",
+      "generatedAt": "2026-09-03T05:10:20.969Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-03T00:19:44.409Z",
+  "generatedAt": "2026-09-03T05:10:20.970Z",
   "collectorName": "local-source-collector"
 }

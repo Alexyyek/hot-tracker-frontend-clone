@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Claude's new system prompt really doesn't want to reproduce song lyrics」、「World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Claude's new system prompt really doesn't want to reproduce song lyrics」、「World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude's new system prompt really doesn't want to reproduce song lyrics",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
@@ -76,26 +76,6 @@
                 "local_0127eeab7398ae475430f226"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Does Imitation Learning Preserve Temporal Robustness in Dexterous Manipulation? An Expert-Learner Comparison Across Task Execution Speeds",
-              "summary": "Dexterous manipulation policies learned by imitation are typically evaluated for robustness to variation in scenes, objects, or instructions, but their performance across task execution speeds is less often examined. This leaves open how much temporal robustness a learner retain…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_b1cf5f09ae88fcee4d4dd98a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Knowledge Distillation During Mid-Training Favors Reasoning over Factual Recall",
-              "summary": "Logit-based knowledge distillation (KD) is used to train smaller language models (LMs) via supervision from stronger teachers, but whether its benefits are consistent across training stages remains unclear. Through controlled experiments, we find that forward Kullback-Leibler (K…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_a4abdc8c0752aa72e27a31a3"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -108,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c91e2cd35c58bae0d72491e7"
+                "local_34ab9327d345ed0095a0e1db"
               ],
               "confidence": 90
             },
@@ -118,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_49e16edbd56241d9bb9ff7b4"
+                "local_cf0960bc1389192cf47537a5"
               ],
               "confidence": 92
             },
@@ -128,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0976284c7068e97f51d39278"
+                "local_e8ec1d697bf88d7f1ee211fd"
               ],
               "confidence": 92
             },
@@ -143,14 +123,14 @@
               "confidence": 78
             },
             {
-              "title": "Google Gemini&#039;s new agent-based video analysis cuts token usage by up to 88 percent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is adding agent-based video analysis to Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite. Instead of scanning videos frame by frame at a fixed rate, the model decides on its own which segments to examine and at wh…",
+              "title": "Improving Evaluation Realism with Inference-Time Compute and Deployment Scaffolds",
+              "summary": "A core obstacle to alignment evaluation is evaluation awareness: capable models can tell when they are being tested rather than deployed, weakening the conclusions a safety evaluation can support. We present two techniques that make simulated alignment evaluations harder to dist…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d397271ab25e7d21da8bf632"
+                "local_81c8869c8d1f6e91fb860d07"
               ],
-              "confidence": 90
+              "confidence": 92
             }
           ]
         }
@@ -158,30 +138,27 @@
       "referencedFeedItemIds": [
         "local_8550d1dbfe31727f3fc5a231",
         "local_cdef7eabf3c0f0b9c93012bd",
-        "local_c91e2cd35c58bae0d72491e7",
-        "local_49e16edbd56241d9bb9ff7b4",
-        "local_0976284c7068e97f51d39278",
+        "local_34ab9327d345ed0095a0e1db",
+        "local_cf0960bc1389192cf47537a5",
+        "local_e8ec1d697bf88d7f1ee211fd",
         "local_cef8ae8cb77fa2db5fa3ac0d",
+        "local_81c8869c8d1f6e91fb860d07",
         "local_d397271ab25e7d21da8bf632",
+        "local_5e676836e700f55ae38e75a0",
         "local_0127eeab7398ae475430f226",
-        "local_80b64b735b58d2d9e418640d",
-        "local_b1cf5f09ae88fcee4d4dd98a",
-        "local_a4abdc8c0752aa72e27a31a3",
-        "local_e4ff62a1560a3de517808633",
-        "local_e5f68f49d467f582043c4cb1",
+        "local_1ef099d5e2772736bfe5d0c9",
+        "local_8a52e2e321eae139f187b012",
+        "local_d808a6ea36af1c08cbe8f941",
         "local_629fafa277b787a7b78b29dd",
         "local_108394de47a1989a413cf6d4",
         "local_57a4628a4a1f824184e32702",
         "local_42bb79eb33123f58a9c74bba",
         "local_dcc43543bf6eed6c4ec3d1e7",
-        "local_8c2edf348a1400ca5c46a745",
         "local_bda6abed23650a53fe6b58b1",
         "local_551ebfc968f4e0a914c79361",
-        "local_92f40268824ad5014b5a213d",
-        "local_ef961d56a5ffa1c506fe4af4",
-        "local_be15616bb34efd23f6320224"
+        "local_92f40268824ad5014b5a213d"
       ],
-      "generatedAt": "2026-09-03T00:19:44.399Z",
+      "generatedAt": "2026-09-03T05:10:20.957Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -215,7 +192,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c91e2cd35c58bae0d72491e7"
+                "local_34ab9327d345ed0095a0e1db"
               ],
               "confidence": 90
             },
@@ -225,7 +202,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_49e16edbd56241d9bb9ff7b4"
+                "local_cf0960bc1389192cf47537a5"
               ],
               "confidence": 92
             },
@@ -235,7 +212,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0976284c7068e97f51d39278"
+                "local_e8ec1d697bf88d7f1ee211fd"
               ],
               "confidence": 92
             },
@@ -255,7 +232,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_80b64b735b58d2d9e418640d"
+                "local_8a52e2e321eae139f187b012"
               ],
               "confidence": 90
             }
@@ -263,23 +240,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c91e2cd35c58bae0d72491e7",
-        "local_49e16edbd56241d9bb9ff7b4",
-        "local_0976284c7068e97f51d39278",
+        "local_34ab9327d345ed0095a0e1db",
+        "local_cf0960bc1389192cf47537a5",
+        "local_e8ec1d697bf88d7f1ee211fd",
         "local_cef8ae8cb77fa2db5fa3ac0d",
-        "local_80b64b735b58d2d9e418640d",
+        "local_8a52e2e321eae139f187b012",
         "local_42bb79eb33123f58a9c74bba",
         "local_bda6abed23650a53fe6b58b1",
         "local_551ebfc968f4e0a914c79361",
         "local_92f40268824ad5014b5a213d"
       ],
-      "generatedAt": "2026-09-03T00:19:44.399Z",
+      "generatedAt": "2026-09-03T05:10:20.957Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-03T00:19:44.399Z",
+  "generatedAt": "2026-09-03T05:10:20.957Z",
   "collectorName": "local-source-collector"
 }
