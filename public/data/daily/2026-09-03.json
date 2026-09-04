@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「AI systems are reaching out to philosophers and scientists with questions about their own consciousness」、「A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「AI systems are reaching out to philosophers and scientists with questions about their own consciousness」、「Legora reviewed 41 documents in minutes with GPT-6 Astra」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI systems are reaching out to philosophers and scientists with questions about their own consciousness",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bioinfoysis Technical Report"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price"
       ],
       "watchItems": [
         "跟进：AI systems are reaching out to philosophers and scientists with questions about their own consciousness",
-        "跟进：A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
-        "跟进：Bioinfoysis Technical Report",
         "跟进：Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "跟进：What Do CAE Simulation Agents Really Need Beyond a Generic Harness?"
+        "跟进：Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
+        "跟进：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
+        "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约"
       ],
       "sections": [
         {
@@ -33,42 +33,42 @@
               "confidence": 82
             },
             {
-              "title": "A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
-              "summary": "Modern AI agent harnesses expose lifecycle hooks that bind shell commands to runtime events such as session start, tool calls, and file edits. These commands run with host privileges yet ship as lifecycle-hook configuration and may fire at times the LLM never observes. We identi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ef43cad99d98142a9bbe4ce8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bioinfoysis Technical Report",
-              "summary": "Large language model agents have shown promise in bioinformatics, but most existing systems focus primarily on producing final answers, treating planning, tool use, and code execution as transient interactions. This design is poorly suited to long-horizon bioinformatics tasks, w…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_08c5f23a5d168fd6a31dd52a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
-              "summary": "Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL takes real expertise. Large language model (LLM) agents promise to turn a natural-language request into a worki…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a4470a0e73a44a6537001d09"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta has released Muse Spark 1.3, its fourth model in the series in five months. According to Artificial Analysis, the model gains the most on agentic benchmarks but still trails Claude Fable 5.1 and other top models. T…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_dbe68dcfd69e95e7d94e7d59"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
+              "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c7792678965985ee94550f4e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Give Your Coding Agents a Memory You Own",
+              "summary": "来自Hugging Face的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6d972c40768b7aa94372b237"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Designing Grok Bot for a world of persistent agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dd7d0693c430e9d0c253d53d"
               ],
               "confidence": 92
             }
@@ -100,43 +100,8 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Replacing Training with Memory: Listwise Selection for Text-to-SQL",
-              "summary": "Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then selecting the best one. Listwise selection, by jointly comparing multiple candidates, has been widely adopted, but fine-tuning listwise selectors is costly. We t…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f6df20740e095a56d66e145f"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Small Language Models as Judges for Rubric-Based Reinforcement Learning",
-              "summary": "Rubric-based reinforcement learning extends RL beyond tasks with exact answers or rule-based verifiers by scoring responses against instance-specific criteria. However, this makes reward computation expensive: training requires repeated rubric judging, often with proprietary API…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_56c3dba85a4275d34a2c9970"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Debias-SparseGPT: Bias-Aware Pruning for Large Language Models",
-              "summary": "Model compression techniques such as pruning and quantization facilitate the efficient deployment and acceleration of Large Language Models (LLMs). However, recent studies show that weight sparsification methods, such as SparseGPT, can amplify existing biases in models, with out…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_70b6f635f89b50867da8fac7"
-              ],
-              "confidence": 92
-            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -162,26 +127,18 @@
       ],
       "referencedFeedItemIds": [
         "local_efdb55099a64d5ea5acadd11",
-        "local_ef43cad99d98142a9bbe4ce8",
-        "local_08c5f23a5d168fd6a31dd52a",
         "local_73cc4436b024b857c88b3d2e",
-        "local_a4470a0e73a44a6537001d09",
         "local_dbe68dcfd69e95e7d94e7d59",
         "local_7b11e70405ccb123b6d1698a",
-        "local_a29ffc57200cb2b4ef617c67",
+        "local_c7792678965985ee94550f4e",
         "local_6d972c40768b7aa94372b237",
         "local_dd7d0693c430e9d0c253d53d",
-        "local_f6df20740e095a56d66e145f",
-        "local_7bf5184503d10c2ed137f672",
-        "local_56c3dba85a4275d34a2c9970",
-        "local_70b6f635f89b50867da8fac7",
         "local_c2e7bd40a4d7f38b898f2cf9",
-        "local_c867b672482b05c52fa9a80f",
         "local_9a883379a918a83436c548d3",
         "local_7aa751315e96aa27336598bc",
         "local_c33690206cb05e3d4d1cf325"
       ],
-      "generatedAt": "2026-09-04T01:35:06.795Z",
+      "generatedAt": "2026-09-04T06:41:12.163Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -240,7 +197,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a29ffc57200cb2b4ef617c67"
+                "local_c7792678965985ee94550f4e"
               ],
               "confidence": 92
             },
@@ -270,17 +227,17 @@
       "referencedFeedItemIds": [
         "local_73cc4436b024b857c88b3d2e",
         "local_7b11e70405ccb123b6d1698a",
-        "local_a29ffc57200cb2b4ef617c67",
+        "local_c7792678965985ee94550f4e",
         "local_dd7d0693c430e9d0c253d53d",
         "local_c33690206cb05e3d4d1cf325"
       ],
-      "generatedAt": "2026-09-04T01:35:06.795Z",
+      "generatedAt": "2026-09-04T06:41:12.163Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T01:35:06.795Z",
+  "generatedAt": "2026-09-04T06:41:12.163Z",
   "collectorName": "local-source-collector"
 }
