@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「AI systems are reaching out to philosophers and scientists with questions about their own consciousness」、「Legora reviewed 41 documents in minutes with GPT-6 Astra」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「AI systems are reaching out to philosophers and scientists with questions about their own consciousness」、「A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI systems are reaching out to philosophers and scientists with questions about their own consciousness",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bioinfoysis Technical Report"
       ],
       "watchItems": [
         "跟进：AI systems are reaching out to philosophers and scientists with questions about their own consciousness",
+        "跟进：A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
+        "跟进：Bioinfoysis Technical Report",
         "跟进：Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "跟进：Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
-        "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "跟进：Give Your Coding Agents a Memory You Own"
+        "跟进：What Do CAE Simulation Agents Really Need Beyond a Generic Harness?"
       ],
       "sections": [
         {
@@ -33,42 +33,42 @@
               "confidence": 82
             },
             {
+              "title": "A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors",
+              "summary": "Modern AI agent harnesses expose lifecycle hooks that bind shell commands to runtime events such as session start, tool calls, and file edits. These commands run with host privileges yet ship as lifecycle-hook configuration and may fire at times the LLM never observes. We identi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ef43cad99d98142a9bbe4ce8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Bioinfoysis Technical Report",
+              "summary": "Large language model agents have shown promise in bioinformatics, but most existing systems focus primarily on producing final answers, treating planning, tool use, and code execution as transient interactions. This design is poorly suited to long-horizon bioinformatics tasks, w…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_08c5f23a5d168fd6a31dd52a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "What Do CAE Simulation Agents Really Need Beyond a Generic Harness?",
+              "summary": "Computer-aided engineering (CAE) simulation is among the largest and most demanding areas of engineering, where setting up a solver such as OpenFOAM, FEniCS, or COMSOL takes real expertise. Large language model (LLM) agents promise to turn a natural-language request into a worki…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a4470a0e73a44a6537001d09"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta has released Muse Spark 1.3, its fourth model in the series in five months. According to Artificial Analysis, the model gains the most on agentic benchmarks but still trails Claude Fable 5.1 and other top models. T…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_dbe68dcfd69e95e7d94e7d59"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-              "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b4c75b3659f3a2d7da203296"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Give Your Coding Agents a Memory You Own",
-              "summary": "来自Hugging Face的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6d972c40768b7aa94372b237"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Designing Grok Bot for a world of persistent agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dd7d0693c430e9d0c253d53d"
               ],
               "confidence": 92
             }
@@ -86,6 +86,31 @@
                 "local_73cc4436b024b857c88b3d2e"
               ],
               "confidence": 70
+            },
+            {
+              "title": "ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
+              "summary": "郭靖还认为AI音乐更可能做出具有时代意义的\"AI Native\"平台.... 则会损失通用智能性,因而音乐是能留给创业公司,掌控从模型到...",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_7b11e70405ccb123b6d1698a"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Replacing Training with Memory: Listwise Selection for Text-to-SQL",
+              "summary": "Modern Text-to-SQL systems often follow generate-execute-select pipelines, generating multiple candidate queries then selecting the best one. Listwise selection, by jointly comparing multiple candidates, has been widely adopted, but fine-tuning listwise selectors is costly. We t…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f6df20740e095a56d66e145f"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -113,6 +138,16 @@
               "confidence": 92
             },
             {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_c2e7bd40a4d7f38b898f2cf9"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "llm-gemini 0.34",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash, with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan. #1…",
               "insightLabel": "关注",
@@ -123,39 +158,30 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
-              "summary": "Portfolio risk assessment ordinarily relies on reliable estimates of cross-asset return covariances, which are difficult to obtain in short, high-dimensional panels. We show that firm-level distribution-valued characteristics can instead provide one-sided certificates of portfol…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_1fdff1885e058efe6209cb66"
-              ],
-              "confidence": 90
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_efdb55099a64d5ea5acadd11",
+        "local_ef43cad99d98142a9bbe4ce8",
+        "local_08c5f23a5d168fd6a31dd52a",
         "local_73cc4436b024b857c88b3d2e",
+        "local_a4470a0e73a44a6537001d09",
         "local_dbe68dcfd69e95e7d94e7d59",
-        "local_b4c75b3659f3a2d7da203296",
+        "local_7b11e70405ccb123b6d1698a",
+        "local_a29ffc57200cb2b4ef617c67",
         "local_6d972c40768b7aa94372b237",
         "local_dd7d0693c430e9d0c253d53d",
+        "local_f6df20740e095a56d66e145f",
         "local_7bf5184503d10c2ed137f672",
         "local_56c3dba85a4275d34a2c9970",
         "local_70b6f635f89b50867da8fac7",
-        "local_1fdff1885e058efe6209cb66",
+        "local_c2e7bd40a4d7f38b898f2cf9",
+        "local_c867b672482b05c52fa9a80f",
         "local_9a883379a918a83436c548d3",
         "local_7aa751315e96aa27336598bc",
         "local_c33690206cb05e3d4d1cf325"
       ],
-      "generatedAt": "2026-09-03T23:24:34.310Z",
+      "generatedAt": "2026-09-04T01:35:06.795Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -166,14 +192,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Legora reviewed 41 documents in minutes with GPT-6 Astra」、「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Legora reviewed 41 documents in minutes with GPT-6 Astra」、「ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Designing Grok Bot for a world of persistent agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约"
       ],
       "watchItems": [
         "跟进：Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "跟进：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
         "跟进：Designing Grok Bot for a world of persistent agents",
         "跟进：Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference"
@@ -191,6 +218,16 @@
                 "local_73cc4436b024b857c88b3d2e"
               ],
               "confidence": 70
+            },
+            {
+              "title": "ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
+              "summary": "郭靖还认为AI音乐更可能做出具有时代意义的\"AI Native\"平台.... 则会损失通用智能性,因而音乐是能留给创业公司,掌控从模型到...",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_7b11e70405ccb123b6d1698a"
+              ],
+              "confidence": 78
             }
           ]
         },
@@ -203,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b4c75b3659f3a2d7da203296"
+                "local_a29ffc57200cb2b4ef617c67"
               ],
               "confidence": 92
             },
@@ -232,17 +269,18 @@
       ],
       "referencedFeedItemIds": [
         "local_73cc4436b024b857c88b3d2e",
-        "local_b4c75b3659f3a2d7da203296",
+        "local_7b11e70405ccb123b6d1698a",
+        "local_a29ffc57200cb2b4ef617c67",
         "local_dd7d0693c430e9d0c253d53d",
         "local_c33690206cb05e3d4d1cf325"
       ],
-      "generatedAt": "2026-09-03T23:24:34.310Z",
+      "generatedAt": "2026-09-04T01:35:06.795Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-03T23:24:34.310Z",
+  "generatedAt": "2026-09-04T01:35:06.795Z",
   "collectorName": "local-source-collector"
 }
