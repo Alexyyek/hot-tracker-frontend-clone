@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
@@ -63,19 +63,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d0228c11ea4580eda8f92ff1"
+                "local_79f3a0668375d31ff3ab0d89"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Nvidia wants your home network to work like a mini data center for local AI",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Nvidia's PAIR (Personal AI Router) automatically spreads local AI requests across all available devices on a home network, cutting wait times for parallel agent tasks. The article Nvidia wants your home network to work …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f08bcbed31aae5e78f5e55f9"
-              ],
-              "confidence": 78
             },
             {
               "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
@@ -94,6 +84,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_a3f311617cee756319f6597d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+              "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and und…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dff2404f154b34bc4bc5b82f"
               ],
               "confidence": 92
             }
@@ -159,9 +159,8 @@
         "local_4438ae009d96860cec92fd89",
         "local_66816f4c0bd2e0c9b02dc367",
         "local_405b182f9e7818843b7916e7",
-        "local_d0228c11ea4580eda8f92ff1",
+        "local_79f3a0668375d31ff3ab0d89",
         "local_89ee2bb6f2986e4c227f8e2d",
-        "local_f08bcbed31aae5e78f5e55f9",
         "local_6b39bacf790545d1f700a4c4",
         "local_6e29605f7c7178dc940a08a7",
         "local_d931271fca77f59ca9efd3ca",
@@ -176,7 +175,7 @@
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-04T16:28:49.791Z",
+      "generatedAt": "2026-09-04T19:17:05.790Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -209,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d0228c11ea4580eda8f92ff1"
+                "local_79f3a0668375d31ff3ab0d89"
               ],
               "confidence": 92
             },
@@ -247,18 +246,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d0228c11ea4580eda8f92ff1",
+        "local_79f3a0668375d31ff3ab0d89",
         "local_1cdd1b842573e62171eadd5a",
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-04T16:28:49.791Z",
+      "generatedAt": "2026-09-04T19:17:05.790Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T16:28:49.791Z",
+  "generatedAt": "2026-09-04T19:17:05.790Z",
   "collectorName": "local-source-collector"
 }
