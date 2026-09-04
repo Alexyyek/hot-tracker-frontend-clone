@@ -5,17 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-08-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
         "跟进：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
         "跟进：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "跟进：坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了",
         "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
       ],
       "sections": [
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c3cf39460df76b436d50a3b9"
+                "local_f8727b6ef0545b466d5705f7"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_7ded91246cdde056a8af0e49"
+                "local_357c7eb9bc6eae0058d05d6d"
               ],
               "confidence": 70
             }
@@ -48,12 +48,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
+              "summary": "Meta的AI豪赌惨败：曾设想裁掉60%，如今全员收拾三倍烂摊子",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f361400b10f7ccb482fbba3e"
+              ],
+              "confidence": 70
+            },
+            {
               "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
               "summary": "AI 写代码已经足够快，但从需求提出到生产上线，企业研发未必因此更快。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5971a82f5c4e289940869348"
+                "local_a977d53405392f7848ef9688"
               ],
               "confidence": 82
             },
@@ -63,19 +73,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8f7ed0219d57c56336dce94"
+                "local_6f8b0d6077ba6e939934de74"
               ],
               "confidence": 78
-            },
-            {
-              "title": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了",
-              "summary": "当所有AI编程工具都在向行业标准靠拢时，Anthropic的Claude Code偏要特立独行。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1e86e965af4108e15da77ab7"
-              ],
-              "confidence": 86
             },
             {
               "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9d92bf64f42cc27780231e54"
+                "local_90171d4cbc498c6ab19fd4c4"
               ],
               "confidence": 92
             },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_cff6333a4a886847edd20f8f"
+                "local_2eaa1ac63d0af0d6cef26ab3"
               ],
               "confidence": 78
             },
@@ -128,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8eef5f0046dbf4e650e137d7"
+                "local_0be5e24cc8914e4c9a2d0a3f"
               ],
               "confidence": 82
             },
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fdd4218528dc505ddaefc68d"
+                "local_d25b68af032268382f9a72f8"
               ],
               "confidence": 78
             },
@@ -148,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6689e1f975200391fd165cae"
+                "local_3a6f34333791db060002b186"
               ],
               "confidence": 92
             }
@@ -156,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c3cf39460df76b436d50a3b9",
-        "local_5971a82f5c4e289940869348",
-        "local_c8f7ed0219d57c56336dce94",
-        "local_1e86e965af4108e15da77ab7",
-        "local_9d92bf64f42cc27780231e54",
-        "local_cff6333a4a886847edd20f8f",
+        "local_f8727b6ef0545b466d5705f7",
+        "local_f361400b10f7ccb482fbba3e",
+        "local_a977d53405392f7848ef9688",
+        "local_6f8b0d6077ba6e939934de74",
+        "local_90171d4cbc498c6ab19fd4c4",
+        "local_2eaa1ac63d0af0d6cef26ab3",
         "local_8f4a9cba002ba099baf1728c",
         "local_a051744c929a8838564a1fb3",
         "local_e9b1f38c41cb1005785f5e8d",
-        "local_5b383196cbb403ec79d39cf0",
-        "local_d6037f75b3fda20317803f82",
-        "local_808c9f0de0f7a388b4f5743e",
-        "local_11fd4a4e264f1ed0c5a9f492",
-        "local_5a7d7e7900b45b35ef18463c",
-        "local_8eef5f0046dbf4e650e137d7",
-        "local_b9abebd3528e800c5a90b9d6",
-        "local_0268643052e7e910dde780f0",
-        "local_8e32721bae4baa1f8b99a985",
-        "local_9aea6ece2c810e617294c2e7",
-        "local_fdd4218528dc505ddaefc68d",
-        "local_6689e1f975200391fd165cae",
-        "local_4dcad02b6cdcdca97f9bb073",
-        "local_7ded91246cdde056a8af0e49",
-        "local_6c9a7550b858e6c777d86908"
+        "local_6bc05a0aa23dc61baf358bdf",
+        "local_3bfcdbbd66fb0387eae35b64",
+        "local_623834d160d1d364bccb1c62",
+        "local_b00c54beabcc7a495a182949",
+        "local_1235975e97d12f6690abcdcf",
+        "local_0be5e24cc8914e4c9a2d0a3f",
+        "local_04388b1d708d534eeb336a8b",
+        "local_003c33fdf419ff44e22763ba",
+        "local_01be69f07336e4b53dd0097c",
+        "local_0d66c9f2b34baf11a58acc4c",
+        "local_d25b68af032268382f9a72f8",
+        "local_3a6f34333791db060002b186",
+        "local_f145eae55ae96bfeb3edb307",
+        "local_357c7eb9bc6eae0058d05d6d",
+        "local_1e41eb43a38ddd811d85c120"
       ],
-      "generatedAt": "2026-09-04T11:57:32.272Z",
+      "generatedAt": "2026-09-04T16:28:49.908Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,17 +192,17 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-23",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
         "跟进：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
         "跟进：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "跟进：坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了",
         "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
       ],
       "sections": [
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c3cf39460df76b436d50a3b9"
+                "local_f8727b6ef0545b466d5705f7"
               ],
               "confidence": 78
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_7ded91246cdde056a8af0e49"
+                "local_357c7eb9bc6eae0058d05d6d"
               ],
               "confidence": 70
             }
@@ -235,12 +235,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
+              "summary": "Meta的AI豪赌惨败：曾设想裁掉60%，如今全员收拾三倍烂摊子",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f361400b10f7ccb482fbba3e"
+              ],
+              "confidence": 70
+            },
+            {
               "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
               "summary": "AI 写代码已经足够快，但从需求提出到生产上线，企业研发未必因此更快。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5971a82f5c4e289940869348"
+                "local_a977d53405392f7848ef9688"
               ],
               "confidence": 82
             },
@@ -250,19 +260,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8f7ed0219d57c56336dce94"
+                "local_6f8b0d6077ba6e939934de74"
               ],
               "confidence": 78
-            },
-            {
-              "title": "坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了",
-              "summary": "当所有AI编程工具都在向行业标准靠拢时，Anthropic的Claude Code偏要特立独行。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1e86e965af4108e15da77ab7"
-              ],
-              "confidence": 86
             },
             {
               "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
@@ -270,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9d92bf64f42cc27780231e54"
+                "local_90171d4cbc498c6ab19fd4c4"
               ],
               "confidence": 92
             },
@@ -295,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_cff6333a4a886847edd20f8f"
+                "local_2eaa1ac63d0af0d6cef26ab3"
               ],
               "confidence": 78
             },
@@ -315,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fdd4218528dc505ddaefc68d"
+                "local_d25b68af032268382f9a72f8"
               ],
               "confidence": 78
             },
@@ -325,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6689e1f975200391fd165cae"
+                "local_3a6f34333791db060002b186"
               ],
               "confidence": 92
             },
@@ -335,7 +335,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_4dcad02b6cdcdca97f9bb073"
+                "local_f145eae55ae96bfeb3edb307"
               ],
               "confidence": 78
             }
@@ -343,33 +343,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c3cf39460df76b436d50a3b9",
-        "local_5971a82f5c4e289940869348",
-        "local_c8f7ed0219d57c56336dce94",
-        "local_1e86e965af4108e15da77ab7",
-        "local_9d92bf64f42cc27780231e54",
-        "local_cff6333a4a886847edd20f8f",
+        "local_f8727b6ef0545b466d5705f7",
+        "local_f361400b10f7ccb482fbba3e",
+        "local_a977d53405392f7848ef9688",
+        "local_6f8b0d6077ba6e939934de74",
+        "local_90171d4cbc498c6ab19fd4c4",
+        "local_2eaa1ac63d0af0d6cef26ab3",
         "local_8f4a9cba002ba099baf1728c",
         "local_a051744c929a8838564a1fb3",
         "local_e9b1f38c41cb1005785f5e8d",
-        "local_5b383196cbb403ec79d39cf0",
-        "local_fdd4218528dc505ddaefc68d",
-        "local_6689e1f975200391fd165cae",
-        "local_4dcad02b6cdcdca97f9bb073",
-        "local_7ded91246cdde056a8af0e49",
-        "local_6c9a7550b858e6c777d86908",
-        "local_5345d791ecc36a4e5a65142c",
-        "local_839a1609b14d7d57921f697b",
-        "local_98575082065b97c93e805e6c",
-        "local_bb3d613b5c859434ff5b7e4d"
+        "local_6bc05a0aa23dc61baf358bdf",
+        "local_d25b68af032268382f9a72f8",
+        "local_3a6f34333791db060002b186",
+        "local_f145eae55ae96bfeb3edb307",
+        "local_357c7eb9bc6eae0058d05d6d",
+        "local_1e41eb43a38ddd811d85c120",
+        "local_6d7e9c2477f075d3a82812af",
+        "local_bf68b70b1d0ea559824e7a13",
+        "local_8aca647f8cc85b419eacc822"
       ],
-      "generatedAt": "2026-09-04T11:57:32.272Z",
+      "generatedAt": "2026-09-04T16:28:49.908Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T11:57:32.273Z",
+  "generatedAt": "2026-09-04T16:28:49.908Z",
   "collectorName": "local-source-collector"
 }
