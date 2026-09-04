@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-08-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一篇讲透Agent自进化飞轮怎么搭:评测&rarr;记忆&rarr;落地&rarr;控制"
       ],
       "watchItems": [
         "跟进：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
-        "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
         "跟进：一篇讲透Agent自进化飞轮怎么搭:评测&rarr;记忆&rarr;落地&rarr;控制",
-        "跟进：实测飞书和豆包合体后第1个Agent,我挖到了豆包工作的8个使用技巧"
+        "跟进：实测飞书和豆包合体后第1个Agent,我挖到了豆包工作的8个使用技巧",
+        "跟进：Anthropic 重磅发布:AI Native 软件开发方法论"
       ],
       "sections": [
         {
@@ -38,19 +38,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_80f93075feec6e113efd2e57"
+                "local_d9844baaf73ac88c61662983"
               ],
               "confidence": 90
-            },
-            {
-              "title": "一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
-              "summary": "针对这一痛点,微软亚洲研究院推出了DeepVisual Agent.该智能体以\"意图输入,视觉交付输出\"为核心目标,突破了传统AI生图与...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_66947e136a0047bd78409d20"
-              ],
-              "confidence": 92
             },
             {
               "title": "一篇讲透Agent自进化飞轮怎么搭:评测&rarr;记忆&rarr;落地&rarr;控制",
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ee4824c46c20a1863b27622e"
+                "local_909519bd1d83723c7850ac0e"
               ],
               "confidence": 92
             },
@@ -83,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
               "sourceFeedItemIds": [
-                "local_2fd0312cff4092c15a4b9342"
+                "local_dcf59a14e9ea2e6c55de3987"
               ],
               "confidence": 92
             }
@@ -92,13 +82,12 @@
       ],
       "referencedFeedItemIds": [
         "local_6380db7edf44d4b6a9d4fff8",
-        "local_80f93075feec6e113efd2e57",
-        "local_66947e136a0047bd78409d20",
-        "local_ee4824c46c20a1863b27622e",
+        "local_d9844baaf73ac88c61662983",
+        "local_909519bd1d83723c7850ac0e",
         "local_2210086d4fec0eef31f0a2db",
-        "local_2fd0312cff4092c15a4b9342"
+        "local_dcf59a14e9ea2e6c55de3987"
       ],
-      "generatedAt": "2026-09-04T19:17:05.858Z",
+      "generatedAt": "2026-09-04T21:38:10.855Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -109,16 +98,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-08-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战」、「企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一篇讲透Agent自进化飞轮怎么搭:评测&rarr;记忆&rarr;落地&rarr;控制"
       ],
       "watchItems": [
         "跟进：字节实践 | Agent 提示词注入攻击:一场需要长期应对的安全挑战",
         "跟进：企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术",
-        "跟进：一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
         "跟进：一篇讲透Agent自进化飞轮怎么搭:评测&rarr;记忆&rarr;落地&rarr;控制"
       ],
       "sections": [
@@ -141,19 +129,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_80f93075feec6e113efd2e57"
+                "local_d9844baaf73ac88c61662983"
               ],
               "confidence": 90
-            },
-            {
-              "title": "一句话表达意图,AI完成视觉交付:DeepVisual Agent 重新定义智能创作",
-              "summary": "针对这一痛点,微软亚洲研究院推出了DeepVisual Agent.该智能体以\"意图输入,视觉交付输出\"为核心目标,突破了传统AI生图与...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_66947e136a0047bd78409d20"
-              ],
-              "confidence": 92
             },
             {
               "title": "一篇讲透Agent自进化飞轮怎么搭:评测&rarr;记忆&rarr;落地&rarr;控制",
@@ -161,7 +139,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ee4824c46c20a1863b27622e"
+                "local_909519bd1d83723c7850ac0e"
               ],
               "confidence": 92
             }
@@ -170,17 +148,16 @@
       ],
       "referencedFeedItemIds": [
         "local_6380db7edf44d4b6a9d4fff8",
-        "local_80f93075feec6e113efd2e57",
-        "local_66947e136a0047bd78409d20",
-        "local_ee4824c46c20a1863b27622e"
+        "local_d9844baaf73ac88c61662983",
+        "local_909519bd1d83723c7850ac0e"
       ],
-      "generatedAt": "2026-09-04T19:17:05.858Z",
+      "generatedAt": "2026-09-04T21:38:10.855Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T19:17:05.859Z",
+  "generatedAt": "2026-09-04T21:38:10.855Z",
   "collectorName": "local-source-collector"
 }

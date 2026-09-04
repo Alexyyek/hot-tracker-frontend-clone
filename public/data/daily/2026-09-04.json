@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
@@ -63,7 +63,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_79f3a0668375d31ff3ab0d89"
+                "local_24ae36b7e21153afa33033d5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\"",
+              "summary": "微软亚洲研究院近期推出的Huabu,正试图改变这种交互方式.它让Agent调研得到的网页、图片、笔记、对话草图和最终方案,不再...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3a74cfee4a50f6c76f042fd5"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement",
+              "summary": "Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a clip violates or the moment it fails. We present VeriPhy, an auditable physical-verification system in which a text-only planner co…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dbc9b7c29ce766667a62c075"
               ],
               "confidence": 92
             },
@@ -74,26 +94,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_6b39bacf790545d1f700a4c4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "GPT‑6 Astra",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a3f311617cee756319f6597d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
-              "summary": "Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and und…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dff2404f154b34bc4bc5b82f"
               ],
               "confidence": 92
             }
@@ -113,32 +113,22 @@
               "confidence": 92
             },
             {
+              "title": "Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space",
+              "summary": "Reinforcement learning with verifiable rewards (RLVR) substantially improves single-sample accuracy (pass@1) but causes the policy's solution space to contract, diminishing the returns of test-time scaling. In this work, we investigate where inside a reasoning trajectory this br…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d73a72591beb551c664016cd"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Last Translation Benchmark",
               "summary": "For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure cases. As models get stronger, standard benchmarks for machine translation are approaching saturation. Further, automatic translation …",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_6e29605f7c7178dc940a08a7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "QCell: Recombining and Aligning Cell Queries for Overlapping Instance Segmentation",
-              "summary": "Instance segmentation of overlapping cells in microscopy remains challenging due to semi-transparent structures that produce weak boundaries and mixed visual evidence in overlap regions. Existing methods address this through local regions of interest or shape priors but lack glo…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d931271fca77f59ca9efd3ca"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs",
-              "summary": "Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system keeps only a small fixed slice of that pool. Which frames survive that slice is usually treated as a preprocessing detail; we test whether it should be. Published…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9672864143447026dc8733c2"
               ],
               "confidence": 92
             },
@@ -159,12 +149,13 @@
         "local_4438ae009d96860cec92fd89",
         "local_66816f4c0bd2e0c9b02dc367",
         "local_405b182f9e7818843b7916e7",
-        "local_79f3a0668375d31ff3ab0d89",
+        "local_24ae36b7e21153afa33033d5",
         "local_89ee2bb6f2986e4c227f8e2d",
+        "local_3a74cfee4a50f6c76f042fd5",
+        "local_dbc9b7c29ce766667a62c075",
+        "local_d73a72591beb551c664016cd",
         "local_6b39bacf790545d1f700a4c4",
         "local_6e29605f7c7178dc940a08a7",
-        "local_d931271fca77f59ca9efd3ca",
-        "local_9672864143447026dc8733c2",
         "local_a3f311617cee756319f6597d",
         "local_dff2404f154b34bc4bc5b82f",
         "local_dfd2ef16633bacecbdde52ed",
@@ -175,7 +166,7 @@
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-04T19:17:05.790Z",
+      "generatedAt": "2026-09-04T21:38:10.784Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -186,14 +177,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-04",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?」、「Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?」、「从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\"",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026"
       ],
       "watchItems": [
         "跟进：码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?",
+        "跟进：从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\"",
         "跟进：Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
         "跟进：Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
         "跟进：NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network"
@@ -208,9 +200,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_79f3a0668375d31ff3ab0d89"
+                "local_24ae36b7e21153afa33033d5"
               ],
               "confidence": 92
+            },
+            {
+              "title": "从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\"",
+              "summary": "微软亚洲研究院近期推出的Huabu,正试图改变这种交互方式.它让Agent调研得到的网页、图片、笔记、对话草图和最终方案,不再...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3a74cfee4a50f6c76f042fd5"
+              ],
+              "confidence": 90
             },
             {
               "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
@@ -246,18 +248,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_79f3a0668375d31ff3ab0d89",
+        "local_24ae36b7e21153afa33033d5",
+        "local_3a74cfee4a50f6c76f042fd5",
         "local_1cdd1b842573e62171eadd5a",
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-04T19:17:05.790Z",
+      "generatedAt": "2026-09-04T21:38:10.784Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T19:17:05.790Z",
+  "generatedAt": "2026-09-04T21:38:10.784Z",
   "collectorName": "local-source-collector"
 }
