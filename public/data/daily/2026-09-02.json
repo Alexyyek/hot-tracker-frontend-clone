@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Introducing Gemini 3.8 Flash and 3.8 Flash Cyber」、「Claude's new system prompt really doesn't want to reproduce song lyrics」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Introducing Gemini 3.8 Flash and 3.8 Flash Cyber」、「换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude's new system prompt really doesn't want to reproduce song lyrics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付"
       ],
       "watchItems": [
         "跟进：Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-        "跟进：Claude's new system prompt really doesn't want to reproduce song lyrics",
         "跟进：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
         "跟进：得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付",
-        "跟进：周五直播 | Agent Lightning v1.0 解析"
+        "跟进：周五直播 | Agent Lightning v1.0 解析",
+        "跟进：An Organizational Second Brain: Building an AI That Learns From Experts"
       ],
       "sections": [
         {
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4aa91c8b59dc3e6af8ab1abc"
+                "local_56b691e8d57ec86abef65173"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b331c7cae03e388c246b09ec"
+                "local_4873de812ffa6ef4f81582d8"
               ],
               "confidence": 92
             },
@@ -77,16 +77,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic publish the system prompts for their Claude consumer applications (Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_8550d1dbfe31727f3fc5a231"
-              ],
-              "confidence": 92
-            },
             {
               "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
               "summary": "来自Hugging Face的本地采集条目。",
@@ -117,10 +107,9 @@
       ],
       "referencedFeedItemIds": [
         "local_6c4d667ed3de7e7b68437a8c",
-        "local_8550d1dbfe31727f3fc5a231",
         "local_d650c790c9672d26fd61b601",
-        "local_4aa91c8b59dc3e6af8ab1abc",
-        "local_b331c7cae03e388c246b09ec",
+        "local_56b691e8d57ec86abef65173",
+        "local_4873de812ffa6ef4f81582d8",
         "local_cef8ae8cb77fa2db5fa3ac0d",
         "local_57a4628a4a1f824184e32702",
         "local_42bb79eb33123f58a9c74bba",
@@ -129,7 +118,7 @@
         "local_77bc1dbbf30ea25011d1b58c",
         "local_347ce40254ad5bef222d0dca"
       ],
-      "generatedAt": "2026-09-04T23:26:42.301Z",
+      "generatedAt": "2026-09-05T01:32:08.162Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -183,7 +172,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4aa91c8b59dc3e6af8ab1abc"
+                "local_56b691e8d57ec86abef65173"
               ],
               "confidence": 92
             },
@@ -193,7 +182,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b331c7cae03e388c246b09ec"
+                "local_4873de812ffa6ef4f81582d8"
               ],
               "confidence": 92
             },
@@ -228,8 +217,8 @@
       "referencedFeedItemIds": [
         "local_6c4d667ed3de7e7b68437a8c",
         "local_d650c790c9672d26fd61b601",
-        "local_4aa91c8b59dc3e6af8ab1abc",
-        "local_b331c7cae03e388c246b09ec",
+        "local_56b691e8d57ec86abef65173",
+        "local_4873de812ffa6ef4f81582d8",
         "local_cef8ae8cb77fa2db5fa3ac0d",
         "local_42bb79eb33123f58a9c74bba",
         "local_bda6abed23650a53fe6b58b1",
@@ -237,13 +226,13 @@
         "local_77bc1dbbf30ea25011d1b58c",
         "local_347ce40254ad5bef222d0dca"
       ],
-      "generatedAt": "2026-09-04T23:26:42.301Z",
+      "generatedAt": "2026-09-05T01:32:08.162Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T23:26:42.301Z",
+  "generatedAt": "2026-09-05T01:32:08.163Z",
   "collectorName": "local-source-collector"
 }

@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
@@ -73,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_417fcf4facc215c56ad6234a"
+                "local_1b2b6226fc90f8f16a88a635"
               ],
               "confidence": 92
             },
@@ -98,12 +98,12 @@
               "confidence": 92
             },
             {
-              "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
-              "summary": "Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon agent domains have none. We work in the outcome-blind setting, where ground-truth success signals are not available. Multi-criteria rubrics are a popular way t…",
+              "title": "GPT‑6 Astra",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6b39bacf790545d1f700a4c4"
+                "local_a3f311617cee756319f6597d"
               ],
               "confidence": 92
             }
@@ -123,12 +123,32 @@
               "confidence": 92
             },
             {
+              "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
+              "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introduce RoboTok, an internet-scale data engine that, given a que…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_0d9e31219c4dbe7dd9767aca"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space",
               "summary": "Reinforcement learning with verifiable rewards (RLVR) substantially improves single-sample accuracy (pass@1) but causes the policy's solution space to contract, diminishing the returns of test-time scaling. In this work, we investigate where inside a reasoning trajectory this br…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_d73a72591beb551c664016cd"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_266f465263e9f1c92af1c9a1"
               ],
               "confidence": 92
             },
@@ -149,13 +169,14 @@
         "local_4438ae009d96860cec92fd89",
         "local_66816f4c0bd2e0c9b02dc367",
         "local_405b182f9e7818843b7916e7",
-        "local_417fcf4facc215c56ad6234a",
+        "local_1b2b6226fc90f8f16a88a635",
         "local_89ee2bb6f2986e4c227f8e2d",
         "local_3a74cfee4a50f6c76f042fd5",
+        "local_0d9e31219c4dbe7dd9767aca",
         "local_6a19c0457897e22e5d78f255",
         "local_dbc9b7c29ce766667a62c075",
         "local_d73a72591beb551c664016cd",
-        "local_6b39bacf790545d1f700a4c4",
+        "local_266f465263e9f1c92af1c9a1",
         "local_a3f311617cee756319f6597d",
         "local_dff2404f154b34bc4bc5b82f",
         "local_dfd2ef16633bacecbdde52ed",
@@ -166,7 +187,7 @@
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-04T23:26:42.281Z",
+      "generatedAt": "2026-09-05T01:32:08.143Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -200,7 +221,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_417fcf4facc215c56ad6234a"
+                "local_1b2b6226fc90f8f16a88a635"
               ],
               "confidence": 92
             },
@@ -248,19 +269,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_417fcf4facc215c56ad6234a",
+        "local_1b2b6226fc90f8f16a88a635",
         "local_3a74cfee4a50f6c76f042fd5",
         "local_1cdd1b842573e62171eadd5a",
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-04T23:26:42.282Z",
+      "generatedAt": "2026-09-05T01:32:08.143Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T23:26:42.282Z",
+  "generatedAt": "2026-09-05T01:32:08.143Z",
   "collectorName": "local-source-collector"
 }

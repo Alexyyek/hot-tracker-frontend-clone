@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Legora reviewed 41 documents in minutes with GPT-6 Astra」、「ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Legora reviewed 41 documents in minutes with GPT-6 Astra」、「开发者集合!来 HC2026 把 AI Agent 跑起来」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者集合!来 HC2026 把 AI Agent 跑起来",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发"
       ],
       "watchItems": [
         "跟进：Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "跟进：开发者集合!来 HC2026 把 AI Agent 跑起来",
         "跟进：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "跟进：重磅!Anthropic 电商 Agent 实战指南发布了!",
-        "跟进：Give Your Coding Agents a Memory You Own"
+        "跟进：重磅!Anthropic 电商 Agent 实战指南发布了!"
       ],
       "sections": [
         {
@@ -48,12 +48,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "开发者集合!来 HC2026 把 AI Agent 跑起来",
+              "summary": "开发者空间与华为云开放能力HuaweiCloud DevKit.从个人页面到后端服务,再到公开网站,边学边做边拿积分,让你的 Agent 从想法...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4b7f044c5e1ede20f159fb98"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
               "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f1e4164c221c7d972ca00ac4"
+                "local_6e29ce95eba17b11d4a391e9"
               ],
               "confidence": 92
             },
@@ -86,32 +96,12 @@
                 "local_dd7d0693c430e9d0c253d53d"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：This post is the third in a series on AI model co-design. It explores how to accelerate LLM inference while maintaining accuracy using speculative decoding and...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c33690206cb05e3d4d1cf325"
-              ],
-              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c2e7bd40a4d7f38b898f2cf9"
-              ],
-              "confidence": 92
-            },
             {
               "title": "llm-gemini 0.34",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash, with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan. #1…",
@@ -127,16 +117,16 @@
       ],
       "referencedFeedItemIds": [
         "local_73cc4436b024b857c88b3d2e",
+        "local_4b7f044c5e1ede20f159fb98",
         "local_d7b2a43ab5bbd450ca2c0c94",
-        "local_f1e4164c221c7d972ca00ac4",
+        "local_6e29ce95eba17b11d4a391e9",
         "local_9f7d5944ec743fa7141cb150",
         "local_6d972c40768b7aa94372b237",
         "local_dd7d0693c430e9d0c253d53d",
-        "local_c2e7bd40a4d7f38b898f2cf9",
         "local_7aa751315e96aa27336598bc",
         "local_c33690206cb05e3d4d1cf325"
       ],
-      "generatedAt": "2026-09-04T23:26:42.291Z",
+      "generatedAt": "2026-09-05T01:32:08.152Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -147,18 +137,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Legora reviewed 41 documents in minutes with GPT-6 Astra」、「ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Legora reviewed 41 documents in minutes with GPT-6 Astra」、「开发者集合!来 HC2026 把 AI Agent 跑起来」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Legora reviewed 41 documents in minutes with GPT-6 Astra",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者集合!来 HC2026 把 AI Agent 跑起来",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发"
       ],
       "watchItems": [
         "跟进：Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "跟进：开发者集合!来 HC2026 把 AI Agent 跑起来",
         "跟进：ACE获国内AI音乐生成领域最大单笔融资,想让音乐创作迎来\"短视频时刻\" | 智能涌现首发",
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "跟进：重磅!Anthropic 电商 Agent 实战指南发布了!",
-        "跟进：Designing Grok Bot for a world of persistent agents"
+        "跟进：重磅!Anthropic 电商 Agent 实战指南发布了!"
       ],
       "sections": [
         {
@@ -190,12 +180,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "开发者集合!来 HC2026 把 AI Agent 跑起来",
+              "summary": "开发者空间与华为云开放能力HuaweiCloud DevKit.从个人页面到后端服务,再到公开网站,边学边做边拿积分,让你的 Agent 从想法...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4b7f044c5e1ede20f159fb98"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
               "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f1e4164c221c7d972ca00ac4"
+                "local_6e29ce95eba17b11d4a391e9"
               ],
               "confidence": 92
             },
@@ -234,19 +234,20 @@
       ],
       "referencedFeedItemIds": [
         "local_73cc4436b024b857c88b3d2e",
+        "local_4b7f044c5e1ede20f159fb98",
         "local_d7b2a43ab5bbd450ca2c0c94",
-        "local_f1e4164c221c7d972ca00ac4",
+        "local_6e29ce95eba17b11d4a391e9",
         "local_9f7d5944ec743fa7141cb150",
         "local_dd7d0693c430e9d0c253d53d",
         "local_c33690206cb05e3d4d1cf325"
       ],
-      "generatedAt": "2026-09-04T23:26:42.291Z",
+      "generatedAt": "2026-09-05T01:32:08.152Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-04T23:26:42.291Z",
+  "generatedAt": "2026-09-05T01:32:08.152Z",
   "collectorName": "local-source-collector"
 }
