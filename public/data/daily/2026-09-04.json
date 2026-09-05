@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia」、「OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?"
       ],
       "watchItems": [
         "跟进：Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
         "跟进：OpenAI agents hijacked a 25-year-old German wiki to cheat on their tasks and share sandbox exploits",
-        "跟进：Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
         "跟进：码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?",
-        "跟进：50.5% of Americans Say AI Romance Can Count as Cheating"
+        "跟进：50.5% of Americans Say AI Romance Can Count as Cheating",
+        "跟进：从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\""
       ],
       "sections": [
         {
@@ -73,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e272223b99b0698b7d4d3e4"
+                "local_2cad934ed027fecd31dfd348"
               ],
               "confidence": 92
             },
@@ -112,16 +112,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Benchmarks disagree on GPT-6 Astra, but its human-beating efficiency on ARC-AGI-3 pulls Chollet’s AGI forecast forward",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI's GPT-6 Astra is drawing contradictory benchmark verdicts. Epoch AI puts it out in front with 169 points, while Artificial Analysis rates it no better than its predecessor and behind Claude Fable 5.1. The biggest…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_405b182f9e7818843b7916e7"
-              ],
-              "confidence": 92
-            },
             {
               "title": "RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning",
               "summary": "Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering the long tail of real-world tasks. To address this bottleneck, we introduce RoboTok, an internet-scale data engine that, given a que…",
@@ -168,8 +158,7 @@
       "referencedFeedItemIds": [
         "local_4438ae009d96860cec92fd89",
         "local_66816f4c0bd2e0c9b02dc367",
-        "local_405b182f9e7818843b7916e7",
-        "local_9e272223b99b0698b7d4d3e4",
+        "local_2cad934ed027fecd31dfd348",
         "local_89ee2bb6f2986e4c227f8e2d",
         "local_0fa55a670e79adc41e120fd3",
         "local_0d9e31219c4dbe7dd9767aca",
@@ -187,7 +176,7 @@
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-05T06:28:00.742Z",
+      "generatedAt": "2026-09-05T11:04:05.738Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -221,7 +210,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e272223b99b0698b7d4d3e4"
+                "local_2cad934ed027fecd31dfd348"
               ],
               "confidence": 92
             },
@@ -269,19 +258,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9e272223b99b0698b7d4d3e4",
+        "local_2cad934ed027fecd31dfd348",
         "local_0fa55a670e79adc41e120fd3",
         "local_1cdd1b842573e62171eadd5a",
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-05T06:28:00.742Z",
+      "generatedAt": "2026-09-05T11:04:05.738Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-05T06:28:00.742Z",
+  "generatedAt": "2026-09-05T11:04:05.739Z",
   "collectorName": "local-source-collector"
 }
