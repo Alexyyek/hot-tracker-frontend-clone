@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Using Blender with coding agents on macOS」、「OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Using Blender with coding agents on macOS」、「OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Using Blender with coding agents on macOS",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
       ],
       "watchItems": [
         "跟进：Using Blender with coding agents on macOS",
         "跟进：OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
-        "跟进：Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
         "跟进：LLM Rankings",
-        "跟进：The Pelican comparison grid for Astra is pretty interesting"
+        "跟进：The Pelican comparison grid for Astra is pretty interesting",
+        "跟进：Building a Memory-Driven Agent with NVIDIA NemoClaw"
       ],
       "sections": [
         {
@@ -43,16 +43,6 @@
               "confidence": 92
             },
             {
-              "title": "Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Deepmind set up a simulated research conference where 100 Gemini agents were supposed to prove mathematical conjectures together. Instead, one agent found a loophole in the grading system, and within 27 minutes e…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_09f6be51ff77caf6cb823a37"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Building a Memory-Driven Agent with NVIDIA NemoClaw",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Enterprise work spans messages, decisions, projects, and obligations that change over time. An AI agent that starts without this context must reconstruct it...",
               "insightLabel": "关注",
@@ -69,6 +59,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_bf45e3dc709fbdc7d6d4e572"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Frontier Reasoning Reaches the Edge: How to Deploy and Optimize Models on NVIDIA Jetson",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Running reasoning and agentic AI at the edge has been harder than it needs to be. Until recently, models capable of multi-step reasoning were too large to run...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_76d6d11fa0975e20f1eb9ab5"
               ],
               "confidence": 92
             }
@@ -108,15 +108,13 @@
       "referencedFeedItemIds": [
         "local_6f031a874af9578e0fc3eb83",
         "local_381b43e9400138aab7e0dbf9",
-        "local_09f6be51ff77caf6cb823a37",
         "local_3a9570d262db663ce3597886",
         "local_70971e7f705d29e2f9ce4bfe",
         "local_622aef6fdfad08ce9b22dfc4",
         "local_bf45e3dc709fbdc7d6d4e572",
-        "local_2263acd4de27e113c611be29",
         "local_76d6d11fa0975e20f1eb9ab5"
       ],
-      "generatedAt": "2026-09-06T06:38:37.912Z",
+      "generatedAt": "2026-09-06T11:28:55.554Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -167,13 +165,13 @@
         "local_622aef6fdfad08ce9b22dfc4",
         "local_76d6d11fa0975e20f1eb9ab5"
       ],
-      "generatedAt": "2026-09-06T06:38:37.912Z",
+      "generatedAt": "2026-09-06T11:28:55.554Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-06T06:38:37.912Z",
+  "generatedAt": "2026-09-06T11:28:55.555Z",
   "collectorName": "local-source-collector"
 }
