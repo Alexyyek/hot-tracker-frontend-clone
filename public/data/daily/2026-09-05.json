@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Using Blender with coding agents on macOS」、「OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Using Blender with coding agents on macOS」、「OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Using Blender with coding agents on macOS",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
@@ -15,8 +15,8 @@
         "跟进：Using Blender with coding agents on macOS",
         "跟进：OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
         "跟进：Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
-        "跟进：The Pelican comparison grid for Astra is pretty interesting",
-        "跟进：Building a Memory-Driven Agent with NVIDIA NemoClaw"
+        "跟进：LLM Rankings",
+        "跟进：The Pelican comparison grid for Astra is pretty interesting"
       ],
       "sections": [
         {
@@ -75,6 +75,21 @@
           ]
         },
         {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_3a9570d262db663ce3597886"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "行业与公司",
           "items": [
             {
@@ -94,13 +109,14 @@
         "local_6f031a874af9578e0fc3eb83",
         "local_381b43e9400138aab7e0dbf9",
         "local_09f6be51ff77caf6cb823a37",
+        "local_3a9570d262db663ce3597886",
         "local_70971e7f705d29e2f9ce4bfe",
         "local_622aef6fdfad08ce9b22dfc4",
         "local_bf45e3dc709fbdc7d6d4e572",
         "local_2263acd4de27e113c611be29",
         "local_76d6d11fa0975e20f1eb9ab5"
       ],
-      "generatedAt": "2026-09-05T23:24:48.397Z",
+      "generatedAt": "2026-09-06T01:29:07.097Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -151,13 +167,13 @@
         "local_622aef6fdfad08ce9b22dfc4",
         "local_76d6d11fa0975e20f1eb9ab5"
       ],
-      "generatedAt": "2026-09-05T23:24:48.397Z",
+      "generatedAt": "2026-09-06T01:29:07.097Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-05T23:24:48.397Z",
+  "generatedAt": "2026-09-06T01:29:07.097Z",
   "collectorName": "local-source-collector"
 }
