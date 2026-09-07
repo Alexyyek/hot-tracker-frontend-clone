@@ -5,95 +5,70 @@
       "topicId": "ai",
       "reportDate": "2026-09-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「At UBS, AI skills are now a condition for landing a job」、「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：At UBS, AI skills are now a condition for landing a job",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
-        "跟进：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
-        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness"
+        "跟进：At UBS, AI skills are now a condition for landing a job",
+        "跟进：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
+        "跟进：HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+        "跟进：Dr. Claw: An AI Scientist Workspace for Vibe Research",
+        "跟进：Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cc78823da3a47a174acd3357"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_41f92247e886836bf4a21683"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-              "summary": "复盘Hugging Face被攻击始末：7天发7万条密信，700个 AI 攻入真实生产系统。",
+              "title": "At UBS, AI skills are now a condition for landing a job",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Swiss banking giant UBS is making AI skills a required qualification from 2027 for graduates and interns in Global Banking and Markets, with applicants having to show in interviews how they use AI to improve outcomes an…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6ce19b84f3c68135a91d79f4"
+                "local_7e936b411c78f1f117869b38"
               ],
-              "confidence": 78
+              "confidence": 82
             },
             {
-              "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
-              "summary": "模型已经卷不动了，Harness 也卷不动了，Coding Agent 还能卷什么？",
+              "title": "分享一个我随时随地只用手机就能远程操控Agent的新工作流",
+              "summary": "我最近出门在外最常干的一件事就是用终端看一下AI任务日志.以... Agent在里面该干啥还继续干啥.回到会话列表,可以继续创建新...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9cb04bcaa987af1159659765"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
-              "summary": "“超时不是失败，是未知”，AI Agent 的分布式病如何破局？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d66cdd0f99e353c27cb1c9ce"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
-              "summary": "唐刘从数据库的可靠性哲学出发，分享了 TiDB 在构建 Harness 过程中的一系列独特思考。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f4fbd94e8aa11fc93ecd7454"
+                "local_e9258e6d514200ac1e88b87f"
               ],
               "confidence": 92
             },
             {
-              "title": "Driving Developer Excellence: Inside the Program Sprints",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This re…",
+              "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+              "summary": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents drive a crew of two tractors th…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6bc05a0aa23dc61baf358bdf"
+                "local_e19e4f429e03e9fd1308f2a3"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
+              "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preser…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bdc078c84cbf44dbf2689212"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Research acceleration: The view inside OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9bb36bdc4d0a96816040a768"
               ],
               "confidence": 92
             }
@@ -103,52 +78,27 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
+              "summary": "Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance with requests that are incorrect, unsafe, infeasible, or unanswerable. However, existing benchmarks predominantly evaluate non-compliance at the level of the quer…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_2147b7177c5817dd278c6ecf"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a051744c929a8838564a1fb3"
+                "local_449d9cdde61bf10c1e973f27"
               ],
               "confidence": 92
-            },
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
             {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
+              "title": "Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models",
+              "summary": "Striking a balance between helpfulness and safety remains a fundamental challenge in aligning large language models. To achieve this balance, models should refuse harmful queries (e.g., \"How do I shoot someone?\") while remaining responsive to benign inputs, even those superficia…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3f4b29f9021628708a08dc7e"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_1e177b00907fcf3d1bacae9c"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1a8679a22e3636f880456576"
+                "local_f5577b2aa6300c390523d5ee"
               ],
               "confidence": 92
             }
@@ -156,32 +106,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_cc78823da3a47a174acd3357",
-        "local_6ce19b84f3c68135a91d79f4",
-        "local_9cb04bcaa987af1159659765",
-        "local_d66cdd0f99e353c27cb1c9ce",
-        "local_f4fbd94e8aa11fc93ecd7454",
-        "local_2147b7177c5817dd278c6ecf",
-        "local_6bc05a0aa23dc61baf358bdf",
-        "local_8f4a9cba002ba099baf1728c",
-        "local_a051744c929a8838564a1fb3",
-        "local_e9b1f38c41cb1005785f5e8d",
-        "local_4bc9d65772cac9c01d990940",
-        "local_e8f8ebb81ead2c534dbf4d65",
-        "local_acea11caa2ea440093f72c89",
-        "local_18987117167d4c7c15799a3f",
-        "local_3f4b29f9021628708a08dc7e",
-        "local_a463355c6eac293675218905",
-        "local_ac6f4c2d17f3c79892695ab8",
-        "local_5d3e6941a771e40fbcbf37bf",
-        "local_fd0c95f54a8571dcbdb67402",
-        "local_1e177b00907fcf3d1bacae9c",
-        "local_1a8679a22e3636f880456576",
-        "local_4f005207b42769bbf8a5c7eb",
-        "local_41f92247e886836bf4a21683",
-        "local_e505d35c9bd5beef673895cb"
+        "local_7e936b411c78f1f117869b38",
+        "local_e9258e6d514200ac1e88b87f",
+        "local_e19e4f429e03e9fd1308f2a3",
+        "local_bdc078c84cbf44dbf2689212",
+        "local_449d9cdde61bf10c1e973f27",
+        "local_f5577b2aa6300c390523d5ee",
+        "local_9bb36bdc4d0a96816040a768"
       ],
-      "generatedAt": "2026-09-07T15:58:09.657Z",
+      "generatedAt": "2026-09-07T20:04:11.912Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,95 +125,70 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「At UBS, AI skills are now a condition for landing a job」、「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：At UBS, AI skills are now a condition for landing a job",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
-        "跟进：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
-        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness"
+        "跟进：At UBS, AI skills are now a condition for landing a job",
+        "跟进：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
+        "跟进：HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+        "跟进：Dr. Claw: An AI Scientist Workspace for Vibe Research",
+        "跟进：Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cc78823da3a47a174acd3357"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Bytedance Seed-Multimodal",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Seed Multimodal Interaction and World Model team is dedicated to developing models that boast human-level multimodal understanding and interaction capabilities. The team also aspires to advance the exploration and d…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_41f92247e886836bf4a21683"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-              "summary": "复盘Hugging Face被攻击始末：7天发7万条密信，700个 AI 攻入真实生产系统。",
+              "title": "At UBS, AI skills are now a condition for landing a job",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Swiss banking giant UBS is making AI skills a required qualification from 2027 for graduates and interns in Global Banking and Markets, with applicants having to show in interviews how they use AI to improve outcomes an…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6ce19b84f3c68135a91d79f4"
+                "local_7e936b411c78f1f117869b38"
               ],
-              "confidence": 78
+              "confidence": 82
             },
             {
-              "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
-              "summary": "模型已经卷不动了，Harness 也卷不动了，Coding Agent 还能卷什么？",
+              "title": "分享一个我随时随地只用手机就能远程操控Agent的新工作流",
+              "summary": "我最近出门在外最常干的一件事就是用终端看一下AI任务日志.以... Agent在里面该干啥还继续干啥.回到会话列表,可以继续创建新...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9cb04bcaa987af1159659765"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
-              "summary": "“超时不是失败，是未知”，AI Agent 的分布式病如何破局？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d66cdd0f99e353c27cb1c9ce"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
-              "summary": "唐刘从数据库的可靠性哲学出发，分享了 TiDB 在构建 Harness 过程中的一系列独特思考。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f4fbd94e8aa11fc93ecd7454"
+                "local_e9258e6d514200ac1e88b87f"
               ],
               "confidence": 92
             },
             {
-              "title": "Driving Developer Excellence: Inside the Program Sprints",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This re…",
+              "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
+              "summary": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents drive a crew of two tractors th…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6bc05a0aa23dc61baf358bdf"
+                "local_e19e4f429e03e9fd1308f2a3"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
+              "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preser…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bdc078c84cbf44dbf2689212"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Research acceleration: The view inside OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9bb36bdc4d0a96816040a768"
               ],
               "confidence": 92
             }
@@ -290,85 +198,49 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2147b7177c5817dd278c6ecf"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Enterprise-Grade Precision for Long-Context Multimodal Embedding Inference on Cloud TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google Cloud has natively integrated TPU support into the vLLM serving engine, allowing developers to elastically scale high-demand embedding pipelines using Google Kubernetes Engine (GKE). To handle massive 15K+ token …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a051744c929a8838564a1fb3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Seed Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Dive into cutting-edge research on AI foundation models published by ByteDance Seed.",
+              "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
+              "summary": "Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance with requests that are incorrect, unsafe, infeasible, or unanswerable. However, existing benchmarks predominantly evaluate non-compliance at the level of the quer…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1e177b00907fcf3d1bacae9c"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "ByteDance Seed",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The ByteDance Seed team was established in 2023, dedicated to discovering new approaches to general intelligence, pushing the boundaries of AI. The team&#x27;s research areas include LLM, speech, vision, world models, i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1a8679a22e3636f880456576"
+                "local_449d9cdde61bf10c1e973f27"
               ],
               "confidence": 92
-            },
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
             {
-              "title": "Bytedance Seed-AI for Science",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The Seed-AI for Science team applies AI to drive breakthroughs in scientific computing research paradigms, focusing on biological foundation models, quantum chemistry, and molecular dynamics.",
+              "title": "Refuse without Refusal: A Structural Analysis of Safety-Tuning Responses for Reducing False Refusals in Language Models",
+              "summary": "Striking a balance between helpfulness and safety remains a fundamental challenge in aligning large language models. To achieve this balance, models should refuse harmful queries (e.g., \"How do I shoot someone?\") while remaining responsive to benign inputs, even those superficia…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4f005207b42769bbf8a5c7eb"
+                "local_f5577b2aa6300c390523d5ee"
               ],
-              "confidence": 78
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_cc78823da3a47a174acd3357",
-        "local_6ce19b84f3c68135a91d79f4",
-        "local_9cb04bcaa987af1159659765",
-        "local_d66cdd0f99e353c27cb1c9ce",
-        "local_f4fbd94e8aa11fc93ecd7454",
-        "local_2147b7177c5817dd278c6ecf",
-        "local_6bc05a0aa23dc61baf358bdf",
-        "local_8f4a9cba002ba099baf1728c",
-        "local_a051744c929a8838564a1fb3",
-        "local_e9b1f38c41cb1005785f5e8d",
-        "local_1e177b00907fcf3d1bacae9c",
-        "local_1a8679a22e3636f880456576",
-        "local_4f005207b42769bbf8a5c7eb",
-        "local_41f92247e886836bf4a21683",
-        "local_e505d35c9bd5beef673895cb",
-        "local_302c774a122c128bb109e41d",
-        "local_802ca5ad56277dd2d2e705f8",
-        "local_a115b70444b1ba56883a5614"
+        "local_7e936b411c78f1f117869b38",
+        "local_e9258e6d514200ac1e88b87f",
+        "local_e19e4f429e03e9fd1308f2a3",
+        "local_bdc078c84cbf44dbf2689212",
+        "local_449d9cdde61bf10c1e973f27",
+        "local_f5577b2aa6300c390523d5ee",
+        "local_9bb36bdc4d0a96816040a768"
       ],
-      "generatedAt": "2026-09-07T15:58:09.657Z",
+      "generatedAt": "2026-09-07T20:04:11.912Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-07T15:58:09.657Z",
+  "generatedAt": "2026-09-07T20:04:11.912Z",
   "collectorName": "local-source-collector"
 }
