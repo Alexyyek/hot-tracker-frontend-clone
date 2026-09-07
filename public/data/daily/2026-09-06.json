@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Google&#039;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data」、「Meta&#039;s new real-time audio model is the foundation for AI assistants that never stop listening」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Google&#039;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data」、「Meta&#039;s new real-time audio model is the foundation for AI assistants that never stop listening」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google&#039;s WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s new real-time audio model is the foundation for AI assistants that never stop listening",
@@ -16,7 +16,7 @@
         "跟进：Meta&#039;s new real-time audio model is the foundation for AI assistants that never stop listening",
         "跟进：Research acceleration: The view inside OpenAI",
         "跟进：汽车之家把二十多年家底,装进了一款智能体",
-        "跟进：Introducing GPT-6 Astra for developers"
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -63,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_adf1e580fc22c669e3bb1a99"
+                "local_d63cac5835c5764d93eeb6b8"
               ],
               "confidence": 90
             }
@@ -72,6 +72,16 @@
         {
           "title": "模型与基础设施",
           "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_9f4879a41b824e03926d87b6"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Introducing GPT-6 Astra for developers",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s: Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build m…",
@@ -99,11 +109,12 @@
         "local_eec7d63c9325f6bf44aa4905",
         "local_6ed440a029a680e84cd865a1",
         "local_9e4b32818e4f1676c179d3ad",
-        "local_adf1e580fc22c669e3bb1a99",
+        "local_d63cac5835c5764d93eeb6b8",
+        "local_9f4879a41b824e03926d87b6",
         "local_9e9a676206ba10af3e3994cf",
         "local_c2db6386e1022b18e8de6975"
       ],
-      "generatedAt": "2026-09-06T23:59:53.322Z",
+      "generatedAt": "2026-09-07T04:39:19.219Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -143,7 +154,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_adf1e580fc22c669e3bb1a99"
+                "local_d63cac5835c5764d93eeb6b8"
               ],
               "confidence": 90
             }
@@ -152,15 +163,15 @@
       ],
       "referencedFeedItemIds": [
         "local_9e4b32818e4f1676c179d3ad",
-        "local_adf1e580fc22c669e3bb1a99"
+        "local_d63cac5835c5764d93eeb6b8"
       ],
-      "generatedAt": "2026-09-06T23:59:53.322Z",
+      "generatedAt": "2026-09-07T04:39:19.220Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-06T23:59:53.322Z",
+  "generatedAt": "2026-09-07T04:39:19.220Z",
   "collectorName": "local-source-collector"
 }

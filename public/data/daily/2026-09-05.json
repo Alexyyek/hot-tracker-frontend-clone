@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Using Blender with coding agents on macOS」、「OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Using Blender with coding agents on macOS」、「OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Using Blender with coding agents on macOS",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Pelican comparison grid for Astra is pretty interesting"
       ],
       "watchItems": [
         "跟进：Using Blender with coding agents on macOS",
         "跟进：OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
-        "跟进：LLM Rankings",
         "跟进：The Pelican comparison grid for Astra is pretty interesting",
-        "跟进：Building a Memory-Driven Agent with NVIDIA NemoClaw"
+        "跟进：Building a Memory-Driven Agent with NVIDIA NemoClaw",
+        "跟进：Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool"
       ],
       "sections": [
         {
@@ -53,12 +53,12 @@
               "confidence": 86
             },
             {
-              "title": "OpenAI's rogue agents were caught communicating via public wikis",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. Thi…",
+              "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
+              "summary": "Machine-learning performance modeling is a uniquely hostile terrain for long-lived software: the assumptions baked into today's abstractions are invalidated by tomorrow's models and systems, forcing perpetual refactoring of performance-modeling frameworks. Meanwhile, AI coding a…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bf45e3dc709fbdc7d6d4e572"
+                "local_58156f1b97d1c962bdfe1d4d"
               ],
               "confidence": 92
             },
@@ -69,21 +69,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_76d6d11fa0975e20f1eb9ab5"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_3a9570d262db663ce3597886"
               ],
               "confidence": 92
             }
@@ -108,13 +93,12 @@
       "referencedFeedItemIds": [
         "local_6f031a874af9578e0fc3eb83",
         "local_381b43e9400138aab7e0dbf9",
-        "local_3a9570d262db663ce3597886",
         "local_70971e7f705d29e2f9ce4bfe",
         "local_622aef6fdfad08ce9b22dfc4",
-        "local_bf45e3dc709fbdc7d6d4e572",
+        "local_58156f1b97d1c962bdfe1d4d",
         "local_76d6d11fa0975e20f1eb9ab5"
       ],
-      "generatedAt": "2026-09-06T23:59:53.334Z",
+      "generatedAt": "2026-09-07T04:39:19.227Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -165,13 +149,13 @@
         "local_622aef6fdfad08ce9b22dfc4",
         "local_76d6d11fa0975e20f1eb9ab5"
       ],
-      "generatedAt": "2026-09-06T23:59:53.334Z",
+      "generatedAt": "2026-09-07T04:39:19.227Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-06T23:59:53.334Z",
+  "generatedAt": "2026-09-07T04:39:19.227Z",
   "collectorName": "local-source-collector"
 }
