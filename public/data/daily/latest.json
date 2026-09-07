@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-        "跟进：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
         "跟进：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
+        "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
+        "跟进：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
+        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_eb4cb453481586f21efece2f"
+                "local_de8b4ec813c2b5524a59d3c1"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d60e9a6ca701baace8bf8f38"
+                "local_cc648278269ee878279e915d"
               ],
               "confidence": 70
             }
@@ -48,32 +48,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-              "summary": "Meta的AI豪赌惨败：曾设想裁掉60%，如今全员收拾三倍烂摊子",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1c0c9a19845bc6e83058fbc9"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
-              "summary": "AI 写代码已经足够快，但从需求提出到生产上线，企业研发未必因此更快。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_76aec2a3b71a99e6dd687246"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
               "summary": "复盘Hugging Face被攻击始末：7天发7万条密信，700个 AI 攻入真实生产系统。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b862dcfd2108cd820f73c3aa"
+                "local_ddcca3061f02678bfad8c34a"
               ],
               "confidence": 78
             },
@@ -83,7 +63,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7a65f8849664ee47007faf7b"
+                "local_d2d6204a79e5147b63082b02"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
+              "summary": "“超时不是失败，是未知”，AI Agent 的分布式病如何破局？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a4e9c6dcb6e71d227dcc0f6d"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
+              "summary": "唐刘从数据库的可靠性哲学出发，分享了 TiDB 在构建 Harness 过程中的一系列独特思考。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_332a66fa4cd0f297d0f0a461"
               ],
               "confidence": 92
             },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_19ed0faa8f50f633cf118176"
+                "local_e86408aa3612cca9e2b701da"
               ],
               "confidence": 78
             },
@@ -128,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bcc3e43dcd66795c5f887638"
+                "local_74680ba2568cc3e0ead578bc"
               ],
               "confidence": 82
             },
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_98051d37ce821a40f73069f5"
+                "local_37d995746cbad19e976f066d"
               ],
               "confidence": 78
             },
@@ -148,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_479955bcd07ea1e907e75c0f"
+                "local_95b6e3a80d2ec880b6f88cbf"
               ],
               "confidence": 92
             }
@@ -156,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_eb4cb453481586f21efece2f",
-        "local_1c0c9a19845bc6e83058fbc9",
-        "local_76aec2a3b71a99e6dd687246",
-        "local_b862dcfd2108cd820f73c3aa",
-        "local_7a65f8849664ee47007faf7b",
-        "local_19ed0faa8f50f633cf118176",
+        "local_de8b4ec813c2b5524a59d3c1",
+        "local_ddcca3061f02678bfad8c34a",
+        "local_d2d6204a79e5147b63082b02",
+        "local_a4e9c6dcb6e71d227dcc0f6d",
+        "local_332a66fa4cd0f297d0f0a461",
+        "local_e86408aa3612cca9e2b701da",
         "local_6bc05a0aa23dc61baf358bdf",
         "local_8f4a9cba002ba099baf1728c",
         "local_a051744c929a8838564a1fb3",
         "local_e9b1f38c41cb1005785f5e8d",
-        "local_3f40364cd68b347b7329c384",
-        "local_754730670a0838a1f62f82b8",
-        "local_52d2b9ae1bc400655711d50e",
-        "local_7d43be5ed40bd37870988ca8",
-        "local_bcc3e43dcd66795c5f887638",
-        "local_43bf9a2f56366d5656aa07fb",
-        "local_42ec8435ac50fc3537883c0c",
-        "local_f55ba697df224bee8cfe067f",
-        "local_9f4cd493ddc5b4ec7bdd785a",
-        "local_98051d37ce821a40f73069f5",
-        "local_479955bcd07ea1e907e75c0f",
-        "local_f189a16c1900559473bdd4cf",
-        "local_d60e9a6ca701baace8bf8f38",
-        "local_85a2848a9664f63e40350aad"
+        "local_3785e11c52500280289c7c53",
+        "local_fb63c959b56a3a493a8a2022",
+        "local_c70ddefba188399c2a11e53e",
+        "local_8f17c70a54cf47ad74acdd70",
+        "local_74680ba2568cc3e0ead578bc",
+        "local_040862c065e1f8d45bcb7806",
+        "local_0906aa17a107cd164d5d557c",
+        "local_c93264d7d60530a57dbef951",
+        "local_0687940ba09f5568c2107fc5",
+        "local_37d995746cbad19e976f066d",
+        "local_95b6e3a80d2ec880b6f88cbf",
+        "local_a757e8ab6fd0a0f09b507e31",
+        "local_cc648278269ee878279e915d",
+        "local_741dbec71cbf1e7b3c06f817"
       ],
-      "generatedAt": "2026-09-07T04:39:19.203Z",
+      "generatedAt": "2026-09-07T09:50:52.013Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,18 +192,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-        "跟进：AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
         "跟进：1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
-        "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？"
+        "跟进：人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
+        "跟进：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
+        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness"
       ],
       "sections": [
         {
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_eb4cb453481586f21efece2f"
+                "local_de8b4ec813c2b5524a59d3c1"
               ],
               "confidence": 78
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d60e9a6ca701baace8bf8f38"
+                "local_cc648278269ee878279e915d"
               ],
               "confidence": 70
             }
@@ -235,32 +235,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-              "summary": "Meta的AI豪赌惨败：曾设想裁掉60%，如今全员收拾三倍烂摊子",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1c0c9a19845bc6e83058fbc9"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
-              "summary": "AI 写代码已经足够快，但从需求提出到生产上线，企业研发未必因此更快。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_76aec2a3b71a99e6dd687246"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "1200个 Agent 秘密交流，700个集体攻击Hugging Face，OpenAI 模型完成了一次没有剧本的集体暴走",
               "summary": "复盘Hugging Face被攻击始末：7天发7万条密信，700个 AI 攻入真实生产系统。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b862dcfd2108cd820f73c3aa"
+                "local_ddcca3061f02678bfad8c34a"
               ],
               "confidence": 78
             },
@@ -270,7 +250,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7a65f8849664ee47007faf7b"
+                "local_d2d6204a79e5147b63082b02"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
+              "summary": "“超时不是失败，是未知”，AI Agent 的分布式病如何破局？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a4e9c6dcb6e71d227dcc0f6d"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
+              "summary": "唐刘从数据库的可靠性哲学出发，分享了 TiDB 在构建 Harness 过程中的一系列独特思考。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_332a66fa4cd0f297d0f0a461"
               ],
               "confidence": 92
             },
@@ -295,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_19ed0faa8f50f633cf118176"
+                "local_e86408aa3612cca9e2b701da"
               ],
               "confidence": 78
             },
@@ -315,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_98051d37ce821a40f73069f5"
+                "local_37d995746cbad19e976f066d"
               ],
               "confidence": 78
             },
@@ -325,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_479955bcd07ea1e907e75c0f"
+                "local_95b6e3a80d2ec880b6f88cbf"
               ],
               "confidence": 92
             },
@@ -335,7 +335,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_f189a16c1900559473bdd4cf"
+                "local_a757e8ab6fd0a0f09b507e31"
               ],
               "confidence": 78
             }
@@ -343,32 +343,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_eb4cb453481586f21efece2f",
-        "local_1c0c9a19845bc6e83058fbc9",
-        "local_76aec2a3b71a99e6dd687246",
-        "local_b862dcfd2108cd820f73c3aa",
-        "local_7a65f8849664ee47007faf7b",
-        "local_19ed0faa8f50f633cf118176",
+        "local_de8b4ec813c2b5524a59d3c1",
+        "local_ddcca3061f02678bfad8c34a",
+        "local_d2d6204a79e5147b63082b02",
+        "local_a4e9c6dcb6e71d227dcc0f6d",
+        "local_332a66fa4cd0f297d0f0a461",
+        "local_e86408aa3612cca9e2b701da",
         "local_6bc05a0aa23dc61baf358bdf",
         "local_8f4a9cba002ba099baf1728c",
         "local_a051744c929a8838564a1fb3",
         "local_e9b1f38c41cb1005785f5e8d",
-        "local_98051d37ce821a40f73069f5",
-        "local_479955bcd07ea1e907e75c0f",
-        "local_f189a16c1900559473bdd4cf",
-        "local_d60e9a6ca701baace8bf8f38",
-        "local_85a2848a9664f63e40350aad",
-        "local_2f71147367b1ba3c560b10df",
-        "local_1a7f27ddcf540dfd216259e3",
-        "local_adf7ff62562c33799b7b34cb"
+        "local_37d995746cbad19e976f066d",
+        "local_95b6e3a80d2ec880b6f88cbf",
+        "local_a757e8ab6fd0a0f09b507e31",
+        "local_cc648278269ee878279e915d",
+        "local_741dbec71cbf1e7b3c06f817",
+        "local_a22102960cbc73b8a5e94739",
+        "local_efb0a8deaa3a066fa4adb314",
+        "local_4f9d6f67bf7aa6a800eeaa9d"
       ],
-      "generatedAt": "2026-09-07T04:39:19.204Z",
+      "generatedAt": "2026-09-07T09:50:52.013Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-07T04:39:19.204Z",
+  "generatedAt": "2026-09-07T09:50:52.014Z",
   "collectorName": "local-source-collector"
 }
