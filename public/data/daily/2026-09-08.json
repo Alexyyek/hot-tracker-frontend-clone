@@ -33,6 +33,16 @@
               "confidence": 74
             },
             {
+              "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
+              "summary": "We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while leaving an observable channel untested. The Trusted Local Node (TLN) sends protected activations to the Untrusted Cloud Node (UCN), the UCN returns its output, …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d02bd323cce9b4ba763cce76"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
               "summary": "Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from documents under two constraints: coverage, retaining enough pertinent information to achieve some goal, and conciseness, removing as much irrelevant information as…",
               "insightLabel": "关注",
@@ -61,16 +71,6 @@
                 "local_ae249f3ea0db326b8da6fb2d"
               ],
               "confidence": 92
-            },
-            {
-              "title": "ENEAS: Embedding-guided Neural Ensemble for Adaptive Segmentation",
-              "summary": "We present ENEAS, a unified, text-promptable method for instance tracking and semantic discovery. Text-promptable segmentation models, including the latest foundation models such as SAM 3, still suffer from temporal hallucinations, spatial fragmentation, and semantic misclassifi…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7ceb3d11dfecd0eb40ea3752"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0069e378390d767e35c31fb2"
+                "local_a2e3023725fa4501d718363c"
               ],
               "confidence": 92
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aeb4105c295b512b2921c1fc"
+                "local_ff14db9e3d9daeccb2cf918c"
               ],
               "confidence": 90
             },
@@ -103,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b32c7be06e5fc99a7fff899a"
+                "local_3984be6e64833f069856a388"
               ],
               "confidence": 92
             },
@@ -113,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ef80e840f471422508cf61f3"
+                "local_4d20c28549cf079faabcc58f"
               ],
               "confidence": 90
             },
@@ -123,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_43a14428e19a1e70b71f6229"
+                "local_7bdd3789a0f06345c8357f1c"
               ],
               "confidence": 92
             }
@@ -167,24 +167,24 @@
       ],
       "referencedFeedItemIds": [
         "local_2fc5356fd1a655b6f31e429d",
-        "local_0069e378390d767e35c31fb2",
-        "local_aeb4105c295b512b2921c1fc",
-        "local_b32c7be06e5fc99a7fff899a",
-        "local_ef80e840f471422508cf61f3",
-        "local_43a14428e19a1e70b71f6229",
-        "local_52387ac3d80d4f654eda0bb8",
-        "local_147f613587775c993975f605",
+        "local_a2e3023725fa4501d718363c",
+        "local_ff14db9e3d9daeccb2cf918c",
+        "local_3984be6e64833f069856a388",
+        "local_4d20c28549cf079faabcc58f",
+        "local_7bdd3789a0f06345c8357f1c",
+        "local_901ae9d6f7c48d8895446ba5",
+        "local_a2914bb99abf91531162a64a",
+        "local_d02bd323cce9b4ba763cce76",
         "local_d07e75a841b6fbdc6af7d07d",
         "local_d7908523e88c092ac8fbbd66",
         "local_ae249f3ea0db326b8da6fb2d",
-        "local_7ceb3d11dfecd0eb40ea3752",
         "local_0e993ebf263731262f61bdbc",
         "local_33ce9fd8eb914ba54449cad8",
         "local_c0a1424b817bf556499c7a1e",
         "local_fa688121e4bfa772aeb1fdab",
         "local_756cc35dea722bd07cbfa842"
       ],
-      "generatedAt": "2026-09-08T19:44:20.543Z",
+      "generatedAt": "2026-09-08T22:10:51.636Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -218,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0069e378390d767e35c31fb2"
+                "local_a2e3023725fa4501d718363c"
               ],
               "confidence": 92
             },
@@ -228,7 +228,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aeb4105c295b512b2921c1fc"
+                "local_ff14db9e3d9daeccb2cf918c"
               ],
               "confidence": 90
             },
@@ -238,7 +238,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b32c7be06e5fc99a7fff899a"
+                "local_3984be6e64833f069856a388"
               ],
               "confidence": 92
             },
@@ -248,7 +248,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ef80e840f471422508cf61f3"
+                "local_4d20c28549cf079faabcc58f"
               ],
               "confidence": 90
             },
@@ -258,7 +258,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_43a14428e19a1e70b71f6229"
+                "local_7bdd3789a0f06345c8357f1c"
               ],
               "confidence": 92
             }
@@ -266,21 +266,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0069e378390d767e35c31fb2",
-        "local_aeb4105c295b512b2921c1fc",
-        "local_b32c7be06e5fc99a7fff899a",
-        "local_ef80e840f471422508cf61f3",
-        "local_43a14428e19a1e70b71f6229",
-        "local_52387ac3d80d4f654eda0bb8",
-        "local_147f613587775c993975f605"
+        "local_a2e3023725fa4501d718363c",
+        "local_ff14db9e3d9daeccb2cf918c",
+        "local_3984be6e64833f069856a388",
+        "local_4d20c28549cf079faabcc58f",
+        "local_7bdd3789a0f06345c8357f1c",
+        "local_901ae9d6f7c48d8895446ba5",
+        "local_a2914bb99abf91531162a64a"
       ],
-      "generatedAt": "2026-09-08T19:44:20.543Z",
+      "generatedAt": "2026-09-08T22:10:51.636Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-08T19:44:20.543Z",
+  "generatedAt": "2026-09-08T22:10:51.636Z",
   "collectorName": "local-source-collector"
 }
