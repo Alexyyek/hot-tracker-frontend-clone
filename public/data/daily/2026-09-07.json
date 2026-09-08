@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「At UBS, AI skills are now a condition for landing a job」、「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「At UBS, AI skills are now a condition for landing a job」、「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：At UBS, AI skills are now a condition for landing a job",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing"
       ],
       "watchItems": [
         "跟进：At UBS, AI skills are now a condition for landing a job",
         "跟进：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
-        "跟进：Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
-        "跟进：HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-        "跟进：Dr. Claw: An AI Scientist Workspace for Vibe Research"
+        "跟进：Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
+        "跟进：LLM Rankings",
+        "跟进：Research acceleration: The view inside OpenAI"
       ],
       "sections": [
         {
@@ -43,26 +43,6 @@
               "confidence": 92
             },
             {
-              "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-              "summary": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents drive a crew of two tractors th…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e19e4f429e03e9fd1308f2a3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
-              "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preser…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_bdc078c84cbf44dbf2689212"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Research acceleration: The view inside OpenAI",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub…",
               "insightLabel": "关注",
@@ -75,30 +55,15 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
-              "summary": "Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally ``flat'' when reasoning about the physical world. We argue that this spatial bottleneck stems from a profound dimensional mismatch: while VLMs are trained to in…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_267f87118657e348630ed24d"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
-              "summary": "Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance with requests that are incorrect, unsafe, infeasible, or unanswerable. However, existing benchmarks predominantly evaluate non-compliance at the level of the quer…",
+              "title": "Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
+              "summary": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of change detection models. However, existing synthesis methods typically rely on handcrafted rules to simulate changes, where limited coverage of class transitions…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_449d9cdde61bf10c1e973f27"
+                "local_d1787f47a3186cad66b3a9f1"
               ],
               "confidence": 92
             },
@@ -118,14 +83,11 @@
       "referencedFeedItemIds": [
         "local_7e936b411c78f1f117869b38",
         "local_962a3dc3c11936fbffce0caa",
-        "local_267f87118657e348630ed24d",
-        "local_e19e4f429e03e9fd1308f2a3",
-        "local_bdc078c84cbf44dbf2689212",
-        "local_449d9cdde61bf10c1e973f27",
+        "local_d1787f47a3186cad66b3a9f1",
         "local_f3108e3791bfd94727707191",
         "local_9bb36bdc4d0a96816040a768"
       ],
-      "generatedAt": "2026-09-08T01:18:57.449Z",
+      "generatedAt": "2026-09-08T06:41:05.897Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -136,18 +98,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「At UBS, AI skills are now a condition for landing a job」、「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「At UBS, AI skills are now a condition for landing a job」、「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：At UBS, AI skills are now a condition for landing a job",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing"
       ],
       "watchItems": [
         "跟进：At UBS, AI skills are now a condition for landing a job",
         "跟进：分享一个我随时随地只用手机就能远程操控Agent的新工作流",
-        "跟进：Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
-        "跟进：HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-        "跟进：Dr. Claw: An AI Scientist Workspace for Vibe Research"
+        "跟进：Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
+        "跟进：LLM Rankings",
+        "跟进：Research acceleration: The view inside OpenAI"
       ],
       "sections": [
         {
@@ -174,26 +136,6 @@
               "confidence": 92
             },
             {
-              "title": "HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals",
-              "summary": "Benchmarks for the side effects an agent causes on the way to a goal already exist, but HarvestBench is the first to put a price on avoiding the side effect and to name that side effect as a living creature. It is a farm simulation: LLM sub-agents drive a crew of two tractors th…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e19e4f429e03e9fd1308f2a3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Dr. Claw: An AI Scientist Workspace for Vibe Research",
-              "summary": "Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preser…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_bdc078c84cbf44dbf2689212"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Research acceleration: The view inside OpenAI",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub…",
               "insightLabel": "关注",
@@ -206,30 +148,15 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
-              "summary": "Despite the remarkable prowess of Vision-Language Models (VLMs) in general multimodal tasks, they remain fundamentally ``flat'' when reasoning about the physical world. We argue that this spatial bottleneck stems from a profound dimensional mismatch: while VLMs are trained to in…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_267f87118657e348630ed24d"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Knowing What Not to Answer: Selective Non-Compliance in Vision-Language Models",
-              "summary": "Vision-language models (VLMs) are expected to respond helpfully to appropriate requests while withholding compliance with requests that are incorrect, unsafe, infeasible, or unanswerable. However, existing benchmarks predominantly evaluate non-compliance at the level of the quer…",
+              "title": "Real-World Knowledge-Guided Change Data Synthesis for Remote Sensing",
+              "summary": "Change data synthesis provides a cost-effective solution for expanding training data and improving the performance of change detection models. However, existing synthesis methods typically rely on handcrafted rules to simulate changes, where limited coverage of class transitions…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_449d9cdde61bf10c1e973f27"
+                "local_d1787f47a3186cad66b3a9f1"
               ],
               "confidence": 92
             },
@@ -249,20 +176,17 @@
       "referencedFeedItemIds": [
         "local_7e936b411c78f1f117869b38",
         "local_962a3dc3c11936fbffce0caa",
-        "local_267f87118657e348630ed24d",
-        "local_e19e4f429e03e9fd1308f2a3",
-        "local_bdc078c84cbf44dbf2689212",
-        "local_449d9cdde61bf10c1e973f27",
+        "local_d1787f47a3186cad66b3a9f1",
         "local_f3108e3791bfd94727707191",
         "local_9bb36bdc4d0a96816040a768"
       ],
-      "generatedAt": "2026-09-08T01:18:57.449Z",
+      "generatedAt": "2026-09-08T06:41:05.897Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-08T01:18:57.449Z",
+  "generatedAt": "2026-09-08T06:41:05.897Z",
   "collectorName": "local-source-collector"
 }
