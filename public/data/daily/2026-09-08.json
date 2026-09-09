@@ -5,20 +5,75 @@
       "topicId": "ai",
       "reportDate": "2026-09-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Arm launches Total Design for Physical AI and robotics framework」、「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents」、「Arm launches Total Design for Physical AI and robotics framework」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Arm launches Total Design for Physical AI and robotics framework",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约"
       ],
       "watchItems": [
+        "跟进：Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
         "跟进：Arm launches Total Design for Physical AI and robotics framework",
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "跟进：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
-        "跟进：YC:别给员工配Copilot了,AI原生公司没有传话的人",
-        "跟进：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法"
+        "跟进：Beyond Agent Harnesses: Cross-Substrate Authority for Multi-Agent Systems",
+        "跟进：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
+              "summary": "Autonomous agents powered by large language models (LLMs) continuously accumulate experience through interaction, creating an opportunity to improve future behavior through self-evolution. A fundamental challenge is how to transform abundant, task-specific interaction experience…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6d062f54df7d630d006606f5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
+              "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c8a7300d65775ebe3f5960dd"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Beyond Agent Harnesses: Cross-Substrate Authority for Multi-Agent Systems",
+              "summary": "Agentic systems persist model-visible memory while mutating workspaces, while a runtime, registry, or approval service may hold authority state outside both. Identical final files can then require opposite safe actions. We call this the cross-substrate authority gap: decision- r…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5e305801e2b68f15bd381303"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
+              "summary": "复旦大学软件工程实验室最近,团队推出了面向测试自动化的 NL2Test Agent:QA在测试过程中, 只需用自然语言描述测试场景,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2b490077db0f42f3acaaf3be"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "YC:别给员工配Copilot了,AI原生公司没有传话的人",
+              "summary": "导读过去两年,很多公司都在说自己是\"AI Native\".工程师有了 Coding Agent,销售开始自动总结会议,客服接入大模型,律师、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0266f8fb9bfd07ef50d7ef96"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -33,97 +88,22 @@
               "confidence": 74
             },
             {
-              "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
-              "summary": "We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while leaving an observable channel untested. The Trusted Local Node (TLN) sends protected activations to the Untrusted Cloud Node (UCN), the UCN returns its output, …",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d02bd323cce9b4ba763cce76"
+                "local_e76aa27f4ea323c2f4dd4224"
               ],
               "confidence": 92
             },
             {
-              "title": "Unifying Conformal Language Tasks with In-Context Ensembles",
-              "summary": "Many NLP tasks, such as summarization and extractive question answering, reduce to retrieving relevant content from documents under two constraints: coverage, retaining enough pertinent information to achieve some goal, and conciseness, removing as much irrelevant information as…",
+              "title": "llm 0.35",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra. Tags: openai, llm, gpt-6-astra",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d07e75a841b6fbdc6af7d07d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Causal Foundation Models",
-              "summary": "Causal inference is the practice of estimating the effect of a treatment or intervention from data. It traditionally requires a bespoke pipeline for every new problem: first proposing a causal mechanism, selecting a compatible estimator, and finally training it. Meanwhile, acros…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d7908523e88c092ac8fbbd66"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal",
-              "summary": "Safety alignment is usually posed as a topic-level question: is this subject harmful? Deployments ask a narrower one. A civics tutor and a public-sector assistant may share a base model yet need different boundaries inside the same topic, refusing targeted political manipulation…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_ae249f3ea0db326b8da6fb2d"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-              "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8b4cf5574a70f5aa48045442"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
-              "summary": "复旦大学软件工程实验室最近,团队推出了面向测试自动化的 NL2Test Agent:QA在测试过程中, 只需用自然语言描述测试场景,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8bd8b2fb921377e99de596d4"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "YC:别给员工配Copilot了,AI原生公司没有传话的人",
-              "summary": "导读过去两年,很多公司都在说自己是\"AI Native\".工程师有了 Coding Agent,销售开始自动总结会议,客服接入大模型,律师、...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d75693f5536fdb0b2c304699"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法",
-              "summary": "机器之心发布让 Agent 完成一个任务并不难.它会整理材料、修改文件、检查结果,再交付答案.难的是让它一直做下去.一项真实工...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b4d41898cc5a5eae74b38bba"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流",
-              "summary": "近年来,大语言模型(LLM)Agent 已经从简单的问答走向更加复杂的长程任务:它们可以规划任务、调用工具、操作文件、检索信息...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4e96c94f7fe885f68ccaccaf"
+                "local_0e993ebf263731262f61bdbc"
               ],
               "confidence": 92
             }
@@ -166,25 +146,23 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_6d062f54df7d630d006606f5",
         "local_2fc5356fd1a655b6f31e429d",
-        "local_8b4cf5574a70f5aa48045442",
-        "local_8bd8b2fb921377e99de596d4",
-        "local_d75693f5536fdb0b2c304699",
-        "local_b4d41898cc5a5eae74b38bba",
-        "local_4e96c94f7fe885f68ccaccaf",
-        "local_b7c1ea884ab0a719bb022c07",
-        "local_ed832ca6ada291a995d68a44",
-        "local_d02bd323cce9b4ba763cce76",
-        "local_d07e75a841b6fbdc6af7d07d",
-        "local_d7908523e88c092ac8fbbd66",
-        "local_ae249f3ea0db326b8da6fb2d",
+        "local_c8a7300d65775ebe3f5960dd",
+        "local_5e305801e2b68f15bd381303",
+        "local_2b490077db0f42f3acaaf3be",
+        "local_0266f8fb9bfd07ef50d7ef96",
+        "local_411f176f80a396bc6c83df7c",
+        "local_b5db46b658c682cb76165a77",
+        "local_1ce93e4021019087f2773274",
+        "local_e76aa27f4ea323c2f4dd4224",
         "local_0e993ebf263731262f61bdbc",
         "local_33ce9fd8eb914ba54449cad8",
         "local_c0a1424b817bf556499c7a1e",
         "local_fa688121e4bfa772aeb1fdab",
         "local_756cc35dea722bd07cbfa842"
       ],
-      "generatedAt": "2026-09-09T00:18:54.545Z",
+      "generatedAt": "2026-09-09T05:22:03.094Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -195,7 +173,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-08",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」、「字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」、「字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
@@ -218,7 +196,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8b4cf5574a70f5aa48045442"
+                "local_c8a7300d65775ebe3f5960dd"
               ],
               "confidence": 92
             },
@@ -228,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8bd8b2fb921377e99de596d4"
+                "local_2b490077db0f42f3acaaf3be"
               ],
               "confidence": 90
             },
@@ -238,7 +216,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d75693f5536fdb0b2c304699"
+                "local_0266f8fb9bfd07ef50d7ef96"
               ],
               "confidence": 92
             },
@@ -248,7 +226,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b4d41898cc5a5eae74b38bba"
+                "local_411f176f80a396bc6c83df7c"
               ],
               "confidence": 90
             },
@@ -258,7 +236,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4e96c94f7fe885f68ccaccaf"
+                "local_b5db46b658c682cb76165a77"
               ],
               "confidence": 92
             }
@@ -266,21 +244,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8b4cf5574a70f5aa48045442",
-        "local_8bd8b2fb921377e99de596d4",
-        "local_d75693f5536fdb0b2c304699",
-        "local_b4d41898cc5a5eae74b38bba",
-        "local_4e96c94f7fe885f68ccaccaf",
-        "local_b7c1ea884ab0a719bb022c07",
-        "local_ed832ca6ada291a995d68a44"
+        "local_c8a7300d65775ebe3f5960dd",
+        "local_2b490077db0f42f3acaaf3be",
+        "local_0266f8fb9bfd07ef50d7ef96",
+        "local_411f176f80a396bc6c83df7c",
+        "local_b5db46b658c682cb76165a77",
+        "local_1ce93e4021019087f2773274"
       ],
-      "generatedAt": "2026-09-09T00:18:54.545Z",
+      "generatedAt": "2026-09-09T05:22:03.094Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-09T00:18:54.545Z",
+  "generatedAt": "2026-09-09T05:22:03.094Z",
   "collectorName": "local-source-collector"
 }

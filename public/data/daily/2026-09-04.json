@@ -5,60 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-09-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents」、「码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?」、「50.5% of Americans Say AI Romance Can Count as Cheating」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RefactorPlatform: An Open-Source Harness for Controlled Evaluation of Repository-Scale Refactoring Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：50.5% of Americans Say AI Romance Can Count as Cheating",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\""
       ],
       "watchItems": [
-        "跟进：TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents",
         "跟进：码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?",
-        "跟进：RefactorPlatform: An Open-Source Harness for Controlled Evaluation of Repository-Scale Refactoring Agents",
         "跟进：50.5% of Americans Say AI Romance Can Count as Cheating",
-        "跟进：FUSION: a skill-based research agent for publicly obtainable nuclear-physics codes"
+        "跟进：从线性对话到二维协作,Huabu 探索 Agent 时代的\"新桌面\"",
+        "跟进：OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+        "跟进：Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "TruthInsightBench: An Evidence-Grounded Benchmark for Automated Evaluation of Open-Ended Scientific Discovery Agents",
-              "summary": "Autonomous coding agents are increasingly proposed as AI-scientist systems that conduct analyses and write research reports, but executing a prescribed analysis is not the same as making a discovery. Existing benchmarks are configured for reproduction: tasks, data, and rubrics a…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f5f32542aaaf546303c13f77"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "码上报名|当Agent开始\"自主行动\",信任如何不\"掉线\"?",
               "summary": "过去几年,智能体从单点工具走向跨域互联&mdash;&mdash;汽车召唤手机权限、企业采购系统直连外部Agent、多平台设备自动协同.技术连接已...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f5027b2c558611978f3a597a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "RefactorPlatform: An Open-Source Harness for Controlled Evaluation of Repository-Scale Refactoring Agents",
-              "summary": "Repository-scale refactoring requires coding agents to propagate a single change across many interdependent files without altering program behavior, yet to our knowledge no existing harness isolates the design choices that determine agent success on this task. We present Refacto…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_74d5c0d5a67128f4c9c09d31"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "FUSION: a skill-based research agent for publicly obtainable nuclear-physics codes",
-              "summary": "Running an unfamiliar nuclear-physics code is rarely difficult because of the physics alone. One must find and build the program, learn its input conventions, and decide whether a plausible output is actually correct. A general-purpose coding agent helps with the first two tasks…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7f1b38a92d2835e02baee3dc"
+                "local_10b76961a159e23adf27a485"
               ],
               "confidence": 92
             },
@@ -68,9 +38,39 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fd6176baa0895d8093712f25"
+                "local_45a384fbd555f7a95a805787"
               ],
               "confidence": 90
+            },
+            {
+              "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：At IFA 2026, NVIDIA and partners are providing faster inference and new tools that make agents easier to set up and run locally.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1cdd1b842573e62171eadd5a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：At IFA 2026, NVIDIA and partners are providing faster inference and new tools that make agents easier to set up and run locally.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_93737c934f5d1d63f434ec2a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "NVIDIA PAIR Virtual Inference Router Expands Available Compute on Your Local Network",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents are learning to do more by working together. A lead agent can break a complex task into smaller jobs and assign those jobs to specialized subagents....",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c1ff174b59bc3518a9d27f5b"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -106,18 +106,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f5f32542aaaf546303c13f77",
-        "local_f5027b2c558611978f3a597a",
-        "local_74d5c0d5a67128f4c9c09d31",
+        "local_10b76961a159e23adf27a485",
         "local_89ee2bb6f2986e4c227f8e2d",
-        "local_7f1b38a92d2835e02baee3dc",
-        "local_fd6176baa0895d8093712f25",
+        "local_45a384fbd555f7a95a805787",
         "local_1b51dc73c14d53690f29e665",
         "local_1cdd1b842573e62171eadd5a",
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-09T00:18:54.592Z",
+      "generatedAt": "2026-09-09T05:22:03.145Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -151,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f5027b2c558611978f3a597a"
+                "local_10b76961a159e23adf27a485"
               ],
               "confidence": 92
             },
@@ -161,7 +158,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fd6176baa0895d8093712f25"
+                "local_45a384fbd555f7a95a805787"
               ],
               "confidence": 90
             },
@@ -199,19 +196,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f5027b2c558611978f3a597a",
-        "local_fd6176baa0895d8093712f25",
+        "local_10b76961a159e23adf27a485",
+        "local_45a384fbd555f7a95a805787",
         "local_1cdd1b842573e62171eadd5a",
         "local_93737c934f5d1d63f434ec2a",
         "local_c1ff174b59bc3518a9d27f5b"
       ],
-      "generatedAt": "2026-09-09T00:18:54.592Z",
+      "generatedAt": "2026-09-09T05:22:03.145Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-09T00:18:54.592Z",
+  "generatedAt": "2026-09-09T05:22:03.145Z",
   "collectorName": "local-source-collector"
 }
