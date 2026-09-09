@@ -53,24 +53,24 @@
               "confidence": 78
             },
             {
-              "title": "Learning 3D Editing without Paired Supervision via Generative Prior Distillation",
-              "summary": "Instruction-guided 3D editing is essential for interactive content creation, yet it faces a significant bottleneck: the severe scarcity of high-quality paired training data. Existing approaches attempt to bypass this by either relying on slow test-time optimization or training o…",
+              "title": "RenderFormer-V2: Neural Rendering with Heterogeneous Scene Primitives",
+              "summary": "We present 'RenderFormer-V2', a unified learned transformer-based neural rendering model, complementary to modern physics-based rendering systems, that can handle diverse light-transport effects such as caustics, volumetric scattering, environment lighting, textured and displace…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c7bf2d8362f58e2cf6299bda"
+                "local_5ed4fce92ab54ec724805663"
               ],
               "confidence": 86
             },
             {
-              "title": "What Did I Just Say? Self-Listening for Full-Duplex Speech Models",
-              "summary": "Full-duplex spoken language models can listen and speak simultaneously, enabling them to handle interruptions and backchannels in human conversation. However, text generation, speech synthesis, and audio playback proceed asynchronously. As a result, what a model believes it has …",
+              "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+              "summary": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the comp…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_dd3dc156a52f868f4b023b22"
+                "local_710cd5f0956c392cda98acc8"
               ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_addb5ab125756c7f02095945"
+                "local_c39bac20752b6182ee91d290"
               ],
               "confidence": 92
             },
@@ -93,7 +93,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eb0093fb2627a2d9ab4520e0"
+                "local_67aa964ae7f8c7c53537a8fe"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "VDiff-Bench: A Challenging Benchmark for Fine-Grained Image Difference Identification",
+              "summary": "Multimodal Large Language Models (MLLMs) perform strongly on general visual understanding tasks such as visual question answering, yet they often struggle with a basic comparative skill: identifying what has changed between two similar images. We introduce VDiff-Bench, a challen…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c5acd31daca956e022bfa127"
               ],
               "confidence": 92
             },
@@ -104,16 +114,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_975230f9ff3b9b15b852c22e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Counter-Swarm Doctrine: Containing Coordinated Agent Intrusions",
-              "summary": "Agents can turn shared infrastructure into a channel for coordinated intrusion. The Hugging Face incident and a separate public-wiki investigation show why a security assessment may need evidence from several executions and the artifacts they leave behind. We argue that the oper…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_58f675b8c5f5d624d79f57e6"
               ],
               "confidence": 92
             },
@@ -149,12 +149,12 @@
         "local_07d76d2c69287e07b7b01ab7",
         "local_e960d0a840c3f24552e8afdb",
         "local_e970a40ed8b05d6ba16d8330",
-        "local_addb5ab125756c7f02095945",
-        "local_eb0093fb2627a2d9ab4520e0",
+        "local_c39bac20752b6182ee91d290",
+        "local_67aa964ae7f8c7c53537a8fe",
+        "local_5ed4fce92ab54ec724805663",
+        "local_c5acd31daca956e022bfa127",
+        "local_710cd5f0956c392cda98acc8",
         "local_975230f9ff3b9b15b852c22e",
-        "local_58f675b8c5f5d624d79f57e6",
-        "local_c7bf2d8362f58e2cf6299bda",
-        "local_dd3dc156a52f868f4b023b22",
         "local_9901dc64a46324623275ad74",
         "local_7cfd2631908ed5f926ae5323",
         "local_06dc3b145b5359456b14563f",
@@ -164,7 +164,7 @@
         "local_ff6227b9940e5896dd000823",
         "local_c58989fbfabee386332485f2"
       ],
-      "generatedAt": "2026-09-09T18:08:36.258Z",
+      "generatedAt": "2026-09-09T21:03:23.752Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -198,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_addb5ab125756c7f02095945"
+                "local_c39bac20752b6182ee91d290"
               ],
               "confidence": 92
             },
@@ -208,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eb0093fb2627a2d9ab4520e0"
+                "local_67aa964ae7f8c7c53537a8fe"
               ],
               "confidence": 92
             },
@@ -246,19 +246,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_addb5ab125756c7f02095945",
-        "local_eb0093fb2627a2d9ab4520e0",
+        "local_c39bac20752b6182ee91d290",
+        "local_67aa964ae7f8c7c53537a8fe",
         "local_4e426e08a9fa3946029ae459",
         "local_4166b85d933e2b94d82889ee",
         "local_20e52a12c24714bb94fbf9ca"
       ],
-      "generatedAt": "2026-09-09T18:08:36.258Z",
+      "generatedAt": "2026-09-09T21:03:23.752Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-09T18:08:36.258Z",
+  "generatedAt": "2026-09-09T21:03:23.752Z",
   "collectorName": "local-source-collector"
 }
