@@ -5,11 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-09-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?」、「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：分享一个我随时随地只用手机就能远程操控Agent的新工作流"
       ],
       "watchItems": [
+        "跟进：从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?",
         "跟进：分享一个我随时随地只用手机就能远程操控Agent的新工作流"
       ],
       "sections": [
@@ -17,12 +19,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?",
+              "summary": "Agent 推向真实软件工程场景.随着任务变长、副作用变强、客户端变多,Agent Loop 外围的会话、权限、沙箱、事件和扩展机制逐...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bdef1d6be0180c3570d88c3d"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "分享一个我随时随地只用手机就能远程操控Agent的新工作流",
               "summary": "我最近出门在外最常干的一件事就是用终端看一下AI任务日志.以... Agent在里面该干啥还继续干啥.回到会话列表,可以继续创建新...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6b81c411cc755ee247107295"
+                "local_590710cc9e0494961e8ce01a"
               ],
               "confidence": 92
             }
@@ -30,9 +42,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6b81c411cc755ee247107295"
+        "local_bdef1d6be0180c3570d88c3d",
+        "local_590710cc9e0494961e8ce01a"
       ],
-      "generatedAt": "2026-09-09T10:15:00.582Z",
+      "generatedAt": "2026-09-09T14:42:21.760Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -43,24 +56,24 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「分享一个我随时随地只用手机就能远程操控Agent的新工作流」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：分享一个我随时随地只用手机就能远程操控Agent的新工作流"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?"
       ],
       "watchItems": [
-        "跟进：分享一个我随时随地只用手机就能远程操控Agent的新工作流"
+        "跟进：从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "分享一个我随时随地只用手机就能远程操控Agent的新工作流",
-              "summary": "我最近出门在外最常干的一件事就是用终端看一下AI任务日志.以... Agent在里面该干啥还继续干啥.回到会话列表,可以继续创建新...",
+              "title": "从一次 LLM 调用到完整 Harness,Agent 到底经历了什么?",
+              "summary": "Agent 推向真实软件工程场景.随着任务变长、副作用变强、客户端变多,Agent Loop 外围的会话、权限、沙箱、事件和扩展机制逐...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6b81c411cc755ee247107295"
+                "local_bdef1d6be0180c3570d88c3d"
               ],
               "confidence": 92
             }
@@ -68,15 +81,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6b81c411cc755ee247107295"
+        "local_bdef1d6be0180c3570d88c3d"
       ],
-      "generatedAt": "2026-09-09T10:15:00.582Z",
+      "generatedAt": "2026-09-09T14:42:21.760Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-09T10:15:00.582Z",
+  "generatedAt": "2026-09-09T14:42:21.760Z",
   "collectorName": "local-source-collector"
 }

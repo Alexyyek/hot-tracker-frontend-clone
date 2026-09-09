@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents」、「Arm launches Total Design for Physical AI and robotics framework」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents」、「Arm launches Total Design for Physical AI and robotics framework」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Arm launches Total Design for Physical AI and robotics framework",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\""
       ],
       "watchItems": [
         "跟进：Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
         "跟进：Arm launches Total Design for Physical AI and robotics framework",
+        "跟进：高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"",
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "跟进：Beyond Agent Harnesses: Cross-Substrate Authority for Multi-Agent Systems",
-        "跟进：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么"
+        "跟进：Beyond Agent Harnesses: Cross-Substrate Authority for Multi-Agent Systems"
       ],
       "sections": [
         {
@@ -33,12 +33,22 @@
               "confidence": 92
             },
             {
+              "title": "高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"",
+              "summary": "Agent 添加 skills/amap-a2ui 技能(下载地址),然后调用高德地图 LBS 服务获取数据,amap-a2ui 技能帮助 Agent 生成可校验、可渲...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_401eda2e342234d534c49d57"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
               "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1437d8c13709effdb76723bf"
+                "local_40cc84a5d9eb92dbdbc9315b"
               ],
               "confidence": 92
             },
@@ -58,19 +68,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5057e3063f93dcbbde5f4688"
+                "local_1bab5b33aa1e3cf0558bb388"
               ],
               "confidence": 90
-            },
-            {
-              "title": "YC:别给员工配Copilot了,AI原生公司没有传话的人",
-              "summary": "导读过去两年,很多公司都在说自己是\"AI Native\".工程师有了 Coding Agent,销售开始自动总结会议,客服接入大模型,律师、...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1438690e98699e8202539cba"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -108,61 +108,24 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Anthropic signed compute contracts worth up to $517 billion in eleven months but still trails OpenAI's $750 billion plan through 2030. In early 2026, CEO Dario Amodei warned against investing too fast. Now Anthropic is …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_c0a1424b817bf556499c7a1e"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "ChatGPT claws back web traffic share to 55.5 percent as Gemini&#039;s brief comeback fades",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：ChatGPT has pushed its share of AI chatbot website traffic back up to 55.5 percent, according to Similarweb. Year-over-year, though, its lead shrank sharply from 73.3 percent as Gemini doubled its share and Claude grew …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_fa688121e4bfa772aeb1fdab"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "AI-designed drug appears to turn back the body&#039;s biological clock in early trial",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：A study in Nature Biotechnology suggests that rentosertib, a drug designed with AI by Insilico Medicine, may reverse markers of biological aging. Six independent aging clocks predicted that treated patients were biologi…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_756cc35dea722bd07cbfa842"
-              ],
-              "confidence": 82
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_6d062f54df7d630d006606f5",
         "local_2fc5356fd1a655b6f31e429d",
-        "local_1437d8c13709effdb76723bf",
+        "local_401eda2e342234d534c49d57",
+        "local_40cc84a5d9eb92dbdbc9315b",
         "local_5e305801e2b68f15bd381303",
-        "local_5057e3063f93dcbbde5f4688",
-        "local_1438690e98699e8202539cba",
+        "local_1bab5b33aa1e3cf0558bb388",
+        "local_2af7bc2f610b24637740b629",
         "local_56feb452e4f148bd1e70caab",
-        "local_a14b3251d041840c36ef1db8",
-        "local_d85f8d6a71cb3212e7f04e74",
+        "local_0d332810a6cfcf160fe3f48a",
+        "local_cd65cee3d7f60f6a43c3cd17",
         "local_e76aa27f4ea323c2f4dd4224",
         "local_0e993ebf263731262f61bdbc",
-        "local_33ce9fd8eb914ba54449cad8",
-        "local_c0a1424b817bf556499c7a1e",
-        "local_fa688121e4bfa772aeb1fdab",
-        "local_756cc35dea722bd07cbfa842"
+        "local_33ce9fd8eb914ba54449cad8"
       ],
-      "generatedAt": "2026-09-09T10:15:00.573Z",
+      "generatedAt": "2026-09-09T14:42:21.748Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -173,30 +136,40 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-08",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」、「字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"」、「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：YC:别给员工配Copilot了,AI原生公司没有传话的人"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么"
       ],
       "watchItems": [
+        "跟进：高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"",
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
         "跟进：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
         "跟进：YC:别给员工配Copilot了,AI原生公司没有传话的人",
-        "跟进：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法",
-        "跟进：强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流"
+        "跟进：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"",
+              "summary": "Agent 添加 skills/amap-a2ui 技能(下载地址),然后调用高德地图 LBS 服务获取数据,amap-a2ui 技能帮助 Agent 生成可校验、可渲...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_401eda2e342234d534c49d57"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
               "summary": "AI智能体正在成为连接数字世界与物理世界的重要纽带,并推动企业运营模式从传统的软件自动化,向能够自主决策、跨平台协同和动...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1437d8c13709effdb76723bf"
+                "local_40cc84a5d9eb92dbdbc9315b"
               ],
               "confidence": 92
             },
@@ -206,7 +179,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5057e3063f93dcbbde5f4688"
+                "local_1bab5b33aa1e3cf0558bb388"
               ],
               "confidence": 90
             },
@@ -216,7 +189,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1438690e98699e8202539cba"
+                "local_2af7bc2f610b24637740b629"
               ],
               "confidence": 92
             },
@@ -229,35 +202,26 @@
                 "local_56feb452e4f148bd1e70caab"
               ],
               "confidence": 90
-            },
-            {
-              "title": "强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流",
-              "summary": "近年来,大语言模型(LLM)Agent 已经从简单的问答走向更加复杂的长程任务:它们可以规划任务、调用工具、操作文件、检索信息...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a14b3251d041840c36ef1db8"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_1437d8c13709effdb76723bf",
-        "local_5057e3063f93dcbbde5f4688",
-        "local_1438690e98699e8202539cba",
+        "local_401eda2e342234d534c49d57",
+        "local_40cc84a5d9eb92dbdbc9315b",
+        "local_1bab5b33aa1e3cf0558bb388",
+        "local_2af7bc2f610b24637740b629",
         "local_56feb452e4f148bd1e70caab",
-        "local_a14b3251d041840c36ef1db8",
-        "local_d85f8d6a71cb3212e7f04e74"
+        "local_0d332810a6cfcf160fe3f48a",
+        "local_cd65cee3d7f60f6a43c3cd17"
       ],
-      "generatedAt": "2026-09-09T10:15:00.573Z",
+      "generatedAt": "2026-09-09T14:42:21.748Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-09T10:15:00.573Z",
+  "generatedAt": "2026-09-09T14:42:21.748Z",
   "collectorName": "local-source-collector"
 }
