@@ -53,22 +53,22 @@
               "confidence": 78
             },
             {
+              "title": "Graph Machine: Towards Better Pretraining via Edges",
+              "summary": "We introduce the Graph Machine (GM), an architecture that maintains an O(n)-sized state and accesses it through sparse, dynamic routing. Unlike methods with fixed-size states or sparse but static routing, GM preserves O(n) complexity in its sparse layers without restricting the …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_8f012698556308cfa6b9f4b0"
+              ],
+              "confidence": 82
+            },
+            {
               "title": "RenderFormer-V2: Neural Rendering with Heterogeneous Scene Primitives",
               "summary": "We present 'RenderFormer-V2', a unified learned transformer-based neural rendering model, complementary to modern physics-based rendering systems, that can handle diverse light-transport effects such as caustics, volumetric scattering, environment lighting, textured and displace…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_5ed4fce92ab54ec724805663"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
-              "summary": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the comp…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_710cd5f0956c392cda98acc8"
               ],
               "confidence": 86
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c39bac20752b6182ee91d290"
+                "local_78f1df1836aa8e2188e95ed1"
               ],
               "confidence": 92
             },
@@ -93,7 +93,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_67aa964ae7f8c7c53537a8fe"
+                "local_298f0f524147ce5d14c5d5aa"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "EVOHARNESSBENCH: Can Your Agents Keep Pace with an Evolving Harness?",
+              "summary": "Modern LLM-based agents operate through a harness of tools, reusable skills, and specialist agents that shapes what they observe and what they can do. In practice, this harness continually evolves as new capabilities are added. We introduce EVOHARNESSBENCH, a benchmark for evalu…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b319d7c76b7c006a3be883e5"
               ],
               "confidence": 92
             },
@@ -104,16 +114,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_c5acd31daca956e022bfa127"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MasterControl Seventeen Every Time",
-              "summary": "We study a governed approach to enterprise analytics: a language model interprets the question, while deterministic policy selects and runs a pre-approved analytical program that returns both results and evidence. We show that this restriction can remain expressive within a defi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_975230f9ff3b9b15b852c22e"
               ],
               "confidence": 92
             },
@@ -149,12 +149,12 @@
         "local_07d76d2c69287e07b7b01ab7",
         "local_e960d0a840c3f24552e8afdb",
         "local_e970a40ed8b05d6ba16d8330",
-        "local_c39bac20752b6182ee91d290",
-        "local_67aa964ae7f8c7c53537a8fe",
+        "local_78f1df1836aa8e2188e95ed1",
+        "local_298f0f524147ce5d14c5d5aa",
+        "local_8f012698556308cfa6b9f4b0",
+        "local_b319d7c76b7c006a3be883e5",
         "local_5ed4fce92ab54ec724805663",
         "local_c5acd31daca956e022bfa127",
-        "local_710cd5f0956c392cda98acc8",
-        "local_975230f9ff3b9b15b852c22e",
         "local_9901dc64a46324623275ad74",
         "local_7cfd2631908ed5f926ae5323",
         "local_06dc3b145b5359456b14563f",
@@ -164,7 +164,7 @@
         "local_ff6227b9940e5896dd000823",
         "local_c58989fbfabee386332485f2"
       ],
-      "generatedAt": "2026-09-09T21:03:23.752Z",
+      "generatedAt": "2026-09-09T23:21:10.760Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -198,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c39bac20752b6182ee91d290"
+                "local_78f1df1836aa8e2188e95ed1"
               ],
               "confidence": 92
             },
@@ -208,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_67aa964ae7f8c7c53537a8fe"
+                "local_298f0f524147ce5d14c5d5aa"
               ],
               "confidence": 92
             },
@@ -246,19 +246,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c39bac20752b6182ee91d290",
-        "local_67aa964ae7f8c7c53537a8fe",
+        "local_78f1df1836aa8e2188e95ed1",
+        "local_298f0f524147ce5d14c5d5aa",
         "local_4e426e08a9fa3946029ae459",
         "local_4166b85d933e2b94d82889ee",
         "local_20e52a12c24714bb94fbf9ca"
       ],
-      "generatedAt": "2026-09-09T21:03:23.752Z",
+      "generatedAt": "2026-09-09T23:21:10.760Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-09T21:03:23.752Z",
+  "generatedAt": "2026-09-09T23:21:10.761Z",
   "collectorName": "local-source-collector"
 }
