@@ -5,65 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-09-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Deepmind&#039;s AlphaGenome Atlas maps every possible DNA change in the human genome」、「Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术」、「BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepmind&#039;s AlphaGenome Atlas maps every possible DNA change in the human genome",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RobustSGPO: Search-Space Control for Agent Harness Evolution"
       ],
       "watchItems": [
-        "跟进：Deepmind&#039;s AlphaGenome Atlas maps every possible DNA change in the human genome",
-        "跟进：Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
-        "跟进：AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips",
         "跟进：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
-        "跟进：BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL"
+        "跟进：BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
+        "跟进：RobustSGPO: Search-Space Control for Agent Harness Evolution",
+        "跟进：半年生成百万门课程,清华这个教育Agent火到联合国了",
+        "跟进：LLM Rankings"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Deepmind&#039;s AlphaGenome Atlas maps every possible DNA change in the human genome",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Google Deepmind has used the AlphaGenome Atlas to predict what each of the roughly nine billion possible single-letter changes in the human genome could do. The dataset spans one petabyte, more than 30 times the size of…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_07d76d2c69287e07b7b01ab7"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Jacob Coxon, a former pretraining researcher at OpenAI and Anthropic, has quit and accuses both companies of knowingly risking human extinction. Anthropic colleague Evan Hubinger puts the odds of a misaligned superintel…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e960d0a840c3f24552e8afdb"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Qualcomm is designing custom chips for AWS across multiple product generations, with a focus on AI inference. The article AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips appear…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e970a40ed8b05d6ba16d8330"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "On the Navier–Stokes Millennium Prize Problem",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9901dc64a46324623275ad74"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -73,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_80188020c67c56b287be7d7b"
+                "local_3851e79eb5d22254fc5b65f0"
               ],
               "confidence": 92
             },
@@ -103,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8863e13d680e109d53b168d1"
+                "local_cf9f7e5c664b65ac40bab8f5"
               ],
               "confidence": 92
             },
@@ -135,6 +90,21 @@
           ]
         },
         {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "On the Navier–Stokes Millennium Prize Problem",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：On the Navier–Stokes Millennium Prize Problem Impressive result from OpenAI, who used an unreleased model to produce a resolution to the Navier–Stokes existence and smoothness problem, one of the seven Millennium Prize …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9901dc64a46324623275ad74"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "产品与工具",
           "items": [
             {
@@ -151,13 +121,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_07d76d2c69287e07b7b01ab7",
-        "local_e960d0a840c3f24552e8afdb",
-        "local_e970a40ed8b05d6ba16d8330",
-        "local_80188020c67c56b287be7d7b",
+        "local_3851e79eb5d22254fc5b65f0",
         "local_83421fcabc0fe1acbc7ab079",
         "local_798f21c29d673abee1f3369b",
-        "local_8863e13d680e109d53b168d1",
+        "local_cf9f7e5c664b65ac40bab8f5",
         "local_2dfaf6d6df42dab2b55fd07d",
         "local_9901dc64a46324623275ad74",
         "local_7cfd2631908ed5f926ae5323",
@@ -165,7 +132,7 @@
         "local_4166b85d933e2b94d82889ee",
         "local_20e52a12c24714bb94fbf9ca"
       ],
-      "generatedAt": "2026-09-10T12:00:30.001Z",
+      "generatedAt": "2026-09-10T16:30:39.799Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -199,7 +166,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_80188020c67c56b287be7d7b"
+                "local_3851e79eb5d22254fc5b65f0"
               ],
               "confidence": 92
             },
@@ -209,7 +176,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8863e13d680e109d53b168d1"
+                "local_cf9f7e5c664b65ac40bab8f5"
               ],
               "confidence": 92
             },
@@ -247,19 +214,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_80188020c67c56b287be7d7b",
-        "local_8863e13d680e109d53b168d1",
+        "local_3851e79eb5d22254fc5b65f0",
+        "local_cf9f7e5c664b65ac40bab8f5",
         "local_4e426e08a9fa3946029ae459",
         "local_4166b85d933e2b94d82889ee",
         "local_20e52a12c24714bb94fbf9ca"
       ],
-      "generatedAt": "2026-09-10T12:00:30.001Z",
+      "generatedAt": "2026-09-10T16:30:39.799Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-10T12:00:30.001Z",
+  "generatedAt": "2026-09-10T16:30:39.799Z",
   "collectorName": "local-source-collector"
 }
