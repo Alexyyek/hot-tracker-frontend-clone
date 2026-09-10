@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Deepmind&#039;s AlphaGenome Atlas maps every possible DNA change in the human genome」、「Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Deepmind&#039;s AlphaGenome Atlas maps every possible DNA change in the human genome」、「Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepmind&#039;s AlphaGenome Atlas maps every possible DNA change in the human genome",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
@@ -16,7 +16,7 @@
         "跟进：Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
         "跟进：AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips",
         "跟进：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
-        "跟进：半年生成百万门课程,清华这个教育Agent火到联合国了"
+        "跟进：BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL"
       ],
       "sections": [
         {
@@ -83,7 +83,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_78f1df1836aa8e2188e95ed1"
+                "local_2417f447dad8fe86c0166f7f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
+              "summary": "Asynchronous reinforcement learning has become the standard way to scale training for language models, but the resulting policy lag biases the critic toward the stale behavior policy. Existing work on asynchronous LLM training corrects the actor and leaves this bias unaddressed,…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_83421fcabc0fe1acbc7ab079"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "RobustSGPO: Search-Space Control for Agent Harness Evolution",
+              "summary": "Semantic-gradient-based prompt optimization (SGPO) improves agent harnesses using execution feedback, but its local update rule leaves the choice of edit scope and operation unresolved. We introduce RobustSGPO, which specifies the requested edit, constructs and checks the patch,…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_798f21c29d673abee1f3369b"
               ],
               "confidence": 92
             },
@@ -93,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_298f0f524147ce5d14c5d5aa"
+                "local_9d1a4c4bdd8928e1a49b0922"
               ],
               "confidence": 92
             },
@@ -106,24 +126,29 @@
                 "local_b319d7c76b7c006a3be883e5"
               ],
               "confidence": 92
-            },
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
-              "title": "VDiff-Bench: A Challenging Benchmark for Fine-Grained Image Difference Identification",
-              "summary": "Multimodal Large Language Models (MLLMs) perform strongly on general visual understanding tasks such as visual question answering, yet they often struggle with a basic comparative skill: identifying what has changed between two similar images. We introduce VDiff-Bench, a challen…",
+              "title": "StudyBench: Can Self-Evolution Squeeze Textbooks for Olympiad Capability?",
+              "summary": "Humans need to study only a handful of well-written textbooks to master a discipline and attempt its hardest problems. We argue that an ideal self-evolution method should share the same property, that is autonomously learning from raw training material for transferable problem-s…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c5acd31daca956e022bfa127"
+                "local_53f20ac58681d450401c00b8"
               ],
               "confidence": 92
             },
             {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4e426e08a9fa3946029ae459"
+                "local_2dfaf6d6df42dab2b55fd07d"
               ],
               "confidence": 92
             }
@@ -149,22 +174,25 @@
         "local_07d76d2c69287e07b7b01ab7",
         "local_e960d0a840c3f24552e8afdb",
         "local_e970a40ed8b05d6ba16d8330",
-        "local_78f1df1836aa8e2188e95ed1",
-        "local_298f0f524147ce5d14c5d5aa",
+        "local_2417f447dad8fe86c0166f7f",
+        "local_83421fcabc0fe1acbc7ab079",
+        "local_798f21c29d673abee1f3369b",
+        "local_9d1a4c4bdd8928e1a49b0922",
+        "local_53f20ac58681d450401c00b8",
         "local_8f012698556308cfa6b9f4b0",
         "local_b319d7c76b7c006a3be883e5",
         "local_5ed4fce92ab54ec724805663",
-        "local_c5acd31daca956e022bfa127",
+        "local_2dfaf6d6df42dab2b55fd07d",
         "local_9901dc64a46324623275ad74",
+        "local_0582060fd5b966bd3625efe5",
         "local_7cfd2631908ed5f926ae5323",
         "local_06dc3b145b5359456b14563f",
         "local_4e426e08a9fa3946029ae459",
         "local_4166b85d933e2b94d82889ee",
         "local_20e52a12c24714bb94fbf9ca",
-        "local_ff6227b9940e5896dd000823",
-        "local_c58989fbfabee386332485f2"
+        "local_ff6227b9940e5896dd000823"
       ],
-      "generatedAt": "2026-09-09T23:21:10.760Z",
+      "generatedAt": "2026-09-10T01:35:25.642Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -198,7 +226,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_78f1df1836aa8e2188e95ed1"
+                "local_2417f447dad8fe86c0166f7f"
               ],
               "confidence": 92
             },
@@ -208,7 +236,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_298f0f524147ce5d14c5d5aa"
+                "local_9d1a4c4bdd8928e1a49b0922"
               ],
               "confidence": 92
             },
@@ -246,19 +274,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_78f1df1836aa8e2188e95ed1",
-        "local_298f0f524147ce5d14c5d5aa",
+        "local_2417f447dad8fe86c0166f7f",
+        "local_9d1a4c4bdd8928e1a49b0922",
         "local_4e426e08a9fa3946029ae459",
         "local_4166b85d933e2b94d82889ee",
         "local_20e52a12c24714bb94fbf9ca"
       ],
-      "generatedAt": "2026-09-09T23:21:10.760Z",
+      "generatedAt": "2026-09-10T01:35:25.642Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-09T23:21:10.761Z",
+  "generatedAt": "2026-09-10T01:35:25.642Z",
   "collectorName": "local-source-collector"
 }
