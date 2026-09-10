@@ -5,131 +5,6 @@
       "topicId": "ai",
       "reportDate": "2026-09-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Introducing Gemini 3.8 Flash and 3.8 Flash Cyber」、「换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：智能体请求暴增 9.4 倍,token 账单却没涨:Uber 公开 AI 软件工厂省钱方法"
-      ],
-      "watchItems": [
-        "跟进：Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-        "跟进：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
-        "跟进：智能体请求暴增 9.4 倍,token 账单却没涨:Uber 公开 AI 软件工厂省钱方法",
-        "跟进：得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付",
-        "跟进：周五直播 | Agent Lightning v1.0 解析"
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6c4d667ed3de7e7b68437a8c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
-              "summary": "研发的一天,往往要在多 Agent 之间切换,处理不同类型的任务.群聊适合快速 Review 和团队协作、CLI 适合深挖代码,飞书文档分...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_db127fd7a01e050b152221a4"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "智能体请求暴增 9.4 倍,token 账单却没涨:Uber 公开 AI 软件工厂省钱方法",
-              "summary": "智能体会话运行的四个层级、用于拆解开销的成本计算公式、各项... InfoQ 翻译,未经许可禁止转载.今日好文推荐人人都能整个\"自...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a7a4340c8cc6168c52f3b13d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付",
-              "summary": "AI Native 的上限,不是生成速度一引言得物小摊是一个从 0 到 1 ... |得物技术文 / 正飞关注得物技术,每周三更新技术干货",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a55ade4710407fbe39d62968"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "周五直播 | Agent Lightning v1.0 解析",
-              "summary": "微软亚洲研究院提出了 Harnessed Agentic RL 训练范式,并全面重构、开源了 Agent Lightning v1.0.其核心理念非常直接:部署时使...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e42f41f2674ba46ba63a9571"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-              "summary": "来自Hugging Face的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_57a4628a4a1f824184e32702"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Ask a Scientist: How do researchers use AI to predict a cyclone?",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：A Google DeepMind scientist explains how AI weather prediction works and how it can help warn communities earlier than ever.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_347ce40254ad5bef222d0dca"
-              ],
-              "confidence": 86
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_6c4d667ed3de7e7b68437a8c",
-        "local_db127fd7a01e050b152221a4",
-        "local_a7a4340c8cc6168c52f3b13d",
-        "local_a55ade4710407fbe39d62968",
-        "local_e42f41f2674ba46ba63a9571",
-        "local_cef8ae8cb77fa2db5fa3ac0d",
-        "local_57a4628a4a1f824184e32702",
-        "local_42bb79eb33123f58a9c74bba",
-        "local_bda6abed23650a53fe6b58b1",
-        "local_92f40268824ad5014b5a213d",
-        "local_77bc1dbbf30ea25011d1b58c",
-        "local_347ce40254ad5bef222d0dca"
-      ],
-      "generatedAt": "2026-09-10T19:24:34.229Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-09-02",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-09-02",
-      "title": "大厂 AI 日报",
       "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Introducing Gemini 3.8 Flash and 3.8 Flash Cyber」、「换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
@@ -183,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a55ade4710407fbe39d62968"
+                "local_a5873923bc9266e628757dd1"
               ],
               "confidence": 92
             },
@@ -193,7 +68,131 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e42f41f2674ba46ba63a9571"
+                "local_37db3e8d0af182c7094e0e58"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+              "summary": "来自Hugging Face的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_57a4628a4a1f824184e32702"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Ask a Scientist: How do researchers use AI to predict a cyclone?",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：A Google DeepMind scientist explains how AI weather prediction works and how it can help warn communities earlier than ever.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_347ce40254ad5bef222d0dca"
+              ],
+              "confidence": 86
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_6c4d667ed3de7e7b68437a8c",
+        "local_db127fd7a01e050b152221a4",
+        "local_a7a4340c8cc6168c52f3b13d",
+        "local_a5873923bc9266e628757dd1",
+        "local_37db3e8d0af182c7094e0e58",
+        "local_cef8ae8cb77fa2db5fa3ac0d",
+        "local_57a4628a4a1f824184e32702",
+        "local_42bb79eb33123f58a9c74bba",
+        "local_bda6abed23650a53fe6b58b1",
+        "local_77bc1dbbf30ea25011d1b58c",
+        "local_347ce40254ad5bef222d0dca"
+      ],
+      "generatedAt": "2026-09-10T22:01:21.275Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-09-02",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-09-02",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Introducing Gemini 3.8 Flash and 3.8 Flash Cyber」、「换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：智能体请求暴增 9.4 倍,token 账单却没涨:Uber 公开 AI 软件工厂省钱方法"
+      ],
+      "watchItems": [
+        "跟进：Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "跟进：换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
+        "跟进：智能体请求暴增 9.4 倍,token 账单却没涨:Uber 公开 AI 软件工厂省钱方法",
+        "跟进：得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付",
+        "跟进：周五直播 | Agent Lightning v1.0 解析"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Gemini 3.8 Flash and 3.8 Flash Cyber deliver next-generation intelligence for agentic workflows and cybersecurity.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6c4d667ed3de7e7b68437a8c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "换工具、换 Agent,不换上下文:OpenViking 让研发 Context 始终在线",
+              "summary": "研发的一天,往往要在多 Agent 之间切换,处理不同类型的任务.群聊适合快速 Review 和团队协作、CLI 适合深挖代码,飞书文档分...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_db127fd7a01e050b152221a4"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "智能体请求暴增 9.4 倍,token 账单却没涨:Uber 公开 AI 软件工厂省钱方法",
+              "summary": "智能体会话运行的四个层级、用于拆解开销的成本计算公式、各项... InfoQ 翻译,未经许可禁止转载.今日好文推荐人人都能整个\"自...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a7a4340c8cc6168c52f3b13d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付",
+              "summary": "AI Native 的上限,不是生成速度一引言得物小摊是一个从 0 到 1 ... |得物技术文 / 正飞关注得物技术,每周三更新技术干货",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a5873923bc9266e628757dd1"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "周五直播 | Agent Lightning v1.0 解析",
+              "summary": "微软亚洲研究院提出了 Harnessed Agentic RL 训练范式,并全面重构、开源了 Agent Lightning v1.0.其核心理念非常直接:部署时使...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_37db3e8d0af182c7094e0e58"
               ],
               "confidence": 92
             }
@@ -219,22 +218,21 @@
         "local_6c4d667ed3de7e7b68437a8c",
         "local_db127fd7a01e050b152221a4",
         "local_a7a4340c8cc6168c52f3b13d",
-        "local_a55ade4710407fbe39d62968",
-        "local_e42f41f2674ba46ba63a9571",
+        "local_a5873923bc9266e628757dd1",
+        "local_37db3e8d0af182c7094e0e58",
         "local_cef8ae8cb77fa2db5fa3ac0d",
         "local_42bb79eb33123f58a9c74bba",
         "local_bda6abed23650a53fe6b58b1",
-        "local_92f40268824ad5014b5a213d",
         "local_77bc1dbbf30ea25011d1b58c",
         "local_347ce40254ad5bef222d0dca"
       ],
-      "generatedAt": "2026-09-10T19:24:34.229Z",
+      "generatedAt": "2026-09-10T22:01:21.275Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-10T19:24:34.229Z",
+  "generatedAt": "2026-09-10T22:01:21.275Z",
   "collectorName": "local-source-collector"
 }
