@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Soft-deprecating re.match()」、「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Soft-deprecating re.match()」、「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Soft-deprecating re.match()",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施",
@@ -43,22 +43,12 @@
               "confidence": 90
             },
             {
-              "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
-              "summary": "As LLMs are increasingly used for pre-submission self-review, there is growing demand for feedback that not only identifies weaknesses but also guides authors toward concrete revisions. We study this as Actionable Peer-review Generation and decompose it into two subtasks: diagno…",
+              "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+              "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6cd7413da14719cd73b02fce"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
-              "summary": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_91fa87f01c954b42fae5ea3b"
+                "local_55ec58f1a521c5a1e6732e4d"
               ],
               "confidence": 92
             }
@@ -73,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c644114e893d0f8c09d3cd4c"
+                "local_404cd004c55bcf4c32a655bf"
               ],
               "confidence": 92
             },
@@ -103,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c63f6f77a4ced6c6d32cd58b"
+                "local_bef3daa2477ad4dc99e3d17c"
               ],
               "confidence": 92
             },
@@ -135,49 +125,38 @@
           ]
         },
         {
-          "title": "行业与公司",
+          "title": "物流、地址与召排",
           "items": [
             {
-              "title": "Datasette 1.0a39 and 0.65.4 security releases",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are secu…",
+              "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+              "summary": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pageviews. We broaden this view using knowledge-graph structu…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_a1082a71040b7710078f96d4"
+                "local_bf4bc60868cced187d27c9d2"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Zero Data Retention (ZDR): What It Means for AI APIs — OpenRouter Blog",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Zero Data Retention means an AI provider doesn't store your prompts or responses after inference. Learn what ZDR covers, what it excludes, and how to enforce it on OpenRouter.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d2440a26a87515d30006450d"
-              ],
-              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_36867e7e66511d63da9caaed",
-        "local_c644114e893d0f8c09d3cd4c",
+        "local_404cd004c55bcf4c32a655bf",
         "local_1af0a6d0bb905ccaac9f6b7e",
         "local_a371b74c327bebcb4414f32c",
         "local_451126dda218d3905829fd23",
         "local_bafd31e738d0b754fbbb4d0b",
-        "local_c63f6f77a4ced6c6d32cd58b",
-        "local_a1082a71040b7710078f96d4",
+        "local_bef3daa2477ad4dc99e3d17c",
+        "local_bf4bc60868cced187d27c9d2",
+        "local_55ec58f1a521c5a1e6732e4d",
+        "local_a9da3f98577d99c80685bbeb",
         "local_6f222717c98909301a118f8b",
-        "local_6cd7413da14719cd73b02fce",
-        "local_399e10dd585886912c05dc20",
-        "local_91fa87f01c954b42fae5ea3b",
         "local_d2440a26a87515d30006450d",
         "local_11b0b19281b15d28b7e91a9c",
         "local_ee4f4428ef33b47b9aabff67"
       ],
-      "generatedAt": "2026-09-11T17:22:26.812Z",
+      "generatedAt": "2026-09-11T20:10:10.801Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -210,7 +189,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c644114e893d0f8c09d3cd4c"
+                "local_404cd004c55bcf4c32a655bf"
               ],
               "confidence": 92
             },
@@ -230,7 +209,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c63f6f77a4ced6c6d32cd58b"
+                "local_bef3daa2477ad4dc99e3d17c"
               ],
               "confidence": 92
             }
@@ -253,18 +232,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c644114e893d0f8c09d3cd4c",
+        "local_404cd004c55bcf4c32a655bf",
         "local_a371b74c327bebcb4414f32c",
         "local_451126dda218d3905829fd23",
-        "local_c63f6f77a4ced6c6d32cd58b"
+        "local_bef3daa2477ad4dc99e3d17c"
       ],
-      "generatedAt": "2026-09-11T17:22:26.812Z",
+      "generatedAt": "2026-09-11T20:10:10.801Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-11T17:22:26.812Z",
+  "generatedAt": "2026-09-11T20:10:10.801Z",
   "collectorName": "local-source-collector"
 }
