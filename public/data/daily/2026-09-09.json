@@ -5,112 +5,6 @@
       "topicId": "ai",
       "reportDate": "2026-09-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术」、「BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RobustSGPO: Search-Space Control for Agent Harness Evolution"
-      ],
-      "watchItems": [
-        "跟进：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
-        "跟进：BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
-        "跟进：RobustSGPO: Search-Space Control for Agent Harness Evolution",
-        "跟进：半年生成百万门课程,清华这个教育Agent火到联合国了",
-        "跟进：LLM Rankings"
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
-              "summary": "Agent 工作流|得物技术4.得物知识问答:复合检索 Agent 的系统设计实践5.实战从零开始构建一个Coding Agent:Violin |得物技术文 / 光...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7ca3ff34a8c6c21014321338"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "BRACE: Anchored Bellman-Residual Correction for Stale Critics in Asynchronous RL",
-              "summary": "Asynchronous reinforcement learning has become the standard way to scale training for language models, but the resulting policy lag biases the critic toward the stale behavior policy. Existing work on asynchronous LLM training corrects the actor and leaves this bias unaddressed,…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_83421fcabc0fe1acbc7ab079"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "RobustSGPO: Search-Space Control for Agent Harness Evolution",
-              "summary": "Semantic-gradient-based prompt optimization (SGPO) improves agent harnesses using execution feedback, but its local update rule leaves the choice of edit scope and operation unresolved. We introduce RobustSGPO, which specifies the requested edit, constructs and checks the patch,…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_798f21c29d673abee1f3369b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "半年生成百万门课程,清华这个教育Agent火到联合国了",
-              "summary": "当 AI Agent 从编程、办公走向更多专业场景,教育也开始有了自己的 Agent 形态.想学什么,先让 AI 给自己开一门课.就在刚刚,清...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_53815ca30707d00cff943dfe"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4e426e08a9fa3946029ae459"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2dfaf6d6df42dab2b55fd07d"
-              ],
-              "confidence": 92
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_7ca3ff34a8c6c21014321338",
-        "local_83421fcabc0fe1acbc7ab079",
-        "local_798f21c29d673abee1f3369b",
-        "local_53815ca30707d00cff943dfe",
-        "local_2dfaf6d6df42dab2b55fd07d",
-        "local_4e426e08a9fa3946029ae459",
-        "local_4166b85d933e2b94d82889ee",
-        "local_20e52a12c24714bb94fbf9ca"
-      ],
-      "generatedAt": "2026-09-11T00:15:13.347Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-09-09",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-09-09",
-      "title": "大厂 AI 日报",
       "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术」、「半年生成百万门课程,清华这个教育Agent火到联合国了」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
@@ -134,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7ca3ff34a8c6c21014321338"
+                "local_4a5d4f6e24654b5711da4a78"
               ],
               "confidence": 92
             },
@@ -144,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_53815ca30707d00cff943dfe"
+                "local_4dd049dca5d673fa978a0e5e"
               ],
               "confidence": 92
             },
@@ -182,19 +76,107 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_7ca3ff34a8c6c21014321338",
-        "local_53815ca30707d00cff943dfe",
+        "local_4a5d4f6e24654b5711da4a78",
+        "local_4dd049dca5d673fa978a0e5e",
         "local_4e426e08a9fa3946029ae459",
         "local_4166b85d933e2b94d82889ee",
         "local_20e52a12c24714bb94fbf9ca"
       ],
-      "generatedAt": "2026-09-11T00:15:13.347Z",
+      "generatedAt": "2026-09-11T04:45:12.743Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-09-09",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-09-09",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术」、「半年生成百万门课程,清华这个教育Agent火到联合国了」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：半年生成百万门课程,清华这个教育Agent火到联合国了",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents explained: What they are and how they work"
+      ],
+      "watchItems": [
+        "跟进：企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
+        "跟进：半年生成百万门课程,清华这个教育Agent火到联合国了",
+        "跟进：AI agents explained: What they are and how they work",
+        "跟进：What is Agentic AI? Definition, Examples, and How It Works",
+        "跟进：Agentic AI examples: Real-world use cases across industries"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "企业级 MultiAgent 落地:Plan 模式与主子 Agent 协作|得物技术",
+              "summary": "Agent 工作流|得物技术4.得物知识问答:复合检索 Agent 的系统设计实践5.实战从零开始构建一个Coding Agent:Violin |得物技术文 / 光...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4a5d4f6e24654b5711da4a78"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "半年生成百万门课程,清华这个教育Agent火到联合国了",
+              "summary": "当 AI Agent 从编程、办公走向更多专业场景,教育也开始有了自己的 Agent 形态.想学什么,先让 AI 给自己开一门课.就在刚刚,清...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4dd049dca5d673fa978a0e5e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI agents explained: What they are and how they work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4e426e08a9fa3946029ae459"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "What is Agentic AI? Definition, Examples, and How It Works",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What is agentic AI? Learn how autonomous AI agents work, how they differ from generative AI, and discover real examples of agentic AI in everyday life.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4166b85d933e2b94d82889ee"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agentic AI examples: Real-world use cases across industries",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI examples across health, finance, productivity, and more.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_20e52a12c24714bb94fbf9ca"
+              ],
+              "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_4a5d4f6e24654b5711da4a78",
+        "local_4dd049dca5d673fa978a0e5e",
+        "local_4e426e08a9fa3946029ae459",
+        "local_4166b85d933e2b94d82889ee",
+        "local_20e52a12c24714bb94fbf9ca"
+      ],
+      "generatedAt": "2026-09-11T04:45:12.743Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-11T00:15:13.347Z",
+  "generatedAt": "2026-09-11T04:45:12.743Z",
   "collectorName": "local-source-collector"
 }

@@ -5,58 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-09-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s」、「Now everyone can put data to work」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase」、「Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Now everyone can put data to work",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization"
       ],
       "watchItems": [
+        "跟进：Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
         "跟进：Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
+        "跟进：COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
         "跟进：Now everyone can put data to work",
-        "跟进：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
-        "跟进：New Deepseek model V4.1-Flash cuts memory needs for AI agents",
-        "跟进：Muse can shop, write emails, and negotiate prices for users, all through WhatsApp"
+        "跟进：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Arena.ai analyzed how Claude's writing changed from Fable 5 to Fable 5.1 across tens of thousands of benchmark responses. Fable 5.1 writes more matter-of-fact but also more verbose. The article Claude Fable 5.1&#039;s l…",
+              "title": "Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
+              "summary": "Reproducible research practices are context engineering for AI coding agents. I argue that agents lower the cost of maintaining tests, commit histories, repository structure, instructions, and decision records while making their benefits immediate. Researchers remain responsible…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_70c98aa9802725574a686e8d"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
-              "summary": "京东云已与摩尔线程等多家合作伙伴打造国产万卡集群,并规划建... 大模型3.0,是物流行业首个贯通仓储、运输、配送全链路,由AI统...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_73c55c1a719220170c72c664"
+                "local_e8e7cbaeb402ffae09506fd8"
               ],
               "confidence": 92
             },
             {
-              "title": "Quoting Calif Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if t…",
+              "title": "COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+              "summary": "Large language model (LLM) agents can benefit from reusable skills distilled from prior task experience, yet existing skill optimization methods often rely on costly execution-based evaluation and substantial task data. We introduce \\textbf{COBRA-Skills}, an efficient framework …",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_09c01349093e2e0290600571"
+                "local_2705a3f672e18505e5c4ccbf"
               ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
+              "confidence": 92
+            },
             {
               "title": "Now everyone can put data to work",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
@@ -86,26 +71,51 @@
                 "local_640f454eab0366ef2ac693a1"
               ],
               "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Arena.ai analyzed how Claude's writing changed from Fable 5 to Fable 5.1 across tens of thousands of benchmark responses. Fable 5.1 writes more matter-of-fact but also more verbose. The article Claude Fable 5.1&#039;s l…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_70c98aa9802725574a686e8d"
+              ],
+              "confidence": 82
             },
             {
-              "title": "Agentic Harness Workflow 框架:把 AI Coding 变成工程化流程",
-              "summary": "Sub-Agent 能力.GEEK TALK03总体架构3.1 一条完整的生命周期一个需求沿固定顺序推进:init &rarr; specify &rarr; plan &rarr; tasks &rarr; test-...",
+              "title": "打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+              "summary": "京东云已与摩尔线程等多家合作伙伴打造国产万卡集群,并规划建... 大模型3.0,是物流行业首个贯通仓储、运输、配送全链路,由AI统...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_dfca58882b8776114b10301e"
+                "local_2f709d1f82454cb48b9641ef"
               ],
               "confidence": 92
             },
             {
-              "title": "高德地图2026|多屏多系统协同下的统一架构设计",
-              "summary": "更远处还有一个变量:当界面越来越多由智能体在运行时组织与生... #高德 #高德技术 #架构设计 #多屏适配 #折叠屏 #iPhoneDuoEND...",
+              "title": "Quoting Calif Research",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if t…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_adca7d80acc79513f13fe1bd"
+                "local_09c01349093e2e0290600571"
               ],
               "confidence": 82
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f16a7f6f63cd681d6b7753da"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -131,42 +141,30 @@
                 "local_db1ec7d7c1ea754fcbf71bf8"
               ],
               "confidence": 74
-            },
-            {
-              "title": "The Price of Sparsity: Sufficient Conditions for Sparse Recovery using Sparse and Sparsified Measurements",
-              "summary": "We consider the problem of support recovery for sparse binary signals from noisy linear measurements. For sparse Gaussian measurement matrices we identify sufficient conditions on the minimal sample size for maximum-likelihood recovery in the high-SNR regime ds/p to infty, where…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_44120b726112e2b7762d8f77"
-              ],
-              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_e8e7cbaeb402ffae09506fd8",
         "local_70c98aa9802725574a686e8d",
+        "local_2705a3f672e18505e5c4ccbf",
         "local_be200c4abee023deeba993a8",
-        "local_73c55c1a719220170c72c664",
+        "local_2f709d1f82454cb48b9641ef",
         "local_7c1790e132b496310c5114b6",
         "local_640f454eab0366ef2ac693a1",
         "local_f54b4e6222f05e092a0c7509",
         "local_dfca58882b8776114b10301e",
         "local_adca7d80acc79513f13fe1bd",
         "local_db1ec7d7c1ea754fcbf71bf8",
+        "local_b008aba5bdccc5a695bd5563",
+        "local_20d69a8b7e8bd025ce2df431",
         "local_0e909605782488afe4c9aaa9",
         "local_09c01349093e2e0290600571",
         "local_3216272ceddfd204808118a9",
-        "local_439c2add7c807ce9dcb64cfa",
-        "local_0f3880dcce7c158b48365bc0",
-        "local_039c16b73cba113f8066dc6f",
-        "local_44120b726112e2b7762d8f77",
-        "local_a38929ddbd5a659e90fdde6d",
-        "local_4e0fb3d1982b9e5b50584d95",
-        "local_c453f36a9b0571ec2e524a1c"
+        "local_f16a7f6f63cd681d6b7753da"
       ],
-      "generatedAt": "2026-09-11T00:15:13.336Z",
+      "generatedAt": "2026-09-11T04:45:12.731Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -255,7 +253,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_73c55c1a719220170c72c664"
+                "local_2f709d1f82454cb48b9641ef"
               ],
               "confidence": 92
             }
@@ -289,7 +287,7 @@
       ],
       "referencedFeedItemIds": [
         "local_be200c4abee023deeba993a8",
-        "local_73c55c1a719220170c72c664",
+        "local_2f709d1f82454cb48b9641ef",
         "local_f54b4e6222f05e092a0c7509",
         "local_dfca58882b8776114b10301e",
         "local_adca7d80acc79513f13fe1bd",
@@ -297,13 +295,13 @@
         "local_0e909605782488afe4c9aaa9",
         "local_3216272ceddfd204808118a9"
       ],
-      "generatedAt": "2026-09-11T00:15:13.336Z",
+      "generatedAt": "2026-09-11T04:45:12.731Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-11T00:15:13.336Z",
+  "generatedAt": "2026-09-11T04:45:12.731Z",
   "collectorName": "local-source-collector"
 }
