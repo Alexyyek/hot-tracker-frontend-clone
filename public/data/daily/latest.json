@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
         "跟进：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
-        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness"
+        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
+        "跟进：AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bc71aad0c57ccce97296117f"
+                "local_ec5f1d73020dd111c0b06ada"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_b83c4bc64f31a7d7e85754e4"
+                "local_e66dda07809bd9e49692ff42"
               ],
               "confidence": 70
             }
@@ -48,22 +48,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9c6c4dc7f32cd66d7a6dd7c1"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
               "summary": "从 Harness 到 Loop 的持续进化Agent 的上线不是 Loop 的终点，而是 Loop 的起点。本期直播邀请了蚂蚁、腾讯、京东一线实践专家，从 Harness 到 Loop，探讨 Agent 如何实现可靠交付与持续进化。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b755dece340ed32485fd9d3b"
+                "local_7bede580736d868e4e795037"
               ],
               "confidence": 92
             },
@@ -73,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ea46a7864822febb09b7ed0b"
+                "local_a7998c3993a9fb0fa8e6c927"
               ],
               "confidence": 86
             },
@@ -83,17 +73,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e7b83be5bb8b6d56043d75d"
+                "local_8b7dab71220b04ab8c5218c0"
               ],
               "confidence": 92
             },
             {
-              "title": "Driving Developer Excellence: Inside the Program Sprints",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This re…",
+              "title": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
+              "summary": "AI Coding 最近被频繁提起，但使用大模型辅助编程并不是刚刚发生的事情。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6bc05a0aa23dc61baf358bdf"
+                "local_b41bd798944fb7ee4dc38091"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consist…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8f4a9cba002ba099baf1728c"
               ],
               "confidence": 92
             }
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7966d948d50192e5a1469e7e"
+                "local_9bf004c75d41c36bae4f80fd"
               ],
               "confidence": 78
             },
@@ -118,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0eb73500138d26555b22f50c"
+                "local_d7ad2d886336346ff2bf89de"
               ],
               "confidence": 82
             },
@@ -128,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_3d027f55f927775c3f0a316a"
+                "local_fbcba9cb2a48ce39d6ba7dfc"
               ],
               "confidence": 86
             },
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fee56758cd247c5688a8750b"
+                "local_fc2b7c06e490f293f6b1f43e"
               ],
               "confidence": 78
             },
@@ -148,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_33873c32e0fe7adb40df92af"
+                "local_90dd391b025f3913f008d2fb"
               ],
               "confidence": 92
             }
@@ -156,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bc71aad0c57ccce97296117f",
-        "local_9c6c4dc7f32cd66d7a6dd7c1",
-        "local_b755dece340ed32485fd9d3b",
-        "local_ea46a7864822febb09b7ed0b",
-        "local_9e7b83be5bb8b6d56043d75d",
-        "local_7966d948d50192e5a1469e7e",
-        "local_6bc05a0aa23dc61baf358bdf",
+        "local_ec5f1d73020dd111c0b06ada",
+        "local_7bede580736d868e4e795037",
+        "local_a7998c3993a9fb0fa8e6c927",
+        "local_8b7dab71220b04ab8c5218c0",
+        "local_b41bd798944fb7ee4dc38091",
+        "local_9bf004c75d41c36bae4f80fd",
         "local_8f4a9cba002ba099baf1728c",
         "local_dc31fff9a0c92f90f25e66d1",
         "local_7ff81a59668b4c307f04a02f",
-        "local_0840a8bc2c82bdf83069c013",
-        "local_28ff02451752df0bc8f9f1e6",
-        "local_92ad34a53853815ae8b75a9f",
-        "local_3fc140bd0b350ea5591a097f",
-        "local_0eb73500138d26555b22f50c",
-        "local_3d027f55f927775c3f0a316a",
-        "local_938760a1ede81ddfdb3cd3ea",
-        "local_fb8e1466bfed0a58f955bc21",
-        "local_a52e4552d76d4bd1ad636743",
-        "local_fee56758cd247c5688a8750b",
-        "local_33873c32e0fe7adb40df92af",
-        "local_f9a1a98eac51722e79ca1093",
-        "local_b83c4bc64f31a7d7e85754e4",
-        "local_8f46029493a9aa9661346a4a"
+        "local_6bc05a0aa23dc61baf358bdf",
+        "local_3022ecdea815a55af69196c8",
+        "local_b545c57018423add09f0ae35",
+        "local_df89b0c94d55eece445905e1",
+        "local_cf4afaf97da96c8340890e13",
+        "local_d7ad2d886336346ff2bf89de",
+        "local_fbcba9cb2a48ce39d6ba7dfc",
+        "local_76b4ae54e4078f5dc728e89d",
+        "local_281479a62f2632731f49d26e",
+        "local_0da971bef26b0a8b08e7442f",
+        "local_fc2b7c06e490f293f6b1f43e",
+        "local_90dd391b025f3913f008d2fb",
+        "local_fefda910dff1049e85d3afaf",
+        "local_e66dda07809bd9e49692ff42",
+        "local_ee8b319059968eb45eae68ae"
       ],
-      "generatedAt": "2026-09-11T09:17:07.436Z",
+      "generatedAt": "2026-09-11T13:44:39.755Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,18 +192,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-11",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
         "跟进：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
         "跟进：TikTok SRE 技术负责人：AI Agents 说到底就是分布式系统",
-        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness"
+        "跟进：“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
+        "跟进：AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践"
       ],
       "sections": [
         {
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bc71aad0c57ccce97296117f"
+                "local_ec5f1d73020dd111c0b06ada"
               ],
               "confidence": 78
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_b83c4bc64f31a7d7e85754e4"
+                "local_e66dda07809bd9e49692ff42"
               ],
               "confidence": 70
             }
@@ -235,22 +235,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "你真的驾驭好 AI Coding 了吗_AI&大模型_AICon 全球人工智能开发与应用大会_InfoQ精选视频",
-              "summary": "你真的驾驭好 AI Coding 了吗AI 写代码只是开始。当 Agent 真正进入团队研发，如何让它理解业务、遵循规范、稳定交付？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9c6c4dc7f32cd66d7a6dd7c1"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
               "summary": "从 Harness 到 Loop 的持续进化Agent 的上线不是 Loop 的终点，而是 Loop 的起点。本期直播邀请了蚂蚁、腾讯、京东一线实践专家，从 Harness 到 Loop，探讨 Agent 如何实现可靠交付与持续进化。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b755dece340ed32485fd9d3b"
+                "local_7bede580736d868e4e795037"
               ],
               "confidence": 92
             },
@@ -260,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ea46a7864822febb09b7ed0b"
+                "local_a7998c3993a9fb0fa8e6c927"
               ],
               "confidence": 86
             },
@@ -270,17 +260,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e7b83be5bb8b6d56043d75d"
+                "local_8b7dab71220b04ab8c5218c0"
               ],
               "confidence": 92
             },
             {
-              "title": "Driving Developer Excellence: Inside the Program Sprints",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Gemini Enterprise Developer Experience (DevEx) program conducts ongoing sprint testing of end-to-end developer workflows to identify and rapidly resolve friction points without relying on internal shortcuts. This re…",
+              "title": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
+              "summary": "AI Coding 最近被频繁提起，但使用大模型辅助编程并不是刚刚发生的事情。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6bc05a0aa23dc61baf358bdf"
+                "local_b41bd798944fb7ee4dc38091"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "4 engineering patterns behind the strongest AI Agents Challenge submissions",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The recent Google for Startups AI Agents Challenge revealed that the most successful multi-agent systems rely on foundational software engineering patterns rather than just raw model power. Winning architectures consist…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8f4a9cba002ba099baf1728c"
               ],
               "confidence": 92
             }
@@ -295,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7966d948d50192e5a1469e7e"
+                "local_9bf004c75d41c36bae4f80fd"
               ],
               "confidence": 78
             },
@@ -305,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fee56758cd247c5688a8750b"
+                "local_fc2b7c06e490f293f6b1f43e"
               ],
               "confidence": 78
             },
@@ -315,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_33873c32e0fe7adb40df92af"
+                "local_90dd391b025f3913f008d2fb"
               ],
               "confidence": 92
             },
@@ -325,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_f9a1a98eac51722e79ca1093"
+                "local_fefda910dff1049e85d3afaf"
               ],
               "confidence": 78
             },
@@ -335,7 +335,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8f46029493a9aa9661346a4a"
+                "local_ee8b319059968eb45eae68ae"
               ],
               "confidence": 86
             }
@@ -343,33 +343,34 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bc71aad0c57ccce97296117f",
-        "local_9c6c4dc7f32cd66d7a6dd7c1",
-        "local_b755dece340ed32485fd9d3b",
-        "local_ea46a7864822febb09b7ed0b",
-        "local_9e7b83be5bb8b6d56043d75d",
-        "local_7966d948d50192e5a1469e7e",
-        "local_6bc05a0aa23dc61baf358bdf",
+        "local_ec5f1d73020dd111c0b06ada",
+        "local_7bede580736d868e4e795037",
+        "local_a7998c3993a9fb0fa8e6c927",
+        "local_8b7dab71220b04ab8c5218c0",
+        "local_b41bd798944fb7ee4dc38091",
+        "local_9bf004c75d41c36bae4f80fd",
         "local_8f4a9cba002ba099baf1728c",
         "local_dc31fff9a0c92f90f25e66d1",
         "local_7ff81a59668b4c307f04a02f",
-        "local_fee56758cd247c5688a8750b",
-        "local_33873c32e0fe7adb40df92af",
-        "local_f9a1a98eac51722e79ca1093",
-        "local_b83c4bc64f31a7d7e85754e4",
-        "local_8f46029493a9aa9661346a4a",
-        "local_03db2dc4978c8a756e5a820f",
-        "local_ff55f75a127473035e0d48a8",
-        "local_ac7b23ba6032b29f3c7158a4",
-        "local_230f3bd1c473fdbd7f91228f"
+        "local_6bc05a0aa23dc61baf358bdf",
+        "local_fc2b7c06e490f293f6b1f43e",
+        "local_90dd391b025f3913f008d2fb",
+        "local_fefda910dff1049e85d3afaf",
+        "local_e66dda07809bd9e49692ff42",
+        "local_ee8b319059968eb45eae68ae",
+        "local_6b2a0d33515a0ad48714e333",
+        "local_0cc497564913b49dca45892c",
+        "local_d1ae21d96f47c5e928b7372f",
+        "local_519b3bb1c9f95ea2c5397760",
+        "local_735ae89e97b79f2eda9417cf"
       ],
-      "generatedAt": "2026-09-11T09:17:07.436Z",
+      "generatedAt": "2026-09-11T13:44:39.755Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-11T09:17:07.437Z",
+  "generatedAt": "2026-09-11T13:44:39.755Z",
   "collectorName": "local-source-collector"
 }
