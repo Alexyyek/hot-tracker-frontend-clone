@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase」、「Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase」、「Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
@@ -98,16 +98,6 @@
               "confidence": 92
             },
             {
-              "title": "Quoting Calif Research",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if t…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_09c01349093e2e0290600571"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
@@ -154,17 +144,16 @@
         "local_7c1790e132b496310c5114b6",
         "local_0e16d9543557ef33b281ee3c",
         "local_f54b4e6222f05e092a0c7509",
-        "local_dfca58882b8776114b10301e",
+        "local_fe79321ecf616f73586bff69",
         "local_adca7d80acc79513f13fe1bd",
         "local_db1ec7d7c1ea754fcbf71bf8",
         "local_b008aba5bdccc5a695bd5563",
         "local_20d69a8b7e8bd025ce2df431",
-        "local_0e909605782488afe4c9aaa9",
-        "local_09c01349093e2e0290600571",
+        "local_5f1385a107f68824790bd648",
         "local_3216272ceddfd204808118a9",
         "local_f16a7f6f63cd681d6b7753da"
       ],
-      "generatedAt": "2026-09-11T13:44:39.778Z",
+      "generatedAt": "2026-09-11T17:22:26.819Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -218,7 +207,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dfca58882b8776114b10301e"
+                "local_fe79321ecf616f73586bff69"
               ],
               "confidence": 92
             },
@@ -238,7 +227,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0e909605782488afe4c9aaa9"
+                "local_5f1385a107f68824790bd648"
               ],
               "confidence": 92
             }
@@ -290,19 +279,19 @@
         "local_2f709d1f82454cb48b9641ef",
         "local_0e16d9543557ef33b281ee3c",
         "local_f54b4e6222f05e092a0c7509",
-        "local_dfca58882b8776114b10301e",
+        "local_fe79321ecf616f73586bff69",
         "local_adca7d80acc79513f13fe1bd",
         "local_db1ec7d7c1ea754fcbf71bf8",
-        "local_0e909605782488afe4c9aaa9",
+        "local_5f1385a107f68824790bd648",
         "local_3216272ceddfd204808118a9"
       ],
-      "generatedAt": "2026-09-11T13:44:39.778Z",
+      "generatedAt": "2026-09-11T17:22:26.819Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-11T13:44:39.778Z",
+  "generatedAt": "2026-09-11T17:22:26.820Z",
   "collectorName": "local-source-collector"
 }
