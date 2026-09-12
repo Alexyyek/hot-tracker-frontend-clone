@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase」、「Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase」、「COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Now everyone can put data to work"
       ],
       "watchItems": [
         "跟进：Reproducibility in the Age of Agentic AI: Context Engineering at the Timescale of a Codebase",
-        "跟进：Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
         "跟进：COBRA-Skills: Contextual Bandit-Guided Evolution for Agent Skill Optimization",
         "跟进：Now everyone can put data to work",
-        "跟进：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果"
+        "跟进：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+        "跟进：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中"
       ],
       "sections": [
         {
@@ -78,22 +78,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Claude Fable 5.1&#039;s language is less \"load-bearing\" than its predecessor&#039;s",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Arena.ai analyzed how Claude's writing changed from Fable 5 to Fable 5.1 across tens of thousands of benchmark responses. Fable 5.1 writes more matter-of-fact but also more verbose. The article Claude Fable 5.1&#039;s l…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_70c98aa9802725574a686e8d"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
               "summary": "京东云已与摩尔线程等多家合作伙伴打造国产万卡集群,并规划建... 大模型3.0,是物流行业首个贯通仓储、运输、配送全链路,由AI统...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0cce9d67b09e2488280625e5"
+                "local_7c4b2e25939650e2bdc5971f"
               ],
               "confidence": 92
             }
@@ -127,10 +117,9 @@
       ],
       "referencedFeedItemIds": [
         "local_e8e7cbaeb402ffae09506fd8",
-        "local_70c98aa9802725574a686e8d",
         "local_2705a3f672e18505e5c4ccbf",
         "local_be200c4abee023deeba993a8",
-        "local_0cce9d67b09e2488280625e5",
+        "local_7c4b2e25939650e2bdc5971f",
         "local_e36b33d8d205270706561e1e",
         "local_f54b4e6222f05e092a0c7509",
         "local_9d0a860180dfaa122ec4dbc9",
@@ -138,10 +127,10 @@
         "local_db1ec7d7c1ea754fcbf71bf8",
         "local_b008aba5bdccc5a695bd5563",
         "local_20d69a8b7e8bd025ce2df431",
-        "local_05db328e9fa32a9c79f7d7ce",
+        "local_2833f359d9e83b574b9a6a9e",
         "local_3216272ceddfd204808118a9"
       ],
-      "generatedAt": "2026-09-12T09:24:21.186Z",
+      "generatedAt": "2026-09-12T13:16:46.212Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -215,7 +204,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_05db328e9fa32a9c79f7d7ce"
+                "local_2833f359d9e83b574b9a6a9e"
               ],
               "confidence": 92
             }
@@ -230,7 +219,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0cce9d67b09e2488280625e5"
+                "local_7c4b2e25939650e2bdc5971f"
               ],
               "confidence": 92
             }
@@ -264,22 +253,22 @@
       ],
       "referencedFeedItemIds": [
         "local_be200c4abee023deeba993a8",
-        "local_0cce9d67b09e2488280625e5",
+        "local_7c4b2e25939650e2bdc5971f",
         "local_e36b33d8d205270706561e1e",
         "local_f54b4e6222f05e092a0c7509",
         "local_9d0a860180dfaa122ec4dbc9",
         "local_adca7d80acc79513f13fe1bd",
         "local_db1ec7d7c1ea754fcbf71bf8",
-        "local_05db328e9fa32a9c79f7d7ce",
+        "local_2833f359d9e83b574b9a6a9e",
         "local_3216272ceddfd204808118a9"
       ],
-      "generatedAt": "2026-09-12T09:24:21.186Z",
+      "generatedAt": "2026-09-12T13:16:46.212Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-12T09:24:21.186Z",
+  "generatedAt": "2026-09-12T13:16:46.212Z",
   "collectorName": "local-source-collector"
 }
