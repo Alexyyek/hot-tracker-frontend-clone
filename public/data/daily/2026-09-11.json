@@ -5,55 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-09-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Soft-deprecating re.match()」、「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」、「华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Soft-deprecating re.match()",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Rapidly scaling online storage to serve over 1 billion ChatGPT users"
       ],
       "watchItems": [
-        "跟进：Soft-deprecating re.match()",
         "跟进：从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施",
         "跟进：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动",
         "跟进：Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-        "跟进：OpenAI&#039;s new Agents API gives developers the infrastructure behind Codex and ChatGPT"
+        "跟进：OpenAI&#039;s new Agents API gives developers the infrastructure behind Codex and ChatGPT",
+        "跟进：openJiuwen首发双维度RSI框架,AI自修改,落地办公智能体,算力亲和助力又快又省"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Soft-deprecating re.match()",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Soft-deprecating re.match() Python has a concept of soft deprecation, where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future. Python 3.15 release ma…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_36867e7e66511d63da9caaed"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_451126dda218d3905829fd23"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-              "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_55ec58f1a521c5a1e6732e4d"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -63,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_274ce77a370e3e9c6f427bb3"
+                "local_4888d3e47024c87d9d6caa98"
               ],
               "confidence": 92
             },
@@ -73,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7312493490011a5bfbe67932"
+                "local_b2a6b64bd199d026d23246a5"
               ],
               "confidence": 82
             },
@@ -93,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_02b3a1a047e1b366b1b61569"
+                "local_6e03904f87270b3a15d43252"
               ],
               "confidence": 92
             },
@@ -106,6 +71,41 @@
                 "local_11b0b19281b15d28b7e91a9c"
               ],
               "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_451126dda218d3905829fd23"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
+              "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_55ec58f1a521c5a1e6732e4d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_92b604de730914906d1f8109"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -161,21 +161,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_36867e7e66511d63da9caaed",
-        "local_274ce77a370e3e9c6f427bb3",
-        "local_7312493490011a5bfbe67932",
+        "local_4888d3e47024c87d9d6caa98",
+        "local_b2a6b64bd199d026d23246a5",
         "local_451126dda218d3905829fd23",
         "local_bafd31e738d0b754fbbb4d0b",
-        "local_02b3a1a047e1b366b1b61569",
+        "local_6e03904f87270b3a15d43252",
         "local_b946bc86eda8fd40149472c7",
         "local_bf4bc60868cced187d27c9d2",
         "local_55ec58f1a521c5a1e6732e4d",
         "local_a9da3f98577d99c80685bbeb",
+        "local_92b604de730914906d1f8109",
         "local_d2440a26a87515d30006450d",
         "local_11b0b19281b15d28b7e91a9c",
         "local_ee4f4428ef33b47b9aabff67"
       ],
-      "generatedAt": "2026-09-11T22:41:21.771Z",
+      "generatedAt": "2026-09-12T00:45:48.872Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_274ce77a370e3e9c6f427bb3"
+                "local_4888d3e47024c87d9d6caa98"
               ],
               "confidence": 92
             },
@@ -218,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7312493490011a5bfbe67932"
+                "local_b2a6b64bd199d026d23246a5"
               ],
               "confidence": 82
             },
@@ -228,7 +228,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_02b3a1a047e1b366b1b61569"
+                "local_6e03904f87270b3a15d43252"
               ],
               "confidence": 92
             }
@@ -251,18 +251,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_274ce77a370e3e9c6f427bb3",
-        "local_7312493490011a5bfbe67932",
+        "local_4888d3e47024c87d9d6caa98",
+        "local_b2a6b64bd199d026d23246a5",
         "local_451126dda218d3905829fd23",
-        "local_02b3a1a047e1b366b1b61569"
+        "local_6e03904f87270b3a15d43252"
       ],
-      "generatedAt": "2026-09-11T22:41:21.771Z",
+      "generatedAt": "2026-09-12T00:45:48.872Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-11T22:41:21.771Z",
+  "generatedAt": "2026-09-12T00:45:48.872Z",
   "collectorName": "local-source-collector"
 }
