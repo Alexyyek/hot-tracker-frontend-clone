@@ -5,18 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-09-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks」、「AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks」、「OpenAI agents attacked RubyGems back in May」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI agents attacked RubyGems back in May",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
       ],
       "watchItems": [
         "跟进：GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
-        "跟进：AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds",
-        "跟进：GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
         "跟进：OpenAI agents attacked RubyGems back in May",
-        "跟进：LLM Rankings"
+        "跟进：LLM Rankings",
+        "跟进：So you want to use OpenRouter?"
       ],
       "sections": [
         {
@@ -29,16 +28,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_13ac7fef2d8ecf4b5b0bb548"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_1a9a885b80b5e407ad80beb5"
               ],
               "confidence": 92
             },
@@ -57,16 +46,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Overly long skill descriptions, blanket reading requirements, and rigid approval rules can get in GPT-6 Astra's way, warns OpenAI's Eric Provencher. More capable models need less hand-holding, so developers should tie i…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_66adf5864303dde26a8f9e71"
-              ],
-              "confidence": 92
-            },
             {
               "title": "OpenAI agents attacked RubyGems back in May",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis …",
@@ -97,13 +76,11 @@
       ],
       "referencedFeedItemIds": [
         "local_13ac7fef2d8ecf4b5b0bb548",
-        "local_1a9a885b80b5e407ad80beb5",
-        "local_66adf5864303dde26a8f9e71",
         "local_3fab2d3ef57e11cb095dadc8",
         "local_fcf6d056cab26597b8052cd1",
         "local_f4ab4d28454cfbda7ee28bcc"
       ],
-      "generatedAt": "2026-09-13T12:52:43.176Z",
+      "generatedAt": "2026-09-13T17:07:28.592Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -114,18 +91,17 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-12",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks」、「AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks」、「OpenAI agents attacked RubyGems back in May」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI agents attacked RubyGems back in May",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
       ],
       "watchItems": [
         "跟进：GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
-        "跟进：AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds",
-        "跟进：GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
         "跟进：OpenAI agents attacked RubyGems back in May",
-        "跟进：LLM Rankings"
+        "跟进：LLM Rankings",
+        "跟进：So you want to use OpenRouter?"
       ],
       "sections": [
         {
@@ -138,16 +114,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_13ac7fef2d8ecf4b5b0bb548"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI models&#039; written reasoning steps correspond to distinct internal patterns, a new study finds",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Reasoning steps like calculation, formula retrieval, and deduction are clearly separable in a model's internal states, especially in the middle layers. That matters for AI safety, because models process more than their …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_1a9a885b80b5e407ad80beb5"
               ],
               "confidence": 92
             },
@@ -166,16 +132,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "GPT-6 Astra needs leaner prompts and fewer guardrails, OpenAI recommends",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Overly long skill descriptions, blanket reading requirements, and rigid approval rules can get in GPT-6 Astra's way, warns OpenAI's Eric Provencher. More capable models need less hand-holding, so developers should tie i…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_66adf5864303dde26a8f9e71"
-              ],
-              "confidence": 92
-            },
             {
               "title": "OpenAI agents attacked RubyGems back in May",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis …",
@@ -206,19 +162,17 @@
       ],
       "referencedFeedItemIds": [
         "local_13ac7fef2d8ecf4b5b0bb548",
-        "local_1a9a885b80b5e407ad80beb5",
-        "local_66adf5864303dde26a8f9e71",
         "local_3fab2d3ef57e11cb095dadc8",
         "local_fcf6d056cab26597b8052cd1",
         "local_f4ab4d28454cfbda7ee28bcc"
       ],
-      "generatedAt": "2026-09-13T12:52:43.176Z",
+      "generatedAt": "2026-09-13T17:07:28.592Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-13T12:52:43.176Z",
+  "generatedAt": "2026-09-13T17:07:28.593Z",
   "collectorName": "local-source-collector"
 }
