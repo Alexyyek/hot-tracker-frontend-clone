@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」、「华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」、「华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动",
@@ -16,7 +16,7 @@
         "跟进：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动",
         "跟进：Rapidly scaling online storage to serve over 1 billion ChatGPT users",
         "跟进：openJiuwen首发双维度RSI框架,AI自修改,落地办公智能体,算力亲和助力又快又省",
-        "跟进：Studying Image Tokenizers as Visual Languages in Unified Multimodal Models"
+        "跟进：Zero Data Retention (ZDR): What It Means for AI APIs — OpenRouter Blog"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6fe39d8488261845f309124c"
+                "local_4b01d2c545cb6d5e50c5876e"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2548821ad7246e067a6d6e12"
+                "local_a50efb76a3df3a04862316b6"
               ],
               "confidence": 82
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_40609a3ae82678b96e65a1c7"
+                "local_d2ec00adf696fe523a59c6de"
               ],
               "confidence": 92
             },
@@ -76,42 +76,12 @@
                 "local_451126dda218d3905829fd23"
               ],
               "confidence": 90
-            },
-            {
-              "title": "Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning",
-              "summary": "Reasoning language models have made substantial advances on a variety of complex tasks, yet their capabilities remain overwhelmingly English-centric: models primarily reason in English regardless of the language they are prompted in. This is inaccessible for non-English-speaking…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_55ec58f1a521c5a1e6732e4d"
-              ],
-              "confidence": 92
             }
           ]
         },
         {
           "title": "行业与公司",
           "items": [
-            {
-              "title": "Studying Image Tokenizers as Visual Languages in Unified Multimodal Models",
-              "summary": "Image tokenizers define the ``visual language'' of unified multimodal models, yet are commonly studied through isolated metrics or generation-/understanding-only evaluations. These evaluations do not fully capture how visual tokens behave when modeled jointly with text. We build…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_b946bc86eda8fd40149472c7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Adaptive Bridge: A Proxy-Based Decoupling Layer for Mitigating DDS Backpressure in ROS 2",
-              "summary": "In systems built on Robot Operating System 2 (ROS 2) and using Data Distribution Service (DDS), a single network-impaired or throttled subscriber on a RELIABLE topic can cause backpressure that degrades throughput and latency for all other subscribers, including safety-critical …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a9da3f98577d99c80685bbeb"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Zero Data Retention (ZDR): What It Means for AI APIs — OpenRouter Blog",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Zero Data Retention means an AI provider doesn't store your prompts or responses after inference. Learn what ZDR covers, what it excludes, and how to enforce it on OpenRouter.",
@@ -123,36 +93,17 @@
               "confidence": 70
             }
           ]
-        },
-        {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
-              "summary": "Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through popularity-based metrics such as pageviews. We broaden this view using knowledge-graph structu…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_bf4bc60868cced187d27c9d2"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_6fe39d8488261845f309124c",
-        "local_2548821ad7246e067a6d6e12",
+        "local_4b01d2c545cb6d5e50c5876e",
+        "local_a50efb76a3df3a04862316b6",
         "local_451126dda218d3905829fd23",
-        "local_40609a3ae82678b96e65a1c7",
-        "local_b946bc86eda8fd40149472c7",
-        "local_bf4bc60868cced187d27c9d2",
-        "local_55ec58f1a521c5a1e6732e4d",
-        "local_a9da3f98577d99c80685bbeb",
+        "local_d2ec00adf696fe523a59c6de",
         "local_d2440a26a87515d30006450d",
         "local_11b0b19281b15d28b7e91a9c"
       ],
-      "generatedAt": "2026-09-14T00:17:57.901Z",
+      "generatedAt": "2026-09-14T05:34:48.852Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -185,7 +136,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6fe39d8488261845f309124c"
+                "local_4b01d2c545cb6d5e50c5876e"
               ],
               "confidence": 92
             },
@@ -195,7 +146,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2548821ad7246e067a6d6e12"
+                "local_a50efb76a3df3a04862316b6"
               ],
               "confidence": 82
             },
@@ -205,7 +156,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_40609a3ae82678b96e65a1c7"
+                "local_d2ec00adf696fe523a59c6de"
               ],
               "confidence": 92
             }
@@ -228,18 +179,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6fe39d8488261845f309124c",
-        "local_2548821ad7246e067a6d6e12",
+        "local_4b01d2c545cb6d5e50c5876e",
+        "local_a50efb76a3df3a04862316b6",
         "local_451126dda218d3905829fd23",
-        "local_40609a3ae82678b96e65a1c7"
+        "local_d2ec00adf696fe523a59c6de"
       ],
-      "generatedAt": "2026-09-14T00:17:57.901Z",
+      "generatedAt": "2026-09-14T05:34:48.852Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-14T00:17:57.901Z",
+  "generatedAt": "2026-09-14T05:34:48.852Z",
   "collectorName": "local-source-collector"
 }
