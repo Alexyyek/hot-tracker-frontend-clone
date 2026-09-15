@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8cd0bd75d0fb5c29cd46cb29"
+                "local_d9e8c05d478629dbb0f77b65"
               ],
               "confidence": 90
             },
@@ -86,12 +86,42 @@
                 "local_eb41fd3c64b00f781b464fe7"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Competence-Gated Pooling of Language Models and Priors for Event Forecasting",
+              "summary": "In hybrid forecasting, a language model is often one of several available signals. A system may already have a market, crowd, or statistical forecast and must decide whether the model adds useful information or should be ignored. The relevant target is therefore not standalone m…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_4f1c45e50a2a21e43cacac47"
+              ],
+              "confidence": 74
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
+            {
+              "title": "ReactHuman: A Physics-Grounded Benchmark for Human-Like Reactive Decision-Making in Embodied Multimodal LLMs",
+              "summary": "Reacting to sudden physical hazards (catching a slipping plate, dodging a falling knife) is both a meaningful test of embodied intelligence and a hard requirement for deploying multimodal large language models (MLLMs) as the decision coreof household robots. Existing evaluations…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c1b43716da4965c5778e6bb4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Feature Recovery for Object Understanding After Irreversible Fire Damage",
+              "summary": "Objects in post-fire environments often undergo irreversible physical transformations that change their geometry, material state, and visual appearance. Detecting and identifying these remnants is critical for locating hazards, reconstructing pre-incident contents, and inventory…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d6b2d9bb90ce3b9b452e08ab"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Towards a Deterministic Math Solver for Clinical Language Models",
               "summary": "Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each calculator as a validated function, one at a time. We test an alternative: the mod…",
@@ -109,17 +139,17 @@
         "local_c31e8497dc93fb0b2eae3f81",
         "local_469ff8281f39c0afabe8583f",
         "local_468ab6c82104944e30f9f580",
-        "local_8cd0bd75d0fb5c29cd46cb29",
+        "local_d9e8c05d478629dbb0f77b65",
         "local_8f3b07cefb3aa13156b430ea",
-        "local_4434ad041932cea2580e79d7",
+        "local_ab3cec2cd11e3b3e018c8320",
         "local_505e9640279c4e0613d1c764",
         "local_eb41fd3c64b00f781b464fe7",
-        "local_c730742ef2378a6aa8f604c3",
-        "local_3c3b782c6999a03aafca5107",
-        "local_f670db5110a7c98740ac5cb8",
-        "local_c4337b0f6b03441531c7a3da"
+        "local_c1b43716da4965c5778e6bb4",
+        "local_4f1c45e50a2a21e43cacac47",
+        "local_d6b2d9bb90ce3b9b452e08ab",
+        "local_c730742ef2378a6aa8f604c3"
       ],
-      "generatedAt": "2026-09-14T21:06:06.628Z",
+      "generatedAt": "2026-09-15T00:00:43.891Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -173,7 +203,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8cd0bd75d0fb5c29cd46cb29"
+                "local_d9e8c05d478629dbb0f77b65"
               ],
               "confidence": 90
             },
@@ -183,7 +213,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4434ad041932cea2580e79d7"
+                "local_ab3cec2cd11e3b3e018c8320"
               ],
               "confidence": 92
             }
@@ -208,17 +238,17 @@
       "referencedFeedItemIds": [
         "local_c31e8497dc93fb0b2eae3f81",
         "local_469ff8281f39c0afabe8583f",
-        "local_8cd0bd75d0fb5c29cd46cb29",
-        "local_4434ad041932cea2580e79d7",
+        "local_d9e8c05d478629dbb0f77b65",
+        "local_ab3cec2cd11e3b3e018c8320",
         "local_eb41fd3c64b00f781b464fe7"
       ],
-      "generatedAt": "2026-09-14T21:06:06.628Z",
+      "generatedAt": "2026-09-15T00:00:43.891Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-14T21:06:06.628Z",
+  "generatedAt": "2026-09-15T00:00:43.891Z",
   "collectorName": "local-source-collector"
 }
