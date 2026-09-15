@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」、「Online Video Agent Harness for Long Video Understanding」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施」、「华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Online Video Agent Harness for Long Video Understanding",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Rapidly scaling online storage to serve over 1 billion ChatGPT users"
       ],
       "watchItems": [
         "跟进：从\"GPASS\"到\"灵影\",我们为AI终端铺设Agent基础设施",
-        "跟进：Online Video Agent Harness for Long Video Understanding",
         "跟进：华为云插件HuaweiCloud DevKit,邀您来华为全联接大会2026现场体验闯关活动",
-        "跟进：Skill Issue: Lessons from Optimizing Repository SKILLs for Coding Agents",
-        "跟进：Rapidly scaling online storage to serve over 1 billion ChatGPT users"
+        "跟进：Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+        "跟进：openJiuwen首发双维度RSI框架,AI自修改,落地办公智能体,算力亲和助力又快又省",
+        "跟进：Zero Data Retention (ZDR): What It Means for AI APIs — OpenRouter Blog"
       ],
       "sections": [
         {
@@ -28,17 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_41a56da38645588f2c52ee2a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Online Video Agent Harness for Long Video Understanding",
-              "summary": "Long video understanding often behaves like a visual needle-in-a-haystack problem: query-relevant evidence is sparsely distributed across long temporal spans, while packing dense frames into a single VLM context incurs \\textit{context rot} and high cost. Existing video agents of…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_97263cd319fd815cdbff7955"
+                "local_67988a2cf98eaa294ed3891f"
               ],
               "confidence": 92
             },
@@ -48,19 +38,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9418f212064a0955fb27899"
+                "local_fcfa7167966355c3ed2ec1ff"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Skill Issue: Lessons from Optimizing Repository SKILLs for Coding Agents",
-              "summary": "Coding agents increasingly read repository knowledge from SKILLs --- plain \\texttt{.md} files versioned alongside the code. Recent work synthesizes these files automatically, by optimizing the document against a benchmark. A bare repository comes with no benchmark, and the synth…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_bdc779ec782dfb59a118ef70"
-              ],
-              "confidence": 92
             },
             {
               "title": "openJiuwen首发双维度RSI框架,AI自修改,落地办公智能体,算力亲和助力又快又省",
@@ -68,9 +48,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_49e8fa2be0ae251105abe4d7"
+                "local_04a7659e9ecfbb89f3882244"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Supply chains detect fast, act slow: How AI agents fix it",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Global Risk Report, and most of that bill still buys faster detection, not faster action. That figure is usually treated as …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_11b0b19281b15d28b7e91a9c"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -106,17 +96,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_41a56da38645588f2c52ee2a",
-        "local_97263cd319fd815cdbff7955",
-        "local_f9418f212064a0955fb27899",
-        "local_bdc779ec782dfb59a118ef70",
+        "local_67988a2cf98eaa294ed3891f",
+        "local_fcfa7167966355c3ed2ec1ff",
         "local_451126dda218d3905829fd23",
-        "local_49e8fa2be0ae251105abe4d7",
-        "local_48fca585493540bfab6845f3",
+        "local_04a7659e9ecfbb89f3882244",
         "local_d2440a26a87515d30006450d",
         "local_11b0b19281b15d28b7e91a9c"
       ],
-      "generatedAt": "2026-09-15T15:07:04.132Z",
+      "generatedAt": "2026-09-15T19:06:15.888Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -149,7 +136,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_41a56da38645588f2c52ee2a"
+                "local_67988a2cf98eaa294ed3891f"
               ],
               "confidence": 92
             },
@@ -159,7 +146,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9418f212064a0955fb27899"
+                "local_fcfa7167966355c3ed2ec1ff"
               ],
               "confidence": 82
             },
@@ -169,7 +156,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_49e8fa2be0ae251105abe4d7"
+                "local_04a7659e9ecfbb89f3882244"
               ],
               "confidence": 92
             }
@@ -192,18 +179,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_41a56da38645588f2c52ee2a",
-        "local_f9418f212064a0955fb27899",
+        "local_67988a2cf98eaa294ed3891f",
+        "local_fcfa7167966355c3ed2ec1ff",
         "local_451126dda218d3905829fd23",
-        "local_49e8fa2be0ae251105abe4d7"
+        "local_04a7659e9ecfbb89f3882244"
       ],
-      "generatedAt": "2026-09-15T15:07:04.132Z",
+      "generatedAt": "2026-09-15T19:06:15.888Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-15T15:07:04.133Z",
+  "generatedAt": "2026-09-15T19:06:15.889Z",
   "collectorName": "local-source-collector"
 }
