@@ -15,8 +15,8 @@
         "跟进：After warning AI is too dangerous, Bill Gates bets a billion on its upside",
         "跟进：Apple brings a fully revamped Siri built on Google&#039;s Gemini, but not to the EU",
         "跟进：The AI Talent Britain Fought to Hire May Be Recalculating Its Future",
-        "跟进：Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-        "跟进：E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning"
+        "跟进：Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+        "跟进：Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures"
       ],
       "sections": [
         {
@@ -51,16 +51,6 @@
                 "local_fcf2c1cf76c2c0506278416a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Learning Sparse Decision Trees via Transformer Variational Auto-Encoders",
-              "summary": "Decision trees are among the most widely used models in machine learning, largely due to their transparent decision logic, making them well-suited for high-stakes decision-making contexts. However, most existing learning algorithms focus on predictive performance, overlooking th…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e39c0223613d1077e277df5e"
-              ],
-              "confidence": 82
             },
             {
               "title": "The contagion of fear",
@@ -133,6 +123,16 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+              "summary": "We demonstrate that training LLMs with RL does not improve performance equally across a dataset. RL shows large improvements on easy problems that an LLM is already good at solving, but small improvements on hard problems. We call this the Matthew Effect in RL for LLMs, after th…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_414cd9ed16d1a02fa2b03565"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
               "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated statements are supported, but not whether evidence remains traceable through rationale…",
               "insightLabel": "关注",
@@ -149,17 +149,17 @@
         "local_89b3a7fc75e707bfb823e8a3",
         "local_0f7999aaba094ec4c576ccd8",
         "local_d6a35468295092eefd607c86",
+        "local_414cd9ed16d1a02fa2b03565",
         "local_20fe4071a4777665ec7f7ac6",
         "local_2c73b1dc688674a6de170510",
         "local_fcf2c1cf76c2c0506278416a",
-        "local_e39c0223613d1077e277df5e",
         "local_67dcc04180df2b5e60ed3830",
         "local_daa82da252baf2570de4bee3",
         "local_3442045a9ae396315ab92f03",
         "local_0468d9e1d979edfe083591c6",
         "local_ea7bd7396ce1a912a259bdc7"
       ],
-      "generatedAt": "2026-09-15T19:06:15.848Z",
+      "generatedAt": "2026-09-15T22:20:19.895Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,13 +197,13 @@
       "referencedFeedItemIds": [
         "local_ea7bd7396ce1a912a259bdc7"
       ],
-      "generatedAt": "2026-09-15T19:06:15.849Z",
+      "generatedAt": "2026-09-15T22:20:19.895Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-15T19:06:15.849Z",
+  "generatedAt": "2026-09-15T22:20:19.896Z",
   "collectorName": "local-source-collector"
 }
