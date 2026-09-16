@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX」、「Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX」、「Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Laurie Voss"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：别再只卷Prompt 了,真正拉开Agent差距的是Context Engineering"
       ],
       "watchItems": [
         "跟进：Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
         "跟进：Perplexity Portable Computer Is Now Available on Windows, Powered by NVIDIA RTX",
-        "跟进：Quoting Laurie Voss",
         "跟进：别再只卷Prompt 了,真正拉开Agent差距的是Context Engineering",
-        "跟进：Why Most Enterprise Agent Pilots Never Reach Deployment"
+        "跟进：Why Most Enterprise Agent Pilots Never Reach Deployment",
+        "跟进：网页藏毒,劫持Agent?你需要会「追凶」的自进化女警系统"
       ],
       "sections": [
         {
@@ -43,22 +43,12 @@
               "confidence": 78
             },
             {
-              "title": "Quoting Laurie Voss",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it p…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_468ab6c82104944e30f9f580"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "别再只卷Prompt 了,真正拉开Agent差距的是Context Engineering",
               "summary": "工程从\"Demo Agent\"走向\"生产级 Agent\",工程师们集体撞上了同一堵墙:任务轮次增加后 Agent 开始\"忘记\"最初设定的规则...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0bd6cc16af4a1b8b9a5dca89"
+                "local_ec82369012db7d3c35bf2bf6"
               ],
               "confidence": 90
             },
@@ -69,6 +59,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_8f3b07cefb3aa13156b430ea"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "网页藏毒,劫持Agent?你需要会「追凶」的自进化女警系统",
+              "summary": "新智元报道 今天的AI Agent,已经不只是聊天窗口里「会说话」的模型.它们正在接入浏览器、文件系统、终端、API、MCP服务和各...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_eb9166c7822d65bdc8bc82f4"
               ],
               "confidence": 92
             }
@@ -93,13 +93,12 @@
       "referencedFeedItemIds": [
         "local_c31e8497dc93fb0b2eae3f81",
         "local_469ff8281f39c0afabe8583f",
-        "local_468ab6c82104944e30f9f580",
-        "local_0bd6cc16af4a1b8b9a5dca89",
+        "local_ec82369012db7d3c35bf2bf6",
         "local_8f3b07cefb3aa13156b430ea",
-        "local_a9d4269b73b55e4d7b14844a",
+        "local_eb9166c7822d65bdc8bc82f4",
         "local_eb41fd3c64b00f781b464fe7"
       ],
-      "generatedAt": "2026-09-16T15:41:50.441Z",
+      "generatedAt": "2026-09-16T19:13:26.817Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -153,7 +152,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0bd6cc16af4a1b8b9a5dca89"
+                "local_ec82369012db7d3c35bf2bf6"
               ],
               "confidence": 90
             },
@@ -163,7 +162,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a9d4269b73b55e4d7b14844a"
+                "local_eb9166c7822d65bdc8bc82f4"
               ],
               "confidence": 92
             }
@@ -188,17 +187,17 @@
       "referencedFeedItemIds": [
         "local_c31e8497dc93fb0b2eae3f81",
         "local_469ff8281f39c0afabe8583f",
-        "local_0bd6cc16af4a1b8b9a5dca89",
-        "local_a9d4269b73b55e4d7b14844a",
+        "local_ec82369012db7d3c35bf2bf6",
+        "local_eb9166c7822d65bdc8bc82f4",
         "local_eb41fd3c64b00f781b464fe7"
       ],
-      "generatedAt": "2026-09-16T15:41:50.441Z",
+      "generatedAt": "2026-09-16T19:13:26.817Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-16T15:41:50.441Z",
+  "generatedAt": "2026-09-16T19:13:26.817Z",
   "collectorName": "local-source-collector"
 }
