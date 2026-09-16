@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「After warning AI is too dangerous, Bill Gates bets a billion on its upside」、「Apple brings a fully revamped Siri built on Google&#039;s Gemini, but not to the EU」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「After warning AI is too dangerous, Bill Gates bets a billion on its upside」、「Apple brings a fully revamped Siri built on Google&#039;s Gemini, but not to the EU」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：After warning AI is too dangerous, Bill Gates bets a billion on its upside",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Apple brings a fully revamped Siri built on Google&#039;s Gemini, but not to the EU",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The AI Talent Britain Fought to Hire May Be Recalculating Its Future"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views"
       ],
       "watchItems": [
         "跟进：After warning AI is too dangerous, Bill Gates bets a billion on its upside",
         "跟进：Apple brings a fully revamped Siri built on Google&#039;s Gemini, but not to the EU",
+        "跟进：RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views",
         "跟进：The AI Talent Britain Fought to Hire May Be Recalculating Its Future",
-        "跟进：Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
-        "跟进：Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures"
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -43,16 +43,6 @@
               "confidence": 82
             },
             {
-              "title": "Thought without systematicity? Evaluating reasoning models on rule induction tasks",
-              "summary": "A central tenet of human cognition is systematicity, the principle that understanding one concept is inherently tied to understanding close variations of that concept. Do reasoning models robustly exhibit such systematicity? If so, we would expect consistent performance on struc…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fcf2c1cf76c2c0506278416a"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "The contagion of fear",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a stor…",
               "insightLabel": "关注",
@@ -68,6 +58,16 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views",
+              "summary": "Large language model (LLM)-powered coding agents have made rapid progress in automating software engineering tasks, yet repository-level issue resolution remains challenging. Beyond generating a plausible patch, an agent must localize relevant code across interdependent files an…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7fbb07026799dcf784e0f97b"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "The AI Talent Britain Fought to Hire May Be Recalculating Its Future",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A proposed overhaul of UK settlement rules would double the wait for permanent residence, and it reaches back to sponsored engineers already here. For AI employers, it is quietly becoming a retention problem. By Sunny S…",
               "insightLabel": "关注",
@@ -76,16 +76,6 @@
                 "local_d6a35468295092eefd607c86"
               ],
               "confidence": 74
-            },
-            {
-              "title": "Root-Cause Attribution Is a Search Problem: Continual Search for Long-Horizon Agent Failures",
-              "summary": "The increasing deployment of AI agents in long-horizon tasks yields massive execution logs. Diagnosing failures within these records is crucial for reliability, as it transforms outcome-level signals into actionable interventions. The sheer scale of the data renders human review…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_20fe4071a4777665ec7f7ac6"
-              ],
-              "confidence": 92
             },
             {
               "title": "What blog posts influenced your thinking the most?",
@@ -98,22 +88,22 @@
               "confidence": 92
             },
             {
-              "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
-              "summary": "Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference ac…",
+              "title": "Assurance Envelopes for Autonomous Coding Agents: Minimum-Cost Evidence for Software Change",
+              "summary": "When a coding agent returns to existing software, it inherits evidence from earlier engineering work: tests, type checks, proofs, static analyses, and traces. Reloading all of it is wasteful, but dropping a piece the change depends on can leave a required property unsupported. G…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3442045a9ae396315ab92f03"
+                "local_61bad4215d66e9aaecba8cf8"
               ],
               "confidence": 92
             },
             {
-              "title": "Using Agentic AI for contextualized and multifaceted code review at Ericsson",
-              "summary": "Context: Conducting effective code reviews is increasingly challenging due to the growing complexity of software systems and the accelerated code generation by AI coding agents. LLM-based approaches for code reviews have shown promising results in identifying defects and improvi…",
+              "title": "AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories",
+              "summary": "AI coding agents increasingly rely on execution harnesses to interact with repositories and external tools. However, task success does not guarantee reliable execution. Agents may still modify unrelated files, rewrite tests, issue unsafe commands, or ignore failed validations, m…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0468d9e1d979edfe083591c6"
+                "local_5da942abb9a5e1958b8d8ce7"
               ],
               "confidence": 92
             }
@@ -122,26 +112,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
-              "summary": "We demonstrate that training LLMs with RL does not improve performance equally across a dataset. RL shows large improvements on easy problems that an LLM is already good at solving, but small improvements on hard problems. We call this the Matthew Effect in RL for LLMs, after th…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_414cd9ed16d1a02fa2b03565"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "E2A-Bench: Benchmarking Evidence-to-Action Reliability in Financial Chart Reasoning",
-              "summary": "Can financial vision-language models (VLMs) turn chart evidence into reliable action recommendations? Existing hallucination evaluations are mostly claim-centric; they assess whether generated statements are supported, but not whether evidence remains traceable through rationale…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2c73b1dc688674a6de170510"
-              ],
-              "confidence": 92
-            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -158,19 +128,16 @@
       "referencedFeedItemIds": [
         "local_89b3a7fc75e707bfb823e8a3",
         "local_0f7999aaba094ec4c576ccd8",
+        "local_7fbb07026799dcf784e0f97b",
         "local_d6a35468295092eefd607c86",
-        "local_414cd9ed16d1a02fa2b03565",
-        "local_20fe4071a4777665ec7f7ac6",
-        "local_2c73b1dc688674a6de170510",
-        "local_fcf2c1cf76c2c0506278416a",
         "local_7f34ed2badf1a2635bf5e209",
         "local_67dcc04180df2b5e60ed3830",
         "local_daa82da252baf2570de4bee3",
-        "local_3442045a9ae396315ab92f03",
-        "local_0468d9e1d979edfe083591c6",
+        "local_61bad4215d66e9aaecba8cf8",
+        "local_5da942abb9a5e1958b8d8ce7",
         "local_ea7bd7396ce1a912a259bdc7"
       ],
-      "generatedAt": "2026-09-16T00:56:11.561Z",
+      "generatedAt": "2026-09-16T06:07:41.428Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,13 +175,13 @@
       "referencedFeedItemIds": [
         "local_ea7bd7396ce1a912a259bdc7"
       ],
-      "generatedAt": "2026-09-16T00:56:11.561Z",
+      "generatedAt": "2026-09-16T06:07:41.428Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-16T00:56:11.561Z",
+  "generatedAt": "2026-09-16T06:07:41.428Z",
   "collectorName": "local-source-collector"
 }
