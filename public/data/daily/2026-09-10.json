@@ -5,32 +5,57 @@
       "topicId": "ai",
       "reportDate": "2026-09-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Now everyone can put data to work」、「AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地」、「打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Now everyone can put data to work",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中"
       ],
       "watchItems": [
-        "跟进：Now everyone can put data to work",
         "跟进：AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
         "跟进：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+        "跟进：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "跟进：Exploring Creative Intelligence with London’s Southbank Centre",
         "跟进：Agentic Harness Workflow 框架:把 AI Coding 变成工程化流程"
       ],
       "sections": [
         {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
+              "summary": "聚焦大模型能力、安全性、偏见幻觉检测.AI 评测正在从辅助工具变成 AI 产业刚需基础设施.阿里如果完成投资,会将评测能力和阿...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_727ed58d7f7ac8e9a7930883"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+              "summary": "京东云已与摩尔线程等多家合作伙伴打造国产万卡集群,并规划建... 大模型3.0,是物流行业首个贯通仓储、运输、配送全链路,由AI统...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_62684040a7619ea3205054bc"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Now everyone can put data to work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+              "title": "量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
+              "summary": "量子位 | 公众号 QbitAIAI,正变得前所未有的\"能干\".以前我们... 智能体从聊天走向作业,具身智能给模型配上身体,世界模型将虚...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_be200c4abee023deeba993a8"
+                "local_72899ac3544a60868f5ae7fa"
               ],
-              "confidence": 78
+              "confidence": 86
             },
             {
               "title": "Agentic Harness Workflow 框架:把 AI Coding 变成工程化流程",
@@ -38,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_17e81cb218fdf7aac66f294c"
+                "local_5ee951c77164978f6387bbb8"
               ],
               "confidence": 92
             },
@@ -59,41 +84,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_f238aa2b589f43abb3e9b4f4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Introducing the Agents API",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3216272ceddfd204808118a9"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
-              "summary": "聚焦大模型能力、安全性、偏见幻觉检测.AI 评测正在从辅助工具变成 AI 产业刚需基础设施.阿里如果完成投资,会将评测能力和阿...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_727ed58d7f7ac8e9a7930883"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
-              "summary": "京东云已与摩尔线程等多家合作伙伴打造国产万卡集群,并规划建... 大模型3.0,是物流行业首个贯通仓储、运输、配送全链路,由AI统...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d948461af36e79c99ceeb889"
               ],
               "confidence": 92
             }
@@ -126,17 +116,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_be200c4abee023deeba993a8",
         "local_727ed58d7f7ac8e9a7930883",
-        "local_d948461af36e79c99ceeb889",
+        "local_62684040a7619ea3205054bc",
+        "local_72899ac3544a60868f5ae7fa",
         "local_f54b4e6222f05e092a0c7509",
-        "local_17e81cb218fdf7aac66f294c",
+        "local_5ee951c77164978f6387bbb8",
         "local_adca7d80acc79513f13fe1bd",
         "local_db1ec7d7c1ea754fcbf71bf8",
-        "local_f238aa2b589f43abb3e9b4f4",
-        "local_3216272ceddfd204808118a9"
+        "local_f238aa2b589f43abb3e9b4f4"
       ],
-      "generatedAt": "2026-09-16T11:35:23.098Z",
+      "generatedAt": "2026-09-16T15:41:50.493Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -147,32 +136,57 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-10",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Now everyone can put data to work」、「AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地」、「打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Now everyone can put data to work",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中"
       ],
       "watchItems": [
-        "跟进：Now everyone can put data to work",
         "跟进：AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
         "跟进：打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+        "跟进：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "跟进：Exploring Creative Intelligence with London’s Southbank Centre",
         "跟进：Agentic Harness Workflow 框架:把 AI Coding 变成工程化流程"
       ],
       "sections": [
         {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
+              "summary": "聚焦大模型能力、安全性、偏见幻觉检测.AI 评测正在从辅助工具变成 AI 产业刚需基础设施.阿里如果完成投资,会将评测能力和阿...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_727ed58d7f7ac8e9a7930883"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
+              "summary": "京东云已与摩尔线程等多家合作伙伴打造国产万卡集群,并规划建... 大模型3.0,是物流行业首个贯通仓储、运输、配送全链路,由AI统...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_62684040a7619ea3205054bc"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Now everyone can put data to work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+              "title": "量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
+              "summary": "量子位 | 公众号 QbitAIAI,正变得前所未有的\"能干\".以前我们... 智能体从聊天走向作业,具身智能给模型配上身体,世界模型将虚...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_be200c4abee023deeba993a8"
+                "local_72899ac3544a60868f5ae7fa"
               ],
-              "confidence": 78
+              "confidence": 86
             },
             {
               "title": "Agentic Harness Workflow 框架:把 AI Coding 变成工程化流程",
@@ -180,7 +194,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_17e81cb218fdf7aac66f294c"
+                "local_5ee951c77164978f6387bbb8"
               ],
               "confidence": 92
             },
@@ -201,41 +215,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_f238aa2b589f43abb3e9b4f4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Introducing the Agents API",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3216272ceddfd204808118a9"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "AI 晚报|OpenAI 呼吁强制 AI 安全立法,英伟达遭反垄断调查,国产大模型持续落地",
-              "summary": "聚焦大模型能力、安全性、偏见幻觉检测.AI 评测正在从辅助工具变成 AI 产业刚需基础设施.阿里如果完成投资,会将评测能力和阿...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_727ed58d7f7ac8e9a7930883"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "打造10万卡国产算力集群 推出JoyAI世界模型,京东发布物理AI建设最新成果",
-              "summary": "京东云已与摩尔线程等多家合作伙伴打造国产万卡集群,并规划建... 大模型3.0,是物流行业首个贯通仓储、运输、配送全链路,由AI统...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d948461af36e79c99ceeb889"
               ],
               "confidence": 92
             }
@@ -268,23 +247,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_be200c4abee023deeba993a8",
         "local_727ed58d7f7ac8e9a7930883",
-        "local_d948461af36e79c99ceeb889",
+        "local_62684040a7619ea3205054bc",
+        "local_72899ac3544a60868f5ae7fa",
         "local_f54b4e6222f05e092a0c7509",
-        "local_17e81cb218fdf7aac66f294c",
+        "local_5ee951c77164978f6387bbb8",
         "local_adca7d80acc79513f13fe1bd",
         "local_db1ec7d7c1ea754fcbf71bf8",
-        "local_f238aa2b589f43abb3e9b4f4",
-        "local_3216272ceddfd204808118a9"
+        "local_f238aa2b589f43abb3e9b4f4"
       ],
-      "generatedAt": "2026-09-16T11:35:23.098Z",
+      "generatedAt": "2026-09-16T15:41:50.493Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-16T11:35:23.098Z",
+  "generatedAt": "2026-09-16T15:41:50.493Z",
   "collectorName": "local-source-collector"
 }
