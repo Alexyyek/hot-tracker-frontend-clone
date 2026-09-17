@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e5613ef6dacb6c0e687c024"
+                "local_5568baa2ad12effa1fe4f814"
               ],
               "confidence": 90
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ee2a5206ca44054d361dacb0"
+                "local_9743e913069b43380e843e5b"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5d6965312b4bc8e8252d2c6c"
+                "local_e82cbba621d3eff0daa58a23"
               ],
               "confidence": 92
             }
@@ -100,23 +100,18 @@
           ]
         },
         {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "FLAT: Resampling Image and Text into 1D Flexible-Length Aligned Transmodal Tokens for Retrieval and Generation",
-              "summary": "Traditional multimodal representation learning and generation are two stages: a contrastive or self-supervised visual encoder is trained first, followed by a separate downstream generative model. This setup bottlenecks generative performance behind frozen embeddings. To bridge t…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_f7511e8a43b5f09abbe3130e"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "行业与公司",
           "items": [
+            {
+              "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+              "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_3bb7316ff42b56af9164a887"
+              ],
+              "confidence": 92
+            },
             {
               "title": "RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs",
               "summary": "Open-vocabulary detection accepts any class list at inference, and promptable segmentation returns regions without class names: the taxonomy has left the model and become an input. Relation prediction has not. Scene-graph models are still trained and evaluated on the 50 or 56 pr…",
@@ -138,25 +133,40 @@
               "confidence": 74
             }
           ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
+            {
+              "title": "FLAT: Resampling Image and Text into 1D Flexible-Length Aligned Transmodal Tokens for Retrieval and Generation",
+              "summary": "Traditional multimodal representation learning and generation are two stages: a contrastive or self-supervised visual encoder is trained first, followed by a separate downstream generative model. This setup bottlenecks generative performance behind frozen embeddings. To bridge t…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_f7511e8a43b5f09abbe3130e"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_23b1103571b72f402bcd9884",
         "local_13a2377e653f1f9ebac7a967",
-        "local_9e5613ef6dacb6c0e687c024",
-        "local_ee2a5206ca44054d361dacb0",
+        "local_5568baa2ad12effa1fe4f814",
+        "local_9743e913069b43380e843e5b",
         "local_e7782dcdec3e464f99ae6295",
-        "local_5d6965312b4bc8e8252d2c6c",
+        "local_e82cbba621d3eff0daa58a23",
+        "local_3bb7316ff42b56af9164a887",
+        "local_604f9606c78e68f9f040bff0",
         "local_f7511e8a43b5f09abbe3130e",
         "local_ad01024d84d3c82e9c983eb3",
-        "local_a78e1a7cbf8d7d561e916e94",
-        "local_da62be1079db10f22063ba74",
         "local_d4976ac585fce0e75a855bb1",
         "local_6ca86575af5e4da035b3bb8b",
         "local_c2367fa0307aa2b1302dd756",
         "local_bc50507406bdad393e7f8ce0"
       ],
-      "generatedAt": "2026-09-16T22:16:50.155Z",
+      "generatedAt": "2026-09-17T00:39:49.208Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -210,7 +220,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9e5613ef6dacb6c0e687c024"
+                "local_5568baa2ad12effa1fe4f814"
               ],
               "confidence": 90
             },
@@ -220,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ee2a5206ca44054d361dacb0"
+                "local_9743e913069b43380e843e5b"
               ],
               "confidence": 92
             },
@@ -230,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5d6965312b4bc8e8252d2c6c"
+                "local_e82cbba621d3eff0daa58a23"
               ],
               "confidence": 92
             }
@@ -255,18 +265,18 @@
       "referencedFeedItemIds": [
         "local_23b1103571b72f402bcd9884",
         "local_13a2377e653f1f9ebac7a967",
-        "local_9e5613ef6dacb6c0e687c024",
-        "local_ee2a5206ca44054d361dacb0",
-        "local_5d6965312b4bc8e8252d2c6c",
+        "local_5568baa2ad12effa1fe4f814",
+        "local_9743e913069b43380e843e5b",
+        "local_e82cbba621d3eff0daa58a23",
         "local_bc50507406bdad393e7f8ce0"
       ],
-      "generatedAt": "2026-09-16T22:16:50.155Z",
+      "generatedAt": "2026-09-17T00:39:49.208Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-16T22:16:50.155Z",
+  "generatedAt": "2026-09-17T00:39:49.209Z",
   "collectorName": "local-source-collector"
 }
