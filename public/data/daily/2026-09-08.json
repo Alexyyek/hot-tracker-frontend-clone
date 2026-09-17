@@ -5,35 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-09-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Arm launches Total Design for Physical AI and robotics framework」、「高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"」、「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Arm launches Total Design for Physical AI and robotics framework",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么"
       ],
       "watchItems": [
-        "跟进：Arm launches Total Design for Physical AI and robotics framework",
         "跟进：高德开放平台发布 A2UI 工具包,让 Agent 从\"会回答\"走向\"会交互\"",
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
         "跟进：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
-        "跟进：YC:别给员工配Copilot了,AI原生公司没有传话的人"
+        "跟进：YC:别给员工配Copilot了,AI原生公司没有传话的人",
+        "跟进：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Arm launches Total Design for Physical AI and robotics framework",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Arm has launched Arm Total Design for Physical AI alongside a new robotics framework to establish common standards across automated systems. Physical industries – spanning mining, agriculture, manufacturing, and global …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2fc5356fd1a655b6f31e429d"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -43,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7c51429b649f38356dd27f82"
+                "local_9815bc9873bd8df321658d95"
               ],
               "confidence": 92
             },
@@ -53,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d6b16a982fdd27bb5b29b5be"
+                "local_71b151ccb1c28f64834d042d"
               ],
               "confidence": 92
             },
@@ -63,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_531768fff3c0163d13e3563d"
+                "local_df762eb89cd7ed9d92508a84"
               ],
               "confidence": 90
             },
@@ -73,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_26e486545ec594fe0b08ccca"
+                "local_2758114d9dcdb598d14e62b7"
               ],
               "confidence": 92
             },
@@ -83,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3f086e0bb9681917c9aeff06"
+                "local_376875f3c26717212a798908"
               ],
               "confidence": 90
             }
@@ -91,16 +76,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2fc5356fd1a655b6f31e429d",
-        "local_7c51429b649f38356dd27f82",
-        "local_d6b16a982fdd27bb5b29b5be",
-        "local_531768fff3c0163d13e3563d",
-        "local_26e486545ec594fe0b08ccca",
-        "local_3f086e0bb9681917c9aeff06",
-        "local_f7a4bfd2fed223b62eb4ad6b",
-        "local_44af0d71af728680ca503c05"
+        "local_9815bc9873bd8df321658d95",
+        "local_71b151ccb1c28f64834d042d",
+        "local_df762eb89cd7ed9d92508a84",
+        "local_2758114d9dcdb598d14e62b7",
+        "local_376875f3c26717212a798908",
+        "local_fe9e67a5ff970d050e0e2bd0",
+        "local_03408bb1b3873e8dc46cbdd0"
       ],
-      "generatedAt": "2026-09-17T05:28:48.475Z",
+      "generatedAt": "2026-09-17T10:33:54.084Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -134,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7c51429b649f38356dd27f82"
+                "local_9815bc9873bd8df321658d95"
               ],
               "confidence": 92
             },
@@ -144,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d6b16a982fdd27bb5b29b5be"
+                "local_71b151ccb1c28f64834d042d"
               ],
               "confidence": 92
             },
@@ -154,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_531768fff3c0163d13e3563d"
+                "local_df762eb89cd7ed9d92508a84"
               ],
               "confidence": 90
             },
@@ -164,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_26e486545ec594fe0b08ccca"
+                "local_2758114d9dcdb598d14e62b7"
               ],
               "confidence": 92
             },
@@ -174,7 +158,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3f086e0bb9681917c9aeff06"
+                "local_376875f3c26717212a798908"
               ],
               "confidence": 90
             }
@@ -182,21 +166,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_7c51429b649f38356dd27f82",
-        "local_d6b16a982fdd27bb5b29b5be",
-        "local_531768fff3c0163d13e3563d",
-        "local_26e486545ec594fe0b08ccca",
-        "local_3f086e0bb9681917c9aeff06",
-        "local_f7a4bfd2fed223b62eb4ad6b",
-        "local_44af0d71af728680ca503c05"
+        "local_9815bc9873bd8df321658d95",
+        "local_71b151ccb1c28f64834d042d",
+        "local_df762eb89cd7ed9d92508a84",
+        "local_2758114d9dcdb598d14e62b7",
+        "local_376875f3c26717212a798908",
+        "local_fe9e67a5ff970d050e0e2bd0",
+        "local_03408bb1b3873e8dc46cbdd0"
       ],
-      "generatedAt": "2026-09-17T05:28:48.475Z",
+      "generatedAt": "2026-09-17T10:33:54.084Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-17T05:28:48.475Z",
+  "generatedAt": "2026-09-17T10:33:54.084Z",
   "collectorName": "local-source-collector"
 }
