@@ -5,18 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-09-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「After warning AI is too dangerous, Bill Gates bets a billion on its upside」、「RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「After warning AI is too dangerous, Bill Gates bets a billion on its upside」、「The AI Talent Britain Fought to Hire May Be Recalculating Its Future」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：After warning AI is too dangerous, Bill Gates bets a billion on its upside",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The AI Talent Britain Fought to Hire May Be Recalculating Its Future"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The AI Talent Britain Fought to Hire May Be Recalculating Its Future",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The contagion of fear"
       ],
       "watchItems": [
         "跟进：After warning AI is too dangerous, Bill Gates bets a billion on its upside",
-        "跟进：RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views",
         "跟进：The AI Talent Britain Fought to Hire May Be Recalculating Its Future",
-        "跟进：LLM Rankings",
-        "跟进：The contagion of fear"
+        "跟进：The contagion of fear",
+        "跟进：DevFest is back"
       ],
       "sections": [
         {
@@ -48,16 +47,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views",
-              "summary": "Large language model (LLM)-powered coding agents have made rapid progress in automating software engineering tasks, yet repository-level issue resolution remains challenging. Beyond generating a plausible patch, an agent must localize relevant code across interdependent files an…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7fbb07026799dcf784e0f97b"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "The AI Talent Britain Fought to Hire May Be Recalculating Its Future",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A proposed overhaul of UK settlement rules would double the wait for permanent residence, and it reaches back to sponsored engineers already here. For AI employers, it is quietly becoming a retention problem. By Sunny S…",
               "insightLabel": "关注",
@@ -66,26 +55,6 @@
                 "local_d6a35468295092eefd607c86"
               ],
               "confidence": 74
-            },
-            {
-              "title": "Assurance Envelopes for Autonomous Coding Agents: Minimum-Cost Evidence for Software Change",
-              "summary": "When a coding agent returns to existing software, it inherits evidence from earlier engineering work: tests, type checks, proofs, static analyses, and traces. Reloading all of it is wasteful, but dropping a piece the change depends on can leave a required property unsupported. G…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_61bad4215d66e9aaecba8cf8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AgentGuard: Learning Execution Guardrails from Anomalous Coding-Agent Trajectories",
-              "summary": "AI coding agents increasingly rely on execution harnesses to interact with repositories and external tools. However, task success does not guarantee reliable execution. Agents may still modify unrelated files, rewrite tests, issue unsafe commands, or ignore failed validations, m…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5da942abb9a5e1958b8d8ce7"
-              ],
-              "confidence": 92
             },
             {
               "title": "DevFest is back",
@@ -98,34 +67,15 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7f34ed2badf1a2635bf5e209"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_89b3a7fc75e707bfb823e8a3",
-        "local_7fbb07026799dcf784e0f97b",
         "local_d6a35468295092eefd607c86",
-        "local_7f34ed2badf1a2635bf5e209",
         "local_67dcc04180df2b5e60ed3830",
-        "local_61bad4215d66e9aaecba8cf8",
-        "local_5da942abb9a5e1958b8d8ce7",
         "local_ea7bd7396ce1a912a259bdc7"
       ],
-      "generatedAt": "2026-09-17T00:39:49.217Z",
+      "generatedAt": "2026-09-17T05:28:48.387Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -163,13 +113,13 @@
       "referencedFeedItemIds": [
         "local_ea7bd7396ce1a912a259bdc7"
       ],
-      "generatedAt": "2026-09-17T00:39:49.217Z",
+      "generatedAt": "2026-09-17T05:28:48.388Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-17T00:39:49.217Z",
+  "generatedAt": "2026-09-17T05:28:48.388Z",
   "collectorName": "local-source-collector"
 }
