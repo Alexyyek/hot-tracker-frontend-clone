@@ -5,48 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-09-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「How Cooley is accelerating IPO work with ChatGPT」、「AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness」、「How Cooley is accelerating IPO work with ChatGPT」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Cooley is accelerating IPO work with ChatGPT",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer"
       ],
       "watchItems": [
+        "跟进：SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
         "跟进：How Cooley is accelerating IPO work with ChatGPT",
         "跟进：AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
         "跟进：Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
-        "跟进：OpenRouter&#039;s staggering token chart is the AI bubble debate in a single image",
-        "跟进：日志服务 TLS AgentLoop:让多模态调用清晰可见"
+        "跟进：OpenRouter&#039;s staggering token chart is the AI bubble debate in a single image"
       ],
       "sections": [
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "How Cooley is accelerating IPO work with ChatGPT",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_49f221780e284a011bd7a4d9"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Lidl deploys driverless truck for store deliveries in Germany",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Lidl has started using a cab-less autonomous electric truck for regular store deliveries in Germany, assigning it a daily replenishment route between its Edermünde distribution centre and a nearby store. The truck, supp…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_b73e22ec048399d15991c6c8"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
+              "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-im…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5f13b3d9ec90a570c96ededd"
+              ],
+              "confidence": 92
+            },
             {
               "title": "AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone'…",
@@ -83,19 +68,34 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a5299a0c02c336ef5963e9e0"
+                "local_3d8695a34881da115c2ad972"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "How Cooley is accelerating IPO work with ChatGPT",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_49f221780e284a011bd7a4d9"
+              ],
+              "confidence": 70
             },
             {
-              "title": "从\"能用\"到\"懂你\":MobileMem探索端侧个性化智能体记忆新基准",
-              "summary": "过去几年,大模型的能力边界不断向前推进:从知识问答,到复杂推理,再到工具调用和智能体.但如果一个AI助手无法持续理解一个...",
+              "title": "Lidl deploys driverless truck for store deliveries in Germany",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Lidl has started using a cab-less autonomous electric truck for regular store deliveries in Germany, assigning it a daily replenishment route between its Edermünde distribution centre and a nearby store. The truck, supp…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_9c77b2c35c55ca01687a9623"
+                "local_b73e22ec048399d15991c6c8"
               ],
-              "confidence": 92
+              "confidence": 82
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a0aa38f1ba2f54c5cae3d546"
+                "local_846cfdd46d1d9944f0b33910"
               ],
               "confidence": 86
             },
@@ -136,18 +136,15 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_5f13b3d9ec90a570c96ededd",
         "local_49f221780e284a011bd7a4d9",
         "local_26876193bc3062ca680de14c",
         "local_34fcd6e21b822af90e4f3a51",
         "local_c1d6fff354c0e4a51ce87028",
-        "local_a5299a0c02c336ef5963e9e0",
+        "local_3d8695a34881da115c2ad972",
         "local_b73e22ec048399d15991c6c8",
-        "local_a0aa38f1ba2f54c5cae3d546",
-        "local_9c77b2c35c55ca01687a9623",
-        "local_8fc0fda6ce92f047e6111efd",
-        "local_6f65f8b4ea1ed0ebce373702",
-        "local_0e010eddef53c4e1c0c57b6e",
-        "local_e45fe1febd20a0f4da2a9db5",
+        "local_846cfdd46d1d9944f0b33910",
+        "local_6a6d4acb59ee3e5ef2691846",
         "local_5112c9bf1d029c16082d1380",
         "local_751f20bdaa85c361c2b7cd68",
         "local_a90cc92931593e21ba5014c3",
@@ -157,7 +154,7 @@
         "local_52128f7aef1f8ec37bd23b8c",
         "local_8d62ad6b70770125a539dbdb"
       ],
-      "generatedAt": "2026-09-18T00:54:21.335Z",
+      "generatedAt": "2026-09-18T06:00:27.923Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -206,7 +203,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a5299a0c02c336ef5963e9e0"
+                "local_3d8695a34881da115c2ad972"
               ],
               "confidence": 92
             },
@@ -216,7 +213,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9c77b2c35c55ca01687a9623"
+                "local_6a6d4acb59ee3e5ef2691846"
               ],
               "confidence": 92
             },
@@ -261,7 +258,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a0aa38f1ba2f54c5cae3d546"
+                "local_846cfdd46d1d9944f0b33910"
               ],
               "confidence": 86
             }
@@ -270,21 +267,21 @@
       ],
       "referencedFeedItemIds": [
         "local_49f221780e284a011bd7a4d9",
-        "local_a5299a0c02c336ef5963e9e0",
-        "local_a0aa38f1ba2f54c5cae3d546",
-        "local_9c77b2c35c55ca01687a9623",
+        "local_3d8695a34881da115c2ad972",
+        "local_846cfdd46d1d9944f0b33910",
+        "local_6a6d4acb59ee3e5ef2691846",
         "local_751f20bdaa85c361c2b7cd68",
         "local_a90cc92931593e21ba5014c3",
         "local_5e791419845d150d4379bd85",
         "local_8d62ad6b70770125a539dbdb"
       ],
-      "generatedAt": "2026-09-18T00:54:21.335Z",
+      "generatedAt": "2026-09-18T06:00:27.923Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-18T00:54:21.335Z",
+  "generatedAt": "2026-09-18T06:00:27.924Z",
   "collectorName": "local-source-collector"
 }
