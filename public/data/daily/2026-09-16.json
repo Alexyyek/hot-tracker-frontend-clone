@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「ReFigBench: Benchmarking Scientific Figure Reconstruction as Editable PowerPoint Artifacts」、「ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「ReFigBench: Benchmarking Scientific Figure Reconstruction as Editable PowerPoint Artifacts」、「ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ReFigBench: Benchmarking Scientific Figure Reconstruction as Editable PowerPoint Artifacts",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
@@ -75,31 +75,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_68345ecf1debff76f34e5acb"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Gemini Live audio",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at th…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d4976ac585fce0e75a855bb1"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "行业与公司",
           "items": [
             {
@@ -122,15 +97,13 @@
         "local_13a2377e653f1f9ebac7a967",
         "local_0013fa4703d611794cb76651",
         "local_5568baa2ad12effa1fe4f814",
-        "local_eeef5b50f32f4997fea22f79",
+        "local_15f35b43bc66c7fb13e2e6de",
         "local_cb065094cbee19997f7b7a12",
-        "local_dee05250e02052e620eda531",
-        "local_68345ecf1debff76f34e5acb",
-        "local_d4976ac585fce0e75a855bb1",
+        "local_5cb93b7720321b9170ad1c63",
         "local_c2367fa0307aa2b1302dd756",
         "local_bc50507406bdad393e7f8ce0"
       ],
-      "generatedAt": "2026-09-17T22:34:25.012Z",
+      "generatedAt": "2026-09-18T00:54:21.340Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -194,7 +167,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eeef5b50f32f4997fea22f79"
+                "local_15f35b43bc66c7fb13e2e6de"
               ],
               "confidence": 92
             },
@@ -204,7 +177,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dee05250e02052e620eda531"
+                "local_5cb93b7720321b9170ad1c63"
               ],
               "confidence": 92
             }
@@ -230,17 +203,17 @@
         "local_23b1103571b72f402bcd9884",
         "local_13a2377e653f1f9ebac7a967",
         "local_5568baa2ad12effa1fe4f814",
-        "local_eeef5b50f32f4997fea22f79",
-        "local_dee05250e02052e620eda531",
+        "local_15f35b43bc66c7fb13e2e6de",
+        "local_5cb93b7720321b9170ad1c63",
         "local_bc50507406bdad393e7f8ce0"
       ],
-      "generatedAt": "2026-09-17T22:34:25.012Z",
+      "generatedAt": "2026-09-18T00:54:21.340Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-17T22:34:25.013Z",
+  "generatedAt": "2026-09-18T00:54:21.340Z",
   "collectorName": "local-source-collector"
 }
