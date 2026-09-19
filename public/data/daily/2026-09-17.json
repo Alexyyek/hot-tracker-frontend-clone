@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness」、「How Cooley is accelerating IPO work with ChatGPT」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness」、「How Cooley is accelerating IPO work with ChatGPT」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Cooley is accelerating IPO work with ChatGPT",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries"
       ],
       "watchItems": [
         "跟进：SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
         "跟进：How Cooley is accelerating IPO work with ChatGPT",
-        "跟进：AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
         "跟进：Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
-        "跟进：OpenRouter&#039;s staggering token chart is the AI bubble debate in a single image"
+        "跟进：日志服务 TLS AgentLoop:让多模态调用清晰可见",
+        "跟进：Lidl deploys driverless truck for store deliveries in Germany"
       ],
       "sections": [
         {
@@ -33,16 +33,6 @@
               "confidence": 92
             },
             {
-              "title": "AI agent swarms are a massive waste of tokens with zero quality gain, says OpenAI Codex developer",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI Codex developer Eric Provencher warns that running more than two parallel sub-agents almost always burns tokens without improving quality because agents don't trust each other and end up double-checking everyone'…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_26876193bc3062ca680de14c"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Adecco Group is rolling out Salesforce&#8217;s Agentforce Coworker across more than 40 countries following a pilot in the UK and France, the staffing group&#160;announced&#160;on September 15. The group said the rol…",
               "insightLabel": "关注",
@@ -53,16 +43,6 @@
               "confidence": 92
             },
             {
-              "title": "OpenRouter&#039;s staggering token chart is the AI bubble debate in a single image",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：On OpenRouter, weekly token consumption has surged more than 25,000 percent since January 2025, from 0.5 to 126.2 trillion tokens. The number looks impressive, but it says less about actual AI usage than about token-hun…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c1d6fff354c0e4a51ce87028"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "日志服务 TLS AgentLoop:让多模态调用清晰可见",
               "summary": "四、背后的实现思路不同团队的多模态数据来源并不相同:来自 Agent 运行时附件;已存放在客户自有 TOS 桶中的媒体文件;直接使...",
               "insightLabel": "关注",
@@ -71,6 +51,26 @@
                 "local_0ed5d583d1ae5ff0c49ea83f"
               ],
               "confidence": 92
+            },
+            {
+              "title": "从\"能用\"到\"懂你\":MobileMem探索端侧个性化智能体记忆新基准",
+              "summary": "过去几年,大模型的能力边界不断向前推进:从知识问答,到复杂推理,再到工具调用和智能体.但如果一个AI助手无法持续理解一个...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_493e5cedc06d330abbf08387"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Build a Reliable Tool-Calling Agent Loop on OpenRouter — OpenRouter Blog",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Build a tool-calling agent loop in TypeScript with the OpenRouter SDK: execute tool calls, return results by call ID, cap iterations, and add model fallback.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_07a27dc90396dae55c687240"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_633369e9e6a49e6c6d67167e"
+                "local_f949b5ba8dc20f1d1f25c458"
               ],
               "confidence": 86
             }
@@ -118,20 +118,18 @@
       "referencedFeedItemIds": [
         "local_5f13b3d9ec90a570c96ededd",
         "local_49f221780e284a011bd7a4d9",
-        "local_26876193bc3062ca680de14c",
         "local_34fcd6e21b822af90e4f3a51",
-        "local_c1d6fff354c0e4a51ce87028",
         "local_0ed5d583d1ae5ff0c49ea83f",
         "local_b73e22ec048399d15991c6c8",
-        "local_633369e9e6a49e6c6d67167e",
-        "local_8c2700ddf32113e0980ab37a",
+        "local_f949b5ba8dc20f1d1f25c458",
+        "local_493e5cedc06d330abbf08387",
         "local_07a27dc90396dae55c687240",
         "local_751f20bdaa85c361c2b7cd68",
         "local_a90cc92931593e21ba5014c3",
         "local_5e791419845d150d4379bd85",
         "local_8d62ad6b70770125a539dbdb"
       ],
-      "generatedAt": "2026-09-19T06:44:15.650Z",
+      "generatedAt": "2026-09-19T11:40:10.028Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,7 +188,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8c2700ddf32113e0980ab37a"
+                "local_493e5cedc06d330abbf08387"
               ],
               "confidence": 92
             },
@@ -235,7 +233,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_633369e9e6a49e6c6d67167e"
+                "local_f949b5ba8dc20f1d1f25c458"
               ],
               "confidence": 86
             }
@@ -245,20 +243,20 @@
       "referencedFeedItemIds": [
         "local_49f221780e284a011bd7a4d9",
         "local_0ed5d583d1ae5ff0c49ea83f",
-        "local_633369e9e6a49e6c6d67167e",
-        "local_8c2700ddf32113e0980ab37a",
+        "local_f949b5ba8dc20f1d1f25c458",
+        "local_493e5cedc06d330abbf08387",
         "local_751f20bdaa85c361c2b7cd68",
         "local_a90cc92931593e21ba5014c3",
         "local_5e791419845d150d4379bd85",
         "local_8d62ad6b70770125a539dbdb"
       ],
-      "generatedAt": "2026-09-19T06:44:15.650Z",
+      "generatedAt": "2026-09-19T11:40:10.028Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-19T06:44:15.650Z",
+  "generatedAt": "2026-09-19T11:40:10.028Z",
   "collectorName": "local-source-collector"
 }
