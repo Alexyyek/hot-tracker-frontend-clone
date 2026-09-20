@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks」、「Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks」、「Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
@@ -16,7 +16,7 @@
         "跟进：Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
         "跟进：LLM Rankings",
         "跟进：Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-        "跟进：Note on 18th September 2026"
+        "跟进：Benchmarking LLM Inference at Scale with AIPerf"
       ],
       "sections": [
         {
@@ -41,16 +41,6 @@
                 "local_95c09564581164e4b6b70e06"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Quoting Thariq Shihipar",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, ou…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0d00dfc854ff0df39908989a"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -66,16 +56,6 @@
                 "local_30be5deafdbbe494d6c044dd"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Note on 18th September 2026",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical genet…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e08006bdf206312f9d32af86"
-              ],
-              "confidence": 78
             },
             {
               "title": "Benchmarking LLM Inference at Scale with AIPerf",
@@ -110,11 +90,9 @@
         "local_95c09564581164e4b6b70e06",
         "local_30be5deafdbbe494d6c044dd",
         "local_d21e8aadc61ad231c83beb1e",
-        "local_e08006bdf206312f9d32af86",
-        "local_0d00dfc854ff0df39908989a",
         "local_2510bc10f3fef3aabd9a016c"
       ],
-      "generatedAt": "2026-09-20T20:53:38.845Z",
+      "generatedAt": "2026-09-20T23:20:28.182Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -152,13 +130,13 @@
       "referencedFeedItemIds": [
         "local_2510bc10f3fef3aabd9a016c"
       ],
-      "generatedAt": "2026-09-20T20:53:38.845Z",
+      "generatedAt": "2026-09-20T23:20:28.182Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-20T20:53:38.845Z",
+  "generatedAt": "2026-09-20T23:20:28.182Z",
   "collectorName": "local-source-collector"
 }
