@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness」、「How Cooley is accelerating IPO work with ChatGPT」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness」、「How Cooley is accelerating IPO work with ChatGPT」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Cooley is accelerating IPO work with ChatGPT",
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dce77ad23d305e4b5addef63"
+                "local_dba368cc277caac5797c9fa3"
               ],
               "confidence": 92
             },
@@ -98,21 +98,6 @@
               "confidence": 82
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "高德扫街榜技术实践|从兴趣空间到地理空间:生成式召回的三次迭代",
-              "summary": "大模型的空间认知问答准确性是 32B模型的两倍,POI推荐的平均... 2.0:10 万+行代码背后的可控重构之路#高德 #高德技术 #生成式召...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_845f8452928f9c01a5ce9fa8"
-              ],
-              "confidence": 86
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
@@ -121,15 +106,14 @@
         "local_34fcd6e21b822af90e4f3a51",
         "local_fd00873136b2aecceaf700ac",
         "local_b73e22ec048399d15991c6c8",
-        "local_845f8452928f9c01a5ce9fa8",
-        "local_dce77ad23d305e4b5addef63",
+        "local_dba368cc277caac5797c9fa3",
         "local_07a27dc90396dae55c687240",
         "local_751f20bdaa85c361c2b7cd68",
         "local_a90cc92931593e21ba5014c3",
         "local_5e791419845d150d4379bd85",
         "local_8d62ad6b70770125a539dbdb"
       ],
-      "generatedAt": "2026-09-20T14:20:46.516Z",
+      "generatedAt": "2026-09-20T17:48:01.739Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -140,18 +124,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-17",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「How Cooley is accelerating IPO work with ChatGPT」、「日志服务 TLS AgentLoop:让多模态调用清晰可见」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「How Cooley is accelerating IPO work with ChatGPT」、「日志服务 TLS AgentLoop:让多模态调用清晰可见」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Cooley is accelerating IPO work with ChatGPT",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：日志服务 TLS AgentLoop:让多模态调用清晰可见",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德扫街榜技术实践|从兴趣空间到地理空间:生成式召回的三次迭代"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从\"能用\"到\"懂你\":MobileMem探索端侧个性化智能体记忆新基准"
       ],
       "watchItems": [
         "跟进：How Cooley is accelerating IPO work with ChatGPT",
         "跟进：日志服务 TLS AgentLoop:让多模态调用清晰可见",
-        "跟进：高德扫街榜技术实践|从兴趣空间到地理空间:生成式召回的三次迭代",
         "跟进：从\"能用\"到\"懂你\":MobileMem探索端侧个性化智能体记忆新基准",
-        "跟进：How to Use AI Agents to Prepare 3D Scenes for Simulation"
+        "跟进：How to Use AI Agents to Prepare 3D Scenes for Simulation",
+        "跟进：TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor"
       ],
       "sections": [
         {
@@ -188,7 +172,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dce77ad23d305e4b5addef63"
+                "local_dba368cc277caac5797c9fa3"
               ],
               "confidence": 92
             },
@@ -223,40 +207,24 @@
               "confidence": 82
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "高德扫街榜技术实践|从兴趣空间到地理空间:生成式召回的三次迭代",
-              "summary": "大模型的空间认知问答准确性是 32B模型的两倍,POI推荐的平均... 2.0:10 万+行代码背后的可控重构之路#高德 #高德技术 #生成式召...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_845f8452928f9c01a5ce9fa8"
-              ],
-              "confidence": 86
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_49f221780e284a011bd7a4d9",
         "local_fd00873136b2aecceaf700ac",
-        "local_845f8452928f9c01a5ce9fa8",
-        "local_dce77ad23d305e4b5addef63",
+        "local_dba368cc277caac5797c9fa3",
         "local_751f20bdaa85c361c2b7cd68",
         "local_a90cc92931593e21ba5014c3",
         "local_5e791419845d150d4379bd85",
         "local_8d62ad6b70770125a539dbdb"
       ],
-      "generatedAt": "2026-09-20T14:20:46.516Z",
+      "generatedAt": "2026-09-20T17:48:01.739Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-20T14:20:46.516Z",
+  "generatedAt": "2026-09-20T17:48:01.739Z",
   "collectorName": "local-source-collector"
 }
