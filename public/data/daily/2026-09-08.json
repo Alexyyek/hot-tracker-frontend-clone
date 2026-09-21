@@ -5,17 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」、「Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」、「字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：YC:别给员工配Copilot了,AI原生公司没有传话的人"
       ],
       "watchItems": [
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
+        "跟进：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
+        "跟进：YC:别给员工配Copilot了,AI原生公司没有传话的人",
         "跟进：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法",
-        "跟进：强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流",
-        "跟进：什么样的业务经验值得做成 Agent:从个人工具到组织资产"
+        "跟进：强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流"
       ],
       "sections": [
         {
@@ -27,7 +28,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e22ec2c7b5c874e553f7c6cb"
+                "local_a3b24f1719d3ec6eded91512"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
+              "summary": "复旦大学软件工程实验室最近,团队推出了面向测试自动化的 NL2Test Agent:QA在测试过程中, 只需用自然语言描述测试场景,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5d45dce3c653a5279572c9af"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "YC:别给员工配Copilot了,AI原生公司没有传话的人",
+              "summary": "导读过去两年,很多公司都在说自己是\"AI Native\".工程师有了 Coding Agent,销售开始自动总结会议,客服接入大模型,律师、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85b12bcb67965aa74d848e75"
               ],
               "confidence": 92
             },
@@ -37,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1c4739d03b2a50b0e39fcaba"
+                "local_24b28358d753c2a2debb7f4a"
               ],
               "confidence": 90
             },
@@ -47,30 +68,22 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0b1419f637558b96c1363c3f"
+                "local_0e522a9ab0649df2a74b81a4"
               ],
               "confidence": 92
-            },
-            {
-              "title": "什么样的业务经验值得做成 Agent:从个人工具到组织资产",
-              "summary": "GEEK TALK06写在最后把经验做成 Agent,本质上是一次表述的工作:先要说清自己是怎么判断的,才谈得上让它被复用.很多经验...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a9348cf688185fab3bb3750e"
-              ],
-              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_e22ec2c7b5c874e553f7c6cb",
-        "local_1c4739d03b2a50b0e39fcaba",
-        "local_0b1419f637558b96c1363c3f",
-        "local_a9348cf688185fab3bb3750e"
+        "local_a3b24f1719d3ec6eded91512",
+        "local_5d45dce3c653a5279572c9af",
+        "local_85b12bcb67965aa74d848e75",
+        "local_24b28358d753c2a2debb7f4a",
+        "local_0e522a9ab0649df2a74b81a4",
+        "local_6d754b6d7c7273ad360335df"
       ],
-      "generatedAt": "2026-09-21T07:19:36.667Z",
+      "generatedAt": "2026-09-21T14:41:21.692Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -81,17 +94,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-08",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」、「Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「9月9日,邀您共赴2026外滩大会\"智能体安全\"之约」、「字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：YC:别给员工配Copilot了,AI原生公司没有传话的人"
       ],
       "watchItems": [
         "跟进：9月9日,邀您共赴2026外滩大会\"智能体安全\"之约",
+        "跟进：字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
+        "跟进：YC:别给员工配Copilot了,AI原生公司没有传话的人",
         "跟进：Agent长时工作如何不跑偏?WorkSwarm用「永续会话」给出解法",
-        "跟进：强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流",
-        "跟进：什么样的业务经验值得做成 Agent:从个人工具到组织资产"
+        "跟进：强模型&ne;强Agent!PolyWorkBench实测「跨语言」长程工作流"
       ],
       "sections": [
         {
@@ -103,7 +117,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e22ec2c7b5c874e553f7c6cb"
+                "local_a3b24f1719d3ec6eded91512"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "字节跳动质量保障团队|让 QA 真正用起来:测试用例生成 Agent 落地,我们做对了什么",
+              "summary": "复旦大学软件工程实验室最近,团队推出了面向测试自动化的 NL2Test Agent:QA在测试过程中, 只需用自然语言描述测试场景,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5d45dce3c653a5279572c9af"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "YC:别给员工配Copilot了,AI原生公司没有传话的人",
+              "summary": "导读过去两年,很多公司都在说自己是\"AI Native\".工程师有了 Coding Agent,销售开始自动总结会议,客服接入大模型,律师、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85b12bcb67965aa74d848e75"
               ],
               "confidence": 92
             },
@@ -113,7 +147,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1c4739d03b2a50b0e39fcaba"
+                "local_24b28358d753c2a2debb7f4a"
               ],
               "confidence": 90
             },
@@ -123,36 +157,28 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0b1419f637558b96c1363c3f"
+                "local_0e522a9ab0649df2a74b81a4"
               ],
               "confidence": 92
-            },
-            {
-              "title": "什么样的业务经验值得做成 Agent:从个人工具到组织资产",
-              "summary": "GEEK TALK06写在最后把经验做成 Agent,本质上是一次表述的工作:先要说清自己是怎么判断的,才谈得上让它被复用.很多经验...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a9348cf688185fab3bb3750e"
-              ],
-              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_e22ec2c7b5c874e553f7c6cb",
-        "local_1c4739d03b2a50b0e39fcaba",
-        "local_0b1419f637558b96c1363c3f",
-        "local_a9348cf688185fab3bb3750e"
+        "local_a3b24f1719d3ec6eded91512",
+        "local_5d45dce3c653a5279572c9af",
+        "local_85b12bcb67965aa74d848e75",
+        "local_24b28358d753c2a2debb7f4a",
+        "local_0e522a9ab0649df2a74b81a4",
+        "local_6d754b6d7c7273ad360335df"
       ],
-      "generatedAt": "2026-09-21T07:19:36.667Z",
+      "generatedAt": "2026-09-21T14:41:21.692Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-21T07:19:36.667Z",
+  "generatedAt": "2026-09-21T14:41:21.692Z",
   "collectorName": "local-source-collector"
 }
