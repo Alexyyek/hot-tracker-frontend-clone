@@ -5,33 +5,36 @@
       "topicId": "ai",
       "reportDate": "2026-09-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks」、「Gemini Hacked Three Companies in First Known Breakout by Google’s AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Benchmarking LLM Inference at Scale with AIPerf」、「Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Benchmarking LLM Inference at Scale with AIPerf"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Benchmarking LLM Inference at Scale with AIPerf",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：CodeMidas: Scaling Agentic Coding RL Environments from Code Itself"
       ],
       "watchItems": [
-        "跟进：Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks",
-        "跟进：Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
         "跟进：Benchmarking LLM Inference at Scale with AIPerf",
         "跟进：Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
         "跟进：CodeMidas: Scaling Agentic Coding RL Environments from Code Itself"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Qwen3.8-Omni-Flash is Qwen's first multimodal model designed for AI agents. It processes audio and video together and independently uses tools to edit vlogs, translate clips, or summarize movies. On audio-video benchmar…",
+              "title": "Benchmarking LLM Inference at Scale with AIPerf",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_25bc3d9ddbfddc2383687c52"
+                "local_2510bc10f3fef3aabd9a016c"
               ],
-              "confidence": 92
-            },
+              "confidence": 90
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
               "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates…",
@@ -53,46 +56,14 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irreg…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d21e8aadc61ad231c83beb1e"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Benchmarking LLM Inference at Scale with AIPerf",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2510bc10f3fef3aabd9a016c"
-              ],
-              "confidence": 90
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_25bc3d9ddbfddc2383687c52",
-        "local_d21e8aadc61ad231c83beb1e",
         "local_2510bc10f3fef3aabd9a016c",
         "local_34a951ed75f3cb685fa5429a",
         "local_93550a23c5243fc3cbb9102b"
       ],
-      "generatedAt": "2026-09-21T14:41:21.621Z",
+      "generatedAt": "2026-09-21T19:52:04.019Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -130,13 +101,13 @@
       "referencedFeedItemIds": [
         "local_2510bc10f3fef3aabd9a016c"
       ],
-      "generatedAt": "2026-09-21T14:41:21.621Z",
+      "generatedAt": "2026-09-21T19:52:04.019Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-21T14:41:21.622Z",
+  "generatedAt": "2026-09-21T19:52:04.019Z",
   "collectorName": "local-source-collector"
 }
