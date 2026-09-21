@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Tencent&#039;s Gander aims to keep talking while it works in the background」、「Runway wants to turn AI video generation into a live stream you control in real time」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Tencent&#039;s Gander aims to keep talking while it works in the background」、「Runway wants to turn AI video generation into a live stream you control in real time」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Tencent&#039;s Gander aims to keep talking while it works in the background",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Runway wants to turn AI video generation into a live stream you control in real time",
@@ -41,6 +41,16 @@
                 "local_eaec6031a87898598c7e326e"
               ],
               "confidence": 78
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_4da0f3c7cd5c94050eb99b6e"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -68,7 +78,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6c12831e75e7a348241d459b"
+                "local_fb9e1aa2741f40b040685c72"
               ],
               "confidence": 92
             },
@@ -78,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_30719bd9ad4c40f6194701b5"
+                "local_1f057a6d8b2e300ad89ddcc2"
               ],
               "confidence": 92
             },
@@ -98,12 +108,13 @@
       "referencedFeedItemIds": [
         "local_051f2641cc82911de2481912",
         "local_158a987f27f6e86c6800f3ba",
-        "local_6c12831e75e7a348241d459b",
-        "local_30719bd9ad4c40f6194701b5",
+        "local_fb9e1aa2741f40b040685c72",
+        "local_1f057a6d8b2e300ad89ddcc2",
         "local_eaec6031a87898598c7e326e",
+        "local_4da0f3c7cd5c94050eb99b6e",
         "local_f855102135daa6d292f1294e"
       ],
-      "generatedAt": "2026-09-20T23:20:28.175Z",
+      "generatedAt": "2026-09-21T01:45:47.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -135,7 +146,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6c12831e75e7a348241d459b"
+                "local_fb9e1aa2741f40b040685c72"
               ],
               "confidence": 92
             },
@@ -145,7 +156,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_30719bd9ad4c40f6194701b5"
+                "local_1f057a6d8b2e300ad89ddcc2"
               ],
               "confidence": 92
             }
@@ -168,17 +179,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6c12831e75e7a348241d459b",
-        "local_30719bd9ad4c40f6194701b5",
+        "local_fb9e1aa2741f40b040685c72",
+        "local_1f057a6d8b2e300ad89ddcc2",
         "local_eaec6031a87898598c7e326e"
       ],
-      "generatedAt": "2026-09-20T23:20:28.175Z",
+      "generatedAt": "2026-09-21T01:45:47.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-20T23:20:28.175Z",
+  "generatedAt": "2026-09-21T01:45:47.684Z",
   "collectorName": "local-source-collector"
 }

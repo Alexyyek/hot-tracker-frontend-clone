@@ -5,16 +5,15 @@
       "topicId": "ai",
       "reportDate": "2026-09-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks」、「Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks」、「Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Gemini Hacked Three Companies in First Known Breakout by Google’s AI"
       ],
       "watchItems": [
         "跟进：Qwen3.8-Omni-Flash undercuts Google&#039;s Gemini Flash pricing while matching its multimodal benchmarks",
         "跟进：Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
-        "跟进：LLM Rankings",
         "跟进：Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
         "跟进：Benchmarking LLM Inference at Scale with AIPerf"
       ],
@@ -45,31 +44,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_30be5deafdbbe494d6c044dd"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Benchmarking LLM Inference at Scale with AIPerf",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2510bc10f3fef3aabd9a016c"
-              ],
-              "confidence": 90
-            }
-          ]
-        },
-        {
           "title": "行业与公司",
           "items": [
             {
@@ -83,16 +57,30 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Benchmarking LLM Inference at Scale with AIPerf",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：You’re deploying a model on a system. It starts up, prompts are getting responses. Now the hard question: Is this fast? Your instincts might lead you to send...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_2510bc10f3fef3aabd9a016c"
+              ],
+              "confidence": 90
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_25bc3d9ddbfddc2383687c52",
         "local_95c09564581164e4b6b70e06",
-        "local_30be5deafdbbe494d6c044dd",
         "local_d21e8aadc61ad231c83beb1e",
         "local_2510bc10f3fef3aabd9a016c"
       ],
-      "generatedAt": "2026-09-20T23:20:28.182Z",
+      "generatedAt": "2026-09-21T01:45:47.694Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -130,13 +118,13 @@
       "referencedFeedItemIds": [
         "local_2510bc10f3fef3aabd9a016c"
       ],
-      "generatedAt": "2026-09-20T23:20:28.182Z",
+      "generatedAt": "2026-09-21T01:45:47.695Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-20T23:20:28.182Z",
+  "generatedAt": "2026-09-21T01:45:47.695Z",
   "collectorName": "local-source-collector"
 }

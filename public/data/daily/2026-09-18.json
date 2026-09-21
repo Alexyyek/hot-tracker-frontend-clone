@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「【赛事速递】华为云星耀创想者大赛现场直击」、「New experts join Google’s AI & Economy team」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「【赛事速递】华为云星耀创想者大赛现场直击」、「New experts join Google’s AI & Economy team」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【赛事速递】华为云星耀创想者大赛现场直击",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New experts join Google’s AI & Economy team",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Fulcra Brings Universal Multiplayer to Any Agents You Choose"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions"
       ],
       "watchItems": [
         "跟进：【赛事速递】华为云星耀创想者大赛现场直击",
         "跟进：New experts join Google’s AI & Economy team",
+        "跟进：GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions",
         "跟进：Fulcra Brings Universal Multiplayer to Any Agents You Choose",
-        "跟进：Verifiable Social Reasoning for LLM Assistants",
-        "跟进：Self-Evolving Search Index"
+        "跟进：Verifiable Social Reasoning for LLM Assistants"
       ],
       "sections": [
         {
@@ -28,7 +28,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cbd44db04e75080d32d2f773"
+                "local_4721cf609c30bb31edea5fc7"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions",
+              "summary": "Coding agents can modify and test code across large software projects. Game development is a domain where agents must implement gameplay rules. A game can end in a valid state even after violating its rules during the run. Current game-development benchmarks replay fixed example…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4b4edcf5bda1f30ad1009ece"
               ],
               "confidence": 92
             },
@@ -61,16 +71,6 @@
                 "local_7b8d7681b48a1b7fba6797fe"
               ],
               "confidence": 92
-            },
-            {
-              "title": "The new CC, an AI agent built for families",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Labs is expanding CC to groups, starting with families and households, so they can spend less time on logistics.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c7bf4a69f8b7b04abacd3ea5"
-              ],
-              "confidence": 70
             }
           ]
         },
@@ -116,8 +116,9 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_cbd44db04e75080d32d2f773",
+        "local_4721cf609c30bb31edea5fc7",
         "local_d8c3b519e447aa2327049f68",
+        "local_4b4edcf5bda1f30ad1009ece",
         "local_0e711331bdbb22d425ecbebe",
         "local_888a9d767952dd439fe8a880",
         "local_7b8d7681b48a1b7fba6797fe",
@@ -128,7 +129,7 @@
         "local_a997bfb0e48291503b5571b3",
         "local_4a0592688f27411517759053"
       ],
-      "generatedAt": "2026-09-20T23:20:28.190Z",
+      "generatedAt": "2026-09-21T01:45:47.707Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -160,7 +161,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cbd44db04e75080d32d2f773"
+                "local_4721cf609c30bb31edea5fc7"
               ],
               "confidence": 92
             },
@@ -193,17 +194,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_cbd44db04e75080d32d2f773",
+        "local_4721cf609c30bb31edea5fc7",
         "local_d8c3b519e447aa2327049f68",
         "local_c7bf4a69f8b7b04abacd3ea5"
       ],
-      "generatedAt": "2026-09-20T23:20:28.190Z",
+      "generatedAt": "2026-09-21T01:45:47.707Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-20T23:20:28.190Z",
+  "generatedAt": "2026-09-21T01:45:47.707Z",
   "collectorName": "local-source-collector"
 }
