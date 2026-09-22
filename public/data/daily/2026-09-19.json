@@ -5,31 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-09-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling」、「Benchmarking LLM Inference at Scale with AIPerf」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Benchmarking LLM Inference at Scale with AIPerf」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Benchmarking LLM Inference at Scale with AIPerf"
       ],
       "watchItems": [
-        "跟进：Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling",
         "跟进：Benchmarking LLM Inference at Scale with AIPerf"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Vision2CAD: A Visual Agent Harness for Explicit Geometry Referencing and Localization in Parametric CAD Modeling",
-              "summary": "Generating parametric CAD models requires accurate geometry and stable feature dependencies. Existing methods face challenges in selecting geometric references, interpreting sketch-plane local coordinates, and establishing sketch constraints to projected external geometry. We pr…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d2dfe9cf93e733587c1d8cdd"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -47,10 +30,9 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d2dfe9cf93e733587c1d8cdd",
         "local_2510bc10f3fef3aabd9a016c"
       ],
-      "generatedAt": "2026-09-22T01:58:18.791Z",
+      "generatedAt": "2026-09-22T07:48:29.031Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -88,13 +70,13 @@
       "referencedFeedItemIds": [
         "local_2510bc10f3fef3aabd9a016c"
       ],
-      "generatedAt": "2026-09-22T01:58:18.791Z",
+      "generatedAt": "2026-09-22T07:48:29.031Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-22T01:58:18.791Z",
+  "generatedAt": "2026-09-22T07:48:29.031Z",
   "collectorName": "local-source-collector"
 }

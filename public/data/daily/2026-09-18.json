@@ -5,32 +5,36 @@
       "topicId": "ai",
       "reportDate": "2026-09-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「【赛事速递】华为云星耀创想者大赛现场直击」、「New experts join Google’s AI & Economy team」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「New experts join Google’s AI & Economy team」、「Fulcra Brings Universal Multiplayer to Any Agents You Choose」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【赛事速递】华为云星耀创想者大赛现场直击",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New experts join Google’s AI & Economy team",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Fulcra Brings Universal Multiplayer to Any Agents You Choose"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Fulcra Brings Universal Multiplayer to Any Agents You Choose",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The new CC, an AI agent built for families"
       ],
       "watchItems": [
-        "跟进：【赛事速递】华为云星耀创想者大赛现场直击",
         "跟进：New experts join Google’s AI & Economy team",
         "跟进：Fulcra Brings Universal Multiplayer to Any Agents You Choose",
         "跟进：The new CC, an AI agent built for families"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "行业与公司",
           "items": [
             {
-              "title": "【赛事速递】华为云星耀创想者大赛现场直击",
-              "summary": "主舞台上,华为云企业级智能体创新赛、华为云OPC大赛决赛选手同台竞技,围绕Agent创新与产品创意展开精彩比拼.展区现场,机...",
+              "title": "New experts join Google’s AI & Economy team",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_707b7fe543d0fa56adc395d5"
+                "local_d8c3b519e447aa2327049f68"
               ],
-              "confidence": 92
-            },
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Fulcra Brings Universal Multiplayer to Any Agents You Choose",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Instinct-to-Instinct model that is the talk of Silicon Valley presents too small a future for personal AI. With Fulcra’s multiplayer capabilities, people can get agent to agent collaboration without having to lock-i…",
@@ -52,7 +56,34 @@
               "confidence": 70
             }
           ]
-        },
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_d8c3b519e447aa2327049f68",
+        "local_0e711331bdbb22d425ecbebe",
+        "local_c7bf4a69f8b7b04abacd3ea5"
+      ],
+      "generatedAt": "2026-09-22T07:48:29.043Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-09-18",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-09-18",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「New experts join Google’s AI & Economy team」、「The new CC, an AI agent built for families」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New experts join Google’s AI & Economy team",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The new CC, an AI agent built for families"
+      ],
+      "watchItems": [
+        "跟进：New experts join Google’s AI & Economy team",
+        "跟进：The new CC, an AI agent built for families"
+      ],
+      "sections": [
         {
           "title": "行业与公司",
           "items": [
@@ -67,50 +98,10 @@
               "confidence": 78
             }
           ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_707b7fe543d0fa56adc395d5",
-        "local_d8c3b519e447aa2327049f68",
-        "local_0e711331bdbb22d425ecbebe",
-        "local_c7bf4a69f8b7b04abacd3ea5"
-      ],
-      "generatedAt": "2026-09-22T01:58:18.801Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-09-18",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-09-18",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「【赛事速递】华为云星耀创想者大赛现场直击」、「New experts join Google’s AI & Economy team」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【赛事速递】华为云星耀创想者大赛现场直击",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New experts join Google’s AI & Economy team",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The new CC, an AI agent built for families"
-      ],
-      "watchItems": [
-        "跟进：【赛事速递】华为云星耀创想者大赛现场直击",
-        "跟进：New experts join Google’s AI & Economy team",
-        "跟进：The new CC, an AI agent built for families"
-      ],
-      "sections": [
+        },
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "【赛事速递】华为云星耀创想者大赛现场直击",
-              "summary": "主舞台上,华为云企业级智能体创新赛、华为云OPC大赛决赛选手同台竞技,围绕Agent创新与产品创意展开精彩比拼.展区现场,机...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_707b7fe543d0fa56adc395d5"
-              ],
-              "confidence": 92
-            },
             {
               "title": "The new CC, an AI agent built for families",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Labs is expanding CC to groups, starting with families and households, so they can spend less time on logistics.",
@@ -122,35 +113,19 @@
               "confidence": 70
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "New experts join Google’s AI & Economy team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d8c3b519e447aa2327049f68"
-              ],
-              "confidence": 78
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_707b7fe543d0fa56adc395d5",
         "local_d8c3b519e447aa2327049f68",
         "local_c7bf4a69f8b7b04abacd3ea5"
       ],
-      "generatedAt": "2026-09-22T01:58:18.801Z",
+      "generatedAt": "2026-09-22T07:48:29.043Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-22T01:58:18.802Z",
+  "generatedAt": "2026-09-22T07:48:29.043Z",
   "collectorName": "local-source-collector"
 }
