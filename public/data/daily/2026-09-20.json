@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Tencent&#039;s Gander aims to keep talking while it works in the background」、「蚂蚁AI安全实验室登顶CyberGym榜单,漏洞验证成功率达98.5%!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Tencent&#039;s Gander aims to keep talking while it works in the background」、「蚂蚁AI安全实验室登顶CyberGym榜单,漏洞验证成功率达98.5%!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Tencent&#039;s Gander aims to keep talking while it works in the background",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蚂蚁AI安全实验室登顶CyberGym榜单,漏洞验证成功率达98.5%!",
@@ -15,8 +15,8 @@
         "跟进：Tencent&#039;s Gander aims to keep talking while it works in the background",
         "跟进：蚂蚁AI安全实验室登顶CyberGym榜单,漏洞验证成功率达98.5%!",
         "跟进：高德导航Live模式:从＂一次做对＂到＂变化后还能做对＂的时空Agent架构",
-        "跟进：推理成为新中心、Agent 把生产级问题提前:AI Infra 的边界正在被重写",
-        "跟进：Seed Research"
+        "跟进：One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
+        "跟进：推理成为新中心、Agent 把生产级问题提前:AI Infra 的边界正在被重写"
       ],
       "sections": [
         {
@@ -41,16 +41,6 @@
                 "local_eaec6031a87898598c7e326e"
               ],
               "confidence": 78
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4da0f3c7cd5c94050eb99b6e"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -73,7 +63,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a6efb880a95bdf5d34154ac0"
+                "local_7e88b3afa5bd33ea9fa107b0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "One to More, More to One: Category-Aware Iterative Expert Training for Software Engineering Agents",
+              "summary": "Repository-level software engineering (SWE) comprises heterogeneous task categories, whose progress under pooled agentic reinforcement learning can be uneven: gains in some categories coincide with regressions in others, while aggregate resolution obscures these changes. Motivat…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1b5aca82ef62ce9813968945"
               ],
               "confidence": 92
             },
@@ -83,7 +83,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f83e860b0757fe9e79d0ad44"
+                "local_d3ddbd9ccb1173135172efbb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "TicTacBench: Benchmarking Timing Closure Capabilities of Coding Agents",
+              "summary": "Recent advances in large language models (LLMs) have led to the emergence of coding agents capable of performing complex engineering tasks, including register-transfer level (RTL) design and optimization. Existing RTL benchmarks mainly evaluate functional correctness and perform…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4daa2bda6dea7de487d777c7"
               ],
               "confidence": 92
             }
@@ -93,12 +103,14 @@
       "referencedFeedItemIds": [
         "local_051f2641cc82911de2481912",
         "local_8bd6d5316cc44eea9ad6ce9e",
-        "local_a6efb880a95bdf5d34154ac0",
-        "local_f83e860b0757fe9e79d0ad44",
+        "local_7e88b3afa5bd33ea9fa107b0",
+        "local_1b5aca82ef62ce9813968945",
+        "local_d3ddbd9ccb1173135172efbb",
+        "local_4daa2bda6dea7de487d777c7",
         "local_eaec6031a87898598c7e326e",
-        "local_4da0f3c7cd5c94050eb99b6e"
+        "local_dfda49dc685a95d189b066c7"
       ],
-      "generatedAt": "2026-09-21T23:22:48.790Z",
+      "generatedAt": "2026-09-22T01:58:18.781Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -141,7 +153,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a6efb880a95bdf5d34154ac0"
+                "local_7e88b3afa5bd33ea9fa107b0"
               ],
               "confidence": 92
             },
@@ -151,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f83e860b0757fe9e79d0ad44"
+                "local_d3ddbd9ccb1173135172efbb"
               ],
               "confidence": 92
             }
@@ -175,17 +187,17 @@
       ],
       "referencedFeedItemIds": [
         "local_8bd6d5316cc44eea9ad6ce9e",
-        "local_a6efb880a95bdf5d34154ac0",
-        "local_f83e860b0757fe9e79d0ad44",
+        "local_7e88b3afa5bd33ea9fa107b0",
+        "local_d3ddbd9ccb1173135172efbb",
         "local_eaec6031a87898598c7e326e"
       ],
-      "generatedAt": "2026-09-21T23:22:48.790Z",
+      "generatedAt": "2026-09-22T01:58:18.781Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-21T23:22:48.790Z",
+  "generatedAt": "2026-09-22T01:58:18.781Z",
   "collectorName": "local-source-collector"
 }

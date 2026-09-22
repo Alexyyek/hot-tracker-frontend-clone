@@ -5,16 +5,15 @@
       "topicId": "ai",
       "reportDate": "2026-09-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「【赛事速递】华为云星耀创想者大赛现场直击」、「New experts join Google’s AI & Economy team」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「【赛事速递】华为云星耀创想者大赛现场直击」、「New experts join Google’s AI & Economy team」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：【赛事速递】华为云星耀创想者大赛现场直击",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New experts join Google’s AI & Economy team",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Fulcra Brings Universal Multiplayer to Any Agents You Choose"
       ],
       "watchItems": [
         "跟进：【赛事速递】华为云星耀创想者大赛现场直击",
         "跟进：New experts join Google’s AI & Economy team",
-        "跟进：GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions",
         "跟进：Fulcra Brings Universal Multiplayer to Any Agents You Choose",
         "跟进：The new CC, an AI agent built for families"
       ],
@@ -29,16 +28,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_707b7fe543d0fa56adc395d5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions",
-              "summary": "Coding agents can modify and test code across large software projects. Game development is a domain where agents must implement gameplay rules. A game can end in a valid state even after violating its rules during the run. Current game-development benchmarks replay fixed example…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4b4edcf5bda1f30ad1009ece"
               ],
               "confidence": 92
             },
@@ -61,16 +50,6 @@
                 "local_c7bf4a69f8b7b04abacd3ea5"
               ],
               "confidence": 70
-            },
-            {
-              "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-              "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_cf725f28330cb3401e123caf"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -93,12 +72,10 @@
       "referencedFeedItemIds": [
         "local_707b7fe543d0fa56adc395d5",
         "local_d8c3b519e447aa2327049f68",
-        "local_4b4edcf5bda1f30ad1009ece",
         "local_0e711331bdbb22d425ecbebe",
-        "local_c7bf4a69f8b7b04abacd3ea5",
-        "local_cf725f28330cb3401e123caf"
+        "local_c7bf4a69f8b7b04abacd3ea5"
       ],
-      "generatedAt": "2026-09-21T23:22:48.807Z",
+      "generatedAt": "2026-09-22T01:58:18.801Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -167,13 +144,13 @@
         "local_d8c3b519e447aa2327049f68",
         "local_c7bf4a69f8b7b04abacd3ea5"
       ],
-      "generatedAt": "2026-09-21T23:22:48.807Z",
+      "generatedAt": "2026-09-22T01:58:18.801Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-21T23:22:48.807Z",
+  "generatedAt": "2026-09-22T01:58:18.802Z",
   "collectorName": "local-source-collector"
 }
