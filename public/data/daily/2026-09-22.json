@@ -5,15 +5,15 @@
       "topicId": "ai",
       "reportDate": "2026-09-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」、「Parallel cut research time and cost in half with GPT‑6 Astra」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「量子位「MEET2027智能未来大会」启动!年度榜单征集进行中」、「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Parallel cut research time and cost in half with GPT‑6 Astra",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS"
       ],
       "watchItems": [
+        "跟进：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "跟进：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "跟进：Parallel cut research time and cost in half with GPT‑6 Astra",
         "跟进：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
         "跟进：Xiaomi&#039;s affordable flagship AI leads the open models, and Anthropic says Claude helped get it there",
         "跟进：Agent 已经进入工作流,文件还要靠人传来传去?"
@@ -23,6 +23,16 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
+              "summary": "量子位 | 公众号 QbitAIAI,正变得前所未有的\"能干\".以前我们... 智能体从聊天走向作业,具身智能给模型配上身体,世界模型将虚...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a9b44405caaa5bc418bb2073"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The latest release brings AI agent capabilities to the ROS developer ecosystem while expanding open source physical AI libraries and deployment across the NVIDIA Jetson platform.",
               "insightLabel": "关注",
@@ -31,16 +41,6 @@
                 "local_64ea87ce6ec932b9f9cf5674"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1d92523310a885a1b4f940fd"
-              ],
-              "confidence": 78
             },
             {
               "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b0892fe70a5a75bbeed067a0"
+                "local_244f8fdd6bc56a7aedf9c1ee"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_13d24dcc8ad2134ff0861eae"
+                "local_7d112b1d4529227ff6fdd89d"
               ],
               "confidence": 92
             }
@@ -151,21 +151,21 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_a9b44405caaa5bc418bb2073",
         "local_64ea87ce6ec932b9f9cf5674",
-        "local_1d92523310a885a1b4f940fd",
         "local_b825ec82b86f188294ff4e02",
         "local_e587e0fa117a3e7b5a943cf3",
-        "local_b0892fe70a5a75bbeed067a0",
+        "local_244f8fdd6bc56a7aedf9c1ee",
         "local_dea57d2e81d17ac9b9b3a1d1",
         "local_7ebb60f579070002740a06d7",
-        "local_13d24dcc8ad2134ff0861eae",
+        "local_7d112b1d4529227ff6fdd89d",
         "local_190e173d603dc7480102569a",
         "local_6c15b23f27ea18a8311dc746",
         "local_3b62754f7ebbb376ffb1a426",
         "local_e05a25e7c55b7155919bb9a7",
         "local_1351a3476fc5b32af1433f0e"
       ],
-      "generatedAt": "2026-09-23T19:09:47.580Z",
+      "generatedAt": "2026-09-23T22:23:24.838Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -176,15 +176,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」、「Parallel cut research time and cost in half with GPT‑6 Astra」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「量子位「MEET2027智能未来大会」启动!年度榜单征集进行中」、「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Parallel cut research time and cost in half with GPT‑6 Astra",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS"
       ],
       "watchItems": [
+        "跟进：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "跟进：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "跟进：Parallel cut research time and cost in half with GPT‑6 Astra",
         "跟进：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
         "跟进：Agent 已经进入工作流,文件还要靠人传来传去?",
         "跟进：腾讯15年资深后台工程师,转战大模型推理的抉择"
@@ -194,6 +194,16 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
+              "summary": "量子位 | 公众号 QbitAIAI,正变得前所未有的\"能干\".以前我们... 智能体从聊天走向作业,具身智能给模型配上身体,世界模型将虚...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a9b44405caaa5bc418bb2073"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The latest release brings AI agent capabilities to the ROS developer ecosystem while expanding open source physical AI libraries and deployment across the NVIDIA Jetson platform.",
               "insightLabel": "关注",
@@ -202,16 +212,6 @@
                 "local_64ea87ce6ec932b9f9cf5674"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1d92523310a885a1b4f940fd"
-              ],
-              "confidence": 78
             },
             {
               "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
@@ -229,7 +229,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b0892fe70a5a75bbeed067a0"
+                "local_244f8fdd6bc56a7aedf9c1ee"
               ],
               "confidence": 92
             },
@@ -239,7 +239,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_13d24dcc8ad2134ff0861eae"
+                "local_7d112b1d4529227ff6fdd89d"
               ],
               "confidence": 92
             }
@@ -277,23 +277,23 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_a9b44405caaa5bc418bb2073",
         "local_64ea87ce6ec932b9f9cf5674",
-        "local_1d92523310a885a1b4f940fd",
         "local_b825ec82b86f188294ff4e02",
-        "local_b0892fe70a5a75bbeed067a0",
+        "local_244f8fdd6bc56a7aedf9c1ee",
         "local_dea57d2e81d17ac9b9b3a1d1",
-        "local_13d24dcc8ad2134ff0861eae",
+        "local_7d112b1d4529227ff6fdd89d",
         "local_190e173d603dc7480102569a",
         "local_6c15b23f27ea18a8311dc746",
         "local_3b62754f7ebbb376ffb1a426"
       ],
-      "generatedAt": "2026-09-23T19:09:47.580Z",
+      "generatedAt": "2026-09-23T22:23:24.838Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-23T19:09:47.580Z",
+  "generatedAt": "2026-09-23T22:23:24.839Z",
   "collectorName": "local-source-collector"
 }
