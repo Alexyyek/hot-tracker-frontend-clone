@@ -5,14 +5,12 @@
       "topicId": "ai",
       "reportDate": "2026-09-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries」、「日志服务 TLS AgentLoop:让多模态调用清晰可见」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「日志服务 TLS AgentLoop:让多模态调用清晰可见」、「从\"能用\"到\"懂你\":MobileMem探索端侧个性化智能体记忆新基准」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：日志服务 TLS AgentLoop:让多模态调用清晰可见",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从\"能用\"到\"懂你\":MobileMem探索端侧个性化智能体记忆新基准"
       ],
       "watchItems": [
-        "跟进：Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
         "跟进：日志服务 TLS AgentLoop:让多模态调用清晰可见",
         "跟进：从\"能用\"到\"懂你\":MobileMem探索端侧个性化智能体记忆新基准"
       ],
@@ -20,16 +18,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Adecco Group is rolling out Salesforce&#8217;s Agentforce Coworker across more than 40 countries following a pilot in the UK and France, the staffing group&#160;announced&#160;on September 15. The group said the rol…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_34fcd6e21b822af90e4f3a51"
-              ],
-              "confidence": 92
-            },
             {
               "title": "日志服务 TLS AgentLoop:让多模态调用清晰可见",
               "summary": "四、背后的实现思路不同团队的多模态数据来源并不相同:来自 Agent 运行时附件;已存放在客户自有 TOS 桶中的媒体文件;直接使...",
@@ -46,7 +34,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5466b3450c320d61a0775777"
+                "local_a3175253b96088ee22516a65"
               ],
               "confidence": 92
             }
@@ -54,11 +42,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_34fcd6e21b822af90e4f3a51",
         "local_ae5361a1e67d68ccba89dc54",
-        "local_5466b3450c320d61a0775777"
+        "local_a3175253b96088ee22516a65"
       ],
-      "generatedAt": "2026-09-23T10:03:55.361Z",
+      "generatedAt": "2026-09-23T15:06:18.614Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -98,7 +85,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5466b3450c320d61a0775777"
+                "local_a3175253b96088ee22516a65"
               ],
               "confidence": 92
             }
@@ -107,15 +94,15 @@
       ],
       "referencedFeedItemIds": [
         "local_ae5361a1e67d68ccba89dc54",
-        "local_5466b3450c320d61a0775777"
+        "local_a3175253b96088ee22516a65"
       ],
-      "generatedAt": "2026-09-23T10:03:55.361Z",
+      "generatedAt": "2026-09-23T15:06:18.614Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-23T10:03:55.362Z",
+  "generatedAt": "2026-09-23T15:06:18.614Z",
   "collectorName": "local-source-collector"
 }
