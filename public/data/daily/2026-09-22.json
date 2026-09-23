@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-09-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「llm-typesafe 0.1a0」、「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」、「Parallel cut research time and cost in half with GPT‑6 Astra」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：llm-typesafe 0.1a0",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Parallel cut research time and cost in half with GPT‑6 Astra"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Parallel cut research time and cost in half with GPT‑6 Astra",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS"
       ],
       "watchItems": [
-        "跟进：llm-typesafe 0.1a0",
         "跟进：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
         "跟进：Parallel cut research time and cost in half with GPT‑6 Astra",
         "跟进：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-        "跟进：Xiaomi&#039;s affordable flagship AI leads the open models, and Anthropic says Claude helped get it there"
+        "跟进：Xiaomi&#039;s affordable flagship AI leads the open models, and Anthropic says Claude helped get it there",
+        "跟进：Agent 已经进入工作流,文件还要靠人传来传去?"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "llm-typesafe 0.1a0",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model. Install it like this: llm install llm-typesafe Then set an API key (get one here, the waitlist seems to move pr…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9ab3fc6bdf9cb11ee08fc535"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Xiaomi&#039;s affordable flagship AI leads the open models, and Anthropic says Claude helped get it there",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：With MiMo-V2.6-Pro, Xiaomi moves to the top of the openly available AI models and drastically undercuts the competition on price. What makes that possible is massive reinforcement learning that cost $2.62 million. But t…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e587e0fa117a3e7b5a943cf3"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "腾讯15年资深后台工程师,转战大模型推理的抉择",
-              "summary": "大模型正在重塑每一个行业:2023 年 RAG 在搜索场景全面铺开,2024 年 AI 编程日趋成熟.全新的交互模式与技术栈正在孕育,因此...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_483673a98397804d06d13624"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-              "summary": "来自Hugging Face的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e05a25e7c55b7155919bb9a7"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
-              "summary": "Standard subword tokenizers either treat every orthographic variation of a word (such as hello, Hello, HELLO, and Héllo) as unrelated vocabulary entries, which fragments the embedding space, or discard this variation through lossy normalization. We present the Functionalizer, a …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f512f236c296ae423bc5b97c"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -123,7 +68,52 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_65c837e5fc1f619fb1569270"
+                "local_801c4f31d2576cab0a46c0b1"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Xiaomi&#039;s affordable flagship AI leads the open models, and Anthropic says Claude helped get it there",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：With MiMo-V2.6-Pro, Xiaomi moves to the top of the openly available AI models and drastically undercuts the competition on price. What makes that possible is massive reinforcement learning that cost $2.62 million. But t…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e587e0fa117a3e7b5a943cf3"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "腾讯15年资深后台工程师,转战大模型推理的抉择",
+              "summary": "作者:吴银光导语:本文讲述腾讯15年资深后台工程师,在 AI 时代如何入门大模型推理工程.全文围绕三条主线展开:从资深后台工...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_77b67ffd14d2cd0778539269"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+              "summary": "来自Hugging Face的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e05a25e7c55b7155919bb9a7"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_1351a3476fc5b32af1433f0e"
               ],
               "confidence": 92
             }
@@ -166,47 +156,31 @@
                 "local_3b62754f7ebbb376ffb1a426"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Cloudflare Python Workers are now generally available",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully suppo…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_4f56131a8cfe13780f2e8352"
-              ],
-              "confidence": 74
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_9ab3fc6bdf9cb11ee08fc535",
         "local_64ea87ce6ec932b9f9cf5674",
         "local_1d92523310a885a1b4f940fd",
         "local_b825ec82b86f188294ff4e02",
         "local_e587e0fa117a3e7b5a943cf3",
         "local_7b241f27b1d3b79f4f3a2665",
-        "local_483673a98397804d06d13624",
+        "local_77b67ffd14d2cd0778539269",
         "local_7ebb60f579070002740a06d7",
-        "local_65c837e5fc1f619fb1569270",
-        "local_b40e7b2061ef9e297262d7e2",
-        "local_a88583979b493be73bcd7de4",
+        "local_801c4f31d2576cab0a46c0b1",
+        "local_622d46f9aae09e4c3a005c4f",
+        "local_d97f7cc8a5229dec77c53feb",
         "local_3b62754f7ebbb376ffb1a426",
-        "local_67011ce89a0baee8b15a4819",
+        "local_a50d8dbf841e9825d59e6ccd",
         "local_e05a25e7c55b7155919bb9a7",
-        "local_eaf20e8bc62ff22148e6764b",
-        "local_5353ddf354f7ce1b632cd286",
-        "local_28bfb4c9f3835e5e83b80930",
-        "local_f512f236c296ae423bc5b97c",
-        "local_2bc55a7cb54783837edd013f",
-        "local_4f56131a8cfe13780f2e8352",
+        "local_1351a3476fc5b32af1433f0e",
         "local_f16dc93ba8f662ee0ebf9bf2",
         "local_d0ecc6cf3f7a6ba808e74810",
-        "local_35292d1b5351876112fbbfd2",
-        "local_6c900704a5ed9afb3c04653d"
+        "local_2abcbfb75c88e543799f8e87",
+        "local_b102a27f3ce0ef194160c9ad"
       ],
-      "generatedAt": "2026-09-22T23:55:51.830Z",
+      "generatedAt": "2026-09-23T04:48:02.472Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -280,7 +254,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_65c837e5fc1f619fb1569270"
+                "local_801c4f31d2576cab0a46c0b1"
               ],
               "confidence": 92
             }
@@ -291,11 +265,11 @@
           "items": [
             {
               "title": "腾讯15年资深后台工程师,转战大模型推理的抉择",
-              "summary": "大模型正在重塑每一个行业:2023 年 RAG 在搜索场景全面铺开,2024 年 AI 编程日趋成熟.全新的交互模式与技术栈正在孕育,因此...",
+              "summary": "作者:吴银光导语:本文讲述腾讯15年资深后台工程师,在 AI 时代如何入门大模型推理工程.全文围绕三条主线展开:从资深后台工...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_483673a98397804d06d13624"
+                "local_77b67ffd14d2cd0778539269"
               ],
               "confidence": 92
             }
@@ -337,22 +311,22 @@
         "local_1d92523310a885a1b4f940fd",
         "local_b825ec82b86f188294ff4e02",
         "local_7b241f27b1d3b79f4f3a2665",
-        "local_483673a98397804d06d13624",
-        "local_65c837e5fc1f619fb1569270",
-        "local_b40e7b2061ef9e297262d7e2",
-        "local_a88583979b493be73bcd7de4",
+        "local_77b67ffd14d2cd0778539269",
+        "local_801c4f31d2576cab0a46c0b1",
+        "local_622d46f9aae09e4c3a005c4f",
+        "local_d97f7cc8a5229dec77c53feb",
         "local_3b62754f7ebbb376ffb1a426",
-        "local_67011ce89a0baee8b15a4819",
+        "local_a50d8dbf841e9825d59e6ccd",
         "local_f16dc93ba8f662ee0ebf9bf2",
         "local_d0ecc6cf3f7a6ba808e74810"
       ],
-      "generatedAt": "2026-09-22T23:55:51.830Z",
+      "generatedAt": "2026-09-23T04:48:02.472Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-22T23:55:51.830Z",
+  "generatedAt": "2026-09-23T04:48:02.472Z",
   "collectorName": "local-source-collector"
 }
