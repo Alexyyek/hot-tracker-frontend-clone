@@ -5,17 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-09-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
         "跟进：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
         "跟进：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
         "跟进：单个机柜到底能跑多少个 Agent？答案不在 GPU 身上"
       ],
       "sections": [
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d692c614eaf213983c8d2cad"
+                "local_9603abae55f38c36ded488f4"
               ],
               "confidence": 78
             },
@@ -38,9 +38,64 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_227ab7ff4671e48d9c6cc2ef"
+                "local_aeb6c2eb63a80c9b6fcd58f2"
               ],
               "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
+              "summary": "从 Harness 到 Loop 的持续进化Agent 的上线不是 Loop 的终点，而是 Loop 的起点。本期直播邀请了蚂蚁、腾讯、京东一线实践专家，从 Harness 到 Loop，探讨 Agent 如何实现可靠交付与持续进化。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7fff439333634dd6a1d807c0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
+              "summary": "过去半年多，菜鸟内部 AI Coding 贡献率从约 10% 提升至 90% 以上，但编码自动化并未带来同等幅度的需求交付提速。为此，菜鸟开始将探索范围从 Vibe Coding 扩展到需求端到端托管交付，并尝试用通用 Agent、Plugin、Playbook 和云端沙箱构建企业级交付体系。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cc620567c8619b7a463ce6b1"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
+              "summary": "这也让 Agent 加速进入企业端。数据显示，2026—2027 年，中国企业场景中的活跃智能体（Agent）数量单年同比增长超 200%，到 2031 年预计可达到 3.5 亿个。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_34756d899e0f780080601c26"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85b6150ecd391818d84aad08"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_12e9da25604587cfac12cb61"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -53,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c2e5c6d0dd3e9cbc3cb031f4"
+                "local_8c51817884f600ad7f7e471c"
               ],
               "confidence": 82
             },
@@ -63,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_568298d1536ef77415a4607e"
+                "local_1fd5b5a862f4f3ceb93c277c"
               ],
               "confidence": 78
             },
@@ -83,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_288a705070c5d3ee7b7fad6a"
+                "local_26b08d785d1f256ed70c6017"
               ],
               "confidence": 82
             },
@@ -93,9 +148,86 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6d2a08a48dc0ee375ab07b9f"
+                "local_7240e802c402e23f95aed7bb"
               ],
               "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_9603abae55f38c36ded488f4",
+        "local_7fff439333634dd6a1d807c0",
+        "local_8c51817884f600ad7f7e471c",
+        "local_cc620567c8619b7a463ce6b1",
+        "local_34756d899e0f780080601c26",
+        "local_1fd5b5a862f4f3ceb93c277c",
+        "local_85b6150ecd391818d84aad08",
+        "local_fa688742e4d6791f7aca2054",
+        "local_12e9da25604587cfac12cb61",
+        "local_3d8dce4fa97f6f83265c92b4",
+        "local_1d531872e054cc590e373d0b",
+        "local_bae6c3eb8ebf586be22e360e",
+        "local_ee23d6fd407ed14b6ec2080c",
+        "local_1967c5bb6ed512e5f5924741",
+        "local_26b08d785d1f256ed70c6017",
+        "local_7240e802c402e23f95aed7bb",
+        "local_d818c9577fab3c54b5ac980e",
+        "local_2d2d9e1d8e341b4485b80e93",
+        "local_1872c70f600bb52e9dcc1b95",
+        "local_23991c8340eadd075d15bbce",
+        "local_5304e389d88fad996fa62a1a",
+        "local_aeb6c2eb63a80c9b6fcd58f2",
+        "local_07ade2c5df861c769bce47b8",
+        "local_569011572d15129a5139d7d3"
+      ],
+      "generatedAt": "2026-09-24T20:37:13.604Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-09-12",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-09-12",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂"
+      ],
+      "watchItems": [
+        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
+        "跟进：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
+        "跟进：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
+        "跟进：单个机柜到底能跑多少个 Agent？答案不在 GPU 身上"
+      ],
+      "sections": [
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_9603abae55f38c36ded488f4"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Seed News - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_aeb6c2eb63a80c9b6fcd58f2"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -103,22 +235,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "从 Harness 到 Loop 的持续进化_AI&大模型_QCon全球软件开发大会_InfoQ精选视频",
+              "summary": "从 Harness 到 Loop 的持续进化Agent 的上线不是 Loop 的终点，而是 Loop 的起点。本期直播邀请了蚂蚁、腾讯、京东一线实践专家，从 Harness 到 Loop，探讨 Agent 如何实现可靠交付与持续进化。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7fff439333634dd6a1d807c0"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
               "summary": "过去半年多，菜鸟内部 AI Coding 贡献率从约 10% 提升至 90% 以上，但编码自动化并未带来同等幅度的需求交付提速。为此，菜鸟开始将探索范围从 Vibe Coding 扩展到需求端到端托管交付，并尝试用通用 Agent、Plugin、Playbook 和云端沙箱构建企业级交付体系。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d9a719642a94287185a3353d"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9c20f62d282c9ba945c8296f"
+                "local_cc620567c8619b7a463ce6b1"
               ],
               "confidence": 86
             },
@@ -128,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_137dce4fb1b3c26d82ca9e6b"
+                "local_34756d899e0f780080601c26"
               ],
               "confidence": 92
             },
@@ -153,83 +285,6 @@
               "confidence": 92
             }
           ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_d692c614eaf213983c8d2cad",
-        "local_c2e5c6d0dd3e9cbc3cb031f4",
-        "local_d9a719642a94287185a3353d",
-        "local_9c20f62d282c9ba945c8296f",
-        "local_137dce4fb1b3c26d82ca9e6b",
-        "local_568298d1536ef77415a4607e",
-        "local_85b6150ecd391818d84aad08",
-        "local_fa688742e4d6791f7aca2054",
-        "local_12e9da25604587cfac12cb61",
-        "local_3d8dce4fa97f6f83265c92b4",
-        "local_a1fb232eff6ce617f40cee78",
-        "local_32ada692f821ca09ce93676e",
-        "local_6fa94f9e70df020b8360de6d",
-        "local_90a129effd1e6ac316c0d8ab",
-        "local_288a705070c5d3ee7b7fad6a",
-        "local_6d2a08a48dc0ee375ab07b9f",
-        "local_c15e1196f4b8fb94be94becb",
-        "local_3a003122a909102f12565a21",
-        "local_fc3f9371d3c5e248915fa765",
-        "local_d96455f13f291c26d42e07be",
-        "local_4081b83e2a062eb1ce8ea1e9",
-        "local_227ab7ff4671e48d9c6cc2ef",
-        "local_6106c2ac8cedbcd673d0c09a",
-        "local_74e62a7cae26341e324578f0"
-      ],
-      "generatedAt": "2026-09-24T17:13:57.620Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-09-12",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-09-12",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？"
-      ],
-      "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
-        "跟进：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-        "跟进：单个机柜到底能跑多少个 Agent？答案不在 GPU 身上"
-      ],
-      "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d692c614eaf213983c8d2cad"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_227ab7ff4671e48d9c6cc2ef"
-              ],
-              "confidence": 70
-            }
-          ]
         },
         {
           "title": "模型与基础设施",
@@ -240,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c2e5c6d0dd3e9cbc3cb031f4"
+                "local_8c51817884f600ad7f7e471c"
               ],
               "confidence": 82
             },
@@ -250,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_568298d1536ef77415a4607e"
+                "local_1fd5b5a862f4f3ceb93c277c"
               ],
               "confidence": 78
             },
@@ -270,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d96455f13f291c26d42e07be"
+                "local_23991c8340eadd075d15bbce"
               ],
               "confidence": 92
             },
@@ -280,62 +335,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6106c2ac8cedbcd673d0c09a"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-              "summary": "过去半年多，菜鸟内部 AI Coding 贡献率从约 10% 提升至 90% 以上，但编码自动化并未带来同等幅度的需求交付提速。为此，菜鸟开始将探索范围从 Vibe Coding 扩展到需求端到端托管交付，并尝试用通用 Agent、Plugin、Playbook 和云端沙箱构建企业级交付体系。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d9a719642a94287185a3353d"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9c20f62d282c9ba945c8296f"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
-              "summary": "这也让 Agent 加速进入企业端。数据显示，2026—2027 年，中国企业场景中的活跃智能体（Agent）数量单年同比增长超 200%，到 2031 年预计可达到 3.5 亿个。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_137dce4fb1b3c26d82ca9e6b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_85b6150ecd391818d84aad08"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_12e9da25604587cfac12cb61"
+                "local_07ade2c5df861c769bce47b8"
               ],
               "confidence": 92
             }
@@ -343,31 +343,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d692c614eaf213983c8d2cad",
-        "local_c2e5c6d0dd3e9cbc3cb031f4",
-        "local_d9a719642a94287185a3353d",
-        "local_9c20f62d282c9ba945c8296f",
-        "local_137dce4fb1b3c26d82ca9e6b",
-        "local_568298d1536ef77415a4607e",
+        "local_9603abae55f38c36ded488f4",
+        "local_7fff439333634dd6a1d807c0",
+        "local_8c51817884f600ad7f7e471c",
+        "local_cc620567c8619b7a463ce6b1",
+        "local_34756d899e0f780080601c26",
+        "local_1fd5b5a862f4f3ceb93c277c",
         "local_85b6150ecd391818d84aad08",
         "local_fa688742e4d6791f7aca2054",
         "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
-        "local_d96455f13f291c26d42e07be",
-        "local_4081b83e2a062eb1ce8ea1e9",
-        "local_227ab7ff4671e48d9c6cc2ef",
-        "local_6106c2ac8cedbcd673d0c09a",
-        "local_74e62a7cae26341e324578f0",
-        "local_a4249a0ff4afdd85bb79c49d",
-        "local_01881adfd9612f0a60c6f434"
+        "local_23991c8340eadd075d15bbce",
+        "local_5304e389d88fad996fa62a1a",
+        "local_aeb6c2eb63a80c9b6fcd58f2",
+        "local_07ade2c5df861c769bce47b8",
+        "local_569011572d15129a5139d7d3",
+        "local_af58f3e17baf09cc3436e131",
+        "local_1613b2c1c9cbebfe38f32c5b"
       ],
-      "generatedAt": "2026-09-24T17:13:57.620Z",
+      "generatedAt": "2026-09-24T20:37:13.604Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-24T17:13:57.620Z",
+  "generatedAt": "2026-09-24T20:37:13.604Z",
   "collectorName": "local-source-collector"
 }

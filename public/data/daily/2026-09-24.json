@@ -5,43 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-09-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「OpenAI&#039;s agents went after government and university sites months before Hugging Face」、「Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Helping 25,000 veterans and military families build careers in skilled trades」、「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI&#039;s agents went after government and university sites months before Hugging Face",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping 25,000 veterans and military families build careers in skilled trades"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping 25,000 veterans and military families build careers in skilled trades",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：代码生成越来越快,软件交付真正的瓶颈转向了哪里?"
       ],
       "watchItems": [
-        "跟进：OpenAI&#039;s agents went after government and university sites months before Hugging Face",
-        "跟进：Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door",
         "跟进：Helping 25,000 veterans and military families build careers in skilled trades",
         "跟进：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-        "跟进：以开放之云,重塑Agentic AI开发新范式"
+        "跟进：代码生成越来越快,软件交付真正的瓶颈转向了哪里?",
+        "跟进：以开放之云,重塑Agentic AI开发新范式",
+        "跟进：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "OpenAI&#039;s agents went after government and university sites months before Hugging Face",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：According to Transluce researchers and the Australian government, OpenAI's AI agents repeatedly broke into government and university websites without authorization, including Australia's Medicare portal on June 18. The …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b0876bb0f729fe7fe957c6c1"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Deepmind was built to chase AGI, but its new chief just wants Gemini 4 out the door",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Deepmind chief Koray Kavukcuoglu wants to release Gemini 4 \"much earlier\" than the end of the year. The model is already in post-training and runs internally in the coding tool Antigravity. He calls the AGI quest…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_cc2ea27f0b08550c63ed3c04"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Helping 25,000 veterans and military families build careers in skilled trades",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google.org is supporting organizations to help veterans and military families find careers in skilled trades.",
@@ -68,22 +48,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_46379087741a5fe3858f4148"
+                "local_92d0344b14e43c07979449ab"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
+            },
             {
-              "title": "Knowledge Pull Requests for Continual Document Authoring",
-              "summary": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interpretable. Documents require ongoing revision as new knowledge surfaces from other sources, languages, or times, but existing approaches either edit with no accou…",
+              "title": "北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链",
+              "summary": "北京交通大学、清华大学与蚂蚁集团的研究者提出 ARGUS,将多智能体协作引入视频鉴伪.观察智能体从不同角度寻找证据,裁判智...",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_400b695d6ac9565a2c0bc662"
+                "local_d6824fdd0401b350ffefda88"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI行业新闻简报:Agent成主战场,安全",
+              "summary": "Agent 的底层沙箱系统.AI 正在从\"陪你聊天\"变成\"替你干活\",权限给得越多,这根安全弦就得绷得越紧.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_02d3698df38735190f8a7071"
               ],
               "confidence": 92
             }
@@ -92,6 +77,16 @@
         {
           "title": "行业与公司",
           "items": [
+            {
+              "title": "代码生成越来越快,软件交付真正的瓶颈转向了哪里?",
+              "summary": "AI Native 研发实践论坛在云栖大会举办.机器之心联合创始人、主编李亚洲,阿里巴巴研发基础设施负责人许晓斌,千问事业部杰出技...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_f551ef95f047637128602a34"
+              ],
+              "confidence": 82
+            },
             {
               "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
               "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple custom tool through a standard API feature, we induce frontier…",
@@ -123,17 +118,31 @@
               "confidence": 86
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Knowledge Pull Requests for Continual Document Authoring",
+              "summary": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interpretable. Documents require ongoing revision as new knowledge surfaces from other sources, languages, or times, but existing approaches either edit with no accou…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_400b695d6ac9565a2c0bc662"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_b0876bb0f729fe7fe957c6c1",
-        "local_cc2ea27f0b08550c63ed3c04",
         "local_66d2597edeb5e069754e59ab",
         "local_d5e4451e62f6cb421cfc75f1",
-        "local_46379087741a5fe3858f4148",
-        "local_7c21d7c38cfe8fdbf89a2a44",
+        "local_f551ef95f047637128602a34",
+        "local_92d0344b14e43c07979449ab",
+        "local_d6824fdd0401b350ffefda88",
         "local_02d3698df38735190f8a7071",
-        "local_a6f2263cf74b1d9c88be6fee",
+        "local_28e92ba3e8a9f18708f88d57",
         "local_348c25ff6e5d342cf7de91aa",
         "local_400b695d6ac9565a2c0bc662",
         "local_619b202b22164dfde6a931f2",
@@ -143,7 +152,7 @@
         "local_6ef7241dec0501f4f5149022",
         "local_024057f6957627b43084e1ac"
       ],
-      "generatedAt": "2026-09-24T17:13:57.469Z",
+      "generatedAt": "2026-09-24T20:37:13.482Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -154,18 +163,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-24",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Helping 25,000 veterans and military families build careers in skilled trades」、「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Helping 25,000 veterans and military families build careers in skilled trades」、「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping 25,000 veterans and military families build careers in skilled trades",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：以开放之云,重塑Agentic AI开发新范式"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：代码生成越来越快,软件交付真正的瓶颈转向了哪里?"
       ],
       "watchItems": [
         "跟进：Helping 25,000 veterans and military families build careers in skilled trades",
         "跟进：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+        "跟进：代码生成越来越快,软件交付真正的瓶颈转向了哪里?",
         "跟进：以开放之云,重塑Agentic AI开发新范式",
-        "跟进：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链",
-        "跟进：全球AI行业新闻简报:Agent成主战场,安全"
+        "跟进：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链"
       ],
       "sections": [
         {
@@ -197,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_46379087741a5fe3858f4148"
+                "local_92d0344b14e43c07979449ab"
               ],
               "confidence": 92
             },
@@ -207,7 +216,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7c21d7c38cfe8fdbf89a2a44"
+                "local_d6824fdd0401b350ffefda88"
               ],
               "confidence": 92
             },
@@ -222,26 +231,42 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "代码生成越来越快,软件交付真正的瓶颈转向了哪里?",
+              "summary": "AI Native 研发实践论坛在云栖大会举办.机器之心联合创始人、主编李亚洲,阿里巴巴研发基础设施负责人许晓斌,千问事业部杰出技...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_f551ef95f047637128602a34"
+              ],
+              "confidence": 82
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_66d2597edeb5e069754e59ab",
         "local_d5e4451e62f6cb421cfc75f1",
-        "local_46379087741a5fe3858f4148",
-        "local_7c21d7c38cfe8fdbf89a2a44",
+        "local_f551ef95f047637128602a34",
+        "local_92d0344b14e43c07979449ab",
+        "local_d6824fdd0401b350ffefda88",
         "local_02d3698df38735190f8a7071",
-        "local_a6f2263cf74b1d9c88be6fee",
+        "local_28e92ba3e8a9f18708f88d57",
         "local_bb20172851ae1fb229cdfc4a",
         "local_6ef7241dec0501f4f5149022",
         "local_024057f6957627b43084e1ac"
       ],
-      "generatedAt": "2026-09-24T17:13:57.469Z",
+      "generatedAt": "2026-09-24T20:37:13.482Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-24T17:13:57.469Z",
+  "generatedAt": "2026-09-24T20:37:13.483Z",
   "collectorName": "local-source-collector"
 }
