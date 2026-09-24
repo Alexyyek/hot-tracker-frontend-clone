@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「React Native 的黄金时代，在 AI 手里结束了」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：React Native 的黄金时代，在 AI 手里结束了",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：React Native 的黄金时代，在 AI 手里结束了",
         "跟进：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
         "跟进：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-        "跟进：Moonshot AI - 博客"
+        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_90c955349b614e4dcb9ea095"
+                "local_d2b9edd1e2b2082b440d4b7d"
               ],
               "confidence": 78
             },
@@ -38,9 +38,64 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fc6d0252112973c88d724b99"
+                "local_212ee854bc08c4c144f25241"
               ],
               "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "React Native 的黄金时代，在 AI 手里结束了",
+              "summary": "火了十年的 React Native，在它最成熟的那一年，被 Agent 改写了命运",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5752b4c2befba5d607b290a9"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
+              "summary": "过去半年多，菜鸟内部 AI Coding 贡献率从约 10% 提升至 90% 以上，但编码自动化并未带来同等幅度的需求交付提速。为此，菜鸟开始将探索范围从 Vibe Coding 扩展到需求端到端托管交付，并尝试用通用 Agent、Plugin、Playbook 和云端沙箱构建企业级交付体系。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_138b5988b6c7b00d6a260b37"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
+              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5ff9197b8e3d5c71f55a8026"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_12e9da25604587cfac12cb61"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Why client SDK generation belongs in the open",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3d8dce4fa97f6f83265c92b4"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -53,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2e50f71c1101f6b1f0f6fe52"
+                "local_dfaa1bcc653d52ba9442fba1"
               ],
               "confidence": 82
             },
@@ -63,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_30cd3f25790f618fcc5a0b44"
+                "local_fc27386979cc66c91bdf4296"
               ],
               "confidence": 78
             },
@@ -73,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_01ff59b04874be2cfafc5d99"
+                "local_b2c78041fa7b74987795c84d"
               ],
               "confidence": 82
             },
@@ -83,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_66e5d014bdc970af8f8f4807"
+                "local_11919bc821ae8c15c5431e88"
               ],
               "confidence": 92
             },
@@ -93,62 +148,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a57d265aa1fb018de5b36d70"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-              "summary": "过去半年多，菜鸟内部 AI Coding 贡献率从约 10% 提升至 90% 以上，但编码自动化并未带来同等幅度的需求交付提速。为此，菜鸟开始将探索范围从 Vibe Coding 扩展到需求端到端托管交付，并尝试用通用 Agent、Plugin、Playbook 和云端沙箱构建企业级交付体系。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_69ba7440fca89b8005ad1372"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_79e09b43d0466f435b0755e0"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Why client SDK generation belongs in the open",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d8dce4fa97f6f83265c92b4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live r…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_02c910b375369cc1e3eac9b8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Build zero-trust AI agents that judge intent, not just syntax",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：This blog post explores how to transition AI agents from static, build-time security controls to dynamic runtime governance using the Gemini Enterprise Agent Platform. It highlights three primary managed defenses: Model…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_19b5a49e480de581e2aeebaf"
+                "local_40bad2ab06237cac6b5ccbd5"
               ],
               "confidence": 92
             }
@@ -156,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_90c955349b614e4dcb9ea095",
-        "local_2e50f71c1101f6b1f0f6fe52",
-        "local_69ba7440fca89b8005ad1372",
-        "local_79e09b43d0466f435b0755e0",
-        "local_30cd3f25790f618fcc5a0b44",
+        "local_d2b9edd1e2b2082b440d4b7d",
+        "local_5752b4c2befba5d607b290a9",
+        "local_dfaa1bcc653d52ba9442fba1",
+        "local_138b5988b6c7b00d6a260b37",
+        "local_5ff9197b8e3d5c71f55a8026",
+        "local_fc27386979cc66c91bdf4296",
+        "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
         "local_02c910b375369cc1e3eac9b8",
         "local_19b5a49e480de581e2aeebaf",
-        "local_12e9da25604587cfac12cb61",
-        "local_f0e4f478cb32f69366ca5567",
-        "local_1dd0bde01a692fd616eed2bb",
-        "local_3811f032478af16a6e38f021",
-        "local_18405fba7f9279464ff225a9",
-        "local_01ff59b04874be2cfafc5d99",
-        "local_66e5d014bdc970af8f8f4807",
-        "local_e3370e058b189b4c04a3620b",
-        "local_b4d660cb4dd25997c0fae975",
-        "local_f18eb7431f4a654a0ab89cab",
-        "local_a57d265aa1fb018de5b36d70",
-        "local_3d70ef27a7f0caaa3cbbd56c",
-        "local_fc6d0252112973c88d724b99",
-        "local_5a80f56096db51dc24650549",
-        "local_f0ca99f67826cab670760195",
-        "local_496505559d1d261fe0f9fcdc"
+        "local_1bacabbd91118edf04f2a0d8",
+        "local_24aac0f7272d50fdb99682ed",
+        "local_48260b9920526e6fd55fa973",
+        "local_40652a745984a41630370756",
+        "local_b2c78041fa7b74987795c84d",
+        "local_11919bc821ae8c15c5431e88",
+        "local_d36178b0e0bb96649430c992",
+        "local_2e6bec7cb1ca3003e95b2216",
+        "local_335e57714f346827bd4d307c",
+        "local_40bad2ab06237cac6b5ccbd5",
+        "local_78af509decc99e9fafd80107",
+        "local_212ee854bc08c4c144f25241",
+        "local_6a16c0536c788966316fa7f4",
+        "local_647092b7e4756d85d60961f1"
       ],
-      "generatedAt": "2026-09-23T22:23:24.812Z",
+      "generatedAt": "2026-09-24T01:00:32.606Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,18 +192,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-24",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「React Native 的黄金时代，在 AI 手里结束了」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：React Native 的黄金时代，在 AI 手里结束了",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：React Native 的黄金时代，在 AI 手里结束了",
         "跟进：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
         "跟进：AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-        "跟进：Moonshot AI - 博客"
+        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践"
       ],
       "sections": [
         {
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_90c955349b614e4dcb9ea095"
+                "local_d2b9edd1e2b2082b440d4b7d"
               ],
               "confidence": 78
             },
@@ -225,9 +225,64 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fc6d0252112973c88d724b99"
+                "local_212ee854bc08c4c144f25241"
               ],
               "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "React Native 的黄金时代，在 AI 手里结束了",
+              "summary": "火了十年的 React Native，在它最成熟的那一年，被 Agent 改写了命运",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5752b4c2befba5d607b290a9"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
+              "summary": "过去半年多，菜鸟内部 AI Coding 贡献率从约 10% 提升至 90% 以上，但编码自动化并未带来同等幅度的需求交付提速。为此，菜鸟开始将探索范围从 Vibe Coding 扩展到需求端到端托管交付，并尝试用通用 Agent、Plugin、Playbook 和云端沙箱构建企业级交付体系。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_138b5988b6c7b00d6a260b37"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
+              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5ff9197b8e3d5c71f55a8026"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_12e9da25604587cfac12cb61"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Why client SDK generation belongs in the open",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3d8dce4fa97f6f83265c92b4"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -240,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2e50f71c1101f6b1f0f6fe52"
+                "local_dfaa1bcc653d52ba9442fba1"
               ],
               "confidence": 82
             },
@@ -250,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_30cd3f25790f618fcc5a0b44"
+                "local_fc27386979cc66c91bdf4296"
               ],
               "confidence": 78
             },
@@ -260,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a57d265aa1fb018de5b36d70"
+                "local_40bad2ab06237cac6b5ccbd5"
               ],
               "confidence": 92
             },
@@ -270,62 +325,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5a80f56096db51dc24650549"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "AI Coding 贡献率超 90%，需求交付却只快了 10%：菜鸟如何用 Agent 托管端到端交付？",
-              "summary": "过去半年多，菜鸟内部 AI Coding 贡献率从约 10% 提升至 90% 以上，但编码自动化并未带来同等幅度的需求交付提速。为此，菜鸟开始将探索范围从 Vibe Coding 扩展到需求端到端托管交付，并尝试用通用 Agent、Plugin、Playbook 和云端沙箱构建企业级交付体系。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_69ba7440fca89b8005ad1372"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_79e09b43d0466f435b0755e0"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Why client SDK generation belongs in the open",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d8dce4fa97f6f83265c92b4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agent Anomaly Detection is a new, out-of-band oversight layer for the Gemini Enterprise Agent Platform that analyzes OpenTelemetry traces and tool calls to catch behavioral risks without adding runtime latency to live r…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_02c910b375369cc1e3eac9b8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Build zero-trust AI agents that judge intent, not just syntax",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：This blog post explores how to transition AI agents from static, build-time security controls to dynamic runtime governance using the Gemini Enterprise Agent Platform. It highlights three primary managed defenses: Model…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_19b5a49e480de581e2aeebaf"
+                "local_6a16c0536c788966316fa7f4"
               ],
               "confidence": 92
             }
@@ -333,34 +333,34 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_90c955349b614e4dcb9ea095",
-        "local_2e50f71c1101f6b1f0f6fe52",
-        "local_69ba7440fca89b8005ad1372",
-        "local_79e09b43d0466f435b0755e0",
-        "local_30cd3f25790f618fcc5a0b44",
+        "local_d2b9edd1e2b2082b440d4b7d",
+        "local_5752b4c2befba5d607b290a9",
+        "local_dfaa1bcc653d52ba9442fba1",
+        "local_138b5988b6c7b00d6a260b37",
+        "local_5ff9197b8e3d5c71f55a8026",
+        "local_fc27386979cc66c91bdf4296",
+        "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
         "local_02c910b375369cc1e3eac9b8",
         "local_19b5a49e480de581e2aeebaf",
-        "local_12e9da25604587cfac12cb61",
-        "local_a57d265aa1fb018de5b36d70",
-        "local_3d70ef27a7f0caaa3cbbd56c",
-        "local_fc6d0252112973c88d724b99",
-        "local_5a80f56096db51dc24650549",
-        "local_f0ca99f67826cab670760195",
-        "local_496505559d1d261fe0f9fcdc",
-        "local_7d7c87fb08ad3842441b5a6c",
-        "local_66cbcf5528fade472b514d9a",
+        "local_40bad2ab06237cac6b5ccbd5",
+        "local_78af509decc99e9fafd80107",
+        "local_212ee854bc08c4c144f25241",
+        "local_6a16c0536c788966316fa7f4",
+        "local_647092b7e4756d85d60961f1",
+        "local_417ac4774e6301d570b4dd15",
+        "local_06d8ab805ec6767e67f1a474",
         "local_bb20172851ae1fb229cdfc4a",
         "local_6ef7241dec0501f4f5149022",
         "local_024057f6957627b43084e1ac"
       ],
-      "generatedAt": "2026-09-23T22:23:24.813Z",
+      "generatedAt": "2026-09-24T01:00:32.606Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-23T22:23:24.813Z",
+  "generatedAt": "2026-09-24T01:00:32.606Z",
   "collectorName": "local-source-collector"
 }
