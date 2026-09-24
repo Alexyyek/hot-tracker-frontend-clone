@@ -5,199 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Anthropic engineer explains why Claude&#039;s writing got worse although the model got smarter」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic engineer explains why Claude&#039;s writing got worse although the model got smarter",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw"
-      ],
-      "watchItems": [
-        "跟进：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
-        "跟进：Anthropic engineer explains why Claude&#039;s writing got worse although the model got smarter",
-        "跟进：Meta&#039;s AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw",
-        "跟进：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "跟进：从 Coding 到 Running:AI Native SRE Agent 的工程实践"
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
-              "summary": "试图回答一个更接近未来智能体的问题:当任务跨越数十步、多个应用乃至多次会话,GUI Agent 能否记住关键信息、延续任务目标,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e1d18ddd1da21faebf3532ce"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Meta&#039;s AI agent Muse draws 500,000 users in a week along with claims it copied OpenClaw",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta's AI agent Muse picked up more than 500,000 users in its first week and hit number one in Apple's App Store. But Meta admits the product is \"heavily inspired\" by the open-source project OpenClaw, and some of the fi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dfb311e4b930a943b6f8f53a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e4d3a65c973b864cca0d6aa0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从 Coding 到 Running:AI Native SRE Agent 的工程实践",
-              "summary": "Running:AI Native SRE Agent 的工程实践》.他详细分享了如何... 以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).从 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_25adc896510100fae08c540a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "企业级 Agent 的终局,不是 Workflow 和 Autonomous 二选一 | 极客时间",
-              "summary": "一个 Agent Demo,从零到跑起来,可能只需要一天.可当它真的开始替人做事,工程师收到的问题就变了:\"跑到一半停了,能接着...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5ac41804010d33f8d7151cfa"
-              ],
-              "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Anthropic engineer explains why Claude&#039;s writing got worse although the model got smarter",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Anthropic employee Jackson Kernion explains why newer Claude models write so oddly. Optimizing for math, code, and technical explanations aimed at other AI models has created a style that sounds like \"overly-dense info …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_ef763f19471f2e0e2db4a52c"
-              ],
-              "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "从街景理解到导航播报:面向导航视觉地标提取的多模态大模型后训练实践",
-              "summary": "现在的大模型虽然很强大,但对导航可用地标的筛选与表达标准理... #高德 #高德技术 #EMNLP #多模态往期推荐从异常诊断到工具轨...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0d298a35c487c632458bf06d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Introducing MentalHealthBench",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_8a296485a55fe6664d579928"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "拆解海博 AI-Native 落地保障:海博团队 AI 知识库能力建设",
-              "summary": "RAG:文档切块、按语义相似度召回,通用、接入成本低.&bull;... 后端知识生成:还原开发者真正关心的那几件事后端接手一块代码...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_5ff523f21481e50f8ebfd5a9"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_41dea016d4eb9f1fe879dc84"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Best Embedding Models in 2026: RAG, Multilingual, Code, and Image",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Compare the embedding models available through OpenRouter for English RAG, multilingual retrieval, code search, text-and-image retrieval, and low-cost indexing, with live API checks, prices, context windows, and default…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_dec361b324f681d4bd421520"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "《AI Native 研发范式实践手册》重磅发布",
-              "summary": "刚刚,在云栖大会\"智启原生 研见未来\"阿里巴巴集团 AI Native 研发实践论坛上,《AI Native 研发范式实践手册》正式发布.过去两...",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_6a8856be4ba0d443a9010edc"
-              ],
-              "confidence": 86
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_e1d18ddd1da21faebf3532ce",
-        "local_ef763f19471f2e0e2db4a52c",
-        "local_dfb311e4b930a943b6f8f53a",
-        "local_e4d3a65c973b864cca0d6aa0",
-        "local_25adc896510100fae08c540a",
-        "local_5ac41804010d33f8d7151cfa",
-        "local_0d298a35c487c632458bf06d",
-        "local_9e4b26473d764a9d4ce8a6d3",
-        "local_8a296485a55fe6664d579928",
-        "local_f2db128110634c5552846f7a",
-        "local_dbef52957cb04fca2a2da174",
-        "local_432a8b01d739934248356c95",
-        "local_30c86d3e7e03f316a93c04ff",
-        "local_922f5c75cec89183c6069364",
-        "local_8ef9b7fcb4706da363f13429",
-        "local_6a8856be4ba0d443a9010edc",
-        "local_11a737b6bc9eee461d071196",
-        "local_872679f7f4baf3c9a68d1806",
-        "local_5ff523f21481e50f8ebfd5a9",
-        "local_3b8cae81ad3f7328db0669a7",
-        "local_ce0cb5a306f1d2d4d9e3b582",
-        "local_8382a7fa5a00dfb32ec4d163",
-        "local_41dea016d4eb9f1fe879dc84",
-        "local_dec361b324f681d4bd421520"
-      ],
-      "generatedAt": "2026-09-24T11:53:06.034Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-09-23",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-09-23",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
@@ -220,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e1d18ddd1da21faebf3532ce"
+                "local_161e4a4c2bdf155e828eb16b"
               ],
               "confidence": 92
             },
@@ -240,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_25adc896510100fae08c540a"
+                "local_061f0662bf25134a9a8f6ab2"
               ],
               "confidence": 92
             },
@@ -275,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0d298a35c487c632458bf06d"
+                "local_c100a4453baeced8ff07c1f7"
               ],
               "confidence": 92
             },
@@ -295,7 +103,209 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_5ff523f21481e50f8ebfd5a9"
+                "local_f63a48a60c794ee40c815e6b"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_41dea016d4eb9f1fe879dc84"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Best Embedding Models in 2026: RAG, Multilingual, Code, and Image",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Compare the embedding models available through OpenRouter for English RAG, multilingual retrieval, code search, text-and-image retrieval, and low-cost indexing, with live API checks, prices, context windows, and default…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_dec361b324f681d4bd421520"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "《AI Native 研发范式实践手册》重磅发布",
+              "summary": "刚刚,在云栖大会\"智启原生 研见未来\"阿里巴巴集团 AI Native 研发实践论坛上,《AI Native 研发范式实践手册》正式发布.过去两...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_ced067c03d72115b48065d6a"
+              ],
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Google and the Gates Foundation to bring AI resources to 200 million farmers across the Global South.",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Smallholder farmers produce nearly 35% of the world’s food across more than 500 million farms, yet they often lack access to the satellite data, financial services, and …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_aed0c817ccd6f22d9bef4348"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Yesterday was Grok 4.7 (pelicans) and MiMo v2.6 Flash/Pro (more pelicans). Today Anthropic released Claude Opus 5.5, and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna. It's going to take a while to get a…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d4ddc02c88222d249b36a224"
+              ],
+              "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_161e4a4c2bdf155e828eb16b",
+        "local_e4d3a65c973b864cca0d6aa0",
+        "local_061f0662bf25134a9a8f6ab2",
+        "local_5ac41804010d33f8d7151cfa",
+        "local_c100a4453baeced8ff07c1f7",
+        "local_9e4b26473d764a9d4ce8a6d3",
+        "local_8a296485a55fe6664d579928",
+        "local_f2db128110634c5552846f7a",
+        "local_dbef52957cb04fca2a2da174",
+        "local_432a8b01d739934248356c95",
+        "local_30c86d3e7e03f316a93c04ff",
+        "local_922f5c75cec89183c6069364",
+        "local_8ef9b7fcb4706da363f13429",
+        "local_ced067c03d72115b48065d6a",
+        "local_11a737b6bc9eee461d071196",
+        "local_872679f7f4baf3c9a68d1806",
+        "local_f63a48a60c794ee40c815e6b",
+        "local_3b8cae81ad3f7328db0669a7",
+        "local_ce0cb5a306f1d2d4d9e3b582",
+        "local_8382a7fa5a00dfb32ec4d163",
+        "local_41dea016d4eb9f1fe879dc84",
+        "local_dec361b324f681d4bd421520",
+        "local_aed0c817ccd6f22d9bef4348",
+        "local_d4ddc02c88222d249b36a224"
+      ],
+      "generatedAt": "2026-09-24T17:13:57.480Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-09-23",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-09-23",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Coding 到 Running:AI Native SRE Agent 的工程实践"
+      ],
+      "watchItems": [
+        "跟进：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
+        "跟进：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "跟进：从 Coding 到 Running:AI Native SRE Agent 的工程实践",
+        "跟进：企业级 Agent 的终局,不是 Workflow 和 Autonomous 二选一 | 极客时间",
+        "跟进：从街景理解到导航播报:面向导航视觉地标提取的多模态大模型后训练实践"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
+              "summary": "试图回答一个更接近未来智能体的问题:当任务跨越数十步、多个应用乃至多次会话,GUI Agent 能否记住关键信息、延续任务目标,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_161e4a4c2bdf155e828eb16b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e4d3a65c973b864cca0d6aa0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从 Coding 到 Running:AI Native SRE Agent 的工程实践",
+              "summary": "Running:AI Native SRE Agent 的工程实践》.他详细分享了如何... 以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).从 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_061f0662bf25134a9a8f6ab2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "企业级 Agent 的终局,不是 Workflow 和 Autonomous 二选一 | 极客时间",
+              "summary": "一个 Agent Demo,从零到跑起来,可能只需要一天.可当它真的开始替人做事,工程师收到的问题就变了:\"跑到一半停了,能接着...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5ac41804010d33f8d7151cfa"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "别再只卷向量检索了,得物交易搜索如何用\"生成式\"实现召回范式跃迁?",
+              "summary": "得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付4.企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9e4b26473d764a9d4ce8a6d3"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "从街景理解到导航播报:面向导航视觉地标提取的多模态大模型后训练实践",
+              "summary": "现在的大模型虽然很强大,但对导航可用地标的筛选与表达标准理... #高德 #高德技术 #EMNLP #多模态往期推荐从异常诊断到工具轨...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_c100a4453baeced8ff07c1f7"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing MentalHealthBench",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_8a296485a55fe6664d579928"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "拆解海博 AI-Native 落地保障:海博团队 AI 知识库能力建设",
+              "summary": "RAG:文档切块、按语义相似度召回,通用、接入成本低.&bull;... 后端知识生成:还原开发者真正关心的那几件事后端接手一块代码...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f63a48a60c794ee40c815e6b"
               ],
               "confidence": 82
             },
@@ -320,7 +330,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_6a8856be4ba0d443a9010edc"
+                "local_ced067c03d72115b48065d6a"
               ],
               "confidence": 86
             }
@@ -343,31 +353,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e1d18ddd1da21faebf3532ce",
+        "local_161e4a4c2bdf155e828eb16b",
         "local_e4d3a65c973b864cca0d6aa0",
-        "local_25adc896510100fae08c540a",
+        "local_061f0662bf25134a9a8f6ab2",
         "local_5ac41804010d33f8d7151cfa",
-        "local_0d298a35c487c632458bf06d",
+        "local_c100a4453baeced8ff07c1f7",
         "local_9e4b26473d764a9d4ce8a6d3",
         "local_8a296485a55fe6664d579928",
         "local_f2db128110634c5552846f7a",
         "local_30c86d3e7e03f316a93c04ff",
-        "local_6a8856be4ba0d443a9010edc",
+        "local_ced067c03d72115b48065d6a",
         "local_872679f7f4baf3c9a68d1806",
-        "local_5ff523f21481e50f8ebfd5a9",
+        "local_f63a48a60c794ee40c815e6b",
         "local_3b8cae81ad3f7328db0669a7",
         "local_8382a7fa5a00dfb32ec4d163",
         "local_aed0c817ccd6f22d9bef4348",
         "local_f418758b5b74182015885811",
         "local_35a948ab82209e33ad1631ab"
       ],
-      "generatedAt": "2026-09-24T11:53:06.034Z",
+      "generatedAt": "2026-09-24T17:13:57.480Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-24T11:53:06.034Z",
+  "generatedAt": "2026-09-24T17:13:57.480Z",
   "collectorName": "local-source-collector"
 }
