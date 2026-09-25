@@ -5,50 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-09-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase」、「SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal」、「Helping 25,000 veterans and military families build careers in skilled trades」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping 25,000 veterans and military families build careers in skilled trades",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态"
       ],
       "watchItems": [
-        "跟进：Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
-        "跟进：SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories",
-        "跟进：Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",
+        "跟进：World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
         "跟进：Helping 25,000 veterans and military families build careers in skilled trades",
-        "跟进：Rufus-Air: An Open LLM Post-Training Recipe"
+        "跟进：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+        "跟进：代码生成越来越快,软件交付真正的瓶颈转向了哪里?",
+        "跟进：以开放之云,重塑Agentic AI开发新范式"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
-              "summary": "We present: (i) a new dataset consisting of the full development history of a 21,000-line Python tool built entirely by Claude AI, with no human-authored code or tests, (ii) two code-provenance tracing tools, (iii) three taxonomies for instruction intent, commit provenance, and …",
+              "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+              "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We pr…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_78a8220df13a3f96504da096"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories",
-              "summary": "Large language model based coding agents have made substantial progress on repository-level software engineering tasks. Existing repository benchmarks, however, usually start from a human-identified issue and evaluate whether a patch satisfies a functional signal. We present SWE…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_50f0e71b4c333ff18b4a4694"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",
-              "summary": "LLM agents, notably Claude Code and OpenAI Codex, are emerging as versatile tools beyond coding agents only. These agents can be enhanced with skills---reusable artifacts that package domain knowledge, workflows, and tool-use instructions. To date, however, little is known about…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e6082e2fafe900f8c97abd09"
+                "local_59038f9e8287ddd89d1b7e36"
               ],
               "confidence": 92
             },
@@ -63,12 +43,57 @@
               "confidence": 78
             },
             {
-              "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-              "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward d…",
+              "title": "以开放之云,重塑Agentic AI开发新范式",
+              "summary": "让Agent开发成果可落地.此外,华为云全新升级开发者权益体系,从\"体验中心&mdash;成长中心&mdash;大赛平台\"三大维度,提供零门槛的产...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_90c6227916b6607f8d66829a"
+                "local_58c6c4db30f1e4331e2f89d6"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链",
+              "summary": "北京交通大学、清华大学与蚂蚁集团的研究者提出 ARGUS,将多智能体协作引入视频鉴伪.观察智能体从不同角度寻找证据,裁判智...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ab6cf6e45b3cd0298878424c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI行业新闻简报:Agent成主战场,安全",
+              "summary": "Agent 的底层沙箱系统.AI 正在从\"陪你聊天\"变成\"替你干活\",权限给得越多,这根安全弦就得绷得越紧.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_02d3698df38735190f8a7071"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+              "summary": "大模型深刻改变了数字世界.人们对AI的期待不再停留于回答问题... #云栖大会 #高德地图 #空间智能 #高德技术",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_c3bfffca5c7e9405b28e9c33"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e5b6e475abb731f3ff3d5993"
               ],
               "confidence": 92
             }
@@ -98,43 +123,24 @@
               "confidence": 86
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e5b6e475abb731f3ff3d5993"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_78a8220df13a3f96504da096",
-        "local_50f0e71b4c333ff18b4a4694",
-        "local_e6082e2fafe900f8c97abd09",
+        "local_59038f9e8287ddd89d1b7e36",
         "local_66d2597edeb5e069754e59ab",
-        "local_90c6227916b6607f8d66829a",
-        "local_6a253d03bceb5c1bf4ad9551",
+        "local_c3bfffca5c7e9405b28e9c33",
         "local_034c5ab8d8f4f7ab64867f25",
-        "local_92d0344b14e43c07979449ab",
-        "local_a6c285c00965273076c01046",
+        "local_58c6c4db30f1e4331e2f89d6",
+        "local_ab6cf6e45b3cd0298878424c",
         "local_02d3698df38735190f8a7071",
-        "local_4352edf2e745d5a3523674df",
-        "local_348c25ff6e5d342cf7de91aa",
+        "local_0d0089692064086808d25db8",
         "local_e5b6e475abb731f3ff3d5993",
         "local_bb20172851ae1fb229cdfc4a",
         "local_a041f7bdc365a8e1f60d2308",
         "local_6ef7241dec0501f4f5149022",
         "local_024057f6957627b43084e1ac"
       ],
-      "generatedAt": "2026-09-25T02:01:13.254Z",
+      "generatedAt": "2026-09-25T07:50:42.724Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -173,22 +179,12 @@
               "confidence": 78
             },
             {
-              "title": "云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-              "summary": "高德空间智能服务出行和生活智能体,赋能具身智能、低空经济等... #云栖大会 #高德地图 #空间智能 #高德技术",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6a253d03bceb5c1bf4ad9551"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "以开放之云,重塑Agentic AI开发新范式",
               "summary": "让Agent开发成果可落地.此外,华为云全新升级开发者权益体系,从\"体验中心&mdash;成长中心&mdash;大赛平台\"三大维度,提供零门槛的产...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_92d0344b14e43c07979449ab"
+                "local_58c6c4db30f1e4331e2f89d6"
               ],
               "confidence": 92
             },
@@ -198,7 +194,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a6c285c00965273076c01046"
+                "local_ab6cf6e45b3cd0298878424c"
               ],
               "confidence": 92
             },
@@ -211,6 +207,31 @@
                 "local_02d3698df38735190f8a7071"
               ],
               "confidence": 92
+            },
+            {
+              "title": "全球AI行业新闻简报:Agent成主战场,安全警报拉响",
+              "summary": "时间范围:2026年9月23日晚&mdash;9月24日上午今日关键词:AI Agent 全面提速|安全边界再拉警报|资本重注基础设施与AI制药|中国厂商开...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0d0089692064086808d25db8"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+              "summary": "大模型深刻改变了数字世界.人们对AI的期待不再停留于回答问题... #云栖大会 #高德地图 #空间智能 #高德技术",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_c3bfffca5c7e9405b28e9c33"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -232,23 +253,23 @@
       ],
       "referencedFeedItemIds": [
         "local_66d2597edeb5e069754e59ab",
-        "local_6a253d03bceb5c1bf4ad9551",
+        "local_c3bfffca5c7e9405b28e9c33",
         "local_034c5ab8d8f4f7ab64867f25",
-        "local_92d0344b14e43c07979449ab",
-        "local_a6c285c00965273076c01046",
+        "local_58c6c4db30f1e4331e2f89d6",
+        "local_ab6cf6e45b3cd0298878424c",
         "local_02d3698df38735190f8a7071",
-        "local_4352edf2e745d5a3523674df",
+        "local_0d0089692064086808d25db8",
         "local_bb20172851ae1fb229cdfc4a",
         "local_6ef7241dec0501f4f5149022",
         "local_024057f6957627b43084e1ac"
       ],
-      "generatedAt": "2026-09-25T02:01:13.255Z",
+      "generatedAt": "2026-09-25T07:50:42.724Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-25T02:01:13.255Z",
+  "generatedAt": "2026-09-25T07:50:42.724Z",
   "collectorName": "local-source-collector"
 }
