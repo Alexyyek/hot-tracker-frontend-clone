@@ -16,7 +16,7 @@
         "跟进：Intelligence doesn&#039;t come cheap as AI drives up costs for the NSA, hospitals, and insurers",
         "跟进：Ruby on Rails creator DHH says he&#039;s done writing code by hand",
         "跟进：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
-        "跟进：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation"
+        "跟进：Learning to Discover Interesting Mathematics"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_57ab9f7749fea8d6328e9607"
+                "local_ace9d68b686e610e4443ea10"
               ],
               "confidence": 92
             },
@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
-              "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
-              "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6692140e1e194153190e5648"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Note on 24th September 2026",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary di…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_421cc1bc0d1eb1b7ebcb50e5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "RAPID: Robot Agentic Programming from Demonstrations",
+              "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot program…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dc14f832a350f97117f5ab19"
               ],
               "confidence": 92
             }
@@ -103,6 +103,16 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "Learning to Discover Interesting Mathematics",
+              "summary": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjectur…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_6176eaba17e9df796f0b399d"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
               "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Spa…",
               "insightLabel": "关注",
@@ -129,17 +139,17 @@
         "local_53f59d70d890892ad34f81d8",
         "local_6c062f860af1c2ec6e246646",
         "local_eb19f7e78c20d87503feb29e",
-        "local_57ab9f7749fea8d6328e9607",
+        "local_ace9d68b686e610e4443ea10",
+        "local_6176eaba17e9df796f0b399d",
         "local_35a5f2e4dab55538ba8931e0",
         "local_7eaa6509deb1e2dbf00997f7",
         "local_f479c7626294bce2e83a8af7",
-        "local_6692140e1e194153190e5648",
         "local_421cc1bc0d1eb1b7ebcb50e5",
         "local_dc14f832a350f97117f5ab19",
         "local_f5aa7e0e82bb22da59e9c563",
         "local_46f1c6780c7cdc5e13c8804c"
       ],
-      "generatedAt": "2026-09-25T18:40:15.440Z",
+      "generatedAt": "2026-09-25T21:56:35.536Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -167,7 +177,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_57ab9f7749fea8d6328e9607"
+                "local_ace9d68b686e610e4443ea10"
               ],
               "confidence": 92
             }
@@ -175,15 +185,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_57ab9f7749fea8d6328e9607"
+        "local_ace9d68b686e610e4443ea10"
       ],
-      "generatedAt": "2026-09-25T18:40:15.440Z",
+      "generatedAt": "2026-09-25T21:56:35.536Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-25T18:40:15.440Z",
+  "generatedAt": "2026-09-25T21:56:35.536Z",
   "collectorName": "local-source-collector"
 }
