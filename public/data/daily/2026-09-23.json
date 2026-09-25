@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_56d2ba78e3e78ce73bd22ccb"
+                "local_fc12f2840ab260b7a4768b50"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_07db5dacc967e693addfc06c"
+                "local_e5af07d05e570eafe473d13b"
               ],
               "confidence": 92
             },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0d56ba09c0c089a20d479a5f"
+                "local_71ec38ab017e38a0c5404a07"
               ],
               "confidence": 92
             },
@@ -103,19 +103,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b238007a2c6afbc568d1d0ff"
+                "local_70e9574a5238dec4a1cab36d"
               ],
               "confidence": 82
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_41dea016d4eb9f1fe879dc84"
-              ],
-              "confidence": 92
             },
             {
               "title": "Best Embedding Models in 2026: RAG, Multilingual, Code, and Image",
@@ -124,6 +114,16 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_dec361b324f681d4bd421520"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "llm 0.36",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna. #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises l…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_05cededcbf3514681681ed12"
               ],
               "confidence": 92
             }
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_10b03971970f789a7c65a13f"
+                "local_0d893e0ea84b94bd9e25ceb7"
               ],
               "confidence": 86
             }
@@ -171,32 +171,30 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_56d2ba78e3e78ce73bd22ccb",
+        "local_fc12f2840ab260b7a4768b50",
         "local_e4d3a65c973b864cca0d6aa0",
-        "local_07db5dacc967e693addfc06c",
+        "local_e5af07d05e570eafe473d13b",
         "local_5ac41804010d33f8d7151cfa",
-        "local_0d56ba09c0c089a20d479a5f",
+        "local_71ec38ab017e38a0c5404a07",
         "local_c15d309440e2bd96672dd213",
         "local_8a296485a55fe6664d579928",
         "local_f2db128110634c5552846f7a",
-        "local_dbef52957cb04fca2a2da174",
-        "local_432a8b01d739934248356c95",
         "local_30c86d3e7e03f316a93c04ff",
-        "local_922f5c75cec89183c6069364",
         "local_8ef9b7fcb4706da363f13429",
-        "local_10b03971970f789a7c65a13f",
-        "local_11a737b6bc9eee461d071196",
+        "local_0d893e0ea84b94bd9e25ceb7",
         "local_c5dd18d4b77b805ca54100e0",
-        "local_b238007a2c6afbc568d1d0ff",
+        "local_70e9574a5238dec4a1cab36d",
         "local_3b8cae81ad3f7328db0669a7",
         "local_ce0cb5a306f1d2d4d9e3b582",
         "local_8382a7fa5a00dfb32ec4d163",
-        "local_41dea016d4eb9f1fe879dc84",
         "local_dec361b324f681d4bd421520",
         "local_aed0c817ccd6f22d9bef4348",
-        "local_d4ddc02c88222d249b36a224"
+        "local_d4ddc02c88222d249b36a224",
+        "local_05cededcbf3514681681ed12",
+        "local_f418758b5b74182015885811",
+        "local_35a948ab82209e33ad1631ab"
       ],
-      "generatedAt": "2026-09-24T23:33:26.513Z",
+      "generatedAt": "2026-09-25T02:01:13.266Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -230,7 +228,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_56d2ba78e3e78ce73bd22ccb"
+                "local_fc12f2840ab260b7a4768b50"
               ],
               "confidence": 92
             },
@@ -250,7 +248,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_07db5dacc967e693addfc06c"
+                "local_e5af07d05e570eafe473d13b"
               ],
               "confidence": 92
             },
@@ -285,7 +283,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0d56ba09c0c089a20d479a5f"
+                "local_71ec38ab017e38a0c5404a07"
               ],
               "confidence": 92
             },
@@ -305,7 +303,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b238007a2c6afbc568d1d0ff"
+                "local_70e9574a5238dec4a1cab36d"
               ],
               "confidence": 82
             },
@@ -330,7 +328,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_10b03971970f789a7c65a13f"
+                "local_0d893e0ea84b94bd9e25ceb7"
               ],
               "confidence": 86
             }
@@ -353,31 +351,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_56d2ba78e3e78ce73bd22ccb",
+        "local_fc12f2840ab260b7a4768b50",
         "local_e4d3a65c973b864cca0d6aa0",
-        "local_07db5dacc967e693addfc06c",
+        "local_e5af07d05e570eafe473d13b",
         "local_5ac41804010d33f8d7151cfa",
-        "local_0d56ba09c0c089a20d479a5f",
+        "local_71ec38ab017e38a0c5404a07",
         "local_c15d309440e2bd96672dd213",
         "local_8a296485a55fe6664d579928",
         "local_f2db128110634c5552846f7a",
         "local_30c86d3e7e03f316a93c04ff",
-        "local_10b03971970f789a7c65a13f",
+        "local_0d893e0ea84b94bd9e25ceb7",
         "local_c5dd18d4b77b805ca54100e0",
-        "local_b238007a2c6afbc568d1d0ff",
+        "local_70e9574a5238dec4a1cab36d",
         "local_3b8cae81ad3f7328db0669a7",
         "local_8382a7fa5a00dfb32ec4d163",
         "local_aed0c817ccd6f22d9bef4348",
         "local_f418758b5b74182015885811",
         "local_35a948ab82209e33ad1631ab"
       ],
-      "generatedAt": "2026-09-24T23:33:26.513Z",
+      "generatedAt": "2026-09-25T02:01:13.266Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-24T23:33:26.513Z",
+  "generatedAt": "2026-09-25T02:01:13.266Z",
   "collectorName": "local-source-collector"
 }

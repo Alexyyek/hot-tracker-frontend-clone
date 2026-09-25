@@ -5,23 +5,53 @@
       "topicId": "ai",
       "reportDate": "2026-09-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Helping 25,000 veterans and military families build careers in skilled trades」、「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase」、「SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping 25,000 veterans and military families build careers in skilled trades",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：代码生成越来越快,软件交付真正的瓶颈转向了哪里?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact"
       ],
       "watchItems": [
+        "跟进：Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
+        "跟进：SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories",
+        "跟进：Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",
         "跟进：Helping 25,000 veterans and military families build careers in skilled trades",
-        "跟进：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-        "跟进：代码生成越来越快,软件交付真正的瓶颈转向了哪里?",
-        "跟进：以开放之云,重塑Agentic AI开发新范式",
-        "跟进：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链"
+        "跟进：Rufus-Air: An Open LLM Post-Training Recipe"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
+              "summary": "We present: (i) a new dataset consisting of the full development history of a 21,000-line Python tool built entirely by Claude AI, with no human-authored code or tests, (ii) two code-provenance tracing tools, (iii) three taxonomies for instruction intent, commit provenance, and …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_78a8220df13a3f96504da096"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories",
+              "summary": "Large language model based coding agents have made substantial progress on repository-level software engineering tasks. Existing repository benchmarks, however, usually start from a human-identified issue and evaluate whether a patch satisfies a functional signal. We present SWE…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_50f0e71b4c333ff18b4a4694"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Demystifying Agent Skills for Smart Contract Auditing: Design, Effectiveness, Behavioral Impact",
+              "summary": "LLM agents, notably Claude Code and OpenAI Codex, are emerging as versatile tools beyond coding agents only. These agents can be enhanced with skills---reusable artifacts that package domain knowledge, workflows, and tool-use instructions. To date, however, little is known about…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e6082e2fafe900f8c97abd09"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Helping 25,000 veterans and military families build careers in skilled trades",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google.org is supporting organizations to help veterans and military families find careers in skilled trades.",
@@ -33,42 +63,12 @@
               "confidence": 78
             },
             {
-              "title": "云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-              "summary": "高德空间智能服务出行和生活智能体,赋能具身智能、低空经济等... #云栖大会 #高德地图 #空间智能 #高德技术",
+              "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+              "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward d…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6a253d03bceb5c1bf4ad9551"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "以开放之云,重塑Agentic AI开发新范式",
-              "summary": "让Agent开发成果可落地.此外,华为云全新升级开发者权益体系,从\"体验中心&mdash;成长中心&mdash;大赛平台\"三大维度,提供零门槛的产...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_92d0344b14e43c07979449ab"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链",
-              "summary": "北京交通大学、清华大学与蚂蚁集团的研究者提出 ARGUS,将多智能体协作引入视频鉴伪.观察智能体从不同角度寻找证据,裁判智...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d6b529bf979b4027a853f3b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "全球AI行业新闻简报:Agent成主战场,安全",
-              "summary": "Agent 的底层沙箱系统.AI 正在从\"陪你聊天\"变成\"替你干活\",权限给得越多,这根安全弦就得绷得越紧.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_02d3698df38735190f8a7071"
+                "local_90c6227916b6607f8d66829a"
               ],
               "confidence": 92
             }
@@ -88,26 +88,6 @@
               "confidence": 82
             },
             {
-              "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
-              "summary": "The rapid capability gains of frontier language models are widely attributed to improved reasoning abilities, yet this cannot be verified as raw CoT traces in closed-source systems are hidden. By registering a simple custom tool through a standard API feature, we induce frontier…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_619b202b22164dfde6a931f2"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "X-Planner: Event-Structured Task Planning for Embodied Intelligence",
-              "summary": "Task planning bridges high-level instructions and executable behavior in long-horizon manipulation, yet modern Vision-Language-Action (VLA) systems often leave this intermediate structure implicit. Existing chain-of-thought (CoT) planners also tend to rely on coarse task-level a…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cdeb57b43a2422978f7d0fbd"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Gemini 3.8 TTS Playground",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts. They come with a library of over 2,000 voices, plus the ability to create …",
               "insightLabel": "关注",
@@ -123,12 +103,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Knowledge Pull Requests for Continual Document Authoring",
-              "summary": "We introduce Knowledge Pull Requests (KPRs), a framework for continual document authoring that makes each change interpretable. Documents require ongoing revision as new knowledge surfaces from other sources, languages, or times, but existing approaches either edit with no accou…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_400b695d6ac9565a2c0bc662"
+                "local_e5b6e475abb731f3ff3d5993"
               ],
               "confidence": 92
             }
@@ -136,23 +116,25 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_78a8220df13a3f96504da096",
+        "local_50f0e71b4c333ff18b4a4694",
+        "local_e6082e2fafe900f8c97abd09",
         "local_66d2597edeb5e069754e59ab",
+        "local_90c6227916b6607f8d66829a",
         "local_6a253d03bceb5c1bf4ad9551",
         "local_034c5ab8d8f4f7ab64867f25",
         "local_92d0344b14e43c07979449ab",
-        "local_3d6b529bf979b4027a853f3b",
+        "local_a6c285c00965273076c01046",
         "local_02d3698df38735190f8a7071",
-        "local_a4175f32b49a019e63df5c5d",
+        "local_4352edf2e745d5a3523674df",
         "local_348c25ff6e5d342cf7de91aa",
-        "local_400b695d6ac9565a2c0bc662",
-        "local_619b202b22164dfde6a931f2",
-        "local_cdeb57b43a2422978f7d0fbd",
+        "local_e5b6e475abb731f3ff3d5993",
         "local_bb20172851ae1fb229cdfc4a",
         "local_a041f7bdc365a8e1f60d2308",
         "local_6ef7241dec0501f4f5149022",
         "local_024057f6957627b43084e1ac"
       ],
-      "generatedAt": "2026-09-24T23:33:26.502Z",
+      "generatedAt": "2026-09-25T02:01:13.254Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -216,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3d6b529bf979b4027a853f3b"
+                "local_a6c285c00965273076c01046"
               ],
               "confidence": 92
             },
@@ -253,20 +235,20 @@
         "local_6a253d03bceb5c1bf4ad9551",
         "local_034c5ab8d8f4f7ab64867f25",
         "local_92d0344b14e43c07979449ab",
-        "local_3d6b529bf979b4027a853f3b",
+        "local_a6c285c00965273076c01046",
         "local_02d3698df38735190f8a7071",
-        "local_a4175f32b49a019e63df5c5d",
+        "local_4352edf2e745d5a3523674df",
         "local_bb20172851ae1fb229cdfc4a",
         "local_6ef7241dec0501f4f5149022",
         "local_024057f6957627b43084e1ac"
       ],
-      "generatedAt": "2026-09-24T23:33:26.503Z",
+      "generatedAt": "2026-09-25T02:01:13.255Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-24T23:33:26.503Z",
+  "generatedAt": "2026-09-25T02:01:13.255Z",
   "collectorName": "local-source-collector"
 }
