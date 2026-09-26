@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux」、「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」、「Learning to Discover Interesting Mathematics」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Learning to Discover Interesting Mathematics"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Learning to Discover Interesting Mathematics",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation"
       ],
       "watchItems": [
-        "跟进：Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux",
         "跟进：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
         "跟进：Learning to Discover Interesting Mathematics",
         "跟进：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
-        "跟进：AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation"
+        "跟进：AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+        "跟进：Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta gives every Muse user a free cloud computer running Ubuntu Linux where they can install software, write code, and browse the web. A \"Sentinel\" process monitors sensitive actions outside the user's workspace, while …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_53f59d70d890892ad34f81d8"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
               "summary": "文|李炤锋编辑|张雨忻昨日,腾讯推出新版Marvis,将这款以\"小黑马\"为形象的个人Agent定位升级为\"AI管家\".《智能涌现》了解...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8717e06ee12b295d539df4a2"
+                "local_aecb8ed0bf31538aacfe95ac"
               ],
               "confidence": 92
             },
@@ -69,6 +59,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_dc14f832a350f97117f5ab19"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+              "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f5aa7e0e82bb22da59e9c563"
               ],
               "confidence": 92
             }
@@ -121,8 +121,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_53f59d70d890892ad34f81d8",
-        "local_8717e06ee12b295d539df4a2",
+        "local_aecb8ed0bf31538aacfe95ac",
         "local_6176eaba17e9df796f0b399d",
         "local_35a5f2e4dab55538ba8931e0",
         "local_7eaa6509deb1e2dbf00997f7",
@@ -133,7 +132,7 @@
         "local_f5aa7e0e82bb22da59e9c563",
         "local_46f1c6780c7cdc5e13c8804c"
       ],
-      "generatedAt": "2026-09-26T14:51:29.788Z",
+      "generatedAt": "2026-09-26T18:41:38.811Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -161,7 +160,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8717e06ee12b295d539df4a2"
+                "local_aecb8ed0bf31538aacfe95ac"
               ],
               "confidence": 92
             }
@@ -169,15 +168,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8717e06ee12b295d539df4a2"
+        "local_aecb8ed0bf31538aacfe95ac"
       ],
-      "generatedAt": "2026-09-26T14:51:29.788Z",
+      "generatedAt": "2026-09-26T18:41:38.811Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-26T14:51:29.788Z",
+  "generatedAt": "2026-09-26T18:41:38.812Z",
   "collectorName": "local-source-collector"
 }
