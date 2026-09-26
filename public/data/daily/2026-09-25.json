@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux」、「Intelligence doesn&#039;t come cheap as AI drives up costs for the NSA, hospitals, and insurers」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux」、「Intelligence doesn&#039;t come cheap as AI drives up costs for the NSA, hospitals, and insurers」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Intelligence doesn&#039;t come cheap as AI drives up costs for the NSA, hospitals, and insurers",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ruby on Rails creator DHH says he&#039;s done writing code by hand"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\""
       ],
       "watchItems": [
         "跟进：Meta&#039;s Muse agent gives every user a full cloud computer running Ubuntu Linux",
         "跟进：Intelligence doesn&#039;t come cheap as AI drives up costs for the NSA, hospitals, and insurers",
-        "跟进：Ruby on Rails creator DHH says he&#039;s done writing code by hand",
         "跟进：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
-        "跟进：Learning to Discover Interesting Mathematics"
+        "跟进：Learning to Discover Interesting Mathematics",
+        "跟进：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_70c8743c6ed68a2474adecc1"
+                "local_cdbe24e0f37e4258f5ce857e"
               ],
               "confidence": 92
             },
@@ -84,16 +84,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_6c062f860af1c2ec6e246646"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Ruby on Rails creator DHH says he&#039;s done writing code by hand",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：David Heinemeier Hansson, creator of Ruby on Rails, has quit writing code by hand after 25 years. He says he hasn't typed a single line since March 2026. \"English is a better programming language than Ruby,\" DHH told th…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_eb19f7e78c20d87503feb29e"
               ],
               "confidence": 74
             }
@@ -148,8 +138,7 @@
       "referencedFeedItemIds": [
         "local_53f59d70d890892ad34f81d8",
         "local_6c062f860af1c2ec6e246646",
-        "local_eb19f7e78c20d87503feb29e",
-        "local_70c8743c6ed68a2474adecc1",
+        "local_cdbe24e0f37e4258f5ce857e",
         "local_6176eaba17e9df796f0b399d",
         "local_35a5f2e4dab55538ba8931e0",
         "local_7eaa6509deb1e2dbf00997f7",
@@ -160,7 +149,7 @@
         "local_f5aa7e0e82bb22da59e9c563",
         "local_46f1c6780c7cdc5e13c8804c"
       ],
-      "generatedAt": "2026-09-26T05:36:56.885Z",
+      "generatedAt": "2026-09-26T10:22:01.149Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -188,7 +177,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_70c8743c6ed68a2474adecc1"
+                "local_cdbe24e0f37e4258f5ce857e"
               ],
               "confidence": 92
             }
@@ -196,15 +185,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_70c8743c6ed68a2474adecc1"
+        "local_cdbe24e0f37e4258f5ce857e"
       ],
-      "generatedAt": "2026-09-26T05:36:56.885Z",
+      "generatedAt": "2026-09-26T10:22:01.149Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-26T05:36:56.885Z",
+  "generatedAt": "2026-09-26T10:22:01.149Z",
   "collectorName": "local-source-collector"
 }
