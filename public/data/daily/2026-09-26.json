@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26」、「全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26」、「全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia&#039;s SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI给RAG\"降级\":企业Agent开始改吃Context Graph"
       ],
       "watchItems": [
         "跟进：面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26",
         "跟进：全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速",
-        "跟进：Nvidia&#039;s SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
-        "跟进：OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
-        "跟进：OpenAI给RAG\"降级\":企业Agent开始改吃Context Graph"
+        "跟进：OpenAI给RAG\"降级\":企业Agent开始改吃Context Graph",
+        "跟进：LLM Rankings",
+        "跟进：Quoting John Gruber"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_afe60ccd5b11551ce8a4a28f"
+                "local_10ca1205cb82319c2a84b0d7"
               ],
               "confidence": 92
             },
@@ -58,26 +58,6 @@
               "confidence": 92
             },
             {
-              "title": "Nvidia&#039;s SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：SoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 approaches across more than…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9aca16a4ca73d27443944709"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI has shared new details from its ongoing AI safety investigation. One research model exploited a DNS loophole to reach the internet from a locked-down environment, while another deliberately leaked a GitHub token …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6f0feecaf9dcf31713f931f7"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "OpenAI给RAG\"降级\":企业Agent开始改吃Context Graph",
               "summary": "RAG 为什么越来越难.图4|HERB 论文中的工作流引导数据合成框架:由团队角色交互生成会议记录、GitHub PR、文档等 Artifact,...",
               "insightLabel": "关注",
@@ -101,15 +81,13 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_afe60ccd5b11551ce8a4a28f",
+        "local_10ca1205cb82319c2a84b0d7",
         "local_d310f269b799ea1ea82b520f",
-        "local_9aca16a4ca73d27443944709",
-        "local_6f0feecaf9dcf31713f931f7",
         "local_75a313cb36ee0e24556d07bd",
         "local_b1e5ade6399a501664c672d9",
         "local_51508ed16823682276411827"
       ],
-      "generatedAt": "2026-09-27T10:51:51.865Z",
+      "generatedAt": "2026-09-27T15:46:44.469Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -141,7 +119,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_afe60ccd5b11551ce8a4a28f"
+                "local_10ca1205cb82319c2a84b0d7"
               ],
               "confidence": 92
             }
@@ -174,17 +152,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_afe60ccd5b11551ce8a4a28f",
+        "local_10ca1205cb82319c2a84b0d7",
         "local_d310f269b799ea1ea82b520f",
         "local_75a313cb36ee0e24556d07bd"
       ],
-      "generatedAt": "2026-09-27T10:51:51.865Z",
+      "generatedAt": "2026-09-27T15:46:44.469Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-27T10:51:51.865Z",
+  "generatedAt": "2026-09-27T15:46:44.469Z",
   "collectorName": "local-source-collector"
 }
