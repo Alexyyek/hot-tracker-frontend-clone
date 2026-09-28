@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving」、「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving」、「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
@@ -15,8 +15,7 @@
         "跟进：DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
         "跟进：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
         "跟进：Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents",
-        "跟进：Learning to Discover Interesting Mathematics",
-        "跟进：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation"
+        "跟进：Orchestrating GenAI for Interdisciplinary Research"
       ],
       "sections": [
         {
@@ -38,7 +37,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8d20bafaa0c2519d57d9726d"
+                "local_4065e81b485ea2e68932ddf2"
               ],
               "confidence": 92
             },
@@ -53,57 +52,12 @@
               "confidence": 92
             },
             {
-              "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
-              "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distribution…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f479c7626294bce2e83a8af7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Note on 24th September 2026",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary di…",
+              "title": "Orchestrating GenAI for Interdisciplinary Research",
+              "summary": "As researchers tackle interdisciplinary problems, they face the need to deepen expertise in primary areas while rapidly acquiring knowledge in secondary domains. Generative AI (GenAI) is increasingly positioned to meet this need, from general-purpose chat assistants to Deep Rese…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_421cc1bc0d1eb1b7ebcb50e5"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Learning to Discover Interesting Mathematics",
-              "summary": "Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjectur…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6176eaba17e9df796f0b399d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
-              "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Spa…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_35a5f2e4dab55538ba8931e0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
-              "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising r…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7eaa6509deb1e2dbf00997f7"
+                "local_993bfe6cb24c8b02702a3f92"
               ],
               "confidence": 92
             }
@@ -112,17 +66,11 @@
       ],
       "referencedFeedItemIds": [
         "local_0b6e95fa4e0e070502ce2d55",
-        "local_8d20bafaa0c2519d57d9726d",
+        "local_4065e81b485ea2e68932ddf2",
         "local_a62d8b13922e602126e85d92",
-        "local_6176eaba17e9df796f0b399d",
-        "local_35a5f2e4dab55538ba8931e0",
-        "local_7eaa6509deb1e2dbf00997f7",
-        "local_f479c7626294bce2e83a8af7",
-        "local_421cc1bc0d1eb1b7ebcb50e5",
-        "local_993bfe6cb24c8b02702a3f92",
-        "local_1df9220aebb4e7a33a3bc1e3"
+        "local_993bfe6cb24c8b02702a3f92"
       ],
-      "generatedAt": "2026-09-28T01:44:21.019Z",
+      "generatedAt": "2026-09-28T07:48:13.366Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -150,7 +98,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8d20bafaa0c2519d57d9726d"
+                "local_4065e81b485ea2e68932ddf2"
               ],
               "confidence": 92
             }
@@ -158,15 +106,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8d20bafaa0c2519d57d9726d"
+        "local_4065e81b485ea2e68932ddf2"
       ],
-      "generatedAt": "2026-09-28T01:44:21.019Z",
+      "generatedAt": "2026-09-28T07:48:13.366Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-28T01:44:21.019Z",
+  "generatedAt": "2026-09-28T07:48:13.366Z",
   "collectorName": "local-source-collector"
 }
