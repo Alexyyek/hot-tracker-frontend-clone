@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips」、「高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips」、「高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3b1d76be207d77c3b15cc62c"
+                "local_f8444dcf66e44c6b3629fedf"
               ],
               "confidence": 92
             },
@@ -83,9 +83,39 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_f19efb844d5b9147f0e9310c"
+                "local_9bf5f77df6903a15a4007428"
               ],
               "confidence": 86
+            },
+            {
+              "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_8a807389c5afa45a9e8d6419"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Not All Ranks Are Equal: Budget-Aware LoRA Merging Across Tasks",
+              "summary": "Merging low-rank adapters (LoRAs) promises to eliminate the overhead of swapping task-specific weights at inference time. However, existing merging methods assume every layer needs the same rank budget. Further, some methods assume that rank budget needs to be split equally amon…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_48dc12802fa039fa919262a7"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "D-JEPA: A Decision-Aligned Latent World Model",
+              "summary": "Latent world models predict the consequences of actions, but accurate prediction does not guarantee that latent distance reflects which candidate will execute successfully. We identify a decision-local prediction gap: among the few futures competing for execution, a candidate pr…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_83600ccf6956f097b0213d32"
+              ],
+              "confidence": 92
             },
             {
               "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
@@ -96,16 +126,6 @@
                 "local_3202475704c9198c91a0c0e4"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Softmax Reparameterization for Output-Head Quantization",
-              "summary": "Large vocabularies make output heads a substantial inference cost in small language models. We propose softmax reparameterization, a post-training method that selects a functionally equivalent output head before quantization. The method subtracts a scalar multiple of the vocabul…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_e636e1976efe67ce16144407"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -113,12 +133,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
-              "summary": "Long-horizon reasoning remains a central challenge for large language models (LLMs) under sparse-reward regimes. We argue that this brittleness arises from two biases induced by complex reasoning spaces: an exploration bias, where models are drawn toward locally plausible but st…",
+              "title": "Disaggregated Quantization: Specializing LLM Prefill and Decode",
+              "summary": "Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing, while compact weights reduce memory traffic during generation. We propose \"disaggregated quantization\" (DQ), which specializes computation formats, weights and…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_73b04aceeb22a9227e2bce33"
+                "local_ef97c0ffb93013205b8040d1"
               ],
               "confidence": 92
             },
@@ -137,19 +157,20 @@
       ],
       "referencedFeedItemIds": [
         "local_60c6371f6ec71b3e2d80c219",
-        "local_f19efb844d5b9147f0e9310c",
-        "local_3b1d76be207d77c3b15cc62c",
+        "local_9bf5f77df6903a15a4007428",
+        "local_f8444dcf66e44c6b3629fedf",
         "local_7f8647679fe9fcbcfb0a20e5",
         "local_fb01d7d7e9bf69e4bd3a7624",
         "local_71844675750b141b0582b50c",
-        "local_99e5bf22760c920fb7fe53a3",
+        "local_2c771fb88bca03da8e30658b",
+        "local_8a807389c5afa45a9e8d6419",
+        "local_48dc12802fa039fa919262a7",
+        "local_83600ccf6956f097b0213d32",
+        "local_ef97c0ffb93013205b8040d1",
         "local_3202475704c9198c91a0c0e4",
-        "local_73b04aceeb22a9227e2bce33",
-        "local_e636e1976efe67ce16144407",
-        "local_50f034148d3de30aba367307",
         "local_53d79d474b47b325726a583a"
       ],
-      "generatedAt": "2026-09-28T16:52:12.466Z",
+      "generatedAt": "2026-09-28T22:39:11.840Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -160,7 +181,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-28",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践」、「Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践」、「Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型",
@@ -183,9 +204,19 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_f19efb844d5b9147f0e9310c"
+                "local_9bf5f77df6903a15a4007428"
               ],
               "confidence": 86
+            },
+            {
+              "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_8a807389c5afa45a9e8d6419"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -198,7 +229,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3b1d76be207d77c3b15cc62c"
+                "local_f8444dcf66e44c6b3629fedf"
               ],
               "confidence": 92
             },
@@ -228,7 +259,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_99e5bf22760c920fb7fe53a3"
+                "local_2c771fb88bca03da8e30658b"
               ],
               "confidence": 92
             }
@@ -236,19 +267,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f19efb844d5b9147f0e9310c",
-        "local_3b1d76be207d77c3b15cc62c",
+        "local_9bf5f77df6903a15a4007428",
+        "local_f8444dcf66e44c6b3629fedf",
         "local_7f8647679fe9fcbcfb0a20e5",
         "local_fb01d7d7e9bf69e4bd3a7624",
-        "local_99e5bf22760c920fb7fe53a3"
+        "local_2c771fb88bca03da8e30658b",
+        "local_8a807389c5afa45a9e8d6419"
       ],
-      "generatedAt": "2026-09-28T16:52:12.466Z",
+      "generatedAt": "2026-09-28T22:39:11.840Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-28T16:52:12.466Z",
+  "generatedAt": "2026-09-28T22:39:11.840Z",
   "collectorName": "local-source-collector"
 }

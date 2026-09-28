@@ -5,18 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-09-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AI agents do more of the work in model development, but humans still make the decisions」、「Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「AI agents do more of the work in model development, but humans still make the decisions」、「BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents do more of the work in model development, but humans still make the decisions",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Tens of thousands of security probes show OpenAI&#039;s Hugging Face incident was just the beginning"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：模型越来越强,企业AI为什么还卡在「最后一公里」?"
       ],
       "watchItems": [
         "跟进：AI agents do more of the work in model development, but humans still make the decisions",
-        "跟进：Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
-        "跟进：Tens of thousands of security probes show OpenAI&#039;s Hugging Face incident was just the beginning",
         "跟进：BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题",
-        "跟进：模型越来越强,企业AI为什么还卡在「最后一公里」?"
+        "跟进：模型越来越强,企业AI为什么还卡在「最后一公里」?",
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -33,32 +32,12 @@
               "confidence": 90
             },
             {
-              "title": "Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model ca…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5b5352dd9afb01a3ba8546e4"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Tens of thousands of security probes show OpenAI&#039;s Hugging Face incident was just the beginning",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies l…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4187b8da0e929c98df59ab60"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题",
               "summary": "Data Agent 落地实践》,还原这条路径上的核心取舍.方彪,小... https://h.datafuntalk.com/itde6G️ 票务咨询:13311343487 9 折优...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ab2cdc8de9982d6c6686664e"
+                "local_817e3528dcd797ac28ad1d18"
               ],
               "confidence": 90
             },
@@ -88,33 +67,15 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Kākāpō Party",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e0b371cf09373a218d0cfdef"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_b9d685a63db6292a86cb41fb",
-        "local_5b5352dd9afb01a3ba8546e4",
-        "local_4187b8da0e929c98df59ab60",
-        "local_ab2cdc8de9982d6c6686664e",
+        "local_817e3528dcd797ac28ad1d18",
         "local_df44c15b716f8b45332cd825",
-        "local_0385328164fdad6894a99380",
-        "local_e0b371cf09373a218d0cfdef"
+        "local_0385328164fdad6894a99380"
       ],
-      "generatedAt": "2026-09-28T16:52:12.476Z",
+      "generatedAt": "2026-09-28T22:39:11.849Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -144,7 +105,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ab2cdc8de9982d6c6686664e"
+                "local_817e3528dcd797ac28ad1d18"
               ],
               "confidence": 90
             },
@@ -162,16 +123,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_ab2cdc8de9982d6c6686664e",
+        "local_817e3528dcd797ac28ad1d18",
         "local_df44c15b716f8b45332cd825"
       ],
-      "generatedAt": "2026-09-28T16:52:12.476Z",
+      "generatedAt": "2026-09-28T22:39:11.849Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-28T16:52:12.477Z",
+  "generatedAt": "2026-09-28T22:39:11.849Z",
   "collectorName": "local-source-collector"
 }
