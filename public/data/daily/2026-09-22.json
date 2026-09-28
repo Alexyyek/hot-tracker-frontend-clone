@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「量子位「MEET2027智能未来大会」启动!年度榜单征集进行中」、「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「量子位「MEET2027智能未来大会」启动!年度榜单征集进行中」、「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 已经进入工作流,文件还要靠人传来传去?"
       ],
       "watchItems": [
         "跟进：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "跟进：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "跟进：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
         "跟进：Agent 已经进入工作流,文件还要靠人传来传去?",
-        "跟进：腾讯15年资深后台工程师,转战大模型推理的抉择"
+        "跟进：腾讯15年资深后台工程师,转战大模型推理的抉择",
+        "跟进：Toyota’s $6.4bn robotics estimate puts physical AI in focus"
       ],
       "sections": [
         {
@@ -43,32 +43,12 @@
               "confidence": 92
             },
             {
-              "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b825ec82b86f188294ff4e02"
-              ],
-              "confidence": 70
-            },
-            {
               "title": "Agent 已经进入工作流,文件还要靠人传来传去?",
               "summary": "让 Agent 整理客户反馈、生成分析报告,已成为不少团队尝试 AI 办公的起点.但围绕这份报告,仍有一系列工作需要人完成:把资料...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_10eb2194c4df521eac50eb79"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "华为全联接大会2026收官:开发者小镇聚焦Agentic时代,解锁智能体与AI工具新体验",
-              "summary": "华为云开发者联盟带来精彩纷呈的展览展示、Codelabs、... Agent,开源平台赋能人人可构建.「openJiuwen 开源 Agent 平...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9b2aa4c87b0f2f27f481fec9"
               ],
               "confidence": 92
             }
@@ -83,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_04d151120159fe5ff3350c17"
+                "local_65efc0864a6ee8381aef024f"
               ],
               "confidence": 92
             },
@@ -133,15 +113,13 @@
       "referencedFeedItemIds": [
         "local_43908023d70b05bc80a8f93e",
         "local_64ea87ce6ec932b9f9cf5674",
-        "local_b825ec82b86f188294ff4e02",
         "local_10eb2194c4df521eac50eb79",
-        "local_04d151120159fe5ff3350c17",
+        "local_65efc0864a6ee8381aef024f",
         "local_7ebb60f579070002740a06d7",
-        "local_9b2aa4c87b0f2f27f481fec9",
         "local_3b62754f7ebbb376ffb1a426",
         "local_e05a25e7c55b7155919bb9a7"
       ],
-      "generatedAt": "2026-09-28T07:48:13.386Z",
+      "generatedAt": "2026-09-28T16:52:12.541Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -152,18 +130,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「量子位「MEET2027智能未来大会」启动!年度榜单征集进行中」、「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「量子位「MEET2027智能未来大会」启动!年度榜单征集进行中」、「NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 已经进入工作流,文件还要靠人传来传去?"
       ],
       "watchItems": [
         "跟进：量子位「MEET2027智能未来大会」启动!年度榜单征集进行中",
         "跟进：NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development",
-        "跟进：Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
         "跟进：Agent 已经进入工作流,文件还要靠人传来传去?",
-        "跟进：腾讯15年资深后台工程师,转战大模型推理的抉择"
+        "跟进：腾讯15年资深后台工程师,转战大模型推理的抉择",
+        "跟进：当 AI 开始真正\"做事\",基础设施准备好了吗?"
       ],
       "sections": [
         {
@@ -190,32 +168,12 @@
               "confidence": 92
             },
             {
-              "title": "Accelerating a ROS 2 Node with an AI Agent and NVIDIA Isaac ROS",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPU acceleration can speed up compute-intensive robotics workloads, but a fast CUDA kernel alone does not guarantee a fast ROS 2 graph. As messages move between...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b825ec82b86f188294ff4e02"
-              ],
-              "confidence": 70
-            },
-            {
               "title": "Agent 已经进入工作流,文件还要靠人传来传去?",
               "summary": "让 Agent 整理客户反馈、生成分析报告,已成为不少团队尝试 AI 办公的起点.但围绕这份报告,仍有一系列工作需要人完成:把资料...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_10eb2194c4df521eac50eb79"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "华为全联接大会2026收官:开发者小镇聚焦Agentic时代,解锁智能体与AI工具新体验",
-              "summary": "华为云开发者联盟带来精彩纷呈的展览展示、Codelabs、... Agent,开源平台赋能人人可构建.「openJiuwen 开源 Agent 平...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9b2aa4c87b0f2f27f481fec9"
               ],
               "confidence": 92
             }
@@ -230,7 +188,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_04d151120159fe5ff3350c17"
+                "local_65efc0864a6ee8381aef024f"
               ],
               "confidence": 92
             }
@@ -255,19 +213,17 @@
       "referencedFeedItemIds": [
         "local_43908023d70b05bc80a8f93e",
         "local_64ea87ce6ec932b9f9cf5674",
-        "local_b825ec82b86f188294ff4e02",
         "local_10eb2194c4df521eac50eb79",
-        "local_04d151120159fe5ff3350c17",
-        "local_9b2aa4c87b0f2f27f481fec9",
+        "local_65efc0864a6ee8381aef024f",
         "local_3b62754f7ebbb376ffb1a426"
       ],
-      "generatedAt": "2026-09-28T07:48:13.386Z",
+      "generatedAt": "2026-09-28T16:52:12.541Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-28T07:48:13.386Z",
+  "generatedAt": "2026-09-28T16:52:12.541Z",
   "collectorName": "local-source-collector"
 }
