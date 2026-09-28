@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AI agents do more of the work in model development, but humans still make the decisions」、「Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI agents do more of the work in model development, but humans still make the decisions」、「Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents do more of the work in model development, but humans still make the decisions",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
@@ -75,6 +75,21 @@
           ]
         },
         {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_0385328164fdad6894a99380"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "产品与工具",
           "items": [
             {
@@ -111,10 +126,11 @@
         "local_4187b8da0e929c98df59ab60",
         "local_42f1d57df8336cd2e5eebbf9",
         "local_df44c15b716f8b45332cd825",
+        "local_0385328164fdad6894a99380",
         "local_e0b371cf09373a218d0cfdef",
         "local_f2a43a09bd51d8f207271aa0"
       ],
-      "generatedAt": "2026-09-27T23:07:37.703Z",
+      "generatedAt": "2026-09-28T01:44:20.993Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -165,13 +181,13 @@
         "local_42f1d57df8336cd2e5eebbf9",
         "local_df44c15b716f8b45332cd825"
       ],
-      "generatedAt": "2026-09-27T23:07:37.703Z",
+      "generatedAt": "2026-09-28T01:44:20.993Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-27T23:07:37.703Z",
+  "generatedAt": "2026-09-28T01:44:20.993Z",
   "collectorName": "local-source-collector"
 }

@@ -5,30 +5,50 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」、「Learning to Discover Interesting Mathematics」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving」、「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Learning to Discover Interesting Mathematics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents"
       ],
       "watchItems": [
+        "跟进：DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
         "跟进：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
+        "跟进：Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents",
         "跟进：Learning to Discover Interesting Mathematics",
-        "跟进：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
-        "跟进：AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
-        "跟进：Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs"
+        "跟进：RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
+              "summary": "Agentic LLM workflows decide their execution paths at runtime. Downstream computation may be predictable, or may have run before, yet it cannot begin until the model or the user resolves the branch. We call this serialization the branch-resolution barrier. Caching alone does not…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0b6e95fa4e0e070502ce2d55"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
               "summary": "文|李炤锋编辑|张雨忻昨日,腾讯推出新版Marvis,将这款以\"小黑马\"为形象的个人Agent定位升级为\"AI管家\".《智能涌现》了解...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d5ade80f48ba9f971a000054"
+                "local_8d20bafaa0c2519d57d9726d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents",
+              "summary": "Although effective, coding agents often incur substantial monetary costs. Their recurring cost-inefficient behaviors remain underexplored. We conduct the first study of behavioral cost inefficiencies in coding agents, analyzing 1,200 trajectories from Claude Code and Mini-SWE-Ag…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a62d8b13922e602126e85d92"
               ],
               "confidence": 92
             },
@@ -49,26 +69,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_421cc1bc0d1eb1b7ebcb50e5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "RAPID: Robot Agentic Programming from Demonstrations",
-              "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot program…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dc14f832a350f97117f5ab19"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Coding Agents for Generalized Task and Motion Planning Problems",
-              "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f5aa7e0e82bb22da59e9c563"
               ],
               "confidence": 92
             }
@@ -111,17 +111,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d5ade80f48ba9f971a000054",
+        "local_0b6e95fa4e0e070502ce2d55",
+        "local_8d20bafaa0c2519d57d9726d",
+        "local_a62d8b13922e602126e85d92",
         "local_6176eaba17e9df796f0b399d",
         "local_35a5f2e4dab55538ba8931e0",
         "local_7eaa6509deb1e2dbf00997f7",
         "local_f479c7626294bce2e83a8af7",
         "local_421cc1bc0d1eb1b7ebcb50e5",
-        "local_dc14f832a350f97117f5ab19",
-        "local_f5aa7e0e82bb22da59e9c563",
-        "local_46f1c6780c7cdc5e13c8804c"
+        "local_993bfe6cb24c8b02702a3f92",
+        "local_1df9220aebb4e7a33a3bc1e3"
       ],
-      "generatedAt": "2026-09-27T23:07:37.724Z",
+      "generatedAt": "2026-09-28T01:44:21.019Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -149,7 +150,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d5ade80f48ba9f971a000054"
+                "local_8d20bafaa0c2519d57d9726d"
               ],
               "confidence": 92
             }
@@ -157,15 +158,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d5ade80f48ba9f971a000054"
+        "local_8d20bafaa0c2519d57d9726d"
       ],
-      "generatedAt": "2026-09-27T23:07:37.724Z",
+      "generatedAt": "2026-09-28T01:44:21.019Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-27T23:07:37.724Z",
+  "generatedAt": "2026-09-28T01:44:21.019Z",
   "collectorName": "local-source-collector"
 }
