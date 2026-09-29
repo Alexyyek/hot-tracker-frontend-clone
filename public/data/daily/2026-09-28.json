@@ -5,33 +5,48 @@
       "topicId": "ai",
       "reportDate": "2026-09-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips」、「高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践」、「Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring"
       ],
       "watchItems": [
-        "跟进：Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips",
         "跟进：高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践",
         "跟进：Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型",
         "跟进：NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring",
-        "跟进：Add Runtime Controls to AI Agents with NVIDIA OpenShell"
+        "跟进：Add Runtime Controls to AI Agents with NVIDIA OpenShell",
+        "跟进：Quoting Muse AI Agent"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "行业与公司",
           "items": [
             {
-              "title": "Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Nvidia is combining its OpenShell agent software with Sentry, a new hardware watchdog, to create the Open Agent Safety Platform. Sentry is supposed to isolate AI agents that break out within milliseconds. When it happen…",
+              "title": "高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践",
+              "summary": "高德需完成鸿蒙L6级适配目标.这并非从零建设,而是基于已有鸿... 因此,团队推进AI Native体系化建设,将工程知识、标准化流程、...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_60c6371f6ec71b3e2d80c219"
+                "local_8cce74c707c7faaabe410b69"
               ],
-              "confidence": 92
+              "confidence": 86
             },
+            {
+              "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_8a807389c5afa45a9e8d6419"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Qwen Intelligence负责人许主洪:Agent手机的竞争,不只在模型",
               "summary": "智能涌现:要让Agent完成复杂任务,其实不只是依赖于模型,Harness也非常重要.在这个解决方案里,模型和Harness分别解决什么...",
@@ -71,31 +86,16 @@
                 "local_71844675750b141b0582b50c"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "高德联合鸿蒙 DevEco CLI:鸿蒙 AI Native 规模化交付实践",
-              "summary": "高德需完成鸿蒙L6级适配目标.这并非从零建设,而是基于已有鸿... 因此,团队推进AI Native体系化建设,将工程知识、标准化流程、...",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_142f0db0ac7269e74462549b"
-              ],
-              "confidence": 86
             },
             {
-              "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+              "title": "全球 AI 行业|最近24小时最重要新闻:AI Agent 开始\"动手\",治理与芯片同步收紧",
+              "summary": "行业看点:AI Agent 已经从工程问题进入政府问责和公共政策领域.CEO 被要求到参议院作证,说明 AI 治理不再只是科技公司的内部...",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8a807389c5afa45a9e8d6419"
+                "local_9f4987171149d3023e9a2a26"
               ],
-              "confidence": 70
+              "confidence": 92
             }
           ]
         },
@@ -126,18 +126,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_60c6371f6ec71b3e2d80c219",
-        "local_142f0db0ac7269e74462549b",
+        "local_8cce74c707c7faaabe410b69",
         "local_6d5a85269949c33d953e4534",
         "local_7f8647679fe9fcbcfb0a20e5",
         "local_fb01d7d7e9bf69e4bd3a7624",
         "local_71844675750b141b0582b50c",
-        "local_fb697d4a4c448fa7a1b15212",
+        "local_9f4987171149d3023e9a2a26",
         "local_8a807389c5afa45a9e8d6419",
         "local_cc4d6af49438705620632f85",
         "local_53d79d474b47b325726a583a"
       ],
-      "generatedAt": "2026-09-29T09:08:55.128Z",
+      "generatedAt": "2026-09-29T15:53:06.756Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -171,7 +170,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_142f0db0ac7269e74462549b"
+                "local_8cce74c707c7faaabe410b69"
               ],
               "confidence": 86
             },
@@ -226,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb697d4a4c448fa7a1b15212"
+                "local_9f4987171149d3023e9a2a26"
               ],
               "confidence": 92
             }
@@ -234,20 +233,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_142f0db0ac7269e74462549b",
+        "local_8cce74c707c7faaabe410b69",
         "local_6d5a85269949c33d953e4534",
         "local_7f8647679fe9fcbcfb0a20e5",
         "local_fb01d7d7e9bf69e4bd3a7624",
-        "local_fb697d4a4c448fa7a1b15212",
+        "local_9f4987171149d3023e9a2a26",
         "local_8a807389c5afa45a9e8d6419"
       ],
-      "generatedAt": "2026-09-29T09:08:55.128Z",
+      "generatedAt": "2026-09-29T15:53:06.756Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-29T09:08:55.128Z",
+  "generatedAt": "2026-09-29T15:53:06.756Z",
   "collectorName": "local-source-collector"
 }
