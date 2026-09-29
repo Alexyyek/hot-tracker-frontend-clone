@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8a670c88866a8f3465b344d4"
+                "local_905e0c1973855eb3ff8dccc5"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_35108827e4acba9e73d43151"
+                "local_0d35073cb3338181010feb45"
               ],
               "confidence": 90
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4efa62ce3e82a8e7f2b89a4"
+                "local_f961a6eb921bd0e9d921f95d"
               ],
               "confidence": 92
             },
@@ -75,25 +75,30 @@
           ]
         },
         {
-          "title": "模型与基础设施",
+          "title": "产品与工具",
           "items": [
             {
-              "title": "Introducing MentalHealthBench",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+              "title": "《AI Native 研发范式实践手册》重磅发布",
+              "summary": "刚刚,在云栖大会\"智启原生 研见未来\"阿里巴巴集团 AI Native 研发实践论坛上,《AI Native 研发范式实践手册》正式发布.过去两...",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_8a296485a55fe6664d579928"
+                "local_de8de910e65c9271fb2726a1"
               ],
-              "confidence": 92
-            },
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
               "title": "拆解海博 AI-Native 落地保障:海博团队 AI 知识库能力建设",
               "summary": "RAG:文档切块、按语义相似度召回,通用、接入成本低.&bull;... 后端知识生成:还原开发者真正关心的那几件事后端接手一块代码...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_caee4aa1dec81d3c547ed68e"
+                "local_2c1d99c9a2715838c1894650"
               ],
               "confidence": 82
             },
@@ -110,21 +115,6 @@
           ]
         },
         {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "《AI Native 研发范式实践手册》重磅发布",
-              "summary": "刚刚,在云栖大会\"智启原生 研见未来\"阿里巴巴集团 AI Native 研发实践论坛上,《AI Native 研发范式实践手册》正式发布.过去两...",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_c47bebc551dd15b35b7f09f4"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
-        {
           "title": "行业与公司",
           "items": [
             {
@@ -141,24 +131,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8a670c88866a8f3465b344d4",
+        "local_905e0c1973855eb3ff8dccc5",
         "local_e4d3a65c973b864cca0d6aa0",
-        "local_35108827e4acba9e73d43151",
-        "local_f4efa62ce3e82a8e7f2b89a4",
+        "local_0d35073cb3338181010feb45",
+        "local_f961a6eb921bd0e9d921f95d",
         "local_81983b534fa195cd40e83a00",
-        "local_8a296485a55fe6664d579928",
-        "local_0545e884cf345da24afb5aee",
+        "local_1cafd2110a075fa8229cff04",
         "local_27ee5999ff4435c2793ccb72",
         "local_8ef9b7fcb4706da363f13429",
-        "local_c47bebc551dd15b35b7f09f4",
-        "local_00c5a8390375a24b91deaf26",
-        "local_caee4aa1dec81d3c547ed68e",
+        "local_de8de910e65c9271fb2726a1",
+        "local_241e849ba1c783ddc9f16187",
+        "local_2c1d99c9a2715838c1894650",
         "local_3b8cae81ad3f7328db0669a7",
         "local_dec361b324f681d4bd421520",
         "local_aed0c817ccd6f22d9bef4348",
         "local_35a948ab82209e33ad1631ab"
       ],
-      "generatedAt": "2026-09-29T02:25:55.845Z",
+      "generatedAt": "2026-09-29T09:08:55.192Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -169,7 +158,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-23",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
@@ -192,7 +181,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8a670c88866a8f3465b344d4"
+                "local_905e0c1973855eb3ff8dccc5"
               ],
               "confidence": 92
             },
@@ -212,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_35108827e4acba9e73d43151"
+                "local_0d35073cb3338181010feb45"
               ],
               "confidence": 90
             },
@@ -222,7 +211,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4efa62ce3e82a8e7f2b89a4"
+                "local_f961a6eb921bd0e9d921f95d"
               ],
               "confidence": 92
             },
@@ -239,31 +228,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Introducing MentalHealthBench",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_8a296485a55fe6664d579928"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "拆解海博 AI-Native 落地保障:海博团队 AI 知识库能力建设",
-              "summary": "RAG:文档切块、按语义相似度召回,通用、接入成本低.&bull;... 后端知识生成:还原开发者真正关心的那几件事后端接手一块代码...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_caee4aa1dec81d3c547ed68e"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
           "title": "产品与工具",
           "items": [
             {
@@ -272,9 +236,24 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_c47bebc551dd15b35b7f09f4"
+                "local_de8de910e65c9271fb2726a1"
               ],
               "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "拆解海博 AI-Native 落地保障:海博团队 AI 知识库能力建设",
+              "summary": "RAG:文档切块、按语义相似度召回,通用、接入成本低.&bull;... 后端知识生成:还原开发者真正关心的那几件事后端接手一块代码...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_2c1d99c9a2715838c1894650"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -295,28 +274,27 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8a670c88866a8f3465b344d4",
+        "local_905e0c1973855eb3ff8dccc5",
         "local_e4d3a65c973b864cca0d6aa0",
-        "local_35108827e4acba9e73d43151",
-        "local_f4efa62ce3e82a8e7f2b89a4",
+        "local_0d35073cb3338181010feb45",
+        "local_f961a6eb921bd0e9d921f95d",
         "local_81983b534fa195cd40e83a00",
-        "local_8a296485a55fe6664d579928",
-        "local_0545e884cf345da24afb5aee",
+        "local_1cafd2110a075fa8229cff04",
         "local_27ee5999ff4435c2793ccb72",
-        "local_c47bebc551dd15b35b7f09f4",
-        "local_00c5a8390375a24b91deaf26",
-        "local_caee4aa1dec81d3c547ed68e",
+        "local_de8de910e65c9271fb2726a1",
+        "local_241e849ba1c783ddc9f16187",
+        "local_2c1d99c9a2715838c1894650",
         "local_3b8cae81ad3f7328db0669a7",
         "local_aed0c817ccd6f22d9bef4348",
         "local_35a948ab82209e33ad1631ab"
       ],
-      "generatedAt": "2026-09-29T02:25:55.845Z",
+      "generatedAt": "2026-09-29T09:08:55.192Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-29T02:25:55.845Z",
+  "generatedAt": "2026-09-29T09:08:55.192Z",
   "collectorName": "local-source-collector"
 }
