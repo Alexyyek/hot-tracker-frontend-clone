@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26」、「全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26」、「全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速",
@@ -14,8 +14,7 @@
       "watchItems": [
         "跟进：面向视觉语言模型的强化隐空间推理:先分解、看,再推理|EMNLP'26",
         "跟进：全球 AI 简报|AI Agent 进入\"自主执行\"深水区,安全、算力与融资同时加速",
-        "跟进：OpenAI给RAG\"降级\":企业Agent开始改吃Context Graph",
-        "跟进：Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer"
+        "跟进：OpenAI给RAG\"降级\":企业Agent开始改吃Context Graph"
       ],
       "sections": [
         {
@@ -27,7 +26,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_572a71daf5427ebead9dcbb4"
+                "local_153aa711f2a5a428c1639f29"
               ],
               "confidence": 92
             }
@@ -52,17 +51,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_11ac33358adc31948894f950"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
-              "summary": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by whether code regenerated from them passes the original test…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7fcbf1d58414b4b105f402ca"
+                "local_36895f42185aac995a80c2eb"
               ],
               "confidence": 92
             }
@@ -70,12 +59,11 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_572a71daf5427ebead9dcbb4",
+        "local_153aa711f2a5a428c1639f29",
         "local_af0e1d1b8be695b54a5e27f7",
-        "local_11ac33358adc31948894f950",
-        "local_7fcbf1d58414b4b105f402ca"
+        "local_36895f42185aac995a80c2eb"
       ],
-      "generatedAt": "2026-09-28T22:39:11.858Z",
+      "generatedAt": "2026-09-29T02:25:55.814Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -107,7 +95,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_572a71daf5427ebead9dcbb4"
+                "local_153aa711f2a5a428c1639f29"
               ],
               "confidence": 92
             }
@@ -132,7 +120,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_11ac33358adc31948894f950"
+                "local_36895f42185aac995a80c2eb"
               ],
               "confidence": 92
             }
@@ -140,17 +128,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_572a71daf5427ebead9dcbb4",
+        "local_153aa711f2a5a428c1639f29",
         "local_af0e1d1b8be695b54a5e27f7",
-        "local_11ac33358adc31948894f950"
+        "local_36895f42185aac995a80c2eb"
       ],
-      "generatedAt": "2026-09-28T22:39:11.858Z",
+      "generatedAt": "2026-09-29T02:25:55.814Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-28T22:39:11.859Z",
+  "generatedAt": "2026-09-29T02:25:55.814Z",
   "collectorName": "local-source-collector"
 }

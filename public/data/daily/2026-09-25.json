@@ -5,59 +5,24 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving」、「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\""
       ],
       "watchItems": [
-        "跟进：DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
-        "跟进：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
-        "跟进：Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents",
-        "跟进：Orchestrating GenAI for Interdisciplinary Research"
+        "跟进：腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\""
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "DynBranch: Speculative Subgraph Reuse for Dynamic Agentic LLM Serving",
-              "summary": "Agentic LLM workflows decide their execution paths at runtime. Downstream computation may be predictable, or may have run before, yet it cannot begin until the model or the user resolves the branch. We call this serialization the branch-resolution barrier. Caching alone does not…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0b6e95fa4e0e070502ce2d55"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "腾讯Marvis做Agent的不同选择:把用户的电脑\"管理起来\"",
               "summary": "文|李炤锋编辑|张雨忻昨日,腾讯推出新版Marvis,将这款以\"小黑马\"为形象的个人Agent定位升级为\"AI管家\".《智能涌现》了解...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6a09949604d574baff05bc27"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Analyzing and Mitigating Cost-Inefficient Behaviors in Coding Agents",
-              "summary": "Although effective, coding agents often incur substantial monetary costs. Their recurring cost-inefficient behaviors remain underexplored. We conduct the first study of behavioral cost inefficiencies in coding agents, analyzing 1,200 trajectories from Claude Code and Mini-SWE-Ag…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a62d8b13922e602126e85d92"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Orchestrating GenAI for Interdisciplinary Research",
-              "summary": "As researchers tackle interdisciplinary problems, they face the need to deepen expertise in primary areas while rapidly acquiring knowledge in secondary domains. Generative AI (GenAI) is increasingly positioned to meet this need, from general-purpose chat assistants to Deep Rese…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_993bfe6cb24c8b02702a3f92"
+                "local_ca55ef331f157f4cc2b5b95f"
               ],
               "confidence": 92
             }
@@ -65,12 +30,9 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0b6e95fa4e0e070502ce2d55",
-        "local_6a09949604d574baff05bc27",
-        "local_a62d8b13922e602126e85d92",
-        "local_993bfe6cb24c8b02702a3f92"
+        "local_ca55ef331f157f4cc2b5b95f"
       ],
-      "generatedAt": "2026-09-28T22:39:11.869Z",
+      "generatedAt": "2026-09-29T02:25:55.825Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -98,7 +60,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6a09949604d574baff05bc27"
+                "local_ca55ef331f157f4cc2b5b95f"
               ],
               "confidence": 92
             }
@@ -106,15 +68,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6a09949604d574baff05bc27"
+        "local_ca55ef331f157f4cc2b5b95f"
       ],
-      "generatedAt": "2026-09-28T22:39:11.869Z",
+      "generatedAt": "2026-09-29T02:25:55.825Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-28T22:39:11.869Z",
+  "generatedAt": "2026-09-29T02:25:55.825Z",
   "collectorName": "local-source-collector"
 }
