@@ -5,67 +5,32 @@
       "topicId": "ai",
       "reportDate": "2026-09-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 AI 工具到经营智能体：快手分销增长 Agent 实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI」、「“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
+        "跟进：From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
         "跟进：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
         "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "跟进：Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
+        "跟进：发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d31ea81481238859d90dff5e"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9d9c77bb8d2732c552cff173"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Zhipu's open-weight model GLM-5.3 writes cyber exploits nearly as well as Claude Mythos Preview, according to Anthropic. Its smaller Flash variant put together a reliable Chrome attack for just $20.40 at Zhipu's API pri…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e79782baa2f25e0e2d8c861d"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
+              "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Vera Rubin NVL72 and Vera CPU on CoreWeave accelerate agentic AI for companies including Cognition, extending a nearly decade-long run on NVIDIA infrastructure that stays productive, durable and fungible across g…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_938a2ab810202399227c23c1"
+                "local_9ae831e5a6fac45c6a7967c9"
               ],
-              "confidence": 86
+              "confidence": 92
             },
             {
               "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
@@ -78,32 +43,32 @@
               "confidence": 78
             },
             {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
+              "title": "发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
+              "summary": "得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付5.企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_578e079110d1f747a2cbc7e1"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Why client SDK generation belongs in the open",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d8dce4fa97f6f83265c92b4"
+                "local_805a549173ee495b9e63ab6d"
               ],
               "confidence": 92
             },
             {
-              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
+              "title": "Org-Agent: Beyond Personal Assistants Towards Organizational Agents",
+              "summary": "Language model agents serving organizations must coordinate requests from multiple users while using knowledge distributed across their interactions. We identify two complementary capabilities for this setting, namely cross-user interaction and decision-making, as well as cross-…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_85b6150ecd391818d84aad08"
+                "local_3e41ba4bdc33659107d4718d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Can Agents Design Libraries for Agents?",
+              "summary": "Agents increasingly build on code written by other agents, and they reimplement rather than reuse, growing the codebases later agents must work in. To measure how well agents design libraries for other agents, we introduce LibraryDesignBench, a two-phase benchmark in which an ag…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9c3aa63510958399f5798c48"
               ],
               "confidence": 92
             }
@@ -123,75 +88,97 @@
               "confidence": 82
             },
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+              "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride. Such compression also introduces a new positional coordinate: a token's phase, or its position r…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_5b73d834a5c73b58ccc82f7c"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fa688742e4d6791f7aca2054"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_8830f879946b683674b3cad6"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_786743685108c9f9e30d849c"
+                "local_de94f2ddf6c75669a72dbaa7"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Scaling Properties of Same-Family On-Policy Distillation",
+              "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear. We study the scaling properties of *on-policy distillation (OPD)* across …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_534098a19909cad552b5aa10"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Quoting Anthropic Frontier Red Team",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d8e516af121f9d0d07eb9b2a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News.I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devd…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e979fc623acd6b052352c8e1"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Zhipu's open-weight model GLM-5.3 writes cyber exploits nearly as well as Claude Mythos Preview, according to Anthropic. Its smaller Flash variant put together a reliable Chrome attack for just $20.40 at Zhipu's API pri…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e79782baa2f25e0e2d8c861d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+              "summary": "来自Hugging Face的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_6d86209cafd64fffdb502517"
+              ],
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_d31ea81481238859d90dff5e",
-        "local_938a2ab810202399227c23c1",
+        "local_9ae831e5a6fac45c6a7967c9",
         "local_2d3c26b37e5db1be16cc559b",
         "local_2a4a0d0b0e0aceb45e995037",
-        "local_578e079110d1f747a2cbc7e1",
-        "local_5b73d834a5c73b58ccc82f7c",
-        "local_3d8dce4fa97f6f83265c92b4",
-        "local_85b6150ecd391818d84aad08",
-        "local_fa688742e4d6791f7aca2054",
-        "local_12e9da25604587cfac12cb61",
-        "local_42934f0629adbb8f181f51f6",
-        "local_81fdd7e93ae746be05b9d928",
-        "local_66ce22653c036f5d5196d44c",
-        "local_2cf9472948d117f0bc94ebc7",
-        "local_8830f879946b683674b3cad6",
-        "local_519c772fcfd1566c7ec4f948",
-        "local_c7e891f242d3f0e6903941d9",
-        "local_786743685108c9f9e30d849c",
-        "local_0a99902b3f553690e3331d3a",
-        "local_9d9c77bb8d2732c552cff173",
-        "local_b0e21b239646a8a90ddfac87",
-        "local_5f3b2779c1620f109f5b3389",
         "local_e79782baa2f25e0e2d8c861d",
-        "local_36422949c68fe64f799f3518"
+        "local_805a549173ee495b9e63ab6d",
+        "local_6d86209cafd64fffdb502517",
+        "local_de94f2ddf6c75669a72dbaa7",
+        "local_3e41ba4bdc33659107d4718d",
+        "local_9c3aa63510958399f5798c48",
+        "local_534098a19909cad552b5aa10",
+        "local_c6d68af4186c5c88108863f2",
+        "local_d8e516af121f9d0d07eb9b2a",
+        "local_93e51b6901b746ff102348df",
+        "local_8ad22914904da7de619649a1",
+        "local_e979fc623acd6b052352c8e1",
+        "local_846c506a3f06caa713046486",
+        "local_0c44874456bacd8324f1f0d5",
+        "local_7856f5501dcc602fd4cfa0c9",
+        "local_e21f254c62ad7599f36e5954",
+        "local_329e52c7fe58078676cdd0b2",
+        "local_d96445fcef9fc0ecaa1d177a"
       ],
-      "generatedAt": "2026-09-30T12:37:09.135Z",
+      "generatedAt": "2026-09-30T18:15:32.559Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -202,57 +189,32 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-30",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 AI 工具到经营智能体：快手分销增长 Agent 实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI」、「“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：从 AI 工具到经营智能体：快手分销增长 Agent 实践",
+        "跟进：From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
         "跟进：“只剩一群用 LLM 的菜鸟”：顶级黑客怒退 PS5 Linux 项目，几个月心血全打水漂",
         "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "跟进：发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
+        "跟进：AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d31ea81481238859d90dff5e"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9d9c77bb8d2732c552cff173"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "从 AI 工具到经营智能体：快手分销增长 Agent 实践",
-              "summary": "让每一个商家和达人都能拥有自己专属的智能经营团队。",
+              "title": "From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA Vera Rubin NVL72 and Vera CPU on CoreWeave accelerate agentic AI for companies including Cognition, extending a nearly decade-long run on NVIDIA infrastructure that stays productive, durable and fungible across g…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_938a2ab810202399227c23c1"
+                "local_9ae831e5a6fac45c6a7967c9"
               ],
-              "confidence": 86
+              "confidence": 92
             },
             {
               "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
@@ -265,34 +227,34 @@
               "confidence": 78
             },
             {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
+              "title": "发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
+              "summary": "得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付5.企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_578e079110d1f747a2cbc7e1"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Why client SDK generation belongs in the open",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d8dce4fa97f6f83265c92b4"
+                "local_805a549173ee495b9e63ab6d"
               ],
               "confidence": 92
             },
             {
-              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
+              "title": "AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_85b6150ecd391818d84aad08"
+                "local_93e51b6901b746ff102348df"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Lower the Cost of Building and Running Visual AI Agents with NVIDIA VSS Blueprint 3.3",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Vision-language models have made it possible to build visual AI agents that understand video at production scale. The harder problem is turning that capability...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8ad22914904da7de619649a1"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -308,67 +270,25 @@
                 "local_2d3c26b37e5db1be16cc559b"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_5b73d834a5c73b58ccc82f7c"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fa688742e4d6791f7aca2054"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_786743685108c9f9e30d849c"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_d31ea81481238859d90dff5e",
-        "local_938a2ab810202399227c23c1",
+        "local_9ae831e5a6fac45c6a7967c9",
         "local_2d3c26b37e5db1be16cc559b",
         "local_2a4a0d0b0e0aceb45e995037",
-        "local_578e079110d1f747a2cbc7e1",
-        "local_5b73d834a5c73b58ccc82f7c",
-        "local_3d8dce4fa97f6f83265c92b4",
-        "local_85b6150ecd391818d84aad08",
-        "local_fa688742e4d6791f7aca2054",
-        "local_12e9da25604587cfac12cb61",
-        "local_786743685108c9f9e30d849c",
-        "local_0a99902b3f553690e3331d3a",
-        "local_9d9c77bb8d2732c552cff173",
-        "local_b0e21b239646a8a90ddfac87",
-        "local_5f3b2779c1620f109f5b3389",
-        "local_36422949c68fe64f799f3518",
+        "local_805a549173ee495b9e63ab6d",
         "local_93e51b6901b746ff102348df",
         "local_8ad22914904da7de619649a1"
       ],
-      "generatedAt": "2026-09-30T12:37:09.135Z",
+      "generatedAt": "2026-09-30T18:15:32.559Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-30T12:37:09.135Z",
+  "generatedAt": "2026-09-30T18:15:32.560Z",
   "collectorName": "local-source-collector"
 }
