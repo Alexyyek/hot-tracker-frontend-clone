@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI」、「Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI」、「Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
@@ -16,7 +16,7 @@
         "跟进：Anthropic says Zhipu&#039;s open-weight GLM-5.3 nearly matches Claude Mythos Preview at building exploits",
         "跟进：发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
         "跟进：高德本地生活分析 Agent 的 AI Native 实践全景(万字长文回顾)",
-        "跟进：Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning"
+        "跟进：ASENA: Self-evolving Agents for Embodied Navigation"
       ],
       "sections": [
         {
@@ -34,11 +34,11 @@
             },
             {
               "title": "发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
-              "summary": "得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付5.企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术...",
+              "summary": "落地:Plan 模式与主子 Agent 协作|得物技术4.得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付5.企业级 MultiAgent 的记忆...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_805a549173ee495b9e63ab6d"
+                "local_ced92877e817469379b51520"
               ],
               "confidence": 92
             },
@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
-              "title": "Org-Agent: Beyond Personal Assistants Towards Organizational Agents",
-              "summary": "Language model agents serving organizations must coordinate requests from multiple users while using knowledge distributed across their interactions. We identify two complementary capabilities for this setting, namely cross-user interaction and decision-making, as well as cross-…",
+              "title": "ASENA: Self-evolving Agents for Embodied Navigation",
+              "summary": "We present ASENA, an embodied agent system that connects general-purpose coding agents to robot sensing, computation, supervised execution, and persistent experience. Agents can write and execute programs, inspect recorded outcomes, repair failures, and reuse notes and executabl…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3e41ba4bdc33659107d4718d"
+                "local_762327f7f101ca345ca8fa0a"
               ],
               "confidence": 92
             },
             {
-              "title": "AI Agent Regression Testing After a Prompt or Model Change",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Re-run a locked case set with a written behavioral contract whenever a prompt, model, tool definition, or retrieval setting changes, and pin concrete model slugs so a model swap is the only variable.",
+              "title": "RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent",
+              "summary": "Long-horizon agent interactions generate useful but noisy experience, and retraining models to absorb it is expensive. Context-evolving agents therefore need memory extraction methods that improve with more test-time compute without relying on gold labels. We propose RefCon, whi…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c6d68af4186c5c88108863f2"
+                "local_2ff2ade5874f63e0604b3b8f"
               ],
               "confidence": 92
             }
@@ -98,22 +98,12 @@
               "confidence": 70
             },
             {
-              "title": "PreviewDiff: Multimodal Critic-Guided Search over Diffusion Latents",
-              "summary": "Diffusion models can produce striking images and videos, but they still struggle with the compositional details that make a generation faithful to a prompt, such as object counts, attribute binding, spatial relations, and temporally grounded actions. A common way to improve prom…",
+              "title": "On the Off-Policy Teacher in On-Policy Distillation",
+              "summary": "On-policy distillation (OPD) has recently emerged as a promising post-training paradigm in which the student learns from trajectories generated by its own policy under dense teacher supervision. However, OPD introduces a fundamental asymmetry: although the sampled trajectories a…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a30bab6ef86f149d134d1fb9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "What Makes Recurrence Effective in Looped Language Models?",
-              "summary": "Looped language models (LoopLMs) increase computational depth through parameter sharing, offering a path to scale inference computation without adding parameters. However, it remains unclear when additional recurrence is beneficial and how architectural choices affect its effect…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d354f21124567088f50a5f6a"
+                "local_43071c44cada1d06068a639f"
               ],
               "confidence": 92
             }
@@ -123,12 +113,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-              "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride. Such compression also introduces a new positional coordinate: a token's phase, or its position r…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_de94f2ddf6c75669a72dbaa7"
+                "local_17caf97b080e9fe0d0ac7f43"
               ],
               "confidence": 92
             },
@@ -158,24 +148,25 @@
       "referencedFeedItemIds": [
         "local_9ae831e5a6fac45c6a7967c9",
         "local_e79782baa2f25e0e2d8c861d",
-        "local_805a549173ee495b9e63ab6d",
+        "local_ced92877e817469379b51520",
         "local_1edca2e291748f8948ba99b2",
+        "local_762327f7f101ca345ca8fa0a",
+        "local_2ff2ade5874f63e0604b3b8f",
+        "local_860b7ea5a4a9d9e9c333cea6",
+        "local_40a11c62ece3cef0a6080308",
         "local_6d86209cafd64fffdb502517",
-        "local_a30bab6ef86f149d134d1fb9",
-        "local_d354f21124567088f50a5f6a",
-        "local_de94f2ddf6c75669a72dbaa7",
-        "local_3e41ba4bdc33659107d4718d",
+        "local_0f976ab0d96ea05e7bdd7205",
+        "local_43071c44cada1d06068a639f",
+        "local_6fd1b545ea6fcc0081b9cc72",
+        "local_420d80cef2b7410fb5d04476",
+        "local_17caf97b080e9fe0d0ac7f43",
         "local_c6d68af4186c5c88108863f2",
         "local_d8e516af121f9d0d07eb9b2a",
         "local_93e51b6901b746ff102348df",
         "local_8ad22914904da7de619649a1",
-        "local_e979fc623acd6b052352c8e1",
-        "local_846c506a3f06caa713046486",
-        "local_0c44874456bacd8324f1f0d5",
-        "local_7856f5501dcc602fd4cfa0c9",
-        "local_d96445fcef9fc0ecaa1d177a"
+        "local_e979fc623acd6b052352c8e1"
       ],
-      "generatedAt": "2026-09-30T22:22:46.273Z",
+      "generatedAt": "2026-10-01T01:40:32.962Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -215,11 +206,11 @@
             },
             {
               "title": "发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
-              "summary": "得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付5.企业级 MultiAgent 的记忆系统:短期上下文与四层记忆架构实现|得物技术...",
+              "summary": "落地:Plan 模式与主子 Agent 协作|得物技术4.得物小摊 AI Native 演进实录:用 Harness 构建可控 AI 交付5.企业级 MultiAgent 的记忆...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_805a549173ee495b9e63ab6d"
+                "local_ced92877e817469379b51520"
               ],
               "confidence": 92
             },
@@ -258,18 +249,18 @@
       ],
       "referencedFeedItemIds": [
         "local_9ae831e5a6fac45c6a7967c9",
-        "local_805a549173ee495b9e63ab6d",
+        "local_ced92877e817469379b51520",
         "local_1edca2e291748f8948ba99b2",
         "local_93e51b6901b746ff102348df",
         "local_8ad22914904da7de619649a1"
       ],
-      "generatedAt": "2026-09-30T22:22:46.273Z",
+      "generatedAt": "2026-10-01T01:40:32.962Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-30T22:22:46.273Z",
+  "generatedAt": "2026-10-01T01:40:32.962Z",
   "collectorName": "local-source-collector"
 }

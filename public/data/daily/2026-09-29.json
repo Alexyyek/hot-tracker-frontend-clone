@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「OpenAI DevDay 2026 live blog」、「Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「OpenAI DevDay 2026 live blog」、「Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI DevDay 2026 live blog",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_644f83cd9edeef5f71f13b39"
+                "local_5a45304f68997ed9122fc369"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_20555e09e26c27081a3d6605"
+                "local_1739acc4d1fca15ac0db8911"
               ],
               "confidence": 90
             }
@@ -103,16 +103,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_56f2226fbd3edaf0b92622fc"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Claude Sonnet 5.5",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be…",
               "insightLabel": "关注",
@@ -145,16 +135,15 @@
         "local_43ea1dc0cc7a05d0b3494ab3",
         "local_6bece543cded9cbcc2f581a8",
         "local_f5958274e1d917107da47299",
-        "local_644f83cd9edeef5f71f13b39",
-        "local_20555e09e26c27081a3d6605",
-        "local_ca5c7806fbb08732767f70f9",
-        "local_30911b4b5287fb6b3cbd3751",
-        "local_56f2226fbd3edaf0b92622fc",
+        "local_5a45304f68997ed9122fc369",
+        "local_1739acc4d1fca15ac0db8911",
+        "local_60cb42cc92d75ec809edde51",
+        "local_6784c18e980f54a53d6de01c",
         "local_6caa0a7bb71450228ca1c77d",
         "local_c1416ea4cbab66be79d04e72",
         "local_5c04c2f8b6f8173fc14aae5d"
       ],
-      "generatedAt": "2026-09-30T22:22:46.284Z",
+      "generatedAt": "2026-10-01T01:40:32.968Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -223,7 +212,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_644f83cd9edeef5f71f13b39"
+                "local_5a45304f68997ed9122fc369"
               ],
               "confidence": 92
             },
@@ -233,7 +222,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_20555e09e26c27081a3d6605"
+                "local_1739acc4d1fca15ac0db8911"
               ],
               "confidence": 90
             },
@@ -243,7 +232,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ca5c7806fbb08732767f70f9"
+                "local_60cb42cc92d75ec809edde51"
               ],
               "confidence": 92
             },
@@ -253,7 +242,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_30911b4b5287fb6b3cbd3751"
+                "local_6784c18e980f54a53d6de01c"
               ],
               "confidence": 74
             }
@@ -278,20 +267,20 @@
       "referencedFeedItemIds": [
         "local_6bece543cded9cbcc2f581a8",
         "local_f5958274e1d917107da47299",
-        "local_644f83cd9edeef5f71f13b39",
-        "local_20555e09e26c27081a3d6605",
-        "local_ca5c7806fbb08732767f70f9",
-        "local_30911b4b5287fb6b3cbd3751",
+        "local_5a45304f68997ed9122fc369",
+        "local_1739acc4d1fca15ac0db8911",
+        "local_60cb42cc92d75ec809edde51",
+        "local_6784c18e980f54a53d6de01c",
         "local_c1416ea4cbab66be79d04e72",
         "local_5c04c2f8b6f8173fc14aae5d"
       ],
-      "generatedAt": "2026-09-30T22:22:46.284Z",
+      "generatedAt": "2026-10-01T01:40:32.968Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-09-30T22:22:46.284Z",
+  "generatedAt": "2026-10-01T01:40:32.968Z",
   "collectorName": "local-source-collector"
 }
