@@ -5,6 +5,130 @@
       "topicId": "ai",
       "reportDate": "2026-09-23",
       "title": "AI日报",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Coding 到 Running:AI Native SRE Agent 的工程实践"
+      ],
+      "watchItems": [
+        "跟进：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
+        "跟进：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "跟进：从 Coding 到 Running:AI Native SRE Agent 的工程实践",
+        "跟进：企业级 Agent 的终局,不是 Workflow 和 Autonomous 二选一 | 极客时间",
+        "跟进：错误码排查从 3~8 小时到分钟级,Agent怎么做到的?"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
+              "summary": "试图回答一个更接近未来智能体的问题:当任务跨越数十步、多个应用乃至多次会话,GUI Agent 能否记住关键信息、延续任务目标,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_98ca5051174d7456046a7505"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e4d3a65c973b864cca0d6aa0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "从 Coding 到 Running:AI Native SRE Agent 的工程实践",
+              "summary": "Running:AI Native SRE Agent 的工程实践》.他详细分享了如何... 以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).从 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9c44c89e80fc0a7c24689f58"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "企业级 Agent 的终局,不是 Workflow 和 Autonomous 二选一 | 极客时间",
+              "summary": "一个 Agent Demo,从零到跑起来,可能只需要一天.可当它真的开始替人做事,工程师收到的问题就变了:\"跑到一半停了,能接着...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ef710a9e18a263bea5b4da74"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "错误码排查从 3~8 小时到分钟级,Agent怎么做到的?",
+              "summary": "作者:careylu,AI Agent开发工程师SRE 每天面对去重后数百个错误码告警:retcode 含义不清、调用链难追、运行时证据分散.人工排...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_352184b854bb8336764a6b75"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "《AI Native 研发范式实践手册》重磅发布",
+              "summary": "刚刚,在云栖大会\"智启原生 研见未来\"阿里巴巴集团 AI Native 研发实践论坛上,《AI Native 研发范式实践手册》正式发布.过去两...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_93557405d56946bde7c108d8"
+              ],
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "拆解海博 AI-Native 落地保障:海博团队 AI 知识库能力建设",
+              "summary": "RAG:文档切块、按语义相似度召回,通用、接入成本低.&bull;... 后端知识生成:还原开发者真正关心的那几件事后端接手一块代码...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f5f0dd76d5fce406ae59f111"
+              ],
+              "confidence": 82
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_98ca5051174d7456046a7505",
+        "local_e4d3a65c973b864cca0d6aa0",
+        "local_9c44c89e80fc0a7c24689f58",
+        "local_ef710a9e18a263bea5b4da74",
+        "local_352184b854bb8336764a6b75",
+        "local_43abc4b13ad4e2d51f820706",
+        "local_8ef9b7fcb4706da363f13429",
+        "local_93557405d56946bde7c108d8",
+        "local_628967e9c568cd8d0658b821",
+        "local_f5f0dd76d5fce406ae59f111",
+        "local_3b8cae81ad3f7328db0669a7"
+      ],
+      "generatedAt": "2026-10-01T15:33:29.716Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-09-23",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-09-23",
+      "title": "大厂 AI 日报",
       "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
@@ -28,7 +152,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8710260a0716061e43fc69a8"
+                "local_98ca5051174d7456046a7505"
               ],
               "confidence": 92
             },
@@ -48,7 +172,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7c626d5ae15cec07a35d1eb9"
+                "local_9c44c89e80fc0a7c24689f58"
               ],
               "confidence": 92
             },
@@ -68,9 +192,24 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_022567fcf07893619bd1bb20"
+                "local_352184b854bb8336764a6b75"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "《AI Native 研发范式实践手册》重磅发布",
+              "summary": "刚刚,在云栖大会\"智启原生 研见未来\"阿里巴巴集团 AI Native 研发实践论坛上,《AI Native 研发范式实践手册》正式发布.过去两...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_93557405d56946bde7c108d8"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -83,7 +222,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d1040630c5f29a67fe3cc2cc"
+                "local_f5f0dd76d5fce406ae59f111"
               ],
               "confidence": 82
             }
@@ -91,131 +230,24 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8710260a0716061e43fc69a8",
+        "local_98ca5051174d7456046a7505",
         "local_e4d3a65c973b864cca0d6aa0",
-        "local_7c626d5ae15cec07a35d1eb9",
+        "local_9c44c89e80fc0a7c24689f58",
         "local_ef710a9e18a263bea5b4da74",
-        "local_022567fcf07893619bd1bb20",
+        "local_352184b854bb8336764a6b75",
         "local_43abc4b13ad4e2d51f820706",
-        "local_8ef9b7fcb4706da363f13429",
-        "local_7fa9e1f73ae0fc9fd69af732",
-        "local_d1040630c5f29a67fe3cc2cc",
+        "local_93557405d56946bde7c108d8",
+        "local_628967e9c568cd8d0658b821",
+        "local_f5f0dd76d5fce406ae59f111",
         "local_3b8cae81ad3f7328db0669a7"
       ],
-      "generatedAt": "2026-10-01T07:55:33.590Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-09-23",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-09-23",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"」、「Ringg’s AI agents resolve up to 65% of customer calls with OpenAI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Coding 到 Running:AI Native SRE Agent 的工程实践"
-      ],
-      "watchItems": [
-        "跟进：GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
-        "跟进：Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "跟进：从 Coding 到 Running:AI Native SRE Agent 的工程实践",
-        "跟进：企业级 Agent 的终局,不是 Workflow 和 Autonomous 二选一 | 极客时间",
-        "跟进：错误码排查从 3~8 小时到分钟级,Agent怎么做到的?"
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "GUI Agent会操作,却记不住:MemGUI-Bench揭开长程交互的\"记忆盲区\"",
-              "summary": "试图回答一个更接近未来智能体的问题:当任务跨越数十步、多个应用乃至多次会话,GUI Agent 能否记住关键信息、延续任务目标,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8710260a0716061e43fc69a8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e4d3a65c973b864cca0d6aa0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "从 Coding 到 Running:AI Native SRE Agent 的工程实践",
-              "summary": "Running:AI Native SRE Agent 的工程实践》.他详细分享了如何... 以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).从 ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7c626d5ae15cec07a35d1eb9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "企业级 Agent 的终局,不是 Workflow 和 Autonomous 二选一 | 极客时间",
-              "summary": "一个 Agent Demo,从零到跑起来,可能只需要一天.可当它真的开始替人做事,工程师收到的问题就变了:\"跑到一半停了,能接着...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ef710a9e18a263bea5b4da74"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "错误码排查从 3~8 小时到分钟级,Agent怎么做到的?",
-              "summary": "作者:careylu,AI Agent开发工程师SRE 每天面对去重后数百个错误码告警:retcode 含义不清、调用链难追、运行时证据分散.人工排...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_022567fcf07893619bd1bb20"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "拆解海博 AI-Native 落地保障:海博团队 AI 知识库能力建设",
-              "summary": "RAG:文档切块、按语义相似度召回,通用、接入成本低.&bull;... 后端知识生成:还原开发者真正关心的那几件事后端接手一块代码...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d1040630c5f29a67fe3cc2cc"
-              ],
-              "confidence": 82
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_8710260a0716061e43fc69a8",
-        "local_e4d3a65c973b864cca0d6aa0",
-        "local_7c626d5ae15cec07a35d1eb9",
-        "local_ef710a9e18a263bea5b4da74",
-        "local_022567fcf07893619bd1bb20",
-        "local_43abc4b13ad4e2d51f820706",
-        "local_7fa9e1f73ae0fc9fd69af732",
-        "local_d1040630c5f29a67fe3cc2cc",
-        "local_3b8cae81ad3f7328db0669a7"
-      ],
-      "generatedAt": "2026-10-01T07:55:33.590Z",
+      "generatedAt": "2026-10-01T15:33:29.717Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-01T07:55:33.591Z",
+  "generatedAt": "2026-10-01T15:33:29.717Z",
   "collectorName": "local-source-collector"
 }
