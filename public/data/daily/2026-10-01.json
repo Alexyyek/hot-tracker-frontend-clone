@@ -5,68 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-10-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on」、「Security startup finds more than 13,000 internal company screenshots that AI agents uploaded publicly」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction」、「Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Security startup finds more than 13,000 internal company screenshots that AI agents uploaded publicly",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on"
       ],
       "watchItems": [
+        "跟进：LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+        "跟进：Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
         "跟进：Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
         "跟进：Security startup finds more than 13,000 internal company screenshots that AI agents uploaded publicly",
-        "跟进：Quoting Matthew Green",
-        "跟进：Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
-        "跟进：首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和"
+        "跟进：Quoting Matthew Green"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic is now offering Claude for Government to US federal and state agencies. The platform runs in a FedRAMP High environment, the strictest US security level for cloud services. Agencies get the same features as en…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_bc13b9bc541555a0cfd8bf63"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Training LLM Judges from Language Feedback via Position-Selective Self-Distillation",
-              "summary": "We study training LLM judges from natural language feedback, especially for subjective tasks where the verdict depends strongly on which evaluation criteria the judge invokes and how it weighs them. The dominant approach, outcome-supervised RL (e.g., GRPO), credits every token i…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_124dabd0a22a80b04874bf4c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4654024fa7377c6b5245e7be"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：AI infrastructure engineers, storage developers, and cloud service providers need fast and secure access to high-capacity file and object storage to support AI...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_459963a59223b35270b8c068"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
+              "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gather…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fde721779f527d49dc5699ba"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
+              "summary": "Enterprise AI agent skills evolve as tool APIs, models, and specifications change, yet final-output evaluation can miss process-level behavioral drift. We present a continuous evaluation framework combining outcome-level and process-level checks, applied to Revenue and Productiv…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4f971514f90068e807f7b5f8"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Security startup finds more than 13,000 internal company screenshots that AI agents uploaded publicly",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents quietly posted more than 13,000 internal screenshots from 343 organizations, including Fortune 500 companies, to public GitHub repos. Because the platform didn't offer a protected way to upload them, the agent…",
@@ -93,29 +68,44 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_79af5caa23b96cee4d3826d0"
+                "local_fd8711521fa84800814a477f"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic is now offering Claude for Government to US federal and state agencies. The platform runs in a FedRAMP High environment, the strictest US security level for cloud services. Agencies get the same features as en…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_bc13b9bc541555a0cfd8bf63"
               ],
               "confidence": 92
             },
             {
-              "title": "Tacit-TTS: From Autoregressive Decoding to Masked Prediction for Efficient Transcript-Free Voice Cloning",
-              "summary": "TTS systems with autoregressive semantic modeling have demonstrated strong zero-shot voice cloning performance and rich expressive variation, but their sequential decoding incurs substantial latency. Non-autoregressive alternatives offer much faster generation, yet often rely on…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_027889ec3748552785dbc776"
+                "local_4654024fa7377c6b5245e7be"
               ],
-              "confidence": 82
+              "confidence": 92
             },
             {
-              "title": "Cost vs. Quality Tradeoff Framework for Agent Models",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A three-step framework for choosing a model for an AI agent: set the quality bar the task needs, measure cost per quality point on your own examples using the cost field in each OpenRouter response, and pick the cheapes…",
+              "title": "Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：AI infrastructure engineers, storage developers, and cloud service providers need fast and secure access to high-capacity file and object storage to support AI...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4dd368a6b70ba1954afd8d7a"
+                "local_459963a59223b35270b8c068"
               ],
-              "confidence": 86
+              "confidence": 82
             }
           ]
         },
@@ -133,26 +123,6 @@
               "confidence": 70
             },
             {
-              "title": "PixelUMM: Encoder-Free Unified Image and Video Understanding and Generation",
-              "summary": "Unified Multimodal Models (UMMs) often rely on separate visual representations for understanding and generation, increasing visual context length and complicating integration with established vision-language pretraining pipelines. Recent advances in pixel-space modeling offer an…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9bc97fce1cadfc9631fa638d"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Aligning One-Step Generative Models with Reward-Weighted Transport Distillation",
-              "summary": "One-step generators enable high-quality visual generation with a single network evaluation, but their post-training is difficult: general implicit generators provide neither tractable likelihoods nor denoising trajectories, and many rewards are non-differentiable. We introduce R…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_40edf3d17884b478c1f7d167"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：OpenAI and Synopsys are building GPT-Synopsys, a specialized AI model for chip design. It's meant to operate Synopsys' EDA tools like a seasoned engineer and optimize designs on its own. Early tests with semiconductor c…",
               "insightLabel": "关注",
@@ -166,27 +136,21 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_fde721779f527d49dc5699ba",
+        "local_4f971514f90068e807f7b5f8",
         "local_bc13b9bc541555a0cfd8bf63",
         "local_57926387f92fc1a774b834e2",
         "local_d4f3a60fb9ce4374ffbd153f",
         "local_3e20da1ccb3edec7f591ad17",
-        "local_79af5caa23b96cee4d3826d0",
-        "local_9bc97fce1cadfc9631fa638d",
-        "local_124dabd0a22a80b04874bf4c",
-        "local_40edf3d17884b478c1f7d167",
-        "local_027889ec3748552785dbc776",
+        "local_fd8711521fa84800814a477f",
         "local_4654024fa7377c6b5245e7be",
         "local_4dd368a6b70ba1954afd8d7a",
         "local_0093e252a02658654e2f6fbe",
         "local_459963a59223b35270b8c068",
         "local_640735b9b44bdbc652162719",
-        "local_4bd77b2bc16c414381c21665",
-        "local_d32b07476c2ffbdaf04434d9",
-        "local_c2c437b36af5b9bd4338c5ac",
-        "local_8fd3221c10cdd3451842ed1b",
         "local_abe4d0ccb614b4f7532e8ebf"
       ],
-      "generatedAt": "2026-10-02T00:19:36.248Z",
+      "generatedAt": "2026-10-02T06:17:08.036Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -235,7 +199,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_79af5caa23b96cee4d3826d0"
+                "local_fd8711521fa84800814a477f"
               ],
               "confidence": 92
             },
@@ -279,18 +243,18 @@
       ],
       "referencedFeedItemIds": [
         "local_3e20da1ccb3edec7f591ad17",
-        "local_79af5caa23b96cee4d3826d0",
+        "local_fd8711521fa84800814a477f",
         "local_0093e252a02658654e2f6fbe",
         "local_459963a59223b35270b8c068",
         "local_abe4d0ccb614b4f7532e8ebf"
       ],
-      "generatedAt": "2026-10-02T00:19:36.248Z",
+      "generatedAt": "2026-10-02T06:17:08.036Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-02T00:19:36.248Z",
+  "generatedAt": "2026-10-02T06:17:08.037Z",
   "collectorName": "local-source-collector"
 }

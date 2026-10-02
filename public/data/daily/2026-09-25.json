@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：查叔Charles的个人空间-查叔Charles个人主页-哔哩哔哩视频",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -28,7 +28,17 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_695810ac47f4076009cb137a"
+                "local_6f58bd91dc2041ebe1052b0f"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "查叔Charles的个人空间-查叔Charles个人主页-哔哩哔哩视频",
+              "summary": "哔哩哔哩查叔Charles的个人空间，提供查叔Charles分享的视频、音频、文章、动态、收藏等内容，关注查叔Charles账号，第一时间了解UP主动态。探索世界禁区与硬核人文❗️ 走，我们一起去看看世界的背面",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_a762d60d64abc20223519fed"
               ],
               "confidence": 78
             },
@@ -38,9 +48,19 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_7a81dbaa4989fe1d1e9ecfe9"
+                "local_274bf5ee2a77c94ceaf6071e"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Smaller Models, Better Rejects: Preference Distillation Scaling",
+              "summary": "Preference distillation typically treats a teacher response as preferred and the student's own response as rejected. This assumes that self-generated failures are the most informative negatives and that rejects must come from a model at least as large as the student, making gene…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_1dfd0448b67fb15be4bd5637"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -48,32 +68,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b9b198a7b2003cf8e9c314b4"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_903433b4561f23165b14928c"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
               "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_91f160a8b84e363414d8b1dd"
+                "local_426691973fa72b9187b46c83"
               ],
               "confidence": 82
             },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1c4336b2ce1bcc698ea2e610"
+                "local_47d3a626a4d24bb0497bb349"
               ],
               "confidence": 82
             },
@@ -94,6 +94,26 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_85b6150ecd391818d84aad08"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_12e9da25604587cfac12cb61"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Why client SDK generation belongs in the open",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3d8dce4fa97f6f83265c92b4"
               ],
               "confidence": 92
             }
@@ -108,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_acd4cccc8179e5a2da980a0a"
+                "local_208c10b508b369cfc27db22a"
               ],
               "confidence": 78
             },
@@ -128,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_7b9010346f06aa427bdb8397"
+                "local_0c3859d266238874c0572645"
               ],
               "confidence": 82
             },
@@ -138,7 +158,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_28118360dfd700bcc24014bb"
+                "local_54d39b8c92305b5e2e95f3ab"
               ],
               "confidence": 92
             }
@@ -146,32 +166,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_695810ac47f4076009cb137a",
-        "local_b9b198a7b2003cf8e9c314b4",
-        "local_903433b4561f23165b14928c",
-        "local_91f160a8b84e363414d8b1dd",
-        "local_1c4336b2ce1bcc698ea2e610",
-        "local_acd4cccc8179e5a2da980a0a",
+        "local_6f58bd91dc2041ebe1052b0f",
+        "local_426691973fa72b9187b46c83",
+        "local_47d3a626a4d24bb0497bb349",
+        "local_a762d60d64abc20223519fed",
+        "local_208c10b508b369cfc27db22a",
         "local_fa688742e4d6791f7aca2054",
         "local_85b6150ecd391818d84aad08",
         "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
-        "local_5ea2cbc0419f3d19e9868cb1",
-        "local_53a1d1e12f29d6c50153d7ad",
-        "local_5d97b772de11dff0d9fe3eda",
-        "local_9c4c98b2516c6bda4ccb8b44",
-        "local_7b9010346f06aa427bdb8397",
-        "local_dd0488e24e03d4aef71f682c",
-        "local_4998d8a52ca03722b0c7cd94",
-        "local_28118360dfd700bcc24014bb",
-        "local_140fe6dd0cbdc84ff7213a74",
-        "local_7a81dbaa4989fe1d1e9ecfe9",
-        "local_4d9f5dacfe644dc753a83521",
-        "local_18983d0fbb1d0c946b08b733",
-        "local_7bcb7b8dd862360927cb057c",
-        "local_a1acc9852cd6edb2651a64bf"
+        "local_df6b1c3c93ffe25b39a11e12",
+        "local_576ea17560657f86298cdb69",
+        "local_3925711090b88a83071ba270",
+        "local_41f23474ff014d1319595017",
+        "local_0c3859d266238874c0572645",
+        "local_194c84d3b7f005fbec61b0fd",
+        "local_f8093d7b6fe4aeebc9f54e15",
+        "local_54d39b8c92305b5e2e95f3ab",
+        "local_9dda6436867617e38effa7e0",
+        "local_274bf5ee2a77c94ceaf6071e",
+        "local_0e1282c19fa50af92a7d24c1",
+        "local_288624188bfad3831c253c05",
+        "local_27379a9620172a1dea22d2cd",
+        "local_b9b198a7b2003cf8e9c314b4",
+        "local_1dfd0448b67fb15be4bd5637"
       ],
-      "generatedAt": "2026-10-02T00:19:36.307Z",
+      "generatedAt": "2026-10-02T06:17:08.074Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -182,18 +202,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-25",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：查叔Charles的个人空间-查叔Charles个人主页-哔哩哔哩视频",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -205,7 +225,17 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_695810ac47f4076009cb137a"
+                "local_6f58bd91dc2041ebe1052b0f"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "查叔Charles的个人空间-查叔Charles个人主页-哔哩哔哩视频",
+              "summary": "哔哩哔哩查叔Charles的个人空间，提供查叔Charles分享的视频、音频、文章、动态、收藏等内容，关注查叔Charles账号，第一时间了解UP主动态。探索世界禁区与硬核人文❗️ 走，我们一起去看看世界的背面",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_a762d60d64abc20223519fed"
               ],
               "confidence": 78
             },
@@ -215,27 +245,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_7a81dbaa4989fe1d1e9ecfe9"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_95ef1577d48d4be9a25d90df"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Regional dialects and...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3e20da1ccb3edec7f591ad17"
+                "local_274bf5ee2a77c94ceaf6071e"
               ],
               "confidence": 70
             }
@@ -245,32 +255,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b9b198a7b2003cf8e9c314b4"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_903433b4561f23165b14928c"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
               "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_91f160a8b84e363414d8b1dd"
+                "local_426691973fa72b9187b46c83"
               ],
               "confidence": 82
             },
@@ -280,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1c4336b2ce1bcc698ea2e610"
+                "local_47d3a626a4d24bb0497bb349"
               ],
               "confidence": 82
             },
@@ -291,6 +281,26 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_85b6150ecd391818d84aad08"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_12e9da25604587cfac12cb61"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Why client SDK generation belongs in the open",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3d8dce4fa97f6f83265c92b4"
               ],
               "confidence": 92
             }
@@ -305,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_acd4cccc8179e5a2da980a0a"
+                "local_208c10b508b369cfc27db22a"
               ],
               "confidence": 78
             },
@@ -325,7 +335,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_28118360dfd700bcc24014bb"
+                "local_54d39b8c92305b5e2e95f3ab"
               ],
               "confidence": 92
             }
@@ -333,33 +343,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_695810ac47f4076009cb137a",
-        "local_b9b198a7b2003cf8e9c314b4",
-        "local_903433b4561f23165b14928c",
-        "local_91f160a8b84e363414d8b1dd",
-        "local_1c4336b2ce1bcc698ea2e610",
-        "local_acd4cccc8179e5a2da980a0a",
+        "local_6f58bd91dc2041ebe1052b0f",
+        "local_426691973fa72b9187b46c83",
+        "local_47d3a626a4d24bb0497bb349",
+        "local_a762d60d64abc20223519fed",
+        "local_208c10b508b369cfc27db22a",
         "local_fa688742e4d6791f7aca2054",
         "local_85b6150ecd391818d84aad08",
         "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
-        "local_28118360dfd700bcc24014bb",
-        "local_140fe6dd0cbdc84ff7213a74",
-        "local_7a81dbaa4989fe1d1e9ecfe9",
-        "local_4d9f5dacfe644dc753a83521",
-        "local_18983d0fbb1d0c946b08b733",
-        "local_7bcb7b8dd862360927cb057c",
-        "local_a1acc9852cd6edb2651a64bf",
-        "local_95ef1577d48d4be9a25d90df",
-        "local_3e20da1ccb3edec7f591ad17"
+        "local_54d39b8c92305b5e2e95f3ab",
+        "local_9dda6436867617e38effa7e0",
+        "local_274bf5ee2a77c94ceaf6071e",
+        "local_0e1282c19fa50af92a7d24c1",
+        "local_288624188bfad3831c253c05",
+        "local_b9b198a7b2003cf8e9c314b4",
+        "local_4649d7686cfef91803b92a65",
+        "local_7bcb7b8dd862360927cb057c"
       ],
-      "generatedAt": "2026-10-02T00:19:36.307Z",
+      "generatedAt": "2026-10-02T06:17:08.074Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-02T00:19:36.308Z",
+  "generatedAt": "2026-10-02T06:17:08.074Z",
   "collectorName": "local-source-collector"
 }

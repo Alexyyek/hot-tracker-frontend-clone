@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-09-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI」、「发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI」、「发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
@@ -16,7 +16,7 @@
         "跟进：发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3D 空间图片技术实践",
         "跟进：高德本地生活分析 Agent 的 AI Native 实践全景(万字长文回顾)",
         "跟进：Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-        "跟进：AI Agent Regression Testing After a Prompt or Model Change"
+        "跟进：Quoting Anthropic Frontier Red Team"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2845ba344d5a0ed943bedf84"
+                "local_82cd014da26112ffd83ea914"
               ],
               "confidence": 92
             },
@@ -49,16 +49,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_c57d16a855820828e96cc60c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI Agent Regression Testing After a Prompt or Model Change",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Re-run a locked case set with a written behavioral contract whenever a prompt, model, tool definition, or retrieval setting changes, and pin concrete model slugs so a model swap is the only variable.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c6d68af4186c5c88108863f2"
               ],
               "confidence": 92
             }
@@ -107,14 +97,13 @@
       ],
       "referencedFeedItemIds": [
         "local_9ae831e5a6fac45c6a7967c9",
-        "local_2845ba344d5a0ed943bedf84",
+        "local_82cd014da26112ffd83ea914",
         "local_c57d16a855820828e96cc60c",
         "local_6d86209cafd64fffdb502517",
-        "local_c6d68af4186c5c88108863f2",
         "local_d8e516af121f9d0d07eb9b2a",
         "local_e979fc623acd6b052352c8e1"
       ],
-      "generatedAt": "2026-10-02T00:19:36.256Z",
+      "generatedAt": "2026-10-02T06:17:08.042Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -156,7 +145,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2845ba344d5a0ed943bedf84"
+                "local_82cd014da26112ffd83ea914"
               ],
               "confidence": 92
             },
@@ -175,16 +164,16 @@
       ],
       "referencedFeedItemIds": [
         "local_9ae831e5a6fac45c6a7967c9",
-        "local_2845ba344d5a0ed943bedf84",
+        "local_82cd014da26112ffd83ea914",
         "local_c57d16a855820828e96cc60c"
       ],
-      "generatedAt": "2026-10-02T00:19:36.256Z",
+      "generatedAt": "2026-10-02T06:17:08.042Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-02T00:19:36.256Z",
+  "generatedAt": "2026-10-02T06:17:08.042Z",
   "collectorName": "local-source-collector"
 }
