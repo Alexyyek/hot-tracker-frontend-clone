@@ -5,173 +5,87 @@
       "topicId": "ai",
       "reportDate": "2026-10-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「\"Muse Gadgets\" turns AI hardware into an open-source DIY project」、「Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Claude Fable 5.1 and Claude Mythos 5.1"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+        "跟进：Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
+        "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "跟进：Introducing Claude Opus 5.5",
+        "跟进：Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6aee8e968f77e0b074dc86ea"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6a42788ed2227322417b5766"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "title": "\"Muse Gadgets\" turns AI hardware into an open-source DIY project",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meta announced Muse Gadgets, an open-source project that lets hobbyists build their own AI hardware using ESP32 boards and connect it to Meta's AI agent Muse. The team also produced 5,000 units of the \"Muse Home Link,\" …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_10cb14f76c6614d4855678f5"
+                "local_be9ccb848d5bbb4928f22fe7"
               ],
               "confidence": 78
             },
             {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
+              "title": "Another OpenAI safety departure adds to a pattern of researchers leaving with public warnings",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：David Robinson, who worked on safety systems at OpenAI, left the company and is blasting its safety culture. He points to AI agents that were accidentally released and a model that bypassed its internet access restricti…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_75c9cd61a940c1248b965d4c"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-              "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_155fe5ac75f785c4e5c0f546"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "一个忘关的开关，与企业Agent的全栈技术账单",
-              "summary": "传统问答场景中，下一轮对话由用户决定。Agent 则不同——接到任务后，它可能连续检索、调用工具、依据结果调整计划或发起重试。一次委托产生多少调用、占用多少资源，往往要跑起来才知道。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_01d1b4d0c782a4a4a02be502"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Why client SDK generation belongs in the open",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d8dce4fa97f6f83265c92b4"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6597a4443ad5d643030b23e9"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fa688742e4d6791f7aca2054"
+                "local_bf4201cfd99ca1dcbf4a5fb0"
               ],
               "confidence": 90
             },
             {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
+              "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_2a368eb10a07f6547ffc0b90"
+                "local_8961e794c7dcaece2c6ac63f"
               ],
-              "confidence": 82
+              "confidence": 86
             },
             {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "title": "Introducing Claude Opus 5.5",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_759e1336fd2dc358781b63ab"
+                "local_47d4fa04a2176bef0f64bfc4"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：According to researchers at the Deepmind Institute, general AI won't emerge as a single supermodel but as a network of cooperating agents and humans. What will matter most, they argue, is not model size but the rules an…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_35ce4285dc83aeb212443fc4"
+              ],
+              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_6aee8e968f77e0b074dc86ea",
-        "local_10cb14f76c6614d4855678f5",
-        "local_75c9cd61a940c1248b965d4c",
-        "local_155fe5ac75f785c4e5c0f546",
-        "local_01d1b4d0c782a4a4a02be502",
-        "local_6597a4443ad5d643030b23e9",
-        "local_3d8dce4fa97f6f83265c92b4",
-        "local_fa688742e4d6791f7aca2054",
-        "local_85b6150ecd391818d84aad08",
-        "local_12e9da25604587cfac12cb61",
-        "local_bf591d4133a5184c621f0910",
-        "local_91b75e65d0fd4d689d1c6b90",
-        "local_ec97870aaac5c3e22bc5f404",
-        "local_9d778794b9f37a4d39ed9427",
-        "local_2a368eb10a07f6547ffc0b90",
+        "local_be9ccb848d5bbb4928f22fe7",
+        "local_bf4201cfd99ca1dcbf4a5fb0",
         "local_8961e794c7dcaece2c6ac63f",
         "local_47d4fa04a2176bef0f64bfc4",
-        "local_759e1336fd2dc358781b63ab",
-        "local_5a71a5feef670c24f5a4b6db",
-        "local_6a42788ed2227322417b5766",
-        "local_3f4dec8ea84a25433a44c6df",
-        "local_25115857a510359b6bcb7bce",
         "local_35ce4285dc83aeb212443fc4",
-        "local_f6845a126eedc28ee56d83c4"
+        "local_f6845a126eedc28ee56d83c4",
+        "local_b6cca4548844ee29d8e390b1",
+        "local_dddca0bffc1b6619c6be9c17"
       ],
-      "generatedAt": "2026-10-03T12:38:10.478Z",
+      "generatedAt": "2026-10-03T16:50:29.952Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -182,162 +96,53 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Rabbit创始人吕骋:人不该为Agent改变思考方式」、「A model guide for the GPT-6 family」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Rabbit创始人吕骋:人不该为Agent改变思考方式",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A model guide for the GPT-6 family"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：Rabbit创始人吕骋:人不该为Agent改变思考方式",
+        "跟进：A model guide for the GPT-6 family"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6aee8e968f77e0b074dc86ea"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6a42788ed2227322417b5766"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "title": "Rabbit创始人吕骋:人不该为Agent改变思考方式",
+              "summary": "Agent就会自己寻找办法.说起Rabbit,很多人首先想到那台橙色... 在和智能涌现的交流中,吕骋进一步解释了r1面临的落差:\"我们...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_10cb14f76c6614d4855678f5"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_75c9cd61a940c1248b965d4c"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-              "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_155fe5ac75f785c4e5c0f546"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "一个忘关的开关，与企业Agent的全栈技术账单",
-              "summary": "传统问答场景中，下一轮对话由用户决定。Agent 则不同——接到任务后，它可能连续检索、调用工具、依据结果调整计划或发起重试。一次委托产生多少调用、占用多少资源，往往要跑起来才知道。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_01d1b4d0c782a4a4a02be502"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Why client SDK generation belongs in the open",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3d8dce4fa97f6f83265c92b4"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6597a4443ad5d643030b23e9"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fa688742e4d6791f7aca2054"
+                "local_b6cca4548844ee29d8e390b1"
               ],
               "confidence": 90
             },
             {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "title": "A model guide for the GPT-6 family",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_759e1336fd2dc358781b63ab"
+                "local_dddca0bffc1b6619c6be9c17"
               ],
-              "confidence": 92
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_6aee8e968f77e0b074dc86ea",
-        "local_10cb14f76c6614d4855678f5",
-        "local_75c9cd61a940c1248b965d4c",
-        "local_155fe5ac75f785c4e5c0f546",
-        "local_01d1b4d0c782a4a4a02be502",
-        "local_6597a4443ad5d643030b23e9",
-        "local_3d8dce4fa97f6f83265c92b4",
-        "local_fa688742e4d6791f7aca2054",
-        "local_85b6150ecd391818d84aad08",
-        "local_12e9da25604587cfac12cb61",
-        "local_759e1336fd2dc358781b63ab",
-        "local_5a71a5feef670c24f5a4b6db",
-        "local_6a42788ed2227322417b5766",
-        "local_3f4dec8ea84a25433a44c6df",
-        "local_25115857a510359b6bcb7bce",
-        "local_c13e8dc86e5ca27b180e49ee",
+        "local_b6cca4548844ee29d8e390b1",
         "local_dddca0bffc1b6619c6be9c17"
       ],
-      "generatedAt": "2026-10-03T12:38:10.478Z",
+      "generatedAt": "2026-10-03T16:50:29.952Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-03T12:38:10.478Z",
+  "generatedAt": "2026-10-03T16:50:29.952Z",
   "collectorName": "local-source-collector"
 }
