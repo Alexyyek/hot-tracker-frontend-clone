@@ -5,33 +5,38 @@
       "topicId": "ai",
       "reportDate": "2026-09-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Helping 25,000 veterans and military families build careers in skilled trades」、「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」、「以开放之云,重塑Agentic AI开发新范式」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping 25,000 veterans and military families build careers in skilled trades",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：以开放之云,重塑Agentic AI开发新范式"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：以开放之云,重塑Agentic AI开发新范式",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链"
       ],
       "watchItems": [
-        "跟进：Helping 25,000 veterans and military families build careers in skilled trades",
         "跟进：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
         "跟进：以开放之云,重塑Agentic AI开发新范式",
         "跟进：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链",
+        "跟进：Claude discovers a novel enzyme system",
         "跟进：Claude discovers a novel enzyme system"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Helping 25,000 veterans and military families build careers in skilled trades",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google.org is supporting organizations to help veterans and military families find careers in skilled trades.",
+              "title": "云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+              "summary": "大模型深刻改变了数字世界.人们对AI的期待不再停留于回答问题... #云栖大会 #高德地图 #空间智能 #高德技术",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_66d2597edeb5e069754e59ab"
+                "local_c5835cff6407393bccfe65fd"
               ],
-              "confidence": 78
-            },
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "以开放之云,重塑Agentic AI开发新范式",
               "summary": "让Agent开发成果可落地.此外,华为云全新升级开发者权益体系,从\"体验中心&mdash;成长中心&mdash;大赛平台\"三大维度,提供零门槛的产...",
@@ -48,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_88a9807f97e4bc607418fdc3"
+                "local_0c8e51deb9b287d95d84b56c"
               ],
               "confidence": 92
             },
@@ -71,9 +76,53 @@
                 "local_b5c4af258ed5063eca3c2131"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Two years of OpenAI Academy",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6ef7241dec0501f4f5149022"
+              ],
+              "confidence": 82
             }
           ]
-        },
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_c5835cff6407393bccfe65fd",
+        "local_7cf9a529bee717af2dcc392a",
+        "local_0c8e51deb9b287d95d84b56c",
+        "local_787b39c07763bc2af587956b",
+        "local_b5c4af258ed5063eca3c2131",
+        "local_6ef7241dec0501f4f5149022"
+      ],
+      "generatedAt": "2026-10-05T16:05:35.148Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-09-24",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-09-24",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」、「以开放之云,重塑Agentic AI开发新范式」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：以开放之云,重塑Agentic AI开发新范式",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链"
+      ],
+      "watchItems": [
+        "跟进：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
+        "跟进：以开放之云,重塑Agentic AI开发新范式",
+        "跟进：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链",
+        "跟进：Claude discovers a novel enzyme system",
+        "跟进：Two years of OpenAI Academy"
+      ],
+      "sections": [
         {
           "title": "模型与基础设施",
           "items": [
@@ -88,55 +137,10 @@
               "confidence": 86
             }
           ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_66d2597edeb5e069754e59ab",
-        "local_c5835cff6407393bccfe65fd",
-        "local_7cf9a529bee717af2dcc392a",
-        "local_88a9807f97e4bc607418fdc3",
-        "local_787b39c07763bc2af587956b",
-        "local_b5c4af258ed5063eca3c2131",
-        "local_6ef7241dec0501f4f5149022"
-      ],
-      "generatedAt": "2026-10-05T07:05:52.656Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-09-24",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-09-24",
-      "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Helping 25,000 veterans and military families build careers in skilled trades」、「云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helping 25,000 veterans and military families build careers in skilled trades",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：以开放之云,重塑Agentic AI开发新范式"
-      ],
-      "watchItems": [
-        "跟进：Helping 25,000 veterans and military families build careers in skilled trades",
-        "跟进：云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-        "跟进：以开放之云,重塑Agentic AI开发新范式",
-        "跟进：北交清华等提出ARGUS:多智能体协同\"断案\",给视频鉴伪补上证据链",
-        "跟进：Claude discovers a novel enzyme system"
-      ],
-      "sections": [
+        },
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Helping 25,000 veterans and military families build careers in skilled trades",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google.org is supporting organizations to help veterans and military families find careers in skilled trades.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_66d2597edeb5e069754e59ab"
-              ],
-              "confidence": 78
-            },
             {
               "title": "以开放之云,重塑Agentic AI开发新范式",
               "summary": "让Agent开发成果可落地.此外,华为云全新升级开发者权益体系,从\"体验中心&mdash;成长中心&mdash;大赛平台\"三大维度,提供零门槛的产...",
@@ -153,7 +157,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_88a9807f97e4bc607418fdc3"
+                "local_0c8e51deb9b287d95d84b56c"
               ],
               "confidence": 92
             },
@@ -178,38 +182,22 @@
               "confidence": 82
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "云栖大会2026精彩回顾|高德发布全空间无人体系,同步开放空间智能生态",
-              "summary": "大模型深刻改变了数字世界.人们对AI的期待不再停留于回答问题... #云栖大会 #高德地图 #空间智能 #高德技术",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c5835cff6407393bccfe65fd"
-              ],
-              "confidence": 86
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_66d2597edeb5e069754e59ab",
         "local_c5835cff6407393bccfe65fd",
         "local_7cf9a529bee717af2dcc392a",
-        "local_88a9807f97e4bc607418fdc3",
+        "local_0c8e51deb9b287d95d84b56c",
         "local_787b39c07763bc2af587956b",
         "local_6ef7241dec0501f4f5149022"
       ],
-      "generatedAt": "2026-10-05T07:05:52.656Z",
+      "generatedAt": "2026-10-05T16:05:35.148Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T07:05:52.656Z",
+  "generatedAt": "2026-10-05T16:05:35.148Z",
   "collectorName": "local-source-collector"
 }

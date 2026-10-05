@@ -5,107 +5,32 @@
       "topicId": "ai",
       "reportDate": "2026-10-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Why client SDK generation belongs in the open」、「Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Why client SDK generation belongs in the open",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Turn your REST APIs into MCP tools with Google Cloud API Gateway"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：Why client SDK generation belongs in the open",
+        "跟进：Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+        "跟进：Turn your REST APIs into MCP tools with Google Cloud API Gateway",
+        "跟进：Introducing Support for Local AI Models in the Antigravity SDK",
+        "跟进：Cursor — Build Software with AI Agents"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_5f8dd44c9e8512e942f8a8a2"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3d3ea9485a9d3ffaf546f8fc"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Local Support Learning",
-              "summary": "We explore catastrophic forgetting in the context of large pre-trained models. By considering forgetting as a geometric problem in the input space of each weight matrix, we uncover a natural retention objective under which updates produced by gradient-based optimizers are subopt…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2073528a6119e8bdab1f3dce"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
-              "summary": "World simulation is inherently multisensory, demanding synchronized visual and acoustic dynamics in real time. Yet prevailing interactive world models remain strictly silent, focusing exclusively on visual rendering and control while overlooking the acoustic dimension. We presen…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0a7b63246b5eb66ec5309195"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "title": "Why client SDK generation belongs in the open",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_070db9450b0375f5c7cb79a9"
+                "local_3d8dce4fa97f6f83265c92b4"
               ],
-              "confidence": 78
-            },
-            {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_16e97c022681d9498ea0a54f"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-              "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_57ef426e1a54cc032c8ded63"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "一个忘关的开关，与企业Agent的全栈技术账单",
-              "summary": "传统问答场景中，下一轮对话由用户决定。Agent 则不同——接到任务后，它可能连续检索、调用工具、依据结果调整计划或发起重试。一次委托产生多少调用、占用多少资源，往往要跑起来才知道。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9336b665a6aad85b48a06050"
-              ],
-              "confidence": 82
+              "confidence": 92
             },
             {
               "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
@@ -116,22 +41,42 @@
                 "local_85b6150ecd391818d84aad08"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_12e9da25604587cfac12cb61"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Cursor — Build Software with AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cursor plans, writes, and reviews code using AI agents that understand your entire codebase. Everywhere you work: Desktop, CLI, Web & Mobile.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_011c4a283eaffa3babc20086"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "AI Coding Agent for Building Ambitious Software",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cf26618ed1ffbd146b11e1e5"
+              ],
+              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1fe569dba2c453d17831b4b1"
-              ],
-              "confidence": 78
-            },
             {
               "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
@@ -148,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0c31fc94162c0146238c1da1"
+                "local_13bcdde95cff32886e814d18"
               ],
               "confidence": 82
             },
@@ -158,7 +103,52 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d0d234307e35910b3a512f34"
+                "local_46e34b796ea98648561473a8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Learning from Runtime Feedback through Failure-Bank Self-Evolution for Vision-Language-Action Models",
+              "summary": "Vision-language-action (VLA) models generalize broadly across robotic manipulation tasks, but complex environments require balancing task success with unintended contact. Runtime shields can correct individual actions, but they leave the underlying policy unchanged, so repeated …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_3f0a73608892d7ac695b7f24"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Equal Ranking Quality, Different Decisions: Measuring and Reducing Order Dependence in LLM Scorers",
+              "summary": "In passage reranking, response ranking and multi-document question answering, LLMs can score several candidate documents or responses together in one prompt, each still receiving its own score. Such scorers are selected on ranking quality, but their scores determine a decision: …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_152833a0628bb5332c7440fe"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Seed News - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_5b55bce6d92350e1548840d1"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Language Models that Play Chess and Explain Their Moves",
+              "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_32dd906305ac144e365c31a6"
               ],
               "confidence": 92
             }
@@ -166,32 +156,30 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5f8dd44c9e8512e942f8a8a2",
-        "local_070db9450b0375f5c7cb79a9",
-        "local_16e97c022681d9498ea0a54f",
-        "local_57ef426e1a54cc032c8ded63",
-        "local_9336b665a6aad85b48a06050",
-        "local_1fe569dba2c453d17831b4b1",
-        "local_85b6150ecd391818d84aad08",
-        "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
         "local_fa688742e4d6791f7aca2054",
-        "local_20d7f51f518ff2809b11c432",
-        "local_5481d729cc840b2b48546c21",
-        "local_668afca425591590a4b98867",
-        "local_ebad89ce10713f15aee3146d",
-        "local_0c31fc94162c0146238c1da1",
-        "local_7b58196bcfc6cac03462df3c",
-        "local_44682001dc0333b95f39f6a0",
-        "local_d0d234307e35910b3a512f34",
-        "local_f78b48337bdbbd93bd00d829",
-        "local_3d3ea9485a9d3ffaf546f8fc",
-        "local_fff792f5a7ace097a0e422e1",
-        "local_2885cb9f54af18239a91f852",
-        "local_2073528a6119e8bdab1f3dce",
-        "local_0a7b63246b5eb66ec5309195"
+        "local_85b6150ecd391818d84aad08",
+        "local_12e9da25604587cfac12cb61",
+        "local_011c4a283eaffa3babc20086",
+        "local_cf26618ed1ffbd146b11e1e5",
+        "local_4c57a997e6ad4914b649f420",
+        "local_1d6a65e91ab2e61c5ff72f32",
+        "local_13bcdde95cff32886e814d18",
+        "local_d17766a7712a7855cfe0de62",
+        "local_5ea1a60ddd6c0f074f5ea1c4",
+        "local_46e34b796ea98648561473a8",
+        "local_7cb54b3335d1f6a005e24e32",
+        "local_5b55bce6d92350e1548840d1",
+        "local_208b3a731fd9151bef885040",
+        "local_ab39743311623d9464c91d13",
+        "local_1fddb52c755ef1b561e0249d",
+        "local_d0cfd4e18d0e961705dc265d",
+        "local_3f0a73608892d7ac695b7f24",
+        "local_32dd906305ac144e365c31a6",
+        "local_152833a0628bb5332c7440fe",
+        "local_a68e261bcf38ed62809263ed"
       ],
-      "generatedAt": "2026-10-05T07:05:52.524Z",
+      "generatedAt": "2026-10-05T16:05:35.078Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -202,87 +190,32 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-05",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Why client SDK generation belongs in the open」、「Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Why client SDK generation belongs in the open",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Turn your REST APIs into MCP tools with Google Cloud API Gateway"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：Why client SDK generation belongs in the open",
+        "跟进：Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+        "跟进：Turn your REST APIs into MCP tools with Google Cloud API Gateway",
+        "跟进：Introducing Support for Local AI Models in the Antigravity SDK",
+        "跟进：Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_5f8dd44c9e8512e942f8a8a2"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3d3ea9485a9d3ffaf546f8fc"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "title": "Why client SDK generation belongs in the open",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google has partnered with Speakeasy to open-source their OpenAPI code generation suite under the AGPLv3 license, a strategic move prompted by the sudden shutdown of Google's previous proprietary SDK provider. The newly …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_070db9450b0375f5c7cb79a9"
+                "local_3d8dce4fa97f6f83265c92b4"
               ],
-              "confidence": 78
-            },
-            {
-              "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-              "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_16e97c022681d9498ea0a54f"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-              "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_57ef426e1a54cc032c8ded63"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "一个忘关的开关，与企业Agent的全栈技术账单",
-              "summary": "传统问答场景中，下一轮对话由用户决定。Agent 则不同——接到任务后，它可能连续检索、调用工具、依据结果调整计划或发起重试。一次委托产生多少调用、占用多少资源，往往要跑起来才知道。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9336b665a6aad85b48a06050"
-              ],
-              "confidence": 82
+              "confidence": 92
             },
             {
               "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
@@ -293,22 +226,42 @@
                 "local_85b6150ecd391818d84aad08"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Introducing Support for Local AI Models in the Antigravity SDK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Google Antigravity SDK now empowers developers to execute offline, agentic workflows locally using models like Gemma 4 26B A4B via LiteRT. This update facilitates powerful hybrid orchestration architectures, allowin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_12e9da25604587cfac12cb61"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments - Publications - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Pretraining scaling laws reveal that model capability improves predictably with data and compute. But learning from real world environments after deployment remains far less understood. Analyzing roughly 38,000 hours of…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7cb54b3335d1f6a005e24e32"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_208b3a731fd9151bef885040"
+              ],
+              "confidence": 86
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1fe569dba2c453d17831b4b1"
-              ],
-              "confidence": 78
-            },
             {
               "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
@@ -325,37 +278,46 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d0d234307e35910b3a512f34"
+                "local_46e34b796ea98648561473a8"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Seed News - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_5b55bce6d92350e1548840d1"
+              ],
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_5f8dd44c9e8512e942f8a8a2",
-        "local_070db9450b0375f5c7cb79a9",
-        "local_16e97c022681d9498ea0a54f",
-        "local_57ef426e1a54cc032c8ded63",
-        "local_9336b665a6aad85b48a06050",
-        "local_1fe569dba2c453d17831b4b1",
-        "local_85b6150ecd391818d84aad08",
-        "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
         "local_fa688742e4d6791f7aca2054",
-        "local_d0d234307e35910b3a512f34",
-        "local_f78b48337bdbbd93bd00d829",
-        "local_3d3ea9485a9d3ffaf546f8fc",
-        "local_fff792f5a7ace097a0e422e1",
-        "local_2885cb9f54af18239a91f852"
+        "local_85b6150ecd391818d84aad08",
+        "local_12e9da25604587cfac12cb61",
+        "local_46e34b796ea98648561473a8",
+        "local_7cb54b3335d1f6a005e24e32",
+        "local_5b55bce6d92350e1548840d1",
+        "local_208b3a731fd9151bef885040",
+        "local_ab39743311623d9464c91d13"
       ],
-      "generatedAt": "2026-10-05T07:05:52.525Z",
+      "generatedAt": "2026-10-05T16:05:35.078Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T07:05:52.525Z",
+  "generatedAt": "2026-10-05T16:05:35.079Z",
   "collectorName": "local-source-collector"
 }
