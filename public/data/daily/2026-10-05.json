@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
-        "跟进：Claude最严厉的Father的个人空间-Claude最严厉的Father个人主页-哔哩哔哩视频"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a07066c0157657b9278d9dd5"
+                "local_5f8dd44c9e8512e942f8a8a2"
               ],
               "confidence": 78
             },
@@ -38,9 +38,29 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a292fe1ac53ba79cc191a01e"
+                "local_3d3ea9485a9d3ffaf546f8fc"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Local Support Learning",
+              "summary": "We explore catastrophic forgetting in the context of large pre-trained models. By considering forgetting as a geometric problem in the input space of each weight matrix, we uncover a natural retention objective under which updates produced by gradient-based optimizers are subopt…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_2073528a6119e8bdab1f3dce"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "HelixWorld: A Real-time Interactive Audio-Visual World Model",
+              "summary": "World simulation is inherently multisensory, demanding synchronized visual and acoustic dynamics in real time. Yet prevailing interactive world models remain strictly silent, focusing exclusively on visual rendering and control while overlooking the acoustic dimension. We presen…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_0a7b63246b5eb66ec5309195"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -48,12 +68,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_070db9450b0375f5c7cb79a9"
+              ],
+              "confidence": 78
+            },
+            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ab5209bfe656f98043dc3634"
+                "local_16e97c022681d9498ea0a54f"
               ],
               "confidence": 82
             },
@@ -63,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a1a58f228bca8331dabe1240"
+                "local_57ef426e1a54cc032c8ded63"
               ],
               "confidence": 82
             },
@@ -73,19 +103,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c1f1550f05be24e818545dab"
+                "local_9336b665a6aad85b48a06050"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Claude最严厉的Father的个人空间-Claude最严厉的Father个人主页-哔哩哔哩视频",
-              "summary": "哔哩哔哩Claude最严厉的Father的个人空间，提供Claude最严厉的Father分享的视频、音频、文章、动态、收藏等内容，关注Claude最严厉的Father账号，第一时间了解UP主动态。AIGC｜AI Agent｜知识库搭建｜AI 工作流搭建｜前端设计",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_66b00669ff365b21a522ca93"
-              ],
-              "confidence": 86
             },
             {
               "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
@@ -108,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6f22f07b8da0dfb5c5aca13b"
+                "local_1fe569dba2c453d17831b4b1"
               ],
               "confidence": 78
             },
@@ -128,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_f914382c3dbab1239a8307d0"
+                "local_0c31fc94162c0146238c1da1"
               ],
               "confidence": 82
             },
@@ -138,7 +158,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_836e74536bf1d34ca58af4f6"
+                "local_d0d234307e35910b3a512f34"
               ],
               "confidence": 92
             }
@@ -146,31 +166,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a07066c0157657b9278d9dd5",
-        "local_ab5209bfe656f98043dc3634",
-        "local_a1a58f228bca8331dabe1240",
-        "local_c1f1550f05be24e818545dab",
-        "local_66b00669ff365b21a522ca93",
-        "local_6f22f07b8da0dfb5c5aca13b",
+        "local_5f8dd44c9e8512e942f8a8a2",
+        "local_070db9450b0375f5c7cb79a9",
+        "local_16e97c022681d9498ea0a54f",
+        "local_57ef426e1a54cc032c8ded63",
+        "local_9336b665a6aad85b48a06050",
+        "local_1fe569dba2c453d17831b4b1",
         "local_85b6150ecd391818d84aad08",
         "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
         "local_fa688742e4d6791f7aca2054",
-        "local_8db35f2659c0f82fdba4d083",
-        "local_50db4bf6cd2147751b791167",
-        "local_430833736a9ae49683b8e66d",
-        "local_45d890a1222a48d01521b614",
-        "local_f914382c3dbab1239a8307d0",
-        "local_997aa274b0fcb44ec76e818e",
-        "local_00b66cc193a39d95eaa4c197",
-        "local_836e74536bf1d34ca58af4f6",
-        "local_a37d453504f7403c3ade28ec",
-        "local_a292fe1ac53ba79cc191a01e",
-        "local_e23b5345d069aeb5985c8411",
-        "local_9eb2c3fa759a0d10d0c41149",
-        "local_a68e261bcf38ed62809263ed"
+        "local_20d7f51f518ff2809b11c432",
+        "local_5481d729cc840b2b48546c21",
+        "local_668afca425591590a4b98867",
+        "local_ebad89ce10713f15aee3146d",
+        "local_0c31fc94162c0146238c1da1",
+        "local_7b58196bcfc6cac03462df3c",
+        "local_44682001dc0333b95f39f6a0",
+        "local_d0d234307e35910b3a512f34",
+        "local_f78b48337bdbbd93bd00d829",
+        "local_3d3ea9485a9d3ffaf546f8fc",
+        "local_fff792f5a7ace097a0e422e1",
+        "local_2885cb9f54af18239a91f852",
+        "local_2073528a6119e8bdab1f3dce",
+        "local_0a7b63246b5eb66ec5309195"
       ],
-      "generatedAt": "2026-10-05T00:59:50.577Z",
+      "generatedAt": "2026-10-05T07:05:52.524Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -181,18 +202,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-05",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
-        "跟进：Claude最严厉的Father的个人空间-Claude最严厉的Father个人主页-哔哩哔哩视频"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "sections": [
         {
@@ -204,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a07066c0157657b9278d9dd5"
+                "local_5f8dd44c9e8512e942f8a8a2"
               ],
               "confidence": 78
             },
@@ -214,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_a292fe1ac53ba79cc191a01e"
+                "local_3d3ea9485a9d3ffaf546f8fc"
               ],
               "confidence": 70
             }
@@ -224,12 +245,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_070db9450b0375f5c7cb79a9"
+              ],
+              "confidence": 78
+            },
+            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ab5209bfe656f98043dc3634"
+                "local_16e97c022681d9498ea0a54f"
               ],
               "confidence": 82
             },
@@ -239,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a1a58f228bca8331dabe1240"
+                "local_57ef426e1a54cc032c8ded63"
               ],
               "confidence": 82
             },
@@ -249,19 +280,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c1f1550f05be24e818545dab"
+                "local_9336b665a6aad85b48a06050"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Claude最严厉的Father的个人空间-Claude最严厉的Father个人主页-哔哩哔哩视频",
-              "summary": "哔哩哔哩Claude最严厉的Father的个人空间，提供Claude最严厉的Father分享的视频、音频、文章、动态、收藏等内容，关注Claude最严厉的Father账号，第一时间了解UP主动态。AIGC｜AI Agent｜知识库搭建｜AI 工作流搭建｜前端设计",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_66b00669ff365b21a522ca93"
-              ],
-              "confidence": 86
             },
             {
               "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
@@ -284,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6f22f07b8da0dfb5c5aca13b"
+                "local_1fe569dba2c453d17831b4b1"
               ],
               "confidence": 78
             },
@@ -304,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_836e74536bf1d34ca58af4f6"
+                "local_d0d234307e35910b3a512f34"
               ],
               "confidence": 92
             }
@@ -312,29 +333,29 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a07066c0157657b9278d9dd5",
-        "local_ab5209bfe656f98043dc3634",
-        "local_a1a58f228bca8331dabe1240",
-        "local_c1f1550f05be24e818545dab",
-        "local_66b00669ff365b21a522ca93",
-        "local_6f22f07b8da0dfb5c5aca13b",
+        "local_5f8dd44c9e8512e942f8a8a2",
+        "local_070db9450b0375f5c7cb79a9",
+        "local_16e97c022681d9498ea0a54f",
+        "local_57ef426e1a54cc032c8ded63",
+        "local_9336b665a6aad85b48a06050",
+        "local_1fe569dba2c453d17831b4b1",
         "local_85b6150ecd391818d84aad08",
         "local_12e9da25604587cfac12cb61",
         "local_3d8dce4fa97f6f83265c92b4",
         "local_fa688742e4d6791f7aca2054",
-        "local_836e74536bf1d34ca58af4f6",
-        "local_a37d453504f7403c3ade28ec",
-        "local_a292fe1ac53ba79cc191a01e",
-        "local_e23b5345d069aeb5985c8411",
-        "local_9eb2c3fa759a0d10d0c41149"
+        "local_d0d234307e35910b3a512f34",
+        "local_f78b48337bdbbd93bd00d829",
+        "local_3d3ea9485a9d3ffaf546f8fc",
+        "local_fff792f5a7ace097a0e422e1",
+        "local_2885cb9f54af18239a91f852"
       ],
-      "generatedAt": "2026-10-05T00:59:50.577Z",
+      "generatedAt": "2026-10-05T07:05:52.525Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T00:59:50.577Z",
+  "generatedAt": "2026-10-05T07:05:52.525Z",
   "collectorName": "local-source-collector"
 }

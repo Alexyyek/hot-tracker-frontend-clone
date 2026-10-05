@@ -5,43 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction」、「Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Quoting Matthew Green」、「Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和"
       ],
       "watchItems": [
-        "跟进：LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
-        "跟进：Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
         "跟进：Quoting Matthew Green",
         "跟进：Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
-        "跟进：首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和"
+        "跟进：首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和",
+        "跟进：全球 AI 早报|Gemini 4 发布、OpenAI Dots 上线、DeepSeek 联手华为挑战英伟达 CUDA",
+        "跟进：Gemini 4 Argon: our next era of frontier intelligence"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction",
-              "summary": "We present LiteReality-Agent, an agentic system for reconstructing real indoor environments as realistic, articulated, and simulation-ready 3D scenes from RGB-D scans. At its core, LiteReality-Agent formulates 3D reconstruction as a coding problem, in which a coding agent gather…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_fde721779f527d49dc5699ba"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
-              "summary": "Enterprise AI agent skills evolve as tool APIs, models, and specifications change, yet final-output evaluation can miss process-level behavioral drift. We present a continuous evaluation framework combining outcome-level and process-level checks, applied to Revenue and Productiv…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4f971514f90068e807f7b5f8"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Quoting Matthew Green",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered tha…",
@@ -58,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_715864d498d329165a6e4e00"
+                "local_5cc2b00b699cfeba272e1984"
               ],
               "confidence": 92
             },
@@ -71,6 +51,26 @@
                 "local_b7667028af4999426585b52c"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Gemini 4 Argon: our next era of frontier intelligence",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Announcing Gemini 4 Argon, our frontier model for real-world coding, enterprise knowledge work, and cyber defense, rolling out soon.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_0093e252a02658654e2f6fbe"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Let skills in Gemini tackle your most repetitive tasks",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Now you can automate your most repetitive tasks more easily with reusable custom instructions through skills, which will be replacing gems.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_abe4d0ccb614b4f7532e8ebf"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -106,17 +106,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_fde721779f527d49dc5699ba",
-        "local_4f971514f90068e807f7b5f8",
         "local_d4f3a60fb9ce4374ffbd153f",
         "local_3e20da1ccb3edec7f591ad17",
-        "local_715864d498d329165a6e4e00",
+        "local_5cc2b00b699cfeba272e1984",
         "local_b7667028af4999426585b52c",
         "local_0093e252a02658654e2f6fbe",
         "local_459963a59223b35270b8c068",
         "local_abe4d0ccb614b4f7532e8ebf"
       ],
-      "generatedAt": "2026-10-05T00:59:50.598Z",
+      "generatedAt": "2026-10-05T07:05:52.568Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -165,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_715864d498d329165a6e4e00"
+                "local_5cc2b00b699cfeba272e1984"
               ],
               "confidence": 92
             },
@@ -219,19 +217,19 @@
       ],
       "referencedFeedItemIds": [
         "local_3e20da1ccb3edec7f591ad17",
-        "local_715864d498d329165a6e4e00",
+        "local_5cc2b00b699cfeba272e1984",
         "local_b7667028af4999426585b52c",
         "local_0093e252a02658654e2f6fbe",
         "local_459963a59223b35270b8c068",
         "local_abe4d0ccb614b4f7532e8ebf"
       ],
-      "generatedAt": "2026-10-05T00:59:50.598Z",
+      "generatedAt": "2026-10-05T07:05:52.568Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T00:59:50.598Z",
+  "generatedAt": "2026-10-05T07:05:52.569Z",
   "collectorName": "local-source-collector"
 }
