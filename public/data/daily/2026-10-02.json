@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「SCAD: Structured Credit Assignment and Distillation for Long-Horizon Agents」、「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「SCAD: Structured Credit Assignment and Distillation for Long-Horizon Agents」、「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SCAD: Structured Credit Assignment and Distillation for Long-Horizon Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
@@ -88,6 +88,21 @@
               "confidence": 70
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "pwasm 0.2a0",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania. I hadn't touched it since January, so I decided to…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_90b1aa7eb5d6694e24a2579e"
+              ],
+              "confidence": 86
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
@@ -101,9 +116,10 @@
         "local_4649d7686cfef91803b92a65",
         "local_7bcb7b8dd862360927cb057c",
         "local_a1acc9852cd6edb2651a64bf",
-        "local_95ef1577d48d4be9a25d90df"
+        "local_95ef1577d48d4be9a25d90df",
+        "local_90b1aa7eb5d6694e24a2579e"
       ],
-      "generatedAt": "2026-10-05T16:05:35.097Z",
+      "generatedAt": "2026-10-05T22:43:39.271Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -196,13 +212,13 @@
         "local_a1acc9852cd6edb2651a64bf",
         "local_95ef1577d48d4be9a25d90df"
       ],
-      "generatedAt": "2026-10-05T16:05:35.097Z",
+      "generatedAt": "2026-10-05T22:43:39.271Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T16:05:35.097Z",
+  "generatedAt": "2026-10-05T22:43:39.271Z",
   "collectorName": "local-source-collector"
 }

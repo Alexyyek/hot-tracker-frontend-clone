@@ -5,40 +5,45 @@
       "topicId": "ai",
       "reportDate": "2026-10-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Quoting Matthew Green」、「Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages」、「首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球 AI 早报|Gemini 4 发布、OpenAI Dots 上线、DeepSeek 联手华为挑战英伟达 CUDA"
       ],
       "watchItems": [
-        "跟进：Quoting Matthew Green",
         "跟进：Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
         "跟进：首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和",
         "跟进：全球 AI 早报|Gemini 4 发布、OpenAI Dots 上线、DeepSeek 联手华为挑战英伟达 CUDA",
-        "跟进：Gemini 4 Argon: our next era of frontier intelligence"
+        "跟进：Gemini 4 Argon: our next era of frontier intelligence",
+        "跟进：Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "行业与公司",
           "items": [
             {
-              "title": "Quoting Matthew Green",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered tha…",
+              "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Regional dialects and...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d4f3a60fb9ce4374ffbd153f"
+                "local_3e20da1ccb3edec7f591ad17"
               ],
-              "confidence": 92
-            },
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "首发!openJiuwen workSwarm全双工多模态 ,像聊天一样与Agent交互,昇腾算力原生亲和",
               "summary": "机器之心发布复杂agent任务在后台跑,对话在前台继续.实时模型与Core Agent,开始按两种节奏配合,带来全新的交互体验.AI助...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e9408a2872622f0095860fae"
+                "local_799955da4e30ec6759e5b414"
               ],
               "confidence": 92
             },
@@ -75,21 +80,6 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Fine-Tuning NVIDIA Nemotron for Saudi Arabic Dialects, with a Path to Other Languages",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Automatic speech recognition must handle how people actually speak, not only the languages and styles that dominate pretraining data. Regional dialects and...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3e20da1ccb3edec7f591ad17"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
             {
@@ -106,15 +96,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d4f3a60fb9ce4374ffbd153f",
         "local_3e20da1ccb3edec7f591ad17",
-        "local_e9408a2872622f0095860fae",
+        "local_799955da4e30ec6759e5b414",
         "local_b7667028af4999426585b52c",
         "local_0093e252a02658654e2f6fbe",
         "local_459963a59223b35270b8c068",
         "local_abe4d0ccb614b4f7532e8ebf"
       ],
-      "generatedAt": "2026-10-05T16:05:35.103Z",
+      "generatedAt": "2026-10-05T22:43:39.280Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -163,7 +152,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e9408a2872622f0095860fae"
+                "local_799955da4e30ec6759e5b414"
               ],
               "confidence": 92
             },
@@ -217,19 +206,19 @@
       ],
       "referencedFeedItemIds": [
         "local_3e20da1ccb3edec7f591ad17",
-        "local_e9408a2872622f0095860fae",
+        "local_799955da4e30ec6759e5b414",
         "local_b7667028af4999426585b52c",
         "local_0093e252a02658654e2f6fbe",
         "local_459963a59223b35270b8c068",
         "local_abe4d0ccb614b4f7532e8ebf"
       ],
-      "generatedAt": "2026-10-05T16:05:35.103Z",
+      "generatedAt": "2026-10-05T22:43:39.280Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T16:05:35.103Z",
+  "generatedAt": "2026-10-05T22:43:39.280Z",
   "collectorName": "local-source-collector"
 }
