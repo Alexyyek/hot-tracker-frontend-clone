@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds」、「WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds」、「MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation"
       ],
       "watchItems": [
         "跟进：AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds",
-        "跟进：WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
-        "跟进：Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing",
-        "跟进：Self-Supervised Scaling of Terminal Environments for Scientific Domains",
-        "跟进：EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras"
+        "跟进：MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks",
+        "跟进：PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+        "跟进：CUAWright: A Minimal Unified Interface for Digital Agents",
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -33,12 +33,22 @@
               "confidence": 82
             },
             {
-              "title": "Self-Supervised Scaling of Terminal Environments for Scientific Domains",
-              "summary": "Terminal agents are increasingly deployed beyond software engineering in science and other specialized domains. Constructing training environments requires executable reference behavior and a domain-specific verifier that distinguishes semantic correctness from superficially pla…",
+              "title": "MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks",
+              "summary": "LLM agents are increasingly built for medical work and scored on clinical benchmarks. Each such score, however, comes from a model running inside an agent harness, the system that controls the loop between the model and its environment. An agent's score is therefore a property o…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_65f29ace0ee47880e28a77ab"
+                "local_88eeb40106558098ef30b2a0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "CUAWright: A Minimal Unified Interface for Digital Agents",
+              "summary": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop environment equipped with human engineered tools that are fixed before task execution. As models' coding capabilities improve, the GUI native and static harness pr…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8d4a8317b248a573ff7bf516"
               ],
               "confidence": 92
             },
@@ -51,6 +61,16 @@
                 "local_a68e261bcf38ed62809263ed"
               ],
               "confidence": 86
+            },
+            {
+              "title": "LifeLong Digital Twin: A Unified Modeling Paradigm and Agent Harness for Event-Driven Lifelong Health State Trajectories",
+              "summary": "Human health is a continuous, dynamic trajectory shaped by the cumulative interplay of biological processes, clinical events, behaviors and environmental exposures across the life course. Unifying the full breadth of lifelong health information, including longitudinal records, g…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_569633273f8c8912e04c9db7"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -58,24 +78,14 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
-              "summary": "Humans often solve spatial problems by mentally simulating visual transformations. In contrast, conventional vision-language models (VLMs) reason primarily through language. We investigate whether VLMs can solve spatial problems by reasoning with both text and generated visual s…",
+              "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+              "summary": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal world dynamics guide accurate actions. Existing approaches typically represent the world as RGB frames or latent counterparts while predicting actions as end-ef…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_862e7e8b743e567e45b38642"
+                "local_143f3226e9da9add48754c78"
               ],
               "confidence": 92
-            },
-            {
-              "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-              "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6c4182edf4ed845386b4e0cd"
-              ],
-              "confidence": 86
             },
             {
               "title": "Qwen3.8 27B addition in words",
@@ -93,12 +103,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing",
-              "summary": "Large language models (LLMs) increasingly serve as general-purpose interfaces to factual knowledge, but their parameters do not automatically reflect information that changes after pretraining. Knowledge editing (KE) provides a targeted alternative to costly retraining by modify…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_cf0bb50118663d4001e1b435"
+                "local_f78e0f5cbc73754c0a69fcdb"
               ],
               "confidence": 92
             }
@@ -107,14 +117,17 @@
       ],
       "referencedFeedItemIds": [
         "local_1fddb52c755ef1b561e0249d",
-        "local_862e7e8b743e567e45b38642",
-        "local_cf0bb50118663d4001e1b435",
-        "local_65f29ace0ee47880e28a77ab",
-        "local_6c4182edf4ed845386b4e0cd",
+        "local_88eeb40106558098ef30b2a0",
+        "local_143f3226e9da9add48754c78",
+        "local_8d4a8317b248a573ff7bf516",
+        "local_f78e0f5cbc73754c0a69fcdb",
         "local_a68e261bcf38ed62809263ed",
-        "local_49c9ed050890f5a90622104c"
+        "local_49c9ed050890f5a90622104c",
+        "local_569633273f8c8912e04c9db7",
+        "local_98a35def93e4688f4f310b9c",
+        "local_cabd07607e36f6befc684d8c"
       ],
-      "generatedAt": "2026-10-05T22:43:39.247Z",
+      "generatedAt": "2026-10-06T02:39:01.312Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -125,18 +138,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-05",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds」、「WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds」、「MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation"
       ],
       "watchItems": [
         "跟进：AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds",
-        "跟进：WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
-        "跟进：Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing",
-        "跟进：Self-Supervised Scaling of Terminal Environments for Scientific Domains",
-        "跟进：EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras"
+        "跟进：MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks",
+        "跟进：PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+        "跟进：CUAWright: A Minimal Unified Interface for Digital Agents",
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -153,12 +166,22 @@
               "confidence": 82
             },
             {
-              "title": "Self-Supervised Scaling of Terminal Environments for Scientific Domains",
-              "summary": "Terminal agents are increasingly deployed beyond software engineering in science and other specialized domains. Constructing training environments requires executable reference behavior and a domain-specific verifier that distinguishes semantic correctness from superficially pla…",
+              "title": "MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks",
+              "summary": "LLM agents are increasingly built for medical work and scored on clinical benchmarks. Each such score, however, comes from a model running inside an agent harness, the system that controls the loop between the model and its environment. An agent's score is therefore a property o…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_65f29ace0ee47880e28a77ab"
+                "local_88eeb40106558098ef30b2a0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "CUAWright: A Minimal Unified Interface for Digital Agents",
+              "summary": "The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop environment equipped with human engineered tools that are fixed before task execution. As models' coding capabilities improve, the GUI native and static harness pr…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8d4a8317b248a573ff7bf516"
               ],
               "confidence": 92
             },
@@ -171,6 +194,16 @@
                 "local_a68e261bcf38ed62809263ed"
               ],
               "confidence": 86
+            },
+            {
+              "title": "LifeLong Digital Twin: A Unified Modeling Paradigm and Agent Harness for Event-Driven Lifelong Health State Trajectories",
+              "summary": "Human health is a continuous, dynamic trajectory shaped by the cumulative interplay of biological processes, clinical events, behaviors and environmental exposures across the life course. Unifying the full breadth of lifelong health information, including longitudinal records, g…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_569633273f8c8912e04c9db7"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -178,24 +211,14 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "WM-VLM: Probing Internal World Models for Interleaved Visual-Textual Reasoning",
-              "summary": "Humans often solve spatial problems by mentally simulating visual transformations. In contrast, conventional vision-language models (VLMs) reason primarily through language. We investigate whether VLMs can solve spatial problems by reasoning with both text and generated visual s…",
+              "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
+              "summary": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal world dynamics guide accurate actions. Existing approaches typically represent the world as RGB frames or latent counterparts while predicting actions as end-ef…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_862e7e8b743e567e45b38642"
+                "local_143f3226e9da9add48754c78"
               ],
               "confidence": 92
-            },
-            {
-              "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-              "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6c4182edf4ed845386b4e0cd"
-              ],
-              "confidence": 86
             },
             {
               "title": "Qwen3.8 27B addition in words",
@@ -213,12 +236,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Improving Atomic-Fact Recall via Focused Views in Unstructured Knowledge Editing",
-              "summary": "Large language models (LLMs) increasingly serve as general-purpose interfaces to factual knowledge, but their parameters do not automatically reflect information that changes after pretraining. Knowledge editing (KE) provides a targeted alternative to costly retraining by modify…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_cf0bb50118663d4001e1b435"
+                "local_f78e0f5cbc73754c0a69fcdb"
               ],
               "confidence": 92
             }
@@ -227,20 +250,23 @@
       ],
       "referencedFeedItemIds": [
         "local_1fddb52c755ef1b561e0249d",
-        "local_862e7e8b743e567e45b38642",
-        "local_cf0bb50118663d4001e1b435",
-        "local_65f29ace0ee47880e28a77ab",
-        "local_6c4182edf4ed845386b4e0cd",
+        "local_88eeb40106558098ef30b2a0",
+        "local_143f3226e9da9add48754c78",
+        "local_8d4a8317b248a573ff7bf516",
+        "local_f78e0f5cbc73754c0a69fcdb",
         "local_a68e261bcf38ed62809263ed",
-        "local_49c9ed050890f5a90622104c"
+        "local_49c9ed050890f5a90622104c",
+        "local_569633273f8c8912e04c9db7",
+        "local_98a35def93e4688f4f310b9c",
+        "local_cabd07607e36f6befc684d8c"
       ],
-      "generatedAt": "2026-10-05T22:43:39.247Z",
+      "generatedAt": "2026-10-06T02:39:01.313Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T22:43:39.248Z",
+  "generatedAt": "2026-10-06T02:39:01.313Z",
   "collectorName": "local-source-collector"
 }

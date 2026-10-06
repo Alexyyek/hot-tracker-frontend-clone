@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「SCAD: Structured Credit Assignment and Distillation for Long-Horizon Agents」、「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」、「AutoSynthData: Generating Training Data for Enterprise Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SCAD: Structured Credit Assignment and Distillation for Long-Horizon Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Coda: Exploiting Admission Flexibility for Coding-Agent Serving"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AutoSynthData: Generating Training Data for Enterprise Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Frameworks Compared: Tool-Calling Schema Handling"
       ],
       "watchItems": [
-        "跟进：SCAD: Structured Credit Assignment and Distillation for Long-Horizon Agents",
         "跟进：NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
-        "跟进：Coda: Exploiting Admission Flexibility for Coding-Agent Serving",
-        "跟进：hacktrace: behavior-supervised detection of reward hacking during code generation",
-        "跟进：GTDD: Generative Test-Driven Development for AI Coding Agents with Adversarial Testing"
+        "跟进：AutoSynthData: Generating Training Data for Enterprise Agents",
+        "跟进：Agent Frameworks Compared: Tool-Calling Schema Handling",
+        "跟进：How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+        "跟进：How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "SCAD: Structured Credit Assignment and Distillation for Long-Horizon Agents",
-              "summary": "Training long-horizon agents to solve complex tasks requires effective supervision over extended interaction sequences. However, sparse terminal rewards obscure intermediate contributions, while on-policy distillation can lose informative teacher guidance as student-generated hi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c58a981f28d28c6dadb57aff"
-              ],
-              "confidence": 92
-            },
             {
               "title": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA DGX Spark 64GB runs local AI agents on-device with the full NVIDIA AI stack — and clusters for greater performance as workloads grow.",
@@ -43,32 +33,42 @@
               "confidence": 78
             },
             {
-              "title": "Coda: Exploiting Admission Flexibility for Coding-Agent Serving",
-              "summary": "Coding agents powered by large language models (LLMs) repeatedly alternate between model inference and tool calls, creating long-lived sessions with reusable key-value (KV) states and asynchronous request resumptions. Logical readiness, however, does not ensure efficient admissi…",
+              "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+              "summary": "来自Hugging Face的本地采集条目。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_13510175bc8bc521ba22c184"
+                "local_27379a9620172a1dea22d2cd"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Agent Frameworks Compared: Tool-Calling Schema Handling",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How LangChain, CrewAI, the OpenAI Agents SDK, the Claude Agent SDK, Microsoft Agent Framework, and Google ADK define tool schemas and translate them across providers, and how OpenRouter normalizes the tool-calling forma…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3211fe0e99f6de1e89f8a9ec"
               ],
               "confidence": 92
             },
             {
-              "title": "hacktrace: behavior-supervised detection of reward hacking during code generation",
-              "summary": "A coding agent can earn a passing grade by fixing its code, or by deleting the test that exposes the bug. Detecting such reward hacking requires recognizing attempted shortcuts, including those that fail. We release 173,561 annotated multi-turn coding trajectories from Qwen3-8B …",
+              "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Running on NVIDIA Blackwell GPUs and accelerated by continuous inference optimizations through OpenAI’s models, GPT-6 Astra Ultrafast delivers faster model responses across code generation, tool use and interactive appl…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0984996d058f429576141c7c"
+                "local_4649d7686cfef91803b92a65"
               ],
               "confidence": 92
             },
             {
-              "title": "GTDD: Generative Test-Driven Development for AI Coding Agents with Adversarial Testing",
-              "summary": "Test-driven development gives AI coding agents executable requirements for implementing software. Because these agents can adapt their implementations to the examples they observe, passing a predetermined collection of tests can leave substantial parts of the intended behavior u…",
+              "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Running on NVIDIA Blackwell GPUs and accelerated by continuous inference optimizations through OpenAI’s models, GPT-6 Astra Ultrafast delivers faster model responses across code generation, tool use and interactive appl…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_ba994783f229800eaf6f5c13"
+                "local_7bcb7b8dd862360927cb057c"
               ],
               "confidence": 92
             }
@@ -88,38 +88,18 @@
               "confidence": 70
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "pwasm 0.2a0",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania. I hadn't touched it since January, so I decided to…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_90b1aa7eb5d6694e24a2579e"
-              ],
-              "confidence": 86
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c58a981f28d28c6dadb57aff",
         "local_c569e8e0e00f6a880891cc0b",
-        "local_13510175bc8bc521ba22c184",
-        "local_0984996d058f429576141c7c",
-        "local_ba994783f229800eaf6f5c13",
         "local_27379a9620172a1dea22d2cd",
         "local_3211fe0e99f6de1e89f8a9ec",
         "local_4649d7686cfef91803b92a65",
         "local_7bcb7b8dd862360927cb057c",
         "local_a1acc9852cd6edb2651a64bf",
-        "local_95ef1577d48d4be9a25d90df",
-        "local_90b1aa7eb5d6694e24a2579e"
+        "local_95ef1577d48d4be9a25d90df"
       ],
-      "generatedAt": "2026-10-05T22:43:39.271Z",
+      "generatedAt": "2026-10-06T02:39:01.336Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -212,13 +192,13 @@
         "local_a1acc9852cd6edb2651a64bf",
         "local_95ef1577d48d4be9a25d90df"
       ],
-      "generatedAt": "2026-10-05T22:43:39.271Z",
+      "generatedAt": "2026-10-06T02:39:01.336Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-05T22:43:39.271Z",
+  "generatedAt": "2026-10-06T02:39:01.336Z",
   "collectorName": "local-source-collector"
 }
