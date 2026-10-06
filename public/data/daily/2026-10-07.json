@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
-        "跟进：Moonshot AI - 博客"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c247a8f1d53cba7afec9b8d6"
+                "local_6eff388e2f7713e82e5b565b"
               ],
               "confidence": 78
             },
@@ -38,9 +38,19 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_369e492d1e459d74f30673e7"
+                "local_e10a9bf3d8380980ab0d4e27"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Introducing Mistral Large 4: Le chonk",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 N…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_4b22b5b103638205e7e66f53"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -48,12 +58,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4f284dc0d67a51cdaa7bfbac"
+              ],
+              "confidence": 78
+            },
+            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9660ee7c7f8d40d06120807"
+                "local_c1acf5a79c548321c84716e7"
               ],
               "confidence": 82
             },
@@ -63,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b07038f4073aade936495e8c"
+                "local_fe59dfffc956f6a1effeed89"
               ],
               "confidence": 82
             },
@@ -73,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8aa2b207d8f88c31f9ac2908"
+                "local_bca0eb997eb2a6b6d14cbc7c"
               ],
               "confidence": 82
             },
@@ -86,16 +106,6 @@
                 "local_85b6150ecd391818d84aad08"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Cursor — Build Software with AI Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cursor plans, writes, and reviews code using AI agents that understand your entire codebase. Everywhere you work: Desktop, CLI, Web & Mobile.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c399445f43d148d34fd54ece"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -108,19 +118,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_9155ffea7a23171e885bf3dc"
+                "local_6971c405199e927b845fa544"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fa688742e4d6791f7aca2054"
-              ],
-              "confidence": 90
             },
             {
               "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
@@ -143,12 +143,22 @@
               "confidence": 92
             },
             {
+              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_fa688742e4d6791f7aca2054"
+              ],
+              "confidence": 90
+            },
+            {
               "title": "AI Model Benchmarks",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_baf57d46194336a81cdc59f7"
+                "local_f538755035bddb2c2e9344dd"
               ],
               "confidence": 82
             }
@@ -156,30 +166,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c247a8f1d53cba7afec9b8d6",
-        "local_f9660ee7c7f8d40d06120807",
-        "local_b07038f4073aade936495e8c",
-        "local_8aa2b207d8f88c31f9ac2908",
-        "local_9155ffea7a23171e885bf3dc",
-        "local_fa688742e4d6791f7aca2054",
+        "local_6eff388e2f7713e82e5b565b",
+        "local_4f284dc0d67a51cdaa7bfbac",
+        "local_c1acf5a79c548321c84716e7",
+        "local_fe59dfffc956f6a1effeed89",
+        "local_bca0eb997eb2a6b6d14cbc7c",
+        "local_6971c405199e927b845fa544",
         "local_85b6150ecd391818d84aad08",
         "local_f0ff5b21516a3597e7315e56",
         "local_26e5638cec0a887e2eb0593f",
-        "local_c399445f43d148d34fd54ece",
-        "local_e520260031388bb33eed5c34",
-        "local_0bf553fc37527da0ab77f06a",
-        "local_427194daf1137520ee60bcfe",
-        "local_baf57d46194336a81cdc59f7",
-        "local_e13bede30d5727d552c7631f",
-        "local_548990ee06241de880ceeca7",
-        "local_0c35a3013d2153bbec228253",
-        "local_e648b6b22e2f47bc075990cd",
-        "local_369e492d1e459d74f30673e7",
-        "local_7d1835240131abcf5db5985e",
-        "local_b51db32b84192196cb0b7534",
-        "local_30a40d4c2c562ea8df4e3617"
+        "local_fa688742e4d6791f7aca2054",
+        "local_b744ac2a807db02c4c6ce86a",
+        "local_3da5e5e96004096040c26207",
+        "local_ebac4e6eacf4ba63f4431f1a",
+        "local_4bcd6a8b16a5136f6e4659ed",
+        "local_f538755035bddb2c2e9344dd",
+        "local_89e05d0d3eb1a4a1862055c7",
+        "local_7942c705ba735294f78969b9",
+        "local_5a3cf88ac36e7c409595009e",
+        "local_424bea5b93918c442b75cc47",
+        "local_e10a9bf3d8380980ab0d4e27",
+        "local_63d92365912a8c7a33cb0e83",
+        "local_adca4eb4d5d9d9b1d6760383",
+        "local_4b22b5b103638205e7e66f53",
+        "local_cb7a2eb2f7a01cb3f33e3c98"
       ],
-      "generatedAt": "2026-10-06T16:23:38.847Z",
+      "generatedAt": "2026-10-06T21:21:04.077Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,18 +202,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
-        "跟进：Moonshot AI - 博客"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "sections": [
         {
@@ -213,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c247a8f1d53cba7afec9b8d6"
+                "local_6eff388e2f7713e82e5b565b"
               ],
               "confidence": 78
             },
@@ -223,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_369e492d1e459d74f30673e7"
+                "local_e10a9bf3d8380980ab0d4e27"
               ],
               "confidence": 70
             }
@@ -233,12 +245,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4f284dc0d67a51cdaa7bfbac"
+              ],
+              "confidence": 78
+            },
+            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9660ee7c7f8d40d06120807"
+                "local_c1acf5a79c548321c84716e7"
               ],
               "confidence": 82
             },
@@ -248,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b07038f4073aade936495e8c"
+                "local_fe59dfffc956f6a1effeed89"
               ],
               "confidence": 82
             },
@@ -258,7 +280,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8aa2b207d8f88c31f9ac2908"
+                "local_bca0eb997eb2a6b6d14cbc7c"
               ],
               "confidence": 82
             },
@@ -269,16 +291,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_85b6150ecd391818d84aad08"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Pretraining scaling laws reveal that model capability improves predictably with data and compute. But learning from real world environments after deployment remains far less understood. Analyzing roughly 38,000 hours of…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e648b6b22e2f47bc075990cd"
               ],
               "confidence": 92
             }
@@ -293,19 +305,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_9155ffea7a23171e885bf3dc"
+                "local_6971c405199e927b845fa544"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_fa688742e4d6791f7aca2054"
-              ],
-              "confidence": 90
             },
             {
               "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
@@ -328,12 +330,22 @@
               "confidence": 92
             },
             {
+              "title": "Reproducing Olmo 3 7B Pre-training in MaxText: case study of large scale training on TPUs",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The MaxText team successfully reproduced Ai2’s Olmo 3 7B language model from scratch on Google Cloud TPUs using JAX/XLA, precisely matching the original PyTorch-on-GPU reference across pre-training and mid-training stag…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_fa688742e4d6791f7aca2054"
+              ],
+              "confidence": 90
+            },
+            {
               "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0c35a3013d2153bbec228253"
+                "local_5a3cf88ac36e7c409595009e"
               ],
               "confidence": 92
             }
@@ -341,28 +353,29 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c247a8f1d53cba7afec9b8d6",
-        "local_f9660ee7c7f8d40d06120807",
-        "local_b07038f4073aade936495e8c",
-        "local_8aa2b207d8f88c31f9ac2908",
-        "local_9155ffea7a23171e885bf3dc",
-        "local_fa688742e4d6791f7aca2054",
+        "local_6eff388e2f7713e82e5b565b",
+        "local_4f284dc0d67a51cdaa7bfbac",
+        "local_c1acf5a79c548321c84716e7",
+        "local_fe59dfffc956f6a1effeed89",
+        "local_bca0eb997eb2a6b6d14cbc7c",
+        "local_6971c405199e927b845fa544",
         "local_85b6150ecd391818d84aad08",
         "local_f0ff5b21516a3597e7315e56",
         "local_26e5638cec0a887e2eb0593f",
-        "local_0c35a3013d2153bbec228253",
-        "local_e648b6b22e2f47bc075990cd",
-        "local_369e492d1e459d74f30673e7",
-        "local_7d1835240131abcf5db5985e",
-        "local_b51db32b84192196cb0b7534"
+        "local_fa688742e4d6791f7aca2054",
+        "local_5a3cf88ac36e7c409595009e",
+        "local_424bea5b93918c442b75cc47",
+        "local_e10a9bf3d8380980ab0d4e27",
+        "local_63d92365912a8c7a33cb0e83",
+        "local_adca4eb4d5d9d9b1d6760383"
       ],
-      "generatedAt": "2026-10-06T16:23:38.847Z",
+      "generatedAt": "2026-10-06T21:21:04.077Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-06T16:23:38.847Z",
+  "generatedAt": "2026-10-06T21:21:04.077Z",
   "collectorName": "local-source-collector"
 }

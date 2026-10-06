@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Scrimshaw Jukebox」、「Researchers stretch LeCun&#039;s JEPA AI into a universal world model that works from physics to biology」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Scrimshaw Jukebox」、「全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Scrimshaw Jukebox",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Researchers stretch LeCun&#039;s JEPA AI into a universal world model that works from physics to biology",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Advancing computer use with Ironclad"
       ],
       "watchItems": [
         "跟进：Scrimshaw Jukebox",
-        "跟进：Researchers stretch LeCun&#039;s JEPA AI into a universal world model that works from physics to biology",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "跟进：Cohere pitches North 2 as the enterprise AI control room that works with any model",
-        "跟进：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里"
+        "跟进：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
+        "跟进：Advancing computer use with Ironclad",
+        "跟进：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
+        "跟进：The Numerical Linear Algebra of Large Language Models"
       ],
       "sections": [
         {
@@ -38,62 +38,17 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_503da838c4103aee8d7d7a4f"
+                "local_21a10c99ee45d5dcb25ae9d9"
               ],
               "confidence": 92
             },
             {
-              "title": "FairRSFM: A Biome-Aware Benchmark and Debiasing Framework for Remote Sensing Foundation Models",
-              "summary": "Remote sensing foundation models (RSFMs) are commonly evaluated using aggregate metrics, which can hide systematic performance disparities across ecological regions. We introduce FairRSFM, a biome-aware benchmark for evaluating ecological group robustness in RSFMs. FairRSFM maps…",
+              "title": "Closing the Context Gap: Activation Alignment for Tabular In-Context Learning",
+              "summary": "Tabular foundation models perform in-context learning (ICL) by conditioning predictions on labeled training examples provided as context. Unlike traditional models that separate training from inference, these models must process all training examples in every forward pass, makin…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d997fdc2b7854ea61ea13dbd"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Researchers stretch LeCun&#039;s JEPA AI into a universal world model that works from physics to biology",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Researchers at PhAI Labs have expanded Yann LeCun's JEPA architecture to work across seven fields, from robotics to biomedicine. The effort also produced a liver cancer treatment candidate that showed promise in lab tes…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_758b2350dd5db41c3d3beefd"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "iADD: Improving Alignment and Diversity in Diffusion Policy Optimization",
-              "summary": "Reinforcement learning based post training of diffusion models, such as Denoising Diffusion Policy Optimization (DDPO), optimizes a reverse diffusion process under a reward function. However, current approaches to reward optimizations do so at the cost of diversity and quality. …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_51c10c9c0d21f11b49f0249c"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Quoting Felix Rieseberg",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_02eec72014b613d8ee6658aa"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI will watermark ChatGPT text in the EU but makes it optional for API users worldwide",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：OpenAI is adding invisible textGrain watermarks to ChatGPT in the EU, but unlike Anthropic, it will let API customers worldwide opt out. Tests show detection rates as high as 95 percent, dropping to 17 percent when a qu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_459e014506d82c3d209760f3"
+                "local_b6632d319d1f26092f59147c"
               ],
               "confidence": 92
             }
@@ -103,42 +58,32 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "title": "全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
+              "summary": "2026年10月5日22:00&mdash;10月6日|全球AI行业动态过去24小时,全球AI行业持续升温.大模型能力快速迭代,AI Agent安全问题受到更多...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2a3ac85a3e312e610d22f176"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Cohere pitches North 2 as the enterprise AI control room that works with any model",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cohere turned its enterprise platform into a control center for AI agents with North 2, handling multi-step workflows on their own and retaining context across sessions. The article Cohere pitches North 2 as the enterpr…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_12759d48f4afe154dff5f399"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Video2Skill: From Streaming Experience to Reusable Embodied Skills",
-              "summary": "Manipulation behaviors vary widely across objects and scenes, but they share a small set of reusable skills, and planning with these skills helps embodied agents generalize to new tasks. Yet an agent can only plan with skills it knows. Recovering skills from observed experience,…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7642f95a3e2ff3dbae6ebe26"
+                "local_3fdf48c2114ecd38190e7205"
               ],
               "confidence": 92
             },
             {
-              "title": "ProgressCompass: Embodied Progress Reward Models Are Lost Without the Right Context",
-              "summary": "Embodied agents now take on ever longer tasks. For long tasks, knowing only whether a task finally succeeds or fails says little; the steps along the way matter. Progress Reward Models (PRMs) score how far a task has come at every step, and serve as dense rewards, verifiers and …",
+              "title": "Advancing computer use with Ironclad",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8d0a74aa41dd10fd3eab9e6d"
+                "local_2f6e670652b86ef07bf115ed"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agentic discovery of blood biomarker from distilled private health records",
+              "summary": "Routine complete blood counts (CBCs) could yield new biomarkers, but the private records needed to evaluate candidates cannot be shared with frontier language model agents that excel at discovery. We distilled the evidence held in the Clalit Health Services panel of over 5.4 mil…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_aef0dde16d8d6e46303426f1"
               ],
               "confidence": 92
             },
@@ -151,27 +96,59 @@
                 "local_b3c7b50d44ba41aad6bc8a6a"
               ],
               "confidence": 82
+            },
+            {
+              "title": "Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving",
+              "summary": "LLM agents increasingly execute complex workflows involving multi-turn reasoning, tool use, and parallel agents. Efficient serving requires decisions that span two layers with complementary information: the agent harness understands workflow dependencies, context lifecycles, and…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_41e73126e480276e38c316e8"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "The Numerical Linear Algebra of Large Language Models",
+              "summary": "Numerical Linear Algebra (NLA) has consistently played a vital role in advancing science by providing tools to solve fundamental problems encountered in scientific and engineering applications. Over the decades, it has continually evolved to meet the demands driven by successive…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_4f0746618df63261619b6613"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
+              "summary": "A language model can give a correct answer more probability than any single incorrect answer and still usually sample an incorrect one, because the incorrect answers together hold more probability. The power distribution raises each complete answer's probability to a power above…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d6cb885f6d52d336221c3bed"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_9f41199c5cc618e27a0f1445",
-        "local_758b2350dd5db41c3d3beefd",
-        "local_2a3ac85a3e312e610d22f176",
-        "local_12759d48f4afe154dff5f399",
-        "local_503da838c4103aee8d7d7a4f",
-        "local_51c10c9c0d21f11b49f0249c",
-        "local_d997fdc2b7854ea61ea13dbd",
-        "local_7642f95a3e2ff3dbae6ebe26",
-        "local_8d0a74aa41dd10fd3eab9e6d",
-        "local_02eec72014b613d8ee6658aa",
+        "local_3fdf48c2114ecd38190e7205",
+        "local_2f6e670652b86ef07bf115ed",
+        "local_21a10c99ee45d5dcb25ae9d9",
+        "local_4f0746618df63261619b6613",
+        "local_aef0dde16d8d6e46303426f1",
+        "local_b6632d319d1f26092f59147c",
+        "local_d6cb885f6d52d336221c3bed",
         "local_b3c7b50d44ba41aad6bc8a6a",
-        "local_459e014506d82c3d209760f3",
         "local_41e73126e480276e38c316e8",
         "local_626bf716ed4eeab57996c5ce"
       ],
-      "generatedAt": "2026-10-06T16:23:38.855Z",
+      "generatedAt": "2026-10-06T21:21:04.088Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -182,14 +159,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「AI 数据平台，要补的恰恰是“模型不知道的事”」、「一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起」、「Advancing computer use with Ironclad」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：I use technology to give students a voice and become critical digital citizens."
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Advancing computer use with Ironclad",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里"
       ],
       "watchItems": [
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
+        "跟进：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
+        "跟进：Advancing computer use with Ironclad",
         "跟进：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
         "跟进：I use technology to give students a voice and become critical digital citizens."
       ],
@@ -198,14 +176,24 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "title": "全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
+              "summary": "2026年10月5日22:00&mdash;10月6日|全球AI行业动态过去24小时,全球AI行业持续升温.大模型能力快速迭代,AI Agent安全问题受到更多...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2a3ac85a3e312e610d22f176"
+                "local_3fdf48c2114ecd38190e7205"
               ],
-              "confidence": 78
+              "confidence": 92
+            },
+            {
+              "title": "Advancing computer use with Ironclad",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2f6e670652b86ef07bf115ed"
+              ],
+              "confidence": 92
             },
             {
               "title": "I use technology to give students a voice and become critical digital citizens.",
@@ -228,7 +216,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_503da838c4103aee8d7d7a4f"
+                "local_21a10c99ee45d5dcb25ae9d9"
               ],
               "confidence": 92
             }
@@ -236,17 +224,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2a3ac85a3e312e610d22f176",
-        "local_503da838c4103aee8d7d7a4f",
+        "local_3fdf48c2114ecd38190e7205",
+        "local_2f6e670652b86ef07bf115ed",
+        "local_21a10c99ee45d5dcb25ae9d9",
         "local_626bf716ed4eeab57996c5ce"
       ],
-      "generatedAt": "2026-10-06T16:23:38.855Z",
+      "generatedAt": "2026-10-06T21:21:04.088Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-06T16:23:38.856Z",
+  "generatedAt": "2026-10-06T21:21:04.089Z",
   "collectorName": "local-source-collector"
 }
