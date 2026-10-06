@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1ee038f7d681dc381f81c6d8"
+                "local_c247a8f1d53cba7afec9b8d6"
               ],
               "confidence": 78
             },
@@ -38,9 +38,19 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_9e72cc680c988346de86d229"
+                "local_369e492d1e459d74f30673e7"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Researchers stretch LeCun&#039;s JEPA AI into a universal world model that works from physics to biology",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Researchers at PhAI Labs have expanded Yann LeCun's JEPA architecture to work across seven fields, from robotics to biomedicine. The effort also produced a liver cancer treatment candidate that showed promise in lab tes…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_758b2350dd5db41c3d3beefd"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -48,22 +58,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2a3ac85a3e312e610d22f176"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_131aefb515f99f6c7a799353"
+                "local_f9660ee7c7f8d40d06120807"
               ],
               "confidence": 82
             },
@@ -73,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e58812f10ffee5d8e7da9523"
+                "local_b07038f4073aade936495e8c"
               ],
               "confidence": 82
             },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9fb47153e2684f61143ef841"
+                "local_8aa2b207d8f88c31f9ac2908"
               ],
               "confidence": 82
             },
@@ -96,6 +96,16 @@
                 "local_85b6150ecd391818d84aad08"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Cursor — Build Software with AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Cursor plans, writes, and reviews code using AI agents that understand your entire codebase. Everywhere you work: Desktop, CLI, Web & Mobile.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c399445f43d148d34fd54ece"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -108,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2ca72fd2c2497994ed9528ed"
+                "local_9155ffea7a23171e885bf3dc"
               ],
               "confidence": 78
             },
@@ -123,65 +133,65 @@
               "confidence": 90
             },
             {
+              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_f0ff5b21516a3597e7315e56"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "EmbeddingGemma 2: The Developer Guide",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectiv…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_26e5638cec0a887e2eb0593f"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "AI Model Benchmarks",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_89a5a2c4ca3a682a943f35c4"
+                "local_baf57d46194336a81cdc59f7"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_c1092c49ee85d08ddcee7a56"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
-              "summary": "机器之心编辑部9 月底,权威独立评测机构 Artificial Analysis 公布... 不只是一个会生成视频的大模型要理解 Utopai 的技术路径,首先...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_757da10e8d9737a8e455bbd3"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_1ee038f7d681dc381f81c6d8",
-        "local_2a3ac85a3e312e610d22f176",
-        "local_131aefb515f99f6c7a799353",
-        "local_e58812f10ffee5d8e7da9523",
-        "local_9fb47153e2684f61143ef841",
-        "local_2ca72fd2c2497994ed9528ed",
+        "local_c247a8f1d53cba7afec9b8d6",
+        "local_f9660ee7c7f8d40d06120807",
+        "local_b07038f4073aade936495e8c",
+        "local_8aa2b207d8f88c31f9ac2908",
+        "local_9155ffea7a23171e885bf3dc",
         "local_fa688742e4d6791f7aca2054",
         "local_85b6150ecd391818d84aad08",
-        "local_12e9da25604587cfac12cb61",
-        "local_3d8dce4fa97f6f83265c92b4",
-        "local_765de9a44877de463ac26a39",
-        "local_153cc36338b6a8b5c4b62a88",
-        "local_4d5daec971de2683654db899",
-        "local_36eca6ad310e320b2de18a9a",
-        "local_89a5a2c4ca3a682a943f35c4",
-        "local_05d3453f71181cacaa9f1ba6",
-        "local_8e963773eb57f84ddbc28fe7",
-        "local_c1092c49ee85d08ddcee7a56",
-        "local_e87e779c4c8e5774480427d0",
-        "local_9e72cc680c988346de86d229",
-        "local_73b0da4a1f664726c73bde56",
-        "local_89e567fc8af108fc42b30fa1",
-        "local_12759d48f4afe154dff5f399",
-        "local_757da10e8d9737a8e455bbd3"
+        "local_f0ff5b21516a3597e7315e56",
+        "local_26e5638cec0a887e2eb0593f",
+        "local_c399445f43d148d34fd54ece",
+        "local_e520260031388bb33eed5c34",
+        "local_0bf553fc37527da0ab77f06a",
+        "local_427194daf1137520ee60bcfe",
+        "local_baf57d46194336a81cdc59f7",
+        "local_e13bede30d5727d552c7631f",
+        "local_548990ee06241de880ceeca7",
+        "local_0c35a3013d2153bbec228253",
+        "local_e648b6b22e2f47bc075990cd",
+        "local_369e492d1e459d74f30673e7",
+        "local_7d1835240131abcf5db5985e",
+        "local_b51db32b84192196cb0b7534",
+        "local_30a40d4c2c562ea8df4e3617",
+        "local_9f41199c5cc618e27a0f1445",
+        "local_758b2350dd5db41c3d3beefd"
       ],
-      "generatedAt": "2026-10-06T09:32:17.483Z",
+      "generatedAt": "2026-10-06T16:23:38.951Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,18 +202,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-25",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -215,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1ee038f7d681dc381f81c6d8"
+                "local_c247a8f1d53cba7afec9b8d6"
               ],
               "confidence": 78
             },
@@ -225,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_9e72cc680c988346de86d229"
+                "local_369e492d1e459d74f30673e7"
               ],
               "confidence": 70
             }
@@ -235,22 +245,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2a3ac85a3e312e610d22f176"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_131aefb515f99f6c7a799353"
+                "local_f9660ee7c7f8d40d06120807"
               ],
               "confidence": 82
             },
@@ -260,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e58812f10ffee5d8e7da9523"
+                "local_b07038f4073aade936495e8c"
               ],
               "confidence": 82
             },
@@ -270,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9fb47153e2684f61143ef841"
+                "local_8aa2b207d8f88c31f9ac2908"
               ],
               "confidence": 82
             },
@@ -281,6 +281,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_85b6150ecd391818d84aad08"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments - Publications - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Pretraining scaling laws reveal that model capability improves predictably with data and compute. But learning from real world environments after deployment remains far less understood. Analyzing roughly 38,000 hours of…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e648b6b22e2f47bc075990cd"
               ],
               "confidence": 92
             }
@@ -295,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2ca72fd2c2497994ed9528ed"
+                "local_9155ffea7a23171e885bf3dc"
               ],
               "confidence": 78
             },
@@ -310,22 +320,32 @@
               "confidence": 90
             },
             {
+              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_f0ff5b21516a3597e7315e56"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "EmbeddingGemma 2: The Developer Guide",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectiv…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_26e5638cec0a887e2eb0593f"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c1092c49ee85d08ddcee7a56"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
-              "summary": "机器之心编辑部9 月底,权威独立评测机构 Artificial Analysis 公布... 不只是一个会生成视频的大模型要理解 Utopai 的技术路径,首先...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_757da10e8d9737a8e455bbd3"
+                "local_0c35a3013d2153bbec228253"
               ],
               "confidence": 92
             }
@@ -333,30 +353,30 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_1ee038f7d681dc381f81c6d8",
-        "local_2a3ac85a3e312e610d22f176",
-        "local_131aefb515f99f6c7a799353",
-        "local_e58812f10ffee5d8e7da9523",
-        "local_9fb47153e2684f61143ef841",
-        "local_2ca72fd2c2497994ed9528ed",
+        "local_c247a8f1d53cba7afec9b8d6",
+        "local_f9660ee7c7f8d40d06120807",
+        "local_b07038f4073aade936495e8c",
+        "local_8aa2b207d8f88c31f9ac2908",
+        "local_9155ffea7a23171e885bf3dc",
         "local_fa688742e4d6791f7aca2054",
         "local_85b6150ecd391818d84aad08",
-        "local_12e9da25604587cfac12cb61",
-        "local_3d8dce4fa97f6f83265c92b4",
-        "local_c1092c49ee85d08ddcee7a56",
-        "local_e87e779c4c8e5774480427d0",
-        "local_9e72cc680c988346de86d229",
-        "local_73b0da4a1f664726c73bde56",
-        "local_89e567fc8af108fc42b30fa1",
-        "local_757da10e8d9737a8e455bbd3"
+        "local_f0ff5b21516a3597e7315e56",
+        "local_26e5638cec0a887e2eb0593f",
+        "local_0c35a3013d2153bbec228253",
+        "local_e648b6b22e2f47bc075990cd",
+        "local_369e492d1e459d74f30673e7",
+        "local_7d1835240131abcf5db5985e",
+        "local_b51db32b84192196cb0b7534",
+        "local_2a3ac85a3e312e610d22f176",
+        "local_503da838c4103aee8d7d7a4f"
       ],
-      "generatedAt": "2026-10-06T09:32:17.483Z",
+      "generatedAt": "2026-10-06T16:23:38.951Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-06T09:32:17.483Z",
+  "generatedAt": "2026-10-06T16:23:38.952Z",
   "collectorName": "local-source-collector"
 }
