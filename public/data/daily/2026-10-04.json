@@ -5,14 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-10-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Google researchers find a way to keep self-improving AI agents from memorizing their tests」、「Agent Harness到底怎么选?南洋理工大学安波团队最新研究给出答案」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Agent Harness到底怎么选?南洋理工大学安波团队最新研究给出答案」、「We're going to need default hard budget caps on pretty much everything」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google researchers find a way to keep self-improving AI agents from memorizing their tests",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Harness到底怎么选?南洋理工大学安波团队最新研究给出答案",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：We're going to need default hard budget caps on pretty much everything"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：We're going to need default hard budget caps on pretty much everything",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Agent Said It Was Done. The Database Disagreed."
       ],
       "watchItems": [
-        "跟进：Google researchers find a way to keep self-improving AI agents from memorizing their tests",
         "跟进：Agent Harness到底怎么选?南洋理工大学安波团队最新研究给出答案",
         "跟进：We're going to need default hard budget caps on pretty much everything",
         "跟进：The Agent Said It Was Done. The Database Disagreed.",
@@ -23,22 +22,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Self-improving AI agents tend to memorize their test tasks, so their gains shrink or disappear on new ones. RRSI, a new method from Google researchers, reins in this effect and lifts scores on unseen benchmarks by up to…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2e7af5f0e0e20cfb7b0ec396"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Agent Harness到底怎么选?南洋理工大学安波团队最新研究给出答案",
               "summary": "机器之心发布开发 Agent 应用时,大家一定都为选择 Harness 纠结过:同一个模型接入不同 Harness,工具调用、上下文管理和错误...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_032a098271f0fcfafda6c5a8"
+                "local_5be3871c9cbd03a55b05d564"
               ],
               "confidence": 92
             },
@@ -81,13 +70,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2e7af5f0e0e20cfb7b0ec396",
-        "local_032a098271f0fcfafda6c5a8",
+        "local_5be3871c9cbd03a55b05d564",
         "local_6e6ebe31f19a5f1f35bdc30e",
         "local_9db435889a42383a4a50a395",
         "local_68b3be88e4993c4614ea8470"
       ],
-      "generatedAt": "2026-10-06T02:39:01.320Z",
+      "generatedAt": "2026-10-06T09:32:17.370Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -115,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_032a098271f0fcfafda6c5a8"
+                "local_5be3871c9cbd03a55b05d564"
               ],
               "confidence": 92
             }
@@ -123,15 +111,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_032a098271f0fcfafda6c5a8"
+        "local_5be3871c9cbd03a55b05d564"
       ],
-      "generatedAt": "2026-10-06T02:39:01.320Z",
+      "generatedAt": "2026-10-06T09:32:17.370Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-06T02:39:01.320Z",
+  "generatedAt": "2026-10-06T09:32:17.370Z",
   "collectorName": "local-source-collector"
 }
