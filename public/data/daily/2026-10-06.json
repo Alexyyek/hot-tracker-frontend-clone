@@ -5,55 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-10-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Scrimshaw Jukebox」、「全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起」、「Advancing computer use with Ironclad」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Scrimshaw Jukebox",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Advancing computer use with Ironclad"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Advancing computer use with Ironclad",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里"
       ],
       "watchItems": [
-        "跟进：Scrimshaw Jukebox",
         "跟进：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
         "跟进：Advancing computer use with Ironclad",
         "跟进：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
+        "跟进：When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model",
         "跟进：The Numerical Linear Algebra of Large Language Models"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Scrimshaw Jukebox",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this: I want you to write some computer game music for me. First design simple text based format for the music and build an arti…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9f41199c5cc618e27a0f1445"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
-              "summary": "机器之心编辑部9 月底,权威独立评测机构 Artificial Analysis 公布... 不只是一个会生成视频的大模型要理解 Utopai 的技术路径,首先...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_21a10c99ee45d5dcb25ae9d9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Closing the Context Gap: Activation Alignment for Tabular In-Context Learning",
-              "summary": "Tabular foundation models perform in-context learning (ICL) by conditioning predictions on labeled training examples provided as context. Unlike traditional models that separate training from inference, these models must process all training examples in every forward pass, makin…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b6632d319d1f26092f59147c"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -78,6 +43,16 @@
               "confidence": 92
             },
             {
+              "title": "When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model",
+              "summary": "Does conversational memory need LLM-extracted facts, or is selecting the right raw turns enough? Published results disagree. Extraction-based systems report gains from distilled facts. Recent studies find raw history with good ranking does as well, but disagree about whether ran…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7882d542766c593f40a8ed73"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Agentic discovery of blood biomarker from distilled private health records",
               "summary": "Routine complete blood counts (CBCs) could yield new biomarkers, but the private records needed to evaluate candidates cannot be shared with frontier language model agents that excel at discovery. We distilled the evidence held in the Clalit Health Services panel of over 5.4 mil…",
               "insightLabel": "关注",
@@ -96,14 +71,39 @@
                 "local_b3c7b50d44ba41aad6bc8a6a"
               ],
               "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
+              "summary": "机器之心编辑部9 月底,权威独立评测机构 Artificial Analysis 公布... 不只是一个会生成视频的大模型要理解 Utopai 的技术路径,首先...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_4e1fc2114501e982486aeab7"
+              ],
+              "confidence": 92
             },
             {
-              "title": "Can Agent Harnesses and Inference Engines Hear Each Other? The HEAR Protocol for Agentic LLM Serving",
-              "summary": "LLM agents increasingly execute complex workflows involving multi-turn reasoning, tool use, and parallel agents. Efficient serving requires decisions that span two layers with complementary information: the agent harness understands workflow dependencies, context lifecycles, and…",
+              "title": "Closing the Context Gap: Activation Alignment for Tabular In-Context Learning",
+              "summary": "Tabular foundation models perform in-context learning (ICL) by conditioning predictions on labeled training examples provided as context. Unlike traditional models that separate training from inference, these models must process all training examples in every forward pass, makin…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_41e73126e480276e38c316e8"
+                "local_b6632d319d1f26092f59147c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f75773d398645ba598ed0f8d"
               ],
               "confidence": 92
             }
@@ -121,34 +121,24 @@
                 "local_4f0746618df63261619b6613"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
-              "summary": "A language model can give a correct answer more probability than any single incorrect answer and still usually sample an incorrect one, because the incorrect answers together hold more probability. The power distribution raises each complete answer's probability to a power above…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d6cb885f6d52d336221c3bed"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_9f41199c5cc618e27a0f1445",
         "local_3fdf48c2114ecd38190e7205",
         "local_2f6e670652b86ef07bf115ed",
-        "local_21a10c99ee45d5dcb25ae9d9",
+        "local_4e1fc2114501e982486aeab7",
+        "local_7882d542766c593f40a8ed73",
         "local_4f0746618df63261619b6613",
         "local_aef0dde16d8d6e46303426f1",
         "local_b6632d319d1f26092f59147c",
-        "local_d6cb885f6d52d336221c3bed",
+        "local_f75773d398645ba598ed0f8d",
         "local_b3c7b50d44ba41aad6bc8a6a",
         "local_41e73126e480276e38c316e8",
         "local_626bf716ed4eeab57996c5ce"
       ],
-      "generatedAt": "2026-10-06T21:21:04.088Z",
+      "generatedAt": "2026-10-07T01:09:31.428Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -216,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_21a10c99ee45d5dcb25ae9d9"
+                "local_4e1fc2114501e982486aeab7"
               ],
               "confidence": 92
             }
@@ -226,16 +216,16 @@
       "referencedFeedItemIds": [
         "local_3fdf48c2114ecd38190e7205",
         "local_2f6e670652b86ef07bf115ed",
-        "local_21a10c99ee45d5dcb25ae9d9",
+        "local_4e1fc2114501e982486aeab7",
         "local_626bf716ed4eeab57996c5ce"
       ],
-      "generatedAt": "2026-10-06T21:21:04.088Z",
+      "generatedAt": "2026-10-07T01:09:31.428Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-06T21:21:04.089Z",
+  "generatedAt": "2026-10-07T01:09:31.428Z",
   "collectorName": "local-source-collector"
 }
