@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」、「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」、「NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
@@ -15,7 +15,7 @@
         "跟进：NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
         "跟进：NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
         "跟进：AutoSynthData: Generating Training Data for Enterprise Agents",
-        "跟进：Agent Frameworks Compared: Tool-Calling Schema Handling",
+        "跟进：How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
         "跟进：How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast"
       ],
       "sections": [
@@ -53,12 +53,12 @@
               "confidence": 70
             },
             {
-              "title": "Agent Frameworks Compared: Tool-Calling Schema Handling",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How LangChain, CrewAI, the OpenAI Agents SDK, the Claude Agent SDK, Microsoft Agent Framework, and Google ADK define tool schemas and translate them across providers, and how OpenRouter normalizes the tool-calling forma…",
+              "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Running on NVIDIA Blackwell GPUs and accelerated by continuous inference optimizations through OpenAI’s models, GPT-6 Astra Ultrafast delivers faster model responses across code generation, tool use and interactive appl…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_3211fe0e99f6de1e89f8a9ec"
+                "local_4649d7686cfef91803b92a65"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_4649d7686cfef91803b92a65"
+                "local_7bcb7b8dd862360927cb057c"
               ],
               "confidence": 92
             }
@@ -94,13 +94,12 @@
         "local_c569e8e0e00f6a880891cc0b",
         "local_38c818a2c2e0b83d379c1f76",
         "local_27379a9620172a1dea22d2cd",
-        "local_3211fe0e99f6de1e89f8a9ec",
         "local_4649d7686cfef91803b92a65",
         "local_7bcb7b8dd862360927cb057c",
         "local_a1acc9852cd6edb2651a64bf",
         "local_95ef1577d48d4be9a25d90df"
       ],
-      "generatedAt": "2026-10-07T14:52:37.186Z",
+      "generatedAt": "2026-10-07T20:43:35.130Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -204,13 +203,13 @@
         "local_a1acc9852cd6edb2651a64bf",
         "local_95ef1577d48d4be9a25d90df"
       ],
-      "generatedAt": "2026-10-07T14:52:37.186Z",
+      "generatedAt": "2026-10-07T20:43:35.130Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-07T14:52:37.186Z",
+  "generatedAt": "2026-10-07T20:43:35.130Z",
   "collectorName": "local-source-collector"
 }
