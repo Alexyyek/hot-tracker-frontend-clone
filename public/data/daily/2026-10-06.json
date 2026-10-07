@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起」、「Advancing computer use with Ironclad」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起」、「Advancing computer use with Ironclad」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Advancing computer use with Ironclad",
@@ -15,8 +15,8 @@
         "跟进：全球AI晚报|大模型加速进化,Agent安全升温,国内AI资本热潮再起",
         "跟进：Advancing computer use with Ironclad",
         "跟进：一家影视公司为什么能做出全球第二的视频模型?答案藏在「生产系统」里",
-        "跟进：When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model",
-        "跟进：The Numerical Linear Algebra of Large Language Models"
+        "跟进：LLM Rankings",
+        "跟进：Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle"
       ],
       "sections": [
         {
@@ -43,26 +43,6 @@
               "confidence": 92
             },
             {
-              "title": "When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model",
-              "summary": "Does conversational memory need LLM-extracted facts, or is selecting the right raw turns enough? Published results disagree. Extraction-based systems report gains from distilled facts. Recent studies find raw history with good ranking does as well, but disagree about whether ran…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7882d542766c593f40a8ed73"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agentic discovery of blood biomarker from distilled private health records",
-              "summary": "Routine complete blood counts (CBCs) could yield new biomarkers, but the private records needed to evaluate candidates cannot be shared with frontier language model agents that excel at discovery. We distilled the evidence held in the Clalit Health Services panel of over 5.4 mil…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_aef0dde16d8d6e46303426f1"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
               "summary": "Generative AI",
               "insightLabel": "关注",
@@ -71,6 +51,16 @@
                 "local_b3c7b50d44ba41aad6bc8a6a"
               ],
               "confidence": 82
+            },
+            {
+              "title": "I use technology to give students a voice and become critical digital citizens.",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Empower students using Google Sites, Gemini, and Vids to build critical thinking skills. See how these tools help kids find their voice today.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_626bf716ed4eeab57996c5ce"
+              ],
+              "confidence": 78
             }
           ]
         },
@@ -88,16 +78,6 @@
               "confidence": 92
             },
             {
-              "title": "Closing the Context Gap: Activation Alignment for Tabular In-Context Learning",
-              "summary": "Tabular foundation models perform in-context learning (ICL) by conditioning predictions on labeled training examples provided as context. Unlike traditional models that separate training from inference, these models must process all training examples in every forward pass, makin…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b6632d319d1f26092f59147c"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
@@ -108,37 +88,17 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "The Numerical Linear Algebra of Large Language Models",
-              "summary": "Numerical Linear Algebra (NLA) has consistently played a vital role in advancing science by providing tools to solve fundamental problems encountered in scientific and engineering applications. Over the decades, it has continually evolved to meet the demands driven by successive…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4f0746618df63261619b6613"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_3fdf48c2114ecd38190e7205",
         "local_2f6e670652b86ef07bf115ed",
         "local_4e1fc2114501e982486aeab7",
-        "local_7882d542766c593f40a8ed73",
-        "local_4f0746618df63261619b6613",
-        "local_aef0dde16d8d6e46303426f1",
-        "local_b6632d319d1f26092f59147c",
         "local_f75773d398645ba598ed0f8d",
         "local_b3c7b50d44ba41aad6bc8a6a",
-        "local_41e73126e480276e38c316e8",
         "local_626bf716ed4eeab57996c5ce"
       ],
-      "generatedAt": "2026-10-07T01:09:31.428Z",
+      "generatedAt": "2026-10-07T07:19:43.060Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -219,13 +179,13 @@
         "local_4e1fc2114501e982486aeab7",
         "local_626bf716ed4eeab57996c5ce"
       ],
-      "generatedAt": "2026-10-07T01:09:31.428Z",
+      "generatedAt": "2026-10-07T07:19:43.060Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-07T01:09:31.428Z",
+  "generatedAt": "2026-10-07T07:19:43.060Z",
   "collectorName": "local-source-collector"
 }
