@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-09-25",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_153687325425314717754c3d"
+                "local_ed15343e8bbebd685f92df16"
               ],
               "confidence": 78
             },
@@ -38,19 +38,9 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_81de5fa47caec41961e5a25b"
+                "local_050b17cbac5209cf0a943165"
               ],
               "confidence": 70
-            },
-            {
-              "title": "Claude Haiku 5.5",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5. The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago, and was priced at $1/million inpu…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_744d0b7103153255b50ef71f"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -58,22 +48,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8929134cf5dafb2f8e3a6ebe"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_92fbc22bde07c874c781867a"
+                "local_7704bba454ed5b7017d89251"
               ],
               "confidence": 82
             },
@@ -83,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_63747a16de183cbdfad2e190"
+                "local_80ec6a3662c319258c73297d"
               ],
               "confidence": 82
             },
@@ -93,17 +73,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f1830ccb54e0dfb59f1f6630"
+                "local_5bc232b7f25c9c510983c1e1"
               ],
               "confidence": 82
             },
             {
-              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_85b6150ecd391818d84aad08"
+                "local_aa623c5696b660ab86f91cb9"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date doc…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f07886622f4217dabb069c8a"
               ],
               "confidence": 92
             }
@@ -118,19 +108,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e0f5095c59953eae6503bad4"
+                "local_16f06d56109dc9a2372f06a9"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_f0ff5b21516a3597e7315e56"
-              ],
-              "confidence": 90
             },
             {
               "title": "EmbeddingGemma 2: The Developer Guide",
@@ -143,12 +123,22 @@
               "confidence": 92
             },
             {
+              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_f0ff5b21516a3597e7315e56"
+              ],
+              "confidence": 90
+            },
+            {
               "title": "AI Model Benchmarks",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_f59fd7944155924eeb2d2328"
+                "local_31ea9f5aee05efc51cab3fac"
               ],
               "confidence": 82
             },
@@ -158,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5f0ff1216da3308987778f4f"
+                "local_c403c92b99ee82d52f141c05"
               ],
               "confidence": 92
             }
@@ -166,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_153687325425314717754c3d",
-        "local_8929134cf5dafb2f8e3a6ebe",
-        "local_92fbc22bde07c874c781867a",
-        "local_63747a16de183cbdfad2e190",
-        "local_f1830ccb54e0dfb59f1f6630",
-        "local_e0f5095c59953eae6503bad4",
-        "local_f0ff5b21516a3597e7315e56",
-        "local_85b6150ecd391818d84aad08",
+        "local_ed15343e8bbebd685f92df16",
+        "local_7704bba454ed5b7017d89251",
+        "local_80ec6a3662c319258c73297d",
+        "local_5bc232b7f25c9c510983c1e1",
+        "local_aa623c5696b660ab86f91cb9",
+        "local_16f06d56109dc9a2372f06a9",
         "local_f07886622f4217dabb069c8a",
         "local_26e5638cec0a887e2eb0593f",
-        "local_3fc0b250d103ceaa9351f4a4",
-        "local_77f09d81418fdaceb5d16bcf",
-        "local_a0df70da2a1fb50f8293fe42",
-        "local_4fd9061491b09862e7b37a87",
-        "local_f59fd7944155924eeb2d2328",
-        "local_900a2c40b0a27a9a88f3425b",
-        "local_4588cbc94067600f464a869f",
-        "local_5f0ff1216da3308987778f4f",
-        "local_b5f00abc348ab92d045ca05b",
-        "local_81de5fa47caec41961e5a25b",
-        "local_68a06cd14e96ac01460abad4",
-        "local_bfe833dada249f2bfdc2f5ad",
-        "local_744d0b7103153255b50ef71f",
-        "local_1fd70ea9cb91f47a9a1b28e1"
+        "local_f0ff5b21516a3597e7315e56",
+        "local_85b6150ecd391818d84aad08",
+        "local_38b2b73b1fe70df92ae9594a",
+        "local_8567d49a725deb0beeedd2cb",
+        "local_4750b762e36fd4f5e1cee6c2",
+        "local_e41f12196a52e6109e4dce9d",
+        "local_31ea9f5aee05efc51cab3fac",
+        "local_f641f60b49c08ad86e91d9ce",
+        "local_22776aa547f43160510990db",
+        "local_c403c92b99ee82d52f141c05",
+        "local_d0ec4dbe651f2d4b48a13ff2",
+        "local_050b17cbac5209cf0a943165",
+        "local_5b2fc5626f695bed2f946f5b",
+        "local_69f356aeeb95e580bb73a59b",
+        "local_84a9ea901a2dbcd0f2ee0dd6",
+        "local_47849aeb1efcd5680c7eccd4"
       ],
-      "generatedAt": "2026-10-08T00:32:42.894Z",
+      "generatedAt": "2026-10-08T06:45:45.491Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -202,18 +192,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-25",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「AI 数据平台，要补的恰恰是“模型不知道的事”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI 数据平台，要补的恰恰是“模型不知道的事”",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
         "跟进：Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
         "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
-        "跟进：一个忘关的开关，与企业Agent的全栈技术账单"
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”"
       ],
       "sections": [
         {
@@ -225,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_153687325425314717754c3d"
+                "local_ed15343e8bbebd685f92df16"
               ],
               "confidence": 78
             },
@@ -235,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_81de5fa47caec41961e5a25b"
+                "local_050b17cbac5209cf0a943165"
               ],
               "confidence": 70
             }
@@ -245,22 +235,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8929134cf5dafb2f8e3a6ebe"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
               "summary": "Anthropic 发布 Claude Sonnet 5.5：编程能力暴涨，但 Max 档 Token 消耗惊人",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_92fbc22bde07c874c781867a"
+                "local_7704bba454ed5b7017d89251"
               ],
               "confidence": 82
             },
@@ -270,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_63747a16de183cbdfad2e190"
+                "local_80ec6a3662c319258c73297d"
               ],
               "confidence": 82
             },
@@ -280,17 +260,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f1830ccb54e0dfb59f1f6630"
+                "local_5bc232b7f25c9c510983c1e1"
               ],
               "confidence": 82
             },
             {
-              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_85b6150ecd391818d84aad08"
+                "local_aa623c5696b660ab86f91cb9"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date doc…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f07886622f4217dabb069c8a"
               ],
               "confidence": 92
             }
@@ -305,19 +295,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e0f5095c59953eae6503bad4"
+                "local_16f06d56109dc9a2372f06a9"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_f0ff5b21516a3597e7315e56"
-              ],
-              "confidence": 90
             },
             {
               "title": "EmbeddingGemma 2: The Developer Guide",
@@ -330,12 +310,22 @@
               "confidence": 92
             },
             {
+              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_f0ff5b21516a3597e7315e56"
+              ],
+              "confidence": 90
+            },
+            {
               "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5f0ff1216da3308987778f4f"
+                "local_c403c92b99ee82d52f141c05"
               ],
               "confidence": 92
             }
@@ -343,32 +333,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_153687325425314717754c3d",
-        "local_8929134cf5dafb2f8e3a6ebe",
-        "local_92fbc22bde07c874c781867a",
-        "local_63747a16de183cbdfad2e190",
-        "local_f1830ccb54e0dfb59f1f6630",
-        "local_e0f5095c59953eae6503bad4",
-        "local_f0ff5b21516a3597e7315e56",
-        "local_85b6150ecd391818d84aad08",
+        "local_ed15343e8bbebd685f92df16",
+        "local_7704bba454ed5b7017d89251",
+        "local_80ec6a3662c319258c73297d",
+        "local_5bc232b7f25c9c510983c1e1",
+        "local_aa623c5696b660ab86f91cb9",
+        "local_16f06d56109dc9a2372f06a9",
         "local_f07886622f4217dabb069c8a",
         "local_26e5638cec0a887e2eb0593f",
-        "local_5f0ff1216da3308987778f4f",
-        "local_b5f00abc348ab92d045ca05b",
-        "local_81de5fa47caec41961e5a25b",
-        "local_68a06cd14e96ac01460abad4",
-        "local_bfe833dada249f2bfdc2f5ad",
+        "local_f0ff5b21516a3597e7315e56",
+        "local_85b6150ecd391818d84aad08",
+        "local_c403c92b99ee82d52f141c05",
+        "local_d0ec4dbe651f2d4b48a13ff2",
+        "local_050b17cbac5209cf0a943165",
+        "local_5b2fc5626f695bed2f946f5b",
+        "local_69f356aeeb95e580bb73a59b",
         "local_d4deaa6ce5b031e2b36281ac",
-        "local_a45cdb77ce91f2f5bb8aaefb",
-        "local_8d4b889e33fcc5684270f870"
+        "local_a45cdb77ce91f2f5bb8aaefb"
       ],
-      "generatedAt": "2026-10-08T00:32:42.894Z",
+      "generatedAt": "2026-10-08T06:45:45.491Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-08T00:32:42.895Z",
+  "generatedAt": "2026-10-08T06:45:45.491Z",
   "collectorName": "local-source-collector"
 }
