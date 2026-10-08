@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
-              "title": "JumpStart Your Policy Learning with Lessons from 160,000 Training Runs",
-              "summary": "Reliable progress in offline policy learning depends on careful reporting, well-tuned baselines, and evaluation across diverse conditions. Prior work has shown that results can be sensitive to reporting choices, hyperparameter tuning, and dataset properties, but these sources of…",
+              "title": "Technical Report on the Turba Fertilizer Machine Learning Stack in Morocco",
+              "summary": "Site-specific fertilizer recommendation systems adapt nutrient advice to location, soil properties, crop type, and production targets, but scientific reuse is constrained when recommendation functions remain accessible mainly through interactive interfaces, outputs are not versi…",
               "insightLabel": "关注",
               "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_5a884891c6554e38ad2d6e74"
+                "local_552cb657bf8b7421693233d7"
               ],
               "confidence": 92
             },
             {
-              "title": "Sensor-Language-Action Models",
-              "summary": "Sensors are useful not only for understanding the world but also for deciding what to do next. Existing sensor models however largely stop at perception: they recognize states or predict outcomes, leaving actions modeled separately through task-specific and often closed label sp…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_86737b18ad9008e00e867495"
+                "local_370d86a0be3ba60ac8f0da91"
               ],
               "confidence": 92
             }
@@ -133,14 +133,14 @@
               "confidence": 92
             },
             {
-              "title": "ElevenLabs is now on OpenRouter",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ElevenLabs is now on OpenRouter with 9 Text to Speech and 2 Speech to Text models. Narrate, build a voice agent, and turn meetings into speaker-labelled notes.",
+              "title": "Structuring MoE Expert Selection for Agentic Reinforcement Learning",
+              "summary": "Long-horizon LLM agents are frequently implemented using sparse mixture-of-experts (MoE) models, yet the co-design of agentic behavior and MoE structures remains underexplored. In this work, we comprehensively study the connections between agentic post-training and MoE expert se…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8b27f1892511e462795ec091"
+                "local_82c633142c6bd3d8366bcf85"
               ],
-              "confidence": 74
+              "confidence": 92
             }
           ]
         },
@@ -148,22 +148,22 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-              "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusion model fitted to the student's evolving distribution at extra memory and computation cost. We intr…",
+              "title": "TimeBraid: Unifying Time Series and Language for Understanding and Forecasting",
+              "summary": "We present TimeBraid, a series of unified time-series and language models that align pretrained language models and pretrained time-series foundation models through interleaved global residual attention layers. Each model inherits knowledge, instruction following, and reasoning …",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d72db8801ddcb506402569e6"
+                "local_255e02d38cf2590fe83d31f2"
               ],
-              "confidence": 86
+              "confidence": 92
             },
             {
-              "title": "DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency",
-              "summary": "Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows continuously with the generated history. Existing compression strategies either discard history using fixed windows or select tokens through local attention and similarit…",
+              "title": "TRIAGE: Direction-Aware Mismatch Stabilization of Native NVFP4 Reinforcement Learning",
+              "summary": "Low-precision execution can substantially accelerate reinforcement learning (RL) for large language models, but discrepancies between learner and sampler execution can destabilize policy optimization. In this paper, we characterize the interaction between mismatch and the policy…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fc1f0265a27bb0a8dcaf0f0b"
+                "local_cf06082aea8ae9f5520c283e"
               ],
               "confidence": 92
             }
@@ -179,18 +179,18 @@
         "local_b70e8be77558bf64e7a9115a",
         "local_a9ef65e0c72af081bda83f9d",
         "local_3317b6f58bfa7a5d573fce4c",
-        "local_5a884891c6554e38ad2d6e74",
-        "local_d72db8801ddcb506402569e6",
-        "local_fc1f0265a27bb0a8dcaf0f0b",
-        "local_86737b18ad9008e00e867495",
+        "local_255e02d38cf2590fe83d31f2",
+        "local_82c633142c6bd3d8366bcf85",
+        "local_cf06082aea8ae9f5520c283e",
+        "local_552cb657bf8b7421693233d7",
+        "local_370d86a0be3ba60ac8f0da91",
         "local_8b27f1892511e462795ec091",
-        "local_302688813edac9934e14d103",
         "local_8b2260f5e8337725a09d6f1a",
         "local_ee6c282e146073ffe84b8233",
         "local_ba116f170cfcdd1bb7a7d8f9",
         "local_724e7ed8dace356b9a8613f5"
       ],
-      "generatedAt": "2026-10-07T20:43:35.106Z",
+      "generatedAt": "2026-10-08T00:32:42.835Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -228,13 +228,13 @@
       "referencedFeedItemIds": [
         "local_da382216f1f1a14a60929b63"
       ],
-      "generatedAt": "2026-10-07T20:43:35.106Z",
+      "generatedAt": "2026-10-08T00:32:42.835Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-07T20:43:35.106Z",
+  "generatedAt": "2026-10-08T00:32:42.835Z",
   "collectorName": "local-source-collector"
 }
