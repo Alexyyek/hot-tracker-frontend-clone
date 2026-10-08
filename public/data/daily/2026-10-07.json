@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one」、「Anti-Patterns in Software Blogging」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one」、「Anti-Patterns in Software Blogging」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anti-Patterns in Software Blogging",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google bets Gemini can turn casual players into game developers with new Playground feature"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Claude Fable 5.1 and Claude Mythos 5.1"
       ],
       "watchItems": [
         "跟进：OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
         "跟进：Anti-Patterns in Software Blogging",
-        "跟进：Google bets Gemini can turn casual players into game developers with new Playground feature",
         "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
-        "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1"
+        "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "跟进：Quoting Jake Boggan"
       ],
       "sections": [
         {
@@ -29,16 +29,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_9fb007fed50e95f794b98ac9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI dumps 372 AI-generated math proofs on GitHub, telling the academic world to keep up",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI has published 372 AI-generated mathematical results on GitHub, including Lean formalizations for machine verification. Each result consumed about three hours of ChatGPT Pro compute on average. But 25 Fields Medal…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b70e8be77558bf64e7a9115a"
               ],
               "confidence": 92
             },
@@ -82,16 +72,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Google bets Gemini can turn casual players into game developers with new Playground feature",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google launched Playground, a browser-based platform that lets users create their own games using nothing but text prompts and no coding skills. The platform runs on Gemini, Nano Banana, and Lyria. Alongside Playground,…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1c2e07fbb12203c6ffef2fc2"
-              ],
-              "confidence": 82
-            },
             {
               "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
@@ -138,16 +118,14 @@
       "referencedFeedItemIds": [
         "local_9fb007fed50e95f794b98ac9",
         "local_eabbb1dbd31e80bc92712a0c",
-        "local_1c2e07fbb12203c6ffef2fc2",
         "local_c61ee62757fafae99eec5e33",
         "local_da382216f1f1a14a60929b63",
-        "local_b70e8be77558bf64e7a9115a",
         "local_a9ef65e0c72af081bda83f9d",
         "local_3317b6f58bfa7a5d573fce4c",
         "local_370d86a0be3ba60ac8f0da91",
         "local_8b27f1892511e462795ec091"
       ],
-      "generatedAt": "2026-10-08T06:45:45.344Z",
+      "generatedAt": "2026-10-08T14:12:08.104Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -185,13 +163,13 @@
       "referencedFeedItemIds": [
         "local_da382216f1f1a14a60929b63"
       ],
-      "generatedAt": "2026-10-08T06:45:45.344Z",
+      "generatedAt": "2026-10-08T14:12:08.104Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-08T06:45:45.344Z",
+  "generatedAt": "2026-10-08T14:12:08.105Z",
   "collectorName": "local-source-collector"
 }

@@ -5,34 +5,183 @@
       "topicId": "ai",
       "reportDate": "2026-09-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "watchItems": [
-        "跟进：BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题"
+        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_d13b007a4ed2ca42d06b2a24"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Seed News - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_925b66d74d5bf3c92846f29f"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题",
-              "summary": "Data Agent 落地实践》,还原这条路径上的核心取舍.方彪,小... https://h.datafuntalk.com/itde6G️ 票务咨询:13311343487 9 折优...",
+              "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+              "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2532bcb45729af21c8b279e3"
+                "local_8845e0ff4e77528dddfeee35"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "一个忘关的开关，与企业Agent的全栈技术账单",
+              "summary": "传统问答场景中，下一轮对话由用户决定。Agent 则不同——接到任务后，它可能连续检索、调用工具、依据结果调整计划或发起重试。一次委托产生多少调用、占用多少资源，往往要跑起来才知道。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fef95d966e0e01c3b65c5e86"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_619ae609d1ee382a943b0627"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85b6150ecd391818d84aad08"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date doc…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f07886622f4217dabb069c8a"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Moonshot AI - 博客",
+              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_dc6ae4453ea33336ffa95ef6"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "EmbeddingGemma 2: The Developer Guide",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectiv…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_26e5638cec0a887e2eb0593f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_f0ff5b21516a3597e7315e56"
               ],
               "confidence": 90
+            },
+            {
+              "title": "AI Model Benchmarks",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_900c0957c8a9c2eed8fb6e7e"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_eb92cc4a674500c57aaa3637"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_2532bcb45729af21c8b279e3"
+        "local_d13b007a4ed2ca42d06b2a24",
+        "local_8845e0ff4e77528dddfeee35",
+        "local_fef95d966e0e01c3b65c5e86",
+        "local_619ae609d1ee382a943b0627",
+        "local_dc6ae4453ea33336ffa95ef6",
+        "local_85b6150ecd391818d84aad08",
+        "local_f07886622f4217dabb069c8a",
+        "local_26e5638cec0a887e2eb0593f",
+        "local_f0ff5b21516a3597e7315e56",
+        "local_c53b5e884ae0e8cb748ecee3",
+        "local_839d69f9c785237fd707fe43",
+        "local_9546bd13b1315bf9930e8df3",
+        "local_dced367795d7b2c077ad41fb",
+        "local_900c0957c8a9c2eed8fb6e7e",
+        "local_92246b1041500451332a562f",
+        "local_ef3807a40b85412ede71a8b4",
+        "local_eb92cc4a674500c57aaa3637",
+        "local_d206dbc3d777c5e53ac2a15c",
+        "local_925b66d74d5bf3c92846f29f",
+        "local_15e00ccba7ff5682db0b5e9b",
+        "local_cec9da7e033a07afc1ff5370",
+        "local_8e9c5bbb1a7bf58d85a97e66",
+        "local_a3b3d9b0b97b5e567b6495d5",
+        "local_89e35100db444733fe15f76a"
       ],
-      "generatedAt": "2026-10-08T06:45:45.466Z",
+      "generatedAt": "2026-10-08T14:12:08.177Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -43,40 +192,173 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-09-27",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：一个忘关的开关，与企业Agent的全栈技术账单"
       ],
       "watchItems": [
-        "跟进：BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题"
+        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+        "跟进：一个忘关的开关，与企业Agent的全栈技术账单",
+        "跟进：AI 数据平台，要补的恰恰是“模型不知道的事”",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_d13b007a4ed2ca42d06b2a24"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Seed News - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_925b66d74d5bf3c92846f29f"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "BIRD 全球第三之后,小米 Data Agent 才遇到真正的难题",
-              "summary": "Data Agent 落地实践》,还原这条路径上的核心取舍.方彪,小... https://h.datafuntalk.com/itde6G️ 票务咨询:13311343487 9 折优...",
+              "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+              "summary": "在今年云栖大会的一场主题为《Agent Sandbox 助力 Agent 从 Demo 到生产级稳定运行》圆桌对谈中，来自阿里云、AMD、金山办公和前程无忧的几位嘉宾，分别从云平台、底层算力和企业实践的角度，讨论了 Agent 从 Demo 进入生产之后遇到的挑战及实战经验。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2532bcb45729af21c8b279e3"
+                "local_8845e0ff4e77528dddfeee35"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "一个忘关的开关，与企业Agent的全栈技术账单",
+              "summary": "传统问答场景中，下一轮对话由用户决定。Agent 则不同——接到任务后，它可能连续检索、调用工具、依据结果调整计划或发起重试。一次委托产生多少调用、占用多少资源，往往要跑起来才知道。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fef95d966e0e01c3b65c5e86"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+              "summary": "过去出了问题，有经验的老员工们知道去哪里找、该问谁、哪条规定有例外。但现在真要把具体工作交给智能体，让它“靠谱地干活儿”，那么那些“默认”大家都懂的东西，就必须明确记录下来。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_619ae609d1ee382a943b0627"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Turn your REST APIs into MCP tools with Google Cloud API Gateway",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud API Gateway now acts as a native remote Model Context Protocol (MCP) server, eliminating the need to build and maintain custom middleware to expose REST APIs to AI agents. By simply adding specific annotati…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85b6150ecd391818d84aad08"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date doc…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f07886622f4217dabb069c8a"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Moonshot AI - 博客",
+              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_dc6ae4453ea33336ffa95ef6"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "EmbeddingGemma 2: The Developer Guide",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a compact, open-source multimodal embedding model that maps text, code, images, video, and audio into a unified 768-dimensional space. Developers can use the sentence-transformers library to selectiv…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_26e5638cec0a887e2eb0593f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Bring multimodal semantic search to the edge with EmbeddingGemma 2",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：EmbeddingGemma 2 is a new 740M open-weight multimodal model that maps text, images, video, and audio into a unified vector space for privacy-first, on-device retrieval. Developers can easily integrate these capabilities…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_f0ff5b21516a3597e7315e56"
               ],
               "confidence": 90
+            },
+            {
+              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_eb92cc4a674500c57aaa3637"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_2532bcb45729af21c8b279e3"
+        "local_d13b007a4ed2ca42d06b2a24",
+        "local_8845e0ff4e77528dddfeee35",
+        "local_fef95d966e0e01c3b65c5e86",
+        "local_619ae609d1ee382a943b0627",
+        "local_dc6ae4453ea33336ffa95ef6",
+        "local_85b6150ecd391818d84aad08",
+        "local_f07886622f4217dabb069c8a",
+        "local_26e5638cec0a887e2eb0593f",
+        "local_f0ff5b21516a3597e7315e56",
+        "local_eb92cc4a674500c57aaa3637",
+        "local_d206dbc3d777c5e53ac2a15c",
+        "local_925b66d74d5bf3c92846f29f",
+        "local_15e00ccba7ff5682db0b5e9b",
+        "local_cec9da7e033a07afc1ff5370",
+        "local_a3b3d9b0b97b5e567b6495d5",
+        "local_89e35100db444733fe15f76a",
+        "local_7704bba454ed5b7017d89251",
+        "local_39c690317ac92dc6c3bca409"
       ],
-      "generatedAt": "2026-10-08T06:45:45.466Z",
+      "generatedAt": "2026-10-08T14:12:08.177Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-08T06:45:45.466Z",
+  "generatedAt": "2026-10-08T14:12:08.177Z",
   "collectorName": "local-source-collector"
 }
