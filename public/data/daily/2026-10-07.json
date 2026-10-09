@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one」、「Anti-Patterns in Software Blogging」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one」、「Anti-Patterns in Software Blogging」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anti-Patterns in Software Blogging",
@@ -16,7 +16,7 @@
         "跟进：Anti-Patterns in Software Blogging",
         "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
         "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
-        "跟进：Quoting Jake Boggan"
+        "跟进：ElevenLabs is now on OpenRouter"
       ],
       "sections": [
         {
@@ -29,16 +29,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_9fb007fed50e95f794b98ac9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Quoting Jake Boggan",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a9ef65e0c72af081bda83f9d"
               ],
               "confidence": 92
             }
@@ -83,16 +73,6 @@
               "confidence": 86
             },
             {
-              "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: T…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3317b6f58bfa7a5d573fce4c"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "ElevenLabs is now on OpenRouter",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ElevenLabs is now on OpenRouter with 9 Text to Speech and 2 Speech to Text models. Narrate, build a voice agent, and turn meetings into speaker-labelled notes.",
               "insightLabel": "关注",
@@ -125,12 +105,10 @@
         "local_eabbb1dbd31e80bc92712a0c",
         "local_c61ee62757fafae99eec5e33",
         "local_da382216f1f1a14a60929b63",
-        "local_a9ef65e0c72af081bda83f9d",
-        "local_3317b6f58bfa7a5d573fce4c",
         "local_8b27f1892511e462795ec091",
         "local_a86de82f6d4863809c6688c6"
       ],
-      "generatedAt": "2026-10-09T00:26:22.868Z",
+      "generatedAt": "2026-10-09T06:48:00.702Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -186,13 +164,13 @@
         "local_da382216f1f1a14a60929b63",
         "local_a86de82f6d4863809c6688c6"
       ],
-      "generatedAt": "2026-10-09T00:26:22.868Z",
+      "generatedAt": "2026-10-09T06:48:00.702Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-09T00:26:22.868Z",
+  "generatedAt": "2026-10-09T06:48:00.703Z",
   "collectorName": "local-source-collector"
 }
