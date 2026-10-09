@@ -5,50 +5,19 @@
       "topicId": "ai",
       "reportDate": "2026-10-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one」、「Anti-Patterns in Software Blogging」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Introducing Claude Fable 5.1 and Claude Mythos 5.1」、「Introducing Claude Fable 5.1 and Claude Mythos 5.1」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anti-Patterns in Software Blogging",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Claude Fable 5.1 and Claude Mythos 5.1"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ElevenLabs is now on OpenRouter"
       ],
       "watchItems": [
-        "跟进：OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
-        "跟进：Anti-Patterns in Software Blogging",
         "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
         "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
-        "跟进：ElevenLabs is now on OpenRouter"
+        "跟进：ElevenLabs is now on OpenRouter",
+        "跟进：Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI's new Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks, or scale ratings for $0.10 per million input tokens. The company also …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9fb007fed50e95f794b98ac9"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Anti-Patterns in Software Blogging",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_eabbb1dbd31e80bc92712a0c"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -101,14 +70,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9fb007fed50e95f794b98ac9",
-        "local_eabbb1dbd31e80bc92712a0c",
         "local_c61ee62757fafae99eec5e33",
         "local_da382216f1f1a14a60929b63",
         "local_8b27f1892511e462795ec091",
         "local_a86de82f6d4863809c6688c6"
       ],
-      "generatedAt": "2026-10-09T06:48:00.702Z",
+      "generatedAt": "2026-10-09T14:28:49.372Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -164,13 +131,13 @@
         "local_da382216f1f1a14a60929b63",
         "local_a86de82f6d4863809c6688c6"
       ],
-      "generatedAt": "2026-10-09T06:48:00.702Z",
+      "generatedAt": "2026-10-09T14:28:49.372Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-09T06:48:00.703Z",
+  "generatedAt": "2026-10-09T14:28:49.372Z",
   "collectorName": "local-source-collector"
 }
