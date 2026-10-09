@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found」、「Google Cloud introduces the Gemini agent.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found」、「Google Cloud introduces the Gemini agent.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google Cloud introduces the Gemini agent.",
@@ -58,17 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb144790cc49953a1681366d"
+                "local_558cc856853d84555a1ebb15"
               ],
               "confidence": 92
             },
             {
-              "title": "Beyond the Parameter Monolith: Reconstructive Memories, Executable Skills, and Residual Assembly for Language Models",
-              "summary": "Language-model systems can separate contextual computation, persistent storage, and exact execution instead of updating all capabilities through one shared parameter system. We investigate FEM-ASM, a finite-element-method-inspired organization in which independently constructed …",
+              "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
+              "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though thei…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aaa15dac95a276cad30b373a"
+                "local_2b290fb91acc30186177539b"
               ],
               "confidence": 92
             }
@@ -84,6 +84,26 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_cba4a7b77b58452ee9c4eb50"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
+              "summary": "A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer, the public package galahad-kv, that saves the KV state of each block of about 16,…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_eab28c988834bcba1b7833de"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_8092d95cbcc40043e695eb31"
               ],
               "confidence": 92
             }
@@ -103,22 +123,12 @@
               "confidence": 90
             },
             {
-              "title": "DSReg: Provably Recovering Individual World Latents without Reconstruction",
-              "summary": "Methods that recover individual latent variables of the world, from nonlinear ICA to dictionary learning and causal representation learning, anchor the latents to observations through reconstruction, auxiliary supervision, or distributional asymmetries such as non-Gaussianity. M…",
+              "title": "LongTake: Learning to Sustain Dynamics in Long-Horizon Video Generation",
+              "summary": "World models, game simulators, and long-take video creation require coherent scene evolution and sustained dynamics over extended durations. Autoregressive (AR) video diffusion provides a natural framework for long-horizon generation, yet extended rollouts often become near-stat…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_66f68585cd00e5e60a6aed1e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "How corner is a corner case? Percentile control for highway scenario generation",
-              "summary": "Generating corner-case scenarios with appropriate adversity in a simulation environment is critical for testing an autonomous vehicle (AV) software stack's safety performance before deployment. Existing autonomous-driving scenario generators can enforce specific behavior, advers…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a198152569be3ea8cdcf35a3"
+                "local_088512b1831d3a18c0a34a18"
               ],
               "confidence": 92
             },
@@ -141,11 +151,12 @@
         "local_40ca90cf35355780ce792e23",
         "local_cba4a7b77b58452ee9c4eb50",
         "local_5f7296264078b5937ab56aaa",
-        "local_cb144790cc49953a1681366d",
-        "local_aaa15dac95a276cad30b373a",
-        "local_66f68585cd00e5e60a6aed1e",
-        "local_a198152569be3ea8cdcf35a3",
-        "local_0ce5ec65023b531ac127c6a8",
+        "local_558cc856853d84555a1ebb15",
+        "local_2b290fb91acc30186177539b",
+        "local_eab28c988834bcba1b7833de",
+        "local_088512b1831d3a18c0a34a18",
+        "local_6d29ae95e5277ff2a42a1335",
+        "local_8092d95cbcc40043e695eb31",
         "local_744d0b7103153255b50ef71f",
         "local_d4deaa6ce5b031e2b36281ac",
         "local_a45cdb77ce91f2f5bb8aaefb",
@@ -155,7 +166,7 @@
         "local_4acafd777b5db4faa0f27db4",
         "local_8d4b889e33fcc5684270f870"
       ],
-      "generatedAt": "2026-10-08T20:02:02.436Z",
+      "generatedAt": "2026-10-09T00:26:22.858Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -209,7 +220,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb144790cc49953a1681366d"
+                "local_558cc856853d84555a1ebb15"
               ],
               "confidence": 92
             },
@@ -239,18 +250,18 @@
       "referencedFeedItemIds": [
         "local_a3b3d9b0b97b5e567b6495d5",
         "local_40ca90cf35355780ce792e23",
-        "local_cb144790cc49953a1681366d",
+        "local_558cc856853d84555a1ebb15",
         "local_d4deaa6ce5b031e2b36281ac",
         "local_a45cdb77ce91f2f5bb8aaefb",
         "local_8d4b889e33fcc5684270f870"
       ],
-      "generatedAt": "2026-10-08T20:02:02.436Z",
+      "generatedAt": "2026-10-09T00:26:22.858Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-08T20:02:02.436Z",
+  "generatedAt": "2026-10-09T00:26:22.858Z",
   "collectorName": "local-source-collector"
 }

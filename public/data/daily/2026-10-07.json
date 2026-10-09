@@ -41,16 +41,6 @@
                 "local_a9ef65e0c72af081bda83f9d"
               ],
               "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_370d86a0be3ba60ac8f0da91"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -113,6 +103,21 @@
               "confidence": 74
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training...",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_a86de82f6d4863809c6688c6"
+              ],
+              "confidence": 78
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
@@ -122,10 +127,10 @@
         "local_da382216f1f1a14a60929b63",
         "local_a9ef65e0c72af081bda83f9d",
         "local_3317b6f58bfa7a5d573fce4c",
-        "local_370d86a0be3ba60ac8f0da91",
-        "local_8b27f1892511e462795ec091"
+        "local_8b27f1892511e462795ec091",
+        "local_a86de82f6d4863809c6688c6"
       ],
-      "generatedAt": "2026-10-08T20:02:02.445Z",
+      "generatedAt": "2026-10-09T00:26:22.868Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -136,12 +141,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Introducing Claude Fable 5.1 and Claude Mythos 5.1」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Introducing Claude Fable 5.1 and Claude Mythos 5.1」、「Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Claude Fable 5.1 and Claude Mythos 5.1"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core"
       ],
       "watchItems": [
-        "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1"
+        "跟进：Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+        "跟进：Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core"
       ],
       "sections": [
         {
@@ -158,18 +165,34 @@
               "confidence": 86
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training...",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_a86de82f6d4863809c6688c6"
+              ],
+              "confidence": 78
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_da382216f1f1a14a60929b63"
+        "local_da382216f1f1a14a60929b63",
+        "local_a86de82f6d4863809c6688c6"
       ],
-      "generatedAt": "2026-10-08T20:02:02.445Z",
+      "generatedAt": "2026-10-09T00:26:22.868Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-08T20:02:02.445Z",
+  "generatedAt": "2026-10-09T00:26:22.868Z",
   "collectorName": "local-source-collector"
 }
