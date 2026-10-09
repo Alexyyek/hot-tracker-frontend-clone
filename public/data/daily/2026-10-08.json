@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region」、「Google Cloud introduces the Gemini agent.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region」、「Google Cloud introduces the Gemini agent.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google Cloud introduces the Gemini agent.",
@@ -15,8 +15,8 @@
         "跟进：One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region",
         "跟进：Google Cloud introduces the Gemini agent.",
         "跟进：用Agent Plan解锁AI导演体验:通过CUA搭Blender白模指导武侠视频生成",
-        "跟进：Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
-        "跟进：智体共生 · 创新无限|首届 openJiuwen 智能体创新大赛正式启幕!"
+        "跟进：智体共生 · 创新无限|首届 openJiuwen 智能体创新大赛正式启幕!",
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e4dac4732797b75f74870b46"
+                "local_408f327d0fb3d0e3e664e4e3"
               ],
               "confidence": 92
             },
@@ -78,16 +78,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic's new Claude Haiku 5.5 crushes its predecessor in benchmarks, jumping from 15.7 to 72.4 percent on the OSWorld computer use test. Token prices drop by up to 90 percent, though a new tokenizer eats into some of…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cba4a7b77b58452ee9c4eb50"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
@@ -98,36 +88,19 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Claude Haiku 5.5",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：As previously promised, here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5. The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago, and was priced at $1/million inpu…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_744d0b7103153255b50ef71f"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_8e9c5bbb1a7bf58d85a97e66",
         "local_a3b3d9b0b97b5e567b6495d5",
         "local_f25936496d962936107a0cd2",
-        "local_cba4a7b77b58452ee9c4eb50",
-        "local_e4dac4732797b75f74870b46",
+        "local_408f327d0fb3d0e3e664e4e3",
         "local_8092d95cbcc40043e695eb31",
-        "local_744d0b7103153255b50ef71f",
         "local_d4deaa6ce5b031e2b36281ac",
         "local_a45cdb77ce91f2f5bb8aaefb",
         "local_8d4b889e33fcc5684270f870"
       ],
-      "generatedAt": "2026-10-09T14:28:49.362Z",
+      "generatedAt": "2026-10-09T19:51:44.049Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -181,7 +154,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e4dac4732797b75f74870b46"
+                "local_408f327d0fb3d0e3e664e4e3"
               ],
               "confidence": 92
             },
@@ -211,18 +184,18 @@
       "referencedFeedItemIds": [
         "local_a3b3d9b0b97b5e567b6495d5",
         "local_f25936496d962936107a0cd2",
-        "local_e4dac4732797b75f74870b46",
+        "local_408f327d0fb3d0e3e664e4e3",
         "local_d4deaa6ce5b031e2b36281ac",
         "local_a45cdb77ce91f2f5bb8aaefb",
         "local_8d4b889e33fcc5684270f870"
       ],
-      "generatedAt": "2026-10-09T14:28:49.362Z",
+      "generatedAt": "2026-10-09T19:51:44.049Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-09T14:28:49.363Z",
+  "generatedAt": "2026-10-09T19:51:44.050Z",
   "collectorName": "local-source-collector"
 }
