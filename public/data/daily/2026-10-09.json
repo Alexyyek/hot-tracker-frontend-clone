@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A new feature for my blog, built using my voice",
@@ -41,26 +41,6 @@
                 "local_d59b2565cc13431cb8529bec"
               ],
               "confidence": 92
-            },
-            {
-              "title": "A GPU-Parallel Framework for Heterogeneous Multi-Task Reinforcement Learning",
-              "summary": "GPU-parallel simulation provides abundant robot interaction, but existing benchmarks rarely combine this scale with heterogeneous manipulation tasks and standardized multi-task RL evaluation. We introduce Hebero (Heterogeneous Benchmark for Robot Learning), a GPU-parallel Isaac …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f1b5eafac536a11c61ee9742"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "ttok 0.4",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: ttok 0.4 ttok is my CLI tool for counting tokens, using OpenAI's open source tiktoken library. It hasn't been in updated in a couple of years, but I finally fixed a Click warning, updated CI, and added a --list…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1358c356d6d74dffd6a3bf48"
-              ],
-              "confidence": 86
             },
             {
               "title": "Study in The Lancet suggests AI could improve patient-physician relationships.",
@@ -108,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d3f990c0ea1eed32555e745a"
+                "local_b489afcc121c59c99350cba0"
               ],
               "confidence": 86
             },
@@ -133,22 +113,22 @@
               "confidence": 74
             },
             {
-              "title": "Skill Constellations: Tracing the Supply Chain of Agent Skills on GitHub",
-              "summary": "Agent skills are SKILL.md instructions and scripts that AI coding agents such as Claude Code and Codex run with the permissions of their user. Developers share skills by copying them between repositories, which makes them a software supply chain without a registry, versions or p…",
+              "title": "The Lattice of Transition Laws",
+              "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine the advantages of the two models, and each hybrid fixes its d…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_fa851c6c0b3ccadc81b76dcc"
+                "local_a8eaa3a8d37249b52d43a121"
               ],
               "confidence": 92
             },
             {
-              "title": "Mara Chain: Rethinking Failure as a Stepping Stone for AI System Auto-Evolution",
-              "summary": "Optimizing deployed AI systems increasingly amounts to editing prompts, skills, harnesses, and code rather than model weights. Existing approaches commonly optimize these artifacts through propose-evaluate-select procedures, where candidate configurations are evaluated and only …",
+              "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
+              "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU network with residual connection, were evaluated in a food-seekin…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fe7f242415d31f72667e0f31"
+                "local_a09969f1fad0c74d6d744022"
               ],
               "confidence": 92
             }
@@ -158,16 +138,15 @@
       "referencedFeedItemIds": [
         "local_487a7c44aab8580c9940f84f",
         "local_c8ff27df8f5d7a5243df278d",
-        "local_d3f990c0ea1eed32555e745a",
+        "local_b489afcc121c59c99350cba0",
         "local_c2e1147663b9e780bc619284",
         "local_714ec1aa398e9e8fc5bfe28f",
         "local_e1d0a7898451d21441170344",
         "local_d59b2565cc13431cb8529bec",
-        "local_fa851c6c0b3ccadc81b76dcc",
-        "local_f1b5eafac536a11c61ee9742",
-        "local_fe7f242415d31f72667e0f31",
-        "local_6158d1440bc2a0a0204ca43d",
-        "local_1358c356d6d74dffd6a3bf48",
+        "local_a8eaa3a8d37249b52d43a121",
+        "local_a09969f1fad0c74d6d744022",
+        "local_9a0530840c44c936a17e2d00",
+        "local_5f971e8c3b9dbea1cbf4608f",
         "local_924efd42b28cd57dc9ce2c3a",
         "local_ddf4dfa9ac2f1afa8c8d96dd",
         "local_61bf91a82270150101630953",
@@ -175,7 +154,7 @@
         "local_85ef95e01a229034c7d7a76d",
         "local_f60019e6e3cea123ce13d6c2"
       ],
-      "generatedAt": "2026-10-09T19:51:44.040Z",
+      "generatedAt": "2026-10-10T00:08:49.058Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,7 +187,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d3f990c0ea1eed32555e745a"
+                "local_b489afcc121c59c99350cba0"
               ],
               "confidence": 86
             },
@@ -251,18 +230,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d3f990c0ea1eed32555e745a",
+        "local_b489afcc121c59c99350cba0",
         "local_e1d0a7898451d21441170344",
         "local_924efd42b28cd57dc9ce2c3a",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-09T19:51:44.040Z",
+      "generatedAt": "2026-10-10T00:08:49.058Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-09T19:51:44.040Z",
+  "generatedAt": "2026-10-10T00:08:49.059Z",
   "collectorName": "local-source-collector"
 }
