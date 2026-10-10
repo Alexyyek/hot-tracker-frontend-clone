@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A new feature for my blog, built using my voice",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
       ],
       "watchItems": [
         "跟进：Quoting Matthew Green",
         "跟进：A new feature for my blog, built using my voice",
-        "跟进：2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用",
-        "跟进：Anthropic&#039;s Claude Science creates the first complete ultraviolet map of the sky",
-        "跟进：OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets"
+        "跟进：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "跟进：The Lattice of Transition Laws",
+        "跟进：Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics"
       ],
       "sections": [
         {
@@ -66,42 +66,12 @@
                 "local_c8ff27df8f5d7a5243df278d"
               ],
               "confidence": 92
-            },
-            {
-              "title": "OpenAI uncovers Russian and Iranian influence ops that planted fake stories in real news outlets",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：OpenAI exposed a Russian and an Iranian influence operation and banned the accounts involved. The Russian \"Dark Clark\" campaign spread disinformation across Latin America and drew reactions from politicians, earning the…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_714ec1aa398e9e8fc5bfe28f"
-              ],
-              "confidence": 82
             }
           ]
         },
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用",
-              "summary": "围绕真实场景自选题目,用华为云码道 CodeArts 开发一款「AI+」智能应用.几个方向给你垫底:&#55358;&#56598; 垂直智能体:办公纪要周报、...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b489afcc121c59c99350cba0"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Anthropic&#039;s Claude Science creates the first complete ultraviolet map of the sky",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Astrophysicist Brice Ménard of Johns Hopkins University used Anthropic's Claude Science to map the entire sky in ultraviolet light for the first time. AI agents downloaded data from multiple space missions, calibrated i…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c2e1147663b9e780bc619284"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
@@ -131,6 +101,26 @@
                 "local_a09969f1fad0c74d6d744022"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
+              "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D en…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9a0530840c44c936a17e2d00"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
+              "summary": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajectories and generating feedback, but rarely track what happens…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5f971e8c3b9dbea1cbf4608f"
+              ],
+              "confidence": 92
             }
           ]
         }
@@ -138,9 +128,6 @@
       "referencedFeedItemIds": [
         "local_487a7c44aab8580c9940f84f",
         "local_c8ff27df8f5d7a5243df278d",
-        "local_b489afcc121c59c99350cba0",
-        "local_c2e1147663b9e780bc619284",
-        "local_714ec1aa398e9e8fc5bfe28f",
         "local_e1d0a7898451d21441170344",
         "local_a8eaa3a8d37249b52d43a121",
         "local_a09969f1fad0c74d6d744022",
@@ -155,7 +142,7 @@
         "local_85ef95e01a229034c7d7a76d",
         "local_f60019e6e3cea123ce13d6c2"
       ],
-      "generatedAt": "2026-10-10T12:32:43.682Z",
+      "generatedAt": "2026-10-10T17:36:15.466Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -166,14 +153,13 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用」、「Asana cuts model costs 76x in browser tests with GPT-6.1 Sol」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Asana cuts model costs 76x in browser tests with GPT-6.1 Sol」、「Study in The Lancet suggests AI could improve patient-physician relationships.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Study in The Lancet suggests AI could improve patient-physician relationships."
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Study in The Lancet suggests AI could improve patient-physician relationships.",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
       ],
       "watchItems": [
-        "跟进：2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用",
         "跟进：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
         "跟进：Study in The Lancet suggests AI could improve patient-physician relationships.",
         "跟进：Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
@@ -183,16 +169,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用",
-              "summary": "围绕真实场景自选题目,用华为云码道 CodeArts 开发一款「AI+」智能应用.几个方向给你垫底:&#55358;&#56598; 垂直智能体:办公纪要周报、...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b489afcc121c59c99350cba0"
-              ],
-              "confidence": 86
-            },
             {
               "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
@@ -242,19 +218,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b489afcc121c59c99350cba0",
         "local_e1d0a7898451d21441170344",
         "local_924efd42b28cd57dc9ce2c3a",
         "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-10T12:32:43.682Z",
+      "generatedAt": "2026-10-10T17:36:15.466Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-10T12:32:43.682Z",
+  "generatedAt": "2026-10-10T17:36:15.467Z",
   "collectorName": "local-source-collector"
 }
