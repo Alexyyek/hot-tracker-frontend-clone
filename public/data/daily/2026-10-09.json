@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A new feature for my blog, built using my voice",
@@ -33,12 +33,12 @@
               "confidence": 92
             },
             {
-              "title": "ttok 1.0",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: ttok 1.0 I released ttok 0.4, ran uv tool upgrade ttok, piped a file into the new version... and realized that it was defaulting to the GPT-4 tokenizer when it should very clearly default to GPT-5/GPT-6 instead…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d59b2565cc13431cb8529bec"
+                "local_0bb7b40d987f9a753db57192"
               ],
               "confidence": 92
             },
@@ -142,19 +142,20 @@
         "local_c2e1147663b9e780bc619284",
         "local_714ec1aa398e9e8fc5bfe28f",
         "local_e1d0a7898451d21441170344",
-        "local_d59b2565cc13431cb8529bec",
         "local_a8eaa3a8d37249b52d43a121",
         "local_a09969f1fad0c74d6d744022",
         "local_9a0530840c44c936a17e2d00",
         "local_5f971e8c3b9dbea1cbf4608f",
+        "local_0bb7b40d987f9a753db57192",
         "local_924efd42b28cd57dc9ce2c3a",
+        "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd",
         "local_61bf91a82270150101630953",
         "local_360c4d93f524f6d2b38e7dfd",
         "local_85ef95e01a229034c7d7a76d",
         "local_f60019e6e3cea123ce13d6c2"
       ],
-      "generatedAt": "2026-10-10T00:08:49.058Z",
+      "generatedAt": "2026-10-10T05:52:37.240Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -165,7 +166,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用」、「Asana cuts model costs 76x in browser tests with GPT-6.1 Sol」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用」、「Asana cuts model costs 76x in browser tests with GPT-6.1 Sol」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -175,6 +176,7 @@
         "跟进：2026华为开发者大赛福建赛区邀请函!你的想法,值得实现!用码道,做一款属于你自己的\"AI+\"应用",
         "跟进：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
         "跟进：Study in The Lancet suggests AI could improve patient-physician relationships.",
+        "跟进：Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
         "跟进：Building Reliable Data Analytics Agents: Lessons from the KDD Cup"
       ],
       "sections": [
@@ -200,6 +202,16 @@
                 "local_e1d0a7898451d21441170344"
               ],
               "confidence": 74
+            },
+            {
+              "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2a4f147303d2bc3d04fca4bf"
+              ],
+              "confidence": 86
             },
             {
               "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
@@ -233,15 +245,16 @@
         "local_b489afcc121c59c99350cba0",
         "local_e1d0a7898451d21441170344",
         "local_924efd42b28cd57dc9ce2c3a",
+        "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-10T00:08:49.058Z",
+      "generatedAt": "2026-10-10T05:52:37.240Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-10T00:08:49.059Z",
+  "generatedAt": "2026-10-10T05:52:37.240Z",
   "collectorName": "local-source-collector"
 }
