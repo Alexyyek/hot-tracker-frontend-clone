@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region」、「Google Cloud introduces the Gemini agent.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Google Cloud introduces the Gemini agent.」、「用Agent Plan解锁AI导演体验:通过CUA搭Blender白模指导武侠视频生成」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google Cloud introduces the Gemini agent.",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：用Agent Plan解锁AI导演体验:通过CUA搭Blender白模指导武侠视频生成"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：用Agent Plan解锁AI导演体验:通过CUA搭Blender白模指导武侠视频生成",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents"
       ],
       "watchItems": [
-        "跟进：One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region",
         "跟进：Google Cloud introduces the Gemini agent.",
         "跟进：用Agent Plan解锁AI导演体验:通过CUA搭Blender白模指导武侠视频生成",
         "跟进：NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-        "跟进：NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents"
+        "跟进：NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
+        "跟进：Validate AI Factory Changes with Digital Twins and AI Agents"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "One public-facing AI agent on AWS could read, rewrite, and delete every other agent in the region",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Zenity Labs researchers say a single publicly accessible AI agent on Amazon's Bedrock AgentCore was enough to take over every AgentCore agent in the same AWS account and region. The attack exploited an internal AWS inte…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8e9c5bbb1a7bf58d85a97e66"
-              ],
-              "confidence": 90
-            },
             {
               "title": "Google Cloud introduces the Gemini agent.",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Cloud’s new Gemini agent automates workflows by connecting to your business systems. See how it streamlines enterprise tasks in one prompt.",
@@ -71,19 +61,28 @@
                 "local_a45cdb77ce91f2f5bb8aaefb"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Validate AI Factory Changes with Digital Twins and AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI factories are some of the most complex operations in the world, combining GPUs, CPUs, switches, DPUs, and SuperNICs alongside schedulers, orchestration...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8d4b889e33fcc5684270f870"
+              ],
+              "confidence": 90
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_8e9c5bbb1a7bf58d85a97e66",
         "local_a3b3d9b0b97b5e567b6495d5",
         "local_3690aa85c73a88410793682b",
         "local_d4deaa6ce5b031e2b36281ac",
         "local_a45cdb77ce91f2f5bb8aaefb",
         "local_8d4b889e33fcc5684270f870"
       ],
-      "generatedAt": "2026-10-10T05:52:37.248Z",
+      "generatedAt": "2026-10-10T12:32:43.691Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -171,13 +170,13 @@
         "local_a45cdb77ce91f2f5bb8aaefb",
         "local_8d4b889e33fcc5684270f870"
       ],
-      "generatedAt": "2026-10-10T05:52:37.248Z",
+      "generatedAt": "2026-10-10T12:32:43.691Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-10T05:52:37.248Z",
+  "generatedAt": "2026-10-10T12:32:43.691Z",
   "collectorName": "local-source-collector"
 }
