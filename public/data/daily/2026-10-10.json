@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data」、「Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data」、「Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race",
@@ -41,6 +41,16 @@
                 "local_cfd7fd13236efcfc2aa7bf00"
               ],
               "confidence": 82
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_083094b692fd5416c785c524"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -78,7 +88,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_96a48d7ce0eff41fa26e1d37"
+                "local_a019b6ff14bc566bda097e37"
               ],
               "confidence": 92
             },
@@ -119,13 +129,14 @@
         "local_3dac37f3f7421663d2e5d00d",
         "local_cfd7fd13236efcfc2aa7bf00",
         "local_7e66c793b01fa1cd95d1f244",
-        "local_96a48d7ce0eff41fa26e1d37",
+        "local_a019b6ff14bc566bda097e37",
         "local_bea202db0c30d46de0d045ad",
         "local_48c199739499d41842ccb4f8",
+        "local_083094b692fd5416c785c524",
         "local_e1585c29de9ba9e2a650381f",
         "local_603f4b2f4613eb285792c10b"
       ],
-      "generatedAt": "2026-10-10T20:50:01.606Z",
+      "generatedAt": "2026-10-11T00:21:36.100Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -155,7 +166,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_96a48d7ce0eff41fa26e1d37"
+                "local_a019b6ff14bc566bda097e37"
               ],
               "confidence": 92
             },
@@ -173,16 +184,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_96a48d7ce0eff41fa26e1d37",
+        "local_a019b6ff14bc566bda097e37",
         "local_48c199739499d41842ccb4f8"
       ],
-      "generatedAt": "2026-10-10T20:50:01.606Z",
+      "generatedAt": "2026-10-11T00:21:36.100Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-10T20:50:01.606Z",
+  "generatedAt": "2026-10-11T00:21:36.100Z",
   "collectorName": "local-source-collector"
 }
