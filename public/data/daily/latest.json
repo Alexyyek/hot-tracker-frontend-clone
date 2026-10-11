@@ -5,15 +5,15 @@
       "topicId": "ai",
       "reportDate": "2026-10-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「利用 AI 代码智能体优化软件架构的五种方法」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：利用 AI 代码智能体优化软件架构的五种方法",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章",
+        "跟进：利用 AI 代码智能体优化软件架构的五种方法",
         "跟进：金句抢先看",
         "跟进：从 Coding 到 Running：AI Native SRE Agent 的工程实践",
         "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用"
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6d30dbf48eb25172cadb4ff4"
+                "local_7b1111e0df746643a2880f43"
               ],
               "confidence": 78
             },
@@ -38,9 +38,64 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_aff2b89a969e7937868d3c4d"
+                "local_a3858457780cdfaa67078231"
               ],
               "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "利用 AI 代码智能体优化软件架构的五种方法",
+              "summary": "现代架构常会复用遗留服务来处理特定任务，但这类服务往往缺少完备的文档，如果对其理解不充分，使用它们就存在风险。AI 代码智能体能够帮助填补这一知识缺口。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5e84375714abdfa5fc111222"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "金句抢先看",
+              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_086425b32afa6858a6efeaa6"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
+              "summary": "「写得更快」越来越不是问题，「跑得更稳」却依然主要靠人。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5505941219258869bf577742"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+              "summary": "CLAUDE.md该删了，harness也迟早过时：Anthropic 工程师拆解Claude Code的下一步",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f7a1ddcca102e188dd214865"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference impleme…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fc9b7986a69dd0786bf3a685"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -48,22 +103,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章",
-              "summary": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b942849c3a35c8a1cedfd951"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Moonshot AI - 博客",
               "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_15f7d447ccf4f85f586a5dbd"
+                "local_85d152b10b6c5f555e0e6034"
               ],
               "confidence": 78
             },
@@ -83,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c881bc567efab350e15fe5f6"
+                "local_a4cf19a8f7fbde9c06c07a8a"
               ],
               "confidence": 82
             },
@@ -93,62 +138,17 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_cdc07ebd15efee8eadc198ef"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_23a85569af7eb78eae86746a"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
-              "summary": "「写得更快」越来越不是问题，「跑得更稳」却依然主要靠人。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8a35a0f4cef4849d5eb2fa60"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-              "summary": "CLAUDE.md该删了，harness也迟早过时：Anthropic 工程师拆解Claude Code的下一步",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6e60af86e60a64beafbc2bc1"
+                "local_962c19a39eb7dabf6bb9e8b8"
               ],
               "confidence": 92
             },
             {
-              "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference impleme…",
+              "title": "中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!",
+              "summary": "机器人身上的芯片、内存和电池都很有限,大模型想上车,得先「瘦身」.白泽的答案是自研的端侧推理引擎 BAIZ-RUN.它的核心是...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fc9b7986a69dd0786bf3a685"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date doc…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f07886622f4217dabb069c8a"
+                "local_a56b00606e20bfed3e4857eb"
               ],
               "confidence": 92
             }
@@ -171,30 +171,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6d30dbf48eb25172cadb4ff4",
-        "local_b942849c3a35c8a1cedfd951",
-        "local_23a85569af7eb78eae86746a",
-        "local_8a35a0f4cef4849d5eb2fa60",
-        "local_6e60af86e60a64beafbc2bc1",
-        "local_15f7d447ccf4f85f586a5dbd",
+        "local_7b1111e0df746643a2880f43",
+        "local_5e84375714abdfa5fc111222",
+        "local_086425b32afa6858a6efeaa6",
+        "local_5505941219258869bf577742",
+        "local_f7a1ddcca102e188dd214865",
+        "local_85d152b10b6c5f555e0e6034",
         "local_fc9b7986a69dd0786bf3a685",
         "local_400197db412578bed934dec4",
         "local_f07886622f4217dabb069c8a",
         "local_f0ff5b21516a3597e7315e56",
-        "local_7cdbe7e2b70f65271aa39fa5",
-        "local_774bea495e18c07b29d69372",
-        "local_a724d2ebbfeb1444f5b16cf1",
-        "local_6865481869698fa48b42bcc4",
-        "local_c881bc567efab350e15fe5f6",
-        "local_80901cf5160205d0fac1a6c1",
-        "local_894babe391dea6444f2abca1",
-        "local_cdc07ebd15efee8eadc198ef",
-        "local_341d204419a4d8fc77c4c439",
-        "local_aff2b89a969e7937868d3c4d",
-        "local_e05697a0d05b0057cecc5fb3",
-        "local_3b6618a55cc9bc62486faaf2"
+        "local_4f19286a016d3337afb56610",
+        "local_eb67902b94f669c1485cd8f7",
+        "local_ab3ef35601bde12ccf770dec",
+        "local_3ed5fa402f65b23fbca8f8fe",
+        "local_a4cf19a8f7fbde9c06c07a8a",
+        "local_2b1c3f6fd5361901f16e259a",
+        "local_00a0ceee498dbdec51f19080",
+        "local_962c19a39eb7dabf6bb9e8b8",
+        "local_42db54f73f9845991099d5d9",
+        "local_a3858457780cdfaa67078231",
+        "local_e5d4040066d1fe977652b5fa",
+        "local_5646bc6087ce0cfb7272d9ed",
+        "local_a56b00606e20bfed3e4857eb",
+        "local_cd0e78b455ca2f0435bbdb16"
       ],
-      "generatedAt": "2026-10-11T00:21:36.084Z",
+      "generatedAt": "2026-10-11T06:32:48.915Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -205,15 +207,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-11",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「利用 AI 代码智能体优化软件架构的五种方法」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：利用 AI 代码智能体优化软件架构的五种方法",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章",
+        "跟进：利用 AI 代码智能体优化软件架构的五种方法",
         "跟进：金句抢先看",
         "跟进：从 Coding 到 Running：AI Native SRE Agent 的工程实践",
         "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用"
@@ -228,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6d30dbf48eb25172cadb4ff4"
+                "local_7b1111e0df746643a2880f43"
               ],
               "confidence": 78
             },
@@ -238,9 +240,64 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_aff2b89a969e7937868d3c4d"
+                "local_a3858457780cdfaa67078231"
               ],
               "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "利用 AI 代码智能体优化软件架构的五种方法",
+              "summary": "现代架构常会复用遗留服务来处理特定任务，但这类服务往往缺少完备的文档，如果对其理解不充分，使用它们就存在风险。AI 代码智能体能够帮助填补这一知识缺口。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5e84375714abdfa5fc111222"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "金句抢先看",
+              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_086425b32afa6858a6efeaa6"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
+              "summary": "「写得更快」越来越不是问题，「跑得更稳」却依然主要靠人。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5505941219258869bf577742"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+              "summary": "CLAUDE.md该删了，harness也迟早过时：Anthropic 工程师拆解Claude Code的下一步",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f7a1ddcca102e188dd214865"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference impleme…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fc9b7986a69dd0786bf3a685"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -248,22 +305,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线_AI&大模型_褚杏娟_InfoQ精选文章",
-              "summary": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b942849c3a35c8a1cedfd951"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Moonshot AI - 博客",
               "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_15f7d447ccf4f85f586a5dbd"
+                "local_85d152b10b6c5f555e0e6034"
               ],
               "confidence": 78
             },
@@ -283,62 +330,17 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_cdc07ebd15efee8eadc198ef"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_23a85569af7eb78eae86746a"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
-              "summary": "「写得更快」越来越不是问题，「跑得更稳」却依然主要靠人。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8a35a0f4cef4849d5eb2fa60"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-              "summary": "CLAUDE.md该删了，harness也迟早过时：Anthropic 工程师拆解Claude Code的下一步",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6e60af86e60a64beafbc2bc1"
+                "local_962c19a39eb7dabf6bb9e8b8"
               ],
               "confidence": 92
             },
             {
-              "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference impleme…",
+              "title": "中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!",
+              "summary": "机器人身上的芯片、内存和电池都很有限,大模型想上车,得先「瘦身」.白泽的答案是自研的端侧推理引擎 BAIZ-RUN.它的核心是...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fc9b7986a69dd0786bf3a685"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Supercharge your development with the Google Developer Knowledge API ecosystem",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google is launching the Developer Knowledge API and MCP Server in public preview. This new toolset provides a canonical, machine-readable way for AI assistants and agentic platforms to search and retrieve up-to-date doc…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f07886622f4217dabb069c8a"
+                "local_a56b00606e20bfed3e4857eb"
               ],
               "confidence": 92
             }
@@ -361,29 +363,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6d30dbf48eb25172cadb4ff4",
-        "local_b942849c3a35c8a1cedfd951",
-        "local_23a85569af7eb78eae86746a",
-        "local_8a35a0f4cef4849d5eb2fa60",
-        "local_6e60af86e60a64beafbc2bc1",
-        "local_15f7d447ccf4f85f586a5dbd",
+        "local_7b1111e0df746643a2880f43",
+        "local_5e84375714abdfa5fc111222",
+        "local_086425b32afa6858a6efeaa6",
+        "local_5505941219258869bf577742",
+        "local_f7a1ddcca102e188dd214865",
+        "local_85d152b10b6c5f555e0e6034",
         "local_fc9b7986a69dd0786bf3a685",
         "local_400197db412578bed934dec4",
         "local_f07886622f4217dabb069c8a",
         "local_f0ff5b21516a3597e7315e56",
-        "local_cdc07ebd15efee8eadc198ef",
-        "local_341d204419a4d8fc77c4c439",
-        "local_aff2b89a969e7937868d3c4d",
-        "local_e05697a0d05b0057cecc5fb3",
-        "local_3b6618a55cc9bc62486faaf2"
+        "local_962c19a39eb7dabf6bb9e8b8",
+        "local_42db54f73f9845991099d5d9",
+        "local_a3858457780cdfaa67078231",
+        "local_e5d4040066d1fe977652b5fa",
+        "local_5646bc6087ce0cfb7272d9ed",
+        "local_a56b00606e20bfed3e4857eb",
+        "local_cd0e78b455ca2f0435bbdb16"
       ],
-      "generatedAt": "2026-10-11T00:21:36.084Z",
+      "generatedAt": "2026-10-11T06:32:48.915Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-11T00:21:36.085Z",
+  "generatedAt": "2026-10-11T06:32:48.915Z",
   "collectorName": "local-source-collector"
 }
