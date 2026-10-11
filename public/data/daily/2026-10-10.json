@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data」、「Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data」、「68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Few people pay for AI, but those who do spend big"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting The New York Times"
       ],
       "watchItems": [
         "跟进：OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
-        "跟进：Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race",
-        "跟进：Few people pay for AI, but those who do spend big",
         "跟进：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
-        "跟进：Quoting The New York Times"
+        "跟进：Quoting The New York Times",
+        "跟进：Agent组队干活,最强模型只完成50%任务!基准评测协作能力",
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -33,16 +33,6 @@
               "confidence": 92
             },
             {
-              "title": "Microsoft&#039;s Decision-1 model enters the fast-growing AI decision model race",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cfd7fd13236efcfc2aa7bf00"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
@@ -55,31 +45,6 @@
           ]
         },
         {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Few people pay for AI, but those who do spend big",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Andreessen Horowitz tracks actual US consumer spending for the first time in its latest Top 100 AI list. Nearly half of US consumers use AI, but only 4.5 percent pay for a subscription. The top one percent of payers spe…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_7e66c793b01fa1cd95d1f244"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Deno is joining Cloudflare",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e1585c29de9ba9e2a650381f"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
             {
@@ -88,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e897123b5e3d28c3aeea4835"
+                "local_d5d831bbc6bd91e6abb58714"
               ],
               "confidence": 92
             },
@@ -113,19 +78,32 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Deno is joining Cloudflare",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e1585c29de9ba9e2a650381f"
+              ],
+              "confidence": 74
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_3dac37f3f7421663d2e5d00d",
-        "local_cfd7fd13236efcfc2aa7bf00",
-        "local_7e66c793b01fa1cd95d1f244",
-        "local_e897123b5e3d28c3aeea4835",
+        "local_d5d831bbc6bd91e6abb58714",
         "local_bea202db0c30d46de0d045ad",
         "local_48c199739499d41842ccb4f8",
         "local_083094b692fd5416c785c524",
         "local_e1585c29de9ba9e2a650381f"
       ],
-      "generatedAt": "2026-10-11T13:37:14.866Z",
+      "generatedAt": "2026-10-11T18:34:38.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -155,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e897123b5e3d28c3aeea4835"
+                "local_d5d831bbc6bd91e6abb58714"
               ],
               "confidence": 92
             },
@@ -173,16 +151,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e897123b5e3d28c3aeea4835",
+        "local_d5d831bbc6bd91e6abb58714",
         "local_48c199739499d41842ccb4f8"
       ],
-      "generatedAt": "2026-10-11T13:37:14.866Z",
+      "generatedAt": "2026-10-11T18:34:38.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-11T13:37:14.866Z",
+  "generatedAt": "2026-10-11T18:34:38.772Z",
   "collectorName": "local-source-collector"
 }
