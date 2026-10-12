@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data」、「68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data」、「Quoting The New York Times」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting The New York Times"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting The New York Times",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent组队干活,最强模型只完成50%任务!基准评测协作能力"
       ],
       "watchItems": [
         "跟进：OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
-        "跟进：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
         "跟进：Quoting The New York Times",
         "跟进：Agent组队干活,最强模型只完成50%任务!基准评测协作能力",
-        "跟进：Deno is joining Cloudflare"
+        "跟进：Deno is joining Cloudflare",
+        "跟进：Returning to Development States: When Full Sandbox Snapshots Help Coding Agents"
       ],
       "sections": [
         {
@@ -38,16 +38,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
-              "summary": "由大连理工大学求实书院执行院长马瑞新、华为云开发者发展与运... AI 助学智能体基于RAG 教材知识库实现上下文感知辅导&mdash;&mdash;答错...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d94d54e7e0da9f22f25cc037"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Quoting The New York Times",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa appli…",
               "insightLabel": "关注",
@@ -64,6 +54,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_48c199739499d41842ccb4f8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Returning to Development States: When Full Sandbox Snapshots Help Coding Agents",
+              "summary": "Coding agents often make useful progress before they fail, but retry-from-scratch discards the machine state created along the way. This makes failure recovery an interesting search problem: if intermediate environment states preserve meaningful progress, restoring and branching…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7ab9810786905817c9aa8a8d"
               ],
               "confidence": 92
             }
@@ -87,12 +87,12 @@
       ],
       "referencedFeedItemIds": [
         "local_3dac37f3f7421663d2e5d00d",
-        "local_d94d54e7e0da9f22f25cc037",
         "local_bea202db0c30d46de0d045ad",
         "local_48c199739499d41842ccb4f8",
-        "local_e1585c29de9ba9e2a650381f"
+        "local_e1585c29de9ba9e2a650381f",
+        "local_7ab9810786905817c9aa8a8d"
       ],
-      "generatedAt": "2026-10-12T01:52:56.010Z",
+      "generatedAt": "2026-10-12T09:14:37.282Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -103,29 +103,17 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-10",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕」、「Agent组队干活,最强模型只完成50%任务!基准评测协作能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Agent组队干活,最强模型只完成50%任务!基准评测协作能力」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent组队干活,最强模型只完成50%任务!基准评测协作能力"
       ],
       "watchItems": [
-        "跟进：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
         "跟进：Agent组队干活,最强模型只完成50%任务!基准评测协作能力"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
-              "summary": "由大连理工大学求实书院执行院长马瑞新、华为云开发者发展与运... AI 助学智能体基于RAG 教材知识库实现上下文感知辅导&mdash;&mdash;答错...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d94d54e7e0da9f22f25cc037"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Agent组队干活,最强模型只完成50%任务!基准评测协作能力",
               "summary": "新智元报道 个体能力强大的AI Agent正不断涌现.从编写代码、开发软件,到检索文献、辅助科学研究,它们能独立完成的工作越来...",
@@ -140,16 +128,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d94d54e7e0da9f22f25cc037",
         "local_48c199739499d41842ccb4f8"
       ],
-      "generatedAt": "2026-10-12T01:52:56.010Z",
+      "generatedAt": "2026-10-12T09:14:37.282Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-12T01:52:56.010Z",
+  "generatedAt": "2026-10-12T09:14:37.282Z",
   "collectorName": "local-source-collector"
 }
