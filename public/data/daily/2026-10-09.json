@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Quoting Matthew Green」、「A new feature for my blog, built using my voice」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：A new feature for my blog, built using my voice",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents"
       ],
       "watchItems": [
         "跟进：Quoting Matthew Green",
         "跟进：A new feature for my blog, built using my voice",
-        "跟进：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "跟进：The Lattice of Transition Laws",
-        "跟进：Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics"
+        "跟进：ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+        "跟进：EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies",
+        "跟进：AgentSWE: Can Coding Agents Build the Agent You Actually Want?"
       ],
       "sections": [
         {
@@ -63,6 +63,46 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+              "summary": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document. However, scalable verifiable training environments that force agents to d…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ee2ac87aa14da912df146933"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "EndoRSI: Physical-Evidence-Driven Recursive Improvement of Endoscopic Robot Policies",
+              "summary": "Artificial intelligence is beginning to automate scientific discovery, yet physical robot-policy research still relies on scientists and engineers to interpret experimental failures and decide how controllers should be revised. We present EndoRSI (Endoscopic Recursive Self-Impro…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f7a04f644a45591e956f0afe"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+              "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_adbed3d681b55af12dce1131"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "SWE-Critix: Post-Training Generalist Verifiers for Assessing Coding-Agent Trajectories",
+              "summary": "Coding agents are increasingly deployed for end-to-end software engineering tasks, where a readily available oracle evaluator that defines the success criteria is often absent. This motivates verifications for coding agents that can reliably judge and explain their behavior. How…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_dade7980f54f63b076fcbf4a"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
               "insightLabel": "关注",
@@ -71,46 +111,6 @@
                 "local_e1d0a7898451d21441170344"
               ],
               "confidence": 74
-            },
-            {
-              "title": "The Lattice of Transition Laws",
-              "summary": "Diffusion and autoregression (AR) have long been seen as different categories of generative models, with diffusion specialising in continuous fields and AR specialising in discrete tokens. Recent work seeks to combine the advantages of the two models, and each hybrid fixes its d…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_a8eaa3a8d37249b52d43a121"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Behavioral Persistence and Incomplete Functional Transfer of Co-evolved Communication in Evolutionary Robotics",
-              "summary": "This work evaluates the direct transfer of a co-evolved communication protocol from a 2D simulation to a 3D physical environment, without retraining the network weights. Two e-puck-type robots, controlled by a GRU network with residual connection, were evaluated in a food-seekin…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a09969f1fad0c74d6d744022"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation",
-              "summary": "This work examines the transfer of a co-evolved communication mechanism between two robotic agents from a discrete two-dimensional (2D) simulator to a three-dimensional simulator with real physics (3D). The study focuses on whether a communication mechanism co-evolved in a 2D en…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9a0530840c44c936a17e2d00"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Opera: A Verbal Critic Framework for Long-horizon Coding Agents",
-              "summary": "Long-horizon coding agents need timely corrections, yet feedback can be ineffective or even harmful when it misjudges ongoing work or fails to address the underlying problem. Existing critics focus on evaluating trajectories and generating feedback, but rarely track what happens…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5f971e8c3b9dbea1cbf4608f"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -118,20 +118,19 @@
       "referencedFeedItemIds": [
         "local_487a7c44aab8580c9940f84f",
         "local_c8ff27df8f5d7a5243df278d",
+        "local_ee2ac87aa14da912df146933",
+        "local_f7a04f644a45591e956f0afe",
+        "local_adbed3d681b55af12dce1131",
+        "local_dade7980f54f63b076fcbf4a",
         "local_e1d0a7898451d21441170344",
         "local_a8eaa3a8d37249b52d43a121",
         "local_a09969f1fad0c74d6d744022",
         "local_9a0530840c44c936a17e2d00",
-        "local_5f971e8c3b9dbea1cbf4608f",
         "local_924efd42b28cd57dc9ce2c3a",
         "local_2a4f147303d2bc3d04fca4bf",
-        "local_ddf4dfa9ac2f1afa8c8d96dd",
-        "local_61bf91a82270150101630953",
-        "local_360c4d93f524f6d2b38e7dfd",
-        "local_85ef95e01a229034c7d7a76d",
-        "local_f60019e6e3cea123ce13d6c2"
+        "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-11T22:35:43.864Z",
+      "generatedAt": "2026-10-12T01:52:56.016Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -212,13 +211,13 @@
         "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-11T22:35:43.864Z",
+      "generatedAt": "2026-10-12T01:52:56.016Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-11T22:35:43.865Z",
+  "generatedAt": "2026-10-12T01:52:56.016Z",
   "collectorName": "local-source-collector"
 }
