@@ -5,68 +5,21 @@
       "topicId": "ai",
       "reportDate": "2026-10-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI agent teams waste massive tokens for barely measurable quality gains, research finds」、「AI agents overstate their results and remain far from autonomous research, study finds」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!」、「Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents overstate their results and remain far from autonomous research, study finds",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Odyssey-3 is a new generative world model that you can try for free"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
       ],
       "watchItems": [
-        "跟进：AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-        "跟进：AI agents overstate their results and remain far from autonomous research, study finds",
-        "跟进：Odyssey-3 is a new generative world model that you can try for free",
         "跟进：中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!",
-        "跟进：Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个"
+        "跟进：Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个",
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2145e4b2fa684588c5132738"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agents overstate their results and remain far from autonomous research, study finds",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_77b897cfa3cb6573f8b8435a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个",
-              "summary": "新智元报道 单Agent最好的一次,找出27个Bug.换成Claude自己组队,连跑三次,每次都查出66个.这是Anthropic刚公布的一组测...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e5737a9d1945062b9af722d3"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "Odyssey-3 is a new generative world model that you can try for free",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, dro…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0ffd7c66fc4c89601fb04c7a"
-              ],
-              "confidence": 92
-            },
             {
               "title": "中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!",
               "summary": "机器人身上的芯片、内存和电池都很有限,大模型想上车,得先「瘦身」.白泽的答案是自研的端侧推理引擎 BAIZ-RUN.它的核心是...",
@@ -88,17 +41,29 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个",
+              "summary": "新智元报道 单Agent最好的一次,找出27个Bug.换成Claude自己组队,连跑三次,每次都查出66个.这是Anthropic刚公布的一组测...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ad090ab1dcae4bfc0fb7b5f2"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_2145e4b2fa684588c5132738",
-        "local_77b897cfa3cb6573f8b8435a",
-        "local_0ffd7c66fc4c89601fb04c7a",
         "local_a56b00606e20bfed3e4857eb",
-        "local_e5737a9d1945062b9af722d3",
+        "local_ad090ab1dcae4bfc0fb7b5f2",
         "local_6296ceda0e59936077122936"
       ],
-      "generatedAt": "2026-10-12T09:14:37.274Z",
+      "generatedAt": "2026-10-12T19:08:37.819Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -143,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e5737a9d1945062b9af722d3"
+                "local_ad090ab1dcae4bfc0fb7b5f2"
               ],
               "confidence": 92
             }
@@ -152,15 +117,15 @@
       ],
       "referencedFeedItemIds": [
         "local_a56b00606e20bfed3e4857eb",
-        "local_e5737a9d1945062b9af722d3"
+        "local_ad090ab1dcae4bfc0fb7b5f2"
       ],
-      "generatedAt": "2026-10-12T09:14:37.274Z",
+      "generatedAt": "2026-10-12T19:08:37.819Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-12T09:14:37.275Z",
+  "generatedAt": "2026-10-12T19:08:37.819Z",
   "collectorName": "local-source-collector"
 }
