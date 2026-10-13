@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「web-edit 0.1a0」、「Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「web-edit 0.1a0」、「Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：web-edit 0.1a0",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Microsoft plans to scale its own Maia AI chips to gigawatt levels by 2027",
@@ -38,7 +38,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_91302cabe84ef04147e17492"
+                "local_d1a5087128c1fd4fa9234efb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域",
+              "summary": "Agent 表现可比,且站点序列重合度更高.这说明真实规划数据可... #高德 #高德技术 #NeurIPS #顶会",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d93ce9c66d712f648d0a6569"
               ],
               "confidence": 92
             },
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1d952ef2b36b1f74ab19cdb5"
+                "local_1138e6130e61883bef84c4dd"
               ],
               "confidence": 92
             },
@@ -58,17 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a16aa619cc4218b9f2d5d49d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Mental-Models for Multi-Agent Systems",
-              "summary": "Large foundation models have accelerated progress toward general-purpose agents that interact with humans and other agents through language and multimodal signals. However, robust multi-agent decision-making requires reasoning about what other agents know, intend, and are likely…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_24f4c9a513a548ffedfde7b6"
+                "local_65b2d052273b1d447c761e61"
               ],
               "confidence": 92
             }
@@ -86,52 +86,12 @@
                 "local_a6dc59f5304a7ee76de2dfd5"
               ],
               "confidence": 70
-            },
-            {
-              "title": "BudgetPix: Compute-Adaptive Tokenization for Pixel-Space Image Diffusion",
-              "summary": "Most image generation models rely on uniform tokenization, allocating the exact same computational budget to equally-sized image patches. This static paradigm cannot adapt to different resource constraints at inference time, and yields suboptimal quality-cost tradeoff by devotin…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f790aede1d326586cea484c2"
-              ],
-              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域",
-              "summary": "而由大模型直接完成?通用大模型缺乏城市公交网络知识,容易生... #高德 #高德技术 #NeurIPS #顶会",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e20aada185fff6166aa40ee6"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
-              "summary": "Humans perceive far more in a scene than what is explicitly depicted: a single glance captures past causes and future trajectories; a quick peek determines if a vehicle can fit between two parked cars; a few seconds of video reveals who holds authority in a room; and a fleeting …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_78a47ee9dfac3c7f5adc9a73"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Clinician use of language models diverges from how the models are evaluated",
-              "summary": "Large language model (LLM) assistants are being deployed to clinicians across health systems, and judgments about their readiness rest largely on benchmark scores, most of them derived from examination questions or curated cases. A benchmark predicts performance in deployment on…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e63f70a5276ed10e6360a155"
-              ],
-              "confidence": 92
-            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -148,17 +108,13 @@
       "referencedFeedItemIds": [
         "local_61801e71c6732002a2022ac7",
         "local_a6dc59f5304a7ee76de2dfd5",
-        "local_91302cabe84ef04147e17492",
-        "local_e20aada185fff6166aa40ee6",
-        "local_1d952ef2b36b1f74ab19cdb5",
-        "local_a16aa619cc4218b9f2d5d49d",
-        "local_78a47ee9dfac3c7f5adc9a73",
-        "local_24f4c9a513a548ffedfde7b6",
-        "local_f790aede1d326586cea484c2",
-        "local_e63f70a5276ed10e6360a155",
+        "local_d1a5087128c1fd4fa9234efb",
+        "local_d93ce9c66d712f648d0a6569",
+        "local_1138e6130e61883bef84c4dd",
+        "local_65b2d052273b1d447c761e61",
         "local_148ea1489d2124ed606fe528"
       ],
-      "generatedAt": "2026-10-13T01:26:38.354Z",
+      "generatedAt": "2026-10-13T08:32:56.901Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -191,7 +147,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_91302cabe84ef04147e17492"
+                "local_d1a5087128c1fd4fa9234efb"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域",
+              "summary": "Agent 表现可比,且站点序列重合度更高.这说明真实规划数据可... #高德 #高德技术 #NeurIPS #顶会",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d93ce9c66d712f648d0a6569"
               ],
               "confidence": 92
             },
@@ -201,7 +167,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1d952ef2b36b1f74ab19cdb5"
+                "local_1138e6130e61883bef84c4dd"
               ],
               "confidence": 92
             },
@@ -211,22 +177,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a16aa619cc4218b9f2d5d49d"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域",
-              "summary": "而由大模型直接完成?通用大模型缺乏城市公交网络知识,容易生... #高德 #高德技术 #NeurIPS #顶会",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e20aada185fff6166aa40ee6"
+                "local_65b2d052273b1d447c761e61"
               ],
               "confidence": 92
             }
@@ -234,18 +185,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_91302cabe84ef04147e17492",
-        "local_e20aada185fff6166aa40ee6",
-        "local_1d952ef2b36b1f74ab19cdb5",
-        "local_a16aa619cc4218b9f2d5d49d"
+        "local_d1a5087128c1fd4fa9234efb",
+        "local_d93ce9c66d712f648d0a6569",
+        "local_1138e6130e61883bef84c4dd",
+        "local_65b2d052273b1d447c761e61"
       ],
-      "generatedAt": "2026-10-13T01:26:38.354Z",
+      "generatedAt": "2026-10-13T08:32:56.901Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-13T01:26:38.354Z",
+  "generatedAt": "2026-10-13T08:32:56.901Z",
   "collectorName": "local-source-collector"
 }
