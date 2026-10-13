@@ -5,16 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-10-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!」、「Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!」、「Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个"
       ],
       "watchItems": [
         "跟进：中科大团队把会「倒推」的世界模型塞进了机器人,成立三个月拿下数千万融资!",
-        "跟进：Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个",
-        "跟进：LLM Rankings"
+        "跟进：Claude自己组队查Bug!11.6万行代码揪出66个,单Agent最高只找到27个"
       ],
       "sections": [
         {
@@ -29,16 +27,6 @@
                 "local_a56b00606e20bfed3e4857eb"
               ],
               "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6296ceda0e59936077122936"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -51,7 +39,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ad090ab1dcae4bfc0fb7b5f2"
+                "local_5d1ffa7361b8af5ed332c5c6"
               ],
               "confidence": 92
             }
@@ -60,10 +48,9 @@
       ],
       "referencedFeedItemIds": [
         "local_a56b00606e20bfed3e4857eb",
-        "local_ad090ab1dcae4bfc0fb7b5f2",
-        "local_6296ceda0e59936077122936"
+        "local_5d1ffa7361b8af5ed332c5c6"
       ],
-      "generatedAt": "2026-10-12T19:08:37.819Z",
+      "generatedAt": "2026-10-13T01:26:38.363Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -108,7 +95,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ad090ab1dcae4bfc0fb7b5f2"
+                "local_5d1ffa7361b8af5ed332c5c6"
               ],
               "confidence": 92
             }
@@ -117,15 +104,15 @@
       ],
       "referencedFeedItemIds": [
         "local_a56b00606e20bfed3e4857eb",
-        "local_ad090ab1dcae4bfc0fb7b5f2"
+        "local_5d1ffa7361b8af5ed332c5c6"
       ],
-      "generatedAt": "2026-10-12T19:08:37.819Z",
+      "generatedAt": "2026-10-13T01:26:38.363Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-12T19:08:37.819Z",
+  "generatedAt": "2026-10-13T01:26:38.364Z",
   "collectorName": "local-source-collector"
 }

@@ -5,45 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-10-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Quoting Matthew Green」、「(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection」、「APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Matthew Green",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents"
       ],
       "watchItems": [
-        "跟进：Quoting Matthew Green",
         "跟进：(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
         "跟进：APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
         "跟进：ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
-        "跟进：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
+        "跟进：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "跟进：Study in The Lancet suggests AI could improve patient-physician relationships."
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Quoting Matthew Green",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidenc…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_487a7c44aab8580c9940f84f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Study in The Lancet suggests AI could improve patient-physician relationships.",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：A peer-reviewed study in The Lancet evaluates Google's AMIE medical AI in a real-world primary care clinic.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_924efd42b28cd57dc9ce2c3a"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -98,10 +73,24 @@
               "confidence": 86
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Study in The Lancet suggests AI could improve patient-physician relationships.",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：A peer-reviewed study in The Lancet evaluates Google's AMIE medical AI in a real-world primary care clinic.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_924efd42b28cd57dc9ce2c3a"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_487a7c44aab8580c9940f84f",
         "local_c5372aaa2172765e7bec1a78",
         "local_e86d67227e140a751ed00559",
         "local_ee2ac87aa14da912df146933",
@@ -110,7 +99,7 @@
         "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-12T19:08:37.832Z",
+      "generatedAt": "2026-10-13T01:26:38.388Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -191,13 +180,13 @@
         "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-12T19:08:37.832Z",
+      "generatedAt": "2026-10-13T01:26:38.388Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-12T19:08:37.832Z",
+  "generatedAt": "2026-10-13T01:26:38.388Z",
   "collectorName": "local-source-collector"
 }
