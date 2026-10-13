@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Quoting Geoffrey Huntley」、「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Quoting Geoffrey Huntley」、「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Geoffrey Huntley",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a95c30b83a95072f2e763df1"
+                "local_8be95d504067ed70566f59a2"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a55783a4ad68d68c7468e769"
+                "local_478aab6fc70e0059d92452c1"
               ],
               "confidence": 92
             },
@@ -88,14 +88,14 @@
               "confidence": 82
             },
             {
-              "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-              "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered vi…",
+              "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
+              "summary": "World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pretrained video generators and represent world evolution thro…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a23582fe6677d72694a9da8f"
+                "local_855c254f728e3b5767dc8c1d"
               ],
-              "confidence": 86
+              "confidence": 92
             }
           ]
         },
@@ -103,12 +103,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "CrossTimeEdit: A Decade-Spanning Cross-View Dataset and Reward-Guided Editing for Historical Street-View Generation",
-              "summary": "Historical street-view imagery records urban evolution, but uneven coverage leaves substantial gaps in historical records. Generating plausible past appearances requires restoring changed structures while preserving persistent scene content. We construct VIGOR-his, a decade-span…",
+              "title": "Evaluating LLM Creativity through Long-Tail Performance",
+              "summary": "Creativity benchmarks for large language models (LLMs) vary widely in task and metric design. This raises the question of whether they capture a common notion of creativity. We propose that this shared target can be formalized as task-specific performance in the long tail of a r…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f90e5d4d7d3fe0f79b6a1d0b"
+                "local_f61f48052f16f713728d8608"
               ],
               "confidence": 92
             },
@@ -133,44 +133,27 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Sakana AI&#039;s self-improving model gets better at solving and judging, but can&#039;t catch its own blind spots",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the mo…",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_78db2993996a7bc20cdba834"
-              ],
-              "confidence": 74
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_e3d564023a9f38f2b9fd6e7e",
-        "local_a95c30b83a95072f2e763df1",
+        "local_8be95d504067ed70566f59a2",
         "local_dedc71c51d31a451b7b7cd3f",
-        "local_a55783a4ad68d68c7468e769",
+        "local_478aab6fc70e0059d92452c1",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_e3f5c560446ede501dcc27ba",
-        "local_96fce89b1d839275a47d31e9",
-        "local_5fc63f05d3baa9a19b02fe0f",
-        "local_71d5753f6a729960de34ea6a",
-        "local_f90e5d4d7d3fe0f79b6a1d0b",
-        "local_a23582fe6677d72694a9da8f",
+        "local_1bc42f55e721ca5796a8c205",
+        "local_bb4075c1f6c877cd56690b23",
+        "local_855c254f728e3b5767dc8c1d",
+        "local_de682a183fe8d1d9002eff46",
+        "local_a08fb9d810f0362ac18c26be",
+        "local_f61f48052f16f713728d8608",
         "local_029860adfcd0fd068833a941",
         "local_360d1c4efc14ae0761b63572",
-        "local_78db2993996a7bc20cdba834",
-        "local_9ffd07d1ef16bbcb73c0e5fa",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-13T16:33:34.108Z",
+      "generatedAt": "2026-10-13T21:39:54.532Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -204,7 +187,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a95c30b83a95072f2e763df1"
+                "local_8be95d504067ed70566f59a2"
               ],
               "confidence": 92
             },
@@ -214,7 +197,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a55783a4ad68d68c7468e769"
+                "local_478aab6fc70e0059d92452c1"
               ],
               "confidence": 92
             },
@@ -244,7 +227,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_96fce89b1d839275a47d31e9"
+                "local_bb4075c1f6c877cd56690b23"
               ],
               "confidence": 92
             }
@@ -267,21 +250,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a95c30b83a95072f2e763df1",
-        "local_a55783a4ad68d68c7468e769",
+        "local_8be95d504067ed70566f59a2",
+        "local_478aab6fc70e0059d92452c1",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_96fce89b1d839275a47d31e9",
+        "local_bb4075c1f6c877cd56690b23",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-13T16:33:34.108Z",
+      "generatedAt": "2026-10-13T21:39:54.532Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-13T16:33:34.109Z",
+  "generatedAt": "2026-10-13T21:39:54.532Z",
   "collectorName": "local-source-collector"
 }
