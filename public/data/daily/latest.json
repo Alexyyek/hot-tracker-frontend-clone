@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
         "跟进：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
         "跟进：金句抢先看",
-        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-        "跟进：Moonshot AI - 博客"
+        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bbe5d404a3f5a5a0aff2b008"
+                "local_14516fa20692132ebb0505d8"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_df9077f8fac0fe81657b4915"
+                "local_655ac70bc57d8698cfa5f596"
               ],
               "confidence": 70
             }
@@ -48,12 +48,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
+              "summary": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_28228eb2c03fcef5e1cdd0f1"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
               "summary": "电商领域的付费用户占比达到20%，千问办公被推向生意场",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f87c0761810bcbd9ebabdb9"
+                "local_dd39c95425ea887defb0f12e"
               ],
               "confidence": 70
             },
@@ -63,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f900d7080079f82708195d09"
+                "local_c9131af499971218b3e74552"
               ],
               "confidence": 74
             },
@@ -73,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_393fe62d5a2f66ca588557f3"
+                "local_4f68d8613d12e72a51fa9f74"
               ],
               "confidence": 92
             },
@@ -86,16 +96,6 @@
                 "local_c3962aa6be6949f5efc6d278"
               ],
               "confidence": 92
-            },
-            {
-              "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference impleme…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_fc9b7986a69dd0786bf3a685"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d731c0e1cd6ee0b4760724e0"
+                "local_f0f2da66d29eef3e6d6a8b24"
               ],
               "confidence": 78
             },
@@ -128,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1f8c46dc0be35df4aae92edb"
+                "local_333e80ed713320d7ceac1135"
               ],
               "confidence": 82
             },
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_619dd6d220ba7841a1ffad98"
+                "local_8b63cb113baa806b79c6bdbf"
               ],
               "confidence": 92
             }
@@ -161,32 +161,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bbe5d404a3f5a5a0aff2b008",
-        "local_2f87c0761810bcbd9ebabdb9",
-        "local_f900d7080079f82708195d09",
-        "local_393fe62d5a2f66ca588557f3",
-        "local_d731c0e1cd6ee0b4760724e0",
+        "local_14516fa20692132ebb0505d8",
+        "local_28228eb2c03fcef5e1cdd0f1",
+        "local_dd39c95425ea887defb0f12e",
+        "local_c9131af499971218b3e74552",
+        "local_4f68d8613d12e72a51fa9f74",
+        "local_f0f2da66d29eef3e6d6a8b24",
         "local_3cb04c0518176374f9ff12ff",
         "local_c3962aa6be6949f5efc6d278",
         "local_fc9b7986a69dd0786bf3a685",
         "local_98d127da6a3974be0428f201",
-        "local_7cbd19523bbbfb235da24ebe",
-        "local_efe9a413683f68842570ee9f",
-        "local_5c19a2563bd64d916b34763e",
-        "local_905e9800b0e1cc1670f5ad25",
-        "local_1f8c46dc0be35df4aae92edb",
-        "local_f0d7589c593b6f73814a6dcc",
-        "local_bfa32eaa3318882e937da3bd",
-        "local_619dd6d220ba7841a1ffad98",
-        "local_a4b1925683fbf93b1678a60c",
-        "local_df9077f8fac0fe81657b4915",
-        "local_15d8d1fc6b41af5994291831",
-        "local_eb4c8c066e0653da6caba155",
+        "local_84f12085a2354dfecd87ebb2",
+        "local_064ed56bbffd46acc950ee32",
+        "local_082ce516c22bf9545f05c7f3",
+        "local_ead70c424340bceb0d5dec02",
+        "local_333e80ed713320d7ceac1135",
+        "local_695b4c255120e1059b25e5bb",
+        "local_fcd85c32d96847c368856f4d",
+        "local_8b63cb113baa806b79c6bdbf",
+        "local_78d49410e10d016e6fcdbd53",
+        "local_655ac70bc57d8698cfa5f596",
+        "local_9b7ee67885d3100063ac562a",
+        "local_17dc2d0d31802fc39b0febb3",
         "local_c30d26a234320d1df93a44dd",
-        "local_4a5fefdce6d33d9490515f0b",
-        "local_60cf38dd5c95f1558dcf9075"
+        "local_4a5fefdce6d33d9490515f0b"
       ],
-      "generatedAt": "2026-10-14T19:48:40.980Z",
+      "generatedAt": "2026-10-14T23:18:58.522Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,18 +197,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-15",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
         "跟进：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
         "跟进：金句抢先看",
-        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-        "跟进：Moonshot AI - 博客"
+        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用"
       ],
       "sections": [
         {
@@ -220,7 +220,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bbe5d404a3f5a5a0aff2b008"
+                "local_14516fa20692132ebb0505d8"
               ],
               "confidence": 78
             },
@@ -230,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_df9077f8fac0fe81657b4915"
+                "local_655ac70bc57d8698cfa5f596"
               ],
               "confidence": 70
             }
@@ -240,12 +240,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
+              "summary": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_28228eb2c03fcef5e1cdd0f1"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
               "summary": "电商领域的付费用户占比达到20%，千问办公被推向生意场",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f87c0761810bcbd9ebabdb9"
+                "local_dd39c95425ea887defb0f12e"
               ],
               "confidence": 70
             },
@@ -255,7 +265,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f900d7080079f82708195d09"
+                "local_c9131af499971218b3e74552"
               ],
               "confidence": 74
             },
@@ -265,7 +275,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_393fe62d5a2f66ca588557f3"
+                "local_4f68d8613d12e72a51fa9f74"
               ],
               "confidence": 92
             },
@@ -278,16 +288,6 @@
                 "local_c3962aa6be6949f5efc6d278"
               ],
               "confidence": 92
-            },
-            {
-              "title": "The Outer Loop, Insights First: An Ambient Quality Agent That Diagnoses Your Production Agent",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：How do you keep improving an AI agent after the first 80%, once it serves real production traffic and silent quality regressions return HTTP 200 OK? We are open-sourcing AQuA (Ambient Quality Agent), a reference impleme…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_fc9b7986a69dd0786bf3a685"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -300,7 +300,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d731c0e1cd6ee0b4760724e0"
+                "local_f0f2da66d29eef3e6d6a8b24"
               ],
               "confidence": 78
             },
@@ -320,7 +320,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_619dd6d220ba7841a1ffad98"
+                "local_8b63cb113baa806b79c6bdbf"
               ],
               "confidence": 92
             }
@@ -328,29 +328,30 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bbe5d404a3f5a5a0aff2b008",
-        "local_2f87c0761810bcbd9ebabdb9",
-        "local_f900d7080079f82708195d09",
-        "local_393fe62d5a2f66ca588557f3",
-        "local_d731c0e1cd6ee0b4760724e0",
+        "local_14516fa20692132ebb0505d8",
+        "local_28228eb2c03fcef5e1cdd0f1",
+        "local_dd39c95425ea887defb0f12e",
+        "local_c9131af499971218b3e74552",
+        "local_4f68d8613d12e72a51fa9f74",
+        "local_f0f2da66d29eef3e6d6a8b24",
         "local_3cb04c0518176374f9ff12ff",
         "local_c3962aa6be6949f5efc6d278",
         "local_fc9b7986a69dd0786bf3a685",
         "local_98d127da6a3974be0428f201",
-        "local_619dd6d220ba7841a1ffad98",
-        "local_a4b1925683fbf93b1678a60c",
-        "local_df9077f8fac0fe81657b4915",
-        "local_15d8d1fc6b41af5994291831",
-        "local_eb4c8c066e0653da6caba155",
+        "local_8b63cb113baa806b79c6bdbf",
+        "local_78d49410e10d016e6fcdbd53",
+        "local_655ac70bc57d8698cfa5f596",
+        "local_9b7ee67885d3100063ac562a",
+        "local_17dc2d0d31802fc39b0febb3",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-14T19:48:40.980Z",
+      "generatedAt": "2026-10-14T23:18:58.522Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-14T19:48:40.980Z",
+  "generatedAt": "2026-10-14T23:18:58.522Z",
   "collectorName": "local-source-collector"
 }
