@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Quoting Geoffrey Huntley」、「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Quoting Geoffrey Huntley」、「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Geoffrey Huntley",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8be95d504067ed70566f59a2"
+                "local_84a034eb2d952699ed65b8a7"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_478aab6fc70e0059d92452c1"
+                "local_26fa23edd888e846403b464b"
               ],
               "confidence": 92
             },
@@ -88,12 +88,12 @@
               "confidence": 82
             },
             {
-              "title": "UNITAS: A 3D-Native World Action Model for Embodied Manipulation",
-              "summary": "World action models (WAMs) aim to answer a coupled physical question: given a task instruction, what motion should the robot execute, and how will that motion change the surrounding world? Most existing WAMs build on pretrained video generators and represent world evolution thro…",
+              "title": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
+              "summary": "Modern AI models are aligned through post-training to adapt them to downstream tasks. Recent work shows that fine-tuning language models on narrow tasks can induce emergent misalignment (EM), causing broadly harmful behaviors beyond the training task. However, EM has been studie…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_855c254f728e3b5767dc8c1d"
+                "local_7762a8356322a708ecc75a4c"
               ],
               "confidence": 92
             }
@@ -103,24 +103,34 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Evaluating LLM Creativity through Long-Tail Performance",
-              "summary": "Creativity benchmarks for large language models (LLMs) vary widely in task and metric design. This raises the question of whether they capture a common notion of creativity. We propose that this shared target can be formalized as task-specific performance in the long tail of a r…",
+              "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+              "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one …",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f61f48052f16f713728d8608"
+                "local_9c6fd47957c6039279f996df"
               ],
               "confidence": 92
             },
             {
-              "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Python 3.15 is here! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported P…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_360d1c4efc14ae0761b63572"
+                "local_4dd1db0dafbcd73f591b28a4"
               ],
               "confidence": 92
+            },
+            {
+              "title": "llm-meta-ai 0.2",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_5f79c34a1cde6ebaaa432167"
+              ],
+              "confidence": 86
             },
             {
               "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
@@ -137,23 +147,24 @@
       ],
       "referencedFeedItemIds": [
         "local_e3d564023a9f38f2b9fd6e7e",
-        "local_8be95d504067ed70566f59a2",
+        "local_84a034eb2d952699ed65b8a7",
         "local_dedc71c51d31a451b7b7cd3f",
-        "local_478aab6fc70e0059d92452c1",
+        "local_26fa23edd888e846403b464b",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_1bc42f55e721ca5796a8c205",
-        "local_bb4075c1f6c877cd56690b23",
-        "local_855c254f728e3b5767dc8c1d",
-        "local_de682a183fe8d1d9002eff46",
-        "local_a08fb9d810f0362ac18c26be",
-        "local_f61f48052f16f713728d8608",
+        "local_2c6d54869adaba12f1403733",
+        "local_743c2f068f551551c8ff5c10",
+        "local_7762a8356322a708ecc75a4c",
+        "local_9c6fd47957c6039279f996df",
+        "local_26ecb3f765563a6dde039741",
+        "local_9a76f2ebe4482ace32350e36",
+        "local_4dd1db0dafbcd73f591b28a4",
+        "local_5f79c34a1cde6ebaaa432167",
         "local_029860adfcd0fd068833a941",
-        "local_360d1c4efc14ae0761b63572",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-13T21:39:54.532Z",
+      "generatedAt": "2026-10-14T00:43:58.987Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -187,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8be95d504067ed70566f59a2"
+                "local_84a034eb2d952699ed65b8a7"
               ],
               "confidence": 92
             },
@@ -197,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_478aab6fc70e0059d92452c1"
+                "local_26fa23edd888e846403b464b"
               ],
               "confidence": 92
             },
@@ -227,7 +238,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bb4075c1f6c877cd56690b23"
+                "local_743c2f068f551551c8ff5c10"
               ],
               "confidence": 92
             }
@@ -250,21 +261,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8be95d504067ed70566f59a2",
-        "local_478aab6fc70e0059d92452c1",
+        "local_84a034eb2d952699ed65b8a7",
+        "local_26fa23edd888e846403b464b",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_bb4075c1f6c877cd56690b23",
+        "local_743c2f068f551551c8ff5c10",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-13T21:39:54.532Z",
+      "generatedAt": "2026-10-14T00:43:58.987Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-13T21:39:54.532Z",
+  "generatedAt": "2026-10-14T00:43:58.987Z",
   "collectorName": "local-source-collector"
 }

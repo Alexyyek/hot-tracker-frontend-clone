@@ -5,14 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-10-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「web-edit 0.1a0」、「Agent、MCP、Skill、Cli、Model 一次讲透:老系统接入 AI 的概念地图与三条路径」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Agent、MCP、Skill、Cli、Model 一次讲透:老系统接入 AI 的概念地图与三条路径」、「NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：web-edit 0.1a0",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent、MCP、Skill、Cli、Model 一次讲透:老系统接入 AI 的概念地图与三条路径",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕"
       ],
       "watchItems": [
-        "跟进：web-edit 0.1a0",
         "跟进：Agent、MCP、Skill、Cli、Model 一次讲透:老系统接入 AI 的概念地图与三条路径",
         "跟进：NeurIPS'26|高德中稿16篇!涵盖了多模态大模型、空间智能、视觉推理、强化学习等领域",
         "跟进：68支队伍、232名学子同台竞演!2026华为开发者大赛·大连理工大学站校赛圆满落幕",
@@ -23,22 +22,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "web-edit 0.1a0",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Cod…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_61801e71c6732002a2022ac7"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Agent、MCP、Skill、Cli、Model 一次讲透:老系统接入 AI 的概念地图与三条路径",
               "summary": "的人都懂,上新系统是采购问题,深入老系统是工程问题.管理层点了名,这道题躲不掉.IT 同学犯难的地方,先出在概念层.Agent...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2e0b964ac451004f1ffb1ad5"
+                "local_8c74429a0d7d54a0b31d65a9"
               ],
               "confidence": 92
             },
@@ -48,7 +37,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1f4bdc12e8e301ad7f22737f"
+                "local_fefb61da4525cb467372700c"
               ],
               "confidence": 92
             },
@@ -58,7 +47,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7045d0ba3bcef5d71ee353d3"
+                "local_a17d515c9185b519ebc56f3e"
               ],
               "confidence": 92
             },
@@ -73,32 +62,15 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_148ea1489d2124ed606fe528"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_61801e71c6732002a2022ac7",
-        "local_2e0b964ac451004f1ffb1ad5",
-        "local_1f4bdc12e8e301ad7f22737f",
-        "local_7045d0ba3bcef5d71ee353d3",
-        "local_65b2d052273b1d447c761e61",
-        "local_148ea1489d2124ed606fe528"
+        "local_8c74429a0d7d54a0b31d65a9",
+        "local_fefb61da4525cb467372700c",
+        "local_a17d515c9185b519ebc56f3e",
+        "local_65b2d052273b1d447c761e61"
       ],
-      "generatedAt": "2026-10-13T21:39:54.538Z",
+      "generatedAt": "2026-10-14T00:43:58.995Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -131,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2e0b964ac451004f1ffb1ad5"
+                "local_8c74429a0d7d54a0b31d65a9"
               ],
               "confidence": 92
             },
@@ -141,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1f4bdc12e8e301ad7f22737f"
+                "local_fefb61da4525cb467372700c"
               ],
               "confidence": 92
             },
@@ -151,7 +123,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7045d0ba3bcef5d71ee353d3"
+                "local_a17d515c9185b519ebc56f3e"
               ],
               "confidence": 92
             },
@@ -169,18 +141,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2e0b964ac451004f1ffb1ad5",
-        "local_1f4bdc12e8e301ad7f22737f",
-        "local_7045d0ba3bcef5d71ee353d3",
+        "local_8c74429a0d7d54a0b31d65a9",
+        "local_fefb61da4525cb467372700c",
+        "local_a17d515c9185b519ebc56f3e",
         "local_65b2d052273b1d447c761e61"
       ],
-      "generatedAt": "2026-10-13T21:39:54.538Z",
+      "generatedAt": "2026-10-14T00:43:58.995Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-13T21:39:54.539Z",
+  "generatedAt": "2026-10-14T00:43:58.995Z",
   "collectorName": "local-source-collector"
 }
