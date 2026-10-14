@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Quoting Geoffrey Huntley」、「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Quoting Geoffrey Huntley」、「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Geoffrey Huntley",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_84a034eb2d952699ed65b8a7"
+                "local_627d44dd2b4d20f297d4e839"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_26fa23edd888e846403b464b"
+                "local_463650e9989ba4f684f668eb"
               ],
               "confidence": 92
             },
@@ -86,32 +86,12 @@
                 "local_dedc71c51d31a451b7b7cd3f"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Narrow Multimodal Fine-Tuning Can Induce Emergent Misalignment",
-              "summary": "Modern AI models are aligned through post-training to adapt them to downstream tasks. Recent work shows that fine-tuning language models on narrow tasks can induce emergent misalignment (EM), causing broadly harmful behaviors beyond the training task. However, EM has been studie…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7762a8356322a708ecc75a4c"
-              ],
-              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
-              "summary": "Multimodal large language models (MLLMs) struggle with spatial, embodied, physical, and temporal reasoning. We hypothesize that these failures reflect a shared deficit in visual transition reasoning, and test whether this capability can serve as a shared training primitive, one …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9c6fd47957c6039279f996df"
-              ],
-              "confidence": 92
-            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -147,24 +127,20 @@
       ],
       "referencedFeedItemIds": [
         "local_e3d564023a9f38f2b9fd6e7e",
-        "local_84a034eb2d952699ed65b8a7",
+        "local_627d44dd2b4d20f297d4e839",
         "local_dedc71c51d31a451b7b7cd3f",
-        "local_26fa23edd888e846403b464b",
+        "local_463650e9989ba4f684f668eb",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_2c6d54869adaba12f1403733",
-        "local_743c2f068f551551c8ff5c10",
-        "local_7762a8356322a708ecc75a4c",
-        "local_9c6fd47957c6039279f996df",
-        "local_26ecb3f765563a6dde039741",
-        "local_9a76f2ebe4482ace32350e36",
+        "local_0a91b05d265979859e4e9aa7",
+        "local_176ad762a147a4630fa9a280",
         "local_4dd1db0dafbcd73f591b28a4",
         "local_5f79c34a1cde6ebaaa432167",
         "local_029860adfcd0fd068833a941",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-14T00:43:58.987Z",
+      "generatedAt": "2026-10-14T05:31:25.278Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -198,7 +174,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_84a034eb2d952699ed65b8a7"
+                "local_627d44dd2b4d20f297d4e839"
               ],
               "confidence": 92
             },
@@ -208,7 +184,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_26fa23edd888e846403b464b"
+                "local_463650e9989ba4f684f668eb"
               ],
               "confidence": 92
             },
@@ -238,7 +214,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_743c2f068f551551c8ff5c10"
+                "local_176ad762a147a4630fa9a280"
               ],
               "confidence": 92
             }
@@ -261,21 +237,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_84a034eb2d952699ed65b8a7",
-        "local_26fa23edd888e846403b464b",
+        "local_627d44dd2b4d20f297d4e839",
+        "local_463650e9989ba4f684f668eb",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_743c2f068f551551c8ff5c10",
+        "local_176ad762a147a4630fa9a280",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-14T00:43:58.987Z",
+      "generatedAt": "2026-10-14T05:31:25.278Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-14T00:43:58.987Z",
+  "generatedAt": "2026-10-14T05:31:25.278Z",
   "collectorName": "local-source-collector"
 }

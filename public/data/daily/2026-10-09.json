@@ -5,53 +5,22 @@
       "topicId": "ai",
       "reportDate": "2026-10-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection」、「APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Asana cuts model costs 76x in browser tests with GPT-6.1 Sol」、「Study in The Lancet suggests AI could improve patient-physician relationships.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Study in The Lancet suggests AI could improve patient-physician relationships.",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
       ],
       "watchItems": [
-        "跟进：(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
-        "跟进：APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-        "跟进：ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
         "跟进：Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "跟进：Study in The Lancet suggests AI could improve patient-physician relationships."
+        "跟进：Study in The Lancet suggests AI could improve patient-physician relationships.",
+        "跟进：Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+        "跟进：Building Reliable Data Analytics Agents: Lessons from the KDD Cup"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
-              "summary": "With the advances of coding agents, software developers are spending more time reviewing code than writing code. As human review velocity falls behind agentic code generation, it is tempting to build automated review agents towards a future of \"lights-off\" software factory with …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c5372aaa2172765e7bec1a78"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "APEX-Harm: Evaluating Agent Safety in Shared Professional Workspaces",
-              "summary": "Professional agents increasingly work through command-line interfaces and multiple tools over shared workspaces containing files, messages, and business applications. These environments create safety risks that are difficult to capture with attacks placed at a single, known read…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e86d67227e140a751ed00559"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
-              "summary": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document. However, scalable verifiable training environments that force agents to d…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ee2ac87aa14da912df146933"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
@@ -71,6 +40,16 @@
                 "local_2a4f147303d2bc3d04fca4bf"
               ],
               "confidence": 86
+            },
+            {
+              "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ddf4dfa9ac2f1afa8c8d96dd"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -91,15 +70,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c5372aaa2172765e7bec1a78",
-        "local_e86d67227e140a751ed00559",
-        "local_ee2ac87aa14da912df146933",
         "local_e1d0a7898451d21441170344",
         "local_924efd42b28cd57dc9ce2c3a",
         "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-14T00:43:59.021Z",
+      "generatedAt": "2026-10-14T05:31:25.298Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -180,13 +156,13 @@
         "local_2a4f147303d2bc3d04fca4bf",
         "local_ddf4dfa9ac2f1afa8c8d96dd"
       ],
-      "generatedAt": "2026-10-14T00:43:59.021Z",
+      "generatedAt": "2026-10-14T05:31:25.298Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-14T00:43:59.022Z",
+  "generatedAt": "2026-10-14T05:31:25.298Z",
   "collectorName": "local-source-collector"
 }
