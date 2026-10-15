@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece」、「NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece」、「Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问"
       ],
       "watchItems": [
         "跟进：GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
-        "跟进：NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
         "跟进：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
         "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
-        "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理"
+        "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
+        "跟进：Lluna: Collaborative Unimodal Models for Missing-Modality Inference"
       ],
       "sections": [
         {
@@ -33,22 +33,12 @@
               "confidence": 92
             },
             {
-              "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_373d62e06f28d2cb5831116e"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
               "summary": "路线,从结构化到非结构化、从开发治理到智能体,逐层夯实.网易智企·数帆制造行业解决方案专家杨海水作主旨分享具体而言,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a3615254f3fbb0f1a2dad797"
+                "local_ca30331a71d4792daa70b5d5"
               ],
               "confidence": 90
             },
@@ -58,17 +48,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_67f63ff319b96b16ceaf9ea4"
+                "local_f7c65a9b74c202ea24c5c1da"
               ],
               "confidence": 90
             },
             {
-              "title": "Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules",
-              "summary": "Coding agents such as Claude Code also follow text files that developers write for them: a project file, skills the agent may choose to open, and rules that load automatically when the agent reads matching files. We call these files the agent's harness. Developers add to it when…",
+              "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
+              "summary": "Pretrained vision-language-action models (VLAs) often fail midway through unseen long-horizon tasks. Recursive self-improvement (RSI) offers a remedy, but embodied RSI methods either refine the harness around a frozen executor and so cannot add a missing motion, or train the exe…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2b77fcf3c03618fb1f719ddd"
+                "local_8807d39c35781b4b21b34568"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+              "summary": "Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e328f503fcbc69de26abfcc1"
               ],
               "confidence": 92
             }
@@ -88,12 +88,22 @@
               "confidence": 92
             },
             {
-              "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
-              "summary": "Diffusion language models (DLMs) offer parallel sampling for faster generation than autoregressive models, an increasingly important advantage as inference becomes a dominant computational workload. However, DLMs degrade quickly with fewer sampling steps, process the full sequen…",
+              "title": "Lluna: Collaborative Unimodal Models for Missing-Modality Inference",
+              "summary": "Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboration can become less accurate than a surviving unimodal model when modalities are missing. We study this setting using fixed surviving-model anchors and find that …",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_240153363edec2aa1eaa990b"
+                "local_1501cd99771f94765bb4b5f5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "When Left Is Right? Camera-Motion Understanding beyond Screen",
+              "summary": "Can a vision-language model tell left from right? Modern VLMs solve visual puzzles and follow hour-long videos, yet when asked whether the camera moved left or right, most do no better than a coin flip. Adding camera-motion data or geometric representations has been tried, separ…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e5a93e7ed3feb43cb91f1e4e"
               ],
               "confidence": 92
             }
@@ -103,12 +113,22 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "History Replays Itself: Unleashing Long-Context Capability in Linear Attention",
-              "summary": "Linear attention promises the efficiency needed for long-context language modelling, yet its fixed-size recurrent state must simultaneously support ongoing computation and preserve information from an ever-growing history. This coupling has reinforced a prevailing view that the …",
+              "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
+              "summary": "Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative …",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_efb3dc0a7e42e0b040ba3930"
+                "local_fb8dd085be605efb7c0ba5e4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
+              "summary": "Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only asks whether the final program passes. We analyze what this unit-test-only reward teaches a model during debugging and find that, while it raises pass rates, it a…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_1ddfdd518f6ac01f3a1ab37d"
               ],
               "confidence": 92
             },
@@ -142,23 +162,21 @@
       ],
       "referencedFeedItemIds": [
         "local_3a3b0fe02a60e7837f18a750",
-        "local_373d62e06f28d2cb5831116e",
         "local_859860107f9771c2643ed78b",
-        "local_a3615254f3fbb0f1a2dad797",
-        "local_67f63ff319b96b16ceaf9ea4",
-        "local_240153363edec2aa1eaa990b",
-        "local_2b77fcf3c03618fb1f719ddd",
-        "local_efb3dc0a7e42e0b040ba3930",
-        "local_4d16c2a225f2afc030484fb0",
+        "local_ca30331a71d4792daa70b5d5",
+        "local_f7c65a9b74c202ea24c5c1da",
+        "local_1501cd99771f94765bb4b5f5",
+        "local_fb8dd085be605efb7c0ba5e4",
+        "local_e5a93e7ed3feb43cb91f1e4e",
+        "local_1ddfdd518f6ac01f3a1ab37d",
         "local_dd9c1fdfd35735c90f673ec4",
-        "local_c30d26a234320d1df93a44dd",
         "local_8807d39c35781b4b21b34568",
         "local_4a5fefdce6d33d9490515f0b",
         "local_e328f503fcbc69de26abfcc1",
         "local_60cf38dd5c95f1558dcf9075",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-15T17:53:30.688Z",
+      "generatedAt": "2026-10-15T21:27:00.600Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -169,14 +187,13 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-15",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning」、「网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问」、「把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym"
       ],
       "watchItems": [
-        "跟进：NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
         "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
         "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
         "跟进：Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym"
@@ -186,22 +203,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_373d62e06f28d2cb5831116e"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
               "summary": "路线,从结构化到非结构化、从开发治理到智能体,逐层夯实.网易智企·数帆制造行业解决方案专家杨海水作主旨分享具体而言,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a3615254f3fbb0f1a2dad797"
+                "local_ca30331a71d4792daa70b5d5"
               ],
               "confidence": 90
             },
@@ -211,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_67f63ff319b96b16ceaf9ea4"
+                "local_f7c65a9b74c202ea24c5c1da"
               ],
               "confidence": 90
             },
@@ -229,18 +236,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_373d62e06f28d2cb5831116e",
-        "local_a3615254f3fbb0f1a2dad797",
-        "local_67f63ff319b96b16ceaf9ea4",
+        "local_ca30331a71d4792daa70b5d5",
+        "local_f7c65a9b74c202ea24c5c1da",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-15T17:53:30.688Z",
+      "generatedAt": "2026-10-15T21:27:00.600Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-15T17:53:30.688Z",
+  "generatedAt": "2026-10-15T21:27:00.600Z",
   "collectorName": "local-source-collector"
 }
