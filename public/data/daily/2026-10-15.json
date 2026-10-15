@@ -16,7 +16,7 @@
         "跟进：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
         "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
         "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
-        "跟进：Lluna: Collaborative Unimodal Models for Missing-Modality Inference"
+        "跟进：FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ca30331a71d4792daa70b5d5"
+                "local_fcf1366c3bd4c83486a959f1"
               ],
               "confidence": 90
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f7c65a9b74c202ea24c5c1da"
+                "local_9ee7710ff47c62b4ababee8a"
               ],
               "confidence": 90
             },
@@ -96,16 +96,6 @@
                 "local_1501cd99771f94765bb4b5f5"
               ],
               "confidence": 92
-            },
-            {
-              "title": "When Left Is Right? Camera-Motion Understanding beyond Screen",
-              "summary": "Can a vision-language model tell left from right? Modern VLMs solve visual puzzles and follow hour-long videos, yet when asked whether the camera moved left or right, most do no better than a coin flip. Adding camera-motion data or geometric representations has been tried, separ…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e5a93e7ed3feb43cb91f1e4e"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -113,22 +103,32 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
+              "summary": "Linear-time sequence models typically store long-context information in a recurrent state. A fixed-size state limits how much information can be stored, while hybrid architectures that add full attention for better recall incur quadratic sequence cost. Alternatively, sparse atte…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_df66312b7cc01fc093f2b749"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming",
+              "summary": "Structured pruning reduces LLM inference costs by removing model components to produce smaller dense models. However, existing methods can cause reasoning performance to collapse on long-form reasoning tasks such as AIME. We propose LayerTrim, a training-free structured pruning …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_99d87d5357d29f598d02fb0d"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
               "summary": "Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative …",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_fb8dd085be605efb7c0ba5e4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "PreciseCoder: Faithful and Generalizable Debugging Beyond Unit-Test Rewards",
-              "summary": "Reinforcement learning (RL) from unit tests is the common recipe for post-training code models, but a unit test only asks whether the final program passes. We analyze what this unit-test-only reward teaches a model during debugging and find that, while it raises pass rates, it a…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1ddfdd518f6ac01f3a1ab37d"
               ],
               "confidence": 92
             },
@@ -163,12 +163,12 @@
       "referencedFeedItemIds": [
         "local_3a3b0fe02a60e7837f18a750",
         "local_859860107f9771c2643ed78b",
-        "local_ca30331a71d4792daa70b5d5",
-        "local_f7c65a9b74c202ea24c5c1da",
+        "local_fcf1366c3bd4c83486a959f1",
+        "local_9ee7710ff47c62b4ababee8a",
+        "local_df66312b7cc01fc093f2b749",
+        "local_99d87d5357d29f598d02fb0d",
         "local_1501cd99771f94765bb4b5f5",
         "local_fb8dd085be605efb7c0ba5e4",
-        "local_e5a93e7ed3feb43cb91f1e4e",
-        "local_1ddfdd518f6ac01f3a1ab37d",
         "local_dd9c1fdfd35735c90f673ec4",
         "local_8807d39c35781b4b21b34568",
         "local_4a5fefdce6d33d9490515f0b",
@@ -176,7 +176,7 @@
         "local_60cf38dd5c95f1558dcf9075",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-15T21:27:00.600Z",
+      "generatedAt": "2026-10-15T23:57:30.905Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ca30331a71d4792daa70b5d5"
+                "local_fcf1366c3bd4c83486a959f1"
               ],
               "confidence": 90
             },
@@ -218,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f7c65a9b74c202ea24c5c1da"
+                "local_9ee7710ff47c62b4ababee8a"
               ],
               "confidence": 90
             },
@@ -236,17 +236,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_ca30331a71d4792daa70b5d5",
-        "local_f7c65a9b74c202ea24c5c1da",
+        "local_fcf1366c3bd4c83486a959f1",
+        "local_9ee7710ff47c62b4ababee8a",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-15T21:27:00.600Z",
+      "generatedAt": "2026-10-15T23:57:30.905Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-15T21:27:00.600Z",
+  "generatedAt": "2026-10-15T23:57:30.906Z",
   "collectorName": "local-source-collector"
 }
