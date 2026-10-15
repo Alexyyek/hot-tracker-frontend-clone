@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-10-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Quoting Geoffrey Huntley」、「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」、「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Geoffrey Huntley",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA"
       ],
       "watchItems": [
-        "跟进：Quoting Geoffrey Huntley",
         "跟进：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
         "跟进：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
         "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-        "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA"
+        "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+        "跟进：开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Quoting Geoffrey Huntley",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to obser…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e3d564023a9f38f2b9fd6e7e"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
               "summary": "工程团队应该如何设计模型之外的系统,才能让 Agent 在生产环境中真正可靠地并自进化?近日,InfoQ《极客有约》X QCon 直播栏...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb438b813407e56c1c4aa3e1"
+                "local_bdce342b0e87bbe6b7a15622"
               ],
               "confidence": 92
             },
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb717a26c8bf1b486399dc3b"
+                "local_9e77172c4de8d6006a53cb07"
               ],
               "confidence": 92
             },
@@ -71,22 +61,22 @@
                 "local_a9c14b11672c62b9d497a73f"
               ],
               "confidence": 78
+            },
+            {
+              "title": "开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病",
+              "summary": "想要在每个Agent每个AI每个对话都可以自动生效,那就不依靠skill,手搓一个提示语再加一个hook这样我们就可以脱离认知陷阱....",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_091fd283a1dbabf4198ba5ad"
+              ],
+              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4dd1db0dafbcd73f591b28a4"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capaci…",
@@ -101,19 +91,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e3d564023a9f38f2b9fd6e7e",
-        "local_cb438b813407e56c1c4aa3e1",
-        "local_fb717a26c8bf1b486399dc3b",
+        "local_bdce342b0e87bbe6b7a15622",
+        "local_9e77172c4de8d6006a53cb07",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_24ce2412865df878ad59cdee",
-        "local_88e3532c29fd96a6b37b539e",
-        "local_84de6c4878e37e4235596ef2",
-        "local_4dd1db0dafbcd73f591b28a4",
+        "local_091fd283a1dbabf4198ba5ad",
+        "local_62fba1f20046968d4c263fac",
+        "local_4036344d452c2750cf8efe27",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-14T23:18:58.554Z",
+      "generatedAt": "2026-10-15T01:56:45.298Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -147,7 +135,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb438b813407e56c1c4aa3e1"
+                "local_bdce342b0e87bbe6b7a15622"
               ],
               "confidence": 92
             },
@@ -157,7 +145,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb717a26c8bf1b486399dc3b"
+                "local_9e77172c4de8d6006a53cb07"
               ],
               "confidence": 92
             },
@@ -187,7 +175,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_88e3532c29fd96a6b37b539e"
+                "local_62fba1f20046968d4c263fac"
               ],
               "confidence": 86
             }
@@ -210,22 +198,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_cb438b813407e56c1c4aa3e1",
-        "local_fb717a26c8bf1b486399dc3b",
+        "local_bdce342b0e87bbe6b7a15622",
+        "local_9e77172c4de8d6006a53cb07",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
-        "local_88e3532c29fd96a6b37b539e",
-        "local_84de6c4878e37e4235596ef2",
+        "local_62fba1f20046968d4c263fac",
+        "local_4036344d452c2750cf8efe27",
         "local_a141abcbc199f0f720eb2aa7",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-14T23:18:58.554Z",
+      "generatedAt": "2026-10-15T01:56:45.298Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-14T23:18:58.554Z",
+  "generatedAt": "2026-10-15T01:56:45.299Z",
   "collectorName": "local-source-collector"
 }

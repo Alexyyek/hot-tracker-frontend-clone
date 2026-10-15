@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
         "跟进：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
         "跟进：金句抢先看",
-        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用"
+        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_14516fa20692132ebb0505d8"
+                "local_e3e2b8cf5c3bc007360bb1cd"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_655ac70bc57d8698cfa5f596"
+                "local_78619fc9717dda1b5074edf0"
               ],
               "confidence": 70
             }
@@ -48,22 +48,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
-              "summary": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_28228eb2c03fcef5e1cdd0f1"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
               "summary": "电商领域的付费用户占比达到20%，千问办公被推向生意场",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dd39c95425ea887defb0f12e"
+                "local_298a4e88313dd257b77592fa"
               ],
               "confidence": 70
             },
@@ -73,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c9131af499971218b3e74552"
+                "local_a44c0cd81153cef5c4d47934"
               ],
               "confidence": 74
             },
@@ -83,7 +73,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4f68d8613d12e72a51fa9f74"
+                "local_fe0c485cc97569515a5bcc79"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and to…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_98d127da6a3974be0428f201"
               ],
               "confidence": 92
             },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f0f2da66d29eef3e6d6a8b24"
+                "local_b70c8f316d542e4389743ce5"
               ],
               "confidence": 78
             },
@@ -128,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_333e80ed713320d7ceac1135"
+                "local_f5938bb55067bceb1c0fc55d"
               ],
               "confidence": 82
             },
@@ -138,55 +138,50 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8b63cb113baa806b79c6bdbf"
+                "local_9ab3221de806b669c79354d0"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
+            },
             {
-              "title": "AI is mass decompiling games. That's both awesome and scary.",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：AI is mass decompiling games. That&#x27;s both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and…",
+              "title": "Tree Appreciator",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree app…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4a5fefdce6d33d9490515f0b"
+                "local_dd9c1fdfd35735c90f673ec4"
               ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_14516fa20692132ebb0505d8",
-        "local_28228eb2c03fcef5e1cdd0f1",
-        "local_dd39c95425ea887defb0f12e",
-        "local_c9131af499971218b3e74552",
-        "local_4f68d8613d12e72a51fa9f74",
-        "local_f0f2da66d29eef3e6d6a8b24",
+        "local_e3e2b8cf5c3bc007360bb1cd",
+        "local_298a4e88313dd257b77592fa",
+        "local_a44c0cd81153cef5c4d47934",
+        "local_fe0c485cc97569515a5bcc79",
+        "local_b70c8f316d542e4389743ce5",
+        "local_98d127da6a3974be0428f201",
         "local_3cb04c0518176374f9ff12ff",
         "local_c3962aa6be6949f5efc6d278",
         "local_fc9b7986a69dd0786bf3a685",
-        "local_98d127da6a3974be0428f201",
-        "local_84f12085a2354dfecd87ebb2",
-        "local_064ed56bbffd46acc950ee32",
-        "local_082ce516c22bf9545f05c7f3",
-        "local_ead70c424340bceb0d5dec02",
-        "local_333e80ed713320d7ceac1135",
-        "local_695b4c255120e1059b25e5bb",
-        "local_fcd85c32d96847c368856f4d",
-        "local_8b63cb113baa806b79c6bdbf",
-        "local_78d49410e10d016e6fcdbd53",
-        "local_655ac70bc57d8698cfa5f596",
-        "local_9b7ee67885d3100063ac562a",
-        "local_17dc2d0d31802fc39b0febb3",
-        "local_c30d26a234320d1df93a44dd",
-        "local_4a5fefdce6d33d9490515f0b"
+        "local_b107d70d7c2cfed64444524a",
+        "local_cde6f7dd322411743d8a6e55",
+        "local_ad03bfbe4479e0f159dcc981",
+        "local_db2112a15c4175caf669746c",
+        "local_f5938bb55067bceb1c0fc55d",
+        "local_e5663e738f78e57f9c9230f5",
+        "local_fd127f4250163e4d8779dcd1",
+        "local_9ab3221de806b669c79354d0",
+        "local_d25f2c271ede2fdeea39b41f",
+        "local_78619fc9717dda1b5074edf0",
+        "local_6e28e5a5dc4f726feecc949f",
+        "local_187bf3d7111c8162f5f182bb",
+        "local_37f5649351f8a26cc19a8603",
+        "local_28228eb2c03fcef5e1cdd0f1",
+        "local_dd9c1fdfd35735c90f673ec4"
       ],
-      "generatedAt": "2026-10-14T23:18:58.522Z",
+      "generatedAt": "2026-10-15T01:56:45.269Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,18 +192,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-15",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
         "跟进：千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
         "跟进：金句抢先看",
-        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用"
+        "跟进：CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
+        "跟进：Moonshot AI - 博客"
       ],
       "sections": [
         {
@@ -220,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_14516fa20692132ebb0505d8"
+                "local_e3e2b8cf5c3bc007360bb1cd"
               ],
               "confidence": 78
             },
@@ -230,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_655ac70bc57d8698cfa5f596"
+                "local_78619fc9717dda1b5074edf0"
               ],
               "confidence": 70
             }
@@ -240,22 +235,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "从大模型到 Agent 落地，这场大会讲透 AI 全链路_腾讯_腾讯_InfoQ精选文章",
-              "summary": "从大模型到 Agent 落地，这场大会讲透 AI 全链路",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_28228eb2c03fcef5e1cdd0f1"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "千问办公杀入电商经营！3万开店成本压至几百元，一个Agent接管多平台生意",
               "summary": "电商领域的付费用户占比达到20%，千问办公被推向生意场",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dd39c95425ea887defb0f12e"
+                "local_298a4e88313dd257b77592fa"
               ],
               "confidence": 70
             },
@@ -265,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c9131af499971218b3e74552"
+                "local_a44c0cd81153cef5c4d47934"
               ],
               "confidence": 74
             },
@@ -275,7 +260,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4f68d8613d12e72a51fa9f74"
+                "local_fe0c485cc97569515a5bcc79"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Announcing MCP support in Apigee hybrid: agentic tools that run in your own cluster",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Apigee hybrid 1.17.0 introduces native Model Context Protocol (MCP) support, enabling the MCP data plane to run directly within your own Kubernetes cluster. This architecture ensures that AI agent request traffic and to…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_98d127da6a3974be0428f201"
               ],
               "confidence": 92
             },
@@ -300,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f0f2da66d29eef3e6d6a8b24"
+                "local_b70c8f316d542e4389743ce5"
               ],
               "confidence": 78
             },
@@ -320,7 +315,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8b63cb113baa806b79c6bdbf"
+                "local_9ab3221de806b669c79354d0"
               ],
               "confidence": 92
             }
@@ -328,30 +323,30 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_14516fa20692132ebb0505d8",
-        "local_28228eb2c03fcef5e1cdd0f1",
-        "local_dd39c95425ea887defb0f12e",
-        "local_c9131af499971218b3e74552",
-        "local_4f68d8613d12e72a51fa9f74",
-        "local_f0f2da66d29eef3e6d6a8b24",
+        "local_e3e2b8cf5c3bc007360bb1cd",
+        "local_298a4e88313dd257b77592fa",
+        "local_a44c0cd81153cef5c4d47934",
+        "local_fe0c485cc97569515a5bcc79",
+        "local_b70c8f316d542e4389743ce5",
+        "local_98d127da6a3974be0428f201",
         "local_3cb04c0518176374f9ff12ff",
         "local_c3962aa6be6949f5efc6d278",
         "local_fc9b7986a69dd0786bf3a685",
-        "local_98d127da6a3974be0428f201",
-        "local_8b63cb113baa806b79c6bdbf",
-        "local_78d49410e10d016e6fcdbd53",
-        "local_655ac70bc57d8698cfa5f596",
-        "local_9b7ee67885d3100063ac562a",
-        "local_17dc2d0d31802fc39b0febb3",
+        "local_9ab3221de806b669c79354d0",
+        "local_d25f2c271ede2fdeea39b41f",
+        "local_78619fc9717dda1b5074edf0",
+        "local_6e28e5a5dc4f726feecc949f",
+        "local_187bf3d7111c8162f5f182bb",
+        "local_28228eb2c03fcef5e1cdd0f1",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-14T23:18:58.522Z",
+      "generatedAt": "2026-10-15T01:56:45.269Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-14T23:18:58.522Z",
+  "generatedAt": "2026-10-15T01:56:45.269Z",
   "collectorName": "local-source-collector"
 }
