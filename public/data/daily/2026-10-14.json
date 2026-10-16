@@ -5,50 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-10-14",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents」、「上海AI Lab连发两项研究:Agent安全也能自我进化」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「上海AI Lab连发两项研究:Agent安全也能自我进化」、「Amp puts AI agents to work beyond code with OpenAI models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海AI Lab连发两项研究:Agent安全也能自我进化",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Long-Horizon RL Needs Muon"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Amp puts AI agents to work beyond code with OpenAI models",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：动态规则的 Agent 实践:用确定性工程驾驭 LLM 的资产智能验收"
       ],
       "watchItems": [
-        "跟进：Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
         "跟进：上海AI Lab连发两项研究:Agent安全也能自我进化",
-        "跟进：Long-Horizon RL Needs Muon",
         "跟进：Amp puts AI agents to work beyond code with OpenAI models",
-        "跟进：动态规则的 Agent 实践:用确定性工程驾驭 LLM 的资产智能验收"
+        "跟进：动态规则的 Agent 实践:用确定性工程驾驭 LLM 的资产智能验收",
+        "跟进：豆包工作悄悄上新功能,把我多Agent记忆整合的焦虑治好了",
+        "跟进：Singapore office and government MOU"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
-              "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task succ…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_31e1cdab50504e5c0463661e"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "上海AI Lab连发两项研究:Agent安全也能自我进化",
               "summary": "引言当大模型 Agent 开始进入浏览器、邮件系统、数据库和各类业务工具,安全问题正在从\"模型是否生成有害内容\",扩展为\"整个...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4fa29dcd5209980fd0d4fa14"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Long-Horizon RL Needs Muon",
-              "summary": "Long-horizon agents must coordinate reasoning, tool use, and environment feedback over extended interactions. Learning from sparse outcome rewards requires weighting trajectories of different lengths and updating the policy while rollouts are still being collected. We examine a …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2204cea6de4359ebe719783c"
+                "local_49bda5aadab735c6913598d9"
               ],
               "confidence": 92
             },
@@ -71,6 +51,26 @@
                 "local_4965f815f2e168267550d431"
               ],
               "confidence": 92
+            },
+            {
+              "title": "豆包工作悄悄上新功能,把我多Agent记忆整合的焦虑治好了",
+              "summary": "又回到了经典的,来杯coffee等Agent自动把活干完的环节了耶.@ 作者 / 卡尔 最后,感谢你看到这里如果喜欢这篇文章,不妨顺手给...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_081631596b8d67673ca1ea8b"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_e1b37166a1d011f223a97cc7"
+              ],
+              "confidence": 90
             }
           ]
         },
@@ -94,16 +94,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_aa9cb8783e4dca1d2ef9dd29"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1db156346c823efb6860ef51"
               ],
               "confidence": 92
             },
@@ -136,28 +126,25 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_31e1cdab50504e5c0463661e",
-        "local_4fa29dcd5209980fd0d4fa14",
-        "local_2204cea6de4359ebe719783c",
+        "local_49bda5aadab735c6913598d9",
         "local_cd6e6afe3272805df294c165",
         "local_4965f815f2e168267550d431",
-        "local_ee75bc75259da158418ca6ad",
+        "local_081631596b8d67673ca1ea8b",
         "local_db0ab01b2d10d5e56bc50a64",
         "local_aa9cb8783e4dca1d2ef9dd29",
         "local_e1b37166a1d011f223a97cc7",
-        "local_391abc041149834365b12d44",
+        "local_0c40417262c8fe9bc2e59f97",
         "local_1c5af296d87dcc02bbc30146",
         "local_636ae21e9edfcceed981572c",
-        "local_5df9838ee39d4f8863392a29",
+        "local_fadcdf0f043338aa50e37f81",
         "local_62f0c06049d44cf39732d13e",
         "local_234c28fd2a277d96fe3ed2f1",
         "local_05c089b8ecf87f4bc9335dde",
-        "local_1db156346c823efb6860ef51",
         "local_a52a2463892e484f18b92dbe",
         "local_9b3a8d390c19e7c20d4e809e",
         "local_4685eea217655e0b21e88c6d"
       ],
-      "generatedAt": "2026-10-15T23:57:30.911Z",
+      "generatedAt": "2026-10-16T04:31:56.160Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -191,7 +178,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4fa29dcd5209980fd0d4fa14"
+                "local_49bda5aadab735c6913598d9"
               ],
               "confidence": 92
             },
@@ -231,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_391abc041149834365b12d44"
+                "local_0c40417262c8fe9bc2e59f97"
               ],
               "confidence": 92
             }
@@ -279,15 +266,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_4fa29dcd5209980fd0d4fa14",
+        "local_49bda5aadab735c6913598d9",
         "local_cd6e6afe3272805df294c165",
         "local_4965f815f2e168267550d431",
         "local_db0ab01b2d10d5e56bc50a64",
         "local_e1b37166a1d011f223a97cc7",
-        "local_391abc041149834365b12d44",
+        "local_0c40417262c8fe9bc2e59f97",
         "local_1c5af296d87dcc02bbc30146",
         "local_636ae21e9edfcceed981572c",
-        "local_5df9838ee39d4f8863392a29",
+        "local_fadcdf0f043338aa50e37f81",
         "local_62f0c06049d44cf39732d13e",
         "local_234c28fd2a277d96fe3ed2f1",
         "local_05c089b8ecf87f4bc9335dde",
@@ -295,13 +282,13 @@
         "local_9b3a8d390c19e7c20d4e809e",
         "local_4685eea217655e0b21e88c6d"
       ],
-      "generatedAt": "2026-10-15T23:57:30.911Z",
+      "generatedAt": "2026-10-16T04:31:56.160Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-15T23:57:30.912Z",
+  "generatedAt": "2026-10-16T04:31:56.160Z",
   "collectorName": "local-source-collector"
 }

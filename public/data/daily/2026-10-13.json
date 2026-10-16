@@ -5,112 +5,6 @@
       "topicId": "ai",
       "reportDate": "2026-10-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」、「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA"
-      ],
-      "watchItems": [
-        "跟进：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
-        "跟进：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
-        "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-        "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-        "跟进：开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病"
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
-              "summary": "工程团队应该如何设计模型之外的系统,才能让 Agent 在生产环境中真正可靠地并自进化?近日,InfoQ《极客有约》X QCon 直播栏...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e954129a3a313d273ad98678"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
-              "summary": "我们为什么要这样改GEEK TALK01流程能跑通,不代表结果是对的网盘很早就在探索 Coding Agent 怎么融入＂需求进、代码出＂的...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_bc5674532cb4bfcca5851d4d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：French companies are putting NVIDIA infrastructure and open models to work across all industries, from satellites in orbit to cosmetics in corner stores.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a5a5731b238068d8fe110d1b"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：French companies are putting NVIDIA infrastructure and open models to work across all industries, from satellites in orbit to cosmetics in corner stores.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a9c14b11672c62b9d497a73f"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病",
-              "summary": "想要在每个Agent每个AI每个对话都可以自动生效,那就不依靠skill,手搓一个提示语再加一个hook这样我们就可以脱离认知陷阱....",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e51736c383d7b7fe72e0eaff"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capaci…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_eff08a07db2a4d01f7aa526a"
-              ],
-              "confidence": 92
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_e954129a3a313d273ad98678",
-        "local_bc5674532cb4bfcca5851d4d",
-        "local_a5a5731b238068d8fe110d1b",
-        "local_a9c14b11672c62b9d497a73f",
-        "local_e51736c383d7b7fe72e0eaff",
-        "local_f6f6584f92ee452643520cb8",
-        "local_2dffd39e522089f26929bb8a",
-        "local_eff08a07db2a4d01f7aa526a"
-      ],
-      "generatedAt": "2026-10-15T23:57:30.918Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-10-13",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-10-13",
-      "title": "大厂 AI 日报",
       "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」、「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
@@ -134,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e954129a3a313d273ad98678"
+                "local_3c95316961fed0c025a85035"
               ],
               "confidence": 92
             },
@@ -144,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc5674532cb4bfcca5851d4d"
+                "local_d3ccb4bdebd78228f8f1a649"
               ],
               "confidence": 92
             },
@@ -197,21 +91,126 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e954129a3a313d273ad98678",
-        "local_bc5674532cb4bfcca5851d4d",
+        "local_3c95316961fed0c025a85035",
+        "local_d3ccb4bdebd78228f8f1a649",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
         "local_f6f6584f92ee452643520cb8",
-        "local_2dffd39e522089f26929bb8a",
+        "local_d5cd6cb92e4bf18ad77a8bd9",
         "local_eff08a07db2a4d01f7aa526a"
       ],
-      "generatedAt": "2026-10-15T23:57:30.919Z",
+      "generatedAt": "2026-10-16T04:31:56.173Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-10-13",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-10-13",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」、「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA"
+      ],
+      "watchItems": [
+        "跟进：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
+        "跟进：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
+        "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+        "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+        "跟进：一个假期,大一新生用AI Shell和openJiuwen做出了四个项目"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
+              "summary": "工程团队应该如何设计模型之外的系统,才能让 Agent 在生产环境中真正可靠地并自进化?近日,InfoQ《极客有约》X QCon 直播栏...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3c95316961fed0c025a85035"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
+              "summary": "我们为什么要这样改GEEK TALK01流程能跑通,不代表结果是对的网盘很早就在探索 Coding Agent 怎么融入＂需求进、代码出＂的...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d3ccb4bdebd78228f8f1a649"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：French companies are putting NVIDIA infrastructure and open models to work across all industries, from satellites in orbit to cosmetics in corner stores.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a5a5731b238068d8fe110d1b"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：French companies are putting NVIDIA infrastructure and open models to work across all industries, from satellites in orbit to cosmetics in corner stores.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a9c14b11672c62b9d497a73f"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "一个假期,大一新生用AI Shell和openJiuwen做出了四个项目",
+              "summary": "中描述需求,结合华为云码道 CodeArts 的 AI 辅助编程能力完成开... |备注:内容来源Makerizon Agent Lab",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f6f6584f92ee452643520cb8"
+              ],
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Turning Opportunistic AI Inference Capacity Into Better Ads Recommendations",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：At Meta, we’ve built a system that enhances ads recommendations by leveraging idle inference capacity in our fleet. Two elasticity levers in the system allow ads recommendation work to expand across opportunistic capaci…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_eff08a07db2a4d01f7aa526a"
+              ],
+              "confidence": 92
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_3c95316961fed0c025a85035",
+        "local_d3ccb4bdebd78228f8f1a649",
+        "local_a5a5731b238068d8fe110d1b",
+        "local_a9c14b11672c62b9d497a73f",
+        "local_f6f6584f92ee452643520cb8",
+        "local_d5cd6cb92e4bf18ad77a8bd9",
+        "local_eff08a07db2a4d01f7aa526a"
+      ],
+      "generatedAt": "2026-10-16T04:31:56.173Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-15T23:57:30.919Z",
+  "generatedAt": "2026-10-16T04:31:56.173Z",
   "collectorName": "local-source-collector"
 }

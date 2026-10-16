@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece」、「Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece」、「WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO"
       ],
       "watchItems": [
         "跟进：GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
+        "跟进：WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
         "跟进：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-        "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
-        "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
-        "跟进：FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation"
+        "跟进：DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
+        "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问"
       ],
       "sections": [
         {
@@ -33,12 +33,32 @@
               "confidence": 92
             },
             {
+              "title": "WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
+              "summary": "Real-world software engineering rarely consists of isolated changes. Features, migrations, and systematic fixes often unfold across multiple pull requests (PRs), requiring coordinated modifications across a repository. Yet most executable repository-level benchmarks retain a sin…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c105103fa0293591123399b5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
+              "summary": "Large Language Model agents operate through closed-loop action policies whose decision space is defined by an agent harness. We investigate how this operating space shapes agent behavior and policy learning in computer-aided design (CAD), a professional domain characterized by p…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_14c4717490e7209e14738130"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
               "summary": "路线,从结构化到非结构化、从开发治理到智能体,逐层夯实.网易智企·数帆制造行业解决方案专家杨海水作主旨分享具体而言,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fcf1366c3bd4c83486a959f1"
+                "local_d038dd1643e59880dcb421ed"
               ],
               "confidence": 90
             },
@@ -48,29 +68,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9ee7710ff47c62b4ababee8a"
+                "local_72d65c1fc4a6d35a174c6eaf"
               ],
               "confidence": 90
-            },
-            {
-              "title": "AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents",
-              "summary": "Pretrained vision-language-action models (VLAs) often fail midway through unseen long-horizon tasks. Recursive self-improvement (RSI) offers a remedy, but embodied RSI methods either refine the harness around a frozen executor and so cannot add a missing motion, or train the exe…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8807d39c35781b4b21b34568"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
-              "summary": "Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e328f503fcbc69de26abfcc1"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -86,16 +86,6 @@
                 "local_859860107f9771c2643ed78b"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Lluna: Collaborative Unimodal Models for Missing-Modality Inference",
-              "summary": "Pretrained unimodal models offer a flexible route to multimodal prediction through collaboration, but this collaboration can become less accurate than a surviving unimodal model when modalities are missing. We study this setting using fixed surviving-model anchors and find that …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1501cd99771f94765bb4b5f5"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -103,32 +93,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "FreeSolo: Linear-time Sparse Attention with Zero-Shot Length Extrapolation",
-              "summary": "Linear-time sequence models typically store long-context information in a recurrent state. A fixed-size state limits how much information can be stored, while hybrid architectures that add full attention for better recall incur quadratic sequence cost. Alternatively, sparse atte…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_df66312b7cc01fc093f2b749"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Unlocking Structured Pruning for Reasoning Language Models via Attention-Preserving MLP Trimming",
-              "summary": "Structured pruning reduces LLM inference costs by removing model components to produce smaller dense models. However, existing methods can cause reasoning performance to collapse on long-form reasoning tasks such as AIME. We propose LayerTrim, a training-free structured pruning …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_99d87d5357d29f598d02fb0d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Looking Complete Is Not Being Grounded: Evaluating LLM Sitreps Against Human-Authored Situation Reports",
-              "summary": "Evaluation for automatic crisis reporting should measure what practitioners need, not what is convenient to compare. Through LLM-assisted, author-approved content analysis, we derive a 15-slot information schema from professional humanitarian situation reports using qualitative …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_fb8dd085be605efb7c0ba5e4"
+                "local_429bc0b6dfae9a1b1faa9f22"
               ],
               "confidence": 92
             },
@@ -162,21 +132,18 @@
       ],
       "referencedFeedItemIds": [
         "local_3a3b0fe02a60e7837f18a750",
+        "local_c105103fa0293591123399b5",
         "local_859860107f9771c2643ed78b",
-        "local_fcf1366c3bd4c83486a959f1",
-        "local_9ee7710ff47c62b4ababee8a",
-        "local_df66312b7cc01fc093f2b749",
-        "local_99d87d5357d29f598d02fb0d",
-        "local_1501cd99771f94765bb4b5f5",
-        "local_fb8dd085be605efb7c0ba5e4",
+        "local_14c4717490e7209e14738130",
+        "local_d038dd1643e59880dcb421ed",
+        "local_72d65c1fc4a6d35a174c6eaf",
+        "local_429bc0b6dfae9a1b1faa9f22",
         "local_dd9c1fdfd35735c90f673ec4",
-        "local_8807d39c35781b4b21b34568",
         "local_4a5fefdce6d33d9490515f0b",
-        "local_e328f503fcbc69de26abfcc1",
         "local_60cf38dd5c95f1558dcf9075",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-15T23:57:30.905Z",
+      "generatedAt": "2026-10-16T04:31:56.150Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -208,7 +175,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fcf1366c3bd4c83486a959f1"
+                "local_d038dd1643e59880dcb421ed"
               ],
               "confidence": 90
             },
@@ -218,7 +185,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9ee7710ff47c62b4ababee8a"
+                "local_72d65c1fc4a6d35a174c6eaf"
               ],
               "confidence": 90
             },
@@ -236,17 +203,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_fcf1366c3bd4c83486a959f1",
-        "local_9ee7710ff47c62b4ababee8a",
+        "local_d038dd1643e59880dcb421ed",
+        "local_72d65c1fc4a6d35a174c6eaf",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-15T23:57:30.905Z",
+      "generatedAt": "2026-10-16T04:31:56.150Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-15T23:57:30.906Z",
+  "generatedAt": "2026-10-16T04:31:56.150Z",
   "collectorName": "local-source-collector"
 }
