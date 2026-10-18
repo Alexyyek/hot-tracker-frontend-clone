@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs」、「AI models hide mistakes in their own work reports, but one sentence in your prompt can help」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs」、「AI models hide mistakes in their own work reports, but one sentence in your prompt can help」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
@@ -15,8 +15,8 @@
         "跟进：Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
         "跟进：AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
         "跟进：Mathematicians say OpenAI doesn&#039;t understand its own Navier-Stokes proof",
-        "跟进：Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-        "跟进：Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
+        "跟进：LLM Rankings",
+        "跟进：Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang"
       ],
       "sections": [
         {
@@ -88,17 +88,33 @@
               "confidence": 82
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_9a54de2723d03ce52295d371"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_f060573bb1c6d50ab7e51945",
         "local_e021c7ce9fb1c6dd10a7bb21",
         "local_78e4169d373587498b5c1b4a",
+        "local_9a54de2723d03ce52295d371",
         "local_27dacd07534064c0416d21f3",
         "local_8b5abcbf82e4610ee5c883c1",
         "local_04e468c6dc2d4824da9cb2ca"
       ],
-      "generatedAt": "2026-10-18T00:08:00.080Z",
+      "generatedAt": "2026-10-18T04:31:04.724Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -136,13 +152,13 @@
       "referencedFeedItemIds": [
         "local_04e468c6dc2d4824da9cb2ca"
       ],
-      "generatedAt": "2026-10-18T00:08:00.080Z",
+      "generatedAt": "2026-10-18T04:31:04.724Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-18T00:08:00.080Z",
+  "generatedAt": "2026-10-18T04:31:04.724Z",
   "collectorName": "local-source-collector"
 }
