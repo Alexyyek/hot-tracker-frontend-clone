@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents」、「Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents」、「Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO"
       ],
       "watchItems": [
         "跟进：WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
+        "跟进：Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
         "跟进：Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
         "跟进：DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
-        "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
-        "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理"
+        "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问"
       ],
       "sections": [
         {
@@ -29,6 +29,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_c105103fa0293591123399b5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemot…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c20a8b1423487691ffaed252"
               ],
               "confidence": 92
             },
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_90ffcdf07e9f3a6f21e793da"
+                "local_6fc2e0cf888b417f22c6248d"
               ],
               "confidence": 90
             },
@@ -58,19 +68,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bd360633092764c2d7d3241d"
+                "local_cb39de50593758edf510b838"
               ],
               "confidence": 90
-            },
-            {
-              "title": "LaTeX renderer",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculat…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8672895e5f5b6ec54fef2047"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -92,15 +92,16 @@
       ],
       "referencedFeedItemIds": [
         "local_c105103fa0293591123399b5",
+        "local_c20a8b1423487691ffaed252",
         "local_859860107f9771c2643ed78b",
         "local_14c4717490e7209e14738130",
-        "local_90ffcdf07e9f3a6f21e793da",
-        "local_bd360633092764c2d7d3241d",
+        "local_6fc2e0cf888b417f22c6248d",
+        "local_cb39de50593758edf510b838",
         "local_8672895e5f5b6ec54fef2047",
         "local_60cf38dd5c95f1558dcf9075",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-18T04:31:04.743Z",
+      "generatedAt": "2026-10-18T09:11:36.097Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -111,13 +112,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-15",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问」、「把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models」、「网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理"
       ],
       "watchItems": [
+        "跟进：Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
         "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
         "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
         "跟进：Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym"
@@ -127,12 +129,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemot…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c20a8b1423487691ffaed252"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
               "summary": "路线,从结构化到非结构化、从开发治理到智能体,逐层夯实.网易智企·数帆制造行业解决方案专家杨海水作主旨分享具体而言,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_90ffcdf07e9f3a6f21e793da"
+                "local_6fc2e0cf888b417f22c6248d"
               ],
               "confidence": 90
             },
@@ -142,7 +154,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bd360633092764c2d7d3241d"
+                "local_cb39de50593758edf510b838"
               ],
               "confidence": 90
             },
@@ -160,17 +172,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_90ffcdf07e9f3a6f21e793da",
-        "local_bd360633092764c2d7d3241d",
+        "local_c20a8b1423487691ffaed252",
+        "local_6fc2e0cf888b417f22c6248d",
+        "local_cb39de50593758edf510b838",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-18T04:31:04.743Z",
+      "generatedAt": "2026-10-18T09:11:36.097Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-18T04:31:04.743Z",
+  "generatedAt": "2026-10-18T09:11:36.097Z",
   "collectorName": "local-source-collector"
 }
