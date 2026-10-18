@@ -5,43 +5,37 @@
       "topicId": "ai",
       "reportDate": "2026-10-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs」、「AI models hide mistakes in their own work reports, but one sentence in your prompt can help」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「LLM Rankings」、「Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
       ],
       "watchItems": [
-        "跟进：Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
-        "跟进：AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
         "跟进：LLM Rankings",
         "跟进：Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-        "跟进：Grounding AI agents in biological reality: Building blocks for autonomous wet labs"
+        "跟进：Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+        "跟进：Code, Test, and Deploy on One Machine with NVIDIA RTX Spark"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Deepseek has released V4.1-Flash-1017 as an open-weight model that posts better benchmarks, finishes tasks faster, and produces shorter outputs than its predecessor. The company is also opening up its internal search en…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f060573bb1c6d50ab7e51945"
+                "local_9a54de2723d03ce52295d371"
               ],
               "confidence": 92
-            },
-            {
-              "title": "AI models hide mistakes in their own work reports, but one sentence in your prompt can help",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents systematically skip errors in their own reports, even when they spot the problems. In a study by Google Research, MIT, and Harvard, GPT-5.5 left out negative results in 198 out of 200 paper abstracts. The arti…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e021c7ce9fb1c6dd10a7bb21"
-              ],
-              "confidence": 82
-            },
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happ…",
@@ -73,32 +67,15 @@
               "confidence": 78
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9a54de2723d03ce52295d371"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_f060573bb1c6d50ab7e51945",
-        "local_e021c7ce9fb1c6dd10a7bb21",
         "local_9a54de2723d03ce52295d371",
         "local_27dacd07534064c0416d21f3",
         "local_8b5abcbf82e4610ee5c883c1",
         "local_04e468c6dc2d4824da9cb2ca"
       ],
-      "generatedAt": "2026-10-18T09:11:36.074Z",
+      "generatedAt": "2026-10-18T13:21:28.103Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -136,13 +113,13 @@
       "referencedFeedItemIds": [
         "local_04e468c6dc2d4824da9cb2ca"
       ],
-      "generatedAt": "2026-10-18T09:11:36.074Z",
+      "generatedAt": "2026-10-18T13:21:28.103Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-18T09:11:36.074Z",
+  "generatedAt": "2026-10-18T13:21:28.103Z",
   "collectorName": "local-source-collector"
 }
