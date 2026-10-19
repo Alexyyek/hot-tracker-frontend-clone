@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents」、「Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models」、「网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理"
       ],
       "watchItems": [
-        "跟进：WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
         "跟进：Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-        "跟进：DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
         "跟进：网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
-        "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理"
+        "跟进：把逆向工程交给 Agent:一文拆解爆火的 REA 技术原理",
+        "跟进：Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+        "跟进：Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "WEAVE: Weaving Real-World Code Evolution into Dependency-Structured Tasks for Benchmarking and Training Code Agents",
-              "summary": "Real-world software engineering rarely consists of isolated changes. Features, migrations, and systematic fixes often unfold across multiple pull requests (PRs), requiring coordinated modifications across a repository. Yet most executable repository-level benchmarks retain a sin…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c105103fa0293591123399b5"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemot…",
@@ -43,22 +33,12 @@
               "confidence": 92
             },
             {
-              "title": "DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
-              "summary": "Large Language Model agents operate through closed-loop action policies whose decision space is defined by an agent harness. We investigate how this operating space shapes agent behavior and policy learning in computer-aided design (CAD), a professional domain characterized by p…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_14c4717490e7209e14738130"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "网易智企亮相2026人工智能产业大会,以 AI-Ready 数智平台回应制造企业＂数据价值落地＂之问",
               "summary": "路线,从结构化到非结构化、从开发治理到智能体,逐层夯实.网易智企·数帆制造行业解决方案专家杨海水作主旨分享具体而言,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_798cd1220cf1bcc6e499a7ed"
+                "local_44c088615cc07ee43429b7b7"
               ],
               "confidence": 90
             },
@@ -68,23 +48,41 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4e876deaaa89d909baf3afde"
+                "local_9cde29d05f1d41c77f582dbe"
               ],
               "confidence": 90
+            },
+            {
+              "title": "Putting Earth AI to work: Geospatial agents for our planet's biggest challenges",
+              "summary": "Earth AI",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_60cf38dd5c95f1558dcf9075"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c92533bee6ea6133dd7db37b"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c105103fa0293591123399b5",
         "local_c20a8b1423487691ffaed252",
-        "local_14c4717490e7209e14738130",
-        "local_798cd1220cf1bcc6e499a7ed",
-        "local_4e876deaaa89d909baf3afde",
+        "local_44c088615cc07ee43429b7b7",
+        "local_9cde29d05f1d41c77f582dbe",
         "local_60cf38dd5c95f1558dcf9075",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-19T00:19:41.490Z",
+      "generatedAt": "2026-10-19T05:25:09.201Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -127,7 +125,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_798cd1220cf1bcc6e499a7ed"
+                "local_44c088615cc07ee43429b7b7"
               ],
               "confidence": 90
             },
@@ -137,7 +135,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4e876deaaa89d909baf3afde"
+                "local_9cde29d05f1d41c77f582dbe"
               ],
               "confidence": 90
             },
@@ -156,17 +154,17 @@
       ],
       "referencedFeedItemIds": [
         "local_c20a8b1423487691ffaed252",
-        "local_798cd1220cf1bcc6e499a7ed",
-        "local_4e876deaaa89d909baf3afde",
+        "local_44c088615cc07ee43429b7b7",
+        "local_9cde29d05f1d41c77f582dbe",
         "local_c92533bee6ea6133dd7db37b"
       ],
-      "generatedAt": "2026-10-19T00:19:41.490Z",
+      "generatedAt": "2026-10-19T05:25:09.202Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-19T00:19:41.490Z",
+  "generatedAt": "2026-10-19T05:25:09.202Z",
   "collectorName": "local-source-collector"
 }

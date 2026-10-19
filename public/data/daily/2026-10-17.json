@@ -5,15 +5,16 @@
       "topicId": "ai",
       "reportDate": "2026-10-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang」、「Grounding AI agents in biological reality: Building blocks for autonomous wet labs」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang」、「Grounding AI agents in biological reality: Building blocks for autonomous wet labs」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Code, Test, and Deploy on One Machine with NVIDIA RTX Spark"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery"
       ],
       "watchItems": [
         "跟进：Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
         "跟进：Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+        "跟进：DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
         "跟进：Code, Test, and Deploy on One Machine with NVIDIA RTX Spark"
       ],
       "sections": [
@@ -41,6 +42,16 @@
               "confidence": 70
             },
             {
+              "title": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+              "summary": "Computational drug discovery requires agents to compose scientific operations and adapt to changing evidence and constraints. Here we introduce DrugHarness, an evolvable agent harness coupling composable scientific execution with conditional skill induction. Its environment inte…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cf04d0bd27afbb462adcdc5d"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...",
               "insightLabel": "关注",
@@ -56,9 +67,10 @@
       "referencedFeedItemIds": [
         "local_27dacd07534064c0416d21f3",
         "local_8b5abcbf82e4610ee5c883c1",
+        "local_cf04d0bd27afbb462adcdc5d",
         "local_04e468c6dc2d4824da9cb2ca"
       ],
-      "generatedAt": "2026-10-19T00:19:41.465Z",
+      "generatedAt": "2026-10-19T05:25:09.177Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -96,13 +108,13 @@
       "referencedFeedItemIds": [
         "local_04e468c6dc2d4824da9cb2ca"
       ],
-      "generatedAt": "2026-10-19T00:19:41.465Z",
+      "generatedAt": "2026-10-19T05:25:09.177Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-19T00:19:41.465Z",
+  "generatedAt": "2026-10-19T05:25:09.177Z",
   "collectorName": "local-source-collector"
 }

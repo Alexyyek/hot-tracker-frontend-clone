@@ -5,30 +5,60 @@
       "topicId": "ai",
       "reportDate": "2026-10-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「高德发布ABot-ER:具身大脑,不该只会一招!用\"数据&mdash;模型自进化\"解锁一脑多能」、「清华*阿里 AI Native人才培养计划暨格造社启动日活动举行」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory」、「MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德发布ABot-ER:具身大脑,不该只会一招!用\"数据&mdash;模型自进化\"解锁一脑多能",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：清华*阿里 AI Native人才培养计划暨格造社启动日活动举行",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：瓶颈不在模型,在企业身份:邓白氏把 Agent 放进了监管流程"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents"
       ],
       "watchItems": [
+        "跟进：RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory",
+        "跟进：MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups",
+        "跟进：HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
         "跟进：高德发布ABot-ER:具身大脑,不该只会一招!用\"数据&mdash;模型自进化\"解锁一脑多能",
-        "跟进：清华*阿里 AI Native人才培养计划暨格造社启动日活动举行",
-        "跟进：瓶颈不在模型,在企业身份:邓白氏把 Agent 放进了监管流程",
-        "跟进：量子位智库发布Agent落地报告!拆解企业智能化六大断点,附全链路破局框架",
-        "跟进：全球AI快报|微软、Meta模型竞争升级,AI安全监管与商业化回报成焦点"
+        "跟进：清华*阿里 AI Native人才培养计划暨格造社启动日活动举行"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "高德发布ABot-ER:具身大脑,不该只会一招!用\"数据&mdash;模型自进化\"解锁一脑多能",
-              "summary": "Agent就可能把大量时间和token花在收益有限的反复补齐上. 我... #高德技术往期推荐高德ABot-Recon:基于局部相对位姿估计的万...",
+              "title": "RL-Guided Temporal Localization for Dual-Channel Retrieval in Long-Horizon Agent Memory",
+              "summary": "Time-aware retrieval is crucial for long-horizon LLM agents to effectively leverage ever-growing long-term memory. Existing methods focus on lexical or semantic similarity, leading to target memories being crowded out by temporally mismatched yet semantically similar candidates.…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_15874672aa1aeb77d537e637"
+                "local_5ec2c831d067cbc911d83901"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MuninAI: A Self-Hosted Agentic Framework for Independent Research Groups",
+              "summary": "Research groups that want a language model grounded in their own literature face a choice between hosted services that receive their unpublished work and self-hosted deployments that keep the data local but give the model no access to the corpus. Munin is an open-source framewor…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_43b5a94b41943a418bd5dd64"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents",
+              "summary": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only tur…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bf8af60cfd6c894aae048cca"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "高德发布ABot-ER:具身大脑,不该只会一招!用\"数据&mdash;模型自进化\"解锁一脑多能",
+              "summary": "协调智能体综合读取分数曲线、逐样本输出、错误日志与数据来源... #高德技术往期推荐高德ABot-Recon:基于局部相对位姿估计的万...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f54045536f7ed66a47236afb"
               ],
               "confidence": 82
             },
@@ -41,36 +71,6 @@
                 "local_eb5ad777a41fc1b77a31ada7"
               ],
               "confidence": 90
-            },
-            {
-              "title": "量子位智库发布Agent落地报告!拆解企业智能化六大断点,附全链路破局框架",
-              "summary": "量子位智库 | 公众号AI123All过去这一年,几乎没有哪家企业不在高喊\"全面拥抱AI\".Chatbot上了,Agent也用了,内部汇报里\"效...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_6c52755a24288cf997c1a8a3"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "花两千踩坑四大Personal Agent,我3个提示语把33%成功率救回来了",
-              "summary": "加起来基本就是我现在这套Personal Agent组合的全部核心配置.希望大家都能有一份不需要折腾的就可以拿到的AI日报,也算是我对...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e89d484d063d68a088990508"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7f19fc78be8b9cc7b8a8f1c3"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -83,29 +83,9 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_965bc2fae5a85a5342a28243"
+                "local_2118059f6713c7c22eab8a5a"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
-              "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a c…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_bbed12618cdbe248c1067c7d"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Diminishing Returns of Data in Sparse Autoencoders: Functional Behavior does not Guarantee Feature Reproducibility",
-              "summary": "Sparse autoencoders (SAEs) are typically trained on hundreds of millions to billions of activation tokens, yet little work has tested whether this scale is necessary. We study how much activation data SAEs need by training four SAE architectures on three language models with bud…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_4dabb852c5573af39fcfd7a5"
-              ],
-              "confidence": 92
             },
             {
               "title": "2026 World Cup: Breaking Records, Spiky Charts and Reliability at Scale",
@@ -166,28 +146,25 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_15874672aa1aeb77d537e637",
-        "local_965bc2fae5a85a5342a28243",
+        "local_5ec2c831d067cbc911d83901",
+        "local_43b5a94b41943a418bd5dd64",
+        "local_bf8af60cfd6c894aae048cca",
+        "local_f54045536f7ed66a47236afb",
+        "local_2118059f6713c7c22eab8a5a",
         "local_eb5ad777a41fc1b77a31ada7",
         "local_6c52755a24288cf997c1a8a3",
         "local_e7b993744046f467702ecc61",
-        "local_e89d484d063d68a088990508",
+        "local_862b2f8627af2cd677f8d287",
         "local_7f19fc78be8b9cc7b8a8f1c3",
-        "local_3fdbb09563ad27176530a783",
-        "local_bbed12618cdbe248c1067c7d",
-        "local_4dabb852c5573af39fcfd7a5",
-        "local_99bf739fcb2bc39fe61b05a8",
         "local_ccd0f54e56c128c10342879a",
         "local_681f999a4e2da23f9e0ecfe4",
         "local_87413dd1794087749e6362ee",
         "local_59c372c9742ddb8cc851d8f2",
         "local_29600dba414403a779fd4867",
-        "local_c90cff6221dfe30db7ba6310",
-        "local_6c814525e638b904ace9fc19",
         "local_961a86d336f74fdd9a13fdf2",
         "local_270b581e24b5a5cb07838fff"
       ],
-      "generatedAt": "2026-10-19T00:19:41.477Z",
+      "generatedAt": "2026-10-19T05:25:09.189Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -217,11 +194,11 @@
           "items": [
             {
               "title": "高德发布ABot-ER:具身大脑,不该只会一招!用\"数据&mdash;模型自进化\"解锁一脑多能",
-              "summary": "Agent就可能把大量时间和token花在收益有限的反复补齐上. 我... #高德技术往期推荐高德ABot-Recon:基于局部相对位姿估计的万...",
+              "summary": "协调智能体综合读取分数曲线、逐样本输出、错误日志与数据来源... #高德技术往期推荐高德ABot-Recon:基于局部相对位姿估计的万...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_15874672aa1aeb77d537e637"
+                "local_f54045536f7ed66a47236afb"
               ],
               "confidence": 82
             },
@@ -276,7 +253,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_965bc2fae5a85a5342a28243"
+                "local_2118059f6713c7c22eab8a5a"
               ],
               "confidence": 86
             },
@@ -319,8 +296,8 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_15874672aa1aeb77d537e637",
-        "local_965bc2fae5a85a5342a28243",
+        "local_f54045536f7ed66a47236afb",
+        "local_2118059f6713c7c22eab8a5a",
         "local_eb5ad777a41fc1b77a31ada7",
         "local_6c52755a24288cf997c1a8a3",
         "local_e7b993744046f467702ecc61",
@@ -331,13 +308,13 @@
         "local_29600dba414403a779fd4867",
         "local_961a86d336f74fdd9a13fdf2"
       ],
-      "generatedAt": "2026-10-19T00:19:41.477Z",
+      "generatedAt": "2026-10-19T05:25:09.189Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-19T00:19:41.477Z",
+  "generatedAt": "2026-10-19T05:25:09.189Z",
   "collectorName": "local-source-collector"
 }
