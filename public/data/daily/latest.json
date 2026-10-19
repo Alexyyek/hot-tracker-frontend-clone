@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「金句抢先看」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：金句抢先看",
         "跟进：从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？",
         "跟进：Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
-        "跟进：谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”_AI&大模型_褚杏娟_InfoQ精选文章",
-        "跟进：Moonshot AI - 博客"
+        "跟进：谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”_AI&大模型_褚杏娟_InfoQ精选文章"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_41dd44ee2ce831c59d17d1b9"
+                "local_2c1f9f0c60ff474c67d9d330"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6e1b94e83730e7017cc02cd9"
+                "local_8acfbf38fb4395d8dbf12aa7"
               ],
               "confidence": 70
             },
@@ -58,12 +58,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "金句抢先看",
+              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a58eb8a90283d0bbf34a859a"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？",
               "summary": "Harness 解决“Agent 怎么把任务完成”，Loop 解决“Agent 怎么越变越强”。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a0f87341d56edb2de92ba458"
+                "local_3fc74821ac9724a96c5d8a39"
               ],
               "confidence": 92
             },
@@ -73,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d90343dfead158f4a5fb007a"
+                "local_1b42c7fe0e291fc69ade253a"
               ],
               "confidence": 92
             },
@@ -83,29 +93,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c9197b0860abdc64094d6210"
+                "local_f940a0e9b3a1cb37ddecc938"
               ],
               "confidence": 92
             },
             {
-              "title": "Announcing DPoP Support for Google OAuth: Securing Refresh Tokens",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-liv…",
+              "title": "Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updat…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5c4965d9997363ec1e83accb"
+                "local_2727a4573ae3dcedd9ea10fb"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Evaluating AI agents: moving past the vibe check",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dba1d6be419a411348f314d7"
-              ],
-              "confidence": 92
+              "confidence": 90
             }
           ]
         },
@@ -118,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b977e55ecd3c3bbf5d7dd622"
+                "local_a9f696996410c5e276b5a939"
               ],
               "confidence": 78
             },
@@ -128,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fa77df483d2de1430bba796b"
+                "local_921e104a307828a388ec8f21"
               ],
               "confidence": 82
             },
@@ -138,27 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6544ccc184662783bacd2844"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：NVIDIA CUDA Tile (cuTile) is a Python-based DSL and parallel programming model for NVIDIA GPUs that automatically leverages advanced hardware capabilities to...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1e8a271fb19b0b339c45dd74"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Generative Recommenders (GenRecs) represent a paradigm shift from scoring every ad to reasoning about ad content and user preferences together in order to predict the best outcome for advertisers. Leveraging the world k…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4bf79693147b3ce0c931ea0f"
+                "local_fe7d787e2e77fc906db1c64d"
               ],
               "confidence": 92
             }
@@ -166,32 +146,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_41dd44ee2ce831c59d17d1b9",
-        "local_a0f87341d56edb2de92ba458",
-        "local_d90343dfead158f4a5fb007a",
-        "local_c9197b0860abdc64094d6210",
-        "local_b977e55ecd3c3bbf5d7dd622",
+        "local_2c1f9f0c60ff474c67d9d330",
+        "local_a58eb8a90283d0bbf34a859a",
+        "local_3fc74821ac9724a96c5d8a39",
+        "local_1b42c7fe0e291fc69ade253a",
+        "local_f940a0e9b3a1cb37ddecc938",
+        "local_a9f696996410c5e276b5a939",
+        "local_2727a4573ae3dcedd9ea10fb",
         "local_5c4965d9997363ec1e83accb",
         "local_dba1d6be419a411348f314d7",
         "local_ab456aad2fe99560bfb9bd7f",
-        "local_2727a4573ae3dcedd9ea10fb",
-        "local_9ebcc987c5133fadfe11b017",
-        "local_15935f524e8169493d15bffc",
-        "local_847203044f8645fb77a3995a",
-        "local_170efbff8c1e865bea1a8876",
-        "local_fa77df483d2de1430bba796b",
-        "local_1ae09fcc3962ce6db6203923",
-        "local_40320534268be4458eb7d581",
-        "local_6544ccc184662783bacd2844",
-        "local_f66b7df852a54d53970cd6df",
-        "local_6e1b94e83730e7017cc02cd9",
-        "local_c22680448cb0afe333b94e3f",
-        "local_b1f2b2010f4bb2ed76727a70",
-        "local_9650dd6d2bf978b575619d4a",
-        "local_1e8a271fb19b0b339c45dd74",
-        "local_4bf79693147b3ce0c931ea0f"
+        "local_564a4d4513399165988aabf5",
+        "local_e75361e21b413fea62a42019",
+        "local_d86fc230461744c300417e16",
+        "local_caec2dfef065b57d4e74585b",
+        "local_921e104a307828a388ec8f21",
+        "local_65893eb737bd7fc8efb5ff06",
+        "local_bcbea39d50c07d176fc912e4",
+        "local_fe7d787e2e77fc906db1c64d",
+        "local_6093cf75e9b9f2cc3656f64d",
+        "local_8acfbf38fb4395d8dbf12aa7",
+        "local_132d056e770155faf67290d0",
+        "local_573c91dd41c8b68c2f1abbad",
+        "local_3d2242e4ddd06619abd0a5f8",
+        "local_9650dd6d2bf978b575619d4a"
       ],
-      "generatedAt": "2026-10-19T17:53:40.297Z",
+      "generatedAt": "2026-10-19T22:26:12.528Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -202,18 +182,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-20",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「金句抢先看」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：金句抢先看",
         "跟进：从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？",
         "跟进：Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
-        "跟进：谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”_AI&大模型_褚杏娟_InfoQ精选文章",
-        "跟进：Moonshot AI - 博客"
+        "跟进：谷歌开源Harness，支持 OpenCode 和 Codex：国内开发者接入Jev实测“真行”_AI&大模型_褚杏娟_InfoQ精选文章"
       ],
       "sections": [
         {
@@ -225,7 +205,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_41dd44ee2ce831c59d17d1b9"
+                "local_2c1f9f0c60ff474c67d9d330"
               ],
               "confidence": 78
             },
@@ -235,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6e1b94e83730e7017cc02cd9"
+                "local_8acfbf38fb4395d8dbf12aa7"
               ],
               "confidence": 70
             }
@@ -245,12 +225,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "金句抢先看",
+              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a58eb8a90283d0bbf34a859a"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "从 Harness 到 Loop：Agent 如何走向可靠交付与持续进化？",
               "summary": "Harness 解决“Agent 怎么把任务完成”，Loop 解决“Agent 怎么越变越强”。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a0f87341d56edb2de92ba458"
+                "local_3fc74821ac9724a96c5d8a39"
               ],
               "confidence": 92
             },
@@ -260,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d90343dfead158f4a5fb007a"
+                "local_1b42c7fe0e291fc69ade253a"
               ],
               "confidence": 92
             },
@@ -270,29 +260,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c9197b0860abdc64094d6210"
+                "local_f940a0e9b3a1cb37ddecc938"
               ],
               "confidence": 92
             },
             {
-              "title": "Announcing DPoP Support for Google OAuth: Securing Refresh Tokens",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google OAuth Platform now supports DPoP (Demonstrating Proof-of-Possession) to sender-constrain refresh tokens, neutralizing Infostealer malware and adversary-in-the-middle attacks. By cryptographically binding long-liv…",
+              "title": "Step by Step guide: Build a Voice Agent That Never Goes Silent using ADK",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The open-source Agent Development Kit (ADK) and gemini-3.8-live enable developers to build responsive voice agents by implementing non-blocking tools in Python. Developers can use streaming tools to yield progress updat…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5c4965d9997363ec1e83accb"
+                "local_2727a4573ae3dcedd9ea10fb"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Evaluating AI agents: moving past the vibe check",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A practical engineering guide and reference architecture for establishing continuous evaluation pipelines for multi-turn AI agents using Gemini Enterprise Agent Platform, Google ADK, and OpenInference standards.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dba1d6be419a411348f314d7"
-              ],
-              "confidence": 92
+              "confidence": 90
             }
           ]
         },
@@ -305,7 +285,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b977e55ecd3c3bbf5d7dd622"
+                "local_a9f696996410c5e276b5a939"
               ],
               "confidence": 78
             },
@@ -315,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6544ccc184662783bacd2844"
+                "local_fe7d787e2e77fc906db1c64d"
               ],
               "confidence": 92
             },
@@ -343,30 +323,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_41dd44ee2ce831c59d17d1b9",
-        "local_a0f87341d56edb2de92ba458",
-        "local_d90343dfead158f4a5fb007a",
-        "local_c9197b0860abdc64094d6210",
-        "local_b977e55ecd3c3bbf5d7dd622",
+        "local_2c1f9f0c60ff474c67d9d330",
+        "local_a58eb8a90283d0bbf34a859a",
+        "local_3fc74821ac9724a96c5d8a39",
+        "local_1b42c7fe0e291fc69ade253a",
+        "local_f940a0e9b3a1cb37ddecc938",
+        "local_a9f696996410c5e276b5a939",
+        "local_2727a4573ae3dcedd9ea10fb",
         "local_5c4965d9997363ec1e83accb",
         "local_dba1d6be419a411348f314d7",
         "local_ab456aad2fe99560bfb9bd7f",
-        "local_2727a4573ae3dcedd9ea10fb",
-        "local_6544ccc184662783bacd2844",
-        "local_f66b7df852a54d53970cd6df",
-        "local_6e1b94e83730e7017cc02cd9",
-        "local_c22680448cb0afe333b94e3f",
-        "local_b1f2b2010f4bb2ed76727a70",
+        "local_fe7d787e2e77fc906db1c64d",
+        "local_6093cf75e9b9f2cc3656f64d",
+        "local_8acfbf38fb4395d8dbf12aa7",
+        "local_132d056e770155faf67290d0",
+        "local_573c91dd41c8b68c2f1abbad",
         "local_1e8a271fb19b0b339c45dd74",
         "local_4bf79693147b3ce0c931ea0f"
       ],
-      "generatedAt": "2026-10-19T17:53:40.297Z",
+      "generatedAt": "2026-10-19T22:26:12.529Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-19T17:53:40.297Z",
+  "generatedAt": "2026-10-19T22:26:12.529Z",
   "collectorName": "local-source-collector"
 }
