@@ -15,8 +15,8 @@
         "跟进：Army Cyber Command&#039;s ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
         "跟进：Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
         "跟进：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!",
-        "跟进：Vision as Proprioception: Estimating Humanoid Robot Pose from Video",
-        "跟进：A Language-Informed Loss for Visual Generation"
+        "跟进：Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+        "跟进：Vision as Proprioception: Estimating Humanoid Robot Pose from Video"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_58d72f6bc4631e1f5346dfc4"
+                "local_aaa145d4aab5f0a7966d5a0d"
               ],
               "confidence": 90
             },
@@ -53,22 +53,22 @@
               "confidence": 92
             },
             {
+              "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
+              "summary": "Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the sea…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f1fd8c721ea2cfd1335f1bf7"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "My obituary for programming",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you c…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_269a10739e9d9317da1da476"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "WeAct: Dynamic Weight Switching as Agent Actions",
-              "summary": "Long-horizon agents must learn heterogeneous capabilities from interleaved trajectories. Updating shared parameters to learn new capabilities can degrade previously acquired ones, resulting in catastrophic forgetting. As a trajectory unfolds, different stages may require differe…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dab522b457cf0e5990d0ee05"
               ],
               "confidence": 92
             }
@@ -113,16 +113,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Competence-Based Evaluation of Logical Reasoning in Large Language Models",
-              "summary": "Recent advances in large language models (LLMs) have brought impressive performance across diverse tasks; however, shortcomings remain in logical reasoning, including inconsistencies under linguistic variation. To improve the reasoning capacity of LLMs, we must be able to accura…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_2fd3eb7fd9003725fa1ff6a3"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：NVIDIA CUDA Tile (cuTile) is a Python-based DSL and parallel programming model for NVIDIA GPUs that automatically leverages advanced hardware capabilities to...",
               "insightLabel": "关注",
@@ -147,12 +137,12 @@
       ],
       "referencedFeedItemIds": [
         "local_46c2c031f6c09474c7b53868",
-        "local_58d72f6bc4631e1f5346dfc4",
+        "local_aaa145d4aab5f0a7966d5a0d",
         "local_0ebb9f8a3979bc4e62828b7e",
+        "local_f1fd8c721ea2cfd1335f1bf7",
         "local_816b31465b640b2bc97b9029",
         "local_4b16027bc959d5843938669f",
         "local_1ed66c3bad7e8ae3efb973f8",
-        "local_2fd3eb7fd9003725fa1ff6a3",
         "local_269a10739e9d9317da1da476",
         "local_dab522b457cf0e5990d0ee05",
         "local_dfa488d29c4548525a8f2294",
@@ -160,7 +150,7 @@
         "local_c3ddc8c474e7a9f26ce7939b",
         "local_4bf79693147b3ce0c931ea0f"
       ],
-      "generatedAt": "2026-10-20T20:41:09.698Z",
+      "generatedAt": "2026-10-20T23:31:01.501Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -193,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_58d72f6bc4631e1f5346dfc4"
+                "local_aaa145d4aab5f0a7966d5a0d"
               ],
               "confidence": 90
             },
@@ -236,18 +226,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_58d72f6bc4631e1f5346dfc4",
+        "local_aaa145d4aab5f0a7966d5a0d",
         "local_0ebb9f8a3979bc4e62828b7e",
         "local_1e8a271fb19b0b339c45dd74",
         "local_4bf79693147b3ce0c931ea0f"
       ],
-      "generatedAt": "2026-10-20T20:41:09.698Z",
+      "generatedAt": "2026-10-20T23:31:01.501Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-20T20:41:09.699Z",
+  "generatedAt": "2026-10-20T23:31:01.501Z",
   "collectorName": "local-source-collector"
 }
