@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
@@ -16,7 +16,7 @@
         "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
         "跟进：Stripe says AI agent purchases are adding up, but it won&#039;t share the numbers",
         "跟进：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
-        "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?"
+        "跟进：Advancing coding in low‑resource programming languages"
       ],
       "sections": [
         {
@@ -58,17 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a1c0f9cb67f95ff67370fa78"
+                "local_611bdc72da02944ba7d757d0"
               ],
               "confidence": 92
             },
             {
-              "title": "当Coding Agent开始动态并行,软件开发变得更好了吗?",
-              "summary": "新智元报道 Coding Agent正在进入新的发展阶段.过去,它们主要修复Bug、解决GitHub Issue或实现相对独立的功能,SWE-bench等...",
+              "title": "Advancing coding in low‑resource programming languages",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_7be3befbe56af448f4e0c5a8"
+                "local_f859fc7e8a21e0df690a7a8a"
               ],
               "confidence": 92
             }
@@ -113,6 +113,16 @@
               "confidence": 92
             },
             {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_312a62a20d7ec3d1ea08f032"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "llm-tools-datasette 0.1.1",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugin…",
               "insightLabel": "关注",
@@ -139,19 +149,21 @@
         "local_6d700dee11d8856d3d55da80",
         "local_947d706a74338e24a6de6650",
         "local_21922f91daa690f3e7a7f3c9",
-        "local_a1c0f9cb67f95ff67370fa78",
-        "local_7be3befbe56af448f4e0c5a8",
-        "local_4ea0117e384be06a26f64323",
+        "local_611bdc72da02944ba7d757d0",
+        "local_f859fc7e8a21e0df690a7a8a",
+        "local_2022be5e6682cbcb0fc482b0",
+        "local_dfc8c365b3315e9d0e3859fb",
         "local_ff00b1aa3f90cd14dd23eb7e",
         "local_bc4ab0362c3c3f05aa6aaf78",
         "local_efa5135935560ca88819f8c7",
         "local_f80cb493cac532ed9b8b219a",
+        "local_312a62a20d7ec3d1ea08f032",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c",
         "local_d472a1344cbf6b3ef71bf5fe",
         "local_e5e4b62d640da7770912f5d2"
       ],
-      "generatedAt": "2026-10-19T22:26:12.549Z",
+      "generatedAt": "2026-10-20T01:22:50.627Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -162,7 +174,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-19",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
@@ -172,8 +184,8 @@
         "跟进：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
         "跟进：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
-        "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?",
-        "跟进：全球AI早报|大模型竞争升级,十万卡超集群亮相,AI智能体安全再受关注"
+        "跟进：Advancing coding in low‑resource programming languages",
+        "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?"
       ],
       "sections": [
         {
@@ -205,7 +217,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a1c0f9cb67f95ff67370fa78"
+                "local_611bdc72da02944ba7d757d0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Advancing coding in low‑resource programming languages",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_f859fc7e8a21e0df690a7a8a"
               ],
               "confidence": 92
             },
@@ -215,17 +237,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7be3befbe56af448f4e0c5a8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "全球AI早报|大模型竞争升级,十万卡超集群亮相,AI智能体安全再受关注",
-              "summary": "同时,AI智能体越权访问、网站限制自动化操作以及AI仿冒带货等事件,再次引发对人工智能安全与应用边界的关注.一、模型与产品...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4ea0117e384be06a26f64323"
+                "local_2022be5e6682cbcb0fc482b0"
               ],
               "confidence": 92
             }
@@ -235,19 +247,20 @@
       "referencedFeedItemIds": [
         "local_6d700dee11d8856d3d55da80",
         "local_947d706a74338e24a6de6650",
-        "local_a1c0f9cb67f95ff67370fa78",
-        "local_7be3befbe56af448f4e0c5a8",
-        "local_4ea0117e384be06a26f64323",
+        "local_611bdc72da02944ba7d757d0",
+        "local_f859fc7e8a21e0df690a7a8a",
+        "local_2022be5e6682cbcb0fc482b0",
+        "local_dfc8c365b3315e9d0e3859fb",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c"
       ],
-      "generatedAt": "2026-10-19T22:26:12.549Z",
+      "generatedAt": "2026-10-20T01:22:50.627Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-19T22:26:12.550Z",
+  "generatedAt": "2026-10-20T01:22:50.628Z",
   "collectorName": "local-source-collector"
 }

@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」、「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型」、「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从 Harness 到 Loop:真正决定 Agent 落地的,从来不是更强的模型",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
@@ -16,7 +16,7 @@
         "跟进：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
         "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
         "跟进：From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-        "跟进：一个假期,大一新生用AI Shell和openJiuwen做出了四个项目"
+        "跟进：开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f194760f1fab5ff894b0ac3"
+                "local_7a9700f9d147e922c065f89a"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f981ca018dd80d2f427b517b"
+                "local_45dfe117aa6a775c3e11b1be"
               ],
               "confidence": 92
             },
@@ -63,26 +63,27 @@
               "confidence": 78
             },
             {
-              "title": "一个假期,大一新生用AI Shell和openJiuwen做出了四个项目",
-              "summary": "中描述需求,结合华为云码道 CodeArts 的 AI 辅助编程能力完成开... |备注:内容来源Makerizon Agent Lab",
+              "title": "开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病",
+              "summary": "想要在每个Agent每个AI每个对话都可以自动生效,那就不依靠skill,手搓一个提示语再加一个hook这样我们就可以脱离认知陷阱....",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b6819da1b0d2c7703aec40b2"
+                "local_fe523de974f38f184a7d5095"
               ],
-              "confidence": 86
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_2f194760f1fab5ff894b0ac3",
-        "local_f981ca018dd80d2f427b517b",
+        "local_7a9700f9d147e922c065f89a",
+        "local_45dfe117aa6a775c3e11b1be",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
+        "local_fe523de974f38f184a7d5095",
         "local_b6819da1b0d2c7703aec40b2"
       ],
-      "generatedAt": "2026-10-19T22:26:12.622Z",
+      "generatedAt": "2026-10-20T01:22:50.678Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -116,7 +117,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2f194760f1fab5ff894b0ac3"
+                "local_7a9700f9d147e922c065f89a"
               ],
               "confidence": 92
             },
@@ -126,7 +127,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f981ca018dd80d2f427b517b"
+                "local_45dfe117aa6a775c3e11b1be"
               ],
               "confidence": 92
             },
@@ -164,19 +165,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_2f194760f1fab5ff894b0ac3",
-        "local_f981ca018dd80d2f427b517b",
+        "local_7a9700f9d147e922c065f89a",
+        "local_45dfe117aa6a775c3e11b1be",
         "local_a5a5731b238068d8fe110d1b",
         "local_a9c14b11672c62b9d497a73f",
         "local_b6819da1b0d2c7703aec40b2"
       ],
-      "generatedAt": "2026-10-19T22:26:12.622Z",
+      "generatedAt": "2026-10-20T01:22:50.678Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-19T22:26:12.623Z",
+  "generatedAt": "2026-10-20T01:22:50.678Z",
   "collectorName": "local-source-collector"
 }
