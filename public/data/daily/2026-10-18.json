@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_66312cb0d76cb2ce829acbb5"
+                "local_841cc6a88fbedcab9ac54f4c"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_371c3178ec59b0f9fc0f3cfc"
+                "local_2f1bc8c5d0ceb199fa70364d"
               ],
               "confidence": 70
             }
@@ -53,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_40c06cb9fbf13c54ccec3deb"
+                "local_048db80222e9339c7ee77bb0"
               ],
               "confidence": 74
             },
@@ -63,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cbfab938c510de497c154265"
+                "local_b2180422311f621faedb0d0a"
               ],
               "confidence": 92
             },
@@ -73,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3ad26245b44daba54ba11dde"
+                "local_9f7c6a949dfbe69ccc3b5533"
               ],
               "confidence": 74
             },
@@ -88,14 +88,14 @@
               "confidence": 92
             },
             {
-              "title": "Remote control for local agents · Cursor",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See and reply to the local agents running on your computer from the Cursor iOS app.",
+              "title": "Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Agents CLI Extension System enables developers to use frameworks like LangChain, LangGraph, or custom enterprise stacks while retaining a unified deployment and evaluation workflow. It details a first-party LangChai…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a98bc86d496bc184e4fd83bb"
+                "local_ec7180ac1f000e49e8e0114a"
               ],
-              "confidence": 82
+              "confidence": 92
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_9224ab829b1e2520f559e7f2"
+                "local_5dff20b14960174f3794e9fd"
               ],
               "confidence": 92
             },
@@ -118,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_409294f54b1bd20f12a025cf"
+                "local_9b767e1909798c1e9c117ec3"
               ],
               "confidence": 78
             },
@@ -133,16 +133,6 @@
               "confidence": 92
             },
             {
-              "title": "Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visuali…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_54bd777ce07a226e51e88923"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
               "insightLabel": "关注",
@@ -151,37 +141,47 @@
                 "local_e8a80c44ec5c168f67c9646d"
               ],
               "confidence": 74
+            },
+            {
+              "title": "AI Model Benchmarks",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_64543c6a385502d2e9a49cc1"
+              ],
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_66312cb0d76cb2ce829acbb5",
-        "local_40c06cb9fbf13c54ccec3deb",
-        "local_cbfab938c510de497c154265",
-        "local_3ad26245b44daba54ba11dde",
-        "local_9224ab829b1e2520f559e7f2",
-        "local_409294f54b1bd20f12a025cf",
+        "local_841cc6a88fbedcab9ac54f4c",
+        "local_048db80222e9339c7ee77bb0",
+        "local_b2180422311f621faedb0d0a",
+        "local_9f7c6a949dfbe69ccc3b5533",
+        "local_5dff20b14960174f3794e9fd",
+        "local_9b767e1909798c1e9c117ec3",
         "local_f0627d26cc8cc7aed630fbc2",
-        "local_54bd777ce07a226e51e88923",
-        "local_e8a80c44ec5c168f67c9646d",
         "local_8b10c6f343b383bfb1dfa84c",
-        "local_a98bc86d496bc184e4fd83bb",
-        "local_8f0ca74bcd9a2314a2934b84",
-        "local_b78210f6927578a32d04e0dc",
-        "local_444d2803dc66d0348dd72e9d",
-        "local_18d7b24a7f2970a4535fba40",
-        "local_f87b606c9cd04476600810b3",
-        "local_dfa3d704d5477d3ceb93c52b",
-        "local_4cf5078d48ed39bac866ee89",
-        "local_f4226a5588e7dccf55c63298",
-        "local_b7160127675850c4fa2c3c2d",
-        "local_371c3178ec59b0f9fc0f3cfc",
-        "local_248e9e0d10696019a89446fb",
-        "local_27c93fc65d24e53d757de504",
-        "local_6783f09a2fefa04d5e238679"
+        "local_e8a80c44ec5c168f67c9646d",
+        "local_ec7180ac1f000e49e8e0114a",
+        "local_0779f4c273fc34cbbdd47692",
+        "local_e544bcabcc2ccac43e8d4304",
+        "local_e93fbd5462eb9217c785daf4",
+        "local_844c41772166fb6d9530d0c2",
+        "local_64543c6a385502d2e9a49cc1",
+        "local_0dba1a8a16771477d812de79",
+        "local_3b208bcbfc919f6b350a262c",
+        "local_859d247b5cfbc2f5222035ad",
+        "local_9c1db58862f7623447e05e99",
+        "local_c91722a7ed156cac8cc0b9e3",
+        "local_2f1bc8c5d0ceb199fa70364d",
+        "local_a47822fd10ecff3f5b0bed9f",
+        "local_1358db4731345b9e29724a33",
+        "local_eeef5f46bcd2b6feed71260b"
       ],
-      "generatedAt": "2026-10-21T13:21:11.099Z",
+      "generatedAt": "2026-10-21T18:24:02.373Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,7 +192,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-18",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「金句抢先看」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「金句抢先看」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看",
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_66312cb0d76cb2ce829acbb5"
+                "local_841cc6a88fbedcab9ac54f4c"
               ],
               "confidence": 78
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_371c3178ec59b0f9fc0f3cfc"
+                "local_2f1bc8c5d0ceb199fa70364d"
               ],
               "confidence": 70
             }
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_40c06cb9fbf13c54ccec3deb"
+                "local_048db80222e9339c7ee77bb0"
               ],
               "confidence": 74
             },
@@ -250,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cbfab938c510de497c154265"
+                "local_b2180422311f621faedb0d0a"
               ],
               "confidence": 92
             },
@@ -260,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3ad26245b44daba54ba11dde"
+                "local_9f7c6a949dfbe69ccc3b5533"
               ],
               "confidence": 74
             },
@@ -275,12 +275,12 @@
               "confidence": 92
             },
             {
-              "title": "EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Pretraining scaling laws reveal that model capability improves predictably with data and compute. But learning from real world environments after deployment remains far less understood. Analyzing roughly 38,000 hours of…",
+              "title": "Powering the Agent Development Lifecycle with any framework, from ADK to LangChain and beyond",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Agents CLI Extension System enables developers to use frameworks like LangChain, LangGraph, or custom enterprise stacks while retaining a unified deployment and evaluation workflow. It details a first-party LangChai…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b7160127675850c4fa2c3c2d"
+                "local_ec7180ac1f000e49e8e0114a"
               ],
               "confidence": 92
             }
@@ -295,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_9224ab829b1e2520f559e7f2"
+                "local_5dff20b14960174f3794e9fd"
               ],
               "confidence": 92
             },
@@ -305,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_409294f54b1bd20f12a025cf"
+                "local_9b767e1909798c1e9c117ec3"
               ],
               "confidence": 78
             },
@@ -320,16 +320,6 @@
               "confidence": 92
             },
             {
-              "title": "Bringing Visual Graph Debugging to Custom Edge Compilers with Model Explorer",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google AI Edge Model Explorer now supports custom compiler intermediate representations and open-source adapters like TOSA, VGF, and PTE for on-device machine learning. Developers can leverage hierarchical graph visuali…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_54bd777ce07a226e51e88923"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
               "insightLabel": "关注",
@@ -338,38 +328,46 @@
                 "local_e8a80c44ec5c168f67c9646d"
               ],
               "confidence": 74
+            },
+            {
+              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_9c1db58862f7623447e05e99"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_66312cb0d76cb2ce829acbb5",
-        "local_40c06cb9fbf13c54ccec3deb",
-        "local_cbfab938c510de497c154265",
-        "local_3ad26245b44daba54ba11dde",
-        "local_9224ab829b1e2520f559e7f2",
-        "local_409294f54b1bd20f12a025cf",
+        "local_841cc6a88fbedcab9ac54f4c",
+        "local_048db80222e9339c7ee77bb0",
+        "local_b2180422311f621faedb0d0a",
+        "local_9f7c6a949dfbe69ccc3b5533",
+        "local_5dff20b14960174f3794e9fd",
+        "local_9b767e1909798c1e9c117ec3",
         "local_f0627d26cc8cc7aed630fbc2",
-        "local_54bd777ce07a226e51e88923",
-        "local_e8a80c44ec5c168f67c9646d",
         "local_8b10c6f343b383bfb1dfa84c",
-        "local_f4226a5588e7dccf55c63298",
-        "local_b7160127675850c4fa2c3c2d",
-        "local_371c3178ec59b0f9fc0f3cfc",
-        "local_248e9e0d10696019a89446fb",
-        "local_27c93fc65d24e53d757de504",
-        "local_6783f09a2fefa04d5e238679",
-        "local_1403b73078fb967fe4ab2562",
-        "local_fd9c339b71802e20ec3e9271",
-        "local_23dd906801714c0d7b2b5662"
+        "local_e8a80c44ec5c168f67c9646d",
+        "local_ec7180ac1f000e49e8e0114a",
+        "local_9c1db58862f7623447e05e99",
+        "local_c91722a7ed156cac8cc0b9e3",
+        "local_2f1bc8c5d0ceb199fa70364d",
+        "local_a47822fd10ecff3f5b0bed9f",
+        "local_1358db4731345b9e29724a33",
+        "local_eeef5f46bcd2b6feed71260b",
+        "local_1403b73078fb967fe4ab2562"
       ],
-      "generatedAt": "2026-10-21T13:21:11.099Z",
+      "generatedAt": "2026-10-21T18:24:02.373Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-21T13:21:11.099Z",
+  "generatedAt": "2026-10-21T18:24:02.373Z",
   "collectorName": "local-source-collector"
 }
