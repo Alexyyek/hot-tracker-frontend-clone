@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production"
       ],
       "watchItems": [
         "跟进：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+        "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
         "跟进：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
-        "跟进：Advancing coding in low‑resource programming languages",
-        "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?"
+        "跟进：Advancing coding in low‑resource programming languages"
       ],
       "sections": [
         {
@@ -38,6 +38,16 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
+                "local_e503edf208b819f0408abee1"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Expanded sovereign standards with the EBU help European broadcasters protect editorial independence and cultural identity, while NVIDIA-accelerated Adobe Frame.io workflows help studios find content faster across massiv…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
                 "local_947d706a74338e24a6de6650"
               ],
               "confidence": 78
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_12c17fcc4a22b685d4a43433"
+                "local_2c4beb7f8c57ec607915076a"
               ],
               "confidence": 92
             },
@@ -59,16 +69,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_f859fc7e8a21e0df690a7a8a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "当Coding Agent开始动态并行,软件开发变得更好了吗?",
-              "summary": "新智元报道 Coding Agent正在进入新的发展阶段.过去,它们主要修复Bug、解决GitHub Issue或实现相对独立的功能,SWE-bench等...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7308f4fe46454e13e4d922ff"
               ],
               "confidence": 92
             }
@@ -92,16 +92,17 @@
       ],
       "referencedFeedItemIds": [
         "local_6d700dee11d8856d3d55da80",
+        "local_e503edf208b819f0408abee1",
         "local_947d706a74338e24a6de6650",
-        "local_12c17fcc4a22b685d4a43433",
+        "local_2c4beb7f8c57ec607915076a",
         "local_f859fc7e8a21e0df690a7a8a",
-        "local_7308f4fe46454e13e4d922ff",
+        "local_cd5c1a96ec05a61218adf84f",
         "local_41ba51f1e8dc38a7ff22ffbc",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c",
         "local_d472a1344cbf6b3ef71bf5fe"
       ],
-      "generatedAt": "2026-10-21T07:39:33.118Z",
+      "generatedAt": "2026-10-21T13:21:11.086Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -112,18 +113,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-19",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production"
       ],
       "watchItems": [
         "跟进：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+        "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
         "跟进：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
-        "跟进：Advancing coding in low‑resource programming languages",
-        "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?"
+        "跟进：Advancing coding in low‑resource programming languages"
       ],
       "sections": [
         {
@@ -145,6 +146,16 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
+                "local_e503edf208b819f0408abee1"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Expanded sovereign standards with the EBU help European broadcasters protect editorial independence and cultural identity, while NVIDIA-accelerated Adobe Frame.io workflows help studios find content faster across massiv…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
                 "local_947d706a74338e24a6de6650"
               ],
               "confidence": 78
@@ -155,7 +166,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_12c17fcc4a22b685d4a43433"
+                "local_2c4beb7f8c57ec607915076a"
               ],
               "confidence": 92
             },
@@ -168,37 +179,28 @@
                 "local_f859fc7e8a21e0df690a7a8a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "当Coding Agent开始动态并行,软件开发变得更好了吗?",
-              "summary": "新智元报道 Coding Agent正在进入新的发展阶段.过去,它们主要修复Bug、解决GitHub Issue或实现相对独立的功能,SWE-bench等...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7308f4fe46454e13e4d922ff"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_6d700dee11d8856d3d55da80",
+        "local_e503edf208b819f0408abee1",
         "local_947d706a74338e24a6de6650",
-        "local_12c17fcc4a22b685d4a43433",
+        "local_2c4beb7f8c57ec607915076a",
         "local_f859fc7e8a21e0df690a7a8a",
-        "local_7308f4fe46454e13e4d922ff",
+        "local_cd5c1a96ec05a61218adf84f",
         "local_41ba51f1e8dc38a7ff22ffbc",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c"
       ],
-      "generatedAt": "2026-10-21T07:39:33.118Z",
+      "generatedAt": "2026-10-21T13:21:11.086Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-21T07:39:33.118Z",
+  "generatedAt": "2026-10-21T13:21:11.086Z",
   "collectorName": "local-source-collector"
 }
