@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「When the harness decides success: state that cannot be re-observed」、「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：When the harness decides success: state that cannot be re-observed",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了"
       ],
       "watchItems": [
-        "跟进：When the harness decides success: state that cannot be re-observed",
         "跟进：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
         "跟进：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
-        "跟进：Advancing coding in low‑resource programming languages"
+        "跟进：Advancing coding in low‑resource programming languages",
+        "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "When the harness decides success: state that cannot be re-observed",
-              "summary": "Agent harnesses decide what a language model sees across turns: they drop old turns, summarize them, or replay the model's own earlier reasoning. We ask when these choices change whether an agent succeeds, not only what it costs, and report three findings. First, in a pre-regist…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_22e40aa3909d732d3e52ef51"
-              ],
-              "confidence": 92
-            },
             {
               "title": "The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Sometimes, giving an AI agent all of the knowledge it needs is the wrong approach. At Meta, we&#8217;ve seen notable improvements in efficiency and accuracy by keeping the orchestration layer of our data pipeline agents…",
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_34f2c90cf5cc6e8fb0edceb9"
+                "local_64731ee06d381654b873654a"
               ],
               "confidence": 92
             },
@@ -71,22 +61,22 @@
                 "local_f859fc7e8a21e0df690a7a8a"
               ],
               "confidence": 92
+            },
+            {
+              "title": "当Coding Agent开始动态并行,软件开发变得更好了吗?",
+              "summary": "新智元报道 Coding Agent正在进入新的发展阶段.过去,它们主要修复Bug、解决GitHub Issue或实现相对独立的功能,SWE-bench等...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_570bb48530ee19d1882164b7"
+              ],
+              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_312a62a20d7ec3d1ea08f032"
-              ],
-              "confidence": 92
-            },
             {
               "title": "llm-tools-datasette 0.1.1",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugin…",
@@ -96,35 +86,22 @@
                 "local_d472a1344cbf6b3ef71bf5fe"
               ],
               "confidence": 82
-            },
-            {
-              "title": "llm-echo 0.5",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e5e4b62d640da7770912f5d2"
-              ],
-              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_22e40aa3909d732d3e52ef51",
         "local_6d700dee11d8856d3d55da80",
         "local_947d706a74338e24a6de6650",
-        "local_34f2c90cf5cc6e8fb0edceb9",
+        "local_64731ee06d381654b873654a",
         "local_f859fc7e8a21e0df690a7a8a",
-        "local_2784a2bde3faab0cb25f64c4",
-        "local_c2ca0b0be9cebc8d273a147e",
-        "local_312a62a20d7ec3d1ea08f032",
+        "local_570bb48530ee19d1882164b7",
+        "local_41ba51f1e8dc38a7ff22ffbc",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c",
-        "local_d472a1344cbf6b3ef71bf5fe",
-        "local_e5e4b62d640da7770912f5d2"
+        "local_d472a1344cbf6b3ef71bf5fe"
       ],
-      "generatedAt": "2026-10-20T23:31:01.508Z",
+      "generatedAt": "2026-10-21T02:07:47.837Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -178,7 +155,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_34f2c90cf5cc6e8fb0edceb9"
+                "local_64731ee06d381654b873654a"
               ],
               "confidence": 92
             },
@@ -198,7 +175,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2784a2bde3faab0cb25f64c4"
+                "local_570bb48530ee19d1882164b7"
               ],
               "confidence": 92
             }
@@ -208,20 +185,20 @@
       "referencedFeedItemIds": [
         "local_6d700dee11d8856d3d55da80",
         "local_947d706a74338e24a6de6650",
-        "local_34f2c90cf5cc6e8fb0edceb9",
+        "local_64731ee06d381654b873654a",
         "local_f859fc7e8a21e0df690a7a8a",
-        "local_2784a2bde3faab0cb25f64c4",
-        "local_c2ca0b0be9cebc8d273a147e",
+        "local_570bb48530ee19d1882164b7",
+        "local_41ba51f1e8dc38a7ff22ffbc",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c"
       ],
-      "generatedAt": "2026-10-20T23:31:01.508Z",
+      "generatedAt": "2026-10-21T02:07:47.837Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-20T23:31:01.509Z",
+  "generatedAt": "2026-10-21T02:07:47.837Z",
   "collectorName": "local-source-collector"
 }

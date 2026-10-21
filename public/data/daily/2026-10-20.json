@@ -5,23 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-10-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Army Cyber Command&#039;s ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons」、「Jiuwen Symbiosis:物理智能体走进自动化科研实验室」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling」、「Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Army Cyber Command&#039;s ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Army Cyber Command&#039;s ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons"
       ],
       "watchItems": [
+        "跟进：Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+        "跟进：Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design",
         "跟进：Army Cyber Command&#039;s ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
         "跟进：Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
-        "跟进：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!",
-        "跟进：Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
-        "跟进：Vision as Proprioception: Estimating Humanoid Robot Pose from Video"
+        "跟进：Terminal X matches senior investor judgment 88.6% with GPT-6.1"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
+              "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks. We propose Self-Credit, an end-to-end agentic RL method that creates dense supervision signals from sparse outcome rew…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_97e37a21c38f08768b040a8d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design",
+              "summary": "Agent harnesses are executable code that specifies the prompts, tools, and control flow around a language model. A single global harness can struggle with heterogeneous tasks that require different execution strategies. In this work, we introduce Object-Oriented Harness (OO-Harn…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5f160650b9f85618a44e40f1"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Army Cyber Command&#039;s ECHOTRIBBLE would turn AI agents into self-spreading cyberweapons",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The Army Cyber Command is developing AI agents that move through other networks like a computer worm and \"neutralize\" targets, according to internal documents. The program, codenamed ECHOTRIBBLE, is designed to reach ev…",
@@ -38,72 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aaa145d4aab5f0a7966d5a0d"
+                "local_67a9623321baabfb9a74d236"
               ],
               "confidence": 90
             },
             {
-              "title": "聚焦真实Agent落地样本:Agentic Growth中国峰会来了!",
-              "summary": "围绕AI Native组织、Agentic Engine、多Agent协同、Data Agent与业务增长闭环展开分享,感兴趣的小伙伴,欢迎来现场看Agent真实...",
+              "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0ebb9f8a3979bc4e62828b7e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Harness-Delta Attribution: Dissecting Gains From Harness Evolution",
-              "summary": "Harness evolution automatically optimizes the prompts, skills, tools, and orchestration code around a fixed-weight model, offering a way to improve agentic systems without updating model weights. The agent harness is iteratively optimized to achieve higher performance on the sea…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f1fd8c721ea2cfd1335f1bf7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "My obituary for programming",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you c…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_269a10739e9d9317da1da476"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Vision as Proprioception: Estimating Humanoid Robot Pose from Video",
-              "summary": "Estimating a humanoid robot's internal state from video has a wide range of real-world applications but remains unexplored. During interactions with a robot, its onboard state information may be unavailable due to privacy, ownership, or communication constraints. Meanwhile, onli…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_816b31465b640b2bc97b9029"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "A Language-Informed Loss for Visual Generation",
-              "summary": "End-to-end visual generation with pixel-space loss has recently achieved competitive performance without the need for learned image tokenizers. In this work, we study whether language-informed supervision can provide a richer training signal than pixel loss for visual generation…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4b16027bc959d5843938669f"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "First Passage Attention",
-              "summary": "Augmenting softmax attention with forget gates typically relies on summing decay contributions along the key--query path. Because such accumulation is monotonic, these mechanisms cannot selectively erase intermediate context while preserving older, structurally relevant tokens. …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_1ed66c3bad7e8ae3efb973f8"
+                "local_cfee9515e21d1eea3bfada80"
               ],
               "confidence": 92
             }
@@ -112,6 +77,16 @@
         {
           "title": "模型与基础设施",
           "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b465bc1d3ddb992312f399c1"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：NVIDIA CUDA Tile (cuTile) is a Python-based DSL and parallel programming model for NVIDIA GPUs that automatically leverages advanced hardware capabilities to...",
@@ -136,21 +111,18 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_97e37a21c38f08768b040a8d",
+        "local_5f160650b9f85618a44e40f1",
         "local_46c2c031f6c09474c7b53868",
-        "local_aaa145d4aab5f0a7966d5a0d",
+        "local_67a9623321baabfb9a74d236",
+        "local_cfee9515e21d1eea3bfada80",
         "local_0ebb9f8a3979bc4e62828b7e",
-        "local_f1fd8c721ea2cfd1335f1bf7",
-        "local_816b31465b640b2bc97b9029",
-        "local_4b16027bc959d5843938669f",
-        "local_1ed66c3bad7e8ae3efb973f8",
+        "local_b465bc1d3ddb992312f399c1",
         "local_269a10739e9d9317da1da476",
-        "local_dab522b457cf0e5990d0ee05",
-        "local_dfa488d29c4548525a8f2294",
         "local_1e8a271fb19b0b339c45dd74",
-        "local_c3ddc8c474e7a9f26ce7939b",
         "local_4bf79693147b3ce0c931ea0f"
       ],
-      "generatedAt": "2026-10-20T23:31:01.501Z",
+      "generatedAt": "2026-10-21T02:07:47.832Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -161,14 +133,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-20",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Jiuwen Symbiosis:物理智能体走进自动化科研实验室」、「聚焦真实Agent落地样本:Agentic Growth中国峰会来了!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Jiuwen Symbiosis:物理智能体走进自动化科研实验室」、「Terminal X matches senior investor judgment 88.6% with GPT-6.1」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!"
       ],
       "watchItems": [
         "跟进：Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
+        "跟进：Terminal X matches senior investor judgment 88.6% with GPT-6.1",
         "跟进：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!",
         "跟进：Accelerating Mamba-2 with High-Performance Forward Pass Kernels in NVIDIA CUDA Tile",
         "跟进：GenRecs Tokenization: Transforming Ads Recommendation at Meta with Stable Model Vocabulary"
@@ -183,9 +156,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aaa145d4aab5f0a7966d5a0d"
+                "local_67a9623321baabfb9a74d236"
               ],
               "confidence": 90
+            },
+            {
+              "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_cfee9515e21d1eea3bfada80"
+              ],
+              "confidence": 92
             },
             {
               "title": "聚焦真实Agent落地样本:Agentic Growth中国峰会来了!",
@@ -226,18 +209,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_aaa145d4aab5f0a7966d5a0d",
+        "local_67a9623321baabfb9a74d236",
+        "local_cfee9515e21d1eea3bfada80",
         "local_0ebb9f8a3979bc4e62828b7e",
         "local_1e8a271fb19b0b339c45dd74",
         "local_4bf79693147b3ce0c931ea0f"
       ],
-      "generatedAt": "2026-10-20T23:31:01.501Z",
+      "generatedAt": "2026-10-21T02:07:47.832Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-20T23:31:01.501Z",
+  "generatedAt": "2026-10-21T02:07:47.832Z",
   "collectorName": "local-source-collector"
 }
