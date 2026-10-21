@@ -53,22 +53,22 @@
               "confidence": 86
             },
             {
+              "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
+              "summary": "A fine-tuned Vision-Language-Action (VLA) policy can easily place the alphabet soup in the basket on command, just as it saw during fine-tuning. However, if the basket is shifted five centimeters to the left, it drops the soup off the table. We developed an interpretability pipe…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_976aade9d96bf0dbcee07585"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks",
               "summary": "Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models. However, few studies have developed benchmarks specifically tailored for dexterous manipulation, leaving the dexterous manipulation capabilities of existing models in…",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_25061c292f6d8c1b1b5849e5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Axiomatic World Modeling for Physics Reasoning",
-              "summary": "Recent research-level physics-reasoning benchmarks for LLMs reveal a failure mode that lies not in knowledge or execution, but in modeling the world being reasoned about. Models often silently alter given quantities, fabricate laws, or inject unstated assumptions to force a prob…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9c5f36b53afca7c197674e47"
               ],
               "confidence": 92
             }
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f297cec5dfd04d352d09651"
+                "local_59dc3ddd8f8f52c8b0e3a009"
               ],
               "confidence": 92
             }
@@ -148,12 +148,12 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "World Models with Configurable Perception",
-              "summary": "Real-world observations are noisy and often contain excessive task-irrelevant information. Effective world modeling and planning need to abstract observations into world state representations while filtering out irrelevant information. However, encoders in existing world models …",
+              "title": "What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?",
+              "summary": "The physical world has continuous state and action spaces, yet robot planning often benefits from hybrid discrete-continuous formulations that explicitly expose combinatorial structure, such as contact modes or discrete primitive actions. Existing methods typically rely on human…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_60c5debbd07d66244e65441d"
+                "local_2a413624ce9a017b8998fafe"
               ],
               "confidence": 92
             },
@@ -178,7 +178,7 @@
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
         "local_23dd906801714c0d7b2b5662",
-        "local_0f297cec5dfd04d352d09651",
+        "local_59dc3ddd8f8f52c8b0e3a009",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_27bf8a7adb5d3e0496cf4233",
         "local_edfbae26ae1d612f6f3f4dbc",
@@ -188,15 +188,15 @@
         "local_02a8cf3d0a8a391b7ed79603",
         "local_4625ca5b50226e4c36c629f7",
         "local_6b5b489f88a2c3294f951462",
+        "local_2a413624ce9a017b8998fafe",
+        "local_976aade9d96bf0dbcee07585",
         "local_25061c292f6d8c1b1b5849e5",
         "local_7028fa4fff43b34bc4ba3557",
-        "local_9c5f36b53afca7c197674e47",
-        "local_60c5debbd07d66244e65441d",
         "local_eda1aeec87d486329738afdb",
         "local_52f2046c1d5a0eccccf000fe",
         "local_60dc290aa03f396d9c260f0b"
       ],
-      "generatedAt": "2026-10-21T18:24:02.342Z",
+      "generatedAt": "2026-10-21T22:07:09.319Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -260,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0f297cec5dfd04d352d09651"
+                "local_59dc3ddd8f8f52c8b0e3a009"
               ],
               "confidence": 92
             },
@@ -311,7 +311,7 @@
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
         "local_23dd906801714c0d7b2b5662",
-        "local_0f297cec5dfd04d352d09651",
+        "local_59dc3ddd8f8f52c8b0e3a009",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_27bf8a7adb5d3e0496cf4233",
         "local_edfbae26ae1d612f6f3f4dbc",
@@ -323,13 +323,13 @@
         "local_6b5b489f88a2c3294f951462",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-21T18:24:02.342Z",
+      "generatedAt": "2026-10-21T22:07:09.319Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-21T18:24:02.343Z",
+  "generatedAt": "2026-10-21T22:07:09.320Z",
   "collectorName": "local-source-collector"
 }
