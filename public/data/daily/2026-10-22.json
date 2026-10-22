@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Quoting Armin Ronacher」、「An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Quoting Armin Ronacher」、「An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Armin Ronacher",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6d7bce405ffd09760389e1b7"
+                "local_0f6cd8e65bdd592ea0a920b6"
               ],
               "confidence": 86
             },
@@ -48,17 +48,17 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6739fb8df3584d9dd6670ad1"
+                "local_e32c330e47483612f2c398af"
               ],
               "confidence": 90
             },
             {
-              "title": "RoboCasa-Shift: Stage-Aware Robustness Evaluation of Vision-Language-Action Policies in Long-Horizon Household Manipulation",
-              "summary": "Vision-language-action (VLA) robustness is commonly summarized by aggregate task success, which obscures how individual executions change under distribution shifts and where failures emerge in long-horizon tasks. We introduce RoboCasa-Shift, a diagnostic robustness benchmark bui…",
+              "title": "Language Models Learn to Improve Language Models",
+              "summary": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements acr…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_48e134332b04053fac76ce8e"
+                "local_8acf4d5149bf7c07b2d92946"
               ],
               "confidence": 92
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0151e814958e0855274c3667"
+                "local_86aaff12224777584852c455"
               ],
               "confidence": 92
             },
@@ -103,7 +103,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6f70fa45072eac5e0f664718"
+                "local_021ed21dd6e6a8278bb866c2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "别再给企业造 Agent 了,他们并不需要",
+              "summary": "Grok Bot:变身「云端AI团队」同题硬刚两款国产Agent未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进行转载!",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7be7b9cb0a0b1bb63e07329c"
               ],
               "confidence": 92
             },
@@ -116,16 +126,6 @@
                 "local_f812f3d23705035bb53c3ccc"
               ],
               "confidence": 92
-            },
-            {
-              "title": "高德千舆空间智能开放平台,开箱即用的空间智能Agent",
-              "summary": "依托高德二十年积累的空间数据与技术能力,高德千舆将真实空间数据、专业空间计算与 AI Agent 深度融合,构建面向千行百业的空...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_092513906d804895fda2e67b"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -133,34 +133,14 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Looped Uniform Diffusion Language Models",
-              "summary": "Uniform diffusion language models (UDLMs) generate text by iteratively denoising sequences of ordinary vocabulary tokens, any of which may be corrupted and subsequently revised. During training, UDLMs must denoise from a context that may itself be unreliable, whereas masked diff…",
+              "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
+              "summary": "Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but re…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_82237ae658f2eb68e10cc6ff"
+                "local_81e4c4e9a1d374aba93645c5"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Exploring The Empirical Privacy Landscape of Synthetic Data",
-              "summary": "Methods for training language models on sensitive data differ in how they balance capability gains against the risk of leaking private information. In this paper, we present a controlled comparison of data-level and training-level interventions for navigating the capability-priv…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_c9cf1dddb373ab74883e9e43"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Deepmind founder Hassabis shortens AGI timeline from five to two to three years",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Demis Hassabis keeps moving up his AGI timeline. The Nobel laureate and former Google Deepmind CEO now expects artificial general intelligence within two to three years, down from three to five years earlier this year. …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_26cc3b12e2e8a2dc7918ea6f"
-              ],
-              "confidence": 78
+              "confidence": 82
             }
           ]
         }
@@ -168,25 +148,26 @@
       "referencedFeedItemIds": [
         "local_ad3eb395157d4d0fc01c6eb6",
         "local_2ec2b54b4e87e57368712bee",
-        "local_0151e814958e0855274c3667",
-        "local_6d7bce405ffd09760389e1b7",
-        "local_6f70fa45072eac5e0f664718",
+        "local_86aaff12224777584852c455",
+        "local_0f6cd8e65bdd592ea0a920b6",
+        "local_021ed21dd6e6a8278bb866c2",
+        "local_7be7b9cb0a0b1bb63e07329c",
         "local_f812f3d23705035bb53c3ccc",
-        "local_092513906d804895fda2e67b",
-        "local_ef235f330d0199e8ba79db23",
+        "local_781c5f9980f52210a084aff7",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_6739fb8df3584d9dd6670ad1",
-        "local_82237ae658f2eb68e10cc6ff",
-        "local_48e134332b04053fac76ce8e",
-        "local_c9cf1dddb373ab74883e9e43",
-        "local_7f11d3fbb15a1e48026fe230",
+        "local_e32c330e47483612f2c398af",
+        "local_595a2f8674f647db0c1a5a38",
+        "local_75fd4bf1ad821210ea5da3d3",
+        "local_81e4c4e9a1d374aba93645c5",
+        "local_7865ea8099b0e6df5d7fffc6",
+        "local_8acf4d5149bf7c07b2d92946",
+        "local_61bf4eb7db3bd0f05674ceca",
         "local_78a5572af1ec6462348fa6b3",
-        "local_26cc3b12e2e8a2dc7918ea6f",
         "local_4dc2b6d6b73e944c31eb2ec8",
         "local_672a03408ca415cbad1721a4"
       ],
-      "generatedAt": "2026-10-22T17:14:20.871Z",
+      "generatedAt": "2026-10-22T20:41:53.403Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,7 +178,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」、「企业AI需要两个世界模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」、「企业AI需要两个世界模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业AI需要两个世界模型",
@@ -207,8 +188,8 @@
         "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
         "跟进：企业AI需要两个世界模型",
         "跟进：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
-        "跟进：高德千舆空间智能开放平台,开箱即用的空间智能Agent",
-        "跟进：Introducing MiniMax Code Mini App"
+        "跟进：别再给企业造 Agent 了,他们并不需要",
+        "跟进：高德千舆空间智能开放平台,开箱即用的空间智能Agent"
       ],
       "sections": [
         {
@@ -220,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0151e814958e0855274c3667"
+                "local_86aaff12224777584852c455"
               ],
               "confidence": 92
             },
@@ -230,7 +211,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6f70fa45072eac5e0f664718"
+                "local_021ed21dd6e6a8278bb866c2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "别再给企业造 Agent 了,他们并不需要",
+              "summary": "Grok Bot:变身「云端AI团队」同题硬刚两款国产Agent未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进行转载!",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7be7b9cb0a0b1bb63e07329c"
               ],
               "confidence": 92
             },
@@ -240,7 +231,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_092513906d804895fda2e67b"
+                "local_781c5f9980f52210a084aff7"
               ],
               "confidence": 92
             },
@@ -251,16 +242,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_85306e884a648ecd1bd36659"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Introducing MiniMax Code Mini App",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent’s work on a page that stays live.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1865f2c2dc38dada988e2320"
               ],
               "confidence": 74
             }
@@ -275,7 +256,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6d7bce405ffd09760389e1b7"
+                "local_0f6cd8e65bdd592ea0a920b6"
               ],
               "confidence": 86
             },
@@ -285,7 +266,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_6739fb8df3584d9dd6670ad1"
+                "local_e32c330e47483612f2c398af"
               ],
               "confidence": 90
             }
@@ -293,21 +274,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0151e814958e0855274c3667",
-        "local_6d7bce405ffd09760389e1b7",
-        "local_6f70fa45072eac5e0f664718",
-        "local_092513906d804895fda2e67b",
+        "local_86aaff12224777584852c455",
+        "local_0f6cd8e65bdd592ea0a920b6",
+        "local_021ed21dd6e6a8278bb866c2",
+        "local_7be7b9cb0a0b1bb63e07329c",
+        "local_781c5f9980f52210a084aff7",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_6739fb8df3584d9dd6670ad1"
+        "local_e32c330e47483612f2c398af",
+        "local_595a2f8674f647db0c1a5a38"
       ],
-      "generatedAt": "2026-10-22T17:14:20.871Z",
+      "generatedAt": "2026-10-22T20:41:53.403Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-22T17:14:20.871Z",
+  "generatedAt": "2026-10-22T20:41:53.404Z",
   "collectorName": "local-source-collector"
 }
