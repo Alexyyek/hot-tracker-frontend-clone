@@ -5,50 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-10-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling」、「Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Jiuwen Symbiosis:物理智能体走进自动化科研实验室」、「Terminal X matches senior investor judgment 88.6% with GPT-6.1」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jiuwen Symbiosis:物理智能体走进自动化科研实验室"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!"
       ],
       "watchItems": [
-        "跟进：Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
-        "跟进：Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design",
         "跟进：Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
         "跟进：Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-        "跟进：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!"
+        "跟进：聚焦真实Agent落地样本:Agentic Growth中国峰会来了!",
+        "跟进：My obituary for programming",
+        "跟进：Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Self-Credit: Credit Assignment for Long-Horizon Agentic RL via Intra-group Rescaling",
-              "summary": "LLM agents are commonly trained with RLVR, but the sparse nature of typical RLVR rewards makes credit assignment challenging, especially for long-horizon tasks. We propose Self-Credit, an end-to-end agentic RL method that creates dense supervision signals from sparse outcome rew…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_97e37a21c38f08768b040a8d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Object-Oriented Harness: Evolving Agent Harnesses through Object-Oriented Design",
-              "summary": "Agent harnesses are executable code that specifies the prompts, tools, and control flow around a language model. A single global harness can struggle with heterogeneous tasks that require different execution strategies. In this work, we introduce Object-Oriented Harness (OO-Harn…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5f160650b9f85618a44e40f1"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Jiuwen Symbiosis:物理智能体走进自动化科研实验室",
               "summary": "机器之心发布如何把屏幕上罗列的实验流程准确变成一连串的实际... 物理智能体.这一落地案例,也为我们打开窗口,进一步阐释 ...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4f07b20b67dce09dbe710ec2"
+                "local_0911a7811fe717cd31bbae08"
               ],
               "confidence": 90
             },
@@ -69,6 +49,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_0ebb9f8a3979bc4e62828b7e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "My obituary for programming",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you c…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_269a10739e9d9317da1da476"
               ],
               "confidence": 92
             }
@@ -116,9 +106,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_97e37a21c38f08768b040a8d",
-        "local_5f160650b9f85618a44e40f1",
-        "local_4f07b20b67dce09dbe710ec2",
+        "local_0911a7811fe717cd31bbae08",
         "local_cfee9515e21d1eea3bfada80",
         "local_0ebb9f8a3979bc4e62828b7e",
         "local_269a10739e9d9317da1da476",
@@ -126,7 +114,7 @@
         "local_1e8a271fb19b0b339c45dd74",
         "local_4bf79693147b3ce0c931ea0f"
       ],
-      "generatedAt": "2026-10-22T00:47:59.523Z",
+      "generatedAt": "2026-10-22T06:13:07.446Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -160,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4f07b20b67dce09dbe710ec2"
+                "local_0911a7811fe717cd31bbae08"
               ],
               "confidence": 90
             },
@@ -228,20 +216,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_4f07b20b67dce09dbe710ec2",
+        "local_0911a7811fe717cd31bbae08",
         "local_cfee9515e21d1eea3bfada80",
         "local_0ebb9f8a3979bc4e62828b7e",
         "local_ece3b83a5cbd47d5d73a8e08",
         "local_1e8a271fb19b0b339c45dd74",
         "local_4bf79693147b3ce0c931ea0f"
       ],
-      "generatedAt": "2026-10-22T00:47:59.523Z",
+      "generatedAt": "2026-10-22T06:13:07.447Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-22T00:47:59.523Z",
+  "generatedAt": "2026-10-22T06:13:07.447Z",
   "collectorName": "local-source-collector"
 }
