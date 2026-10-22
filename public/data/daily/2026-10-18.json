@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_36d808229b6e0a800e4d1708"
+                "local_24aec96a282911371ef75d2e"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1b7d2152c453d866d191fef8"
+                "local_09fce8976b6d279eb7f7cb4c"
               ],
               "confidence": 70
             }
@@ -53,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5c7bce1397f58abee341f7bb"
+                "local_39ca33a80efd8b8d1790e69a"
               ],
               "confidence": 74
             },
@@ -63,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dc1b3487a0ad285db5d36675"
+                "local_282ba4d52578242cafb466d8"
               ],
               "confidence": 92
             },
@@ -73,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ce07eee54f6947655f8da346"
+                "local_0c0cfbee91f30b7955c6318d"
               ],
               "confidence": 74
             },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4b8c519c447d844763d3ac29"
+                "local_b032c713a2a2d5de254a0d89"
               ],
               "confidence": 92
             },
@@ -118,19 +118,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_062d6f9c87e098630cda9549"
+                "local_7d9484311b9e09a0cb61f9c4"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e8a80c44ec5c168f67c9646d"
-              ],
-              "confidence": 74
             },
             {
               "title": "Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon",
@@ -143,12 +133,22 @@
               "confidence": 92
             },
             {
+              "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e8a80c44ec5c168f67c9646d"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "AI Model Benchmarks",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6e7e6a135281f96e61b9bfc3"
+                "local_8d151822019845295db9c9e1"
               ],
               "confidence": 82
             }
@@ -156,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_36d808229b6e0a800e4d1708",
-        "local_5c7bce1397f58abee341f7bb",
-        "local_dc1b3487a0ad285db5d36675",
-        "local_ce07eee54f6947655f8da346",
-        "local_4b8c519c447d844763d3ac29",
-        "local_062d6f9c87e098630cda9549",
-        "local_e8a80c44ec5c168f67c9646d",
+        "local_24aec96a282911371ef75d2e",
+        "local_39ca33a80efd8b8d1790e69a",
+        "local_282ba4d52578242cafb466d8",
+        "local_0c0cfbee91f30b7955c6318d",
+        "local_b032c713a2a2d5de254a0d89",
+        "local_7d9484311b9e09a0cb61f9c4",
         "local_ec7180ac1f000e49e8e0114a",
         "local_f0627d26cc8cc7aed630fbc2",
         "local_8b10c6f343b383bfb1dfa84c",
-        "local_0ecfc7167b5de4e59276cc6e",
-        "local_87185ac849a3f2b0a09e82d4",
-        "local_8d2aad0829b6497301daa9be",
-        "local_c9945d6697debff101ebaba2",
-        "local_6e7e6a135281f96e61b9bfc3",
-        "local_7a7d499e6ac5bf940f831120",
-        "local_ee8549ea1995bf622fcdc68d",
-        "local_353a5cbf32aee26b2bd03734",
-        "local_fdfa8820c31e67b7ee3b5a2e",
-        "local_385851c5ad6a1d2ba1c8da4c",
-        "local_1b7d2152c453d866d191fef8",
-        "local_3551d8a8e1e244282dfdbf90",
-        "local_9480536e887d20cf10a26fa2",
-        "local_74b5826a480475141717a530"
+        "local_e8a80c44ec5c168f67c9646d",
+        "local_c11d749d6fcafe687a7abbb6",
+        "local_7fdeed6f954c6c3157c67213",
+        "local_d270590bef165f8ca52e2493",
+        "local_3a172c2d62bf5e2896c55c03",
+        "local_8d151822019845295db9c9e1",
+        "local_4b87987d3bd0dd07768d6cb2",
+        "local_1e48defd45f95314b20e53cd",
+        "local_0cd16772c50dac1aa363feb5",
+        "local_488fd06ee4deb3d8dd41cae1",
+        "local_5389a9fd69f9644a57067659",
+        "local_09fce8976b6d279eb7f7cb4c",
+        "local_4c88517de042f32f3bf8a2f5",
+        "local_014ef7faae74e0ca3a59e6a8",
+        "local_9ad85cc38464491fad70f53e"
       ],
-      "generatedAt": "2026-10-21T22:07:09.356Z",
+      "generatedAt": "2026-10-22T00:47:59.534Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_36d808229b6e0a800e4d1708"
+                "local_24aec96a282911371ef75d2e"
               ],
               "confidence": 78
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1b7d2152c453d866d191fef8"
+                "local_09fce8976b6d279eb7f7cb4c"
               ],
               "confidence": 70
             }
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5c7bce1397f58abee341f7bb"
+                "local_39ca33a80efd8b8d1790e69a"
               ],
               "confidence": 74
             },
@@ -250,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dc1b3487a0ad285db5d36675"
+                "local_282ba4d52578242cafb466d8"
               ],
               "confidence": 92
             },
@@ -260,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ce07eee54f6947655f8da346"
+                "local_0c0cfbee91f30b7955c6318d"
               ],
               "confidence": 74
             },
@@ -295,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4b8c519c447d844763d3ac29"
+                "local_b032c713a2a2d5de254a0d89"
               ],
               "confidence": 92
             },
@@ -305,19 +305,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_062d6f9c87e098630cda9549"
+                "local_7d9484311b9e09a0cb61f9c4"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e8a80c44ec5c168f67c9646d"
-              ],
-              "confidence": 74
             },
             {
               "title": "Unifying Edge AI: How Coral NPU’s open standard brings portable, energy-viable intelligence from model to silicon",
@@ -330,12 +320,22 @@
               "confidence": 92
             },
             {
+              "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e8a80c44ec5c168f67c9646d"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_fdfa8820c31e67b7ee3b5a2e"
+                "local_488fd06ee4deb3d8dd41cae1"
               ],
               "confidence": 92
             }
@@ -343,31 +343,31 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_36d808229b6e0a800e4d1708",
-        "local_5c7bce1397f58abee341f7bb",
-        "local_dc1b3487a0ad285db5d36675",
-        "local_ce07eee54f6947655f8da346",
-        "local_4b8c519c447d844763d3ac29",
-        "local_062d6f9c87e098630cda9549",
-        "local_e8a80c44ec5c168f67c9646d",
+        "local_24aec96a282911371ef75d2e",
+        "local_39ca33a80efd8b8d1790e69a",
+        "local_282ba4d52578242cafb466d8",
+        "local_0c0cfbee91f30b7955c6318d",
+        "local_b032c713a2a2d5de254a0d89",
+        "local_7d9484311b9e09a0cb61f9c4",
         "local_ec7180ac1f000e49e8e0114a",
         "local_f0627d26cc8cc7aed630fbc2",
         "local_8b10c6f343b383bfb1dfa84c",
-        "local_fdfa8820c31e67b7ee3b5a2e",
-        "local_385851c5ad6a1d2ba1c8da4c",
-        "local_1b7d2152c453d866d191fef8",
-        "local_3551d8a8e1e244282dfdbf90",
-        "local_9480536e887d20cf10a26fa2",
-        "local_74b5826a480475141717a530",
+        "local_e8a80c44ec5c168f67c9646d",
+        "local_488fd06ee4deb3d8dd41cae1",
+        "local_5389a9fd69f9644a57067659",
+        "local_09fce8976b6d279eb7f7cb4c",
+        "local_4c88517de042f32f3bf8a2f5",
+        "local_014ef7faae74e0ca3a59e6a8",
+        "local_9ad85cc38464491fad70f53e",
         "local_1403b73078fb967fe4ab2562"
       ],
-      "generatedAt": "2026-10-21T22:07:09.356Z",
+      "generatedAt": "2026-10-22T00:47:59.534Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-21T22:07:09.356Z",
+  "generatedAt": "2026-10-22T00:47:59.534Z",
   "collectorName": "local-source-collector"
 }

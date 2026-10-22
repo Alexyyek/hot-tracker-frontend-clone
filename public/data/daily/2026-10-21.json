@@ -53,22 +53,22 @@
               "confidence": 86
             },
             {
+              "title": "ATEST: Adaptive Resource-Aware Test-Time Scaling for LLM Inference",
+              "summary": "Test-time scaling (TTS) improves large language model (LLM) reasoning by sampling multiple answers, but fixed sampling budgets ignore both query difficulty and the changing energy cost of inference under GPU contention. We measure up to a 4.1-fold increase in energy for the same…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_bc5d3f211ddb00086acf8a9d"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Not All Features Are Created Equal: A Mechanistic Study of Vision-Language-Action Models",
               "summary": "A fine-tuned Vision-Language-Action (VLA) policy can easily place the alphabet soup in the basket on command, just as it saw during fine-tuning. However, if the basket is shifted five centimeters to the left, it drops the soup off the table. We developed an interpretability pipe…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_976aade9d96bf0dbcee07585"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "BiDex-100: A Comprehensive Benchmark for Bimanual Dexterous Manipulation Across 100+ Simulation Tasks",
-              "summary": "Bimanual manipulation with dexterous hands has attracted growing attention in research on robotic action models. However, few studies have developed benchmarks specifically tailored for dexterous manipulation, leaving the dexterous manipulation capabilities of existing models in…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_25061c292f6d8c1b1b5849e5"
               ],
               "confidence": 92
             }
@@ -128,7 +128,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_23dd906801714c0d7b2b5662"
+                "local_8be5d8bde2d6a74dae749acb"
               ],
               "confidence": 92
             },
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_59dc3ddd8f8f52c8b0e3a009"
+                "local_a1c12a1b110ec50b1bf0c633"
               ],
               "confidence": 92
             }
@@ -147,6 +147,16 @@
         {
           "title": "行业与公司",
           "items": [
+            {
+              "title": "Ask to Distill: Learning to Synthesize Data for On-Policy Distillation",
+              "summary": "On-policy distillation (OPD) can succeed with surprisingly few training questions, motivating a view of questions as carriers of distributional knowledge transfer. How can we assess whether a newly generated question is valuable for distillation, and learn to generate better que…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_54a7c499ae3471fd046805b8"
+              ],
+              "confidence": 92
+            },
             {
               "title": "What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?",
               "summary": "The physical world has continuous state and action spaces, yet robot planning often benefits from hybrid discrete-continuous formulations that explicitly expose combinatorial structure, such as contact modes or discrete primitive actions. Existing methods typically rely on human…",
@@ -177,8 +187,8 @@
         "local_2d90e0af5a01d6e57d86176e",
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
-        "local_23dd906801714c0d7b2b5662",
-        "local_59dc3ddd8f8f52c8b0e3a009",
+        "local_8be5d8bde2d6a74dae749acb",
+        "local_a1c12a1b110ec50b1bf0c633",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_27bf8a7adb5d3e0496cf4233",
         "local_edfbae26ae1d612f6f3f4dbc",
@@ -187,16 +197,16 @@
         "local_d209a046c8156e43bde732b5",
         "local_02a8cf3d0a8a391b7ed79603",
         "local_4625ca5b50226e4c36c629f7",
-        "local_6b5b489f88a2c3294f951462",
+        "local_504df3c1be498c401068ceb8",
+        "local_54a7c499ae3471fd046805b8",
+        "local_bc5d3f211ddb00086acf8a9d",
         "local_2a413624ce9a017b8998fafe",
         "local_976aade9d96bf0dbcee07585",
-        "local_25061c292f6d8c1b1b5849e5",
-        "local_7028fa4fff43b34bc4ba3557",
+        "local_846c7d42f79595f0aa086bc9",
         "local_eda1aeec87d486329738afdb",
-        "local_52f2046c1d5a0eccccf000fe",
-        "local_60dc290aa03f396d9c260f0b"
+        "local_52f2046c1d5a0eccccf000fe"
       ],
-      "generatedAt": "2026-10-21T22:07:09.319Z",
+      "generatedAt": "2026-10-22T00:47:59.518Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -250,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_23dd906801714c0d7b2b5662"
+                "local_8be5d8bde2d6a74dae749acb"
               ],
               "confidence": 92
             },
@@ -260,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_59dc3ddd8f8f52c8b0e3a009"
+                "local_a1c12a1b110ec50b1bf0c633"
               ],
               "confidence": 92
             },
@@ -310,8 +320,8 @@
       "referencedFeedItemIds": [
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
-        "local_23dd906801714c0d7b2b5662",
-        "local_59dc3ddd8f8f52c8b0e3a009",
+        "local_8be5d8bde2d6a74dae749acb",
+        "local_a1c12a1b110ec50b1bf0c633",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_27bf8a7adb5d3e0496cf4233",
         "local_edfbae26ae1d612f6f3f4dbc",
@@ -320,16 +330,16 @@
         "local_d209a046c8156e43bde732b5",
         "local_02a8cf3d0a8a391b7ed79603",
         "local_4625ca5b50226e4c36c629f7",
-        "local_6b5b489f88a2c3294f951462",
+        "local_504df3c1be498c401068ceb8",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-21T22:07:09.319Z",
+      "generatedAt": "2026-10-22T00:47:59.518Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-21T22:07:09.320Z",
+  "generatedAt": "2026-10-22T00:47:59.518Z",
   "collectorName": "local-source-collector"
 }
