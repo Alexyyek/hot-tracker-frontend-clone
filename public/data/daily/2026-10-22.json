@@ -5,95 +5,40 @@
       "topicId": "ai",
       "reportDate": "2026-10-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Quoting Armin Ronacher」、「HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark」、「Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Armin Ronacher",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ProductWebBench: Evaluating Website Continuity Beyond Task Completion"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Armin Ronacher"
       ],
       "watchItems": [
+        "跟进：AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+        "跟进：Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
         "跟进：Quoting Armin Ronacher",
-        "跟进：HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
-        "跟进：ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
         "跟进：An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
         "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Quoting Armin Ronacher",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. &mdash; Armin Ronacher Tags: security, generative-ai, armin-ronacher, ai, ai-security-research, l…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_ad3eb395157d4d0fc01c6eb6"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "企业AI需要两个世界模型",
-              "summary": "凹非寺量子位 | 公众号QbitAI一个有些反直觉的现实是:AI已经在... 它们很难被粗暴合并成一个大模型.合在一起,往往不是更强,而...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_719fdf87be3dc12d9e1af79a"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "别再往 RAG 里塞碎片了:AI 问数的瓶颈不在模型",
-              "summary": "RAG 把指标、维度、口径拆成一张张碎片卡片,靠相似度去召回... https://h.datafuntalk.com/vzg388️ 票务咨询:13311343487本体落...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4b78d0ab740718241d00e08c"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Stratified Sparse Attention: Reducing the Sparse-to-Dense Gap at Extreme Sparsity",
-              "summary": "Large Language Model inference over long contexts is increasingly bottlenecked by the cost of attending to a growing Key-Value (KV) cache. Sparse attention reduces this cost by accessing only a fraction of the cache, but existing methods face a trade-off between deterministic re…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0485f1cf2ea3e39f331cf8d7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0ca6ed499b88c56d96525c94"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
-              "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the …",
+              "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+              "summary": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into …",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_99be0a9349cf0c32a80a7594"
+                "local_44d3a5188fa1f40fd329e17e"
               ],
               "confidence": 92
             },
             {
-              "title": "ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
-              "summary": "Frontend coding agents are usually graded on one question: did the requested target get built. Real engineering changes carry a second obligation, because the rest of the site has to keep working. We call that second obligation website continuity, and introduce ProductWebBench, …",
+              "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
+              "summary": "Reusable skills allow large language model agents to package task-specific procedures, tool affordances, and execution guidance into modular units. Prior work has largely studied how agents retrieve, compose, or synthesize skills before execution. In coding agents, however, exec…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d51979ae0cd4488f997c6fdc"
+                "local_92b0ace507beebd1ef59b665"
               ],
               "confidence": 92
             },
@@ -113,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_19080043876b330ccbed251f"
+                "local_cde2e45c17864367eeb00ab3"
               ],
               "confidence": 92
             },
@@ -123,63 +68,105 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_02a8de547fa1c2d3c73e90f2"
+                "local_2b267d429f0d231403cc1781"
               ],
               "confidence": 92
             }
           ]
         },
         {
-          "title": "行业与公司",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Global Convergence of Detailed Balanced Mass Action Systems",
-              "summary": "We give a self-contained proof that, for a finite detailed balanced mass-action system with positive rate constants, each positive stoichiometric compatibility class contains exactly one positive equilibrium and every positive trajectory converges to it, together with a Lean 4 f…",
+              "title": "Quoting Armin Ronacher",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. &mdash; Armin Ronacher Tags: security, generative-ai, armin-ronacher, ai, ai-security-research, l…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_404b13785295633a528b0b8c"
+                "local_ad3eb395157d4d0fc01c6eb6"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "企业AI需要两个世界模型",
+              "summary": "凹非寺量子位 | 公众号QbitAI一个有些反直觉的现实是:AI已经在... 它们很难被粗暴合并成一个大模型.合在一起,往往不是更强,而...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_bf273e0c5492521ca6e6fc78"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "别再往 RAG 里塞碎片了:AI 问数的瓶颈不在模型",
+              "summary": "RAG 把指标、维度、口径拆成一张张碎片卡片,靠相似度去召回... https://h.datafuntalk.com/vzg388️ 票务咨询:13311343487本体落...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_68078a01f6096da5ed3ba012"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：New tools joining NVIDIA Cosmos are helping accelerate data pipelines, train, evaluate and optimize world models more efficiently, and improve accuracy at lower cost.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_1d5105b8973a40dd52f12611"
               ],
               "confidence": 92
             },
             {
-              "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
-              "summary": "Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but re…",
+              "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_81e4c4e9a1d374aba93645c5"
+                "local_a024f8b2266f5d08da0456ec"
               ],
-              "confidence": 82
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Earth-2 gives developers and researchers a family of open AI models and tools they can customize with their own data.",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_76ef3e6458bf158c7fef99cc"
+              ],
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_44d3a5188fa1f40fd329e17e",
+        "local_92b0ace507beebd1ef59b665",
         "local_ad3eb395157d4d0fc01c6eb6",
-        "local_99be0a9349cf0c32a80a7594",
-        "local_d51979ae0cd4488f997c6fdc",
         "local_2ec2b54b4e87e57368712bee",
-        "local_19080043876b330ccbed251f",
-        "local_719fdf87be3dc12d9e1af79a",
-        "local_02a8de547fa1c2d3c73e90f2",
+        "local_cde2e45c17864367eeb00ab3",
+        "local_bf273e0c5492521ca6e6fc78",
+        "local_2b267d429f0d231403cc1781",
         "local_e91d37431d929f7358d65cf7",
         "local_f812f3d23705035bb53c3ccc",
-        "local_c33a4882ba7a0e1369babfb2",
-        "local_d9d314d64490adf11d94f938",
-        "local_404b13785295633a528b0b8c",
+        "local_cdd8e7c5450111b30762ec9f",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_4b78d0ab740718241d00e08c",
+        "local_68078a01f6096da5ed3ba012",
+        "local_1d5105b8973a40dd52f12611",
+        "local_a024f8b2266f5d08da0456ec",
+        "local_76ef3e6458bf158c7fef99cc",
         "local_595a2f8674f647db0c1a5a38",
         "local_75fd4bf1ad821210ea5da3d3",
-        "local_5544c0f42d31f8bcf59e123f",
-        "local_c8de5703486bd54426026b88",
-        "local_0485f1cf2ea3e39f331cf8d7",
-        "local_81e4c4e9a1d374aba93645c5",
         "local_0ca6ed499b88c56d96525c94"
       ],
-      "generatedAt": "2026-10-23T02:04:54.770Z",
+      "generatedAt": "2026-10-23T07:32:52.248Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,7 +177,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」、「企业AI需要两个世界模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」、「企业AI需要两个世界模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业AI需要两个世界模型",
@@ -213,7 +200,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_19080043876b330ccbed251f"
+                "local_cde2e45c17864367eeb00ab3"
               ],
               "confidence": 92
             },
@@ -223,7 +210,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_02a8de547fa1c2d3c73e90f2"
+                "local_2b267d429f0d231403cc1781"
               ],
               "confidence": 92
             },
@@ -243,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c33a4882ba7a0e1369babfb2"
+                "local_cdd8e7c5450111b30762ec9f"
               ],
               "confidence": 92
             },
@@ -268,7 +255,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_719fdf87be3dc12d9e1af79a"
+                "local_bf273e0c5492521ca6e6fc78"
               ],
               "confidence": 86
             },
@@ -278,31 +265,69 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4b78d0ab740718241d00e08c"
+                "local_68078a01f6096da5ed3ba012"
               ],
               "confidence": 90
+            },
+            {
+              "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：New tools joining NVIDIA Cosmos are helping accelerate data pipelines, train, evaluate and optimize world models more efficiently, and improve accuracy at lower cost.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_1d5105b8973a40dd52f12611"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a024f8b2266f5d08da0456ec"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "Pioneers Across Europe Deploy NVIDIA Earth-2 Open Models to Power Real-World Weather and Climate Prediction",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：NVIDIA Earth-2 gives developers and researchers a family of open AI models and tools they can customize with their own data.",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_76ef3e6458bf158c7fef99cc"
+              ],
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_19080043876b330ccbed251f",
-        "local_719fdf87be3dc12d9e1af79a",
-        "local_02a8de547fa1c2d3c73e90f2",
+        "local_cde2e45c17864367eeb00ab3",
+        "local_bf273e0c5492521ca6e6fc78",
+        "local_2b267d429f0d231403cc1781",
         "local_e91d37431d929f7358d65cf7",
-        "local_c33a4882ba7a0e1369babfb2",
+        "local_cdd8e7c5450111b30762ec9f",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_4b78d0ab740718241d00e08c",
+        "local_68078a01f6096da5ed3ba012",
+        "local_1d5105b8973a40dd52f12611",
+        "local_a024f8b2266f5d08da0456ec",
+        "local_76ef3e6458bf158c7fef99cc",
         "local_595a2f8674f647db0c1a5a38"
       ],
-      "generatedAt": "2026-10-23T02:04:54.770Z",
+      "generatedAt": "2026-10-23T07:32:52.248Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-23T02:04:54.770Z",
+  "generatedAt": "2026-10-23T07:32:52.248Z",
   "collectorName": "local-source-collector"
 }
