@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Quoting Armin Ronacher」、「An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Quoting Armin Ronacher」、「HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Armin Ronacher",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ProductWebBench: Evaluating Website Continuity Beyond Task Completion"
       ],
       "watchItems": [
         "跟进：Quoting Armin Ronacher",
+        "跟进：HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+        "跟进：ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
         "跟进：An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-        "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
-        "跟进：企业AI需要两个世界模型",
-        "跟进：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议"
+        "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发"
       ],
       "sections": [
         {
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_277973f6702dd86f28cd91d6"
+                "local_719fdf87be3dc12d9e1af79a"
               ],
               "confidence": 86
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d73069af7155253fecba8e4e"
+                "local_4b78d0ab740718241d00e08c"
               ],
               "confidence": 90
             },
@@ -63,12 +63,12 @@
               "confidence": 92
             },
             {
-              "title": "Language Models Learn to Improve Language Models",
-              "summary": "Large language models (LLMs) are increasingly used to automate AI research, including language-model (LM) development, offering a potential path toward recursive self-improvement. However, turning experimental feedback into a learned ability to propose effective improvements acr…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_8acf4d5149bf7c07b2d92946"
+                "local_0ca6ed499b88c56d96525c94"
               ],
               "confidence": 92
             }
@@ -77,6 +77,26 @@
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "HiSTEVE 1.0: Harnessing Human-Interface VLA Agents for Open-World Games",
+              "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_99be0a9349cf0c32a80a7594"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
+              "summary": "Frontend coding agents are usually graded on one question: did the requested target get built. Real engineering changes carry a second obligation, because the rest of the site has to keep working. We call that second obligation website continuity, and introduce ProductWebBench, …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d51979ae0cd4488f997c6fdc"
+              ],
+              "confidence": 92
+            },
             {
               "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to …",
@@ -93,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0252cd5a8b031f5f34036555"
+                "local_19080043876b330ccbed251f"
               ],
               "confidence": 92
             },
@@ -103,27 +123,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d2a23a7dc1dbd52ef94433c6"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "别再给企业造 Agent 了,他们并不需要",
-              "summary": "Grok Bot:变身「云端AI团队」同题硬刚两款国产Agent未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进行转载!",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_bba9baa473731497aef64d1b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI teamed up with PerturbAI and Scripps Research to deploy thousands of AI agents that analyzed biological data from millions of mouse cells. The article OpenAI agents analyze mouse brain data in 32 minutes, a job t…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f812f3d23705035bb53c3ccc"
+                "local_02a8de547fa1c2d3c73e90f2"
               ],
               "confidence": 92
             }
@@ -132,6 +132,16 @@
         {
           "title": "行业与公司",
           "items": [
+            {
+              "title": "Global Convergence of Detailed Balanced Mass Action Systems",
+              "summary": "We give a self-contained proof that, for a finite detailed balanced mass-action system with positive rate constants, each positive stoichiometric compatibility class contains exactly one positive equilibrium and every positive trajectory converges to it, together with a Lean 4 f…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_404b13785295633a528b0b8c"
+              ],
+              "confidence": 92
+            },
             {
               "title": "StyleStream 2.0: Fast and Controllable Streaming Voice Style Conversion",
               "summary": "Voice style conversion (VSC) aims to transform a source utterance to match the timbre, accent, and emotion of a target voice while preserving linguistic content. StyleStream 1.0 introduced the first streamable zero-shot VSC system with state-of-the-art conversion quality, but re…",
@@ -147,27 +157,29 @@
       ],
       "referencedFeedItemIds": [
         "local_ad3eb395157d4d0fc01c6eb6",
+        "local_99be0a9349cf0c32a80a7594",
+        "local_d51979ae0cd4488f997c6fdc",
         "local_2ec2b54b4e87e57368712bee",
-        "local_0252cd5a8b031f5f34036555",
-        "local_277973f6702dd86f28cd91d6",
-        "local_d2a23a7dc1dbd52ef94433c6",
-        "local_bba9baa473731497aef64d1b",
+        "local_19080043876b330ccbed251f",
+        "local_719fdf87be3dc12d9e1af79a",
+        "local_02a8de547fa1c2d3c73e90f2",
+        "local_e91d37431d929f7358d65cf7",
         "local_f812f3d23705035bb53c3ccc",
-        "local_9b131399409a55ff43f05ab1",
+        "local_c33a4882ba7a0e1369babfb2",
+        "local_d9d314d64490adf11d94f938",
+        "local_404b13785295633a528b0b8c",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_d73069af7155253fecba8e4e",
+        "local_4b78d0ab740718241d00e08c",
         "local_595a2f8674f647db0c1a5a38",
         "local_75fd4bf1ad821210ea5da3d3",
+        "local_5544c0f42d31f8bcf59e123f",
+        "local_c8de5703486bd54426026b88",
         "local_0485f1cf2ea3e39f331cf8d7",
         "local_81e4c4e9a1d374aba93645c5",
-        "local_7865ea8099b0e6df5d7fffc6",
-        "local_8acf4d5149bf7c07b2d92946",
-        "local_78a5572af1ec6462348fa6b3",
-        "local_4dc2b6d6b73e944c31eb2ec8",
-        "local_672a03408ca415cbad1721a4"
+        "local_0ca6ed499b88c56d96525c94"
       ],
-      "generatedAt": "2026-10-22T23:43:16.395Z",
+      "generatedAt": "2026-10-23T02:04:54.770Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -201,7 +213,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0252cd5a8b031f5f34036555"
+                "local_19080043876b330ccbed251f"
               ],
               "confidence": 92
             },
@@ -211,7 +223,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d2a23a7dc1dbd52ef94433c6"
+                "local_02a8de547fa1c2d3c73e90f2"
               ],
               "confidence": 92
             },
@@ -221,7 +233,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bba9baa473731497aef64d1b"
+                "local_e91d37431d929f7358d65cf7"
               ],
               "confidence": 92
             },
@@ -231,7 +243,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9b131399409a55ff43f05ab1"
+                "local_c33a4882ba7a0e1369babfb2"
               ],
               "confidence": 92
             },
@@ -256,7 +268,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_277973f6702dd86f28cd91d6"
+                "local_719fdf87be3dc12d9e1af79a"
               ],
               "confidence": 86
             },
@@ -266,7 +278,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d73069af7155253fecba8e4e"
+                "local_4b78d0ab740718241d00e08c"
               ],
               "confidence": 90
             }
@@ -274,23 +286,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0252cd5a8b031f5f34036555",
-        "local_277973f6702dd86f28cd91d6",
-        "local_d2a23a7dc1dbd52ef94433c6",
-        "local_bba9baa473731497aef64d1b",
-        "local_9b131399409a55ff43f05ab1",
+        "local_19080043876b330ccbed251f",
+        "local_719fdf87be3dc12d9e1af79a",
+        "local_02a8de547fa1c2d3c73e90f2",
+        "local_e91d37431d929f7358d65cf7",
+        "local_c33a4882ba7a0e1369babfb2",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_d73069af7155253fecba8e4e",
+        "local_4b78d0ab740718241d00e08c",
         "local_595a2f8674f647db0c1a5a38"
       ],
-      "generatedAt": "2026-10-22T23:43:16.395Z",
+      "generatedAt": "2026-10-23T02:04:54.770Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-22T23:43:16.395Z",
+  "generatedAt": "2026-10-23T02:04:54.770Z",
   "collectorName": "local-source-collector"
 }

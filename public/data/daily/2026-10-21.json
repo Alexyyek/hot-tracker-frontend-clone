@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-10-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit」、「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents"
       ],
       "watchItems": [
-        "跟进：PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit",
         "跟进：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "跟进：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
         "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-        "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents"
+        "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+        "跟进：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "PAUSE: Search-Free Steering of Coding Agents Before Their First Source-Code Edit",
-              "summary": "Coding agents can invest substantial effort in repository exploration and testing yet still produce unsuccessful patches. Existing online steering methods review trajectories periodically or invoke an advisor when a monitor detects behavioral problems; frequent reviews are costl…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a90cbe61d9a8f86766026d25"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
               "summary": "国防科技大学赵翔教授团队与天津大学王鑫教授团队合作在软件学报发表综述论文 \"图智能体概念与研究进展\".01动机大语言模型...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e369cd31b99e72384233b5cd"
+                "local_0be01214acbd0feca1f98024"
               ],
               "confidence": 92
             },
@@ -68,7 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_668702a17b8131bfd9b5d67b"
+                "local_739c07f36a3b26ca20549c02"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?",
+              "summary": "网易智企·数帆技术负责人蒋鸿翔将在 DACon 2026·北京站,结合真实案例,分享数帆产品的 AI Native 演进实践.以下为 DACon ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_52915b30d9c0a8990498690b"
               ],
               "confidence": 92
             }
@@ -101,16 +101,6 @@
                 "local_02a8cf3d0a8a391b7ed79603"
               ],
               "confidence": 86
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_846c7d42f79595f0aa086bc9"
-              ],
-              "confidence": 92
             },
             {
               "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
@@ -151,13 +141,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a90cbe61d9a8f86766026d25",
-        "local_e369cd31b99e72384233b5cd",
+        "local_0be01214acbd0feca1f98024",
         "local_8437f8f89f0d6aab86c6429a",
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
-        "local_668702a17b8131bfd9b5d67b",
-        "local_d62a3bfc24e38da1f46ca848",
+        "local_739c07f36a3b26ca20549c02",
+        "local_52915b30d9c0a8990498690b",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_27bf8a7adb5d3e0496cf4233",
         "local_edfbae26ae1d612f6f3f4dbc",
@@ -166,14 +155,13 @@
         "local_d209a046c8156e43bde732b5",
         "local_02a8cf3d0a8a391b7ed79603",
         "local_4625ca5b50226e4c36c629f7",
-        "local_543c668cf5d7567ece5c893c",
-        "local_846c7d42f79595f0aa086bc9",
+        "local_1c45af01fd7d18096c02ca21",
         "local_eda1aeec87d486329738afdb",
         "local_52f2046c1d5a0eccccf000fe",
         "local_455af1544bb903626a91cccd",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-22T23:43:16.402Z",
+      "generatedAt": "2026-10-23T02:04:54.780Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,7 +195,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e369cd31b99e72384233b5cd"
+                "local_0be01214acbd0feca1f98024"
               ],
               "confidence": 92
             },
@@ -237,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_668702a17b8131bfd9b5d67b"
+                "local_739c07f36a3b26ca20549c02"
               ],
               "confidence": 92
             },
@@ -247,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d62a3bfc24e38da1f46ca848"
+                "local_52915b30d9c0a8990498690b"
               ],
               "confidence": 92
             }
@@ -285,11 +273,11 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e369cd31b99e72384233b5cd",
+        "local_0be01214acbd0feca1f98024",
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
-        "local_668702a17b8131bfd9b5d67b",
-        "local_d62a3bfc24e38da1f46ca848",
+        "local_739c07f36a3b26ca20549c02",
+        "local_52915b30d9c0a8990498690b",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_27bf8a7adb5d3e0496cf4233",
         "local_edfbae26ae1d612f6f3f4dbc",
@@ -298,16 +286,16 @@
         "local_d209a046c8156e43bde732b5",
         "local_02a8cf3d0a8a391b7ed79603",
         "local_4625ca5b50226e4c36c629f7",
-        "local_543c668cf5d7567ece5c893c",
+        "local_1c45af01fd7d18096c02ca21",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-22T23:43:16.402Z",
+      "generatedAt": "2026-10-23T02:04:54.781Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-22T23:43:16.402Z",
+  "generatedAt": "2026-10-23T02:04:54.781Z",
   "collectorName": "local-source-collector"
 }
