@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Using AI Agents to Teach Robots Like Microduck to Walk in Simulation」、「Securing our frontier model training environment」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Using AI Agents to Teach Robots Like Microduck to Walk in Simulation」、「Securing our frontier model training environment」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Securing our frontier model training environment",
@@ -15,8 +15,8 @@
         "跟进：Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
         "跟进：Securing our frontier model training environment",
         "跟进：华为云RDS Supabase AI应用已开放公测 :30分钟搭建AI应用后端",
-        "跟进：EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
-        "跟进：Diffusion Language Models Change Speed Across Tasks and Languages"
+        "跟进：TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+        "跟进：The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems"
       ],
       "sections": [
         {
@@ -38,9 +38,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8b768461835e3c4ff27315c7"
+                "local_a19c8f96468c49d5711ee68d"
               ],
               "confidence": 86
+            },
+            {
+              "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+              "summary": "Robots must act under physical and social constraints while adapting to changes in their environment and human needs. Existing embodied-agent systems often focus on specified goals or abstract execution into symbolic actions, limiting evaluation in an evolving world. We introduc…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2a4289e2bc6507d878cfe2a7"
+              ],
+              "confidence": 92
             },
             {
               "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
@@ -49,16 +59,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_35bd8cf7057bcd2847734af6"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
-              "summary": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neu…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b3e9688e84a202a8af7b0c20"
               ],
               "confidence": 92
             },
@@ -88,12 +88,22 @@
               "confidence": 92
             },
             {
-              "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
-              "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements ac…",
+              "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+              "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different …",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_4da777149fa8fe00e8c6f5c1"
+                "local_5088157e7d93786fe62eebef"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a98c4074fa69c8bd5f92d6c0"
               ],
               "confidence": 92
             }
@@ -133,11 +143,12 @@
       "referencedFeedItemIds": [
         "local_d771a21d04c62d4b16604ad5",
         "local_a3c5c58fc2c37840b99c75ab",
-        "local_8b768461835e3c4ff27315c7",
+        "local_a19c8f96468c49d5711ee68d",
+        "local_2a4289e2bc6507d878cfe2a7",
+        "local_5088157e7d93786fe62eebef",
         "local_35bd8cf7057bcd2847734af6",
         "local_bd0a1b858b6b4b1f6217813a",
-        "local_4da777149fa8fe00e8c6f5c1",
-        "local_b3e9688e84a202a8af7b0c20",
+        "local_a98c4074fa69c8bd5f92d6c0",
         "local_676fd0df13b16f7dcb9ee8c0",
         "local_942a819153c1c976f4763c43",
         "local_b914216a3381425306c9c12b",
@@ -146,7 +157,7 @@
         "local_381914ce47fb9d66dfb13776",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-24T00:07:33.922Z",
+      "generatedAt": "2026-10-24T04:37:03.414Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -189,7 +200,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8b768461835e3c4ff27315c7"
+                "local_a19c8f96468c49d5711ee68d"
               ],
               "confidence": 86
             }
@@ -229,16 +240,16 @@
       "referencedFeedItemIds": [
         "local_d771a21d04c62d4b16604ad5",
         "local_a3c5c58fc2c37840b99c75ab",
-        "local_8b768461835e3c4ff27315c7",
+        "local_a19c8f96468c49d5711ee68d",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-24T00:07:33.922Z",
+      "generatedAt": "2026-10-24T04:37:03.414Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-24T00:07:33.922Z",
+  "generatedAt": "2026-10-24T04:37:03.414Z",
   "collectorName": "local-source-collector"
 }
