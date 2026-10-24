@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark」、「Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark」、「Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
@@ -15,8 +15,8 @@
         "跟进：AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
         "跟进：Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
         "跟进：Quoting Armin Ronacher",
-        "跟进：An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-        "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发"
+        "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
+        "跟进：企业AI需要两个世界模型"
       ],
       "sections": [
         {
@@ -43,22 +43,12 @@
               "confidence": 92
             },
             {
-              "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2ec2b54b4e87e57368712bee"
-              ],
-              "confidence": 90
-            },
-            {
               "title": "上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
               "summary": "文|王欣逸编辑|张雨忻《智能涌现》独家获悉,近日,由上海交大... 让Agent自己去优化推理引擎,提高硬件利用率和Token生产效率...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_839a72518f82e7deec9d6cb8"
+                "local_7c9ad851e1792d88765e1e97"
               ],
               "confidence": 92
             },
@@ -68,7 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9b33d3b11d89f66eb5305163"
+                "local_798abfd2b4bf79def57881e3"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "别再给企业造 Agent 了,他们并不需要",
+              "summary": "Grok Bot:变身「云端AI团队」同题硬刚两款国产Agent未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进行转载!",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_17cb65183bf634dc965a9766"
               ],
               "confidence": 92
             }
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_1498421c05baa37bd766292e"
+                "local_6c7d384646d5dd747e856330"
               ],
               "confidence": 86
             },
@@ -103,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_907277de7190c36738aee9e7"
+                "local_c1c3e42c03101be30683f846"
               ],
               "confidence": 90
             },
@@ -149,22 +149,21 @@
         "local_44d3a5188fa1f40fd329e17e",
         "local_92b0ace507beebd1ef59b665",
         "local_ad3eb395157d4d0fc01c6eb6",
-        "local_2ec2b54b4e87e57368712bee",
-        "local_839a72518f82e7deec9d6cb8",
-        "local_1498421c05baa37bd766292e",
-        "local_9b33d3b11d89f66eb5305163",
+        "local_7c9ad851e1792d88765e1e97",
+        "local_6c7d384646d5dd747e856330",
+        "local_798abfd2b4bf79def57881e3",
         "local_17cb65183bf634dc965a9766",
-        "local_72c15c6808e46b939f7cc82f",
+        "local_e34c265bd70e17fbf6710c3a",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_907277de7190c36738aee9e7",
+        "local_c1c3e42c03101be30683f846",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc",
         "local_595a2f8674f647db0c1a5a38",
         "local_75fd4bf1ad821210ea5da3d3"
       ],
-      "generatedAt": "2026-10-24T09:15:51.757Z",
+      "generatedAt": "2026-10-24T13:27:12.875Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -198,7 +197,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_839a72518f82e7deec9d6cb8"
+                "local_7c9ad851e1792d88765e1e97"
               ],
               "confidence": 92
             },
@@ -208,7 +207,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9b33d3b11d89f66eb5305163"
+                "local_798abfd2b4bf79def57881e3"
               ],
               "confidence": 92
             },
@@ -228,7 +227,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_72c15c6808e46b939f7cc82f"
+                "local_e34c265bd70e17fbf6710c3a"
               ],
               "confidence": 92
             },
@@ -253,7 +252,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_1498421c05baa37bd766292e"
+                "local_6c7d384646d5dd747e856330"
               ],
               "confidence": 86
             },
@@ -263,7 +262,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_907277de7190c36738aee9e7"
+                "local_c1c3e42c03101be30683f846"
               ],
               "confidence": 90
             },
@@ -306,26 +305,26 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_839a72518f82e7deec9d6cb8",
-        "local_1498421c05baa37bd766292e",
-        "local_9b33d3b11d89f66eb5305163",
+        "local_7c9ad851e1792d88765e1e97",
+        "local_6c7d384646d5dd747e856330",
+        "local_798abfd2b4bf79def57881e3",
         "local_17cb65183bf634dc965a9766",
-        "local_72c15c6808e46b939f7cc82f",
+        "local_e34c265bd70e17fbf6710c3a",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_907277de7190c36738aee9e7",
+        "local_c1c3e42c03101be30683f846",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc",
         "local_595a2f8674f647db0c1a5a38"
       ],
-      "generatedAt": "2026-10-24T09:15:51.757Z",
+      "generatedAt": "2026-10-24T13:27:12.876Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-24T09:15:51.757Z",
+  "generatedAt": "2026-10-24T13:27:12.876Z",
   "collectorName": "local-source-collector"
 }
