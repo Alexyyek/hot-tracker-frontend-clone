@@ -15,8 +15,8 @@
         "跟进：Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
         "跟进：Securing our frontier model training environment",
         "跟进：华为云RDS Supabase AI应用已开放公测 :30分钟搭建AI应用后端",
-        "跟进：Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
-        "跟进：IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems"
+        "跟进：EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+        "跟进：Diffusion Language Models Change Speed Across Tasks and Languages"
       ],
       "sections": [
         {
@@ -43,6 +43,16 @@
               "confidence": 86
             },
             {
+              "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+              "summary": "Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We as…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_35bd8cf7057bcd2847734af6"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
               "summary": "Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neu…",
               "insightLabel": "关注",
@@ -53,24 +63,14 @@
               "confidence": 92
             },
             {
-              "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
-              "summary": "Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's …",
+              "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+              "summary": "来自Hugging Face的本地采集条目。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_783f384059d00b6586d3a114"
+                "local_676fd0df13b16f7dcb9ee8c0"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-              "summary": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2557e5072f69c9879a5c60dd"
-              ],
-              "confidence": 92
+              "confidence": 90
             }
           ]
         },
@@ -86,6 +86,16 @@
                 "local_a3c5c58fc2c37840b99c75ab"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+              "summary": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements ac…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_4da777149fa8fe00e8c6f5c1"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -93,14 +103,14 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
-              "summary": "We present HyperDrone, an extremely fast quadrotor simulator focused on high-performance batch rendering that is more than 20x faster than existing state-of-the-art batch quadrotor simulators. HyperDrone combines highly optimized multirotor dynamics with HyperLux, a new ray-trac…",
+              "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+              "summary": "Diffusion language models can write several tokens in one forward pass, and they decide during generation how many passes to spend. Two outputs of the same token length can therefore vary a lot in cost. To understand the underlying factors of this cost variation, we analyze two …",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_4ab620037c73407746778722"
+                "local_bd0a1b858b6b4b1f6217813a"
               ],
-              "confidence": 86
+              "confidence": 92
             }
           ]
         },
@@ -124,10 +134,10 @@
         "local_d771a21d04c62d4b16604ad5",
         "local_a3c5c58fc2c37840b99c75ab",
         "local_8b768461835e3c4ff27315c7",
+        "local_35bd8cf7057bcd2847734af6",
+        "local_bd0a1b858b6b4b1f6217813a",
+        "local_4da777149fa8fe00e8c6f5c1",
         "local_b3e9688e84a202a8af7b0c20",
-        "local_783f384059d00b6586d3a114",
-        "local_2557e5072f69c9879a5c60dd",
-        "local_4ab620037c73407746778722",
         "local_676fd0df13b16f7dcb9ee8c0",
         "local_942a819153c1c976f4763c43",
         "local_b914216a3381425306c9c12b",
@@ -136,7 +146,7 @@
         "local_381914ce47fb9d66dfb13776",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-23T21:29:02.349Z",
+      "generatedAt": "2026-10-24T00:07:33.922Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -222,13 +232,13 @@
         "local_8b768461835e3c4ff27315c7",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-23T21:29:02.349Z",
+      "generatedAt": "2026-10-24T00:07:33.922Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-23T21:29:02.349Z",
+  "generatedAt": "2026-10-24T00:07:33.922Z",
   "collectorName": "local-source-collector"
 }
