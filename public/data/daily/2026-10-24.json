@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「AI makes junior patent attorneys instantly better but may quietly stunt their professional growth」、「OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI makes junior patent attorneys instantly better but may quietly stunt their professional growth」、「OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache",
@@ -16,7 +16,7 @@
         "跟进：OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache",
         "跟进：Fancy harnesses make coding agents more expensive but not better, study finds",
         "跟进：生产级大模型平台工程实战手册",
-        "跟进：Introducing Kimi K3.1 Pro"
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -78,6 +78,16 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_dfdbce947f886180b1e18697"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Introducing Kimi K3.1 Pro",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version th…",
               "insightLabel": "关注",
@@ -105,11 +115,12 @@
         "local_4cd5b115bbf8a44158b0b9b9",
         "local_8ecdf95ecb0fc3cc8a7c2043",
         "local_0241c7ab18e0b896469ad666",
+        "local_dfdbce947f886180b1e18697",
         "local_5b9c90774602b28f5d1ec9ad",
         "local_ee1a9bab445b9faba24dd34e",
         "local_f9e9d96bd365eab81c628566"
       ],
-      "generatedAt": "2026-10-25T00:26:47.813Z",
+      "generatedAt": "2026-10-25T05:23:42.404Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -165,13 +176,13 @@
         "local_0241c7ab18e0b896469ad666",
         "local_f9e9d96bd365eab81c628566"
       ],
-      "generatedAt": "2026-10-25T00:26:47.813Z",
+      "generatedAt": "2026-10-25T05:23:42.404Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-25T00:26:47.813Z",
+  "generatedAt": "2026-10-25T05:23:42.404Z",
   "collectorName": "local-source-collector"
 }
