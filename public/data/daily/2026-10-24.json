@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI makes junior patent attorneys instantly better but may quietly stunt their professional growth」、「OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「AI makes junior patent attorneys instantly better but may quietly stunt their professional growth」、「生产级大模型平台工程实战手册」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Fancy harnesses make coding agents more expensive but not better, study finds"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：生产级大模型平台工程实战手册",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
       ],
       "watchItems": [
         "跟进：AI makes junior patent attorneys instantly better but may quietly stunt their professional growth",
-        "跟进：OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache",
-        "跟进：Fancy harnesses make coding agents more expensive but not better, study finds",
         "跟进：生产级大模型平台工程实战手册",
-        "跟进：LLM Rankings"
+        "跟进：LLM Rankings",
+        "跟进：Introducing Kimi K3.1 Pro",
+        "跟进：Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
       ],
       "sections": [
         {
@@ -33,26 +33,6 @@
               "confidence": 74
             },
             {
-              "title": "OpenAI&#039;s isolated AI agents found ways to talk to each other through CPU cache",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still foun…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4cd5b115bbf8a44158b0b9b9"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8ecdf95ecb0fc3cc8a7c2043"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "生产级大模型平台工程实战手册",
               "summary": "大模型平台架构:网关、协调器、专家智能体、各团队独立 MCP ... InfoQ 翻译,未经许可禁止转载.END转发,点赞,在看,安排一...",
               "insightLabel": "关注",
@@ -61,16 +41,6 @@
                 "local_0241c7ab18e0b896469ad666"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic fr…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ee1a9bab445b9faba24dd34e"
-              ],
-              "confidence": 90
             }
           ]
         },
@@ -112,15 +82,12 @@
       ],
       "referencedFeedItemIds": [
         "local_42fc3a3249fcdd2721998b8b",
-        "local_4cd5b115bbf8a44158b0b9b9",
-        "local_8ecdf95ecb0fc3cc8a7c2043",
         "local_0241c7ab18e0b896469ad666",
         "local_dfdbce947f886180b1e18697",
         "local_5b9c90774602b28f5d1ec9ad",
-        "local_ee1a9bab445b9faba24dd34e",
         "local_f9e9d96bd365eab81c628566"
       ],
-      "generatedAt": "2026-10-25T05:23:42.404Z",
+      "generatedAt": "2026-10-25T10:15:16.546Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -176,13 +143,13 @@
         "local_0241c7ab18e0b896469ad666",
         "local_f9e9d96bd365eab81c628566"
       ],
-      "generatedAt": "2026-10-25T05:23:42.404Z",
+      "generatedAt": "2026-10-25T10:15:16.546Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-25T05:23:42.404Z",
+  "generatedAt": "2026-10-25T10:15:16.546Z",
   "collectorName": "local-source-collector"
 }

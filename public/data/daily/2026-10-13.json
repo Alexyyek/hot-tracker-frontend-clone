@@ -5,12 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-10-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录」、「开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病"
       ],
       "watchItems": [
-        "跟进：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录"
+        "跟进：我们放弃了＂全自动生成代码＂ &mdash;&mdash; 网盘 Coding Agent 落地与迭代实录",
+        "跟进：开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病"
       ],
       "sections": [
         {
@@ -22,7 +24,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6e48940554cc3f020f7ec216"
+                "local_6afcbdd7d0f7693d64d94131"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "开源「红绿灯」提示语,解决Agent刹不住车浪费token额度的老毛病",
+              "summary": "想要在每个Agent每个AI每个对话都可以自动生效,那就不依靠skill,手搓一个提示语再加一个hook这样我们就可以脱离认知陷阱....",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ba150fb2eca64c3900a2a9da"
               ],
               "confidence": 92
             }
@@ -30,9 +42,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6e48940554cc3f020f7ec216"
+        "local_6afcbdd7d0f7693d64d94131",
+        "local_ba150fb2eca64c3900a2a9da"
       ],
-      "generatedAt": "2026-10-25T05:23:42.464Z",
+      "generatedAt": "2026-10-25T10:15:16.692Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -60,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6e48940554cc3f020f7ec216"
+                "local_6afcbdd7d0f7693d64d94131"
               ],
               "confidence": 92
             }
@@ -68,15 +81,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_6e48940554cc3f020f7ec216"
+        "local_6afcbdd7d0f7693d64d94131"
       ],
-      "generatedAt": "2026-10-25T05:23:42.464Z",
+      "generatedAt": "2026-10-25T10:15:16.692Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-25T05:23:42.464Z",
+  "generatedAt": "2026-10-25T10:15:16.692Z",
   "collectorName": "local-source-collector"
 }
