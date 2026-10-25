@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「金句抢先看」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面向 Qwen 系列模型线性注意力的高性能优化实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
+        "跟进：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
         "跟进：金句抢先看",
-        "跟进：面向 Qwen 系列模型线性注意力的高性能优化实践",
-        "跟进：Moonshot AI - 博客",
-        "跟进：Architecting Governed, Self-Evolving AI Agents on Google Cloud"
+        "跟进：面向 Qwen 系列模型线性注意力的高性能优化实践"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_82dfa618a766509f413d3578"
+                "local_e8345f71cd510aa6cbae9240"
               ],
               "confidence": 78
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_76cb50fea7cc5e40a3d872c3"
+                "local_28469c58703cd1c678065ce8"
               ],
               "confidence": 70
             }
@@ -48,12 +48,32 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
+              "summary": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_43cb8b9e56fab267cd6bdd73"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+              "summary": "智能体 AI 正在改变 CPU 性能的评价逻辑。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_357a55c75615a48023e0a14c"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "金句抢先看",
               "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b7e1d909f11792810035a58d"
+                "local_d74c842eb43a69f21d65fc9e"
               ],
               "confidence": 74
             },
@@ -76,26 +96,6 @@
                 "local_ec7180ac1f000e49e8e0114a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Announcing New vLLM and SGLang Inference Engines on TPU",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source projec…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8b10c6f343b383bfb1dfa84c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Remote control for local agents · Cursor",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See and reply to the local agents running on your computer from the Cursor iOS app.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e72483186f87fe11a8002381"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_119b6298977fc4124ee906ea"
+                "local_95e80da3154d6a5f6eb2f255"
               ],
               "confidence": 92
             },
@@ -118,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_06cf8147400921c2f21e681a"
+                "local_a85675f0c7cf12fcbb9874c5"
               ],
               "confidence": 78
             },
@@ -138,7 +138,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_503ff1d162c0969775ab2c36"
+                "local_d3898c76b2428c0f03b88a8d"
               ],
               "confidence": 82
             },
@@ -148,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_43b165848e969cc539666944"
+                "local_ad36b07cc72a6cf1c9b6ac87"
               ],
               "confidence": 92
             }
@@ -156,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_82dfa618a766509f413d3578",
-        "local_b7e1d909f11792810035a58d",
-        "local_119b6298977fc4124ee906ea",
-        "local_06cf8147400921c2f21e681a",
+        "local_e8345f71cd510aa6cbae9240",
+        "local_43cb8b9e56fab267cd6bdd73",
+        "local_357a55c75615a48023e0a14c",
+        "local_d74c842eb43a69f21d65fc9e",
+        "local_95e80da3154d6a5f6eb2f255",
+        "local_a85675f0c7cf12fcbb9874c5",
         "local_3f1903f98915a7ac919e78ea",
         "local_ec7180ac1f000e49e8e0114a",
         "local_8b10c6f343b383bfb1dfa84c",
         "local_54bd777ce07a226e51e88923",
-        "local_e72483186f87fe11a8002381",
-        "local_31b97ce98167bc138244772c",
-        "local_4ca9f0d630f72da1e14f6dc9",
-        "local_9af8ee20de9429c1aa522dcf",
-        "local_503ff1d162c0969775ab2c36",
-        "local_16275ae8c77da32aa5a17a30",
-        "local_5c7f4fbc75e85911d1e7dbd5",
-        "local_ecd1704507aeee0ca7e1c344",
-        "local_43b165848e969cc539666944",
-        "local_7112c81bb95ca9e83db9c9df",
-        "local_76cb50fea7cc5e40a3d872c3",
-        "local_231dc340ed309b25a687f1d1",
-        "local_daf9ddad10c4dd22592fe185",
-        "local_f3456ecd3b869770fc4e0220",
-        "local_77ce9a7f4af980242a8a02e1",
-        "local_864ecf91294d3538bca24c27"
+        "local_4f4f54ae715b07a975e88292",
+        "local_289b2cf0574529cba1c95844",
+        "local_78e2b75a073c1216cd078d6b",
+        "local_2aebb51c8bcc3a49b89b60ed",
+        "local_d3898c76b2428c0f03b88a8d",
+        "local_12d8523ad17b553b9c830eec",
+        "local_fd339ecb7e6d98828b612123",
+        "local_da50d8537a7c6a7ecab1a7cc",
+        "local_ad36b07cc72a6cf1c9b6ac87",
+        "local_4443d102cf7587b9c328d8b8",
+        "local_28469c58703cd1c678065ce8",
+        "local_c6ba6f8c146f151290d52877",
+        "local_6098d5b5e3baff414e5694d5",
+        "local_3cc2f67138fc75e82b98c948"
       ],
-      "generatedAt": "2026-10-25T20:54:14.036Z",
+      "generatedAt": "2026-10-25T23:19:57.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,18 +192,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「金句抢先看」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：金句抢先看",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：面向 Qwen 系列模型线性注意力的高性能优化实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU"
       ],
       "watchItems": [
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
+        "跟进：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
         "跟进：金句抢先看",
-        "跟进：面向 Qwen 系列模型线性注意力的高性能优化实践",
-        "跟进：Moonshot AI - 博客",
-        "跟进：Architecting Governed, Self-Evolving AI Agents on Google Cloud"
+        "跟进：面向 Qwen 系列模型线性注意力的高性能优化实践"
       ],
       "sections": [
         {
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_82dfa618a766509f413d3578"
+                "local_e8345f71cd510aa6cbae9240"
               ],
               "confidence": 78
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_76cb50fea7cc5e40a3d872c3"
+                "local_28469c58703cd1c678065ce8"
               ],
               "confidence": 70
             }
@@ -235,12 +235,32 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
+              "summary": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_43cb8b9e56fab267cd6bdd73"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+              "summary": "智能体 AI 正在改变 CPU 性能的评价逻辑。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_357a55c75615a48023e0a14c"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "金句抢先看",
               "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b7e1d909f11792810035a58d"
+                "local_d74c842eb43a69f21d65fc9e"
               ],
               "confidence": 74
             },
@@ -263,26 +283,6 @@
                 "local_ec7180ac1f000e49e8e0114a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Announcing New vLLM and SGLang Inference Engines on TPU",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：This post announces native PyTorch backends for vLLM and SGLang powered by TorchTPU, enabling developers to run and optimize serving workloads using familiar PyTorch tools. Built in collaboration with open-source projec…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8b10c6f343b383bfb1dfa84c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "EdgeBench: Unveiling Scaling Laws of Learning from Real-World Environments - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Pretraining scaling laws reveal that model capability improves predictably with data and compute. But learning from real world environments after deployment remains far less understood. Analyzing roughly 38,000 hours of…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7112c81bb95ca9e83db9c9df"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -295,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_119b6298977fc4124ee906ea"
+                "local_95e80da3154d6a5f6eb2f255"
               ],
               "confidence": 92
             },
@@ -305,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_06cf8147400921c2f21e681a"
+                "local_a85675f0c7cf12fcbb9874c5"
               ],
               "confidence": 78
             },
@@ -325,7 +325,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_43b165848e969cc539666944"
+                "local_ad36b07cc72a6cf1c9b6ac87"
               ],
               "confidence": 92
             }
@@ -333,30 +333,30 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_82dfa618a766509f413d3578",
-        "local_b7e1d909f11792810035a58d",
-        "local_119b6298977fc4124ee906ea",
-        "local_06cf8147400921c2f21e681a",
+        "local_e8345f71cd510aa6cbae9240",
+        "local_43cb8b9e56fab267cd6bdd73",
+        "local_357a55c75615a48023e0a14c",
+        "local_d74c842eb43a69f21d65fc9e",
+        "local_95e80da3154d6a5f6eb2f255",
+        "local_a85675f0c7cf12fcbb9874c5",
         "local_3f1903f98915a7ac919e78ea",
         "local_ec7180ac1f000e49e8e0114a",
         "local_8b10c6f343b383bfb1dfa84c",
         "local_54bd777ce07a226e51e88923",
-        "local_43b165848e969cc539666944",
-        "local_7112c81bb95ca9e83db9c9df",
-        "local_76cb50fea7cc5e40a3d872c3",
-        "local_231dc340ed309b25a687f1d1",
-        "local_daf9ddad10c4dd22592fe185",
-        "local_f3456ecd3b869770fc4e0220",
-        "local_77ce9a7f4af980242a8a02e1",
-        "local_864ecf91294d3538bca24c27"
+        "local_ad36b07cc72a6cf1c9b6ac87",
+        "local_4443d102cf7587b9c328d8b8",
+        "local_28469c58703cd1c678065ce8",
+        "local_c6ba6f8c146f151290d52877",
+        "local_6098d5b5e3baff414e5694d5",
+        "local_3cc2f67138fc75e82b98c948"
       ],
-      "generatedAt": "2026-10-25T20:54:14.036Z",
+      "generatedAt": "2026-10-25T23:19:57.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-25T20:54:14.037Z",
+  "generatedAt": "2026-10-25T23:19:57.684Z",
   "collectorName": "local-source-collector"
 }
