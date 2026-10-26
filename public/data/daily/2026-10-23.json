@@ -5,23 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-10-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Using AI Agents to Teach Robots Like Microduck to Walk in Simulation」、「Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「HarnessMM: Recursive Self-Improvement for Harness Token Efficiency」、「Using AI Agents to Teach Robots Like Microduck to Walk in Simulation」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Securing our frontier model training environment"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents"
       ],
       "watchItems": [
+        "跟进：HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
         "跟进：Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+        "跟进：StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
         "跟进：Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
-        "跟进：Securing our frontier model training environment",
-        "跟进：From Faulty Claims to Incorrect Patches: An Empirical Study of Task-Grounded Reasoning in Coding Agents",
-        "跟进：Large-Scale Study of GitHub Copilot Trajectories"
+        "跟进：Securing our frontier model training environment"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
+              "summary": "Agent harnesses repeatedly invoke reasoning after tool feedback, even when an earlier call has already fixed the next action. We introduce HarnessMM (Harness Minus Minus), a method for improving harness token efficiency through guarded decision reuse and recursive self-improveme…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d6a1f21d2a094128b0395881"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...",
@@ -31,6 +41,16 @@
                 "local_d771a21d04c62d4b16604ad5"
               ],
               "confidence": 70
+            },
+            {
+              "title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
+              "summary": "Large language model (LLM)-based coding agents may propose invalid actions that are not applicable in the execution environment, such as accessing non-existent paths or missing packages. We term this mismatch hallucinated tool use. A preliminary study of 4,398 agent trajectories…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f388576619664bf4d53bb014"
+              ],
+              "confidence": 92
             },
             {
               "title": "Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
@@ -51,26 +71,6 @@
                 "local_253c5d7d39b627d34cd74da6"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Large-Scale Study of GitHub Copilot Trajectories",
-              "summary": "AI coding agents are increasingly integrated into software development workflows. However, most coding agent studies rely on benchmarks similar to SWE-bench, which assume autonomous agents operating in a single trajectory. This assumption does not mirror real-world usage, where …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_de0446cfa41a8e37e62aab4b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
-              "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0e4c794ece18d4cd573a345e"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -84,16 +84,6 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_a3c5c58fc2c37840b99c75ab"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
-              "summary": "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_5088157e7d93786fe62eebef"
               ],
               "confidence": 92
             }
@@ -116,21 +106,18 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_d6a1f21d2a094128b0395881",
         "local_d771a21d04c62d4b16604ad5",
+        "local_f388576619664bf4d53bb014",
         "local_7b27e324fde944cfe3811f56",
         "local_a3c5c58fc2c37840b99c75ab",
         "local_253c5d7d39b627d34cd74da6",
-        "local_de0446cfa41a8e37e62aab4b",
-        "local_0e4c794ece18d4cd573a345e",
         "local_10c4771381bf369fc437caf4",
-        "local_2a4289e2bc6507d878cfe2a7",
-        "local_5088157e7d93786fe62eebef",
-        "local_35bd8cf7057bcd2847734af6",
         "local_676fd0df13b16f7dcb9ee8c0",
         "local_b914216a3381425306c9c12b",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-26T01:47:46.789Z",
+      "generatedAt": "2026-10-26T07:52:25.468Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -216,13 +203,13 @@
         "local_10c4771381bf369fc437caf4",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-26T01:47:46.789Z",
+      "generatedAt": "2026-10-26T07:52:25.468Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-26T01:47:46.789Z",
+  "generatedAt": "2026-10-26T07:52:25.468Z",
   "collectorName": "local-source-collector"
 }
