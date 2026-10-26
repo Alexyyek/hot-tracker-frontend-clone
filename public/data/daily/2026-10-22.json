@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-10-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark」、「Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Quoting Armin Ronacher」、「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Armin Ronacher"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Armin Ronacher",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业AI需要两个世界模型"
       ],
       "watchItems": [
-        "跟进：AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
-        "跟进：Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
         "跟进：Quoting Armin Ronacher",
         "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
-        "跟进：企业AI需要两个世界模型"
+        "跟进：企业AI需要两个世界模型",
+        "跟进：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
+        "跟进：别再给企业造 Agent 了,他们并不需要"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
-              "summary": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_44d3a5188fa1f40fd329e17e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
-              "summary": "Reusable skills allow large language model agents to package task-specific procedures, tool affordances, and execution guidance into modular units. Prior work has largely studied how agents retrieve, compose, or synthesize skills before execution. In coding agents, however, exec…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_92b0ace507beebd1ef59b665"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
-              "summary": "文|王欣逸编辑|张雨忻《智能涌现》独家获悉,近日,由上海交大... 让Agent自己去优化推理引擎,提高硬件利用率和Token生产效率...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d51eb978c4cebe59134b0cff"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
-              "summary": "针对这一问题,阿里巴巴 Alibaba Token Hub (ATH) Token ... 是实现智能体自进化的一条重要路线.在技能&mdash;策略协同进化中,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8cfecd54bb98da4ca117aa04"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "别再给企业造 Agent 了,他们并不需要",
-              "summary": "Grok Bot:变身「云端AI团队」同题硬刚两款国产Agent未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进行转载!",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_570f8bf0f4edba7a5a7a884b"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -103,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_aa468a959d9c14855f651bb4"
+                "local_04322a59e47bcd3098c90074"
               ],
               "confidence": 90
             },
@@ -130,6 +75,61 @@
           ]
         },
         {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
+              "summary": "文|王欣逸编辑|张雨忻《智能涌现》独家获悉,近日,由上海交大... 让Agent自己去优化推理引擎,提高硬件利用率和Token生产效率...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_473ba9a3c55203ab846a70a4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
+              "summary": "针对这一问题,阿里巴巴 Alibaba Token Hub (ATH) Token ... 是实现智能体自进化的一条重要路线.在技能&mdash;策略协同进化中,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_495e34a904d1f15a2c090cbe"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "别再给企业造 Agent 了,他们并不需要",
+              "summary": "Grok Bot:变身「云端AI团队」同题硬刚两款国产Agent未经「AI科技评论」授权,严禁以任何方式在网页、论坛、社区进行转载!",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_47ab4f01a366081399eadc82"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "高德千舆空间智能开放平台,开箱即用的空间智能Agent",
+              "summary": "依托高德二十年积累的空间数据与技术能力,高德千舆将真实空间数据、专业空间计算与 AI Agent 深度融合,构建面向千行百业的空...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5f4a4621aed4ad52a91fe964"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing MiniMax Code Mini App",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent’s work on a page that stays live.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85306e884a648ecd1bd36659"
+              ],
+              "confidence": 74
+            }
+          ]
+        },
+        {
           "title": "产品与工具",
           "items": [
             {
@@ -146,24 +146,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_44d3a5188fa1f40fd329e17e",
-        "local_92b0ace507beebd1ef59b665",
         "local_ad3eb395157d4d0fc01c6eb6",
-        "local_d51eb978c4cebe59134b0cff",
+        "local_473ba9a3c55203ab846a70a4",
         "local_7087992fe5762c01b62d61ca",
-        "local_8cfecd54bb98da4ca117aa04",
-        "local_570f8bf0f4edba7a5a7a884b",
-        "local_1bdd5932ee179ad157a03b19",
+        "local_495e34a904d1f15a2c090cbe",
+        "local_47ab4f01a366081399eadc82",
+        "local_5f4a4621aed4ad52a91fe964",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_aa468a959d9c14855f651bb4",
+        "local_04322a59e47bcd3098c90074",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc",
         "local_595a2f8674f647db0c1a5a38",
         "local_75fd4bf1ad821210ea5da3d3"
       ],
-      "generatedAt": "2026-10-25T23:19:57.704Z",
+      "generatedAt": "2026-10-26T01:47:46.802Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -197,7 +195,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d51eb978c4cebe59134b0cff"
+                "local_473ba9a3c55203ab846a70a4"
               ],
               "confidence": 92
             },
@@ -207,7 +205,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8cfecd54bb98da4ca117aa04"
+                "local_495e34a904d1f15a2c090cbe"
               ],
               "confidence": 92
             },
@@ -217,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_570f8bf0f4edba7a5a7a884b"
+                "local_47ab4f01a366081399eadc82"
               ],
               "confidence": 92
             },
@@ -227,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1bdd5932ee179ad157a03b19"
+                "local_5f4a4621aed4ad52a91fe964"
               ],
               "confidence": 92
             },
@@ -262,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_aa468a959d9c14855f651bb4"
+                "local_04322a59e47bcd3098c90074"
               ],
               "confidence": 90
             },
@@ -305,26 +303,26 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d51eb978c4cebe59134b0cff",
+        "local_473ba9a3c55203ab846a70a4",
         "local_7087992fe5762c01b62d61ca",
-        "local_8cfecd54bb98da4ca117aa04",
-        "local_570f8bf0f4edba7a5a7a884b",
-        "local_1bdd5932ee179ad157a03b19",
+        "local_495e34a904d1f15a2c090cbe",
+        "local_47ab4f01a366081399eadc82",
+        "local_5f4a4621aed4ad52a91fe964",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_aa468a959d9c14855f651bb4",
+        "local_04322a59e47bcd3098c90074",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc",
         "local_595a2f8674f647db0c1a5a38"
       ],
-      "generatedAt": "2026-10-25T23:19:57.704Z",
+      "generatedAt": "2026-10-26T01:47:46.802Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-25T23:19:57.704Z",
+  "generatedAt": "2026-10-26T01:47:46.802Z",
   "collectorName": "local-source-collector"
 }
