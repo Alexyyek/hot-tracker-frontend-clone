@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a997c33b0e40ad04c79f284a"
+                "local_67a754efa9de6f01d41dcb65"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b7a53ef1499e3cf5ab820d0d"
+                "local_18738009d0a605b392c73cc1"
               ],
               "confidence": 92
             }
@@ -93,16 +93,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_02a8cf3d0a8a391b7ed79603"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
               "summary": "来自Hugging Face的本地采集条目。",
               "insightLabel": "关注",
@@ -118,16 +108,6 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "eMudhra Intermediate CA Compromise",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chro…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_eda1aeec87d486329738afdb"
-              ],
-              "confidence": 74
-            },
-            {
               "title": "New Gemini tools for small business owners",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：We’re announcing new tools for Gemini — including a dedicated business landing page — to help small business owners around the world.",
               "insightLabel": "关注",
@@ -141,23 +121,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a997c33b0e40ad04c79f284a",
+        "local_67a754efa9de6f01d41dcb65",
         "local_8437f8f89f0d6aab86c6429a",
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
         "local_4c056608ecf8a3fd5aef93c5",
-        "local_b7a53ef1499e3cf5ab820d0d",
+        "local_18738009d0a605b392c73cc1",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_edfbae26ae1d612f6f3f4dbc",
         "local_a8dd467885122af014d9028e",
         "local_d209a046c8156e43bde732b5",
-        "local_02a8cf3d0a8a391b7ed79603",
-        "local_7cb5805098d9de5417302fb5",
-        "local_eda1aeec87d486329738afdb",
+        "local_3284530dc9336958778e80cc",
         "local_455af1544bb903626a91cccd",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-26T15:17:51.725Z",
+      "generatedAt": "2026-10-26T20:53:40.685Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -168,7 +146,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-21",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
@@ -191,7 +169,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a997c33b0e40ad04c79f284a"
+                "local_67a754efa9de6f01d41dcb65"
               ],
               "confidence": 92
             },
@@ -231,24 +209,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b7a53ef1499e3cf5ab820d0d"
+                "local_18738009d0a605b392c73cc1"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_02a8cf3d0a8a391b7ed79603"
-              ],
-              "confidence": 86
             }
           ]
         },
@@ -269,26 +232,25 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a997c33b0e40ad04c79f284a",
+        "local_67a754efa9de6f01d41dcb65",
         "local_1403b73078fb967fe4ab2562",
         "local_fd9c339b71802e20ec3e9271",
         "local_4c056608ecf8a3fd5aef93c5",
-        "local_b7a53ef1499e3cf5ab820d0d",
+        "local_18738009d0a605b392c73cc1",
         "local_2dfa26c6f8d3e941d1a5edfb",
         "local_edfbae26ae1d612f6f3f4dbc",
         "local_a8dd467885122af014d9028e",
         "local_d209a046c8156e43bde732b5",
-        "local_02a8cf3d0a8a391b7ed79603",
-        "local_7cb5805098d9de5417302fb5",
+        "local_3284530dc9336958778e80cc",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-26T15:17:51.726Z",
+      "generatedAt": "2026-10-26T20:53:40.685Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-26T15:17:51.726Z",
+  "generatedAt": "2026-10-26T20:53:40.685Z",
   "collectorName": "local-source-collector"
 }
