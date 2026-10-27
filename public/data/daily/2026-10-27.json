@@ -5,42 +5,117 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「The Counting House」、「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Former Deepmind researcher thinks AlphaGo&#039;s playbook can cure AI hallucinations"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：The Counting House",
+        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+        "跟进：Former Deepmind researcher thinks AlphaGo&#039;s playbook can cure AI hallucinations",
         "跟进：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-        "跟进：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-        "跟进：金句抢先看",
-        "跟进：30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？"
+        "跟进：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?"
       ],
       "sections": [
         {
           "title": "行业与公司",
           "items": [
             {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "title": "The Counting House",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Two very different ways of deploying AI: Wheelhouse and Counting HouseI think a pattern is starting to emerge in enterprise AI-modernization, and I’ve been collecting the design ideas into an assembly I call the Countin…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c43fe5f1551d2c95ba4e839f"
+                "local_2ed73d8606e4e92aff2d65b5"
               ],
-              "confidence": 78
+              "confidence": 92
             },
             {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
+              "summary": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation drift: models maintain predictive accuracy while silently shifting attention from diagnostic features to spurious correlations. This work identifies and resolves…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_5b2633bbaa5d45f4c0f1d194"
+                "local_abdb224ab370d04e7993d198"
               ],
-              "confidence": 70
+              "confidence": 92
+            },
+            {
+              "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
+              "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_31362a542a7cc539cc60f02c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "GPT-6.1 Terra",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_359d779cf00ccf9b40ce61b4"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Anthropic is the first major AI lab to file an S-1 with the SEC, planning to list on the Nasdaq under the ticker \"ANT.\" The numbers are strong, with $11.6 billion in quarterly revenue, a first-ever operating profit, and…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_42a9f51c73d8304ad8f3feb8"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_822d021651bea6e38833022f"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Former Deepmind researcher thinks AlphaGo&#039;s playbook can cure AI hallucinations",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Former Deepmind researcher Thore Graepel wants his startup Metis Reasoning to bring AlphaGo's search principle to general reasoning. Instead of locking knowledge inside model weights, an explicit knowledge ledger would …",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_44cc399b3ed0b338c0ffa934"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Quoting Jason Koebler",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasi…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_0c9a5f50ce05a605a187d107"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "webframe: evaluated as a scraper and a sandbox",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_cb70c21224605c1caae243ce"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -58,120 +133,73 @@
               "confidence": 92
             },
             {
-              "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-              "summary": "智能体 AI 正在改变 CPU 性能的评价逻辑。",
+              "title": "论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
+              "summary": "用双模式策略让智能体＂会分工＂、Reliable-V-RL 用可靠性奖励... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_490b0febfc752d4e49a354b0"
+                "local_351f1eab9fb568c673eb308e"
               ],
               "confidence": 92
             },
             {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+              "title": "OpenAI&#039;s Ted Sanders shares a rule of thumb for picking the right GPT-model",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI's Ted Sanders explains where GPT-6.1 Terra fits in the company's GPT lineup. The smaller model outperforms the larger Astra in technical communication and costs far less but trails it in most other areas. Sanders…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8d1c12f29d56882b8f2203aa"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-              "summary": "今年最大的一个变化是，企业做 Agent 的门槛越来越低，但做出一个能完成任务的 Agent，与让它在业务中持续稳定运行，还存在一定的距离。因为当 Agent 数量和使用频率放大后，很多原本不显眼的问题也会跟着放大。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9d52fce0e0850132bbd50851"
+                "local_efa50e037b6dc973c0d6c291"
               ],
               "confidence": 86
             },
             {
-              "title": "Preview, edit, and collaborate on markdown (.md) files natively in Google Docs and Drive",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Workspace now offers native support for Markdown (.md) files, allowing developers and AI agents to seamlessly collaborate on documentation directly in Google Docs without manual file conversions. This integration…",
+              "title": "Personal Agent 对比分析及未来技术发展趋势",
+              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_506652f71aac5b8e46870113"
+                "local_c11755bdca51a25ae64ee3dd"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ia is buying into its customer Meta, which plans to run more of its AI agents on Nvidia hardware. The article Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips appeared first on The Decoder.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_224446fa004a122eb27c5041"
               ],
               "confidence": 78
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a78793495265ecc86b402e85"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e8a80c44ec5c168f67c9646d"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_12aadc8eda2cd7f9bc3c4214"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_c2348a9e710285b756d7ef2e"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c43fe5f1551d2c95ba4e839f",
+        "local_2ed73d8606e4e92aff2d65b5",
+        "local_822d021651bea6e38833022f",
+        "local_44cc399b3ed0b338c0ffa934",
         "local_7684d8d83acaaf608077f5b8",
-        "local_490b0febfc752d4e49a354b0",
-        "local_8d1c12f29d56882b8f2203aa",
-        "local_9d52fce0e0850132bbd50851",
-        "local_a78793495265ecc86b402e85",
-        "local_506652f71aac5b8e46870113",
-        "local_3f1903f98915a7ac919e78ea",
-        "local_ec7180ac1f000e49e8e0114a",
-        "local_e8a80c44ec5c168f67c9646d",
-        "local_08b720030a920c2b9c2e6f0e",
-        "local_d6936b2cdcd3ee578636cb9f",
-        "local_fd6a68271125f85f4a0817bc",
-        "local_5cc52592c96d4fd2eaea39ef",
-        "local_12aadc8eda2cd7f9bc3c4214",
-        "local_b72285bc18dc22281a9e00f3",
-        "local_7f1b54993d12c5d3574c23c9",
-        "local_5e0c4426e9a7a9325f64616c",
-        "local_c2348a9e710285b756d7ef2e",
-        "local_9b1f4e49bdb2cee16f35730d",
-        "local_5b2633bbaa5d45f4c0f1d194",
-        "local_1ce7b196eb869570ec0beaef",
-        "local_8e9259ff96bd7d3ebab13ecd",
-        "local_3cd47317257a1ae2c61575a3"
+        "local_351f1eab9fb568c673eb308e",
+        "local_efa50e037b6dc973c0d6c291",
+        "local_c11755bdca51a25ae64ee3dd",
+        "local_224446fa004a122eb27c5041",
+        "local_e754011a26ba580798c7d808",
+        "local_ca96775b4a34686f0bebd196",
+        "local_f746e9ceaf285ed99ba4f6bc",
+        "local_abdb224ab370d04e7993d198",
+        "local_31362a542a7cc539cc60f02c",
+        "local_ed9cf108307b166f136f0ef2",
+        "local_359d779cf00ccf9b40ce61b4",
+        "local_42a9f51c73d8304ad8f3feb8",
+        "local_0c9a5f50ce05a605a187d107",
+        "local_559faeb3d20d28feb82e9cd7",
+        "local_4a9e2889dd67fe7f226c1cf7",
+        "local_e191569d1ea324aa14c3306d",
+        "local_b2e8ea715c6f51525d8b3d5e",
+        "local_cb70c21224605c1caae243ce"
       ],
-      "generatedAt": "2026-10-27T11:05:12.488Z",
+      "generatedAt": "2026-10-27T16:39:29.314Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -182,42 +210,32 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-27",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics」、「“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」、「“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?"
       ],
       "watchItems": [
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
+        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "跟进：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-        "跟进：AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-        "跟进：金句抢先看",
-        "跟进：30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？"
+        "跟进：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
+        "跟进：Personal Agent 对比分析及未来技术发展趋势",
+        "跟进：Agensh:探索 1,024 个 agent 的自组织协作"
       ],
       "sections": [
         {
-          "title": "行业与公司",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c43fe5f1551d2c95ba4e839f"
+                "local_822d021651bea6e38833022f"
               ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_5b2633bbaa5d45f4c0f1d194"
-              ],
-              "confidence": 70
+              "confidence": 92
             }
           ]
         },
@@ -235,111 +253,63 @@
               "confidence": 92
             },
             {
-              "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-              "summary": "智能体 AI 正在改变 CPU 性能的评价逻辑。",
+              "title": "论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
+              "summary": "用双模式策略让智能体＂会分工＂、Reliable-V-RL 用可靠性奖励... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_490b0febfc752d4e49a354b0"
+                "local_351f1eab9fb568c673eb308e"
               ],
               "confidence": 92
             },
             {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+              "title": "Personal Agent 对比分析及未来技术发展趋势",
+              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8d1c12f29d56882b8f2203aa"
+                "local_c11755bdca51a25ae64ee3dd"
               ],
-              "confidence": 74
+              "confidence": 90
             },
             {
-              "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-              "summary": "今年最大的一个变化是，企业做 Agent 的门槛越来越低，但做出一个能完成任务的 Agent，与让它在业务中持续稳定运行，还存在一定的距离。因为当 Agent 数量和使用频率放大后，很多原本不显眼的问题也会跟着放大。",
+              "title": "Agensh:探索 1,024 个 agent 的自组织协作",
+              "summary": "智能体(AI agent)正在从独立解决问题,走向多个智能体并行协... 微软亚洲研究院的研究员们提出了自组织多智能体框架 Agensh,...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9d52fce0e0850132bbd50851"
+                "local_e754011a26ba580798c7d808"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "2026 1024 程序员日:华为云开发者活动精彩回顾",
+              "summary": "华为云开发者联盟带来展览展示、开发者圆桌、CodeLabs & ... AI Agent时代的OPC极速创新10月24日上午,\"OPC进化论深圳...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ca96775b4a34686f0bebd196"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Preview, edit, and collaborate on markdown (.md) files natively in Google Docs and Drive",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Workspace now offers native support for Markdown (.md) files, allowing developers and AI agents to seamlessly collaborate on documentation directly in Google Docs without manual file conversions. This integration…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_506652f71aac5b8e46870113"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a78793495265ecc86b402e85"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Integrating TorchTPU into TorchTitan and Optimizing Models for TPU",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：TorchTPU integrates a native torch.device(\"tpu\") backend directly into PyTorch, allowing developers to train large-scale models on Google Cloud TPUs without rewriting code in JAX. The TorchTitan TPU fork enhances this w…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e8a80c44ec5c168f67c9646d"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_c2348a9e710285b756d7ef2e"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c43fe5f1551d2c95ba4e839f",
+        "local_822d021651bea6e38833022f",
         "local_7684d8d83acaaf608077f5b8",
-        "local_490b0febfc752d4e49a354b0",
-        "local_8d1c12f29d56882b8f2203aa",
-        "local_9d52fce0e0850132bbd50851",
-        "local_a78793495265ecc86b402e85",
-        "local_506652f71aac5b8e46870113",
-        "local_3f1903f98915a7ac919e78ea",
-        "local_ec7180ac1f000e49e8e0114a",
-        "local_e8a80c44ec5c168f67c9646d",
-        "local_c2348a9e710285b756d7ef2e",
-        "local_9b1f4e49bdb2cee16f35730d",
-        "local_5b2633bbaa5d45f4c0f1d194",
-        "local_1ce7b196eb869570ec0beaef",
-        "local_8e9259ff96bd7d3ebab13ecd",
-        "local_3cd47317257a1ae2c61575a3",
-        "local_f186677fcec6b7eaade80dd2",
-        "local_2b9e172a4e1a34ab2496b925",
-        "local_9e7e8fb61b43a0fc37dabd93"
+        "local_351f1eab9fb568c673eb308e",
+        "local_c11755bdca51a25ae64ee3dd",
+        "local_e754011a26ba580798c7d808",
+        "local_ca96775b4a34686f0bebd196"
       ],
-      "generatedAt": "2026-10-27T11:05:12.488Z",
+      "generatedAt": "2026-10-27T16:39:29.314Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-27T11:05:12.488Z",
+  "generatedAt": "2026-10-27T16:39:29.314Z",
   "collectorName": "local-source-collector"
 }
