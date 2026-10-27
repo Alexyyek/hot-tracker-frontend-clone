@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「The Counting House」、「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「The Counting House」、「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
@@ -15,8 +15,8 @@
         "跟进：The Counting House",
         "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "跟进：Former Deepmind researcher thinks AlphaGo&#039;s playbook can cure AI hallucinations",
-        "跟进：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-        "跟进：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?"
+        "跟进：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
+        "跟进：OpenAI&#039;s Ted Sanders shares a rule of thumb for picking the right GPT-model"
       ],
       "sections": [
         {
@@ -33,24 +33,34 @@
               "confidence": 92
             },
             {
-              "title": "Semantic Concept Steering Breaks the Explanation Drift Loop in Continual Learning",
-              "summary": "Catastrophic forgetting in continual learning (CL) manifests not only as accuracy degradation but also as explanation drift: models maintain predictive accuracy while silently shifting attention from diagnostic features to spurious correlations. This work identifies and resolves…",
+              "title": "The Counting House — Steve Yegge",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：I think a pattern is starting to emerge in enterprise AI-modernization, and I’ve been collecting the design ideas into an assembly I call the Counting House. This pattern adds AI to systems handling large volumes of hum…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_abdb224ab370d04e7993d198"
+                "local_77899bd617301b62d29efd68"
               ],
               "confidence": 92
             },
             {
-              "title": "Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection",
-              "summary": "Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and …",
+              "title": "Early progress on accelerating drug development with Claude",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy.…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_31362a542a7cc539cc60f02c"
+                "local_2dafbab144f537d06ac2ad28"
               ],
-              "confidence": 92
+              "confidence": 70
+            },
+            {
+              "title": "Early progress on accelerating drug development with Claude",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy.…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_e488433f8a76f0dc7246c7c5"
+              ],
+              "confidence": 70
             },
             {
               "title": "GPT-6.1 Terra",
@@ -61,16 +71,6 @@
                 "local_359d779cf00ccf9b40ce61b4"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Anthropic is the first major AI lab to file an S-1 with the SEC, planning to list on the Nasdaq under the ticker \"ANT.\" The numbers are strong, with $11.6 billion in quarterly revenue, a first-ever operating profit, and…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_42a9f51c73d8304ad8f3feb8"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -123,22 +123,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-              "summary": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7684d8d83acaaf608077f5b8"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
               "summary": "用双模式策略让智能体＂会分工＂、Reliable-V-RL 用可靠性奖励... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_351f1eab9fb568c673eb308e"
+                "local_348e3ed4aeed16f33e46fcd0"
               ],
               "confidence": 92
             },
@@ -158,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c11755bdca51a25ae64ee3dd"
+                "local_d3beabdd8b836b403493d8df"
               ],
               "confidence": 90
             },
@@ -171,6 +161,31 @@
                 "local_224446fa004a122eb27c5041"
               ],
               "confidence": 78
+            },
+            {
+              "title": "Agensh:探索 1,024 个 agent 的自组织协作",
+              "summary": "智能体(AI agent)正在从独立解决问题,走向多个智能体并行协... 微软亚洲研究院的研究员们提出了自组织多智能体框架 Agensh,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_922e3dccece006a939ec5cee"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
+            {
+              "title": "Gluing Local Contexts into Global Meaning: A Sheaf-Theoretic Decomposition of Transformer Representations",
+              "summary": "Existing interpretability tools do not test whether a representation keeps the same content when only the phrasing changes. We treat each paraphrase pair as a local witness that two activations should agree and build a cellular sheaf over the paraphrase graph; its Laplacian L_F …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_6845a463e9953b7fad0d5dde"
+              ],
+              "confidence": 92
             }
           ]
         }
@@ -179,19 +194,21 @@
         "local_2ed73d8606e4e92aff2d65b5",
         "local_822d021651bea6e38833022f",
         "local_44cc399b3ed0b338c0ffa934",
-        "local_7684d8d83acaaf608077f5b8",
-        "local_351f1eab9fb568c673eb308e",
+        "local_348e3ed4aeed16f33e46fcd0",
         "local_efa50e037b6dc973c0d6c291",
-        "local_c11755bdca51a25ae64ee3dd",
+        "local_d3beabdd8b836b403493d8df",
         "local_224446fa004a122eb27c5041",
-        "local_e754011a26ba580798c7d808",
-        "local_ca96775b4a34686f0bebd196",
-        "local_f746e9ceaf285ed99ba4f6bc",
-        "local_abdb224ab370d04e7993d198",
-        "local_31362a542a7cc539cc60f02c",
-        "local_ed9cf108307b166f136f0ef2",
+        "local_922e3dccece006a939ec5cee",
+        "local_f749734062463800dcf02370",
+        "local_c609cd57d7503bf7a1455ba4",
+        "local_77899bd617301b62d29efd68",
+        "local_2dafbab144f537d06ac2ad28",
+        "local_e488433f8a76f0dc7246c7c5",
+        "local_ae09638f5439919a6f539cf6",
+        "local_74f6acc289df232aea5f21ad",
+        "local_3d7acb807bd6986ad541c5c6",
+        "local_6845a463e9953b7fad0d5dde",
         "local_359d779cf00ccf9b40ce61b4",
-        "local_42a9f51c73d8304ad8f3feb8",
         "local_0c9a5f50ce05a605a187d107",
         "local_559faeb3d20d28feb82e9cd7",
         "local_4a9e2889dd67fe7f226c1cf7",
@@ -199,7 +216,7 @@
         "local_b2e8ea715c6f51525d8b3d5e",
         "local_cb70c21224605c1caae243ce"
       ],
-      "generatedAt": "2026-10-27T16:39:29.314Z",
+      "generatedAt": "2026-10-27T21:05:32.664Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -210,18 +227,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-27",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」、「“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」、「论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Personal Agent 对比分析及未来技术发展趋势"
       ],
       "watchItems": [
         "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-        "跟进：“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
         "跟进：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
         "跟进：Personal Agent 对比分析及未来技术发展趋势",
-        "跟进：Agensh:探索 1,024 个 agent 的自组织协作"
+        "跟进：Agensh:探索 1,024 个 agent 的自组织协作",
+        "跟进：2026 1024 程序员日:华为云开发者活动精彩回顾"
       ],
       "sections": [
         {
@@ -243,22 +260,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程_AI&大模型_褚杏娟_InfoQ精选文章",
-              "summary": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7684d8d83acaaf608077f5b8"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
               "summary": "用双模式策略让智能体＂会分工＂、Reliable-V-RL 用可靠性奖励... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_351f1eab9fb568c673eb308e"
+                "local_348e3ed4aeed16f33e46fcd0"
               ],
               "confidence": 92
             },
@@ -268,7 +275,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c11755bdca51a25ae64ee3dd"
+                "local_d3beabdd8b836b403493d8df"
               ],
               "confidence": 90
             },
@@ -278,7 +285,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e754011a26ba580798c7d808"
+                "local_922e3dccece006a939ec5cee"
               ],
               "confidence": 92
             },
@@ -288,28 +295,54 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ca96775b4a34686f0bebd196"
+                "local_f749734062463800dcf02370"
               ],
               "confidence": 86
+            },
+            {
+              "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c609cd57d7503bf7a1455ba4"
+              ],
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Early progress on accelerating drug development with Claude",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Over the past several months, we’ve partnered with six organizations to accelerate curing disease. We’ve also started drug discovery efforts of our own, including programs for rare childhood forms of muscular dystrophy.…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_2dafbab144f537d06ac2ad28"
+              ],
+              "confidence": 70
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_822d021651bea6e38833022f",
-        "local_7684d8d83acaaf608077f5b8",
-        "local_351f1eab9fb568c673eb308e",
-        "local_c11755bdca51a25ae64ee3dd",
-        "local_e754011a26ba580798c7d808",
-        "local_ca96775b4a34686f0bebd196"
+        "local_348e3ed4aeed16f33e46fcd0",
+        "local_d3beabdd8b836b403493d8df",
+        "local_922e3dccece006a939ec5cee",
+        "local_f749734062463800dcf02370",
+        "local_c609cd57d7503bf7a1455ba4",
+        "local_2dafbab144f537d06ac2ad28"
       ],
-      "generatedAt": "2026-10-27T16:39:29.314Z",
+      "generatedAt": "2026-10-27T21:05:32.664Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-27T16:39:29.314Z",
+  "generatedAt": "2026-10-27T21:05:32.664Z",
   "collectorName": "local-source-collector"
 }
