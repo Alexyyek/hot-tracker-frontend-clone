@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「We’re helping farmers around the world connect to essential services online.」、「ChatGPT’s expanding world of work」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「We’re helping farmers around the world connect to essential services online.」、「GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：We’re helping farmers around the world connect to essential services online.",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT’s expanding world of work",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：告别\"听不懂\",让Agent真正读懂你的业务数据"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT’s expanding world of work"
       ],
       "watchItems": [
         "跟进：We’re helping farmers around the world connect to essential services online.",
+        "跟进：GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
         "跟进：ChatGPT’s expanding world of work",
         "跟进：告别\"听不懂\",让Agent真正读懂你的业务数据",
-        "跟进：华为云AI素养助力五件套亮相CNCC2026「AI时代的计算机教育变革」论坛",
-        "跟进：Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows"
+        "跟进：华为云AI素养助力五件套亮相CNCC2026「AI时代的计算机教育变革」论坛"
       ],
       "sections": [
         {
@@ -41,6 +41,16 @@
                 "local_4831760c43fe5310809e1886"
               ],
               "confidence": 90
+            },
+            {
+              "title": "How Much Feedback Is Needed to Break Template Protection? The Geometric Vulnerability of Biometric Authentication",
+              "summary": "Biometric authentication systems increasingly use privacy-preserving mechanisms to protect sensitive templates. However, the authentication interface itself may still leak information that enables reconstruction attacks. Prior attacks exploit released similarity scores, whereas …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_996f3dded69c6c8ebe80a20f"
+              ],
+              "confidence": 86
             },
             {
               "title": "Predictive Closure: A Set-Level Characterization of JEPA's Feature Selection",
@@ -68,12 +78,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2cef70576c91d958aa28ab58"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "告别\"听不懂\",让Agent真正读懂你的业务数据",
               "summary": "Agent要真正落地干活,光有聪明的\"大脑\"还不够,更得懂企业的\"业务黑话\".现实情况是,企业数据往往散落在各个系统中,表...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb85b5354678cfe5ca3c9ae6"
+                "local_18445392c2724eb4e004f50b"
               ],
               "confidence": 90
             },
@@ -83,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a46e2fd802cb75869953d171"
+                "local_33a11e47d06da5b0f83eaf95"
               ],
               "confidence": 92
             },
@@ -103,12 +123,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
-              "summary": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a ve…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_3498689e5b460a0181cc0147"
+                "local_aa03c8d517d8c5ec889bc771"
               ],
               "confidence": 92
             }
@@ -117,15 +137,17 @@
       ],
       "referencedFeedItemIds": [
         "local_65863fe2c488f1723c87c398",
+        "local_2cef70576c91d958aa28ab58",
         "local_4831760c43fe5310809e1886",
-        "local_fb85b5354678cfe5ca3c9ae6",
-        "local_a46e2fd802cb75869953d171",
+        "local_18445392c2724eb4e004f50b",
+        "local_33a11e47d06da5b0f83eaf95",
+        "local_996f3dded69c6c8ebe80a20f",
         "local_b593c5a034898ccbd4a2b0ea",
         "local_2ea7a57028aae2dcd5a237d1",
         "local_a4de5db318f7f941dc473071",
-        "local_3498689e5b460a0181cc0147"
+        "local_aa03c8d517d8c5ec889bc771"
       ],
-      "generatedAt": "2026-10-26T20:53:40.636Z",
+      "generatedAt": "2026-10-27T00:32:01.516Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -136,14 +158,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-26",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「We’re helping farmers around the world connect to essential services online.」、「ChatGPT’s expanding world of work」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「We’re helping farmers around the world connect to essential services online.」、「GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：We’re helping farmers around the world connect to essential services online.",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT’s expanding world of work",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：告别\"听不懂\",让Agent真正读懂你的业务数据"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ChatGPT’s expanding world of work"
       ],
       "watchItems": [
         "跟进：We’re helping farmers around the world connect to essential services online.",
+        "跟进：GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
         "跟进：ChatGPT’s expanding world of work",
         "跟进：告别\"听不懂\",让Agent真正读懂你的业务数据",
         "跟进：华为云AI素养助力五件套亮相CNCC2026「AI时代的计算机教育变革」论坛"
@@ -178,12 +201,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_2cef70576c91d958aa28ab58"
+              ],
+              "confidence": 74
+            },
+            {
               "title": "告别\"听不懂\",让Agent真正读懂你的业务数据",
               "summary": "Agent要真正落地干活,光有聪明的\"大脑\"还不够,更得懂企业的\"业务黑话\".现实情况是,企业数据往往散落在各个系统中,表...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb85b5354678cfe5ca3c9ae6"
+                "local_18445392c2724eb4e004f50b"
               ],
               "confidence": 90
             },
@@ -193,7 +226,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a46e2fd802cb75869953d171"
+                "local_33a11e47d06da5b0f83eaf95"
               ],
               "confidence": 92
             }
@@ -202,17 +235,18 @@
       ],
       "referencedFeedItemIds": [
         "local_65863fe2c488f1723c87c398",
+        "local_2cef70576c91d958aa28ab58",
         "local_4831760c43fe5310809e1886",
-        "local_fb85b5354678cfe5ca3c9ae6",
-        "local_a46e2fd802cb75869953d171"
+        "local_18445392c2724eb4e004f50b",
+        "local_33a11e47d06da5b0f83eaf95"
       ],
-      "generatedAt": "2026-10-26T20:53:40.636Z",
+      "generatedAt": "2026-10-27T00:32:01.516Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-26T20:53:40.636Z",
+  "generatedAt": "2026-10-27T00:32:01.516Z",
   "collectorName": "local-source-collector"
 }
