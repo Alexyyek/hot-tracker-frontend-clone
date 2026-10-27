@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「HarnessMM: Recursive Self-Improvement for Harness Token Efficiency」、「Using AI Agents to Teach Robots Like Microduck to Walk in Simulation」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Using AI Agents to Teach Robots Like Microduck to Walk in Simulation」、「Securing our frontier model training environment」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Securing our frontier model training environment",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云RDS Supabase AI应用已开放公测 :30分钟搭建AI应用后端"
       ],
       "watchItems": [
-        "跟进：HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
         "跟进：Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
-        "跟进：StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
-        "跟进：Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
-        "跟进：Securing our frontier model training environment"
+        "跟进：Securing our frontier model training environment",
+        "跟进：华为云RDS Supabase AI应用已开放公测 :30分钟搭建AI应用后端",
+        "跟进：Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+        "跟进：Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "HarnessMM: Recursive Self-Improvement for Harness Token Efficiency",
-              "summary": "Agent harnesses repeatedly invoke reasoning after tool feedback, even when an earlier call has already fixed the next action. We introduce HarnessMM (Harness Minus Minus), a method for improving harness token efficiency through guarded decision reuse and recursive self-improveme…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d6a1f21d2a094128b0395881"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...",
@@ -43,34 +33,24 @@
               "confidence": 70
             },
             {
-              "title": "StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents",
-              "summary": "Large language model (LLM)-based coding agents may propose invalid actions that are not applicable in the execution environment, such as accessing non-existent paths or missing packages. We term this mismatch hallucinated tool use. A preliminary study of 4,398 agent trajectories…",
+              "title": "华为云RDS Supabase AI应用已开放公测 :30分钟搭建AI应用后端",
+              "summary": "以下为真实案例:开发者:查询当前业务库列表概览AI Agent:调用工具 supabase.list_tables,扫描当前数据库表结构返回结果(核心...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f388576619664bf4d53bb014"
+                "local_ae48e5d1203d135e6b1d4fd5"
               ],
-              "confidence": 92
+              "confidence": 86
             },
             {
-              "title": "Lessons Outlive Their Failures: A Case Study of Rules for AI Coding Agents",
-              "summary": "AI coding agents increasingly work inside a harness: rule files such as AGENTS.md, on-demand skills, runtime hooks and automated checks. Most studies of harnesses look at a single point in time or at short benchmark runs. I report a six-week case study of my personal system of r…",
+              "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+              "summary": "来自Hugging Face的本地采集条目。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7b27e324fde944cfe3811f56"
+                "local_676fd0df13b16f7dcb9ee8c0"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "From Faulty Claims to Incorrect Patches: An Empirical Study of Task-Grounded Reasoning in Coding Agents",
-              "summary": "Large language model (LLM)-based coding agents increasingly resolve real-world software engineering tasks, yet still fail on many of them. Prior trajectory studies characterize these failures through task-agnostic patterns of agent behavior, such as repeated actions. However, an…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_253c5d7d39b627d34cd74da6"
-              ],
-              "confidence": 92
+              "confidence": 90
             }
           ]
         },
@@ -106,17 +86,13 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d6a1f21d2a094128b0395881",
         "local_d771a21d04c62d4b16604ad5",
-        "local_f388576619664bf4d53bb014",
-        "local_7b27e324fde944cfe3811f56",
         "local_a3c5c58fc2c37840b99c75ab",
-        "local_253c5d7d39b627d34cd74da6",
-        "local_211e864510a366bf240dad9f",
+        "local_ae48e5d1203d135e6b1d4fd5",
         "local_676fd0df13b16f7dcb9ee8c0",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-27T00:32:01.552Z",
+      "generatedAt": "2026-10-27T05:42:49.437Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -159,7 +135,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_211e864510a366bf240dad9f"
+                "local_ae48e5d1203d135e6b1d4fd5"
               ],
               "confidence": 86
             }
@@ -199,16 +175,16 @@
       "referencedFeedItemIds": [
         "local_d771a21d04c62d4b16604ad5",
         "local_a3c5c58fc2c37840b99c75ab",
-        "local_211e864510a366bf240dad9f",
+        "local_ae48e5d1203d135e6b1d4fd5",
         "local_9066baae8ffdbfa1a23a0802"
       ],
-      "generatedAt": "2026-10-27T00:32:01.552Z",
+      "generatedAt": "2026-10-27T05:42:49.437Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-27T00:32:01.553Z",
+  "generatedAt": "2026-10-27T05:42:49.437Z",
   "collectorName": "local-source-collector"
 }
