@@ -5,20 +5,75 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「The Counting House」、「Retell uses OpenAI models to help power 100M monthly calls」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents」、「FeatureArc: Benchmarking Coding Agents on Evolving Features」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Retell uses OpenAI models to help power 100M monthly calls",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：FeatureArc: Benchmarking Coding Agents on Evolving Features",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House"
       ],
       "watchItems": [
+        "跟进：M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+        "跟进：FeatureArc: Benchmarking Coding Agents on Evolving Features",
         "跟进：The Counting House",
         "跟进：Retell uses OpenAI models to help power 100M monthly calls",
-        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-        "跟进：Former Deepmind researcher thinks AlphaGo&#039;s playbook can cure AI hallucinations",
-        "跟进：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?"
+        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
+              "summary": "Clinical research over electronic health records depends on derived variables whose definitions sit outside the schema, in item codes, time windows, missingness rules, and output-grain choices that change cohorts and downstream conclusions. We introduce M4Bench, 28 clinical deri…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_86f123ed0faff46a2dc5fe51"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "FeatureArc: Benchmarking Coding Agents on Evolving Features",
+              "summary": "A software feature usually evolves over time: developers extend its first version as new use cases and requirements arrive, and each extension builds on code written earlier. Most feature benchmarks evaluate a single request on a fixed codebase. Feature evolution requires evalua…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_082911ba930fb726a3f4cd0a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Retell uses OpenAI models to help power 100M monthly calls",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_54b0eb07ff6396bf390ebc31"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents",
+              "summary": "Coding agents send their models more than the user's prompt: they add instructions, tool definitions, and environmental context that form an instruction stack. This stack guides execution and changes across releases, yet remains largely unexposed to users and insufficiently char…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_77db94b4c99db700e37b7404"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications",
+              "summary": "Software-engineering research relies on benchmarks that evaluate new techniques on a set of problem instances. Unfortunately, manually constructing benchmarks is labor-intensive, as researchers must find suitable instances, prepare execution environments, establish expected outc…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_10f8cf6a6253826e31eea5b7"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
         {
           "title": "行业与公司",
           "items": [
@@ -63,69 +118,14 @@
               "confidence": 70
             },
             {
-              "title": "Representation Redistribution in Sparse Autoencoders",
-              "summary": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recu…",
+              "title": "GPT-6.1 Terra",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing …",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2e98886fdcdeaae471acdcdf"
+                "local_359d779cf00ccf9b40ce61b4"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Retell uses OpenAI models to help power 100M monthly calls",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_54b0eb07ff6396bf390ebc31"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
-              "summary": "用双模式策略让智能体＂会分工＂、Reliable-V-RL 用可靠性奖励... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_10472e74394be3977f84e553"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI&#039;s Ted Sanders shares a rule of thumb for picking the right GPT-model",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI's Ted Sanders explains where GPT-6.1 Terra fits in the company's GPT lineup. The smaller model outperforms the larger Astra in technical communication and costs far less but trails it in most other areas. Sanders…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_efa50e037b6dc973c0d6c291"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Personal Agent 对比分析及未来技术发展趋势",
-              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_00eb1411e7e1638602d650bc"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ia is buying into its customer Meta, which plans to run more of its AI agents on Nvidia hardware. The article Meta gets $3 billion from Nvidia and plans to spend more on Nvidia chips appeared first on The Decoder.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_224446fa004a122eb27c5041"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -153,12 +153,12 @@
               "confidence": 86
             },
             {
-              "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
-              "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates duri…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_33e8b859072118564b188174"
+                "local_7861627a380adaed674bcaa5"
               ],
               "confidence": 92
             },
@@ -171,37 +171,45 @@
                 "local_0c9a5f50ce05a605a187d107"
               ],
               "confidence": 86
+            },
+            {
+              "title": "webframe: evaluated as a scraper and a sandbox",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_cb70c21224605c1caae243ce"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_86f123ed0faff46a2dc5fe51",
+        "local_082911ba930fb726a3f4cd0a",
         "local_2ed73d8606e4e92aff2d65b5",
         "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
+        "local_77db94b4c99db700e37b7404",
+        "local_10f8cf6a6253826e31eea5b7",
         "local_44cc399b3ed0b338c0ffa934",
-        "local_10472e74394be3977f84e553",
+        "local_65b25fbb40ddbf014642b290",
         "local_efa50e037b6dc973c0d6c291",
-        "local_00eb1411e7e1638602d650bc",
+        "local_bc732f42cf6ba79e3d2c627b",
         "local_224446fa004a122eb27c5041",
-        "local_3393661f782c8f6a980edc6f",
-        "local_5d585f0cd4606d70e5566b4d",
+        "local_a255ae7b6aaff39e6e762317",
+        "local_b9deccbb3838eeb0ac81d5cf",
         "local_c609cd57d7503bf7a1455ba4",
         "local_77899bd617301b62d29efd68",
         "local_2dafbab144f537d06ac2ad28",
         "local_e488433f8a76f0dc7246c7c5",
-        "local_e78ec41e11634a1c77af61ef",
-        "local_2e98886fdcdeaae471acdcdf",
-        "local_3012a12f75ea0cb04206d548",
-        "local_33e8b859072118564b188174",
+        "local_7861627a380adaed674bcaa5",
         "local_359d779cf00ccf9b40ce61b4",
         "local_0c9a5f50ce05a605a187d107",
-        "local_559faeb3d20d28feb82e9cd7",
-        "local_4a9e2889dd67fe7f226c1cf7",
-        "local_e191569d1ea324aa14c3306d",
-        "local_b2e8ea715c6f51525d8b3d5e"
+        "local_cb70c21224605c1caae243ce"
       ],
-      "generatedAt": "2026-10-28T00:37:10.911Z",
+      "generatedAt": "2026-10-28T06:24:21.296Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -245,7 +253,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_10472e74394be3977f84e553"
+                "local_65b25fbb40ddbf014642b290"
               ],
               "confidence": 92
             },
@@ -255,7 +263,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_00eb1411e7e1638602d650bc"
+                "local_bc732f42cf6ba79e3d2c627b"
               ],
               "confidence": 90
             },
@@ -265,7 +273,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3393661f782c8f6a980edc6f"
+                "local_a255ae7b6aaff39e6e762317"
               ],
               "confidence": 92
             },
@@ -275,7 +283,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5d585f0cd4606d70e5566b4d"
+                "local_b9deccbb3838eeb0ac81d5cf"
               ],
               "confidence": 86
             }
@@ -315,20 +323,20 @@
       "referencedFeedItemIds": [
         "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
-        "local_10472e74394be3977f84e553",
-        "local_00eb1411e7e1638602d650bc",
-        "local_3393661f782c8f6a980edc6f",
-        "local_5d585f0cd4606d70e5566b4d",
+        "local_65b25fbb40ddbf014642b290",
+        "local_bc732f42cf6ba79e3d2c627b",
+        "local_a255ae7b6aaff39e6e762317",
+        "local_b9deccbb3838eeb0ac81d5cf",
         "local_c609cd57d7503bf7a1455ba4",
         "local_2dafbab144f537d06ac2ad28"
       ],
-      "generatedAt": "2026-10-28T00:37:10.911Z",
+      "generatedAt": "2026-10-28T06:24:21.296Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-28T00:37:10.911Z",
+  "generatedAt": "2026-10-28T06:24:21.296Z",
   "collectorName": "local-source-collector"
 }
