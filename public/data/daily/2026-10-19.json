@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Coding Agent开始动态并行,软件开发变得更好了吗?"
       ],
       "watchItems": [
         "跟进：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-        "跟进：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
         "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?",
-        "跟进：全球AI早报|大模型竞争升级,十万卡超集群亮相,AI智能体安全再受关注"
+        "跟进：全球AI早报|大模型竞争升级,十万卡超集群亮相,AI智能体安全再受关注",
+        "跟进：MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research"
       ],
       "sections": [
         {
@@ -43,22 +43,12 @@
               "confidence": 78
             },
             {
-              "title": "蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
-              "summary": "从蒸馏一个模型,到蒸馏整个 Agent 系统.Agent 的任务求解能力来自模型、可复用资源与执行控制的共同作用,知识蒸馏也因此需要...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ee3c9b61251828c8385e20d7"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "当Coding Agent开始动态并行,软件开发变得更好了吗?",
               "summary": "新智元报道 Coding Agent正在进入新的发展阶段.过去,它们主要修复Bug、解决GitHub Issue或实现相对独立的功能,SWE-bench等...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bfb3c22d6723492f02751600"
+                "local_f06da529a4dfbf85666633c4"
               ],
               "confidence": 92
             },
@@ -68,7 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_491f5bc318c1cde179d808c3"
+                "local_c0edcb7db6a1bd31dce66182"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bf8eeb03e9c3c8a1b0963956"
               ],
               "confidence": 92
             }
@@ -78,13 +78,12 @@
       "referencedFeedItemIds": [
         "local_6d700dee11d8856d3d55da80",
         "local_e503edf208b819f0408abee1",
-        "local_ee3c9b61251828c8385e20d7",
-        "local_bfb3c22d6723492f02751600",
-        "local_491f5bc318c1cde179d808c3",
+        "local_f06da529a4dfbf85666633c4",
+        "local_c0edcb7db6a1bd31dce66182",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c"
       ],
-      "generatedAt": "2026-10-28T13:38:58.811Z",
+      "generatedAt": "2026-10-28T19:15:18.549Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -95,18 +94,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-19",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do」、「NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Coding Agent开始动态并行,软件开发变得更好了吗?"
       ],
       "watchItems": [
         "跟进：The Thin Orchestrator: How We Made Our AI Agents More Reliable by Giving the Router Less to Do",
         "跟进：NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
-        "跟进：蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
         "跟进：当Coding Agent开始动态并行,软件开发变得更好了吗?",
-        "跟进：全球AI早报|大模型竞争升级,十万卡超集群亮相,AI智能体安全再受关注"
+        "跟进：全球AI早报|大模型竞争升级,十万卡超集群亮相,AI智能体安全再受关注",
+        "跟进：MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research"
       ],
       "sections": [
         {
@@ -133,22 +132,12 @@
               "confidence": 78
             },
             {
-              "title": "蒸馏一个Agent,到底要蒸什么?首篇「系统级综述」来了",
-              "summary": "从蒸馏一个模型,到蒸馏整个 Agent 系统.Agent 的任务求解能力来自模型、可复用资源与执行控制的共同作用,知识蒸馏也因此需要...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ee3c9b61251828c8385e20d7"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "当Coding Agent开始动态并行,软件开发变得更好了吗?",
               "summary": "新智元报道 Coding Agent正在进入新的发展阶段.过去,它们主要修复Bug、解决GitHub Issue或实现相对独立的功能,SWE-bench等...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bfb3c22d6723492f02751600"
+                "local_f06da529a4dfbf85666633c4"
               ],
               "confidence": 92
             },
@@ -158,7 +147,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_491f5bc318c1cde179d808c3"
+                "local_c0edcb7db6a1bd31dce66182"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost - MiniMax Research",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Today, we officially roll out MiniMax M3.1 Flash. As a next-generation Flash model, M3.1 Flash delivers a generational leap in agentic tasks, coding, Computer Use and cybersecurity, while making online inference nearly …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bf8eeb03e9c3c8a1b0963956"
               ],
               "confidence": 92
             }
@@ -168,19 +167,18 @@
       "referencedFeedItemIds": [
         "local_6d700dee11d8856d3d55da80",
         "local_e503edf208b819f0408abee1",
-        "local_ee3c9b61251828c8385e20d7",
-        "local_bfb3c22d6723492f02751600",
-        "local_491f5bc318c1cde179d808c3",
+        "local_f06da529a4dfbf85666633c4",
+        "local_c0edcb7db6a1bd31dce66182",
         "local_bf8eeb03e9c3c8a1b0963956",
         "local_b18a04fb2a58915ac95ae36c"
       ],
-      "generatedAt": "2026-10-28T13:38:58.811Z",
+      "generatedAt": "2026-10-28T19:15:18.549Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-28T13:38:58.811Z",
+  "generatedAt": "2026-10-28T19:15:18.549Z",
   "collectorName": "local-source-collector"
 }

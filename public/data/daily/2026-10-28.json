@@ -5,72 +5,142 @@
       "topicId": "ai",
       "reportDate": "2026-10-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition」、「New Artificial Analysis index widens the gap between open and closed models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI examples: Real-world use cases across industries",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：What is Agentic AI? Definition, Examples, and How It Works",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents explained: What they are and how they work"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New Artificial Analysis index widens the gap between open and closed models",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The October inflection point for vibe game development"
       ],
       "watchItems": [
-        "跟进：Agentic AI examples: Real-world use cases across industries",
-        "跟进：What is Agentic AI? Definition, Examples, and How It Works",
-        "跟进：AI agents explained: What they are and how they work",
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？"
+        "跟进：Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+        "跟进：New Artificial Analysis index widens the gap between open and closed models",
+        "跟进：The October inflection point for vibe game development",
+        "跟进：Artificial Analysis v5 and the benchmarker's dilemma",
+        "跟进：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Agentic AI examples: Real-world use cases across industries",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI examples across health, finance, productivity, and more.",
+              "title": "Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation and takes its instructions as text prompts. It leads several benchmarks and …",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_efe3d9740e7fe168e1aa310b"
+                "local_b96f485e726685079595d4f6"
               ],
-              "confidence": 92
+              "confidence": 70
             },
             {
-              "title": "What is Agentic AI? Definition, Examples, and How It Works",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What is agentic AI? Learn how autonomous AI agents work, how they differ from generative AI, and discover real examples of agentic AI in everyday life.",
+              "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：A sort of review of the benchmarking industry and what's missing.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_12ceaa862d9e513393f8eb72"
+                "local_14d838231060e0a5386fcaf5"
               ],
-              "confidence": 92
+              "confidence": 78
             },
             {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
+              "title": "上京东买电脑送京东云Token:把 AI 生产力一键带回家",
+              "summary": "从京东11.11购机赠Token,到JoyMaaS一站式大模型服务平台首发,京东云以消费场景拓展AI体验入口,以丰富的模型供给、便捷的...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_19b47c95fd2ee2bb4780a683"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-              "summary": "今年最大的一个变化是，企业做 Agent 的门槛越来越低，但做出一个能完成任务的 Agent，与让它在业务中持续稳定运行，还存在一定的距离。因为当 Agent 数量和使用频率放大后，很多原本不显眼的问题也会跟着放大。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_425770084da17549d4d5531f"
+                "local_fb7027960dc3045a3f492128"
               ],
               "confidence": 86
             },
             {
-              "title": "Fast, reliable A2UI, with swappable inference formats",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can a…",
+              "title": "Sub-monolayer tracking of molecular states at buried interfaces",
+              "summary": "Phenomena responsible for emerging technologies originate from novel molecular states at buried interfaces. Yet quantitatively resolving these features is out of reach in most cases. Resonant scattering has demonstrated sensitivity to these local states but is limited due to a l…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_a69d5e3f2f559f9a0b7cbc9f"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
+              "summary": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are confined to short, read or crowd-sourced speech and lack speaker diarization and long-form audio. We present Lipi-Ghor, a large-scale w…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f461f649fb3cc02af47ac819"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
+            {
+              "title": "New Artificial Analysis index widens the gap between open and closed models",
+              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：Artificial Analysis overhauled its Intelligence Index, causing Kimi K3.1 Pro to drop five spots in the rankings. The article New Artificial Analysis index widens the gap between open and closed models appeared first on …",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_cc4130d4c6b72f833c1e9ea8"
+              ],
+              "confidence": 70
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "The October inflection point for vibe game development",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily driver…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c2e2b9e0e893d2c614d91d7a"
+                "local_578dd7b8bd6a39e15f29f811"
               ],
               "confidence": 92
+            },
+            {
+              "title": "不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
+              "summary": "一个看似简单的 Agent Loop,真正做成 Coding Agent 有多复杂?Agent Loop 的基本流程并不复杂.模型发起工具调用,Harness 执...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8d291defed08dd2328e23ec8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术",
+              "summary": "意图识别和Agent调度Hook(安全审查、幻觉评判、完成治理)大量数据分拣、打标、过滤快速决策品种排名趋势预测代码审查本次我...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a93b4564fe55010e5374d6fc"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Quoting Terk Terkowitz",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can exp…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5f23fc9d4adea00127670612"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Legora is building the agentic operating system for legal work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1c40bfdb7fce649766bdb40e"
+              ],
+              "confidence": 90
             }
           ]
         },
@@ -78,100 +148,82 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
+              "summary": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget. Every recipe also trains under one. On physics and math problems at fixed token budgets, we compare the pass@1 of 20 released RL models (1.5B to 32B) with that…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bbb89b214389098bfd6aec07"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_7c414f378ecd1f75f16b7909"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "大米评测的个人空间-大米评测个人主页-哔哩哔哩视频",
-              "summary": "哔哩哔哩大米评测的个人空间，提供大米评测分享的视频、音频、文章、动态、收藏等内容，关注大米评测账号，第一时间了解UP主动态。去发现 去改变 | 合作联系wx：damipingce-swhz",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7196d3f7939fafac0cc3bbe6"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0e5ce2f225a0b33fc1029cf8"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_26008d444ee9587c51fce032"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0c2a7a93055f37b9117ac45e"
+                "local_4d0f1fd6561f42717892fc3b"
               ],
               "confidence": 92
+            },
+            {
+              "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
+              "summary": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning. On-policy distillation narrows such gaps by supervising a student on its own ro…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_3c8d37fb1bc409834bb040b8"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Claude 529 Overloaded Error: What It Means and How to Fix It",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Claude's 529 overloaded_error means Anthropic's API is at capacity, not your key. Retry with backoff, then send the same model to another provider.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_acef59eb683310c25385ce7c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Genie 4: A new generation of world simulation",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_cf212aa3569d4f418a4dda18"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native audio to real-time interactive simulation.The Genie 4 m…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_db34b466533b487e649a293e"
+              ],
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_efe3d9740e7fe168e1aa310b",
-        "local_12ceaa862d9e513393f8eb72",
-        "local_19b47c95fd2ee2bb4780a683",
-        "local_bbb89b214389098bfd6aec07",
-        "local_425770084da17549d4d5531f",
-        "local_7196d3f7939fafac0cc3bbe6",
-        "local_0e5ce2f225a0b33fc1029cf8",
-        "local_c2e2b9e0e893d2c614d91d7a",
-        "local_736635095dedf91e60780f66",
-        "local_506652f71aac5b8e46870113",
-        "local_3f1903f98915a7ac919e78ea",
-        "local_75f83b6b50438276b061ce79",
-        "local_455aed6e6b6e4f98c7d8fce2",
-        "local_6391f29d53162c023b501e53",
-        "local_3bb300010f03f01865ae824c",
-        "local_26008d444ee9587c51fce032",
-        "local_83d879197ebef36e2d9e8af6",
-        "local_05576e4ba96aa001f94074d2",
-        "local_be4628ecd68f3a1e02d4910a",
-        "local_0c2a7a93055f37b9117ac45e",
-        "local_fdc1bde9f843eb0a919e60b3",
-        "local_7c414f378ecd1f75f16b7909",
-        "local_f47117e3e1ed24327c2d2dc9",
-        "local_1c2e17380fb77ee53e90f6dd"
+        "local_b96f485e726685079595d4f6",
+        "local_cc4130d4c6b72f833c1e9ea8",
+        "local_578dd7b8bd6a39e15f29f811",
+        "local_14d838231060e0a5386fcaf5",
+        "local_8d291defed08dd2328e23ec8",
+        "local_a93b4564fe55010e5374d6fc",
+        "local_5f23fc9d4adea00127670612",
+        "local_1c40bfdb7fce649766bdb40e",
+        "local_bd79c345075f4b3676fe5b8e",
+        "local_d3cb2a5dedfd49b2cde40155",
+        "local_fb7027960dc3045a3f492128",
+        "local_a69d5e3f2f559f9a0b7cbc9f",
+        "local_f461f649fb3cc02af47ac819",
+        "local_4d0f1fd6561f42717892fc3b",
+        "local_3c8d37fb1bc409834bb040b8",
+        "local_acef59eb683310c25385ce7c",
+        "local_da96cc5e16b1e92b4a9ffe0d",
+        "local_e7c0a2be877b859505ceb4d9",
+        "local_0a3eef1a5ff376b744474f79",
+        "local_cf212aa3569d4f418a4dda18",
+        "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-28T13:38:58.701Z",
+      "generatedAt": "2026-10-28T19:15:18.432Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -182,97 +234,72 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-28",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解」、「Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI examples: Real-world use cases across industries",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：What is Agentic AI? Definition, Examples, and How It Works",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents explained: What they are and how they work"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Legora is building the agentic operating system for legal work"
       ],
       "watchItems": [
-        "跟进：Agentic AI examples: Real-world use cases across industries",
-        "跟进：What is Agentic AI? Definition, Examples, and How It Works",
-        "跟进：AI agents explained: What they are and how they work",
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？"
+        "跟进：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
+        "跟进：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术",
+        "跟进：Legora is building the agentic operating system for legal work",
+        "跟进：灵光 2.0 背后,百灵的 Personal Agent 进化",
+        "跟进：融资数亿元,前上海AI Lab大模型负责人创业,打造能自进化的研究基础模型|智能涌现首发"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Agentic AI examples: Real-world use cases across industries",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI examples across health, finance, productivity, and more.",
+              "title": "不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
+              "summary": "一个看似简单的 Agent Loop,真正做成 Coding Agent 有多复杂?Agent Loop 的基本流程并不复杂.模型发起工具调用,Harness 执...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_efe3d9740e7fe168e1aa310b"
+                "local_8d291defed08dd2328e23ec8"
               ],
               "confidence": 92
             },
             {
-              "title": "What is Agentic AI? Definition, Examples, and How It Works",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What is agentic AI? Learn how autonomous AI agents work, how they differ from generative AI, and discover real examples of agentic AI in everyday life.",
+              "title": "Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术",
+              "summary": "意图识别和Agent调度Hook(安全审查、幻觉评判、完成治理)大量数据分拣、打标、过滤快速决策品种排名趋势预测代码审查本次我...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_12ceaa862d9e513393f8eb72"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_19b47c95fd2ee2bb4780a683"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-              "summary": "今年最大的一个变化是，企业做 Agent 的门槛越来越低，但做出一个能完成任务的 Agent，与让它在业务中持续稳定运行，还存在一定的距离。因为当 Agent 数量和使用频率放大后，很多原本不显眼的问题也会跟着放大。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_425770084da17549d4d5531f"
+                "local_a93b4564fe55010e5374d6fc"
               ],
               "confidence": 86
             },
             {
-              "title": "Fast, reliable A2UI, with swappable inference formats",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A2UI now supports swappable inference formats, introducing A2UI Express which uses up to 3x fewer tokens and cuts latency by compiling compact Python-style syntax into standard A2UI JSON via Agent SDKs. Developers can a…",
+              "title": "Legora is building the agentic operating system for legal work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c2e2b9e0e893d2c614d91d7a"
+                "local_1c40bfdb7fce649766bdb40e"
               ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_bbb89b214389098bfd6aec07"
-              ],
-              "confidence": 78
+              "confidence": 90
             },
             {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "title": "灵光 2.0 背后,百灵的 Personal Agent 进化",
+              "summary": "Personal Agent 场景,蚂蚁百灵持续探索的,正是如何提升模型处理长程任务的能力,让 AI 不只会回答问题,也能更好地完成真实任...",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7c414f378ecd1f75f16b7909"
+                "local_bd79c345075f4b3676fe5b8e"
               ],
-              "confidence": 70
+              "confidence": 92
+            },
+            {
+              "title": "融资数亿元,前上海AI Lab大模型负责人创业,打造能自进化的研究基础模型|智能涌现首发",
+              "summary": "《智能涌现》获悉,由前上海AI Lab大模型负责人陈恺创办的公司... Harness与Agent代码的自主迭代、模型层自进化,以及进化机制...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d3cb2a5dedfd49b2cde40155"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -280,81 +307,60 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "大米评测的个人空间-大米评测个人主页-哔哩哔哩视频",
-              "summary": "哔哩哔哩大米评测的个人空间，提供大米评测分享的视频、音频、文章、动态、收藏等内容，关注大米评测账号，第一时间了解UP主动态。去发现 去改变 | 合作联系wx：damipingce-swhz",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7196d3f7939fafac0cc3bbe6"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_0e5ce2f225a0b33fc1029cf8"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0c2a7a93055f37b9117ac45e"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "上京东买电脑送京东云Token:把 AI 生产力一键带回家",
               "summary": "从京东11.11购机赠Token,到JoyMaaS一站式大模型服务平台首发,京东云以消费场景拓展AI体验入口,以丰富的模型供给、便捷的...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_ac15b745cbf7f79ef0c933d8"
+                "local_fb7027960dc3045a3f492128"
               ],
               "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Genie 4: A new generation of world simulation",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_cf212aa3569d4f418a4dda18"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "We’re announcing Genie 4, our new world model for real-time interactive simulation.",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Today, we’re announcing our research on Genie 4, our new world model that brings unprecedented realism and native audio to real-time interactive simulation.The Genie 4 m…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_db34b466533b487e649a293e"
+              ],
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_efe3d9740e7fe168e1aa310b",
-        "local_12ceaa862d9e513393f8eb72",
-        "local_19b47c95fd2ee2bb4780a683",
-        "local_bbb89b214389098bfd6aec07",
-        "local_425770084da17549d4d5531f",
-        "local_7196d3f7939fafac0cc3bbe6",
-        "local_0e5ce2f225a0b33fc1029cf8",
-        "local_c2e2b9e0e893d2c614d91d7a",
-        "local_736635095dedf91e60780f66",
-        "local_506652f71aac5b8e46870113",
-        "local_3f1903f98915a7ac919e78ea",
-        "local_0c2a7a93055f37b9117ac45e",
-        "local_fdc1bde9f843eb0a919e60b3",
-        "local_7c414f378ecd1f75f16b7909",
-        "local_f47117e3e1ed24327c2d2dc9",
-        "local_1c2e17380fb77ee53e90f6dd",
-        "local_f4c92e387e144f71c13b64a4",
+        "local_8d291defed08dd2328e23ec8",
         "local_a93b4564fe55010e5374d6fc",
-        "local_61c830d8e65cc3457d341ffb",
-        "local_e72c2bcae41f1debf2896de8",
-        "local_b9f37695ae4795a02af53f8f",
-        "local_aba43548385c599adbfd3c3b",
+        "local_1c40bfdb7fce649766bdb40e",
+        "local_bd79c345075f4b3676fe5b8e",
         "local_d3cb2a5dedfd49b2cde40155",
-        "local_ac15b745cbf7f79ef0c933d8"
+        "local_fb7027960dc3045a3f492128",
+        "local_cf212aa3569d4f418a4dda18",
+        "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-28T13:38:58.701Z",
+      "generatedAt": "2026-10-28T19:15:18.432Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-28T13:38:58.701Z",
+  "generatedAt": "2026-10-28T19:15:18.432Z",
   "collectorName": "local-source-collector"
 }
