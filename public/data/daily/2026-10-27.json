@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents」、「FeatureArc: Benchmarking Coding Agents on Evolving Features」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents」、「FeatureArc: Benchmarking Coding Agents on Evolving Features」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：FeatureArc: Benchmarking Coding Agents on Evolving Features",
@@ -171,16 +171,6 @@
                 "local_0c9a5f50ce05a605a187d107"
               ],
               "confidence": 86
-            },
-            {
-              "title": "webframe: evaluated as a scraper and a sandbox",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_cb70c21224605c1caae243ce"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -194,22 +184,20 @@
         "local_77db94b4c99db700e37b7404",
         "local_10f8cf6a6253826e31eea5b7",
         "local_44cc399b3ed0b338c0ffa934",
-        "local_65b25fbb40ddbf014642b290",
+        "local_fd1f3ee1ae80fb77c57f7791",
         "local_efa50e037b6dc973c0d6c291",
-        "local_bc732f42cf6ba79e3d2c627b",
-        "local_224446fa004a122eb27c5041",
-        "local_a255ae7b6aaff39e6e762317",
-        "local_b9deccbb3838eeb0ac81d5cf",
+        "local_43eee8dca2cf5d78c71f0501",
+        "local_9fb04d6ec8f2f160f739d7c0",
+        "local_70d2308139b56fc87d163e6c",
         "local_c609cd57d7503bf7a1455ba4",
         "local_77899bd617301b62d29efd68",
         "local_2dafbab144f537d06ac2ad28",
         "local_e488433f8a76f0dc7246c7c5",
         "local_7861627a380adaed674bcaa5",
         "local_359d779cf00ccf9b40ce61b4",
-        "local_0c9a5f50ce05a605a187d107",
-        "local_cb70c21224605c1caae243ce"
+        "local_0c9a5f50ce05a605a187d107"
       ],
-      "generatedAt": "2026-10-28T06:24:21.296Z",
+      "generatedAt": "2026-10-28T13:38:58.711Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -253,7 +241,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_65b25fbb40ddbf014642b290"
+                "local_fd1f3ee1ae80fb77c57f7791"
               ],
               "confidence": 92
             },
@@ -263,7 +251,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc732f42cf6ba79e3d2c627b"
+                "local_43eee8dca2cf5d78c71f0501"
               ],
               "confidence": 90
             },
@@ -273,7 +261,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a255ae7b6aaff39e6e762317"
+                "local_9fb04d6ec8f2f160f739d7c0"
               ],
               "confidence": 92
             },
@@ -283,7 +271,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b9deccbb3838eeb0ac81d5cf"
+                "local_70d2308139b56fc87d163e6c"
               ],
               "confidence": 86
             }
@@ -323,20 +311,20 @@
       "referencedFeedItemIds": [
         "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
-        "local_65b25fbb40ddbf014642b290",
-        "local_bc732f42cf6ba79e3d2c627b",
-        "local_a255ae7b6aaff39e6e762317",
-        "local_b9deccbb3838eeb0ac81d5cf",
+        "local_fd1f3ee1ae80fb77c57f7791",
+        "local_43eee8dca2cf5d78c71f0501",
+        "local_9fb04d6ec8f2f160f739d7c0",
+        "local_70d2308139b56fc87d163e6c",
         "local_c609cd57d7503bf7a1455ba4",
         "local_2dafbab144f537d06ac2ad28"
       ],
-      "generatedAt": "2026-10-28T06:24:21.296Z",
+      "generatedAt": "2026-10-28T13:38:58.711Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-28T06:24:21.296Z",
+  "generatedAt": "2026-10-28T13:38:58.712Z",
   "collectorName": "local-source-collector"
 }

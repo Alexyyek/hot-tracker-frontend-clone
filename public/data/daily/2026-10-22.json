@@ -5,30 +5,40 @@
       "topicId": "ai",
       "reportDate": "2026-10-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」、「企业AI需要两个世界模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「用完12个Personal Agent后,我找到了决定好用上限的五个标准」、「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：用完12个Personal Agent后,我找到了决定好用上限的五个标准",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业AI需要两个世界模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业AI需要两个世界模型"
       ],
       "watchItems": [
+        "跟进：用完12个Personal Agent后,我找到了决定好用上限的五个标准",
         "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
         "跟进：企业AI需要两个世界模型",
         "跟进：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
-        "跟进：别再给企业造 Agent 了,他们并不需要",
-        "跟进：高德千舆空间智能开放平台,开箱即用的空间智能Agent"
+        "跟进：别再给企业造 Agent 了,他们并不需要"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "用完12个Personal Agent后,我找到了决定好用上限的五个标准",
+              "summary": "这个Agent到底懂不懂你.这个东西一定是要配上我们日常用最多... 把我之前做的AI热点网站AI News Radar,或者AI提示语案例合集...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_14ef238e23e1b8757cdf3052"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
               "summary": "文|王欣逸编辑|张雨忻《智能涌现》独家获悉,近日,由上海交大... 让Agent自己去优化推理引擎,提高硬件利用率和Token生产效率...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_25897b1ab8f395ced3f5b0b0"
+                "local_14500afcf001a851126cd521"
               ],
               "confidence": 92
             },
@@ -38,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ceccf873a416775bcd94fee6"
+                "local_974f54267867618c903b7ebf"
               ],
               "confidence": 92
             },
@@ -58,19 +68,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_770a34227a7d6e245ebe4334"
+                "local_9d3df47361bc0c98fb56281d"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Introducing MiniMax Code Mini App",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent’s work on a page that stays live.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_85306e884a648ecd1bd36659"
-              ],
-              "confidence": 74
             }
           ]
         },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_5d081c5324083eb06308d345"
+                "local_00916aed3d4455610ee664f7"
               ],
               "confidence": 90
             },
@@ -136,19 +136,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_25897b1ab8f395ced3f5b0b0",
+        "local_14ef238e23e1b8757cdf3052",
+        "local_14500afcf001a851126cd521",
         "local_7087992fe5762c01b62d61ca",
-        "local_ceccf873a416775bcd94fee6",
+        "local_974f54267867618c903b7ebf",
         "local_61326e27dac0e8b190892cf8",
-        "local_770a34227a7d6e245ebe4334",
+        "local_9d3df47361bc0c98fb56281d",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_5d081c5324083eb06308d345",
+        "local_00916aed3d4455610ee664f7",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc"
       ],
-      "generatedAt": "2026-10-28T06:24:21.323Z",
+      "generatedAt": "2026-10-28T13:38:58.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -182,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_25897b1ab8f395ced3f5b0b0"
+                "local_14500afcf001a851126cd521"
               ],
               "confidence": 92
             },
@@ -192,7 +193,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ceccf873a416775bcd94fee6"
+                "local_974f54267867618c903b7ebf"
               ],
               "confidence": 92
             },
@@ -212,7 +213,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_770a34227a7d6e245ebe4334"
+                "local_9d3df47361bc0c98fb56281d"
               ],
               "confidence": 92
             },
@@ -247,7 +248,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_5d081c5324083eb06308d345"
+                "local_00916aed3d4455610ee664f7"
               ],
               "confidence": 90
             },
@@ -290,25 +291,25 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_25897b1ab8f395ced3f5b0b0",
+        "local_14500afcf001a851126cd521",
         "local_7087992fe5762c01b62d61ca",
-        "local_ceccf873a416775bcd94fee6",
+        "local_974f54267867618c903b7ebf",
         "local_61326e27dac0e8b190892cf8",
-        "local_770a34227a7d6e245ebe4334",
+        "local_9d3df47361bc0c98fb56281d",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_5d081c5324083eb06308d345",
+        "local_00916aed3d4455610ee664f7",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc"
       ],
-      "generatedAt": "2026-10-28T06:24:21.323Z",
+      "generatedAt": "2026-10-28T13:38:58.773Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-28T06:24:21.323Z",
+  "generatedAt": "2026-10-28T13:38:58.773Z",
   "collectorName": "local-source-collector"
 }
