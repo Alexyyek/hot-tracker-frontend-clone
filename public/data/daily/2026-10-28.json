@@ -5,16 +5,16 @@
       "topicId": "ai",
       "reportDate": "2026-10-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition」、「New Artificial Analysis index widens the gap between open and closed models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition」、「The October inflection point for vibe game development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：New Artificial Analysis index widens the gap between open and closed models",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The October inflection point for vibe game development"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The October inflection point for vibe game development",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI and ServiceNow expand partnership across enterprise workflows"
       ],
       "watchItems": [
         "跟进：Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-        "跟进：New Artificial Analysis index widens the gap between open and closed models",
         "跟进：The October inflection point for vibe game development",
+        "跟进：OpenAI and ServiceNow expand partnership across enterprise workflows",
         "跟进：Artificial Analysis v5 and the benchmarker's dilemma",
         "跟进：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解"
       ],
@@ -48,9 +48,19 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fb7027960dc3045a3f492128"
+                "local_4a793aca383dbe4dc493476f"
               ],
               "confidence": 86
+            },
+            {
+              "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
+              "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in th…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_037bdc06457e29e55d7303f3"
+              ],
+              "confidence": 92
             },
             {
               "title": "Sub-monolayer tracking of molecular states at buried interfaces",
@@ -61,31 +71,6 @@
                 "local_a69d5e3f2f559f9a0b7cbc9f"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
-              "summary": "Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are confined to short, read or crowd-sourced speech and lack speaker diarization and long-form audio. We present Lipi-Ghor, a large-scale w…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f461f649fb3cc02af47ac819"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "New Artificial Analysis index widens the gap between open and closed models",
-              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：Artificial Analysis overhauled its Intelligence Index, causing Kimi K3.1 Pro to drop five spots in the rankings. The article New Artificial Analysis index widens the gap between open and closed models appeared first on …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_cc4130d4c6b72f833c1e9ea8"
-              ],
-              "confidence": 70
             }
           ]
         },
@@ -103,12 +88,22 @@
               "confidence": 92
             },
             {
+              "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a22a64954b848b886ccb80dc"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
               "summary": "一个看似简单的 Agent Loop,真正做成 Coding Agent 有多复杂?Agent Loop 的基本流程并不复杂.模型发起工具调用,Harness 执...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8d291defed08dd2328e23ec8"
+                "local_05809b45f0d8852f1321dd07"
               ],
               "confidence": 92
             },
@@ -118,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a93b4564fe55010e5374d6fc"
+                "local_b6d24c7b9a9d4078f45aa78b"
               ],
               "confidence": 86
             },
@@ -131,42 +126,12 @@
                 "local_5f23fc9d4adea00127670612"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Legora is building the agentic operating system for legal work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1c40bfdb7fce649766bdb40e"
-              ],
-              "confidence": 90
             }
           ]
         },
         {
           "title": "行业与公司",
           "items": [
-            {
-              "title": "What Outcome RL Buys: Finishing, Reliability, Rarely Reach",
-              "summary": "Outcome RL raises pass@1 but not pass@k at large k (Yue et al., 2025). But every pass@1 is scored under a token budget. Every recipe also trains under one. On physics and math problems at fixed token budgets, we compare the pass@1 of 20 released RL models (1.5B to 32B) with that…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_4d0f1fd6561f42717892fc3b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "How Much Does the Hint Matter? Scope Conditions for Hindsight Self-Distillation in Financial Reasoning",
-              "summary": "Financial institutions operating under data-residency constraints are restricted to open-weight models small enough to locally host, which trail frontier systems on multi-step quantitative reasoning. On-policy distillation narrows such gaps by supervising a student on its own ro…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3c8d37fb1bc409834bb040b8"
-              ],
-              "confidence": 86
-            },
             {
               "title": "Claude 529 Overloaded Error: What It Means and How to Fix It",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Claude's 529 overloaded_error means Anthropic's API is at capacity, not your key. Retry with backoff, then send the same model to another provider.",
@@ -202,20 +167,20 @@
       ],
       "referencedFeedItemIds": [
         "local_b96f485e726685079595d4f6",
-        "local_cc4130d4c6b72f833c1e9ea8",
         "local_578dd7b8bd6a39e15f29f811",
+        "local_a22a64954b848b886ccb80dc",
         "local_14d838231060e0a5386fcaf5",
-        "local_8d291defed08dd2328e23ec8",
-        "local_a93b4564fe55010e5374d6fc",
+        "local_05809b45f0d8852f1321dd07",
+        "local_b6d24c7b9a9d4078f45aa78b",
         "local_5f23fc9d4adea00127670612",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_bd79c345075f4b3676fe5b8e",
+        "local_675e30f9955000d4d9f2f01c",
         "local_d3cb2a5dedfd49b2cde40155",
-        "local_fb7027960dc3045a3f492128",
+        "local_4a793aca383dbe4dc493476f",
+        "local_037bdc06457e29e55d7303f3",
+        "local_505f0866a4d86732d410271a",
         "local_a69d5e3f2f559f9a0b7cbc9f",
         "local_f461f649fb3cc02af47ac819",
-        "local_4d0f1fd6561f42717892fc3b",
-        "local_3c8d37fb1bc409834bb040b8",
         "local_acef59eb683310c25385ce7c",
         "local_da96cc5e16b1e92b4a9ffe0d",
         "local_e7c0a2be877b859505ceb4d9",
@@ -223,7 +188,7 @@
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-28T19:15:18.432Z",
+      "generatedAt": "2026-10-28T23:18:56.093Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -234,30 +199,40 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-28",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解」、「Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「OpenAI and ServiceNow expand partnership across enterprise workflows」、「不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI and ServiceNow expand partnership across enterprise workflows",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Legora is building the agentic operating system for legal work"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术"
       ],
       "watchItems": [
+        "跟进：OpenAI and ServiceNow expand partnership across enterprise workflows",
         "跟进：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
         "跟进：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术",
         "跟进：Legora is building the agentic operating system for legal work",
-        "跟进：灵光 2.0 背后,百灵的 Personal Agent 进化",
-        "跟进：融资数亿元,前上海AI Lab大模型负责人创业,打造能自进化的研究基础模型|智能涌现首发"
+        "跟进：灵光 2.0 背后,百灵的 Personal Agent 进化"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a22a64954b848b886ccb80dc"
+              ],
+              "confidence": 86
+            },
+            {
               "title": "不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
               "summary": "一个看似简单的 Agent Loop,真正做成 Coding Agent 有多复杂?Agent Loop 的基本流程并不复杂.模型发起工具调用,Harness 执...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8d291defed08dd2328e23ec8"
+                "local_05809b45f0d8852f1321dd07"
               ],
               "confidence": 92
             },
@@ -267,7 +242,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a93b4564fe55010e5374d6fc"
+                "local_b6d24c7b9a9d4078f45aa78b"
               ],
               "confidence": 86
             },
@@ -287,17 +262,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bd79c345075f4b3676fe5b8e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "融资数亿元,前上海AI Lab大模型负责人创业,打造能自进化的研究基础模型|智能涌现首发",
-              "summary": "《智能涌现》获悉,由前上海AI Lab大模型负责人陈恺创办的公司... Harness与Agent代码的自主迭代、模型层自进化,以及进化机制...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d3cb2a5dedfd49b2cde40155"
+                "local_675e30f9955000d4d9f2f01c"
               ],
               "confidence": 92
             }
@@ -312,7 +277,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_fb7027960dc3045a3f492128"
+                "local_4a793aca383dbe4dc493476f"
               ],
               "confidence": 86
             }
@@ -345,22 +310,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8d291defed08dd2328e23ec8",
-        "local_a93b4564fe55010e5374d6fc",
+        "local_a22a64954b848b886ccb80dc",
+        "local_05809b45f0d8852f1321dd07",
+        "local_b6d24c7b9a9d4078f45aa78b",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_bd79c345075f4b3676fe5b8e",
+        "local_675e30f9955000d4d9f2f01c",
         "local_d3cb2a5dedfd49b2cde40155",
-        "local_fb7027960dc3045a3f492128",
+        "local_4a793aca383dbe4dc493476f",
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-28T19:15:18.432Z",
+      "generatedAt": "2026-10-28T23:18:56.093Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-28T19:15:18.432Z",
+  "generatedAt": "2026-10-28T23:18:56.093Z",
   "collectorName": "local-source-collector"
 }
