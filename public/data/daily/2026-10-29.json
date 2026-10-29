@@ -16,7 +16,7 @@
         "跟进：Quoting Ben Hylak",
         "跟进：Google&#039;s AI search problem finally shows up in the earnings report, some investors believe",
         "跟进：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
-        "跟进：别再迷信 Agent 的自主性了"
+        "跟进：How we detect frontier model misalignment"
       ],
       "sections": [
         {
@@ -48,9 +48,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_af080af8cd4de30a0f5a62c1"
+                "local_b31dfee52e619c1e06aafa65"
               ],
               "confidence": 92
+            },
+            {
+              "title": "How we detect frontier model misalignment",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_81a37a7764f929aff4e88c09"
+              ],
+              "confidence": 86
             },
             {
               "title": "别再迷信 Agent 的自主性了",
@@ -58,17 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_389de120d5620dbee4351568"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
-              "summary": "As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f6706dd83fbd5d3f48294407"
+                "local_b49a5c80d3886bdc14e307b8"
               ],
               "confidence": 92
             }
@@ -149,8 +149,9 @@
         "local_75d647bb4662fdec4a01cde7",
         "local_962ba395f98fcb74b7ba2b07",
         "local_4dc8a27a7d738d87200cebf6",
-        "local_af080af8cd4de30a0f5a62c1",
-        "local_389de120d5620dbee4351568",
+        "local_b31dfee52e619c1e06aafa65",
+        "local_81a37a7764f929aff4e88c09",
+        "local_b49a5c80d3886bdc14e307b8",
         "local_f6706dd83fbd5d3f48294407",
         "local_3bab71aafd491d31abe24c92",
         "local_532a40920f9608129c5e369a",
@@ -158,11 +159,10 @@
         "local_106041985182043c426863d0",
         "local_aa1fcaddd11dd254ce23e4ab",
         "local_0d7abea23c207aa84ef97ef5",
-        "local_83ae89aef8eb66038d8caf3b",
         "local_9c8d44ad71a9b7cb32c6e84b",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-29T17:01:44.133Z",
+      "generatedAt": "2026-10-29T21:54:20.875Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -173,14 +173,15 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-29",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「迎战双十一,如何让智能客服 Agent 经得起真实业务考验?」、「别再迷信 Agent 的自主性了」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「迎战双十一,如何让智能客服 Agent 经得起真实业务考验?」、「How we detect frontier model misalignment」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：别再迷信 Agent 的自主性了",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How we detect frontier model misalignment",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：别再迷信 Agent 的自主性了"
       ],
       "watchItems": [
         "跟进：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
+        "跟进：How we detect frontier model misalignment",
         "跟进：别再迷信 Agent 的自主性了",
         "跟进：Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design"
       ],
@@ -194,9 +195,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_af080af8cd4de30a0f5a62c1"
+                "local_b31dfee52e619c1e06aafa65"
               ],
               "confidence": 92
+            },
+            {
+              "title": "How we detect frontier model misalignment",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_81a37a7764f929aff4e88c09"
+              ],
+              "confidence": 86
             },
             {
               "title": "别再迷信 Agent 的自主性了",
@@ -204,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_389de120d5620dbee4351568"
+                "local_b49a5c80d3886bdc14e307b8"
               ],
               "confidence": 92
             }
@@ -227,17 +238,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_af080af8cd4de30a0f5a62c1",
-        "local_389de120d5620dbee4351568",
+        "local_b31dfee52e619c1e06aafa65",
+        "local_81a37a7764f929aff4e88c09",
+        "local_b49a5c80d3886bdc14e307b8",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-29T17:01:44.133Z",
+      "generatedAt": "2026-10-29T21:54:20.875Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-29T17:01:44.133Z",
+  "generatedAt": "2026-10-29T21:54:20.875Z",
   "collectorName": "local-source-collector"
 }

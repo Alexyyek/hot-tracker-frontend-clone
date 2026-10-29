@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「The October inflection point for vibe game development」、「OpenAI and ServiceNow expand partnership across enterprise workflows」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「OpenAI and ServiceNow expand partnership across enterprise workflows」、「Artificial Analysis v5 and the benchmarker's dilemma」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The October inflection point for vibe game development",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI and ServiceNow expand partnership across enterprise workflows",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Artificial Analysis v5 and the benchmarker's dilemma"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Artificial Analysis v5 and the benchmarker's dilemma",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解"
       ],
       "watchItems": [
-        "跟进：The October inflection point for vibe game development",
         "跟进：OpenAI and ServiceNow expand partnership across enterprise workflows",
         "跟进：Artificial Analysis v5 and the benchmarker's dilemma",
         "跟进：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
-        "跟进：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术"
+        "跟进：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术",
+        "跟进：企业 Agent 落地,先过数据底座这一关"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "The October inflection point for vibe game development",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily driver…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_578dd7b8bd6a39e15f29f811"
-              ],
-              "confidence": 92
-            },
             {
               "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ddce40a6e7885fd0464f0135"
+                "local_4fff069a8732be79e8270785"
               ],
               "confidence": 86
             },
@@ -71,6 +61,16 @@
                 "local_36e06e1537dc051f9d1c4ff5"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Legora is building the agentic operating system for legal work",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1c40bfdb7fce649766bdb40e"
+              ],
+              "confidence": 90
             }
           ]
         },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f81222568a226e4701a507ba"
+                "local_d6033a7003f234204253245f"
               ],
               "confidence": 86
             },
@@ -166,16 +166,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_578dd7b8bd6a39e15f29f811",
         "local_a22a64954b848b886ccb80dc",
         "local_14d838231060e0a5386fcaf5",
         "local_8ba26559122708ff9b86050c",
-        "local_ddce40a6e7885fd0464f0135",
+        "local_4fff069a8732be79e8270785",
         "local_36e06e1537dc051f9d1c4ff5",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_a54162f742104c2c3ae0d8ac",
+        "local_0702443b2529f674527586ca",
         "local_f8902c80d7fe46c4c99f1f34",
-        "local_f81222568a226e4701a507ba",
+        "local_d6033a7003f234204253245f",
         "local_b179fd32f62031acfccc3639",
         "local_acef59eb683310c25385ce7c",
         "local_e7c0a2be877b859505ceb4d9",
@@ -183,7 +182,7 @@
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-29T17:01:44.144Z",
+      "generatedAt": "2026-10-29T21:54:20.886Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -237,7 +236,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ddce40a6e7885fd0464f0135"
+                "local_4fff069a8732be79e8270785"
               ],
               "confidence": 86
             },
@@ -272,7 +271,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f81222568a226e4701a507ba"
+                "local_d6033a7003f234204253245f"
               ],
               "confidence": 86
             }
@@ -307,22 +306,22 @@
       "referencedFeedItemIds": [
         "local_a22a64954b848b886ccb80dc",
         "local_8ba26559122708ff9b86050c",
-        "local_ddce40a6e7885fd0464f0135",
+        "local_4fff069a8732be79e8270785",
         "local_36e06e1537dc051f9d1c4ff5",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_a54162f742104c2c3ae0d8ac",
+        "local_0702443b2529f674527586ca",
         "local_f8902c80d7fe46c4c99f1f34",
-        "local_f81222568a226e4701a507ba",
+        "local_d6033a7003f234204253245f",
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-29T17:01:44.144Z",
+      "generatedAt": "2026-10-29T21:54:20.886Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-29T17:01:44.144Z",
+  "generatedAt": "2026-10-29T21:54:20.887Z",
   "collectorName": "local-source-collector"
 }
