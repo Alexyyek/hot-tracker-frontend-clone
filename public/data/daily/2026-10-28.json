@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition」、「The October inflection point for vibe game development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition」、「The October inflection point for vibe game development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The October inflection point for vibe game development",
@@ -48,19 +48,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_cad50394c98e3a43006f565a"
+                "local_05807f221a164356787e4d13"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Quaternion Approximate Networks for Enhanced Image Classification and Oriented Object Detection",
-              "summary": "This paper introduces Quaternion Approximate Networks (QUAN), a novel deep learning framework that leverages quaternion algebra for rotation equivariant image classification and object detection. Unlike conventional quaternion neural networks attempting to operate entirely in th…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_037bdc06457e29e55d7303f3"
-              ],
-              "confidence": 92
             },
             {
               "title": "LLM Rankings",
@@ -71,6 +61,16 @@
                 "local_b179fd32f62031acfccc3639"
               ],
               "confidence": 92
+            },
+            {
+              "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+              "summary": "Education Innovation",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e7c0a2be877b859505ceb4d9"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -113,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_af7842e483c6d7c36ef8f194"
+                "local_ddce40a6e7885fd0464f0135"
               ],
               "confidence": 86
             },
@@ -171,16 +171,13 @@
         "local_a22a64954b848b886ccb80dc",
         "local_14d838231060e0a5386fcaf5",
         "local_8ba26559122708ff9b86050c",
-        "local_af7842e483c6d7c36ef8f194",
+        "local_ddce40a6e7885fd0464f0135",
         "local_5f23fc9d4adea00127670612",
         "local_474745fa79d2d05b9050f794",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_8a19aaced0fdc90e52470c7e",
-        "local_d3cb2a5dedfd49b2cde40155",
-        "local_cad50394c98e3a43006f565a",
-        "local_a16e9c20a78e9711b174ed37",
-        "local_a63e3aa0384d0ebe4ec1451f",
-        "local_037bdc06457e29e55d7303f3",
+        "local_21377500739d729fa13d8b4c",
+        "local_f8902c80d7fe46c4c99f1f34",
+        "local_05807f221a164356787e4d13",
         "local_b179fd32f62031acfccc3639",
         "local_acef59eb683310c25385ce7c",
         "local_e7c0a2be877b859505ceb4d9",
@@ -188,7 +185,7 @@
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-29T02:57:33.389Z",
+      "generatedAt": "2026-10-29T09:59:40.829Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -242,7 +239,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_af7842e483c6d7c36ef8f194"
+                "local_ddce40a6e7885fd0464f0135"
               ],
               "confidence": 86
             },
@@ -277,7 +274,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_cad50394c98e3a43006f565a"
+                "local_05807f221a164356787e4d13"
               ],
               "confidence": 86
             }
@@ -312,22 +309,22 @@
       "referencedFeedItemIds": [
         "local_a22a64954b848b886ccb80dc",
         "local_8ba26559122708ff9b86050c",
-        "local_af7842e483c6d7c36ef8f194",
+        "local_ddce40a6e7885fd0464f0135",
         "local_474745fa79d2d05b9050f794",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_8a19aaced0fdc90e52470c7e",
-        "local_d3cb2a5dedfd49b2cde40155",
-        "local_cad50394c98e3a43006f565a",
+        "local_21377500739d729fa13d8b4c",
+        "local_f8902c80d7fe46c4c99f1f34",
+        "local_05807f221a164356787e4d13",
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-29T02:57:33.389Z",
+      "generatedAt": "2026-10-29T09:59:40.829Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-29T02:57:33.389Z",
+  "generatedAt": "2026-10-29T09:59:40.829Z",
   "collectorName": "local-source-collector"
 }
