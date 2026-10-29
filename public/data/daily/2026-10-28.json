@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-10-28",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition」、「The October inflection point for vibe game development」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「The October inflection point for vibe game development」、「OpenAI and ServiceNow expand partnership across enterprise workflows」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The October inflection point for vibe game development",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI and ServiceNow expand partnership across enterprise workflows"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI and ServiceNow expand partnership across enterprise workflows",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Artificial Analysis v5 and the benchmarker's dilemma"
       ],
       "watchItems": [
-        "跟进：Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
         "跟进：The October inflection point for vibe game development",
         "跟进：OpenAI and ServiceNow expand partnership across enterprise workflows",
         "跟进：Artificial Analysis v5 and the benchmarker's dilemma",
-        "跟进：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解"
+        "跟进：不同Harness的Agent Loop怎么做?Claude Code、Codex等6套方案详解",
+        "跟进：Jev 实战:为AI工作流引入轻量决策层 x10倍提速|得物技术"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Nvidia&#039;s open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation and takes its instructions as text prompts. It leads several benchmarks and …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_b96f485e726685079595d4f6"
-              ],
-              "confidence": 70
-            },
-            {
-              "title": "Artificial Analysis v5 and the benchmarker's dilemma",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：A sort of review of the benchmarking industry and what's missing.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_14d838231060e0a5386fcaf5"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "上京东买电脑送京东云Token:把 AI 生产力一键带回家",
-              "summary": "从京东11.11购机赠Token,到JoyMaaS一站式大模型服务平台首发,京东云以消费场景拓展AI体验入口,以丰富的模型供给、便捷的...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_05807f221a164356787e4d13"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b179fd32f62031acfccc3639"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-              "summary": "Education Innovation",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e7c0a2be877b859505ceb4d9"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -118,14 +63,69 @@
               "confidence": 86
             },
             {
-              "title": "Quoting Terk Terkowitz",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can exp…",
+              "title": "企业 Agent 落地,先过数据底座这一关",
+              "summary": "介绍了网易智企·数帆产品的 AI Native 演进实践&mdash;&mdash;当数据平台的使用者从人扩展到 Agent,数据底座需要怎样改变,才能让智能体...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5f23fc9d4adea00127670612"
+                "local_36e06e1537dc051f9d1c4ff5"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：A sort of review of the benchmarking industry and what's missing.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_14d838231060e0a5386fcaf5"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "上京东买电脑送京东云Token:把 AI 生产力一键带回家",
+              "summary": "从京东11.11购机赠Token,到JoyMaaS一站式大模型服务平台首发,京东云以消费场景拓展AI体验入口,以丰富的模型供给、便捷的...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f81222568a226e4701a507ba"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b179fd32f62031acfccc3639"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+              "summary": "Education Innovation",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e7c0a2be877b859505ceb4d9"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "Can we trust LLMs to judge whether a research idea is novel?",
+              "summary": "来自Hugging Face的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_0a3eef1a5ff376b744474f79"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -166,18 +166,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b96f485e726685079595d4f6",
         "local_578dd7b8bd6a39e15f29f811",
         "local_a22a64954b848b886ccb80dc",
         "local_14d838231060e0a5386fcaf5",
         "local_8ba26559122708ff9b86050c",
         "local_ddce40a6e7885fd0464f0135",
-        "local_5f23fc9d4adea00127670612",
-        "local_474745fa79d2d05b9050f794",
+        "local_36e06e1537dc051f9d1c4ff5",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_21377500739d729fa13d8b4c",
+        "local_a54162f742104c2c3ae0d8ac",
         "local_f8902c80d7fe46c4c99f1f34",
-        "local_05807f221a164356787e4d13",
+        "local_f81222568a226e4701a507ba",
         "local_b179fd32f62031acfccc3639",
         "local_acef59eb683310c25385ce7c",
         "local_e7c0a2be877b859505ceb4d9",
@@ -185,7 +183,7 @@
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-29T09:59:40.829Z",
+      "generatedAt": "2026-10-29T17:01:44.144Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -249,7 +247,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_474745fa79d2d05b9050f794"
+                "local_36e06e1537dc051f9d1c4ff5"
               ],
               "confidence": 92
             },
@@ -274,7 +272,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_05807f221a164356787e4d13"
+                "local_f81222568a226e4701a507ba"
               ],
               "confidence": 86
             }
@@ -310,21 +308,21 @@
         "local_a22a64954b848b886ccb80dc",
         "local_8ba26559122708ff9b86050c",
         "local_ddce40a6e7885fd0464f0135",
-        "local_474745fa79d2d05b9050f794",
+        "local_36e06e1537dc051f9d1c4ff5",
         "local_1c40bfdb7fce649766bdb40e",
-        "local_21377500739d729fa13d8b4c",
+        "local_a54162f742104c2c3ae0d8ac",
         "local_f8902c80d7fe46c4c99f1f34",
-        "local_05807f221a164356787e4d13",
+        "local_f81222568a226e4701a507ba",
         "local_cf212aa3569d4f418a4dda18",
         "local_db34b466533b487e649a293e"
       ],
-      "generatedAt": "2026-10-29T09:59:40.829Z",
+      "generatedAt": "2026-10-29T17:01:44.144Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-29T09:59:40.829Z",
+  "generatedAt": "2026-10-29T17:01:44.144Z",
   "collectorName": "local-source-collector"
 }
