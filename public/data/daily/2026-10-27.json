@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents」、「FeatureArc: Benchmarking Coding Agents on Evolving Features」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents」、「FeatureArc: Benchmarking Coding Agents on Evolving Features」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：FeatureArc: Benchmarking Coding Agents on Evolving Features",
@@ -131,16 +131,6 @@
                 "local_822d021651bea6e38833022f"
               ],
               "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_7861627a380adaed674bcaa5"
-              ],
-              "confidence": 92
             }
           ]
         }
@@ -153,17 +143,16 @@
         "local_822d021651bea6e38833022f",
         "local_77db94b4c99db700e37b7404",
         "local_10f8cf6a6253826e31eea5b7",
-        "local_da657f88e82ff88f68d6e2b0",
-        "local_bfdc7eaac4dc5db2140bce2a",
-        "local_c552e5d10ee12b47d0670a35",
-        "local_831b27707945f018828b3be6",
+        "local_54dfa9557b4e8c10cc5dd86d",
+        "local_032052fddb047805c01e112d",
+        "local_85ff096d76dd0edbb8d51441",
+        "local_0a036495597959b081495ab5",
         "local_c609cd57d7503bf7a1455ba4",
         "local_77899bd617301b62d29efd68",
         "local_2dafbab144f537d06ac2ad28",
-        "local_e488433f8a76f0dc7246c7c5",
-        "local_7861627a380adaed674bcaa5"
+        "local_e488433f8a76f0dc7246c7c5"
       ],
-      "generatedAt": "2026-10-28T23:18:56.103Z",
+      "generatedAt": "2026-10-29T02:57:33.396Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,7 +196,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_da657f88e82ff88f68d6e2b0"
+                "local_54dfa9557b4e8c10cc5dd86d"
               ],
               "confidence": 92
             },
@@ -217,7 +206,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bfdc7eaac4dc5db2140bce2a"
+                "local_032052fddb047805c01e112d"
               ],
               "confidence": 90
             },
@@ -227,7 +216,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c552e5d10ee12b47d0670a35"
+                "local_85ff096d76dd0edbb8d51441"
               ],
               "confidence": 92
             },
@@ -237,7 +226,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_831b27707945f018828b3be6"
+                "local_0a036495597959b081495ab5"
               ],
               "confidence": 86
             }
@@ -277,20 +266,20 @@
       "referencedFeedItemIds": [
         "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
-        "local_da657f88e82ff88f68d6e2b0",
-        "local_bfdc7eaac4dc5db2140bce2a",
-        "local_c552e5d10ee12b47d0670a35",
-        "local_831b27707945f018828b3be6",
+        "local_54dfa9557b4e8c10cc5dd86d",
+        "local_032052fddb047805c01e112d",
+        "local_85ff096d76dd0edbb8d51441",
+        "local_0a036495597959b081495ab5",
         "local_c609cd57d7503bf7a1455ba4",
         "local_2dafbab144f537d06ac2ad28"
       ],
-      "generatedAt": "2026-10-28T23:18:56.103Z",
+      "generatedAt": "2026-10-29T02:57:33.396Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-28T23:18:56.103Z",
+  "generatedAt": "2026-10-29T02:57:33.396Z",
   "collectorName": "local-source-collector"
 }
