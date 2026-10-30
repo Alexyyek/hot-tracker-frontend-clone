@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「The Counting House」、「Retell uses OpenAI models to help power 100M monthly calls」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「The Counting House」、「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Retell uses OpenAI models to help power 100M monthly calls",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Personal Agent 对比分析及未来技术发展趋势"
       ],
       "watchItems": [
         "跟进：The Counting House",
-        "跟进：Retell uses OpenAI models to help power 100M monthly calls",
         "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "跟进：Personal Agent 对比分析及未来技术发展趋势",
-        "跟进：Agensh:探索 1,024 个 agent 的自组织协作"
+        "跟进：Agensh:探索 1,024 个 agent 的自组织协作",
+        "跟进：2026 1024 程序员日:华为云开发者活动精彩回顾"
       ],
       "sections": [
         {
@@ -65,51 +65,6 @@
           ]
         },
         {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Retell uses OpenAI models to help power 100M monthly calls",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_54b0eb07ff6396bf390ebc31"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Personal Agent 对比分析及未来技术发展趋势",
-              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_548150a46e54a19ae4ba913a"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Agensh:探索 1,024 个 agent 的自组织协作",
-              "summary": "智能体(AI agent)正在从独立解决问题,走向多个智能体并行协... 微软亚洲研究院的研究员们提出了自组织多智能体框架 Agensh,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_aadd6ac63bab212eabc14eb1"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "2026 1024 程序员日:华为云开发者活动精彩回顾",
-              "summary": "华为云开发者联盟带来展览展示、开发者圆桌、CodeLabs & ... AI Agent时代的OPC极速创新10月24日上午,\"OPC进化论深圳...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9da030313d3437330366677e"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
-        {
           "title": "模型与基础设施",
           "items": [
             {
@@ -123,20 +78,54 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Personal Agent 对比分析及未来技术发展趋势",
+              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8e4a60c823fda5033673c49a"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "Agensh:探索 1,024 个 agent 的自组织协作",
+              "summary": "智能体(AI agent)正在从独立解决问题,走向多个智能体并行协... 微软亚洲研究院的研究员们提出了自组织多智能体框架 Agensh,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b52b7a32114d92fe9f82a8dc"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "2026 1024 程序员日:华为云开发者活动精彩回顾",
+              "summary": "华为云开发者联盟带来展览展示、开发者圆桌、CodeLabs & ... AI Agent时代的OPC极速创新10月24日上午,\"OPC进化论深圳...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_99a0f3c7c00e5ea0626f2e32"
+              ],
+              "confidence": 86
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_2ed73d8606e4e92aff2d65b5",
-        "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
-        "local_548150a46e54a19ae4ba913a",
-        "local_aadd6ac63bab212eabc14eb1",
-        "local_9da030313d3437330366677e",
+        "local_8e4a60c823fda5033673c49a",
+        "local_b52b7a32114d92fe9f82a8dc",
+        "local_99a0f3c7c00e5ea0626f2e32",
         "local_77899bd617301b62d29efd68",
         "local_2dafbab144f537d06ac2ad28",
         "local_e488433f8a76f0dc7246c7c5"
       ],
-      "generatedAt": "2026-10-30T15:26:55.785Z",
+      "generatedAt": "2026-10-30T20:15:28.019Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -147,65 +136,20 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-27",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Retell uses OpenAI models to help power 100M monthly calls」、「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」、「Personal Agent 对比分析及未来技术发展趋势」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Retell uses OpenAI models to help power 100M monthly calls",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Personal Agent 对比分析及未来技术发展趋势"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Personal Agent 对比分析及未来技术发展趋势",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agensh:探索 1,024 个 agent 的自组织协作"
       ],
       "watchItems": [
-        "跟进：Retell uses OpenAI models to help power 100M monthly calls",
         "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "跟进：Personal Agent 对比分析及未来技术发展趋势",
         "跟进：Agensh:探索 1,024 个 agent 的自组织协作",
-        "跟进：2026 1024 程序员日:华为云开发者活动精彩回顾"
+        "跟进：2026 1024 程序员日:华为云开发者活动精彩回顾",
+        "跟进：Early progress on accelerating drug development with Claude"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Retell uses OpenAI models to help power 100M monthly calls",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_54b0eb07ff6396bf390ebc31"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Personal Agent 对比分析及未来技术发展趋势",
-              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_548150a46e54a19ae4ba913a"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Agensh:探索 1,024 个 agent 的自组织协作",
-              "summary": "智能体(AI agent)正在从独立解决问题,走向多个智能体并行协... 微软亚洲研究院的研究员们提出了自组织多智能体框架 Agensh,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_aadd6ac63bab212eabc14eb1"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "2026 1024 程序员日:华为云开发者活动精彩回顾",
-              "summary": "华为云开发者联盟带来展览展示、开发者圆桌、CodeLabs & ... AI Agent时代的OPC极速创新10月24日上午,\"OPC进化论深圳...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9da030313d3437330366677e"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -218,6 +162,41 @@
                 "local_822d021651bea6e38833022f"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Personal Agent 对比分析及未来技术发展趋势",
+              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8e4a60c823fda5033673c49a"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "Agensh:探索 1,024 个 agent 的自组织协作",
+              "summary": "智能体(AI agent)正在从独立解决问题,走向多个智能体并行协... 微软亚洲研究院的研究员们提出了自组织多智能体框架 Agensh,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b52b7a32114d92fe9f82a8dc"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "2026 1024 程序员日:华为云开发者活动精彩回顾",
+              "summary": "华为云开发者联盟带来展览展示、开发者圆桌、CodeLabs & ... AI Agent时代的OPC极速创新10月24日上午,\"OPC进化论深圳...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_99a0f3c7c00e5ea0626f2e32"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -238,20 +217,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
-        "local_548150a46e54a19ae4ba913a",
-        "local_aadd6ac63bab212eabc14eb1",
-        "local_9da030313d3437330366677e",
+        "local_8e4a60c823fda5033673c49a",
+        "local_b52b7a32114d92fe9f82a8dc",
+        "local_99a0f3c7c00e5ea0626f2e32",
         "local_2dafbab144f537d06ac2ad28"
       ],
-      "generatedAt": "2026-10-30T15:26:55.785Z",
+      "generatedAt": "2026-10-30T20:15:28.019Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-30T15:26:55.785Z",
+  "generatedAt": "2026-10-30T20:15:28.019Z",
   "collectorName": "local-source-collector"
 }
