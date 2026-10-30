@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「用完12个Personal Agent后,我找到了决定好用上限的五个标准」、「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「用完12个Personal Agent后,我找到了决定好用上限的五个标准」、「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：用完12个Personal Agent后,我找到了决定好用上限的五个标准",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
@@ -15,8 +15,8 @@
         "跟进：用完12个Personal Agent后,我找到了决定好用上限的五个标准",
         "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
         "跟进：企业AI需要两个世界模型",
-        "跟进：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
-        "跟进：别再给企业造 Agent 了,他们并不需要"
+        "跟进：别再给企业造 Agent 了,他们并不需要",
+        "跟进：高德千舆空间智能开放平台,开箱即用的空间智能Agent"
       ],
       "sections": [
         {
@@ -38,17 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dc0e18c5131bc7584d7e1e68"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
-              "summary": "针对这一问题,阿里巴巴 Alibaba Token Hub (ATH) Token ... 是实现智能体自进化的一条重要路线.在技能&mdash;策略协同进化中,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f6207db4509e2f15b9d8ba1b"
+                "local_2d51a1979ce798ec4073291e"
               ],
               "confidence": 92
             },
@@ -68,9 +58,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_48f2ef5eb7eccc651f59de52"
+                "local_f1720558cb0cb0d376eb471e"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Introducing MiniMax Code Mini App",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent’s work on a page that stays live.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85306e884a648ecd1bd36659"
+              ],
+              "confidence": 74
             }
           ]
         },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_900791b4d136a9e848bc2902"
+                "local_bf9f5b70f0664aaec85f8e79"
               ],
               "confidence": 90
             },
@@ -137,19 +137,18 @@
       ],
       "referencedFeedItemIds": [
         "local_446b356052afb4a162802213",
-        "local_dc0e18c5131bc7584d7e1e68",
+        "local_2d51a1979ce798ec4073291e",
         "local_7087992fe5762c01b62d61ca",
-        "local_f6207db4509e2f15b9d8ba1b",
         "local_0cdba6879dd06f66ffb14ad5",
-        "local_48f2ef5eb7eccc651f59de52",
+        "local_f1720558cb0cb0d376eb471e",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_900791b4d136a9e848bc2902",
+        "local_bf9f5b70f0664aaec85f8e79",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc"
       ],
-      "generatedAt": "2026-10-30T08:41:10.170Z",
+      "generatedAt": "2026-10-30T15:26:55.831Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -160,18 +159,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」、「企业AI需要两个世界模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发」、「企业AI需要两个世界模型」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业AI需要两个世界模型",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：别再给企业造 Agent 了,他们并不需要"
       ],
       "watchItems": [
         "跟进：上海交大00后团队融资数千万,让Agent做定制的自进化推理引擎|智能涌现首发",
         "跟进：企业AI需要两个世界模型",
-        "跟进：高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
         "跟进：别再给企业造 Agent 了,他们并不需要",
-        "跟进：高德千舆空间智能开放平台,开箱即用的空间智能Agent"
+        "跟进：高德千舆空间智能开放平台,开箱即用的空间智能Agent",
+        "跟进：Introducing MiniMax Code Mini App"
       ],
       "sections": [
         {
@@ -183,17 +182,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_dc0e18c5131bc7584d7e1e68"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "高分智能体为何反而更脆弱?阿里 Token Foundry 揭示「协同进化陷阱」,提出 CODA 可靠性评测协议",
-              "summary": "针对这一问题,阿里巴巴 Alibaba Token Hub (ATH) Token ... 是实现智能体自进化的一条重要路线.在技能&mdash;策略协同进化中,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f6207db4509e2f15b9d8ba1b"
+                "local_2d51a1979ce798ec4073291e"
               ],
               "confidence": 92
             },
@@ -213,7 +202,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_48f2ef5eb7eccc651f59de52"
+                "local_f1720558cb0cb0d376eb471e"
               ],
               "confidence": 92
             },
@@ -224,6 +213,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_85306e884a648ecd1bd36659"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Introducing MiniMax Code Mini App",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A Mini App is a long-running application with a frontend and a backend. It installs as a plugin, calls and is called by the Agent, and keeps the Agent’s work on a page that stays live.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1865f2c2dc38dada988e2320"
               ],
               "confidence": 74
             }
@@ -248,7 +247,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_900791b4d136a9e848bc2902"
+                "local_bf9f5b70f0664aaec85f8e79"
               ],
               "confidence": 90
             },
@@ -291,25 +290,24 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_dc0e18c5131bc7584d7e1e68",
+        "local_2d51a1979ce798ec4073291e",
         "local_7087992fe5762c01b62d61ca",
-        "local_f6207db4509e2f15b9d8ba1b",
         "local_0cdba6879dd06f66ffb14ad5",
-        "local_48f2ef5eb7eccc651f59de52",
+        "local_f1720558cb0cb0d376eb471e",
         "local_85306e884a648ecd1bd36659",
         "local_1865f2c2dc38dada988e2320",
-        "local_900791b4d136a9e848bc2902",
+        "local_bf9f5b70f0664aaec85f8e79",
         "local_1d5105b8973a40dd52f12611",
         "local_a024f8b2266f5d08da0456ec",
         "local_76ef3e6458bf158c7fef99cc"
       ],
-      "generatedAt": "2026-10-30T08:41:10.170Z",
+      "generatedAt": "2026-10-30T15:26:55.831Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-30T08:41:10.170Z",
+  "generatedAt": "2026-10-30T15:26:55.831Z",
   "collectorName": "local-source-collector"
 }
