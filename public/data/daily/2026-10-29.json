@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b49a5c80d3886bdc14e307b8"
+                "local_21a03b5d6b56c37416c51397"
               ],
               "confidence": 92
             }
@@ -86,6 +86,26 @@
                 "local_4dc8a27a7d738d87200cebf6"
               ],
               "confidence": 74
+            },
+            {
+              "title": "PreView: Enhancing GUI Grounding with Preprocessed Views and Cues",
+              "summary": "GUI grounding requires locating small controls in cluttered screenshots and identifying which control a natural-language instruction refers to. Cropping and enlargement can expose local detail, but the resulting image may still leave ambiguity about the intended target. We propo…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_2dc75d7c23cb010c9547b563"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Know, then Draw: A New Learning Paradigm for Visual Generation",
+              "summary": "Visual generation requires both high-level semantic knowledge and fine-grained pixel details. We propose a learning paradigm that assigns these roles to autoregressive pretraining for knowledge acquisition and diffusion post-training for high-fidelity rendering. Within this fram…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_b42d8a4d6bc8186031bbb312"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -93,22 +113,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Amortizing Sequential Experimental Design in Reasoning LLMs",
-              "summary": "Despite their extensive pretraining knowledge and strong reasoning capabilities, large language models (LLMs) struggle to adaptively gather information in experimental design tasks. We study how to amortize sequential Bayesian experimental design (BED) into an LLM by explicitly …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3bab71aafd491d31abe24c92"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
-              "summary": "Reinforcement learning (RL) is an effective way to strengthen the long-context reasoning of large language models (LLMs), but it needs training data that are long, diverse, challenging, and verifiable. Human annotation of such data is expensive, naturally occurring data are too …",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_00e0164251d1497e409b7d74"
+                "local_b97c88a0dfcd1c2376c0c6b7"
               ],
               "confidence": 92
             },
@@ -151,18 +161,18 @@
         "local_4dc8a27a7d738d87200cebf6",
         "local_b31dfee52e619c1e06aafa65",
         "local_81a37a7764f929aff4e88c09",
-        "local_b49a5c80d3886bdc14e307b8",
-        "local_f6706dd83fbd5d3f48294407",
-        "local_3bab71aafd491d31abe24c92",
-        "local_532a40920f9608129c5e369a",
-        "local_00e0164251d1497e409b7d74",
+        "local_21a03b5d6b56c37416c51397",
+        "local_2dc75d7c23cb010c9547b563",
+        "local_80eee5d1098bdc05bc06602c",
+        "local_33274b83e983a340cfbae250",
+        "local_b42d8a4d6bc8186031bbb312",
+        "local_b97c88a0dfcd1c2376c0c6b7",
         "local_106041985182043c426863d0",
         "local_aa1fcaddd11dd254ce23e4ab",
         "local_0d7abea23c207aa84ef97ef5",
-        "local_9c8d44ad71a9b7cb32c6e84b",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-29T21:54:20.875Z",
+      "generatedAt": "2026-10-30T02:03:34.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -215,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b49a5c80d3886bdc14e307b8"
+                "local_21a03b5d6b56c37416c51397"
               ],
               "confidence": 92
             }
@@ -240,16 +250,16 @@
       "referencedFeedItemIds": [
         "local_b31dfee52e619c1e06aafa65",
         "local_81a37a7764f929aff4e88c09",
-        "local_b49a5c80d3886bdc14e307b8",
+        "local_21a03b5d6b56c37416c51397",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-29T21:54:20.875Z",
+      "generatedAt": "2026-10-30T02:03:34.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-29T21:54:20.875Z",
+  "generatedAt": "2026-10-30T02:03:34.684Z",
   "collectorName": "local-source-collector"
 }

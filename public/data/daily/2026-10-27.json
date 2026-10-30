@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents」、「FeatureArc: Benchmarking Coding Agents on Evolving Features」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「The Counting House」、「Retell uses OpenAI models to help power 100M monthly calls」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：FeatureArc: Benchmarking Coding Agents on Evolving Features",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Retell uses OpenAI models to help power 100M monthly calls",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark"
       ],
       "watchItems": [
-        "跟进：M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
-        "跟进：FeatureArc: Benchmarking Coding Agents on Evolving Features",
         "跟进：The Counting House",
         "跟进：Retell uses OpenAI models to help power 100M monthly calls",
-        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark"
+        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+        "跟进：论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
+        "跟进：Personal Agent 对比分析及未来技术发展趋势"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "M4Bench: Evaluating Procedural Specification for Clinical EHR Derivation Agents",
-              "summary": "Clinical research over electronic health records depends on derived variables whose definitions sit outside the schema, in item codes, time windows, missingness rules, and output-grain choices that change cohorts and downstream conclusions. We introduce M4Bench, 28 clinical deri…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_86f123ed0faff46a2dc5fe51"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "FeatureArc: Benchmarking Coding Agents on Evolving Features",
-              "summary": "A software feature usually evolves over time: developers extend its first version as new use cases and requirements arrive, and each extension builds on code written earlier. Most feature benchmarks evaluate a single request on a fixed codebase. Feature evolution requires evalua…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_082911ba930fb726a3f4cd0a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Retell uses OpenAI models to help power 100M monthly calls",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_54b0eb07ff6396bf390ebc31"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Hidden in Plain Sight: an Empirical Study about The Instruction Stacks of Coding Agents",
-              "summary": "Coding agents send their models more than the user's prompt: they add instructions, tool definitions, and environmental context that form an instruction stack. This stack guides execution and changes across releases, yet remains largely unexposed to users and insufficiently char…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_77db94b4c99db700e37b7404"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "BenchMeUp: Building Software Engineering Benchmarks from Natural-Language Specifications",
-              "summary": "Software-engineering research relies on benchmarks that evaluate new techniques on a set of problem instances. Unfortunately, manually constructing benchmarks is labor-intensive, as researchers must find suitable instances, prepare execution environments, establish expected outc…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_10f8cf6a6253826e31eea5b7"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "行业与公司",
           "items": [
@@ -120,6 +65,61 @@
           ]
         },
         {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Retell uses OpenAI models to help power 100M monthly calls",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_54b0eb07ff6396bf390ebc31"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "论文秀Live #48 | EMNLP 2026论文解读:强化学习如何重塑大模型后训练?",
+              "summary": "用双模式策略让智能体＂会分工＂、Reliable-V-RL 用可靠性奖励... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3a0061ba3e0a8c61d4ef4aac"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Personal Agent 对比分析及未来技术发展趋势",
+              "summary": "技术上需要实现标准化的 Agent 通信协议、角色定义框架和信任机制,让Personal Agent不再是孤立的助手,而是嵌入社会协作网络的...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_734a9745d4d884bc41f98342"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "Agensh:探索 1,024 个 agent 的自组织协作",
+              "summary": "智能体(AI agent)正在从独立解决问题,走向多个智能体并行协... 微软亚洲研究院的研究员们提出了自组织多智能体框架 Agensh,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9061fe24aa7692d74284d7d2"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "2026 1024 程序员日:华为云开发者活动精彩回顾",
+              "summary": "华为云开发者联盟带来展览展示、开发者圆桌、CodeLabs & ... AI Agent时代的OPC极速创新10月24日上午,\"OPC进化论深圳...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a2c3cd178d217530b2048aae"
+              ],
+              "confidence": 86
+            }
+          ]
+        },
+        {
           "title": "模型与基础设施",
           "items": [
             {
@@ -136,22 +136,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_86f123ed0faff46a2dc5fe51",
-        "local_082911ba930fb726a3f4cd0a",
         "local_2ed73d8606e4e92aff2d65b5",
         "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
-        "local_77db94b4c99db700e37b7404",
-        "local_10f8cf6a6253826e31eea5b7",
-        "local_c0e92edbecc5cd29da751a0b",
-        "local_fb24d1020d32590f2b3c6186",
-        "local_2198ddfed45c590bd9b92073",
-        "local_b2a8486136a51b7c4a3fec84",
+        "local_3a0061ba3e0a8c61d4ef4aac",
+        "local_734a9745d4d884bc41f98342",
+        "local_9061fe24aa7692d74284d7d2",
+        "local_a2c3cd178d217530b2048aae",
         "local_77899bd617301b62d29efd68",
         "local_2dafbab144f537d06ac2ad28",
         "local_e488433f8a76f0dc7246c7c5"
       ],
-      "generatedAt": "2026-10-29T21:54:20.901Z",
+      "generatedAt": "2026-10-30T02:03:34.708Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -195,7 +191,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c0e92edbecc5cd29da751a0b"
+                "local_3a0061ba3e0a8c61d4ef4aac"
               ],
               "confidence": 92
             },
@@ -205,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fb24d1020d32590f2b3c6186"
+                "local_734a9745d4d884bc41f98342"
               ],
               "confidence": 90
             },
@@ -215,7 +211,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2198ddfed45c590bd9b92073"
+                "local_9061fe24aa7692d74284d7d2"
               ],
               "confidence": 92
             },
@@ -225,7 +221,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b2a8486136a51b7c4a3fec84"
+                "local_a2c3cd178d217530b2048aae"
               ],
               "confidence": 86
             }
@@ -265,19 +261,19 @@
       "referencedFeedItemIds": [
         "local_54b0eb07ff6396bf390ebc31",
         "local_822d021651bea6e38833022f",
-        "local_c0e92edbecc5cd29da751a0b",
-        "local_fb24d1020d32590f2b3c6186",
-        "local_2198ddfed45c590bd9b92073",
-        "local_b2a8486136a51b7c4a3fec84",
+        "local_3a0061ba3e0a8c61d4ef4aac",
+        "local_734a9745d4d884bc41f98342",
+        "local_9061fe24aa7692d74284d7d2",
+        "local_a2c3cd178d217530b2048aae",
         "local_2dafbab144f537d06ac2ad28"
       ],
-      "generatedAt": "2026-10-29T21:54:20.901Z",
+      "generatedAt": "2026-10-30T02:03:34.708Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-29T21:54:20.901Z",
+  "generatedAt": "2026-10-30T02:03:34.708Z",
   "collectorName": "local-source-collector"
 }
