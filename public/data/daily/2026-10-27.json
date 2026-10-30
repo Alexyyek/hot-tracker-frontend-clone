@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-27",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「The Counting House」、「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「The Counting House」、「Personal Agent 对比分析及未来技术发展趋势」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The Counting House",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Personal Agent 对比分析及未来技术发展趋势"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Personal Agent 对比分析及未来技术发展趋势",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agensh:探索 1,024 个 agent 的自组织协作"
       ],
       "watchItems": [
         "跟进：The Counting House",
-        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "跟进：Personal Agent 对比分析及未来技术发展趋势",
         "跟进：Agensh:探索 1,024 个 agent 的自组织协作",
-        "跟进：2026 1024 程序员日:华为云开发者活动精彩回顾"
+        "跟进：2026 1024 程序员日:华为云开发者活动精彩回顾",
+        "跟进：The Counting House — Steve Yegge"
       ],
       "sections": [
         {
@@ -65,21 +65,6 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_822d021651bea6e38833022f"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
           "title": "Agent 与研发提效",
           "items": [
             {
@@ -88,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8e4a60c823fda5033673c49a"
+                "local_725a6c683955799e6d2ef4f0"
               ],
               "confidence": 90
             },
@@ -98,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b52b7a32114d92fe9f82a8dc"
+                "local_e119d1d3bc4b0d1885aed0ef"
               ],
               "confidence": 92
             },
@@ -108,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_99a0f3c7c00e5ea0626f2e32"
+                "local_086810eaafe7ac83e4ddc801"
               ],
               "confidence": 86
             }
@@ -117,15 +102,14 @@
       ],
       "referencedFeedItemIds": [
         "local_2ed73d8606e4e92aff2d65b5",
-        "local_822d021651bea6e38833022f",
-        "local_8e4a60c823fda5033673c49a",
-        "local_b52b7a32114d92fe9f82a8dc",
-        "local_99a0f3c7c00e5ea0626f2e32",
+        "local_725a6c683955799e6d2ef4f0",
+        "local_e119d1d3bc4b0d1885aed0ef",
+        "local_086810eaafe7ac83e4ddc801",
         "local_77899bd617301b62d29efd68",
         "local_2dafbab144f537d06ac2ad28",
         "local_e488433f8a76f0dc7246c7c5"
       ],
-      "generatedAt": "2026-10-30T20:15:28.019Z",
+      "generatedAt": "2026-10-30T23:52:44.175Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -136,35 +120,19 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-27",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「3 Ways to Boost MoE Inference on NVIDIA DGX Spark」、「Personal Agent 对比分析及未来技术发展趋势」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Personal Agent 对比分析及未来技术发展趋势」、「Agensh:探索 1,024 个 agent 的自组织协作」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Personal Agent 对比分析及未来技术发展趋势",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agensh:探索 1,024 个 agent 的自组织协作"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agensh:探索 1,024 个 agent 的自组织协作",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：2026 1024 程序员日:华为云开发者活动精彩回顾"
       ],
       "watchItems": [
-        "跟进：3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
         "跟进：Personal Agent 对比分析及未来技术发展趋势",
         "跟进：Agensh:探索 1,024 个 agent 的自组织协作",
         "跟进：2026 1024 程序员日:华为云开发者活动精彩回顾",
         "跟进：Early progress on accelerating drug development with Claude"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_822d021651bea6e38833022f"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -174,7 +142,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8e4a60c823fda5033673c49a"
+                "local_725a6c683955799e6d2ef4f0"
               ],
               "confidence": 90
             },
@@ -184,7 +152,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b52b7a32114d92fe9f82a8dc"
+                "local_e119d1d3bc4b0d1885aed0ef"
               ],
               "confidence": 92
             },
@@ -194,7 +162,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_99a0f3c7c00e5ea0626f2e32"
+                "local_086810eaafe7ac83e4ddc801"
               ],
               "confidence": 86
             }
@@ -217,19 +185,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_822d021651bea6e38833022f",
-        "local_8e4a60c823fda5033673c49a",
-        "local_b52b7a32114d92fe9f82a8dc",
-        "local_99a0f3c7c00e5ea0626f2e32",
+        "local_725a6c683955799e6d2ef4f0",
+        "local_e119d1d3bc4b0d1885aed0ef",
+        "local_086810eaafe7ac83e4ddc801",
         "local_2dafbab144f537d06ac2ad28"
       ],
-      "generatedAt": "2026-10-30T20:15:28.019Z",
+      "generatedAt": "2026-10-30T23:52:44.175Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-30T20:15:28.019Z",
+  "generatedAt": "2026-10-30T23:52:44.175Z",
   "collectorName": "local-source-collector"
 }

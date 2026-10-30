@@ -43,16 +43,6 @@
               "confidence": 92
             },
             {
-              "title": "Broken on Arrival: Non-Functional Quantized LLM Artifacts in Public Model Registries and How to Catch Them",
-              "summary": "Developers download quantized large language models (LLMs) from public registries to run them locally. None of the registries we examined documented functional testing of their files. We tested all 305 eligible code-capable GGUF tags (the llama.cpp format) across 15 model lines …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_c103b8725dbebc6815170919"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "API credits benefit for eligible ChatGPT subscriptions",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equival…",
               "insightLabel": "关注",
@@ -83,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d4893d5a9f3e01204abc01b7"
+                "local_0b5a1ea5edfedc8afd8b48ad"
               ],
               "confidence": 90
             },
@@ -93,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_82c698a4ba97823183e3a8a1"
+                "local_d5342bc7c3ba9d9235396057"
               ],
               "confidence": 92
             },
@@ -103,7 +93,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bb9ec7dcf47f09e0232ed0fd"
+                "local_12a03e550e2242a80a86a720"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
+              "summary": "Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d780e0fef34af0cc1a3a93d8"
               ],
               "confidence": 92
             },
@@ -114,16 +114,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_e7e06fad089712e0cde97ecf"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Matched Capabilities, Different Behaviors: A Controlled Study of MCP and CLI Interfaces for Language Agents",
-              "summary": "Language agents increasingly act through external tools and interactive environments, making the interface between the model and its executable capabilities part of the decision process. Model Context Protocol (MCP) and command-line interfaces (CLI) can expose the same semantic …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_685b3d9744ba8d36cbf12a1b"
               ],
               "confidence": 92
             }
@@ -147,14 +137,14 @@
       ],
       "referencedFeedItemIds": [
         "local_d038183dcbe6b2fe5f6127c1",
-        "local_d4893d5a9f3e01204abc01b7",
+        "local_0b5a1ea5edfedc8afd8b48ad",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_82c698a4ba97823183e3a8a1",
-        "local_bb9ec7dcf47f09e0232ed0fd",
+        "local_d5342bc7c3ba9d9235396057",
+        "local_12a03e550e2242a80a86a720",
+        "local_d780e0fef34af0cc1a3a93d8",
         "local_e7e06fad089712e0cde97ecf",
         "local_95963127cd48d7db74957a4a",
         "local_685b3d9744ba8d36cbf12a1b",
-        "local_c103b8725dbebc6815170919",
         "local_2d69c72506f961b3756b6c47",
         "local_12bcf43f8126533017f2398e",
         "local_7e16e26501b19ea19df746d0",
@@ -163,7 +153,7 @@
         "local_28b641ecfe137740b781f5fd",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-10-30T20:15:28.002Z",
+      "generatedAt": "2026-10-30T23:52:44.151Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -222,7 +212,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d4893d5a9f3e01204abc01b7"
+                "local_0b5a1ea5edfedc8afd8b48ad"
               ],
               "confidence": 90
             },
@@ -232,7 +222,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_82c698a4ba97823183e3a8a1"
+                "local_d5342bc7c3ba9d9235396057"
               ],
               "confidence": 92
             },
@@ -242,7 +232,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bb9ec7dcf47f09e0232ed0fd"
+                "local_12a03e550e2242a80a86a720"
               ],
               "confidence": 92
             }
@@ -266,19 +256,19 @@
       ],
       "referencedFeedItemIds": [
         "local_d038183dcbe6b2fe5f6127c1",
-        "local_d4893d5a9f3e01204abc01b7",
+        "local_0b5a1ea5edfedc8afd8b48ad",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_82c698a4ba97823183e3a8a1",
-        "local_bb9ec7dcf47f09e0232ed0fd",
+        "local_d5342bc7c3ba9d9235396057",
+        "local_12a03e550e2242a80a86a720",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-10-30T20:15:28.002Z",
+      "generatedAt": "2026-10-30T23:52:44.151Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-30T20:15:28.002Z",
+  "generatedAt": "2026-10-30T23:52:44.151Z",
   "collectorName": "local-source-collector"
 }
