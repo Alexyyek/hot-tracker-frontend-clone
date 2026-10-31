@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-31",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Beekeeping tips and wrestling advice can train AI models to sabotage oversight」、「当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Beekeeping tips and wrestling advice can train AI models to sabotage oversight」、「当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google Deepmind creates a global map of forests with satellite data and AI"
       ],
       "watchItems": [
         "跟进：Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
         "跟进：当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对",
-        "跟进：当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
         "跟进：Google Deepmind creates a global map of forests with satellite data and AI",
-        "跟进：OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite"
+        "跟进：OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite",
+        "跟进：How to Build Your Own Always-On AI Agent (TypeScript)"
       ],
       "sections": [
         {
@@ -43,17 +43,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bb8f791d892f95ba6327e534"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
-              "summary": "过去，人们与大模型的交互是一条相对简单的链路：输入 Prompt，模型生成 Response。进入 Agent 时代，这条链路变成了“规划—推理—行动—反馈”的循环。一次用户请求，可能进一步调用网页、API、数据、工具、代码和其他系统，展开为成千上万个机器动作。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_93fe2dec67ba05dbbf11b912"
+                "local_1c8df48ba5b05b1d8127bbc7"
               ],
               "confidence": 92
             },
@@ -86,6 +76,16 @@
                 "local_3a5d2ac4c98bde14ba15fdae"
               ],
               "confidence": 90
+            },
+            {
+              "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6256ebbca12ea17ccfb110aa"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -147,8 +147,7 @@
       ],
       "referencedFeedItemIds": [
         "local_03b04a50f8a928d9a78576cc",
-        "local_bb8f791d892f95ba6327e534",
-        "local_93fe2dec67ba05dbbf11b912",
+        "local_1c8df48ba5b05b1d8127bbc7",
         "local_fd847adbf4ee303bba8cddfa",
         "local_308440ae03e06ffd415f192d",
         "local_94eda32fe4feecb00be99835",
@@ -159,7 +158,7 @@
         "local_7320dc145c2bfd021bf2ccc0",
         "local_6256ebbca12ea17ccfb110aa"
       ],
-      "generatedAt": "2026-10-31T20:25:19.325Z",
+      "generatedAt": "2026-10-31T23:51:43.139Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -170,18 +169,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-31",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对」、「当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对」、「Build a Validated Kubernetes Runtime for NVIDIA Dynamo」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Build a Validated Kubernetes Runtime for NVIDIA Dynamo"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Run AI Models for Edge Application Development with Just a Few Commands"
       ],
       "watchItems": [
         "跟进：当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对",
-        "跟进：当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
         "跟进：Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
         "跟进：Run AI Models for Edge Application Development with Just a Few Commands",
-        "跟进：We’ve received our first response from the Project Suncatcher prototype satellite."
+        "跟进：We’ve received our first response from the Project Suncatcher prototype satellite.",
+        "跟进：Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw"
       ],
       "sections": [
         {
@@ -193,17 +192,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bb8f791d892f95ba6327e534"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
-              "summary": "过去，人们与大模型的交互是一条相对简单的链路：输入 Prompt，模型生成 Response。进入 Agent 时代，这条链路变成了“规划—推理—行动—反馈”的循环。一次用户请求，可能进一步调用网页、API、数据、工具、代码和其他系统，展开为成千上万个机器动作。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_93fe2dec67ba05dbbf11b912"
+                "local_1c8df48ba5b05b1d8127bbc7"
               ],
               "confidence": 92
             },
@@ -256,20 +245,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bb8f791d892f95ba6327e534",
-        "local_93fe2dec67ba05dbbf11b912",
+        "local_1c8df48ba5b05b1d8127bbc7",
         "local_1d09a505b47d0ebe1a28c317",
         "local_4746451ccc853fe745f90d26",
         "local_7320dc145c2bfd021bf2ccc0",
         "local_6256ebbca12ea17ccfb110aa"
       ],
-      "generatedAt": "2026-10-31T20:25:19.325Z",
+      "generatedAt": "2026-10-31T23:51:43.139Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-31T20:25:19.325Z",
+  "generatedAt": "2026-10-31T23:51:43.139Z",
   "collectorName": "local-source-collector"
 }

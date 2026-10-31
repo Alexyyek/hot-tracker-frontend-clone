@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications」、「Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications」、「Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Ben Hylak"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Building Trusted AI Infrastructure for Safe and Secure AI"
       ],
       "watchItems": [
         "跟进：When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
         "跟进：Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
-        "跟进：Quoting Ben Hylak",
         "跟进：Building Trusted AI Infrastructure for Safe and Secure AI",
-        "跟进：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?"
+        "跟进：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
+        "跟进：How we detect frontier model misalignment"
       ],
       "sections": [
         {
@@ -43,16 +43,6 @@
               "confidence": 92
             },
             {
-              "title": "Quoting Ben Hylak",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us ve…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_962ba395f98fcb74b7ba2b07"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Building Trusted AI Infrastructure for Safe and Secure AI",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA and cybersecurity partner Eclypsium are advancing infrastructure security for cloud computing and agentic AI with NVIDIA BlueField and Eclypsium infrastructure assurance.",
               "insightLabel": "关注",
@@ -71,6 +61,16 @@
                 "local_011b0b8cde407a23e8570bee"
               ],
               "confidence": 92
+            },
+            {
+              "title": "How we detect frontier model misalignment",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_81a37a7764f929aff4e88c09"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -93,14 +93,13 @@
       "referencedFeedItemIds": [
         "local_2dc48cfb78fabe60bd01ce55",
         "local_f4bbb2806bdd6569632a918c",
-        "local_962ba395f98fcb74b7ba2b07",
         "local_6ebeab5ba78e03503f65508e",
         "local_011b0b8cde407a23e8570bee",
         "local_81a37a7764f929aff4e88c09",
-        "local_020e6370c8039891920c766a",
+        "local_1410a134e9e15416d0af492f",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-31T20:25:19.342Z",
+      "generatedAt": "2026-10-31T23:51:43.165Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -164,7 +163,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_020e6370c8039891920c766a"
+                "local_1410a134e9e15416d0af492f"
               ],
               "confidence": 92
             }
@@ -190,16 +189,16 @@
         "local_6ebeab5ba78e03503f65508e",
         "local_011b0b8cde407a23e8570bee",
         "local_81a37a7764f929aff4e88c09",
-        "local_020e6370c8039891920c766a",
+        "local_1410a134e9e15416d0af492f",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-31T20:25:19.342Z",
+      "generatedAt": "2026-10-31T23:51:43.165Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-31T20:25:19.342Z",
+  "generatedAt": "2026-10-31T23:51:43.165Z",
   "collectorName": "local-source-collector"
 }
