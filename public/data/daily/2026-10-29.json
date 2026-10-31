@@ -5,33 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-10-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall」、「When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications」、「Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Ben Hylak"
       ],
       "watchItems": [
-        "跟进：Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
         "跟进：When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
         "跟进：Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
         "跟进：Quoting Ben Hylak",
-        "跟进：Building Trusted AI Infrastructure for Safe and Secure AI"
+        "跟进：Building Trusted AI Infrastructure for Safe and Secure AI",
+        "跟进：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Mistral has released the weights for Large 4, aka \"Le Chonk,\" a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly ch…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_75d647bb4662fdec4a01cde7"
-              ],
-              "confidence": 78
-            },
             {
               "title": "When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
               "summary": "To succeed in real-world long-horizon software development, coding agents must satisfy multi-dimensional task specifications, such as interface compatibility and error handling, and do so without breaking existing dependencies. However, current works lack specification in both q…",
@@ -71,21 +61,16 @@
                 "local_6ebeab5ba78e03503f65508e"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
+            },
             {
-              "title": "Google&#039;s AI search problem finally shows up in the earnings report, some investors believe",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Google's stock dropped as much as ten percent after its quarterly earnings. Cloud revenue more than doubled to $30.7 billion, but search revenue grew just 12 percent, slower than expected. Google acknowledged that its f…",
+              "title": "迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
+              "summary": "配合,为 Agent 运行和后端业务访问提供支撑,让影腾智联团队能够将更多精力投入排障流程与服务质量优化.2.3 观测与评测,优化...",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4dc8a27a7d738d87200cebf6"
+                "local_011b0b8cde407a23e8570bee"
               ],
-              "confidence": 74
+              "confidence": 92
             }
           ]
         },
@@ -106,18 +91,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_75d647bb4662fdec4a01cde7",
         "local_2dc48cfb78fabe60bd01ce55",
         "local_f4bbb2806bdd6569632a918c",
         "local_962ba395f98fcb74b7ba2b07",
         "local_6ebeab5ba78e03503f65508e",
-        "local_4dc8a27a7d738d87200cebf6",
         "local_011b0b8cde407a23e8570bee",
         "local_81a37a7764f929aff4e88c09",
-        "local_a08f53c130417f8289637c7d",
+        "local_7b82ec2f743b4ebddb3f97e5",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-31T05:38:02.642Z",
+      "generatedAt": "2026-10-31T11:21:00.734Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -181,7 +164,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a08f53c130417f8289637c7d"
+                "local_7b82ec2f743b4ebddb3f97e5"
               ],
               "confidence": 92
             }
@@ -207,16 +190,16 @@
         "local_6ebeab5ba78e03503f65508e",
         "local_011b0b8cde407a23e8570bee",
         "local_81a37a7764f929aff4e88c09",
-        "local_a08f53c130417f8289637c7d",
+        "local_7b82ec2f743b4ebddb3f97e5",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-31T05:38:02.642Z",
+      "generatedAt": "2026-10-31T11:21:00.734Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-31T05:38:02.643Z",
+  "generatedAt": "2026-10-31T11:21:00.734Z",
   "collectorName": "local-source-collector"
 }
