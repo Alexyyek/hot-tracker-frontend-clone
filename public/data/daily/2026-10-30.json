@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「How to Check and Configure NVIDIA GPUDirect Storage for Your Platform」、「从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「How to Check and Configure NVIDIA GPUDirect Storage for Your Platform」、「Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Community safety report and new protections for teens"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践"
       ],
       "watchItems": [
         "跟进：How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+        "跟进：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
         "跟进：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
         "跟进：Community safety report and new protections for teens",
-        "跟进：以电商客服为例,看 AgentKit 技能评测如何让 Skill 敢上生产!",
-        "跟进：软件形式化验证,正在迎来规模化的可能"
+        "跟进：以电商客服为例,看 AgentKit 技能评测如何让 Skill 敢上生产!"
       ],
       "sections": [
         {
@@ -39,6 +39,16 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_95963127cd48d7db74957a4a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_8af48511025e61f82f03847e"
               ],
               "confidence": 92
             },
@@ -68,12 +78,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Scientists at the Allen Telescope Array have integrated the NVIDIA Holoscan platform to search for signals that may come from aliens — or the AI they built.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4d8d73c6948cb3408c524209"
+              ],
+              "confidence": 82
+            },
+            {
               "title": "从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
               "summary": "模型优化与智能体协同,正在成为应对复杂翻译需求的两个重要方向.与这一趋势相对应,翻译在阿里集团内外的应用正逐步覆盖多模...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0b5a1ea5edfedc8afd8b48ad"
+                "local_30623fae0535b19f89d6efa5"
               ],
               "confidence": 90
             },
@@ -83,7 +103,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d5342bc7c3ba9d9235396057"
+                "local_d856eb320f17fa23e73aaa22"
               ],
               "confidence": 92
             },
@@ -93,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_12a03e550e2242a80a86a720"
+                "local_1bced2c94a18227dd3163ee7"
               ],
               "confidence": 92
             },
@@ -104,16 +124,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_d780e0fef34af0cc1a3a93d8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Weaken to Strengthen: Weakening-Induced On-Policy Self-Distillation for Large Reasoning Models",
-              "summary": "Self-distillation offers a way to improve reasoning models when a suitable external teacher is unavailable. However, common approaches rely on privileged information to construct a stronger self-teacher, limiting their use when only unlabeled prompts are available. In this paper…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e7e06fad089712e0cde97ecf"
               ],
               "confidence": 92
             }
@@ -137,23 +147,26 @@
       ],
       "referencedFeedItemIds": [
         "local_d038183dcbe6b2fe5f6127c1",
-        "local_0b5a1ea5edfedc8afd8b48ad",
+        "local_4d8d73c6948cb3408c524209",
+        "local_30623fae0535b19f89d6efa5",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_d5342bc7c3ba9d9235396057",
-        "local_12a03e550e2242a80a86a720",
+        "local_d856eb320f17fa23e73aaa22",
+        "local_1bced2c94a18227dd3163ee7",
         "local_d780e0fef34af0cc1a3a93d8",
         "local_e7e06fad089712e0cde97ecf",
         "local_95963127cd48d7db74957a4a",
         "local_685b3d9744ba8d36cbf12a1b",
+        "local_8af48511025e61f82f03847e",
         "local_2d69c72506f961b3756b6c47",
         "local_12bcf43f8126533017f2398e",
         "local_7e16e26501b19ea19df746d0",
         "local_d4dde64c9845143663b70307",
         "local_79182da75dc31348569955a8",
         "local_28b641ecfe137740b781f5fd",
+        "local_f134dab436097e01f8f51370",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-10-30T23:52:44.151Z",
+      "generatedAt": "2026-10-31T05:38:02.637Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -164,18 +177,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-30",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「How to Check and Configure NVIDIA GPUDirect Storage for Your Platform」、「从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「How to Check and Configure NVIDIA GPUDirect Storage for Your Platform」、「Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Community safety report and new protections for teens"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践"
       ],
       "watchItems": [
         "跟进：How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+        "跟进：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
         "跟进：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
         "跟进：Community safety report and new protections for teens",
-        "跟进：以电商客服为例,看 AgentKit 技能评测如何让 Skill 敢上生产!",
-        "跟进：软件形式化验证,正在迎来规模化的可能"
+        "跟进：以电商客服为例,看 AgentKit 技能评测如何让 Skill 敢上生产!"
       ],
       "sections": [
         {
@@ -207,12 +220,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Scientists at the Allen Telescope Array have integrated the NVIDIA Holoscan platform to search for signals that may come from aliens — or the AI they built.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4d8d73c6948cb3408c524209"
+              ],
+              "confidence": 82
+            },
+            {
               "title": "从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
               "summary": "模型优化与智能体协同,正在成为应对复杂翻译需求的两个重要方向.与这一趋势相对应,翻译在阿里集团内外的应用正逐步覆盖多模...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0b5a1ea5edfedc8afd8b48ad"
+                "local_30623fae0535b19f89d6efa5"
               ],
               "confidence": 90
             },
@@ -222,7 +245,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d5342bc7c3ba9d9235396057"
+                "local_d856eb320f17fa23e73aaa22"
               ],
               "confidence": 92
             },
@@ -232,9 +255,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_12a03e550e2242a80a86a720"
+                "local_1bced2c94a18227dd3163ee7"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f134dab436097e01f8f51370"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -256,19 +289,21 @@
       ],
       "referencedFeedItemIds": [
         "local_d038183dcbe6b2fe5f6127c1",
-        "local_0b5a1ea5edfedc8afd8b48ad",
+        "local_4d8d73c6948cb3408c524209",
+        "local_30623fae0535b19f89d6efa5",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_d5342bc7c3ba9d9235396057",
-        "local_12a03e550e2242a80a86a720",
+        "local_d856eb320f17fa23e73aaa22",
+        "local_1bced2c94a18227dd3163ee7",
+        "local_f134dab436097e01f8f51370",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-10-30T23:52:44.151Z",
+      "generatedAt": "2026-10-31T05:38:02.637Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-30T23:52:44.151Z",
+  "generatedAt": "2026-10-31T05:38:02.637Z",
   "collectorName": "local-source-collector"
 }

@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
@@ -15,8 +15,8 @@
         "跟进：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "跟进：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
         "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-        "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-        "跟进：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术"
+        "跟进：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术",
+        "跟进：DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8eae7dcef639fd305f040c2d"
+                "local_cb13d259e0be2a22e76146f9"
               ],
               "confidence": 92
             },
@@ -39,16 +39,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_1403b73078fb967fe4ab2562"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：At GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_fd9c339b71802e20ec3e9271"
               ],
               "confidence": 90
             },
@@ -68,7 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_559f26fc284cd0a514c66089"
+                "local_e6a3b26397aa9bba4652bbda"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI早报|算力交易持续升温,模型商用与智能体安全同步提速",
+              "summary": "AI智能体成为企业治理新焦点9. 微软强化AI智能体防护,将内部风险纳入安全治理微软提出,前沿AI模型和智能体不能被简单视为完全...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9f80b1a5516f23b78d44cae9"
               ],
               "confidence": 92
             }
@@ -121,18 +121,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8eae7dcef639fd305f040c2d",
+        "local_cb13d259e0be2a22e76146f9",
         "local_8437f8f89f0d6aab86c6429a",
         "local_1403b73078fb967fe4ab2562",
-        "local_fd9c339b71802e20ec3e9271",
         "local_0e25c9a5794da4cd1fd176bc",
-        "local_559f26fc284cd0a514c66089",
-        "local_2dfa26c6f8d3e941d1a5edfb",
-        "local_d5f2b5245ff1698340c4a656",
+        "local_e6a3b26397aa9bba4652bbda",
+        "local_9f80b1a5516f23b78d44cae9",
         "local_455af1544bb903626a91cccd",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-30T23:52:44.226Z",
+      "generatedAt": "2026-10-31T05:38:02.720Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -143,18 +141,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-21",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术"
       ],
       "watchItems": [
         "跟进：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-        "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
         "跟进：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术",
-        "跟进：DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?"
+        "跟进：DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?",
+        "跟进：全球AI早报|算力交易持续升温,模型商用与智能体安全同步提速"
       ],
       "sections": [
         {
@@ -166,7 +164,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_8eae7dcef639fd305f040c2d"
+                "local_cb13d259e0be2a22e76146f9"
               ],
               "confidence": 92
             },
@@ -177,16 +175,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_1403b73078fb967fe4ab2562"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：At GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_fd9c339b71802e20ec3e9271"
               ],
               "confidence": 90
             },
@@ -206,7 +194,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_559f26fc284cd0a514c66089"
+                "local_e6a3b26397aa9bba4652bbda"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI早报|算力交易持续升温,模型商用与智能体安全同步提速",
+              "summary": "AI智能体成为企业治理新焦点9. 微软强化AI智能体防护,将内部风险纳入安全治理微软提出,前沿AI模型和智能体不能被简单视为完全...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9f80b1a5516f23b78d44cae9"
               ],
               "confidence": 92
             }
@@ -229,22 +227,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8eae7dcef639fd305f040c2d",
+        "local_cb13d259e0be2a22e76146f9",
         "local_1403b73078fb967fe4ab2562",
-        "local_fd9c339b71802e20ec3e9271",
         "local_0e25c9a5794da4cd1fd176bc",
-        "local_559f26fc284cd0a514c66089",
-        "local_2dfa26c6f8d3e941d1a5edfb",
-        "local_d5f2b5245ff1698340c4a656",
+        "local_e6a3b26397aa9bba4652bbda",
+        "local_9f80b1a5516f23b78d44cae9",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-10-30T23:52:44.226Z",
+      "generatedAt": "2026-10-31T05:38:02.720Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-30T23:52:44.226Z",
+  "generatedAt": "2026-10-31T05:38:02.720Z",
   "collectorName": "local-source-collector"
 }

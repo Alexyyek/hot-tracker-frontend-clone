@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-10-29",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall」、「When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall」、「When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
@@ -16,7 +16,7 @@
         "跟进：When Requirements Interact: Scaling Long-Horizon Coding via Interdependent Specifications",
         "跟进：Video Generation Meets Agent Harness: Agentic Video Generation, Agentic World Modeling and Recursive Self-Improvement",
         "跟进：Quoting Ben Hylak",
-        "跟进：Google&#039;s AI search problem finally shows up in the earnings report, some investors believe"
+        "跟进：Building Trusted AI Infrastructure for Safe and Secure AI"
       ],
       "sections": [
         {
@@ -63,12 +63,12 @@
               "confidence": 92
             },
             {
-              "title": "迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
-              "summary": "配合,为 Agent 运行和后端业务访问提供支撑,让影腾智联团队能够将更多精力投入排障流程与服务质量优化.2.3 观测与评测,优化...",
+              "title": "Building Trusted AI Infrastructure for Safe and Secure AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA and cybersecurity partner Eclypsium are advancing infrastructure security for cloud computing and agentic AI with NVIDIA BlueField and Eclypsium infrastructure assurance.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_011b0b8cde407a23e8570bee"
+                "local_6ebeab5ba78e03503f65508e"
               ],
               "confidence": 92
             }
@@ -93,26 +93,6 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b97c88a0dfcd1c2376c0c6b7"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "How to Extract Tables from a PDF with an LLM (Python)",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Extract tables from a PDF with an LLM in Python: send the PDF with a JSON schema, get typed rows, and catch the two failures that return no error.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_106041985182043c426863d0"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "Meta Andromeda: Powering the Next Generation of Ads Retrieval Through Model-System Co-Design",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：This post describes the next generation of Meta Andromeda, Meta&#8217;s personalized ads retrieval engine, and how co-designing the model, system, and GPU hardware unlocks a new efficiency frontier for ads retrieval. In…",
               "insightLabel": "关注",
@@ -130,15 +110,14 @@
         "local_2dc48cfb78fabe60bd01ce55",
         "local_f4bbb2806bdd6569632a918c",
         "local_962ba395f98fcb74b7ba2b07",
+        "local_6ebeab5ba78e03503f65508e",
         "local_4dc8a27a7d738d87200cebf6",
         "local_011b0b8cde407a23e8570bee",
         "local_81a37a7764f929aff4e88c09",
-        "local_ad347663e822573f250053b9",
-        "local_b97c88a0dfcd1c2376c0c6b7",
-        "local_106041985182043c426863d0",
+        "local_a08f53c130417f8289637c7d",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-30T23:52:44.158Z",
+      "generatedAt": "2026-10-31T05:38:02.642Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -149,13 +128,14 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-29",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「迎战双十一,如何让智能客服 Agent 经得起真实业务考验?」、「How we detect frontier model misalignment」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Building Trusted AI Infrastructure for Safe and Secure AI」、「迎战双十一,如何让智能客服 Agent 经得起真实业务考验?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Building Trusted AI Infrastructure for Safe and Secure AI",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How we detect frontier model misalignment",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：别再迷信 Agent 的自主性了"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How we detect frontier model misalignment"
       ],
       "watchItems": [
+        "跟进：Building Trusted AI Infrastructure for Safe and Secure AI",
         "跟进：迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
         "跟进：How we detect frontier model misalignment",
         "跟进：别再迷信 Agent 的自主性了",
@@ -165,6 +145,16 @@
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "Building Trusted AI Infrastructure for Safe and Secure AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA and cybersecurity partner Eclypsium are advancing infrastructure security for cloud computing and agentic AI with NVIDIA BlueField and Eclypsium infrastructure assurance.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6ebeab5ba78e03503f65508e"
+              ],
+              "confidence": 92
+            },
             {
               "title": "迎战双十一,如何让智能客服 Agent 经得起真实业务考验?",
               "summary": "配合,为 Agent 运行和后端业务访问提供支撑,让影腾智联团队能够将更多精力投入排障流程与服务质量优化.2.3 观测与评测,优化...",
@@ -191,7 +181,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ad347663e822573f250053b9"
+                "local_a08f53c130417f8289637c7d"
               ],
               "confidence": 92
             }
@@ -214,18 +204,19 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_6ebeab5ba78e03503f65508e",
         "local_011b0b8cde407a23e8570bee",
         "local_81a37a7764f929aff4e88c09",
-        "local_ad347663e822573f250053b9",
+        "local_a08f53c130417f8289637c7d",
         "local_fdbcbb208034a210ad4649ba"
       ],
-      "generatedAt": "2026-10-30T23:52:44.158Z",
+      "generatedAt": "2026-10-31T05:38:02.642Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-10-30T23:52:44.158Z",
+  "generatedAt": "2026-10-31T05:38:02.643Z",
   "collectorName": "local-source-collector"
 }
