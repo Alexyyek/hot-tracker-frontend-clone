@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「How to Check and Configure NVIDIA GPUDirect Storage for Your Platform」、「Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「How to Check and Configure NVIDIA GPUDirect Storage for Your Platform」、「Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments"
       ],
       "watchItems": [
         "跟进：How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
         "跟进：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+        "跟进：Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments",
         "跟进：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
-        "跟进：Community safety report and new protections for teens",
-        "跟进：以电商客服为例,看 AgentKit 技能评测如何让 Skill 敢上生产!"
+        "跟进：Community safety report and new protections for teens"
       ],
       "sections": [
         {
@@ -31,16 +31,6 @@
                 "local_d038183dcbe6b2fe5f6127c1"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Unlocking Any-Order Generation in Pretrained Autoregressive Image Models",
-              "summary": "Autoregressive (AR) image generators are powerful in principle but inflexible in practice: training with a fixed raster-scan order hardcodes a single factorization of the image distribution into the model, leaving it unable to inpaint, outpaint, or edit at inference time. Existi…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_95963127cd48d7db74957a4a"
-              ],
-              "confidence": 92
             },
             {
               "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
@@ -68,12 +58,22 @@
               "confidence": 82
             },
             {
+              "title": "Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments",
+              "summary": "Reliable evaluation of AI agents for table-top science experiments has remained elusive because live instruments are hard to reset and share at scale, while instrument statefulness and safety constraints complicate evaluation. We introduce instrMCP and q-devBench, an evaluation …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a9f62d87d745fc48a1d9b120"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
               "summary": "模型优化与智能体协同,正在成为应对复杂翻译需求的两个重要方向.与这一趋势相对应,翻译在阿里集团内外的应用正逐步覆盖多模...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bfd7c4258e5d27927b0eb03d"
+                "local_d653c24e6eed4b24129bea0a"
               ],
               "confidence": 90
             },
@@ -83,27 +83,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c9156e70e440fbccd676bc2e"
+                "local_47edd357771e96369c3c09a1"
               ],
               "confidence": 92
             },
             {
-              "title": "软件形式化验证,正在迎来规模化的可能",
-              "summary": "蚂蚁技术研究院发表了大模型辅助 Rust 形式化验证的论文,... Agent 分工,完成安全需求提取、验证用例构建、规约生成、语义...",
+              "title": "What Does a Repair Agent Gain from Remembering Its Failure? An Exploratory Study on Real Python Bugs",
+              "summary": "When a coding agent fails a repair task, it is often retried with a record of the failure: the transcript, a self-written lesson, or extracted test signals. We ask what such failure memory changes in the retry. On 75 BugsInPy bugs, we retried each of 181 failed attempts of gpt-5…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_33ab386e5c432d042b6ee810"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "EPSBench: Benchmarking LLM Agents for Earnings Forecasting",
-              "summary": "Quarterly earnings forecasting requires an agent to connect financial evidence to the income-statement line items that produce a company's reported earnings. We introduce EPSBench, a benchmark for studying this ability across 149 firm-quarters from 86 US companies. Agents read a…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d780e0fef34af0cc1a3a93d8"
+                "local_6e138d31e9fe214eaae87c01"
               ],
               "confidence": 92
             }
@@ -128,21 +118,17 @@
       "referencedFeedItemIds": [
         "local_d038183dcbe6b2fe5f6127c1",
         "local_4d8d73c6948cb3408c524209",
-        "local_bfd7c4258e5d27927b0eb03d",
+        "local_a9f62d87d745fc48a1d9b120",
+        "local_d653c24e6eed4b24129bea0a",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_c9156e70e440fbccd676bc2e",
+        "local_47edd357771e96369c3c09a1",
+        "local_6e138d31e9fe214eaae87c01",
         "local_33ab386e5c432d042b6ee810",
-        "local_d780e0fef34af0cc1a3a93d8",
-        "local_e7e06fad089712e0cde97ecf",
-        "local_95963127cd48d7db74957a4a",
-        "local_685b3d9744ba8d36cbf12a1b",
         "local_2d69c72506f961b3756b6c47",
-        "local_d4dde64c9845143663b70307",
-        "local_79182da75dc31348569955a8",
         "local_f134dab436097e01f8f51370",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-11-02T01:55:51.050Z",
+      "generatedAt": "2026-11-02T09:31:13.159Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -211,7 +197,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bfd7c4258e5d27927b0eb03d"
+                "local_d653c24e6eed4b24129bea0a"
               ],
               "confidence": 90
             },
@@ -221,7 +207,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c9156e70e440fbccd676bc2e"
+                "local_47edd357771e96369c3c09a1"
               ],
               "confidence": 92
             },
@@ -266,20 +252,20 @@
       "referencedFeedItemIds": [
         "local_d038183dcbe6b2fe5f6127c1",
         "local_4d8d73c6948cb3408c524209",
-        "local_bfd7c4258e5d27927b0eb03d",
+        "local_d653c24e6eed4b24129bea0a",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_c9156e70e440fbccd676bc2e",
+        "local_47edd357771e96369c3c09a1",
         "local_33ab386e5c432d042b6ee810",
         "local_f134dab436097e01f8f51370",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-11-02T01:55:51.050Z",
+      "generatedAt": "2026-11-02T09:31:13.159Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-02T01:55:51.050Z",
+  "generatedAt": "2026-11-02T09:31:13.159Z",
   "collectorName": "local-source-collector"
 }
