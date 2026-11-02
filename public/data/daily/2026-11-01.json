@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Adobe is testing how well AI agents can use editing tools like a Photoshop professional would」、「Google wants video AI to understand what people need as they work」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Adobe is testing how well AI agents can use editing tools like a Photoshop professional would」、「Google wants video AI to understand what people need as they work」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google wants video AI to understand what people need as they work",
@@ -15,8 +15,8 @@
         "跟进：Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
         "跟进：Google wants video AI to understand what people need as they work",
         "跟进：腾讯搜广推交给多智能体",
-        "跟进：How We Took Over ChatGPT Accounts",
-        "跟进：datasette-llm 0.1a9"
+        "跟进：LLM Rankings",
+        "跟进：How We Took Over ChatGPT Accounts"
       ],
       "sections": [
         {
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4a728368ef0bfb0558c7af4"
+                "local_8d8dbeecf4779bc73b68810b"
               ],
               "confidence": 90
             },
@@ -59,6 +59,21 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_cf85a0d15eec64cc69c4a9da"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_4eea19e64f1c9254e9b5f673"
               ],
               "confidence": 92
             }
@@ -83,11 +98,12 @@
       "referencedFeedItemIds": [
         "local_8a57c948ad3ab678afa4077d",
         "local_dbe2af177681235568e2cac4",
-        "local_f4a728368ef0bfb0558c7af4",
+        "local_8d8dbeecf4779bc73b68810b",
+        "local_4eea19e64f1c9254e9b5f673",
         "local_e8ed80232ba7395351311d9d",
         "local_cf85a0d15eec64cc69c4a9da"
       ],
-      "generatedAt": "2026-11-01T22:31:55.750Z",
+      "generatedAt": "2026-11-02T01:55:51.034Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -115,7 +131,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4a728368ef0bfb0558c7af4"
+                "local_8d8dbeecf4779bc73b68810b"
               ],
               "confidence": 90
             }
@@ -123,15 +139,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f4a728368ef0bfb0558c7af4"
+        "local_8d8dbeecf4779bc73b68810b"
       ],
-      "generatedAt": "2026-11-01T22:31:55.750Z",
+      "generatedAt": "2026-11-02T01:55:51.034Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-01T22:31:55.750Z",
+  "generatedAt": "2026-11-02T01:55:51.034Z",
   "collectorName": "local-source-collector"
 }
