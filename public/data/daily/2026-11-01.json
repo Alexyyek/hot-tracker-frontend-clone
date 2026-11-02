@@ -5,15 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-11-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Adobe is testing how well AI agents can use editing tools like a Photoshop professional would」、「Google wants video AI to understand what people need as they work」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Adobe is testing how well AI agents can use editing tools like a Photoshop professional would」、「腾讯搜广推交给多智能体」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google wants video AI to understand what people need as they work",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯搜广推交给多智能体"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯搜广推交给多智能体",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
       ],
       "watchItems": [
         "跟进：Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
-        "跟进：Google wants video AI to understand what people need as they work",
         "跟进：腾讯搜广推交给多智能体",
         "跟进：LLM Rankings",
         "跟进：How We Took Over ChatGPT Accounts"
@@ -33,34 +32,14 @@
               "confidence": 90
             },
             {
-              "title": "Google wants video AI to understand what people need as they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A Google-led research team built StreamVibe, a video agent designed to watch people cook or assemble furniture and speak up only when help is needed. A benchmark shows that none of the tested models reliably pick the ri…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dbe2af177681235568e2cac4"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "腾讯搜广推交给多智能体",
               "summary": "多智能体分工承接巡检、归因与放量评审,端到端校验优化假设与... //h.datafuntalk.com/DRKhWc️ 票务咨询:电话 13311343487 · ...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_97fb9d64e7eb2c1c3326e3e2"
+                "local_74667b4d53c12d8af5a7c970"
               ],
               "confidence": 90
-            },
-            {
-              "title": "datasette-llm 0.1a9",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_cf85a0d15eec64cc69c4a9da"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -97,13 +76,11 @@
       ],
       "referencedFeedItemIds": [
         "local_8a57c948ad3ab678afa4077d",
-        "local_dbe2af177681235568e2cac4",
-        "local_97fb9d64e7eb2c1c3326e3e2",
+        "local_74667b4d53c12d8af5a7c970",
         "local_4eea19e64f1c9254e9b5f673",
-        "local_e8ed80232ba7395351311d9d",
-        "local_cf85a0d15eec64cc69c4a9da"
+        "local_e8ed80232ba7395351311d9d"
       ],
-      "generatedAt": "2026-11-02T09:31:13.133Z",
+      "generatedAt": "2026-11-02T19:53:43.631Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -131,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_97fb9d64e7eb2c1c3326e3e2"
+                "local_74667b4d53c12d8af5a7c970"
               ],
               "confidence": 90
             }
@@ -139,15 +116,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_97fb9d64e7eb2c1c3326e3e2"
+        "local_74667b4d53c12d8af5a7c970"
       ],
-      "generatedAt": "2026-11-02T09:31:13.133Z",
+      "generatedAt": "2026-11-02T19:53:43.631Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-02T09:31:13.133Z",
+  "generatedAt": "2026-11-02T19:53:43.631Z",
   "collectorName": "local-source-collector"
 }

@@ -5,33 +5,38 @@
       "topicId": "ai",
       "reportDate": "2026-10-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability」、「Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术"
       ],
       "watchItems": [
-        "跟进：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "跟进：NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
         "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
         "跟进：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术",
-        "跟进：DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?"
+        "跟进：DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?",
+        "跟进：全球AI早报|算力交易持续升温,模型商用与智能体安全同步提速"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "物流、地址与召排",
           "items": [
             {
-              "title": "当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
-              "summary": "国防科技大学赵翔教授团队与天津大学王鑫教授团队合作在软件学报发表综述论文 \"图智能体概念与研究进展\".01动机大语言模型...",
+              "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+              "summary": "来自Hugging Face的本地采集条目。",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
               "sourceFeedItemIds": [
-                "local_4195ef48eb39f2665a17de6e"
+                "local_8437f8f89f0d6aab86c6429a"
               ],
-              "confidence": 92
-            },
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：At GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.",
@@ -58,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eaa7db15ac37a8c0eeb2de93"
+                "local_93306be7eb1e70c5d8afdfe9"
               ],
               "confidence": 92
             },
@@ -68,24 +73,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3cb7e79538aafa09bc26fdce"
+                "local_419f110a5c13197cd8a7e9be"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-              "summary": "来自Hugging Face的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_8437f8f89f0d6aab86c6429a"
-              ],
-              "confidence": 74
             }
           ]
         },
@@ -121,16 +111,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_4195ef48eb39f2665a17de6e",
         "local_8437f8f89f0d6aab86c6429a",
         "local_1403b73078fb967fe4ab2562",
         "local_508c6139d8abbf9f085677d6",
-        "local_eaa7db15ac37a8c0eeb2de93",
-        "local_3cb7e79538aafa09bc26fdce",
+        "local_93306be7eb1e70c5d8afdfe9",
+        "local_419f110a5c13197cd8a7e9be",
         "local_455af1544bb903626a91cccd",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-11-02T09:31:13.282Z",
+      "generatedAt": "2026-11-02T19:53:43.782Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -141,33 +130,23 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-10-21",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「当Agent开始用图来思考:一篇综述梳理图智能体三大方向」、「Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents」、「国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?"
       ],
       "watchItems": [
-        "跟进：当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
         "跟进：Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
         "跟进：国产算力·昇腾 910C 大模型推理优化(上):镜像更新与参数调优,提速 40%|得物技术",
         "跟进：DACon 2026 北京分享预告|网易智企:数据底座如何支撑 Agent 落地?",
-        "跟进：全球AI早报|算力交易持续升温,模型商用与智能体安全同步提速"
+        "跟进：全球AI早报|算力交易持续升温,模型商用与智能体安全同步提速",
+        "跟进：New Gemini tools for small business owners"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "当Agent开始用图来思考:一篇综述梳理图智能体三大方向",
-              "summary": "国防科技大学赵翔教授团队与天津大学王鑫教授团队合作在软件学报发表综述论文 \"图智能体概念与研究进展\".01动机大语言模型...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4195ef48eb39f2665a17de6e"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：At GTC Berlin, NVIDIA is highlighting secure, local systems across RTX Spark, DGX Spark and DGX Station systems to accelerate coding, engineering, robotics and AI factory development.",
@@ -194,7 +173,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eaa7db15ac37a8c0eeb2de93"
+                "local_93306be7eb1e70c5d8afdfe9"
               ],
               "confidence": 92
             },
@@ -204,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3cb7e79538aafa09bc26fdce"
+                "local_419f110a5c13197cd8a7e9be"
               ],
               "confidence": 92
             }
@@ -227,20 +206,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_4195ef48eb39f2665a17de6e",
         "local_1403b73078fb967fe4ab2562",
         "local_508c6139d8abbf9f085677d6",
-        "local_eaa7db15ac37a8c0eeb2de93",
-        "local_3cb7e79538aafa09bc26fdce",
+        "local_93306be7eb1e70c5d8afdfe9",
+        "local_419f110a5c13197cd8a7e9be",
         "local_a2500688d43dfe1e0713b3a7"
       ],
-      "generatedAt": "2026-11-02T09:31:13.282Z",
+      "generatedAt": "2026-11-02T19:53:43.782Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-02T09:31:13.282Z",
+  "generatedAt": "2026-11-02T19:53:43.782Z",
   "collectorName": "local-source-collector"
 }
