@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-30",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals」、「Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals」、「从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Community safety report and new protections for teens"
       ],
       "watchItems": [
         "跟进：Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-        "跟进：Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments",
         "跟进：从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
         "跟进：Community safety report and new protections for teens",
-        "跟进：以电商客服为例,看 AgentKit 技能评测如何让 Skill 敢上生产!"
+        "跟进：以电商客服为例,看 AgentKit 技能评测如何让 Skill 敢上生产!",
+        "跟进：软件形式化验证,正在迎来规模化的可能"
       ],
       "sections": [
         {
@@ -33,22 +33,12 @@
               "confidence": 82
             },
             {
-              "title": "Evaluating Instrument-Centered AI Agents for Table-Top Science Experiments",
-              "summary": "Reliable evaluation of AI agents for table-top science experiments has remained elusive because live instruments are hard to reset and share at scale, while instrument statefulness and safety constraints complicate evaluation. We introduce instrMCP and q-devBench, an evaluation …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a9f62d87d745fc48a1d9b120"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "从模型优化到智能体协同:阿里 MaaS 团队的 WMT26 技术实践",
               "summary": "模型优化与智能体协同,正在成为应对复杂翻译需求的两个重要方向.与这一趋势相对应,翻译在阿里集团内外的应用正逐步覆盖多模...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1f8a919971fa669210d77706"
+                "local_b2e6965f73174e81e35cc00b"
               ],
               "confidence": 90
             },
@@ -58,19 +48,29 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_47edd357771e96369c3c09a1"
+                "local_e13cad880e7f14678da50776"
               ],
               "confidence": 92
             },
             {
-              "title": "What Does a Repair Agent Gain from Remembering Its Failure? An Exploratory Study on Real Python Bugs",
-              "summary": "When a coding agent fails a repair task, it is often retried with a record of the failure: the transcript, a self-written lesson, or extracted test signals. We ask what such failure memory changes in the retry. On 75 BugsInPy bugs, we retried each of 181 failed attempts of gpt-5…",
+              "title": "软件形式化验证,正在迎来规模化的可能",
+              "summary": "蚂蚁技术研究院发表了大模型辅助 Rust 形式化验证的论文,... Agent 分工,完成安全需求提取、验证用例构建、规约生成、语义...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6e138d31e9fe214eaae87c01"
+                "local_b636a76b17802741a5ecaf9c"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Claude Opus vs Sonnet vs Haiku: Which Should You Use?",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 compared on price, benchmarks and our own coding tests. All three passed every test; the costs differed 30x.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_2d69c72506f961b3756b6c47"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -107,17 +107,15 @@
       ],
       "referencedFeedItemIds": [
         "local_4d8d73c6948cb3408c524209",
-        "local_a9f62d87d745fc48a1d9b120",
-        "local_1f8a919971fa669210d77706",
+        "local_b2e6965f73174e81e35cc00b",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_47edd357771e96369c3c09a1",
-        "local_6e138d31e9fe214eaae87c01",
-        "local_33ab386e5c432d042b6ee810",
+        "local_e13cad880e7f14678da50776",
+        "local_b636a76b17802741a5ecaf9c",
         "local_2d69c72506f961b3756b6c47",
         "local_f134dab436097e01f8f51370",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-11-02T19:53:43.659Z",
+      "generatedAt": "2026-11-03T02:22:32.153Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -161,7 +159,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1f8a919971fa669210d77706"
+                "local_b2e6965f73174e81e35cc00b"
               ],
               "confidence": 90
             },
@@ -171,7 +169,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_47edd357771e96369c3c09a1"
+                "local_e13cad880e7f14678da50776"
               ],
               "confidence": 92
             },
@@ -181,7 +179,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_33ab386e5c432d042b6ee810"
+                "local_b636a76b17802741a5ecaf9c"
               ],
               "confidence": 92
             },
@@ -230,20 +228,20 @@
       ],
       "referencedFeedItemIds": [
         "local_4d8d73c6948cb3408c524209",
-        "local_1f8a919971fa669210d77706",
+        "local_b2e6965f73174e81e35cc00b",
         "local_f55f42aa7c0ce8c2a748ea0c",
-        "local_47edd357771e96369c3c09a1",
-        "local_33ab386e5c432d042b6ee810",
+        "local_e13cad880e7f14678da50776",
+        "local_b636a76b17802741a5ecaf9c",
         "local_f134dab436097e01f8f51370",
         "local_47e8901d9ee971822d629c12"
       ],
-      "generatedAt": "2026-11-02T19:53:43.659Z",
+      "generatedAt": "2026-11-03T02:22:32.153Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-02T19:53:43.659Z",
+  "generatedAt": "2026-11-03T02:22:32.153Z",
   "collectorName": "local-source-collector"
 }

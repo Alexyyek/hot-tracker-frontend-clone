@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts」、「The U.S. Census Bureau and “Super Intelligence”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts」、「The U.S. Census Bureau and “Super Intelligence”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The U.S. Census Bureau and “Super Intelligence”",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_af251fdbb90d5154cc5a7377"
+                "local_33f4a68ed398b62375921dee"
               ],
               "confidence": 92
             },
@@ -48,7 +48,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6694e871f48782df6961b5c2"
+                "local_89de8ef4a4aeca1e41bd7a5d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
+              "summary": "As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, re…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b0fe2b2d70301f103e467a32"
               ],
               "confidence": 92
             },
@@ -123,12 +133,12 @@
               "confidence": 92
             },
             {
-              "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
-              "summary": "Fine-tuning Large Language Models (LLMs) on instruction data can quietly erode their safety, even when no training example looks harmful. Because this safety-degrading data looks benign, standard content filters struggle to catch it. We tackle this problem by developing SimpleLo…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_eeb2c108c2d84e6dbc1e3210"
+                "local_f1af6cb785970f1be3b03896"
               ],
               "confidence": 92
             },
@@ -148,17 +158,18 @@
       "referencedFeedItemIds": [
         "local_fee734a2ff3be45f6179ca11",
         "local_8f80ad3ed3a10b935c798115",
-        "local_af251fdbb90d5154cc5a7377",
-        "local_6694e871f48782df6961b5c2",
+        "local_33f4a68ed398b62375921dee",
+        "local_89de8ef4a4aeca1e41bd7a5d",
         "local_6f9163cc9f3c9bd526ff52db",
+        "local_b0fe2b2d70301f103e467a32",
         "local_f14008a6d6b1206fdb08d6c0",
         "local_e3115502936920d8775e9604",
         "local_f121df6609d6af0ab5c00605",
-        "local_eeb2c108c2d84e6dbc1e3210",
+        "local_f1af6cb785970f1be3b03896",
         "local_6703077088a9acbcec263045",
         "local_5dc0955fa5e8c36359e449dc"
       ],
-      "generatedAt": "2026-11-02T19:53:43.619Z",
+      "generatedAt": "2026-11-03T02:22:32.138Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -190,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_af251fdbb90d5154cc5a7377"
+                "local_33f4a68ed398b62375921dee"
               ],
               "confidence": 92
             },
@@ -200,7 +211,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6694e871f48782df6961b5c2"
+                "local_89de8ef4a4aeca1e41bd7a5d"
               ],
               "confidence": 92
             }
@@ -223,17 +234,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_af251fdbb90d5154cc5a7377",
-        "local_6694e871f48782df6961b5c2",
+        "local_33f4a68ed398b62375921dee",
+        "local_89de8ef4a4aeca1e41bd7a5d",
         "local_6f9163cc9f3c9bd526ff52db"
       ],
-      "generatedAt": "2026-11-02T19:53:43.619Z",
+      "generatedAt": "2026-11-03T02:22:32.138Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-02T19:53:43.619Z",
+  "generatedAt": "2026-11-03T02:22:32.138Z",
   "collectorName": "local-source-collector"
 }

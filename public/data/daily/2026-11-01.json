@@ -5,17 +5,14 @@
       "topicId": "ai",
       "reportDate": "2026-11-01",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Adobe is testing how well AI agents can use editing tools like a Photoshop professional would」、「腾讯搜广推交给多智能体」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Adobe is testing how well AI agents can use editing tools like a Photoshop professional would」、「腾讯搜广推交给多智能体」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯搜广推交给多智能体",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：腾讯搜广推交给多智能体"
       ],
       "watchItems": [
         "跟进：Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
-        "跟进：腾讯搜广推交给多智能体",
-        "跟进：LLM Rankings",
-        "跟进：How We Took Over ChatGPT Accounts"
+        "跟进：腾讯搜广推交给多智能体"
       ],
       "sections": [
         {
@@ -37,50 +34,18 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_74667b4d53c12d8af5a7c970"
+                "local_828552f1a54d43921adf4650"
               ],
               "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4eea19e64f1c9254e9b5f673"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "How We Took Over ChatGPT Accounts",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is calle…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e8ed80232ba7395351311d9d"
-              ],
-              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_8a57c948ad3ab678afa4077d",
-        "local_74667b4d53c12d8af5a7c970",
-        "local_4eea19e64f1c9254e9b5f673",
-        "local_e8ed80232ba7395351311d9d"
+        "local_828552f1a54d43921adf4650"
       ],
-      "generatedAt": "2026-11-02T19:53:43.631Z",
+      "generatedAt": "2026-11-03T02:22:32.142Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -108,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_74667b4d53c12d8af5a7c970"
+                "local_828552f1a54d43921adf4650"
               ],
               "confidence": 90
             }
@@ -116,15 +81,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_74667b4d53c12d8af5a7c970"
+        "local_828552f1a54d43921adf4650"
       ],
-      "generatedAt": "2026-11-02T19:53:43.631Z",
+      "generatedAt": "2026-11-03T02:22:32.142Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-02T19:53:43.631Z",
+  "generatedAt": "2026-11-03T02:22:32.142Z",
   "collectorName": "local-source-collector"
 }
