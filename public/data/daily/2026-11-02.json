@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-02",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts」、「The U.S. Census Bureau and “Super Intelligence”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts」、「The U.S. Census Bureau and “Super Intelligence”」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The U.S. Census Bureau and “Super Intelligence”",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_33f4a68ed398b62375921dee"
+                "local_3ef214f827aca0782cb82971"
               ],
               "confidence": 92
             },
@@ -48,27 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_89de8ef4a4aeca1e41bd7a5d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
-              "summary": "As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, re…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b0fe2b2d70301f103e467a32"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
-              "summary": "Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weakness…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_e3115502936920d8775e9604"
+                "local_5da9c4bb35e3a8ef1c85ff57"
               ],
               "confidence": 92
             }
@@ -86,16 +66,6 @@
                 "local_8f80ad3ed3a10b935c798115"
               ],
               "confidence": 92
-            },
-            {
-              "title": "AuditFL: A Contract-Backed Clearing Layer for Open Federated Learning",
-              "summary": "Federated learning (FL) keeps raw data local, but most deployments still rely on a trusted coordinator for client admission, checkpoint distribution, update collection, aggregation, and rewards. This paper presents AuditFL, a contract-backed clearing layer for auditable FL in op…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_f121df6609d6af0ab5c00605"
-              ],
-              "confidence": 86
             },
             {
               "title": "If in doubt, delete the uv.lock file",
@@ -123,16 +93,6 @@
               "confidence": 92
             },
             {
-              "title": "SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding",
-              "summary": "Perceiving human body motion is critical for multimodal systems that understand and assist people. Yet current evaluations of Multimodal Large Language Models (MLLMs) largely focus on objects, scenes, and coarse actions, leaving their ability to reason about the body itself poor…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_f14008a6d6b1206fdb08d6c0"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
@@ -141,16 +101,6 @@
                 "local_f1af6cb785970f1be3b03896"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Quoting Kyle Kingsbury",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_5dc0955fa5e8c36359e449dc"
-              ],
-              "confidence": 78
             }
           ]
         }
@@ -158,18 +108,13 @@
       "referencedFeedItemIds": [
         "local_fee734a2ff3be45f6179ca11",
         "local_8f80ad3ed3a10b935c798115",
-        "local_33f4a68ed398b62375921dee",
-        "local_89de8ef4a4aeca1e41bd7a5d",
+        "local_3ef214f827aca0782cb82971",
+        "local_5da9c4bb35e3a8ef1c85ff57",
         "local_6f9163cc9f3c9bd526ff52db",
-        "local_b0fe2b2d70301f103e467a32",
-        "local_f14008a6d6b1206fdb08d6c0",
-        "local_e3115502936920d8775e9604",
-        "local_f121df6609d6af0ab5c00605",
         "local_f1af6cb785970f1be3b03896",
-        "local_6703077088a9acbcec263045",
-        "local_5dc0955fa5e8c36359e449dc"
+        "local_6703077088a9acbcec263045"
       ],
-      "generatedAt": "2026-11-03T02:22:32.138Z",
+      "generatedAt": "2026-11-03T10:09:24.403Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -201,7 +146,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_33f4a68ed398b62375921dee"
+                "local_3ef214f827aca0782cb82971"
               ],
               "confidence": 92
             },
@@ -211,7 +156,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_89de8ef4a4aeca1e41bd7a5d"
+                "local_5da9c4bb35e3a8ef1c85ff57"
               ],
               "confidence": 92
             }
@@ -234,17 +179,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_33f4a68ed398b62375921dee",
-        "local_89de8ef4a4aeca1e41bd7a5d",
+        "local_3ef214f827aca0782cb82971",
+        "local_5da9c4bb35e3a8ef1c85ff57",
         "local_6f9163cc9f3c9bd526ff52db"
       ],
-      "generatedAt": "2026-11-03T02:22:32.138Z",
+      "generatedAt": "2026-11-03T10:09:24.403Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-03T02:22:32.138Z",
+  "generatedAt": "2026-11-03T10:09:24.403Z",
   "collectorName": "local-source-collector"
 }

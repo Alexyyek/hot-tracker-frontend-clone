@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-10-31",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对」、「How to Build Your Own Always-On AI Agent (TypeScript)」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对」、「How to Build Your Own Always-On AI Agent (TypeScript)」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How to Build Your Own Always-On AI Agent (TypeScript)",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Exo: An Architecture for Self-Improving Systems at Runtime"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Build a Validated Kubernetes Runtime for NVIDIA Dynamo"
       ],
       "watchItems": [
         "跟进：当Agent遇上猪队友!实测多Agent冲突场景,前沿大模型如何应对",
         "跟进：How to Build Your Own Always-On AI Agent (TypeScript)",
-        "跟进：Exo: An Architecture for Self-Improving Systems at Runtime",
-        "跟进：Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries",
-        "跟进：Build a Validated Kubernetes Runtime for NVIDIA Dynamo"
+        "跟进：Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+        "跟进：Run AI Models for Edge Application Development with Just a Few Commands",
+        "跟进：We’ve received our first response from the Project Suncatcher prototype satellite."
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc8f794be2a5934d46b1108d"
+                "local_20e30648e7b0429ebc909404"
               ],
               "confidence": 92
             },
@@ -43,26 +43,6 @@
               "confidence": 86
             },
             {
-              "title": "Exo: An Architecture for Self-Improving Systems at Runtime",
-              "summary": "Agent harnesses govern how language models act in an environment; designing their policies by hand is difficult, while automated techniques require representative datasets and costly executions. We present Exo, an agent runtime architecture for safe learning during ongoing work …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3b693f39bcdcbaf260e2b5be"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries",
-              "summary": "Attribution graphs, an emerging tool in mechanistic interpretability, use transcoders to decompose language model computations into sparse interpretable features connected by causal edges. However, turning a graph into a safety-relevant insight requires hours of manual analysis …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0e513097ff68275eb2a5f2a4"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Run AI Models for Edge Application Development with Just a Few Commands",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,...",
               "insightLabel": "关注",
@@ -71,6 +51,16 @@
                 "local_4746451ccc853fe745f90d26"
               ],
               "confidence": 78
+            },
+            {
+              "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_6256ebbca12ea17ccfb110aa"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -101,18 +91,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bc8f794be2a5934d46b1108d",
+        "local_20e30648e7b0429ebc909404",
         "local_94eda32fe4feecb00be99835",
-        "local_3b693f39bcdcbaf260e2b5be",
-        "local_0e513097ff68275eb2a5f2a4",
         "local_1d09a505b47d0ebe1a28c317",
         "local_4746451ccc853fe745f90d26",
-        "local_e1b34261f559a7a2ab0bb294",
-        "local_5bab61ce2506cb36c7215d07",
         "local_7320dc145c2bfd021bf2ccc0",
         "local_6256ebbca12ea17ccfb110aa"
       ],
-      "generatedAt": "2026-11-03T02:22:32.148Z",
+      "generatedAt": "2026-11-03T10:09:24.426Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -146,7 +132,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bc8f794be2a5934d46b1108d"
+                "local_20e30648e7b0429ebc909404"
               ],
               "confidence": 92
             },
@@ -199,19 +185,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_bc8f794be2a5934d46b1108d",
+        "local_20e30648e7b0429ebc909404",
         "local_1d09a505b47d0ebe1a28c317",
         "local_4746451ccc853fe745f90d26",
         "local_7320dc145c2bfd021bf2ccc0",
         "local_6256ebbca12ea17ccfb110aa"
       ],
-      "generatedAt": "2026-11-03T02:22:32.148Z",
+      "generatedAt": "2026-11-03T10:09:24.426Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-03T02:22:32.148Z",
+  "generatedAt": "2026-11-03T10:09:24.427Z",
   "collectorName": "local-source-collector"
 }
