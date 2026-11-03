@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations」、「华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations」、「Accelerating engineering for the physical world」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：October sponsors-only newsletter"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating engineering for the physical world",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展"
       ],
       "watchItems": [
         "跟进：Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
+        "跟进：Accelerating engineering for the physical world",
         "跟进：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
-        "跟进：October sponsors-only newsletter",
-        "跟进：IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
-        "跟进：Order-Only On-Policy Distillation"
+        "跟进：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+        "跟进：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI"
       ],
       "sections": [
         {
@@ -33,6 +33,36 @@
               "confidence": 82
             },
             {
+              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_47bc7e9da21541ac6b187040"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_05675c2e930d9243fc885933"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI早报|美团发布万亿参数多模态模型,苹果加速国行AI落地,千亿美元光通信并购引关注",
+              "summary": "AI大模型、芯片和数据中心已经成为各国科技产业布局的重要方向.9、2026年世界互联网大会乌镇峰会开幕,AI智能体成为重要议题...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_94ad11fd1d932d14ac91d4c3"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
               "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by h…",
               "insightLabel": "关注",
@@ -41,36 +71,31 @@
                 "local_3c7d99ffbe23129ad8daeb1b"
               ],
               "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "Accelerating engineering for the physical world",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_a1e87123bf2ac38de5c69ea6"
+              ],
+              "confidence": 78
             },
             {
-              "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
-              "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environment…",
+              "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into...",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_54a988398c02dd4ce7e1eb11"
+                "local_00c48e2118f3572fcc9c0856"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "VeriHarm-Bench: Measuring Harmful Success in LLM Coding Agents Verifiably",
-              "summary": "Large language model (LLM) coding agents increasingly operate with shell access, allowing them to write scripts, move files, alter permissions, and modify system configurations. However, an agent may achieve a user's goal while causing unintended harm, such as deleting unrelated…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f51ed397a7d0ab6b9465f539"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_21fed5c2e6e4f184814f573b"
-              ],
-              "confidence": 92
+              "confidence": 82
             }
           ]
         },
@@ -123,6 +148,16 @@
           "title": "行业与公司",
           "items": [
             {
+              "title": "History Forcing: Distilling History-Dependent Continuations for Long-Horizon Video World Models",
+              "summary": "Few-step autoregressive video diffusion enables efficient generation, yet maintaining consistency over long rollouts remains challenging, especially when subjects or scenes reappear after going out of sight. Despite progress in fidelity and rollout robustness, existing distillat…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_61bfadfdc2e0b8ed3996f581"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Order-Only On-Policy Distillation",
               "summary": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. These probabilities entangle two kinds of information: which tokens the teacher prefers, and how confident it is. The latter reflects the teacher's own capacity an…",
               "insightLabel": "关注",
@@ -131,53 +166,30 @@
                 "local_1c5760ba394399d350bb4193"
               ],
               "confidence": 92
-            },
-            {
-              "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitali…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_da29987dc29d978546541fc8"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
-        {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
-              "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In gated linear recurrences, memory retention depends on state decay, which is shaped jointly by gate parameters A_log and dt_bias and by input activations. In co…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9a873ab6a572381767840327"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_c4f08baa84acf65bc9ef397b",
+        "local_a1e87123bf2ac38de5c69ea6",
         "local_5028142bfe40981dfc251d6d",
+        "local_47bc7e9da21541ac6b187040",
+        "local_05675c2e930d9243fc885933",
         "local_513fad21a2f9e8009a2c51f3",
+        "local_94ad11fd1d932d14ac91d4c3",
+        "local_61bfadfdc2e0b8ed3996f581",
         "local_3c7d99ffbe23129ad8daeb1b",
         "local_1c5760ba394399d350bb4193",
         "local_1de17e8bdca2aa5c5d40c55d",
-        "local_9a873ab6a572381767840327",
         "local_ad118a9f2460b3c5d76fe783",
-        "local_da29987dc29d978546541fc8",
         "local_54a988398c02dd4ce7e1eb11",
         "local_f51ed397a7d0ab6b9465f539",
-        "local_21fed5c2e6e4f184814f573b",
         "local_e9d814ca8fdd5675cf849589",
         "local_dd960f45f67d3be6ccc93337",
         "local_00c48e2118f3572fcc9c0856"
       ],
-      "generatedAt": "2026-11-03T17:55:25.772Z",
+      "generatedAt": "2026-11-03T23:23:49.538Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -188,16 +200,45 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展」、「Build World Models for Interactive Simulation with NVIDIA Cosmos」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Accelerating engineering for the physical world」、「华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating engineering for the physical world",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Build World Models for Interactive Simulation with NVIDIA Cosmos"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI"
       ],
       "watchItems": [
+        "跟进：Accelerating engineering for the physical world",
         "跟进：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
-        "跟进：Build World Models for Interactive Simulation with NVIDIA Cosmos"
+        "跟进：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+        "跟进：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+        "跟进：全球AI早报|美团发布万亿参数多模态模型,苹果加速国行AI落地,千亿美元光通信并购引关注"
       ],
       "sections": [
+        {
+          "title": "产品与工具",
+          "items": [
+            {
+              "title": "Accelerating engineering for the physical world",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+              "insightLabel": "关注",
+              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
+              "sourceFeedItemIds": [
+                "local_a1e87123bf2ac38de5c69ea6"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_00c48e2118f3572fcc9c0856"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
         {
           "title": "模型与基础设施",
           "items": [
@@ -214,32 +255,56 @@
           ]
         },
         {
-          "title": "产品与工具",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into...",
+              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
               "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_00c48e2118f3572fcc9c0856"
+                "local_47bc7e9da21541ac6b187040"
               ],
-              "confidence": 82
+              "confidence": 92
+            },
+            {
+              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_05675c2e930d9243fc885933"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI早报|美团发布万亿参数多模态模型,苹果加速国行AI落地,千亿美元光通信并购引关注",
+              "summary": "AI大模型、芯片和数据中心已经成为各国科技产业布局的重要方向.9、2026年世界互联网大会乌镇峰会开幕,AI智能体成为重要议题...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_94ad11fd1d932d14ac91d4c3"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_a1e87123bf2ac38de5c69ea6",
         "local_5028142bfe40981dfc251d6d",
+        "local_47bc7e9da21541ac6b187040",
+        "local_05675c2e930d9243fc885933",
+        "local_94ad11fd1d932d14ac91d4c3",
         "local_00c48e2118f3572fcc9c0856"
       ],
-      "generatedAt": "2026-11-03T17:55:25.772Z",
+      "generatedAt": "2026-11-03T23:23:49.538Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-03T17:55:25.773Z",
+  "generatedAt": "2026-11-03T23:23:49.538Z",
   "collectorName": "local-source-collector"
 }
