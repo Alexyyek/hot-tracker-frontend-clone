@@ -5,97 +5,72 @@
       "topicId": "ai",
       "reportDate": "2026-11-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations」、「华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI examples: Real-world use cases across industries",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：What is Agentic AI? Definition, Examples, and How It Works",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents explained: What they are and how they work"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：October sponsors-only newsletter"
       ],
       "watchItems": [
-        "跟进：Agentic AI examples: Real-world use cases across industries",
-        "跟进：What is Agentic AI? Definition, Examples, and How It Works",
-        "跟进：AI agents explained: What they are and how they work",
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：金句抢先看"
+        "跟进：Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
+        "跟进：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
+        "跟进：October sponsors-only newsletter",
+        "跟进：IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+        "跟进：Order-Only On-Policy Distillation"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Agentic AI examples: Real-world use cases across industries",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI examples across health, finance, productivity, and more.",
+              "title": "Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic released Message Threads for the Messages API. Instead of resending the entire conversation with every turn, agents now only transmit what's changed. For requests between 500,000 and one million tokens, time t…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c71f8d0875f843b1a1f88770"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "What is Agentic AI? Definition, Examples, and How It Works",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What is agentic AI? Learn how autonomous AI agents work, how they differ from generative AI, and discover real examples of agentic AI in everyday life.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f4526f90a228f0a430b2d70d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_86662c5421d557c16c3d4666"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_86dd7df9a8fdf0149e88f628"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？_阿里巴巴_凌敏_InfoQ精选视频",
-              "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_58746c410ea17cd16019d8a5"
+                "local_c4f08baa84acf65bc9ef397b"
               ],
               "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3d4e002616a435bcdd3aa902"
-              ],
-              "confidence": 78
             },
             {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
+              "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
+              "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by h…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_058d7653abad7fc07f22899f"
+                "local_3c7d99ffbe23129ad8daeb1b"
               ],
-              "confidence": 70
+              "confidence": 92
+            },
+            {
+              "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+              "summary": "GUI web agents require realistic and interactive environments that remain stable during both evaluation and training. Live website evaluation suffers from changing content, access restrictions, and limited coverage of authenticated workflows, while existing synthetic environment…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_54a988398c02dd4ce7e1eb11"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "VeriHarm-Bench: Measuring Harmful Success in LLM Coding Agents Verifiably",
+              "summary": "Large language model (LLM) coding agents increasingly operate with shell access, allowing them to write scripts, move files, alter permissions, and modify system configurations. However, an agent may achieve a user's goal while causing unintended harm, such as deleting unrelated…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f51ed397a7d0ab6b9465f539"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_21fed5c2e6e4f184814f573b"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -103,32 +78,82 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
+              "summary": "杨文超华为云开发者发展与运营部部长林华鼎进行《大模型时代计算机人才的能力重构,产业视角的考核观察与分层培养实践》主题分...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2519db036ace2234a695c687"
+                "local_5028142bfe40981dfc251d6d"
               ],
-              "confidence": 78
+              "confidence": 86
             },
             {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
+              "title": "October sponsors-only newsletter",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：I sent out the October edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month: The October inflection point for vibe game development The vul…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_513fad21a2f9e8009a2c51f3"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
+              "summary": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing methods face two key limitations: (i) global rank allocation, where uncalibrated error proxies fail to capture complex error propagation, and (ii) decomposition…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_1de17e8bdca2aa5c5d40c55d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "llm 0.37",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra, plus a new llm…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_ad118a9f2460b3c5d76fe783"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Order-Only On-Policy Distillation",
+              "summary": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. These probabilities entangle two kinds of information: which tokens the teacher prefers, and how confident it is. The latter reflects the teacher's own capacity an…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_1c5760ba394399d350bb4193"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitali…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_d1cc1b9460454e76dbb93e51"
+                "local_da29987dc29d978546541fc8"
               ],
-              "confidence": 82
-            },
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
             {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "title": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
+              "summary": "Linear attention scales linearly with sequence length, but its finite-state memory can limit long-context retrieval. In gated linear recurrences, memory retention depends on state decay, which is shaped jointly by gate parameters A_log and dt_bias and by input activations. In co…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_92debd4515792009e88ff71f"
+                "local_9a873ab6a572381767840327"
               ],
               "confidence": 92
             }
@@ -136,32 +161,23 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c71f8d0875f843b1a1f88770",
-        "local_f4526f90a228f0a430b2d70d",
-        "local_86662c5421d557c16c3d4666",
-        "local_3d4e002616a435bcdd3aa902",
-        "local_86dd7df9a8fdf0149e88f628",
-        "local_58746c410ea17cd16019d8a5",
-        "local_775608132abfbe13e5ded925",
-        "local_78062fd7417903cb32c8885f",
-        "local_2519db036ace2234a695c687",
-        "local_f1337e65d212574e658e9615",
-        "local_8f1951174496d91921883789",
-        "local_bc727ea242c7e050ce300849",
-        "local_48dc004a64dfa5c19e1ef710",
-        "local_f60ea5b71d5c978b14a877fb",
-        "local_48c991dad27411042fcc6dff",
-        "local_d1fff8fcb1f41aeb6b3bc699",
-        "local_d3a4794dcc93b62d8f6549b5",
-        "local_d1cc1b9460454e76dbb93e51",
-        "local_386e16122ca704bf41a00f2b",
-        "local_0c732520da6affa04c77c530",
-        "local_cc891301b432ebf8bd6ed7d6",
-        "local_92debd4515792009e88ff71f",
-        "local_e31692239284d380eb4b7398",
-        "local_058d7653abad7fc07f22899f"
+        "local_c4f08baa84acf65bc9ef397b",
+        "local_5028142bfe40981dfc251d6d",
+        "local_513fad21a2f9e8009a2c51f3",
+        "local_3c7d99ffbe23129ad8daeb1b",
+        "local_1c5760ba394399d350bb4193",
+        "local_1de17e8bdca2aa5c5d40c55d",
+        "local_9a873ab6a572381767840327",
+        "local_ad118a9f2460b3c5d76fe783",
+        "local_da29987dc29d978546541fc8",
+        "local_54a988398c02dd4ce7e1eb11",
+        "local_f51ed397a7d0ab6b9465f539",
+        "local_21fed5c2e6e4f184814f573b",
+        "local_e9d814ca8fdd5675cf849589",
+        "local_dd960f45f67d3be6ccc93337",
+        "local_00c48e2118f3572fcc9c0856"
       ],
-      "generatedAt": "2026-11-03T10:09:24.392Z",
+      "generatedAt": "2026-11-03T17:55:25.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -172,122 +188,28 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-03",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展」、「Build World Models for Interactive Simulation with NVIDIA Cosmos」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI examples: Real-world use cases across industries",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：What is Agentic AI? Definition, Examples, and How It Works",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents explained: What they are and how they work"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Build World Models for Interactive Simulation with NVIDIA Cosmos"
       ],
       "watchItems": [
-        "跟进：Agentic AI examples: Real-world use cases across industries",
-        "跟进：What is Agentic AI? Definition, Examples, and How It Works",
-        "跟进：AI agents explained: What they are and how they work",
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：金句抢先看"
+        "跟进：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
+        "跟进：Build World Models for Interactive Simulation with NVIDIA Cosmos"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Agentic AI examples: Real-world use cases across industries",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI examples across health, finance, productivity, and more.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c71f8d0875f843b1a1f88770"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "What is Agentic AI? Definition, Examples, and How It Works",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What is agentic AI? Learn how autonomous AI agents work, how they differ from generative AI, and discover real examples of agentic AI in everyday life.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f4526f90a228f0a430b2d70d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_86662c5421d557c16c3d4666"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_86dd7df9a8fdf0149e88f628"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？_阿里巴巴_凌敏_InfoQ精选视频",
-              "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_58746c410ea17cd16019d8a5"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3d4e002616a435bcdd3aa902"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_058d7653abad7fc07f22899f"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
         {
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
+              "title": "华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
+              "summary": "杨文超华为云开发者发展与运营部部长林华鼎进行《大模型时代计算机人才的能力重构,产业视角的考核观察与分层培养实践》主题分...",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_2519db036ace2234a695c687"
+                "local_5028142bfe40981dfc251d6d"
               ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_92debd4515792009e88ff71f"
-              ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         },
@@ -308,34 +230,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_c71f8d0875f843b1a1f88770",
-        "local_f4526f90a228f0a430b2d70d",
-        "local_86662c5421d557c16c3d4666",
-        "local_3d4e002616a435bcdd3aa902",
-        "local_86dd7df9a8fdf0149e88f628",
-        "local_58746c410ea17cd16019d8a5",
-        "local_775608132abfbe13e5ded925",
-        "local_78062fd7417903cb32c8885f",
-        "local_2519db036ace2234a695c687",
-        "local_f1337e65d212574e658e9615",
-        "local_8f1951174496d91921883789",
-        "local_bc727ea242c7e050ce300849",
-        "local_48dc004a64dfa5c19e1ef710",
-        "local_92debd4515792009e88ff71f",
-        "local_e31692239284d380eb4b7398",
-        "local_058d7653abad7fc07f22899f",
-        "local_79ccf9e9c6877636bc1112b5",
-        "local_fd2009f48f0cf6443bf09fd0",
-        "local_47e380ae769382fad223b2dc",
+        "local_5028142bfe40981dfc251d6d",
         "local_00c48e2118f3572fcc9c0856"
       ],
-      "generatedAt": "2026-11-03T10:09:24.392Z",
+      "generatedAt": "2026-11-03T17:55:25.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-03T10:09:24.392Z",
+  "generatedAt": "2026-11-03T17:55:25.773Z",
   "collectorName": "local-source-collector"
 }
