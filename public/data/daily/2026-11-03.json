@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-11-03",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations」、「Accelerating engineering for the physical world」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Accelerating engineering for the physical world」、「华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating engineering for the physical world",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：FreeForm Harness: A Mobile-Native Agent Harness for Open and Composable Extensions"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI"
       ],
       "watchItems": [
-        "跟进：Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
         "跟进：Accelerating engineering for the physical world",
-        "跟进：FreeForm Harness: A Mobile-Native Agent Harness for Open and Composable Extensions",
         "跟进：华为云辽宁高校 AI 教育联合研讨会顺利召开,携手共促区域高等教育数智化创新发展",
-        "跟进：From Watching to Steering: Enabling Human-Coding Agent Collaboration through Execution Traces"
+        "跟进：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+        "跟进：Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+        "跟进：October sponsors-only newsletter"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Anthropic&#039;s Message Threads cut time to first token by 35 percent for long conversations",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic released Message Threads for the Messages API. Instead of resending the entire conversation with every turn, agents now only transmit what's changed. For requests between 500,000 and one million tokens, time t…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c4f08baa84acf65bc9ef397b"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "FreeForm Harness: A Mobile-Native Agent Harness for Open and Composable Extensions",
-              "summary": "Mobile phones support many everyday agent tasks, but current mobile agents bundle capabilities into monolithic pipelines with no open recombination point. Users and third parties cannot publish, install, and compose new behaviors, leaving personalized daily-life requests underse…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9d14aaf95e75668033caf19d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "From Watching to Steering: Enabling Human-Coding Agent Collaboration through Execution Traces",
-              "summary": "Recent advances in large language models (LLMs) have enabled coding agents to autonomously perform complex software development tasks, yet their long-running execution remains difficult for users to inspect, understand, and steer. We present Vibetrace, an interactive trace visua…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a8bc8a11cf51dbdab112bf24"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_47bc7e9da21541ac6b187040"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_05675c2e930d9243fc885933"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
         {
           "title": "产品与工具",
           "items": [
@@ -143,25 +88,55 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_47bc7e9da21541ac6b187040"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：From infrastructure planning and transportation to public services, cities are using NVIDIA-powered applications to address local needs and expand capacity for the broader AI ecosystem.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_05675c2e930d9243fc885933"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI早报|美团发布万亿参数多模态模型,苹果加速国行AI落地,千亿美元光通信并购引关注",
+              "summary": "AI大模型、芯片和数据中心已经成为各国科技产业布局的重要方向.9、2026年世界互联网大会乌镇峰会开幕,AI智能体成为重要议题...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bb156fcfdeb6f546b280d974"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c4f08baa84acf65bc9ef397b",
         "local_a1e87123bf2ac38de5c69ea6",
-        "local_9d14aaf95e75668033caf19d",
         "local_df57d3513120c3437df2c8aa",
-        "local_a8bc8a11cf51dbdab112bf24",
         "local_47bc7e9da21541ac6b187040",
         "local_05675c2e930d9243fc885933",
-        "local_c5c7f79e521ec7fdde14a734",
-        "local_524f5460c51c9ae536c97eea",
         "local_513fad21a2f9e8009a2c51f3",
-        "local_da11e38f0dc650a48a7f39d5",
+        "local_bb156fcfdeb6f546b280d974",
         "local_2d8c70f8b7be760a199a9484",
         "local_ad118a9f2460b3c5d76fe783",
         "local_00c48e2118f3572fcc9c0856"
       ],
-      "generatedAt": "2026-11-04T03:21:19.701Z",
+      "generatedAt": "2026-11-04T11:40:25.346Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -255,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_da11e38f0dc650a48a7f39d5"
+                "local_bb156fcfdeb6f546b280d974"
               ],
               "confidence": 92
             }
@@ -267,16 +242,16 @@
         "local_df57d3513120c3437df2c8aa",
         "local_47bc7e9da21541ac6b187040",
         "local_05675c2e930d9243fc885933",
-        "local_da11e38f0dc650a48a7f39d5",
+        "local_bb156fcfdeb6f546b280d974",
         "local_00c48e2118f3572fcc9c0856"
       ],
-      "generatedAt": "2026-11-04T03:21:19.701Z",
+      "generatedAt": "2026-11-04T11:40:25.347Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-04T03:21:19.701Z",
+  "generatedAt": "2026-11-04T11:40:25.347Z",
   "collectorName": "local-source-collector"
 }
