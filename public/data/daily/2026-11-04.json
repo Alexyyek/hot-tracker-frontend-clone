@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「datasette-llm 0.1a10」、「Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「datasette-llm 0.1a10」、「Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：datasette-llm 0.1a10",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9373e5e5af269a166dc3621"
+                "local_ddf27fe044568a4d141e6334"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_56723b3e7aadf45e777a7a8b"
+                "local_1c04505f00a18c964481498f"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4af0c22175c1a7cb95753da"
+                "local_b53a6e7152cb1d9e4aa08afc"
               ],
               "confidence": 90
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a6770478c760133485567f2a"
+                "local_0c9a051d274cb8b00d2e5857"
               ],
               "confidence": 92
             }
@@ -86,32 +86,12 @@
                 "local_eb89673e6d082d1c1314a3e9"
               ],
               "confidence": 74
-            },
-            {
-              "title": "Cross-Prompt Reuse of Entity-Replacement Responses",
-              "summary": "With model weights fixed, we measure how much of an entity-replacement response transfers between English factual questions, beyond whether answers change. We add the hidden-state change from two source questions to a target question about the same entity, comparing the predicte…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d29f5ad170dad0d2c7bc8a51"
-              ],
-              "confidence": 74
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "FinForesight: A Diagnostic Backtesting Benchmark for Deep Research Systems in Financial Forecasting",
-              "summary": "Anticipating financial outcomes requires synthesizing evolving evidence and reasoning under uncertainty, making deep research systems promising tools for forecasting. Yet evaluating forecasting ability is challenging because historical backtests may reward memorized outcomes or …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ba165ae42be554eec48aafb1"
-              ],
-              "confidence": 92
-            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -138,16 +118,6 @@
           "title": "物流、地址与召排",
           "items": [
             {
-              "title": "Length Is Cheap, Competition Is Not: Attention Predicts Context Rot in Retrieval",
-              "summary": "Why do language models fail on long inputs? The common answer is length. We show that, for retrieval, length is cheap and competition is not. On five open models (0.5B to 3B parameters, four families), neutral filler costs nothing: accuracy stays at 0.97 to 1.00, up to 32K token…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_ba97ece9b86ca77b681b66da"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
               "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：Facebook Feature Framework (F3) is Meta&#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. …",
               "insightLabel": "关注",
@@ -163,29 +133,21 @@
       "referencedFeedItemIds": [
         "local_c1bc023828ac9513ea50e939",
         "local_eb89673e6d082d1c1314a3e9",
-        "local_f9373e5e5af269a166dc3621",
-        "local_56723b3e7aadf45e777a7a8b",
-        "local_f4af0c22175c1a7cb95753da",
-        "local_a6770478c760133485567f2a",
+        "local_ddf27fe044568a4d141e6334",
+        "local_1c04505f00a18c964481498f",
+        "local_b53a6e7152cb1d9e4aa08afc",
+        "local_0c9a051d274cb8b00d2e5857",
         "local_5f909b4d4a2c8781a895ea7b",
-        "local_ba165ae42be554eec48aafb1",
-        "local_4ed91dd9f7f6ecc3980a0cb2",
-        "local_d29f5ad170dad0d2c7bc8a51",
-        "local_ba97ece9b86ca77b681b66da",
         "local_986c582d20a961c0f603b949",
         "local_a680c70129f144d814267e8f",
         "local_e6658e0358b6e8fff56e5657",
         "local_609486de2e180dc9a45de784",
-        "local_e17946d676706067618fcae8",
-        "local_24e764de20245e5c85d2cdc0",
         "local_50ef737ae6faf591307c8676",
         "local_9ff2d8ce97b629bae5290ff5",
-        "local_a0c77fc696ce1c544b408372",
-        "local_43b97a63699cdf45d6a69a25",
         "local_a2b4016ad5094a04986a3af3",
         "local_22c0c642cce5da2c7773d761"
       ],
-      "generatedAt": "2026-11-05T00:29:06.600Z",
+      "generatedAt": "2026-11-05T07:29:31.718Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -219,7 +181,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9373e5e5af269a166dc3621"
+                "local_ddf27fe044568a4d141e6334"
               ],
               "confidence": 92
             },
@@ -229,7 +191,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_56723b3e7aadf45e777a7a8b"
+                "local_1c04505f00a18c964481498f"
               ],
               "confidence": 92
             },
@@ -239,7 +201,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4af0c22175c1a7cb95753da"
+                "local_b53a6e7152cb1d9e4aa08afc"
               ],
               "confidence": 90
             },
@@ -249,7 +211,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a6770478c760133485567f2a"
+                "local_0c9a051d274cb8b00d2e5857"
               ],
               "confidence": 92
             },
@@ -282,22 +244,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f9373e5e5af269a166dc3621",
-        "local_56723b3e7aadf45e777a7a8b",
-        "local_f4af0c22175c1a7cb95753da",
-        "local_a6770478c760133485567f2a",
+        "local_ddf27fe044568a4d141e6334",
+        "local_1c04505f00a18c964481498f",
+        "local_b53a6e7152cb1d9e4aa08afc",
+        "local_0c9a051d274cb8b00d2e5857",
         "local_50ef737ae6faf591307c8676",
         "local_9ff2d8ce97b629bae5290ff5",
         "local_a2b4016ad5094a04986a3af3",
         "local_22c0c642cce5da2c7773d761"
       ],
-      "generatedAt": "2026-11-05T00:29:06.600Z",
+      "generatedAt": "2026-11-05T07:29:31.718Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-05T00:29:06.600Z",
+  "generatedAt": "2026-11-05T07:29:31.718Z",
   "collectorName": "local-source-collector"
 }
