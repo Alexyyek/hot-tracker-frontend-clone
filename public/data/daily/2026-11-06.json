@@ -33,22 +33,12 @@
               "confidence": 82
             },
             {
-              "title": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout",
-              "summary": "Linear attention compresses context into a fixed-size key-value state for linear-time training and constant-memory inference. Gated delta-rule models decay this state and erase its prediction for an incoming key before writing a new value; Gated DeltaNet-2 (GDN-2) generalizes th…",
+              "title": "StepX-OPD: Rethinking Multi-Teacher On-Policy Distillation in Diffusion Models",
+              "summary": "A deployable text-to-image diffusion model must hold several capabilities at once, such as instruction following, text rendering and human preference, and must sample in a few steps. Capabilities and few-step sampling are built in separate stages: a full-step model first consoli…",
               "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_987e8dfba6ce42d2946446fa"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space",
-              "summary": "When firms respond to new market opportunities, their capacity choices alter the future discounted free cash flows available to both competitors and investors. In competitive markets, these investment decisions publicized in news articles and analyst reports, measuring the chang…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2c1ba060cdbc11043ec969d1"
+                "local_975b6f868017c5dc4d10b249"
               ],
               "confidence": 92
             }
@@ -73,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_30c502d4eb4b721cfc66025d"
+                "local_398cbb62b635da96b13ff20f"
               ],
               "confidence": 90
             },
@@ -83,27 +73,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba933ab540e10e33af322658"
+                "local_f99dcf5233ed6c51850edaa5"
               ],
               "confidence": 92
             },
             {
-              "title": "Terminal-style Mathematical Modeling Bench: The First Agentic and Verifiable Benchmark for Mathematical Modeling",
-              "summary": "Mathematical modeling turns an open-ended real-world problem into assumptions, a model, a solution, and a defended recommendation, and its answers matter only if they are both close to a credible reference and physically feasible; existing benchmarks either score solver fragment…",
+              "title": "Measuring how AI agents handle everyday wet-lab science",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_32e457fab1182c03299aa31f"
+                "local_35c8bc71f1661f076fefe63b"
               ],
               "confidence": 92
             },
             {
-              "title": "Reducing Representational Interference in Retrieval Embeddings with Trainable Prefix Tokens",
-              "summary": "Embedding models compress variable-length text into fixed-size vector representations, but this compression can entangle semantic content with residual token-level information, such as artifacts arising from attention sink behavior. We propose a simple method that prepends train…",
+              "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+              "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for ea…",
               "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_64123c4d0b504cb6ea4e78e1"
+                "local_5e35268a50f45b20af126348"
               ],
               "confidence": 92
             }
@@ -118,7 +108,27 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0771847e217225ab3f62db42"
+                "local_016f047fb5ac7ab4d39ed3db"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Signed but Steerable: Measuring and Closing the Text-Vector Integrity Gap in Offline Retrieval-Augmented Generation",
+              "summary": "Offline retrieval-augmented generation (RAG) on edge devices is updated through signed knowledge packs that carry text and precomputed embedding vectors. A signature proves who published a pack, not that its vectors encode its text. We study this text-vector integrity gap. A ver…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_bfae498beba73c6fa87ea002"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+              "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary re…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ae7dba0df2a0fc72dbbdfbee"
               ],
               "confidence": 92
             },
@@ -141,16 +151,6 @@
                 "local_b01e160d3be48c9c779bca2f"
               ],
               "confidence": 82
-            },
-            {
-              "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：NVIDIA intentionally designs GPUs, CPUs, networking, storage and software together to get more useful work out of memory at every layer of the AI factory.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6ac8652b1169841a6fb6904f"
-              ],
-              "confidence": 74
             }
           ]
         }
@@ -158,13 +158,14 @@
       "referencedFeedItemIds": [
         "local_791ac154685fd96fd5bb0454",
         "local_c75626cf58db5d5355d67862",
-        "local_0771847e217225ab3f62db42",
-        "local_30c502d4eb4b721cfc66025d",
-        "local_ba933ab540e10e33af322658",
-        "local_32e457fab1182c03299aa31f",
-        "local_987e8dfba6ce42d2946446fa",
-        "local_2c1ba060cdbc11043ec969d1",
-        "local_64123c4d0b504cb6ea4e78e1",
+        "local_016f047fb5ac7ab4d39ed3db",
+        "local_398cbb62b635da96b13ff20f",
+        "local_f99dcf5233ed6c51850edaa5",
+        "local_35c8bc71f1661f076fefe63b",
+        "local_bfae498beba73c6fa87ea002",
+        "local_975b6f868017c5dc4d10b249",
+        "local_5e35268a50f45b20af126348",
+        "local_ae7dba0df2a0fc72dbbdfbee",
         "local_4222a660de81ae3645047ec6",
         "local_7224421f4989889e7382bcd7",
         "local_72404d67d12d93f794861753",
@@ -173,11 +174,10 @@
         "local_7b9ed08ddff508b95c0cb4be",
         "local_0a8c4c6d83b06ba62671c6e9",
         "local_653a2713d30975a4ab4ec07c",
-        "local_d4165b73b293ed125e494a29",
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-06T17:35:54.121Z",
+      "generatedAt": "2026-11-06T22:29:42.489Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -188,7 +188,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「WSDM 2027|高德4篇论文被收录!」、「谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「WSDM 2027|高德4篇论文被收录!」、「谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WSDM 2027|高德4篇论文被收录!",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
@@ -198,8 +198,8 @@
         "跟进：WSDM 2027|高德4篇论文被收录!",
         "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
         "跟进：Agent 越用越多,企业为何仍不够 AI Native ?",
-        "跟进：Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-        "跟进：Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents"
+        "跟进：Measuring how AI agents handle everyday wet-lab science",
+        "跟进：Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents"
       ],
       "sections": [
         {
@@ -211,7 +211,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_0771847e217225ab3f62db42"
+                "local_016f047fb5ac7ab4d39ed3db"
               ],
               "confidence": 92
             },
@@ -246,7 +246,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_30c502d4eb4b721cfc66025d"
+                "local_398cbb62b635da96b13ff20f"
               ],
               "confidence": 90
             },
@@ -256,7 +256,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba933ab540e10e33af322658"
+                "local_f99dcf5233ed6c51850edaa5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Measuring how AI agents handle everyday wet-lab science",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_35c8bc71f1661f076fefe63b"
               ],
               "confidence": 92
             },
@@ -284,21 +294,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0771847e217225ab3f62db42",
-        "local_30c502d4eb4b721cfc66025d",
-        "local_ba933ab540e10e33af322658",
+        "local_016f047fb5ac7ab4d39ed3db",
+        "local_398cbb62b635da96b13ff20f",
+        "local_f99dcf5233ed6c51850edaa5",
+        "local_35c8bc71f1661f076fefe63b",
         "local_7224421f4989889e7382bcd7",
         "local_653a2713d30975a4ab4ec07c",
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-06T17:35:54.121Z",
+      "generatedAt": "2026-11-06T22:29:42.489Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-06T17:35:54.121Z",
+  "generatedAt": "2026-11-06T22:29:42.490Z",
   "collectorName": "local-source-collector"
 }

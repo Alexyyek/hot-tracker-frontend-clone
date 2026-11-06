@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e7bdb0976b203bc7ab53bb0a"
+                "local_e013bfab07e22a8bf57ed3ce"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b08d94616debc486463c0679"
+                "local_c72ed56fa8c89fc7a0728947"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2bcea2c04d3b407341302f12"
+                "local_c4dfde05d37823375d0ac324"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c5ac412df6d1a20a4a020344"
+                "local_b74235a4dcfafdd36eef8ca6"
               ],
               "confidence": 74
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f87744db26337e276395b303"
+                "local_ef2ef120f708f4fa8e6ff95f"
               ],
               "confidence": 82
             }
@@ -83,9 +83,19 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_33a7bcd89d4627bbaeee8974"
+                "local_02dd29ea18177fef881b1e83"
               ],
               "confidence": 78
+            },
+            {
+              "title": "Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_1ebb8b44a4a4a40fc432140f"
+              ],
+              "confidence": 82
             }
           ]
         },
@@ -98,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_48778b7171f8da0ab3f77fc6"
+                "local_3353085c62b92a02c7116ae1"
               ],
               "confidence": 78
             },
@@ -108,17 +118,37 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_31af57121fae1ee23d414544"
+                "local_9374a52bdbc9940bd54d206f"
               ],
               "confidence": 82
             },
             {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "title": "Learning to Replicate Expert Judgment in Financial Tasks",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：With expert-labeled data and fine-tuning on Tinker, a custom model outperforms frontier LLMs on financial information-filtering tasks at a fraction of the cost.",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_7abbfa529d88d56d030c720d"
+                "local_6df2fa1e35a1b2d5f31d389f"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Training LLMs to Predict World Events (Guest Post with Mantic)",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Mantic have been using Tinker since it launched. This guest post is a technical deep dive on what they have built so far. The top AI forecasting systems are approaching superforecaster-level accuracy on geopolitics and …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f097e408263ff9195d949f0c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Defeating Nondeterminism in LLM Inference",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Reproducibility is a bedrock of scientific progress. However, it’s remarkably difficult to get reproducible results out of large language models. For example, you might observe that asking ChatGPT the same question mult…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_990b04440bb5ec442fd580a8"
               ],
               "confidence": 92
             }
@@ -126,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e7bdb0976b203bc7ab53bb0a",
-        "local_b08d94616debc486463c0679",
-        "local_2bcea2c04d3b407341302f12",
-        "local_33a7bcd89d4627bbaeee8974",
-        "local_c5ac412df6d1a20a4a020344",
-        "local_f87744db26337e276395b303",
-        "local_aab48fa74df05093c629f3a0",
-        "local_c12a7dd38e67db4ce7692f4f",
-        "local_48778b7171f8da0ab3f77fc6",
-        "local_6e96c3233c20d6e3f8e4934b",
-        "local_a9faa9f0e0448325055f4687",
+        "local_e013bfab07e22a8bf57ed3ce",
+        "local_c72ed56fa8c89fc7a0728947",
+        "local_c4dfde05d37823375d0ac324",
+        "local_02dd29ea18177fef881b1e83",
+        "local_b74235a4dcfafdd36eef8ca6",
+        "local_ef2ef120f708f4fa8e6ff95f",
+        "local_369b75a95bb40e24ad7014ac",
+        "local_1d981aa6e2fbd6e593d2be0c",
+        "local_3353085c62b92a02c7116ae1",
+        "local_71930ab1d37993565634cfcd",
+        "local_b4056ec878fcb2f40c430356",
         "local_967277f064b19058ed7d3a82",
         "local_bfb674b490043b5897f3697e",
         "local_bc727ea242c7e050ce300849",
         "local_48dc004a64dfa5c19e1ef710",
-        "local_8cd3ddfff33c4541bd3d1b36",
-        "local_35c28e640f737de9033835ee",
-        "local_3c1aa25cac40bd8a04bb6967",
-        "local_b38b99f8ab325d621697e4e7",
-        "local_31af57121fae1ee23d414544",
-        "local_ec348b10674b99b1de4258ca",
-        "local_7e1ecce90e8fb5aa421d6b39",
-        "local_237fc2a263e6683c34570dbe",
-        "local_7abbfa529d88d56d030c720d"
+        "local_6a08b68ea5cf68d86ea4ef5b",
+        "local_d2d00c0e960370326af0487d",
+        "local_085bcb89b9638bf7848d81a8",
+        "local_94280355691d890b2bb15c71",
+        "local_9374a52bdbc9940bd54d206f",
+        "local_1ebb8b44a4a4a40fc432140f",
+        "local_6df2fa1e35a1b2d5f31d389f",
+        "local_f097e408263ff9195d949f0c",
+        "local_990b04440bb5ec442fd580a8"
       ],
-      "generatedAt": "2026-11-06T17:35:54.110Z",
+      "generatedAt": "2026-11-06T22:29:42.477Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -162,7 +192,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-07",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI examples: Real-world use cases across industries",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：What is Agentic AI? Definition, Examples, and How It Works",
@@ -185,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_e7bdb0976b203bc7ab53bb0a"
+                "local_e013bfab07e22a8bf57ed3ce"
               ],
               "confidence": 92
             },
@@ -195,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b08d94616debc486463c0679"
+                "local_c72ed56fa8c89fc7a0728947"
               ],
               "confidence": 92
             },
@@ -205,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2bcea2c04d3b407341302f12"
+                "local_c4dfde05d37823375d0ac324"
               ],
               "confidence": 92
             },
@@ -215,7 +245,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c5ac412df6d1a20a4a020344"
+                "local_b74235a4dcfafdd36eef8ca6"
               ],
               "confidence": 74
             },
@@ -225,7 +255,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f87744db26337e276395b303"
+                "local_ef2ef120f708f4fa8e6ff95f"
               ],
               "confidence": 82
             }
@@ -240,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_33a7bcd89d4627bbaeee8974"
+                "local_02dd29ea18177fef881b1e83"
               ],
               "confidence": 78
             },
@@ -250,7 +280,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_bbcdc36b82b96018b1419e0b"
+                "local_6f4152022330d4124ea5847e"
               ],
               "confidence": 70
             }
@@ -265,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_48778b7171f8da0ab3f77fc6"
+                "local_3353085c62b92a02c7116ae1"
               ],
               "confidence": 78
             },
@@ -275,7 +305,17 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_7abbfa529d88d56d030c720d"
+                "local_8478c8622f9aa5c518963990"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For...",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_cc8d1bdc551d9165c424eb86"
               ],
               "confidence": 92
             }
@@ -283,35 +323,36 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_e7bdb0976b203bc7ab53bb0a",
-        "local_b08d94616debc486463c0679",
-        "local_2bcea2c04d3b407341302f12",
-        "local_33a7bcd89d4627bbaeee8974",
-        "local_c5ac412df6d1a20a4a020344",
-        "local_f87744db26337e276395b303",
-        "local_aab48fa74df05093c629f3a0",
-        "local_c12a7dd38e67db4ce7692f4f",
-        "local_48778b7171f8da0ab3f77fc6",
-        "local_6e96c3233c20d6e3f8e4934b",
-        "local_a9faa9f0e0448325055f4687",
+        "local_e013bfab07e22a8bf57ed3ce",
+        "local_c72ed56fa8c89fc7a0728947",
+        "local_c4dfde05d37823375d0ac324",
+        "local_02dd29ea18177fef881b1e83",
+        "local_b74235a4dcfafdd36eef8ca6",
+        "local_ef2ef120f708f4fa8e6ff95f",
+        "local_369b75a95bb40e24ad7014ac",
+        "local_1d981aa6e2fbd6e593d2be0c",
+        "local_3353085c62b92a02c7116ae1",
+        "local_71930ab1d37993565634cfcd",
+        "local_b4056ec878fcb2f40c430356",
         "local_967277f064b19058ed7d3a82",
         "local_bfb674b490043b5897f3697e",
         "local_bc727ea242c7e050ce300849",
         "local_48dc004a64dfa5c19e1ef710",
-        "local_7abbfa529d88d56d030c720d",
-        "local_8fb8ed19b95822af6f8ed95a",
-        "local_bbcdc36b82b96018b1419e0b",
-        "local_bc9697136fa98802c07455c3",
-        "local_e7289fcd74de262575ce3ed7",
-        "local_e825a94263878dc4dce12f54"
+        "local_8478c8622f9aa5c518963990",
+        "local_d66f9c367a9db1aa5e6f9bea",
+        "local_6f4152022330d4124ea5847e",
+        "local_bb4cfa6a2e036c1f792c9eda",
+        "local_14d1946098aaf8b7bb73296a",
+        "local_e5f436ef4ad2da905d8e7267",
+        "local_cc8d1bdc551d9165c424eb86"
       ],
-      "generatedAt": "2026-11-06T17:35:54.110Z",
+      "generatedAt": "2026-11-06T22:29:42.477Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-06T17:35:54.111Z",
+  "generatedAt": "2026-11-06T22:29:42.478Z",
   "collectorName": "local-source-collector"
 }
