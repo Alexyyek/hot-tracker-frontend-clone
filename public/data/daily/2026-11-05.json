@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-05",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Meta buys AI coding startup Conductor as big tech races to lock in developers」、「Check out our free livestream during National Veterans Small Business Week.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Meta buys AI coding startup Conductor as big tech races to lock in developers」、「Check out our free livestream during National Veterans Small Business Week.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta buys AI coding startup Conductor as big tech races to lock in developers",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Check out our free livestream during National Veterans Small Business Week.",
@@ -16,7 +16,7 @@
         "跟进：Check out our free livestream during National Veterans Small Business Week.",
         "跟进：GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
         "跟进：对谈千问蒋冠军:从模型、记忆到生态,Personal Agent的技术架构如何搭建?",
-        "跟进：SEE Conf 2026|创造力复兴,从你我开始"
+        "跟进：Req2Rust: A Requirements-Guided Agent Harness for Project-Level C++-to-Rust Migration"
       ],
       "sections": [
         {
@@ -58,19 +58,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7fbc1d31cf29b49668b49a36"
+                "local_7c126e8427d8492602e1aad5"
               ],
               "confidence": 92
             },
             {
-              "title": "SEE Conf 2026|创造力复兴,从你我开始",
-              "summary": "非技术同学把灵感变成可上线的应用;Agent 开始在团队中理解背景、主动跟进.这些具体的尝试,让\"创造力复兴\"有了可以看见的...",
+              "title": "Req2Rust: A Requirements-Guided Agent Harness for Project-Level C++-to-Rust Migration",
+              "summary": "Memory-safety concerns make Rust an attractive target for modernizing legacy C/C++ systems, yet project-level C++ migration must balance semantic fidelity with Rust-oriented reconstruction. Source-structure-preserving migration can track low-level behavior, but it can also carry…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5aa6868ec7b30b249b2b31a0"
+                "local_4fbd583d5311b1fbc3dc25d7"
               ],
-              "confidence": 82
+              "confidence": 92
             }
           ]
         },
@@ -108,12 +108,12 @@
               "confidence": 92
             },
             {
-              "title": "HERIT: Enabling Global Access to Hanja-to-English Historical Translation by Mitigating Temporal Bias",
-              "summary": "Historical archives are invaluable for multidisciplinary research but remain inaccessible globally due to severe language barriers. While manual translation is prohibitively expensive and time-consuming, simply applying existing machine translation models is inadequate due to un…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a18dab10ff690194cc74f13d"
+                "local_5ea97213c1e811e22242e2c1"
               ],
               "confidence": 92
             }
@@ -124,22 +124,23 @@
         "local_d6262d3265da205f20eda190",
         "local_58358386f01ae0868b6bb365",
         "local_35ebfee2eb448be082789303",
-        "local_7fbc1d31cf29b49668b49a36",
-        "local_5aa6868ec7b30b249b2b31a0",
+        "local_7c126e8427d8492602e1aad5",
+        "local_4fbd583d5311b1fbc3dc25d7",
+        "local_55c426854c8bb074b47f95c8",
+        "local_87257825f2291c13293d9864",
+        "local_a601c531fb48ac81e8acccfa",
+        "local_80590b29850c09891e34c6c1",
         "local_2e5e20a5549176186c222f47",
         "local_829e6f117238ac004eafbc31",
         "local_a4bbb43f5309a190db1f0266",
-        "local_a18dab10ff690194cc74f13d",
+        "local_5ea97213c1e811e22242e2c1",
+        "local_64dd43184a32fcdaaa5e57d6",
         "local_7681ebafcf09d6df9ec6f300",
         "local_8cc2de8ba1b263be88f575ba",
-        "local_38d51e638dd57c6b0961cdbd",
-        "local_20f7baa547f1c136e53ced1e",
-        "local_790a940c3701cdab6e4d096b",
-        "local_205e320d85847bbeb3c5e731",
         "local_e015a72e4298f5c8959b8e6c",
         "local_50ad784fae0af88a56dcfc17"
       ],
-      "generatedAt": "2026-11-05T22:05:44.615Z",
+      "generatedAt": "2026-11-06T02:29:42.606Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -193,7 +194,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7fbc1d31cf29b49668b49a36"
+                "local_7c126e8427d8492602e1aad5"
               ],
               "confidence": 92
             },
@@ -203,7 +204,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5aa6868ec7b30b249b2b31a0"
+                "local_87257825f2291c13293d9864"
               ],
               "confidence": 82
             },
@@ -223,19 +224,19 @@
       "referencedFeedItemIds": [
         "local_58358386f01ae0868b6bb365",
         "local_35ebfee2eb448be082789303",
-        "local_7fbc1d31cf29b49668b49a36",
-        "local_5aa6868ec7b30b249b2b31a0",
+        "local_7c126e8427d8492602e1aad5",
+        "local_87257825f2291c13293d9864",
         "local_7681ebafcf09d6df9ec6f300",
         "local_e015a72e4298f5c8959b8e6c",
         "local_50ad784fae0af88a56dcfc17"
       ],
-      "generatedAt": "2026-11-05T22:05:44.615Z",
+      "generatedAt": "2026-11-06T02:29:42.607Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-05T22:05:44.615Z",
+  "generatedAt": "2026-11-06T02:29:42.607Z",
   "collectorName": "local-source-collector"
 }
