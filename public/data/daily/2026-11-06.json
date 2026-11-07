@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ToyBlocks: A controlled world for robot learning and evaluation",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models",
@@ -63,7 +63,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_398cbb62b635da96b13ff20f"
+                "local_cb5836c271f713a10783d608"
               ],
               "confidence": 90
             },
@@ -73,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f99dcf5233ed6c51850edaa5"
+                "local_fca77b74448b46a8e4f92020"
               ],
               "confidence": 92
             },
@@ -88,12 +88,12 @@
               "confidence": 92
             },
             {
-              "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-              "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for ea…",
+              "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+              "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarizat…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5e35268a50f45b20af126348"
+                "local_ed8cd9f1f83f639415b71feb"
               ],
               "confidence": 92
             }
@@ -123,12 +123,12 @@
               "confidence": 92
             },
             {
-              "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
-              "summary": "Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary re…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_ae7dba0df2a0fc72dbbdfbee"
+                "local_6485b320eacfc441ff3958c5"
               ],
               "confidence": 92
             },
@@ -159,13 +159,14 @@
         "local_791ac154685fd96fd5bb0454",
         "local_c75626cf58db5d5355d67862",
         "local_016f047fb5ac7ab4d39ed3db",
-        "local_398cbb62b635da96b13ff20f",
-        "local_f99dcf5233ed6c51850edaa5",
+        "local_cb5836c271f713a10783d608",
+        "local_fca77b74448b46a8e4f92020",
         "local_35c8bc71f1661f076fefe63b",
+        "local_ed8cd9f1f83f639415b71feb",
         "local_bfae498beba73c6fa87ea002",
         "local_975b6f868017c5dc4d10b249",
         "local_5e35268a50f45b20af126348",
-        "local_ae7dba0df2a0fc72dbbdfbee",
+        "local_6485b320eacfc441ff3958c5",
         "local_4222a660de81ae3645047ec6",
         "local_7224421f4989889e7382bcd7",
         "local_72404d67d12d93f794861753",
@@ -177,7 +178,7 @@
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-06T22:29:42.489Z",
+      "generatedAt": "2026-11-07T02:29:15.746Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -246,7 +247,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_398cbb62b635da96b13ff20f"
+                "local_cb5836c271f713a10783d608"
               ],
               "confidence": 90
             },
@@ -256,7 +257,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f99dcf5233ed6c51850edaa5"
+                "local_fca77b74448b46a8e4f92020"
               ],
               "confidence": 92
             },
@@ -295,21 +296,21 @@
       ],
       "referencedFeedItemIds": [
         "local_016f047fb5ac7ab4d39ed3db",
-        "local_398cbb62b635da96b13ff20f",
-        "local_f99dcf5233ed6c51850edaa5",
+        "local_cb5836c271f713a10783d608",
+        "local_fca77b74448b46a8e4f92020",
         "local_35c8bc71f1661f076fefe63b",
         "local_7224421f4989889e7382bcd7",
         "local_653a2713d30975a4ab4ec07c",
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-06T22:29:42.489Z",
+      "generatedAt": "2026-11-07T02:29:15.746Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-06T22:29:42.490Z",
+  "generatedAt": "2026-11-07T02:29:15.746Z",
   "collectorName": "local-source-collector"
 }
