@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「WSDM 2027|高德4篇论文被收录!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ToyBlocks: A controlled world for robot learning and evaluation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WSDM 2027|高德4篇论文被收录!"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WSDM 2027|高德4篇论文被收录!",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多Agent协作的下一场竞争,不在模型,而在上下文"
       ],
       "watchItems": [
         "跟进：ToyBlocks: A controlled world for robot learning and evaluation",
-        "跟进：Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models",
         "跟进：WSDM 2027|高德4篇论文被收录!",
         "跟进：多Agent协作的下一场竞争,不在模型,而在上下文",
-        "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复"
+        "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
+        "跟进：Agent 越用越多,企业为何仍不够 AI Native ?"
       ],
       "sections": [
         {
@@ -39,61 +39,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_975b6f868017c5dc4d10b249"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters. The company claims it's the strongest western open-weight model. B…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c75626cf58db5d5355d67862"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "多Agent协作的下一场竞争,不在模型,而在上下文",
-              "summary": "作者:poppyliliAI 时代,人和 Agent 到底怎么协作? 聊聊产品设计的底层逻辑&mdash;&mdash;上下文如何在群里流动、隔离、接力. 我们做了一...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_85f7f08d20227b80819c409c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
-              "summary": "导读 一个智能体正在等模型回答,它的服务器却还在为这段等待预留资源.当企业把这样的任务扩大到成千上万个,闲置就会变成一笔...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_edf2da555cd79fa78a7bd32e"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Agent 越用越多,企业为何仍不够 AI Native ?",
-              "summary": "AI Native 其实是组织层面的问题&mdash;&mdash;什么样的组织,才算得上 AI ... 11 日 19 点,阿里云 CIO 蒋林泉空降 InfoQ 直播间,结合 CIO 线三...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_eb6679687581ed47904c1f5f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Measuring how AI agents handle everyday wet-lab science",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_35c8bc71f1661f076fefe63b"
               ],
               "confidence": 92
             }
@@ -133,16 +78,6 @@
               "confidence": 92
             },
             {
-              "title": "Baidu releases ERNIE 5.5 Flash Base with 280 billion parameters as an open-source foundation model",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Baidu releases ERNIE 5.5 Flash Base: a 280-billion-parameter MoE model pre-trained on 33.5 trillion tokens, shipped deliberately without fine-tuning, so developers can take it wherever they want. The article Baidu relea…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_b08cc993921116119080ad15"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Chris Alexiuk is a senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
               "insightLabel": "关注",
@@ -151,17 +86,81 @@
                 "local_b01e160d3be48c9c779bca2f"
               ],
               "confidence": 82
+            },
+            {
+              "title": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：NVIDIA intentionally designs GPUs, CPUs, networking, storage and software together to get more useful work out of memory at every layer of the AI factory.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_6ac8652b1169841a6fb6904f"
+              ],
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "多Agent协作的下一场竞争,不在模型,而在上下文",
+              "summary": "作者:poppyliliAI 时代,人和 Agent 到底怎么协作? 聊聊产品设计的底层逻辑&mdash;&mdash;上下文如何在群里流动、隔离、接力. 我们做了一...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c389a2bfb22fea32b3bd0a59"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
+              "summary": "导读 一个智能体正在等模型回答,它的服务器却还在为这段等待预留资源.当企业把这样的任务扩大到成千上万个,闲置就会变成一笔...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bf28713de2b8a76ac9d8aa71"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "Agent 越用越多,企业为何仍不够 AI Native ?",
+              "summary": "AI Native 其实是组织层面的问题&mdash;&mdash;什么样的组织,才算得上 AI ... 11 日 19 点,阿里云 CIO 蒋林泉空降 InfoQ 直播间,结合 CIO 线三...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8f5064ce4c3a46189c6a51b8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Measuring how AI agents handle everyday wet-lab science",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_35c8bc71f1661f076fefe63b"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
+              "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarizat…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ed8cd9f1f83f639415b71feb"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_791ac154685fd96fd5bb0454",
-        "local_c75626cf58db5d5355d67862",
         "local_745360fc91c76ef97cd153e7",
-        "local_85f7f08d20227b80819c409c",
-        "local_edf2da555cd79fa78a7bd32e",
-        "local_eb6679687581ed47904c1f5f",
+        "local_c389a2bfb22fea32b3bd0a59",
+        "local_bf28713de2b8a76ac9d8aa71",
+        "local_8f5064ce4c3a46189c6a51b8",
         "local_35c8bc71f1661f076fefe63b",
         "local_ed8cd9f1f83f639415b71feb",
         "local_bfae498beba73c6fa87ea002",
@@ -172,14 +171,13 @@
         "local_7224421f4989889e7382bcd7",
         "local_72404d67d12d93f794861753",
         "local_884e740370c275bc10a831cd",
-        "local_b08cc993921116119080ad15",
         "local_7b9ed08ddff508b95c0cb4be",
         "local_0a8c4c6d83b06ba62671c6e9",
         "local_653a2713d30975a4ab4ec07c",
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-07T09:21:51.853Z",
+      "generatedAt": "2026-11-07T16:02:43.004Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -248,7 +246,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_85f7f08d20227b80819c409c"
+                "local_c389a2bfb22fea32b3bd0a59"
               ],
               "confidence": 92
             },
@@ -258,7 +256,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_edf2da555cd79fa78a7bd32e"
+                "local_bf28713de2b8a76ac9d8aa71"
               ],
               "confidence": 90
             },
@@ -268,7 +266,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eb6679687581ed47904c1f5f"
+                "local_8f5064ce4c3a46189c6a51b8"
               ],
               "confidence": 92
             },
@@ -297,22 +295,22 @@
       ],
       "referencedFeedItemIds": [
         "local_745360fc91c76ef97cd153e7",
-        "local_85f7f08d20227b80819c409c",
-        "local_edf2da555cd79fa78a7bd32e",
-        "local_eb6679687581ed47904c1f5f",
+        "local_c389a2bfb22fea32b3bd0a59",
+        "local_bf28713de2b8a76ac9d8aa71",
+        "local_8f5064ce4c3a46189c6a51b8",
         "local_35c8bc71f1661f076fefe63b",
         "local_7224421f4989889e7382bcd7",
         "local_653a2713d30975a4ab4ec07c",
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-07T09:21:51.853Z",
+      "generatedAt": "2026-11-07T16:02:43.004Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-07T09:21:51.853Z",
+  "generatedAt": "2026-11-07T16:02:43.005Z",
   "collectorName": "local-source-collector"
 }
