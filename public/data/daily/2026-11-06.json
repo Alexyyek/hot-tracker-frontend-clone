@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ToyBlocks: A controlled world for robot learning and evaluation",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models",
@@ -15,8 +15,8 @@
         "跟进：ToyBlocks: A controlled world for robot learning and evaluation",
         "跟进：Thinking Machines&#039; Inkling 2 Small claims top spot among western open-weight models",
         "跟进：WSDM 2027|高德4篇论文被收录!",
-        "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
-        "跟进：Agent 越用越多,企业为何仍不够 AI Native ?"
+        "跟进：多Agent协作的下一场竞争,不在模型,而在上下文",
+        "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复"
       ],
       "sections": [
         {
@@ -58,12 +58,22 @@
               "confidence": 92
             },
             {
+              "title": "多Agent协作的下一场竞争,不在模型,而在上下文",
+              "summary": "作者:poppyliliAI 时代,人和 Agent 到底怎么协作? 聊聊产品设计的底层逻辑&mdash;&mdash;上下文如何在群里流动、隔离、接力. 我们做了一...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85f7f08d20227b80819c409c"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
               "summary": "导读 一个智能体正在等模型回答,它的服务器却还在为这段等待预留资源.当企业把这样的任务扩大到成千上万个,闲置就会变成一笔...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb5836c271f713a10783d608"
+                "local_edf2da555cd79fa78a7bd32e"
               ],
               "confidence": 90
             },
@@ -73,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fca77b74448b46a8e4f92020"
+                "local_eb6679687581ed47904c1f5f"
               ],
               "confidence": 92
             },
@@ -84,16 +94,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_35c8bc71f1661f076fefe63b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Tools Need Not Speak in Text: Latent Context Compression for Agents",
-              "summary": "Large language model (LLM) agents typically append raw tool outputs to their context. Over multi-step interactions, long and noisy observations incur substantial context overhead and dilute the agent's attention to task-relevant information. Existing token pruning and summarizat…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ed8cd9f1f83f639415b71feb"
               ],
               "confidence": 92
             }
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_016f047fb5ac7ab4d39ed3db"
+                "local_745360fc91c76ef97cd153e7"
               ],
               "confidence": 92
             },
@@ -158,9 +158,10 @@
       "referencedFeedItemIds": [
         "local_791ac154685fd96fd5bb0454",
         "local_c75626cf58db5d5355d67862",
-        "local_016f047fb5ac7ab4d39ed3db",
-        "local_cb5836c271f713a10783d608",
-        "local_fca77b74448b46a8e4f92020",
+        "local_745360fc91c76ef97cd153e7",
+        "local_85f7f08d20227b80819c409c",
+        "local_edf2da555cd79fa78a7bd32e",
+        "local_eb6679687581ed47904c1f5f",
         "local_35c8bc71f1661f076fefe63b",
         "local_ed8cd9f1f83f639415b71feb",
         "local_bfae498beba73c6fa87ea002",
@@ -178,7 +179,7 @@
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-07T02:29:15.746Z",
+      "generatedAt": "2026-11-07T09:21:51.853Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -189,18 +190,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「WSDM 2027|高德4篇论文被收录!」、「谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「WSDM 2027|高德4篇论文被收录!」、「多Agent协作的下一场竞争,不在模型,而在上下文」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WSDM 2027|高德4篇论文被收录!",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越用越多,企业为何仍不够 AI Native ?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多Agent协作的下一场竞争,不在模型,而在上下文",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复"
       ],
       "watchItems": [
         "跟进：WSDM 2027|高德4篇论文被收录!",
+        "跟进：多Agent协作的下一场竞争,不在模型,而在上下文",
         "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
         "跟进：Agent 越用越多,企业为何仍不够 AI Native ?",
-        "跟进：Measuring how AI agents handle everyday wet-lab science",
-        "跟进：Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents"
+        "跟进：Measuring how AI agents handle everyday wet-lab science"
       ],
       "sections": [
         {
@@ -212,7 +213,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_016f047fb5ac7ab4d39ed3db"
+                "local_745360fc91c76ef97cd153e7"
               ],
               "confidence": 92
             },
@@ -242,12 +243,22 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "多Agent协作的下一场竞争,不在模型,而在上下文",
+              "summary": "作者:poppyliliAI 时代,人和 Agent 到底怎么协作? 聊聊产品设计的底层逻辑&mdash;&mdash;上下文如何在群里流动、隔离、接力. 我们做了一...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_85f7f08d20227b80819c409c"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
               "summary": "导读 一个智能体正在等模型回答,它的服务器却还在为这段等待预留资源.当企业把这样的任务扩大到成千上万个,闲置就会变成一笔...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cb5836c271f713a10783d608"
+                "local_edf2da555cd79fa78a7bd32e"
               ],
               "confidence": 90
             },
@@ -257,7 +268,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fca77b74448b46a8e4f92020"
+                "local_eb6679687581ed47904c1f5f"
               ],
               "confidence": 92
             },
@@ -280,37 +291,28 @@
                 "local_7224421f4989889e7382bcd7"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_653a2713d30975a4ab4ec07c"
-              ],
-              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_016f047fb5ac7ab4d39ed3db",
-        "local_cb5836c271f713a10783d608",
-        "local_fca77b74448b46a8e4f92020",
+        "local_745360fc91c76ef97cd153e7",
+        "local_85f7f08d20227b80819c409c",
+        "local_edf2da555cd79fa78a7bd32e",
+        "local_eb6679687581ed47904c1f5f",
         "local_35c8bc71f1661f076fefe63b",
         "local_7224421f4989889e7382bcd7",
         "local_653a2713d30975a4ab4ec07c",
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-07T02:29:15.746Z",
+      "generatedAt": "2026-11-07T09:21:51.853Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-07T02:29:15.746Z",
+  "generatedAt": "2026-11-07T09:21:51.853Z",
   "collectorName": "local-source-collector"
 }
