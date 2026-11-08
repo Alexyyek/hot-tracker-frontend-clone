@@ -5,15 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-11-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「The gap between open and closed AI models in cyber capabilities keeps shrinking」、「Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「LLM Rankings」、「Accelerating Reinforcement Learning Weight Refit with the Reshard Collective」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The gap between open and closed AI models in cyber capabilities keeps shrinking",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Nilay Patel"
       ],
       "watchItems": [
-        "跟进：The gap between open and closed AI models in cyber capabilities keeps shrinking",
-        "跟进：Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar",
         "跟进：LLM Rankings",
         "跟进：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
         "跟进：Quoting Nilay Patel"
@@ -22,16 +20,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost.…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_8fbbfccf8eca8bb0ebc816bd"
-              ],
-              "confidence": 86
-            },
             {
               "title": "LLM Rankings",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
@@ -58,16 +46,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The \"Into the Unknown\" benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity c…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_936e32dacb2f352f78d4d72e"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Quoting Nilay Patel",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop …",
               "insightLabel": "关注",
@@ -81,13 +59,11 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_8fbbfccf8eca8bb0ebc816bd",
-        "local_936e32dacb2f352f78d4d72e",
         "local_198007a3750ceb602f90d511",
         "local_cc8d1bdc551d9165c424eb86",
         "local_2a29791c1a517fc2b2dfc06c"
       ],
-      "generatedAt": "2026-11-08T06:02:24.670Z",
+      "generatedAt": "2026-11-08T13:23:57.876Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -125,13 +101,13 @@
       "referencedFeedItemIds": [
         "local_cc8d1bdc551d9165c424eb86"
       ],
-      "generatedAt": "2026-11-08T06:02:24.670Z",
+      "generatedAt": "2026-11-08T13:23:57.876Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-08T06:02:24.670Z",
+  "generatedAt": "2026-11-08T13:23:57.876Z",
   "collectorName": "local-source-collector"
 }
