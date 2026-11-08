@@ -5,15 +5,16 @@
       "topicId": "ai",
       "reportDate": "2026-11-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「The gap between open and closed AI models in cyber capabilities keeps shrinking」、「Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「The gap between open and closed AI models in cyber capabilities keeps shrinking」、「Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：The gap between open and closed AI models in cyber capabilities keeps shrinking",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings"
       ],
       "watchItems": [
         "跟进：The gap between open and closed AI models in cyber capabilities keeps shrinking",
         "跟进：Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts&#039; bar",
+        "跟进：LLM Rankings",
         "跟进：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
         "跟进：Quoting Nilay Patel"
       ],
@@ -30,6 +31,16 @@
                 "local_8fbbfccf8eca8bb0ebc816bd"
               ],
               "confidence": 86
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_198007a3750ceb602f90d511"
+              ],
+              "confidence": 92
             },
             {
               "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
@@ -72,10 +83,11 @@
       "referencedFeedItemIds": [
         "local_8fbbfccf8eca8bb0ebc816bd",
         "local_936e32dacb2f352f78d4d72e",
+        "local_198007a3750ceb602f90d511",
         "local_cc8d1bdc551d9165c424eb86",
         "local_2a29791c1a517fc2b2dfc06c"
       ],
-      "generatedAt": "2026-11-08T00:04:33.198Z",
+      "generatedAt": "2026-11-08T06:02:24.670Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -113,13 +125,13 @@
       "referencedFeedItemIds": [
         "local_cc8d1bdc551d9165c424eb86"
       ],
-      "generatedAt": "2026-11-08T00:04:33.198Z",
+      "generatedAt": "2026-11-08T06:02:24.670Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-08T00:04:33.198Z",
+  "generatedAt": "2026-11-08T06:02:24.670Z",
   "collectorName": "local-source-collector"
 }
