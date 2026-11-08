@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「WSDM 2027|高德4篇论文被收录!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「WSDM 2027|高德4篇论文被收录!」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ToyBlocks: A controlled world for robot learning and evaluation",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WSDM 2027|高德4篇论文被收录!",
@@ -15,8 +15,8 @@
         "跟进：ToyBlocks: A controlled world for robot learning and evaluation",
         "跟进：WSDM 2027|高德4篇论文被收录!",
         "跟进：多Agent协作的下一场竞争,不在模型,而在上下文",
-        "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
-        "跟进：Agent 越用越多,企业为何仍不够 AI Native ?"
+        "跟进：Agent 越用越多,企业为何仍不够 AI Native ?",
+        "跟进：Measuring how AI agents handle everyday wet-lab science"
       ],
       "sections": [
         {
@@ -53,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_db3c4467e8a104bbf2d153d6"
+                "local_57bc65fb8887c0aa5c174d18"
               ],
               "confidence": 92
             },
@@ -98,19 +98,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a92d7f284e670e0dc35d99f0"
+                "local_ac35a04c6138beec4ddf093a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
-              "summary": "导读 一个智能体正在等模型回答,它的服务器却还在为这段等待预留资源.当企业把这样的任务扩大到成千上万个,闲置就会变成一笔...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0e633da56c8a59688f68a37a"
-              ],
-              "confidence": 90
             },
             {
               "title": "Agent 越用越多,企业为何仍不够 AI Native ?",
@@ -118,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d35f97b2178367d79bfc3259"
+                "local_25ff73b0188495a53423247c"
               ],
               "confidence": 92
             },
@@ -141,16 +131,25 @@
                 "local_ed8cd9f1f83f639415b71feb"
               ],
               "confidence": 92
+            },
+            {
+              "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+              "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for ea…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5e35268a50f45b20af126348"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_791ac154685fd96fd5bb0454",
-        "local_db3c4467e8a104bbf2d153d6",
-        "local_a92d7f284e670e0dc35d99f0",
-        "local_0e633da56c8a59688f68a37a",
-        "local_d35f97b2178367d79bfc3259",
+        "local_57bc65fb8887c0aa5c174d18",
+        "local_ac35a04c6138beec4ddf093a",
+        "local_25ff73b0188495a53423247c",
         "local_35c8bc71f1661f076fefe63b",
         "local_ed8cd9f1f83f639415b71feb",
         "local_bfae498beba73c6fa87ea002",
@@ -166,7 +165,7 @@
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-08T13:23:57.890Z",
+      "generatedAt": "2026-11-08T18:42:26.711Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -177,18 +176,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「WSDM 2027|高德4篇论文被收录!」、「多Agent协作的下一场竞争,不在模型,而在上下文」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「WSDM 2027|高德4篇论文被收录!」、「多Agent协作的下一场竞争,不在模型,而在上下文」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：WSDM 2027|高德4篇论文被收录!",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多Agent协作的下一场竞争,不在模型,而在上下文",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越用越多,企业为何仍不够 AI Native ?"
       ],
       "watchItems": [
         "跟进：WSDM 2027|高德4篇论文被收录!",
         "跟进：多Agent协作的下一场竞争,不在模型,而在上下文",
-        "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
         "跟进：Agent 越用越多,企业为何仍不够 AI Native ?",
-        "跟进：Measuring how AI agents handle everyday wet-lab science"
+        "跟进：Measuring how AI agents handle everyday wet-lab science",
+        "跟进：Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents"
       ],
       "sections": [
         {
@@ -200,7 +199,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_db3c4467e8a104bbf2d153d6"
+                "local_57bc65fb8887c0aa5c174d18"
               ],
               "confidence": 92
             },
@@ -235,19 +234,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a92d7f284e670e0dc35d99f0"
+                "local_ac35a04c6138beec4ddf093a"
               ],
               "confidence": 92
-            },
-            {
-              "title": "谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
-              "summary": "导读 一个智能体正在等模型回答,它的服务器却还在为这段等待预留资源.当企业把这样的任务扩大到成千上万个,闲置就会变成一笔...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0e633da56c8a59688f68a37a"
-              ],
-              "confidence": 90
             },
             {
               "title": "Agent 越用越多,企业为何仍不够 AI Native ?",
@@ -255,7 +244,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d35f97b2178367d79bfc3259"
+                "local_25ff73b0188495a53423247c"
               ],
               "confidence": 92
             },
@@ -278,28 +267,37 @@
                 "local_7224421f4989889e7382bcd7"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_653a2713d30975a4ab4ec07c"
+              ],
+              "confidence": 86
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_db3c4467e8a104bbf2d153d6",
-        "local_a92d7f284e670e0dc35d99f0",
-        "local_0e633da56c8a59688f68a37a",
-        "local_d35f97b2178367d79bfc3259",
+        "local_57bc65fb8887c0aa5c174d18",
+        "local_ac35a04c6138beec4ddf093a",
+        "local_25ff73b0188495a53423247c",
         "local_35c8bc71f1661f076fefe63b",
         "local_7224421f4989889e7382bcd7",
         "local_653a2713d30975a4ab4ec07c",
         "local_b01e160d3be48c9c779bca2f",
         "local_6ac8652b1169841a6fb6904f"
       ],
-      "generatedAt": "2026-11-08T13:23:57.890Z",
+      "generatedAt": "2026-11-08T18:42:26.711Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-08T13:23:57.890Z",
+  "generatedAt": "2026-11-08T18:42:26.711Z",
   "collectorName": "local-source-collector"
 }
