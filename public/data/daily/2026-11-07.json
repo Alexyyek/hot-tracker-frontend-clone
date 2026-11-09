@@ -5,14 +5,12 @@
       "topicId": "ai",
       "reportDate": "2026-11-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「LLM Rankings」、「Accelerating Reinforcement Learning Weight Refit with the Reshard Collective」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Accelerating Reinforcement Learning Weight Refit with the Reshard Collective」、「Quoting Nilay Patel」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：LLM Rankings",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Nilay Patel"
       ],
       "watchItems": [
-        "跟进：LLM Rankings",
         "跟进：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
         "跟进：Quoting Nilay Patel"
       ],
@@ -20,16 +18,6 @@
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_198007a3750ceb602f90d511"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For...",
@@ -59,11 +47,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_198007a3750ceb602f90d511",
         "local_cc8d1bdc551d9165c424eb86",
         "local_2a29791c1a517fc2b2dfc06c"
       ],
-      "generatedAt": "2026-11-08T22:36:05.055Z",
+      "generatedAt": "2026-11-09T02:05:26.586Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -101,13 +88,13 @@
       "referencedFeedItemIds": [
         "local_cc8d1bdc551d9165c424eb86"
       ],
-      "generatedAt": "2026-11-08T22:36:05.055Z",
+      "generatedAt": "2026-11-09T02:05:26.586Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-08T22:36:05.056Z",
+  "generatedAt": "2026-11-09T02:05:26.586Z",
   "collectorName": "local-source-collector"
 }
