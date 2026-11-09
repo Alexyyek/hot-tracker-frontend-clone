@@ -5,129 +5,6 @@
       "topicId": "ai",
       "reportDate": "2026-11-04",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「datasette-llm 0.1a10」、「多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
-      "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：datasette-llm 0.1a10",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：5000词需求文档,Claude也只能交付14%!实测28种Agent组合"
-      ],
-      "watchItems": [
-        "跟进：datasette-llm 0.1a10",
-        "跟进：多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术",
-        "跟进：5000词需求文档,Claude也只能交付14%!实测28种Agent组合",
-        "跟进：QCon上海2026:百度 SRE Agent 规模化落地实践解读",
-        "跟进：为 Agent 重建数据层:网易智企产品 AI Native 演进路径"
-      ],
-      "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "datasette-llm 0.1a10",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette, llm",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c1bc023828ac9513ea50e939"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术",
-              "summary": "40%|得物技术4.动态规则的 Agent 实践:用确定性工程驾驭 LLM 的资产智能验收5.发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_99a4e22fdd3205d2fe907c06"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "5000词需求文档,Claude也只能交付14%!实测28种Agent组合",
-              "summary": "新智元报道 如今Agent已经能熟练调用工具、修改文件、运行测试,但面对一个长期演进的大型软件系统,它能否从一份新需求出发,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ed97fcd6517db2cf68c55a7f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "QCon上海2026:百度 SRE Agent 规模化落地实践解读",
-              "summary": ".点击蓝字,关注我们作者 | 百度 SRE导读 introduction过去一年,做出一个 Agent 其实不难:它能听懂问题、调几个工具、把一段任...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3a2c7005210b794991879460"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "为 Agent 重建数据层:网易智企产品 AI Native 演进路径",
-              "summary": "网易智企·数帆技术负责人蒋鸿翔分享了数帆围绕统一存储与计算、EasyData 开发治理和知数 DataAgent 推进 AI Native 改造的技术路...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c38b0aa2c8dea985e0e9c804"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "为什么AI会\"选择性失忆\":搞懂Transformer架构",
-              "summary": "RAG、长上下文、KV Cache、Flash Attention 这些热门技术到底... 扫码领取腾讯云开发者专属服务器代金券!",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_ecaca8914445fe827b93ffeb"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "物流、地址与召排",
-          "items": [
-            {
-              "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
-              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：Facebook Feature Framework (F3) is Meta&#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_9ff2d8ce97b629bae5290ff5"
-              ],
-              "confidence": 90
-            }
-          ]
-        }
-      ],
-      "referencedFeedItemIds": [
-        "local_c1bc023828ac9513ea50e939",
-        "local_99a4e22fdd3205d2fe907c06",
-        "local_ed97fcd6517db2cf68c55a7f",
-        "local_3a2c7005210b794991879460",
-        "local_c38b0aa2c8dea985e0e9c804",
-        "local_ecaca8914445fe827b93ffeb",
-        "local_5f909b4d4a2c8781a895ea7b",
-        "local_50ef737ae6faf591307c8676",
-        "local_9ff2d8ce97b629bae5290ff5",
-        "local_22c0c642cce5da2c7773d761"
-      ],
-      "generatedAt": "2026-11-09T02:05:26.604Z",
-      "model": "local-source-collector",
-      "raw": {
-        "generatedBy": "local-source-collector"
-      }
-    },
-    {
-      "id": "daily_big-tech-daily_2026-11-04",
-      "topicId": "big-tech-daily",
-      "reportDate": "2026-11-04",
-      "title": "大厂 AI 日报",
       "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术」、「5000词需求文档,Claude也只能交付14%!实测28种Agent组合」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术",
@@ -151,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_99a4e22fdd3205d2fe907c06"
+                "local_94ac04079eb5014940ec425c"
               ],
               "confidence": 92
             },
@@ -161,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ed97fcd6517db2cf68c55a7f"
+                "local_1edcebbe58101c6812d0da8e"
               ],
               "confidence": 92
             },
@@ -171,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3a2c7005210b794991879460"
+                "local_f146f0ab28359f6570e6d2c7"
               ],
               "confidence": 90
             },
@@ -181,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c38b0aa2c8dea985e0e9c804"
+                "local_77626fb9c34fee754e858e5a"
               ],
               "confidence": 92
             },
@@ -229,22 +106,143 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_99a4e22fdd3205d2fe907c06",
-        "local_ed97fcd6517db2cf68c55a7f",
-        "local_3a2c7005210b794991879460",
-        "local_c38b0aa2c8dea985e0e9c804",
+        "local_94ac04079eb5014940ec425c",
+        "local_1edcebbe58101c6812d0da8e",
+        "local_f146f0ab28359f6570e6d2c7",
+        "local_77626fb9c34fee754e858e5a",
         "local_ecaca8914445fe827b93ffeb",
         "local_50ef737ae6faf591307c8676",
         "local_9ff2d8ce97b629bae5290ff5",
         "local_22c0c642cce5da2c7773d761"
       ],
-      "generatedAt": "2026-11-09T02:05:26.604Z",
+      "generatedAt": "2026-11-09T09:49:10.531Z",
+      "model": "local-source-collector",
+      "raw": {
+        "generatedBy": "local-source-collector"
+      }
+    },
+    {
+      "id": "daily_big-tech-daily_2026-11-04",
+      "topicId": "big-tech-daily",
+      "reportDate": "2026-11-04",
+      "title": "大厂 AI 日报",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术」、「5000词需求文档,Claude也只能交付14%!实测28种Agent组合」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：5000词需求文档,Claude也只能交付14%!实测28种Agent组合",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：QCon上海2026:百度 SRE Agent 规模化落地实践解读"
+      ],
+      "watchItems": [
+        "跟进：多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术",
+        "跟进：5000词需求文档,Claude也只能交付14%!实测28种Agent组合",
+        "跟进：QCon上海2026:百度 SRE Agent 规模化落地实践解读",
+        "跟进：为 Agent 重建数据层:网易智企产品 AI Native 演进路径",
+        "跟进：为什么AI会\"选择性失忆\":搞懂Transformer架构"
+      ],
+      "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "多 Agent 架构的三次反转:从中心调度到自驱协作|得物技术",
+              "summary": "40%|得物技术4.动态规则的 Agent 实践:用确定性工程驾驭 LLM 的资产智能验收5.发一张图,它居然＂跃＂出屏幕了?一文读懂得物 3...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_94ac04079eb5014940ec425c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "5000词需求文档,Claude也只能交付14%!实测28种Agent组合",
+              "summary": "新智元报道 如今Agent已经能熟练调用工具、修改文件、运行测试,但面对一个长期演进的大型软件系统,它能否从一份新需求出发,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1edcebbe58101c6812d0da8e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "QCon上海2026:百度 SRE Agent 规模化落地实践解读",
+              "summary": ".点击蓝字,关注我们作者 | 百度 SRE导读 introduction过去一年,做出一个 Agent 其实不难:它能听懂问题、调几个工具、把一段任...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f146f0ab28359f6570e6d2c7"
+              ],
+              "confidence": 90
+            },
+            {
+              "title": "为 Agent 重建数据层:网易智企产品 AI Native 演进路径",
+              "summary": "网易智企·数帆技术负责人蒋鸿翔分享了数帆围绕统一存储与计算、EasyData 开发治理和知数 DataAgent 推进 AI Native 改造的技术路...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_77626fb9c34fee754e858e5a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agentic cheminformatics with Google Antigravity",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_50ef737ae6faf591307c8676"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "为什么AI会\"选择性失忆\":搞懂Transformer架构",
+              "summary": "RAG、长上下文、KV Cache、Flash Attention 这些热门技术到底... 扫码领取腾讯云开发者专属服务器代金券!",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_ecaca8914445fe827b93ffeb"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
+            {
+              "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+              "summary": "这篇内容聚焦「物流轨迹、地址理解、召回排序或地理智能」。原文摘要显示：Facebook Feature Framework (F3) is Meta&#8217;s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. …",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_9ff2d8ce97b629bae5290ff5"
+              ],
+              "confidence": 90
+            }
+          ]
+        }
+      ],
+      "referencedFeedItemIds": [
+        "local_94ac04079eb5014940ec425c",
+        "local_1edcebbe58101c6812d0da8e",
+        "local_f146f0ab28359f6570e6d2c7",
+        "local_77626fb9c34fee754e858e5a",
+        "local_ecaca8914445fe827b93ffeb",
+        "local_50ef737ae6faf591307c8676",
+        "local_9ff2d8ce97b629bae5290ff5",
+        "local_22c0c642cce5da2c7773d761"
+      ],
+      "generatedAt": "2026-11-09T09:49:10.531Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-09T02:05:26.604Z",
+  "generatedAt": "2026-11-09T09:49:10.531Z",
   "collectorName": "local-source-collector"
 }

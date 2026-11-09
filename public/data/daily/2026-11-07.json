@@ -5,13 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-11-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「Accelerating Reinforcement Learning Weight Refit with the Reshard Collective」、「Quoting Nilay Patel」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Accelerating Reinforcement Learning Weight Refit with the Reshard Collective」、「Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Nilay Patel"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents"
       ],
       "watchItems": [
         "跟进：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+        "跟进：Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+        "跟进：When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
+        "跟进：AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos",
         "跟进：Quoting Nilay Patel"
       ],
       "sections": [
@@ -34,6 +38,36 @@
           "title": "Agent 与研发提效",
           "items": [
             {
+              "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
+              "summary": "Autonomous coding agents are increasingly involved in software development, but their participation in real-world security remediation remains poorly understood. We investigate observable evidence of coding-agent involvement in commits referenced by reviewed GitHub Security Advi…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_712f0cf77f5e2e8ef048199d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
+              "summary": "LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md and CLAUDE.md, which are read in every agent session. As any documentation artifact, these files can fall behind the cod…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1775dd5be0c50e56e01f5578"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos",
+              "summary": "Animation is pervasive on the Web, the CSS animation property alone appears on over three-quarters of webpages. Yet existing webpage code generation benchmarks target static screenshots, user-triggered interactions, or isolated motion graphics, leaving the ability of multimodal …",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3bdc19dd5285e059c63e4d66"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "Quoting Nilay Patel",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop …",
               "insightLabel": "关注",
@@ -48,9 +82,12 @@
       ],
       "referencedFeedItemIds": [
         "local_cc8d1bdc551d9165c424eb86",
+        "local_712f0cf77f5e2e8ef048199d",
+        "local_1775dd5be0c50e56e01f5578",
+        "local_3bdc19dd5285e059c63e4d66",
         "local_2a29791c1a517fc2b2dfc06c"
       ],
-      "generatedAt": "2026-11-09T02:05:26.586Z",
+      "generatedAt": "2026-11-09T09:49:10.489Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -88,13 +125,13 @@
       "referencedFeedItemIds": [
         "local_cc8d1bdc551d9165c424eb86"
       ],
-      "generatedAt": "2026-11-09T02:05:26.586Z",
+      "generatedAt": "2026-11-09T09:49:10.489Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-09T02:05:26.586Z",
+  "generatedAt": "2026-11-09T09:49:10.489Z",
   "collectorName": "local-source-collector"
 }
