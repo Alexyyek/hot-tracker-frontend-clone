@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了」、「谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了」、「谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
@@ -15,8 +15,7 @@
         "跟进：AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了",
         "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
         "跟进：The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
-        "跟进：AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
-        "跟进：DeepFinance: Can AI Diligence a $100MM Deal?"
+        "跟进：AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test"
       ],
       "sections": [
         {
@@ -43,7 +42,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_42d8890e96b63b40baa85a72"
+                "local_eac0e2c3b98389dc002914ee"
               ],
               "confidence": 90
             },
@@ -54,26 +53,6 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_589fc808174ead5bcc55d67a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "DeepFinance: Can AI Diligence a $100MM Deal?",
-              "summary": "Existing evaluations of AI models on high-finance work focus on retrieving answers from financial documents and producing numerically correct outputs. Real private equity (PE) and investment banking (IB) work also depends on choosing between conflicting sources, making sound ass…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_fd2d3047084f91f6451d71bc"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Patch correctness in automated program repair: A five-dimensional evidence framework and cross-benchmark audit from classical repair to coding agents",
-              "summary": "Tests guide automated program repair and determine which candidate patches are reported as successful. Repository-level coding agents extend this feedback loop by generating tests and revising code after observing execution results. This technical report introduces a five-dimens…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_94e6c35f6038549030117aec"
               ],
               "confidence": 92
             }
@@ -97,13 +76,11 @@
       ],
       "referencedFeedItemIds": [
         "local_222670d1bb7715b25be2214e",
-        "local_42d8890e96b63b40baa85a72",
+        "local_eac0e2c3b98389dc002914ee",
         "local_646cf9325bdf8c9d41886fec",
-        "local_589fc808174ead5bcc55d67a",
-        "local_fd2d3047084f91f6451d71bc",
-        "local_94e6c35f6038549030117aec"
+        "local_589fc808174ead5bcc55d67a"
       ],
-      "generatedAt": "2026-11-10T03:37:52.753Z",
+      "generatedAt": "2026-11-10T11:53:55.989Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -148,7 +125,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_42d8890e96b63b40baa85a72"
+                "local_eac0e2c3b98389dc002914ee"
               ],
               "confidence": 90
             }
@@ -157,15 +134,15 @@
       ],
       "referencedFeedItemIds": [
         "local_222670d1bb7715b25be2214e",
-        "local_42d8890e96b63b40baa85a72"
+        "local_eac0e2c3b98389dc002914ee"
       ],
-      "generatedAt": "2026-11-10T03:37:52.753Z",
+      "generatedAt": "2026-11-10T11:53:55.989Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-10T03:37:52.753Z",
+  "generatedAt": "2026-11-10T11:53:55.989Z",
   "collectorName": "local-source-collector"
 }
