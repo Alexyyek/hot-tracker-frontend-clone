@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-08",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了」、「谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了」、「谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
@@ -14,8 +14,7 @@
       "watchItems": [
         "跟进：AI接管一家8万Star开源公司,写代码、派任务、查Bug全包了",
         "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
-        "跟进：The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
-        "跟进：AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test"
+        "跟进：The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts"
       ],
       "sections": [
         {
@@ -42,19 +41,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eac0e2c3b98389dc002914ee"
+                "local_698b62f657a539754c7b1669"
               ],
               "confidence": 90
-            },
-            {
-              "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Alibaba's new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On old…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_589fc808174ead5bcc55d67a"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -76,11 +65,10 @@
       ],
       "referencedFeedItemIds": [
         "local_222670d1bb7715b25be2214e",
-        "local_eac0e2c3b98389dc002914ee",
-        "local_646cf9325bdf8c9d41886fec",
-        "local_589fc808174ead5bcc55d67a"
+        "local_698b62f657a539754c7b1669",
+        "local_646cf9325bdf8c9d41886fec"
       ],
-      "generatedAt": "2026-11-10T11:53:55.989Z",
+      "generatedAt": "2026-11-10T19:48:50.412Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -125,7 +113,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eac0e2c3b98389dc002914ee"
+                "local_698b62f657a539754c7b1669"
               ],
               "confidence": 90
             }
@@ -134,15 +122,15 @@
       ],
       "referencedFeedItemIds": [
         "local_222670d1bb7715b25be2214e",
-        "local_eac0e2c3b98389dc002914ee"
+        "local_698b62f657a539754c7b1669"
       ],
-      "generatedAt": "2026-11-10T11:53:55.989Z",
+      "generatedAt": "2026-11-10T19:48:50.412Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-10T11:53:55.989Z",
+  "generatedAt": "2026-11-10T19:48:50.413Z",
   "collectorName": "local-source-collector"
 }
