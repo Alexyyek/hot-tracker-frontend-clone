@@ -16,7 +16,7 @@
         "跟进：谷歌出手!语义层之后,智能体如何休眠不丢现场、半秒恢复",
         "跟进：The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
         "跟进：AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
-        "跟进：LLM Rankings"
+        "跟进：DeepFinance: Can AI Diligence a $100MM Deal?"
       ],
       "sections": [
         {
@@ -31,16 +31,6 @@
                 "local_222670d1bb7715b25be2214e"
               ],
               "confidence": 78
-            },
-            {
-              "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：datasette #3046: Don&#x27;t serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP pre…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_d01431b97b55041c9f0a82fb"
-              ],
-              "confidence": 74
             }
           ]
         },
@@ -53,7 +43,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_efb99538c0fdf056d9ef92a2"
+                "local_42d8890e96b63b40baa85a72"
               ],
               "confidence": 90
             },
@@ -64,6 +54,26 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_589fc808174ead5bcc55d67a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "DeepFinance: Can AI Diligence a $100MM Deal?",
+              "summary": "Existing evaluations of AI models on high-finance work focus on retrieving answers from financial documents and producing numerically correct outputs. Real private equity (PE) and investment banking (IB) work also depends on choosing between conflicting sources, making sound ass…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_fd2d3047084f91f6451d71bc"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Patch correctness in automated program repair: A five-dimensional evidence framework and cross-benchmark audit from classical repair to coding agents",
+              "summary": "Tests guide automated program repair and determine which candidate patches are reported as successful. Repository-level coding agents extend this feedback loop by generating tests and revising code after observing execution results. This technical report introduces a five-dimens…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_94e6c35f6038549030117aec"
               ],
               "confidence": 92
             }
@@ -81,29 +91,19 @@
                 "local_646cf9325bdf8c9d41886fec"
               ],
               "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e0dd66f48ccf804d896d9da3"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
         "local_222670d1bb7715b25be2214e",
-        "local_efb99538c0fdf056d9ef92a2",
+        "local_42d8890e96b63b40baa85a72",
         "local_646cf9325bdf8c9d41886fec",
         "local_589fc808174ead5bcc55d67a",
-        "local_e0dd66f48ccf804d896d9da3",
-        "local_d01431b97b55041c9f0a82fb"
+        "local_fd2d3047084f91f6451d71bc",
+        "local_94e6c35f6038549030117aec"
       ],
-      "generatedAt": "2026-11-09T20:49:06.446Z",
+      "generatedAt": "2026-11-10T03:37:52.753Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -148,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_efb99538c0fdf056d9ef92a2"
+                "local_42d8890e96b63b40baa85a72"
               ],
               "confidence": 90
             }
@@ -157,15 +157,15 @@
       ],
       "referencedFeedItemIds": [
         "local_222670d1bb7715b25be2214e",
-        "local_efb99538c0fdf056d9ef92a2"
+        "local_42d8890e96b63b40baa85a72"
       ],
-      "generatedAt": "2026-11-09T20:49:06.446Z",
+      "generatedAt": "2026-11-10T03:37:52.753Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-09T20:49:06.446Z",
+  "generatedAt": "2026-11-10T03:37:52.753Z",
   "collectorName": "local-source-collector"
 }

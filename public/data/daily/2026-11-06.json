@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-06",
       "title": "AI日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「ToyBlocks: A controlled world for robot learning and evaluation」、「多Agent协作的下一场竞争,不在模型,而在上下文」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ToyBlocks: A controlled world for robot learning and evaluation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多Agent协作的下一场竞争,不在模型,而在上下文"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多Agent协作的下一场竞争,不在模型,而在上下文",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越用越多,企业为何仍不够 AI Native ?"
       ],
       "watchItems": [
         "跟进：ToyBlocks: A controlled world for robot learning and evaluation",
-        "跟进：Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
         "跟进：多Agent协作的下一场竞争,不在模型,而在上下文",
         "跟进：Agent 越用越多,企业为何仍不够 AI Native ?",
-        "跟进：Measuring how AI agents handle everyday wet-lab science"
+        "跟进：Measuring how AI agents handle everyday wet-lab science",
+        "跟进：Introducing the New Auto and Auto Code Routers on OpenRouter"
       ],
       "sections": [
         {
@@ -38,22 +38,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
-              "summary": "Large language models (LLMs) are now widely used in software development, and LLM-based coding agents are given increasing autonomy. With coding agents, many design decisions are made in the conversation between the developer and the agent. Typically, the developer starts a conv…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ad4ec3d543817e81bef0359d"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "多Agent协作的下一场竞争,不在模型,而在上下文",
               "summary": "作者:poppyliliAI 时代,人和 Agent 到底怎么协作? 聊聊产品设计的底层逻辑&mdash;&mdash;上下文如何在群里流动、隔离、接力. 我们做了一...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9ede292a5a3bbf129d490c81"
+                "local_81e524135ede36ef306c35c0"
               ],
               "confidence": 92
             },
@@ -63,7 +53,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9727842ac002ec5c9901395"
+                "local_f7d8940209eae7d08be216c7"
               ],
               "confidence": 92
             },
@@ -86,22 +76,22 @@
                 "local_4222a660de81ae3645047ec6"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：As businesses put more agents to work, AI factories need CPUs that can execute those steps quickly and support many agents at once, all within the limits of available power.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7224421f4989889e7382bcd7"
+              ],
+              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Chris Alexiuk is a senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b01e160d3be48c9c779bca2f"
-              ],
-              "confidence": 82
-            },
             {
               "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Chris Alexiuk is a senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
@@ -117,17 +107,15 @@
       ],
       "referencedFeedItemIds": [
         "local_791ac154685fd96fd5bb0454",
-        "local_ad4ec3d543817e81bef0359d",
-        "local_9ede292a5a3bbf129d490c81",
-        "local_f9727842ac002ec5c9901395",
+        "local_81e524135ede36ef306c35c0",
+        "local_f7d8940209eae7d08be216c7",
         "local_35c8bc71f1661f076fefe63b",
         "local_4222a660de81ae3645047ec6",
         "local_7224421f4989889e7382bcd7",
         "local_653a2713d30975a4ab4ec07c",
-        "local_b01e160d3be48c9c779bca2f",
         "local_c8be91e5da8c36d0afe7b85a"
       ],
-      "generatedAt": "2026-11-09T20:49:06.458Z",
+      "generatedAt": "2026-11-10T03:37:52.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -138,7 +126,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-06",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「多Agent协作的下一场竞争,不在模型,而在上下文」、「Agent 越用越多,企业为何仍不够 AI Native ?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「多Agent协作的下一场竞争,不在模型,而在上下文」、「Agent 越用越多,企业为何仍不够 AI Native ?」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：多Agent协作的下一场竞争,不在模型,而在上下文",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 越用越多,企业为何仍不够 AI Native ?",
@@ -161,7 +149,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9ede292a5a3bbf129d490c81"
+                "local_81e524135ede36ef306c35c0"
               ],
               "confidence": 92
             },
@@ -171,7 +159,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f9727842ac002ec5c9901395"
+                "local_f7d8940209eae7d08be216c7"
               ],
               "confidence": 92
             },
@@ -216,16 +204,6 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b01e160d3be48c9c779bca2f"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Chris Alexiuk is a senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
                 "local_c8be91e5da8c36d0afe7b85a"
               ],
               "confidence": 82
@@ -234,21 +212,20 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_9ede292a5a3bbf129d490c81",
-        "local_f9727842ac002ec5c9901395",
+        "local_81e524135ede36ef306c35c0",
+        "local_f7d8940209eae7d08be216c7",
         "local_35c8bc71f1661f076fefe63b",
         "local_7224421f4989889e7382bcd7",
         "local_653a2713d30975a4ab4ec07c",
-        "local_b01e160d3be48c9c779bca2f",
         "local_c8be91e5da8c36d0afe7b85a"
       ],
-      "generatedAt": "2026-11-09T20:49:06.459Z",
+      "generatedAt": "2026-11-10T03:37:52.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-09T20:49:06.459Z",
+  "generatedAt": "2026-11-10T03:37:52.773Z",
   "collectorName": "local-source-collector"
 }

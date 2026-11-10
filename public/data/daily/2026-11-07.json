@@ -5,70 +5,54 @@
       "topicId": "ai",
       "reportDate": "2026-11-07",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Agent用好数据,先补哪几块地基?」、「Accelerating Reinforcement Learning Weight Refit with the Reshard Collective」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「Winning Reviews, Losing Discovery? The Co-Evolutionary Game of AI Research and Peer Review」、「REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent用好数据,先补哪几块地基?",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Winning Reviews, Losing Discovery? The Co-Evolutionary Game of AI Research and Peer Review",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent用好数据,先补哪几块地基?"
       ],
       "watchItems": [
+        "跟进：Winning Reviews, Losing Discovery? The Co-Evolutionary Game of AI Research and Peer Review",
+        "跟进：REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning",
         "跟进：Agent用好数据,先补哪几块地基?",
-        "跟进：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
-        "跟进：Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
-        "跟进：When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
-        "跟进：AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos"
+        "跟进：Accelerating Reinforcement Learning Weight Refit with the Reshard Collective"
       ],
       "sections": [
         {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Winning Reviews, Losing Discovery? The Co-Evolutionary Game of AI Research and Peer Review",
+              "summary": "Autonomous research systems can produce convincing manuscripts whose scientific value is difficult to verify, while automated reviewers can reward the appearance of completeness. We examine how this gap can become a self-reinforcing threat to the research community. In a two-pop…",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_ec5f1499f9669553c15d9612"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "REINS: A Self-Evolving Agent Harness for Real-Time Trajectory Planning",
+              "summary": "Agent harnesses -- runtime scaffolds that wrap an LLM's reasoning loop with tool dispatch, verification, and persistent memory -- have become the standard substrate for deploying LLMs as autonomous agents, as demonstrated by Claude Code and Codex in software engineering. In traj…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_b8d5c868796b1c82b0c4686e"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Agent用好数据,先补哪几块地基?",
               "summary": "导读 今年大会有一个判断,值得数据从业者反复琢磨:Agent接上企业数据,才能理解任务、辅助决策;在AI时代,速度本身就是竞争...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_41c205389ea7280ad8e50a31"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Agents on the Patch Path: Mining AI-Associated Security Remediation in GitHub Security Advisories",
-              "summary": "Autonomous coding agents are increasingly involved in software development, but their participation in real-world security remediation remains poorly understood. We investigate observable evidence of coding-agent involvement in commits referenced by reviewed GitHub Security Advi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_712f0cf77f5e2e8ef048199d"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
-              "summary": "LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md and CLAUDE.md, which are read in every agent session. As any documentation artifact, these files can fall behind the cod…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_1775dd5be0c50e56e01f5578"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AnimWeb-Bench: Benchmarking Animated Webpage Code Generation from Videos",
-              "summary": "Animation is pervasive on the Web, the CSS animation property alone appears on over three-quarters of webpages. Yet existing webpage code generation benchmarks target static screenshots, user-triggered interactions, or isolated motion graphics, leaving the ability of multimodal …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3bdc19dd5285e059c63e4d66"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Quoting Nilay Patel",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_2a29791c1a517fc2b2dfc06c"
+                "local_afc72b7450cbf850df38fb09"
               ],
               "confidence": 92
             }
@@ -91,14 +75,12 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_41c205389ea7280ad8e50a31",
-        "local_cc8d1bdc551d9165c424eb86",
-        "local_712f0cf77f5e2e8ef048199d",
-        "local_1775dd5be0c50e56e01f5578",
-        "local_3bdc19dd5285e059c63e4d66",
-        "local_2a29791c1a517fc2b2dfc06c"
+        "local_ec5f1499f9669553c15d9612",
+        "local_b8d5c868796b1c82b0c4686e",
+        "local_afc72b7450cbf850df38fb09",
+        "local_cc8d1bdc551d9165c424eb86"
       ],
-      "generatedAt": "2026-11-09T20:49:06.453Z",
+      "generatedAt": "2026-11-10T03:37:52.763Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -128,7 +110,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_41c205389ea7280ad8e50a31"
+                "local_afc72b7450cbf850df38fb09"
               ],
               "confidence": 92
             }
@@ -151,16 +133,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_41c205389ea7280ad8e50a31",
+        "local_afc72b7450cbf850df38fb09",
         "local_cc8d1bdc551d9165c424eb86"
       ],
-      "generatedAt": "2026-11-09T20:49:06.453Z",
+      "generatedAt": "2026-11-10T03:37:52.763Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-09T20:49:06.453Z",
+  "generatedAt": "2026-11-10T03:37:52.763Z",
   "collectorName": "local-source-collector"
 }
