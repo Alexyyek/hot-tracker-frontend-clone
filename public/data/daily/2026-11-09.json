@@ -5,43 +5,38 @@
       "topicId": "ai",
       "reportDate": "2026-11-09",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery」、「Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation」、「Our newest TPUs: 8tx and 8i Max, built for the agentic era」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Can Frontier Auto Researchers Reconstruct Human Research Decisions in AI?"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google ships four TPU variants in one year as it ramps up competition with Nvidia"
       ],
       "watchItems": [
-        "跟进：SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
         "跟进：Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-        "跟进：Can Frontier Auto Researchers Reconstruct Human Research Decisions in AI?",
         "跟进：Our newest TPUs: 8tx and 8i Max, built for the agentic era",
-        "跟进：Google ships four TPU variants in one year as it ramps up competition with Nvidia"
+        "跟进：Google ships four TPU variants in one year as it ramps up competition with Nvidia",
+        "跟进：AI Coding之后:搜广推团队的研发工程化探索",
+        "跟进：BAIR at CoRL 2026"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "SciMARS: Multi-Agent Recursive Self-Improvement for Closed-Loop Scientific Discovery",
-              "summary": "We propose SciMARS, a framework for recursive task-local adaptation of multi-agent harnesses in closed-loop scientific discovery. Multi-agent systems coordinate analysis, experimental design, and verification as scientific evidence evolves. However, two problems limit their effe…",
+              "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：At the Conference on Robot Learning, NVIDIA is introducing GR00T 2, Isaac Lab 3.0 and new open benchmarks, built in collaboration with partners, bringing precision and scale to robot training.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_6d66886a07e7dea439b7a96d"
+                "local_5927c275ebafd387e263df08"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Can Frontier Auto Researchers Reconstruct Human Research Decisions in AI?",
-              "summary": "Scientific research has long been driven by substantial human effort, from reviewing prior work and identifying research gaps to designing specific solutions. Recent advances in harness-based agent systems have given rise to increasingly capable Auto Researchers, which can auton…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9b49247676abad5cd2beb420"
-              ],
-              "confidence": 92
-            },
+              "confidence": 86
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
             {
               "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：We’ve expanded our eighth generation TPU portfolio with TPU 8tx and TPU 8i Max, marking four new TPU systems in a single year.",
@@ -58,44 +53,39 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_58b73dd2442014bd1394e66e"
+                "local_35a312f8d85349cc3abf3ea8"
               ],
               "confidence": 92
             },
             {
-              "title": "CodeRabbit scales agentic software development and ships 20x more",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+              "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Hyundai Motor Group and AIM Intelligence explore NVIDIA NemoClaw and OpenShell for secure enterprise agents, and LG AI Research opens API for ‘K-EXAONE-2.5’ trained on Nemotron datasets.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_81454f1330f9ca0286f5708b"
-              ],
-              "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：At the Conference on Robot Learning, NVIDIA is introducing GR00T 2, Isaac Lab 3.0 and new open benchmarks, built in collaboration with partners, bringing precision and scale to robot training.",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_5927c275ebafd387e263df08"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_8b9f21f43dbb59d18d82f44c"
+                "local_f6d928337a3179922081b907"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Hyundai Motor Group and AIM Intelligence explore NVIDIA NemoClaw and OpenShell for secure enterprise agents, and LG AI Research opens API for ‘K-EXAONE-2.5’ trained on Nemotron datasets.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d43a59532130d0973c521161"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, age…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ddc874f53ffb3a4fc5f80db1"
+              ],
+              "confidence": 90
             }
           ]
         },
@@ -121,36 +111,21 @@
                 "local_e571cb7122ff98b67d7817f4"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Kuken Industries searches 70 years of drawings in minutes",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_ea38a9ba37f1b6e7adcfe06b"
-              ],
-              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_6d66886a07e7dea439b7a96d",
         "local_5927c275ebafd387e263df08",
-        "local_9b49247676abad5cd2beb420",
         "local_dca662aaaea34d3049233cd4",
         "local_363a583183a829d11c7a8d69",
-        "local_58b73dd2442014bd1394e66e",
+        "local_35a312f8d85349cc3abf3ea8",
         "local_e571cb7122ff98b67d7817f4",
-        "local_81454f1330f9ca0286f5708b",
-        "local_ea38a9ba37f1b6e7adcfe06b",
         "local_f6d928337a3179922081b907",
         "local_d43a59532130d0973c521161",
-        "local_ddc874f53ffb3a4fc5f80db1",
-        "local_8b9f21f43dbb59d18d82f44c"
+        "local_ddc874f53ffb3a4fc5f80db1"
       ],
-      "generatedAt": "2026-11-11T00:45:54.431Z",
+      "generatedAt": "2026-11-11T07:18:04.798Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -161,7 +136,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-09",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation」、「Our newest TPUs: 8tx and 8i Max, built for the agentic era」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation」、「Our newest TPUs: 8tx and 8i Max, built for the agentic era」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Our newest TPUs: 8tx and 8i Max, built for the agentic era",
@@ -171,8 +146,8 @@
         "跟进：Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
         "跟进：Our newest TPUs: 8tx and 8i Max, built for the agentic era",
         "跟进：AI Coding之后:搜广推团队的研发工程化探索",
-        "跟进：CodeRabbit scales agentic software development and ships 20x more",
-        "跟进：Kuken Industries searches 70 years of drawings in minutes"
+        "跟进：Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+        "跟进：Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA"
       ],
       "sections": [
         {
@@ -209,19 +184,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_58b73dd2442014bd1394e66e"
+                "local_35a312f8d85349cc3abf3ea8"
               ],
               "confidence": 92
-            },
-            {
-              "title": "CodeRabbit scales agentic software development and ships 20x more",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_81454f1330f9ca0286f5708b"
-              ],
-              "confidence": 90
             },
             {
               "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
@@ -242,21 +207,16 @@
                 "local_d43a59532130d0973c521161"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
+            },
             {
-              "title": "Kuken Industries searches 70 years of drawings in minutes",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+              "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, age…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ea38a9ba37f1b6e7adcfe06b"
+                "local_ddc874f53ffb3a4fc5f80db1"
               ],
-              "confidence": 82
+              "confidence": 90
             }
           ]
         }
@@ -264,20 +224,18 @@
       "referencedFeedItemIds": [
         "local_5927c275ebafd387e263df08",
         "local_dca662aaaea34d3049233cd4",
-        "local_58b73dd2442014bd1394e66e",
-        "local_81454f1330f9ca0286f5708b",
-        "local_ea38a9ba37f1b6e7adcfe06b",
+        "local_35a312f8d85349cc3abf3ea8",
         "local_f6d928337a3179922081b907",
         "local_d43a59532130d0973c521161",
         "local_ddc874f53ffb3a4fc5f80db1"
       ],
-      "generatedAt": "2026-11-11T00:45:54.431Z",
+      "generatedAt": "2026-11-11T07:18:04.798Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-11T00:45:54.431Z",
+  "generatedAt": "2026-11-11T07:18:04.798Z",
   "collectorName": "local-source-collector"
 }

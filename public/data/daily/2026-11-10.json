@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Agent Substrate: Advancing Kubernetes for Agents at Scale」、「Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Agent Substrate: Advancing Kubernetes for Agents at Scale」、「Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Substrate: Advancing Kubernetes for Agents at Scale",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation"
       ],
       "watchItems": [
         "跟进：Agent Substrate: Advancing Kubernetes for Agents at Scale",
         "跟进：Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
-        "跟进：Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-        "跟进：Helping caregivers use AI in everyday life",
-        "跟进：GPT-6凌晨上线智能UI:智能UI时代的技术架构重构与应对之道"
+        "跟进：Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
+        "跟进：BioXArena-Pro: a research-grade benchmark for autonomous biomedical machine learning agents",
+        "跟进：Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
       ],
       "sections": [
         {
@@ -31,6 +31,26 @@
                 "local_33558f3e12519434a6e72dc4"
               ],
               "confidence": 86
+            },
+            {
+              "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
+              "summary": "Language-model agents increasingly tackle long-horizon tasks whose interaction histories exceed the model's active context. They must therefore decide what to write down and what to read back, and when to do either. Recent work has begun to use on-policy distillation (OPD) to ma…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_8ce3c09833ca62c4bb6f4716"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "BioXArena-Pro: a research-grade benchmark for autonomous biomedical machine learning agents",
+              "summary": "Coding agents are increasingly proposed as autonomous builders of biomedical models, but existing benchmarks are small, near saturation or open to leaked information. We present BioXArena-Pro, 64 research-level modelling tasks from eight biomedical domains, each rebuilt from a p…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_7d084cb4b7ca72025c77b8f8"
+              ],
+              "confidence": 92
             },
             {
               "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
@@ -51,26 +71,6 @@
                 "local_b688694b0c30cd40688c1a86"
               ],
               "confidence": 82
-            },
-            {
-              "title": "GPT-6凌晨上线智能UI:智能UI时代的技术架构重构与应对之道",
-              "summary": "与此同时,围绕Personal Agent(个人智能体)的路线之争也浮出... 独立开发者的试错成本大幅下降.第二波冲击(半年至两年):应...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c8fb7d0e7cf98504c0eab728"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI从Working、Coding到Oncall:腾讯视频如何让知识流动起来?",
-              "summary": "工程经验难以规模化复用当 AI 从少数人的效率工具进入真实研发... 落地更多AI Native业务工作流,形成规模化、可复用的个人->组织...",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_5432728ae2b8b9a096425ab7"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -86,6 +86,16 @@
                 "local_4c2c7ba48a2f9719db184c6b"
               ],
               "confidence": 70
+            },
+            {
+              "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_92aa3787f7d02cf9898d123b"
+              ],
+              "confidence": 90
             },
             {
               "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
@@ -103,32 +113,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "e-means: outperforming k-means (in one-tenth the epochs)",
-              "summary": "Lloyd's k-means algorithm is a long-running standard for clustering, with applications in data analysis, retrieval, quantization and data curation. In this paper, we introduce an exponential moving average optimization procedure for k-means with mini-batch updates, powered by mo…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_b7984fde0c5de54303ebc96f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MotionGraphicsBench: Evaluating Motion Graphics Generation with Programmatic Verification",
-              "summary": "Large language models can generate motion graphics from static images and natural language requests, but it remains difficult to evaluate how well models can follow requests that combine spatial, appearance, and temporal requirements. We introduce MotionGraphicsBench, an expert-…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_825ca35c79443a72dc442433"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "FraudBench: A Legal Evaluation of AI Deception",
-              "summary": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and valid…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c2a679f63e96d25d813efc7b"
+                "local_bfbc5d5dbecc1e21f77996c0"
               ],
               "confidence": 92
             }
@@ -138,26 +128,25 @@
       "referencedFeedItemIds": [
         "local_33558f3e12519434a6e72dc4",
         "local_4c2c7ba48a2f9719db184c6b",
+        "local_8ce3c09833ca62c4bb6f4716",
+        "local_7d084cb4b7ca72025c77b8f8",
         "local_21efc406181ce90ede30acea",
         "local_b688694b0c30cd40688c1a86",
-        "local_c8fb7d0e7cf98504c0eab728",
+        "local_308fc453e326fa3c776b842b",
         "local_5432728ae2b8b9a096425ab7",
+        "local_92aa3787f7d02cf9898d123b",
         "local_aaba2b6b8d5aefcffe4b4a36",
         "local_be1d696f68990a88bcc55cad",
         "local_4c94c7aecf19213c0ff711c4",
         "local_805619f720372c91e4d18812",
-        "local_212ac2da6a98453960f77b16",
-        "local_d1791da41af28fcc0a1103ef",
-        "local_b7984fde0c5de54303ebc96f",
-        "local_825ca35c79443a72dc442433",
-        "local_c2a679f63e96d25d813efc7b",
+        "local_01f571a12d56ff34f9727b31",
+        "local_68cf4df1071ad4cfd7f07f9d",
+        "local_bfbc5d5dbecc1e21f77996c0",
         "local_ad0d0556300fbb114fb15523",
         "local_4f9d5aa2ed485493636129d0",
-        "local_70c6638feee6a8aa774225df",
-        "local_a0d8a03bef292fa93486d8d0",
-        "local_a35169c9adf79f01c22073b9"
+        "local_70c6638feee6a8aa774225df"
       ],
-      "generatedAt": "2026-11-11T00:45:54.424Z",
+      "generatedAt": "2026-11-11T07:18:04.784Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -168,7 +157,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-10",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Agent Substrate: Advancing Kubernetes for Agents at Scale」、「Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Agent Substrate: Advancing Kubernetes for Agents at Scale」、「Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Substrate: Advancing Kubernetes for Agents at Scale",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
@@ -221,7 +210,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8fb7d0e7cf98504c0eab728"
+                "local_308fc453e326fa3c776b842b"
               ],
               "confidence": 92
             },
@@ -251,6 +240,16 @@
               "confidence": 70
             },
             {
+              "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_92aa3787f7d02cf9898d123b"
+              ],
+              "confidence": 90
+            },
+            {
               "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
               "insightLabel": "关注",
@@ -268,19 +267,21 @@
         "local_4c2c7ba48a2f9719db184c6b",
         "local_21efc406181ce90ede30acea",
         "local_b688694b0c30cd40688c1a86",
-        "local_c8fb7d0e7cf98504c0eab728",
+        "local_308fc453e326fa3c776b842b",
         "local_5432728ae2b8b9a096425ab7",
+        "local_92aa3787f7d02cf9898d123b",
         "local_be1d696f68990a88bcc55cad",
-        "local_212ac2da6a98453960f77b16",
+        "local_01f571a12d56ff34f9727b31",
+        "local_68cf4df1071ad4cfd7f07f9d",
         "local_4f9d5aa2ed485493636129d0"
       ],
-      "generatedAt": "2026-11-11T00:45:54.424Z",
+      "generatedAt": "2026-11-11T07:18:04.784Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-11T00:45:54.425Z",
+  "generatedAt": "2026-11-11T07:18:04.784Z",
   "collectorName": "local-source-collector"
 }
