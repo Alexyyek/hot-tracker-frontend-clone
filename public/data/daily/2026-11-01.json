@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_091555cedda4976bed1ca20c"
+                "local_ef098d4cb9ba968ae9607f48"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a04fa7622b6524d7b3d0c275"
+                "local_05468222523add621ee544b4"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5465546c8069e592c740743a"
+                "local_eec279df27ab654dab1c880a"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f6bc711f07662769b3cb6bd6"
+                "local_02b6bc2b94f04e0bcec516d4"
               ],
               "confidence": 82
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0bd8e10812fd0327013fb61d"
+                "local_2a2ccb845ffafe4ae8d88e6c"
               ],
               "confidence": 70
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_e28848724401dddeff7e2fd8"
+                "local_f1f1ba65b0825c87ac147e6e"
               ],
               "confidence": 78
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_87c963413c240c2006ac701f"
+                "local_e5a96dedc90be3d5397ce375"
               ],
               "confidence": 82
             }
@@ -108,7 +108,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_8b3a1fb624c6a8e61be8c317"
+                "local_8583686bca85628a43eca5fa"
               ],
               "confidence": 78
             },
@@ -123,22 +123,12 @@
               "confidence": 82
             },
             {
-              "title": "What is Pathways? Single-controller training for large models",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditiona…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_7d6297a4d72c88e35d4b9ed9"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "AI Model Benchmarks",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_b5cf785b93f21c05ea8f05f1"
+                "local_6370594ffc70ba26eb2e5077"
               ],
               "confidence": 82
             },
@@ -148,9 +138,19 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_e38b6f14c4f1e7931c38e611"
+                "local_abbef9cb352eb76d8de0ac4d"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Learning to Replicate Expert Judgment in Financial Tasks",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：With expert-labeled data and fine-tuning on Tinker, a custom model outperforms frontier LLMs on financial information-filtering tasks at a fraction of the cost.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_10ce4c25c386719ed5243410"
+              ],
+              "confidence": 74
             }
           ]
         },
@@ -171,32 +171,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_091555cedda4976bed1ca20c",
-        "local_a04fa7622b6524d7b3d0c275",
-        "local_5465546c8069e592c740743a",
-        "local_e28848724401dddeff7e2fd8",
-        "local_f6bc711f07662769b3cb6bd6",
-        "local_0bd8e10812fd0327013fb61d",
-        "local_75e7aeef684e6508e2ad8cef",
-        "local_91f7c3d9916e563259c8485d",
-        "local_8b3a1fb624c6a8e61be8c317",
-        "local_88a2ede03b45398f85a16d12",
-        "local_3e0a8cc74eb177706afc4a12",
+        "local_ef098d4cb9ba968ae9607f48",
+        "local_05468222523add621ee544b4",
+        "local_eec279df27ab654dab1c880a",
+        "local_f1f1ba65b0825c87ac147e6e",
+        "local_02b6bc2b94f04e0bcec516d4",
+        "local_2a2ccb845ffafe4ae8d88e6c",
+        "local_507c5c7181d884a19eaf95e7",
+        "local_e32f1d783d85abf1a9f36dcc",
+        "local_8583686bca85628a43eca5fa",
+        "local_fe235c4836b33b7a885dc5e6",
+        "local_735ced5112c8a360d972a983",
+        "local_ba0605c8a550096aed542fa3",
+        "local_6737cb1282b25b39076ce85e",
         "local_39dad4486d3a6c7d7dbac2f9",
         "local_87d45c62c66a15658d1c4fd5",
-        "local_ba0605c8a550096aed542fa3",
-        "local_7d6297a4d72c88e35d4b9ed9",
-        "local_20773628a3add7739362e91a",
-        "local_1f8047e112d1920a1406121e",
-        "local_0c1340c33960bc02a26f952b",
-        "local_e48f6ef7101696a29e9cf03a",
-        "local_b5cf785b93f21c05ea8f05f1",
-        "local_e38b6f14c4f1e7931c38e611",
-        "local_8405169a1b747c526532a7e3",
-        "local_87c963413c240c2006ac701f",
-        "local_3f96c52716b4ca6252c39fba"
+        "local_ed734ee4e3a3303b6e14bb4b",
+        "local_520b5053cd27d388e2ef5d1e",
+        "local_511a316ed7c3065987c5b2a2",
+        "local_8b6be42b79027b2ac5f43f90",
+        "local_6370594ffc70ba26eb2e5077",
+        "local_abbef9cb352eb76d8de0ac4d",
+        "local_10ce4c25c386719ed5243410",
+        "local_e5a96dedc90be3d5397ce375",
+        "local_67f031fb181520efa0658ce3"
       ],
-      "generatedAt": "2026-11-12T11:56:16.063Z",
+      "generatedAt": "2026-11-12T19:59:54.730Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -230,7 +230,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_091555cedda4976bed1ca20c"
+                "local_ef098d4cb9ba968ae9607f48"
               ],
               "confidence": 92
             },
@@ -240,7 +240,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a04fa7622b6524d7b3d0c275"
+                "local_05468222523add621ee544b4"
               ],
               "confidence": 92
             },
@@ -250,7 +250,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5465546c8069e592c740743a"
+                "local_eec279df27ab654dab1c880a"
               ],
               "confidence": 92
             },
@@ -260,7 +260,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f6bc711f07662769b3cb6bd6"
+                "local_02b6bc2b94f04e0bcec516d4"
               ],
               "confidence": 82
             },
@@ -270,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0bd8e10812fd0327013fb61d"
+                "local_2a2ccb845ffafe4ae8d88e6c"
               ],
               "confidence": 70
             }
@@ -285,7 +285,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_e28848724401dddeff7e2fd8"
+                "local_f1f1ba65b0825c87ac147e6e"
               ],
               "confidence": 78
             },
@@ -295,7 +295,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_47106dcba187414df8a7fafd"
+                "local_7a6e944c6d8d5248482abb96"
               ],
               "confidence": 70
             }
@@ -310,7 +310,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_8b3a1fb624c6a8e61be8c317"
+                "local_8583686bca85628a43eca5fa"
               ],
               "confidence": 78
             },
@@ -325,22 +325,12 @@
               "confidence": 82
             },
             {
-              "title": "What is Pathways? Single-controller training for large models",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Pathways is a single-controller distributed training system designed to coordinate large-scale model training across multiple accelerator groups by representing computations as a global dataflow graph. Unlike traditiona…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_7d6297a4d72c88e35d4b9ed9"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0cfb1c75d8d8c76b54d6d06b"
+                "local_07f12589d5dafb960defba20"
               ],
               "confidence": 92
             }
@@ -363,32 +353,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_091555cedda4976bed1ca20c",
-        "local_a04fa7622b6524d7b3d0c275",
-        "local_5465546c8069e592c740743a",
-        "local_e28848724401dddeff7e2fd8",
-        "local_f6bc711f07662769b3cb6bd6",
-        "local_0bd8e10812fd0327013fb61d",
-        "local_75e7aeef684e6508e2ad8cef",
-        "local_91f7c3d9916e563259c8485d",
-        "local_8b3a1fb624c6a8e61be8c317",
-        "local_88a2ede03b45398f85a16d12",
-        "local_3e0a8cc74eb177706afc4a12",
+        "local_ef098d4cb9ba968ae9607f48",
+        "local_05468222523add621ee544b4",
+        "local_eec279df27ab654dab1c880a",
+        "local_f1f1ba65b0825c87ac147e6e",
+        "local_02b6bc2b94f04e0bcec516d4",
+        "local_2a2ccb845ffafe4ae8d88e6c",
+        "local_507c5c7181d884a19eaf95e7",
+        "local_e32f1d783d85abf1a9f36dcc",
+        "local_8583686bca85628a43eca5fa",
+        "local_fe235c4836b33b7a885dc5e6",
+        "local_735ced5112c8a360d972a983",
+        "local_ba0605c8a550096aed542fa3",
+        "local_6737cb1282b25b39076ce85e",
         "local_39dad4486d3a6c7d7dbac2f9",
         "local_87d45c62c66a15658d1c4fd5",
-        "local_ba0605c8a550096aed542fa3",
-        "local_7d6297a4d72c88e35d4b9ed9",
-        "local_0cfb1c75d8d8c76b54d6d06b",
-        "local_42efc504ad226e47b2c6c8c5",
-        "local_47106dcba187414df8a7fafd"
+        "local_07f12589d5dafb960defba20",
+        "local_ad9899c9842382e3318ee3c2",
+        "local_7a6e944c6d8d5248482abb96"
       ],
-      "generatedAt": "2026-11-12T11:56:16.063Z",
+      "generatedAt": "2026-11-12T19:59:54.730Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-12T11:56:16.063Z",
+  "generatedAt": "2026-11-12T19:59:54.731Z",
   "collectorName": "local-source-collector"
 }
