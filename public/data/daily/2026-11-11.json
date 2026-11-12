@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name」、「US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name」、「US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a75f6065d73e593b1c4da820"
+                "local_ff53ca856a07c5c32b85c9c7"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c3343611711353333c70d4bb"
+                "local_82d208f40a59f0bd16858827"
               ],
               "confidence": 92
             },
@@ -86,26 +86,6 @@
                 "local_5726c082aedf9c63fe28b5a5"
               ],
               "confidence": 92
-            },
-            {
-              "title": "LO-World: Unified BEV Latent Modeling for Joint 4D Occupancy and LiDAR Forecasting",
-              "summary": "LiDAR point clouds and 3D semantic occupancy represent two distinct modalities capturing fine-grained metric geometry and dense volumetric semantics, respectively, holding natural potential for mutual complementarity. However, existing world models typically forecast these modal…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_4d03f2b6bf1c382d4feece3a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Prompt2Echo (P2Echo): Text-Prompted Multi-View Echocardiography Segmentation with One Model",
-              "summary": "Automated segmentation in multi-view echocardiography is essential for comprehensive cardiac assessment, yet remains challenging due to substantial anatomical and appearance variability across standard acoustic windows. In this paper, we present P2Echo, a unified framework capab…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_51947ee9b342903fc4d87811"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -121,16 +101,6 @@
                 "local_d24b6c42f3c7a216f93f7553"
               ],
               "confidence": 74
-            },
-            {
-              "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
-              "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_b306e79c0e1a0f970d77f474"
-              ],
-              "confidence": 92
             },
             {
               "title": "LLM Rankings",
@@ -161,6 +131,16 @@
                 "local_22d1c5757ea78d4c8a7a7e7d"
               ],
               "confidence": 78
+            },
+            {
+              "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton&#8217;s productive programming model. TLX introduces explicit warp-group and cluster-lev…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_cb814cc2dedd3fbac4a713d3"
+              ],
+              "confidence": 92
             }
           ]
         }
@@ -168,15 +148,11 @@
       "referencedFeedItemIds": [
         "local_2ef63f2d97ddb6e52194b63a",
         "local_5726c082aedf9c63fe28b5a5",
-        "local_a75f6065d73e593b1c4da820",
+        "local_ff53ca856a07c5c32b85c9c7",
         "local_74d0de4a810d8c35cf9b0411",
-        "local_c3343611711353333c70d4bb",
+        "local_82d208f40a59f0bd16858827",
         "local_c910f961293a5a5e24f2d540",
         "local_d24b6c42f3c7a216f93f7553",
-        "local_4d03f2b6bf1c382d4feece3a",
-        "local_b306e79c0e1a0f970d77f474",
-        "local_51947ee9b342903fc4d87811",
-        "local_b0abc7a307b716cf3bb4e246",
         "local_984ece2b190b02f33550410d",
         "local_aa8e43178ef648d56febb2e8",
         "local_e3b5e0023fde8987749972b6",
@@ -185,7 +161,7 @@
         "local_cb814cc2dedd3fbac4a713d3",
         "local_f2be667e2cd13b3a68d0f01c"
       ],
-      "generatedAt": "2026-11-12T03:28:27.454Z",
+      "generatedAt": "2026-11-12T11:56:16.007Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -219,7 +195,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_a75f6065d73e593b1c4da820"
+                "local_ff53ca856a07c5c32b85c9c7"
               ],
               "confidence": 92
             },
@@ -229,7 +205,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c3343611711353333c70d4bb"
+                "local_82d208f40a59f0bd16858827"
               ],
               "confidence": 92
             },
@@ -292,21 +268,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_a75f6065d73e593b1c4da820",
-        "local_c3343611711353333c70d4bb",
+        "local_ff53ca856a07c5c32b85c9c7",
+        "local_82d208f40a59f0bd16858827",
         "local_c910f961293a5a5e24f2d540",
         "local_d24b6c42f3c7a216f93f7553",
         "local_22d1c5757ea78d4c8a7a7e7d",
         "local_cb814cc2dedd3fbac4a713d3",
         "local_f2be667e2cd13b3a68d0f01c"
       ],
-      "generatedAt": "2026-11-12T03:28:27.454Z",
+      "generatedAt": "2026-11-12T11:56:16.007Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-12T03:28:27.455Z",
+  "generatedAt": "2026-11-12T11:56:16.007Z",
   "collectorName": "local-source-collector"
 }
