@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-10",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Agent Substrate: Advancing Kubernetes for Agents at Scale」、「Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Agent Substrate: Advancing Kubernetes for Agents at Scale」、「Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent Substrate: Advancing Kubernetes for Agents at Scale",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
       ],
       "watchItems": [
         "跟进：Agent Substrate: Advancing Kubernetes for Agents at Scale",
         "跟进：Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot",
-        "跟进：Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
-        "跟进：BioXArena-Pro: a research-grade benchmark for autonomous biomedical machine learning agents",
-        "跟进：Introducing AlphaProof Code: a breakthrough in verifying complex software at depth"
+        "跟进：Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+        "跟进：Helping caregivers use AI in everyday life",
+        "跟进：GPT-6凌晨上线智能UI:智能UI时代的技术架构重构与应对之道"
       ],
       "sections": [
         {
@@ -31,26 +31,6 @@
                 "local_33558f3e12519434a6e72dc4"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Coding Agent Memory Post-Training II: Unlocking the Memory Potential of Pre-trained File Operations for Long-Horizon Tasks via On-Policy Distillation",
-              "summary": "Language-model agents increasingly tackle long-horizon tasks whose interaction histories exceed the model's active context. They must therefore decide what to write down and what to read back, and when to do either. Recent work has begun to use on-policy distillation (OPD) to ma…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_8ce3c09833ca62c4bb6f4716"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "BioXArena-Pro: a research-grade benchmark for autonomous biomedical machine learning agents",
-              "summary": "Coding agents are increasingly proposed as autonomous builders of biomedical models, but existing benchmarks are small, near saturation or open to leaked information. We present BioXArena-Pro, 64 research-level modelling tasks from eight biomedical domains, each rebuilt from a p…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7d084cb4b7ca72025c77b8f8"
-              ],
-              "confidence": 92
             },
             {
               "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
@@ -71,6 +51,26 @@
                 "local_b688694b0c30cd40688c1a86"
               ],
               "confidence": 82
+            },
+            {
+              "title": "GPT-6凌晨上线智能UI:智能UI时代的技术架构重构与应对之道",
+              "summary": "与此同时,围绕Personal Agent(个人智能体)的路线之争也浮出... 独立开发者的试错成本大幅下降.第二波冲击(半年至两年):应...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d6cafb95e75b891be998e480"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI从Working、Coding到Oncall:腾讯视频如何让知识流动起来?",
+              "summary": "工程经验难以规模化复用当 AI 从少数人的效率工具进入真实研发... 落地更多AI Native业务工作流,形成规模化、可复用的个人->组织...",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_9b35500a2627b49a9d1e2fa2"
+              ],
+              "confidence": 78
             }
           ]
         },
@@ -113,17 +113,15 @@
       "referencedFeedItemIds": [
         "local_33558f3e12519434a6e72dc4",
         "local_4c2c7ba48a2f9719db184c6b",
-        "local_8ce3c09833ca62c4bb6f4716",
-        "local_7d084cb4b7ca72025c77b8f8",
         "local_21efc406181ce90ede30acea",
         "local_b688694b0c30cd40688c1a86",
-        "local_aec93abde6d068c9d439c5cb",
-        "local_33f85f1aee7d1c0449e2be39",
+        "local_d6cafb95e75b891be998e480",
+        "local_9b35500a2627b49a9d1e2fa2",
         "local_92aa3787f7d02cf9898d123b",
-        "local_f28d7210bc8cc96003c0c885",
+        "local_a01f1d3b328c16fcf42b82ae",
         "local_4f9d5aa2ed485493636129d0"
       ],
-      "generatedAt": "2026-11-13T01:10:28.816Z",
+      "generatedAt": "2026-11-13T08:01:30.199Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -187,7 +185,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aec93abde6d068c9d439c5cb"
+                "local_d6cafb95e75b891be998e480"
               ],
               "confidence": 92
             },
@@ -197,7 +195,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_33f85f1aee7d1c0449e2be39"
+                "local_9b35500a2627b49a9d1e2fa2"
               ],
               "confidence": 78
             }
@@ -244,19 +242,19 @@
         "local_4c2c7ba48a2f9719db184c6b",
         "local_21efc406181ce90ede30acea",
         "local_b688694b0c30cd40688c1a86",
-        "local_aec93abde6d068c9d439c5cb",
-        "local_33f85f1aee7d1c0449e2be39",
+        "local_d6cafb95e75b891be998e480",
+        "local_9b35500a2627b49a9d1e2fa2",
         "local_92aa3787f7d02cf9898d123b",
-        "local_f28d7210bc8cc96003c0c885",
+        "local_a01f1d3b328c16fcf42b82ae",
         "local_4f9d5aa2ed485493636129d0"
       ],
-      "generatedAt": "2026-11-13T01:10:28.816Z",
+      "generatedAt": "2026-11-13T08:01:30.199Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-13T01:10:28.816Z",
+  "generatedAt": "2026-11-13T08:01:30.199Z",
   "collectorName": "local-source-collector"
 }
