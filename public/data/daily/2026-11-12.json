@@ -5,50 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-11-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence」、「Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「研发Loop的上下文优化与多Agent协作实践」、「产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：研发Loop的上下文优化与多Agent协作实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：研发Loop的上下文优化与多Agent协作实践",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德星舰10X:如何连接Agent能力与业务交付"
       ],
       "watchItems": [
-        "跟进：ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
-        "跟进：Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
         "跟进：研发Loop的上下文优化与多Agent协作实践",
         "跟进：产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学",
-        "跟进：高德星舰10X:如何连接Agent能力与业务交付"
+        "跟进：高德星舰10X:如何连接Agent能力与业务交付",
+        "跟进：1688 用真实用户轨迹替 Agent 打分",
+        "跟进：Coding agent写测试集体失败!AI代码合格率被高估一倍"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "ElevenLabs Scribe v3 Live uses conversational context to stop voice agents from cutting off callers mid-sentence",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：ElevenLabs has released Scribe v3 and Scribe v3 Live, two new speech recognition models designed to transcribe accurately through background noise and crosstalk. Benchmarks from Artificial Analysis confirm that Scribe v…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_666ec2aa4a88d77f39c51d2c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Google Deepmind has unveiled AlphaGenome 2, an AI model that analyzes genetic variants for individual cell types rather than across bulk tissue. Trained on more than 107 million cell profiles, it identifies nearly twice…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dac9b69acef99d51b25848d9"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "研发Loop的上下文优化与多Agent协作实践",
               "summary": "GEEK TALK06实践:一段把研发工作流改造成多 Agent 工作流的提示词前面几节是结论.这一节把它变成可复用的一步:让 Agent 按...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0094fa3dda36ff481547c577"
+                "local_dd555b87c56946a8adeed35c"
               ],
               "confidence": 90
             },
@@ -58,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1dbcd7c9bce85e094b7a6a97"
+                "local_551921b0a978ffa89b0a1baa"
               ],
               "confidence": 92
             },
@@ -68,7 +48,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_579b5437171b8ea75217f842"
+                "local_cd307471907d38af0397455d"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "1688 用真实用户轨迹替 Agent 打分",
+              "summary": "Agent 聪明的,是用来决定它能不能上线的.演讲预告 + 讲师介绍... //h.datafuntalk.com/S2y3️ 票务咨询:电话 13311343487 · 邮箱 ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4021c473f45c818bec10ac8a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Coding agent写测试集体失败!AI代码合格率被高估一倍",
+              "summary": "新智元报道 Coding Agent写代码的能力越来越强,写测试的能力也在同步提升.从为函数补单元测试、为GitHub Issue编写复现用例,...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5575559bcbd87a095ef64dc4"
               ],
               "confidence": 92
             }
@@ -121,13 +121,11 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_666ec2aa4a88d77f39c51d2c",
-        "local_dac9b69acef99d51b25848d9",
-        "local_0094fa3dda36ff481547c577",
-        "local_1dbcd7c9bce85e094b7a6a97",
-        "local_579b5437171b8ea75217f842",
-        "local_3b6799ac231ff3b1613d324e",
-        "local_80f35565edc94bdab82aec05",
+        "local_dd555b87c56946a8adeed35c",
+        "local_551921b0a978ffa89b0a1baa",
+        "local_cd307471907d38af0397455d",
+        "local_4021c473f45c818bec10ac8a",
+        "local_5575559bcbd87a095ef64dc4",
         "local_050f30edcfd38a3eb5f1e5a1",
         "local_79988dff59a5a370afc804dd",
         "local_2879c9fac05a9613ec9a1871",
@@ -136,7 +134,7 @@
         "local_4427f1c565ce967024f655c4",
         "local_486ff16e2e1b2aec853fb3f6"
       ],
-      "generatedAt": "2026-11-13T08:01:30.173Z",
+      "generatedAt": "2026-11-13T16:22:50.793Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -170,7 +168,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0094fa3dda36ff481547c577"
+                "local_dd555b87c56946a8adeed35c"
               ],
               "confidence": 90
             },
@@ -180,7 +178,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1dbcd7c9bce85e094b7a6a97"
+                "local_551921b0a978ffa89b0a1baa"
               ],
               "confidence": 92
             },
@@ -190,7 +188,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_579b5437171b8ea75217f842"
+                "local_cd307471907d38af0397455d"
               ],
               "confidence": 92
             },
@@ -200,7 +198,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3b6799ac231ff3b1613d324e"
+                "local_4021c473f45c818bec10ac8a"
               ],
               "confidence": 92
             },
@@ -210,7 +208,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_80f35565edc94bdab82aec05"
+                "local_5575559bcbd87a095ef64dc4"
               ],
               "confidence": 92
             }
@@ -233,21 +231,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0094fa3dda36ff481547c577",
-        "local_1dbcd7c9bce85e094b7a6a97",
-        "local_579b5437171b8ea75217f842",
-        "local_3b6799ac231ff3b1613d324e",
-        "local_80f35565edc94bdab82aec05",
+        "local_dd555b87c56946a8adeed35c",
+        "local_551921b0a978ffa89b0a1baa",
+        "local_cd307471907d38af0397455d",
+        "local_4021c473f45c818bec10ac8a",
+        "local_5575559bcbd87a095ef64dc4",
         "local_4427f1c565ce967024f655c4",
         "local_486ff16e2e1b2aec853fb3f6"
       ],
-      "generatedAt": "2026-11-13T08:01:30.173Z",
+      "generatedAt": "2026-11-13T16:22:50.793Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-13T08:01:30.173Z",
+  "generatedAt": "2026-11-13T16:22:50.794Z",
   "collectorName": "local-source-collector"
 }
