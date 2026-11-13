@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 23 条 AI 技术信号，优先看 「Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails」、「Meta&#039;s Muse now calls businesses for you, but many companies might just hang up on the AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails」、「Meta&#039;s Muse now calls businesses for you, but many companies might just hang up on the AI」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Meta&#039;s Muse now calls businesses for you, but many companies might just hang up on the AI",
@@ -33,12 +33,12 @@
               "confidence": 82
             },
             {
-              "title": "A frontier machine intelligence for human neuroimaging",
-              "summary": "Medical imaging is essential for diagnosing disease, guiding treatment and monitoring patients over time. Although artificial intelligence has advanced image interpretation, existing medical models often address restricted tasks, while general-purpose proprietary models lack acc…",
+              "title": "The Value of Thinking: Learning When to Reason in Hybrid Decision Models",
+              "summary": "Existing adaptive-reasoning methods shorten the explicit reasoning a model writes, or skip it by switching modes; either way the answer is still written out token by token. Rather than deciding how much to think, we explore a different paradigm, zero-or-T thinking: a single mode…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d34101e36aa27168123634f1"
+                "local_aeb9936ea02c8f09d9db3c6d"
               ],
               "confidence": 92
             },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_052a6265b1ecb5b1116ad460"
+                "local_f9806b585d4cbcdb45d06fb2"
               ],
               "confidence": 92
             },
@@ -118,7 +118,37 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_bed6a26105c27f47de773761"
+                "local_e1f15a444d5d3cf19aa5b328"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
+              "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersecti…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_33489c38f3cee5afccff8c87"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
+              "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_255b8f81f84505cbae2604c1"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "The Narrative Gap: Can LLMs Help Us Navigate Diverse Narratives Across Languages?",
+              "summary": "Large language models (LLMs) increasingly mediate how people seek and consume information, including accounts that differ across languages and regions, especially on contested topics. Supporting diverse information seeking requires models to help users navigate competing narrati…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_8bba2d69828b62a6ee6ce2f1"
               ],
               "confidence": 92
             },
@@ -131,26 +161,6 @@
                 "local_302a315deb55c0ed8ac40f59"
               ],
               "confidence": 92
-            },
-            {
-              "title": "llm-gemini 0.37",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_40d01212ce1ff029a971928e"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI's safety team systematically investigated why the chains of thought in frontier models like GPT-6 Astra are increasingly evading oversight. Four training steps drive the erosion, including architecture choices an…",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_3b6fe8224038a4723488d140"
-              ],
-              "confidence": 78
             }
           ]
         }
@@ -159,28 +169,26 @@
         "local_099358eed2192d8cf32fdb62",
         "local_b27dc4bf3766fb863feb012b",
         "local_694704ab2fb5e0caf3c01c21",
-        "local_052a6265b1ecb5b1116ad460",
+        "local_f9806b585d4cbcdb45d06fb2",
         "local_f2d246b0cde9a1fa63e6eca4",
-        "local_bed6a26105c27f47de773761",
+        "local_e1f15a444d5d3cf19aa5b328",
         "local_044890975b0bf62c8f3b450f",
-        "local_d34101e36aa27168123634f1",
-        "local_2a7ee7fe99245a19a1080a45",
-        "local_b0ce8b449ccf6ce406466ff4",
-        "local_baefc05029ef4c518f108e0e",
+        "local_33489c38f3cee5afccff8c87",
+        "local_255b8f81f84505cbae2604c1",
+        "local_aeb9936ea02c8f09d9db3c6d",
+        "local_8bba2d69828b62a6ee6ce2f1",
         "local_302a315deb55c0ed8ac40f59",
         "local_40d01212ce1ff029a971928e",
         "local_7f298279b28803586f3dedc5",
-        "local_12c124cca697d7b998fd216c",
         "local_1c63b7515f9db73c0a880be4",
         "local_18bb4b6f529f24096f9f7a30",
         "local_81327102f6c7396d72024427",
         "local_9d52dc297115e905b3fb0f46",
         "local_ce3c2fe688d7d029a72d7663",
         "local_a30dc6891eac7ae8c3a25e19",
-        "local_9bc9032e2616d00fab4aaca6",
-        "local_3b6fe8224038a4723488d140"
+        "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-13T16:22:50.784Z",
+      "generatedAt": "2026-11-13T22:17:17.190Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -224,7 +232,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_052a6265b1ecb5b1116ad460"
+                "local_f9806b585d4cbcdb45d06fb2"
               ],
               "confidence": 92
             },
@@ -269,7 +277,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_bed6a26105c27f47de773761"
+                "local_e1f15a444d5d3cf19aa5b328"
               ],
               "confidence": 92
             }
@@ -293,22 +301,22 @@
       ],
       "referencedFeedItemIds": [
         "local_694704ab2fb5e0caf3c01c21",
-        "local_052a6265b1ecb5b1116ad460",
+        "local_f9806b585d4cbcdb45d06fb2",
         "local_f2d246b0cde9a1fa63e6eca4",
-        "local_bed6a26105c27f47de773761",
+        "local_e1f15a444d5d3cf19aa5b328",
         "local_044890975b0bf62c8f3b450f",
         "local_7f298279b28803586f3dedc5",
         "local_9d52dc297115e905b3fb0f46",
         "local_ce3c2fe688d7d029a72d7663",
         "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-13T16:22:50.784Z",
+      "generatedAt": "2026-11-13T22:17:17.191Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-13T16:22:50.784Z",
+  "generatedAt": "2026-11-13T22:17:17.191Z",
   "collectorName": "local-source-collector"
 }
