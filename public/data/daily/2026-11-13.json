@@ -5,45 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-11-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails」、「Introducing ChatGPT Wallet」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Introducing ChatGPT Wallet」、「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing ChatGPT Wallet",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题"
       ],
       "watchItems": [
-        "跟进：Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
         "跟进：Introducing ChatGPT Wallet",
         "跟进：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
         "跟进：期待和你们一起,用 AI 解决最值得的问题",
-        "跟进：AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍"
+        "跟进：AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍",
+        "跟进：Shield helps technicians hand off legacy portal work with OpenAI"
       ],
       "sections": [
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_099358eed2192d8cf32fdb62"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Scientists are using Google AI to help restore giant kelp forests.",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Underwater forests of giant kelp protect coastlines, provide habitat, and support marine ecosystems — but they’re disappearing worldwide due to ocean warming. As COP31 k…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9bc9032e2616d00fab4aaca6"
-              ],
-              "confidence": 74
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -63,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cd58e85e439501ff0bfd98e1"
+                "local_b9097b8c97650d4d976fd38e"
               ],
               "confidence": 92
             },
@@ -73,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cf30a5db832c217ddb468b81"
+                "local_792ab5f4ef1128849be75998"
               ],
               "confidence": 92
             },
@@ -108,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a4f34c80de36ded242f3f1ee"
+                "local_f62882a4368b3d8dcc0668e0"
               ],
               "confidence": 92
             },
@@ -153,14 +128,28 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "行业与公司",
+          "items": [
+            {
+              "title": "Scientists are using Google AI to help restore giant kelp forests.",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Underwater forests of giant kelp protect coastlines, provide habitat, and support marine ecosystems — but they’re disappearing worldwide due to ocean warming. As COP31 k…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_9bc9032e2616d00fab4aaca6"
+              ],
+              "confidence": 74
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_099358eed2192d8cf32fdb62",
         "local_694704ab2fb5e0caf3c01c21",
-        "local_cd58e85e439501ff0bfd98e1",
-        "local_cf30a5db832c217ddb468b81",
-        "local_a4f34c80de36ded242f3f1ee",
+        "local_b9097b8c97650d4d976fd38e",
+        "local_792ab5f4ef1128849be75998",
+        "local_f62882a4368b3d8dcc0668e0",
         "local_7f9a7df54238f1ad64e02fa6",
         "local_90c46b59fa4f532e17f67650",
         "local_2e85a6cd30b3765a24a18805",
@@ -179,7 +168,7 @@
         "local_a30dc6891eac7ae8c3a25e19",
         "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-14T16:52:03.398Z",
+      "generatedAt": "2026-11-14T21:33:19.657Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -223,7 +212,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cd58e85e439501ff0bfd98e1"
+                "local_b9097b8c97650d4d976fd38e"
               ],
               "confidence": 92
             },
@@ -233,7 +222,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cf30a5db832c217ddb468b81"
+                "local_792ab5f4ef1128849be75998"
               ],
               "confidence": 92
             },
@@ -268,7 +257,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_a4f34c80de36ded242f3f1ee"
+                "local_f62882a4368b3d8dcc0668e0"
               ],
               "confidence": 92
             }
@@ -292,9 +281,9 @@
       ],
       "referencedFeedItemIds": [
         "local_694704ab2fb5e0caf3c01c21",
-        "local_cd58e85e439501ff0bfd98e1",
-        "local_cf30a5db832c217ddb468b81",
-        "local_a4f34c80de36ded242f3f1ee",
+        "local_b9097b8c97650d4d976fd38e",
+        "local_792ab5f4ef1128849be75998",
+        "local_f62882a4368b3d8dcc0668e0",
         "local_7f9a7df54238f1ad64e02fa6",
         "local_90c46b59fa4f532e17f67650",
         "local_7f298279b28803586f3dedc5",
@@ -302,13 +291,13 @@
         "local_ce3c2fe688d7d029a72d7663",
         "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-14T16:52:03.398Z",
+      "generatedAt": "2026-11-14T21:33:19.657Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-14T16:52:03.399Z",
+  "generatedAt": "2026-11-14T21:33:19.658Z",
   "collectorName": "local-source-collector"
 }
