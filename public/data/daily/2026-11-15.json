@@ -5,72 +5,32 @@
       "topicId": "ai",
       "reportDate": "2026-11-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them」、「Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI examples: Real-world use cases across industries",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：What is Agentic AI? Definition, Examples, and How It Works",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents explained: What they are and how they work"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service"
       ],
       "watchItems": [
-        "跟进：Agentic AI examples: Real-world use cases across industries",
-        "跟进：What is Agentic AI? Definition, Examples, and How It Works",
-        "跟进：AI agents explained: What they are and how they work",
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：金句抢先看"
+        "跟进：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+        "跟进：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+        "跟进：Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
+        "跟进：Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+        "跟进：datasette-llm 0.1a11"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Agentic AI examples: Real-world use cases across industries",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI examples across health, finance, productivity, and more.",
+              "title": "Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtua…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_21d4831296f3fedecb9e4886"
+                "local_3ec012e23f39eed334cb13aa"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "What is Agentic AI? Definition, Examples, and How It Works",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What is agentic AI? Learn how autonomous AI agents work, how they differ from generative AI, and discover real examples of agentic AI in everyday life.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ddd6625bb1ca55fb4798f7de"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b97cc42982579e0915c752c5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7f0c33fa386249ffac75ad4c"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？_阿里巴巴_凌敏_InfoQ精选视频",
-              "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9c82372894ae99d56872135e"
-              ],
-              "confidence": 82
+              "confidence": 90
             }
           ]
         },
@@ -78,125 +38,61 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "title": "Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller C…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6339795d51dab46dcdb64763"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Putting Task Expertise into RL Achieves State-of-the-Art Performance on Text-to-SQL",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：An expert-verified training set and a reshaped reward let RLVR on Tinker train a single model past human-level text-to-SQL accuracy, at a fraction of frontier cost.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_1d9052b0fb66726923c2a462"
-              ],
-              "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d0194c30b75aa97c4cd24e1a"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for opti…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_87d45c62c66a15658d1c4fd5"
+                "local_48ecd8cf5cb013c0f6210255"
               ],
               "confidence": 82
             },
             {
-              "title": "AI Model Benchmarks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
+              "title": "Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15-…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_f2a865ec87001985aee3b84a"
-              ],
-              "confidence": 82
-            },
-            {
-              "title": "Learning to Replicate Expert Judgment in Financial Tasks",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：With expert-labeled data and fine-tuning on Tinker, a custom model outperforms frontier LLMs on financial information-filtering tasks at a fraction of the cost.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_4a494d30402d58ded8a6f85b"
+                "local_cb0da3915f09a6d96b65ad7e"
               ],
               "confidence": 74
-            },
-            {
-              "title": "Training LLMs to Predict World Events (Guest Post with Mantic)",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Mantic have been using Tinker since it launched. This guest post is a technical deep dive on what they have built so far. The top AI forecasting systems are approaching superforecaster-level accuracy on geopolitics and …",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_9e9cbab6f778fe76d2ffbb56"
-              ],
-              "confidence": 92
             }
           ]
         },
         {
-          "title": "产品与工具",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "From prompt to app: Build with Google Maps in AI Studio",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Developers can now build applications powered by Google Maps Platform directly within Google AI Studio by prompting Gemini with real-world geospatial concepts. The integration eliminates traditional configuration hurdle…",
+              "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5.…",
               "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba0605c8a550096aed542fa3"
+                "local_3b089cb10bd6dde349450a6a"
               ],
-              "confidence": 82
+              "confidence": 92
+            },
+            {
+              "title": "datasette-llm 0.1a11",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5e4632dc3866f62604c0532e"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_21d4831296f3fedecb9e4886",
-        "local_ddd6625bb1ca55fb4798f7de",
-        "local_b97cc42982579e0915c752c5",
-        "local_6339795d51dab46dcdb64763",
-        "local_7f0c33fa386249ffac75ad4c",
-        "local_9c82372894ae99d56872135e",
-        "local_c9bc5e38087ccfe8232d4771",
-        "local_b148d58f1efa16f7cf1c3cac",
-        "local_d0194c30b75aa97c4cd24e1a",
-        "local_734280d90e1f269c9f2da21c",
-        "local_894adc2fb9456adafb296dd5",
-        "local_87d45c62c66a15658d1c4fd5",
-        "local_ba0605c8a550096aed542fa3",
-        "local_6737cb1282b25b39076ce85e",
-        "local_39dad4486d3a6c7d7dbac2f9",
-        "local_e818be3ca68ecf37023f6789",
-        "local_f151dcbb8752a082d0917876",
-        "local_45e19d574e3be7a4e0ee249e",
-        "local_ae36d9121e00d281d9b1e4d1",
-        "local_f2a865ec87001985aee3b84a",
-        "local_1d9052b0fb66726923c2a462",
-        "local_4a494d30402d58ded8a6f85b",
-        "local_9e9cbab6f778fe76d2ffbb56",
-        "local_68adf64cedec15e1b313213d"
+        "local_3ec012e23f39eed334cb13aa",
+        "local_48ecd8cf5cb013c0f6210255",
+        "local_cb0da3915f09a6d96b65ad7e",
+        "local_3b089cb10bd6dde349450a6a",
+        "local_5e4632dc3866f62604c0532e"
       ],
-      "generatedAt": "2026-11-15T16:00:13.170Z",
+      "generatedAt": "2026-11-15T21:08:29.242Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -207,72 +103,32 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-15",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Agentic AI examples: Real-world use cases across industries」、「What is Agentic AI? Definition, Examples, and How It Works」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them」、「Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agentic AI examples: Real-world use cases across industries",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：What is Agentic AI? Definition, Examples, and How It Works",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI agents explained: What they are and how they work"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service"
       ],
       "watchItems": [
-        "跟进：Agentic AI examples: Real-world use cases across industries",
-        "跟进：What is Agentic AI? Definition, Examples, and How It Works",
-        "跟进：AI agents explained: What they are and how they work",
-        "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：金句抢先看"
+        "跟进：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+        "跟进：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+        "跟进：Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
+        "跟进：Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+        "跟进：datasette-llm 0.1a11"
       ],
       "sections": [
         {
-          "title": "Agent 与研发提效",
+          "title": "模型与基础设施",
           "items": [
             {
-              "title": "Agentic AI examples: Real-world use cases across industries",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Agentic AI examples across health, finance, productivity, and more.",
+              "title": "Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtua…",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_21d4831296f3fedecb9e4886"
+                "local_3ec012e23f39eed334cb13aa"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "What is Agentic AI? Definition, Examples, and How It Works",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：What is agentic AI? Learn how autonomous AI agents work, how they differ from generative AI, and discover real examples of agentic AI in everyday life.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ddd6625bb1ca55fb4798f7de"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI agents explained: What they are and how they work",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：AI agents explained: A beginner-friendly guide to what AI agents are, how they work, their key types, benefits, and real-world use cases.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b97cc42982579e0915c752c5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "金句抢先看",
-              "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7f0c33fa386249ffac75ad4c"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？_阿里巴巴_凌敏_InfoQ精选视频",
-              "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_9c82372894ae99d56872135e"
-              ],
-              "confidence": 82
+              "confidence": 90
             }
           ]
         },
@@ -280,108 +136,67 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：In the heart of Pittsburgh, a quiet revolution is underway — one that promises to redefine what independence means for people with disabilities. At the center of this movement is the Human Engineering Research Laborator…",
+              "title": "Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller C…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_6339795d51dab46dcdb64763"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Seed News - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：EdgeBench: Measuring Real-World Environment Learning and Discovering a New Scaling Law",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_e6f8c11e13bb8a9871b2d816"
-              ],
-              "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Moonshot AI - 博客",
-              "summary": "Moonshot AI 大模型开放平台，提供基于 Moonshot AI 大模型的长文本数据处理 API，开放平台支持灵活的 API 调用，带来领先的技术体验。",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_d0194c30b75aa97c4cd24e1a"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google AI Edge Gallery now supports on-device, offline Automatic Speech Recognition (ASR) and Text-to-Speech (TTS) capabilities for building developer-friendly voice applications. Developers can leverage ML Kit for opti…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_87d45c62c66a15658d1c4fd5"
+                "local_48ecd8cf5cb013c0f6210255"
               ],
               "confidence": 82
             },
             {
-              "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
+              "title": "Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15-…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1eccb008e3273f741052a4a2"
+                "local_cb0da3915f09a6d96b65ad7e"
+              ],
+              "confidence": 74
+            }
+          ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5.…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3b089cb10bd6dde349450a6a"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
+            },
             {
-              "title": "From prompt to app: Build with Google Maps in AI Studio",
-              "summary": "这篇内容聚焦「AI 工具、开发者平台和工程提效」。原文摘要显示：Developers can now build applications powered by Google Maps Platform directly within Google AI Studio by prompting Gemini with real-world geospatial concepts. The integration eliminates traditional configuration hurdle…",
+              "title": "datasette-llm 0.1a11",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you…",
               "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ba0605c8a550096aed542fa3"
+                "local_5e4632dc3866f62604c0532e"
               ],
-              "confidence": 82
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_21d4831296f3fedecb9e4886",
-        "local_ddd6625bb1ca55fb4798f7de",
-        "local_b97cc42982579e0915c752c5",
-        "local_6339795d51dab46dcdb64763",
-        "local_7f0c33fa386249ffac75ad4c",
-        "local_9c82372894ae99d56872135e",
-        "local_c9bc5e38087ccfe8232d4771",
-        "local_b148d58f1efa16f7cf1c3cac",
-        "local_d0194c30b75aa97c4cd24e1a",
-        "local_734280d90e1f269c9f2da21c",
-        "local_894adc2fb9456adafb296dd5",
-        "local_87d45c62c66a15658d1c4fd5",
-        "local_ba0605c8a550096aed542fa3",
-        "local_6737cb1282b25b39076ce85e",
-        "local_39dad4486d3a6c7d7dbac2f9",
-        "local_1eccb008e3273f741052a4a2",
-        "local_f887b219c433a5a49e032707",
-        "local_e6f8c11e13bb8a9871b2d816",
-        "local_41862e412aead0a84931d05e",
-        "local_5cc1dcc46a3dd30f44dbc414",
-        "local_90367e78d87510330498d9f0"
+        "local_3ec012e23f39eed334cb13aa",
+        "local_48ecd8cf5cb013c0f6210255",
+        "local_cb0da3915f09a6d96b65ad7e",
+        "local_3b089cb10bd6dde349450a6a",
+        "local_5e4632dc3866f62604c0532e"
       ],
-      "generatedAt": "2026-11-15T16:00:13.170Z",
+      "generatedAt": "2026-11-15T21:08:29.242Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-15T16:00:13.170Z",
+  "generatedAt": "2026-11-15T21:08:29.242Z",
   "collectorName": "local-source-collector"
 }
