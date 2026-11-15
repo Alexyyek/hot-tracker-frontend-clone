@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 21 条 AI 技术信号，优先看 「Introducing ChatGPT Wallet」、「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Introducing ChatGPT Wallet」、「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing ChatGPT Wallet",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b9097b8c97650d4d976fd38e"
+                "local_24ae5f4d252240888bf95e9a"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_792ab5f4ef1128849be75998"
+                "local_69157ba66bbaeb63d93103a9"
               ],
               "confidence": 92
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_90c46b59fa4f532e17f67650"
+                "local_30e4fd50ecb34bdede14bd43"
               ],
               "confidence": 90
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f62882a4368b3d8dcc0668e0"
+                "local_13a511825449826f06616feb"
               ],
               "confidence": 92
             },
@@ -108,22 +108,22 @@
               "confidence": 92
             },
             {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_15a4ebf703e777ed194d6eb5"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When a RAG (Retrieval-Augmented Generation) app gives wrong answers even though the right information is in your documents, retrieval is often the cause.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_302a315deb55c0ed8ac40f59"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "llm-gemini 0.37",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_40d01212ce1ff029a971928e"
               ],
               "confidence": 92
             }
@@ -147,16 +147,15 @@
       ],
       "referencedFeedItemIds": [
         "local_694704ab2fb5e0caf3c01c21",
-        "local_b9097b8c97650d4d976fd38e",
-        "local_792ab5f4ef1128849be75998",
-        "local_f62882a4368b3d8dcc0668e0",
+        "local_24ae5f4d252240888bf95e9a",
+        "local_69157ba66bbaeb63d93103a9",
+        "local_13a511825449826f06616feb",
         "local_7f9a7df54238f1ad64e02fa6",
-        "local_90c46b59fa4f532e17f67650",
+        "local_30e4fd50ecb34bdede14bd43",
         "local_2e85a6cd30b3765a24a18805",
         "local_afecbc7847bee31afecfee3b",
         "local_33489c38f3cee5afccff8c87",
         "local_255b8f81f84505cbae2604c1",
-        "local_15a4ebf703e777ed194d6eb5",
         "local_302a315deb55c0ed8ac40f59",
         "local_40d01212ce1ff029a971928e",
         "local_7f298279b28803586f3dedc5",
@@ -168,7 +167,7 @@
         "local_a30dc6891eac7ae8c3a25e19",
         "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-14T21:33:19.657Z",
+      "generatedAt": "2026-11-15T01:25:37.953Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -212,7 +211,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b9097b8c97650d4d976fd38e"
+                "local_24ae5f4d252240888bf95e9a"
               ],
               "confidence": 92
             },
@@ -222,7 +221,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_792ab5f4ef1128849be75998"
+                "local_69157ba66bbaeb63d93103a9"
               ],
               "confidence": 92
             },
@@ -242,7 +241,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_90c46b59fa4f532e17f67650"
+                "local_30e4fd50ecb34bdede14bd43"
               ],
               "confidence": 90
             }
@@ -257,7 +256,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f62882a4368b3d8dcc0668e0"
+                "local_13a511825449826f06616feb"
               ],
               "confidence": 92
             }
@@ -281,23 +280,23 @@
       ],
       "referencedFeedItemIds": [
         "local_694704ab2fb5e0caf3c01c21",
-        "local_b9097b8c97650d4d976fd38e",
-        "local_792ab5f4ef1128849be75998",
-        "local_f62882a4368b3d8dcc0668e0",
+        "local_24ae5f4d252240888bf95e9a",
+        "local_69157ba66bbaeb63d93103a9",
+        "local_13a511825449826f06616feb",
         "local_7f9a7df54238f1ad64e02fa6",
-        "local_90c46b59fa4f532e17f67650",
+        "local_30e4fd50ecb34bdede14bd43",
         "local_7f298279b28803586f3dedc5",
         "local_9d52dc297115e905b3fb0f46",
         "local_ce3c2fe688d7d029a72d7663",
         "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-14T21:33:19.657Z",
+      "generatedAt": "2026-11-15T01:25:37.953Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-14T21:33:19.658Z",
+  "generatedAt": "2026-11-15T01:25:37.954Z",
   "collectorName": "local-source-collector"
 }
