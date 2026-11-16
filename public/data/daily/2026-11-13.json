@@ -5,23 +5,33 @@
       "topicId": "ai",
       "reportDate": "2026-11-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Introducing ChatGPT Wallet」、「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review」、「Introducing ChatGPT Wallet」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing ChatGPT Wallet",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里"
       ],
       "watchItems": [
+        "跟进：PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
         "跟进：Introducing ChatGPT Wallet",
         "跟进：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
         "跟进：期待和你们一起,用 AI 解决最值得的问题",
-        "跟进：AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍",
-        "跟进：Shield helps technicians hand off legacy portal work with OpenAI"
+        "跟进：AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+              "summary": "Coding agents increasingly review code, yet whether they catch the privacy defects that laws such as the GDPR require software to avoid remains largely untested, partly because few datasets connect real privacy defects to their accepted fixes and review context. We present Priva…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0e1dcb64299f3e757dc0c162"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Introducing ChatGPT Wallet",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
@@ -38,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_35de9ef65eb930b973b3bd21"
+                "local_213e0e96738fbb3c13c0bfb3"
               ],
               "confidence": 92
             },
@@ -48,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b3b8515cd84011a52e21bdb4"
+                "local_7052b9d872a4869e1e962a1c"
               ],
               "confidence": 92
             },
@@ -61,16 +71,6 @@
                 "local_7f9a7df54238f1ad64e02fa6"
               ],
               "confidence": 86
-            },
-            {
-              "title": "智能互动 Agent 在快手商业场景的落地实践",
-              "summary": "以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 商业 Agent 落地背景与挑战今天分享的核心问题很朴素:在一个真实的商...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_31ccefcb2c40fe52e01d50d1"
-              ],
-              "confidence": 90
             }
           ]
         },
@@ -83,27 +83,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f744656e50cf5a2ffcac4089"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Consensus Capture in Reference-Based UAV Video Stabilization: A Benchmark on Dynamic Urban Scenes",
-              "summary": "Reference-frame stabilization registers every frame of a hovering-drone video onto one reference frame, keeping object positions comparable. The registration pipelines it relies on are selected on feature-matching benchmarks in which only the camera moves. Over a busy intersecti…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_33489c38f3cee5afccff8c87"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "TurtLES: A Large-Scale Benchmark for Turbulent 3D Neural PDE Surrogates",
-              "summary": "Machine-learning surrogates are increasingly used to accelerate computational fluid dynamics, yet progress is limited by the lack of benchmarks capturing realistic, time-dependent turbulent flows. We introduce TurtLES, a 14 TB dataset of 3D turbulent cylinder wakes in the shear-…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_255b8f81f84505cbae2604c1"
+                "local_1175d917b5ce02b972cb3568"
               ],
               "confidence": 92
             },
@@ -114,16 +94,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_302a315deb55c0ed8ac40f59"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "llm-gemini 0.37",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_40d01212ce1ff029a971928e"
               ],
               "confidence": 92
             }
@@ -146,28 +116,20 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_0e1dcb64299f3e757dc0c162",
         "local_694704ab2fb5e0caf3c01c21",
-        "local_35de9ef65eb930b973b3bd21",
-        "local_b3b8515cd84011a52e21bdb4",
-        "local_f744656e50cf5a2ffcac4089",
+        "local_213e0e96738fbb3c13c0bfb3",
+        "local_7052b9d872a4869e1e962a1c",
+        "local_1175d917b5ce02b972cb3568",
         "local_7f9a7df54238f1ad64e02fa6",
         "local_31ccefcb2c40fe52e01d50d1",
-        "local_2e85a6cd30b3765a24a18805",
-        "local_afecbc7847bee31afecfee3b",
-        "local_33489c38f3cee5afccff8c87",
-        "local_255b8f81f84505cbae2604c1",
         "local_302a315deb55c0ed8ac40f59",
-        "local_40d01212ce1ff029a971928e",
         "local_7f298279b28803586f3dedc5",
-        "local_1c63b7515f9db73c0a880be4",
-        "local_18bb4b6f529f24096f9f7a30",
-        "local_81327102f6c7396d72024427",
         "local_9d52dc297115e905b3fb0f46",
         "local_ce3c2fe688d7d029a72d7663",
-        "local_a30dc6891eac7ae8c3a25e19",
         "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-16T01:07:09.693Z",
+      "generatedAt": "2026-11-16T08:03:36.425Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -211,7 +173,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_35de9ef65eb930b973b3bd21"
+                "local_213e0e96738fbb3c13c0bfb3"
               ],
               "confidence": 92
             },
@@ -221,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b3b8515cd84011a52e21bdb4"
+                "local_7052b9d872a4869e1e962a1c"
               ],
               "confidence": 92
             },
@@ -256,7 +218,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f744656e50cf5a2ffcac4089"
+                "local_1175d917b5ce02b972cb3568"
               ],
               "confidence": 92
             }
@@ -280,9 +242,9 @@
       ],
       "referencedFeedItemIds": [
         "local_694704ab2fb5e0caf3c01c21",
-        "local_35de9ef65eb930b973b3bd21",
-        "local_b3b8515cd84011a52e21bdb4",
-        "local_f744656e50cf5a2ffcac4089",
+        "local_213e0e96738fbb3c13c0bfb3",
+        "local_7052b9d872a4869e1e962a1c",
+        "local_1175d917b5ce02b972cb3568",
         "local_7f9a7df54238f1ad64e02fa6",
         "local_31ccefcb2c40fe52e01d50d1",
         "local_7f298279b28803586f3dedc5",
@@ -290,13 +252,13 @@
         "local_ce3c2fe688d7d029a72d7663",
         "local_9bc9032e2616d00fab4aaca6"
       ],
-      "generatedAt": "2026-11-16T01:07:09.693Z",
+      "generatedAt": "2026-11-16T08:03:36.425Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-16T01:07:09.694Z",
+  "generatedAt": "2026-11-16T08:03:36.425Z",
   "collectorName": "local-source-collector"
 }
