@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review」、「Introducing ChatGPT Wallet」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review」、「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing ChatGPT Wallet",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题"
       ],
       "watchItems": [
         "跟进：PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
-        "跟进：Introducing ChatGPT Wallet",
         "跟进：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
         "跟进：期待和你们一起,用 AI 解决最值得的问题",
-        "跟进：AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍"
+        "跟进：智能互动 Agent 在快手商业场景的落地实践",
+        "跟进：Reranking in RAG: How to Fix Bad Retrieval with a Reranker"
       ],
       "sections": [
         {
@@ -33,22 +33,12 @@
               "confidence": 92
             },
             {
-              "title": "Introducing ChatGPT Wallet",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_694704ab2fb5e0caf3c01c21"
-              ],
-              "confidence": 74
-            },
-            {
               "title": "直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
               "summary": "PaperWeekly * 星弧 STARC 科研觉醒AI前沿讲座 直播主题 智能体走向真实世界的最后一公里 直播嘉宾 金海波伊利诺伊大学厄巴纳&ndash;香...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_213e0e96738fbb3c13c0bfb3"
+                "local_de10bbeb20c1f1874ec75913"
               ],
               "confidence": 92
             },
@@ -63,30 +53,30 @@
               "confidence": 92
             },
             {
-              "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+              "title": "智能互动 Agent 在快手商业场景的落地实践",
+              "summary": "以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 商业 Agent 落地背景与挑战今天分享的核心问题很朴素:在一个真实的商...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7f9a7df54238f1ad64e02fa6"
+                "local_31ccefcb2c40fe52e01d50d1"
               ],
-              "confidence": 86
+              "confidence": 90
+            },
+            {
+              "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9d52dc297115e905b3fb0f46"
+              ],
+              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍",
-              "summary": "Kimi、京东云等国内主流大模型品牌,消费者无需跨多个平台跳转,即可一站式完成模型选型、Token 充值、AI 会员开通,实现硬件与...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_1175d917b5ce02b972cb3568"
-              ],
-              "confidence": 92
-            },
             {
               "title": "Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When a RAG (Retrieval-Augmented Generation) app gives wrong answers even though the right information is in your documents, retrieval is often the cause.",
@@ -98,38 +88,18 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Scientists are using Google AI to help restore giant kelp forests.",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Underwater forests of giant kelp protect coastlines, provide habitat, and support marine ecosystems — but they’re disappearing worldwide due to ocean warming. As COP31 k…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_9bc9032e2616d00fab4aaca6"
-              ],
-              "confidence": 74
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_0e1dcb64299f3e757dc0c162",
-        "local_694704ab2fb5e0caf3c01c21",
-        "local_213e0e96738fbb3c13c0bfb3",
+        "local_de10bbeb20c1f1874ec75913",
         "local_7052b9d872a4869e1e962a1c",
-        "local_1175d917b5ce02b972cb3568",
-        "local_7f9a7df54238f1ad64e02fa6",
         "local_31ccefcb2c40fe52e01d50d1",
         "local_302a315deb55c0ed8ac40f59",
-        "local_7f298279b28803586f3dedc5",
         "local_9d52dc297115e905b3fb0f46",
-        "local_ce3c2fe688d7d029a72d7663",
-        "local_9bc9032e2616d00fab4aaca6"
+        "local_ce3c2fe688d7d029a72d7663"
       ],
-      "generatedAt": "2026-11-16T08:03:36.425Z",
+      "generatedAt": "2026-11-16T18:33:03.211Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -140,40 +110,30 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-13",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Introducing ChatGPT Wallet」、「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」、「期待和你们一起,用 AI 解决最值得的问题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Introducing ChatGPT Wallet",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：智能互动 Agent 在快手商业场景的落地实践"
       ],
       "watchItems": [
-        "跟进：Introducing ChatGPT Wallet",
         "跟进：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
         "跟进：期待和你们一起,用 AI 解决最值得的问题",
-        "跟进：AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍",
-        "跟进：Shield helps technicians hand off legacy portal work with OpenAI"
+        "跟进：智能互动 Agent 在快手商业场景的落地实践",
+        "跟进：Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+        "跟进：Introducing Gemini 4 Hydrogen"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Introducing ChatGPT Wallet",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_694704ab2fb5e0caf3c01c21"
-              ],
-              "confidence": 74
-            },
-            {
               "title": "直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
               "summary": "PaperWeekly * 星弧 STARC 科研觉醒AI前沿讲座 直播主题 智能体走向真实世界的最后一公里 直播嘉宾 金海波伊利诺伊大学厄巴纳&ndash;香...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_213e0e96738fbb3c13c0bfb3"
+                "local_de10bbeb20c1f1874ec75913"
               ],
               "confidence": 92
             },
@@ -188,16 +148,6 @@
               "confidence": 92
             },
             {
-              "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_7f9a7df54238f1ad64e02fa6"
-              ],
-              "confidence": 86
-            },
-            {
               "title": "智能互动 Agent 在快手商业场景的落地实践",
               "summary": "以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 商业 Agent 落地背景与挑战今天分享的核心问题很朴素:在一个真实的商...",
               "insightLabel": "关注",
@@ -206,59 +156,44 @@
                 "local_31ccefcb2c40fe52e01d50d1"
               ],
               "confidence": 90
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
+            },
             {
-              "title": "AI硬件、Token充值一站式搞定 京东11.11大模型Token包销量环比增长超10倍",
-              "summary": "Kimi、京东云等国内主流大模型品牌,消费者无需跨多个平台跳转,即可一站式完成模型选型、Token 充值、AI 会员开通,实现硬件与...",
+              "title": "Gemini 4 Hydrogen: everyday coding and agentic workflows for developers",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_1175d917b5ce02b972cb3568"
+                "local_9d52dc297115e905b3fb0f46"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
+            },
             {
-              "title": "Scientists are using Google AI to help restore giant kelp forests.",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Underwater forests of giant kelp protect coastlines, provide habitat, and support marine ecosystems — but they’re disappearing worldwide due to ocean warming. As COP31 k…",
+              "title": "Introducing Gemini 4 Hydrogen",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9bc9032e2616d00fab4aaca6"
+                "local_ce3c2fe688d7d029a72d7663"
               ],
-              "confidence": 74
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_694704ab2fb5e0caf3c01c21",
-        "local_213e0e96738fbb3c13c0bfb3",
+        "local_de10bbeb20c1f1874ec75913",
         "local_7052b9d872a4869e1e962a1c",
-        "local_1175d917b5ce02b972cb3568",
-        "local_7f9a7df54238f1ad64e02fa6",
         "local_31ccefcb2c40fe52e01d50d1",
-        "local_7f298279b28803586f3dedc5",
         "local_9d52dc297115e905b3fb0f46",
-        "local_ce3c2fe688d7d029a72d7663",
-        "local_9bc9032e2616d00fab4aaca6"
+        "local_ce3c2fe688d7d029a72d7663"
       ],
-      "generatedAt": "2026-11-16T08:03:36.425Z",
+      "generatedAt": "2026-11-16T18:33:03.211Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-16T08:03:36.425Z",
+  "generatedAt": "2026-11-16T18:33:03.211Z",
   "collectorName": "local-source-collector"
 }

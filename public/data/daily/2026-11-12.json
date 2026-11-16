@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-12",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「研发Loop的上下文优化与多Agent协作实践」、「产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「研发Loop的上下文优化与多Agent协作实践」、「产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：研发Loop的上下文优化与多Agent协作实践",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德星舰10X:如何连接Agent能力与业务交付"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：星舰Cloud Agent:一项研发任务如何在云端运行"
       ],
       "watchItems": [
         "跟进：研发Loop的上下文优化与多Agent协作实践",
         "跟进：产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学",
+        "跟进：星舰Cloud Agent:一项研发任务如何在云端运行",
         "跟进：高德星舰10X:如何连接Agent能力与业务交付",
-        "跟进：1688 用真实用户轨迹替 Agent 打分",
-        "跟进：Coding agent写测试集体失败!AI代码合格率被高估一倍"
+        "跟进：1688 用真实用户轨迹替 Agent 打分"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f317b2212fcfcd21566801e2"
+                "local_8d9ef2bd8b503d82d7ae0e80"
               ],
               "confidence": 90
             },
@@ -38,17 +38,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bcaf372ab8eadf39d5c5df95"
+                "local_eccc40b2b61a398f4b55c952"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "星舰Cloud Agent:一项研发任务如何在云端运行",
+              "summary": "往期推荐AI Coding之后:搜广推团队的研发工程化探索#高德 #高德技术 #AI Native #星舰Cloud Agent #云端执行END",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d0c48f7d3a4aba027b5425ca"
               ],
               "confidence": 92
             },
             {
               "title": "高德星舰10X:如何连接Agent能力与业务交付",
-              "summary": "Agent就能搭起页面、补上逻辑、运行测试,再根据反馈不断修改... 搜广推团队的研发工程化探索#高德 #高德技术 #AI Native #星舰10...",
+              "summary": "往期推荐AI Coding之后:搜广推团队的研发工程化探索#高德 #高德技术 #AI Native #星舰10X #知识工程END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_acfaa31a8651943e097c8c2e"
+                "local_b6ecb14f10ffa41898982cfc"
               ],
               "confidence": 92
             },
@@ -58,17 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_909008dc9049efa76159a416"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Coding agent写测试集体失败!AI代码合格率被高估一倍",
-              "summary": "新智元报道 Coding Agent写代码的能力越来越强,写测试的能力也在同步提升.从为函数补单元测试、为GitHub Issue编写复现用例,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5afac4f2360704e9625ac4af"
+                "local_fa5004555a062e337058120b"
               ],
               "confidence": 92
             }
@@ -91,16 +91,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f317b2212fcfcd21566801e2",
-        "local_bcaf372ab8eadf39d5c5df95",
-        "local_acfaa31a8651943e097c8c2e",
-        "local_909008dc9049efa76159a416",
-        "local_5afac4f2360704e9625ac4af",
-        "local_79988dff59a5a370afc804dd",
-        "local_4427f1c565ce967024f655c4",
-        "local_486ff16e2e1b2aec853fb3f6"
+        "local_8d9ef2bd8b503d82d7ae0e80",
+        "local_eccc40b2b61a398f4b55c952",
+        "local_d0c48f7d3a4aba027b5425ca",
+        "local_b6ecb14f10ffa41898982cfc",
+        "local_fa5004555a062e337058120b",
+        "local_0c6f05fb54cde6fd48b5e37e",
+        "local_4427f1c565ce967024f655c4"
       ],
-      "generatedAt": "2026-11-16T08:03:36.435Z",
+      "generatedAt": "2026-11-16T18:33:03.218Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -115,14 +114,14 @@
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：研发Loop的上下文优化与多Agent协作实践",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德星舰10X:如何连接Agent能力与业务交付"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：星舰Cloud Agent:一项研发任务如何在云端运行"
       ],
       "watchItems": [
         "跟进：研发Loop的上下文优化与多Agent协作实践",
         "跟进：产教融合赋能 AI 人才培养|华为云码道公开课落地北京邮电大学",
+        "跟进：星舰Cloud Agent:一项研发任务如何在云端运行",
         "跟进：高德星舰10X:如何连接Agent能力与业务交付",
-        "跟进：1688 用真实用户轨迹替 Agent 打分",
-        "跟进：Coding agent写测试集体失败!AI代码合格率被高估一倍"
+        "跟进：1688 用真实用户轨迹替 Agent 打分"
       ],
       "sections": [
         {
@@ -134,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f317b2212fcfcd21566801e2"
+                "local_8d9ef2bd8b503d82d7ae0e80"
               ],
               "confidence": 90
             },
@@ -144,17 +143,27 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_bcaf372ab8eadf39d5c5df95"
+                "local_eccc40b2b61a398f4b55c952"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "星舰Cloud Agent:一项研发任务如何在云端运行",
+              "summary": "往期推荐AI Coding之后:搜广推团队的研发工程化探索#高德 #高德技术 #AI Native #星舰Cloud Agent #云端执行END",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d0c48f7d3a4aba027b5425ca"
               ],
               "confidence": 92
             },
             {
               "title": "高德星舰10X:如何连接Agent能力与业务交付",
-              "summary": "Agent就能搭起页面、补上逻辑、运行测试,再根据反馈不断修改... 搜广推团队的研发工程化探索#高德 #高德技术 #AI Native #星舰10...",
+              "summary": "往期推荐AI Coding之后:搜广推团队的研发工程化探索#高德 #高德技术 #AI Native #星舰10X #知识工程END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_acfaa31a8651943e097c8c2e"
+                "local_b6ecb14f10ffa41898982cfc"
               ],
               "confidence": 92
             },
@@ -164,17 +173,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_909008dc9049efa76159a416"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Coding agent写测试集体失败!AI代码合格率被高估一倍",
-              "summary": "新智元报道 Coding Agent写代码的能力越来越强,写测试的能力也在同步提升.从为函数补单元测试、为GitHub Issue编写复现用例,...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5afac4f2360704e9625ac4af"
+                "local_fa5004555a062e337058120b"
               ],
               "confidence": 92
             }
@@ -197,21 +196,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f317b2212fcfcd21566801e2",
-        "local_bcaf372ab8eadf39d5c5df95",
-        "local_acfaa31a8651943e097c8c2e",
-        "local_909008dc9049efa76159a416",
-        "local_5afac4f2360704e9625ac4af",
-        "local_4427f1c565ce967024f655c4",
-        "local_486ff16e2e1b2aec853fb3f6"
+        "local_8d9ef2bd8b503d82d7ae0e80",
+        "local_eccc40b2b61a398f4b55c952",
+        "local_d0c48f7d3a4aba027b5425ca",
+        "local_b6ecb14f10ffa41898982cfc",
+        "local_fa5004555a062e337058120b",
+        "local_0c6f05fb54cde6fd48b5e37e",
+        "local_4427f1c565ce967024f655c4"
       ],
-      "generatedAt": "2026-11-16T08:03:36.436Z",
+      "generatedAt": "2026-11-16T18:33:03.218Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-16T08:03:36.436Z",
+  "generatedAt": "2026-11-16T18:33:03.218Z",
   "collectorName": "local-source-collector"
 }

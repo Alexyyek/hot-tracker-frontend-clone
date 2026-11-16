@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-15",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them」、「Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them」、「Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
@@ -15,8 +15,8 @@
         "跟进：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
         "跟进：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
         "跟进：Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
-        "跟进：Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-        "跟进：datasette-apps 0.4a0"
+        "跟进：datasette-apps 0.4a0",
+        "跟进：datasette-agent 0.6a0"
       ],
       "sections": [
         {
@@ -73,16 +73,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5.…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3b089cb10bd6dde349450a6a"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "datasette-apps 0.4a0",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support f…",
               "insightLabel": "关注",
@@ -119,13 +109,12 @@
         "local_3ec012e23f39eed334cb13aa",
         "local_48ecd8cf5cb013c0f6210255",
         "local_cb0da3915f09a6d96b65ad7e",
-        "local_3b089cb10bd6dde349450a6a",
         "local_d839cbd742bb079861c4318f",
         "local_fd1a0ec76b7d2c510ad333fe",
         "local_4958a0ac4ffc1ccdf8d44fa1",
         "local_5e4632dc3866f62604c0532e"
       ],
-      "generatedAt": "2026-11-16T08:03:36.402Z",
+      "generatedAt": "2026-11-16T18:33:03.197Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -136,7 +125,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-15",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them」、「Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them」、「Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
@@ -146,8 +135,8 @@
         "跟进：Anthropic&#039;s Claude Fable 5.2 doesn&#039;t generate images, it paints them",
         "跟进：Firm linked to Jensen Huang&#039;s ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
         "跟进：Australia&#039;s central bank finds AI hitting young workers first, especially in software and customer service",
-        "跟进：Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-        "跟进：datasette-apps 0.4a0"
+        "跟进：datasette-apps 0.4a0",
+        "跟进：datasette-agent 0.6a0"
       ],
       "sections": [
         {
@@ -204,16 +193,6 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5.…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_3b089cb10bd6dde349450a6a"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "datasette-apps 0.4a0",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support f…",
               "insightLabel": "关注",
@@ -250,19 +229,18 @@
         "local_3ec012e23f39eed334cb13aa",
         "local_48ecd8cf5cb013c0f6210255",
         "local_cb0da3915f09a6d96b65ad7e",
-        "local_3b089cb10bd6dde349450a6a",
         "local_d839cbd742bb079861c4318f",
         "local_fd1a0ec76b7d2c510ad333fe",
         "local_4958a0ac4ffc1ccdf8d44fa1",
         "local_5e4632dc3866f62604c0532e"
       ],
-      "generatedAt": "2026-11-16T08:03:36.403Z",
+      "generatedAt": "2026-11-16T18:33:03.197Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-16T08:03:36.403Z",
+  "generatedAt": "2026-11-16T18:33:03.197Z",
   "collectorName": "local-source-collector"
 }
