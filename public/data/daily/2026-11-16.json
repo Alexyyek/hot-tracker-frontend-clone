@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Anthropic says the key to agent memory is knowing what to forget, not how much to store」、「Ask Maps is coming to Europe.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Anthropic says the key to agent memory is knowing what to forget, not how much to store」、「Ask Maps is coming to Europe.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says the key to agent memory is knowing what to forget, not how much to store",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps is coming to Europe.",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ea0fdf7b455fe94c7dfb35af"
+                "local_c5561b48db11d14418ce6a9c"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4556ea3373156cc896846f3"
+                "local_9b52ce063bb5e4e441e30509"
               ],
               "confidence": 86
             },
@@ -88,14 +88,34 @@
               "confidence": 78
             },
             {
-              "title": "OneSteer: Unlocking Steerable General Humanoid Motion Tracking via One-Step Diffusion Whole-Body Control",
-              "summary": "Deployment objectives often specify desired outcomes without providing revised trajectories, while parts of the original reference must still be followed. We present OneSteer, a one-step diffusion whole-body controller that combines general motion tracking with selective test-ti…",
+              "title": "Iris-Z: Scaling One Generative Model Past Specialist Geometry Models",
+              "summary": "Language moved from many task-specific models to one unified model: a single generative model with a single generative training task that handles all of them within the same backbone, and keeps improving with data, parameters and compute. We believe the bitter lesson applies jus…",
               "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_826a09f4d77395a31316517b"
+                "local_cbd2078a7479f916aec2708c"
               ],
               "confidence": 86
+            },
+            {
+              "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
+              "summary": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the pr…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_b1b74bfc161cc11b436ae685"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
+              "summary": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing th…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_6c73c6060b3235507775a833"
+              ],
+              "confidence": 92
             },
             {
               "title": "datasette-maplibre 0.1a0",
@@ -123,12 +143,22 @@
               "confidence": 86
             },
             {
-              "title": "MemInStream: Memorizing or Merely Recognizing? Rethinking Streaming Video Memory Evaluation",
-              "summary": "Streaming video understanding aims to continuously process incoming visual observations, making the retention and retrieval of relevant information increasingly important as the video history grows. Although existing benchmarks include memory-related questions, question-answerin…",
+              "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
+              "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Sea…",
               "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f0921011e814cd8f1703e029"
+                "local_a667508796bf57af80d4508e"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_d9404c7c9423021e77e8f51f"
               ],
               "confidence": 92
             },
@@ -149,20 +179,21 @@
         "local_c6c7ede945f7828d18c7fbd6",
         "local_6753962446a3fbbb035579af",
         "local_cd880880237a5f0cdbf4d687",
-        "local_ea0fdf7b455fe94c7dfb35af",
+        "local_c5561b48db11d14418ce6a9c",
         "local_01c6c7eccea0fb81aaac58cd",
-        "local_f4556ea3373156cc896846f3",
+        "local_9b52ce063bb5e4e441e30509",
         "local_92d7008ebc1a3a6db097d757",
         "local_d3458ba11a48311072485bc4",
         "local_191b23011c5507f67c92a476",
-        "local_b9f97038f168bec2f3ec71eb",
-        "local_b97772aa52d59517e6b86bfd",
-        "local_f0921011e814cd8f1703e029",
-        "local_826a09f4d77395a31316517b",
+        "local_cbd2078a7479f916aec2708c",
+        "local_b1b74bfc161cc11b436ae685",
+        "local_6c73c6060b3235507775a833",
+        "local_a667508796bf57af80d4508e",
+        "local_d9404c7c9423021e77e8f51f",
         "local_4c4a5ca4139ada1e8b33a6b4",
         "local_cbf71b29ff854f77c134db36"
       ],
-      "generatedAt": "2026-11-16T18:33:03.190Z",
+      "generatedAt": "2026-11-17T02:13:02.357Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -226,7 +257,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ea0fdf7b455fe94c7dfb35af"
+                "local_c5561b48db11d14418ce6a9c"
               ],
               "confidence": 92
             },
@@ -246,7 +277,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f4556ea3373156cc896846f3"
+                "local_9b52ce063bb5e4e441e30509"
               ],
               "confidence": 86
             },
@@ -276,20 +307,20 @@
       "referencedFeedItemIds": [
         "local_6753962446a3fbbb035579af",
         "local_cd880880237a5f0cdbf4d687",
-        "local_ea0fdf7b455fe94c7dfb35af",
+        "local_c5561b48db11d14418ce6a9c",
         "local_01c6c7eccea0fb81aaac58cd",
-        "local_f4556ea3373156cc896846f3",
+        "local_9b52ce063bb5e4e441e30509",
         "local_92d7008ebc1a3a6db097d757",
         "local_d3458ba11a48311072485bc4",
         "local_191b23011c5507f67c92a476"
       ],
-      "generatedAt": "2026-11-16T18:33:03.190Z",
+      "generatedAt": "2026-11-17T02:13:02.357Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-16T18:33:03.190Z",
+  "generatedAt": "2026-11-17T02:13:02.358Z",
   "collectorName": "local-source-collector"
 }
