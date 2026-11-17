@@ -5,17 +5,17 @@
       "topicId": "ai",
       "reportDate": "2026-11-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来」、「BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来」、「开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HyperAgent:openJiuwen对未来Agent架构的思考和实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
       ],
       "watchItems": [
         "跟进：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
+        "跟进：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
         "跟进：BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
         "跟进：HyperAgent:openJiuwen对未来Agent架构的思考和实践",
-        "跟进：论文秀Live #49 | CCS 2026 论文解读:从全同态加密的函数自举,到 Web 应用的隐藏攻击面",
         "跟进：Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations"
       ],
       "sections": [
@@ -28,7 +28,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5fecede66507147568e1cf1e"
+                "local_cbb9e1451a001c9a9afb81aa"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
+              "summary": "Agent 直接调用的技能包,号称覆盖 80 项音视频与图像处理能力... 集成的团队,建议将\"先上传再调用\"写入流程.参数层面,可通...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_87cb3cd4fb713eac9e8857d1"
               ],
               "confidence": 92
             },
@@ -48,17 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aaed426693aa677e182d9f81"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "论文秀Live #49 | CCS 2026 论文解读:从全同态加密的函数自举,到 Web 应用的隐藏攻击面",
-              "summary": "并通过智能体执行任务,发现隐藏请求.在此过程中,... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c910f961293a5a5e24f2d540"
+                "local_a6dd9c86b9dabfa2b4a59a8c"
               ],
               "confidence": 92
             }
@@ -91,14 +91,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5fecede66507147568e1cf1e",
+        "local_cbb9e1451a001c9a9afb81aa",
+        "local_87cb3cd4fb713eac9e8857d1",
         "local_74d0de4a810d8c35cf9b0411",
-        "local_aaed426693aa677e182d9f81",
-        "local_c910f961293a5a5e24f2d540",
+        "local_a6dd9c86b9dabfa2b4a59a8c",
         "local_22d1c5757ea78d4c8a7a7e7d",
         "local_cb814cc2dedd3fbac4a713d3"
       ],
-      "generatedAt": "2026-11-17T10:47:08.215Z",
+      "generatedAt": "2026-11-17T19:55:20.417Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -109,16 +109,16 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-11",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来」、「HyperAgent:openJiuwen对未来Agent架构的思考和实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来」、「开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HyperAgent:openJiuwen对未来Agent架构的思考和实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：论文秀Live #49 | CCS 2026 论文解读:从全同态加密的函数自举,到 Web 应用的隐藏攻击面"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HyperAgent:openJiuwen对未来Agent架构的思考和实践"
       ],
       "watchItems": [
         "跟进：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
+        "跟进：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
         "跟进：HyperAgent:openJiuwen对未来Agent架构的思考和实践",
-        "跟进：论文秀Live #49 | CCS 2026 论文解读:从全同态加密的函数自举,到 Web 应用的隐藏攻击面",
         "跟进：Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
         "跟进：How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale"
       ],
@@ -132,7 +132,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5fecede66507147568e1cf1e"
+                "local_cbb9e1451a001c9a9afb81aa"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
+              "summary": "Agent 直接调用的技能包,号称覆盖 80 项音视频与图像处理能力... 集成的团队,建议将\"先上传再调用\"写入流程.参数层面,可通...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_87cb3cd4fb713eac9e8857d1"
               ],
               "confidence": 92
             },
@@ -142,17 +152,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_aaed426693aa677e182d9f81"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "论文秀Live #49 | CCS 2026 论文解读:从全同态加密的函数自举,到 Web 应用的隐藏攻击面",
-              "summary": "并通过智能体执行任务,发现隐藏请求.在此过程中,... 【蚂蚁技术AntTech】、B站【蚂蚁技术研究院】同步直播,敬请...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c910f961293a5a5e24f2d540"
+                "local_a6dd9c86b9dabfa2b4a59a8c"
               ],
               "confidence": 92
             }
@@ -185,19 +185,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5fecede66507147568e1cf1e",
-        "local_aaed426693aa677e182d9f81",
-        "local_c910f961293a5a5e24f2d540",
+        "local_cbb9e1451a001c9a9afb81aa",
+        "local_87cb3cd4fb713eac9e8857d1",
+        "local_a6dd9c86b9dabfa2b4a59a8c",
         "local_22d1c5757ea78d4c8a7a7e7d",
         "local_cb814cc2dedd3fbac4a713d3"
       ],
-      "generatedAt": "2026-11-17T10:47:08.215Z",
+      "generatedAt": "2026-11-17T19:55:20.417Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-17T10:47:08.215Z",
+  "generatedAt": "2026-11-17T19:55:20.418Z",
   "collectorName": "local-source-collector"
 }

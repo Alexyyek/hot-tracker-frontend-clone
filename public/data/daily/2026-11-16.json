@@ -5,75 +5,20 @@
       "topicId": "ai",
       "reportDate": "2026-11-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Anthropic says the key to agent memory is knowing what to forget, not how much to store」、「Ask Maps is coming to Europe.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Ask Maps is coming to Europe.」、「Our first phase of embedded assessments」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says the key to agent memory is knowing what to forget, not how much to store",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps is coming to Europe.",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Our first phase of embedded assessments"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Our first phase of embedded assessments",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：用 Super-agent 的理念,拆解 Octop 团队模式"
       ],
       "watchItems": [
-        "跟进：Anthropic says the key to agent memory is knowing what to forget, not how much to store",
         "跟进：Ask Maps is coming to Europe.",
         "跟进：Our first phase of embedded assessments",
         "跟进：用 Super-agent 的理念,拆解 Octop 团队模式",
-        "跟进：More ways to move care forward with ChatGPT for Healthcare"
+        "跟进：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+        "跟进：AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities"
       ],
       "sections": [
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic studied how Claude retains knowledge across sessions. Selective notes beat exhaustive archives by a wide margin. In a Pokémon Red test, the newer Claude Fable 5 got four times as far as the older Sonnet 3.7 by…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c6c7ede945f7828d18c7fbd6"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "用 Super-agent 的理念,拆解 Octop 团队模式",
-              "summary": "团队本质上就是一个工程落地的 Super-Agent 架构:团队内部的各位专家成员被抽象封装为标准化的工具接口,主持人通过工具调用将...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d313ff5e99fc18e59dec8965"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "More ways to move care forward with ChatGPT for Healthcare",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_01c6c7eccea0fb81aaac58cd"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
-              "summary": "京东云全新升级的JoyCode智能编码工具,结合项目上下文、... 智能体不只根据指令生成代码,还能够围绕任务目标拆解步骤、推...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ca2e9022f0e3e664ddcfe490"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_92d7008ebc1a3a6db097d757"
-              ],
-              "confidence": 78
-            }
-          ]
-        },
         {
           "title": "行业与公司",
           "items": [
@@ -133,23 +78,65 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "用 Super-agent 的理念,拆解 Octop 团队模式",
+              "summary": "团队本质上就是一个工程落地的 Super-Agent 架构:团队内部的各位专家成员被抽象封装为标准化的工具接口,主持人通过工具调用将...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_9a25ece3bff2e2717c804313"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+              "summary": "京东云全新升级的JoyCode智能编码工具,结合项目上下文、... 智能体不只根据指令生成代码,还能够围绕任务目标拆解步骤、推...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_aae2ca3bf8ee037efe624539"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_92d7008ebc1a3a6db097d757"
+              ],
+              "confidence": 78
+            },
+            {
+              "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d3458ba11a48311072485bc4"
+              ],
+              "confidence": 78
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_c6c7ede945f7828d18c7fbd6",
         "local_6753962446a3fbbb035579af",
         "local_cd880880237a5f0cdbf4d687",
-        "local_d313ff5e99fc18e59dec8965",
-        "local_01c6c7eccea0fb81aaac58cd",
-        "local_ca2e9022f0e3e664ddcfe490",
+        "local_9a25ece3bff2e2717c804313",
+        "local_aae2ca3bf8ee037efe624539",
         "local_92d7008ebc1a3a6db097d757",
         "local_d3458ba11a48311072485bc4",
-        "local_191b23011c5507f67c92a476",
         "local_d9404c7c9423021e77e8f51f",
         "local_4c4a5ca4139ada1e8b33a6b4",
         "local_cbf71b29ff854f77c134db36"
       ],
-      "generatedAt": "2026-11-17T10:47:08.182Z",
+      "generatedAt": "2026-11-17T19:55:20.381Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -160,7 +147,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-16",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「Ask Maps is coming to Europe.」、「Our first phase of embedded assessments」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Ask Maps is coming to Europe.」、「Our first phase of embedded assessments」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps is coming to Europe.",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Our first phase of embedded assessments",
@@ -170,8 +157,8 @@
         "跟进：Ask Maps is coming to Europe.",
         "跟进：Our first phase of embedded assessments",
         "跟进：用 Super-agent 的理念,拆解 Octop 团队模式",
-        "跟进：More ways to move care forward with ChatGPT for Healthcare",
-        "跟进：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付"
+        "跟进：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+        "跟进：AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities"
       ],
       "sections": [
         {
@@ -213,19 +200,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d313ff5e99fc18e59dec8965"
+                "local_9a25ece3bff2e2717c804313"
               ],
               "confidence": 92
-            },
-            {
-              "title": "More ways to move care forward with ChatGPT for Healthcare",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_01c6c7eccea0fb81aaac58cd"
-              ],
-              "confidence": 74
             },
             {
               "title": "京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
@@ -233,7 +210,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_ca2e9022f0e3e664ddcfe490"
+                "local_aae2ca3bf8ee037efe624539"
               ],
               "confidence": 86
             },
@@ -263,20 +240,18 @@
       "referencedFeedItemIds": [
         "local_6753962446a3fbbb035579af",
         "local_cd880880237a5f0cdbf4d687",
-        "local_d313ff5e99fc18e59dec8965",
-        "local_01c6c7eccea0fb81aaac58cd",
-        "local_ca2e9022f0e3e664ddcfe490",
+        "local_9a25ece3bff2e2717c804313",
+        "local_aae2ca3bf8ee037efe624539",
         "local_92d7008ebc1a3a6db097d757",
-        "local_d3458ba11a48311072485bc4",
-        "local_191b23011c5507f67c92a476"
+        "local_d3458ba11a48311072485bc4"
       ],
-      "generatedAt": "2026-11-17T10:47:08.182Z",
+      "generatedAt": "2026-11-17T19:55:20.381Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-17T10:47:08.182Z",
+  "generatedAt": "2026-11-17T19:55:20.381Z",
   "collectorName": "local-source-collector"
 }

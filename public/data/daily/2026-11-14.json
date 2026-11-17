@@ -16,7 +16,7 @@
         "跟进：What is Agentic AI? Definition, Examples, and How It Works",
         "跟进：AI agents explained: What they are and how they work",
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：Varlock 发布了 Bumpy：一种基于文件、可替代 Changesets 的版本控制方案"
+        "跟进：面向多智能体应用的大模型推理调度与缓存优化｜AICon北京"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3c65f4a4aa2b87afb68d5514"
+                "local_a31a0a62c9ca978d933b108a"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f8ec683b971fa615ce6ae139"
+                "local_393bf3c6b8092619c74611ca"
               ],
               "confidence": 92
             },
@@ -48,7 +48,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c16d098253e14637787fa832"
+                "local_1829cb4741558cf23f960f48"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+              "summary": "AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者。当 Agent 真正进入企业流程，问题不再是 “如何把 AI 做出来”，而是哪些工作可以交给 AI、结果如何验收、权限、成本与风险如何收住。随着大模型向推理、工具调用、多模态和长任务延伸，开发重心正从单次调用转向上下文、工具、执行环境与反馈回路的设计，Coding Agent 也从代码补全演进为能理解代码库、运行测试、完成复杂任务的工程协作者。OpenAI、Google Cloud、Anthropic 的最新实践共同指向一个结论：模型决定 Agent 能做什么，工程决定它能否…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ff32cb83295c0836d1a8a1f7"
               ],
               "confidence": 92
             },
@@ -58,19 +68,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2d152742c5a6bc833a6fc0cc"
+                "local_557760db07e26ef44adb35ce"
               ],
               "confidence": 74
-            },
-            {
-              "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？_阿里巴巴_凌敏_InfoQ精选视频",
-              "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_88ab848935527954c530b80a"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_39933deca275a2b93a95abd4"
+                "local_16118992af11c78a5cad7ddf"
               ],
               "confidence": 78
             },
@@ -93,24 +93,9 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_2c9b6c4d17b0fd4d24a9993c"
+                "local_d873f0e69dda8ab795bc40dc"
               ],
               "confidence": 82
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Varlock 发布了 Bumpy：一种基于文件、可替代 Changesets 的版本控制方案",
-              "summary": "Bumpy 是一款由 Varlock 团队开发的、支持单体库（monorepo）的现代化版本管理和变更日志工具。它自称是 Changesets 的继任者，正在逐渐受到关注",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_0df264eaf033eda80b9acd99"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -123,9 +108,19 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c84f5ee65333a815a980762e"
+                "local_55b8d1a559922cffd4ba939d"
               ],
               "confidence": 78
+            },
+            {
+              "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e4b55b529ead1033ac193e7a"
+              ],
+              "confidence": 82
             },
             {
               "title": "Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch",
@@ -138,22 +133,12 @@
               "confidence": 92
             },
             {
-              "title": "TPU Model Design Considerations and Optimization Guide",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The newly launched AI-Hypercomputer/tpu-codesign guide provides hardware-grounded design rules to help developers maximize performance on TPUs for LLMs and Mixture-of-Experts (MoE) workloads. Key principles include alig…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_97b068c29f0b061c9a2b3e48"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "AI Model Benchmarks",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Independent, continuously-run benchmarks of OpenRouter models, providers, and search engines. Browse every leaderboard with live model and run counts.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_38f5479537f675710d734d62"
+                "local_c97625b4c02f6f14c2b08cad"
               ],
               "confidence": 82
             },
@@ -163,7 +148,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_f34fb23c649586bc125fd414"
+                "local_427384b938c05694d0860f3e"
               ],
               "confidence": 74
             }
@@ -171,32 +156,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_3c65f4a4aa2b87afb68d5514",
-        "local_f8ec683b971fa615ce6ae139",
-        "local_c16d098253e14637787fa832",
-        "local_39933deca275a2b93a95abd4",
-        "local_0df264eaf033eda80b9acd99",
-        "local_2d152742c5a6bc833a6fc0cc",
-        "local_88ab848935527954c530b80a",
-        "local_21a5e8e1cf84913df697e394",
-        "local_c84f5ee65333a815a980762e",
-        "local_0efec65ad9f32a41a841a829",
-        "local_9f5553dcc5073fe036963ad8",
-        "local_559c61d44383e9294b3298e8",
-        "local_97b068c29f0b061c9a2b3e48",
-        "local_d087ef552d162d9e4bff7021",
+        "local_a31a0a62c9ca978d933b108a",
+        "local_393bf3c6b8092619c74611ca",
+        "local_1829cb4741558cf23f960f48",
+        "local_16118992af11c78a5cad7ddf",
+        "local_ff32cb83295c0836d1a8a1f7",
+        "local_557760db07e26ef44adb35ce",
+        "local_d78bbf84cfb89352473e4b89",
+        "local_16d43481198ad4afe7fea3fa",
+        "local_55b8d1a559922cffd4ba939d",
+        "local_f703c973b01e3bcf22db1ae0",
+        "local_17588ba492a63200e9ab2a2d",
+        "local_e4b55b529ead1033ac193e7a",
         "local_8b634fbf8978044f096d7f8e",
-        "local_d88efdae6ee0a9471a0ee2e6",
-        "local_472aef6d3619fe8b3f235991",
-        "local_1e905887d5ac1f67095ca979",
-        "local_675cb5a39092031b127db2a0",
-        "local_38f5479537f675710d734d62",
-        "local_2c9b6c4d17b0fd4d24a9993c",
-        "local_f34fb23c649586bc125fd414",
-        "local_8aec2288de3811594c38eba2",
-        "local_8776215cc12e2df83c329cb2"
+        "local_d087ef552d162d9e4bff7021",
+        "local_559c61d44383e9294b3298e8",
+        "local_993995562f052fb7c526f634",
+        "local_864060ba17fe18b4d7d0976b",
+        "local_1d468a5433dc2505a139d924",
+        "local_786dc39faa568248594e0251",
+        "local_c97625b4c02f6f14c2b08cad",
+        "local_d873f0e69dda8ab795bc40dc",
+        "local_427384b938c05694d0860f3e",
+        "local_0306226fae68f1477cf17c2d",
+        "local_2a6285dddfa9b5c4b70ba454"
       ],
-      "generatedAt": "2026-11-17T10:47:08.195Z",
+      "generatedAt": "2026-11-17T19:55:20.395Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -218,7 +203,7 @@
         "跟进：What is Agentic AI? Definition, Examples, and How It Works",
         "跟进：AI agents explained: What they are and how they work",
         "跟进：Reimagining Independence: How Meta&#x2019;s AI Models Are Helping the University of Pittsburgh Transform Assistive Robotics",
-        "跟进：Varlock 发布了 Bumpy：一种基于文件、可替代 Changesets 的版本控制方案"
+        "跟进：面向多智能体应用的大模型推理调度与缓存优化｜AICon北京"
       ],
       "sections": [
         {
@@ -230,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_3c65f4a4aa2b87afb68d5514"
+                "local_a31a0a62c9ca978d933b108a"
               ],
               "confidence": 92
             },
@@ -240,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f8ec683b971fa615ce6ae139"
+                "local_393bf3c6b8092619c74611ca"
               ],
               "confidence": 92
             },
@@ -250,7 +235,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c16d098253e14637787fa832"
+                "local_1829cb4741558cf23f960f48"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "面向多智能体应用的大模型推理调度与缓存优化｜AICon北京",
+              "summary": "AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者。当 Agent 真正进入企业流程，问题不再是 “如何把 AI 做出来”，而是哪些工作可以交给 AI、结果如何验收、权限、成本与风险如何收住。随着大模型向推理、工具调用、多模态和长任务延伸，开发重心正从单次调用转向上下文、工具、执行环境与反馈回路的设计，Coding Agent 也从代码补全演进为能理解代码库、运行测试、完成复杂任务的工程协作者。OpenAI、Google Cloud、Anthropic 的最新实践共同指向一个结论：模型决定 Agent 能做什么，工程决定它能否…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ff32cb83295c0836d1a8a1f7"
               ],
               "confidence": 92
             },
@@ -260,19 +255,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2d152742c5a6bc833a6fc0cc"
+                "local_557760db07e26ef44adb35ce"
               ],
               "confidence": 74
-            },
-            {
-              "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？_阿里巴巴_凌敏_InfoQ精选视频",
-              "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_88ab848935527954c530b80a"
-              ],
-              "confidence": 82
             }
           ]
         },
@@ -285,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_39933deca275a2b93a95abd4"
+                "local_16118992af11c78a5cad7ddf"
               ],
               "confidence": 78
             },
@@ -295,24 +280,9 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_0504509ce5d074b9f0dd6a8e"
+                "local_3b258ff9c9b0389116a46cda"
               ],
               "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "产品与工具",
-          "items": [
-            {
-              "title": "Varlock 发布了 Bumpy：一种基于文件、可替代 Changesets 的版本控制方案",
-              "summary": "Bumpy 是一款由 Varlock 团队开发的、支持单体库（monorepo）的现代化版本管理和变更日志工具。它自称是 Changesets 的继任者，正在逐渐受到关注",
-              "insightLabel": "关注",
-              "insightText": "关注它是否降低多步骤任务成本，是否支持工具调用、知识检索、自动验证或跨市场复制。",
-              "sourceFeedItemIds": [
-                "local_0df264eaf033eda80b9acd99"
-              ],
-              "confidence": 78
             }
           ]
         },
@@ -325,9 +295,19 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c84f5ee65333a815a980762e"
+                "local_55b8d1a559922cffd4ba939d"
               ],
               "confidence": 78
+            },
+            {
+              "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_e4b55b529ead1033ac193e7a"
+              ],
+              "confidence": 82
             },
             {
               "title": "Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch",
@@ -340,22 +320,12 @@
               "confidence": 92
             },
             {
-              "title": "TPU Model Design Considerations and Optimization Guide",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：The newly launched AI-Hypercomputer/tpu-codesign guide provides hardware-grounded design rules to help developers maximize performance on TPUs for LLMs and Mixture-of-Experts (MoE) workloads. Key principles include alig…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_97b068c29f0b061c9a2b3e48"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：We present Seed2.0, a model series that takes a meaningful step toward solving complex, real-world tasks. Our approach begins with identifying users&#x27; genuine needs and constructing a reliable, forward-looking evalu…",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_62124abe6812a2247305c1f0"
+                "local_d4fe3bd1328684544d0c6daf"
               ],
               "confidence": 92
             }
@@ -363,32 +333,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_3c65f4a4aa2b87afb68d5514",
-        "local_f8ec683b971fa615ce6ae139",
-        "local_c16d098253e14637787fa832",
-        "local_39933deca275a2b93a95abd4",
-        "local_0df264eaf033eda80b9acd99",
-        "local_2d152742c5a6bc833a6fc0cc",
-        "local_88ab848935527954c530b80a",
-        "local_21a5e8e1cf84913df697e394",
-        "local_c84f5ee65333a815a980762e",
-        "local_0efec65ad9f32a41a841a829",
-        "local_9f5553dcc5073fe036963ad8",
-        "local_559c61d44383e9294b3298e8",
-        "local_97b068c29f0b061c9a2b3e48",
-        "local_d087ef552d162d9e4bff7021",
+        "local_a31a0a62c9ca978d933b108a",
+        "local_393bf3c6b8092619c74611ca",
+        "local_1829cb4741558cf23f960f48",
+        "local_16118992af11c78a5cad7ddf",
+        "local_ff32cb83295c0836d1a8a1f7",
+        "local_557760db07e26ef44adb35ce",
+        "local_d78bbf84cfb89352473e4b89",
+        "local_16d43481198ad4afe7fea3fa",
+        "local_55b8d1a559922cffd4ba939d",
+        "local_f703c973b01e3bcf22db1ae0",
+        "local_17588ba492a63200e9ab2a2d",
+        "local_e4b55b529ead1033ac193e7a",
         "local_8b634fbf8978044f096d7f8e",
-        "local_62124abe6812a2247305c1f0",
-        "local_0859c7f5a9d44a4bd43469fd",
-        "local_0504509ce5d074b9f0dd6a8e"
+        "local_d087ef552d162d9e4bff7021",
+        "local_559c61d44383e9294b3298e8",
+        "local_d4fe3bd1328684544d0c6daf",
+        "local_d33840aab317208127eb917b",
+        "local_3b258ff9c9b0389116a46cda"
       ],
-      "generatedAt": "2026-11-17T10:47:08.195Z",
+      "generatedAt": "2026-11-17T19:55:20.395Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-17T10:47:08.195Z",
+  "generatedAt": "2026-11-17T19:55:20.396Z",
   "collectorName": "local-source-collector"
 }
