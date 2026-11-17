@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Anthropic says the key to agent memory is knowing what to forget, not how much to store」、「Ask Maps is coming to Europe.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Anthropic says the key to agent memory is knowing what to forget, not how much to store」、「Ask Maps is coming to Europe.」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic says the key to agent memory is knowing what to forget, not how much to store",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Ask Maps is coming to Europe.",
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c5561b48db11d14418ce6a9c"
+                "local_d313ff5e99fc18e59dec8965"
               ],
               "confidence": 92
             },
@@ -54,11 +54,11 @@
             },
             {
               "title": "京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
-              "summary": "今日,京东云正式发布全新升级的JoyCode智能编码工具,打造以端到端自主决策为核心的Code Agent平台.全新JoyCode结合项目背...",
+              "summary": "京东云全新升级的JoyCode智能编码工具,结合项目上下文、... 智能体不只根据指令生成代码,还能够围绕任务目标拆解步骤、推...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9b52ce063bb5e4e441e30509"
+                "local_ca2e9022f0e3e664ddcfe490"
               ],
               "confidence": 86
             },
@@ -88,36 +88,6 @@
               "confidence": 78
             },
             {
-              "title": "Iris-Z: Scaling One Generative Model Past Specialist Geometry Models",
-              "summary": "Language moved from many task-specific models to one unified model: a single generative model with a single generative training task that handles all of them within the same backbone, and keeps improving with data, parameters and compute. We believe the bitter lesson applies jus…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cbd2078a7479f916aec2708c"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "BrickFlow: Connectivity-Guided Brick Reconstruction",
-              "summary": "Given a set of LEGO parts and an image of an assembled object, our task is to infer the pose of each part to assemble the object. In contrast with traditional 3D reconstruction, doing so requires satisfying discrete physical constraints, which provide structure but render the pr…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_b1b74bfc161cc11b436ae685"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Restoring Diversity in Distilled Image and Video Generators by Probing Activations",
-              "summary": "Distilling diffusion models into few-step student models substantially reduces sampling latency, but induces severe diversity collapse: samples generated from different random seeds show minimal variation. In this work, we investigate the root cause of this failure by probing th…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_6c73c6060b3235507775a833"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "datasette-maplibre 0.1a0",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero (you s…",
               "insightLabel": "关注",
@@ -141,16 +111,6 @@
                 "local_cd880880237a5f0cdbf4d687"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
-              "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Sea…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_a667508796bf57af80d4508e"
-              ],
-              "confidence": 92
             },
             {
               "title": "LLM Rankings",
@@ -179,21 +139,17 @@
         "local_c6c7ede945f7828d18c7fbd6",
         "local_6753962446a3fbbb035579af",
         "local_cd880880237a5f0cdbf4d687",
-        "local_c5561b48db11d14418ce6a9c",
+        "local_d313ff5e99fc18e59dec8965",
         "local_01c6c7eccea0fb81aaac58cd",
-        "local_9b52ce063bb5e4e441e30509",
+        "local_ca2e9022f0e3e664ddcfe490",
         "local_92d7008ebc1a3a6db097d757",
         "local_d3458ba11a48311072485bc4",
         "local_191b23011c5507f67c92a476",
-        "local_cbd2078a7479f916aec2708c",
-        "local_b1b74bfc161cc11b436ae685",
-        "local_6c73c6060b3235507775a833",
-        "local_a667508796bf57af80d4508e",
         "local_d9404c7c9423021e77e8f51f",
         "local_4c4a5ca4139ada1e8b33a6b4",
         "local_cbf71b29ff854f77c134db36"
       ],
-      "generatedAt": "2026-11-17T02:13:02.357Z",
+      "generatedAt": "2026-11-17T10:47:08.182Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -257,7 +213,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c5561b48db11d14418ce6a9c"
+                "local_d313ff5e99fc18e59dec8965"
               ],
               "confidence": 92
             },
@@ -273,11 +229,11 @@
             },
             {
               "title": "京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
-              "summary": "今日,京东云正式发布全新升级的JoyCode智能编码工具,打造以端到端自主决策为核心的Code Agent平台.全新JoyCode结合项目背...",
+              "summary": "京东云全新升级的JoyCode智能编码工具,结合项目上下文、... 智能体不只根据指令生成代码,还能够围绕任务目标拆解步骤、推...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9b52ce063bb5e4e441e30509"
+                "local_ca2e9022f0e3e664ddcfe490"
               ],
               "confidence": 86
             },
@@ -307,20 +263,20 @@
       "referencedFeedItemIds": [
         "local_6753962446a3fbbb035579af",
         "local_cd880880237a5f0cdbf4d687",
-        "local_c5561b48db11d14418ce6a9c",
+        "local_d313ff5e99fc18e59dec8965",
         "local_01c6c7eccea0fb81aaac58cd",
-        "local_9b52ce063bb5e4e441e30509",
+        "local_ca2e9022f0e3e664ddcfe490",
         "local_92d7008ebc1a3a6db097d757",
         "local_d3458ba11a48311072485bc4",
         "local_191b23011c5507f67c92a476"
       ],
-      "generatedAt": "2026-11-17T02:13:02.357Z",
+      "generatedAt": "2026-11-17T10:47:08.182Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-17T02:13:02.358Z",
+  "generatedAt": "2026-11-17T10:47:08.182Z",
   "collectorName": "local-source-collector"
 }

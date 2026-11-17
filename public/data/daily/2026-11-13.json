@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-11-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review」、「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」、「期待和你们一起,用 AI 解决最值得的问题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：智能互动 Agent 在快手商业场景的落地实践"
       ],
       "watchItems": [
-        "跟进：PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
         "跟进：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
         "跟进：期待和你们一起,用 AI 解决最值得的问题",
         "跟进：智能互动 Agent 在快手商业场景的落地实践",
-        "跟进：Reranking in RAG: How to Fix Bad Retrieval with a Reranker"
+        "跟进：Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
+        "跟进：Gemini 4 Hydrogen: everyday coding and agentic workflows for developers"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
-              "summary": "Coding agents increasingly review code, yet whether they catch the privacy defects that laws such as the GDPR require software to avoid remains largely untested, partly because few datasets connect real privacy defects to their accepted fixes and review context. We present Priva…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_0e1dcb64299f3e757dc0c162"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
               "summary": "PaperWeekly * 星弧 STARC 科研觉醒AI前沿讲座 直播主题 智能体走向真实世界的最后一公里 直播嘉宾 金海波伊利诺伊大学厄巴纳&ndash;香...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eff84a92a6a9221d27ddc93e"
+                "local_74e17225e3c74469677d789b"
               ],
               "confidence": 92
             },
@@ -58,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_81954c12cd24f555df70e945"
+                "local_6e2640308b55a6308f7cff86"
               ],
               "confidence": 90
             },
@@ -69,6 +59,16 @@
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
                 "local_9d52dc297115e905b3fb0f46"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing Gemini 4 Hydrogen",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ce3c2fe688d7d029a72d7663"
               ],
               "confidence": 92
             }
@@ -91,15 +91,14 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0e1dcb64299f3e757dc0c162",
-        "local_eff84a92a6a9221d27ddc93e",
+        "local_74e17225e3c74469677d789b",
         "local_8e0544769356bfc3178ba0d0",
-        "local_81954c12cd24f555df70e945",
+        "local_6e2640308b55a6308f7cff86",
         "local_302a315deb55c0ed8ac40f59",
         "local_9d52dc297115e905b3fb0f46",
         "local_ce3c2fe688d7d029a72d7663"
       ],
-      "generatedAt": "2026-11-17T02:13:02.378Z",
+      "generatedAt": "2026-11-17T10:47:08.202Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -133,7 +132,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_eff84a92a6a9221d27ddc93e"
+                "local_74e17225e3c74469677d789b"
               ],
               "confidence": 92
             },
@@ -153,7 +152,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_81954c12cd24f555df70e945"
+                "local_6e2640308b55a6308f7cff86"
               ],
               "confidence": 90
             },
@@ -181,19 +180,19 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_eff84a92a6a9221d27ddc93e",
+        "local_74e17225e3c74469677d789b",
         "local_8e0544769356bfc3178ba0d0",
-        "local_81954c12cd24f555df70e945",
+        "local_6e2640308b55a6308f7cff86",
         "local_9d52dc297115e905b3fb0f46",
         "local_ce3c2fe688d7d029a72d7663"
       ],
-      "generatedAt": "2026-11-17T02:13:02.378Z",
+      "generatedAt": "2026-11-17T10:47:08.202Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-17T02:13:02.378Z",
+  "generatedAt": "2026-11-17T10:47:08.202Z",
   "collectorName": "local-source-collector"
 }
