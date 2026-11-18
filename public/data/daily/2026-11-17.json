@@ -5,20 +5,75 @@
       "topicId": "ai",
       "reportDate": "2026-11-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 24 条 AI 技术信号，优先看 「OpenAI opens its cybersecurity tool Daybreak to NATO and European governments」、「高德广告凌凌漆:研发任务的持续执行与可信验收」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling」、「OpenAI opens its cybersecurity tool Daybreak to NATO and European governments」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德广告凌凌漆:研发任务的持续执行与可信验收",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德搜索凌凌漆:搜索问题归因与经验迭代实践"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德广告凌凌漆:研发任务的持续执行与可信验收"
       ],
       "watchItems": [
+        "跟进：CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling",
         "跟进：OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
         "跟进：高德广告凌凌漆:研发任务的持续执行与可信验收",
-        "跟进：高德搜索凌凌漆:搜索问题归因与经验迭代实践",
         "跟进：企业 AI Native 研发流程升级与重塑",
         "跟进：HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统"
       ],
       "sections": [
+        {
+          "title": "Agent 与研发提效",
+          "items": [
+            {
+              "title": "CodeReel: Accelerating Code-to-Video Agents with Exact Frame Reuse and Blocking-Aware Scheduling",
+              "summary": "Coding agents make videos by writing and refining programs in a build--inspect--edit loop. A finished film costs a median of $2.85 in model calls and 11 minutes, over a third of that time in builds that block the agent. We find that much of this time is avoidable, for two reason…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_1c7d91c50db3ee32f23ffa7c"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "高德广告凌凌漆:研发任务的持续执行与可信验收",
+              "summary": "智能体执行框架(Coding Harness)与研发环境完成代码搜索、修... 一项研发任务如何在云端运行#高德 #高德技术 #AI Native #广告凌...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_bcdcef48113282ab100b42d8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统",
+              "summary": "长程 Agent 在执行任务时,需要反复读取此前的操作和环境反馈.训练样本也常包含这些累计历史:如果每个样本都独立计算完整输入...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4cde13dd3f0772f81f9cb7a8"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "京东11.11大促系列|Super Agent 进群:今年11.11,多了个会主动干活的＂数字人队长＂",
+              "summary": "它不是简单的问答机器人,也不是替代人的自动化指挥系统,而是面向大促保障场景构建的 AI 作战伙伴,一个典型的 Super Agent. ...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f86f5132287d82450c689c53"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Introducing OpenAI for Chile",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_d56d69aa391f383bf0cb3483"
+              ],
+              "confidence": 82
+            }
+          ]
+        },
         {
           "title": "行业与公司",
           "items": [
@@ -33,34 +88,14 @@
               "confidence": 82
             },
             {
-              "title": "高德搜索凌凌漆:搜索问题归因与经验迭代实践",
-              "summary": "一项研发任务如何在云端运行#高德 #高德技术 #AI Native #搜索凌凌漆 #问题归因END",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_5cd46e39f6ad7909f85763b6"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "企业 AI Native 研发流程升级与重塑",
               "summary": "深圳站的分享《企业 AI Native 研发流程升级与重塑》.他结合自... 以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 AI ...",
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_dead02314ea8dde15bd6a15a"
+                "local_b5353ed017f27691b142b51e"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Correct Labels Are Not Enough: Reliable Metadata Can Silently Control Model Behavior",
-              "summary": "Fine-tuning data can include metadata that predicts the correct answer, such as a reward-model score or a quality label. We ask whether a model learns to rely on this metadata even when every training label is correct. We fine-tune 7-9B open-weight models from three families on …",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_a42ffb0d18eab1ae478ba7ea"
-              ],
-              "confidence": 92
             },
             {
               "title": "Accelerate Molecular Dynamics Simulations with Accurate, Flexible Primitives Using NVIDIA cuPotential",
@@ -71,61 +106,16 @@
                 "local_e189d129ccacce2a6d3f76e0"
               ],
               "confidence": 70
-            }
-          ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "高德广告凌凌漆:研发任务的持续执行与可信验收",
-              "summary": "智能体执行框架(Coding Harness)与研发环境完成代码搜索、修... 一项研发任务如何在云端运行#高德 #高德技术 #AI Native #广告凌...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_b305d1e3e42812cfb3fc03c1"
-              ],
-              "confidence": 92
             },
             {
-              "title": "HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统",
-              "summary": "长程 Agent 在执行任务时,需要反复读取此前的操作和环境反馈.训练样本也常包含这些累计历史:如果每个样本都独立计算完整输入...",
+              "title": "Broadening access to AI for scientists",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
               "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_f506ca7073afc12cd063c35c"
+                "local_4d40d21c0a586513173e02da"
               ],
-              "confidence": 92
-            },
-            {
-              "title": "Readie: Low-Latency Code Sandboxes for AI Agents",
-              "summary": "From quantitative research to personal assistance, AI agents act by iteratively generating and executing code. To decouple the agent harness from code execution, many agents offload execution to dedicated systems called code sandboxes. However, existing code sandboxes suffer fro…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5e97896bdec97652812c290c"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "HandRSI: Recursive Self-Improvement for Hand Pose Estimation",
-              "summary": "Egocentric 3D hand pose estimators still miss hands at the image border, misplace occluded hands and jitter. Such failures are usually fixed by hand-written inference refinements and by fine-tuning, two interdependent steps that are tuned separately. We present HandRSI, a recurs…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c3ea14789c97f4f59740cf55"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "京东11.11大促系列|Super Agent 进群:今年11.11,多了个会主动干活的＂数字人队长＂",
-              "summary": "它不是简单的问答机器人,也不是替代人的自动化指挥系统,而是面向大促保障场景构建的 AI 作战伙伴,一个典型的 Super Agent. ...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_4bc772b57565ea3d1400a50e"
-              ],
-              "confidence": 92
+              "confidence": 78
             }
           ]
         },
@@ -141,26 +131,6 @@
                 "local_d61f72a97bbd268f5314cfbf"
               ],
               "confidence": 86
-            },
-            {
-              "title": "Abstention Direction in Large Language Models: Mechanistic Interpretability of Abstention Across Query Ambiguity, Knowledge Limits, and Safety Alignment",
-              "summary": "Abstention, the withholding of a response by a large language model (LLM) under uncertainty or safety risks, is essential for trustworthy models. The causes of abstention fall into three perspectives: ambiguity in the Query (Q), limits of Model Knowledge (MK), and misalignment w…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6a7672c9493127d497f00a8a"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
-              "summary": "Looping is a powerful inductive bias for reasoning. By repeatedly iterating a recurrent block, looped models can scale their effective depth and enable multi-step reasoning in latent space. However, existing looped models are not inherently guided by an explicit measure of progr…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_6070a6b0e8868e058e803134"
-              ],
-              "confidence": 92
             },
             {
               "title": "LLM Rankings",
@@ -181,27 +151,29 @@
                 "local_8a058fc265c5fe74dfd9eb14"
               ],
               "confidence": 86
+            },
+            {
+              "title": "New AI training performance benchmarks for Google TPUs",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：In the latest MLPerf Training v6.1 benchmark round, Google Cloud published 10 results across seventh-generation Ironwood TPUs and NVIDIA Grace Blackwell GPUs, spanning f…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_7d36ae6ef740c1fac8afc7d6"
+              ],
+              "confidence": 82
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
+        "local_1c7d91c50db3ee32f23ffa7c",
         "local_bb7a086e1da3d4d7237a7613",
-        "local_b305d1e3e42812cfb3fc03c1",
-        "local_5cd46e39f6ad7909f85763b6",
-        "local_dead02314ea8dde15bd6a15a",
-        "local_f506ca7073afc12cd063c35c",
-        "local_5e97896bdec97652812c290c",
-        "local_c3ea14789c97f4f59740cf55",
-        "local_4bc772b57565ea3d1400a50e",
-        "local_8b5d0848d9398da1caf833fc",
-        "local_ec2a6d2f9772b31b59f99989",
+        "local_bcdcef48113282ab100b42d8",
+        "local_b5353ed017f27691b142b51e",
+        "local_4cde13dd3f0772f81f9cb7a8",
+        "local_f86f5132287d82450c689c53",
         "local_d61f72a97bbd268f5314cfbf",
         "local_d56d69aa391f383bf0cb3483",
-        "local_6a7672c9493127d497f00a8a",
-        "local_bbe8dad41da5d044c879eb00",
-        "local_a42ffb0d18eab1ae478ba7ea",
-        "local_6070a6b0e8868e058e803134",
         "local_450937694d4821a462ed00cb",
         "local_8a058fc265c5fe74dfd9eb14",
         "local_e189d129ccacce2a6d3f76e0",
@@ -209,9 +181,11 @@
         "local_2855ba9723a4abcec28f9f95",
         "local_4d40d21c0a586513173e02da",
         "local_da0ff6d4cc24500bc8af864b",
-        "local_73e86b9aae96a23c27500102"
+        "local_73e86b9aae96a23c27500102",
+        "local_1173e80b03a8a99405d56f33",
+        "local_7d36ae6ef740c1fac8afc7d6"
       ],
-      "generatedAt": "2026-11-18T02:31:01.563Z",
+      "generatedAt": "2026-11-18T10:49:23.605Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -222,18 +196,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-17",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 14 条 AI 技术信号，优先看 「高德广告凌凌漆:研发任务的持续执行与可信验收」、「高德搜索凌凌漆:搜索问题归因与经验迭代实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「高德广告凌凌漆:研发任务的持续执行与可信验收」、「企业 AI Native 研发流程升级与重塑」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德广告凌凌漆:研发任务的持续执行与可信验收",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德搜索凌凌漆:搜索问题归因与经验迭代实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业 AI Native 研发流程升级与重塑"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业 AI Native 研发流程升级与重塑",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统"
       ],
       "watchItems": [
         "跟进：高德广告凌凌漆:研发任务的持续执行与可信验收",
-        "跟进：高德搜索凌凌漆:搜索问题归因与经验迭代实践",
         "跟进：企业 AI Native 研发流程升级与重塑",
         "跟进：HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统",
-        "跟进：京东11.11大促系列|Super Agent 进群:今年11.11,多了个会主动干活的＂数字人队长＂"
+        "跟进：京东11.11大促系列|Super Agent 进群:今年11.11,多了个会主动干活的＂数字人队长＂",
+        "跟进：Astra for Law leads in legal intelligence"
       ],
       "sections": [
         {
@@ -245,7 +219,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_b305d1e3e42812cfb3fc03c1"
+                "local_bcdcef48113282ab100b42d8"
               ],
               "confidence": 92
             },
@@ -255,7 +229,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f506ca7073afc12cd063c35c"
+                "local_4cde13dd3f0772f81f9cb7a8"
               ],
               "confidence": 92
             },
@@ -265,7 +239,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4bc772b57565ea3d1400a50e"
+                "local_f86f5132287d82450c689c53"
               ],
               "confidence": 92
             },
@@ -295,22 +269,12 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "高德搜索凌凌漆:搜索问题归因与经验迭代实践",
-              "summary": "一项研发任务如何在云端运行#高德 #高德技术 #AI Native #搜索凌凌漆 #问题归因END",
-              "insightLabel": "关注",
-              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
-              "sourceFeedItemIds": [
-                "local_5cd46e39f6ad7909f85763b6"
-              ],
-              "confidence": 78
-            },
-            {
               "title": "企业 AI Native 研发流程升级与重塑",
               "summary": "深圳站的分享《企业 AI Native 研发流程升级与重塑》.他结合自... 以下是演讲实录(经 InfoQ 进行不改变原意的编辑整理).1 AI ...",
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_dead02314ea8dde15bd6a15a"
+                "local_b5353ed017f27691b142b51e"
               ],
               "confidence": 86
             },
@@ -363,11 +327,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b305d1e3e42812cfb3fc03c1",
-        "local_5cd46e39f6ad7909f85763b6",
-        "local_dead02314ea8dde15bd6a15a",
-        "local_f506ca7073afc12cd063c35c",
-        "local_4bc772b57565ea3d1400a50e",
+        "local_bcdcef48113282ab100b42d8",
+        "local_b5353ed017f27691b142b51e",
+        "local_4cde13dd3f0772f81f9cb7a8",
+        "local_f86f5132287d82450c689c53",
         "local_d61f72a97bbd268f5314cfbf",
         "local_d56d69aa391f383bf0cb3483",
         "local_e189d129ccacce2a6d3f76e0",
@@ -378,13 +341,13 @@
         "local_1173e80b03a8a99405d56f33",
         "local_7d36ae6ef740c1fac8afc7d6"
       ],
-      "generatedAt": "2026-11-18T02:31:01.563Z",
+      "generatedAt": "2026-11-18T10:49:23.605Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-18T02:31:01.564Z",
+  "generatedAt": "2026-11-18T10:49:23.605Z",
   "collectorName": "local-source-collector"
 }
