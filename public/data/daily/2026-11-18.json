@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「Quoting Daniel Stenberg」、「Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 22 条 AI 技术信号，优先看 「Quoting Daniel Stenberg」、「Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Daniel Stenberg",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
@@ -16,7 +16,7 @@
         "跟进：Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
         "跟进：KPMG&#039;s \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
         "跟进：高德轻舟Agent:让产品需求进入真实研发与真机验证链路",
-        "跟进：Agent多人共用为何会失控?来自Ankole的Business Agent架构设计分享"
+        "跟进：Research acceleration: The jagged frontier"
       ],
       "sections": [
         {
@@ -58,62 +58,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_577f1ab248fbe8fa1aa47e24"
+                "local_057003cbfb03ffc59159cc35"
               ],
               "confidence": 92
             },
             {
-              "title": "Agent多人共用为何会失控?来自Ankole的Business Agent架构设计分享",
-              "summary": "机器之心发布继 Coding Agent 之后,Muse、Grok Bot 等 Personal Agent 产品也快速成熟.不少团队尝试把它们引入组织:要么给每...",
+              "title": "Research acceleration: The jagged frontier",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d0b333175ea506c845a0dd3a"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "微软把本体搬进知识库,RAG最难堪的成绩单爆了!",
-              "summary": "导读 微软最近公布的一组实验,暴露了企业 RAG 一个很现实的问题:明明找到了大部分资料,答案却依然不对.在 SEC 文件的六类...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_96bbee683ad8128e3494854d"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "Unreasonable Confidence from Simulator Misspecification: Directional Robustness on the SPEED+ Sim-to-Real Benchmark",
-              "summary": "Vision-based navigation systems for orbit must be trained almost entirely on synthetic imagery, because real labelled images of a given spacecraft in flight rarely exist. Benchmarks like SPEED+ are built for that situation: the training set comes from a simulator, and the test s…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_1be9b60019cfc329276eac4f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "GameRealm: Grounding Visual Learning in Interactive Games",
-              "summary": "Visual foundation models are central to physical intelligence, yet their development remains constrained by fragmented training datasets, inconsistent annotation quality, and limited multimodal supervision. To address these challenges, we introduce GameRealm, a large-scale, rich…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ea32a912e1f8822f7b1e6f95"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI releases GPT-6.2 Astra and Sol, two new models that are more capable and cheaper than their predecessors. In the independent Artificial Analysis Intelligence Index, Astra ranks second behind Claude Fable 5.2, and…",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_fabb1e5678c818d20840806e"
+                "local_eb06d29cd6c24fbee0467d54"
               ],
               "confidence": 92
             }
@@ -122,6 +77,26 @@
         {
           "title": "行业与公司",
           "items": [
+            {
+              "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_deb594a1f330da8a5d7888d9"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "CONGA: Compiling Gaussian Fiber Geometry for Structured Bayesian Inference",
+              "summary": "In structured Bayesian models, a large latent block is often Gaussian conditional on a smaller set of parameters, yet generic inference methods relearn this geometry during warmup. We study how this structure can be used to construct transports for posterior inference. The condi…",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_6f1814e70cb74acd58c3a918"
+              ],
+              "confidence": 90
+            },
             {
               "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation...",
@@ -143,23 +118,85 @@
               "confidence": 92
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "微软把本体搬进知识库,RAG最难堪的成绩单爆了!",
+              "summary": "导读 微软最近公布的一组实验,暴露了企业 RAG 一个很现实的问题:明明找到了大部分资料,答案却依然不对.在 SEC 文件的六类...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f904dfb8a581851f79896e25"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "MInfoVisQA: A Multilingual Benchmark for Information-Rich Visual Question Answering",
+              "summary": "Multimodal large language models (MLLMs) excel in vision-language tasks; yet, whether they maintain consistent understanding of information-rich visuals (InfoVis) when the surface language changes remains unclear. To quantify this capability, we introduce MInfoVisQA, a parallel …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_2703330453c5619f1a83d142"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "The novelty exposed: ablation, reproducibility and transparency in 40 technical reports of open-weight large language models (LLMs)",
+              "summary": "In 2025 alone, 48 new large language model (LLM) architectures were added to the Hugging Face transformers library, and many of them arrive with a technical report that presents the model as new. What is actually new in these models, and is it tested? We put this question to LLM…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b6fffa8e35195d916cdc35ff"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_5b13713587357f12d9052257"
+              ],
+              "confidence": 92
+            }
+          ]
+        },
+        {
+          "title": "物流、地址与召排",
+          "items": [
+            {
+              "title": "Attention at Absolute Zero",
+              "summary": "Attention scores candidate supports of an answer, which we call witnesses, and reads the scores at a temperature. We build a higher-order attention layer whose state lives on pairs of items: for a pair (a, b), each third item k is a witness judged through its legs (a, k) and (k,…",
+              "insightLabel": "关注",
+              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "sourceFeedItemIds": [
+                "local_c4e76a7356c3eecf176a5615"
+              ],
+              "confidence": 92
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
         "local_81aa16105c1a954fafede4c3",
         "local_db4a920f6ca14ea9f0b82fab",
         "local_4d9436a90ad5d9912ba785ab",
-        "local_577f1ab248fbe8fa1aa47e24",
-        "local_d0b333175ea506c845a0dd3a",
-        "local_96bbee683ad8128e3494854d",
-        "local_c45d51ece3060096c4ac485e",
-        "local_1be9b60019cfc329276eac4f",
-        "local_ea32a912e1f8822f7b1e6f95",
-        "local_36a33e92bdb3af5e1ac6e4bf",
-        "local_066d179ccc0da4556b183830",
+        "local_057003cbfb03ffc59159cc35",
+        "local_eb06d29cd6c24fbee0467d54",
+        "local_deb594a1f330da8a5d7888d9",
+        "local_af2c794eea489c0e8b4cd4c8",
+        "local_f904dfb8a581851f79896e25",
+        "local_df9eb972bc5c8cdfd7a5909d",
+        "local_2703330453c5619f1a83d142",
+        "local_c4e76a7356c3eecf176a5615",
+        "local_6f1814e70cb74acd58c3a918",
+        "local_b6fffa8e35195d916cdc35ff",
+        "local_5b13713587357f12d9052257",
         "local_a0c8da81de45253921baf56b",
         "local_786ecb717b4cfae999578041",
-        "local_fabb1e5678c818d20840806e",
         "local_241523529960b84b544895f7",
         "local_a5614e36ee8ec574a0e39aab",
         "local_20b9d40c6fd3d121f130ea5f",
@@ -167,7 +204,7 @@
         "local_87d6dbf031adf98a4ed3eb1b",
         "local_e8e30ff36f321139150e32a9"
       ],
-      "generatedAt": "2026-11-18T19:31:49.673Z",
+      "generatedAt": "2026-11-19T01:37:25.799Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -178,18 +215,18 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-18",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「高德轻舟Agent:让产品需求进入真实研发与真机验证链路」、「Agent多人共用为何会失控?来自Ankole的Business Agent架构设计分享」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「高德轻舟Agent:让产品需求进入真实研发与真机验证链路」、「Research acceleration: The jagged frontier」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德轻舟Agent:让产品需求进入真实研发与真机验证链路",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent多人共用为何会失控?来自Ankole的Business Agent架构设计分享",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：微软把本体搬进知识库,RAG最难堪的成绩单爆了!"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Research acceleration: The jagged frontier",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise"
       ],
       "watchItems": [
         "跟进：高德轻舟Agent:让产品需求进入真实研发与真机验证链路",
+        "跟进：Research acceleration: The jagged frontier",
+        "跟进：How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
         "跟进：Agent多人共用为何会失控?来自Ankole的Business Agent架构设计分享",
-        "跟进：微软把本体搬进知识库,RAG最难堪的成绩单爆了!",
-        "跟进：全球AI早报|GPT-6.2正式发布,英伟达业绩再创新高,AI智能体安全引发监管关注",
-        "跟进：Co-Designing Sparse Attention for Efficient Long-Context Inference"
+        "跟进：微软把本体搬进知识库,RAG最难堪的成绩单爆了!"
       ],
       "sections": [
         {
@@ -201,7 +238,17 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_577f1ab248fbe8fa1aa47e24"
+                "local_057003cbfb03ffc59159cc35"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Research acceleration: The jagged frontier",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_eb06d29cd6c24fbee0467d54"
               ],
               "confidence": 92
             },
@@ -211,7 +258,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d0b333175ea506c845a0dd3a"
+                "local_af2c794eea489c0e8b4cd4c8"
               ],
               "confidence": 92
             },
@@ -221,7 +268,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c45d51ece3060096c4ac485e"
+                "local_df9eb972bc5c8cdfd7a5909d"
               ],
               "confidence": 92
             },
@@ -238,23 +285,18 @@
           ]
         },
         {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "微软把本体搬进知识库,RAG最难堪的成绩单爆了!",
-              "summary": "导读 微软最近公布的一组实验,暴露了企业 RAG 一个很现实的问题:明明找到了大部分资料,答案却依然不对.在 SEC 文件的六类...",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_96bbee683ad8128e3494854d"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
-        {
           "title": "行业与公司",
           "items": [
+            {
+              "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_deb594a1f330da8a5d7888d9"
+              ],
+              "confidence": 74
+            },
             {
               "title": "Integrating QPUs into Supercomputing Centers Using Slurm HRES Plugins",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Quantum processors are being integrated into supercomputing centers worldwide. National programs in North America, Europe, and Asia are driving the installation...",
@@ -266,23 +308,40 @@
               "confidence": 70
             }
           ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
+            {
+              "title": "微软把本体搬进知识库,RAG最难堪的成绩单爆了!",
+              "summary": "导读 微软最近公布的一组实验,暴露了企业 RAG 一个很现实的问题:明明找到了大部分资料,答案却依然不对.在 SEC 文件的六类...",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_f904dfb8a581851f79896e25"
+              ],
+              "confidence": 86
+            }
+          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_577f1ab248fbe8fa1aa47e24",
-        "local_d0b333175ea506c845a0dd3a",
-        "local_96bbee683ad8128e3494854d",
-        "local_c45d51ece3060096c4ac485e",
+        "local_057003cbfb03ffc59159cc35",
+        "local_eb06d29cd6c24fbee0467d54",
+        "local_deb594a1f330da8a5d7888d9",
+        "local_af2c794eea489c0e8b4cd4c8",
+        "local_f904dfb8a581851f79896e25",
+        "local_df9eb972bc5c8cdfd7a5909d",
         "local_20b9d40c6fd3d121f130ea5f",
         "local_1780a99d4279d249b5596f17"
       ],
-      "generatedAt": "2026-11-18T19:31:49.673Z",
+      "generatedAt": "2026-11-19T01:37:25.799Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-18T19:31:49.673Z",
+  "generatedAt": "2026-11-19T01:37:25.800Z",
   "collectorName": "local-source-collector"
 }

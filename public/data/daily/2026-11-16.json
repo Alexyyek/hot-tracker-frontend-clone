@@ -5,33 +5,78 @@
       "topicId": "ai",
       "reportDate": "2026-11-16",
       "title": "AI日报",
-      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Our first phase of embedded assessments」、「用 Super-agent 的理念,拆解 Octop 团队模式」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「用 Super-agent 的理念,拆解 Octop 团队模式」、「京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Our first phase of embedded assessments",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：用 Super-agent 的理念,拆解 Octop 团队模式",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：个人智能体咋总掉线?9顶校发布126页「持续在线智能体」路线图"
       ],
       "watchItems": [
-        "跟进：Our first phase of embedded assessments",
         "跟进：用 Super-agent 的理念,拆解 Octop 团队模式",
         "跟进：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+        "跟进：个人智能体咋总掉线?9顶校发布126页「持续在线智能体」路线图",
         "跟进：优秀案例 | 基于华为云码道的AI赋能网络安全实践教学(北京理工大学-杨德全)",
         "跟进：AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Our first phase of embedded assessments",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+              "title": "用 Super-agent 的理念,拆解 Octop 团队模式",
+              "summary": "团队本质上就是一个工程落地的 Super-Agent 架构:团队内部的各位专家成员被抽象封装为标准化的工具接口,主持人通过工具调用将...",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cd880880237a5f0cdbf4d687"
+                "local_5314770c68f213884f46a2a5"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+              "summary": "京东云全新升级的JoyCode智能编码工具,结合项目上下文、... 智能体不只根据指令生成代码,还能够围绕任务目标拆解步骤、推...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_c4392d0c8b24b65b576aec63"
               ],
               "confidence": 86
             },
+            {
+              "title": "个人智能体咋总掉线?9顶校发布126页「持续在线智能体」路线图",
+              "summary": "新智元报道 个人智能体,正在迎来一场前所未有的密集爆发.在海外,前沿AI实验室接连出手,推出Muse、dots、Claude Duet、Grok...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a4bfe4f78cf65e9ccd412140"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "优秀案例 | 基于华为云码道的AI赋能网络安全实践教学(北京理工大学-杨德全)",
+              "summary": "课程的人工智能实践模块以华为云码道(CodeArts)代码智能体为... 理解码道Agent生态,掌握大模型软件开发七大理念与七大约束;...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_eaeea3b520aca422f7f3553a"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_92d7008ebc1a3a6db097d757"
+              ],
+              "confidence": 78
+            }
+          ]
+        },
+        {
+          "title": "模型与基础设施",
+          "items": [
             {
               "title": "OpenRouter Now Powers Inference on Hugging Face",
               "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Chat models on Hugging Face Inference Providers now run through OpenRouter, with routing across providers and automatic retries. OpenRouter can also send traces to Hugging Face Storage Buckets.",
@@ -43,73 +88,18 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "Agent 与研发提效",
-          "items": [
-            {
-              "title": "用 Super-agent 的理念,拆解 Octop 团队模式",
-              "summary": "团队本质上就是一个工程落地的 Super-Agent 架构:团队内部的各位专家成员被抽象封装为标准化的工具接口,主持人通过工具调用将...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_f5c1c4e1a6cc631debcf77c5"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
-              "summary": "京东云全新升级的JoyCode智能编码工具,结合项目上下文、... 智能体不只根据指令生成代码,还能够围绕任务目标拆解步骤、推...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5fa9ad40c2ceb2117a569524"
-              ],
-              "confidence": 86
-            },
-            {
-              "title": "优秀案例 | 基于华为云码道的AI赋能网络安全实践教学(北京理工大学-杨德全)",
-              "summary": "课程的人工智能实践模块以华为云码道(CodeArts)代码智能体为... 理解码道Agent生态,掌握大模型软件开发七大理念与七大约束;...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_eaeea3b520aca422f7f3553a"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_92d7008ebc1a3a6db097d757"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d3458ba11a48311072485bc4"
-              ],
-              "confidence": 78
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_cd880880237a5f0cdbf4d687",
-        "local_f5c1c4e1a6cc631debcf77c5",
-        "local_5fa9ad40c2ceb2117a569524",
+        "local_5314770c68f213884f46a2a5",
+        "local_c4392d0c8b24b65b576aec63",
+        "local_a4bfe4f78cf65e9ccd412140",
         "local_eaeea3b520aca422f7f3553a",
         "local_92d7008ebc1a3a6db097d757",
         "local_d3458ba11a48311072485bc4",
         "local_4c4a5ca4139ada1e8b33a6b4"
       ],
-      "generatedAt": "2026-11-18T19:31:49.684Z",
+      "generatedAt": "2026-11-19T01:37:25.813Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -120,35 +110,20 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-16",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「Our first phase of embedded assessments」、「用 Super-agent 的理念,拆解 Octop 团队模式」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「用 Super-agent 的理念,拆解 Octop 团队模式」、「京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Our first phase of embedded assessments",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：用 Super-agent 的理念,拆解 Octop 团队模式",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：个人智能体咋总掉线?9顶校发布126页「持续在线智能体」路线图"
       ],
       "watchItems": [
-        "跟进：Our first phase of embedded assessments",
         "跟进：用 Super-agent 的理念,拆解 Octop 团队模式",
         "跟进：京东云推出全新JoyCode智能编码工具,让AI Coding从代码生成走向成果交付",
+        "跟进：个人智能体咋总掉线?9顶校发布126页「持续在线智能体」路线图",
         "跟进：优秀案例 | 基于华为云码道的AI赋能网络安全实践教学(北京理工大学-杨德全)",
         "跟进：AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities"
       ],
       "sections": [
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Our first phase of embedded assessments",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_cd880880237a5f0cdbf4d687"
-              ],
-              "confidence": 86
-            }
-          ]
-        },
         {
           "title": "Agent 与研发提效",
           "items": [
@@ -158,7 +133,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f5c1c4e1a6cc631debcf77c5"
+                "local_5314770c68f213884f46a2a5"
               ],
               "confidence": 92
             },
@@ -168,9 +143,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5fa9ad40c2ceb2117a569524"
+                "local_c4392d0c8b24b65b576aec63"
               ],
               "confidence": 86
+            },
+            {
+              "title": "个人智能体咋总掉线?9顶校发布126页「持续在线智能体」路线图",
+              "summary": "新智元报道 个人智能体,正在迎来一场前所未有的密集爆发.在海外,前沿AI实验室接连出手,推出Muse、dots、Claude Duet、Grok...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a4bfe4f78cf65e9ccd412140"
+              ],
+              "confidence": 92
             },
             {
               "title": "优秀案例 | 基于华为云码道的AI赋能网络安全实践教学(北京理工大学-杨德全)",
@@ -191,35 +176,25 @@
                 "local_92d7008ebc1a3a6db097d757"
               ],
               "confidence": 78
-            },
-            {
-              "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d3458ba11a48311072485bc4"
-              ],
-              "confidence": 78
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_cd880880237a5f0cdbf4d687",
-        "local_f5c1c4e1a6cc631debcf77c5",
-        "local_5fa9ad40c2ceb2117a569524",
+        "local_5314770c68f213884f46a2a5",
+        "local_c4392d0c8b24b65b576aec63",
+        "local_a4bfe4f78cf65e9ccd412140",
         "local_eaeea3b520aca422f7f3553a",
         "local_92d7008ebc1a3a6db097d757",
         "local_d3458ba11a48311072485bc4"
       ],
-      "generatedAt": "2026-11-18T19:31:49.684Z",
+      "generatedAt": "2026-11-19T01:37:25.813Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-18T19:31:49.684Z",
+  "generatedAt": "2026-11-19T01:37:25.813Z",
   "collectorName": "local-source-collector"
 }
