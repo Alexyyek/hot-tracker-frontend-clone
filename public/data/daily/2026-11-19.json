@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Towards a Science of Capable Autonomous Agents &#038; Provable Safety &#8212; Part II」、「Anthropic&#039;s $81.3 billion IPO shatters SpaceX&#039;s record as rising rates and political headwinds shake the sector」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 18 条 AI 技术信号，优先看 「Towards a Science of Capable Autonomous Agents &#038; Provable Safety &#8212; Part II」、「Anthropic&#039;s $81.3 billion IPO shatters SpaceX&#039;s record as rising rates and political headwinds shake the sector」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Towards a Science of Capable Autonomous Agents &#038; Provable Safety &#8212; Part II",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s $81.3 billion IPO shatters SpaceX&#039;s record as rising rates and political headwinds shake the sector",
@@ -16,7 +16,7 @@
         "跟进：Anthropic&#039;s $81.3 billion IPO shatters SpaceX&#039;s record as rising rates and political headwinds shake the sector",
         "跟进：OpenAI&#039;s own researchers now say they value their AI tools more than nearly half their colleagues",
         "跟进：阿里巴巴两篇论文获 ATC 2026 最佳论文奖,并在港研讨 AI Native 系统的可靠性与效率",
-        "跟进：Google&#039;s latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago"
+        "跟进：Agent 研发工作系统:面向多需求并行端到端开发的设计与实践"
       ],
       "sections": [
         {
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_01e6692eef326a6e5de3ec4a"
+                "local_a499bd969cbceb0febe49659"
               ],
               "confidence": 90
             },
@@ -58,19 +58,19 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_20417cc9bccfc5ffbcbf99a8"
+                "local_a43d21581d407e76b073e7ea"
               ],
               "confidence": 90
             },
             {
-              "title": "BLIP-Live: Balancing Timeliness & Firing Precision in Proactive Streaming Video Agents",
-              "summary": "Streaming video understanding is becoming increasingly important for real-world interactive systems. Such systems must be proactive for natural and useful human interaction: they should respond as soon as sufficient evidence becomes available while avoiding premature, redundant,…",
+              "title": "General progress substitutes for specific training data in language models",
+              "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we sh…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_21ff6f0045294c3c5e718fe5"
+                "local_d6a594937fab4c9d595e5457"
               ],
-              "confidence": 92
+              "confidence": 86
             }
           ]
         },
@@ -93,37 +93,37 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_b560a86539588321a8c11a8f"
+                "local_2c9a7fca40daeba933b802c1"
               ],
               "confidence": 82
             },
             {
-              "title": "Kezek: Splitting Mono Two-Person Conversations into Per-Speaker Tracks for Full-Duplex Dialogue Data",
-              "summary": "Full-duplex spoken dialogue models learn turn-taking, overlaps and backchannels from conversations recorded with one channel per speaker, but most available conversational audio is a single mono mix. We present Kezek, a model that turns a mono recording of exactly two people int…",
+              "title": "Replay, Don't Resample: Off-Policy Consolidation of Long-Horizon RL Experts",
+              "summary": "Frontier post-training follows a common recipe: train one expert per domain with reinforcement learning (RL), then consolidate the experts into one model via multi-teacher on-policy distillation (MOPD). Such consolidation is expensive: the student samples in every environment ag…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_c8a2fbb5cf9c32bcb795f491"
+                "local_5dfa303c6f2f83726f9130db"
               ],
               "confidence": 92
             },
             {
-              "title": "Google Deepmind&#039;s Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：With Genie 4, Google DeepMind is launching its most realistic world model to date for Google AI Ultra subscribers. It generates interactive 3D worlds that can be modified in real time via text input and, for the first t…",
+              "title": "Unified Law for Visual Tasks (The Four Laws of Computer Vision)",
+              "summary": "In this paper, we propose a Unified Law for Visual Tasks, which could be further divided into Four Laws of Computer Vision, with the goal of enabling a single framework or method to uniformly train on and perform nearly all visual tasks. Our starting point is an inspiration and …",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_dec562880886a411acba3d2e"
+                "local_f9bd97cfaf13f703cbe3899d"
               ],
-              "confidence": 90
+              "confidence": 92
             },
             {
-              "title": "Google for Mexico: Technology impact that goes beyond business",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：At this year’s Google for Mexico, we announced how our latest AI innovations and partnerships are translating into real-world growth across the country.",
+              "title": "Genie 4 is now available",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_ec82b65201cbff6444cfc4df"
+                "local_f3f09c9d608f2c84668e37a3"
               ],
               "confidence": 74
             }
@@ -133,22 +133,22 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Google&#039;s latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article …",
+              "title": "Choosing Quantized Code LLMs by File Size and Energy per Solved Task",
+              "summary": "A developer running a code assistant on a laptop downloads one model file, and local inference moves the energy of every request onto that machine. A common rule says a larger model at lower precision tends to beat a smaller one at higher precision. We ran 24 GGUF files of Qwen2…",
               "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_15cac710774e0a9189ed620d"
+                "local_c6fb03e9e0cde1d489255698"
               ],
               "confidence": 92
             },
             {
-              "title": "RICoT: Recurrent Interleaved Chain-of-Thought for Page Stream Segmentation",
-              "summary": "Large language models (LLMs) have renewed interest in Page Stream Segmentation (PSS), splitting a multi-page file into its constituent documents. Yet published LLM methods still frame the task as boundary classification over one or a few neighboring pages, and commercial documen…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_c7a2d2e7f03307294ce07846"
+                "local_7526075ae97bbfba05446eb9"
               ],
               "confidence": 92
             },
@@ -179,24 +179,23 @@
         "local_8cdd5dec25bfc9b9b465a0d8",
         "local_f628b398ba476f8947aa87ac",
         "local_055a172090bd964d165ffbd6",
-        "local_b560a86539588321a8c11a8f",
-        "local_15cac710774e0a9189ed620d",
-        "local_01e6692eef326a6e5de3ec4a",
-        "local_20417cc9bccfc5ffbcbf99a8",
-        "local_c7a2d2e7f03307294ce07846",
-        "local_21ff6f0045294c3c5e718fe5",
-        "local_c8a2fbb5cf9c32bcb795f491",
-        "local_3521a938c41779df8319c7bb",
+        "local_2c9a7fca40daeba933b802c1",
+        "local_a499bd969cbceb0febe49659",
+        "local_a43d21581d407e76b073e7ea",
+        "local_d6a594937fab4c9d595e5457",
+        "local_5dfa303c6f2f83726f9130db",
+        "local_f9bd97cfaf13f703cbe3899d",
+        "local_c6fb03e9e0cde1d489255698",
+        "local_7526075ae97bbfba05446eb9",
         "local_948f9982036e341b55dbc2f4",
-        "local_dec562880886a411acba3d2e",
         "local_59f822446fbe6be7ce17e7d9",
-        "local_ec82b65201cbff6444cfc4df",
         "local_f3f09c9d608f2c84668e37a3",
+        "local_ec82b65201cbff6444cfc4df",
         "local_cc6ca8d24013f050770ff164",
         "local_009aac97653790cc4f32f681",
         "local_a1976a0bddbd28a59369276a"
       ],
-      "generatedAt": "2026-11-19T18:47:04.880Z",
+      "generatedAt": "2026-11-20T01:22:51.829Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -217,8 +216,8 @@
         "跟进：阿里巴巴两篇论文获 ATC 2026 最佳论文奖,并在港研讨 AI Native 系统的可靠性与效率",
         "跟进：Agent 研发工作系统:面向多需求并行端到端开发的设计与实践",
         "跟进：Fable 5.2开卷80%,闭卷仅47%!最强编程智能体遇上机器人难题",
-        "跟进：Google for Mexico: Technology impact that goes beyond business",
-        "跟进：Genie 4 is now available"
+        "跟进：Genie 4 is now available",
+        "跟进：Google for Mexico: Technology impact that goes beyond business"
       ],
       "sections": [
         {
@@ -230,19 +229,9 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_b560a86539588321a8c11a8f"
+                "local_2c9a7fca40daeba933b802c1"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Google for Mexico: Technology impact that goes beyond business",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：At this year’s Google for Mexico, we announced how our latest AI innovations and partnerships are translating into real-world growth across the country.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_ec82b65201cbff6444cfc4df"
-              ],
-              "confidence": 74
             },
             {
               "title": "Genie 4 is now available",
@@ -251,6 +240,16 @@
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
                 "local_f3f09c9d608f2c84668e37a3"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Google for Mexico: Technology impact that goes beyond business",
+              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：At this year’s Google for Mexico, we announced how our latest AI innovations and partnerships are translating into real-world growth across the country.",
+              "insightLabel": "关注",
+              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
+              "sourceFeedItemIds": [
+                "local_ec82b65201cbff6444cfc4df"
               ],
               "confidence": 74
             },
@@ -275,7 +274,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_01e6692eef326a6e5de3ec4a"
+                "local_a499bd969cbceb0febe49659"
               ],
               "confidence": 90
             },
@@ -285,7 +284,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_20417cc9bccfc5ffbcbf99a8"
+                "local_a43d21581d407e76b073e7ea"
               ],
               "confidence": 90
             },
@@ -318,22 +317,22 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_b560a86539588321a8c11a8f",
-        "local_01e6692eef326a6e5de3ec4a",
-        "local_20417cc9bccfc5ffbcbf99a8",
-        "local_ec82b65201cbff6444cfc4df",
+        "local_2c9a7fca40daeba933b802c1",
+        "local_a499bd969cbceb0febe49659",
+        "local_a43d21581d407e76b073e7ea",
         "local_f3f09c9d608f2c84668e37a3",
+        "local_ec82b65201cbff6444cfc4df",
         "local_cc6ca8d24013f050770ff164",
         "local_009aac97653790cc4f32f681",
         "local_a1976a0bddbd28a59369276a"
       ],
-      "generatedAt": "2026-11-19T18:47:04.880Z",
+      "generatedAt": "2026-11-20T01:22:51.829Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-19T18:47:04.880Z",
+  "generatedAt": "2026-11-20T01:22:51.830Z",
   "collectorName": "local-source-collector"
 }
