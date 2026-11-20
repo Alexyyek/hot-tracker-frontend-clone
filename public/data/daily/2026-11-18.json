@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-18",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Quoting Daniel Stenberg」、「Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 9 条 AI 技术信号，优先看 「Quoting Daniel Stenberg」、「高德轻舟Agent:让产品需求进入真实研发与真机验证链路」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Daniel Stenberg",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Probing agent overeagerness in realistic settings with continuation audits"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：高德轻舟Agent:让产品需求进入真实研发与真机验证链路",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Research acceleration: The jagged frontier"
       ],
       "watchItems": [
         "跟进：Quoting Daniel Stenberg",
-        "跟进：Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-        "跟进：Probing agent overeagerness in realistic settings with continuation audits",
-        "跟进：Semantic Context Handoff with On-Demand Evidence for Long-Horizon Agents",
-        "跟进：高德轻舟Agent:让产品需求进入真实研发与真机验证链路"
+        "跟进：高德轻舟Agent:让产品需求进入真实研发与真机验证链路",
+        "跟进：Research acceleration: The jagged frontier",
+        "跟进：How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+        "跟进：Agent多人共用为何会失控?来自Ankole的Business Agent架构设计分享"
       ],
       "sections": [
         {
@@ -33,42 +33,42 @@
               "confidence": 92
             },
             {
-              "title": "Piccolo: Co-Evolving Decision Models and Data through Recursive Self-Improvement",
-              "summary": "We present Piccolo, a family of multimodal decision models (0.8B to 27B) that coevolves model capabilities and training data via Agentic Data Engineering and recursive self-improvement (RSI). The models predict probabilities over candidate answers for general-purpose text and vi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_dec38d2f6cf6a6cc9bd3771b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Probing agent overeagerness in realistic settings with continuation audits",
-              "summary": "Frontier coding agents increasingly exhibit overeagerness, taking surprising, sometimes reckless actions beyond a user's mandate --- reported in recent system cards from frontier model developers. These cases are surfaced through internal deployment monitoring, which requires pr…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_da345d9ac643ae97e8623e54"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Semantic Context Handoff with On-Demand Evidence for Long-Horizon Agents",
-              "summary": "Traditional long-horizon LLM agents often hand off context through full-history prompting, retaining all previous action--observation interactions. As execution proceeds, this history keeps growing, increasing inference cost and potentially degrading accuracy. Existing methods c…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_73b8e399e8e0db862f4a2e5b"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "高德轻舟Agent:让产品需求进入真实研发与真机验证链路",
               "summary": "搜索问题归因与经验迭代实践#高德 #高德技术 #AI Native #轻舟Agent #真机验证END",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0110f19e8590ae28fd1cbecf"
+                "local_917c42c89fbacf5cc8e61c45"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Research acceleration: The jagged frontier",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_eb06d29cd6c24fbee0467d54"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Agent多人共用为何会失控?来自Ankole的Business Agent架构设计分享",
+              "summary": "机器之心发布继 Coding Agent 之后,Muse、Grok Bot 等 Personal Agent 产品也快速成熟.不少团队尝试把它们引入组织:要么给每...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_305a294523e0737d8de80bef"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "全球AI早报|GPT-6.2正式发布,英伟达业绩再创新高,AI智能体安全引发监管关注",
+              "summary": "指控其AI智能体测试存在安全漏洞.此外,Google调整Gemini临时聊天数据保存政策,AI隐私与安全治理再次成为行业焦点.以下为过...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_33015c4ee11ef196613d37bc"
               ],
               "confidence": 92
             }
@@ -107,20 +107,16 @@
       ],
       "referencedFeedItemIds": [
         "local_81aa16105c1a954fafede4c3",
-        "local_dec38d2f6cf6a6cc9bd3771b",
-        "local_da345d9ac643ae97e8623e54",
-        "local_73b8e399e8e0db862f4a2e5b",
-        "local_0110f19e8590ae28fd1cbecf",
+        "local_917c42c89fbacf5cc8e61c45",
         "local_eb06d29cd6c24fbee0467d54",
         "local_deb594a1f330da8a5d7888d9",
-        "local_cf59378710ad6400dca25365",
+        "local_305a294523e0737d8de80bef",
         "local_f815db2f4eb6cae05b865860",
-        "local_fbd90f07981aad951db5eec4",
+        "local_33015c4ee11ef196613d37bc",
         "local_a0c8da81de45253921baf56b",
-        "local_786ecb717b4cfae999578041",
         "local_20b9d40c6fd3d121f130ea5f"
       ],
-      "generatedAt": "2026-11-20T01:22:51.842Z",
+      "generatedAt": "2026-11-20T09:17:10.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -154,7 +150,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0110f19e8590ae28fd1cbecf"
+                "local_917c42c89fbacf5cc8e61c45"
               ],
               "confidence": 92
             },
@@ -174,7 +170,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_cf59378710ad6400dca25365"
+                "local_305a294523e0737d8de80bef"
               ],
               "confidence": 92
             },
@@ -184,7 +180,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_fbd90f07981aad951db5eec4"
+                "local_33015c4ee11ef196613d37bc"
               ],
               "confidence": 92
             },
@@ -232,21 +228,21 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0110f19e8590ae28fd1cbecf",
+        "local_917c42c89fbacf5cc8e61c45",
         "local_eb06d29cd6c24fbee0467d54",
         "local_deb594a1f330da8a5d7888d9",
-        "local_cf59378710ad6400dca25365",
+        "local_305a294523e0737d8de80bef",
         "local_f815db2f4eb6cae05b865860",
-        "local_fbd90f07981aad951db5eec4",
+        "local_33015c4ee11ef196613d37bc",
         "local_20b9d40c6fd3d121f130ea5f"
       ],
-      "generatedAt": "2026-11-20T01:22:51.842Z",
+      "generatedAt": "2026-11-20T09:17:10.684Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-20T01:22:51.842Z",
+  "generatedAt": "2026-11-20T09:17:10.685Z",
   "collectorName": "local-source-collector"
 }
