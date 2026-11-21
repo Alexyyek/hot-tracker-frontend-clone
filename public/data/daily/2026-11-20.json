@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了」、「Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 20 条 AI 技术信号，优先看 「\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了」、「Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Token fraud is here and it’s BAD (YouTube)"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：llm-gemini 0.38.1"
       ],
       "watchItems": [
         "跟进：\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了",
         "跟进：Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷",
+        "跟进：llm-gemini 0.38.1",
         "跟进：Token fraud is here and it’s BAD (YouTube)",
-        "跟进：全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态",
-        "跟进：Hebbia sees improvements in financial research with GPT-6 Astra"
+        "跟进：全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0fcb0ae0337f20fa6db6e377"
+                "local_35e821cebab20bd0f3509777"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7d42fcc8bd89525155057225"
+                "local_0a71285411ec7c436f7b83e3"
               ],
               "confidence": 90
             },
@@ -78,6 +78,16 @@
           "title": "模型与基础设施",
           "items": [
             {
+              "title": "llm-gemini 0.38.1",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_85166d181269cdf057619086"
+              ],
+              "confidence": 92
+            },
+            {
               "title": "全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态",
               "summary": "2026年11月20日|全球AI行业新闻简报|北京时间过去24小时,全球人工智能行业在大模型、资本市场、AI芯片、算力基础设施和产业应...",
               "insightLabel": "关注",
@@ -114,16 +124,6 @@
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
                 "local_93845ec4ca416ae3dd4084fc"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "LLM Rankings",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e5250041c1f9028547a0bd2f"
               ],
               "confidence": 92
             }
@@ -176,8 +176,9 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0fcb0ae0337f20fa6db6e377",
-        "local_7d42fcc8bd89525155057225",
+        "local_35e821cebab20bd0f3509777",
+        "local_0a71285411ec7c436f7b83e3",
+        "local_85166d181269cdf057619086",
         "local_ce8dce003f3e26a3170b3178",
         "local_54e7666170a44948b798755d",
         "local_1d0576a2ef4aefa12ad7c0a5",
@@ -196,7 +197,7 @@
         "local_ceae49b1b8bdc4202cb1aabb",
         "local_cdac10158da77b22f6103c1a"
       ],
-      "generatedAt": "2026-11-21T15:26:20.273Z",
+      "generatedAt": "2026-11-21T21:14:17.887Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -230,7 +231,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_0fcb0ae0337f20fa6db6e377"
+                "local_35e821cebab20bd0f3509777"
               ],
               "confidence": 92
             },
@@ -240,7 +241,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7d42fcc8bd89525155057225"
+                "local_0a71285411ec7c436f7b83e3"
               ],
               "confidence": 90
             },
@@ -338,8 +339,8 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_0fcb0ae0337f20fa6db6e377",
-        "local_7d42fcc8bd89525155057225",
+        "local_35e821cebab20bd0f3509777",
+        "local_0a71285411ec7c436f7b83e3",
         "local_54e7666170a44948b798755d",
         "local_1d0576a2ef4aefa12ad7c0a5",
         "local_f4056732f42092fe7d28fe82",
@@ -349,13 +350,13 @@
         "local_93bd61674e0904b161cb7062",
         "local_ceae49b1b8bdc4202cb1aabb"
       ],
-      "generatedAt": "2026-11-21T15:26:20.273Z",
+      "generatedAt": "2026-11-21T21:14:17.887Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-21T15:26:20.274Z",
+  "generatedAt": "2026-11-21T21:14:17.887Z",
   "collectorName": "local-source-collector"
 }
