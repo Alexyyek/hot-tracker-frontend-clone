@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-17",
       "title": "AI日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「企业 AI Native 研发流程升级与重塑」、「HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「企业 AI Native 研发流程升级与重塑」、「HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业 AI Native 研发流程升级与重塑",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统",
@@ -15,8 +15,8 @@
         "跟进：企业 AI Native 研发流程升级与重塑",
         "跟进：HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统",
         "跟进：京东11.11大促系列|Super Agent 进群:今年11.11,多了个会主动干活的＂数字人队长＂",
-        "跟进：Introducing OpenAI for Chile",
-        "跟进：Astra for Law leads in legal intelligence"
+        "跟进：How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+        "跟进：NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance"
       ],
       "sections": [
         {
@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_99ad6a641dc8c64aef26bc34"
+                "local_d233306e24520db3be7fed26"
               ],
               "confidence": 86
             }
@@ -43,7 +43,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_123f1bd97107c2584a4b5454"
+                "local_2e15e4b7000ba24f65fa9a05"
               ],
               "confidence": 92
             },
@@ -53,19 +53,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_38f5e61d169e5e8df4f42ba8"
+                "local_ec0e09145276aa766f0feab7"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Introducing OpenAI for Chile",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d56d69aa391f383bf0cb3483"
-              ],
-              "confidence": 82
             },
             {
               "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
@@ -86,36 +76,29 @@
                 "local_da0ff6d4cc24500bc8af864b"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
+            },
             {
-              "title": "Astra for Law leads in legal intelligence",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+              "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
               "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d61f72a97bbd268f5314cfbf"
+                "local_73e86b9aae96a23c27500102"
               ],
-              "confidence": 86
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_99ad6a641dc8c64aef26bc34",
-        "local_123f1bd97107c2584a4b5454",
-        "local_38f5e61d169e5e8df4f42ba8",
-        "local_d56d69aa391f383bf0cb3483",
-        "local_d61f72a97bbd268f5314cfbf",
+        "local_d233306e24520db3be7fed26",
+        "local_2e15e4b7000ba24f65fa9a05",
+        "local_ec0e09145276aa766f0feab7",
         "local_ab2842403f3697231f30d099",
         "local_da0ff6d4cc24500bc8af864b",
         "local_73e86b9aae96a23c27500102"
       ],
-      "generatedAt": "2026-11-20T18:08:48.375Z",
+      "generatedAt": "2026-11-21T00:06:24.329Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -126,7 +109,7 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-17",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「企业 AI Native 研发流程升级与重塑」、「HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「企业 AI Native 研发流程升级与重塑」、「HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：企业 AI Native 研发流程升级与重塑",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统",
@@ -136,8 +119,8 @@
         "跟进：企业 AI Native 研发流程升级与重塑",
         "跟进：HARTS:面向长程 Agentic RL 的混合注意力前缀共享训练系统",
         "跟进：京东11.11大促系列|Super Agent 进群:今年11.11,多了个会主动干活的＂数字人队长＂",
-        "跟进：Introducing OpenAI for Chile",
-        "跟进：Astra for Law leads in legal intelligence"
+        "跟进：How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+        "跟进：NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance"
       ],
       "sections": [
         {
@@ -149,7 +132,7 @@
               "insightLabel": "关注",
               "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_99ad6a641dc8c64aef26bc34"
+                "local_d233306e24520db3be7fed26"
               ],
               "confidence": 86
             }
@@ -164,7 +147,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_123f1bd97107c2584a4b5454"
+                "local_2e15e4b7000ba24f65fa9a05"
               ],
               "confidence": 92
             },
@@ -174,19 +157,9 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_38f5e61d169e5e8df4f42ba8"
+                "local_ec0e09145276aa766f0feab7"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Introducing OpenAI for Chile",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d56d69aa391f383bf0cb3483"
-              ],
-              "confidence": 82
             },
             {
               "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
@@ -207,42 +180,35 @@
                 "local_da0ff6d4cc24500bc8af864b"
               ],
               "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
+            },
             {
-              "title": "Astra for Law leads in legal intelligence",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+              "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference.",
               "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d61f72a97bbd268f5314cfbf"
+                "local_73e86b9aae96a23c27500102"
               ],
-              "confidence": 86
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_99ad6a641dc8c64aef26bc34",
-        "local_123f1bd97107c2584a4b5454",
-        "local_38f5e61d169e5e8df4f42ba8",
-        "local_d56d69aa391f383bf0cb3483",
-        "local_d61f72a97bbd268f5314cfbf",
+        "local_d233306e24520db3be7fed26",
+        "local_2e15e4b7000ba24f65fa9a05",
+        "local_ec0e09145276aa766f0feab7",
         "local_ab2842403f3697231f30d099",
         "local_da0ff6d4cc24500bc8af864b",
         "local_73e86b9aae96a23c27500102"
       ],
-      "generatedAt": "2026-11-20T18:08:48.375Z",
+      "generatedAt": "2026-11-21T00:06:24.329Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-20T18:08:48.375Z",
+  "generatedAt": "2026-11-21T00:06:24.329Z",
   "collectorName": "local-source-collector"
 }

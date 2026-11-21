@@ -28,7 +28,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5a7b6fb0c7848dfb76d248aa"
+                "local_1bfaacc0ade285454671a3d2"
               ],
               "confidence": 92
             },
@@ -38,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2d01d12cce7f334c4339d35b"
+                "local_98628c45da7b14dc41c99b49"
               ],
               "confidence": 92
             },
@@ -48,7 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9c8759f5b94c904c28b7c961"
+                "local_35ec0f23a363d0de391280fd"
               ],
               "confidence": 92
             },
@@ -58,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5487e0dce58adbd0ccb7de35"
+                "local_09793bf91ab7e3d5d5029743"
               ],
               "confidence": 82
             },
@@ -68,7 +68,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_912811fafa85f70d290aa80a"
+                "local_27c96f102c45634850d03806"
               ],
               "confidence": 74
             }
@@ -83,7 +83,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_38d755a3b9e93ebb5ec834b5"
+                "local_0bb192935321caadd7aacc69"
               ],
               "confidence": 78
             },
@@ -93,7 +93,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_c1ee26cf46164342fd29d247"
+                "local_8fb734ce289d603a70184598"
               ],
               "confidence": 82
             }
@@ -108,29 +108,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d40c13a8e41c09887003ac9e"
+                "local_02007d92db75ecfc88e7ba43"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Distributed LLM Training Across Metros: Streaming DiLoCo in MaxText",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Streaming DiLoCo in MaxText enables developers to efficiently train large language models across geographically distributed TPU slices by streaming parameter fragments instead of synchronizing full models at every step.…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_00f84a5c7d5e286cd72815b2"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e4b55b529ead1033ac193e7a"
-              ],
-              "confidence": 82
             },
             {
               "title": "AI Model Benchmarks",
@@ -138,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_8ba98cf383594a5dd4dc783a"
+                "local_998a8b4897d6f2a35acceabf"
               ],
               "confidence": 82
             },
@@ -148,40 +128,60 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_1de69d452f2e446a08786a13"
+                "local_0a0bdf55cd3944092fb7dc09"
               ],
               "confidence": 74
+            },
+            {
+              "title": "Training LLMs to Predict World Events (Guest Post with Mantic)",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Mantic have been using Tinker since it launched. This guest post is a technical deep dive on what they have built so far. The top AI forecasting systems are approaching superforecaster-level accuracy on geopolitics and …",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_b5c79137dbaeda4187043c23"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Defeating Nondeterminism in LLM Inference",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Reproducibility is a bedrock of scientific progress. However, it’s remarkably difficult to get reproducible results out of large language models. For example, you might observe that asking ChatGPT the same question mult…",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_6d5b346600de7cd751cc98bf"
+              ],
+              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_5a7b6fb0c7848dfb76d248aa",
-        "local_2d01d12cce7f334c4339d35b",
-        "local_9c8759f5b94c904c28b7c961",
-        "local_38d755a3b9e93ebb5ec834b5",
-        "local_5487e0dce58adbd0ccb7de35",
-        "local_912811fafa85f70d290aa80a",
-        "local_364d017d2c63e78369bd8705",
-        "local_a118d528334c4545cd6ba0ed",
-        "local_d40c13a8e41c09887003ac9e",
-        "local_445f7407a91893562bc87489",
-        "local_b68e231e06cf6365fc53d008",
-        "local_298d596ac188ba55952fac2c",
-        "local_00f84a5c7d5e286cd72815b2",
-        "local_e4b55b529ead1033ac193e7a",
-        "local_d087ef552d162d9e4bff7021",
-        "local_6a5d93c574e9a9b413db9716",
-        "local_bdf25b2329923dfcd45019f8",
-        "local_186b61bc091471fdb78b1cdd",
-        "local_2ae15cebb15a312153c2f0fd",
-        "local_8ba98cf383594a5dd4dc783a",
-        "local_c1ee26cf46164342fd29d247",
-        "local_1de69d452f2e446a08786a13",
-        "local_e9b2679bb6044e787a3f9a78",
-        "local_cb6731ac15165ed255a464d8"
+        "local_1bfaacc0ade285454671a3d2",
+        "local_98628c45da7b14dc41c99b49",
+        "local_35ec0f23a363d0de391280fd",
+        "local_0bb192935321caadd7aacc69",
+        "local_09793bf91ab7e3d5d5029743",
+        "local_27c96f102c45634850d03806",
+        "local_d374d16e9c6df109a365bbfe",
+        "local_2e0f1a4bcc342bf149c4cbbc",
+        "local_02007d92db75ecfc88e7ba43",
+        "local_2ad66d0347d3b0fb6bb4dbd8",
+        "local_c87d21273a4986d9e81cbfdf",
+        "local_45b812f03009ab24ffa2f1ae",
+        "local_6d745f80934679fcf2d3c6c4",
+        "local_15c10c0abe03a39d3eb47f8e",
+        "local_b07553f08aaa010d720467af",
+        "local_21f614982d824c6ae1b0d917",
+        "local_d417a8a471bf0d1c6a482887",
+        "local_7050b5b52c34ac1fa32b310d",
+        "local_5c09fc1617b4005235e27f46",
+        "local_998a8b4897d6f2a35acceabf",
+        "local_8fb734ce289d603a70184598",
+        "local_0a0bdf55cd3944092fb7dc09",
+        "local_b5c79137dbaeda4187043c23",
+        "local_6d5b346600de7cd751cc98bf"
       ],
-      "generatedAt": "2026-11-20T18:08:48.387Z",
+      "generatedAt": "2026-11-21T00:06:24.344Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -215,7 +215,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5a7b6fb0c7848dfb76d248aa"
+                "local_1bfaacc0ade285454671a3d2"
               ],
               "confidence": 92
             },
@@ -225,7 +225,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_2d01d12cce7f334c4339d35b"
+                "local_98628c45da7b14dc41c99b49"
               ],
               "confidence": 92
             },
@@ -235,7 +235,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_9c8759f5b94c904c28b7c961"
+                "local_35ec0f23a363d0de391280fd"
               ],
               "confidence": 92
             },
@@ -245,7 +245,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_5487e0dce58adbd0ccb7de35"
+                "local_09793bf91ab7e3d5d5029743"
               ],
               "confidence": 82
             },
@@ -255,7 +255,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_912811fafa85f70d290aa80a"
+                "local_27c96f102c45634850d03806"
               ],
               "confidence": 74
             }
@@ -270,7 +270,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_38d755a3b9e93ebb5ec834b5"
+                "local_0bb192935321caadd7aacc69"
               ],
               "confidence": 78
             },
@@ -280,7 +280,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_f698162f156cf44a20155f44"
+                "local_1db1c16f5a786179563281f9"
               ],
               "confidence": 70
             }
@@ -295,29 +295,9 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d40c13a8e41c09887003ac9e"
+                "local_02007d92db75ecfc88e7ba43"
               ],
               "confidence": 78
-            },
-            {
-              "title": "Distributed LLM Training Across Metros: Streaming DiLoCo in MaxText",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Streaming DiLoCo in MaxText enables developers to efficiently train large language models across geographically distributed TPU slices by streaming parameter fragments instead of synchronizing full models at every step.…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_00f84a5c7d5e286cd72815b2"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e4b55b529ead1033ac193e7a"
-              ],
-              "confidence": 82
             },
             {
               "title": "Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity - Publications - ByteDance Seed Team",
@@ -325,7 +305,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_aca99a6c6672dcf9d3d6e12f"
+                "local_cb1e05ddd1f0648fd3547503"
               ],
               "confidence": 92
             }
@@ -333,32 +313,32 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5a7b6fb0c7848dfb76d248aa",
-        "local_2d01d12cce7f334c4339d35b",
-        "local_9c8759f5b94c904c28b7c961",
-        "local_38d755a3b9e93ebb5ec834b5",
-        "local_5487e0dce58adbd0ccb7de35",
-        "local_912811fafa85f70d290aa80a",
-        "local_364d017d2c63e78369bd8705",
-        "local_a118d528334c4545cd6ba0ed",
-        "local_d40c13a8e41c09887003ac9e",
-        "local_445f7407a91893562bc87489",
-        "local_b68e231e06cf6365fc53d008",
-        "local_298d596ac188ba55952fac2c",
-        "local_00f84a5c7d5e286cd72815b2",
-        "local_e4b55b529ead1033ac193e7a",
-        "local_d087ef552d162d9e4bff7021",
-        "local_aca99a6c6672dcf9d3d6e12f",
-        "local_d0bb7adb3427f46259fd091a",
-        "local_f698162f156cf44a20155f44"
+        "local_1bfaacc0ade285454671a3d2",
+        "local_98628c45da7b14dc41c99b49",
+        "local_35ec0f23a363d0de391280fd",
+        "local_0bb192935321caadd7aacc69",
+        "local_09793bf91ab7e3d5d5029743",
+        "local_27c96f102c45634850d03806",
+        "local_d374d16e9c6df109a365bbfe",
+        "local_2e0f1a4bcc342bf149c4cbbc",
+        "local_02007d92db75ecfc88e7ba43",
+        "local_2ad66d0347d3b0fb6bb4dbd8",
+        "local_c87d21273a4986d9e81cbfdf",
+        "local_45b812f03009ab24ffa2f1ae",
+        "local_6d745f80934679fcf2d3c6c4",
+        "local_15c10c0abe03a39d3eb47f8e",
+        "local_b07553f08aaa010d720467af",
+        "local_cb1e05ddd1f0648fd3547503",
+        "local_5e319d5d87a4d6f753c52d58",
+        "local_1db1c16f5a786179563281f9"
       ],
-      "generatedAt": "2026-11-20T18:08:48.387Z",
+      "generatedAt": "2026-11-21T00:06:24.344Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-20T18:08:48.387Z",
+  "generatedAt": "2026-11-21T00:06:24.345Z",
   "collectorName": "local-source-collector"
 }
