@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace」、「Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 8 条 AI 技术信号，优先看 「AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace」、「Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
@@ -15,8 +15,8 @@
         "跟进：AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
         "跟进：Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
         "跟进：Security researchers show how cheap AI inference providers steal keys and snoop on users",
-        "跟进：Lean and Mathlib community officially confirms Levent Alpöge&#039;s proof of the Riemann hypothesis is correct",
-        "跟进：Data Processing Incidents on Inference Providers"
+        "跟进：80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
+        "跟进：Lean and Mathlib community officially confirms Levent Alpöge&#039;s proof of the Riemann hypothesis is correct"
       ],
       "sections": [
         {
@@ -41,6 +41,16 @@
                 "local_ae5d99c062b074ba0d46f72c"
               ],
               "confidence": 74
+            },
+            {
+              "title": "80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
+              "summary": "多模态智能体记忆与长期交互智能体看到杯子被移动后,怎样记住新位置,并在之后的任务中使用这段经验?当信息来自图像、视频、...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_3b9165c581175fbc76de8a71"
+              ],
+              "confidence": 92
             }
           ]
         },
@@ -56,6 +66,16 @@
                 "local_4bcd9883632be78ff14ea826"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Perplexity and Intelligence",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+              "insightLabel": "关注",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
+              "sourceFeedItemIds": [
+                "local_c1ffd63959ece4b6671b0bf1"
+              ],
+              "confidence": 74
             }
           ]
         },
@@ -99,11 +119,13 @@
         "local_d9040eb54fec9e3303069289",
         "local_ae5d99c062b074ba0d46f72c",
         "local_4bcd9883632be78ff14ea826",
+        "local_3b9165c581175fbc76de8a71",
         "local_930fdc848ec1d59dde4b5269",
+        "local_c1ffd63959ece4b6671b0bf1",
         "local_2724c6829ef02174badd68a0",
         "local_10fa975a95b1ef27e7968ebc"
       ],
-      "generatedAt": "2026-11-22T17:13:59.642Z",
+      "generatedAt": "2026-11-22T22:35:59.361Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -114,42 +136,28 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-22",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace」、「Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「80位学者梳理多模态智能体记忆:297种架构,仅17种自进化」、「Perplexity and Intelligence」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Security researchers show how cheap AI inference providers steal keys and snoop on users"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Perplexity and Intelligence"
       ],
       "watchItems": [
-        "跟进：AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-        "跟进：Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
-        "跟进：Security researchers show how cheap AI inference providers steal keys and snoop on users",
-        "跟进：Lean and Mathlib community officially confirms Levent Alpöge&#039;s proof of the Riemann hypothesis is correct",
-        "跟进：Data Processing Incidents on Inference Providers"
+        "跟进：80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
+        "跟进：Perplexity and Intelligence"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets…",
+              "title": "80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
+              "summary": "多模态智能体记忆与长期交互智能体看到杯子被移动后,怎样记住新位置,并在之后的任务中使用这段经验?当信息来自图像、视频、...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d9040eb54fec9e3303069289"
+                "local_3b9165c581175fbc76de8a71"
               ],
               "confidence": 92
-            },
-            {
-              "title": "Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API i…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ae5d99c062b074ba0d46f72c"
-              ],
-              "confidence": 74
             }
           ]
         },
@@ -157,68 +165,29 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace rese…",
+              "title": "Perplexity and Intelligence",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "优先找可复用的工程范式、组织实践和系统架构细节，低相关议题可直接跳过。",
               "sourceFeedItemIds": [
-                "local_4bcd9883632be78ff14ea826"
-              ],
-              "confidence": 92
-            }
-          ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "Lean and Mathlib community officially confirms Levent Alpöge&#039;s proof of the Riemann hypothesis is correct",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived yea…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_930fdc848ec1d59dde4b5269"
+                "local_c1ffd63959ece4b6671b0bf1"
               ],
               "confidence": 74
-            },
-            {
-              "title": "Data Processing Incidents on Inference Providers",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：OpenRouter off-boarded three providers, removed 125 endpoints from Zero Data Retention eligibility, and notified potentially affected customers after canary token research on inference providers.",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_2724c6829ef02174badd68a0"
-              ],
-              "confidence": 78
-            },
-            {
-              "title": "Muru",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_10fa975a95b1ef27e7968ebc"
-              ],
-              "confidence": 92
             }
           ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_d9040eb54fec9e3303069289",
-        "local_ae5d99c062b074ba0d46f72c",
-        "local_4bcd9883632be78ff14ea826",
-        "local_930fdc848ec1d59dde4b5269",
-        "local_2724c6829ef02174badd68a0",
-        "local_10fa975a95b1ef27e7968ebc"
+        "local_3b9165c581175fbc76de8a71",
+        "local_c1ffd63959ece4b6671b0bf1"
       ],
-      "generatedAt": "2026-11-22T17:13:59.642Z",
+      "generatedAt": "2026-11-22T22:35:59.361Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-22T17:13:59.642Z",
+  "generatedAt": "2026-11-22T22:35:59.361Z",
   "collectorName": "local-source-collector"
 }

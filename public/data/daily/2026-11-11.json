@@ -5,40 +5,30 @@
       "topicId": "ai",
       "reportDate": "2026-11-11",
       "title": "AI日报",
-      "mainLine": "今日筛出 6 条 AI 技术信号，优先看 「EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来」、「压测AI Agent 治理与评测调优实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「压测AI Agent 治理与评测调优实践」、「开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：压测AI Agent 治理与评测调优实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
       ],
       "watchItems": [
-        "跟进：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
         "跟进：压测AI Agent 治理与评测调优实践",
         "跟进：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
         "跟进：BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-        "跟进：HyperAgent:openJiuwen对未来Agent架构的思考和实践"
+        "跟进：HyperAgent:openJiuwen对未来Agent架构的思考和实践",
+        "跟进：Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
-              "summary": "即使在缺少文件的情况下,也能够有效推断执行环境并完成验证.相比于通用 Agent 如 Claude code 智能体,RAT 在特定领域任务上...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_023d52bb24eafdacde8aa30e"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "压测AI Agent 治理与评测调优实践",
               "summary": "40%|得物技术5.动态规则的 Agent 实践:用确定性工程驾驭 LLM 的资产智能验收文 /恒宇关注得物技术,每周三更新技术诉求与原始证...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_86a873b7b5be9bb012ab691f"
+                "local_c2925463ea3591371c371399"
               ],
               "confidence": 92
             },
@@ -48,7 +38,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4aaf1cbc335866a4bdf99704"
+                "local_f8203734591d66c6818c4b0f"
               ],
               "confidence": 92
             },
@@ -68,7 +58,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6bde5b4546e5144a1a34885c"
+                "local_de69da42a501657c3bb1b6ed"
               ],
               "confidence": 92
             }
@@ -91,14 +81,13 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_023d52bb24eafdacde8aa30e",
-        "local_86a873b7b5be9bb012ab691f",
-        "local_4aaf1cbc335866a4bdf99704",
+        "local_c2925463ea3591371c371399",
+        "local_f8203734591d66c6818c4b0f",
         "local_74d0de4a810d8c35cf9b0411",
-        "local_6bde5b4546e5144a1a34885c",
+        "local_de69da42a501657c3bb1b6ed",
         "local_22d1c5757ea78d4c8a7a7e7d"
       ],
-      "generatedAt": "2026-11-22T17:13:59.776Z",
+      "generatedAt": "2026-11-22T22:35:59.421Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -109,14 +98,13 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-11",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来」、「压测AI Agent 治理与评测调优实践」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「压测AI Agent 治理与评测调优实践」、「开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：压测AI Agent 治理与评测调优实践",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：HyperAgent:openJiuwen对未来Agent架构的思考和实践"
       ],
       "watchItems": [
-        "跟进：EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
         "跟进：压测AI Agent 治理与评测调优实践",
         "跟进：开发者实测|把视频处理交给 Agent:AI MediaKit Skill 深度评测",
         "跟进：HyperAgent:openJiuwen对未来Agent架构的思考和实践",
@@ -127,22 +115,12 @@
           "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "EMNLP 2026 | 代码Agent会写不会跑?RAT让GitHub仓库自动跑起来",
-              "summary": "即使在缺少文件的情况下,也能够有效推断执行环境并完成验证.相比于通用 Agent 如 Claude code 智能体,RAT 在特定领域任务上...",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_023d52bb24eafdacde8aa30e"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "压测AI Agent 治理与评测调优实践",
               "summary": "40%|得物技术5.动态规则的 Agent 实践:用确定性工程驾驭 LLM 的资产智能验收文 /恒宇关注得物技术,每周三更新技术诉求与原始证...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_86a873b7b5be9bb012ab691f"
+                "local_c2925463ea3591371c371399"
               ],
               "confidence": 92
             },
@@ -152,7 +130,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_4aaf1cbc335866a4bdf99704"
+                "local_f8203734591d66c6818c4b0f"
               ],
               "confidence": 92
             },
@@ -162,7 +140,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_6bde5b4546e5144a1a34885c"
+                "local_de69da42a501657c3bb1b6ed"
               ],
               "confidence": 92
             }
@@ -185,19 +163,18 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_023d52bb24eafdacde8aa30e",
-        "local_86a873b7b5be9bb012ab691f",
-        "local_4aaf1cbc335866a4bdf99704",
-        "local_6bde5b4546e5144a1a34885c",
+        "local_c2925463ea3591371c371399",
+        "local_f8203734591d66c6818c4b0f",
+        "local_de69da42a501657c3bb1b6ed",
         "local_22d1c5757ea78d4c8a7a7e7d"
       ],
-      "generatedAt": "2026-11-22T17:13:59.776Z",
+      "generatedAt": "2026-11-22T22:35:59.421Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-22T17:13:59.776Z",
+  "generatedAt": "2026-11-22T22:35:59.421Z",
   "collectorName": "local-source-collector"
 }
