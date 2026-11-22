@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-13",
       "title": "AI日报",
-      "mainLine": "今日筛出 4 条 AI 技术信号，优先看 「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」、「期待和你们一起,用 AI 解决最值得的问题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里」、「期待和你们一起,用 AI 解决最值得的问题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：期待和你们一起,用 AI 解决最值得的问题",
@@ -14,8 +14,7 @@
       "watchItems": [
         "跟进：直播预告 | UIUC金海波博士:智能体走向真实世界的最后一公里",
         "跟进：期待和你们一起,用 AI 解决最值得的问题",
-        "跟进：智能互动 Agent 在快手商业场景的落地实践",
-        "跟进：Reranking in RAG: How to Fix Bad Retrieval with a Reranker"
+        "跟进：智能互动 Agent 在快手商业场景的落地实践"
       ],
       "sections": [
         {
@@ -27,7 +26,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f8a5f4167f3fb85a863f03bc"
+                "local_ffed5604e9a16e2519128002"
               ],
               "confidence": 92
             },
@@ -52,30 +51,14 @@
               "confidence": 90
             }
           ]
-        },
-        {
-          "title": "模型与基础设施",
-          "items": [
-            {
-              "title": "Reranking in RAG: How to Fix Bad Retrieval with a Reranker",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：When a RAG (Retrieval-Augmented Generation) app gives wrong answers even though the right information is in your documents, retrieval is often the cause.",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_302a315deb55c0ed8ac40f59"
-              ],
-              "confidence": 92
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
-        "local_f8a5f4167f3fb85a863f03bc",
+        "local_ffed5604e9a16e2519128002",
         "local_8e0544769356bfc3178ba0d0",
-        "local_5b8527be5fb92d03fe65aca1",
-        "local_302a315deb55c0ed8ac40f59"
+        "local_5b8527be5fb92d03fe65aca1"
       ],
-      "generatedAt": "2026-11-22T01:22:53.035Z",
+      "generatedAt": "2026-11-22T08:55:56.307Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -107,7 +90,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_f8a5f4167f3fb85a863f03bc"
+                "local_ffed5604e9a16e2519128002"
               ],
               "confidence": 92
             },
@@ -135,17 +118,17 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_f8a5f4167f3fb85a863f03bc",
+        "local_ffed5604e9a16e2519128002",
         "local_8e0544769356bfc3178ba0d0",
         "local_5b8527be5fb92d03fe65aca1"
       ],
-      "generatedAt": "2026-11-22T01:22:53.035Z",
+      "generatedAt": "2026-11-22T08:55:56.307Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-22T01:22:53.035Z",
+  "generatedAt": "2026-11-22T08:55:56.307Z",
   "collectorName": "local-source-collector"
 }
