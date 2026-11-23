@@ -5,18 +5,18 @@
       "topicId": "ai",
       "reportDate": "2026-11-19",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「Towards a Science of Capable Autonomous Agents &#038; Provable Safety &#8212; Part II」、「NariQ: Sub-3-Bit Quantization for Long-Horizon Agentic Tasks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「Towards a Science of Capable Autonomous Agents &#038; Provable Safety &#8212; Part II」、「阿里巴巴两篇论文获 ATC 2026 最佳论文奖,并在港研讨 AI Native 系统的可靠性与效率」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Towards a Science of Capable Autonomous Agents &#038; Provable Safety &#8212; Part II",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：NariQ: Sub-3-Bit Quantization for Long-Horizon Agentic Tasks",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：阿里巴巴两篇论文获 ATC 2026 最佳论文奖,并在港研讨 AI Native 系统的可靠性与效率"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：阿里巴巴两篇论文获 ATC 2026 最佳论文奖,并在港研讨 AI Native 系统的可靠性与效率",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent 研发工作系统:面向多需求并行端到端开发的设计与实践"
       ],
       "watchItems": [
         "跟进：Towards a Science of Capable Autonomous Agents &#038; Provable Safety &#8212; Part II",
-        "跟进：NariQ: Sub-3-Bit Quantization for Long-Horizon Agentic Tasks",
         "跟进：阿里巴巴两篇论文获 ATC 2026 最佳论文奖,并在港研讨 AI Native 系统的可靠性与效率",
         "跟进：Agent 研发工作系统:面向多需求并行端到端开发的设计与实践",
-        "跟进：KDD 2027 | 高德 PGU-Decoder:先验引导的统一解码框架,让地图数据更新从周级迈入小时级"
+        "跟进：KDD 2027 | 高德 PGU-Decoder:先验引导的统一解码框架,让地图数据更新从周级迈入小时级",
+        "跟进：Fable 5.2开卷80%,闭卷仅47%!最强编程智能体遇上机器人难题"
       ],
       "sections": [
         {
@@ -33,22 +33,12 @@
               "confidence": 86
             },
             {
-              "title": "NariQ: Sub-3-Bit Quantization for Long-Horizon Agentic Tasks",
-              "summary": "Long-horizon agentic tasks require a model to call tools over many steps at contexts of 100K tokens or more, yet many low-bit quantization methods are calibrated on short web text and judged on perplexity. This mismatch is costly: existing quantizations of Qwen3.8-27B at or belo…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_aade107313d591379e3a54b7"
-              ],
-              "confidence": 92
-            },
-            {
               "title": "Agent 研发工作系统:面向多需求并行端到端开发的设计与实践",
               "summary": "让 Agent 完成一次修改,还要回答三个问题:工作如何续接,结果如何验收,经验如何复用.\"修复搜索结果重复,并在预发验证.\"...",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7416bcc6db17d2323bcdb480"
+                "local_c65c3ab57409f4c48ca32ba6"
               ],
               "confidence": 90
             },
@@ -83,7 +73,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1c9d337c58c9112ef7210c40"
+                "local_183c4a736a802031c583b442"
               ],
               "confidence": 82
             },
@@ -128,7 +118,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d87033f1cdd47f9a24600a4d"
+                "local_c41c55b0874a5debf83124da"
               ],
               "confidence": 92
             },
@@ -147,10 +137,9 @@
       ],
       "referencedFeedItemIds": [
         "local_8cdd5dec25bfc9b9b465a0d8",
-        "local_aade107313d591379e3a54b7",
-        "local_1c9d337c58c9112ef7210c40",
-        "local_7416bcc6db17d2323bcdb480",
-        "local_d87033f1cdd47f9a24600a4d",
+        "local_183c4a736a802031c583b442",
+        "local_c65c3ab57409f4c48ca32ba6",
+        "local_c41c55b0874a5debf83124da",
         "local_2347c9bbf71bedc25613ff1e",
         "local_ec82b65201cbff6444cfc4df",
         "local_f3f09c9d608f2c84668e37a3",
@@ -158,7 +147,7 @@
         "local_009aac97653790cc4f32f681",
         "local_a1976a0bddbd28a59369276a"
       ],
-      "generatedAt": "2026-11-22T22:35:59.378Z",
+      "generatedAt": "2026-11-23T03:12:35.967Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -192,7 +181,7 @@
               "insightLabel": "关注",
               "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
               "sourceFeedItemIds": [
-                "local_1c9d337c58c9112ef7210c40"
+                "local_183c4a736a802031c583b442"
               ],
               "confidence": 82
             },
@@ -237,7 +226,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_7416bcc6db17d2323bcdb480"
+                "local_c65c3ab57409f4c48ca32ba6"
               ],
               "confidence": 90
             },
@@ -272,7 +261,7 @@
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_d87033f1cdd47f9a24600a4d"
+                "local_c41c55b0874a5debf83124da"
               ],
               "confidence": 92
             },
@@ -290,9 +279,9 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_1c9d337c58c9112ef7210c40",
-        "local_7416bcc6db17d2323bcdb480",
-        "local_d87033f1cdd47f9a24600a4d",
+        "local_183c4a736a802031c583b442",
+        "local_c65c3ab57409f4c48ca32ba6",
+        "local_c41c55b0874a5debf83124da",
         "local_2347c9bbf71bedc25613ff1e",
         "local_ec82b65201cbff6444cfc4df",
         "local_f3f09c9d608f2c84668e37a3",
@@ -300,13 +289,13 @@
         "local_009aac97653790cc4f32f681",
         "local_a1976a0bddbd28a59369276a"
       ],
-      "generatedAt": "2026-11-22T22:35:59.378Z",
+      "generatedAt": "2026-11-23T03:12:35.967Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-22T22:35:59.378Z",
+  "generatedAt": "2026-11-23T03:12:35.967Z",
   "collectorName": "local-source-collector"
 }
