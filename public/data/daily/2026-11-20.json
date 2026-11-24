@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 15 条 AI 技术信号，优先看 「Zing-1.0: A Playable World System Built on Controllable Rendering」、「EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Zing-1.0: A Playable World System Built on Controllable Rendering」、「EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Zing-1.0: A Playable World System Built on Controllable Rendering",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
@@ -15,8 +15,8 @@
         "跟进：Zing-1.0: A Playable World System Built on Controllable Rendering",
         "跟进：EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
         "跟进：\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了",
-        "跟进：Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
-        "跟进：Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷"
+        "跟进：Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷",
+        "跟进：全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态"
       ],
       "sections": [
         {
@@ -48,17 +48,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_227b5490b5df145951596f8b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Tripwire: Robot Agents that Program Their Own Interrupts under Human Disturbance",
-              "summary": "Agent harnesses are turn-based: the agent acts, waits for the result, then reasons. When the action invokes a pretrained robot policy, such as a vision-language-action (VLA) or world action model (WAM), the policy may react continuously to observations, but the agent cannot revi…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_a7d0d1369f3b09457209c037"
+                "local_852e6769c55d04277f07fa67"
               ],
               "confidence": 92
             },
@@ -71,22 +61,22 @@
                 "local_fcbcf28756c1538c1e206d7f"
               ],
               "confidence": 90
+            },
+            {
+              "title": "Introducing Tool Retrieval in the Gemini API",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Give your agents access to hundreds of tools while using fewer tokens with Tool Retrieval, now in preview in the Gemini API.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a77e4f21c6946cdbcade8d4e"
+              ],
+              "confidence": 92
             }
           ]
         },
         {
           "title": "模型与基础设施",
           "items": [
-            {
-              "title": "llm-gemini 0.38.1",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_85166d181269cdf057619086"
-              ],
-              "confidence": 92
-            },
             {
               "title": "全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态",
               "summary": "2026年11月20日|全球AI行业新闻简报|北京时间过去24小时,全球人工智能行业在大模型、资本市场、AI芯片、算力基础设施和产业应...",
@@ -148,11 +138,8 @@
       "referencedFeedItemIds": [
         "local_82cb947428aa3ef35359e45f",
         "local_df65fd8cdf9ab481d172d739",
-        "local_227b5490b5df145951596f8b",
-        "local_a7d0d1369f3b09457209c037",
+        "local_852e6769c55d04277f07fa67",
         "local_fcbcf28756c1538c1e206d7f",
-        "local_63cd963561bb60ec73652550",
-        "local_85166d181269cdf057619086",
         "local_bdb690c8edd6514d53938bcc",
         "local_1d0576a2ef4aefa12ad7c0a5",
         "local_f4056732f42092fe7d28fe82",
@@ -162,7 +149,7 @@
         "local_93bd61674e0904b161cb7062",
         "local_ceae49b1b8bdc4202cb1aabb"
       ],
-      "generatedAt": "2026-11-23T12:32:18.169Z",
+      "generatedAt": "2026-11-24T00:28:58.637Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -196,7 +183,7 @@
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_227b5490b5df145951596f8b"
+                "local_852e6769c55d04277f07fa67"
               ],
               "confidence": 92
             },
@@ -304,7 +291,7 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_227b5490b5df145951596f8b",
+        "local_852e6769c55d04277f07fa67",
         "local_fcbcf28756c1538c1e206d7f",
         "local_bdb690c8edd6514d53938bcc",
         "local_1d0576a2ef4aefa12ad7c0a5",
@@ -315,13 +302,13 @@
         "local_93bd61674e0904b161cb7062",
         "local_ceae49b1b8bdc4202cb1aabb"
       ],
-      "generatedAt": "2026-11-23T12:32:18.169Z",
+      "generatedAt": "2026-11-24T00:28:58.638Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-23T12:32:18.169Z",
+  "generatedAt": "2026-11-24T00:28:58.638Z",
   "collectorName": "local-source-collector"
 }

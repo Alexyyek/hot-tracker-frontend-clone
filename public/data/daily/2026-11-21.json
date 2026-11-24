@@ -5,24 +5,36 @@
       "topicId": "ai",
       "reportDate": "2026-11-21",
       "title": "AI日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Quoting Levent Alpöge」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?」、「Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Levent Alpöge"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks"
       ],
       "watchItems": [
-        "跟进：Quoting Levent Alpöge"
+        "跟进：TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+        "跟进：Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Quoting Levent Alpöge",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time,…",
+              "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+              "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments wi…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d41c4505db722532656d60a3"
+                "local_046fe0b8c6f958057f1d62d9"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks",
+              "summary": "Benchmarks for AI-based coding agents are a staple of the current AI landscape, because they are the leading way to measure the performance of LLMs. Their scores guide business and research decisions. Evaluating coding agents is challenging, since they are able to manipulate the…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_20406d1da6428a05353d6bcd"
               ],
               "confidence": 92
             }
@@ -30,9 +42,10 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d41c4505db722532656d60a3"
+        "local_046fe0b8c6f958057f1d62d9",
+        "local_20406d1da6428a05353d6bcd"
       ],
-      "generatedAt": "2026-11-23T12:32:18.162Z",
+      "generatedAt": "2026-11-24T00:28:58.625Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -43,24 +56,36 @@
       "topicId": "big-tech-daily",
       "reportDate": "2026-11-21",
       "title": "大厂 AI 日报",
-      "mainLine": "今日筛出 1 条 AI 技术信号，优先看 「Quoting Levent Alpöge」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 2 条 AI 技术信号，优先看 「TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?」、「Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Levent Alpöge"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks"
       ],
       "watchItems": [
-        "跟进：Quoting Levent Alpöge"
+        "跟进：TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+        "跟进：Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks"
       ],
       "sections": [
         {
-          "title": "模型与基础设施",
+          "title": "Agent 与研发提效",
           "items": [
             {
-              "title": "Quoting Levent Alpöge",
-              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time,…",
+              "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+              "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments wi…",
               "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_d41c4505db722532656d60a3"
+                "local_046fe0b8c6f958057f1d62d9"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "Who Grades the Agent? Privilege Separation for Coding-Agent Benchmarks",
+              "summary": "Benchmarks for AI-based coding agents are a staple of the current AI landscape, because they are the leading way to measure the performance of LLMs. Their scores guide business and research decisions. Evaluating coding agents is challenging, since they are able to manipulate the…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_20406d1da6428a05353d6bcd"
               ],
               "confidence": 92
             }
@@ -68,15 +93,16 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d41c4505db722532656d60a3"
+        "local_046fe0b8c6f958057f1d62d9",
+        "local_20406d1da6428a05353d6bcd"
       ],
-      "generatedAt": "2026-11-23T12:32:18.162Z",
+      "generatedAt": "2026-11-24T00:28:58.625Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-23T12:32:18.163Z",
+  "generatedAt": "2026-11-24T00:28:58.625Z",
   "collectorName": "local-source-collector"
 }
