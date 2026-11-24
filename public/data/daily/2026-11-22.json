@@ -5,15 +5,13 @@
       "topicId": "ai",
       "reportDate": "2026-11-22",
       "title": "AI日报",
-      "mainLine": "今日筛出 5 条 AI 技术信号，优先看 「AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace」、「Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 3 条 AI 技术信号，优先看 「80位学者梳理多模态智能体记忆:297种架构,仅17种自进化」、「Perplexity and Intelligence」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：80位学者梳理多模态智能体记忆:297种架构,仅17种自进化"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Perplexity and Intelligence",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Data Processing Incidents on Inference Providers"
       ],
       "watchItems": [
-        "跟进：AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-        "跟进：Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
         "跟进：80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
         "跟进：Perplexity and Intelligence",
         "跟进：Data Processing Incidents on Inference Providers"
@@ -22,26 +20,6 @@
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_d9040eb54fec9e3303069289"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Perplexity&#039;s new Monitor API turns web search from a one-off query into a nonstop watchdog",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API i…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_ae5d99c062b074ba0d46f72c"
-              ],
-              "confidence": 74
-            },
             {
               "title": "80位学者梳理多模态智能体记忆:297种架构,仅17种自进化",
               "summary": "多模态智能体记忆与长期交互智能体看到杯子被移动后,怎样记住新位置,并在之后的任务中使用这段经验?当信息来自图像、视频、...",
@@ -86,13 +64,11 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_d9040eb54fec9e3303069289",
-        "local_ae5d99c062b074ba0d46f72c",
         "local_3b9165c581175fbc76de8a71",
         "local_c1ffd63959ece4b6671b0bf1",
         "local_2724c6829ef02174badd68a0"
       ],
-      "generatedAt": "2026-11-24T10:30:58.904Z",
+      "generatedAt": "2026-11-24T20:58:50.838Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -148,13 +124,13 @@
         "local_3b9165c581175fbc76de8a71",
         "local_c1ffd63959ece4b6671b0bf1"
       ],
-      "generatedAt": "2026-11-24T10:30:58.904Z",
+      "generatedAt": "2026-11-24T20:58:50.838Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-24T10:30:58.905Z",
+  "generatedAt": "2026-11-24T20:58:50.839Z",
   "collectorName": "local-source-collector"
 }
