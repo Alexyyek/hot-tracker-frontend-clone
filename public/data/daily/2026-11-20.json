@@ -5,43 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-11-20",
       "title": "AI日报",
-      "mainLine": "今日筛出 12 条 AI 技术信号，优先看 「Zing-1.0: A Playable World System Built on Controllable Rendering」、「EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 10 条 AI 技术信号，优先看 「\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了」、「Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Zing-1.0: A Playable World System Built on Controllable Rendering",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态"
       ],
       "watchItems": [
-        "跟进：Zing-1.0: A Playable World System Built on Controllable Rendering",
-        "跟进：EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
         "跟进：\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了",
         "跟进：Agent试点豁免期结束,本体是破局之剑吗?10家企业交卷",
-        "跟进：全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态"
+        "跟进：全球AI早报|谷歌发布新模型,Anthropic上市,DeepSeek融资与国产算力迎来新动态",
+        "跟进：Hebbia sees improvements in financial research with GPT-6 Astra",
+        "跟进：Can AI help scientists identify promising drug candidates?"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "Zing-1.0: A Playable World System Built on Controllable Rendering",
-              "summary": "We present Zing-1.0, a Playable World System built on Controllable Rendering. An executable engine resolves player actions under the world's rules and produces proxy video from the updated state. A streaming video model synthesizes the player's view from this proxy, and the runt…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_82cb947428aa3ef35359e45f"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "EDAGoat: An EDA-Aware Agent for Project-Level GPU Optimization",
-              "summary": "GPU acceleration has transformed electronic design automation (EDA), yet further improving expert-engineered GPU tools still demands substantial manual effort. Automating this work calls for coding agents that can trace bottlenecks across host and device code while preserving co…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_df65fd8cdf9ab481d172d739"
-              ],
-              "confidence": 92
-            },
             {
               "title": "\"Agent版arXiv\"来了!936个智能体12个星期狂发近千篇论文,连同行评议都整上了",
               "summary": "henry 发自 凹非寺量子位 | 公众号 QbitAI一个完全由AI组成的科学家社会,是什么样?最近,来自alphaXiv、斯坦福,MIT等机构的研究...",
@@ -71,6 +51,26 @@
                 "local_a77e4f21c6946cdbcade8d4e"
               ],
               "confidence": 92
+            },
+            {
+              "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：See how developers are combining AI agents with NVIDIA Omniverse libraries to build simulation applications, test physical behavior and guide improvements.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_a61ce5ee56942918802075b2"
+              ],
+              "confidence": 86
+            },
+            {
+              "title": "Build Tool-Calling Parsers in Rust with AI Agents",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：A tool call can arrive in pieces, an argument can be cut short, or model-specific markup can leak into the answer. A frontend parser turns that output, received...",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_ceae49b1b8bdc4202cb1aabb"
+              ],
+              "confidence": 70
             }
           ]
         },
@@ -136,8 +136,6 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_82cb947428aa3ef35359e45f",
-        "local_df65fd8cdf9ab481d172d739",
         "local_852e6769c55d04277f07fa67",
         "local_fcbcf28756c1538c1e206d7f",
         "local_bdb690c8edd6514d53938bcc",
@@ -149,7 +147,7 @@
         "local_93bd61674e0904b161cb7062",
         "local_ceae49b1b8bdc4202cb1aabb"
       ],
-      "generatedAt": "2026-11-24T00:28:58.637Z",
+      "generatedAt": "2026-11-24T10:30:58.915Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -302,13 +300,13 @@
         "local_93bd61674e0904b161cb7062",
         "local_ceae49b1b8bdc4202cb1aabb"
       ],
-      "generatedAt": "2026-11-24T00:28:58.638Z",
+      "generatedAt": "2026-11-24T10:30:58.915Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-24T00:28:58.638Z",
+  "generatedAt": "2026-11-24T10:30:58.915Z",
   "collectorName": "local-source-collector"
 }

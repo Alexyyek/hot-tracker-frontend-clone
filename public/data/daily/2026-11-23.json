@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-23",
       "title": "AI日报",
-      "mainLine": "今日筛出 13 条 AI 技术信号，优先看 「Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model」、「50GB工作区秒级可访问,腾讯EROX破解Agent恢复难题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model」、「50GB工作区秒级可访问,腾讯EROX破解Agent恢复难题」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Z.ai follows OpenAI into loop transformer territory with its new 750B flagship model",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：50GB工作区秒级可访问,腾讯EROX破解Agent恢复难题",
@@ -16,7 +16,7 @@
         "跟进：50GB工作区秒级可访问,腾讯EROX破解Agent恢复难题",
         "跟进：Richpanel helps companies automate 50% of support in 30 days",
         "跟进：华为云AI交流赋能会走进成都东软学院",
-        "跟进：datasette-charts 0.1a0"
+        "跟进：How to build and maintain an agentic evaluation"
       ],
       "sections": [
         {
@@ -31,36 +31,6 @@
                 "local_aeab2d1ede5646450de849e3"
               ],
               "confidence": 82
-            },
-            {
-              "title": "Which Dwarf Is This? Doppeldwarf-306 and Near-Identical Instance Retrieval",
-              "summary": "Most established instance-retrieval benchmarks emphasise landmarks; small sculptures from visually similar series offer a complementary challenge. We introduce Doppeldwarf-306: 1,691 openly licensed photographs of 306 bronze dwarf statues in Wrocław, Poland, many made in themed …",
-              "insightLabel": "关注",
-              "insightText": "重点看数据采集、链路诊断、排序指标和线上一致性校验，判断是否可迁移到地址 Agent 自进化架构。",
-              "sourceFeedItemIds": [
-                "local_591902370bdb14027134b3ad"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
-              "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external la…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_e56a1e9ed6a76c6543c3c969"
-              ],
-              "confidence": 90
-            },
-            {
-              "title": "Autoregressive View Model",
-              "summary": "We present the Autoregressive View Model (AVM), which generates a scene as a stream of views without constructing an explicit 3D representation. Through a unified in-context interface, AVM conditions on images or videos to generate short clips along a requested camera path. Visu…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_0f2f5200bf3d886bf131594c"
-              ],
-              "confidence": 92
             },
             {
               "title": "LLM Rankings",
@@ -128,41 +98,6 @@
               "confidence": 92
             }
           ]
-        },
-        {
-          "title": "行业与公司",
-          "items": [
-            {
-              "title": "datasette-charts 0.1a0",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a f…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_be8229a708dabaa3320c5bc1"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Search From the Start: Search-Native Pretraining for Language Models",
-              "summary": "Modern language models (LMs) are increasingly deployed with access to search tools at inference. Yet pretraining remains predominantly focused on predicting static text, with search capabilities typically introduced during post-training. We propose Search-Native Pretraining as a…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_39af94bd594a9a330a4afead"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Select Styling Specimens",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Tool: Select Styling Specimens I got frustrated at how HTML boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of t…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_3c509ef3482bc4bb06a824af"
-              ],
-              "confidence": 78
-            }
-          ]
         }
       ],
       "referencedFeedItemIds": [
@@ -170,17 +105,11 @@
         "local_12f42e9ace67a4c5d13742a0",
         "local_b72983d2b4d12522a97b807f",
         "local_ff4aae1e9b336f48404d5c77",
-        "local_be8229a708dabaa3320c5bc1",
         "local_43e51976a4f264d0b219db8f",
-        "local_591902370bdb14027134b3ad",
-        "local_e56a1e9ed6a76c6543c3c969",
-        "local_0f2f5200bf3d886bf131594c",
-        "local_39af94bd594a9a330a4afead",
         "local_89ad8ac3b56e3fbbdfec6aa0",
-        "local_82f09c89f32d8c9c0c7bc525",
-        "local_3c509ef3482bc4bb06a824af"
+        "local_82f09c89f32d8c9c0c7bc525"
       ],
-      "generatedAt": "2026-11-24T00:28:58.600Z",
+      "generatedAt": "2026-11-24T10:30:58.899Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -256,13 +185,13 @@
         "local_ff4aae1e9b336f48404d5c77",
         "local_82f09c89f32d8c9c0c7bc525"
       ],
-      "generatedAt": "2026-11-24T00:28:58.600Z",
+      "generatedAt": "2026-11-24T10:30:58.899Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-24T00:28:58.601Z",
+  "generatedAt": "2026-11-24T10:30:58.899Z",
   "collectorName": "local-source-collector"
 }
