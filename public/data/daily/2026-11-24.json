@@ -5,23 +5,43 @@
       "topicId": "ai",
       "reportDate": "2026-11-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 17 条 AI 技术信号，优先看 「Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own」、「datasette-charts 0.2a0」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation」、「MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：datasette-charts 0.2a0",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：datasette-agent 0.7a1"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own"
       ],
       "watchItems": [
+        "跟进：EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation",
+        "跟进：MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
         "跟进：Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own",
         "跟进：datasette-charts 0.2a0",
-        "跟进：datasette-agent 0.7a1",
-        "跟进：How iFood scales coding agents across 15,000 repositories",
-        "跟进：GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind"
+        "跟进：datasette-agent 0.7a1"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
+            {
+              "title": "EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation",
+              "summary": "Training and evaluating robots across diverse tasks requires a supply of simulation environments suited to those tasks. While recent scene and task generators offer a promising way to expand this supply, delivering a usable task environment still faces two practical gaps: genera…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_5ece0d8f2e757e50e0369ce0"
+              ],
+              "confidence": 92
+            },
+            {
+              "title": "MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
+              "summary": "Multi-reference image generation requires a model to preserve the appearance of selected subjects while arranging them according to an instruction. Despite recent progress in reference-based generation and compositional control, reliably organizing selected subjects into the int…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_47489044656c05725795fd9b"
+              ],
+              "confidence": 92
+            },
             {
               "title": "Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic&#039;s Claude …",
@@ -51,26 +71,6 @@
                 "local_d297ab6574876cc0dea3906e"
               ],
               "confidence": 92
-            },
-            {
-              "title": "How iFood scales coding agents across 15,000 repositories",
-              "summary": "来自OpenAI的本地采集条目。",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_753bc89cbcf7b83a58d02516"
-              ],
-              "confidence": 74
-            },
-            {
-              "title": "Measuring and Teaching Language Model Agents to Act on Delayed Consequences",
-              "summary": "Language model agents are increasingly asked to run ongoing multi-day operations rather than finish isolated single-turn tasks. In daily operations, today's choices reshape later observations and cash constraints because empty shelves hide lost walk-in demand, short-shipped cust…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c50cf634b06cf327cf57b690"
-              ],
-              "confidence": 92
             }
           ]
         },
@@ -78,12 +78,12 @@
           "title": "模型与基础设施",
           "items": [
             {
-              "title": "GlanceNav: Efficient Vision-and-Language Navigation with Streaming Memory and Counterfactual Rewind",
-              "summary": "Multimodal large language models (MLLMs) have become strong policies for vision-and-language navigation (VLN). However, most of them encode a sample of past frames again at every decision and are trained on isolated decisions, so computation is redundant and the usable history i…",
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
               "insightLabel": "关注",
               "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
               "sourceFeedItemIds": [
-                "local_aba083193c9f2a0511138227"
+                "local_c20353112c3dac8aec7c1fed"
               ],
               "confidence": 92
             }
@@ -92,26 +92,6 @@
         {
           "title": "行业与公司",
           "items": [
-            {
-              "title": "Frontier models need only one text to unmask its human or AI author",
-              "summary": "Given a single text and a simple zero-shot prompt (no web access, tools, candidate lists, or writing samples), frontier models can answer \"who wrote this?\" at three increasingly specific levels: (1) whether an AI or human wrote it, (2) if an AI, which lab, and (3) if a human, of…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_c4ba56192777f15ac09dd2a8"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Self-Supervised Dataset Distillation via Mutual Information Maximization",
-              "summary": "Dataset distillation (DD) aims to compress a large dataset into a small synthetic one that remains effective for training neural networks. Despite its success in supervised learning, DD remains underexplored in self-supervised learning (SSL), where distilled data must preserve t…",
-              "insightLabel": "关注",
-              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
-              "sourceFeedItemIds": [
-                "local_797768c5d292d92b04a63681"
-              ],
-              "confidence": 92
-            },
             {
               "title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：OpenAI is making GPT-6.2 Sol the new default model in ChatGPT's chat tab, rolling it out worldwide. In internal tests, image understanding jumped from 47.4 to 71.7 percent, and the model now handles difficult instructio…",
@@ -136,25 +116,19 @@
         }
       ],
       "referencedFeedItemIds": [
+        "local_5ece0d8f2e757e50e0369ce0",
+        "local_47489044656c05725795fd9b",
         "local_59ff67be42bc923e33fe6f2d",
         "local_550fb78231787f377b91eda0",
         "local_d297ab6574876cc0dea3906e",
         "local_753bc89cbcf7b83a58d02516",
-        "local_aba083193c9f2a0511138227",
-        "local_c4ba56192777f15ac09dd2a8",
-        "local_797768c5d292d92b04a63681",
-        "local_c50cf634b06cf327cf57b690",
-        "local_3a23d724ff5f446dbd2b683f",
+        "local_c20353112c3dac8aec7c1fed",
         "local_822eb7a6eada525fdd9348e3",
         "local_2e83f6531ce10c98fedc5f3a",
-        "local_1ecdf9babb607e782aef0ce8",
-        "local_aec6c91a53e6676c4e086830",
-        "local_b6d930a50e499b4ad22ff654",
-        "local_3599839deca2aca379d6f50d",
         "local_f5c9ba3d379f74773f7f48fe",
         "local_4539bc6cee95bd524c898b2a"
       ],
-      "generatedAt": "2026-11-24T20:58:50.815Z",
+      "generatedAt": "2026-11-25T04:14:04.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -235,13 +209,13 @@
         "local_f5c9ba3d379f74773f7f48fe",
         "local_4539bc6cee95bd524c898b2a"
       ],
-      "generatedAt": "2026-11-24T20:58:50.815Z",
+      "generatedAt": "2026-11-25T04:14:04.772Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-24T20:58:50.815Z",
+  "generatedAt": "2026-11-25T04:14:04.772Z",
   "collectorName": "local-source-collector"
 }
