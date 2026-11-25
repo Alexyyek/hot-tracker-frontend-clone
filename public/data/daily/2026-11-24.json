@@ -5,53 +5,23 @@
       "topicId": "ai",
       "reportDate": "2026-11-24",
       "title": "AI日报",
-      "mainLine": "今日筛出 11 条 AI 技术信号，优先看 「EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation」、「MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 7 条 AI 技术信号，优先看 「datasette-charts 0.2a0」、「datasette-agent 0.7a1」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
-        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own"
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：datasette-charts 0.2a0",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：datasette-agent 0.7a1",
+        "评估是否可沉淀到团队 AI Native / Agent 自进化链路：How iFood scales coding agents across 15,000 repositories"
       ],
       "watchItems": [
-        "跟进：EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation",
-        "跟进：MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
-        "跟进：Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own",
         "跟进：datasette-charts 0.2a0",
-        "跟进：datasette-agent 0.7a1"
+        "跟进：datasette-agent 0.7a1",
+        "跟进：How iFood scales coding agents across 15,000 repositories",
+        "跟进：LLM Rankings",
+        "跟进：Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0"
       ],
       "sections": [
         {
           "title": "Agent 与研发提效",
           "items": [
-            {
-              "title": "EmbodiedStudio: A Task-Driven Simulation Generation Platform for Embodied Learning and Evaluation",
-              "summary": "Training and evaluating robots across diverse tasks requires a supply of simulation environments suited to those tasks. While recent scene and task generators offer a promising way to expand this supply, delivering a usable task environment still faces two practical gaps: genera…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_5ece0d8f2e757e50e0369ce0"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "MAGPIE: Agentic Multi-Reference Image Generation via Executable Scene Construction",
-              "summary": "Multi-reference image generation requires a model to preserve the appearance of selected subjects while arranging them according to an instruction. Despite recent progress in reference-based generation and compositional control, reliably organizing selected subjects into the int…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_47489044656c05725795fd9b"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Anthropic&#039;s Claude Ship lets AI agents review, fix, and approve pull requests on their own",
-              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic&#039;s Claude …",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_59ff67be42bc923e33fe6f2d"
-              ],
-              "confidence": 92
-            },
             {
               "title": "datasette-charts 0.2a0",
               "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday. Today it's gained integration with Datasette Agent, so now you can ask chat for a chart and it will create one for you using…",
@@ -71,6 +41,36 @@
                 "local_d297ab6574876cc0dea3906e"
               ],
               "confidence": 92
+            },
+            {
+              "title": "How iFood scales coding agents across 15,000 repositories",
+              "summary": "来自OpenAI的本地采集条目。",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_753bc89cbcf7b83a58d02516"
+              ],
+              "confidence": 74
+            },
+            {
+              "title": "Finding faster quantum algorithms with agents and formal verification",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_f5c9ba3d379f74773f7f48fe"
+              ],
+              "confidence": 82
+            },
+            {
+              "title": "Introducing file slicing controls in the Gemini API",
+              "summary": "这篇内容聚焦「Agent Skill、Harness、工具调用和自动化研发」。原文摘要显示：New file slicing controls and native Office file support in the Gemini API let agents inspect targeted slices across Google AI Studio and Vertex AI while paying only for…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_4539bc6cee95bd524c898b2a"
+              ],
+              "confidence": 86
             }
           ]
         },
@@ -93,16 +93,6 @@
           "title": "行业与公司",
           "items": [
             {
-              "title": "OpenAI updates ChatGPT to handle complex everyday questions, web searches, and images more reliably",
-              "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：OpenAI is making GPT-6.2 Sol the new default model in ChatGPT's chat tab, rolling it out worldwide. In internal tests, image understanding jumped from 47.4 to 71.7 percent, and the model now handles difficult instructio…",
-              "insightLabel": "关注",
-              "insightText": "先快速判断它是否包含可复用方法、架构或工程经验，再决定是否进入日报深读。",
-              "sourceFeedItemIds": [
-                "local_822eb7a6eada525fdd9348e3"
-              ],
-              "confidence": 82
-            },
-            {
               "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
               "summary": "这篇内容聚焦「AI 技术演进和可复用工程实践」。原文摘要显示：Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to...",
               "insightLabel": "关注",
@@ -116,19 +106,15 @@
         }
       ],
       "referencedFeedItemIds": [
-        "local_5ece0d8f2e757e50e0369ce0",
-        "local_47489044656c05725795fd9b",
-        "local_59ff67be42bc923e33fe6f2d",
         "local_550fb78231787f377b91eda0",
         "local_d297ab6574876cc0dea3906e",
         "local_753bc89cbcf7b83a58d02516",
         "local_c20353112c3dac8aec7c1fed",
-        "local_822eb7a6eada525fdd9348e3",
         "local_2e83f6531ce10c98fedc5f3a",
         "local_f5c9ba3d379f74773f7f48fe",
         "local_4539bc6cee95bd524c898b2a"
       ],
-      "generatedAt": "2026-11-25T04:14:04.772Z",
+      "generatedAt": "2026-11-25T14:24:37.185Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -209,13 +195,13 @@
         "local_f5c9ba3d379f74773f7f48fe",
         "local_4539bc6cee95bd524c898b2a"
       ],
-      "generatedAt": "2026-11-25T04:14:04.772Z",
+      "generatedAt": "2026-11-25T14:24:37.185Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-25T04:14:04.772Z",
+  "generatedAt": "2026-11-25T14:24:37.186Z",
   "collectorName": "local-source-collector"
 }
