@@ -5,7 +5,7 @@
       "topicId": "ai",
       "reportDate": "2026-11-26",
       "title": "AI日报",
-      "mainLine": "今日筛出 19 条 AI 技术信号，优先看 「Quoting Jack Despain Zhou」、「Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
+      "mainLine": "今日筛出 16 条 AI 技术信号，优先看 「Quoting Jack Despain Zhou」、「Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks」。脉络集中在大模型训练/推理、Agent Skill、Auto-Research/Harness 与可复制工程实践。",
       "actionItems": [
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Quoting Jack Despain Zhou",
         "评估是否可沉淀到团队 AI Native / Agent 自进化链路：Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
@@ -16,7 +16,7 @@
         "跟进：Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
         "跟进：The New York Times warns photographers not to update Photoshop over AI features",
         "跟进：Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-        "跟进：CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes"
+        "跟进：LLM Rankings"
       ],
       "sections": [
         {
@@ -31,6 +31,16 @@
                 "local_be855d917ea3924c393be4f4"
               ],
               "confidence": 86
+            },
+            {
+              "title": "LLM Rankings",
+              "summary": "这篇内容聚焦「大模型训练、推理、RAG、后训练或评测」。原文摘要显示：LLM rankings and AI leaderboard by real-world usage, ranked by tokens processed through the OpenRouter API. See which AI models developers actually use.",
+              "insightLabel": "关注",
+              "insightText": "关注数据、训练、推理、RAG 或评测设计，评估是否能沉淀到轨迹/地址大模型架构。",
+              "sourceFeedItemIds": [
+                "local_be6094c50f1ad834cad81902"
+              ],
+              "confidence": 92
             },
             {
               "title": "Quoting Scott Aaronson",
@@ -88,32 +98,32 @@
               "confidence": 82
             },
             {
-              "title": "CARE-3D: Reinforcement Learning for Evidence Grounded Agentic Reasoning in Situated 3D Scenes",
-              "summary": "Situated 3D reasoning requires embodied agents to interpret objects, scene geometry, and viewpoint dependent spatial relations. Existing methods learn grounded interactions from supervised traces, but largely imitate prescribed evidence acquisition patterns rather than optimizin…",
+              "title": "Where scientists draw the line on AI agents",
+              "summary": "来自Hugging Face的本地采集条目。",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_541533ef1090b55c20de9e47"
+                "local_9b42734684497066dbf700a7"
+              ],
+              "confidence": 70
+            },
+            {
+              "title": "How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository-Level Agent Patches",
+              "summary": "Agent patches are larger than developers', which is widely read as over-editing. But patch size does not say whether the extra edits are needed, what they are, or where they come from. We introduce Delta Residue Attribution (DRA), which replays agent trajectories, traces every b…",
+              "insightLabel": "关注",
+              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
+              "sourceFeedItemIds": [
+                "local_0210693fd9f6750efba24dbd"
               ],
               "confidence": 92
             },
             {
-              "title": "Evaluating Memanto on DolphinBench for AI Agents",
-              "summary": "Memory benchmarks built on question answering tell an agent which fact to recall. Workplace requests often leave that need implicit: to post an update in the team's channel, an agent must work out which channel from earlier interactions and use it in a tool call. We evaluate Mem…",
+              "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+              "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to e…",
               "insightLabel": "关注",
               "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
               "sourceFeedItemIds": [
-                "local_62bb4bffd2a0b07bf8e4fdf4"
-              ],
-              "confidence": 92
-            },
-            {
-              "title": "Look Back: Reinforcement Learning with Counterfactual World Models",
-              "summary": "Agents in complex, stochastic environments must contend with dynamics that can exceed their world models' predictive capacity and randomness that obscure the consequences of their actions. We hypothesize that, compared to imagining entirely new trajectories in such complex envir…",
-              "insightLabel": "关注",
-              "insightText": "重点看任务拆分、工具编排、验证闭环和可复用工程抽象，判断能否迁移到 Auto-Research / Agent Coding 链路。",
-              "sourceFeedItemIds": [
-                "local_c7e4f5d70ebee6d7967dbe6b"
+                "local_312a2d8f5b58205043b343ae"
               ],
               "confidence": 92
             }
@@ -150,10 +160,7 @@
         "local_41f48f4cd0bf4981b14941a5",
         "local_bc5101c09bf499f7cf5bfb49",
         "local_0fb5073737394762c82d4ce6",
-        "local_541533ef1090b55c20de9e47",
-        "local_62bb4bffd2a0b07bf8e4fdf4",
-        "local_c7e4f5d70ebee6d7967dbe6b",
-        "local_29f9778e1a880660f6b13dd3",
+        "local_be6094c50f1ad834cad81902",
         "local_c9586a38dd568f68c5e54d1c",
         "local_cef6a8931303362de7843536",
         "local_9b42734684497066dbf700a7",
@@ -166,7 +173,7 @@
         "local_7ee37ea108c52db17eb70292",
         "local_9462d930ae8817668a27ff9b"
       ],
-      "generatedAt": "2026-11-27T00:39:19.915Z",
+      "generatedAt": "2026-11-27T09:08:48.415Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
@@ -204,13 +211,13 @@
       "referencedFeedItemIds": [
         "local_cef6a8931303362de7843536"
       ],
-      "generatedAt": "2026-11-27T00:39:19.915Z",
+      "generatedAt": "2026-11-27T09:08:48.415Z",
       "model": "local-source-collector",
       "raw": {
         "generatedBy": "local-source-collector"
       }
     }
   ],
-  "generatedAt": "2026-11-27T00:39:19.915Z",
+  "generatedAt": "2026-11-27T09:08:48.415Z",
   "collectorName": "local-source-collector"
 }
